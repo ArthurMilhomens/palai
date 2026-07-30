@@ -1,0 +1,9 @@
+$kind: http-request
+name: Pal Skills
+method: GET
+url: '{{baseUrl}}/v1/pals/{{palIdOrSlug}}/skills'
+description: Lista as habilidades de combate de um Pal.
+order: 4000
+headers:
+  - key: Authorization
+    value: 'Bearer {{accessToken}}'

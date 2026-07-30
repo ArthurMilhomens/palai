@@ -1,0 +1,9 @@
+$kind: http-request
+name: Get Work Suitability
+method: GET
+url: '{{baseUrl}}/v1/work-suitability/{{workIdOrSlug}}'
+description: Retorna detalhes de uma aptidão de trabalho específica.
+order: 2000
+headers:
+  - key: Authorization
+    value: 'Bearer {{accessToken}}'

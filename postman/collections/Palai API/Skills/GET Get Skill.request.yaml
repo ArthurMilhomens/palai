@@ -1,0 +1,9 @@
+$kind: http-request
+name: Get Skill
+method: GET
+url: '{{baseUrl}}/v1/skills/{{skillIdOrSlug}}'
+description: Retorna detalhes de uma habilidade específica.
+order: 2000
+headers:
+  - key: Authorization
+    value: 'Bearer {{accessToken}}'

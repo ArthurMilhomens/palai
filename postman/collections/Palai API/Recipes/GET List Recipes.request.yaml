@@ -1,0 +1,23 @@
+$kind: http-request
+name: List Recipes
+method: GET
+url: '{{baseUrl}}/v1/recipes'
+description: Lista todas as receitas de crafting.
+order: 1000
+headers:
+  - key: Authorization
+    value: 'Bearer {{accessToken}}'
+queryParams:
+  - key: q
+    value: ''
+    disabled: true
+    description: Busca por internalName ou craftingStation
+  - key: gameVersion
+    value: ''
+    disabled: true
+  - key: page
+    value: '1'
+    disabled: true
+  - key: limit
+    value: '20'
+    disabled: true

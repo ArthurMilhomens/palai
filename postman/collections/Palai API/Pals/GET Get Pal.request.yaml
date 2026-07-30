@@ -1,0 +1,9 @@
+$kind: http-request
+name: Get Pal
+method: GET
+url: '{{baseUrl}}/v1/pals/{{palIdOrSlug}}'
+description: Retorna detalhes de um Pal específico por ID ou internalName.
+order: 2000
+headers:
+  - key: Authorization
+    value: 'Bearer {{accessToken}}'

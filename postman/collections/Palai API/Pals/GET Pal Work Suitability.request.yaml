@@ -1,0 +1,9 @@
+$kind: http-request
+name: Pal Work Suitability
+method: GET
+url: '{{baseUrl}}/v1/pals/{{palIdOrSlug}}/work'
+description: 'Lista as aptidões de trabalho de um Pal (mineração, plantio, etc.).'
+order: 5000
+headers:
+  - key: Authorization
+    value: 'Bearer {{accessToken}}'

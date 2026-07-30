@@ -1,0 +1,28 @@
+$kind: http-request
+name: List Work Suitability
+method: GET
+url: '{{baseUrl}}/v1/work-suitability'
+description: Lista todos os tipos de aptidão de trabalho.
+order: 1000
+headers:
+  - key: Authorization
+    value: 'Bearer {{accessToken}}'
+queryParams:
+  - key: work
+    value: ''
+    disabled: true
+  - key: type
+    value: ''
+    disabled: true
+  - key: level
+    value: ''
+    disabled: true
+  - key: gameVersion
+    value: ''
+    disabled: true
+  - key: page
+    value: '1'
+    disabled: true
+  - key: limit
+    value: '20'
+    disabled: true

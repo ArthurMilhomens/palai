@@ -1,0 +1,9 @@
+$kind: http-request
+name: Get Recipe
+method: GET
+url: '{{baseUrl}}/v1/recipes/{{recipeIdOrSlug}}'
+description: Retorna detalhes de uma receita específica com ingredientes e item resultante.
+order: 2000
+headers:
+  - key: Authorization
+    value: 'Bearer {{accessToken}}'

@@ -1,0 +1,25 @@
+$kind: http-request
+name: Login
+method: POST
+url: '{{baseUrl}}/v1/auth/login'
+description: Autentica o usuário e retorna accessToken + refreshToken.
+order: 2000
+headers:
+  - key: Content-Type
+    value: application/json
+body:
+  type: json
+  content: |-
+    {
+      "email": "{{adminEmail}}",
+      "password": "{{adminPassword}}"
+    }
+scripts:
+  - type: afterResponse
+    language: text/javascript
+    code: |-
+      pm.test("Save tokens", () => {
+        const body = pm.response.json();
+        pm.collectionVariables.set("accessToken", body.accessToken);
+        pm.collectionVariables.set("refreshToken", body.refreshToken);
+      });

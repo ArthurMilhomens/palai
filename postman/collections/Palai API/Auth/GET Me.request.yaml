@@ -1,0 +1,9 @@
+$kind: http-request
+name: Me
+method: GET
+url: '{{baseUrl}}/v1/auth/me'
+description: Retorna os dados do usuário autenticado.
+order: 5000
+headers:
+  - key: Authorization
+    value: 'Bearer {{accessToken}}'

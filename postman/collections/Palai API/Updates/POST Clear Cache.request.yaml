@@ -1,0 +1,9 @@
+$kind: http-request
+name: Clear Cache
+method: POST
+url: '{{baseUrl}}/v1/updates/cache/clear'
+description: '[Admin] Limpa o namespace de cache Redis da API. Requer role Admin.'
+order: 3000
+headers:
+  - key: Authorization
+    value: 'Bearer {{accessToken}}'

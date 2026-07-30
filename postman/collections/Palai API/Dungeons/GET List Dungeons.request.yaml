@@ -1,0 +1,28 @@
+$kind: http-request
+name: List Dungeons
+method: GET
+url: '{{baseUrl}}/v1/dungeons'
+description: Lista todas as dungeons.
+order: 1000
+headers:
+  - key: Authorization
+    value: 'Bearer {{accessToken}}'
+queryParams:
+  - key: q
+    value: ''
+    disabled: true
+  - key: name
+    value: ''
+    disabled: true
+  - key: biome
+    value: ''
+    disabled: true
+  - key: gameVersion
+    value: ''
+    disabled: true
+  - key: page
+    value: '1'
+    disabled: true
+  - key: limit
+    value: '20'
+    disabled: true

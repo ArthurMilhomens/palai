@@ -1,0 +1,9 @@
+$kind: http-request
+name: Resume Import Job
+method: POST
+url: '{{baseUrl}}/v1/updates/jobs/{{jobId}}/resume'
+description: '[Admin] Retoma um job de importação que falhou. Requer role Admin.'
+order: 6000
+headers:
+  - key: Authorization
+    value: 'Bearer {{accessToken}}'

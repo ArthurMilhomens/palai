@@ -1,0 +1,17 @@
+$kind: http-request
+name: Logout
+method: POST
+url: '{{baseUrl}}/v1/auth/logout'
+description: Revoga o refresh token ativo.
+order: 4000
+headers:
+  - key: Content-Type
+    value: application/json
+  - key: Authorization
+    value: 'Bearer {{accessToken}}'
+body:
+  type: json
+  content: |-
+    {
+      "refreshToken": "{{refreshToken}}"
+    }

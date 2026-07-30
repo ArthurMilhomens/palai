@@ -1,0 +1,25 @@
+$kind: http-request
+name: List Pals
+method: GET
+url: '{{baseUrl}}/v1/pals'
+description: Lista todos os Pals com paginação e filtros.
+order: 1000
+headers:
+  - key: Authorization
+    value: 'Bearer {{accessToken}}'
+queryParams:
+  - key: page
+    value: '1'
+    disabled: true
+  - key: limit
+    value: '20'
+    disabled: true
+  - key: q
+    value: ''
+    disabled: true
+  - key: element
+    value: ''
+    disabled: true
+  - key: gameVersion
+    value: ''
+    disabled: true

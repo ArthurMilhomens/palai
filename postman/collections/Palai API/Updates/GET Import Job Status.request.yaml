@@ -1,0 +1,9 @@
+$kind: http-request
+name: Import Job Status
+method: GET
+url: '{{baseUrl}}/v1/updates/jobs/{{jobId}}'
+description: '[Admin] Retorna o status e relatório de um job de importação. Requer role Admin.'
+order: 5000
+headers:
+  - key: Authorization
+    value: 'Bearer {{accessToken}}'

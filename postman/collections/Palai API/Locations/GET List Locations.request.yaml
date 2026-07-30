@@ -1,0 +1,31 @@
+$kind: http-request
+name: List Locations
+method: GET
+url: '{{baseUrl}}/v1/locations'
+description: Lista todos os locais/regiões do mapa.
+order: 1000
+headers:
+  - key: Authorization
+    value: 'Bearer {{accessToken}}'
+queryParams:
+  - key: q
+    value: ''
+    disabled: true
+  - key: name
+    value: ''
+    disabled: true
+  - key: level
+    value: ''
+    disabled: true
+  - key: biome
+    value: ''
+    disabled: true
+  - key: gameVersion
+    value: ''
+    disabled: true
+  - key: page
+    value: '1'
+    disabled: true
+  - key: limit
+    value: '20'
+    disabled: true

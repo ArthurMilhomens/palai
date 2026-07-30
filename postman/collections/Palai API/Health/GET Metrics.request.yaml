@@ -1,0 +1,6 @@
+$kind: http-request
+name: Metrics
+method: GET
+url: '{{baseUrl}}/metrics'
+description: Retorna métricas Prometheus (total de requisições, latência, etc.).
+order: 4000

@@ -1,0 +1,6 @@
+$kind: http-request
+name: Readiness
+method: GET
+url: '{{baseUrl}}/ready'
+description: Verifica se a API está pronta para receber tráfego (readiness probe).
+order: 3000

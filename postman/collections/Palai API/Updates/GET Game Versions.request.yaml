@@ -1,0 +1,9 @@
+$kind: http-request
+name: Game Versions
+method: GET
+url: '{{baseUrl}}/v1/updates/version'
+description: '[Admin] Retorna a versão ativa e as 20 versões mais recentes importadas. Requer role Admin.'
+order: 4000
+headers:
+  - key: Authorization
+    value: 'Bearer {{accessToken}}'

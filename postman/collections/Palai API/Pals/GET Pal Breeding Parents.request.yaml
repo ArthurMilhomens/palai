@@ -1,0 +1,13 @@
+$kind: http-request
+name: Pal Breeding Parents
+method: GET
+url: '{{baseUrl}}/v1/pals/{{palIdOrSlug}}/breeding'
+description: Lista as combinações de pais que geram este Pal como filho.
+order: 7000
+headers:
+  - key: Authorization
+    value: 'Bearer {{accessToken}}'
+queryParams:
+  - key: gameVersion
+    value: ''
+    disabled: true

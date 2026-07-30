@@ -1,0 +1,9 @@
+$kind: http-request
+name: Get Passive
+method: GET
+url: '{{baseUrl}}/v1/passives/{{passiveIdOrSlug}}'
+description: Retorna detalhes de uma habilidade passiva específica.
+order: 2000
+headers:
+  - key: Authorization
+    value: 'Bearer {{accessToken}}'

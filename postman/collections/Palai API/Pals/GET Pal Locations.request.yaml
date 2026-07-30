@@ -1,0 +1,9 @@
+$kind: http-request
+name: Pal Locations
+method: GET
+url: '{{baseUrl}}/v1/pals/{{palIdOrSlug}}/locations'
+description: Lista os locais onde um Pal pode ser encontrado no mundo.
+order: 6000
+headers:
+  - key: Authorization
+    value: 'Bearer {{accessToken}}'

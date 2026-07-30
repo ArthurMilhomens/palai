@@ -1,0 +1,31 @@
+$kind: http-request
+name: List Skills
+method: GET
+url: '{{baseUrl}}/v1/skills'
+description: Lista todas as habilidades de combate.
+order: 1000
+headers:
+  - key: Authorization
+    value: 'Bearer {{accessToken}}'
+queryParams:
+  - key: q
+    value: ''
+    disabled: true
+  - key: name
+    value: ''
+    disabled: true
+  - key: element
+    value: ''
+    disabled: true
+  - key: category
+    value: ''
+    disabled: true
+  - key: gameVersion
+    value: ''
+    disabled: true
+  - key: page
+    value: '1'
+    disabled: true
+  - key: limit
+    value: '20'
+    disabled: true

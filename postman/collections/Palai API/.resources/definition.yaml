@@ -1,0 +1,23 @@
+$kind: collection
+name: Palai API
+description: REST API para dados do jogo Palworld. Extrai dumps enviados por admins, persiste dados normalizados no PostgreSQL, indexa no OpenSearch e serve endpoints de leitura autenticados.
+variables:
+  baseUrl: http://localhost:3000
+  accessToken: ""
+  refreshToken: ""
+  palIdOrSlug: lamball
+  palId: lamball
+  skillIdOrSlug: ""
+  passiveIdOrSlug: ""
+  itemIdOrSlug: ""
+  recipeIdOrSlug: ""
+  technologyIdOrSlug: ""
+  locationIdOrSlug: ""
+  bossIdOrSlug: ""
+  dungeonIdOrSlug: ""
+  workIdOrSlug: ""
+  jobId: ""
+  userEmail: user@example.com
+  userPassword: password123
+  adminEmail: admin@palai.local
+  adminPassword: ChangeMeAdmin123!

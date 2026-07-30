@@ -1,0 +1,32 @@
+$kind: http-request
+name: List Items
+method: GET
+url: '{{baseUrl}}/v1/items'
+description: Lista todos os itens do jogo.
+order: 1000
+headers:
+  - key: Authorization
+    value: 'Bearer {{accessToken}}'
+queryParams:
+  - key: q
+    value: ''
+    disabled: true
+  - key: name
+    value: ''
+    disabled: true
+  - key: rarity
+    value: ''
+    disabled: true
+  - key: gameVersion
+    value: ''
+    disabled: true
+  - key: page
+    value: '1'
+    disabled: true
+  - key: limit
+    value: '20'
+    disabled: true
+  - key: sort
+    value: ''
+    disabled: true
+    description: 'name, rarity, price, weight'

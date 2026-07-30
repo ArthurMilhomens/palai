@@ -1,0 +1,25 @@
+$kind: http-request
+name: List Bosses
+method: GET
+url: '{{baseUrl}}/v1/bosses'
+description: 'Lista todos os bosses do jogo com nível, tempo de respawn e localização.'
+order: 1000
+headers:
+  - key: Authorization
+    value: 'Bearer {{accessToken}}'
+queryParams:
+  - key: q
+    value: ''
+    disabled: true
+  - key: level
+    value: ''
+    disabled: true
+  - key: gameVersion
+    value: ''
+    disabled: true
+  - key: page
+    value: '1'
+    disabled: true
+  - key: limit
+    value: '20'
+    disabled: true

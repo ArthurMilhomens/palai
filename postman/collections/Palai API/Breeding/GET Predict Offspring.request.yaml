@@ -1,0 +1,20 @@
+$kind: http-request
+name: Predict Offspring
+method: GET
+url: '{{baseUrl}}/v1/breeding/predict'
+description: Prevê o filho resultante de dois Pals pais.
+order: 1000
+headers:
+  - key: Authorization
+    value: 'Bearer {{accessToken}}'
+queryParams:
+  - key: parentA
+    value: ''
+    description: ID ou slug do pai A
+  - key: parentB
+    value: ''
+    description: ID ou slug do pai B
+  - key: gameVersion
+    value: ''
+    disabled: true
+    description: Versão do jogo (opcional)

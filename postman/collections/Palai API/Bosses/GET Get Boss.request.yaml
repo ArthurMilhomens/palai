@@ -1,0 +1,9 @@
+$kind: http-request
+name: Get Boss
+method: GET
+url: '{{baseUrl}}/v1/bosses/{{bossIdOrSlug}}'
+description: 'Retorna detalhes de um boss específico incluindo Pal associado, localização e dungeon.'
+order: 2000
+headers:
+  - key: Authorization
+    value: 'Bearer {{accessToken}}'

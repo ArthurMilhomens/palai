@@ -1,0 +1,9 @@
+$kind: http-request
+name: Item Recipes
+method: GET
+url: '{{baseUrl}}/v1/items/{{itemIdOrSlug}}/recipes'
+description: Lista as receitas que produzem ou utilizam este item como ingrediente.
+order: 3000
+headers:
+  - key: Authorization
+    value: 'Bearer {{accessToken}}'
