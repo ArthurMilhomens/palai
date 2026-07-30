@@ -1,0 +1,524 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  USER
+  ADMIN
+}
+
+enum SkillCategory {
+  ACTIVE
+  PARTNER
+}
+
+enum ImportJobStatus {
+  PENDING
+  EXTRACTING
+  PARSING
+  VALIDATING
+  PERSISTING
+  INDEXING
+  CACHE_CLEAR
+  COMPLETED
+  FAILED
+}
+
+enum ImportStepName {
+  EXTRACT
+  PARSE
+  VALIDATE
+  PERSIST
+  INDEX
+  CACHE_CLEAR
+  ACTIVATE
+}
+
+enum ImportStepStatus {
+  PENDING
+  RUNNING
+  COMPLETED
+  FAILED
+  SKIPPED
+}
+
+model User {
+  id           String         @id @default(cuid())
+  email        String         @unique
+  passwordHash String
+  role         Role           @default(USER)
+  createdAt    DateTime       @default(now())
+  updatedAt    DateTime       @updatedAt
+  deletedAt    DateTime?
+  refreshTokens RefreshToken[]
+}
+
+model RefreshToken {
+  id        String    @id @default(cuid())
+  userId    String
+  user      User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  tokenHash String    @unique
+  familyId  String
+  expiresAt DateTime
+  revokedAt DateTime?
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+
+  @@index([userId])
+  @@index([familyId])
+}
+
+model GameVersion {
+  id          String    @id @default(cuid())
+  version     String
+  build       String    @default("")
+  releaseDate DateTime?
+  importedAt  DateTime  @default(now())
+  isActive    Boolean   @default(false)
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+
+  pals               Pal[]
+  elements           Element[]
+  skills             Skill[]
+  passiveSkills      PassiveSkill[]
+  items              Item[]
+  recipes            Recipe[]
+  technologies       Technology[]
+  workSuitabilities  WorkSuitability[]
+  drops              Drop[]
+  locations          Location[]
+  dungeons           Dungeon[]
+  bosses             Boss[]
+  breedingOverrides  BreedingOverride[]
+  translations       Translation[]
+  mediaAssets        MediaAsset[]
+  importJobs         ImportJob[]
+
+  @@unique([version, build])
+}
+
+model ImportJob {
+  id            String          @id @default(cuid())
+  gameVersionId String?
+  gameVersion   GameVersion?    @relation(fields: [gameVersionId], references: [id])
+  status        ImportJobStatus @default(PENDING)
+  versionLabel  String
+  buildLabel    String?
+  releaseDate   DateTime?
+  sourcePath    String?
+  errorMessage  String?
+  startedAt     DateTime?
+  finishedAt    DateTime?
+  createdAt     DateTime        @default(now())
+  updatedAt     DateTime        @updatedAt
+  deletedAt     DateTime?
+  steps         ImportJobStep[]
+  report        ImportReport?
+
+  @@index([status])
+}
+
+model ImportJobStep {
+  id          String           @id @default(cuid())
+  jobId       String
+  job         ImportJob        @relation(fields: [jobId], references: [id], onDelete: Cascade)
+  name        ImportStepName
+  status      ImportStepStatus @default(PENDING)
+  errorMessage String?
+  startedAt   DateTime?
+  finishedAt  DateTime?
+  createdAt   DateTime         @default(now())
+  updatedAt   DateTime         @updatedAt
+
+  @@unique([jobId, name])
+}
+
+model ImportReport {
+  id              String    @id @default(cuid())
+  jobId           String    @unique
+  job             ImportJob @relation(fields: [jobId], references: [id], onDelete: Cascade)
+  durationMs      Int
+  createdCount    Int       @default(0)
+  updatedCount    Int       @default(0)
+  skippedCount    Int       @default(0)
+  errorCount      Int       @default(0)
+  details         Json?
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+}
+
+model Element {
+  id            String   @id @default(cuid())
+  internalName  String
+  name          String
+  iconUrl       String?
+  gameVersionId String
+  gameVersion   GameVersion @relation(fields: [gameVersionId], references: [id], onDelete: Cascade)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  pals   PalElement[]
+  skills Skill[]
+
+  @@unique([internalName, gameVersionId])
+  @@index([gameVersionId])
+}
+
+model Pal {
+  id             String   @id @default(cuid())
+  internalName   String
+  paldexNumber   Int?
+  name           String
+  description    String?
+  rarity         Int?
+  size           String?
+  price          Int?
+  hp             Int?
+  attack         Int?
+  defense        Int?
+  stamina        Int?
+  hunger         Int?
+  movementSpeed  Int?
+  sprintSpeed    Int?
+  rideSpeed      Int?
+  genderRatio    Float?
+  captureRate    Float?
+  breedingPower  Int?
+  iconUrl        String?
+  gameVersionId  String
+  gameVersion    GameVersion @relation(fields: [gameVersionId], references: [id], onDelete: Cascade)
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  elements           PalElement[]
+  skills             PalSkill[]
+  passives           PalPassive[]
+  workSuitabilities  PalWorkSuitability[]
+  drops              Drop[]
+  habitats           PalHabitat[]
+  recipes            Recipe[]
+  bosses             Boss[]
+  breedingAsParentA  BreedingOverride[] @relation("BreedingParentA")
+  breedingAsParentB  BreedingOverride[] @relation("BreedingParentB")
+  breedingAsChild    BreedingOverride[] @relation("BreedingChild")
+
+  @@unique([internalName, gameVersionId])
+  @@index([gameVersionId])
+  @@index([paldexNumber])
+  @@index([breedingPower])
+}
+
+model PalElement {
+  palId     String
+  elementId String
+  pal       Pal     @relation(fields: [palId], references: [id], onDelete: Cascade)
+  element   Element @relation(fields: [elementId], references: [id], onDelete: Cascade)
+
+  @@id([palId, elementId])
+}
+
+model Skill {
+  id            String        @id @default(cuid())
+  internalName  String
+  name          String
+  description   String?
+  power         Int?
+  cooldown      Float?
+  range         Float?
+  category      SkillCategory @default(ACTIVE)
+  elementId     String?
+  element       Element?      @relation(fields: [elementId], references: [id])
+  gameVersionId String
+  gameVersion   GameVersion   @relation(fields: [gameVersionId], references: [id], onDelete: Cascade)
+  createdAt     DateTime      @default(now())
+  updatedAt     DateTime      @updatedAt
+
+  pals PalSkill[]
+
+  @@unique([internalName, gameVersionId])
+  @@index([gameVersionId])
+}
+
+model PalSkill {
+  palId    String
+  skillId  String
+  isPartner Boolean @default(false)
+  level    Int?
+  pal      Pal    @relation(fields: [palId], references: [id], onDelete: Cascade)
+  skill    Skill  @relation(fields: [skillId], references: [id], onDelete: Cascade)
+
+  @@id([palId, skillId])
+}
+
+model PassiveSkill {
+  id            String   @id @default(cuid())
+  internalName  String
+  name          String
+  description   String?
+  rarity        Int?
+  modifiers     Json?
+  gameVersionId String
+  gameVersion   GameVersion @relation(fields: [gameVersionId], references: [id], onDelete: Cascade)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  pals PalPassive[]
+
+  @@unique([internalName, gameVersionId])
+  @@index([gameVersionId])
+}
+
+model PalPassive {
+  palId            String
+  passiveSkillId   String
+  pal              Pal           @relation(fields: [palId], references: [id], onDelete: Cascade)
+  passiveSkill     PassiveSkill  @relation(fields: [passiveSkillId], references: [id], onDelete: Cascade)
+
+  @@id([palId, passiveSkillId])
+}
+
+model Item {
+  id            String   @id @default(cuid())
+  internalName  String
+  name          String
+  description   String?
+  iconUrl       String?
+  rarity        Int?
+  weight        Float?
+  price         Int?
+  stackSize     Int?
+  gameVersionId String
+  gameVersion   GameVersion @relation(fields: [gameVersionId], references: [id], onDelete: Cascade)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  recipeResults Recipe[]           @relation("RecipeResult")
+  ingredients   RecipeIngredient[]
+  drops         Drop[]
+  technologies  Technology[]
+
+  @@unique([internalName, gameVersionId])
+  @@index([gameVersionId])
+}
+
+model Recipe {
+  id               String   @id @default(cuid())
+  internalName     String
+  craftingStation  String?
+  craftTime        Float?
+  resultItemId     String?
+  resultItem       Item?    @relation("RecipeResult", fields: [resultItemId], references: [id])
+  resultQuantity   Int      @default(1)
+  palId            String?
+  pal              Pal?     @relation(fields: [palId], references: [id])
+  gameVersionId    String
+  gameVersion      GameVersion @relation(fields: [gameVersionId], references: [id], onDelete: Cascade)
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+
+  ingredients RecipeIngredient[]
+
+  @@unique([internalName, gameVersionId])
+  @@index([gameVersionId])
+}
+
+model RecipeIngredient {
+  id       String @id @default(cuid())
+  recipeId String
+  recipe   Recipe @relation(fields: [recipeId], references: [id], onDelete: Cascade)
+  itemId   String
+  item     Item   @relation(fields: [itemId], references: [id], onDelete: Cascade)
+  quantity Int    @default(1)
+
+  @@unique([recipeId, itemId])
+}
+
+model Technology {
+  id            String   @id @default(cuid())
+  internalName  String
+  name          String
+  description   String?
+  level         Int?
+  unlockCost    Int?
+  itemId        String?
+  item          Item?    @relation(fields: [itemId], references: [id])
+  gameVersionId String
+  gameVersion   GameVersion @relation(fields: [gameVersionId], references: [id], onDelete: Cascade)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  @@unique([internalName, gameVersionId])
+  @@index([gameVersionId])
+}
+
+model WorkSuitability {
+  id            String   @id @default(cuid())
+  internalName  String
+  type          String
+  level         Int
+  gameVersionId String
+  gameVersion   GameVersion @relation(fields: [gameVersionId], references: [id], onDelete: Cascade)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  pals PalWorkSuitability[]
+
+  @@unique([internalName, level, gameVersionId])
+  @@index([gameVersionId])
+}
+
+model PalWorkSuitability {
+  palId               String
+  workSuitabilityId   String
+  pal                 Pal              @relation(fields: [palId], references: [id], onDelete: Cascade)
+  workSuitability     WorkSuitability  @relation(fields: [workSuitabilityId], references: [id], onDelete: Cascade)
+
+  @@id([palId, workSuitabilityId])
+}
+
+model Drop {
+  id            String   @id @default(cuid())
+  chance        Float?
+  quantityMin   Int      @default(1)
+  quantityMax   Int      @default(1)
+  palId         String
+  pal           Pal      @relation(fields: [palId], references: [id], onDelete: Cascade)
+  itemId        String
+  item          Item     @relation(fields: [itemId], references: [id], onDelete: Cascade)
+  gameVersionId String
+  gameVersion   GameVersion @relation(fields: [gameVersionId], references: [id], onDelete: Cascade)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  @@index([palId])
+  @@index([itemId])
+  @@index([gameVersionId])
+}
+
+model Location {
+  id            String   @id @default(cuid())
+  internalName  String
+  name          String
+  biome         String?
+  coordX        Float?
+  coordY        Float?
+  coordZ        Float?
+  level         Int?
+  gameVersionId String
+  gameVersion   GameVersion @relation(fields: [gameVersionId], references: [id], onDelete: Cascade)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  habitats PalHabitat[]
+  dungeons Dungeon[]
+  bosses   Boss[]
+
+  @@unique([internalName, gameVersionId])
+  @@index([gameVersionId])
+}
+
+model PalHabitat {
+  id         String   @id @default(cuid())
+  palId      String
+  pal        Pal      @relation(fields: [palId], references: [id], onDelete: Cascade)
+  locationId String
+  location   Location @relation(fields: [locationId], references: [id], onDelete: Cascade)
+
+  @@unique([palId, locationId])
+}
+
+model Dungeon {
+  id            String   @id @default(cuid())
+  internalName  String
+  name          String
+  biome         String?
+  minimumLevel  Int?
+  maximumLevel  Int?
+  locationId    String?
+  location      Location? @relation(fields: [locationId], references: [id])
+  gameVersionId String
+  gameVersion   GameVersion @relation(fields: [gameVersionId], references: [id], onDelete: Cascade)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  bosses Boss[]
+
+  @@unique([internalName, gameVersionId])
+  @@index([gameVersionId])
+}
+
+model Boss {
+  id            String   @id @default(cuid())
+  internalName  String
+  level         Int?
+  respawnTime   Int?
+  palId         String?
+  pal           Pal?     @relation(fields: [palId], references: [id])
+  locationId    String?
+  location      Location? @relation(fields: [locationId], references: [id])
+  dungeonId     String?
+  dungeon       Dungeon?  @relation(fields: [dungeonId], references: [id])
+  gameVersionId String
+  gameVersion   GameVersion @relation(fields: [gameVersionId], references: [id], onDelete: Cascade)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  @@unique([internalName, gameVersionId])
+  @@index([gameVersionId])
+}
+
+model BreedingOverride {
+  id            String   @id @default(cuid())
+  parentAId     String
+  parentA       Pal      @relation("BreedingParentA", fields: [parentAId], references: [id], onDelete: Cascade)
+  parentBId     String
+  parentB       Pal      @relation("BreedingParentB", fields: [parentBId], references: [id], onDelete: Cascade)
+  childId       String
+  child         Pal      @relation("BreedingChild", fields: [childId], references: [id], onDelete: Cascade)
+  gameVersionId String
+  gameVersion   GameVersion @relation(fields: [gameVersionId], references: [id], onDelete: Cascade)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  @@unique([parentAId, parentBId, gameVersionId])
+  @@index([childId])
+  @@index([gameVersionId])
+}
+
+model Translation {
+  id            String   @id @default(cuid())
+  entityType    String
+  entityId      String
+  locale        String
+  field         String
+  value         String
+  gameVersionId String
+  gameVersion   GameVersion @relation(fields: [gameVersionId], references: [id], onDelete: Cascade)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  @@unique([entityType, entityId, locale, field, gameVersionId])
+  @@index([entityType, entityId, locale])
+  @@index([gameVersionId])
+}
+
+model MediaAsset {
+  id            String   @id @default(cuid())
+  entityType    String
+  entityId      String
+  kind          String
+  url           String
+  gameVersionId String
+  gameVersion   GameVersion @relation(fields: [gameVersionId], references: [id], onDelete: Cascade)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  @@index([entityType, entityId])
+  @@index([gameVersionId])
+}

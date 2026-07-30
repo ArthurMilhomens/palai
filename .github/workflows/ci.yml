@@ -1,0 +1,67 @@
+name: CI
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    services:
+      postgres:
+        image: postgres:16-alpine
+        env:
+          POSTGRES_USER: palai
+          POSTGRES_PASSWORD: palai
+          POSTGRES_DB: palai
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U palai"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 10
+      redis:
+        image: redis:7-alpine
+        ports:
+          - 6379:6379
+        options: >-
+          --health-cmd "redis-cli ping"
+          --health-interval 5s
+          --health-timeout 3s
+          --health-retries 10
+
+    env:
+      NODE_ENV: test
+      DATABASE_URL: postgresql://palai:palai@localhost:5432/palai?schema=public
+      # CI service postgres stays on 5432 (no host conflict)
+      REDIS_URL: redis://localhost:6379
+      OPENSEARCH_NODE: http://localhost:9200
+      S3_ENDPOINT: http://localhost:9000
+      S3_REGION: us-east-1
+      S3_ACCESS_KEY_ID: palai
+      S3_SECRET_ACCESS_KEY: palaisecret
+      S3_BUCKET: palai
+      S3_PUBLIC_URL: http://localhost:9000/palai
+      JWT_ACCESS_SECRET: test-access-secret-change-me-in-production-32
+      JWT_ACCESS_TTL: 15m
+      REFRESH_TOKEN_TTL_DAYS: 30
+      CORS_ORIGIN: '*'
+      RATE_LIMIT_MAX: 1000
+      RATE_LIMIT_TIME_WINDOW_MS: 60000
+      CACHE_TTL_SECONDS: 60
+      UPLOAD_MAX_BYTES: 10485760
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+      - run: npm ci
+      - run: npx prisma generate
+      - run: npx prisma db push
+      - run: npm run typecheck
+      - run: npm test
