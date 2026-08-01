@@ -20,7 +20,9 @@
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage",
     "lint": "tsc --noEmit",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "dump:generate": "tsx scripts/generate-dump.ts",
+    "dump:fixture": "tsx scripts/generate-dump.ts --fixture"
   },
   "keywords": [
     "palworld",

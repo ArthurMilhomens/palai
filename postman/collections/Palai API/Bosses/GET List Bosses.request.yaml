@@ -1,25 +1,29 @@
 $kind: http-request
 name: List Bosses
 method: GET
-url: '{{baseUrl}}/v1/bosses'
-description: 'Lista todos os bosses do jogo com nível, tempo de respawn e localização.'
+url: "{{baseUrl}}/v1/bosses"
+description: Lista todos os bosses do jogo com nível, tempo de respawn e localização.
 order: 1000
 headers:
-  - key: Authorization
-    value: 'Bearer {{accessToken}}'
+  Authorization: Bearer {{accessToken}}
 queryParams:
   - key: q
-    value: ''
+    value: Paladius
     disabled: true
+    description: ""
   - key: level
-    value: ''
+    value: ""
     disabled: true
+    description: ""
   - key: gameVersion
-    value: ''
+    value: ""
     disabled: true
+    description: ""
   - key: page
-    value: '1'
+    value: "1"
     disabled: true
+    description: ""
   - key: limit
-    value: '20'
+    value: "20"
     disabled: true
+    description: ""

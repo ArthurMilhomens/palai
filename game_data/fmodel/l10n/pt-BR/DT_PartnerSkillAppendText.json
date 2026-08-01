@@ -1,0 +1,1297 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_PartnerSkillAppendText",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/L10N/pt-BR/Pal/DataTable/Text/DT_PartnerSkillAppendText",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "TEST_TEXT_RANK_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "TEST_TEXT_RANK_1_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "TEST_TEXT_RANK_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "TEST_TEXT_RANK_2_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "TEST_TEXT_RANK_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "TEST_TEXT_RANK_3_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "TEST_TEXT_RANK_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "TEST_TEXT_RANK_4_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "TEST_TEXT_RANK_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "TEST_TEXT_RANK_5_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "DamageUp_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "DamageUp_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_Rank_2_TextData",
+          "SourceString": "(Aumento de dano: <Status_Up>pequeno</>)",
+          "LocalizedString": "(Aumento de dano: <Status_Up>pequeno</>)"
+        }
+      },
+      "DamageUp_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_Rank_3_TextData",
+          "SourceString": "(Aumento de dano: <Status_Up>médio</>)",
+          "LocalizedString": "(Aumento de dano: <Status_Up>médio</>)"
+        }
+      },
+      "DamageUp_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_Rank_4_TextData",
+          "SourceString": "(Aumento de dano: <Status_Up>grande</>)",
+          "LocalizedString": "(Aumento de dano: <Status_Up>grande</>)"
+        }
+      },
+      "DamageUp_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_Rank_5_TextData",
+          "SourceString": "(Aumento de dano: <Status_Up>muito grande</>)",
+          "LocalizedString": "(Aumento de dano: <Status_Up>muito grande</>)"
+        }
+      },
+      "CooldownReduction_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CooldownReduction_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "CooldownReduction_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CooldownReduction_Rank_2_TextData",
+          "SourceString": "(Redução de tempo de recarga: <Status_Up>pequena</>)",
+          "LocalizedString": "(Redução de tempo de recarga: <Status_Up>pequena</>)"
+        }
+      },
+      "CooldownReduction_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CooldownReduction_Rank_3_TextData",
+          "SourceString": "(Redução de tempo de recarga: <Status_Up>média</>)",
+          "LocalizedString": "(Redução de tempo de recarga: <Status_Up>média</>)"
+        }
+      },
+      "CooldownReduction_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CooldownReduction_Rank_4_TextData",
+          "SourceString": "(Redução de tempo de recarga: <Status_Up>grande</>)",
+          "LocalizedString": "(Redução de tempo de recarga: <Status_Up>grande</>)"
+        }
+      },
+      "CooldownReduction_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CooldownReduction_Rank_5_TextData",
+          "SourceString": "(Redução de tempo de recarga: <Status_Up>muito grande</>)",
+          "LocalizedString": "(Redução de tempo de recarga: <Status_Up>muito grande</>)"
+        }
+      },
+      "MiningUp_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "MiningUp_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "MiningUp_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "MiningUp_Rank_2_TextData",
+          "SourceString": "(Aumento da eficiência de garimpo: <Status_Up>pequeno</>)",
+          "LocalizedString": "(Aumento da eficiência de garimpo: <Status_Up>pequeno</>)"
+        }
+      },
+      "MiningUp_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "MiningUp_Rank_3_TextData",
+          "SourceString": "(Aumento da eficiência de garimpo: <Status_Up>médio</>)",
+          "LocalizedString": "(Aumento da eficiência de garimpo: <Status_Up>médio</>)"
+        }
+      },
+      "MiningUp_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "MiningUp_Rank_4_TextData",
+          "SourceString": "(Aumento da eficiência de garimpo: <Status_Up>grande</>)",
+          "LocalizedString": "(Aumento da eficiência de garimpo: <Status_Up>grande</>)"
+        }
+      },
+      "MiningUp_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "MiningUp_Rank_5_TextData",
+          "SourceString": "(Aumento da eficiência de garimpo: <Status_Up>muito grande</>)",
+          "LocalizedString": "(Aumento da eficiência de garimpo: <Status_Up>muito grande</>)"
+        }
+      },
+      "RideSpeedUp_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "RideSpeedUp_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_Rank_2_TextData",
+          "SourceString": "(Velocidade de movimento ao montar: +<Status_Up>10%</>)",
+          "LocalizedString": "(Velocidade de movimento ao montar: +<Status_Up>10%</>)"
+        }
+      },
+      "RideSpeedUp_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_Rank_3_TextData",
+          "SourceString": "(Velocidade de movimento ao montar: +<Status_Up>12%</>)",
+          "LocalizedString": "(Velocidade de movimento ao montar: +<Status_Up>12%</>)"
+        }
+      },
+      "RideSpeedUp_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_Rank_4_TextData",
+          "SourceString": "(Velocidade de movimento ao montar: +<Status_Up>15%</>)",
+          "LocalizedString": "(Velocidade de movimento ao montar: +<Status_Up>15%</>)"
+        }
+      },
+      "RideSpeedUp_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_Rank_5_TextData",
+          "SourceString": "(Velocidade de movimento ao montar: +<Status_Up>20%</>)",
+          "LocalizedString": "(Velocidade de movimento ao montar: +<Status_Up>20%</>)"
+        }
+      },
+      "SwimSpeedUp_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "SwimSpeedUp_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_Rank_2_TextData",
+          "SourceString": "(Velocidade de movimento sobre a água: +<Status_Up>10%</>)",
+          "LocalizedString": "(Velocidade de movimento sobre a água: +<Status_Up>10%</>)"
+        }
+      },
+      "SwimSpeedUp_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_Rank_3_TextData",
+          "SourceString": "(Velocidade de movimento sobre a água: +<Status_Up>14%</>)",
+          "LocalizedString": "(Velocidade de movimento sobre a água: +<Status_Up>14%</>)"
+        }
+      },
+      "SwimSpeedUp_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_Rank_4_TextData",
+          "SourceString": "(Velocidade de movimento sobre a água: +<Status_Up>18%</>)",
+          "LocalizedString": "(Velocidade de movimento sobre a água: +<Status_Up>18%</>)"
+        }
+      },
+      "SwimSpeedUp_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_Rank_5_TextData",
+          "SourceString": "(Velocidade de movimento sobre a água: +<Status_Up>25%</>)",
+          "LocalizedString": "(Velocidade de movimento sobre a água: +<Status_Up>25%</>)"
+        }
+      },
+      "LoggingUp_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "LoggingUp_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_Rank_2_TextData",
+          "SourceString": "(Aumento da eficiência de corte de árvores: <Status_Up>pequeno</>)",
+          "LocalizedString": "(Aumento da eficiência de corte de árvores: <Status_Up>pequeno</>)"
+        }
+      },
+      "LoggingUp_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_Rank_3_TextData",
+          "SourceString": "(Aumento da eficiência de corte de árvores: <Status_Up>médio</>)",
+          "LocalizedString": "(Aumento da eficiência de corte de árvores: <Status_Up>médio</>)"
+        }
+      },
+      "LoggingUp_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_Rank_4_TextData",
+          "SourceString": "(Aumento da eficiência de corte de árvores: <Status_Up>grande</>)",
+          "LocalizedString": "(Aumento da eficiência de corte de árvores: <Status_Up>grande</>)"
+        }
+      },
+      "LoggingUp_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_Rank_5_TextData",
+          "SourceString": "(Aumento da eficiência de corte de árvores: <Status_Up>muito grande</>)",
+          "LocalizedString": "(Aumento da eficiência de corte de árvores: <Status_Up>muito grande</>)"
+        }
+      },
+      "DropUp_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DropUp_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "DropUp_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DropUp_Rank_2_TextData",
+          "SourceString": "(Aumento da quantidade de itens obtidos: <Status_Up>pequeno</>)",
+          "LocalizedString": "(Aumento da quantidade de itens obtidos: <Status_Up>pequeno</>)"
+        }
+      },
+      "DropUp_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DropUp_Rank_3_TextData",
+          "SourceString": "(Aumento da quantidade de itens obtidos: <Status_Up>médio</>)",
+          "LocalizedString": "(Aumento da quantidade de itens obtidos: <Status_Up>médio</>)"
+        }
+      },
+      "DropUp_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DropUp_Rank_4_TextData",
+          "SourceString": "(Aumento da quantidade de itens obtidos: <Status_Up>grande</>)",
+          "LocalizedString": "(Aumento da quantidade de itens obtidos: <Status_Up>grande</>)"
+        }
+      },
+      "DropUp_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DropUp_Rank_5_TextData",
+          "SourceString": "(Aumento da quantidade de itens obtidos: <Status_Up>muito grande</>)",
+          "LocalizedString": "(Aumento da quantidade de itens obtidos: <Status_Up>muito grande</>)"
+        }
+      },
+      "FishingAssist_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FishingAssist_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "FishingAssist_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FishingAssist_Rank_2_TextData",
+          "SourceString": "(Aumento do efeito de assistência de pescaria: <Status_Up>pequeno</>)",
+          "LocalizedString": "(Aumento do efeito de assistência de pescaria: <Status_Up>pequeno</>)"
+        }
+      },
+      "FishingAssist_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FishingAssist_Rank_3_TextData",
+          "SourceString": "(Aumento do efeito de assistência de pescaria: <Status_Up>médio</>)",
+          "LocalizedString": "(Aumento do efeito de assistência de pescaria: <Status_Up>médio</>)"
+        }
+      },
+      "FishingAssist_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FishingAssist_Rank_4_TextData",
+          "SourceString": "(Aumento do efeito de assistência de pescaria: <Status_Up>grande</>)",
+          "LocalizedString": "(Aumento do efeito de assistência de pescaria: <Status_Up>grande</>)"
+        }
+      },
+      "FishingAssist_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FishingAssist_Rank_5_TextData",
+          "SourceString": "(Aumento do efeito de assistência de pescaria: <Status_Up>muito grande</>)",
+          "LocalizedString": "(Aumento do efeito de assistência de pescaria: <Status_Up>muito grande</>)"
+        }
+      },
+      "LifeSteal_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LifeSteal_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "LifeSteal_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LifeSteal_Rank_2_TextData",
+          "SourceString": "(Aumento do efeito de roubo de vida: <Status_Up>pequeno</>)",
+          "LocalizedString": "(Aumento do efeito de roubo de vida: <Status_Up>pequeno</>)"
+        }
+      },
+      "LifeSteal_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LifeSteal_Rank_3_TextData",
+          "SourceString": "(Aumento do efeito de roubo de vida: <Status_Up>médio</>)",
+          "LocalizedString": "(Aumento do efeito de roubo de vida: <Status_Up>médio</>)"
+        }
+      },
+      "LifeSteal_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LifeSteal_Rank_4_TextData",
+          "SourceString": "(Aumento do efeito de roubo de vida: <Status_Up>grande</>)",
+          "LocalizedString": "(Aumento do efeito de roubo de vida: <Status_Up>grande</>)"
+        }
+      },
+      "LifeSteal_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LifeSteal_Rank_5_TextData",
+          "SourceString": "(Aumento do efeito de roubo de vida: <Status_Up>muito grande</>)",
+          "LocalizedString": "(Aumento do efeito de roubo de vida: <Status_Up>muito grande</>)"
+        }
+      },
+      "RideSpeedUp_CooldownReduction_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_CooldownReduction_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "RideSpeedUp_CooldownReduction_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_CooldownReduction_Rank_2_TextData",
+          "SourceString": "(Aumento da velocidade de movimento e redução de tempo de recarga: <Status_Up>pequeno</>)",
+          "LocalizedString": "(Aumento da velocidade de movimento e redução de tempo de recarga: <Status_Up>pequeno</>)"
+        }
+      },
+      "RideSpeedUp_CooldownReduction_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_CooldownReduction_Rank_3_TextData",
+          "SourceString": "(Aumento da velocidade de movimento e redução de tempo de recarga: <Status_Up>médio</>)",
+          "LocalizedString": "(Aumento da velocidade de movimento e redução de tempo de recarga: <Status_Up>médio</>)"
+        }
+      },
+      "RideSpeedUp_CooldownReduction_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_CooldownReduction_Rank_4_TextData",
+          "SourceString": "(Aumento da velocidade de movimento e redução de tempo de recarga: <Status_Up>grande</>)",
+          "LocalizedString": "(Aumento da velocidade de movimento e redução de tempo de recarga: <Status_Up>grande</>)"
+        }
+      },
+      "RideSpeedUp_CooldownReduction_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_CooldownReduction_Rank_5_TextData",
+          "SourceString": "(Aumento da velocidade de movimento e redução de tempo de recarga: <Status_Up>muito grande</>)",
+          "LocalizedString": "(Aumento da velocidade de movimento e redução de tempo de recarga: <Status_Up>muito grande</>)"
+        }
+      },
+      "SwimSpeedUp_CooldownReduction_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_CooldownReduction_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "SwimSpeedUp_CooldownReduction_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_CooldownReduction_Rank_2_TextData",
+          "SourceString": "(Velocidade de movimento sobre a água: +<Status_Up>10%</>; redução de tempo de recarga: <Status_Up>pequena</>)",
+          "LocalizedString": "(Velocidade de movimento sobre a água: +<Status_Up>10%</>; redução de tempo de recarga: <Status_Up>pequena</>)"
+        }
+      },
+      "SwimSpeedUp_CooldownReduction_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_CooldownReduction_Rank_3_TextData",
+          "SourceString": "(Velocidade de movimento sobre a água: +<Status_Up>14%</>; redução de tempo de recarga: <Status_Up>média</>)",
+          "LocalizedString": "(Velocidade de movimento sobre a água: +<Status_Up>14%</>; redução de tempo de recarga: <Status_Up>média</>)"
+        }
+      },
+      "SwimSpeedUp_CooldownReduction_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_CooldownReduction_Rank_4_TextData",
+          "SourceString": "(Velocidade de movimento sobre a água: +<Status_Up>18%</>; redução de tempo de recarga: <Status_Up>grande</>)",
+          "LocalizedString": "(Velocidade de movimento sobre a água: +<Status_Up>18%</>; redução de tempo de recarga: <Status_Up>grande</>)"
+        }
+      },
+      "SwimSpeedUp_CooldownReduction_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_CooldownReduction_Rank_5_TextData",
+          "SourceString": "(Velocidade de movimento sobre a água: +<Status_Up>25%</>; redução de tempo de recarga: <Status_Up>muito grande</>)",
+          "LocalizedString": "(Velocidade de movimento sobre a água: +<Status_Up>25%</>; redução de tempo de recarga: <Status_Up>muito grande</>)"
+        }
+      },
+      "LoggingUp_MiningUp_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_MiningUp_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "LoggingUp_MiningUp_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_MiningUp_Rank_2_TextData",
+          "SourceString": "(Aumento da eficiência de garimpo e corte de árvores: <Status_Up>pequeno</>)",
+          "LocalizedString": "(Aumento da eficiência de garimpo e corte de árvores: <Status_Up>pequeno</>)"
+        }
+      },
+      "LoggingUp_MiningUp_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_MiningUp_Rank_3_TextData",
+          "SourceString": "(Aumento da eficiência de garimpo e corte de árvores: <Status_Up>médio</>)",
+          "LocalizedString": "(Aumento da eficiência de garimpo e corte de árvores: <Status_Up>médio</>)"
+        }
+      },
+      "LoggingUp_MiningUp_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_MiningUp_Rank_4_TextData",
+          "SourceString": "(Aumento da eficiência de garimpo e corte de árvores: <Status_Up>grande</>)",
+          "LocalizedString": "(Aumento da eficiência de garimpo e corte de árvores: <Status_Up>grande</>)"
+        }
+      },
+      "LoggingUp_MiningUp_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_MiningUp_Rank_5_TextData",
+          "SourceString": "(Aumento da eficiência de garimpo e corte de árvores: <Status_Up>muito grande</>)",
+          "LocalizedString": "(Aumento da eficiência de garimpo e corte de árvores: <Status_Up>muito grande</>)"
+        }
+      },
+      "ElementPassive_Dark_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementPassive_Dark_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "ElementPassive_Dark_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementPassive_Dark_Rank_2_TextData",
+          "SourceString": "(Aumento do poder de ataque de Pals de escuridão: <Status_Up>pequeno</>)",
+          "LocalizedString": "(Aumento do poder de ataque de Pals de escuridão: <Status_Up>pequeno</>)"
+        }
+      },
+      "ElementPassive_Dark_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementPassive_Dark_Rank_3_TextData",
+          "SourceString": "(Aumento do poder de ataque de Pals de escuridão: <Status_Up>médio</>)",
+          "LocalizedString": "(Aumento do poder de ataque de Pals de escuridão: <Status_Up>médio</>)"
+        }
+      },
+      "ElementPassive_Dark_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementPassive_Dark_Rank_4_TextData",
+          "SourceString": "(Aumento do poder de ataque de Pals de escuridão: <Status_Up>grande</>)",
+          "LocalizedString": "(Aumento do poder de ataque de Pals de escuridão: <Status_Up>grande</>)"
+        }
+      },
+      "ElementPassive_Dark_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementPassive_Dark_Rank_5_TextData",
+          "SourceString": "(Aumento do poder de ataque de Pals de escuridão: <Status_Up>muito grande</>)",
+          "LocalizedString": "(Aumento do poder de ataque de Pals de escuridão: <Status_Up>muito grande</>)"
+        }
+      },
+      "ItemCollectRangeUp_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ItemCollectRangeUp_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "ItemCollectRangeUp_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ItemCollectRangeUp_Rank_2_TextData",
+          "SourceString": "(Aumento da área de coleta de itens: <Status_Up>pequeno</>)",
+          "LocalizedString": "(Aumento da área de coleta de itens: <Status_Up>pequeno</>)"
+        }
+      },
+      "ItemCollectRangeUp_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ItemCollectRangeUp_Rank_3_TextData",
+          "SourceString": "(Aumento da área de coleta de itens: <Status_Up>médio</>)",
+          "LocalizedString": "(Aumento da área de coleta de itens: <Status_Up>médio</>)"
+        }
+      },
+      "ItemCollectRangeUp_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ItemCollectRangeUp_Rank_4_TextData",
+          "SourceString": "(Aumento da área de coleta de itens: <Status_Up>grande</>)",
+          "LocalizedString": "(Aumento da área de coleta de itens: <Status_Up>grande</>)"
+        }
+      },
+      "ItemCollectRangeUp_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ItemCollectRangeUp_Rank_5_TextData",
+          "SourceString": "(Aumento da área de coleta de itens: <Status_Up>muito grande</>)",
+          "LocalizedString": "(Aumento da área de coleta de itens: <Status_Up>muito grande</>)"
+        }
+      },
+      "SANDownResist_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SANDownResist_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "SANDownResist_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SANDownResist_Rank_2_TextData",
+          "SourceString": "(Aumento da resistência à redução de SAN: <Status_Up>pequeno</>)",
+          "LocalizedString": "(Aumento da resistência à redução de SAN: <Status_Up>pequeno</>)"
+        }
+      },
+      "SANDownResist_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SANDownResist_Rank_3_TextData",
+          "SourceString": "(Aumento da resistência à redução de SAN: <Status_Up>médio</>)",
+          "LocalizedString": "(Aumento da resistência à redução de SAN: <Status_Up>médio</>)"
+        }
+      },
+      "SANDownResist_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SANDownResist_Rank_4_TextData",
+          "SourceString": "(Aumento da resistência à redução de SAN: <Status_Up>grande</>)",
+          "LocalizedString": "(Aumento da resistência à redução de SAN: <Status_Up>grande</>)"
+        }
+      },
+      "SANDownResist_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SANDownResist_Rank_5_TextData",
+          "SourceString": "(Aumento da resistência à redução de SAN: <Status_Up>muito grande</>)",
+          "LocalizedString": "(Aumento da resistência à redução de SAN: <Status_Up>muito grande</>)"
+        }
+      },
+      "ElementBoost_Dark_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Dark_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "ElementBoost_Dark_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Dark_Rank_2_TextData",
+          "SourceString": "(Fortalecimento de ataques de escuridão: <Status_Up>pequeno</>)",
+          "LocalizedString": "(Fortalecimento de ataques de escuridão: <Status_Up>pequeno</>)"
+        }
+      },
+      "ElementBoost_Dark_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Dark_Rank_3_TextData",
+          "SourceString": "(Fortalecimento de ataques de escuridão: <Status_Up>médio</>)",
+          "LocalizedString": "(Fortalecimento de ataques de escuridão: <Status_Up>médio</>)"
+        }
+      },
+      "ElementBoost_Dark_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Dark_Rank_4_TextData",
+          "SourceString": "(Fortalecimento de ataques de escuridão: <Status_Up>grande</>)",
+          "LocalizedString": "(Fortalecimento de ataques de escuridão: <Status_Up>grande</>)"
+        }
+      },
+      "ElementBoost_Dark_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Dark_Rank_5_TextData",
+          "SourceString": "(Fortalecimento de ataques de escuridão: <Status_Up>muito grande</>)",
+          "LocalizedString": "(Fortalecimento de ataques de escuridão: <Status_Up>muito grande</>)"
+        }
+      },
+      "SyncroPassiveWhenCapture_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SyncroPassiveWhenCapture_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "SyncroPassiveWhenCapture_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SyncroPassiveWhenCapture_Rank_2_TextData",
+          "SourceString": "(Aumento da taxa de encontro de Pals com mesma habilidade passiva: <Status_Up>pequeno</>)",
+          "LocalizedString": "(Aumento da taxa de encontro de Pals com mesma habilidade passiva: <Status_Up>pequeno</>)"
+        }
+      },
+      "SyncroPassiveWhenCapture_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SyncroPassiveWhenCapture_Rank_3_TextData",
+          "SourceString": "(Aumento da taxa de encontro de Pals com mesma habilidade passiva: <Status_Up>médio</>)",
+          "LocalizedString": "(Aumento da taxa de encontro de Pals com mesma habilidade passiva: <Status_Up>médio</>)"
+        }
+      },
+      "SyncroPassiveWhenCapture_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SyncroPassiveWhenCapture_Rank_4_TextData",
+          "SourceString": "(Aumento da taxa de encontro de Pals com mesma habilidade passiva: <Status_Up>grande</>)",
+          "LocalizedString": "(Aumento da taxa de encontro de Pals com mesma habilidade passiva: <Status_Up>grande</>)"
+        }
+      },
+      "SyncroPassiveWhenCapture_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SyncroPassiveWhenCapture_Rank_5_TextData",
+          "SourceString": "(Aumento da taxa de encontro de Pals com mesma habilidade passiva: <Status_Up>muito grande</>)",
+          "LocalizedString": "(Aumento da taxa de encontro de Pals com mesma habilidade passiva: <Status_Up>muito grande</>)"
+        }
+      },
+      "FarmCropGrowupSpeed_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropGrowupSpeed_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "FarmCropGrowupSpeed_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropGrowupSpeed_Rank_2_TextData",
+          "SourceString": "(Aumento da velocidade de crescimento de plantações: <Status_Up>pequeno</>)",
+          "LocalizedString": "(Aumento da velocidade de crescimento de plantações: <Status_Up>pequeno</>)"
+        }
+      },
+      "FarmCropGrowupSpeed_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropGrowupSpeed_Rank_3_TextData",
+          "SourceString": "(Aumento da velocidade de crescimento de plantações: <Status_Up>médio</>)",
+          "LocalizedString": "(Aumento da velocidade de crescimento de plantações: <Status_Up>médio</>)"
+        }
+      },
+      "FarmCropGrowupSpeed_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropGrowupSpeed_Rank_4_TextData",
+          "SourceString": "(Aumento da velocidade de crescimento de plantações: <Status_Up>grande</>)",
+          "LocalizedString": "(Aumento da velocidade de crescimento de plantações: <Status_Up>grande</>)"
+        }
+      },
+      "FarmCropGrowupSpeed_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropGrowupSpeed_Rank_5_TextData",
+          "SourceString": "(Aumento da velocidade de crescimento de plantações: <Status_Up>muito grande</>)",
+          "LocalizedString": "(Aumento da velocidade de crescimento de plantações: <Status_Up>muito grande</>)"
+        }
+      },
+      "GriderPerformanceUp_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "GriderPerformanceUp_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "GriderPerformanceUp_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "GriderPerformanceUp_Rank_2_TextData",
+          "SourceString": "(Fortalecimento da funcionalidade do planador: <Status_Up>pequeno</>)",
+          "LocalizedString": "(Fortalecimento da funcionalidade do planador: <Status_Up>pequeno</>)"
+        }
+      },
+      "GriderPerformanceUp_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "GriderPerformanceUp_Rank_3_TextData",
+          "SourceString": "(Fortalecimento da funcionalidade do planador: <Status_Up>médio</>)",
+          "LocalizedString": "(Fortalecimento da funcionalidade do planador: <Status_Up>médio</>)"
+        }
+      },
+      "GriderPerformanceUp_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "GriderPerformanceUp_Rank_4_TextData",
+          "SourceString": "(Fortalecimento da funcionalidade do planador: <Status_Up>grande</>)",
+          "LocalizedString": "(Fortalecimento da funcionalidade do planador: <Status_Up>grande</>)"
+        }
+      },
+      "GriderPerformanceUp_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "GriderPerformanceUp_Rank_5_TextData",
+          "SourceString": "(Fortalecimento da funcionalidade do planador: <Status_Up>muito grande</>)",
+          "LocalizedString": "(Fortalecimento da funcionalidade do planador: <Status_Up>muito grande</>)"
+        }
+      },
+      "FarmCropHarvestNumRate_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropHarvestNumRate_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "FarmCropHarvestNumRate_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropHarvestNumRate_Rank_2_TextData",
+          "SourceString": "(Aumento da quantidade de colheita em plantações: <Status_Up>pequeno</>)",
+          "LocalizedString": "(Aumento da quantidade de colheita em plantações: <Status_Up>pequeno</>)"
+        }
+      },
+      "FarmCropHarvestNumRate_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropHarvestNumRate_Rank_3_TextData",
+          "SourceString": "(Aumento da quantidade de colheita em plantações: <Status_Up>médio</>)",
+          "LocalizedString": "(Aumento da quantidade de colheita em plantações: <Status_Up>médio</>)"
+        }
+      },
+      "FarmCropHarvestNumRate_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropHarvestNumRate_Rank_4_TextData",
+          "SourceString": "(Aumento da quantidade de colheita em plantações: <Status_Up>grande</>)",
+          "LocalizedString": "(Aumento da quantidade de colheita em plantações: <Status_Up>grande</>)"
+        }
+      },
+      "FarmCropHarvestNumRate_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropHarvestNumRate_Rank_5_TextData",
+          "SourceString": "(Aumento da quantidade de colheita em plantações: <Status_Up>muito grande</>)",
+          "LocalizedString": "(Aumento da quantidade de colheita em plantações: <Status_Up>muito grande</>)"
+        }
+      },
+      "ElementBoost_Neutral_Dark_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Neutral_Dark_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "ElementBoost_Neutral_Dark_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Neutral_Dark_Rank_2_TextData",
+          "SourceString": "(Fortalecimento de ataques de escuridão e não elementais: <Status_Up>pequeno</>)",
+          "LocalizedString": "(Fortalecimento de ataques de escuridão e não elementais: <Status_Up>pequeno</>)"
+        }
+      },
+      "ElementBoost_Neutral_Dark_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Neutral_Dark_Rank_3_TextData",
+          "SourceString": "(Fortalecimento de ataques de escuridão e não elementais: <Status_Up>médio</>)",
+          "LocalizedString": "(Fortalecimento de ataques de escuridão e não elementais: <Status_Up>médio</>)"
+        }
+      },
+      "ElementBoost_Neutral_Dark_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Neutral_Dark_Rank_4_TextData",
+          "SourceString": "(Fortalecimento de ataques de escuridão e não elementais: <Status_Up>grande</>)",
+          "LocalizedString": "(Fortalecimento de ataques de escuridão e não elementais: <Status_Up>grande</>)"
+        }
+      },
+      "ElementBoost_Neutral_Dark_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Neutral_Dark_Rank_5_TextData",
+          "SourceString": "(Fortalecimento de ataques de escuridão e não elementais: <Status_Up>muito grande</>)",
+          "LocalizedString": "(Fortalecimento de ataques de escuridão e não elementais: <Status_Up>muito grande</>)"
+        }
+      },
+      "Funnel_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Funnel_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "Funnel_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Funnel_Rank_2_TextData",
+          "SourceString": "(Fortalecimento de ataques complementares: <Status_Up>pequeno</>)",
+          "LocalizedString": "(Fortalecimento de ataques complementares: <Status_Up>pequeno</>)"
+        }
+      },
+      "Funnel_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Funnel_Rank_3_TextData",
+          "SourceString": "(Fortalecimento de ataques complementares: <Status_Up>médio</>)",
+          "LocalizedString": "(Fortalecimento de ataques complementares: <Status_Up>médio</>)"
+        }
+      },
+      "Funnel_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Funnel_Rank_4_TextData",
+          "SourceString": "(Fortalecimento de ataques complementares: <Status_Up>grande</>)",
+          "LocalizedString": "(Fortalecimento de ataques complementares: <Status_Up>grande</>)"
+        }
+      },
+      "Funnel_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Funnel_Rank_5_TextData",
+          "SourceString": "(Fortalecimento de ataques complementares: <Status_Up>muito grande</>)",
+          "LocalizedString": "(Fortalecimento de ataques complementares: <Status_Up>muito grande</>)"
+        }
+      },
+      "DamageUp_CooldownReduction_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_CooldownReduction_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "DamageUp_CooldownReduction_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_CooldownReduction_Rank_2_TextData",
+          "SourceString": "(Redução de tempo de recarga e aumento de dano: <Status_Up>pequeno</>)",
+          "LocalizedString": "(Redução de tempo de recarga e aumento de dano: <Status_Up>pequeno</>)"
+        }
+      },
+      "DamageUp_CooldownReduction_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_CooldownReduction_Rank_3_TextData",
+          "SourceString": "(Redução de tempo de recarga e aumento de dano: <Status_Up>médio</>)",
+          "LocalizedString": "(Redução de tempo de recarga e aumento de dano: <Status_Up>médio</>)"
+        }
+      },
+      "DamageUp_CooldownReduction_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_CooldownReduction_Rank_4_TextData",
+          "SourceString": "(Redução de tempo de recarga e aumento de dano: <Status_Up>grande</>)",
+          "LocalizedString": "(Redução de tempo de recarga e aumento de dano: <Status_Up>grande</>)"
+        }
+      },
+      "DamageUp_CooldownReduction_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_CooldownReduction_Rank_5_TextData",
+          "SourceString": "(Redução de tempo de recarga e aumento de dano: <Status_Up>muito grande</>)",
+          "LocalizedString": "(Redução de tempo de recarga e aumento de dano: <Status_Up>muito grande</>)"
+        }
+      },
+      "Talent_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Talent_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "Talent_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Talent_Rank_2_TextData",
+          "SourceString": "(Aumento da chance de pescar Pals habilidosos: <Status_Up>pequeno</>)",
+          "LocalizedString": "(Aumento da chance de pescar Pals habilidosos: <Status_Up>pequeno</>)"
+        }
+      },
+      "Talent_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Talent_Rank_3_TextData",
+          "SourceString": "(Aumento da chance de pescar Pals habilidosos: <Status_Up>médio</>)",
+          "LocalizedString": "(Aumento da chance de pescar Pals habilidosos: <Status_Up>médio</>)"
+        }
+      },
+      "Talent_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Talent_Rank_4_TextData",
+          "SourceString": "(Aumento da chance de pescar Pals habilidosos: <Status_Up>grande</>)",
+          "LocalizedString": "(Aumento da chance de pescar Pals habilidosos: <Status_Up>grande</>)"
+        }
+      },
+      "Talent_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Talent_Rank_5_TextData",
+          "SourceString": "(Aumento da chance de pescar Pals habilidosos: <Status_Up>muito grande</>)",
+          "LocalizedString": "(Aumento da chance de pescar Pals habilidosos: <Status_Up>muito grande</>)"
+        }
+      },
+      "StealthTime_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "StealthTime_Rank_1_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "StealthTime_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "StealthTime_Rank_2_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "StealthTime_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "StealthTime_Rank_3_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "StealthTime_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "StealthTime_Rank_4_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "StealthTime_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "StealthTime_Rank_5_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "ShortDashSpeed_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeed_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "ShortDashSpeed_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeed_Rank_2_TextData",
+          "SourceString": "(Aumento da velocidade de corrida: <Status_Up>pequeno</>)",
+          "LocalizedString": "(Aumento da velocidade de corrida: <Status_Up>pequeno</>)"
+        }
+      },
+      "ShortDashSpeed_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeed_Rank_3_TextData",
+          "SourceString": "(Aumento da velocidade de corrida: <Status_Up>médio</>)",
+          "LocalizedString": "(Aumento da velocidade de corrida: <Status_Up>médio</>)"
+        }
+      },
+      "ShortDashSpeed_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeed_Rank_4_TextData",
+          "SourceString": "(Aumento da velocidade de corrida: <Status_Up>grande</>)",
+          "LocalizedString": "(Aumento da velocidade de corrida: <Status_Up>grande</>)"
+        }
+      },
+      "ShortDashSpeed_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeed_Rank_5_TextData",
+          "SourceString": "(Aumento da velocidade de corrida: <Status_Up>muito grande</>)",
+          "LocalizedString": "(Aumento da velocidade de corrida: <Status_Up>muito grande</>)"
+        }
+      },
+      "ShortDashSpeedCoolTime_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeedCoolTime_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "ShortDashSpeedCoolTime_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeedCoolTime_Rank_2_TextData",
+          "SourceString": "(Aumento da velocidade de corrida e redução de tempo de recarga: <Status_Up>pequeno</>)",
+          "LocalizedString": "(Aumento da velocidade de corrida e redução de tempo de recarga: <Status_Up>pequeno</>)"
+        }
+      },
+      "ShortDashSpeedCoolTime_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeedCoolTime_Rank_3_TextData",
+          "SourceString": "(Aumento da velocidade de corrida e redução de tempo de recarga: <Status_Up>médio</>)",
+          "LocalizedString": "(Aumento da velocidade de corrida e redução de tempo de recarga: <Status_Up>médio</>)"
+        }
+      },
+      "ShortDashSpeedCoolTime_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeedCoolTime_Rank_4_TextData",
+          "SourceString": "(Aumento da velocidade de corrida e redução de tempo de recarga: <Status_Up>grande</>)",
+          "LocalizedString": "(Aumento da velocidade de corrida e redução de tempo de recarga: <Status_Up>grande</>)"
+        }
+      },
+      "ShortDashSpeedCoolTime_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeedCoolTime_Rank_5_TextData",
+          "SourceString": "(Aumento da velocidade de corrida e redução de tempo de recarga: <Status_Up>muito grande</>)",
+          "LocalizedString": "(Aumento da velocidade de corrida e redução de tempo de recarga: <Status_Up>muito grande</>)"
+        }
+      },
+      "Waza_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Waza_Rank_1_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "Waza_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Waza_Rank_2_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "Waza_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Waza_Rank_3_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "Waza_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Waza_Rank_4_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "Waza_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Waza_Rank_5_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "CaptureRate_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CaptureRate_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "CaptureRate_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CaptureRate_Rank_2_TextData",
+          "SourceString": "(Aumento da chance de captura: <Status_Up>pequeno</>)",
+          "LocalizedString": "(Aumento da chance de captura: <Status_Up>pequeno</>)"
+        }
+      },
+      "CaptureRate_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CaptureRate_Rank_3_TextData",
+          "SourceString": "(Aumento da chance de captura: <Status_Up>médio</>)",
+          "LocalizedString": "(Aumento da chance de captura: <Status_Up>médio</>)"
+        }
+      },
+      "CaptureRate_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CaptureRate_Rank_4_TextData",
+          "SourceString": "(Aumento da chance de captura: <Status_Up>grande</>)",
+          "LocalizedString": "(Aumento da chance de captura: <Status_Up>grande</>)"
+        }
+      },
+      "CaptureRate_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CaptureRate_Rank_5_TextData",
+          "SourceString": "(Aumento da chance de captura: <Status_Up>muito grande</>)",
+          "LocalizedString": "(Aumento da chance de captura: <Status_Up>muito grande</>)"
+        }
+      },
+      "EnemySightRate_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "EnemySightRate_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "EnemySightRate_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "EnemySightRate_Rank_2_TextData",
+          "SourceString": "(Aumento de furtividade: <Status_Up>pequeno</>)",
+          "LocalizedString": "(Aumento de furtividade: <Status_Up>pequeno</>)"
+        }
+      },
+      "EnemySightRate_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "EnemySightRate_Rank_3_TextData",
+          "SourceString": "(Aumento de furtividade: <Status_Up>médio</>)",
+          "LocalizedString": "(Aumento de furtividade: <Status_Up>médio</>)"
+        }
+      },
+      "EnemySightRate_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "EnemySightRate_Rank_4_TextData",
+          "SourceString": "(Aumento de furtividade: <Status_Up>grande</>)",
+          "LocalizedString": "(Aumento de furtividade: <Status_Up>grande</>)"
+        }
+      },
+      "EnemySightRate_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "EnemySightRate_Rank_5_TextData",
+          "SourceString": "(Aumento de furtividade: <Status_Up>muito grande</>)",
+          "LocalizedString": "(Aumento de furtividade: <Status_Up>muito grande</>)"
+        }
+      },
+      "SearchAreaCoolTime_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SearchAreaCoolTime_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "SearchAreaCoolTime_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SearchAreaCoolTime_Rank_2_TextData",
+          "SourceString": "(Expansão da área de detecção e redução de tempo de recarga: <Status_Up>pequena</>)",
+          "LocalizedString": "(Expansão da área de detecção e redução de tempo de recarga: <Status_Up>pequena</>)"
+        }
+      },
+      "SearchAreaCoolTime_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SearchAreaCoolTime_Rank_3_TextData",
+          "SourceString": "(Expansão da área de detecção e redução de tempo de recarga: <Status_Up>média</>)",
+          "LocalizedString": "(Expansão da área de detecção e redução de tempo de recarga: <Status_Up>média</>)"
+        }
+      },
+      "SearchAreaCoolTime_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SearchAreaCoolTime_Rank_4_TextData",
+          "SourceString": "(Expansão da área de detecção e redução de tempo de recarga: <Status_Up>grande</>)",
+          "LocalizedString": "(Expansão da área de detecção e redução de tempo de recarga: <Status_Up>grande</>)"
+        }
+      },
+      "SearchAreaCoolTime_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SearchAreaCoolTime_Rank_5_TextData",
+          "SourceString": "(Expansão da área de detecção e redução de tempo de recarga: <Status_Up>muito grande</>)",
+          "LocalizedString": "(Expansão da área de detecção e redução de tempo de recarga: <Status_Up>muito grande</>)"
+        }
+      }
+    }
+  }
+]

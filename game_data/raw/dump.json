@@ -1,0 +1,236 @@
+{
+  "version": "1.0.0",
+  "build": "100",
+  "releaseDate": "2026-01-15T00:00:00.000Z",
+  "elements": [
+    {
+      "internalName": "Fire",
+      "name": "Fire"
+    },
+    {
+      "internalName": "Earth",
+      "name": "Earth"
+    }
+  ],
+  "skills": [
+    {
+      "internalName": "Skill_FireBall",
+      "name": "Fire Ball",
+      "description": "Shoots a fireball",
+      "power": 70,
+      "cooldown": 5,
+      "element": "Fire",
+      "category": "ACTIVE"
+    },
+    {
+      "internalName": "Partner_Anubis",
+      "name": "Guardian Command",
+      "category": "PARTNER"
+    }
+  ],
+  "passives": [
+    {
+      "internalName": "Legend",
+      "name": "Legend",
+      "rarity": 4,
+      "modifiers": {
+        "attack": 0.2,
+        "defense": 0.2
+      }
+    }
+  ],
+  "items": [
+    {
+      "internalName": "PalFluid",
+      "name": "Pal Fluid",
+      "rarity": 1,
+      "weight": 1,
+      "price": 50,
+      "stackSize": 9999
+    },
+    {
+      "internalName": "Cloth",
+      "name": "Cloth",
+      "rarity": 1,
+      "stackSize": 9999
+    }
+  ],
+  "pals": [
+    {
+      "internalName": "Anubis",
+      "paldexNumber": 99,
+      "name": "Anubis",
+      "description": "Guardian of the desert",
+      "rarity": 10,
+      "hp": 120,
+      "attack": 130,
+      "defense": 100,
+      "breedingPower": 480,
+      "elements": [
+        "Earth"
+      ],
+      "partnerSkill": "Partner_Anubis",
+      "passiveSkills": [
+        "Legend"
+      ],
+      "activeSkills": [
+        "Skill_FireBall"
+      ],
+      "workSuitabilities": [
+        {
+          "type": "Handiwork",
+          "level": 4
+        },
+        {
+          "type": "Mining",
+          "level": 3
+        }
+      ],
+      "drops": [
+        {
+          "item": "PalFluid",
+          "chance": 0.5,
+          "quantityMin": 1,
+          "quantityMax": 2
+        }
+      ],
+      "habitats": [
+        "Desert_A"
+      ]
+    },
+    {
+      "internalName": "Lamball",
+      "paldexNumber": 1,
+      "name": "Lamball",
+      "description": "A fluffy starter Pal",
+      "rarity": 1,
+      "hp": 70,
+      "attack": 70,
+      "defense": 70,
+      "breedingPower": 3050,
+      "elements": [],
+      "passiveSkills": [],
+      "activeSkills": [],
+      "workSuitabilities": [
+        {
+          "type": "Farming",
+          "level": 1
+        }
+      ],
+      "drops": [
+        {
+          "item": "Cloth",
+          "chance": 1,
+          "quantityMin": 1,
+          "quantityMax": 1
+        }
+      ],
+      "habitats": [
+        "Starter_Plains"
+      ]
+    },
+    {
+      "internalName": "Chikipi",
+      "paldexNumber": 3,
+      "name": "Chikipi",
+      "breedingPower": 3080,
+      "elements": [],
+      "passiveSkills": [],
+      "activeSkills": [],
+      "workSuitabilities": [
+        {
+          "type": "Farming",
+          "level": 1
+        }
+      ],
+      "drops": [],
+      "habitats": []
+    }
+  ],
+  "recipes": [
+    {
+      "internalName": "Recipe_Cloth",
+      "craftingStation": "Primitive Workbench",
+      "craftTime": 2,
+      "result": "Cloth",
+      "resultQuantity": 1,
+      "ingredients": [
+        {
+          "item": "PalFluid",
+          "quantity": 2
+        }
+      ]
+    }
+  ],
+  "technologies": [
+    {
+      "internalName": "Tech_Workbench",
+      "name": "Primitive Workbench",
+      "level": 1,
+      "unlockCost": 0,
+      "item": "Cloth"
+    }
+  ],
+  "locations": [
+    {
+      "internalName": "Desert_A",
+      "name": "Desert Oasis",
+      "biome": "Desert",
+      "coordinates": {
+        "x": 100,
+        "y": 0,
+        "z": 200
+      },
+      "level": 30
+    },
+    {
+      "internalName": "Starter_Plains",
+      "name": "Starter Plains",
+      "biome": "Plains",
+      "level": 1
+    }
+  ],
+  "dungeons": [
+    {
+      "internalName": "Dungeon_Desert_1",
+      "name": "Desert Sanctum",
+      "biome": "Desert",
+      "minimumLevel": 25,
+      "maximumLevel": 35,
+      "location": "Desert_A"
+    }
+  ],
+  "bosses": [
+    {
+      "internalName": "Boss_Anubis",
+      "level": 40,
+      "respawnTime": 3600,
+      "pal": "Anubis",
+      "location": "Desert_A",
+      "dungeon": "Dungeon_Desert_1"
+    }
+  ],
+  "breedingOverrides": [
+    {
+      "parentA": "Anubis",
+      "parentB": "Anubis",
+      "child": "Anubis"
+    }
+  ],
+  "translations": [
+    {
+      "entityType": "pal",
+      "entityInternalName": "Anubis",
+      "locale": "pt-BR",
+      "field": "name",
+      "value": "Anúbis"
+    },
+    {
+      "entityType": "pal",
+      "entityInternalName": "Anubis",
+      "locale": "pt-BR",
+      "field": "description",
+      "value": "Guardião do deserto"
+    }
+  ]
+}

@@ -145,12 +145,10 @@ export class ImportPipeline {
           }
 
           if (stepName === ImportStepName.INDEX) {
-            const gv = await prisma.gameVersion.findFirst({
-              where: {
-                version: job.versionLabel,
-                build: job.buildLabel ?? '',
-              },
+            const freshJob = await prisma.importJob.findUniqueOrThrow({
+              where: { id: jobId },
             });
+            const gv = await resolveJobGameVersion(freshJob);
             if (gv) {
               const indexed = await reindexGameVersion(gv.id).catch((err) => {
                 stats.details.indexError =
@@ -167,28 +165,31 @@ export class ImportPipeline {
           }
 
           if (stepName === ImportStepName.ACTIVATE) {
-            const gv = await prisma.gameVersion.findFirst({
-              where: {
-                version: job.versionLabel,
-                build: job.buildLabel ?? '',
-              },
+            const freshJob = await prisma.importJob.findUniqueOrThrow({
+              where: { id: jobId },
             });
-            if (gv) {
-              await prisma.$transaction([
-                prisma.gameVersion.updateMany({
-                  data: { isActive: false },
-                  where: { isActive: true },
-                }),
-                prisma.gameVersion.update({
-                  where: { id: gv.id },
-                  data: { isActive: true },
-                }),
-                prisma.importJob.update({
-                  where: { id: jobId },
-                  data: { gameVersionId: gv.id },
-                }),
-              ]);
+            const gv = await resolveJobGameVersion(freshJob);
+            if (!gv) {
+              throw new AppError(
+                500,
+                `GameVersion not found for job ${jobId} (label=${freshJob.versionLabel})`,
+                'GAME_VERSION_MISSING',
+              );
             }
+            await prisma.$transaction([
+              prisma.gameVersion.updateMany({
+                data: { isActive: false },
+                where: { isActive: true },
+              }),
+              prisma.gameVersion.update({
+                where: { id: gv.id },
+                data: { isActive: true },
+              }),
+              prisma.importJob.update({
+                where: { id: jobId },
+                data: { gameVersionId: gv.id },
+              }),
+            ]);
           }
 
           await this.markStep(jobId, stepName, ImportStepStatus.COMPLETED);
@@ -945,6 +946,25 @@ function mapStepToJobStatus(step: ImportStepName): ImportJobStatus {
     default:
       return ImportJobStatus.PENDING;
   }
+}
+
+async function resolveJobGameVersion(job: {
+  gameVersionId: string | null;
+  versionLabel: string;
+  buildLabel: string | null;
+}) {
+  if (job.gameVersionId) {
+    const byId = await prisma.gameVersion.findUnique({
+      where: { id: job.gameVersionId },
+    });
+    if (byId) return byId;
+  }
+  return prisma.gameVersion.findFirst({
+    where: {
+      version: job.versionLabel,
+      build: job.buildLabel ?? '',
+    },
+  });
 }
 
 async function writeSidecar(workspace: string, name: string, data: unknown) {

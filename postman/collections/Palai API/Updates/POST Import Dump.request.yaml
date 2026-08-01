@@ -1,28 +1,32 @@
 $kind: http-request
 name: Import Dump
 method: POST
-url: '{{baseUrl}}/v1/updates/import'
-description: '[Admin] Faz upload de um dump de dados do jogo (.zip ou .json) e inicia o pipeline de importação. Requer role Admin.'
+url: "{{baseUrl}}/v1/updates/import"
+description: "[Admin] Faz upload de um dump de dados do jogo (.zip ou .json) e inicia o pipeline de importação. Requer role Admin."
 order: 1000
 headers:
-  - key: Authorization
-    value: 'Bearer {{accessToken}}'
+  Authorization: Bearer {{accessToken}}
 body:
   type: formdata
   content:
-    - key: file
-      type: file
-      src: ''
+    - type: file
+      key: file
+      src:
+        - /C:/Users/arthu/wks/palai/api/game_data/dump.json
       description: Arquivo .zip ou .json do dump
-    - key: version
-      type: text
-      value: '1.0.0'
+      disabled: false
+    - type: text
+      key: version
+      value: 1.0.0
       description: 'Versão do jogo (ex: "1.0.0")'
-    - key: build
-      type: text
-      value: ''
+      disabled: false
+    - type: text
+      key: build
+      value: ""
       description: Build (opcional)
-    - key: releaseDate
-      type: text
-      value: ''
+      disabled: false
+    - type: text
+      key: releaseDate
+      value: ""
       description: Data de lançamento em formato ISO (opcional)
+      disabled: false

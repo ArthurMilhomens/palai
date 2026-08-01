@@ -11,6 +11,30 @@ REST API for Palworld game data. Extracts dumps uploaded by admins, persists nor
 - S3-compatible storage (MinIO locally)
 - Vitest
 
+## Gerar dump dos dados do jogo
+
+O script detecta o Palworld instalado via Steam e converte exports do FModel:
+
+```bash
+npm run dump:generate
+```
+
+1. Localiza `Palworld` + `buildid` no Steam  
+2. Lê DataTables JSON em `game_data/fmodel` (ou pasta do FModel)  
+3. Gera `game_data/dump.json` e `game_data/dump.zip`
+
+Na primeira vez, exporte as tabelas com o FModel para `game_data/fmodel`  
+(veja `game_data/EXPORT_INSTRUCTIONS.md`). Obrigatória: `DT_PalMonsterParameter`.
+
+```bash
+# só o sample interno (sem jogo)
+npm run dump:fixture
+
+# paths manuais
+npm run dump:generate -- --game-path "D:\SteamLibrary\steamapps\common\Palworld"
+npm run dump:generate -- --export-dir "C:\FModel\Output\Exports"
+```
+
 ## Quick start
 
 ```bash

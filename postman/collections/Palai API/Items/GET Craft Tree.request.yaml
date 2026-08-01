@@ -1,0 +1,27 @@
+$kind: http-request
+name: Craft Tree
+method: GET
+url: "{{baseUrl}}/v1/items/craft-tree?q=computador&quantity=1"
+description: Retorna a árvore de crafting de um item, com todos os materiais necessários para fabricá-lo.
+queryParams:
+  - key: q
+    value: computador
+    disabled: false
+    description: ""
+  - key: quantity
+    value: "1"
+    disabled: false
+    description: ""
+order: 3000
+headers:
+  Authorization: Bearer {{accessToken}}
+params:
+  - key: q
+    value: computador
+    description: Nome ou termo de busca do item
+  - key: quantity
+    value: '5'
+    description: Quantidade desejada do item
+  - key: lang
+    value: pt-BR
+    description: Idioma da resposta

@@ -1,32 +1,37 @@
 $kind: http-request
 name: List Items
 method: GET
-url: '{{baseUrl}}/v1/items'
+url: "{{baseUrl}}/v1/items"
 description: Lista todos os itens do jogo.
 order: 1000
 headers:
-  - key: Authorization
-    value: 'Bearer {{accessToken}}'
+  Authorization: Bearer {{accessToken}}
 queryParams:
   - key: q
-    value: ''
+    value: Exolita
     disabled: true
+    description: ""
   - key: name
-    value: ''
+    value: ""
     disabled: true
+    description: ""
   - key: rarity
-    value: ''
+    value: ""
     disabled: true
+    description: ""
   - key: gameVersion
-    value: ''
+    value: ""
     disabled: true
+    description: ""
   - key: page
-    value: '1'
+    value: "1"
     disabled: true
+    description: ""
   - key: limit
-    value: '20'
+    value: "20"
     disabled: true
+    description: ""
   - key: sort
-    value: ''
+    value: ""
     disabled: true
-    description: 'name, rarity, price, weight'
+    description: name, rarity, price, weight
