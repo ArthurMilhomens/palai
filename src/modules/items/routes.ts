@@ -1,4 +1,5 @@
 import type { FastifyInstance, FastifyReply, FastifyRequest } from 'fastify';
+import { z } from 'zod';
 import { prisma } from '../../prisma/client.js';
 import { createEntityModule } from '../../shared/entity-module.js';
 import { authenticate } from '../auth/controller.js';
@@ -94,14 +95,29 @@ export async function itemsRoutes(app: FastifyInstance): Promise<void> {
   });
 
   app.get('/:idOrSlug', {
-    schema: { tags: ['Items'], security: [{ bearerAuth: [] }] },
+    schema: {
+      tags: ['Items'],
+      security: [{ bearerAuth: [] }],
+      querystring: {
+        type: 'object',
+        properties: {
+          rarity: { type: 'integer', minimum: 0, maximum: 4 },
+          lang: { type: 'string' },
+          gameVersion: { type: 'string' },
+        },
+      },
+    },
     handler: async (req: FastifyRequest, reply: FastifyReply) => {
       const params = req.params as { idOrSlug: string };
       const query = listQuerySchema
         .pick({ gameVersion: true, lang: true })
+        .extend({
+          rarity: z.coerce.number().int().min(0).max(4).optional(),
+        })
         .parse(req.query);
       const data = await getItemDetail({
         idOrSlug: params.idOrSlug,
+        rarity: query.rarity,
         lang: query.lang,
         gameVersion: query.gameVersion,
         acceptLanguage: req.headers['accept-language'],

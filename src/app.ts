@@ -15,6 +15,7 @@ import { palsRoutes } from './modules/pals/routes.js';
 import { skillsRoutes } from './modules/skills/routes.js';
 import { passivesRoutes } from './modules/passives/routes.js';
 import { itemsRoutes } from './modules/items/routes.js';
+import { lootPoolsRoutes } from './modules/loot-pools/routes.js';
 import { recipesRoutes } from './modules/recipes/routes.js';
 import { technologiesRoutes } from './modules/technologies/routes.js';
 import { locationsRoutes } from './modules/locations/routes.js';
@@ -115,6 +116,7 @@ export async function buildApp(options?: {
   await app.register(skillsRoutes, { prefix: '/v1/skills' });
   await app.register(passivesRoutes, { prefix: '/v1/passives' });
   await app.register(itemsRoutes, { prefix: '/v1/items' });
+  await app.register(lootPoolsRoutes, { prefix: '/v1/loot-pools' });
   await app.register(recipesRoutes, { prefix: '/v1/recipes' });
   await app.register(technologiesRoutes, { prefix: '/v1/technologies' });
   await app.register(locationsRoutes, { prefix: '/v1/locations' });

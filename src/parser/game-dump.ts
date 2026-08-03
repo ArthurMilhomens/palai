@@ -74,6 +74,20 @@ export const dumpItemSchema = z.object({
   weight: z.number().optional().nullable(),
   price: z.number().int().optional().nullable(),
   stackSize: z.number().int().optional().nullable(),
+  lootSources: z
+    .array(
+      z.object({
+        type: z.string(),
+        pool: z.string(),
+        grade: z.string().optional().nullable(),
+        weight: z.number().optional().nullable(),
+        chance: z.number().optional().nullable(),
+        slotChance: z.number().optional().nullable(),
+        quantityMin: z.number().int().default(1),
+        quantityMax: z.number().int().default(1),
+      }),
+    )
+    .default([]),
 });
 
 export const dumpRecipeSchema = z.object({

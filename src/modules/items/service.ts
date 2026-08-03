@@ -595,33 +595,110 @@ export async function listItems(options: {
     };
   }
 
-  const where = {
-    gameVersionId,
-    ...(matchedIds ? { id: { in: matchedIds } } : {}),
-    ...(options.rarity !== undefined ? { rarity: options.rarity } : {}),
-  };
-
   const sort = ITEM_LIST_SORTS.has(options.sort ?? '')
     ? (options.sort as string)
     : 'name';
+
+  let familyRows: Array<{
+    id: string;
+    internalName: string;
+    name: string;
+    description: string | null;
+    iconUrl: string | null;
+    rarity: number | null;
+    weight: number | null;
+    price: number | null;
+    stackSize: number | null;
+    gameVersionId: string;
+    createdAt: Date;
+    updatedAt: Date;
+  }>;
+
+  if (matchedIds) {
+    const seeds = await prisma.item.findMany({
+      where: { id: { in: matchedIds } },
+      select: { id: true, internalName: true },
+    });
+    const bases = [...new Set(seeds.map((s) => rarityVariantBase(s.internalName)))];
+    const expanded = await prisma.item.findMany({
+      where: {
+        gameVersionId,
+        OR: bases.flatMap((base) => [
+          { internalName: base },
+          { internalName: { startsWith: `${base}_` } },
+        ]),
+      },
+    });
+    familyRows = expanded.filter((row) =>
+      bases.some((base) => isRarityVariantOf(base, row.internalName)),
+    );
+  } else {
+    familyRows = await prisma.item.findMany({
+      where: {
+        gameVersionId,
+        ...(options.rarity !== undefined ? { rarity: options.rarity } : {}),
+      },
+    });
+  }
+
+  if (options.rarity !== undefined && matchedIds) {
+    familyRows = familyRows.filter((row) => row.rarity === options.rarity);
+  }
+
+  const localized = await localizeItems(familyRows, gameVersionId, locale);
+
+  const groups = new Map<string, typeof localized>();
+  for (const item of localized) {
+    const key = rarityVariantBase(item.internalName);
+    const list = groups.get(key) ?? [];
+    list.push(item);
+    groups.set(key, list);
+  }
+
+  let grouped = [...groups.entries()].map(([, family]) => {
+    const sorted = [...family].sort((a, b) => {
+      const ar = a.rarity ?? Number.POSITIVE_INFINITY;
+      const br = b.rarity ?? Number.POSITIVE_INFINITY;
+      if (ar !== br) return ar - br;
+      return a.internalName.localeCompare(b.internalName);
+    });
+    const rep = sorted[0]!;
+    return {
+      id: rep.id,
+      internalName: rep.internalName,
+      name: rep.name,
+      names: rep.names,
+      description: rep.description,
+      iconUrl: rep.iconUrl,
+      rarity: rep.rarity,
+      rarityLabel: rarityLabel(rep.rarity),
+      weight: rep.weight,
+      price: rep.price,
+      stackSize: rep.stackSize,
+      variantCount: family.length,
+      groupKey: rarityVariantBase(rep.internalName),
+    };
+  });
+
+  grouped.sort((a, b) => {
+    const dir = options.order === 'desc' ? -1 : 1;
+    if (sort === 'name') {
+      return a.name.localeCompare(b.name, locale) * dir;
+    }
+    const av = (a as Record<string, unknown>)[sort];
+    const bv = (b as Record<string, unknown>)[sort];
+    if (typeof av === 'number' && typeof bv === 'number') {
+      return (av - bv) * dir;
+    }
+    return String(av ?? '').localeCompare(String(bv ?? ''), locale) * dir;
+  });
+
+  const total = grouped.length;
   const skip = (options.page - 1) * options.limit;
+  const data = grouped.slice(skip, skip + options.limit);
 
-  const [total, rows] = await Promise.all([
-    prisma.item.count({ where }),
-    prisma.item.findMany({
-      where,
-      skip,
-      take: options.limit,
-      orderBy: { [sort]: options.order },
-    }),
-  ]);
-
-  const data = await localizeItems(rows, gameVersionId, locale);
   return {
-    data: data.map((item) => ({
-      ...item,
-      rarityLabel: rarityLabel(item.rarity),
-    })),
+    data,
     meta: {
       page: options.page,
       limit: options.limit,
@@ -634,19 +711,19 @@ export async function listItems(options: {
 }
 
 async function localizeItems<
-  T extends { id: string; name: string },
+  T extends { id: string; name: string; description?: string | null },
 >(
   items: T[],
   gameVersionId: string,
   locale: string,
-): Promise<Array<T & { names: ItemNames; name: string }>> {
+): Promise<Array<T & { names: ItemNames; name: string; description: string | null }>> {
   if (items.length === 0) return [];
   const ids = items.map((i) => i.id);
   const translations = await prisma.translation.findMany({
     where: {
       gameVersionId,
       entityType: 'item',
-      field: 'name',
+      field: { in: ['name', 'description'] },
       entityId: { in: ids },
     },
     select: { entityId: true, locale: true, field: true, value: true },
@@ -664,6 +741,13 @@ async function localizeItems<
     return {
       ...item,
       name: pickTranslation(forItem, 'name', locale, item.name) ?? item.name,
+      description:
+        pickTranslation(
+          forItem,
+          'description',
+          locale,
+          item.description ?? null,
+        ) ?? item.description ?? null,
       names,
     };
   });
@@ -706,6 +790,7 @@ async function localizePals<
 
 export async function getItemDetail(options: {
   idOrSlug: string;
+  rarity?: number;
   lang?: string;
   gameVersion?: string;
   acceptLanguage?: string;
@@ -716,7 +801,7 @@ export async function getItemDetail(options: {
     options.lang,
   );
 
-  const item = await prisma.item.findFirst({
+  let seed = await prisma.item.findFirst({
     where: {
       gameVersionId,
       OR: [
@@ -724,10 +809,49 @@ export async function getItemDetail(options: {
         { internalName: options.idOrSlug },
       ],
     },
+    select: itemSelect,
   });
-  if (!item) {
+
+  if (!seed) {
+    const base = options.idOrSlug;
+    const candidates = await prisma.item.findMany({
+      where: {
+        gameVersionId,
+        OR: [
+          { internalName: base },
+          { internalName: { startsWith: `${base}_` } },
+        ],
+      },
+      select: itemSelect,
+    });
+    const family = sortVariantsByRarity(
+      candidates.filter((c) => isRarityVariantOf(base, c.internalName)),
+    );
+    seed = family[0] ?? null;
+  }
+
+  if (!seed) {
     throw new NotFoundError(`Item not found: ${options.idOrSlug}`);
   }
+
+  const variants = await loadRarityVariants(gameVersionId, seed);
+  const selected = selectVariant(variants, options.rarity);
+  if (!selected) {
+    if (options.rarity != null) {
+      throw new NotFoundError(
+        `No variant with rarity ${options.rarity} for: ${options.idOrSlug}`,
+        {
+          rarity: options.rarity,
+          variants: variants.map(toVariantDto),
+        },
+      );
+    }
+    throw new NotFoundError(`Item not found: ${options.idOrSlug}`);
+  }
+
+  const item = await prisma.item.findFirstOrThrow({
+    where: { id: selected.id },
+  });
 
   const [localized] = await localizeItems([item], gameVersionId, locale);
 
@@ -825,6 +949,8 @@ export async function getItemDetail(options: {
     locale,
     ...localized!,
     rarityLabel: rarityLabel(item.rarity),
+    variants: variants.map(toVariantDto),
+    lootSources: Array.isArray(item.lootSources) ? item.lootSources : [],
     drops: drops.map((d) => {
       const pal = palById.get(d.pal.id) ?? d.pal;
       return {

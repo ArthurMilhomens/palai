@@ -431,6 +431,7 @@ export class ImportPipeline {
           weight: item.weight ?? null,
           price: item.price ?? null,
           stackSize: item.stackSize ?? null,
+          lootSources: item.lootSources ?? [],
           gameVersionId: gameVersion.id,
         },
         update: {
@@ -441,6 +442,7 @@ export class ImportPipeline {
           weight: item.weight ?? null,
           price: item.price ?? null,
           stackSize: item.stackSize ?? null,
+          lootSources: item.lootSources ?? [],
         },
       });
       itemMap.set(item.internalName, row.id);

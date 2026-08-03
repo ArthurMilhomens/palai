@@ -65,10 +65,11 @@ function isUsableLocalizedText(value: string | null | undefined): value is strin
   return true;
 }
 
-function pushItemNameTranslation(
+function pushItemTranslation(
   translations: GameDump['translations'],
   internalName: string,
   locale: string,
+  field: string,
   value: string | null | undefined,
 ): void {
   if (!isUsableLocalizedText(value)) return;
@@ -77,16 +78,74 @@ function pushItemNameTranslation(
       t.entityType === 'item' &&
       t.entityInternalName === internalName &&
       t.locale === locale &&
-      t.field === 'name',
+      t.field === field,
   );
   if (exists) return;
   translations.push({
     entityType: 'item',
     entityInternalName: internalName,
     locale,
-    field: 'name',
+    field,
     value: value.trim(),
   });
+}
+
+function pushItemNameTranslation(
+  translations: GameDump['translations'],
+  internalName: string,
+  locale: string,
+  value: string | null | undefined,
+): void {
+  pushItemTranslation(translations, internalName, locale, 'name', value);
+}
+
+type RichTextLookups = {
+  itemName: (id: string) => string | null;
+  mapObjectName: (id: string) => string | null;
+  uiCommon: (id: string) => string | null;
+};
+
+function resolveRichText(
+  text: string | null | undefined,
+  lookups: RichTextLookups,
+): string | null {
+  if (!isUsableLocalizedText(text)) return null;
+  return text
+    .replace(/\\r\\n/g, '\n')
+    .replace(/\r\n/g, '\n')
+    .replace(
+      /<itemName\s+id=\|([^|]+)\|\s*\/>/gi,
+      (_m, id: string) => lookups.itemName(id) ?? id,
+    )
+    .replace(
+      /<mapObjectName\s+id=\|([^|]+)\|\s*\/>/gi,
+      (_m, id: string) => lookups.mapObjectName(id) ?? id,
+    )
+    .replace(
+      /<mapObjectname\s+id=\|([^|]+)\|\s*\/>/gi,
+      (_m, id: string) => lookups.mapObjectName(id) ?? id,
+    )
+    .replace(
+      /<uiCommon\s+id=\|([^|]+)\|\s*\/>/gi,
+      (_m, id: string) => lookups.uiCommon(id) ?? id,
+    )
+    .trim();
+}
+
+function makeL10nLookup(
+  rows: DataTableRows | null,
+  prefixes: string[],
+): (id: string) => string | null {
+  return (id: string) => {
+    if (!rows) return null;
+    for (const prefix of prefixes) {
+      const direct = textFromL10n(rows, `${prefix}${id}`);
+      if (isUsableLocalizedText(direct)) return direct.trim();
+    }
+    const bare = textFromL10n(rows, id);
+    if (isUsableLocalizedText(bare)) return bare.trim();
+    return null;
+  };
 }
 
 function isProbablyHumanPal(rowName: string, row: Record<string, unknown>): boolean {
@@ -271,6 +330,54 @@ export async function convertExportsToPalaiDump(options: {
   ]);
   if (itemDescs) sources.push(itemDescs.filePath);
 
+  const itemDescsEn = await loadLocaleNamedDataTable(options.exportDirs, 'en', [
+    'DT_ItemDescriptionText',
+  ]);
+  if (itemDescsEn) sources.push(itemDescsEn.filePath);
+
+  const itemDescsPt = await loadLocaleNamedDataTable(
+    options.exportDirs,
+    'pt-BR',
+    ['DT_ItemDescriptionText'],
+  );
+  if (itemDescsPt) sources.push(itemDescsPt.filePath);
+
+  const mapObjectNamesEn = await loadLocaleNamedDataTable(
+    options.exportDirs,
+    'en',
+    ['DT_MapObjectNameText'],
+  );
+  if (mapObjectNamesEn) sources.push(mapObjectNamesEn.filePath);
+
+  const mapObjectNamesPt = await loadLocaleNamedDataTable(
+    options.exportDirs,
+    'pt-BR',
+    ['DT_MapObjectNameText'],
+  );
+  if (mapObjectNamesPt) sources.push(mapObjectNamesPt.filePath);
+
+  const uiCommonEn = await loadLocaleNamedDataTable(options.exportDirs, 'en', [
+    'DT_UI_Common_Text',
+  ]);
+  if (uiCommonEn) sources.push(uiCommonEn.filePath);
+
+  const uiCommonPt = await loadLocaleNamedDataTable(
+    options.exportDirs,
+    'pt-BR',
+    ['DT_UI_Common_Text'],
+  );
+  if (uiCommonPt) sources.push(uiCommonPt.filePath);
+
+  const itemLottery = await loadNamedDataTable(options.exportDirs, [
+    'DT_ItemLotteryDataTable',
+  ]);
+  if (itemLottery) sources.push(itemLottery.filePath);
+
+  const fieldLottery = await loadNamedDataTable(options.exportDirs, [
+    'DT_FieldLotteryNameDataTable',
+  ]);
+  if (fieldLottery) sources.push(fieldLottery.filePath);
+
   const worldAreas = await loadNamedDataTable(options.exportDirs, [
     'DT_WorldMapAreaData',
   ]);
@@ -375,6 +482,32 @@ export async function convertExportsToPalaiDump(options: {
   }
 
   // Items (best-effort) — prefer EN display name; keep EN/PT translations for search
+  const richLookupsEn: RichTextLookups = {
+    itemName: (id) => {
+      const v =
+        textFromL10n(itemNamesEn?.rows ?? null, `ITEM_NAME_${id}`) ??
+        textFromL10n(itemNames?.rows ?? null, `ITEM_NAME_${id}`);
+      return isUsableLocalizedText(v) ? v.trim() : null;
+    },
+    mapObjectName: makeL10nLookup(mapObjectNamesEn?.rows ?? null, [
+      'MAPOBJECT_NAME_',
+    ]),
+    uiCommon: makeL10nLookup(uiCommonEn?.rows ?? null, ['']),
+  };
+  const richLookupsPt: RichTextLookups = {
+    itemName: (id) => {
+      const v =
+        textFromL10n(itemNamesPt?.rows ?? null, `ITEM_NAME_${id}`) ??
+        textFromL10n(itemNamesEn?.rows ?? null, `ITEM_NAME_${id}`) ??
+        textFromL10n(itemNames?.rows ?? null, `ITEM_NAME_${id}`);
+      return isUsableLocalizedText(v) ? v.trim() : null;
+    },
+    mapObjectName: makeL10nLookup(mapObjectNamesPt?.rows ?? null, [
+      'MAPOBJECT_NAME_',
+    ]),
+    uiCommon: makeL10nLookup(uiCommonPt?.rows ?? null, ['']),
+  };
+
   if (items) {
     for (const [rowName, row] of Object.entries(items.rows)) {
       const price = asNumber(row.Price);
@@ -414,20 +547,19 @@ export async function convertExportsToPalaiDump(options: {
           ? overrideDesc
           : `ITEM_DESC_${rowName}`;
 
+      const enDescRaw =
+        textFromL10n(itemDescsEn?.rows ?? null, descKey) ??
+        textFromL10n(itemDescs?.rows ?? null, descKey);
+      const ptDescRaw =
+        textFromL10n(itemDescsPt?.rows ?? null, descKey) ?? enDescRaw;
+      const enDesc = resolveRichText(enDescRaw, richLookupsEn);
+      const ptDesc = resolveRichText(ptDescRaw, richLookupsPt);
+      const displayDesc = enDesc ?? ptDesc;
+
       itemList.push({
         internalName: rowName,
         name: displayName,
-        description:
-          textFromL10n(itemDescs?.rows ?? null, descKey) ??
-          textFromL10n(
-            descs?.rows ?? null,
-            asString(row.ItemDescriptionTextId) ?? asString(row.DescriptionTextId),
-          ) ??
-          (overrideDesc &&
-          overrideDesc !== 'None' &&
-          !overrideDesc.startsWith('ITEM_DESC_')
-            ? overrideDesc
-            : null),
+        description: displayDesc,
         icon: resolveIconPath(rowName, itemIconLookup, iconFiles, [
           asString(row.IconName),
         ]),
@@ -440,10 +572,13 @@ export async function convertExportsToPalaiDump(options: {
             : asNumber(row.Stack) != null
               ? Math.round(asNumber(row.Stack)!)
               : null,
+        lootSources: [],
       });
 
       pushItemNameTranslation(translations, rowName, 'en', enName ?? displayName);
       pushItemNameTranslation(translations, rowName, 'pt-BR', ptName ?? displayName);
+      pushItemTranslation(translations, rowName, 'en', 'description', enDesc);
+      pushItemTranslation(translations, rowName, 'pt-BR', 'description', ptDesc);
     }
   }
 
@@ -485,10 +620,106 @@ export async function convertExportsToPalaiDump(options: {
             weight: null,
             price: null,
             stackSize: null,
+            lootSources: [],
           });
         }
       }
       dropListLinked.set(palId, list);
+    }
+  }
+
+  // Treasure / field loot pools (schematics come from here, not pal drops)
+  if (itemLottery) {
+    type LotteryRow = {
+      fieldName: string;
+      slotNo: number;
+      weight: number;
+      itemId: string;
+      minNum: number;
+      maxNum: number;
+      grade: string | null;
+    };
+    const lotteryRows: LotteryRow[] = [];
+    for (const row of Object.values(itemLottery.rows)) {
+      const itemId = asString(row.StaticItemId);
+      const fieldName = asString(row.FieldName);
+      if (!itemId || itemId === 'None' || !fieldName) continue;
+      const slotNo = asNumber(row.SlotNo) ?? 1;
+      const weight = asNumber(row.WeightInSlot) ?? 0;
+      const minNum = asNumber(row.MinNum) ?? 1;
+      const maxNum = asNumber(row.MaxNum) ?? minNum;
+      const grade = stripEnumPrefix(asString(row.TreasureBoxGrade), [
+        'EPalMapObjectTreasureGradeType::',
+      ]);
+      lotteryRows.push({
+        fieldName,
+        slotNo: Math.round(slotNo),
+        weight,
+        itemId,
+        minNum: Math.round(minNum),
+        maxNum: Math.round(maxNum),
+        grade,
+      });
+    }
+
+    const weightByPoolSlot = new Map<string, number>();
+    for (const row of lotteryRows) {
+      const key = `${row.fieldName}::${row.slotNo}`;
+      weightByPoolSlot.set(key, (weightByPoolSlot.get(key) ?? 0) + row.weight);
+    }
+
+    const itemByInternal = new Map(
+      itemList.map((it) => [it.internalName, it] as const),
+    );
+
+    for (const row of lotteryRows) {
+      let item = itemByInternal.get(row.itemId);
+      if (!item) {
+        item = {
+          internalName: row.itemId,
+          name:
+            textFromL10n(itemNamesEn?.rows ?? null, `ITEM_NAME_${row.itemId}`) ??
+            textFromL10n(itemNames?.rows ?? null, `ITEM_NAME_${row.itemId}`) ??
+            row.itemId,
+          description: null,
+          icon: resolveIconPath(row.itemId, itemIconLookup, iconFiles),
+          rarity: null,
+          weight: null,
+          price: null,
+          stackSize: null,
+          lootSources: [],
+        };
+        itemList.push(item);
+        itemByInternal.set(row.itemId, item);
+      }
+
+      const poolKey = `${row.fieldName}::${row.slotNo}`;
+      const totalWeight = weightByPoolSlot.get(poolKey) ?? 0;
+      const chanceInSlot =
+        totalWeight > 0 && row.weight > 0 ? row.weight / totalWeight : null;
+      const slotPct =
+        asNumber(
+          fieldLottery?.rows?.[row.fieldName]?.[
+            `ItemSlot${row.slotNo}_ProbabilityPercent`
+          ],
+        ) ?? null;
+      const slotChance = slotPct != null ? slotPct / 100 : null;
+      const effectiveChance =
+        chanceInSlot != null && slotChance != null
+          ? chanceInSlot * slotChance
+          : chanceInSlot;
+
+      item.lootSources = item.lootSources ?? [];
+      item.lootSources.push({
+        type: 'treasure',
+        pool: row.fieldName,
+        grade: row.grade,
+        weight: row.weight,
+        chance: effectiveChance,
+        slotChance,
+        quantityMin: row.minNum,
+        quantityMax: row.maxNum,
+      });
     }
   }
 

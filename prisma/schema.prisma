@@ -293,6 +293,7 @@ model Item {
   weight        Float?
   price         Int?
   stackSize     Int?
+  lootSources   Json?
   gameVersionId String
   gameVersion   GameVersion @relation(fields: [gameVersionId], references: [id], onDelete: Cascade)
   createdAt     DateTime @default(now())
