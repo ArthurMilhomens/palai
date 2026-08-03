@@ -985,12 +985,42 @@ async function maybeUploadIcon(
   folder: string,
 ): Promise<string | null> {
   try {
-    const filePath = path.isAbsolute(iconRef)
+    let filePath = path.isAbsolute(iconRef)
       ? iconRef
       : path.join(iconsDir, iconRef);
+
+    try {
+      await readFile(filePath);
+    } catch {
+      // Fallback: search by basename under iconsDir (e.g. Yakushima subfolder)
+      const { readdir } = await import('node:fs/promises');
+      const target = path.basename(iconRef);
+      async function find(dir: string): Promise<string | null> {
+        const entries = await readdir(dir, { withFileTypes: true });
+        for (const entry of entries) {
+          const full = path.join(dir, entry.name);
+          if (entry.isDirectory()) {
+            const nested = await find(full);
+            if (nested) return nested;
+          } else if (entry.name === target || entry.name === path.basename(target)) {
+            return full;
+          }
+        }
+        return null;
+      }
+      const found = await find(iconsDir);
+      if (!found) {
+        if (iconRef.startsWith('http://') || iconRef.startsWith('https://')) {
+          return iconRef;
+        }
+        return null;
+      }
+      filePath = found;
+    }
+
     const buf = await readFile(filePath);
     const ext = path.extname(filePath) || '.png';
-    const key = `icons/${version}/${folder}/${path.basename(iconRef, ext)}${ext}`;
+    const key = `icons/${version}/${folder}/${path.basename(filePath, ext)}${ext}`;
     const contentType =
       ext === '.svg'
         ? 'image/svg+xml'

@@ -3,9 +3,12 @@ import { prisma } from '../../prisma/client.js';
 import { createEntityModule } from '../../shared/entity-module.js';
 import { authenticate } from '../auth/controller.js';
 import { listQuerySchema } from '../../shared/query.js';
-import { resolveLocale, pickTranslation } from '../../shared/i18n.js';
-import { resolveActiveGameVersionId } from '../../shared/version.js';
-import { craftTreeQuerySchema, getItemCraftTree } from './service.js';
+import {
+  craftTreeQuerySchema,
+  getItemCraftTree,
+  getItemDetail,
+  listItems,
+} from './service.js';
 
 const base = createEntityModule({
   name: 'Item',
@@ -16,56 +19,41 @@ const base = createEntityModule({
   allowedSorts: ['name', 'rarity', 'price', 'weight', 'createdAt'],
 });
 
-async function withItemNames<T extends { id: string; name: string }>(
-  items: T[],
-  gameVersionId: string,
-  locale: string,
-): Promise<Array<T & { names: { en: string; 'pt-BR': string } }>> {
-  if (items.length === 0) return [];
-  const ids = items.map((i) => i.id);
-  const translations = await prisma.translation.findMany({
-    where: {
-      gameVersionId,
-      entityType: 'item',
-      field: 'name',
-      entityId: { in: ids },
-    },
-    select: { entityId: true, locale: true, field: true, value: true },
-  });
-
-  return items.map((item) => {
-    const forItem = translations
-      .filter((t) => t.entityId === item.id)
-      .map((t) => ({ locale: t.locale, field: t.field, value: t.value }));
-    const names = {
-      en: pickTranslation(forItem, 'name', 'en', item.name) ?? item.name,
-      'pt-BR':
-        pickTranslation(forItem, 'name', 'pt-BR', item.name) ?? item.name,
-    };
-    return {
-      ...item,
-      name: pickTranslation(forItem, 'name', locale, item.name) ?? item.name,
-      names,
-    };
-  });
-}
-
 export async function itemsRoutes(app: FastifyInstance): Promise<void> {
   app.addHook('preHandler', authenticate);
 
   app.get('/', {
-    schema: { tags: ['Items'], security: [{ bearerAuth: [] }] },
+    schema: {
+      tags: ['Items'],
+      security: [{ bearerAuth: [] }],
+      querystring: {
+        type: 'object',
+        properties: {
+          q: { type: 'string' },
+          page: { type: 'integer', minimum: 1 },
+          limit: { type: 'integer', minimum: 1, maximum: 100 },
+          sort: { type: 'string' },
+          order: { type: 'string', enum: ['asc', 'desc'] },
+          rarity: { type: 'integer' },
+          lang: { type: 'string' },
+          gameVersion: { type: 'string' },
+        },
+      },
+    },
     handler: async (req, reply) => {
       const query = listQuerySchema.parse(req.query);
-      const locale = resolveLocale(req, query.lang);
-      const result = await base.listCached(query);
-      const gameVersionId = await resolveActiveGameVersionId(query.gameVersion);
-      const data = await withItemNames(
-        result.data as Array<{ id: string; name: string }>,
-        gameVersionId,
-        locale,
-      );
-      return reply.send({ ...result, data });
+      const result = await listItems({
+        q: query.q ?? query.name,
+        page: query.page,
+        limit: query.limit,
+        sort: query.sort,
+        order: query.order,
+        rarity: query.rarity,
+        lang: query.lang,
+        gameVersion: query.gameVersion,
+        acceptLanguage: req.headers['accept-language'],
+      });
+      return reply.send(result);
     },
   });
 
@@ -85,6 +73,7 @@ export async function itemsRoutes(app: FastifyInstance): Promise<void> {
         properties: {
           q: { type: 'string' },
           quantity: { type: 'integer', minimum: 1, default: 1 },
+          rarity: { type: 'integer', minimum: 0, maximum: 4 },
           lang: { type: 'string' },
           gameVersion: { type: 'string' },
         },
@@ -95,6 +84,7 @@ export async function itemsRoutes(app: FastifyInstance): Promise<void> {
       const data = await getItemCraftTree({
         q: query.q,
         quantity: query.quantity,
+        rarity: query.rarity,
         lang: query.lang,
         gameVersion: query.gameVersion,
         acceptLanguage: req.headers['accept-language'],
@@ -110,13 +100,12 @@ export async function itemsRoutes(app: FastifyInstance): Promise<void> {
       const query = listQuerySchema
         .pick({ gameVersion: true, lang: true })
         .parse(req.query);
-      const locale = resolveLocale(req, query.lang);
-      const raw = (await base.getByIdOrSlug(
-        params.idOrSlug,
-        query.gameVersion,
-      )) as { id: string; name: string };
-      const gameVersionId = await resolveActiveGameVersionId(query.gameVersion);
-      const [data] = await withItemNames([raw], gameVersionId, locale);
+      const data = await getItemDetail({
+        idOrSlug: params.idOrSlug,
+        lang: query.lang,
+        gameVersion: query.gameVersion,
+        acceptLanguage: req.headers['accept-language'],
+      });
       return reply.send({ data });
     },
   });
@@ -154,6 +143,7 @@ export async function itemsRoutes(app: FastifyInstance): Promise<void> {
         type: 'object',
         properties: {
           quantity: { type: 'integer', minimum: 1, default: 1 },
+          rarity: { type: 'integer', minimum: 0, maximum: 4 },
           lang: { type: 'string' },
           gameVersion: { type: 'string' },
         },
@@ -165,6 +155,7 @@ export async function itemsRoutes(app: FastifyInstance): Promise<void> {
       const data = await getItemCraftTree({
         q: params.idOrSlug,
         quantity: query.quantity,
+        rarity: query.rarity,
         lang: query.lang,
         gameVersion: query.gameVersion,
         acceptLanguage: req.headers['accept-language'],

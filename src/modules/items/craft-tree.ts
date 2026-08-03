@@ -8,6 +8,7 @@ export type CraftNodeInput = {
   internalName: string;
   name: string;
   names: ItemNames;
+  iconUrl?: string | null;
   quantity: number;
   recipe?: {
     resultQuantity: number;
@@ -16,6 +17,7 @@ export type CraftNodeInput = {
       internalName: string;
       name: string;
       names: ItemNames;
+      iconUrl?: string | null;
       quantity: number;
       recipe?: CraftNodeInput['recipe'];
     }>;
@@ -27,6 +29,7 @@ export type CraftTreeNode = {
   internalName: string;
   name: string;
   names: ItemNames;
+  iconUrl: string | null;
   quantity: number;
   craftable: boolean;
   resultQuantity: number | null;
@@ -39,6 +42,7 @@ export type CraftTotal = {
   internalName: string;
   name: string;
   names: ItemNames;
+  iconUrl: string | null;
   quantity: number;
   craftable: boolean;
 };
@@ -60,6 +64,7 @@ export function buildCraftTree(input: CraftNodeInput): CraftTreeNode {
       internalName: input.internalName,
       name: input.name,
       names: input.names,
+      iconUrl: input.iconUrl ?? null,
       quantity: input.quantity,
       craftable: false,
       resultQuantity: null,
@@ -75,6 +80,7 @@ export function buildCraftTree(input: CraftNodeInput): CraftTreeNode {
       internalName: ing.internalName,
       name: ing.name,
       names: ing.names,
+      iconUrl: ing.iconUrl ?? null,
       quantity: crafts * ing.quantity,
       recipe: ing.recipe,
     }),
@@ -85,6 +91,7 @@ export function buildCraftTree(input: CraftNodeInput): CraftTreeNode {
     internalName: input.internalName,
     name: input.name,
     names: input.names,
+    iconUrl: input.iconUrl ?? null,
     quantity: input.quantity,
     craftable: true,
     resultQuantity: recipe.resultQuantity,
@@ -107,6 +114,7 @@ export function collectRawTotals(nodes: CraftTreeNode[]): CraftTotal[] {
           internalName: node.internalName,
           name: node.name,
           names: node.names,
+          iconUrl: node.iconUrl,
           quantity: node.quantity,
           craftable: false,
         });
@@ -135,6 +143,7 @@ export function collectAllTotals(nodes: CraftTreeNode[]): CraftTotal[] {
         internalName: node.internalName,
         name: node.name,
         names: node.names,
+        iconUrl: node.iconUrl,
         quantity: node.quantity,
         craftable: node.craftable,
       });

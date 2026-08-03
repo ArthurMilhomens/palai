@@ -23,6 +23,7 @@ describe('craft-tree math', () => {
       internalName: 'Computer',
       name: 'Computador',
       names,
+      iconUrl: null,
       quantity: 5,
       recipe: {
         resultQuantity: 1,
@@ -32,6 +33,7 @@ describe('craft-tree math', () => {
             internalName: 'ElectronicCircuit',
             name: 'Circuito elétrico',
             names: circuitNames,
+            iconUrl: null,
             quantity: 2,
             recipe: {
               resultQuantity: 1,
@@ -41,6 +43,7 @@ describe('craft-tree math', () => {
                   internalName: 'Quartz',
                   name: 'Quartzo',
                   names: quartzNames,
+                  iconUrl: null,
                   quantity: 2,
                 },
               ],
@@ -80,6 +83,7 @@ describe('craft-tree math', () => {
       internalName: 'Wood',
       name: 'Wood',
       names: { en: 'Wood', 'pt-BR': 'Madeira' },
+      iconUrl: null,
       quantity: 3,
       recipe: null,
     });

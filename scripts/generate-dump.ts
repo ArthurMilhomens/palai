@@ -208,6 +208,7 @@ async function main(): Promise<void> {
         game,
         version: args.version ?? 'palworld',
         build: args.build ?? game?.buildId,
+        iconsDir: ICONS_DIR,
       });
       dump = parseGameDump(converted.dump);
       console.log('\nFontes usadas:');

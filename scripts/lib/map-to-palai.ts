@@ -8,7 +8,17 @@ import {
   stripEnumPrefix,
   type DataTableRows,
 } from './datatable.js';
+import {
+  buildIconLookupFromRows,
+  indexIconFiles,
+  resolveIconPath,
+} from './icons.js';
 import type { SteamGameInfo } from './steam.js';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const DEFAULT_ICONS_DIR = path.resolve(__dirname, '../../game_data/icons');
 
 const WORK_MAP: Array<{ key: string; type: string }> = [
   { key: 'WorkSuitability_EmitFlame', type: 'Kindling' },
@@ -104,9 +114,19 @@ export async function convertExportsToPalaiDump(options: {
   game?: SteamGameInfo | null;
   version?: string;
   build?: string;
+  iconsDir?: string;
 }): Promise<ConvertResult> {
   const sources: string[] = [];
   const warnings: string[] = [];
+  const iconsDir = options.iconsDir ?? DEFAULT_ICONS_DIR;
+  const iconFiles = await indexIconFiles(iconsDir);
+  if (iconFiles.size === 0) {
+    warnings.push(
+      `Nenhum PNG em ${iconsDir} — iconUrl ficará vazio até exportar texturas no FModel.`,
+    );
+  } else {
+    sources.push(iconsDir);
+  }
 
   const monster = await loadNamedDataTable(options.exportDirs, [
     'DT_PalMonsterParameter',
@@ -199,6 +219,40 @@ export async function convertExportsToPalaiDump(options: {
     'DT_ItemNameText',
   ]);
   if (itemNames) sources.push(itemNames.filePath);
+
+  const itemIconTable = await loadNamedDataTable(options.exportDirs, [
+    'DT_ItemIconDataTable',
+  ]);
+  if (itemIconTable) sources.push(itemIconTable.filePath);
+  const itemIconCommon = await loadNamedDataTable(options.exportDirs, [
+    'DT_ItemIconDataTable_Common',
+  ]);
+  // loadNamedDataTable skips *_Common when searching DT_ItemIconDataTable; try explicit Common file via walk
+  const itemIconLookup = new Map<string, string>([
+    ...buildIconLookupFromRows(itemIconCommon?.rows),
+    ...buildIconLookupFromRows(itemIconTable?.rows),
+  ]);
+
+  const palIconTable = await loadNamedDataTable(options.exportDirs, [
+    'DT_PalCharacterIconDataTable',
+  ]);
+  if (palIconTable) sources.push(palIconTable.filePath);
+  const palIconCommon = await loadNamedDataTable(options.exportDirs, [
+    'DT_PalCharacterIconDataTable_Common',
+  ]);
+  const palIconLookup = new Map<string, string>([
+    ...buildIconLookupFromRows(palIconCommon?.rows),
+    ...buildIconLookupFromRows(palIconTable?.rows),
+  ]);
+
+  if (itemIconLookup.size === 0) {
+    warnings.push('DT_ItemIconDataTable não encontrado — ícones de itens vazios.');
+  }
+  if (palIconLookup.size === 0) {
+    warnings.push(
+      'DT_PalCharacterIconDataTable não encontrado — ícones de pals vazios.',
+    );
+  }
 
   const itemNamesEn = await loadLocaleNamedDataTable(options.exportDirs, 'en', [
     'DT_ItemNameText',
@@ -324,7 +378,14 @@ export async function convertExportsToPalaiDump(options: {
   if (items) {
     for (const [rowName, row] of Object.entries(items.rows)) {
       const price = asNumber(row.Price);
-      const nameKey = `ITEM_NAME_${rowName}`;
+      const overrideName = asString(row.OverrideName);
+      // Variants (BowGun_2…) reuse the base L10N key via OverrideName = ITEM_NAME_BowGun
+      const nameKey =
+        overrideName &&
+        overrideName !== 'None' &&
+        (overrideName.startsWith('ITEM_NAME_') || overrideName.startsWith('DT_'))
+          ? overrideName
+          : `ITEM_NAME_${rowName}`;
       const enName = textFromL10n(itemNamesEn?.rows ?? null, nameKey);
       const ptName = textFromL10n(itemNamesPt?.rows ?? null, nameKey);
       const fallbackName =
@@ -333,27 +394,44 @@ export async function convertExportsToPalaiDump(options: {
           names?.rows ?? null,
           asString(row.ItemNameTextId) ?? asString(row.NameTextId),
         ) ??
-        asString(row.OverrideName) ??
+        (overrideName &&
+        overrideName !== 'None' &&
+        !overrideName.startsWith('ITEM_NAME_')
+          ? overrideName
+          : null) ??
         rowName;
       const displayName = isUsableLocalizedText(enName)
         ? enName.trim()
         : isUsableLocalizedText(fallbackName)
           ? fallbackName.trim()
           : rowName;
+      const rarityRaw = asNumber(row.Rarity);
+      const overrideDesc = asString(row.OverrideDescription);
+      const descKey =
+        overrideDesc &&
+        overrideDesc !== 'None' &&
+        (overrideDesc.startsWith('ITEM_DESC_') || overrideDesc.startsWith('DT_'))
+          ? overrideDesc
+          : `ITEM_DESC_${rowName}`;
 
       itemList.push({
         internalName: rowName,
         name: displayName,
         description:
-          textFromL10n(itemDescs?.rows ?? null, `ITEM_DESC_${rowName}`) ??
+          textFromL10n(itemDescs?.rows ?? null, descKey) ??
           textFromL10n(
             descs?.rows ?? null,
             asString(row.ItemDescriptionTextId) ?? asString(row.DescriptionTextId),
           ) ??
-          asString(row.OverrideDescription) ??
-          null,
-        icon: asString(row.IconName) ?? asString(row.Icon),
-        rarity: asNumber(row.Rarity) != null ? Math.round(asNumber(row.Rarity)!) : null,
+          (overrideDesc &&
+          overrideDesc !== 'None' &&
+          !overrideDesc.startsWith('ITEM_DESC_')
+            ? overrideDesc
+            : null),
+        icon: resolveIconPath(rowName, itemIconLookup, iconFiles, [
+          asString(row.IconName),
+        ]),
+        rarity: rarityRaw != null ? Math.round(rarityRaw) : null,
         weight: asNumber(row.Weight),
         price: price != null ? Math.round(price) : null,
         stackSize:
@@ -365,7 +443,7 @@ export async function convertExportsToPalaiDump(options: {
       });
 
       pushItemNameTranslation(translations, rowName, 'en', enName ?? displayName);
-      pushItemNameTranslation(translations, rowName, 'pt-BR', ptName);
+      pushItemNameTranslation(translations, rowName, 'pt-BR', ptName ?? displayName);
     }
   }
 
@@ -402,7 +480,7 @@ export async function convertExportsToPalaiDump(options: {
             name:
               textFromL10n(itemNames?.rows ?? null, `ITEM_NAME_${item}`) ?? item,
             description: null,
-            icon: null,
+            icon: resolveIconPath(item, itemIconLookup, iconFiles),
             rarity: null,
             weight: null,
             price: null,
@@ -486,7 +564,7 @@ export async function convertExportsToPalaiDump(options: {
       workSuitabilities,
       drops: palDrops,
       habitats: [],
-      icon: null,
+      icon: resolveIconPath(rowName, palIconLookup, iconFiles),
     });
 
     if (displayName !== rowName) {
@@ -731,6 +809,12 @@ export async function convertExportsToPalaiDump(options: {
       'Nenhum Pal válido encontrado em DT_PalMonsterParameter. Verifique o export do FModel.',
     );
   }
+
+  const itemsWithIcon = itemList.filter((i) => i.icon).length;
+  const palsWithIcon = pals.filter((p) => p.icon).length;
+  warnings.push(
+    `Ícones: items ${itemsWithIcon}/${itemList.length}, pals ${palsWithIcon}/${pals.length} (png indexados: ${iconFiles.size})`,
+  );
 
   const dump: GameDump = {
     version: options.version ?? 'palworld',
