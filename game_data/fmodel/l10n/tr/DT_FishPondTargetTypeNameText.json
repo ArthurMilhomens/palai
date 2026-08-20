@@ -1,0 +1,40 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_FishPondTargetTypeNameText",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "NAME_SHADOW_SMALL": {
+        "TextData": {
+          "Namespace": "DT_FishPondTargetTypeNameText",
+          "Key": "NAME_SHADOW_SMALL_TextData",
+          "SourceString": "Küçük balık yansıması",
+          "LocalizedString": "Küçük balık yansıması"
+        }
+      },
+      "NAME_SHADOW_MEDIUM": {
+        "TextData": {
+          "Namespace": "DT_FishPondTargetTypeNameText",
+          "Key": "NAME_SHADOW_MEDIUM_TextData",
+          "SourceString": "Orta büyüklükteki balık yansıması",
+          "LocalizedString": "Orta büyüklükteki balık yansıması"
+        }
+      },
+      "NAME_SHADOW_BIG": {
+        "TextData": {
+          "Namespace": "DT_FishPondTargetTypeNameText",
+          "Key": "NAME_SHADOW_BIG_TextData",
+          "SourceString": "Büyük balık yansıması",
+          "LocalizedString": "Büyük balık yansıması"
+        }
+      }
+    }
+  }
+]

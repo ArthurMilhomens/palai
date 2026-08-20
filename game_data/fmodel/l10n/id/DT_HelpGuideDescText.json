@@ -1,0 +1,392 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_HelpGuideDescText",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "Help_1": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_1_TextData",
+          "SourceString": "Metode Kontrol (Keyboard)\r\n\r\nMouse　Kontrol Kamera\r\n<keyGuideIcon id=|W_ForHelp|/><keyGuideIcon id=|A_ForHelp|/><keyGuideIcon id=|S_ForHelp|/><keyGuideIcon id=|D_ForHelp|/>　Gerakan\r\n<keyGuideIcon id=|ThrowPal| OverrideType=|1|/>　Memanggil Pal\r\n<keyGuideIcon id=|ThrowObject| OverrideType=|1|/>　Melempar Sphere\r\n<keyGuideIcon id=|OpenConstructionMenu| OverrideType=|1|/>　Menu Konstruksi\r\n<keyGuideIcon id=|Jump| OverrideType=|1|/>　Lompat\r\n<keyGuideIcon id=|WeaponReady| OverrideType=|1|/>　Bidik\r\n<keyGuideIcon id=|WeaponUse| OverrideType=|1|/>　Serang\r\n<keyGuideIcon id=|Coop| OverrideType=|1|/>　Skill Partner\r\n<keyGuideIcon id=|Reload| OverrideType=|1|/>　Isi Peluru\r\n<keyGuideIcon id=|ChangeWeaponNext| OverrideType=|1|/><keyGuideIcon id=|ChangeWeaponPrev| OverrideType=|1|/>　Ganti Senjata\r\n<keyGuideIcon id=|Crouch| OverrideType=|1|/>　Jongkok\r\n<keyGuideIcon id=|Rolling| OverrideType=|1|/>　Berguling\r\n<keyGuideIcon id=|Dash| OverrideType=|1|/>　Lari Cepat\r\n<keyGuideIcon id=|PartnerPalInstructions| OverrideType=|1|/>　Memberi Perintah Pal\r\n<keyGuideIcon id=|OtomoChangeIncrement| OverrideType=|1|/><keyGuideIcon id=|OtomoChangeDecrement| OverrideType=|1|/>　Ganti Pal\r\n<keyGuideIcon id=|SphereChange| OverrideType=|1|/>　Ganti Sphere",
+          "LocalizedString": "Metode Kontrol (Keyboard)\r\n\r\nMouse　Kontrol Kamera\r\n<keyGuideIcon id=|W_ForHelp|/><keyGuideIcon id=|A_ForHelp|/><keyGuideIcon id=|S_ForHelp|/><keyGuideIcon id=|D_ForHelp|/>　Gerakan\r\n<keyGuideIcon id=|ThrowPal| OverrideType=|1|/>　Memanggil Pal\r\n<keyGuideIcon id=|ThrowObject| OverrideType=|1|/>　Melempar Sphere\r\n<keyGuideIcon id=|OpenConstructionMenu| OverrideType=|1|/>　Menu Konstruksi\r\n<keyGuideIcon id=|Jump| OverrideType=|1|/>　Lompat\r\n<keyGuideIcon id=|WeaponReady| OverrideType=|1|/>　Bidik\r\n<keyGuideIcon id=|WeaponUse| OverrideType=|1|/>　Serang\r\n<keyGuideIcon id=|Coop| OverrideType=|1|/>　Skill Partner\r\n<keyGuideIcon id=|Reload| OverrideType=|1|/>　Isi Peluru\r\n<keyGuideIcon id=|ChangeWeaponNext| OverrideType=|1|/><keyGuideIcon id=|ChangeWeaponPrev| OverrideType=|1|/>　Ganti Senjata\r\n<keyGuideIcon id=|Crouch| OverrideType=|1|/>　Jongkok\r\n<keyGuideIcon id=|Rolling| OverrideType=|1|/>　Berguling\r\n<keyGuideIcon id=|Dash| OverrideType=|1|/>　Lari Cepat\r\n<keyGuideIcon id=|PartnerPalInstructions| OverrideType=|1|/>　Memberi Perintah Pal\r\n<keyGuideIcon id=|OtomoChangeIncrement| OverrideType=|1|/><keyGuideIcon id=|OtomoChangeDecrement| OverrideType=|1|/>　Ganti Pal\r\n<keyGuideIcon id=|SphereChange| OverrideType=|1|/>　Ganti Sphere"
+        }
+      },
+      "Help_2": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_2_TextData",
+          "SourceString": "Metode Kontrol （Kontroler）\r\n\r\nStik Kiri　Bergerak\r\nStik Kanan　Kontrol Kamera\r\n<keyGuideIcon id=|ThrowPal| OverrideType=|2|/>　Memanggil Pal\r\n<keyGuideIcon id=|ThrowObject| OverrideType=|2|/>　Melempar Sphere\r\n<keyGuideIcon id=|OpenConstructionMenu| OverrideType=|2|/>　Menu Konstruksi\r\n<keyGuideIcon id=|Jump| OverrideType=|2|/>　Lompat\r\n<keyGuideIcon id=|WeaponReady| OverrideType=|2|/>　Bidik\r\n<keyGuideIcon id=|WeaponUse| OverrideType=|2|/>　Serang\r\n<keyGuideIcon id=|ReloadAndCoop| OverrideType=|2|/>　Skill Partner\r\n<keyGuideIcon id=|ChangeWeaponNext_GamePad| OverrideType=|2|/>　Ganti Senjata\r\n<keyGuideIcon id=|RollingAndCrouch| OverrideType=|2|/>　Jongkok/Berguling\r\n<keyGuideIcon id=|DashController| OverrideType=|2|/>　Lari Cepat\r\n<keyGuideIcon id=|PartnerPalInstructions| OverrideType=|2|/> Memberi Perintah Pal\r\n<keyGuideIcon id=|OtomoChangeIncrement| OverrideType=|2|/><keyGuideIcon id=|OtomoChangeDecrement| OverrideType=|2|/>　Ganti Pal\r\n<keyGuideIcon id=|SphereChange| OverrideType=|2|/>　Ganti Sphere",
+          "LocalizedString": "Metode Kontrol （Kontroler）\r\n\r\nStik Kiri　Bergerak\r\nStik Kanan　Kontrol Kamera\r\n<keyGuideIcon id=|ThrowPal| OverrideType=|2|/>　Memanggil Pal\r\n<keyGuideIcon id=|ThrowObject| OverrideType=|2|/>　Melempar Sphere\r\n<keyGuideIcon id=|OpenConstructionMenu| OverrideType=|2|/>　Menu Konstruksi\r\n<keyGuideIcon id=|Jump| OverrideType=|2|/>　Lompat\r\n<keyGuideIcon id=|WeaponReady| OverrideType=|2|/>　Bidik\r\n<keyGuideIcon id=|WeaponUse| OverrideType=|2|/>　Serang\r\n<keyGuideIcon id=|ReloadAndCoop| OverrideType=|2|/>　Skill Partner\r\n<keyGuideIcon id=|ChangeWeaponNext_GamePad| OverrideType=|2|/>　Ganti Senjata\r\n<keyGuideIcon id=|RollingAndCrouch| OverrideType=|2|/>　Jongkok/Berguling\r\n<keyGuideIcon id=|DashController| OverrideType=|2|/>　Lari Cepat\r\n<keyGuideIcon id=|PartnerPalInstructions| OverrideType=|2|/> Memberi Perintah Pal\r\n<keyGuideIcon id=|OtomoChangeIncrement| OverrideType=|2|/><keyGuideIcon id=|OtomoChangeDecrement| OverrideType=|2|/>　Ganti Pal\r\n<keyGuideIcon id=|SphereChange| OverrideType=|2|/>　Ganti Sphere"
+        }
+      },
+      "Help_3": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_3_TextData",
+          "SourceString": "Tujuan Game\r\n\r\nMengungkap rahasia pulau misterius ini sambil melawan kekuatan tak dikenal yang menghalangi jalanmu.\r\nKalahkan para bos yang menguasai menara di tiap wilayah. Kamu mungkin akan mengungkap kebenaran tersembunyi di balik asal-usul Pal.\r\n\r\nBangun markas terkuat, tangkap Pal terkuat, atau kamu bisa mencoba mengembangbiakkan sendiri!\r\nAyo jalani petualangan unik dengan para Pal di dunia yang baru ini!",
+          "LocalizedString": "Tujuan Game\r\n\r\nMengungkap rahasia pulau misterius ini sambil melawan kekuatan tak dikenal yang menghalangi jalanmu.\r\nKalahkan para bos yang menguasai menara di tiap wilayah. Kamu mungkin akan mengungkap kebenaran tersembunyi di balik asal-usul Pal.\r\n\r\nBangun markas terkuat, tangkap Pal terkuat, atau kamu bisa mencoba mengembangbiakkan sendiri!\r\nAyo jalani petualangan unik dengan para Pal di dunia yang baru ini!"
+        }
+      },
+      "Help_4": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_4_TextData",
+          "SourceString": "Apa yang harus dilakukan pertama kali?\r\n\r\nPertama, ambil ranting yang jatuh dan kerikil untuk mengumpulkan kayu dan batu.\r\nKamu juga bisa mendapatkan kayu dan batu dengan memukul pohon dan batu besar dengan tangan kosong.\r\nBangun meja kerja, lalu buat kapak dan beliung agar pengumpulan material lebih efisien.\r\n\r\nJika material sudah terkumpul, tentukan lokasi markas dan bangunlah |Palbox|.\r\nLokasi di mana |Palbox| tersebut dibangun akan menjadi markasmu.\r\n\r\nSeiring level kamu meningkat, buatlah senjata dan |Pal Sphere|, lalu tangkap Pal dengan membuatnya lemah terlebih dahulu.\r\nPal bisa menjadi kekuatan tempur atau jadi tenaga kerja jika kamu mengeluarkannya di markas.\r\n\r\nMalam hari sangat berbahaya. Persiapkan malam pertamamu dengan membuat |Api Unggun|, |Obor|, dan |Tempat Tidur|.",
+          "LocalizedString": "Apa yang harus dilakukan pertama kali?\r\n\r\nPertama, ambil ranting yang jatuh dan kerikil untuk mengumpulkan kayu dan batu.\r\nKamu juga bisa mendapatkan kayu dan batu dengan memukul pohon dan batu besar dengan tangan kosong.\r\nBangun meja kerja, lalu buat kapak dan beliung agar pengumpulan material lebih efisien.\r\n\r\nJika material sudah terkumpul, tentukan lokasi markas dan bangunlah |Palbox|.\r\nLokasi di mana |Palbox| tersebut dibangun akan menjadi markasmu.\r\n\r\nSeiring level kamu meningkat, buatlah senjata dan |Pal Sphere|, lalu tangkap Pal dengan membuatnya lemah terlebih dahulu.\r\nPal bisa menjadi kekuatan tempur atau jadi tenaga kerja jika kamu mengeluarkannya di markas.\r\n\r\nMalam hari sangat berbahaya. Persiapkan malam pertamamu dengan membuat |Api Unggun|, |Obor|, dan |Tempat Tidur|."
+        }
+      },
+      "Help_5": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_5_TextData",
+          "SourceString": "Tentang Pal\r\n\r\nPal adalah makhluk misterius yang menghuni wilayah ini.\r\nKamu bisa berteman dengan Pal setelah menangkapnya dengan Sphere. Keluarkan Pal yang sudah menjadi temanmu dengan menekan tombol <keyGuideIcon id=|ThrowPal|/>.\r\n\r\nKamu bisa membawa hingga lima ekor Pal sekaligus. Jika kamu menangkap enam ekor atau lebih, sisanya akan otomatis dikirim ke Palbox. Pal di dalam box dapat diambil kembali setelah membangun Palbox.",
+          "LocalizedString": "Tentang Pal\r\n\r\nPal adalah makhluk misterius yang menghuni wilayah ini.\r\nKamu bisa berteman dengan Pal setelah menangkapnya dengan Sphere. Keluarkan Pal yang sudah menjadi temanmu dengan menekan tombol <keyGuideIcon id=|ThrowPal|/>.\r\n\r\nKamu bisa membawa hingga lima ekor Pal sekaligus. Jika kamu menangkap enam ekor atau lebih, sisanya akan otomatis dikirim ke Palbox. Pal di dalam box dapat diambil kembali setelah membangun Palbox."
+        }
+      },
+      "Help_6": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_6_TextData",
+          "SourceString": "Tampilan Status\r\n\r\nHP, indikator kekenyangan pemain, serta Pal yang dibawa ditampilkan di kiri bawah.\r\nDi sampingnya, terdapat tampilan suhu. Suhu yang terlalu tinggi atau terlalu rendah dapat memberimu damage.\r\nSphere, senjata yang dimiliki, serta sisa peluru ditampilkan di kanan bawah.",
+          "LocalizedString": "Tampilan Status\r\n\r\nHP, indikator kekenyangan pemain, serta Pal yang dibawa ditampilkan di kiri bawah.\r\nDi sampingnya, terdapat tampilan suhu. Suhu yang terlalu tinggi atau terlalu rendah dapat memberimu damage.\r\nSphere, senjata yang dimiliki, serta sisa peluru ditampilkan di kanan bawah."
+        }
+      },
+      "Help_7": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_7_TextData",
+          "SourceString": "Mengambil Item\r\n\r\nItem yang jatuh dapat diambil dengan tombol <keyGuideIcon id=|Interact_1|/>.\r\nSelain itu, kamu bisa mendapatkan material dengan menghancurkan pohon dan batu dengan kapak atau beliung.\r\nSetelah mengalahkan Pal, beberapa item juga akan terjatuh.",
+          "LocalizedString": "Mengambil Item\r\n\r\nItem yang jatuh dapat diambil dengan tombol <keyGuideIcon id=|Interact_1|/>.\r\nSelain itu, kamu bisa mendapatkan material dengan menghancurkan pohon dan batu dengan kapak atau beliung.\r\nSetelah mengalahkan Pal, beberapa item juga akan terjatuh."
+        }
+      },
+      "Help_8": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_8_TextData",
+          "SourceString": "Konstruksi\r\n\r\nKamu dapat membuat bangunan dengan membuka menu konstruksi di <keyGuideIcon id=|OpenConstructionMenu|/>.\r\nTentukan posisi bangunan dari menu konstruksi, lalu tahan tombol <keyGuideIcon id=|Interact_1|/> untuk menyelesaikan bangunan.\r\nJika membawa Pal atau berada di markas, mereka akan membantu pembangunan.",
+          "LocalizedString": "Konstruksi\r\n\r\nKamu dapat membuat bangunan dengan membuka menu konstruksi di <keyGuideIcon id=|OpenConstructionMenu|/>.\r\nTentukan posisi bangunan dari menu konstruksi, lalu tahan tombol <keyGuideIcon id=|Interact_1|/> untuk menyelesaikan bangunan.\r\nJika membawa Pal atau berada di markas, mereka akan membantu pembangunan."
+        }
+      },
+      "Help_9": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_9_TextData",
+          "SourceString": "Produksi\r\n\r\nKamu bisa membuat item dengan membangun, lalu berinteraksi dengan meja kerja atau fasilitas sejenis.\r\n\r\nManual baru dapat dibuka dengan poin teknologi.\r\nAda beragam fasilitas kerja lain yang bisa dibangun yang memungkinkanmu membuat berbagai item baru.",
+          "LocalizedString": "Produksi\r\n\r\nKamu bisa membuat item dengan membangun, lalu berinteraksi dengan meja kerja atau fasilitas sejenis.\r\n\r\nManual baru dapat dibuka dengan poin teknologi.\r\nAda beragam fasilitas kerja lain yang bisa dibangun yang memungkinkanmu membuat berbagai item baru."
+        }
+      },
+      "Help_10": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_10_TextData",
+          "SourceString": "Teknologi\r\n\r\nDengan menggunakan poin teknologi dari tab teknologi yang ada di menu,\r\nkamu bisa membuka bangunan-bangunan baru, serta membuka manual item-item baru.\r\nPoin teknologi bisa didapatkan dengan menaikkan level atau hal lainnya, seperti ketika kamu mengakitfkan Patung Elang Raksasa.",
+          "LocalizedString": "Teknologi\r\n\r\nDengan menggunakan poin teknologi dari tab teknologi yang ada di menu,\r\nkamu bisa membuka bangunan-bangunan baru, serta membuka manual item-item baru.\r\nPoin teknologi bisa didapatkan dengan menaikkan level atau hal lainnya, seperti ketika kamu mengakitfkan Patung Elang Raksasa."
+        }
+      },
+      "Help_11": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_11_TextData",
+          "SourceString": "Teknologi Kuno\r\n\r\nPoin teknologi kuno dapat diperoleh dengan mengalahkan lawan yang sangat kuat. Gunakan poin ini untuk membuka teknologi kuno.\r\n\r\nTeknologi kuno adalah teknologi canggih yang dimiliki oleh peradaban yang telah punah. Banyak di antaranya memiliki efek yang kuat dan unik.",
+          "LocalizedString": "Teknologi Kuno\r\n\r\nPoin teknologi kuno dapat diperoleh dengan mengalahkan lawan yang sangat kuat. Gunakan poin ini untuk membuka teknologi kuno.\r\n\r\nTeknologi kuno adalah teknologi canggih yang dimiliki oleh peradaban yang telah punah. Banyak di antaranya memiliki efek yang kuat dan unik."
+        }
+      },
+      "Help_12": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_12_TextData",
+          "SourceString": "Level\r\n\r\nLevel pemain dan Pal akan meningkat setelah mendapatkan EXP.\r\nEXP diperoleh dengan cara mengalahkan atau menangkap Pal.\r\nSelain itu, membangun atau memproduksi juga dapat memberikan EXP.\r\n\r\nKarena Pal yang levelnya lebih tinggi dari pemain tidak bisa dipakai dengan efektif,\r\nakan terjadi sinkronisasi level sehingga statusnya akan turun ke level yang sama dengan pemain.",
+          "LocalizedString": "Level\r\n\r\nLevel pemain dan Pal akan meningkat setelah mendapatkan EXP.\r\nEXP diperoleh dengan cara mengalahkan atau menangkap Pal.\r\nSelain itu, membangun atau memproduksi juga dapat memberikan EXP.\r\n\r\nKarena Pal yang levelnya lebih tinggi dari pemain tidak bisa dipakai dengan efektif,\r\nakan terjadi sinkronisasi level sehingga statusnya akan turun ke level yang sama dengan pemain."
+        }
+      },
+      "Help_13": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_13_TextData",
+          "SourceString": "Peningkatan Status Pemain\r\n\r\nParameter karaktermu dapat ditingkatkan\r\ndengan mengalokasikan poin status yang ada di tab inventori pada menu.\r\nPoin status bisa didapatkan dengan menaikkan level pemain.",
+          "LocalizedString": "Peningkatan Status Pemain\r\n\r\nParameter karaktermu dapat ditingkatkan\r\ndengan mengalokasikan poin status yang ada di tab inventori pada menu.\r\nPoin status bisa didapatkan dengan menaikkan level pemain."
+        }
+      },
+      "Help_14": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_14_TextData",
+          "SourceString": "Markas\r\n\r\nJika kamu membangun Palbox, daerah di sekelilingnya akan dianggap sebagai markas.\r\nBerinteraksi dengan Palbox membuatmu bisa memanggil Pal ke markas,\r\nlalu Pal yang berada di markas akan bekerja sesuai kapabilitas kerjanya secara otomatis.\r\n\r\nKamu bisa membuat Pal bekerja dengan mendirikan bangunan di dalam area markas.\r\nBerhati-hatilah karena Pal yang berada di markas terancam bahaya dari musuh luar.",
+          "LocalizedString": "Markas\r\n\r\nJika kamu membangun Palbox, daerah di sekelilingnya akan dianggap sebagai markas.\r\nBerinteraksi dengan Palbox membuatmu bisa memanggil Pal ke markas,\r\nlalu Pal yang berada di markas akan bekerja sesuai kapabilitas kerjanya secara otomatis.\r\n\r\nKamu bisa membuat Pal bekerja dengan mendirikan bangunan di dalam area markas.\r\nBerhati-hatilah karena Pal yang berada di markas terancam bahaya dari musuh luar."
+        }
+      },
+      "Help_15": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_15_TextData",
+          "SourceString": "Palbox\r\n\r\nArea di sekitar Palbox akan menjadi wilayah markas dari guild tempatmu bergabung, dan bangunan apa pun yang berdiri di atasnya otomatis menjadi milik guild tersebut.\r\nKamu bisa meningkatkan level markas guild dengan menyelesaikan |Misi Markas| yang bisa diperiksa saat berinteraksi dengan Palbox. Jika markas berkembang, jumlah Pal yang dapat dipanggil ke markas akan bertambah.\r\n\r\nMenyimpan Pal di dalam Palbox akan membuat mereka beristirahat dan memulihkan diri.\r\nBahkan Pal yang berada dalam kondisi sekarat sekalipun akan tetap pulih secara bertahap di dalamnya.\r\n\r\nSelain itu, Palbox juga memiliki fungsi Fast Travel, sehingga Anda dapat berpindah tempat secara instan ke Patung Elang Raksasa yang sudah kamu buka selama perjalanan.\r\n※ Jika Fast Travel dinonaktifkan di pengaturan dunia, kamu tidak bisa menggunakan Fast Travel.",
+          "LocalizedString": "Palbox\r\n\r\nArea di sekitar Palbox akan menjadi wilayah markas dari guild tempatmu bergabung, dan bangunan apa pun yang berdiri di atasnya otomatis menjadi milik guild tersebut.\r\nKamu bisa meningkatkan level markas guild dengan menyelesaikan |Misi Markas| yang bisa diperiksa saat berinteraksi dengan Palbox. Jika markas berkembang, jumlah Pal yang dapat dipanggil ke markas akan bertambah.\r\n\r\nMenyimpan Pal di dalam Palbox akan membuat mereka beristirahat dan memulihkan diri.\r\nBahkan Pal yang berada dalam kondisi sekarat sekalipun akan tetap pulih secara bertahap di dalamnya.\r\n\r\nSelain itu, Palbox juga memiliki fungsi Fast Travel, sehingga Anda dapat berpindah tempat secara instan ke Patung Elang Raksasa yang sudah kamu buka selama perjalanan.\r\n※ Jika Fast Travel dinonaktifkan di pengaturan dunia, kamu tidak bisa menggunakan Fast Travel."
+        }
+      },
+      "Help_16": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_16_TextData",
+          "SourceString": "Menangkap Pal\r\n\r\nTangkap Pal dengan menggunakan tombol <keyGuideIcon id=|ThrowObject|/> untuk melempar Sphere ke arah Pal sasaran.\r\n\r\nPal yang HP-nya berkurang, terkena efek status, atau terkena perangkap akan lebih mudah ditangkap.\r\nMelempar Pal Sphere dari belakang saat Pal  lengah meningkatkan peluang keberhasilan menangkapnya.\r\nKamu juga bisa menangkap Pal yang kuat dengan membuat Sphere yang kuat.",
+          "LocalizedString": "Menangkap Pal\r\n\r\nTangkap Pal dengan menggunakan tombol <keyGuideIcon id=|ThrowObject|/> untuk melempar Sphere ke arah Pal sasaran.\r\n\r\nPal yang HP-nya berkurang, terkena efek status, atau terkena perangkap akan lebih mudah ditangkap.\r\nMelempar Pal Sphere dari belakang saat Pal  lengah meningkatkan peluang keberhasilan menangkapnya.\r\nKamu juga bisa menangkap Pal yang kuat dengan membuat Sphere yang kuat."
+        }
+      },
+      "Help_17": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_17_TextData",
+          "SourceString": "Pal Dalam Tim\r\n\r\nPemain bisa membawa hingga lima ekor Pal sekaligus. Jika kamu menangkap enam ekor atau lebih, sisanya akan otomatis dikirim ke Palbox. \r\nKumpulan Pal yang berjumlah maksimal lima ekor ini disebut Pal dalam tim.\r\n\r\nTab Pal dalam tim dari bisa diakses melalui menu.\r\nStatus Pal dalam tim-mu, seperti HP, tingkat kekenyangan, dan lainnya, dapat dicek di tab tersebut.\r\nSelain itu, kamu juga bisa melihat skill yang mereka miliki, serta mengganti skill aktif yang telah mereka pelajari.",
+          "LocalizedString": "Pal Dalam Tim\r\n\r\nPemain bisa membawa hingga lima ekor Pal sekaligus. Jika kamu menangkap enam ekor atau lebih, sisanya akan otomatis dikirim ke Palbox. \r\nKumpulan Pal yang berjumlah maksimal lima ekor ini disebut Pal dalam tim.\r\n\r\nTab Pal dalam tim dari bisa diakses melalui menu.\r\nStatus Pal dalam tim-mu, seperti HP, tingkat kekenyangan, dan lainnya, dapat dicek di tab tersebut.\r\nSelain itu, kamu juga bisa melihat skill yang mereka miliki, serta mengganti skill aktif yang telah mereka pelajari."
+        }
+      },
+      "Help_18": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_18_TextData",
+          "SourceString": "Indikator Rasa Kenyang\r\n\r\nIndikator rasa kenyang akan berkurang saat pemain atau Pal beraktivitas.\r\nJika indikator rasa kenyang berkurang, bisa terjadi efek negatif seperti parameter menurun dan sebagainya.\r\n\r\nKamu bisa memulihkan indikator rasa kenyang karaktermu atau Pal\r\ndengan menggunakan item makanan dari inventori.",
+          "LocalizedString": "Indikator Rasa Kenyang\r\n\r\nIndikator rasa kenyang akan berkurang saat pemain atau Pal beraktivitas.\r\nJika indikator rasa kenyang berkurang, bisa terjadi efek negatif seperti parameter menurun dan sebagainya.\r\n\r\nKamu bisa memulihkan indikator rasa kenyang karaktermu atau Pal\r\ndengan menggunakan item makanan dari inventori."
+        }
+      },
+      "Help_19": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_19_TextData",
+          "SourceString": "Nilai SAN\r\n\r\nNilai SAN akan berkurang saat Pal bekerja di markas.\r\nJika nilai SAN berkurang, Pal jadi malas atau bahkan sakit.\r\nSaat indikator kenyangnya menurun, nilai SAN akan jadi lebih cepat berkurang.\r\nKamu bisa memulihkannya dengan memberi Pal makanan yang berkualitas dan mengistirahatkannya di pemandian air panas.",
+          "LocalizedString": "Nilai SAN\r\n\r\nNilai SAN akan berkurang saat Pal bekerja di markas.\r\nJika nilai SAN berkurang, Pal jadi malas atau bahkan sakit.\r\nSaat indikator kenyangnya menurun, nilai SAN akan jadi lebih cepat berkurang.\r\nKamu bisa memulihkannya dengan memberi Pal makanan yang berkualitas dan mengistirahatkannya di pemandian air panas."
+        }
+      },
+      "Help_20": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_20_TextData",
+          "SourceString": "Skill Partner\r\n\r\nIni merupakan kemampuan unik yang dimiliki oleh tiap spesies Pal.\r\nTerdapat Pal yang memiliki Skill Partner seperti bisa ditunggangi maupun menembakkan senjata.\r\n\r\nBeberapa Pal membutuhkan |Pal Gear| yang bisa dibuat di meja produksi Pal Gear untuk mengaktifkan Skill Partner mereka.\r\n\r\nEfek bisa diperiksa di bagian layar Pal dalam tim. Ada juga Pal yang bisa memberikan efek hanya dengan berada dalam tim.",
+          "LocalizedString": "Skill Partner\r\n\r\nIni merupakan kemampuan unik yang dimiliki oleh tiap spesies Pal.\r\nTerdapat Pal yang memiliki Skill Partner seperti bisa ditunggangi maupun menembakkan senjata.\r\n\r\nBeberapa Pal membutuhkan |Pal Gear| yang bisa dibuat di meja produksi Pal Gear untuk mengaktifkan Skill Partner mereka.\r\n\r\nEfek bisa diperiksa di bagian layar Pal dalam tim. Ada juga Pal yang bisa memberikan efek hanya dengan berada dalam tim."
+        }
+      },
+      "Help_21": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_21_TextData",
+          "SourceString": "Palpedia\r\n\r\nPalpedia bisa dilihat melalui tab menu.\r\nDi dalamnya terdapat informasi Pal yang telah ditangkap, pernah dilihat, serta data lain seperti kehidupan dan habitatnya.",
+          "LocalizedString": "Palpedia\r\n\r\nPalpedia bisa dilihat melalui tab menu.\r\nDi dalamnya terdapat informasi Pal yang telah ditangkap, pernah dilihat, serta data lain seperti kehidupan dan habitatnya."
+        }
+      },
+      "Help_22": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_22_TextData",
+          "SourceString": "Bonus Koleksi Pal:\r\n\r\nSaat menangkap Pal jenis baru, pemain akan mendapatkan bonus EXP.\r\nBonus ini bisa diperoleh hingga menangkap 5 Pal dari jenis tersebut.",
+          "LocalizedString": "Bonus Koleksi Pal:\r\n\r\nSaat menangkap Pal jenis baru, pemain akan mendapatkan bonus EXP.\r\nBonus ini bisa diperoleh hingga menangkap 5 Pal dari jenis tersebut."
+        }
+      },
+      "Help_23": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_23_TextData",
+          "SourceString": "Guild\r\n\r\nDengan mendekati pemain lain, kamu bisa mengirim permintaan untuk bergabung ke Guild mereka.\r\nInformasi guild yang kamu ikuti, status anggota, dan sebagainya dapat dilihat melalui tab Guild pada bagian menu.\r\nPemain dalam Guild yang sama akan berbagi markas, dan dapat bersama-sama mengurus Pal yang sedang bekerja.",
+          "LocalizedString": "Guild\r\n\r\nDengan mendekati pemain lain, kamu bisa mengirim permintaan untuk bergabung ke Guild mereka.\r\nInformasi guild yang kamu ikuti, status anggota, dan sebagainya dapat dilihat melalui tab Guild pada bagian menu.\r\nPemain dalam Guild yang sama akan berbagi markas, dan dapat bersama-sama mengurus Pal yang sedang bekerja."
+        }
+      },
+      "Help_24": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_24_TextData",
+          "SourceString": "Peta\r\n\r\nPeta bisa ditampilkan dengan tombol<keyGuideIcon id=|OpenWorldMap|/>.\r\nInformasi mengenai arena dan sebagainya akan ditampilkan pada peta.",
+          "LocalizedString": "Peta\r\n\r\nPeta bisa ditampilkan dengan tombol<keyGuideIcon id=|OpenWorldMap|/>.\r\nInformasi mengenai arena dan sebagainya akan ditampilkan pada peta."
+        }
+      },
+      "Help_25": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_25_TextData",
+          "SourceString": "Patung Elang Raksasa\r\n\r\nDengan berinteraksi dan mengaktifkan Patung Elang Raksasa, kamu dapat melalukan teleportasi ke Patung Elang Raksasa lain atau ke Palbox milikmu.\r\n\r\nSelain itu, kamu akan mendapatkan poin teknologi setelah mengaktifkan Patung Elang Raksasa.\r\nTerdapat Patung Elang Raksasa di berbagai wilayah, ayo temukan semuanya!\r\n\r\n*Jika opsi teleportasi di pengaturan dunia dinonaktifkan, teleportasi tidak bisa digunakan.",
+          "LocalizedString": "Patung Elang Raksasa\r\n\r\nDengan berinteraksi dan mengaktifkan Patung Elang Raksasa, kamu dapat melalukan teleportasi ke Patung Elang Raksasa lain atau ke Palbox milikmu.\r\n\r\nSelain itu, kamu akan mendapatkan poin teknologi setelah mengaktifkan Patung Elang Raksasa.\r\nTerdapat Patung Elang Raksasa di berbagai wilayah, ayo temukan semuanya!\r\n\r\n*Jika opsi teleportasi di pengaturan dunia dinonaktifkan, teleportasi tidak bisa digunakan."
+        }
+      },
+      "Help_26": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_26_TextData",
+          "SourceString": "Menu Radial\r\n\r\nIni adalah menu yang bisa kamu buka dengan tombol <keyGuideIcon id=|PartnerPalInstructions|/>.\r\nKamu bisa memberi instruksi pertarungan kepada Pal dalam tim, memberi mereka makan, dan sebagainya.",
+          "LocalizedString": "Menu Radial\r\n\r\nIni adalah menu yang bisa kamu buka dengan tombol <keyGuideIcon id=|PartnerPalInstructions|/>.\r\nKamu bisa memberi instruksi pertarungan kepada Pal dalam tim, memberi mereka makan, dan sebagainya."
+        }
+      },
+      "Help_27": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_27_TextData",
+          "SourceString": "Kondisi Malam\r\n\r\nSeiring berjalannya waktu dan malam tiba, lingkungan sekitar akan menjadi gelap, suhu menurun, dan Pal-Pal yang berbahaya di malam hari bermunculan.\r\nAmankan diri dengan membuat tempat tidur di lokasi yang aman, lalu tidurlah hingga pagi tiba. Menghabiskan malam sambil menghangatkan diri di sekitar api unggun juga merupakan sebuah pilihan.",
+          "LocalizedString": "Kondisi Malam\r\n\r\nSeiring berjalannya waktu dan malam tiba, lingkungan sekitar akan menjadi gelap, suhu menurun, dan Pal-Pal yang berbahaya di malam hari bermunculan.\r\nAmankan diri dengan membuat tempat tidur di lokasi yang aman, lalu tidurlah hingga pagi tiba. Menghabiskan malam sambil menghangatkan diri di sekitar api unggun juga merupakan sebuah pilihan."
+        }
+      },
+      "Help_28": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_28_TextData",
+          "SourceString": "Bos Menara\r\n\r\nMasing-masing area memiliki satu menara yang dihuni seorang pemimpin organisasi yang memegang kendali area tersebut.\r\nPada dasarnya, mereka menganggap para Pal Tamer yang berasal dari luar pulau sebagai musuh, dan akan langsung menantangmu bertarung begitu kamu memasuki menara.\r\nPertarungan melawan Bos Menara memiliki batas waktu. Jika lawan tidak terkalahkan dalam waktu yang diberikan, kamu kalah.\r\nPertarungan melawan Bos Menara dapat dilakukan berkali-kali selama tidak ada orang lain yang mencobanya.",
+          "LocalizedString": "Bos Menara\r\n\r\nMasing-masing area memiliki satu menara yang dihuni seorang pemimpin organisasi yang memegang kendali area tersebut.\r\nPada dasarnya, mereka menganggap para Pal Tamer yang berasal dari luar pulau sebagai musuh, dan akan langsung menantangmu bertarung begitu kamu memasuki menara.\r\nPertarungan melawan Bos Menara memiliki batas waktu. Jika lawan tidak terkalahkan dalam waktu yang diberikan, kamu kalah.\r\nPertarungan melawan Bos Menara dapat dilakukan berkali-kali selama tidak ada orang lain yang mencobanya."
+        }
+      },
+      "Help_29": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_29_TextData",
+          "SourceString": "Kriminal:\r\n\r\nJika menyerang NPC tidak berdosa di desa maupun di Area Terlarang, akan membuatmu dilaporkan dan berubah status menjadi kriminal.\r\nKalau tindakan itu disaksikan oleh orang lain, kamu akan menjadi buronan dan dikejar oleh Kelompok Vigilante Pulau Palpagos.\r\n\r\nApabila hal ini terjadi, kamu harus melarikan diri dari mereka dan tetap bersembunyi selama beberapa waktu\r\nsampai status buronanmu hilang.",
+          "LocalizedString": "Kriminal:\r\n\r\nJika menyerang NPC tidak berdosa di desa maupun di Area Terlarang, akan membuatmu dilaporkan dan berubah status menjadi kriminal.\r\nKalau tindakan itu disaksikan oleh orang lain, kamu akan menjadi buronan dan dikejar oleh Kelompok Vigilante Pulau Palpagos.\r\n\r\nApabila hal ini terjadi, kamu harus melarikan diri dari mereka dan tetap bersembunyi selama beberapa waktu\r\nsampai status buronanmu hilang."
+        }
+      },
+      "Help_30": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_30_TextData",
+          "SourceString": "Daya Tahan Peralatan\r\n\r\nSeiring pemakaian, daya tahan peralatan akan berkurang, dan akan rusak begitu daya tahannya mencapai 0.\r\nPeralatan yang daya tahannya telah menurun dapat diperbaiki di meja perbaikan dengan menggunakan material.",
+          "LocalizedString": "Daya Tahan Peralatan\r\n\r\nSeiring pemakaian, daya tahan peralatan akan berkurang, dan akan rusak begitu daya tahannya mencapai 0.\r\nPeralatan yang daya tahannya telah menurun dapat diperbaiki di meja perbaikan dengan menggunakan material."
+        }
+      },
+      "Help_31": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_31_TextData",
+          "SourceString": "Item Busuk\r\n\r\nBeberapa item seperti makanan akan membusuk seiring berjalannya waktu, dan item yang telah busuk akhirnya akan hilang.\r\nCegah pembusukan dengan menyimpan item dalam kotak pendingin atau kulkas.",
+          "LocalizedString": "Item Busuk\r\n\r\nBeberapa item seperti makanan akan membusuk seiring berjalannya waktu, dan item yang telah busuk akhirnya akan hilang.\r\nCegah pembusukan dengan menyimpan item dalam kotak pendingin atau kulkas."
+        }
+      },
+      "Help_32": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_32_TextData",
+          "SourceString": "Elemen\r\n\r\nPal memiliki elemen, dan setiap elemen memiliki keunggulan dan kelemahan terhadap tipe elemen lain.\r\nSerangan terhadap elemen yang memberi kita keunggulan akan meningkatkan damage, sedangkan serangan terhadap elemen yang memberi kita kelemahan akan mengurangi damage.",
+          "LocalizedString": "Elemen\r\n\r\nPal memiliki elemen, dan setiap elemen memiliki keunggulan dan kelemahan terhadap tipe elemen lain.\r\nSerangan terhadap elemen yang memberi kita keunggulan akan meningkatkan damage, sedangkan serangan terhadap elemen yang memberi kita kelemahan akan mengurangi damage."
+        }
+      },
+      "Help_33": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_33_TextData",
+          "SourceString": "Status Abnormal\r\n\r\nPal atau pemain bisa terkena status abnormal akibat lingkungan sekitar atau efek dari skill.\r\nTerdapat berbagai jenis status abnormal, dan masing-masing memiliki efek yang berbeda.\r\nSelain itu, Pal yang terkena status abnormal akan menjadi lebih mudah ditangkap.\r\n\r\n\r\n|Terbakar|\r\nTubuh terbakar dan menerima damage terus-menerus.\r\nDamage yang diterima dari serangan elemen Rumput akan berkurang.\r\nPal elemen Api dan Air tidak akan terkena status terbakar.\r\n\r\n|Basah Kuyup|\r\nTubuh menjadi basah kuyup dan kecepatan bergerak akan menurun.\r\nDamage yang diterima dari serangan elemen Petir akan meningkat.\r\nDamage yang diterima dari serangan elemen Api akan berkurang.\r\n\r\n|Terlilit Tanaman|\r\nTubuh terlilit tanaman rambat dan kecepatan bergerak akan menurun.\r\nBeberapa tindakan seperti melompat atau menghindar akan dibatasi.\r\nDamage yang diterima dari serangan elemen Api akan meningkat.\r\n\r\n|Tersengat Listrik|\r\nTubuh menjadi lumpuh akibat listrik dan tidak bisa bergerak.\r\nDamage yang diterima dari serangan elemen Air akan meningkat.\r\n\r\n|Membeku|\r\nTubuh membeku dan menjadi tidak bisa bergerak.\r\n\r\n|Berlumuran Lumpur|\r\nTubuh berlumuran lumpur dan kecepatan bergerak akan menurun.\r\nDamage yang diterima dari serangan elemen Rumput akan meningkat.\r\nDamage yang diterima dari serangan elemen Petir akan berkurang.\r\n\r\n|Kegelapan|\r\nPandangan menjadi gelap dan kehilangan target serangan.\r\n\r\n|Racun|\r\nTubuh terkena racun dan menerima damage terus-menerus.",
+          "LocalizedString": "Status Abnormal\r\n\r\nPal atau pemain bisa terkena status abnormal akibat lingkungan sekitar atau efek dari skill.\r\nTerdapat berbagai jenis status abnormal, dan masing-masing memiliki efek yang berbeda.\r\nSelain itu, Pal yang terkena status abnormal akan menjadi lebih mudah ditangkap.\r\n\r\n\r\n|Terbakar|\r\nTubuh terbakar dan menerima damage terus-menerus.\r\nDamage yang diterima dari serangan elemen Rumput akan berkurang.\r\nPal elemen Api dan Air tidak akan terkena status terbakar.\r\n\r\n|Basah Kuyup|\r\nTubuh menjadi basah kuyup dan kecepatan bergerak akan menurun.\r\nDamage yang diterima dari serangan elemen Petir akan meningkat.\r\nDamage yang diterima dari serangan elemen Api akan berkurang.\r\n\r\n|Terlilit Tanaman|\r\nTubuh terlilit tanaman rambat dan kecepatan bergerak akan menurun.\r\nBeberapa tindakan seperti melompat atau menghindar akan dibatasi.\r\nDamage yang diterima dari serangan elemen Api akan meningkat.\r\n\r\n|Tersengat Listrik|\r\nTubuh menjadi lumpuh akibat listrik dan tidak bisa bergerak.\r\nDamage yang diterima dari serangan elemen Air akan meningkat.\r\n\r\n|Membeku|\r\nTubuh membeku dan menjadi tidak bisa bergerak.\r\n\r\n|Berlumuran Lumpur|\r\nTubuh berlumuran lumpur dan kecepatan bergerak akan menurun.\r\nDamage yang diterima dari serangan elemen Rumput akan meningkat.\r\nDamage yang diterima dari serangan elemen Petir akan berkurang.\r\n\r\n|Kegelapan|\r\nPandangan menjadi gelap dan kehilangan target serangan.\r\n\r\n|Racun|\r\nTubuh terkena racun dan menerima damage terus-menerus."
+        }
+      },
+      "Help_34": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_34_TextData",
+          "SourceString": "Telur Pal\r\n\r\nTerkadang kamu bisa menemukan Telur Pal saat sedang berjalan-jalan.\r\nTelur Pal bisa ditetaskan dengan memasukkan ke dalam Inkubator.\r\nProses penetasan akan berjalan lebih mudah jika suhu sekitarnya sesuai untuk telur tersebut.",
+          "LocalizedString": "Telur Pal\r\n\r\nTerkadang kamu bisa menemukan Telur Pal saat sedang berjalan-jalan.\r\nTelur Pal bisa ditetaskan dengan memasukkan ke dalam Inkubator.\r\nProses penetasan akan berjalan lebih mudah jika suhu sekitarnya sesuai untuk telur tersebut."
+        }
+      },
+      "Help_35": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_35_TextData",
+          "SourceString": "empat Pembiakan Pal\r\n\r\nDengan menempatkan Pal jantan dan betina bersama dengan kue bolu di tempat pembiakan, kamu bisa mendapatkan telur Pal.\r\nBeberapa kombinasi spesial akan menghasilkan telur Pal yang spesial.",
+          "LocalizedString": "empat Pembiakan Pal\r\n\r\nDengan menempatkan Pal jantan dan betina bersama dengan kue bolu di tempat pembiakan, kamu bisa mendapatkan telur Pal.\r\nBeberapa kombinasi spesial akan menghasilkan telur Pal yang spesial."
+        }
+      },
+      "Help_36": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_36_TextData",
+          "SourceString": "Peringkat Pal dan Tabung Ekstraksi\r\n\r\nSetiap Pal memiliki nilai peringkat, dan semakin tinggi nilai peringkat tersebut, maka semakin tinggi pula statusnya.\r\nSelain itu, kenaikan peringkat juga akan meningkatkan Skill Partner.\r\nPeringkat ini bisa ditingkatkan melalui fasilitas bernama Tabung Ekstraksi, yang memerlukan sejumlah besar Pal dari jenis yang sama untuk menjadi ekstrak.",
+          "LocalizedString": "Peringkat Pal dan Tabung Ekstraksi\r\n\r\nSetiap Pal memiliki nilai peringkat, dan semakin tinggi nilai peringkat tersebut, maka semakin tinggi pula statusnya.\r\nSelain itu, kenaikan peringkat juga akan meningkatkan Skill Partner.\r\nPeringkat ini bisa ditingkatkan melalui fasilitas bernama Tabung Ekstraksi, yang memerlukan sejumlah besar Pal dari jenis yang sama untuk menjadi ekstrak."
+        }
+      },
+      "Help_37": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_37_TextData",
+          "SourceString": "Patung Pal\r\n\r\nDengan mempersembahkan patung Pal yang ditemukan di lapangan kepada Patung Kekuatan, kamu bisa meningkatkan berbagai kemampuan pemain.",
+          "LocalizedString": "Patung Pal\r\n\r\nDengan mempersembahkan patung Pal yang ditemukan di lapangan kepada Patung Kekuatan, kamu bisa meningkatkan berbagai kemampuan pemain."
+        }
+      },
+      "Help_38": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_38_TextData",
+          "SourceString": "Jiwa Pal\r\n\r\nKamu dapat meningkatkan kemampuan Pal dengan mempersembahkan Jiwa Pal yang ditemukan dari kotak harta karun dan sebagainya kepada Patung Kekuatan.",
+          "LocalizedString": "Jiwa Pal\r\n\r\nKamu dapat meningkatkan kemampuan Pal dengan mempersembahkan Jiwa Pal yang ditemukan dari kotak harta karun dan sebagainya kepada Patung Kekuatan."
+        }
+      },
+      "Help_39": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_39_TextData",
+          "SourceString": "Subspesies Pal:\r\n\r\nMenurut pengamatan, beberapa Pal sudah beradaptasi dengan lingkungan tempat tinggalnya dan berubah menjadi bentuk berbeda yang disebut sebagai |Subspesies.|\r\nSubspesies punya elemen yang berbeda dari spesies aslinya dan memiliki status yang sedikit lebih tinggi.\r\n\r\nSelain itu, subspesies juga bisa lahir melalui kombinasi pembiakan.\r\n\r\nSubspesies dihitung terpisah dari bentuk asli untuk bonus koleksi, sehingga dengan menangkap 5 subspesies, kamu bisa mendapatkan EXP tambahan.",
+          "LocalizedString": "Subspesies Pal:\r\n\r\nMenurut pengamatan, beberapa Pal sudah beradaptasi dengan lingkungan tempat tinggalnya dan berubah menjadi bentuk berbeda yang disebut sebagai |Subspesies.|\r\nSubspesies punya elemen yang berbeda dari spesies aslinya dan memiliki status yang sedikit lebih tinggi.\r\n\r\nSelain itu, subspesies juga bisa lahir melalui kombinasi pembiakan.\r\n\r\nSubspesies dihitung terpisah dari bentuk asli untuk bonus koleksi, sehingga dengan menangkap 5 subspesies, kamu bisa mendapatkan EXP tambahan."
+        }
+      },
+      "Help_40": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_40_TextData",
+          "SourceString": "Pal Keberuntungan\r\n\r\nKamu bisa menemukan Pal langka yang disebut Pal Keberuntungan di arena.\r\nCiri khasnya adalah tubuh yang besar dan diselimuti cahaya.\r\nBiasanya mereka memiliki skill pasif dan aktif yang spesial, serta status yang tinggi.",
+          "LocalizedString": "Pal Keberuntungan\r\n\r\nKamu bisa menemukan Pal langka yang disebut Pal Keberuntungan di arena.\r\nCiri khasnya adalah tubuh yang besar dan diselimuti cahaya.\r\nBiasanya mereka memiliki skill pasif dan aktif yang spesial, serta status yang tinggi."
+        }
+      },
+      "Help_40_2": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_40_2_TextData",
+          "SourceString": "Pal Predator\r\n\r\nKamu mungkin akan berhadapan dengan Pal ganas yang disebut Pal Predator di arena. \r\n\r\nCiri khasnya adalah keganasannya serta tubuh raksasa yang diselimuti aura gelap berwarna merah.\r\nAura gelap membuat Sphere terpental, sehingga mereka tidak bisa ditangkap.\r\nPastikan kekuatanmu cukup sebelum menantangnya.",
+          "LocalizedString": "Pal Predator\r\n\r\nKamu mungkin akan berhadapan dengan Pal ganas yang disebut Pal Predator di arena. \r\n\r\nCiri khasnya adalah keganasannya serta tubuh raksasa yang diselimuti aura gelap berwarna merah.\r\nAura gelap membuat Sphere terpental, sehingga mereka tidak bisa ditangkap.\r\nPastikan kekuatanmu cukup sebelum menantangnya."
+        }
+      },
+      "Help_41": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_41_TextData",
+          "SourceString": "Penalti Kematian\r\n\r\nSaat kamu mati, item dan Pal yang kamu bawa akan terjatuh di lokasi kematian.\r\nItem dan Pal tersebut dapat diambil di lokasi yang sama setelah kamu hidup kembali.\r\nSelain itu, pilar cahaya akan muncul di lokasi tersebut. Menyentuhnya dari atas juga memungkinkanmu untuk mengambil semua item dan Pal dari sana.\r\n\r\n*Ada tidaknya penalti dan isi penalti bisa diubah dari pengaturan dunia.",
+          "LocalizedString": "Penalti Kematian\r\n\r\nSaat kamu mati, item dan Pal yang kamu bawa akan terjatuh di lokasi kematian.\r\nItem dan Pal tersebut dapat diambil di lokasi yang sama setelah kamu hidup kembali.\r\nSelain itu, pilar cahaya akan muncul di lokasi tersebut. Menyentuhnya dari atas juga memungkinkanmu untuk mengambil semua item dan Pal dari sana.\r\n\r\n*Ada tidaknya penalti dan isi penalti bisa diubah dari pengaturan dunia."
+        }
+      },
+      "Help_42": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_42_TextData",
+          "SourceString": "Arena\r\n\r\nini adalah fasilitas yang terletak di pulau terpencil di area padang pasir.\r\nDi sini, kamu bisa menggabungkan kekuatan dengan Pal yang sudah kamu latih untuk menguji kekuatan melawan Penjinak Pal lain dalam dunia yang sama,\r\natau melawan NPC. Khususnya NPC dengan Peringkat Master ke atas yang memiliki kekuatan luar biasa.\r\n\r\nKamu akan memilih 5 Pal kepunyaanmu, yang terdiri dari satu Pal Utama sebagai rekan dan 2 Pal Sub untuk ikut bertarung.\r\nKamu menang kalau berhasil mengalahkan Penjinak Pal lawan atau seluruh Pal milik mereka.\r\n\r\nItem yang digunakan atau Pal yang tumbang selama pertarungan akan kembali seperti semula setelah selesai.\r\n※ Item konsumsi tidak bisa digunakan di dalam Arena.\r\n※ Senjata yang menggunakan Pal Sphere atau metode doping tidak bisa digunakan di dalam Arena.\r\n\r\nKalau menang, kamu akan mendapatkan Poin Peringkat (RP), dan peringkatmu akan naik setelah mencapai jumlah RP tertentu.\r\nSebaliknya, kamu akan kehilangan RP jika kalah.\r\n\r\nSelain bertarung, kamu juga bisa menonton pertandingan yang sedang berlangsung di antara pemain lain.",
+          "LocalizedString": "Arena\r\n\r\nini adalah fasilitas yang terletak di pulau terpencil di area padang pasir.\r\nDi sini, kamu bisa menggabungkan kekuatan dengan Pal yang sudah kamu latih untuk menguji kekuatan melawan Penjinak Pal lain dalam dunia yang sama,\r\natau melawan NPC. Khususnya NPC dengan Peringkat Master ke atas yang memiliki kekuatan luar biasa.\r\n\r\nKamu akan memilih 5 Pal kepunyaanmu, yang terdiri dari satu Pal Utama sebagai rekan dan 2 Pal Sub untuk ikut bertarung.\r\nKamu menang kalau berhasil mengalahkan Penjinak Pal lawan atau seluruh Pal milik mereka.\r\n\r\nItem yang digunakan atau Pal yang tumbang selama pertarungan akan kembali seperti semula setelah selesai.\r\n※ Item konsumsi tidak bisa digunakan di dalam Arena.\r\n※ Senjata yang menggunakan Pal Sphere atau metode doping tidak bisa digunakan di dalam Arena.\r\n\r\nKalau menang, kamu akan mendapatkan Poin Peringkat (RP), dan peringkatmu akan naik setelah mencapai jumlah RP tertentu.\r\nSebaliknya, kamu akan kehilangan RP jika kalah.\r\n\r\nSelain bertarung, kamu juga bisa menonton pertandingan yang sedang berlangsung di antara pemain lain."
+        }
+      },
+      "Help_2_PS5": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_2_PS5_TextData",
+          "SourceString": "Metode Kontrol (Controller)\r\n\r\nTuas Kiri: Bergerak\r\nTuas Kanan: Kontrol Kamera\r\n<keyGuideIcon id=|ThrowPal| OverrideType=|2|/>　Memanggil Pal\r\n<keyGuideIcon id=|ThrowObject| OverrideType=|2|/>　Melempar Sphere\r\n<keyGuideIcon id=|OpenConstructionMenu| OverrideType=|2|/>　Menu Konstruksi\r\n<keyGuideIcon id=|Jump| OverrideType=|2|/>　Lompat\r\n<keyGuideIcon id=|WeaponReady| OverrideType=|2|/>　Bidik\r\n<keyGuideIcon id=|WeaponUse| OverrideType=|2|/>　Serang\r\n<keyGuideIcon id=|ReloadAndCoop| OverrideType=|2|/>　Skill Partner\r\n<keyGuideIcon id=|ChangeWeaponNext| OverrideType=|2|/>　Ganti Senjata\r\n<keyGuideIcon id=|RollingAndCrouch| OverrideType=|2|/>　Jongkok/Berguling\r\n<keyGuideIcon id=|DashController| OverrideType=|2|/>　Lari Cepat\r\n<keyGuideIcon id=|PartnerPalInstructions| OverrideType=|2|/> Memberi Perintah Pal\r\n<keyGuideIcon id=|OtomoChangeIncrement| OverrideType=|2|/><keyGuideIcon id=|OtomoChangeDecrement| OverrideType=|2|/>　Ganti Pal\r\n<keyGuideIcon id=|SphereChange| OverrideType=|2|/>　Ganti Sphere",
+          "LocalizedString": "Metode Kontrol (Controller)\r\n\r\nTuas Kiri: Bergerak\r\nTuas Kanan: Kontrol Kamera\r\n<keyGuideIcon id=|ThrowPal| OverrideType=|2|/>　Memanggil Pal\r\n<keyGuideIcon id=|ThrowObject| OverrideType=|2|/>　Melempar Sphere\r\n<keyGuideIcon id=|OpenConstructionMenu| OverrideType=|2|/>　Menu Konstruksi\r\n<keyGuideIcon id=|Jump| OverrideType=|2|/>　Lompat\r\n<keyGuideIcon id=|WeaponReady| OverrideType=|2|/>　Bidik\r\n<keyGuideIcon id=|WeaponUse| OverrideType=|2|/>　Serang\r\n<keyGuideIcon id=|ReloadAndCoop| OverrideType=|2|/>　Skill Partner\r\n<keyGuideIcon id=|ChangeWeaponNext| OverrideType=|2|/>　Ganti Senjata\r\n<keyGuideIcon id=|RollingAndCrouch| OverrideType=|2|/>　Jongkok/Berguling\r\n<keyGuideIcon id=|DashController| OverrideType=|2|/>　Lari Cepat\r\n<keyGuideIcon id=|PartnerPalInstructions| OverrideType=|2|/> Memberi Perintah Pal\r\n<keyGuideIcon id=|OtomoChangeIncrement| OverrideType=|2|/><keyGuideIcon id=|OtomoChangeDecrement| OverrideType=|2|/>　Ganti Pal\r\n<keyGuideIcon id=|SphereChange| OverrideType=|2|/>　Ganti Sphere"
+        }
+      },
+      "Help_43": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_43_TextData",
+          "SourceString": "Palbox Global\r\n\r\nIni adalah fasilitas di mana kamu bisa menyimpan data genetik Pal yang ada dalam Palbox, lalu merekonstruksi mereka dari data genetik yang tersimpan.\r\nNamun, tidak boleh ada lebih dari 2 pal dengan data genetik yang sama di dalam satu dunia.\r\nData genetik yang tersimpan dapat ditransfer ke dunia yang berbeda.\r\n\r\n*Jika opsi rekonstruksi Pal dan penyimpanan data genetik di pengaturan dunia dinonaktifkan, kamu tidak akan bisa merekonstruksi Pal atau menyimpan data genetik.",
+          "LocalizedString": "Palbox Global\r\n\r\nIni adalah fasilitas di mana kamu bisa menyimpan data genetik Pal yang ada dalam Palbox, lalu merekonstruksi mereka dari data genetik yang tersimpan.\r\nNamun, tidak boleh ada lebih dari 2 pal dengan data genetik yang sama di dalam satu dunia.\r\nData genetik yang tersimpan dapat ditransfer ke dunia yang berbeda.\r\n\r\n*Jika opsi rekonstruksi Pal dan penyimpanan data genetik di pengaturan dunia dinonaktifkan, kamu tidak akan bisa merekonstruksi Pal atau menyimpan data genetik."
+        }
+      },
+      "Help_44": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_44_TextData",
+          "SourceString": "Terjebak Di Lingkungan\r\n\r\nDengan memilih |Pelarian Darurat| dari tab Opsi pada menu, kamu akan mati dan kembali ke markas.\r\nSelain itu, ada juga item yang bisa membantumu kembali ke markas tanpa harus mati, dan ada juga Pal yang memiliki kemampuan teleportasi ke markas, ayo temukan mereka!",
+          "LocalizedString": "Terjebak Di Lingkungan\r\n\r\nDengan memilih |Pelarian Darurat| dari tab Opsi pada menu, kamu akan mati dan kembali ke markas.\r\nSelain itu, ada juga item yang bisa membantumu kembali ke markas tanpa harus mati, dan ada juga Pal yang memiliki kemampuan teleportasi ke markas, ayo temukan mereka!"
+        }
+      },
+      "Help_45": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_45_TextData",
+          "SourceString": "Memancing\r\n\r\nPakai alat pancing, lalu pilih umpan dari inventori. Pasang pancing dengan tombol <keyGuideIcon id=|WeaponReady|/> di perairan yang terlihat bayangan ikan, tekan tombol <keyGuideIcon id=|WeaponUse|/> untuk melempar kail, dan kamu bisa mulai memancing.\r\nKamu juga bisa memancing sambil menaiki Pal.\r\n\r\nBegitu Pal mendekati umpan dan pelampung tenggelam, tekan tombol <keyGuideIcon id=|WeaponUse|/> tepat waktu untuk menariknya.\r\n\r\nSetelah ditarik, mini game akan dimulai. Terus selaraskan bar dengan ikon ikan.\r\nTerus tekan tombol <keyGuideIcon id=|WeaponUse|/> untuk membuat bar bergerak ke kanan dan lepaskan untuk mengembalikan bar ke kiri.\r\nKarena Pal berusaha membebaskan diri dengan bergerak ke kanan dan kiri, penting untuk terus menyelaraskan bar sesuai dengan gerakannya.\r\n\r\nSaat bar mengenai ikon ikan, indikator pancing akan naik.\r\nKetika indikator pancing penuh, berarti kamu berhasil menangkapnya dan bisa mendapatkan Pal dan item-mu.\r\n\r\nMemperkuat pancingan dan umpan pancing akan memberimu keuntungan dalam mini game.\r\nSaat kamu merasa kesulitan dalam memancing, buatlah pancingan dan umpan pancing yang lebih tinggi performanya, lalu coba sekali lagi!\r\nSelain itu, ada juga Pal yang bisa membantu pemain dalam memancing, ayo kita cari!",
+          "LocalizedString": "Memancing\r\n\r\nPakai alat pancing, lalu pilih umpan dari inventori. Pasang pancing dengan tombol <keyGuideIcon id=|WeaponReady|/> di perairan yang terlihat bayangan ikan, tekan tombol <keyGuideIcon id=|WeaponUse|/> untuk melempar kail, dan kamu bisa mulai memancing.\r\nKamu juga bisa memancing sambil menaiki Pal.\r\n\r\nBegitu Pal mendekati umpan dan pelampung tenggelam, tekan tombol <keyGuideIcon id=|WeaponUse|/> tepat waktu untuk menariknya.\r\n\r\nSetelah ditarik, mini game akan dimulai. Terus selaraskan bar dengan ikon ikan.\r\nTerus tekan tombol <keyGuideIcon id=|WeaponUse|/> untuk membuat bar bergerak ke kanan dan lepaskan untuk mengembalikan bar ke kiri.\r\nKarena Pal berusaha membebaskan diri dengan bergerak ke kanan dan kiri, penting untuk terus menyelaraskan bar sesuai dengan gerakannya.\r\n\r\nSaat bar mengenai ikon ikan, indikator pancing akan naik.\r\nKetika indikator pancing penuh, berarti kamu berhasil menangkapnya dan bisa mendapatkan Pal dan item-mu.\r\n\r\nMemperkuat pancingan dan umpan pancing akan memberimu keuntungan dalam mini game.\r\nSaat kamu merasa kesulitan dalam memancing, buatlah pancingan dan umpan pancing yang lebih tinggi performanya, lalu coba sekali lagi!\r\nSelain itu, ada juga Pal yang bisa membantu pemain dalam memancing, ayo kita cari!"
+        }
+      }
+    }
+  }
+]

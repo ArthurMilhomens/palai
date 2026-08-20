@@ -1,0 +1,1072 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_HumanNameText_Common",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "NAME_TEST_NPC": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_TEST_NPC_TextData",
+          "SourceString": "de_Text",
+          "LocalizedString": "de_Text"
+        }
+      },
+      "NAME_CITIZEN": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_CITIZEN_TextData",
+          "SourceString": "Insulaner",
+          "LocalizedString": "Insulaner"
+        }
+      },
+      "NAME_VILLAGER": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_VILLAGER_TextData",
+          "SourceString": "Dorfbewohner",
+          "LocalizedString": "Dorfbewohner"
+        }
+      },
+      "NAME_QUESTMAN": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_QUESTMAN_TextData",
+          "SourceString": "de_Text",
+          "LocalizedString": "de_Text"
+        }
+      },
+      "NAME_SELESPERSON": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_SELESPERSON_TextData",
+          "SourceString": "Fahrender Händler",
+          "LocalizedString": "Fahrender Händler"
+        }
+      },
+      "NAME_VISITING": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_VISITING_TextData",
+          "SourceString": "de_Text",
+          "LocalizedString": "de_Text"
+        }
+      },
+      "NAME_WEAPON_DEALER": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_WEAPON_DEALER_TextData",
+          "SourceString": "de_Text",
+          "LocalizedString": "de_Text"
+        }
+      },
+      "NAME_PAL_DEALER": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_PAL_DEALER_TextData",
+          "SourceString": "Pal-Händler",
+          "LocalizedString": "Pal-Händler"
+        }
+      },
+      "NAME_GUARD": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_GUARD_TextData",
+          "SourceString": "Wache",
+          "LocalizedString": "Wache"
+        }
+      },
+      "NAME_SecurityDrone": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_SecurityDrone_TextData",
+          "SourceString": "Kampfhelikopter",
+          "LocalizedString": "Kampfhelikopter"
+        }
+      },
+      "NAME_Believer": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Believer_TextData",
+          "SourceString": "Liga der Palfreunde – Anhänger",
+          "LocalizedString": "Liga der Palfreunde – Anhänger"
+        }
+      },
+      "NAME_FireCult": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_FireCult_TextData",
+          "SourceString": "Bruderschaft der ewigen Lohe – Märtyrer",
+          "LocalizedString": "Bruderschaft der ewigen Lohe – Märtyrer"
+        }
+      },
+      "NAME_Labmen": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Labmen_TextData",
+          "SourceString": "Institut für Genforschung – Praxisteam",
+          "LocalizedString": "Institut für Genforschung – Praxisteam"
+        }
+      },
+      "NAME_POLICE": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_POLICE_TextData",
+          "SourceString": "Miliz – Wache",
+          "LocalizedString": "Miliz – Wache"
+        }
+      },
+      "NAME_POLICE_1": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_POLICE_1_TextData",
+          "SourceString": "Miliz – Patrouille",
+          "LocalizedString": "Miliz – Patrouille"
+        }
+      },
+      "NAME_POLICE_2": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_POLICE_2_TextData",
+          "SourceString": "Miliz – Gardist",
+          "LocalizedString": "Miliz – Gardist"
+        }
+      },
+      "NAME_POLICE_3": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_POLICE_3_TextData",
+          "SourceString": "Miliz – Elite",
+          "LocalizedString": "Miliz – Elite"
+        }
+      },
+      "NAME_HUNTER": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_TextData",
+          "SourceString": "Wilderer – Rookie",
+          "LocalizedString": "Wilderer – Rookie"
+        }
+      },
+      "NAME_HUNTER_2": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_2_TextData",
+          "SourceString": "Wilderer – Schütze",
+          "LocalizedString": "Wilderer – Schütze"
+        }
+      },
+      "NAME_HUNTER_3": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_3_TextData",
+          "SourceString": "Wilderer – Jäger",
+          "LocalizedString": "Wilderer – Jäger"
+        }
+      },
+      "NAME_HUNTER_4": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_4_TextData",
+          "SourceString": "Wilderer – Grenadier",
+          "LocalizedString": "Wilderer – Grenadier"
+        }
+      },
+      "NAME_HUNTER_5": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_5_TextData",
+          "SourceString": "Wilderer – Flammenwerfer",
+          "LocalizedString": "Wilderer – Flammenwerfer"
+        }
+      },
+      "NAME_HUNTER_6": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_6_TextData",
+          "SourceString": "Wilderer – Elite",
+          "LocalizedString": "Wilderer – Elite"
+        }
+      },
+      "NAME_HUNTER_BOSS": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_BOSS_TextData",
+          "SourceString": "Wilderer – Unterdrücker",
+          "LocalizedString": "Wilderer – Unterdrücker"
+        }
+      },
+      "NAME_DarkTrader": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_DarkTrader_TextData",
+          "SourceString": "Zwielichtiger Händler",
+          "LocalizedString": "Zwielichtiger Händler"
+        }
+      },
+      "NAME_HUNTER_7": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_7_TextData",
+          "SourceString": "Wilderer – Veteran",
+          "LocalizedString": "Wilderer – Veteran"
+        }
+      },
+      "NAME_HUNTER_8": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_8_TextData",
+          "SourceString": "Wilderer – Abfänger",
+          "LocalizedString": "Wilderer – Abfänger"
+        }
+      },
+      "NAME_Ninja": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Ninja_TextData",
+          "SourceString": "Gesellschaft des Blumenmondes – Ninjalehrling",
+          "LocalizedString": "Gesellschaft des Blumenmondes – Ninjalehrling"
+        }
+      },
+      "NAME_Ninja_2": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Ninja_2_TextData",
+          "SourceString": "Gesellschaft des Blumenmondes – Ninjameister",
+          "LocalizedString": "Gesellschaft des Blumenmondes – Ninjameister"
+        }
+      },
+      "NAME_MedalTrader": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_MedalTrader_TextData",
+          "SourceString": "Medaillenhändler",
+          "LocalizedString": "Medaillenhändler"
+        }
+      },
+      "NAME_BOSS_Hunter_Rifle": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Hunter_Rifle_TextData",
+          "SourceString": "Kopfgeldziel – Falk",
+          "LocalizedString": "Kopfgeldziel – Falk"
+        }
+      },
+      "NAME_BOSS_Hunter_Fat_GatlingGun": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Hunter_Fat_GatlingGun_TextData",
+          "SourceString": "Kopfgeldziel – Grillbert",
+          "LocalizedString": "Kopfgeldziel – Grillbert"
+        }
+      },
+      "NAME_BOSS_Believer_CrossBow": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Believer_CrossBow_TextData",
+          "SourceString": "Kopfgeldziel – Ego",
+          "LocalizedString": "Kopfgeldziel – Ego"
+        }
+      },
+      "NAME_BOSS_Believer_Fat_GiantClub": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Believer_Fat_GiantClub_TextData",
+          "SourceString": "Kopfgeldziel – Ziegelhardt",
+          "LocalizedString": "Kopfgeldziel – Ziegelhardt"
+        }
+      },
+      "NAME_BOSS_Police_Rifle": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Police_Rifle_TextData",
+          "SourceString": "Kopfgeldziel – Knut",
+          "LocalizedString": "Kopfgeldziel – Knut"
+        }
+      },
+      "NAME_BOSS_FireCult_FlameThrower": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_FireCult_FlameThrower_TextData",
+          "SourceString": "Kopfgeldziel – Nekrolf",
+          "LocalizedString": "Kopfgeldziel – Nekrolf"
+        }
+      },
+      "NAME_BOSS_Scientist_LaserRifle": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Scientist_LaserRifle_TextData",
+          "SourceString": "Kopfgeldziel – Nap",
+          "LocalizedString": "Kopfgeldziel – Nap"
+        }
+      },
+      "NAME_BOSS_Ninja": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Ninja_TextData",
+          "SourceString": "Kopfgeldziel – Patz",
+          "LocalizedString": "Kopfgeldziel – Patz"
+        }
+      },
+      "NAME_BOSS_Male_NinjaElite": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_NinjaElite_TextData",
+          "SourceString": "Kopfgeldziel – Rip",
+          "LocalizedString": "Kopfgeldziel – Rip"
+        }
+      },
+      "NAME_BOSS_Female_Soldier": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Female_Soldier_TextData",
+          "SourceString": "Kopfgeldziel – Trixi",
+          "LocalizedString": "Kopfgeldziel – Trixi"
+        }
+      },
+      "NAME_BOSS_Female_Soldier02": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Female_Soldier02_TextData",
+          "SourceString": "Kopfgeldziel – Diva",
+          "LocalizedString": "Kopfgeldziel – Diva"
+        }
+      },
+      "NAME_BOSS_Female_Soldier03": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Female_Soldier03_TextData",
+          "SourceString": "Kopfgeldziel – Aloha",
+          "LocalizedString": "Kopfgeldziel – Aloha"
+        }
+      },
+      "NAME_BOSS_Female_Soldier04": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Female_Soldier04_TextData",
+          "SourceString": "Kopfgeldziel – Klaudia",
+          "LocalizedString": "Kopfgeldziel – Klaudia"
+        }
+      },
+      "NAME_BOSS_Male_Soldier": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_Soldier_TextData",
+          "SourceString": "Kopfgeldziel – Crash",
+          "LocalizedString": "Kopfgeldziel – Crash"
+        }
+      },
+      "NAME_BOSS_Male_Soldier02": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_Soldier02_TextData",
+          "SourceString": "Kopfgeldziel – Schlotto",
+          "LocalizedString": "Kopfgeldziel – Schlotto"
+        }
+      },
+      "NAME_BOSS_Male_Soldier03": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_Soldier03_TextData",
+          "SourceString": "Kopfgeldziel – Clint",
+          "LocalizedString": "Kopfgeldziel – Clint"
+        }
+      },
+      "NAME_BOSS_Male_Soldier04": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_Soldier04_TextData",
+          "SourceString": "Kopfgeldziel – Lasso",
+          "LocalizedString": "Kopfgeldziel – Lasso"
+        }
+      },
+      "NAME_BOSS_Female_People": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Female_People_TextData",
+          "SourceString": "Kopfgeldziel – Zündaya",
+          "LocalizedString": "Kopfgeldziel – Zündaya"
+        }
+      },
+      "NAME_BOSS_Female_People02": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Female_People02_TextData",
+          "SourceString": "Kopfgeldziel – Sirena",
+          "LocalizedString": "Kopfgeldziel – Sirena"
+        }
+      },
+      "NAME_BOSS_Female_People03": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Female_People03_TextData",
+          "SourceString": "Kopfgeldziel – Wendy",
+          "LocalizedString": "Kopfgeldziel – Wendy"
+        }
+      },
+      "NAME_BOSS_Male_People": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_People_TextData",
+          "SourceString": "Kopfgeldziel – Dyna",
+          "LocalizedString": "Kopfgeldziel – Dyna"
+        }
+      },
+      "NAME_BOSS_Male_People2": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_People2_TextData",
+          "SourceString": "Kopfgeldziel – Mite",
+          "LocalizedString": "Kopfgeldziel – Mite"
+        }
+      },
+      "NAME_BOSS_Male_People02": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_People02_TextData",
+          "SourceString": "Kopfgeldziel – Quentin",
+          "LocalizedString": "Kopfgeldziel – Quentin"
+        }
+      },
+      "NAME_BOSS_Male_People03": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_People03_TextData",
+          "SourceString": "Kopfgeldziel – Zisch",
+          "LocalizedString": "Kopfgeldziel – Zisch"
+        }
+      },
+      "NAME_BOSS_Male_DesertPeople": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_DesertPeople_TextData",
+          "SourceString": "Kopfgeldziel – Phantom",
+          "LocalizedString": "Kopfgeldziel – Phantom"
+        }
+      },
+      "NAME_BOSS_Female_DesertPeople": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Female_DesertPeople_TextData",
+          "SourceString": "Kopfgeldziel – Tuschel",
+          "LocalizedString": "Kopfgeldziel – Tuschel"
+        }
+      },
+      "NAME_BOSS_Viking": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Viking_TextData",
+          "SourceString": "Kopfgeldziel – Knurps",
+          "LocalizedString": "Kopfgeldziel – Knurps"
+        }
+      },
+      "NAME_BOSS_VikingElite": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_VikingElite_TextData",
+          "SourceString": "Kopfgeldziel – Horton",
+          "LocalizedString": "Kopfgeldziel – Horton"
+        }
+      },
+      "NAME_BOSS_Police_Old": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Police_Old_TextData",
+          "SourceString": "Kopfgeldziel – Borgio",
+          "LocalizedString": "Kopfgeldziel – Borgio"
+        }
+      },
+      "NAME_BOSS_DarkTrader": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_DarkTrader_TextData",
+          "SourceString": "Kopfgeldziel – Dietrich",
+          "LocalizedString": "Kopfgeldziel – Dietrich"
+        }
+      },
+      "NAME_BOSS_Male_Trader01": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_Trader01_TextData",
+          "SourceString": "Kopfgeldziel – Raff",
+          "LocalizedString": "Kopfgeldziel – Raff"
+        }
+      },
+      "NAME_BOSS_Male_Trader02": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_Trader02_TextData",
+          "SourceString": "Kopfgeldziel – Blütwig XIV.",
+          "LocalizedString": "Kopfgeldziel – Blütwig XIV."
+        }
+      },
+      "NAME_BOSS_Male_Trader03": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_Trader03_TextData",
+          "SourceString": "Kopfgeldziel – Pferdinand",
+          "LocalizedString": "Kopfgeldziel – Pferdinand"
+        }
+      },
+      "NAME_BOSS_Hunter_Fat_GatlingGun_Quest_StrongOldMan": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Hunter_Fat_GatlingGun_Quest_StrongOldMan_TextData",
+          "SourceString": "Kopfgeldziel – Elder",
+          "LocalizedString": "Kopfgeldziel – Elder"
+        }
+      },
+      "NAME_Solider": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Solider_TextData",
+          "SourceString": "Stämmiger Söldner",
+          "LocalizedString": "Stämmiger Söldner"
+        }
+      },
+      "NAME_Recruiter": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Recruiter_TextData",
+          "SourceString": "Pal-Arbeitsvermittler",
+          "LocalizedString": "Pal-Arbeitsvermittler"
+        }
+      },
+      "NAME_CaravanLeader01": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_CaravanLeader01_TextData",
+          "SourceString": "Karawanenführer",
+          "LocalizedString": "Karawanenführer"
+        }
+      },
+      "NAME_Viking": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Viking_TextData",
+          "SourceString": "Feybreak Krieger",
+          "LocalizedString": "Feybreak Krieger"
+        }
+      },
+      "NAME_Viking_Elite": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Viking_Elite_TextData",
+          "SourceString": "Feybreak Berserker",
+          "LocalizedString": "Feybreak Berserker"
+        }
+      },
+      "NAME_Ambassador01": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Ambassador01_TextData",
+          "SourceString": "Oasenstadt-Konsul",
+          "LocalizedString": "Oasenstadt-Konsul"
+        }
+      },
+      "NAME_Blacksmith01": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Blacksmith01_TextData",
+          "SourceString": "Schmiedegeselle",
+          "LocalizedString": "Schmiedegeselle"
+        }
+      },
+      "NAME_Epicure01": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Epicure01_TextData",
+          "SourceString": "Delikatessenjägerin",
+          "LocalizedString": "Delikatessenjägerin"
+        }
+      },
+      "NAME_Escort_Warrior01": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Escort_Warrior01_TextData",
+          "SourceString": "Söldner-Eskorteur",
+          "LocalizedString": "Söldner-Eskorteur"
+        }
+      },
+      "NAME_Escort_PalTamer01": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Escort_PalTamer01_TextData",
+          "SourceString": "Pal Tamer-Eskorteur",
+          "LocalizedString": "Pal Tamer-Eskorteur"
+        }
+      },
+      "NAME_HUNTER_9": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_9_TextData",
+          "SourceString": "Wilderer – Hightechschütze",
+          "LocalizedString": "Wilderer – Hightechschütze"
+        }
+      },
+      "NAME_HUNTER_10": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_10_TextData",
+          "SourceString": "Wilderer – Armbrustschütze",
+          "LocalizedString": "Wilderer – Armbrustschütze"
+        }
+      },
+      "NAME_HUNTER_11": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_11_TextData",
+          "SourceString": "Wilderer – Schwertkämpfer",
+          "LocalizedString": "Wilderer – Schwertkämpfer"
+        }
+      },
+      "NAME_Believer_BOSS": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Believer_BOSS_TextData",
+          "SourceString": "Liga der Palfreunde – Schiedsrichter",
+          "LocalizedString": "Liga der Palfreunde – Schiedsrichter"
+        }
+      },
+      "NAME_Male_Soldier02_Invader": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Male_Soldier02_Invader_TextData",
+          "SourceString": "Leidenschaftlicher Pal Tamer",
+          "LocalizedString": "Leidenschaftlicher Pal Tamer"
+        }
+      },
+      "NAME_Female_Soldier03_Invader": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Female_Soldier03_Invader_TextData",
+          "SourceString": "Pal Tamer-Zwillinge",
+          "LocalizedString": "Pal Tamer-Zwillinge"
+        }
+      },
+      "NAME_BattlePaltamer001": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BattlePaltamer001_TextData",
+          "SourceString": "Angehender Pal Tamer",
+          "LocalizedString": "Angehender Pal Tamer"
+        }
+      },
+      "NAME_BattlePaltamer002": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BattlePaltamer002_TextData",
+          "SourceString": "Aufstrebende Pal Tamerin",
+          "LocalizedString": "Aufstrebende Pal Tamerin"
+        }
+      },
+      "NAME_BattlePaltamer003": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BattlePaltamer003_TextData",
+          "SourceString": "Gemeiner Pal Tamer",
+          "LocalizedString": "Gemeiner Pal Tamer"
+        }
+      },
+      "NAME_BattlePaltamer004": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BattlePaltamer004_TextData",
+          "SourceString": "Erfahrene Pal Tamerin",
+          "LocalizedString": "Erfahrene Pal Tamerin"
+        }
+      },
+      "NAME_BattlePaltamer005": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BattlePaltamer005_TextData",
+          "SourceString": "Kampflustiger Pal Tamer",
+          "LocalizedString": "Kampflustiger Pal Tamer"
+        }
+      },
+      "NAME_BattlePaltamer006": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BattlePaltamer006_TextData",
+          "SourceString": "Miausterliche Pal Tamerin",
+          "LocalizedString": "Miausterliche Pal Tamerin"
+        }
+      },
+      "NAME_Female_Presenter01": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Female_Presenter01_TextData",
+          "SourceString": "Freundliche Pal Tamerin",
+          "LocalizedString": "Freundliche Pal Tamerin"
+        }
+      },
+      "NAME_Police_Chief": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Police_Chief_TextData",
+          "SourceString": "Unmotivierter Polizeichef",
+          "LocalizedString": "Unmotivierter Polizeichef"
+        }
+      },
+      "NAME_Police_old_Prisoner": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Police_old_Prisoner_TextData",
+          "SourceString": "Inhaftierter Ex-Polizeichef",
+          "LocalizedString": "Inhaftierter Ex-Polizeichef"
+        }
+      },
+      "NAME_Police001": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Police001_TextData",
+          "SourceString": "Wiedergeborener Typ",
+          "LocalizedString": "Wiedergeborener Typ"
+        }
+      },
+      "NAME_Reward_Emote": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Reward_Emote_TextData",
+          "SourceString": "Liebespredigerin",
+          "LocalizedString": "Liebespredigerin"
+        }
+      },
+      "NAME_PalPassive_Doctor": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_PalPassive_Doctor_TextData",
+          "SourceString": "Dr. Brawn",
+          "LocalizedString": "Dr. Brawn"
+        }
+      },
+      "NAME_QUEST_SCHOLAR01": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_QUEST_SCHOLAR01_TextData",
+          "SourceString": "Legenden-Forscher",
+          "LocalizedString": "Legenden-Forscher"
+        }
+      },
+      "NAME_Reward_Paldex": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Reward_Paldex_TextData",
+          "SourceString": "Pal-Biologe",
+          "LocalizedString": "Pal-Biologe"
+        }
+      },
+      "NAME_Reward_BossDefeat": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Reward_BossDefeat_TextData",
+          "SourceString": "Erfahrener Paljäger",
+          "LocalizedString": "Erfahrener Paljäger"
+        }
+      },
+      "NAME_QUEST_RANGER04": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_QUEST_RANGER04_TextData",
+          "SourceString": "Nach Blumen duftende Jägerin",
+          "LocalizedString": "Nach Blumen duftende Jägerin"
+        }
+      },
+      "NAME_GrassBoss": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_GrassBoss_TextData",
+          "SourceString": "Zoe",
+          "LocalizedString": "Zoe"
+        }
+      },
+      "NAME_SurveyGirl": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_SurveyGirl_TextData",
+          "SourceString": "Fia",
+          "LocalizedString": "Fia"
+        }
+      },
+      "NAME_SurveyWoman": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_SurveyWoman_TextData",
+          "SourceString": "Carla",
+          "LocalizedString": "Carla"
+        }
+      },
+      "NAME_SurveyMan": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_SurveyMan_TextData",
+          "SourceString": "Gadel",
+          "LocalizedString": "Gadel"
+        }
+      },
+      "NAME_StrongOldMan": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_StrongOldMan_TextData",
+          "SourceString": "Harold",
+          "LocalizedString": "Harold"
+        }
+      },
+      "NAME_WildlifeSanctuaryDrone": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_WildlifeSanctuaryDrone_TextData",
+          "SourceString": "Abwehrdrohne",
+          "LocalizedString": "Abwehrdrohne"
+        }
+      },
+      "NAME_Police_Invader_Katana": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Police_Invader_Katana_TextData",
+          "SourceString": "Miliz – Schwertkämpfer",
+          "LocalizedString": "Miliz – Schwertkämpfer"
+        }
+      },
+      "NAME_Police_Invader_CrossBow": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Police_Invader_CrossBow_TextData",
+          "SourceString": "Miliz – Aufrührer",
+          "LocalizedString": "Miliz – Aufrührer"
+        }
+      },
+      "NAME_Police_Invader_LaserRifle": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Police_Invader_LaserRifle_TextData",
+          "SourceString": "Miliz – Hightechschütze",
+          "LocalizedString": "Miliz – Hightechschütze"
+        }
+      },
+      "NAME_Police_Invader_GrenadeLauncher": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Police_Invader_GrenadeLauncher_TextData",
+          "SourceString": "Miliz – Veteran",
+          "LocalizedString": "Miliz – Veteran"
+        }
+      },
+      "NAME_Police_Invader_FlameThrower": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Police_Invader_FlameThrower_TextData",
+          "SourceString": "Miliz – Flammenwerfer",
+          "LocalizedString": "Miliz – Flammenwerfer"
+        }
+      },
+      "NAME_Police_Invader_RocketLauncher": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Police_Invader_RocketLauncher_TextData",
+          "SourceString": "Miliz – Panzerfaustschütze",
+          "LocalizedString": "Miliz – Panzerfaustschütze"
+        }
+      },
+      "NAME_Police_Invader_MissileLauncher": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Police_Invader_MissileLauncher_TextData",
+          "SourceString": "Miliz – Abfänger",
+          "LocalizedString": "Miliz – Abfänger"
+        }
+      },
+      "NAME_Sorajima_Enemy": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Sorajima_Enemy_TextData",
+          "SourceString": "Azurgelübde – Vollstrecker",
+          "LocalizedString": "Azurgelübde – Vollstrecker"
+        }
+      },
+      "NAME_Caravan04": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan04_TextData",
+          "SourceString": "Metzgerlehrling",
+          "LocalizedString": "Metzgerlehrling"
+        }
+      },
+      "NAME_Caravan05": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan05_TextData",
+          "SourceString": "Erfahrener Fischer und Metzger",
+          "LocalizedString": "Erfahrener Fischer und Metzger"
+        }
+      },
+      "NAME_Caravan06": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan06_TextData",
+          "SourceString": "Meisterlicher Jäger",
+          "LocalizedString": "Meisterlicher Jäger"
+        }
+      },
+      "NAME_Caravan07": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan07_TextData",
+          "SourceString": "Legendärer Wildjäger",
+          "LocalizedString": "Legendärer Wildjäger"
+        }
+      },
+      "NAME_Caravan08": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan08_TextData",
+          "SourceString": "Schmuggler-Laufbursche",
+          "LocalizedString": "Schmuggler-Laufbursche"
+        }
+      },
+      "NAME_Caravan09": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan09_TextData",
+          "SourceString": "Quartiermeister der Söldner",
+          "LocalizedString": "Quartiermeister der Söldner"
+        }
+      },
+      "NAME_Caravan10": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan10_TextData",
+          "SourceString": "Händler für schwere Waffen",
+          "LocalizedString": "Händler für schwere Waffen"
+        }
+      },
+      "NAME_Caravan11": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan11_TextData",
+          "SourceString": "Legendärer Munitionshändler",
+          "LocalizedString": "Legendärer Munitionshändler"
+        }
+      },
+      "NAME_Caravan12": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan12_TextData",
+          "SourceString": "Dorfgemüsehändler",
+          "LocalizedString": "Dorfgemüsehändler"
+        }
+      },
+      "NAME_Caravan13": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan13_TextData",
+          "SourceString": "Fahrender Farmhändler",
+          "LocalizedString": "Fahrender Farmhändler"
+        }
+      },
+      "NAME_Caravan14": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan14_TextData",
+          "SourceString": "Legendärer Gemüsehändler",
+          "LocalizedString": "Legendärer Gemüsehändler"
+        }
+      },
+      "NAME_Caravan15": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan15_TextData",
+          "SourceString": "Zwielichtiger Arzneihändler",
+          "LocalizedString": "Zwielichtiger Arzneihändler"
+        }
+      },
+      "NAME_Caravan16": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan16_TextData",
+          "SourceString": "Zertifizierter Apotheker",
+          "LocalizedString": "Zertifizierter Apotheker"
+        }
+      },
+      "NAME_Caravan17": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan17_TextData",
+          "SourceString": "Legendärer Arzneikundler",
+          "LocalizedString": "Legendärer Arzneikundler"
+        }
+      },
+      "NAME_Caravan18": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan18_TextData",
+          "SourceString": "Straßenbäcker",
+          "LocalizedString": "Straßenbäcker"
+        }
+      },
+      "NAME_Caravan19": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan19_TextData",
+          "SourceString": "Wirt des städtischen Speiselokals",
+          "LocalizedString": "Wirt des städtischen Speiselokals"
+        }
+      },
+      "NAME_Caravan20": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan20_TextData",
+          "SourceString": "Nachwuchsgourmet",
+          "LocalizedString": "Nachwuchsgourmet"
+        }
+      },
+      "NAME_Caravan21": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan21_TextData",
+          "SourceString": "Legendärer Gourmet",
+          "LocalizedString": "Legendärer Gourmet"
+        }
+      },
+      "NAME_Caravan22": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan22_TextData",
+          "SourceString": "Materialsammler",
+          "LocalizedString": "Materialsammler"
+        }
+      },
+      "NAME_Caravan23": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan23_TextData",
+          "SourceString": "Zertifizierter Materialhändler",
+          "LocalizedString": "Zertifizierter Materialhändler"
+        }
+      },
+      "NAME_Caravan24": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan24_TextData",
+          "SourceString": "Elementarhändler",
+          "LocalizedString": "Elementarhändler"
+        }
+      },
+      "NAME_Caravan25": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan25_TextData",
+          "SourceString": "Legendärer Materialhändler",
+          "LocalizedString": "Legendärer Materialhändler"
+        }
+      }
+    }
+  }
+]

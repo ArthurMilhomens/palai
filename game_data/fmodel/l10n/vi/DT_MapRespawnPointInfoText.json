@@ -1,0 +1,1608 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_MapRespawnPointInfoText",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "SpawnPoint_1": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_1_TextData",
+          "SourceString": "Trên một ngọn đồi nhỏ. \r\nCó tầm nhìn tốt và tài nguyên phong phú,\r\nrất phù hợp cho người chơi lần đầu.",
+          "LocalizedString": "Trên một ngọn đồi nhỏ. \r\nCó tầm nhìn tốt và tài nguyên phong phú,\r\nrất phù hợp cho người chơi lần đầu."
+        }
+      },
+      "SpawnPoint_1_Title": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_1_Title_TextData",
+          "SourceString": "Đảo Gió Thổi - Cao Nguyên Khởi Đầu",
+          "LocalizedString": "Đảo Gió Thổi - Cao Nguyên Khởi Đầu"
+        }
+      },
+      "SpawnPoint_2": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_2_TextData",
+          "SourceString": "Bãi biển cát ven biển. Có nhiều Pal sống dưới nước. \r\nÍt cây cối, nhưng có Pal sống rải rác.",
+          "LocalizedString": "Bãi biển cát ven biển. Có nhiều Pal sống dưới nước. \r\nÍt cây cối, nhưng có Pal sống rải rác."
+        }
+      },
+      "SpawnPoint_2_Title": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_2_Title_TextData",
+          "SourceString": "Đảo Gió Thổi - Bờ Biển Cá Bay",
+          "LocalizedString": "Đảo Gió Thổi - Bờ Biển Cá Bay"
+        }
+      },
+      "SpawnPoint_3": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_3_TextData",
+          "SourceString": "Bờ biển với đá ngầm trải dài. \r\nLượng tài nguyên và Pal ở mức trung bình. \r\nHơi nhiều đá, nhưng có thể đảm bảo diện tích đất rộng.",
+          "LocalizedString": "Bờ biển với đá ngầm trải dài. \r\nLượng tài nguyên và Pal ở mức trung bình. \r\nHơi nhiều đá, nhưng có thể đảm bảo diện tích đất rộng."
+        }
+      },
+      "SpawnPoint_3_Title": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_3_Title_TextData",
+          "SourceString": "Quần Đảo Gió Biển - Đá Ngầm",
+          "LocalizedString": "Quần Đảo Gió Biển - Đá Ngầm"
+        }
+      },
+      "SpawnPoint_4": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_4_TextData",
+          "SourceString": "Hòn đảo có gió biển thổi qua.\r\nNằm gần núi lửa, mang khí hậu ấm áp và dễ sống.\r\nVị trí thuận lợi để di chuyển sang các đảo xung quanh, mở ra vô vàn trải nghiệm phiêu lưu.",
+          "LocalizedString": "Hòn đảo có gió biển thổi qua.\r\nNằm gần núi lửa, mang khí hậu ấm áp và dễ sống.\r\nVị trí thuận lợi để di chuyển sang các đảo xung quanh, mở ra vô vàn trải nghiệm phiêu lưu."
+        }
+      },
+      "SpawnPoint_4_Title": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_4_Title_TextData",
+          "SourceString": "Quần Đảo Gió Biển - Bãi Biển Trôi Dạt",
+          "LocalizedString": "Quần Đảo Gió Biển - Bãi Biển Trôi Dạt"
+        }
+      },
+      "SpawnPoint_5": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_5_TextData",
+          "SourceString": "Hòn đảo không có dấu hiệu con người sinh sống.\r\nLượng tài nguyên khan hiếm,\r\ncó vẻ như không thích hợp để sinh sống.",
+          "LocalizedString": "Hòn đảo không có dấu hiệu con người sinh sống.\r\nLượng tài nguyên khan hiếm,\r\ncó vẻ như không thích hợp để sinh sống."
+        }
+      },
+      "SpawnPoint_5_Title": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_5_Title_TextData",
+          "SourceString": "Đảo Tĩnh Lặng",
+          "LocalizedString": "Đảo Tĩnh Lặng"
+        }
+      },
+      "SpawnPoint_6": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_6_TextData",
+          "SourceString": "Một hòn đảo yên tĩnh mang địa hình nhấp nhô, được bao quanh bởi cây cối.\r\nNguồn tài nguyên và số lượng Pal rất hạn chế,\r\nnên rất ít người sinh sống tại vùng đất này.",
+          "LocalizedString": "Một hòn đảo yên tĩnh mang địa hình nhấp nhô, được bao quanh bởi cây cối.\r\nNguồn tài nguyên và số lượng Pal rất hạn chế,\r\nnên rất ít người sinh sống tại vùng đất này."
+        }
+      },
+      "SpawnPoint_6_Title": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_6_Title_TextData",
+          "SourceString": "Đảo Rì Rào",
+          "LocalizedString": "Đảo Rì Rào"
+        }
+      },
+      "SpawnPoint_7": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_7_TextData",
+          "SourceString": "Hòn đảo hoang vắng nằm ở phía Đông. \r\nNằm ở rìa lục địa và không ai muốn khai phá. \r\nHơi khó sống đối với những người chưa quen.",
+          "LocalizedString": "Hòn đảo hoang vắng nằm ở phía Đông. \r\nNằm ở rìa lục địa và không ai muốn khai phá. \r\nHơi khó sống đối với những người chưa quen."
+        }
+      },
+      "SpawnPoint_7_Title": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_7_Title_TextData",
+          "SourceString": "Đảo Hoang Phía Đông",
+          "LocalizedString": "Đảo Hoang Phía Đông"
+        }
+      },
+      "SpawnPoint_8": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_8_TextData",
+          "SourceString": "Hòn đảo với những vùng đất ngập nước trải dài.\r\nKhông khí có độ ẩm vừa phải nên có rất nhiều quả mọng sinh trưởng.\r\nNơi đây là địa bàn sinh sống của nhiều loài Pal khác nhau.",
+          "LocalizedString": "Hòn đảo với những vùng đất ngập nước trải dài.\r\nKhông khí có độ ẩm vừa phải nên có rất nhiều quả mọng sinh trưởng.\r\nNơi đây là địa bàn sinh sống của nhiều loài Pal khác nhau."
+        }
+      },
+      "SpawnPoint_8_Title": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_8_Title_TextData",
+          "SourceString": "Đảo Đầm Lầy",
+          "LocalizedString": "Đảo Đầm Lầy"
+        }
+      },
+      "FTPoint1": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint1_TextData",
+          "SourceString": "Sườn Núi Lửa Obsidian",
+          "LocalizedString": "Sườn Núi Lửa Obsidian"
+        }
+      },
+      "FTPoint2": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint2_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "FTPoint3": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint3_TextData",
+          "SourceString": "Lối Vào Tháp Đồng Minh Ngọn Lửa Vĩnh Cửu",
+          "LocalizedString": "Lối Vào Tháp Đồng Minh Ngọn Lửa Vĩnh Cửu"
+        }
+      },
+      "FTPoint4": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint4_TextData",
+          "SourceString": "Tàn Tích Văn Minh Cổ Đại",
+          "LocalizedString": "Tàn Tích Văn Minh Cổ Đại"
+        }
+      },
+      "FTPoint5": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint5_TextData",
+          "SourceString": "Làng Chài Tận Cùng",
+          "LocalizedString": "Làng Chài Tận Cùng"
+        }
+      },
+      "FTPoint6": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint6_TextData",
+          "SourceString": "Tượng Anubis Núi Lửa Obsidian",
+          "LocalizedString": "Tượng Anubis Núi Lửa Obsidian"
+        }
+      },
+      "FTPoint7": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint7_TextData",
+          "SourceString": "Bãi Biển Mùa Hè Vĩnh Cửu",
+          "LocalizedString": "Bãi Biển Mùa Hè Vĩnh Cửu"
+        }
+      },
+      "FTPoint8": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint8_TextData",
+          "SourceString": "Thành Phố Pháo Đài Hủy Diệt",
+          "LocalizedString": "Thành Phố Pháo Đài Hủy Diệt"
+        }
+      },
+      "FTPoint9": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint9_TextData",
+          "SourceString": "Lối Vào Tháp Đội Tự Vệ",
+          "LocalizedString": "Lối Vào Tháp Đội Tự Vệ"
+        }
+      },
+      "FTPoint10": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint10_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "FTPoint11": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint11_TextData",
+          "SourceString": "Lối Vào Cồn Cát",
+          "LocalizedString": "Lối Vào Cồn Cát"
+        }
+      },
+      "FTPoint12": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint12_TextData",
+          "SourceString": "Thành Phố Sa Mạc",
+          "LocalizedString": "Thành Phố Sa Mạc"
+        }
+      },
+      "FTPoint13": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint13_TextData",
+          "SourceString": "Vùng Sâu Cồn Cát",
+          "LocalizedString": "Vùng Sâu Cồn Cát"
+        }
+      },
+      "FTPoint14": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint14_TextData",
+          "SourceString": "Bờ Biển Nước Lạnh",
+          "LocalizedString": "Bờ Biển Nước Lạnh"
+        }
+      },
+      "FTPoint15": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint15_TextData",
+          "SourceString": "Đường Núi Tuyệt Mệnh",
+          "LocalizedString": "Đường Núi Tuyệt Mệnh"
+        }
+      },
+      "FTPoint16": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint16_TextData",
+          "SourceString": "Đồi Chồn Băng",
+          "LocalizedString": "Đồi Chồn Băng"
+        }
+      },
+      "FTPoint17": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint17_TextData",
+          "SourceString": "Hồ Không Tan",
+          "LocalizedString": "Hồ Không Tan"
+        }
+      },
+      "FTPoint18": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint18_TextData",
+          "SourceString": "Vùng Lạnh Lẽo Tột Độ",
+          "LocalizedString": "Vùng Lạnh Lẽo Tột Độ"
+        }
+      },
+      "FTPoint19": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint19_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "FTPoint20": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint20_TextData",
+          "SourceString": "Lối vào Tháp Đơn Vị Nghiên Cứu Gen",
+          "LocalizedString": "Lối vào Tháp Đơn Vị Nghiên Cứu Gen"
+        }
+      },
+      "FTPoint21": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint21_TextData",
+          "SourceString": "Đồi Quái Thú Cỏ Khổng Lồ",
+          "LocalizedString": "Đồi Quái Thú Cỏ Khổng Lồ"
+        }
+      },
+      "FTPoint22": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint22_TextData",
+          "SourceString": "Nhà Thờ Hoang Vắng",
+          "LocalizedString": "Nhà Thờ Hoang Vắng"
+        }
+      },
+      "FTPoint23": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint23_TextData",
+          "SourceString": "Đồi Khởi Đầu",
+          "LocalizedString": "Đồi Khởi Đầu"
+        }
+      },
+      "FTPoint24": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint24_TextData",
+          "SourceString": "Làng Nhỏ",
+          "LocalizedString": "Làng Nhỏ"
+        }
+      },
+      "FTPoint25": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint25_TextData",
+          "SourceString": "Thác Nước Tu Hành",
+          "LocalizedString": "Thác Nước Tu Hành"
+        }
+      },
+      "FTPoint26": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint26_TextData",
+          "SourceString": "Chân Núi Lửa",
+          "LocalizedString": "Chân Núi Lửa"
+        }
+      },
+      "FTPoint27": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint27_TextData",
+          "SourceString": "Vùng Đất Phong Ấn Chim Băng",
+          "LocalizedString": "Vùng Đất Phong Ấn Chim Băng"
+        }
+      },
+      "FTPoint28": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint28_TextData",
+          "SourceString": "Tàn Tích Pháo Đài",
+          "LocalizedString": "Tàn Tích Pháo Đài"
+        }
+      },
+      "FTPoint29": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint29_TextData",
+          "SourceString": "Vùng Đất Phong Ấn Kiếm Sĩ",
+          "LocalizedString": "Vùng Đất Phong Ấn Kiếm Sĩ"
+        }
+      },
+      "FTPoint30": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint30_TextData",
+          "SourceString": "Nhánh Đường Khám Phá",
+          "LocalizedString": "Nhánh Đường Khám Phá"
+        }
+      },
+      "FTPoint31": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint31_TextData",
+          "SourceString": "Nơi Thờ Cúng Cổ Kính",
+          "LocalizedString": "Nơi Thờ Cúng Cổ Kính"
+        }
+      },
+      "FTPoint32": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint32_TextData",
+          "SourceString": "Đỉnh Núi Thỏ Hoa",
+          "LocalizedString": "Đỉnh Núi Thỏ Hoa"
+        }
+      },
+      "FTPoint33": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint33_TextData",
+          "SourceString": "Trung Tâm Hồ",
+          "LocalizedString": "Trung Tâm Hồ"
+        }
+      },
+      "FTPoint34": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint34_TextData",
+          "SourceString": "Đồi Đạo Đức Giả",
+          "LocalizedString": "Đồi Đạo Đức Giả"
+        }
+      },
+      "FTPoint35": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint35_TextData",
+          "SourceString": "Vùng Đất Phong Ấn Huyền Bí",
+          "LocalizedString": "Vùng Đất Phong Ấn Huyền Bí"
+        }
+      },
+      "FTPoint36": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint36_TextData",
+          "SourceString": "Nhánh Đường Lên Núi Tuyết",
+          "LocalizedString": "Nhánh Đường Lên Núi Tuyết"
+        }
+      },
+      "FTPoint37": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint37_TextData",
+          "SourceString": "Đỉnh Núi Đóng Băng",
+          "LocalizedString": "Đỉnh Núi Đóng Băng"
+        }
+      },
+      "FTPoint38": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint38_TextData",
+          "SourceString": "Vùng Đất Phong Ấn Thần Tốc",
+          "LocalizedString": "Vùng Đất Phong Ấn Thần Tốc"
+        }
+      },
+      "FTPoint39": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint39_TextData",
+          "SourceString": "Rừng Gấu Trúc Cỏ",
+          "LocalizedString": "Rừng Gấu Trúc Cỏ"
+        }
+      },
+      "FTPoint40": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint40_TextData",
+          "SourceString": "Lãnh Thổ Cá Mập Nhỏ",
+          "LocalizedString": "Lãnh Thổ Cá Mập Nhỏ"
+        }
+      },
+      "FTPoint41": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint41_TextData",
+          "SourceString": "Rừng Bướm Sặc Sỡ",
+          "LocalizedString": "Rừng Bướm Sặc Sỡ"
+        }
+      },
+      "FTPoint42": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint42_TextData",
+          "SourceString": "Vùng Đất Phong Ấn Thiêu Đốt",
+          "LocalizedString": "Vùng Đất Phong Ấn Thiêu Đốt"
+        }
+      },
+      "FTPoint43": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint43_TextData",
+          "SourceString": "Vùng Sâu Rừng Tre",
+          "LocalizedString": "Vùng Sâu Rừng Tre"
+        }
+      },
+      "FTPoint44": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint44_TextData",
+          "SourceString": "Vùng Đất Phong Ấn Ngàn Lửa",
+          "LocalizedString": "Vùng Đất Phong Ấn Ngàn Lửa"
+        }
+      },
+      "FTPoint45": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint45_TextData",
+          "SourceString": "Lối Vào Tháp Tổ Chức Săn Trộm Rayne",
+          "LocalizedString": "Lối Vào Tháp Tổ Chức Săn Trộm Rayne"
+        }
+      },
+      "FTPoint46": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint46_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "FTPoint47": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint47_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "FTPoint48": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint48_TextData",
+          "SourceString": "Đồng Bằng Tuyết Trắng Tinh",
+          "LocalizedString": "Đồng Bằng Tuyết Trắng Tinh"
+        }
+      },
+      "FTPoint49": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint49_TextData",
+          "SourceString": "Đảo Tĩnh Lặng",
+          "LocalizedString": "Đảo Tĩnh Lặng"
+        }
+      },
+      "FTPoint50": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint50_TextData",
+          "SourceString": "Đảo Rì Rào",
+          "LocalizedString": "Đảo Rì Rào"
+        }
+      },
+      "FTPoint51": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint51_TextData",
+          "SourceString": "Bãi Biển Rồng Xanh Nhỏ",
+          "LocalizedString": "Bãi Biển Rồng Xanh Nhỏ"
+        }
+      },
+      "FTPoint52": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint52_TextData",
+          "SourceString": "Quần Đảo Gió Biển - Bãi Biển Trôi Dạt",
+          "LocalizedString": "Quần Đảo Gió Biển - Bãi Biển Trôi Dạt"
+        }
+      },
+      "FTPoint53": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint53_TextData",
+          "SourceString": "Nhà Thờ Quần Đảo Gió Biển",
+          "LocalizedString": "Nhà Thờ Quần Đảo Gió Biển"
+        }
+      },
+      "FTPoint54": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint54_TextData",
+          "SourceString": "Vịnh Nhỏ",
+          "LocalizedString": "Vịnh Nhỏ"
+        }
+      },
+      "FTPoint55": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint55_TextData",
+          "SourceString": "Bờ Biển Liên Đảo",
+          "LocalizedString": "Bờ Biển Liên Đảo"
+        }
+      },
+      "FTPoint56": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint56_TextData",
+          "SourceString": "Đảo Đầm Lầy",
+          "LocalizedString": "Đảo Đầm Lầy"
+        }
+      },
+      "FTPoint57": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint57_TextData",
+          "SourceString": "Đảo Hoang Phía Đông",
+          "LocalizedString": "Đảo Hoang Phía Đông"
+        }
+      },
+      "FTPoint58": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint58_TextData",
+          "SourceString": "Cầu Đất Tự Nhiên",
+          "LocalizedString": "Cầu Đất Tự Nhiên"
+        }
+      },
+      "FTPoint59": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint59_TextData",
+          "SourceString": "Tàn Tích Nhà Thờ Đảo Yên Tĩnh",
+          "LocalizedString": "Tàn Tích Nhà Thờ Đảo Yên Tĩnh"
+        }
+      },
+      "FTPoint60": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint60_TextData",
+          "SourceString": "Tàn Tích Nhà Thờ Đảo Đầm Lầy",
+          "LocalizedString": "Tàn Tích Nhà Thờ Đảo Đầm Lầy"
+        }
+      },
+      "FTPoint61": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint61_TextData",
+          "SourceString": "Cầu Lớn Hai Hiệp Sĩ",
+          "LocalizedString": "Cầu Lớn Hai Hiệp Sĩ"
+        }
+      },
+      "FTPoint62": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint62_TextData",
+          "SourceString": "Lối Vào Hẻm Núi",
+          "LocalizedString": "Lối Vào Hẻm Núi"
+        }
+      },
+      "FTPoint63": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint63_TextData",
+          "SourceString": "Lối Vào Đấu Trường",
+          "LocalizedString": "Lối Vào Đấu Trường"
+        }
+      },
+      "FTPoint64": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint64_TextData",
+          "SourceString": "Đảo Hoa Đào: Đầm Lầy Nấm",
+          "LocalizedString": "Đảo Hoa Đào: Đầm Lầy Nấm"
+        }
+      },
+      "FTPoint65": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint65_TextData",
+          "SourceString": "Đảo Hoa Đào: Cồn Cát Phía Nam",
+          "LocalizedString": "Đảo Hoa Đào: Cồn Cát Phía Nam"
+        }
+      },
+      "FTPoint66": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint66_TextData",
+          "SourceString": "Tháp Hoa Mặt Trăng",
+          "LocalizedString": "Tháp Hoa Mặt Trăng"
+        }
+      },
+      "FTPoint67": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint67_TextData",
+          "SourceString": "Lối Vào Tháp Hoa Mặt Trăng",
+          "LocalizedString": "Lối Vào Tháp Hoa Mặt Trăng"
+        }
+      },
+      "FTPoint68": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint68_TextData",
+          "SourceString": "Nhánh Đường Đến Hoa Anh Đào",
+          "LocalizedString": "Nhánh Đường Đến Hoa Anh Đào"
+        }
+      },
+      "FTPoint69": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint69_TextData",
+          "SourceString": "Đảo Hoa Đào: Mỏm Đá Phía Bắc",
+          "LocalizedString": "Đảo Hoa Đào: Mỏm Đá Phía Bắc"
+        }
+      },
+      "FTPoint70": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint70_TextData",
+          "SourceString": "Nghĩa Địa Xa Đảo",
+          "LocalizedString": "Nghĩa Địa Xa Đảo"
+        }
+      },
+      "FTPoint71": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint71_TextData",
+          "SourceString": "Vùng Đất Tro Cháy",
+          "LocalizedString": "Vùng Đất Tro Cháy"
+        }
+      },
+      "FTPoint72": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint72_TextData",
+          "SourceString": "Lối Vào Hang Động Cột Đá",
+          "LocalizedString": "Lối Vào Hang Động Cột Đá"
+        }
+      },
+      "FTPoint73": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint73_TextData",
+          "SourceString": "Đồng Bằng Đất Hoàng Thổ",
+          "LocalizedString": "Đồng Bằng Đất Hoàng Thổ"
+        }
+      },
+      "FTPoint74": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint74_TextData",
+          "SourceString": "Lối Đi Bí Mật Đến Cổng Tròn",
+          "LocalizedString": "Lối Đi Bí Mật Đến Cổng Tròn"
+        }
+      },
+      "FTPoint75": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint75_TextData",
+          "SourceString": "Cổng Tròn Nhìn Ra Tháp",
+          "LocalizedString": "Cổng Tròn Nhìn Ra Tháp"
+        }
+      },
+      "FTPoint76": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint76_TextData",
+          "SourceString": "Lối Vào Tháp Feybreak",
+          "LocalizedString": "Lối Vào Tháp Feybreak"
+        }
+      },
+      "FTPoint78": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint78_TextData",
+          "SourceString": "Cao Nguyên Cháy Sém",
+          "LocalizedString": "Cao Nguyên Cháy Sém"
+        }
+      },
+      "FTPoint79": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint79_TextData",
+          "SourceString": "Cao Nguyên Tro Lụi Tàn",
+          "LocalizedString": "Cao Nguyên Tro Lụi Tàn"
+        }
+      },
+      "FTPoint80": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint80_TextData",
+          "SourceString": "Cao Nguyên Nham Thạch Dư Nhiệt",
+          "LocalizedString": "Cao Nguyên Nham Thạch Dư Nhiệt"
+        }
+      },
+      "FTPoint81": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint81_TextData",
+          "SourceString": "Đường Hầm Rồng Khiên",
+          "LocalizedString": "Đường Hầm Rồng Khiên"
+        }
+      },
+      "FTPoint82": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint82_TextData",
+          "SourceString": "Đường Hầm Rồng Khiên",
+          "LocalizedString": "Đường Hầm Rồng Khiên"
+        }
+      },
+      "FTPoint83": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint83_TextData",
+          "SourceString": "Tàu Đắm Feybreak",
+          "LocalizedString": "Tàu Đắm Feybreak"
+        }
+      },
+      "FTPoint84": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint84_TextData",
+          "SourceString": "Đảo Biệt Lập Nắng Vàng",
+          "LocalizedString": "Đảo Biệt Lập Nắng Vàng"
+        }
+      },
+      "FTPoint85": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint85_TextData",
+          "SourceString": "Đảo Biệt Lập Ốc Đảo",
+          "LocalizedString": "Đảo Biệt Lập Ốc Đảo"
+        }
+      },
+      "FTPoint86": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint86_TextData",
+          "SourceString": "Đảo Biệt Lập Tảng Băng",
+          "LocalizedString": "Đảo Biệt Lập Tảng Băng"
+        }
+      },
+      "FTPoint87": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint87_TextData",
+          "SourceString": "Đảo Biệt Lập Băng Giá",
+          "LocalizedString": "Đảo Biệt Lập Băng Giá"
+        }
+      },
+      "FTPoint88": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint88_TextData",
+          "SourceString": "Đảo Biệt Lập Vong Linh",
+          "LocalizedString": "Đảo Biệt Lập Vong Linh"
+        }
+      },
+      "FTPoint89": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint89_TextData",
+          "SourceString": "Đảo Biệt Lập Kho Báu Hoang Phế",
+          "LocalizedString": "Đảo Biệt Lập Kho Báu Hoang Phế"
+        }
+      },
+      "FTPoint90": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint90_TextData",
+          "SourceString": "Vùng Đất Phong Ấn Terraria",
+          "LocalizedString": "Vùng Đất Phong Ấn Terraria"
+        }
+      },
+      "FTPoint91": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint91_TextData",
+          "SourceString": "Bờ Biển Đảo Rì Rào",
+          "LocalizedString": "Bờ Biển Đảo Rì Rào"
+        }
+      },
+      "FTPoint92": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint92_TextData",
+          "SourceString": "Cồn Cát Anubis",
+          "LocalizedString": "Cồn Cát Anubis"
+        }
+      },
+      "FTPoint93": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint93_TextData",
+          "SourceString": "Vách Đá Rì Rào",
+          "LocalizedString": "Vách Đá Rì Rào"
+        }
+      },
+      "FTPoint94": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint94_TextData",
+          "SourceString": "Dốc Rì Rào",
+          "LocalizedString": "Dốc Rì Rào"
+        }
+      },
+      "FTPoint95": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint95_TextData",
+          "SourceString": "Thung Lũng Gió Hú",
+          "LocalizedString": "Thung Lũng Gió Hú"
+        }
+      },
+      "FTPoint96": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint96_TextData",
+          "SourceString": "Bờ Biển Gió Mặn",
+          "LocalizedString": "Bờ Biển Gió Mặn"
+        }
+      },
+      "FTPoint97": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint97_TextData",
+          "SourceString": "Bờ Biển Ngắm Cát Bay",
+          "LocalizedString": "Bờ Biển Ngắm Cát Bay"
+        }
+      },
+      "FTPoint98": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint98_TextData",
+          "SourceString": "Bàn Thờ Gọi Bão",
+          "LocalizedString": "Bàn Thờ Gọi Bão"
+        }
+      },
+      "FTPoint99": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint99_TextData",
+          "SourceString": "Bờ Biển Sau Gấu Trúc Cỏ",
+          "LocalizedString": "Bờ Biển Sau Gấu Trúc Cỏ"
+        }
+      },
+      "FTPoint100": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint100_TextData",
+          "SourceString": "Suối Nguồn Xanh Tươi",
+          "LocalizedString": "Suối Nguồn Xanh Tươi"
+        }
+      },
+      "FTPoint101": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint101_TextData",
+          "SourceString": "Bờ Biển Khô Cằn",
+          "LocalizedString": "Bờ Biển Khô Cằn"
+        }
+      },
+      "FTPoint102": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint102_TextData",
+          "SourceString": "Nơi Tận Cùng Khô Cằn",
+          "LocalizedString": "Nơi Tận Cùng Khô Cằn"
+        }
+      },
+      "FTPoint103": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint103_TextData",
+          "SourceString": "Xương Sống Sa Mạc",
+          "LocalizedString": "Xương Sống Sa Mạc"
+        }
+      },
+      "FTPoint104": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint104_TextData",
+          "SourceString": "Đê Cát Cô Độc",
+          "LocalizedString": "Đê Cát Cô Độc"
+        }
+      },
+      "FTPoint105": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint105_TextData",
+          "SourceString": "Bãi Cát Trắng Tận Cùng",
+          "LocalizedString": "Bãi Cát Trắng Tận Cùng"
+        }
+      },
+      "FTPoint106": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint106_TextData",
+          "SourceString": "Hành Lang Ra Biển",
+          "LocalizedString": "Hành Lang Ra Biển"
+        }
+      },
+      "FTPoint107": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint107_TextData",
+          "SourceString": "Mũi Cát Băng Giá",
+          "LocalizedString": "Mũi Cát Băng Giá"
+        }
+      },
+      "FTPoint108": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint108_TextData",
+          "SourceString": "Đài Quan Sát Chờ Gió",
+          "LocalizedString": "Đài Quan Sát Chờ Gió"
+        }
+      },
+      "FTPoint109": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint109_TextData",
+          "SourceString": "Trạm Dừng Số 2 Núi Lửa Obsidian",
+          "LocalizedString": "Trạm Dừng Số 2 Núi Lửa Obsidian"
+        }
+      },
+      "FTPoint110": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint110_TextData",
+          "SourceString": "Đường Lên Núi Lửa Obsidian",
+          "LocalizedString": "Đường Lên Núi Lửa Obsidian"
+        }
+      },
+      "FTPoint111": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint111_TextData",
+          "SourceString": "Cồn Cát Khô Cằn",
+          "LocalizedString": "Cồn Cát Khô Cằn"
+        }
+      },
+      "FTPoint112": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint112_TextData",
+          "SourceString": "Cửa Biển Sóng Nhiệt",
+          "LocalizedString": "Cửa Biển Sóng Nhiệt"
+        }
+      },
+      "FTPoint113": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint113_TextData",
+          "SourceString": "Mũi Đá Xanh Tuyết Tan",
+          "LocalizedString": "Mũi Đá Xanh Tuyết Tan"
+        }
+      },
+      "FTPoint114": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint114_TextData",
+          "SourceString": "Sườn Núi Tỏa Hồn",
+          "LocalizedString": "Sườn Núi Tỏa Hồn"
+        }
+      },
+      "FTPoint115": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint115_TextData",
+          "SourceString": "Vườn Hoang Dưới Vách Đá",
+          "LocalizedString": "Vườn Hoang Dưới Vách Đá"
+        }
+      },
+      "FTPoint116": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint116_TextData",
+          "SourceString": "Đảo Hoa Đào: Bờ Biển Phía Tây",
+          "LocalizedString": "Đảo Hoa Đào: Bờ Biển Phía Tây"
+        }
+      },
+      "FTPoint117": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint117_TextData",
+          "SourceString": "Vách Đá Đỏ Thẫm",
+          "LocalizedString": "Vách Đá Đỏ Thẫm"
+        }
+      },
+      "FTPoint118": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint118_TextData",
+          "SourceString": "Lối Vào Cao Nguyên",
+          "LocalizedString": "Lối Vào Cao Nguyên"
+        }
+      },
+      "FTPoint119": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint119_TextData",
+          "SourceString": "Vách Đá Đỏ Uốn Lượn",
+          "LocalizedString": "Vách Đá Đỏ Uốn Lượn"
+        }
+      },
+      "FTPoint120": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint120_TextData",
+          "SourceString": "Đài Quan Sát Đỏ Rực",
+          "LocalizedString": "Đài Quan Sát Đỏ Rực"
+        }
+      },
+      "FTPoint121": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint121_TextData",
+          "SourceString": "Rừng Lạc Lối Đỏ Thẫm",
+          "LocalizedString": "Rừng Lạc Lối Đỏ Thẫm"
+        }
+      },
+      "FTPoint122": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint122_TextData",
+          "SourceString": "Đại Thụ Pha Lê",
+          "LocalizedString": "Đại Thụ Pha Lê"
+        }
+      },
+      "FTPoint123": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint123_TextData",
+          "SourceString": "Cổng Nước Giữa Hoang Mạc",
+          "LocalizedString": "Cổng Nước Giữa Hoang Mạc"
+        }
+      },
+      "FTPoint124": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint124_TextData",
+          "SourceString": "Đồi Ngắm Mỏ Dầu",
+          "LocalizedString": "Đồi Ngắm Mỏ Dầu"
+        }
+      },
+      "FTPoint125": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint125_TextData",
+          "SourceString": "Vách Đá Nấm Lạ",
+          "LocalizedString": "Vách Đá Nấm Lạ"
+        }
+      },
+      "FTPoint126": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint126_TextData",
+          "SourceString": "Hồ Tĩnh Lặng",
+          "LocalizedString": "Hồ Tĩnh Lặng"
+        }
+      },
+      "FTPoint127": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint127_TextData",
+          "SourceString": "Vách Đá Biển Xanh",
+          "LocalizedString": "Vách Đá Biển Xanh"
+        }
+      },
+      "FTPoint128": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint128_TextData",
+          "SourceString": "Mũi Đá Tím Cô Độc",
+          "LocalizedString": "Mũi Đá Tím Cô Độc"
+        }
+      },
+      "FTPoint129": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint129_TextData",
+          "SourceString": "Mũi Đất Kẻ Bị Trục Xuất",
+          "LocalizedString": "Mũi Đất Kẻ Bị Trục Xuất"
+        }
+      },
+      "Boss_KingWhale": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "Boss_KingWhale_TextData",
+          "SourceString": "Hoang Đảo Bị Lãng Quên",
+          "LocalizedString": "Hoang Đảo Bị Lãng Quên"
+        }
+      },
+      "Boss_Forest": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "Boss_Forest_TextData",
+          "SourceString": "Lối Vào Tháp Tổ Chức Bảo Vệ Pal",
+          "LocalizedString": "Lối Vào Tháp Tổ Chức Bảo Vệ Pal"
+        }
+      },
+      "WatchTower_1": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_1_TextData",
+          "SourceString": "Tháp Quan Sát Đảo Gió Thổi",
+          "LocalizedString": "Tháp Quan Sát Đảo Gió Thổi"
+        }
+      },
+      "WatchTower_2": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_2_TextData",
+          "SourceString": "Tháp Quan Sát Đảo Hoang Phía Đông",
+          "LocalizedString": "Tháp Quan Sát Đảo Hoang Phía Đông"
+        }
+      },
+      "WatchTower_3": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_3_TextData",
+          "SourceString": "Tháp Quan Sát Bờ Hồ Trăng Khuyết",
+          "LocalizedString": "Tháp Quan Sát Bờ Hồ Trăng Khuyết"
+        }
+      },
+      "WatchTower_4": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_4_TextData",
+          "SourceString": "Tháp Quan Sát Cồn Cát Nóng",
+          "LocalizedString": "Tháp Quan Sát Cồn Cát Nóng"
+        }
+      },
+      "WatchTower_5": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_5_TextData",
+          "SourceString": "Tháp Quan Sát Cao Nguyên Sa Thạch",
+          "LocalizedString": "Tháp Quan Sát Cao Nguyên Sa Thạch"
+        }
+      },
+      "WatchTower_6": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_6_TextData",
+          "SourceString": "Tháp Quan Sát Suối Nguồn Xanh Mát",
+          "LocalizedString": "Tháp Quan Sát Suối Nguồn Xanh Mát"
+        }
+      },
+      "WatchTower_7": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_7_TextData",
+          "SourceString": "Tháp Quan Sát Đồi Chồn Băng",
+          "LocalizedString": "Tháp Quan Sát Đồi Chồn Băng"
+        }
+      },
+      "WatchTower_8": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_8_TextData",
+          "SourceString": "Tháp Quan Sát Sườn Núi Tỏa Hồn Ánh Bạc",
+          "LocalizedString": "Tháp Quan Sát Sườn Núi Tỏa Hồn Ánh Bạc"
+        }
+      },
+      "WatchTower_9": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_9_TextData",
+          "SourceString": "Tháp Quan Sát Hẻm Núi Rừng Tre",
+          "LocalizedString": "Tháp Quan Sát Hẻm Núi Rừng Tre"
+        }
+      },
+      "WatchTower_10": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_10_TextData",
+          "SourceString": "Tháp Quan Sát Quần Đảo Gió Biển",
+          "LocalizedString": "Tháp Quan Sát Quần Đảo Gió Biển"
+        }
+      },
+      "WatchTower_11": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_11_TextData",
+          "SourceString": "Tháp Quan Sát Vùng Sâu Rừng Tre",
+          "LocalizedString": "Tháp Quan Sát Vùng Sâu Rừng Tre"
+        }
+      },
+      "WatchTower_12": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_12_TextData",
+          "SourceString": "Tháp Quan Sát Đảo Hoa Đào",
+          "LocalizedString": "Tháp Quan Sát Đảo Hoa Đào"
+        }
+      },
+      "WatchTower_13": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_13_TextData",
+          "SourceString": "Tháp Quan Sát Đất Cháy Obsidian",
+          "LocalizedString": "Tháp Quan Sát Đất Cháy Obsidian"
+        }
+      },
+      "WatchTower_14": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_14_TextData",
+          "SourceString": "Tháp Quan Sát Đầm Dung Nham",
+          "LocalizedString": "Tháp Quan Sát Đầm Dung Nham"
+        }
+      },
+      "WatchTower_15": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_15_TextData",
+          "SourceString": "Tháp Quan Sát Bãi Cát Khô Cằn",
+          "LocalizedString": "Tháp Quan Sát Bãi Cát Khô Cằn"
+        }
+      },
+      "WatchTower_16": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_16_TextData",
+          "SourceString": "Tháp Quan Sát Thành Phố Pháo Đài Hủy Diệt",
+          "LocalizedString": "Tháp Quan Sát Thành Phố Pháo Đài Hủy Diệt"
+        }
+      },
+      "WatchTower_17": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_17_TextData",
+          "SourceString": "Tháp Quan Sát Đồng Bằng Đất Hoàng Thổ",
+          "LocalizedString": "Tháp Quan Sát Đồng Bằng Đất Hoàng Thổ"
+        }
+      },
+      "WatchTower_18": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_18_TextData",
+          "SourceString": "Tháp Quan Sát Địa Tầng Đứt Gãy Rực Lửa",
+          "LocalizedString": "Tháp Quan Sát Địa Tầng Đứt Gãy Rực Lửa"
+        }
+      },
+      "WatchTower_19": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_19_TextData",
+          "SourceString": "Tháp Quan Sát Cao Nguyên Cháy Bỏng",
+          "LocalizedString": "Tháp Quan Sát Cao Nguyên Cháy Bỏng"
+        }
+      },
+      "WatchTower_20": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_20_TextData",
+          "SourceString": "Tháp Quan Sát Đồi San Hô Đóng Băng",
+          "LocalizedString": "Tháp Quan Sát Đồi San Hô Đóng Băng"
+        }
+      },
+      "WatchTower_21": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_21_TextData",
+          "SourceString": "Tháp Quan Sát Hoang Mạc Gió Nóng",
+          "LocalizedString": "Tháp Quan Sát Hoang Mạc Gió Nóng"
+        }
+      },
+      "WatchTower_22": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_22_TextData",
+          "SourceString": "Tháp Quan Sát Miền Ánh Dương",
+          "LocalizedString": "Tháp Quan Sát Miền Ánh Dương"
+        }
+      },
+      "SkyIsland_A": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SkyIsland_A_TextData",
+          "SourceString": "Tiên Cảnh Trên Không",
+          "LocalizedString": "Tiên Cảnh Trên Không"
+        }
+      },
+      "SkyIsland_B": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SkyIsland_B_TextData",
+          "SourceString": "Quần Đảo Pha Lê",
+          "LocalizedString": "Quần Đảo Pha Lê"
+        }
+      },
+      "SkyIsland_C": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SkyIsland_C_TextData",
+          "SourceString": "Hẻm Núi Hoa Súng",
+          "LocalizedString": "Hẻm Núi Hoa Súng"
+        }
+      },
+      "SkyIsland_D": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SkyIsland_D_TextData",
+          "SourceString": "Khe Nứt Trời Xanh",
+          "LocalizedString": "Khe Nứt Trời Xanh"
+        }
+      },
+      "SkyIsland_E": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SkyIsland_E_TextData",
+          "SourceString": "Vùng Lầy Mây Bùn",
+          "LocalizedString": "Vùng Lầy Mây Bùn"
+        }
+      },
+      "SkyIsland_BOSS": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SkyIsland_BOSS_TextData",
+          "SourceString": "Lối Vào Tháp Giao Ước",
+          "LocalizedString": "Lối Vào Tháp Giao Ước"
+        }
+      },
+      "WorldTree_A": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_A_TextData",
+          "SourceString": "Đồng Cỏ Xanh Linh Thiêng",
+          "LocalizedString": "Đồng Cỏ Xanh Linh Thiêng"
+        }
+      },
+      "WorldTree_B": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_B_TextData",
+          "SourceString": "Rừng Tử Đằng Mê Hoặc",
+          "LocalizedString": "Rừng Tử Đằng Mê Hoặc"
+        }
+      },
+      "WorldTree_C_1": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_C_1_TextData",
+          "SourceString": "Hẻm Núi Bụi Vàng",
+          "LocalizedString": "Hẻm Núi Bụi Vàng"
+        }
+      },
+      "WorldTree_C_2": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_C_2_TextData",
+          "SourceString": "Bờ Sông Hài Cốt",
+          "LocalizedString": "Bờ Sông Hài Cốt"
+        }
+      },
+      "WorldTree_D": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_D_TextData",
+          "SourceString": "Hang Cây Mục Rỗng",
+          "LocalizedString": "Hang Cây Mục Rỗng"
+        }
+      },
+      "WorldTree_E": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_E_TextData",
+          "SourceString": "Bờ Hồ Thác Thiêng",
+          "LocalizedString": "Bờ Hồ Thác Thiêng"
+        }
+      },
+      "WorldTree_I": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_I_TextData",
+          "SourceString": "Đỉnh Núi Thánh Băng",
+          "LocalizedString": "Đỉnh Núi Thánh Băng"
+        }
+      },
+      "WorldTree_L": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_L_TextData",
+          "SourceString": "Hành Lang Bào Tử",
+          "LocalizedString": "Hành Lang Bào Tử"
+        }
+      },
+      "WorldTree_M": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_M_TextData",
+          "SourceString": "Bãi Cạn Lệ Thánh",
+          "LocalizedString": "Bãi Cạn Lệ Thánh"
+        }
+      },
+      "WorldTree_N": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_N_TextData",
+          "SourceString": "Cố Đô Hoàng Kim",
+          "LocalizedString": "Cố Đô Hoàng Kim"
+        }
+      },
+      "WorldTree_lab": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_lab_TextData",
+          "SourceString": "Viện Nghiên Cứu Bỏ Hoang",
+          "LocalizedString": "Viện Nghiên Cứu Bỏ Hoang"
+        }
+      },
+      "WorldTree_LastBoss": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_LastBoss_TextData",
+          "SourceString": "Căn Phòng Phong Ấn",
+          "LocalizedString": "Căn Phòng Phong Ấn"
+        }
+      },
+      "WatchTower_WorldTree_1": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_WorldTree_1_TextData",
+          "SourceString": "Tháp Quan Sát Hẻm Núi Bụi Vàng",
+          "LocalizedString": "Tháp Quan Sát Hẻm Núi Bụi Vàng"
+        }
+      },
+      "WatchTower_WorldTree_2": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_WorldTree_2_TextData",
+          "SourceString": "Tháp Quan Sát Cố Đô Hoàng Kim",
+          "LocalizedString": "Tháp Quan Sát Cố Đô Hoàng Kim"
+        }
+      },
+      "New_SmallIsland01": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "New_SmallIsland01_TextData",
+          "SourceString": "Hoang Đảo Phế Tích Vòng Tròn",
+          "LocalizedString": "Hoang Đảo Phế Tích Vòng Tròn"
+        }
+      },
+      "New_SmallIsland02": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "New_SmallIsland02_TextData",
+          "SourceString": "Hoang Đảo Mạch Lửa",
+          "LocalizedString": "Hoang Đảo Mạch Lửa"
+        }
+      },
+      "New_SmallIsland03": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "New_SmallIsland03_TextData",
+          "SourceString": "Hoang Đảo Phong Thực",
+          "LocalizedString": "Hoang Đảo Phong Thực"
+        }
+      },
+      "New_SmallIsland04": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "New_SmallIsland04_TextData",
+          "SourceString": "Hoang Đảo Song Giác",
+          "LocalizedString": "Hoang Đảo Song Giác"
+        }
+      },
+      "New_SmallIsland05": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "New_SmallIsland05_TextData",
+          "SourceString": "Hoang Đảo Phế Tích Vòng Băng",
+          "LocalizedString": "Hoang Đảo Phế Tích Vòng Băng"
+        }
+      },
+      "New_SmallIsland06": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "New_SmallIsland06_TextData",
+          "SourceString": "Hoang Đảo Cổng Sa Thạch",
+          "LocalizedString": "Hoang Đảo Cổng Sa Thạch"
+        }
+      },
+      "New_SmallIsland07": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "New_SmallIsland07_TextData",
+          "SourceString": "Hoang Đảo Ấn Ký Thái Dương",
+          "LocalizedString": "Hoang Đảo Ấn Ký Thái Dương"
+        }
+      },
+      "FootOfWorldTree": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FootOfWorldTree_TextData",
+          "SourceString": "Dưới Chân Cây Thế Giới",
+          "LocalizedString": "Dưới Chân Cây Thế Giới"
+        }
+      },
+      "WorldTree_MiddleBoss_1": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_MiddleBoss_1_TextData",
+          "SourceString": "Nguồn gốc của Sương Ăn Mòn",
+          "LocalizedString": "Nguồn gốc của Sương Ăn Mòn"
+        }
+      },
+      "WorldTree_MiddleBoss_2": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_MiddleBoss_2_TextData",
+          "SourceString": "Nguồn gốc của Bào Tử Dạ Quang",
+          "LocalizedString": "Nguồn gốc của Bào Tử Dạ Quang"
+        }
+      },
+      "WorldTree_MiddleBoss_3": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_MiddleBoss_3_TextData",
+          "SourceString": "Phòng Thí Nghiệm Cấm",
+          "LocalizedString": "Phòng Thí Nghiệm Cấm"
+        }
+      }
+    }
+  }
+]

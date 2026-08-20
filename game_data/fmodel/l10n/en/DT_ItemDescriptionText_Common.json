@@ -2,9 +2,8 @@
   {
     "Type": "DataTable",
     "Name": "DT_ItemDescriptionText_Common",
-    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'DataTable'",
-    "Package": "Pal/Content/L10N/en/Pal/DataTable/Text/DT_ItemDescriptionText_Common",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "RowStruct": {
         "ObjectName": "ScriptStruct'PalLocalizedTextData'",
@@ -360,8 +359,8 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_Fiber_TextData",
-          "SourceString": "Fiber collected from trees.\r\nA material used when creating bows, etc.",
-          "LocalizedString": "Fiber collected from trees.\r\nA material used when creating bows, etc."
+          "SourceString": "Fiber collected from trees. A material used when creating bows, etc.\r\nCan also be obtained by breaking down <itemName id=|Wood|/> at a <mapObjectName id=|Crusher|/>.",
+          "LocalizedString": "Fiber collected from trees. A material used when creating bows, etc.\r\nCan also be obtained by breaking down <itemName id=|Wood|/> at a <mapObjectName id=|Crusher|/>."
         }
       },
       "ITEM_DESC_FishMeat": {
@@ -568,16 +567,16 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_MachineParts_TextData",
-          "SourceString": "Necessary for building various facilities.\r\nCan be made with a <mapObjectName id=|WorkBench|/>.",
-          "LocalizedString": "Necessary for building various facilities.\r\nCan be made with a <mapObjectName id=|WorkBench|/>."
+          "SourceString": "Necessary for building various facilities.\r\nCan be crafted at <mapObjectName id=|WorkBench|/>.",
+          "LocalizedString": "Necessary for building various facilities.\r\nCan be crafted at <mapObjectName id=|WorkBench|/>."
         }
       },
       "ITEM_DESC_MachineParts2": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_MachineParts2_TextData",
-          "SourceString": "Required to create precision equipment.\r\nCan be made with a <mapObjectName id=|Factory_Hard_02|/>.",
-          "LocalizedString": "Required to create precision equipment.\r\nCan be made with a <mapObjectName id=|Factory_Hard_02|/>."
+          "SourceString": "Required to create precision equipment.\r\nCan be crafted at <mapObjectName id=|Factory_Hard_02|/>.",
+          "LocalizedString": "Required to create precision equipment.\r\nCan be crafted at <mapObjectName id=|Factory_Hard_02|/>."
         }
       },
       "ITEM_DESC_Meat": {
@@ -1032,8 +1031,8 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_Wood_TextData",
-          "SourceString": "Material for structures and items.\r\nCan be obtained by cutting trees.",
-          "LocalizedString": "Material for structures and items.\r\nCan be obtained by cutting trees."
+          "SourceString": "Material for structures and items.\r\nObtained by chopping down trees.\r\nCan be broken down at a <mapObjectName id=|Crusher|/> to obtain <itemName id=|Fiber|/>.",
+          "LocalizedString": "Material for structures and items.\r\nObtained by chopping down trees.\r\nCan be broken down at a <mapObjectName id=|Crusher|/> to obtain <itemName id=|Fiber|/>."
         }
       },
       "ITEM_DESC_Wool": {
@@ -1048,16 +1047,16 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_CrudeOil_TextData",
-          "SourceString": "A material that can be processed into various products.\r\nObtained by installing a <mapObjectName id=|OilPump|/> in an oil field.",
-          "LocalizedString": "A material that can be processed into various products.\r\nObtained by installing a <mapObjectName id=|OilPump|/> in an oil field."
+          "SourceString": "Material that can be processed into various products.\r\nObtained by installing a <mapObjectName id=|OilPump|/> on an oil field.",
+          "LocalizedString": "Material that can be processed into various products.\r\nObtained by installing a <mapObjectName id=|OilPump|/> on an oil field."
         }
       },
       "ITEM_DESC_Plastic": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_Plastic_TextData",
-          "SourceString": "<itemName id=|Plastic|/> created by processing <itemName id=|CrudeOil|/> and metal.\r\nCan be produced in a <mapObjectName id=|BlastFurnace3|/>.",
-          "LocalizedString": "<itemName id=|Plastic|/> created by processing <itemName id=|CrudeOil|/> and metal.\r\nCan be produced in a <mapObjectName id=|BlastFurnace3|/>."
+          "SourceString": "Material created by processing <itemName id=|CrudeOil|/> and metal.\r\nCan be produced in an <mapObjectName id=|BlastFurnace3|/>.",
+          "LocalizedString": "Material created by processing <itemName id=|CrudeOil|/> and metal.\r\nCan be produced in an <mapObjectName id=|BlastFurnace3|/>."
         }
       },
       "ITEM_DESC_Computer": {
@@ -1424,360 +1423,360 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Normal_01_TextData",
-          "SourceString": "A <itemName id=|PalEgg_Normal_01|/>.\r\nSomething gentle moves within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
-          "LocalizedString": "A <itemName id=|PalEgg_Normal_01|/>.\r\nSomething gentle moves within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it."
+          "SourceString": "A <itemName id=|PalEgg_Normal_01|/>. \r\nSomething gentle moves within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
+          "LocalizedString": "A <itemName id=|PalEgg_Normal_01|/>. \r\nSomething gentle moves within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it."
         }
       },
       "ITEM_DESC_PalEgg_Normal_02": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Normal_02_TextData",
-          "SourceString": "A <itemName id=|PalEgg_Normal_02|/>.\r\nSomething gentle moves within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
-          "LocalizedString": "A <itemName id=|PalEgg_Normal_02|/>.\r\nSomething gentle moves within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it."
+          "SourceString": "A <itemName id=|PalEgg_Normal_02|/>. \r\nSomething gentle moves within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
+          "LocalizedString": "A <itemName id=|PalEgg_Normal_02|/>. \r\nSomething gentle moves within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it."
         }
       },
       "ITEM_DESC_PalEgg_Normal_03": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Normal_03_TextData",
-          "SourceString": "A <itemName id=|PalEgg_Normal_03|/>.\r\nA calm rhythm beats within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
-          "LocalizedString": "A <itemName id=|PalEgg_Normal_03|/>.\r\nA calm rhythm beats within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it."
+          "SourceString": "A <itemName id=|PalEgg_Normal_03|/>. \r\nA calm rhythm beats within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
+          "LocalizedString": "A <itemName id=|PalEgg_Normal_03|/>. \r\nA calm rhythm beats within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it."
         }
       },
       "ITEM_DESC_PalEgg_Normal_04": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Normal_04_TextData",
-          "SourceString": "A <itemName id=|PalEgg_Normal_04|/>.\r\nA calm rhythm beats within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
-          "LocalizedString": "A <itemName id=|PalEgg_Normal_04|/>.\r\nA calm rhythm beats within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it."
+          "SourceString": "A <itemName id=|PalEgg_Normal_04|/>. \r\nA calm rhythm beats within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
+          "LocalizedString": "A <itemName id=|PalEgg_Normal_04|/>. \r\nA calm rhythm beats within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it."
         }
       },
       "ITEM_DESC_PalEgg_Normal_05": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Normal_05_TextData",
-          "SourceString": "A <itemName id=|PalEgg_Normal_05|/>.\r\nA gentle spirit throbs within—as if a monster is about to be born.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
-          "LocalizedString": "A <itemName id=|PalEgg_Normal_05|/>.\r\nA gentle spirit throbs within—as if a monster is about to be born.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it."
+          "SourceString": "A <itemName id=|PalEgg_Normal_05|/>. \r\nA gentle spirit throbs within—as if a monster is about to be born.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
+          "LocalizedString": "A <itemName id=|PalEgg_Normal_05|/>. \r\nA gentle spirit throbs within—as if a monster is about to be born.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it."
         }
       },
       "ITEM_DESC_PalEgg_Fire_01": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Fire_01_TextData",
-          "SourceString": "A <itemName id=|PalEgg_Fire_01|/>.\r\nSomething hot moves within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
-          "LocalizedString": "A <itemName id=|PalEgg_Fire_01|/>.\r\nSomething hot moves within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it."
+          "SourceString": "A <itemName id=|PalEgg_Fire_01|/>. \r\nSomething hot moves within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
+          "LocalizedString": "A <itemName id=|PalEgg_Fire_01|/>. \r\nSomething hot moves within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it."
         }
       },
       "ITEM_DESC_PalEgg_Fire_02": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Fire_02_TextData",
-          "SourceString": "A <itemName id=|PalEgg_Fire_02|/>.\r\nSomething hot moves within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
-          "LocalizedString": "A <itemName id=|PalEgg_Fire_02|/>.\r\nSomething hot moves within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it."
+          "SourceString": "A <itemName id=|PalEgg_Fire_02|/>.\r\nSomething hot moves within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
+          "LocalizedString": "A <itemName id=|PalEgg_Fire_02|/>.\r\nSomething hot moves within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it."
         }
       },
       "ITEM_DESC_PalEgg_Fire_03": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Fire_03_TextData",
-          "SourceString": "A <itemName id=|PalEgg_Fire_03|/>.\r\nPassion burns from within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
-          "LocalizedString": "A <itemName id=|PalEgg_Fire_03|/>.\r\nPassion burns from within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it."
+          "SourceString": "A <itemName id=|PalEgg_Fire_03|/>.\r\nPassion burns from within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
+          "LocalizedString": "A <itemName id=|PalEgg_Fire_03|/>.\r\nPassion burns from within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it."
         }
       },
       "ITEM_DESC_PalEgg_Fire_04": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Fire_04_TextData",
-          "SourceString": "A <itemName id=|PalEgg_Fire_04|/>.\r\nPassion burns from within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
-          "LocalizedString": "A <itemName id=|PalEgg_Fire_04|/>.\r\nPassion burns from within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it."
+          "SourceString": "A <itemName id=|PalEgg_Fire_04|/>.\r\nPassion burns from within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
+          "LocalizedString": "A <itemName id=|PalEgg_Fire_04|/>.\r\nPassion burns from within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it."
         }
       },
       "ITEM_DESC_PalEgg_Fire_05": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Fire_05_TextData",
-          "SourceString": "A <itemName id=|PalEgg_Fire_05|/>.\r\nA blazing spirit burns within—as if a monster is about to be born.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
-          "LocalizedString": "A <itemName id=|PalEgg_Fire_05|/>.\r\nA blazing spirit burns within—as if a monster is about to be born.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it."
+          "SourceString": "A <itemName id=|PalEgg_Fire_05|/>.\r\nA blazing spirit burns within—as if a monster is about to be born.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
+          "LocalizedString": "A <itemName id=|PalEgg_Fire_05|/>.\r\nA blazing spirit burns within—as if a monster is about to be born.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it."
         }
       },
       "ITEM_DESC_PalEgg_Water_01": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Water_01_TextData",
-          "SourceString": "A <itemName id=|PalEgg_Water_01|/>.\r\nSomething swims within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
-          "LocalizedString": "A <itemName id=|PalEgg_Water_01|/>.\r\nSomething swims within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it."
+          "SourceString": "A <itemName id=|PalEgg_Water_01|/>.\r\nSomething swims within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
+          "LocalizedString": "A <itemName id=|PalEgg_Water_01|/>.\r\nSomething swims within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it."
         }
       },
       "ITEM_DESC_PalEgg_Water_02": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Water_02_TextData",
-          "SourceString": "A <itemName id=|PalEgg_Water_02|/>.\r\nSomething swims within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
-          "LocalizedString": "A <itemName id=|PalEgg_Water_02|/>.\r\nSomething swims within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it."
+          "SourceString": "A <itemName id=|PalEgg_Water_02|/>.\r\nSomething swims within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
+          "LocalizedString": "A <itemName id=|PalEgg_Water_02|/>.\r\nSomething swims within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it."
         }
       },
       "ITEM_DESC_PalEgg_Water_03": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Water_03_TextData",
-          "SourceString": "A <itemName id=|PalEgg_Water_03|/>.\r\nPurity swirls within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
-          "LocalizedString": "A <itemName id=|PalEgg_Water_03|/>.\r\nPurity swirls within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it."
+          "SourceString": "A <itemName id=|PalEgg_Water_03|/>.\r\nPurity swirls within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
+          "LocalizedString": "A <itemName id=|PalEgg_Water_03|/>.\r\nPurity swirls within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it."
         }
       },
       "ITEM_DESC_PalEgg_Water_04": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Water_04_TextData",
-          "SourceString": "A <itemName id=|PalEgg_Water_04|/>.\r\nPurity swirls within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
-          "LocalizedString": "A <itemName id=|PalEgg_Water_04|/>.\r\nPurity swirls within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it."
+          "SourceString": "A <itemName id=|PalEgg_Water_04|/>.\r\nPurity swirls within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
+          "LocalizedString": "A <itemName id=|PalEgg_Water_04|/>.\r\nPurity swirls within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it."
         }
       },
       "ITEM_DESC_PalEgg_Water_05": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Water_05_TextData",
-          "SourceString": "A <itemName id=|PalEgg_Water_05|/>.\r\nA tranquil spirit sways within—as if a monster is about to be born.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
-          "LocalizedString": "A <itemName id=|PalEgg_Water_05|/>.\r\nA tranquil spirit sways within—as if a monster is about to be born.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it."
+          "SourceString": "A <itemName id=|PalEgg_Water_05|/>.\r\nA tranquil spirit sways within—as if a monster is about to be born.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
+          "LocalizedString": "A <itemName id=|PalEgg_Water_05|/>.\r\nA tranquil spirit sways within—as if a monster is about to be born.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it."
         }
       },
       "ITEM_DESC_PalEgg_Leaf_01": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Leaf_01_TextData",
-          "SourceString": "A <itemName id=|PalEgg_Leaf_01|/>.\r\nSomething lively moves within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
-          "LocalizedString": "A <itemName id=|PalEgg_Leaf_01|/>.\r\nSomething lively moves within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it."
+          "SourceString": "A <itemName id=|PalEgg_Leaf_01|/>.\r\nSomething lively moves within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
+          "LocalizedString": "A <itemName id=|PalEgg_Leaf_01|/>.\r\nSomething lively moves within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it."
         }
       },
       "ITEM_DESC_PalEgg_Leaf_02": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Leaf_02_TextData",
-          "SourceString": "A <itemName id=|PalEgg_Leaf_02|/>.\r\nSomething lively moves within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
-          "LocalizedString": "A <itemName id=|PalEgg_Leaf_02|/>.\r\nSomething lively moves within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it."
+          "SourceString": "A <itemName id=|PalEgg_Leaf_02|/>.\r\nSomething lively moves within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
+          "LocalizedString": "A <itemName id=|PalEgg_Leaf_02|/>.\r\nSomething lively moves within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it."
         }
       },
       "ITEM_DESC_PalEgg_Leaf_03": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Leaf_03_TextData",
-          "SourceString": "A <itemName id=|PalEgg_Leaf_03|/>.\r\nA strong life force dwells within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
-          "LocalizedString": "A <itemName id=|PalEgg_Leaf_03|/>.\r\nA strong life force dwells within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it."
+          "SourceString": "A <itemName id=|PalEgg_Leaf_03|/>.\r\nA strong life force dwells within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
+          "LocalizedString": "A <itemName id=|PalEgg_Leaf_03|/>.\r\nA strong life force dwells within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it."
         }
       },
       "ITEM_DESC_PalEgg_Leaf_04": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Leaf_04_TextData",
-          "SourceString": "A <itemName id=|PalEgg_Leaf_04|/>.\r\nA strong life force dwells within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
-          "LocalizedString": "A <itemName id=|PalEgg_Leaf_04|/>.\r\nA strong life force dwells within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it."
+          "SourceString": "A <itemName id=|PalEgg_Leaf_04|/>.\r\nA strong life force dwells within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
+          "LocalizedString": "A <itemName id=|PalEgg_Leaf_04|/>.\r\nA strong life force dwells within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it."
         }
       },
       "ITEM_DESC_PalEgg_Leaf_05": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Leaf_05_TextData",
-          "SourceString": "A <itemName id=|PalEgg_Leaf_05|/>.\r\nA verdant spirit grows within—as if a monster is about to be born.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
-          "LocalizedString": "A <itemName id=|PalEgg_Leaf_05|/>.\r\nA verdant spirit grows within—as if a monster is about to be born.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it."
+          "SourceString": "A <itemName id=|PalEgg_Leaf_05|/>.\r\nA verdant spirit grows within—as if a monster is about to be born.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
+          "LocalizedString": "A <itemName id=|PalEgg_Leaf_05|/>.\r\nA verdant spirit grows within—as if a monster is about to be born.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it."
         }
       },
       "ITEM_DESC_PalEgg_Electricity_01": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Electricity_01_TextData",
-          "SourceString": "An <itemName id=|PalEgg_Electricity_01|/>.\r\nSomething energetic moves within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
-          "LocalizedString": "An <itemName id=|PalEgg_Electricity_01|/>.\r\nSomething energetic moves within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it."
+          "SourceString": "An <itemName id=|PalEgg_Electricity_01|/>.\r\nSomething energetic moves within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
+          "LocalizedString": "An <itemName id=|PalEgg_Electricity_01|/>.\r\nSomething energetic moves within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it."
         }
       },
       "ITEM_DESC_PalEgg_Electricity_02": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Electricity_02_TextData",
-          "SourceString": "An <itemName id=|PalEgg_Electricity_02|/>.\r\nSomething energetic moves within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
-          "LocalizedString": "An <itemName id=|PalEgg_Electricity_02|/>.\r\nSomething energetic moves within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it."
+          "SourceString": "An <itemName id=|PalEgg_Electricity_02|/>.\r\nSomething energetic moves within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
+          "LocalizedString": "An <itemName id=|PalEgg_Electricity_02|/>.\r\nSomething energetic moves within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it."
         }
       },
       "ITEM_DESC_PalEgg_Electricity_03": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Electricity_03_TextData",
-          "SourceString": "A <itemName id=|PalEgg_Electricity_03|/>.\r\nA pulsing energy stirs within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
-          "LocalizedString": "A <itemName id=|PalEgg_Electricity_03|/>.\r\nA pulsing energy stirs within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it."
+          "SourceString": "A <itemName id=|PalEgg_Electricity_03|/>.\r\nA pulsing energy stirs within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
+          "LocalizedString": "A <itemName id=|PalEgg_Electricity_03|/>.\r\nA pulsing energy stirs within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it."
         }
       },
       "ITEM_DESC_PalEgg_Electricity_04": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Electricity_04_TextData",
-          "SourceString": "A <itemName id=|PalEgg_Electricity_04|/>.\r\nA pulsing energy stirs within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
-          "LocalizedString": "A <itemName id=|PalEgg_Electricity_04|/>.\r\nA pulsing energy stirs within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it."
+          "SourceString": "A <itemName id=|PalEgg_Electricity_04|/>.\r\nA pulsing energy stirs within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
+          "LocalizedString": "A <itemName id=|PalEgg_Electricity_04|/>.\r\nA pulsing energy stirs within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it."
         }
       },
       "ITEM_DESC_PalEgg_Electricity_05": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Electricity_05_TextData",
-          "SourceString": "A <itemName id=|PalEgg_Electricity_05|/>.\r\nA raging spirit grows within—as if a monster is about to be born.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
-          "LocalizedString": "A <itemName id=|PalEgg_Electricity_05|/>.\r\nA raging spirit grows within—as if a monster is about to be born.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it."
+          "SourceString": "A <itemName id=|PalEgg_Electricity_05|/>.\r\nA raging spirit grows within—as if a monster is about to be born.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
+          "LocalizedString": "A <itemName id=|PalEgg_Electricity_05|/>.\r\nA raging spirit grows within—as if a monster is about to be born.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it."
         }
       },
       "ITEM_DESC_PalEgg_Ice_01": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Ice_01_TextData",
-          "SourceString": "A <itemName id=|PalEgg_Ice_01|/>.\r\nSomething cold stirs within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
-          "LocalizedString": "A <itemName id=|PalEgg_Ice_01|/>.\r\nSomething cold stirs within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it."
+          "SourceString": "A <itemName id=|PalEgg_Ice_01|/>.\r\nSomething cold stirs within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
+          "LocalizedString": "A <itemName id=|PalEgg_Ice_01|/>.\r\nSomething cold stirs within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it."
         }
       },
       "ITEM_DESC_PalEgg_Ice_02": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Ice_02_TextData",
-          "SourceString": "A <itemName id=|PalEgg_Ice_02|/>.\r\nSomething cold stirs within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
-          "LocalizedString": "A <itemName id=|PalEgg_Ice_02|/>.\r\nSomething cold stirs within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it."
+          "SourceString": "A <itemName id=|PalEgg_Ice_02|/>.\r\nSomething cold stirs within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
+          "LocalizedString": "A <itemName id=|PalEgg_Ice_02|/>.\r\nSomething cold stirs within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it."
         }
       },
       "ITEM_DESC_PalEgg_Ice_03": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Ice_03_TextData",
-          "SourceString": "A <itemName id=|PalEgg_Ice_03|/>.\r\nAn icy pulse pounds within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
-          "LocalizedString": "A <itemName id=|PalEgg_Ice_03|/>.\r\nAn icy pulse pounds within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it."
+          "SourceString": "A <itemName id=|PalEgg_Ice_03|/>.\r\nAn icy pulse swirls within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
+          "LocalizedString": "A <itemName id=|PalEgg_Ice_03|/>.\r\nAn icy pulse swirls within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it."
         }
       },
       "ITEM_DESC_PalEgg_Ice_04": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Ice_04_TextData",
-          "SourceString": "A <itemName id=|PalEgg_Ice_04|/>.\r\nAn icy pulse pounds within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
-          "LocalizedString": "A <itemName id=|PalEgg_Ice_04|/>.\r\nAn icy pulse pounds within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it."
+          "SourceString": "A <itemName id=|PalEgg_Ice_04|/>.\r\nAn icy pulse swirls within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
+          "LocalizedString": "A <itemName id=|PalEgg_Ice_04|/>.\r\nAn icy pulse swirls within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it."
         }
       },
       "ITEM_DESC_PalEgg_Ice_05": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Ice_05_TextData",
-          "SourceString": "A <itemName id=|PalEgg_Ice_05|/>.\r\nA frigid spirit stirs within—as if a monster is about to be born.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
-          "LocalizedString": "A <itemName id=|PalEgg_Ice_05|/>.\r\nA frigid spirit stirs within—as if a monster is about to be born.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it."
+          "SourceString": "A <itemName id=|PalEgg_Ice_05|/>.\r\nA frigid spirit stirs within—as if a monster is about to be born.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
+          "LocalizedString": "A <itemName id=|PalEgg_Ice_05|/>.\r\nA frigid spirit stirs within—as if a monster is about to be born.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it."
         }
       },
       "ITEM_DESC_PalEgg_Earth_01": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Earth_01_TextData",
-          "SourceString": "A <itemName id=|PalEgg_Earth_01|/>.\r\nSomething calm stirs within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
-          "LocalizedString": "A <itemName id=|PalEgg_Earth_01|/>.\r\nSomething calm stirs within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it."
+          "SourceString": "An <itemName id=|PalEgg_Earth_01|/>.\r\nSomething calm stirs within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
+          "LocalizedString": "An <itemName id=|PalEgg_Earth_01|/>.\r\nSomething calm stirs within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it."
         }
       },
       "ITEM_DESC_PalEgg_Earth_02": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Earth_02_TextData",
-          "SourceString": "A <itemName id=|PalEgg_Earth_02|/>.\r\nSomething calm stirs within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
-          "LocalizedString": "A <itemName id=|PalEgg_Earth_02|/>.\r\nSomething calm stirs within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it."
+          "SourceString": "An <itemName id=|PalEgg_Earth_02|/>.\r\nSomething calm stirs within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
+          "LocalizedString": "An <itemName id=|PalEgg_Earth_02|/>.\r\nSomething calm stirs within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it."
         }
       },
       "ITEM_DESC_PalEgg_Earth_03": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Earth_03_TextData",
-          "SourceString": "A <itemName id=|PalEgg_Earth_03|/>.\r\nA dignified rumble drums within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
-          "LocalizedString": "A <itemName id=|PalEgg_Earth_03|/>.\r\nA dignified rumble drums within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it."
+          "SourceString": "A <itemName id=|PalEgg_Earth_03|/>.\r\nA dignified rumble drums within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
+          "LocalizedString": "A <itemName id=|PalEgg_Earth_03|/>.\r\nA dignified rumble drums within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it."
         }
       },
       "ITEM_DESC_PalEgg_Earth_04": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Earth_04_TextData",
-          "SourceString": "A <itemName id=|PalEgg_Earth_04|/>.\r\nA dignified rumble drums within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
-          "LocalizedString": "A <itemName id=|PalEgg_Earth_04|/>.\r\nA dignified rumble drums within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it."
+          "SourceString": "A <itemName id=|PalEgg_Earth_04|/>.\r\nA dignified rumble drums within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
+          "LocalizedString": "A <itemName id=|PalEgg_Earth_04|/>.\r\nA dignified rumble drums within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it."
         }
       },
       "ITEM_DESC_PalEgg_Earth_05": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Earth_05_TextData",
-          "SourceString": "A <itemName id=|PalEgg_Earth_05|/>.\r\nAn earthly spirit resounds within—as if a monster is about to be born.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
-          "LocalizedString": "A <itemName id=|PalEgg_Earth_05|/>.\r\nAn earthly spirit resounds within—as if a monster is about to be born.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it."
+          "SourceString": "A <itemName id=|PalEgg_Earth_05|/>.\r\nAn earthly spirit resounds within—as if a monster is about to be born.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
+          "LocalizedString": "A <itemName id=|PalEgg_Earth_05|/>.\r\nAn earthly spirit resounds within—as if a monster is about to be born.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it."
         }
       },
       "ITEM_DESC_PalEgg_Dark_01": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Dark_01_TextData",
-          "SourceString": "A <itemName id=|PalEgg_Dark_01|/>.\r\nSomething chaotic stirs within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
-          "LocalizedString": "A <itemName id=|PalEgg_Dark_01|/>.\r\nSomething chaotic stirs within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it."
+          "SourceString": "A <itemName id=|PalEgg_Dark_01|/>.\r\nSomething chaotic stirs within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
+          "LocalizedString": "A <itemName id=|PalEgg_Dark_01|/>.\r\nSomething chaotic stirs within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it."
         }
       },
       "ITEM_DESC_PalEgg_Dark_02": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Dark_02_TextData",
-          "SourceString": "A <itemName id=|PalEgg_Dark_02|/>.\r\nSomething chaotic stirs within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
-          "LocalizedString": "A <itemName id=|PalEgg_Dark_02|/>.\r\nSomething chaotic stirs within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it."
+          "SourceString": "A <itemName id=|PalEgg_Dark_02|/>.\r\nSomething chaotic stirs within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
+          "LocalizedString": "A <itemName id=|PalEgg_Dark_02|/>.\r\nSomething chaotic stirs within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it."
         }
       },
       "ITEM_DESC_PalEgg_Dark_03": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Dark_03_TextData",
-          "SourceString": "A <itemName id=|PalEgg_Dark_03|/>.\r\nA vicious wail howls within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
-          "LocalizedString": "A <itemName id=|PalEgg_Dark_03|/>.\r\nA vicious wail howls within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it."
+          "SourceString": "A <itemName id=|PalEgg_Dark_03|/>.\r\nA vicious wail howls within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
+          "LocalizedString": "A <itemName id=|PalEgg_Dark_03|/>.\r\nA vicious wail howls within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it."
         }
       },
       "ITEM_DESC_PalEgg_Dark_04": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Dark_04_TextData",
-          "SourceString": "A <itemName id=|PalEgg_Dark_04|/>.\r\nA vicious wail howls within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
-          "LocalizedString": "A <itemName id=|PalEgg_Dark_04|/>.\r\nA vicious wail howls within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it."
+          "SourceString": "A <itemName id=|PalEgg_Dark_04|/>.\r\nA vicious wail howls within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
+          "LocalizedString": "A <itemName id=|PalEgg_Dark_04|/>.\r\nA vicious wail howls within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it."
         }
       },
       "ITEM_DESC_PalEgg_Dark_05": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Dark_05_TextData",
-          "SourceString": "A <itemName id=|PalEgg_Dark_05|/>.\r\nA shadowy spirit cries within—as if a monster is about to be born.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
-          "LocalizedString": "A <itemName id=|PalEgg_Dark_05|/>.\r\nA shadowy spirit cries within—as if a monster is about to be born.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it."
+          "SourceString": "A <itemName id=|PalEgg_Dark_05|/>.\r\nA shadowy spirit cries within—as if a monster is about to be born.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
+          "LocalizedString": "A <itemName id=|PalEgg_Dark_05|/>.\r\nA shadowy spirit cries within—as if a monster is about to be born.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it."
         }
       },
       "ITEM_DESC_PalEgg_Dragon_01": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Dragon_01_TextData",
-          "SourceString": "A <itemName id=|PalEgg_Dragon_01|/>.\r\nSomething mischievous stirs within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
-          "LocalizedString": "A <itemName id=|PalEgg_Dragon_01|/>.\r\nSomething mischievous stirs within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it."
+          "SourceString": "A <itemName id=|PalEgg_Dragon_01|/>.\r\nSomething mischievous stirs within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
+          "LocalizedString": "A <itemName id=|PalEgg_Dragon_01|/>.\r\nSomething mischievous stirs within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it."
         }
       },
       "ITEM_DESC_PalEgg_Dragon_02": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Dragon_02_TextData",
-          "SourceString": "A <itemName id=|PalEgg_Dragon_02|/>.\r\nSomething mischievous stirs within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
-          "LocalizedString": "A <itemName id=|PalEgg_Dragon_02|/>.\r\nSomething mischievous stirs within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it."
+          "SourceString": "A <itemName id=|PalEgg_Dragon_02|/>.\r\nSomething mischievous stirs within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
+          "LocalizedString": "A <itemName id=|PalEgg_Dragon_02|/>.\r\nSomething mischievous stirs within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it."
         }
       },
       "ITEM_DESC_PalEgg_Dragon_03": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Dragon_03_TextData",
-          "SourceString": "A <itemName id=|PalEgg_Dragon_03|/>.\r\nA strange movement pulses within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
-          "LocalizedString": "A <itemName id=|PalEgg_Dragon_03|/>.\r\nA strange movement pulses within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it."
+          "SourceString": "A <itemName id=|PalEgg_Dragon_03|/>.\r\nA strange movement pulses within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
+          "LocalizedString": "A <itemName id=|PalEgg_Dragon_03|/>.\r\nA strange movement pulses within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it."
         }
       },
       "ITEM_DESC_PalEgg_Dragon_04": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Dragon_04_TextData",
-          "SourceString": "A <itemName id=|PalEgg_Dragon_04|/>.\r\nA strange movement pulses within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
-          "LocalizedString": "A <itemName id=|PalEgg_Dragon_04|/>.\r\nA strange movement pulses within.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it."
+          "SourceString": "A <itemName id=|PalEgg_Dragon_04|/>.\r\nA strange movement pulses within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
+          "LocalizedString": "A <itemName id=|PalEgg_Dragon_04|/>.\r\nA strange movement pulses within.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it."
         }
       },
       "ITEM_DESC_PalEgg_Dragon_05": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Dragon_05_TextData",
-          "SourceString": "A <itemName id=|PalEgg_Dragon_05|/>.\r\nA solemn spirit echoes within—as if a monster is about to be born.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
-          "LocalizedString": "A <itemName id=|PalEgg_Dragon_05|/>.\r\nA solemn spirit echoes within—as if a monster is about to be born.\r\nPlace in a <mapObjectName id=|HatchingPalEgg|/> to incubate it."
+          "SourceString": "A <itemName id=|PalEgg_Dragon_05|/>.\r\nA solemn spirit echoes within—as if a monster is about to be born.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
+          "LocalizedString": "A <itemName id=|PalEgg_Dragon_05|/>.\r\nA solemn spirit echoes within—as if a monster is about to be born.\r\nPlace in an <mapObjectName id=|HatchingPalEgg|/> to incubate it."
         }
       },
       "ITEM_DESC_Relic": {
@@ -1888,8 +1887,8 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalCrystal_Ex_TextData",
-          "SourceString": "Debris excavated from ancient ruins.\r\nContains abundant information on lost technology.\r\nExtremely valuable, people from all walks of life are now seeking such crystals.",
-          "LocalizedString": "Debris excavated from ancient ruins.\r\nContains abundant information on lost technology.\r\nExtremely valuable, people from all walks of life are now seeking such crystals."
+          "SourceString": "Debris excavated from Ancient Ruins.\r\nContains abundant information on lost technology.\r\nExtremely valuable, people from all walks of life are now seeking such crystals.",
+          "LocalizedString": "Debris excavated from Ancient Ruins.\r\nContains abundant information on lost technology.\r\nExtremely valuable, people from all walks of life are now seeking such crystals."
         }
       },
       "ITEM_DESC_SkillUnlock_Carbunclo": {
@@ -4104,8 +4103,8 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_Carbonara_TextData",
-          "SourceString": "A dish mixing pasta with <itemName id=|Egg|/> and <itemName id=|Milk|/>.\r\nEating it makes it improves <uiCommon id=|COMMON_STATUS_DEFENCE|/> by +20% for a period of time.",
-          "LocalizedString": "A dish mixing pasta with <itemName id=|Egg|/> and <itemName id=|Milk|/>.\r\nEating it makes it improves <uiCommon id=|COMMON_STATUS_DEFENCE|/> by +20% for a period of time."
+          "SourceString": "A dish mixing pasta with <itemName id=|Egg|/> and <itemName id=|Milk|/>.\r\nEating it will increase <uiCommon id=|COMMON_STATUS_DEFENCE|/> by +20% for a period of time.",
+          "LocalizedString": "A dish mixing pasta with <itemName id=|Egg|/> and <itemName id=|Milk|/>.\r\nEating it will increase <uiCommon id=|COMMON_STATUS_DEFENCE|/> by +20% for a period of time."
         }
       },
       "ITEM_DESC_BLT": {
@@ -9496,16 +9495,16 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_BossDefeatReward_WeaselDragon_TextData",
-          "SourceString": "Proof of defeating [Chillet, Dancer on the Plains]. Simply possessing it permanently increases the stats of the Pals in your team.",
-          "LocalizedString": "Proof of defeating [Chillet, Dancer on the Plains]. Simply possessing it permanently increases the stats of the Pals in your team."
+          "SourceString": "Proof of defeating [Chillet, Dancer on the Steppe]. Simply possessing it permanently increases the stats of the Pals in your team.",
+          "LocalizedString": "Proof of defeating [Chillet, Dancer on the Steppe]. Simply possessing it permanently increases the stats of the Pals in your team."
         }
       },
       "ITEM_DESC_BossDefeatReward_MopKing": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_BossDefeatReward_MopKing_TextData",
-          "SourceString": "Proof of defeating [Sweepa, Majesty of Fuzz]. Simply possessing it permanently increases the stats of the Pals in your team.",
-          "LocalizedString": "Proof of defeating [Sweepa, Majesty of Fuzz]. Simply possessing it permanently increases the stats of the Pals in your team."
+          "SourceString": "Proof of defeating [Sweepa, King of the Floof]. Simply possessing it permanently increases the stats of the Pals in your team.",
+          "LocalizedString": "Proof of defeating [Sweepa, King of the Floof]. Simply possessing it permanently increases the stats of the Pals in your team."
         }
       },
       "ITEM_DESC_BossDefeatReward_PlantSlime": {
@@ -9560,16 +9559,16 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_BossDefeatReward_SkyDragon_TextData",
-          "SourceString": "Proof of defeating [Quivern, Wings of White]. Simply possessing it permanently increases the stats of the Pals in your team.",
-          "LocalizedString": "Proof of defeating [Quivern, Wings of White]. Simply possessing it permanently increases the stats of the Pals in your team."
+          "SourceString": "Proof of defeating [Quivern, Snow-White Soarer]. Simply possessing it permanently increases the stats of the Pals in your team.",
+          "LocalizedString": "Proof of defeating [Quivern, Snow-White Soarer]. Simply possessing it permanently increases the stats of the Pals in your team."
         }
       },
       "ITEM_DESC_BossDefeatReward_CatVampire": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_BossDefeatReward_CatVampire_TextData",
-          "SourceString": "Proof of defeating [Felbat, Gloom-shrouded Bloodsucker]. Simply possessing it permanently increases the stats of the Pals in your team.",
-          "LocalizedString": "Proof of defeating [Felbat, Gloom-shrouded Bloodsucker]. Simply possessing it permanently increases the stats of the Pals in your team."
+          "SourceString": "Proof of defeating [Felbat, Gloom-Shrouded Bloodsucker]. Simply possessing it permanently increases the stats of the Pals in your team.",
+          "LocalizedString": "Proof of defeating [Felbat, Gloom-Shrouded Bloodsucker]. Simply possessing it permanently increases the stats of the Pals in your team."
         }
       },
       "ITEM_DESC_BossDefeatReward_KingAlpaca": {
@@ -9616,8 +9615,8 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_BossDefeatReward_FlowerDoll_TextData",
-          "SourceString": "Proof of defeating [Petallia, Lady of the Garden]. Simply possessing it permanently increases the stats of the Pals in your team.",
-          "LocalizedString": "Proof of defeating [Petallia, Lady of the Garden]. Simply possessing it permanently increases the stats of the Pals in your team."
+          "SourceString": "Proof of defeating [Petallia, Lady of the Flower Garden]. Simply possessing it permanently increases the stats of the Pals in your team.",
+          "LocalizedString": "Proof of defeating [Petallia, Lady of the Flower Garden]. Simply possessing it permanently increases the stats of the Pals in your team."
         }
       },
       "ITEM_DESC_BossDefeatReward_ThunderBird": {
@@ -10176,8 +10175,8 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_BossDefeatReward_BerryGoat_Dark_TextData",
-          "SourceString": "Proof of defeating [Caprity Noct Tainted Farm]. Simply possessing it permanently increases the stats of the Pals in your team.",
-          "LocalizedString": "Proof of defeating [Caprity Noct Tainted Farm]. Simply possessing it permanently increases the stats of the Pals in your team."
+          "SourceString": "Proof of defeating [Caprity Noct, Tainted Farm]. Simply possessing it permanently increases the stats of the Pals in your team.",
+          "LocalizedString": "Proof of defeating [Caprity Noct, Tainted Farm]. Simply possessing it permanently increases the stats of the Pals in your team."
         }
       },
       "ITEM_DESC_BossDefeatReward_Werewolf_Ice": {
@@ -10408,8 +10407,8 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalPassiveSkillChange_TextData",
-          "SourceString": "An implant embedded into a Pal's body \r\nto change its passive skill.\r\nWhen stored in Key Items, it allows you to \r\nselect the corresponding passive skill at \r\na <mapObjectName id=|OperatingTable|/>.",
-          "LocalizedString": "An implant embedded into a Pal's body \r\nto change its passive skill.\r\nWhen stored in Key Items, it allows you to \r\nselect the corresponding passive skill at \r\na <mapObjectName id=|OperatingTable|/>."
+          "SourceString": "An implant embedded into a Pal's body \r\nto change its passive skill. \r\nWhen in inventory, allows you to select the corresponding passive skill at a <mapObjectName id=|OperatingTable|/>.",
+          "LocalizedString": "An implant embedded into a Pal's body \r\nto change its passive skill. \r\nWhen in inventory, allows you to select the corresponding passive skill at a <mapObjectName id=|OperatingTable|/>."
         }
       },
       "ITEM_DESC_PalGenderReverse": {
@@ -13528,24 +13527,24 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_BossDefeatReward_FlowerPrince_TextData",
-          "SourceString": "Proof of defeating <characterName id=|FlowerPrince|/>. \r\nOne of the keys used to remove the barrier of the sealed chamber located in the deepest part of the World Tree.",
-          "LocalizedString": "Proof of defeating <characterName id=|FlowerPrince|/>. \r\nOne of the keys used to remove the barrier of the sealed chamber located in the deepest part of the World Tree."
+          "SourceString": "Proof of defeating <characterName id=|FlowerPrince|/>. \r\nOne of the keys used to remove the barrier of the Sealed Sanctum located in the deepest part of the World Tree.",
+          "LocalizedString": "Proof of defeating <characterName id=|FlowerPrince|/>. \r\nOne of the keys used to remove the barrier of the Sealed Sanctum located in the deepest part of the World Tree."
         }
       },
       "ITEM_DESC_BossDefeatReward_Mothman": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_BossDefeatReward_Mothman_TextData",
-          "SourceString": "Proof of defeating <characterName id=|Mothman|/>. \r\nOne of the keys used to remove the barrier of the sealed chamber located in the deepest part of the World Tree.",
-          "LocalizedString": "Proof of defeating <characterName id=|Mothman|/>. \r\nOne of the keys used to remove the barrier of the sealed chamber located in the deepest part of the World Tree."
+          "SourceString": "Proof of defeating <characterName id=|Mothman|/>. \r\nOne of the keys used to remove the barrier of the Sealed Sanctum located in the deepest part of the World Tree.",
+          "LocalizedString": "Proof of defeating <characterName id=|Mothman|/>. \r\nOne of the keys used to remove the barrier of the Sealed Sanctum located in the deepest part of the World Tree."
         }
       },
       "ITEM_DESC_BossDefeatReward_BossRush": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_BossDefeatReward_BossRush_TextData",
-          "SourceString": "Proof of defeating Highly Modified Pals.\r\nOne of the keys used to remove the barrier of the sealed chamber located in the deepest part of the World Tree.",
-          "LocalizedString": "Proof of defeating Highly Modified Pals.\r\nOne of the keys used to remove the barrier of the sealed chamber located in the deepest part of the World Tree."
+          "SourceString": "Proof of defeating Highly Modified Pals.\r\nOne of the keys used to remove the barrier of the Sealed Sanctum located in the deepest part of the World Tree.",
+          "LocalizedString": "Proof of defeating Highly Modified Pals.\r\nOne of the keys used to remove the barrier of the Sealed Sanctum located in the deepest part of the World Tree."
         }
       },
       "ITEM_DESC_BronzeSword": {
@@ -14488,80 +14487,80 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_MutationPal_01_TextData",
-          "SourceString": "A <itemName id=|PalEgg_MutationPal_01|/>. \r\nAn egg that is extremely rarely obtained, having undergone a special mutation.\r\nPlace it in a <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
-          "LocalizedString": "A <itemName id=|PalEgg_MutationPal_01|/>. \r\nAn egg that is extremely rarely obtained, having undergone a special mutation.\r\nPlace it in a <mapObjectName id=|HatchingPalEgg|/> to incubate it."
+          "SourceString": "A <itemName id=|PalEgg_MutationPal_01|/>. \r\nAn egg that is extremely rarely obtained, having undergone a special mutation.\r\nPlace it in an <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
+          "LocalizedString": "A <itemName id=|PalEgg_MutationPal_01|/>. \r\nAn egg that is extremely rarely obtained, having undergone a special mutation.\r\nPlace it in an <mapObjectName id=|HatchingPalEgg|/> to incubate it."
         }
       },
       "ITEM_DESC_PalEgg_MutationPal_02": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_MutationPal_02_TextData",
-          "SourceString": "A <itemName id=|PalEgg_MutationPal_02|/>. \r\nAn egg that is extremely rarely obtained, having undergone a special mutation.\r\nPlace it in a <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
-          "LocalizedString": "A <itemName id=|PalEgg_MutationPal_02|/>. \r\nAn egg that is extremely rarely obtained, having undergone a special mutation.\r\nPlace it in a <mapObjectName id=|HatchingPalEgg|/> to incubate it."
+          "SourceString": "A <itemName id=|PalEgg_MutationPal_02|/>. \r\nAn egg that is extremely rarely obtained, having undergone a special mutation.\r\nPlace it in an <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
+          "LocalizedString": "A <itemName id=|PalEgg_MutationPal_02|/>. \r\nAn egg that is extremely rarely obtained, having undergone a special mutation.\r\nPlace it in an <mapObjectName id=|HatchingPalEgg|/> to incubate it."
         }
       },
       "ITEM_DESC_PalEgg_MutationPal_03": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_MutationPal_03_TextData",
-          "SourceString": "A <itemName id=|PalEgg_MutationPal_03|/>. \r\nAn egg that is extremely rarely obtained, having undergone a special mutation.\r\nPlace it in a <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
-          "LocalizedString": "A <itemName id=|PalEgg_MutationPal_03|/>. \r\nAn egg that is extremely rarely obtained, having undergone a special mutation.\r\nPlace it in a <mapObjectName id=|HatchingPalEgg|/> to incubate it."
+          "SourceString": "A <itemName id=|PalEgg_MutationPal_03|/>. \r\nAn egg that is extremely rarely obtained, having undergone a special mutation.\r\nPlace it in an <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
+          "LocalizedString": "A <itemName id=|PalEgg_MutationPal_03|/>. \r\nAn egg that is extremely rarely obtained, having undergone a special mutation.\r\nPlace it in an <mapObjectName id=|HatchingPalEgg|/> to incubate it."
         }
       },
       "ITEM_DESC_PalEgg_MutationPal_04": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_MutationPal_04_TextData",
-          "SourceString": "A <itemName id=|PalEgg_MutationPal_04|/>. \r\nAn egg that is extremely rarely obtained, having undergone a special mutation.\r\nPlace it in a <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
-          "LocalizedString": "A <itemName id=|PalEgg_MutationPal_04|/>. \r\nAn egg that is extremely rarely obtained, having undergone a special mutation.\r\nPlace it in a <mapObjectName id=|HatchingPalEgg|/> to incubate it."
+          "SourceString": "A <itemName id=|PalEgg_MutationPal_04|/>. \r\nAn egg that is extremely rarely obtained, having undergone a special mutation.\r\nPlace it in an <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
+          "LocalizedString": "A <itemName id=|PalEgg_MutationPal_04|/>. \r\nAn egg that is extremely rarely obtained, having undergone a special mutation.\r\nPlace it in an <mapObjectName id=|HatchingPalEgg|/> to incubate it."
         }
       },
       "ITEM_DESC_PalEgg_MutationPal_05": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_MutationPal_05_TextData",
-          "SourceString": "A <itemName id=|PalEgg_MutationPal_05|/>. \r\nAn egg that is extremely rarely obtained, having undergone a special mutation.\r\nPlace it in a <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
-          "LocalizedString": "A <itemName id=|PalEgg_MutationPal_05|/>. \r\nAn egg that is extremely rarely obtained, having undergone a special mutation.\r\nPlace it in a <mapObjectName id=|HatchingPalEgg|/> to incubate it."
+          "SourceString": "A <itemName id=|PalEgg_MutationPal_05|/>. \r\nAn egg that is extremely rarely obtained, having undergone a special mutation.\r\nPlace it in an <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
+          "LocalizedString": "A <itemName id=|PalEgg_MutationPal_05|/>. \r\nAn egg that is extremely rarely obtained, having undergone a special mutation.\r\nPlace it in an <mapObjectName id=|HatchingPalEgg|/> to incubate it."
         }
       },
       "ITEM_DESC_PalEgg_WorldTree_01": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_WorldTree_01_TextData",
-          "SourceString": "An <itemName id=|PalEgg_WorldTree_01|/>.\r\nA mysterious egg imbued with the energy of the World Tree.\r\nPlace it in a <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
-          "LocalizedString": "An <itemName id=|PalEgg_WorldTree_01|/>.\r\nA mysterious egg imbued with the energy of the World Tree.\r\nPlace it in a <mapObjectName id=|HatchingPalEgg|/> to incubate it."
+          "SourceString": "An <itemName id=|PalEgg_WorldTree_01|/>.\r\nA mysterious egg imbued with the energy of the World Tree.\r\nPlace it in an <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
+          "LocalizedString": "An <itemName id=|PalEgg_WorldTree_01|/>.\r\nA mysterious egg imbued with the energy of the World Tree.\r\nPlace it in an <mapObjectName id=|HatchingPalEgg|/> to incubate it."
         }
       },
       "ITEM_DESC_PalEgg_WorldTree_02": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_WorldTree_02_TextData",
-          "SourceString": "An <itemName id=|PalEgg_WorldTree_02|/>.\r\nA mysterious egg imbued with the energy of the World Tree.\r\nPlace it in a <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
-          "LocalizedString": "An <itemName id=|PalEgg_WorldTree_02|/>.\r\nA mysterious egg imbued with the energy of the World Tree.\r\nPlace it in a <mapObjectName id=|HatchingPalEgg|/> to incubate it."
+          "SourceString": "An <itemName id=|PalEgg_WorldTree_02|/>.\r\nA mysterious egg imbued with the energy of the World Tree.\r\nPlace it in an <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
+          "LocalizedString": "An <itemName id=|PalEgg_WorldTree_02|/>.\r\nA mysterious egg imbued with the energy of the World Tree.\r\nPlace it in an <mapObjectName id=|HatchingPalEgg|/> to incubate it."
         }
       },
       "ITEM_DESC_PalEgg_WorldTree_03": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_WorldTree_03_TextData",
-          "SourceString": "An <itemName id=|PalEgg_WorldTree_03|/>.\r\nA mysterious egg imbued with the energy of the World Tree.\r\nPlace it in a <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
-          "LocalizedString": "An <itemName id=|PalEgg_WorldTree_03|/>.\r\nA mysterious egg imbued with the energy of the World Tree.\r\nPlace it in a <mapObjectName id=|HatchingPalEgg|/> to incubate it."
+          "SourceString": "An <itemName id=|PalEgg_WorldTree_03|/>.\r\nA mysterious egg imbued with the energy of the World Tree.\r\nPlace it in an <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
+          "LocalizedString": "An <itemName id=|PalEgg_WorldTree_03|/>.\r\nA mysterious egg imbued with the energy of the World Tree.\r\nPlace it in an <mapObjectName id=|HatchingPalEgg|/> to incubate it."
         }
       },
       "ITEM_DESC_PalEgg_WorldTree_04": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_WorldTree_04_TextData",
-          "SourceString": "An <itemName id=|PalEgg_WorldTree_04|/>.\r\nA mysterious egg imbued with the energy of the World Tree.\r\nPlace it in a <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
-          "LocalizedString": "An <itemName id=|PalEgg_WorldTree_04|/>.\r\nA mysterious egg imbued with the energy of the World Tree.\r\nPlace it in a <mapObjectName id=|HatchingPalEgg|/> to incubate it."
+          "SourceString": "An <itemName id=|PalEgg_WorldTree_04|/>.\r\nA mysterious egg imbued with the energy of the World Tree.\r\nPlace it in an <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
+          "LocalizedString": "An <itemName id=|PalEgg_WorldTree_04|/>.\r\nA mysterious egg imbued with the energy of the World Tree.\r\nPlace it in an <mapObjectName id=|HatchingPalEgg|/> to incubate it."
         }
       },
       "ITEM_DESC_PalEgg_WorldTree_05": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_WorldTree_05_TextData",
-          "SourceString": "An <itemName id=|PalEgg_WorldTree_05|/>.\r\nA mysterious egg imbued with the energy of the World Tree.\r\nPlace it in a <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
-          "LocalizedString": "An <itemName id=|PalEgg_WorldTree_05|/>.\r\nA mysterious egg imbued with the energy of the World Tree.\r\nPlace it in a <mapObjectName id=|HatchingPalEgg|/> to incubate it."
+          "SourceString": "An <itemName id=|PalEgg_WorldTree_05|/>.\r\nA mysterious egg imbued with the energy of the World Tree.\r\nPlace it in an <mapObjectName id=|HatchingPalEgg|/> to incubate it.",
+          "LocalizedString": "An <itemName id=|PalEgg_WorldTree_05|/>.\r\nA mysterious egg imbued with the energy of the World Tree.\r\nPlace it in an <mapObjectName id=|HatchingPalEgg|/> to incubate it."
         }
       },
       "ITEM_DESC_Cake02": {
@@ -15200,8 +15199,8 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_BossDefeatReward_MushroomLady_TextData",
-          "SourceString": "Proof of defeating [Shroomly, Cute as a Button]. Simply possessing it permanently increases the stats of the Pals in your team.",
-          "LocalizedString": "Proof of defeating [Shroomly, Cute as a Button]. Simply possessing it permanently increases the stats of the Pals in your team."
+          "SourceString": "Proof of defeating [Mycora, Cute as a Button]. Simply possessing it permanently increases the stats of the Pals in your team.",
+          "LocalizedString": "Proof of defeating [Mycora, Cute as a Button]. Simply possessing it permanently increases the stats of the Pals in your team."
         }
       },
       "ITEM_DESC_BossDefeatReward_WhiteDeer_Dark": {
@@ -15216,8 +15215,8 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_BossDefeatReward_RockBeast_Ice_TextData",
-          "SourceString": "Proof of defeating [Kuprok Cryst, Shuffling Glacier]. Simply possessing it permanently increases the stats of the Pals in your team.",
-          "LocalizedString": "Proof of defeating [Kuprok Cryst, Shuffling Glacier]. Simply possessing it permanently increases the stats of the Pals in your team."
+          "SourceString": "Proof of defeating [Pierdon Cryst, Shuffling Glacier]. Simply possessing it permanently increases the stats of the Pals in your team.",
+          "LocalizedString": "Proof of defeating [Pierdon Cryst, Shuffling Glacier]. Simply possessing it permanently increases the stats of the Pals in your team."
         }
       },
       "ITEM_DESC_BossDefeatReward_LotusDragon": {
@@ -15344,16 +15343,16 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_BossDefeatReward_ScorpionMan_Electric_TextData",
-          "SourceString": "Proof of defeating [Prixter Lux, Thunderlad]. Simply possessing it permanently increases the stats of the Pals in your team.",
-          "LocalizedString": "Proof of defeating [Prixter Lux, Thunderlad]. Simply possessing it permanently increases the stats of the Pals in your team."
+          "SourceString": "Proof of defeating [Prixter Lux, Thunderboy]. Simply possessing it permanently increases the stats of the Pals in your team.",
+          "LocalizedString": "Proof of defeating [Prixter Lux, Thunderboy]. Simply possessing it permanently increases the stats of the Pals in your team."
         }
       },
       "ITEM_DESC_BossDefeatReward_RockBeast": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_BossDefeatReward_RockBeast_TextData",
-          "SourceString": "Proof of defeating [Kuprok, Shambling Vein]. Simply possessing it permanently increases the stats of the Pals in your team.",
-          "LocalizedString": "Proof of defeating [Kuprok, Shambling Vein]. Simply possessing it permanently increases the stats of the Pals in your team."
+          "SourceString": "Proof of defeating [Pierdon, Shambling Vein]. Simply possessing it permanently increases the stats of the Pals in your team.",
+          "LocalizedString": "Proof of defeating [Pierdon, Shambling Vein]. Simply possessing it permanently increases the stats of the Pals in your team."
         }
       },
       "ITEM_DESC_BossDefeatReward_VolcanoDragon": {

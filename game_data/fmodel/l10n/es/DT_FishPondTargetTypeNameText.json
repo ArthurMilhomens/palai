@@ -1,0 +1,40 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_FishPondTargetTypeNameText",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "NAME_SHADOW_SMALL": {
+        "TextData": {
+          "Namespace": "DT_FishPondTargetTypeNameText",
+          "Key": "NAME_SHADOW_SMALL_TextData",
+          "SourceString": "Sombra de pez pequeña",
+          "LocalizedString": "Sombra de pez pequeña"
+        }
+      },
+      "NAME_SHADOW_MEDIUM": {
+        "TextData": {
+          "Namespace": "DT_FishPondTargetTypeNameText",
+          "Key": "NAME_SHADOW_MEDIUM_TextData",
+          "SourceString": "Sombra de pez mediana",
+          "LocalizedString": "Sombra de pez mediana"
+        }
+      },
+      "NAME_SHADOW_BIG": {
+        "TextData": {
+          "Namespace": "DT_FishPondTargetTypeNameText",
+          "Key": "NAME_SHADOW_BIG_TextData",
+          "SourceString": "Sombra de pez grande",
+          "LocalizedString": "Sombra de pez grande"
+        }
+      }
+    }
+  }
+]

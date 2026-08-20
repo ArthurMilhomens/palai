@@ -2,9 +2,8 @@
   {
     "Type": "DataTable",
     "Name": "DT_SkillDescText_Common",
-    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'DataTable'",
-    "Package": "Pal/Content/L10N/pt-BR/Pal/DataTable/Text/DT_SkillDescText_Common",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "RowStruct": {
         "ObjectName": "ScriptStruct'PalLocalizedTextData'",
@@ -3117,8 +3116,8 @@
         "TextData": {
           "Namespace": "DT_SkillDescText_Common",
           "Key": "PASSIVE_Vampire_DESC_TextData",
-          "SourceString": "Absorve parte do dano causado\r\ne restaura seu <uiCommon id=|COMMON_STATUS_HP|/>.\r\nNão dorme ao cair da noite, continuando a trabalhar.",
-          "LocalizedString": "Absorve parte do dano causado\r\ne restaura seu <uiCommon id=|COMMON_STATUS_HP|/>.\r\nNão dorme ao cair da noite, continuando a trabalhar."
+          "SourceString": "Absorve {EffectValue2}% do dano causado para restaurar PV.\r\nNão dorme ao cair da noite, continuando a trabalhar.",
+          "LocalizedString": "Absorve {EffectValue2}% do dano causado para restaurar PV.\r\nNão dorme ao cair da noite, continuando a trabalhar."
         }
       },
       "PASSIVE_JumpPower_Increase": {
@@ -3285,24 +3284,24 @@
         "TextData": {
           "Namespace": "DT_SkillDescText_Common",
           "Key": "PASSIVE_PAL_SelfDeathAddItemDrop_up_1_TextData",
-          "SourceString": "Itens deixados ao morrer +{EffectValue1}%",
-          "LocalizedString": "Itens deixados ao morrer +{EffectValue1}%"
+          "SourceString": "Itens deixados por este Pal ao morrer +{EffectValue1}%",
+          "LocalizedString": "Itens deixados por este Pal ao morrer +{EffectValue1}%"
         }
       },
       "PASSIVE_PAL_SelfDeathAddItemDrop_up_2": {
         "TextData": {
           "Namespace": "DT_SkillDescText_Common",
           "Key": "PASSIVE_PAL_SelfDeathAddItemDrop_up_2_TextData",
-          "SourceString": "Itens deixados ao morrer +{EffectValue1}%",
-          "LocalizedString": "Itens deixados ao morrer +{EffectValue1}%"
+          "SourceString": "Itens deixados por este Pal ao morrer +{EffectValue1}%",
+          "LocalizedString": "Itens deixados por este Pal ao morrer +{EffectValue1}%"
         }
       },
       "PASSIVE_PAL_SelfDeathAddItemDrop_up_3": {
         "TextData": {
           "Namespace": "DT_SkillDescText_Common",
           "Key": "PASSIVE_PAL_SelfDeathAddItemDrop_up_3_TextData",
-          "SourceString": "Itens deixados ao morrer +{EffectValue1}%",
-          "LocalizedString": "Itens deixados ao morrer +{EffectValue1}%"
+          "SourceString": "Itens deixados por este Pal ao morrer +{EffectValue1}%",
+          "LocalizedString": "Itens deixados por este Pal ao morrer +{EffectValue1}%"
         }
       },
       "PASSIVE_PAL_WorkSuitabilityAddRank_MonsterFarm_1": {
@@ -3341,8 +3340,8 @@
         "TextData": {
           "Namespace": "DT_SkillDescText_Common",
           "Key": "PASSIVE_MutationPal_Immortal_DESC_TextData",
-          "SourceString": "Roubo de vida +{EffectValue1}%\r\nCura automática do PV de Pals +{EffectValue2}%\r\nAtaque +{EffectValue3}%",
-          "LocalizedString": "Roubo de vida +{EffectValue1}%\r\nCura automática do PV de Pals +{EffectValue2}%\r\nAtaque +{EffectValue3}%"
+          "SourceString": "Absorve {EffectValue1}% do dano causado para restaurar PV.\r\nCura automática de PV do Pal +{EffectValue2}%\r\nAtaque +{EffectValue3}%",
+          "LocalizedString": "Absorve {EffectValue1}% do dano causado para restaurar PV.\r\nCura automática de PV do Pal +{EffectValue2}%\r\nAtaque +{EffectValue3}%"
         }
       },
       "PASSIVE_MutationPal_ExplosionResist_DESC": {

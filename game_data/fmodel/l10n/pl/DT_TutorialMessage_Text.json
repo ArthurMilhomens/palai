@@ -1,0 +1,296 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_TutorialMessage_Text",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "TUTORIAL_SP_1": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_SP_1_TextData",
+          "SourceString": "Naciśnij <keyGuideIcon id=|Interact_1|/>, aby podnieść przedmiot.",
+          "LocalizedString": "Naciśnij <keyGuideIcon id=|Interact_1|/>, aby podnieść przedmiot."
+        }
+      },
+      "TUTORIAL_ITEM_1": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_ITEM_1_TextData",
+          "SourceString": "Naciśnij <keyGuideIcon id=|OpenConstructionMenu|/>, aby otworzyć menu budowania.",
+          "LocalizedString": "Naciśnij <keyGuideIcon id=|OpenConstructionMenu|/>, aby otworzyć menu budowania."
+        }
+      },
+      "TUTORIAL_ITEM_2": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_ITEM_2_TextData",
+          "SourceString": "Naciśnij <keyGuideIcon id=|ThrowObject|/>, aby rzucić sferę i schwytać Pala.\r\nOsłabione Pale łatwiej złapać.",
+          "LocalizedString": "Naciśnij <keyGuideIcon id=|ThrowObject|/>, aby rzucić sferę i schwytać Pala.\r\nOsłabione Pale łatwiej złapać."
+        }
+      },
+      "TUTORIAL_ITEM_3": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_ITEM_3_TextData",
+          "SourceString": "Użyj <keyGuideIcon id=|OpenConstructionMenu|/>, aby z menu budowania postawić Palboxa\r\ni zbudować bazę.",
+          "LocalizedString": "Użyj <keyGuideIcon id=|OpenConstructionMenu|/>, aby z menu budowania postawić Palboxa\r\ni zbudować bazę."
+        }
+      },
+      "TUTORIAL_ITEM_4": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_ITEM_4_TextData",
+          "SourceString": "Użyj owocu umiejętności z ekwipunku, \r\naby nauczyć Pala nowej umiejętności.",
+          "LocalizedString": "Użyj owocu umiejętności z ekwipunku, \r\naby nauczyć Pala nowej umiejętności."
+        }
+      },
+      "TUTORIAL_ITEM_5": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_ITEM_5_TextData",
+          "SourceString": "Zbieraj <itemName id=|Relic|/> i ofiaruj je w miejscu zwanym <MapObjectName id=|BuildableGoddessStatue|/>, \r\naby poprawić swoją zdolność łapania Pali.",
+          "LocalizedString": "Zbieraj <itemName id=|Relic|/> i ofiaruj je w miejscu zwanym <MapObjectName id=|BuildableGoddessStatue|/>, \r\naby poprawić swoją zdolność łapania Pali."
+        }
+      },
+      "TUTORIAL_ITEM_6": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_ITEM_6_TextData",
+          "SourceString": "Naciśnij <keyGuideIcon id=|Jump|/> podczas skoku, aby szybować.",
+          "LocalizedString": "Naciśnij <keyGuideIcon id=|Jump|/> podczas skoku, aby szybować."
+        }
+      },
+      "TUTORIAL_ITEM_7": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_ITEM_7_TextData",
+          "SourceString": "Zbuduj <MapObjectName id=|HatchingPalEgg|/>, \r\naby Pale mogły wykluć się z jaj.",
+          "LocalizedString": "Zbuduj <MapObjectName id=|HatchingPalEgg|/>, \r\naby Pale mogły wykluć się z jaj."
+        }
+      },
+      "TUTORIAL_RESPAWN_1": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_RESPAWN_1_TextData",
+          "SourceString": "Odrodzisz się w miejscu, \r\nw którym zbudujesz Palboxa.",
+          "LocalizedString": "Odrodzisz się w miejscu, \r\nw którym zbudujesz Palboxa."
+        }
+      },
+      "TUTORIAL_RESPAWN_2": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_RESPAWN_2_TextData",
+          "SourceString": "Twoje Pale i przedmioty zostaną upuszczone w miejscu, w którym cię powalono.\r\nZbierz je, zanim zrobi to ktoś inny.",
+          "LocalizedString": "Twoje Pale i przedmioty zostaną upuszczone w miejscu, w którym cię powalono.\r\nZbierz je, zanim zrobi to ktoś inny."
+        }
+      },
+      "TUTORIAL_INDIVIDUAL_1": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_INDIVIDUAL_1_TextData",
+          "SourceString": "Użyj Punktów Technologii, aby odblokować\r\nnowe przedmioty i obiekty.",
+          "LocalizedString": "Użyj Punktów Technologii, aby odblokować\r\nnowe przedmioty i obiekty."
+        }
+      },
+      "TUTORIAL_INDIVIDUAL_2": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_INDIVIDUAL_2_TextData",
+          "SourceString": "Naciśnij <keyGuideIcon id=|OpenCharacterMenu|/>, aby otworzyć ekwipunek\r\ni wykorzystać punkty statystyk do wzmocnienia swojej postaci",
+          "LocalizedString": "Naciśnij <keyGuideIcon id=|OpenCharacterMenu|/>, aby otworzyć ekwipunek\r\ni wykorzystać punkty statystyk do wzmocnienia swojej postaci"
+        }
+      },
+      "TUTORIAL_INDIVIDUAL_3": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_INDIVIDUAL_3_TextData",
+          "SourceString": "Głód obniża twoje parametry.\r\nWykorzystaj przedmioty z ekwipunku, by go zaspokoić.",
+          "LocalizedString": "Głód obniża twoje parametry.\r\nWykorzystaj przedmioty z ekwipunku, by go zaspokoić."
+        }
+      },
+      "TUTORIAL_INDIVIDUAL_4": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_INDIVIDUAL_4_TextData",
+          "SourceString": "Głód obniża parametry twoich Pali.\r\nWykorzystaj przedmioty z ekwipunku, by je nakarmić.",
+          "LocalizedString": "Głód obniża parametry twoich Pali.\r\nWykorzystaj przedmioty z ekwipunku, by je nakarmić."
+        }
+      },
+      "TUTORIAL_INDIVIDUAL_5": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_INDIVIDUAL_5_TextData",
+          "SourceString": "Nadmierny spadek wartości SAN Pala spowoduje, że Pal zacznie się obijać lub się rozchoruje.\r\nKarm go produktami wysokiej jakości lub wybuduj gorące źródło, by uzupełnić ubytek.",
+          "LocalizedString": "Nadmierny spadek wartości SAN Pala spowoduje, że Pal zacznie się obijać lub się rozchoruje.\r\nKarm go produktami wysokiej jakości lub wybuduj gorące źródło, by uzupełnić ubytek."
+        }
+      },
+      "TUTORIAL_INDIVIDUAL_6": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_INDIVIDUAL_6_TextData",
+          "SourceString": "Chorego Pala można wyleczyć lekarstwem\r\nprzyrządzonym na stole aptecznym.",
+          "LocalizedString": "Chorego Pala można wyleczyć lekarstwem\r\nprzyrządzonym na stole aptecznym."
+        }
+      },
+      "TUTORIAL_INDIVIDUAL_7": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_INDIVIDUAL_7_TextData",
+          "SourceString": "Praca obniża poziom SAN u Pali, przez co zaczynają się obijać.\r\nZbuduj gorące źródło lub inne obiekty, by przywrócić im chęć do pracy.",
+          "LocalizedString": "Praca obniża poziom SAN u Pali, przez co zaczynają się obijać.\r\nZbuduj gorące źródło lub inne obiekty, by przywrócić im chęć do pracy."
+        }
+      },
+      "TUTORIAL_CAPTURE_1": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_CAPTURE_1_TextData",
+          "SourceString": "Dzikie Pale łatwiej schwytać, gdy ich <uiCommon id=|COMMON_STATUS_HP|/> jest niskie.\r\nNie można ich schwytać, jeśli je zabijesz.",
+          "LocalizedString": "Dzikie Pale łatwiej schwytać, gdy ich <uiCommon id=|COMMON_STATUS_HP|/> jest niskie.\r\nNie można ich schwytać, jeśli je zabijesz."
+        }
+      },
+      "TUTORIAL_CAPTURE_2": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_CAPTURE_2_TextData",
+          "SourceString": "Naciśnij <keyGuideIcon id=|ThrowPal|/>, aby przywołać schwytanego Pala.",
+          "LocalizedString": "Naciśnij <keyGuideIcon id=|ThrowPal|/>, aby przywołać schwytanego Pala."
+        }
+      },
+      "TUTORIAL_CAPTURE_3": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_CAPTURE_3_TextData",
+          "SourceString": "Otrzymasz dużo EXP za schwytanie nowego rodzaju Pala.\r\nWypatruj nowych Pali podczas swojej przygody.",
+          "LocalizedString": "Otrzymasz dużo EXP za schwytanie nowego rodzaju Pala.\r\nWypatruj nowych Pali podczas swojej przygody."
+        }
+      },
+      "TUTORIAL_CAPTURE_4": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_CAPTURE_4_TextData",
+          "SourceString": "Otrzymasz dodatkowe EXP za schwytanie tego samego gatunku Pala\r\ndo pięciu razy.",
+          "LocalizedString": "Otrzymasz dodatkowe EXP za schwytanie tego samego gatunku Pala\r\ndo pięciu razy."
+        }
+      },
+      "TUTORIAL_CAPTURE_5": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_CAPTURE_5_TextData",
+          "SourceString": "Możesz mieć przy sobie maksymalnie pięć Pali jednocześnie.\r\nKażdy kolejny zostanie automatycznie przeniesiony do Palboxa.",
+          "LocalizedString": "Możesz mieć przy sobie maksymalnie pięć Pali jednocześnie.\r\nKażdy kolejny zostanie automatycznie przeniesiony do Palboxa."
+        }
+      },
+      "TUTORIAL_CAPTURE_6": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_CAPTURE_6_TextData",
+          "SourceString": "Złapałeś szczęśliwego Pala!\r\nSprawdź jego specjalne zdolności!",
+          "LocalizedString": "Złapałeś szczęśliwego Pala!\r\nSprawdź jego specjalne zdolności!"
+        }
+      },
+      "TUTORIAL_CAPTURE_7": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_CAPTURE_7_TextData",
+          "SourceString": "Zbuduj Palboxa, \r\naby odbierać z niego schwytane Pale.",
+          "LocalizedString": "Zbuduj Palboxa, \r\naby odbierać z niego schwytane Pale."
+        }
+      },
+      "TUTORIAL_CAPTURE_8": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_CAPTURE_8_TextData",
+          "SourceString": "Nie będziesz w stanie skutecznie korzystać z Pali na wyższym poziomie niż twój!\r\nIch zdolności zostaną obniżone do poziomu twojej postaci.",
+          "LocalizedString": "Nie będziesz w stanie skutecznie korzystać z Pali na wyższym poziomie niż twój!\r\nIch zdolności zostaną obniżone do poziomu twojej postaci."
+        }
+      },
+      "TUTORIAL_COMMON_1": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_1_TextData",
+          "SourceString": "Nie ruszysz się z miejsca, jeśli dźwigasz zbyt dużo ciężkich przedmiotów.\r\nWykorzystaj Punkty Statusu, aby zwiększyć nośność.",
+          "LocalizedString": "Nie ruszysz się z miejsca, jeśli dźwigasz zbyt dużo ciężkich przedmiotów.\r\nWykorzystaj Punkty Statusu, aby zwiększyć nośność."
+        }
+      },
+      "TUTORIAL_COMMON_2": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_2_TextData",
+          "SourceString": "Pochodnie ręczne rozświetlają otoczenie i chronią przed zimnem.\r\nSpróbuj wytworzyć taką pochodnię przy stole warsztatowym.",
+          "LocalizedString": "Pochodnie ręczne rozświetlają otoczenie i chronią przed zimnem.\r\nSpróbuj wytworzyć taką pochodnię przy stole warsztatowym."
+        }
+      },
+      "TUTORIAL_COMMON_3": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_3_TextData",
+          "SourceString": "Twój Pal został powalony!\r\nUmieść go w Palboxie, aby wyleczyć go ze statusu <uiCommon id=|COMMON_CONDITION_NAME_Dying|/>.",
+          "LocalizedString": "Twój Pal został powalony!\r\nUmieść go w Palboxie, aby wyleczyć go ze statusu <uiCommon id=|COMMON_CONDITION_NAME_Dying|/>."
+        }
+      },
+      "TUTORIAL_COMMON_4": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_4_TextData",
+          "SourceString": "Wypuść Pala w bazie, a\r\nautomatycznie poszuka zadań, które jest w stanie wykonać.",
+          "LocalizedString": "Wypuść Pala w bazie, a\r\nautomatycznie poszuka zadań, które jest w stanie wykonać."
+        }
+      },
+      "TUTORIAL_COMMON_5": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_5_TextData",
+          "SourceString": "Umieść Pala w slocie Pali podstawowych w Palboxie,\r\nby automatycznie ci pomagał zgodnie ze swoimi predyspozycjami do pracy.",
+          "LocalizedString": "Umieść Pala w slocie Pali podstawowych w Palboxie,\r\nby automatycznie ci pomagał zgodnie ze swoimi predyspozycjami do pracy."
+        }
+      },
+      "TUTORIAL_COMMON_6": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_6_TextData",
+          "SourceString": "Pale mogą być wyposażone w maksymalnie trzy aktywne umiejętności jednocześnie.\r\nOtwórz menu i pozamieniaj ich stare umiejętności na nowe <uiCommon id=|INGAME_MAIN_MENU_PAL|/>.",
+          "LocalizedString": "Pale mogą być wyposażone w maksymalnie trzy aktywne umiejętności jednocześnie.\r\nOtwórz menu i pozamieniaj ich stare umiejętności na nowe <uiCommon id=|INGAME_MAIN_MENU_PAL|/>."
+        }
+      },
+      "TUTORIAL_COMMON_7": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_7_TextData",
+          "SourceString": "Walka z rozwścieczonym dzikim Palem gołymi rękami to niezbyt dobry pomysł.\r\nZbuduj stół warsztatowy i spróbuj wytworzyć broń.",
+          "LocalizedString": "Walka z rozwścieczonym dzikim Palem gołymi rękami to niezbyt dobry pomysł.\r\nZbuduj stół warsztatowy i spróbuj wytworzyć broń."
+        }
+      },
+      "TUTORIAL_COMMON_8": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_8_TextData",
+          "SourceString": "Znaleziono wiadomość od innego poszukiwacza przygód.\r\nMożesz prześledzić jego podróże w menu opcji.",
+          "LocalizedString": "Znaleziono wiadomość od innego poszukiwacza przygód.\r\nMożesz prześledzić jego podróże w menu opcji."
+        }
+      },
+      "TUTORIAL_COMMON_9": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_9_TextData",
+          "SourceString": "W niektórych broniach możliwa jest zmiana amunicji\r\npoprzez przytrzymanie <keyGuideIcon id=|Reload|/>.",
+          "LocalizedString": "W niektórych broniach możliwa jest zmiana amunicji\r\npoprzez przytrzymanie <keyGuideIcon id=|Reload|/>."
+        }
+      },
+      "TUTORIAL_COMMON_9_GamePad": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_9_GamePad_TextData",
+          "SourceString": "W niektórych broniach możliwa jest zmiana amunicji\r\npoprzez przytrzymanie <keyGuideIcon id=|ChangeWeaponNext_GamePad|/>.",
+          "LocalizedString": "W niektórych broniach możliwa jest zmiana amunicji\r\npoprzez przytrzymanie <keyGuideIcon id=|ChangeWeaponNext_GamePad|/>."
+        }
+      }
+    }
+  }
+]

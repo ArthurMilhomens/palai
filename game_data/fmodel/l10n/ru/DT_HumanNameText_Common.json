@@ -1,0 +1,1072 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_HumanNameText_Common",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "NAME_TEST_NPC": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_TEST_NPC_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "NAME_CITIZEN": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_CITIZEN_TextData",
+          "SourceString": "Житель острова",
+          "LocalizedString": "Житель острова"
+        }
+      },
+      "NAME_VILLAGER": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_VILLAGER_TextData",
+          "SourceString": "Житель деревни",
+          "LocalizedString": "Житель деревни"
+        }
+      },
+      "NAME_QUESTMAN": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_QUESTMAN_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "NAME_SELESPERSON": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_SELESPERSON_TextData",
+          "SourceString": "Бродячий торговец",
+          "LocalizedString": "Бродячий торговец"
+        }
+      },
+      "NAME_VISITING": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_VISITING_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "NAME_WEAPON_DEALER": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_WEAPON_DEALER_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "NAME_PAL_DEALER": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_PAL_DEALER_TextData",
+          "SourceString": "Торговец Палами",
+          "LocalizedString": "Торговец Палами"
+        }
+      },
+      "NAME_GUARD": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_GUARD_TextData",
+          "SourceString": "Стражник",
+          "LocalizedString": "Стражник"
+        }
+      },
+      "NAME_SecurityDrone": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_SecurityDrone_TextData",
+          "SourceString": "Боевой вертолёт",
+          "LocalizedString": "Боевой вертолёт"
+        }
+      },
+      "NAME_Believer": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Believer_TextData",
+          "SourceString": "Адепт Организации по Защите Палов",
+          "LocalizedString": "Адепт Организации по Защите Палов"
+        }
+      },
+      "NAME_FireCult": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_FireCult_TextData",
+          "SourceString": "Мученик Братства Вечного Пламени",
+          "LocalizedString": "Мученик Братства Вечного Пламени"
+        }
+      },
+      "NAME_Labmen": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Labmen_TextData",
+          "SourceString": "Лаборант отряда Генетических Исследований",
+          "LocalizedString": "Лаборант отряда Генетических Исследований"
+        }
+      },
+      "NAME_POLICE": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_POLICE_TextData",
+          "SourceString": "Охранник Вигилантов",
+          "LocalizedString": "Охранник Вигилантов"
+        }
+      },
+      "NAME_POLICE_1": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_POLICE_1_TextData",
+          "SourceString": "Патрульный Вигилантов",
+          "LocalizedString": "Патрульный Вигилантов"
+        }
+      },
+      "NAME_POLICE_2": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_POLICE_2_TextData",
+          "SourceString": "Стрелок Вигилантов",
+          "LocalizedString": "Стрелок Вигилантов"
+        }
+      },
+      "NAME_POLICE_3": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_POLICE_3_TextData",
+          "SourceString": "Элитный Вигилант",
+          "LocalizedString": "Элитный Вигилант"
+        }
+      },
+      "NAME_HUNTER": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_TextData",
+          "SourceString": "Браконьер-новичок",
+          "LocalizedString": "Браконьер-новичок"
+        }
+      },
+      "NAME_HUNTER_2": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_2_TextData",
+          "SourceString": "Браконьер-стрелок",
+          "LocalizedString": "Браконьер-стрелок"
+        }
+      },
+      "NAME_HUNTER_3": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_3_TextData",
+          "SourceString": "Браконьер-охотник",
+          "LocalizedString": "Браконьер-охотник"
+        }
+      },
+      "NAME_HUNTER_4": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_4_TextData",
+          "SourceString": "Браконьер-гренадер",
+          "LocalizedString": "Браконьер-гренадер"
+        }
+      },
+      "NAME_HUNTER_5": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_5_TextData",
+          "SourceString": "Браконьер-чистильщик",
+          "LocalizedString": "Браконьер-чистильщик"
+        }
+      },
+      "NAME_HUNTER_6": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_6_TextData",
+          "SourceString": "Элитный браконьер",
+          "LocalizedString": "Элитный браконьер"
+        }
+      },
+      "NAME_HUNTER_BOSS": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_BOSS_TextData",
+          "SourceString": "Браконьер-громила",
+          "LocalizedString": "Браконьер-громила"
+        }
+      },
+      "NAME_DarkTrader": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_DarkTrader_TextData",
+          "SourceString": "Подпольный торговец",
+          "LocalizedString": "Подпольный торговец"
+        }
+      },
+      "NAME_HUNTER_7": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_7_TextData",
+          "SourceString": "Браконьер-ветеран",
+          "LocalizedString": "Браконьер-ветеран"
+        }
+      },
+      "NAME_HUNTER_8": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_8_TextData",
+          "SourceString": "Браконьер-перехватчик",
+          "LocalizedString": "Браконьер-перехватчик"
+        }
+      },
+      "NAME_Ninja": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Ninja_TextData",
+          "SourceString": "Генин из Общества Лунных Цветов",
+          "LocalizedString": "Генин из Общества Лунных Цветов"
+        }
+      },
+      "NAME_Ninja_2": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Ninja_2_TextData",
+          "SourceString": "Дзёнин из Общества Лунных Цветов",
+          "LocalizedString": "Дзёнин из Общества Лунных Цветов"
+        }
+      },
+      "NAME_MedalTrader": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_MedalTrader_TextData",
+          "SourceString": "Торговец медалями",
+          "LocalizedString": "Торговец медалями"
+        }
+      },
+      "NAME_BOSS_Hunter_Rifle": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Hunter_Rifle_TextData",
+          "SourceString": "Ястреб",
+          "LocalizedString": "Ястреб"
+        }
+      },
+      "NAME_BOSS_Hunter_Fat_GatlingGun": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Hunter_Fat_GatlingGun_TextData",
+          "SourceString": "Гриль",
+          "LocalizedString": "Гриль"
+        }
+      },
+      "NAME_BOSS_Believer_CrossBow": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Believer_CrossBow_TextData",
+          "SourceString": "Эго",
+          "LocalizedString": "Эго"
+        }
+      },
+      "NAME_BOSS_Believer_Fat_GiantClub": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Believer_Fat_GiantClub_TextData",
+          "SourceString": "Кирпич",
+          "LocalizedString": "Кирпич"
+        }
+      },
+      "NAME_BOSS_Police_Rifle": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Police_Rifle_TextData",
+          "SourceString": "Кнут",
+          "LocalizedString": "Кнут"
+        }
+      },
+      "NAME_BOSS_FireCult_FlameThrower": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_FireCult_FlameThrower_TextData",
+          "SourceString": "Тень",
+          "LocalizedString": "Тень"
+        }
+      },
+      "NAME_BOSS_Scientist_LaserRifle": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Scientist_LaserRifle_TextData",
+          "SourceString": "Виск",
+          "LocalizedString": "Виск"
+        }
+      },
+      "NAME_BOSS_Ninja": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Ninja_TextData",
+          "SourceString": "Мямля",
+          "LocalizedString": "Мямля"
+        }
+      },
+      "NAME_BOSS_Male_NinjaElite": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_NinjaElite_TextData",
+          "SourceString": "Урчин",
+          "LocalizedString": "Урчин"
+        }
+      },
+      "NAME_BOSS_Female_Soldier": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Female_Soldier_TextData",
+          "SourceString": "Джейд",
+          "LocalizedString": "Джейд"
+        }
+      },
+      "NAME_BOSS_Female_Soldier02": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Female_Soldier02_TextData",
+          "SourceString": "Мишура",
+          "LocalizedString": "Мишура"
+        }
+      },
+      "NAME_BOSS_Female_Soldier03": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Female_Soldier03_TextData",
+          "SourceString": "Алоха",
+          "LocalizedString": "Алоха"
+        }
+      },
+      "NAME_BOSS_Female_Soldier04": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Female_Soldier04_TextData",
+          "SourceString": "Ловкач",
+          "LocalizedString": "Ловкач"
+        }
+      },
+      "NAME_BOSS_Male_Soldier": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_Soldier_TextData",
+          "SourceString": "Краш",
+          "LocalizedString": "Краш"
+        }
+      },
+      "NAME_BOSS_Male_Soldier02": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_Soldier02_TextData",
+          "SourceString": "Окурок",
+          "LocalizedString": "Окурок"
+        }
+      },
+      "NAME_BOSS_Male_Soldier03": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_Soldier03_TextData",
+          "SourceString": "Клинт",
+          "LocalizedString": "Клинт"
+        }
+      },
+      "NAME_BOSS_Male_Soldier04": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_Soldier04_TextData",
+          "SourceString": "Лассо",
+          "LocalizedString": "Лассо"
+        }
+      },
+      "NAME_BOSS_Female_People": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Female_People_TextData",
+          "SourceString": "Огонёк",
+          "LocalizedString": "Огонёк"
+        }
+      },
+      "NAME_BOSS_Female_People02": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Female_People02_TextData",
+          "SourceString": "Сирена",
+          "LocalizedString": "Сирена"
+        }
+      },
+      "NAME_BOSS_Female_People03": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Female_People03_TextData",
+          "SourceString": "Танко",
+          "LocalizedString": "Танко"
+        }
+      },
+      "NAME_BOSS_Male_People": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_People_TextData",
+          "SourceString": "Дина",
+          "LocalizedString": "Дина"
+        }
+      },
+      "NAME_BOSS_Male_People2": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_People2_TextData",
+          "SourceString": "Мит",
+          "LocalizedString": "Мит"
+        }
+      },
+      "NAME_BOSS_Male_People02": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_People02_TextData",
+          "SourceString": "Квилл",
+          "LocalizedString": "Квилл"
+        }
+      },
+      "NAME_BOSS_Male_People03": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_People03_TextData",
+          "SourceString": "Скут",
+          "LocalizedString": "Скут"
+        }
+      },
+      "NAME_BOSS_Male_DesertPeople": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_DesertPeople_TextData",
+          "SourceString": "Фантом",
+          "LocalizedString": "Фантом"
+        }
+      },
+      "NAME_BOSS_Female_DesertPeople": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Female_DesertPeople_TextData",
+          "SourceString": "Шепот",
+          "LocalizedString": "Шепот"
+        }
+      },
+      "NAME_BOSS_Viking": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Viking_TextData",
+          "SourceString": "Глод",
+          "LocalizedString": "Глод"
+        }
+      },
+      "NAME_BOSS_VikingElite": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_VikingElite_TextData",
+          "SourceString": "Схрон",
+          "LocalizedString": "Схрон"
+        }
+      },
+      "NAME_BOSS_Police_Old": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Police_Old_TextData",
+          "SourceString": "Пинч",
+          "LocalizedString": "Пинч"
+        }
+      },
+      "NAME_BOSS_DarkTrader": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_DarkTrader_TextData",
+          "SourceString": "Рам",
+          "LocalizedString": "Рам"
+        }
+      },
+      "NAME_BOSS_Male_Trader01": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_Trader01_TextData",
+          "SourceString": "Ским",
+          "LocalizedString": "Ским"
+        }
+      },
+      "NAME_BOSS_Male_Trader02": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_Trader02_TextData",
+          "SourceString": "Мимик",
+          "LocalizedString": "Мимик"
+        }
+      },
+      "NAME_BOSS_Male_Trader03": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_Trader03_TextData",
+          "SourceString": "Билли",
+          "LocalizedString": "Билли"
+        }
+      },
+      "NAME_BOSS_Hunter_Fat_GatlingGun_Quest_StrongOldMan": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Hunter_Fat_GatlingGun_Quest_StrongOldMan_TextData",
+          "SourceString": "Эльдер",
+          "LocalizedString": "Эльдер"
+        }
+      },
+      "NAME_Solider": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Solider_TextData",
+          "SourceString": "Наёмник-здоровяк",
+          "LocalizedString": "Наёмник-здоровяк"
+        }
+      },
+      "NAME_Recruiter": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Recruiter_TextData",
+          "SourceString": "Рекрутер Палов",
+          "LocalizedString": "Рекрутер Палов"
+        }
+      },
+      "NAME_CaravanLeader01": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_CaravanLeader01_TextData",
+          "SourceString": "Глава каравана",
+          "LocalizedString": "Глава каравана"
+        }
+      },
+      "NAME_Viking": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Viking_TextData",
+          "SourceString": "Воин Тэнраку",
+          "LocalizedString": "Воин Тэнраку"
+        }
+      },
+      "NAME_Viking_Elite": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Viking_Elite_TextData",
+          "SourceString": "Элитный Тэнраку",
+          "LocalizedString": "Элитный Тэнраку"
+        }
+      },
+      "NAME_Ambassador01": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Ambassador01_TextData",
+          "SourceString": "Эмиссар пустынного города",
+          "LocalizedString": "Эмиссар пустынного города"
+        }
+      },
+      "NAME_Blacksmith01": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Blacksmith01_TextData",
+          "SourceString": "Подмастерье кузнеца",
+          "LocalizedString": "Подмастерье кузнеца"
+        }
+      },
+      "NAME_Epicure01": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Epicure01_TextData",
+          "SourceString": "Охотница за деликатесами",
+          "LocalizedString": "Охотница за деликатесами"
+        }
+      },
+      "NAME_Escort_Warrior01": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Escort_Warrior01_TextData",
+          "SourceString": "Наёмный охранник",
+          "LocalizedString": "Наёмный охранник"
+        }
+      },
+      "NAME_Escort_PalTamer01": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Escort_PalTamer01_TextData",
+          "SourceString": "Укротитель Палов из конвоя",
+          "LocalizedString": "Укротитель Палов из конвоя"
+        }
+      },
+      "NAME_HUNTER_9": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_9_TextData",
+          "SourceString": "Браконьер-технарь",
+          "LocalizedString": "Браконьер-технарь"
+        }
+      },
+      "NAME_HUNTER_10": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_10_TextData",
+          "SourceString": "Браконьер-арбалетчик",
+          "LocalizedString": "Браконьер-арбалетчик"
+        }
+      },
+      "NAME_HUNTER_11": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_11_TextData",
+          "SourceString": "Браконьер-мечник",
+          "LocalizedString": "Браконьер-мечник"
+        }
+      },
+      "NAME_Believer_BOSS": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Believer_BOSS_TextData",
+          "SourceString": "Судья Организации по Защите Палов",
+          "LocalizedString": "Судья Организации по Защите Палов"
+        }
+      },
+      "NAME_Male_Soldier02_Invader": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Male_Soldier02_Invader_TextData",
+          "SourceString": "Разгорячённый укротитель Палов",
+          "LocalizedString": "Разгорячённый укротитель Палов"
+        }
+      },
+      "NAME_Female_Soldier03_Invader": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Female_Soldier03_Invader_TextData",
+          "SourceString": "Близнецы-укротители Палов",
+          "LocalizedString": "Близнецы-укротители Палов"
+        }
+      },
+      "NAME_BattlePaltamer001": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BattlePaltamer001_TextData",
+          "SourceString": "Неопытный укротитель Палов",
+          "LocalizedString": "Неопытный укротитель Палов"
+        }
+      },
+      "NAME_BattlePaltamer002": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BattlePaltamer002_TextData",
+          "SourceString": "Перспективный укротитель Палов",
+          "LocalizedString": "Перспективный укротитель Палов"
+        }
+      },
+      "NAME_BattlePaltamer003": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BattlePaltamer003_TextData",
+          "SourceString": "Жестокий укротитель Палов",
+          "LocalizedString": "Жестокий укротитель Палов"
+        }
+      },
+      "NAME_BattlePaltamer004": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BattlePaltamer004_TextData",
+          "SourceString": "Опытный укротитель Палов",
+          "LocalizedString": "Опытный укротитель Палов"
+        }
+      },
+      "NAME_BattlePaltamer005": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BattlePaltamer005_TextData",
+          "SourceString": "Воинственный укротитель Палов",
+          "LocalizedString": "Воинственный укротитель Палов"
+        }
+      },
+      "NAME_BattlePaltamer006": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BattlePaltamer006_TextData",
+          "SourceString": "Искусный укротитель Палов",
+          "LocalizedString": "Искусный укротитель Палов"
+        }
+      },
+      "NAME_Female_Presenter01": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Female_Presenter01_TextData",
+          "SourceString": "Дружелюбный укротитель Палов",
+          "LocalizedString": "Дружелюбный укротитель Палов"
+        }
+      },
+      "NAME_Police_Chief": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Police_Chief_TextData",
+          "SourceString": "Ленивый шеф",
+          "LocalizedString": "Ленивый шеф"
+        }
+      },
+      "NAME_Police_old_Prisoner": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Police_old_Prisoner_TextData",
+          "SourceString": "Заключённый шеф",
+          "LocalizedString": "Заключённый шеф"
+        }
+      },
+      "NAME_Police001": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Police001_TextData",
+          "SourceString": "Перерожденный дядя",
+          "LocalizedString": "Перерожденный дядя"
+        }
+      },
+      "NAME_Reward_Emote": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Reward_Emote_TextData",
+          "SourceString": "Посланник любви",
+          "LocalizedString": "Посланник любви"
+        }
+      },
+      "NAME_PalPassive_Doctor": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_PalPassive_Doctor_TextData",
+          "SourceString": "Доктор Браун",
+          "LocalizedString": "Доктор Браун"
+        }
+      },
+      "NAME_QUEST_SCHOLAR01": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_QUEST_SCHOLAR01_TextData",
+          "SourceString": "Исследователь легенд",
+          "LocalizedString": "Исследователь легенд"
+        }
+      },
+      "NAME_Reward_Paldex": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Reward_Paldex_TextData",
+          "SourceString": "Экоисследователь Палов",
+          "LocalizedString": "Экоисследователь Палов"
+        }
+      },
+      "NAME_Reward_BossDefeat": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Reward_BossDefeat_TextData",
+          "SourceString": "Опытный охотник на Палов",
+          "LocalizedString": "Опытный охотник на Палов"
+        }
+      },
+      "NAME_QUEST_RANGER04": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_QUEST_RANGER04_TextData",
+          "SourceString": "Благоухающая охотница",
+          "LocalizedString": "Благоухающая охотница"
+        }
+      },
+      "NAME_GrassBoss": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_GrassBoss_TextData",
+          "SourceString": "Зои",
+          "LocalizedString": "Зои"
+        }
+      },
+      "NAME_SurveyGirl": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_SurveyGirl_TextData",
+          "SourceString": "Фиа",
+          "LocalizedString": "Фиа"
+        }
+      },
+      "NAME_SurveyWoman": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_SurveyWoman_TextData",
+          "SourceString": "Карла",
+          "LocalizedString": "Карла"
+        }
+      },
+      "NAME_SurveyMan": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_SurveyMan_TextData",
+          "SourceString": "Гадель",
+          "LocalizedString": "Гадель"
+        }
+      },
+      "NAME_StrongOldMan": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_StrongOldMan_TextData",
+          "SourceString": "Гарольд",
+          "LocalizedString": "Гарольд"
+        }
+      },
+      "NAME_WildlifeSanctuaryDrone": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_WildlifeSanctuaryDrone_TextData",
+          "SourceString": "Защитный дрон",
+          "LocalizedString": "Защитный дрон"
+        }
+      },
+      "NAME_Police_Invader_Katana": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Police_Invader_Katana_TextData",
+          "SourceString": "Блейдер вигилантов",
+          "LocalizedString": "Блейдер вигилантов"
+        }
+      },
+      "NAME_Police_Invader_CrossBow": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Police_Invader_CrossBow_TextData",
+          "SourceString": "Райот вигилантов",
+          "LocalizedString": "Райот вигилантов"
+        }
+      },
+      "NAME_Police_Invader_LaserRifle": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Police_Invader_LaserRifle_TextData",
+          "SourceString": "Хайтеккер вигилантов",
+          "LocalizedString": "Хайтеккер вигилантов"
+        }
+      },
+      "NAME_Police_Invader_GrenadeLauncher": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Police_Invader_GrenadeLauncher_TextData",
+          "SourceString": "Ветеран вигилантов",
+          "LocalizedString": "Ветеран вигилантов"
+        }
+      },
+      "NAME_Police_Invader_FlameThrower": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Police_Invader_FlameThrower_TextData",
+          "SourceString": "Клинер вигилантов",
+          "LocalizedString": "Клинер вигилантов"
+        }
+      },
+      "NAME_Police_Invader_RocketLauncher": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Police_Invader_RocketLauncher_TextData",
+          "SourceString": "Ракетчик вигилантов",
+          "LocalizedString": "Ракетчик вигилантов"
+        }
+      },
+      "NAME_Police_Invader_MissileLauncher": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Police_Invader_MissileLauncher_TextData",
+          "SourceString": "Перехватчик вигилантов",
+          "LocalizedString": "Перехватчик вигилантов"
+        }
+      },
+      "NAME_Sorajima_Enemy": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Sorajima_Enemy_TextData",
+          "SourceString": "Каратель Завета Лазурных Небес",
+          "LocalizedString": "Каратель Завета Лазурных Небес"
+        }
+      },
+      "NAME_Caravan04": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan04_TextData",
+          "SourceString": "Ученик мясника",
+          "LocalizedString": "Ученик мясника"
+        }
+      },
+      "NAME_Caravan05": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan05_TextData",
+          "SourceString": "Опытный рыбак и мясник",
+          "LocalizedString": "Опытный рыбак и мясник"
+        }
+      },
+      "NAME_Caravan06": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan06_TextData",
+          "SourceString": "Мастер охоты",
+          "LocalizedString": "Мастер охоты"
+        }
+      },
+      "NAME_Caravan07": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan07_TextData",
+          "SourceString": "Легендарный охотник на дичь",
+          "LocalizedString": "Легендарный охотник на дичь"
+        }
+      },
+      "NAME_Caravan08": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan08_TextData",
+          "SourceString": "Шестёрка контрабандистов",
+          "LocalizedString": "Шестёрка контрабандистов"
+        }
+      },
+      "NAME_Caravan09": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan09_TextData",
+          "SourceString": "Снабженец наёмников",
+          "LocalizedString": "Снабженец наёмников"
+        }
+      },
+      "NAME_Caravan10": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan10_TextData",
+          "SourceString": "Торговец тяжелым вооружением",
+          "LocalizedString": "Торговец тяжелым вооружением"
+        }
+      },
+      "NAME_Caravan11": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan11_TextData",
+          "SourceString": "Легендарный торговец боеприпасами",
+          "LocalizedString": "Легендарный торговец боеприпасами"
+        }
+      },
+      "NAME_Caravan12": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan12_TextData",
+          "SourceString": "Деревенский торговец овощами",
+          "LocalizedString": "Деревенский торговец овощами"
+        }
+      },
+      "NAME_Caravan13": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan13_TextData",
+          "SourceString": "Бродячий торговец с фермы",
+          "LocalizedString": "Бродячий торговец с фермы"
+        }
+      },
+      "NAME_Caravan14": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan14_TextData",
+          "SourceString": "Легендарный торговец овощами",
+          "LocalizedString": "Легендарный торговец овощами"
+        }
+      },
+      "NAME_Caravan15": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan15_TextData",
+          "SourceString": "Подозрительный торговец снадобьями",
+          "LocalizedString": "Подозрительный торговец снадобьями"
+        }
+      },
+      "NAME_Caravan16": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan16_TextData",
+          "SourceString": "Лицензированный аптекарь",
+          "LocalizedString": "Лицензированный аптекарь"
+        }
+      },
+      "NAME_Caravan17": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan17_TextData",
+          "SourceString": "Легендарный лекарь",
+          "LocalizedString": "Легендарный лекарь"
+        }
+      },
+      "NAME_Caravan18": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan18_TextData",
+          "SourceString": "Уличный пекарь",
+          "LocalizedString": "Уличный пекарь"
+        }
+      },
+      "NAME_Caravan19": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan19_TextData",
+          "SourceString": "Работник закусочной",
+          "LocalizedString": "Работник закусочной"
+        }
+      },
+      "NAME_Caravan20": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan20_TextData",
+          "SourceString": "Начинающий гурман",
+          "LocalizedString": "Начинающий гурман"
+        }
+      },
+      "NAME_Caravan21": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan21_TextData",
+          "SourceString": "Легендарный гурман",
+          "LocalizedString": "Легендарный гурман"
+        }
+      },
+      "NAME_Caravan22": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan22_TextData",
+          "SourceString": "Торговец материалами",
+          "LocalizedString": "Торговец материалами"
+        }
+      },
+      "NAME_Caravan23": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan23_TextData",
+          "SourceString": "Лицензированный торговец материалами",
+          "LocalizedString": "Лицензированный торговец материалами"
+        }
+      },
+      "NAME_Caravan24": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan24_TextData",
+          "SourceString": "Торговец элементами",
+          "LocalizedString": "Торговец элементами"
+        }
+      },
+      "NAME_Caravan25": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan25_TextData",
+          "SourceString": "Легендарный торговец материалами",
+          "LocalizedString": "Легендарный торговец материалами"
+        }
+      }
+    }
+  }
+]

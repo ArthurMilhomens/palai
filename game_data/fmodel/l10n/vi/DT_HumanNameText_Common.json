@@ -1,0 +1,1072 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_HumanNameText_Common",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "NAME_TEST_NPC": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_TEST_NPC_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "NAME_CITIZEN": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_CITIZEN_TextData",
+          "SourceString": "Dân Đảo",
+          "LocalizedString": "Dân Đảo"
+        }
+      },
+      "NAME_VILLAGER": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_VILLAGER_TextData",
+          "SourceString": "Dân Làng",
+          "LocalizedString": "Dân Làng"
+        }
+      },
+      "NAME_QUESTMAN": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_QUESTMAN_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "NAME_SELESPERSON": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_SELESPERSON_TextData",
+          "SourceString": "Thương Nhân Lang Thang",
+          "LocalizedString": "Thương Nhân Lang Thang"
+        }
+      },
+      "NAME_VISITING": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_VISITING_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "NAME_WEAPON_DEALER": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_WEAPON_DEALER_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "NAME_PAL_DEALER": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_PAL_DEALER_TextData",
+          "SourceString": "Thương Nhân Pal",
+          "LocalizedString": "Thương Nhân Pal"
+        }
+      },
+      "NAME_GUARD": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_GUARD_TextData",
+          "SourceString": "Vệ Binh",
+          "LocalizedString": "Vệ Binh"
+        }
+      },
+      "NAME_SecurityDrone": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_SecurityDrone_TextData",
+          "SourceString": "Trực Thăng Vũ Trang",
+          "LocalizedString": "Trực Thăng Vũ Trang"
+        }
+      },
+      "NAME_Believer": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Believer_TextData",
+          "SourceString": "Tín Đồ Tổ Chức Bảo Vệ Pal",
+          "LocalizedString": "Tín Đồ Tổ Chức Bảo Vệ Pal"
+        }
+      },
+      "NAME_FireCult": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_FireCult_TextData",
+          "SourceString": "Kẻ Tử Vì Đạo Hội Tôn Thờ Ngọn Lửa Bất Diệt",
+          "LocalizedString": "Kẻ Tử Vì Đạo Hội Tôn Thờ Ngọn Lửa Bất Diệt"
+        }
+      },
+      "NAME_Labmen": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Labmen_TextData",
+          "SourceString": "Tổ Hành Động, Đơn Vị Nghiên Cứu Gen Pal",
+          "LocalizedString": "Tổ Hành Động, Đơn Vị Nghiên Cứu Gen Pal"
+        }
+      },
+      "NAME_POLICE": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_POLICE_TextData",
+          "SourceString": "Lính Gác Đội Tự Vệ",
+          "LocalizedString": "Lính Gác Đội Tự Vệ"
+        }
+      },
+      "NAME_POLICE_1": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_POLICE_1_TextData",
+          "SourceString": "Lính Tuần Tra Đội Tự Vệ",
+          "LocalizedString": "Lính Tuần Tra Đội Tự Vệ"
+        }
+      },
+      "NAME_POLICE_2": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_POLICE_2_TextData",
+          "SourceString": "Xạ Thủ Đội Tự Vệ",
+          "LocalizedString": "Xạ Thủ Đội Tự Vệ"
+        }
+      },
+      "NAME_POLICE_3": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_POLICE_3_TextData",
+          "SourceString": "Lính Tinh Nhuệ Đội Tự Vệ",
+          "LocalizedString": "Lính Tinh Nhuệ Đội Tự Vệ"
+        }
+      },
+      "NAME_HUNTER": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_TextData",
+          "SourceString": "Lính Mới Băng Săn Trộm",
+          "LocalizedString": "Lính Mới Băng Săn Trộm"
+        }
+      },
+      "NAME_HUNTER_2": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_2_TextData",
+          "SourceString": "Tay Súng Băng Săn Trộm",
+          "LocalizedString": "Tay Súng Băng Săn Trộm"
+        }
+      },
+      "NAME_HUNTER_3": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_3_TextData",
+          "SourceString": "Thợ Săn Băng Săn Trộm",
+          "LocalizedString": "Thợ Săn Băng Săn Trộm"
+        }
+      },
+      "NAME_HUNTER_4": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_4_TextData",
+          "SourceString": "Lính Ném Lựu Đạn Băng Săn Trộm",
+          "LocalizedString": "Lính Ném Lựu Đạn Băng Săn Trộm"
+        }
+      },
+      "NAME_HUNTER_5": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_5_TextData",
+          "SourceString": "Người Dọn Dẹp Băng Săn Trộm",
+          "LocalizedString": "Người Dọn Dẹp Băng Săn Trộm"
+        }
+      },
+      "NAME_HUNTER_6": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_6_TextData",
+          "SourceString": "Lính Tinh Nhuệ Băng Săn Trộm",
+          "LocalizedString": "Lính Tinh Nhuệ Băng Săn Trộm"
+        }
+      },
+      "NAME_HUNTER_BOSS": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_BOSS_TextData",
+          "SourceString": "Kẻ Hủy Diệt Băng Săn Trộm",
+          "LocalizedString": "Kẻ Hủy Diệt Băng Săn Trộm"
+        }
+      },
+      "NAME_DarkTrader": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_DarkTrader_TextData",
+          "SourceString": "Thương Nhân Chợ Đen",
+          "LocalizedString": "Thương Nhân Chợ Đen"
+        }
+      },
+      "NAME_HUNTER_7": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_7_TextData",
+          "SourceString": "Kẻ Lão Luyện Băng Săn Trộm",
+          "LocalizedString": "Kẻ Lão Luyện Băng Săn Trộm"
+        }
+      },
+      "NAME_HUNTER_8": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_8_TextData",
+          "SourceString": "Kẻ Đánh Chặn Băng Săn Trộm",
+          "LocalizedString": "Kẻ Đánh Chặn Băng Săn Trộm"
+        }
+      },
+      "NAME_Ninja": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Ninja_TextData",
+          "SourceString": "Genin Phái Tsukihana",
+          "LocalizedString": "Genin Phái Tsukihana"
+        }
+      },
+      "NAME_Ninja_2": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Ninja_2_TextData",
+          "SourceString": "Jonin Phái Tsukihana",
+          "LocalizedString": "Jonin Phái Tsukihana"
+        }
+      },
+      "NAME_MedalTrader": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_MedalTrader_TextData",
+          "SourceString": "Thương Nhân Huy Chương",
+          "LocalizedString": "Thương Nhân Huy Chương"
+        }
+      },
+      "NAME_BOSS_Hunter_Rifle": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Hunter_Rifle_TextData",
+          "SourceString": "Kẻ Bị Truy Nã Hawk",
+          "LocalizedString": "Kẻ Bị Truy Nã Hawk"
+        }
+      },
+      "NAME_BOSS_Hunter_Fat_GatlingGun": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Hunter_Fat_GatlingGun_TextData",
+          "SourceString": "Kẻ Bị Truy Nã Grill",
+          "LocalizedString": "Kẻ Bị Truy Nã Grill"
+        }
+      },
+      "NAME_BOSS_Believer_CrossBow": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Believer_CrossBow_TextData",
+          "SourceString": "Kẻ Bị Truy Nã Ego",
+          "LocalizedString": "Kẻ Bị Truy Nã Ego"
+        }
+      },
+      "NAME_BOSS_Believer_Fat_GiantClub": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Believer_Fat_GiantClub_TextData",
+          "SourceString": "Kẻ Bị Truy Nã Brick",
+          "LocalizedString": "Kẻ Bị Truy Nã Brick"
+        }
+      },
+      "NAME_BOSS_Police_Rifle": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Police_Rifle_TextData",
+          "SourceString": "Kẻ Bị Truy Nã Whip",
+          "LocalizedString": "Kẻ Bị Truy Nã Whip"
+        }
+      },
+      "NAME_BOSS_FireCult_FlameThrower": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_FireCult_FlameThrower_TextData",
+          "SourceString": "Kẻ Bị Truy Nã Shadow",
+          "LocalizedString": "Kẻ Bị Truy Nã Shadow"
+        }
+      },
+      "NAME_BOSS_Scientist_LaserRifle": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Scientist_LaserRifle_TextData",
+          "SourceString": "Kẻ Bị Truy Nã Whisk",
+          "LocalizedString": "Kẻ Bị Truy Nã Whisk"
+        }
+      },
+      "NAME_BOSS_Ninja": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Ninja_TextData",
+          "SourceString": "Kẻ Bị Truy Nã Fumble",
+          "LocalizedString": "Kẻ Bị Truy Nã Fumble"
+        }
+      },
+      "NAME_BOSS_Male_NinjaElite": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_NinjaElite_TextData",
+          "SourceString": "Kẻ Bị Truy Nã Urchin",
+          "LocalizedString": "Kẻ Bị Truy Nã Urchin"
+        }
+      },
+      "NAME_BOSS_Female_Soldier": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Female_Soldier_TextData",
+          "SourceString": "Kẻ Bị Truy Nã Jade",
+          "LocalizedString": "Kẻ Bị Truy Nã Jade"
+        }
+      },
+      "NAME_BOSS_Female_Soldier02": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Female_Soldier02_TextData",
+          "SourceString": "Kẻ Bị Truy Nã Dazzle",
+          "LocalizedString": "Kẻ Bị Truy Nã Dazzle"
+        }
+      },
+      "NAME_BOSS_Female_Soldier03": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Female_Soldier03_TextData",
+          "SourceString": "Kẻ Bị Truy Nã Aloha",
+          "LocalizedString": "Kẻ Bị Truy Nã Aloha"
+        }
+      },
+      "NAME_BOSS_Female_Soldier04": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Female_Soldier04_TextData",
+          "SourceString": "Kẻ Bị Truy Nã Nimble",
+          "LocalizedString": "Kẻ Bị Truy Nã Nimble"
+        }
+      },
+      "NAME_BOSS_Male_Soldier": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_Soldier_TextData",
+          "SourceString": "Kẻ Bị Truy Nã Crash",
+          "LocalizedString": "Kẻ Bị Truy Nã Crash"
+        }
+      },
+      "NAME_BOSS_Male_Soldier02": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_Soldier02_TextData",
+          "SourceString": "Kẻ Bị Truy Nã Dart",
+          "LocalizedString": "Kẻ Bị Truy Nã Dart"
+        }
+      },
+      "NAME_BOSS_Male_Soldier03": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_Soldier03_TextData",
+          "SourceString": "Kẻ Bị Truy Nã Clint",
+          "LocalizedString": "Kẻ Bị Truy Nã Clint"
+        }
+      },
+      "NAME_BOSS_Male_Soldier04": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_Soldier04_TextData",
+          "SourceString": "Kẻ Bị Truy Nã Lasso",
+          "LocalizedString": "Kẻ Bị Truy Nã Lasso"
+        }
+      },
+      "NAME_BOSS_Female_People": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Female_People_TextData",
+          "SourceString": "Kẻ Bị Truy Nã Flare",
+          "LocalizedString": "Kẻ Bị Truy Nã Flare"
+        }
+      },
+      "NAME_BOSS_Female_People02": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Female_People02_TextData",
+          "SourceString": "Kẻ Bị Truy Nã Siren",
+          "LocalizedString": "Kẻ Bị Truy Nã Siren"
+        }
+      },
+      "NAME_BOSS_Female_People03": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Female_People03_TextData",
+          "SourceString": "Kẻ Bị Truy Nã Turncoat",
+          "LocalizedString": "Kẻ Bị Truy Nã Turncoat"
+        }
+      },
+      "NAME_BOSS_Male_People": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_People_TextData",
+          "SourceString": "Kẻ Bị Truy Nã Dyna",
+          "LocalizedString": "Kẻ Bị Truy Nã Dyna"
+        }
+      },
+      "NAME_BOSS_Male_People2": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_People2_TextData",
+          "SourceString": "Kẻ Bị Truy Nã Mite",
+          "LocalizedString": "Kẻ Bị Truy Nã Mite"
+        }
+      },
+      "NAME_BOSS_Male_People02": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_People02_TextData",
+          "SourceString": "Kẻ Bị Truy Nã Quill",
+          "LocalizedString": "Kẻ Bị Truy Nã Quill"
+        }
+      },
+      "NAME_BOSS_Male_People03": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_People03_TextData",
+          "SourceString": "Kẻ Bị Truy Nã Scoot",
+          "LocalizedString": "Kẻ Bị Truy Nã Scoot"
+        }
+      },
+      "NAME_BOSS_Male_DesertPeople": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_DesertPeople_TextData",
+          "SourceString": "Kẻ Bị Truy Nã Phantom",
+          "LocalizedString": "Kẻ Bị Truy Nã Phantom"
+        }
+      },
+      "NAME_BOSS_Female_DesertPeople": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Female_DesertPeople_TextData",
+          "SourceString": "Kẻ Bị Truy Nã Whisper",
+          "LocalizedString": "Kẻ Bị Truy Nã Whisper"
+        }
+      },
+      "NAME_BOSS_Viking": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Viking_TextData",
+          "SourceString": "Kẻ Bị Truy Nã Gnaw",
+          "LocalizedString": "Kẻ Bị Truy Nã Gnaw"
+        }
+      },
+      "NAME_BOSS_VikingElite": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_VikingElite_TextData",
+          "SourceString": "Kẻ Bị Truy Nã Cache",
+          "LocalizedString": "Kẻ Bị Truy Nã Cache"
+        }
+      },
+      "NAME_BOSS_Police_Old": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Police_Old_TextData",
+          "SourceString": "Kẻ Bị Truy Nã Pinch",
+          "LocalizedString": "Kẻ Bị Truy Nã Pinch"
+        }
+      },
+      "NAME_BOSS_DarkTrader": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_DarkTrader_TextData",
+          "SourceString": "Kẻ Bị Truy Nã Ram",
+          "LocalizedString": "Kẻ Bị Truy Nã Ram"
+        }
+      },
+      "NAME_BOSS_Male_Trader01": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_Trader01_TextData",
+          "SourceString": "Kẻ Bị Truy Nã Skim",
+          "LocalizedString": "Kẻ Bị Truy Nã Skim"
+        }
+      },
+      "NAME_BOSS_Male_Trader02": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_Trader02_TextData",
+          "SourceString": "Kẻ Bị Truy Nã Mimic",
+          "LocalizedString": "Kẻ Bị Truy Nã Mimic"
+        }
+      },
+      "NAME_BOSS_Male_Trader03": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_Trader03_TextData",
+          "SourceString": "Kẻ Bị Truy Nã Billy",
+          "LocalizedString": "Kẻ Bị Truy Nã Billy"
+        }
+      },
+      "NAME_BOSS_Hunter_Fat_GatlingGun_Quest_StrongOldMan": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Hunter_Fat_GatlingGun_Quest_StrongOldMan_TextData",
+          "SourceString": "Kẻ Bị Truy Nã Elder",
+          "LocalizedString": "Kẻ Bị Truy Nã Elder"
+        }
+      },
+      "NAME_Solider": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Solider_TextData",
+          "SourceString": "Lính Đánh Thuê Cường Tráng",
+          "LocalizedString": "Lính Đánh Thuê Cường Tráng"
+        }
+      },
+      "NAME_Recruiter": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Recruiter_TextData",
+          "SourceString": "Nhà Tuyển Dụng Pal",
+          "LocalizedString": "Nhà Tuyển Dụng Pal"
+        }
+      },
+      "NAME_CaravanLeader01": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_CaravanLeader01_TextData",
+          "SourceString": "Trưởng Đoàn Thương Nhân Lữ Hành",
+          "LocalizedString": "Trưởng Đoàn Thương Nhân Lữ Hành"
+        }
+      },
+      "NAME_Viking": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Viking_TextData",
+          "SourceString": "Cư Dân Feybreak",
+          "LocalizedString": "Cư Dân Feybreak"
+        }
+      },
+      "NAME_Viking_Elite": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Viking_Elite_TextData",
+          "SourceString": "Lực Lượng Tinh Nhuệ Feybreak",
+          "LocalizedString": "Lực Lượng Tinh Nhuệ Feybreak"
+        }
+      },
+      "NAME_Ambassador01": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Ambassador01_TextData",
+          "SourceString": "Sứ Giả Thị Trấn Sa Mạc",
+          "LocalizedString": "Sứ Giả Thị Trấn Sa Mạc"
+        }
+      },
+      "NAME_Blacksmith01": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Blacksmith01_TextData",
+          "SourceString": "Thợ Rèn Tập Sự",
+          "LocalizedString": "Thợ Rèn Tập Sự"
+        }
+      },
+      "NAME_Epicure01": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Epicure01_TextData",
+          "SourceString": "Thợ Săn Ẩm Thực",
+          "LocalizedString": "Thợ Săn Ẩm Thực"
+        }
+      },
+      "NAME_Escort_Warrior01": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Escort_Warrior01_TextData",
+          "SourceString": "Lính Đánh Thuê Hộ Vệ",
+          "LocalizedString": "Lính Đánh Thuê Hộ Vệ"
+        }
+      },
+      "NAME_Escort_PalTamer01": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Escort_PalTamer01_TextData",
+          "SourceString": "Nhà Huấn Luyện Pal Hộ Vệ",
+          "LocalizedString": "Nhà Huấn Luyện Pal Hộ Vệ"
+        }
+      },
+      "NAME_HUNTER_9": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_9_TextData",
+          "SourceString": "Chuyên Gia Công Nghệ Băng Săn Trộm",
+          "LocalizedString": "Chuyên Gia Công Nghệ Băng Săn Trộm"
+        }
+      },
+      "NAME_HUNTER_10": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_10_TextData",
+          "SourceString": "Tay Bắn Nỏ Băng Săn Trộm",
+          "LocalizedString": "Tay Bắn Nỏ Băng Săn Trộm"
+        }
+      },
+      "NAME_HUNTER_11": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_11_TextData",
+          "SourceString": "Kiếm Sĩ Băng Săn Trộm",
+          "LocalizedString": "Kiếm Sĩ Băng Săn Trộm"
+        }
+      },
+      "NAME_Believer_BOSS": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Believer_BOSS_TextData",
+          "SourceString": "Thẩm Phán Tổ Chức Bảo vệ Pal",
+          "LocalizedString": "Thẩm Phán Tổ Chức Bảo vệ Pal"
+        }
+      },
+      "NAME_Male_Soldier02_Invader": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Male_Soldier02_Invader_TextData",
+          "SourceString": "Nhà Huấn Luyện Pal Cuồng Nhiệt",
+          "LocalizedString": "Nhà Huấn Luyện Pal Cuồng Nhiệt"
+        }
+      },
+      "NAME_Female_Soldier03_Invader": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Female_Soldier03_Invader_TextData",
+          "SourceString": "Cặp Đôi Huấn Luyện Pal",
+          "LocalizedString": "Cặp Đôi Huấn Luyện Pal"
+        }
+      },
+      "NAME_BattlePaltamer001": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BattlePaltamer001_TextData",
+          "SourceString": "Nhà Huấn Luyện Pal Mới Vào Nghề",
+          "LocalizedString": "Nhà Huấn Luyện Pal Mới Vào Nghề"
+        }
+      },
+      "NAME_BattlePaltamer002": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BattlePaltamer002_TextData",
+          "SourceString": "Nhà Huấn Luyện Pal Đang Phát Triển",
+          "LocalizedString": "Nhà Huấn Luyện Pal Đang Phát Triển"
+        }
+      },
+      "NAME_BattlePaltamer003": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BattlePaltamer003_TextData",
+          "SourceString": "Nhà Huấn Luyện Pal Lạnh Lùng",
+          "LocalizedString": "Nhà Huấn Luyện Pal Lạnh Lùng"
+        }
+      },
+      "NAME_BattlePaltamer004": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BattlePaltamer004_TextData",
+          "SourceString": "Nhà Huấn Luyện Pal Kỳ Cựu",
+          "LocalizedString": "Nhà Huấn Luyện Pal Kỳ Cựu"
+        }
+      },
+      "NAME_BattlePaltamer005": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BattlePaltamer005_TextData",
+          "SourceString": "Nhà Huấn Luyện Pal Quả Cảm",
+          "LocalizedString": "Nhà Huấn Luyện Pal Quả Cảm"
+        }
+      },
+      "NAME_BattlePaltamer006": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BattlePaltamer006_TextData",
+          "SourceString": "Nhà Huấn Luyện Pal Thành Thục",
+          "LocalizedString": "Nhà Huấn Luyện Pal Thành Thục"
+        }
+      },
+      "NAME_Female_Presenter01": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Female_Presenter01_TextData",
+          "SourceString": "Nhà Huấn Luyện Pal Tử Tế",
+          "LocalizedString": "Nhà Huấn Luyện Pal Tử Tế"
+        }
+      },
+      "NAME_Police_Chief": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Police_Chief_TextData",
+          "SourceString": "Cảnh Sát Trưởng Lười Nhác",
+          "LocalizedString": "Cảnh Sát Trưởng Lười Nhác"
+        }
+      },
+      "NAME_Police_old_Prisoner": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Police_old_Prisoner_TextData",
+          "SourceString": "Cựu Cảnh Sát Trưởng Bị Giam Giữ",
+          "LocalizedString": "Cựu Cảnh Sát Trưởng Bị Giam Giữ"
+        }
+      },
+      "NAME_Police001": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Police001_TextData",
+          "SourceString": "Ông Chú Chuyển Sinh",
+          "LocalizedString": "Ông Chú Chuyển Sinh"
+        }
+      },
+      "NAME_Reward_Emote": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Reward_Emote_TextData",
+          "SourceString": "Nhà Truyền Giáo Tình Yêu",
+          "LocalizedString": "Nhà Truyền Giáo Tình Yêu"
+        }
+      },
+      "NAME_PalPassive_Doctor": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_PalPassive_Doctor_TextData",
+          "SourceString": "Tiến Sĩ Brawn",
+          "LocalizedString": "Tiến Sĩ Brawn"
+        }
+      },
+      "NAME_QUEST_SCHOLAR01": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_QUEST_SCHOLAR01_TextData",
+          "SourceString": "Nhà Nghiên Cứu Theo Đuổi Huyền Thoại",
+          "LocalizedString": "Nhà Nghiên Cứu Theo Đuổi Huyền Thoại"
+        }
+      },
+      "NAME_Reward_Paldex": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Reward_Paldex_TextData",
+          "SourceString": "Nhà Nghiên Cứu Sinh Thái Pal",
+          "LocalizedString": "Nhà Nghiên Cứu Sinh Thái Pal"
+        }
+      },
+      "NAME_Reward_BossDefeat": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Reward_BossDefeat_TextData",
+          "SourceString": "Thợ Săn Pal Kỳ Cựu",
+          "LocalizedString": "Thợ Săn Pal Kỳ Cựu"
+        }
+      },
+      "NAME_QUEST_RANGER04": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_QUEST_RANGER04_TextData",
+          "SourceString": "Thợ Săn Hương Hoa",
+          "LocalizedString": "Thợ Săn Hương Hoa"
+        }
+      },
+      "NAME_GrassBoss": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_GrassBoss_TextData",
+          "SourceString": "Zoe",
+          "LocalizedString": "Zoe"
+        }
+      },
+      "NAME_SurveyGirl": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_SurveyGirl_TextData",
+          "SourceString": "Fia",
+          "LocalizedString": "Fia"
+        }
+      },
+      "NAME_SurveyWoman": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_SurveyWoman_TextData",
+          "SourceString": "Carla",
+          "LocalizedString": "Carla"
+        }
+      },
+      "NAME_SurveyMan": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_SurveyMan_TextData",
+          "SourceString": "Gadel",
+          "LocalizedString": "Gadel"
+        }
+      },
+      "NAME_StrongOldMan": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_StrongOldMan_TextData",
+          "SourceString": "Harold",
+          "LocalizedString": "Harold"
+        }
+      },
+      "NAME_WildlifeSanctuaryDrone": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_WildlifeSanctuaryDrone_TextData",
+          "SourceString": "Thiết Bị Bay Phòng Thủ",
+          "LocalizedString": "Thiết Bị Bay Phòng Thủ"
+        }
+      },
+      "NAME_Police_Invader_Katana": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Police_Invader_Katana_TextData",
+          "SourceString": "Kiếm Thủ Đội Tự Vệ",
+          "LocalizedString": "Kiếm Thủ Đội Tự Vệ"
+        }
+      },
+      "NAME_Police_Invader_CrossBow": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Police_Invader_CrossBow_TextData",
+          "SourceString": "Lính Càn Quét Đội Tự Vệ",
+          "LocalizedString": "Lính Càn Quét Đội Tự Vệ"
+        }
+      },
+      "NAME_Police_Invader_LaserRifle": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Police_Invader_LaserRifle_TextData",
+          "SourceString": "Chuyên Gia Công Nghệ Đội Tự Vệ",
+          "LocalizedString": "Chuyên Gia Công Nghệ Đội Tự Vệ"
+        }
+      },
+      "NAME_Police_Invader_GrenadeLauncher": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Police_Invader_GrenadeLauncher_TextData",
+          "SourceString": "Lính Kỳ Cựu Đội Tự Vệ",
+          "LocalizedString": "Lính Kỳ Cựu Đội Tự Vệ"
+        }
+      },
+      "NAME_Police_Invader_FlameThrower": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Police_Invader_FlameThrower_TextData",
+          "SourceString": "Người Dọn Dẹp Đội Tự Vệ",
+          "LocalizedString": "Người Dọn Dẹp Đội Tự Vệ"
+        }
+      },
+      "NAME_Police_Invader_RocketLauncher": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Police_Invader_RocketLauncher_TextData",
+          "SourceString": "Pháo Thủ Đội Tự Vệ",
+          "LocalizedString": "Pháo Thủ Đội Tự Vệ"
+        }
+      },
+      "NAME_Police_Invader_MissileLauncher": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Police_Invader_MissileLauncher_TextData",
+          "SourceString": "Lính Đánh Chặn Đội Tự Vệ",
+          "LocalizedString": "Lính Đánh Chặn Đội Tự Vệ"
+        }
+      },
+      "NAME_Sorajima_Enemy": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Sorajima_Enemy_TextData",
+          "SourceString": "Kẻ Hành Pháp Lời Thề Trời Xanh",
+          "LocalizedString": "Kẻ Hành Pháp Lời Thề Trời Xanh"
+        }
+      },
+      "NAME_Caravan04": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan04_TextData",
+          "SourceString": "Thợ Mổ Tập Sự",
+          "LocalizedString": "Thợ Mổ Tập Sự"
+        }
+      },
+      "NAME_Caravan05": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan05_TextData",
+          "SourceString": "Ngư Dân Lão Luyện Kiêm Thợ Mổ",
+          "LocalizedString": "Ngư Dân Lão Luyện Kiêm Thợ Mổ"
+        }
+      },
+      "NAME_Caravan06": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan06_TextData",
+          "SourceString": "Bậc Thầy Săn Bắn",
+          "LocalizedString": "Bậc Thầy Săn Bắn"
+        }
+      },
+      "NAME_Caravan07": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan07_TextData",
+          "SourceString": "Thợ Săn Thú Huyền Thoại",
+          "LocalizedString": "Thợ Săn Thú Huyền Thoại"
+        }
+      },
+      "NAME_Caravan08": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan08_TextData",
+          "SourceString": "Tay Sai Buôn Lậu",
+          "LocalizedString": "Tay Sai Buôn Lậu"
+        }
+      },
+      "NAME_Caravan09": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan09_TextData",
+          "SourceString": "Hậu Cần Lính Đánh Thuê",
+          "LocalizedString": "Hậu Cần Lính Đánh Thuê"
+        }
+      },
+      "NAME_Caravan10": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan10_TextData",
+          "SourceString": "Thương Nhân Vũ Trang Hạng Nặng",
+          "LocalizedString": "Thương Nhân Vũ Trang Hạng Nặng"
+        }
+      },
+      "NAME_Caravan11": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan11_TextData",
+          "SourceString": "Thương Nhân Đạn Dược Huyền Thoại",
+          "LocalizedString": "Thương Nhân Đạn Dược Huyền Thoại"
+        }
+      },
+      "NAME_Caravan12": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan12_TextData",
+          "SourceString": "Người Bán Rau Trong Làng",
+          "LocalizedString": "Người Bán Rau Trong Làng"
+        }
+      },
+      "NAME_Caravan13": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan13_TextData",
+          "SourceString": "Người Bán Dạo Nông Sản",
+          "LocalizedString": "Người Bán Dạo Nông Sản"
+        }
+      },
+      "NAME_Caravan14": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan14_TextData",
+          "SourceString": "Người Bán Rau Huyền Thoại",
+          "LocalizedString": "Người Bán Rau Huyền Thoại"
+        }
+      },
+      "NAME_Caravan15": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan15_TextData",
+          "SourceString": "Người Bán Thuốc Bí Ẩn",
+          "LocalizedString": "Người Bán Thuốc Bí Ẩn"
+        }
+      },
+      "NAME_Caravan16": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan16_TextData",
+          "SourceString": "Dược Sĩ Được Cấp Phép",
+          "LocalizedString": "Dược Sĩ Được Cấp Phép"
+        }
+      },
+      "NAME_Caravan17": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan17_TextData",
+          "SourceString": "Bậc Thầy Dược Liệu Huyền Thoại",
+          "LocalizedString": "Bậc Thầy Dược Liệu Huyền Thoại"
+        }
+      },
+      "NAME_Caravan18": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan18_TextData",
+          "SourceString": "Người Bán Bánh Trong Phố",
+          "LocalizedString": "Người Bán Bánh Trong Phố"
+        }
+      },
+      "NAME_Caravan19": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan19_TextData",
+          "SourceString": "Người Bán Cơm Trong Phố",
+          "LocalizedString": "Người Bán Cơm Trong Phố"
+        }
+      },
+      "NAME_Caravan20": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan20_TextData",
+          "SourceString": "Nhà Phê Bình Ẩm Thực Tập Sự",
+          "LocalizedString": "Nhà Phê Bình Ẩm Thực Tập Sự"
+        }
+      },
+      "NAME_Caravan21": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan21_TextData",
+          "SourceString": "Bậc Thầy Ẩm Thực Huyền Thoại",
+          "LocalizedString": "Bậc Thầy Ẩm Thực Huyền Thoại"
+        }
+      },
+      "NAME_Caravan22": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan22_TextData",
+          "SourceString": "Thương Nhân Thu Mua Nguyên Liệu",
+          "LocalizedString": "Thương Nhân Thu Mua Nguyên Liệu"
+        }
+      },
+      "NAME_Caravan23": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan23_TextData",
+          "SourceString": "Thương Nhân Nguyên Liệu Được Cấp Phép",
+          "LocalizedString": "Thương Nhân Nguyên Liệu Được Cấp Phép"
+        }
+      },
+      "NAME_Caravan24": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan24_TextData",
+          "SourceString": "Nhà Cung Cấp Vật Phẩm Nguyên Tố",
+          "LocalizedString": "Nhà Cung Cấp Vật Phẩm Nguyên Tố"
+        }
+      },
+      "NAME_Caravan25": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan25_TextData",
+          "SourceString": "Thương Nhân Nguyên Liệu Huyền Thoại",
+          "LocalizedString": "Thương Nhân Nguyên Liệu Huyền Thoại"
+        }
+      }
+    }
+  }
+]

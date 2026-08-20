@@ -1,0 +1,296 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_TutorialMessage_Text",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "TUTORIAL_SP_1": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_SP_1_TextData",
+          "SourceString": "<keyGuideIcon id=|Interact_1|/> tuşuyla eşyaları topla",
+          "LocalizedString": "<keyGuideIcon id=|Interact_1|/> tuşuyla eşyaları topla"
+        }
+      },
+      "TUTORIAL_ITEM_1": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_ITEM_1_TextData",
+          "SourceString": "<keyGuideIcon id=|OpenConstructionMenu|/> ile İnşa menüsünü aç",
+          "LocalizedString": "<keyGuideIcon id=|OpenConstructionMenu|/> ile İnşa menüsünü aç"
+        }
+      },
+      "TUTORIAL_ITEM_2": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_ITEM_2_TextData",
+          "SourceString": "<keyGuideIcon id=|ThrowObject|/> tuşuyla küre fırlatıp Pal yakala.\r\nPal zayıflatıldığında yakalanması kolaylaşır.",
+          "LocalizedString": "<keyGuideIcon id=|ThrowObject|/> tuşuyla küre fırlatıp Pal yakala.\r\nPal zayıflatıldığında yakalanması kolaylaşır."
+        }
+      },
+      "TUTORIAL_ITEM_3": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_ITEM_3_TextData",
+          "SourceString": "<keyGuideIcon id=|OpenConstructionMenu|/> tuşuyla İnşa Menüsünden\r\nbir Pal Kutusu inşa et ve bir üs kur.",
+          "LocalizedString": "<keyGuideIcon id=|OpenConstructionMenu|/> tuşuyla İnşa Menüsünden\r\nbir Pal Kutusu inşa et ve bir üs kur."
+        }
+      },
+      "TUTORIAL_ITEM_4": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_ITEM_4_TextData",
+          "SourceString": "Bir Pal yeteneği öğrenmek için envanterinden bir\r\nYetenek Meyvesi kullan.",
+          "LocalizedString": "Bir Pal yeteneği öğrenmek için envanterinden bir\r\nYetenek Meyvesi kullan."
+        }
+      },
+      "TUTORIAL_ITEM_5": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_ITEM_5_TextData",
+          "SourceString": "Pal'ları yakalama becerini geliştirmek için <itemName id=|Relic|/> topla ve\r\nbir <MapObjectName id=|BuildableGoddessStatue|/> huzuruna sun.",
+          "LocalizedString": "Pal'ları yakalama becerini geliştirmek için <itemName id=|Relic|/> topla ve\r\nbir <MapObjectName id=|BuildableGoddessStatue|/> huzuruna sun."
+        }
+      },
+      "TUTORIAL_ITEM_6": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_ITEM_6_TextData",
+          "SourceString": "Zıplarken süzülmek için <keyGuideIcon id=|Jump|/> tuşuna bas.",
+          "LocalizedString": "Zıplarken süzülmek için <keyGuideIcon id=|Jump|/> tuşuna bas."
+        }
+      },
+      "TUTORIAL_ITEM_7": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_ITEM_7_TextData",
+          "SourceString": "Pal yumurtalarını kuluçkaya sokmak için bir <MapObjectName id=|HatchingPalEgg|/>\r\ninşa et.",
+          "LocalizedString": "Pal yumurtalarını kuluçkaya sokmak için bir <MapObjectName id=|HatchingPalEgg|/>\r\ninşa et."
+        }
+      },
+      "TUTORIAL_RESPAWN_1": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_RESPAWN_1_TextData",
+          "SourceString": "Bir Pal Kutusu inşa ettiğin\r\nkonumda canlanırsın.",
+          "LocalizedString": "Bir Pal Kutusu inşa ettiğin\r\nkonumda canlanırsın."
+        }
+      },
+      "TUTORIAL_RESPAWN_2": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_RESPAWN_2_TextData",
+          "SourceString": "Pal'ların ve eşyaların, yere yıkıldığın yerde düşer.\r\nBaşka biri toplamadan hepsini geri al.",
+          "LocalizedString": "Pal'ların ve eşyaların, yere yıkıldığın yerde düşer.\r\nBaşka biri toplamadan hepsini geri al."
+        }
+      },
+      "TUTORIAL_INDIVIDUAL_1": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_INDIVIDUAL_1_TextData",
+          "SourceString": "Yeni eşyaları ve tesisleri açmak için\r\nTeknoloji Puanlarını kullan.",
+          "LocalizedString": "Yeni eşyaları ve tesisleri açmak için\r\nTeknoloji Puanlarını kullan."
+        }
+      },
+      "TUTORIAL_INDIVIDUAL_2": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_INDIVIDUAL_2_TextData",
+          "SourceString": "<keyGuideIcon id=|OpenCharacterMenu|/> tuşuyla envanteri açabilir ve\r\nstatü puanlarını harcayarak oyuncuyu güçlendirebilirsin",
+          "LocalizedString": "<keyGuideIcon id=|OpenCharacterMenu|/> tuşuyla envanteri açabilir ve\r\nstatü puanlarını harcayarak oyuncuyu güçlendirebilirsin"
+        }
+      },
+      "TUTORIAL_INDIVIDUAL_3": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_INDIVIDUAL_3_TextData",
+          "SourceString": "Açken parametrelerin azalır.\r\nEnvanterindeki eşyaları kullanarak karnını doyurabilirsin.",
+          "LocalizedString": "Açken parametrelerin azalır.\r\nEnvanterindeki eşyaları kullanarak karnını doyurabilirsin."
+        }
+      },
+      "TUTORIAL_INDIVIDUAL_4": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_INDIVIDUAL_4_TextData",
+          "SourceString": "Açken Pal'ların parametreleri düşer.\r\nEnvanterindeki eşyaları kullanarak karınlarını doyurabilirsin.",
+          "LocalizedString": "Açken Pal'ların parametreleri düşer.\r\nEnvanterindeki eşyaları kullanarak karınlarını doyurabilirsin."
+        }
+      },
+      "TUTORIAL_INDIVIDUAL_5": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_INDIVIDUAL_5_TextData",
+          "SourceString": "AKL değeri çok düşen Pal'lar tembellik edebilir veya hastalanabilir.\r\nAKL'lerini geri kazanmak için onları yüksek kaliteli yiyeceklerle besle veya bir kaplıca inşa et.",
+          "LocalizedString": "AKL değeri çok düşen Pal'lar tembellik edebilir veya hastalanabilir.\r\nAKL'lerini geri kazanmak için onları yüksek kaliteli yiyeceklerle besle veya bir kaplıca inşa et."
+        }
+      },
+      "TUTORIAL_INDIVIDUAL_6": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_INDIVIDUAL_6_TextData",
+          "SourceString": "Bir Pal hastalandığında, onu ilaç tezgâhında yaptığın\r\nilaçları kullanarak tedavi et.",
+          "LocalizedString": "Bir Pal hastalandığında, onu ilaç tezgâhında yaptığın\r\nilaçları kullanarak tedavi et."
+        }
+      },
+      "TUTORIAL_INDIVIDUAL_7": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_INDIVIDUAL_7_TextData",
+          "SourceString": "Çalışan Pal'ların AKL değerleri düşer, bu da tembellik etmelerine sebep olur.\r\nOnları iş başına döndürmek için bir kaplıca veya başka tesisler inşa et.",
+          "LocalizedString": "Çalışan Pal'ların AKL değerleri düşer, bu da tembellik etmelerine sebep olur.\r\nOnları iş başına döndürmek için bir kaplıca veya başka tesisler inşa et."
+        }
+      },
+      "TUTORIAL_CAPTURE_1": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_CAPTURE_1_TextData",
+          "SourceString": "<uiCommon id=|COMMON_STATUS_HP|/> değeri düşük olan vahşi Pal'ları yakalamak daha kolaydır.\r\nAncak öldürürsen yakalayamazsın.",
+          "LocalizedString": "<uiCommon id=|COMMON_STATUS_HP|/> değeri düşük olan vahşi Pal'ları yakalamak daha kolaydır.\r\nAncak öldürürsen yakalayamazsın."
+        }
+      },
+      "TUTORIAL_CAPTURE_2": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_CAPTURE_2_TextData",
+          "SourceString": "<keyGuideIcon id=|ThrowPal|/> tuşuyla yakaladığın Pal’ı çağır.",
+          "LocalizedString": "<keyGuideIcon id=|ThrowPal|/> tuşuyla yakaladığın Pal’ı çağır."
+        }
+      },
+      "TUTORIAL_CAPTURE_3": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_CAPTURE_3_TextData",
+          "SourceString": "Yeni bir Pal türü yakaladığında büyük miktarda DNY kazanırsın.\r\nMacerana devam ederken yeni Pal'lar ara.",
+          "LocalizedString": "Yeni bir Pal türü yakaladığında büyük miktarda DNY kazanırsın.\r\nMacerana devam ederken yeni Pal'lar ara."
+        }
+      },
+      "TUTORIAL_CAPTURE_4": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_CAPTURE_4_TextData",
+          "SourceString": "Aynı türden Pal'ları 5 sefere kadar yakalamak karşılığında\r\nbonus DNY kazanırsın.",
+          "LocalizedString": "Aynı türden Pal'ları 5 sefere kadar yakalamak karşılığında\r\nbonus DNY kazanırsın."
+        }
+      },
+      "TUTORIAL_CAPTURE_5": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_CAPTURE_5_TextData",
+          "SourceString": "Yanına tek seferde en fazla beş Pal alabilirsin.\r\nBundan fazlasını yakalarsan otomatik olarak Pal Kutuna gönderilirler.",
+          "LocalizedString": "Yanına tek seferde en fazla beş Pal alabilirsin.\r\nBundan fazlasını yakalarsan otomatik olarak Pal Kutuna gönderilirler."
+        }
+      },
+      "TUTORIAL_CAPTURE_6": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_CAPTURE_6_TextData",
+          "SourceString": "Bir şanslı Pal yakaladın!\r\nNe tür özel becerileri olduğuna bak!",
+          "LocalizedString": "Bir şanslı Pal yakaladın!\r\nNe tür özel becerileri olduğuna bak!"
+        }
+      },
+      "TUTORIAL_CAPTURE_7": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_CAPTURE_7_TextData",
+          "SourceString": "Bir Pal Kutusu inşa et.\r\nYakaladığın Pal'ları bu kutudan alabilirsin.",
+          "LocalizedString": "Bir Pal Kutusu inşa et.\r\nYakaladığın Pal'ları bu kutudan alabilirsin."
+        }
+      },
+      "TUTORIAL_CAPTURE_8": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_CAPTURE_8_TextData",
+          "SourceString": "Seviyesi senden yüksek olan Pal'ları tam kapasiteleriyle kullanamazsın.\r\nBu durumda, performansları oyuncunun seviyesine düşürülür.",
+          "LocalizedString": "Seviyesi senden yüksek olan Pal'ları tam kapasiteleriyle kullanamazsın.\r\nBu durumda, performansları oyuncunun seviyesine düşürülür."
+        }
+      },
+      "TUTORIAL_COMMON_1": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_1_TextData",
+          "SourceString": "Çok fazla ağır şey taşıyorsan hareket edemezsin.\r\nİstatistik Puanlarını kullanarak taşıma kapasiteni artır.",
+          "LocalizedString": "Çok fazla ağır şey taşıyorsan hareket edemezsin.\r\nİstatistik Puanlarını kullanarak taşıma kapasiteni artır."
+        }
+      },
+      "TUTORIAL_COMMON_2": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_2_TextData",
+          "SourceString": "El Meşaleleri çevrendeki alanları aydınlatır ve soğuğu senden uzak tutar.\r\nÇalışma tezgâhında bir tane üretmeyi dene.",
+          "LocalizedString": "El Meşaleleri çevrendeki alanları aydınlatır ve soğuğu senden uzak tutar.\r\nÇalışma tezgâhında bir tane üretmeyi dene."
+        }
+      },
+      "TUTORIAL_COMMON_3": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_3_TextData",
+          "SourceString": "Pal'ın yere yıkıldı!\r\n<uiCommon id=|COMMON_CONDITION_NAME_Dying|/> durumunu iyileştirmek için onu bir Pal Kutusuna koy.",
+          "LocalizedString": "Pal'ın yere yıkıldı!\r\n<uiCommon id=|COMMON_CONDITION_NAME_Dying|/> durumunu iyileştirmek için onu bir Pal Kutusuna koy."
+        }
+      },
+      "TUTORIAL_COMMON_4": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_4_TextData",
+          "SourceString": "Bir Pal'ı üsteyken dışarı çıkarırsan\r\notomatik olarak yapabileceği bir iş aramaya başlar.",
+          "LocalizedString": "Bir Pal'ı üsteyken dışarı çıkarırsan\r\notomatik olarak yapabileceği bir iş aramaya başlar."
+        }
+      },
+      "TUTORIAL_COMMON_5": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_5_TextData",
+          "SourceString": "Pal Kutunda bulunan Üs Pal'ları yuvalarından birine bir Pal koyarsan\r\niş uygunluklarına göre sana yardımcı olurlar.",
+          "LocalizedString": "Pal Kutunda bulunan Üs Pal'ları yuvalarından birine bir Pal koyarsan\r\niş uygunluklarına göre sana yardımcı olurlar."
+        }
+      },
+      "TUTORIAL_COMMON_6": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_6_TextData",
+          "SourceString": "Pal'lar tek seferde en fazla üç aktif yetenek kuşanabilir.\r\n<uiCommon id=|INGAME_MAIN_MENU_PAL|/> menüsünden yeni yetenekler atamayı dene.",
+          "LocalizedString": "Pal'lar tek seferde en fazla üç aktif yetenek kuşanabilir.\r\n<uiCommon id=|INGAME_MAIN_MENU_PAL|/> menüsünden yeni yetenekler atamayı dene."
+        }
+      },
+      "TUTORIAL_COMMON_7": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_7_TextData",
+          "SourceString": "Öfkeli ve vahşi bir Pal'a karşı çıplak elle savaşmak akıllıca değildir.\r\nKendine bir çalışma tezgâhı yapıp bir silah üretmeyi dene.",
+          "LocalizedString": "Öfkeli ve vahşi bir Pal'a karşı çıplak elle savaşmak akıllıca değildir.\r\nKendine bir çalışma tezgâhı yapıp bir silah üretmeyi dene."
+        }
+      },
+      "TUTORIAL_COMMON_8": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_8_TextData",
+          "SourceString": "Başka bir maceracının bıraktığı bir notu buldun.\r\nSeçenek ekranından yolculuklarına göz atabilirsin.",
+          "LocalizedString": "Başka bir maceracının bıraktığı bir notu buldun.\r\nSeçenek ekranından yolculuklarına göz atabilirsin."
+        }
+      },
+      "TUTORIAL_COMMON_9": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_9_TextData",
+          "SourceString": "Bazı silahlarda, <keyGuideIcon id=|Reload|/> basılı tutarak\r\nmühimmat türünü değiştirebilirsin.",
+          "LocalizedString": "Bazı silahlarda, <keyGuideIcon id=|Reload|/> basılı tutarak\r\nmühimmat türünü değiştirebilirsin."
+        }
+      },
+      "TUTORIAL_COMMON_9_GamePad": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_9_GamePad_TextData",
+          "SourceString": "Bazı silahlarda, <keyGuideIcon id=|ChangeWeaponNext_GamePad|/> basılı tutarak\r\nmühimmat türünü değiştirebilirsin.",
+          "LocalizedString": "Bazı silahlarda, <keyGuideIcon id=|ChangeWeaponNext_GamePad|/> basılı tutarak\r\nmühimmat türünü değiştirebilirsin."
+        }
+      }
+    }
+  }
+]

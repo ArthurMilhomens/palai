@@ -1,0 +1,1296 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_PartnerSkillAppendText",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "TEST_TEXT_RANK_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "TEST_TEXT_RANK_1_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "TEST_TEXT_RANK_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "TEST_TEXT_RANK_2_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "TEST_TEXT_RANK_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "TEST_TEXT_RANK_3_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "TEST_TEXT_RANK_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "TEST_TEXT_RANK_4_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "TEST_TEXT_RANK_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "TEST_TEXT_RANK_5_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "DamageUp_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "DamageUp_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_Rank_2_TextData",
+          "SourceString": "(Увеличение урона: <Status_Up>Небольшое</>)",
+          "LocalizedString": "(Увеличение урона: <Status_Up>Небольшое</>)"
+        }
+      },
+      "DamageUp_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_Rank_3_TextData",
+          "SourceString": "(Увеличение урона: <Status_Up>Среднее</>)",
+          "LocalizedString": "(Увеличение урона: <Status_Up>Среднее</>)"
+        }
+      },
+      "DamageUp_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_Rank_4_TextData",
+          "SourceString": "(Увеличение урона: <Status_Up>Большое</>)",
+          "LocalizedString": "(Увеличение урона: <Status_Up>Большое</>)"
+        }
+      },
+      "DamageUp_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_Rank_5_TextData",
+          "SourceString": "(Увеличение урона: <Status_Up>Очень большое</>)",
+          "LocalizedString": "(Увеличение урона: <Status_Up>Очень большое</>)"
+        }
+      },
+      "CooldownReduction_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CooldownReduction_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "CooldownReduction_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CooldownReduction_Rank_2_TextData",
+          "SourceString": "(Сокращение перезарядки: <Status_Up>Небольшое</>)",
+          "LocalizedString": "(Сокращение перезарядки: <Status_Up>Небольшое</>)"
+        }
+      },
+      "CooldownReduction_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CooldownReduction_Rank_3_TextData",
+          "SourceString": "(Сокращение перезарядки: <Status_Up>Среднее</>)",
+          "LocalizedString": "(Сокращение перезарядки: <Status_Up>Среднее</>)"
+        }
+      },
+      "CooldownReduction_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CooldownReduction_Rank_4_TextData",
+          "SourceString": "(Сокращение перезарядки: <Status_Up>Большое</>)",
+          "LocalizedString": "(Сокращение перезарядки: <Status_Up>Большое</>)"
+        }
+      },
+      "CooldownReduction_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CooldownReduction_Rank_5_TextData",
+          "SourceString": "(Сокращение перезарядки: <Status_Up>Очень большое</>)",
+          "LocalizedString": "(Сокращение перезарядки: <Status_Up>Очень большое</>)"
+        }
+      },
+      "MiningUp_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "MiningUp_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "MiningUp_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "MiningUp_Rank_2_TextData",
+          "SourceString": "(Повышение эффективности добычи: <Status_Up>Небольшое</>)",
+          "LocalizedString": "(Повышение эффективности добычи: <Status_Up>Небольшое</>)"
+        }
+      },
+      "MiningUp_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "MiningUp_Rank_3_TextData",
+          "SourceString": "(Повышение эффективности добычи: <Status_Up>Среднее</>)",
+          "LocalizedString": "(Повышение эффективности добычи: <Status_Up>Среднее</>)"
+        }
+      },
+      "MiningUp_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "MiningUp_Rank_4_TextData",
+          "SourceString": "(Повышение эффективности добычи: <Status_Up>Большое</>)",
+          "LocalizedString": "(Повышение эффективности добычи: <Status_Up>Большое</>)"
+        }
+      },
+      "MiningUp_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "MiningUp_Rank_5_TextData",
+          "SourceString": "(Повышение эффективности добычи: <Status_Up>Очень большое</>)",
+          "LocalizedString": "(Повышение эффективности добычи: <Status_Up>Очень большое</>)"
+        }
+      },
+      "RideSpeedUp_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "RideSpeedUp_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_Rank_2_TextData",
+          "SourceString": "(Скорость передвижения верхом:<Status_Up>+10%</>)",
+          "LocalizedString": "(Скорость передвижения верхом:<Status_Up>+10%</>)"
+        }
+      },
+      "RideSpeedUp_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_Rank_3_TextData",
+          "SourceString": "(Скорость передвижения верхом:<Status_Up>+12%</>)",
+          "LocalizedString": "(Скорость передвижения верхом:<Status_Up>+12%</>)"
+        }
+      },
+      "RideSpeedUp_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_Rank_4_TextData",
+          "SourceString": "(Скорость передвижения верхом:<Status_Up>+15%</>)",
+          "LocalizedString": "(Скорость передвижения верхом:<Status_Up>+15%</>)"
+        }
+      },
+      "RideSpeedUp_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_Rank_5_TextData",
+          "SourceString": "(Скорость передвижения верхом:<Status_Up>+20%</>)",
+          "LocalizedString": "(Скорость передвижения верхом:<Status_Up>+20%</>)"
+        }
+      },
+      "SwimSpeedUp_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "SwimSpeedUp_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_Rank_2_TextData",
+          "SourceString": "(Скорость передвижения по воде:<Status_Up>+10%</>)",
+          "LocalizedString": "(Скорость передвижения по воде:<Status_Up>+10%</>)"
+        }
+      },
+      "SwimSpeedUp_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_Rank_3_TextData",
+          "SourceString": "(Скорость передвижения по воде:<Status_Up>+14%</>)",
+          "LocalizedString": "(Скорость передвижения по воде:<Status_Up>+14%</>)"
+        }
+      },
+      "SwimSpeedUp_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_Rank_4_TextData",
+          "SourceString": "(Скорость передвижения по воде:<Status_Up>+18%</>)",
+          "LocalizedString": "(Скорость передвижения по воде:<Status_Up>+18%</>)"
+        }
+      },
+      "SwimSpeedUp_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_Rank_5_TextData",
+          "SourceString": "(Скорость передвижения по воде:<Status_Up>+25%</>)",
+          "LocalizedString": "(Скорость передвижения по воде:<Status_Up>+25%</>)"
+        }
+      },
+      "LoggingUp_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "LoggingUp_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_Rank_2_TextData",
+          "SourceString": "(Повышение эффективности рубки: <Status_Up>Небольшое</>)",
+          "LocalizedString": "(Повышение эффективности рубки: <Status_Up>Небольшое</>)"
+        }
+      },
+      "LoggingUp_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_Rank_3_TextData",
+          "SourceString": "(Повышение эффективности рубки: <Status_Up>Среднее</>)",
+          "LocalizedString": "(Повышение эффективности рубки: <Status_Up>Среднее</>)"
+        }
+      },
+      "LoggingUp_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_Rank_4_TextData",
+          "SourceString": "(Повышение эффективности рубки: <Status_Up>Большое</>)",
+          "LocalizedString": "(Повышение эффективности рубки: <Status_Up>Большое</>)"
+        }
+      },
+      "LoggingUp_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_Rank_5_TextData",
+          "SourceString": "(Повышение эффективности рубки: <Status_Up>Очень большое</>)",
+          "LocalizedString": "(Повышение эффективности рубки: <Status_Up>Очень большое</>)"
+        }
+      },
+      "DropUp_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DropUp_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "DropUp_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DropUp_Rank_2_TextData",
+          "SourceString": "(Увеличение количества получаемых предметов: <Status_Up>Небольшое</>)",
+          "LocalizedString": "(Увеличение количества получаемых предметов: <Status_Up>Небольшое</>)"
+        }
+      },
+      "DropUp_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DropUp_Rank_3_TextData",
+          "SourceString": "(Увеличение количества получаемых предметов: <Status_Up>Среднее</>)",
+          "LocalizedString": "(Увеличение количества получаемых предметов: <Status_Up>Среднее</>)"
+        }
+      },
+      "DropUp_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DropUp_Rank_4_TextData",
+          "SourceString": "(Увеличение количества получаемых предметов: <Status_Up>Большое</>)",
+          "LocalizedString": "(Увеличение количества получаемых предметов: <Status_Up>Большое</>)"
+        }
+      },
+      "DropUp_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DropUp_Rank_5_TextData",
+          "SourceString": "(Увеличение количества получаемых предметов: <Status_Up>Очень большое</>)",
+          "LocalizedString": "(Увеличение количества получаемых предметов: <Status_Up>Очень большое</>)"
+        }
+      },
+      "FishingAssist_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FishingAssist_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "FishingAssist_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FishingAssist_Rank_2_TextData",
+          "SourceString": "(Улучшение помощи при рыбалке: <Status_Up>Небольшое</>)",
+          "LocalizedString": "(Улучшение помощи при рыбалке: <Status_Up>Небольшое</>)"
+        }
+      },
+      "FishingAssist_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FishingAssist_Rank_3_TextData",
+          "SourceString": "(Улучшение помощи при рыбалке: <Status_Up>Среднее</>)",
+          "LocalizedString": "(Улучшение помощи при рыбалке: <Status_Up>Среднее</>)"
+        }
+      },
+      "FishingAssist_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FishingAssist_Rank_4_TextData",
+          "SourceString": "(Улучшение помощи при рыбалке: <Status_Up>Большое</>)",
+          "LocalizedString": "(Улучшение помощи при рыбалке: <Status_Up>Большое</>)"
+        }
+      },
+      "FishingAssist_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FishingAssist_Rank_5_TextData",
+          "SourceString": "(Улучшение помощи при рыбалке: <Status_Up>Очень большое</>)",
+          "LocalizedString": "(Улучшение помощи при рыбалке: <Status_Up>Очень большое</>)"
+        }
+      },
+      "LifeSteal_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LifeSteal_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "LifeSteal_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LifeSteal_Rank_2_TextData",
+          "SourceString": "(Улучшение эффекта кражи жизни: <Status_Up>Небольшое</>)",
+          "LocalizedString": "(Улучшение эффекта кражи жизни: <Status_Up>Небольшое</>)"
+        }
+      },
+      "LifeSteal_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LifeSteal_Rank_3_TextData",
+          "SourceString": "(Улучшение эффекта кражи жизни: <Status_Up>Среднее</>)",
+          "LocalizedString": "(Улучшение эффекта кражи жизни: <Status_Up>Среднее</>)"
+        }
+      },
+      "LifeSteal_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LifeSteal_Rank_4_TextData",
+          "SourceString": "(Улучшение эффекта кражи жизни: <Status_Up>Большое</>)",
+          "LocalizedString": "(Улучшение эффекта кражи жизни: <Status_Up>Большое</>)"
+        }
+      },
+      "LifeSteal_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LifeSteal_Rank_5_TextData",
+          "SourceString": "(Улучшение эффекта кражи жизни: <Status_Up>Очень большое</>)",
+          "LocalizedString": "(Улучшение эффекта кражи жизни: <Status_Up>Очень большое</>)"
+        }
+      },
+      "RideSpeedUp_CooldownReduction_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_CooldownReduction_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "RideSpeedUp_CooldownReduction_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_CooldownReduction_Rank_2_TextData",
+          "SourceString": "(Повышение скорости передвижения и сокращение перезарядки: <Status_Up>Небольшое</>)",
+          "LocalizedString": "(Повышение скорости передвижения и сокращение перезарядки: <Status_Up>Небольшое</>)"
+        }
+      },
+      "RideSpeedUp_CooldownReduction_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_CooldownReduction_Rank_3_TextData",
+          "SourceString": "(Повышение скорости передвижения и сокращение перезарядки: <Status_Up>Среднее</>)",
+          "LocalizedString": "(Повышение скорости передвижения и сокращение перезарядки: <Status_Up>Среднее</>)"
+        }
+      },
+      "RideSpeedUp_CooldownReduction_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_CooldownReduction_Rank_4_TextData",
+          "SourceString": "(Повышение скорости передвижения и сокращение перезарядки: <Status_Up>Большое</>)",
+          "LocalizedString": "(Повышение скорости передвижения и сокращение перезарядки: <Status_Up>Большое</>)"
+        }
+      },
+      "RideSpeedUp_CooldownReduction_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_CooldownReduction_Rank_5_TextData",
+          "SourceString": "(Повышение скорости передвижения и сокращение перезарядки: <Status_Up>Очень большое</>)",
+          "LocalizedString": "(Повышение скорости передвижения и сокращение перезарядки: <Status_Up>Очень большое</>)"
+        }
+      },
+      "SwimSpeedUp_CooldownReduction_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_CooldownReduction_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "SwimSpeedUp_CooldownReduction_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_CooldownReduction_Rank_2_TextData",
+          "SourceString": "(Скорость передвижения по воде: <Status_Up>+10%</>,\r\nсокращение перезарядки: <Status_Up>Небольшое</>)",
+          "LocalizedString": "(Скорость передвижения по воде: <Status_Up>+10%</>,\r\nсокращение перезарядки: <Status_Up>Небольшое</>)"
+        }
+      },
+      "SwimSpeedUp_CooldownReduction_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_CooldownReduction_Rank_3_TextData",
+          "SourceString": "(Скорость передвижения по воде: <Status_Up>+14%</>,\r\nсокращение перезарядки:<Status_Up>Среднее</>)",
+          "LocalizedString": "(Скорость передвижения по воде: <Status_Up>+14%</>,\r\nсокращение перезарядки:<Status_Up>Среднее</>)"
+        }
+      },
+      "SwimSpeedUp_CooldownReduction_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_CooldownReduction_Rank_4_TextData",
+          "SourceString": "(Скорость передвижения по воде: <Status_Up>+18%</>,\r\nсокращение перезарядки:<Status_Up>Большое</>)",
+          "LocalizedString": "(Скорость передвижения по воде: <Status_Up>+18%</>,\r\nсокращение перезарядки:<Status_Up>Большое</>)"
+        }
+      },
+      "SwimSpeedUp_CooldownReduction_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_CooldownReduction_Rank_5_TextData",
+          "SourceString": "(Скорость передвижения по воде: <Status_Up>+25%</>,\r\nсокращение перезарядки:<Status_Up>Очень большое</>)",
+          "LocalizedString": "(Скорость передвижения по воде: <Status_Up>+25%</>,\r\nсокращение перезарядки:<Status_Up>Очень большое</>)"
+        }
+      },
+      "LoggingUp_MiningUp_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_MiningUp_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "LoggingUp_MiningUp_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_MiningUp_Rank_2_TextData",
+          "SourceString": "(Повышение эффективности рубки и добычи: <Status_Up>Небольшое</>)",
+          "LocalizedString": "(Повышение эффективности рубки и добычи: <Status_Up>Небольшое</>)"
+        }
+      },
+      "LoggingUp_MiningUp_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_MiningUp_Rank_3_TextData",
+          "SourceString": "(Повышение эффективности рубки и добычи: <Status_Up>Среднее</>)",
+          "LocalizedString": "(Повышение эффективности рубки и добычи: <Status_Up>Среднее</>)"
+        }
+      },
+      "LoggingUp_MiningUp_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_MiningUp_Rank_4_TextData",
+          "SourceString": "(Повышение эффективности рубки и добычи: <Status_Up>Большое</>)",
+          "LocalizedString": "(Повышение эффективности рубки и добычи: <Status_Up>Большое</>)"
+        }
+      },
+      "LoggingUp_MiningUp_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_MiningUp_Rank_5_TextData",
+          "SourceString": "(Повышение эффективности рубки и добычи: <Status_Up>Очень большое</>)",
+          "LocalizedString": "(Повышение эффективности рубки и добычи: <Status_Up>Очень большое</>)"
+        }
+      },
+      "ElementPassive_Dark_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementPassive_Dark_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "ElementPassive_Dark_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementPassive_Dark_Rank_2_TextData",
+          "SourceString": "(Повышение силы атаки тёмных Палов: <Status_Up>Небольшое</>)",
+          "LocalizedString": "(Повышение силы атаки тёмных Палов: <Status_Up>Небольшое</>)"
+        }
+      },
+      "ElementPassive_Dark_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementPassive_Dark_Rank_3_TextData",
+          "SourceString": "(Повышение силы атаки тёмных Палов: <Status_Up>Среднее</>)",
+          "LocalizedString": "(Повышение силы атаки тёмных Палов: <Status_Up>Среднее</>)"
+        }
+      },
+      "ElementPassive_Dark_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementPassive_Dark_Rank_4_TextData",
+          "SourceString": "(Повышение силы атаки тёмных Палов: <Status_Up>Большое</>)",
+          "LocalizedString": "(Повышение силы атаки тёмных Палов: <Status_Up>Большое</>)"
+        }
+      },
+      "ElementPassive_Dark_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementPassive_Dark_Rank_5_TextData",
+          "SourceString": "(Повышение силы атаки тёмных Палов: <Status_Up>Очень большое</>)",
+          "LocalizedString": "(Повышение силы атаки тёмных Палов: <Status_Up>Очень большое</>)"
+        }
+      },
+      "ItemCollectRangeUp_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ItemCollectRangeUp_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "ItemCollectRangeUp_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ItemCollectRangeUp_Rank_2_TextData",
+          "SourceString": "(Увеличение радиуса сбора предметов: <Status_Up>Небольшое</>)",
+          "LocalizedString": "(Увеличение радиуса сбора предметов: <Status_Up>Небольшое</>)"
+        }
+      },
+      "ItemCollectRangeUp_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ItemCollectRangeUp_Rank_3_TextData",
+          "SourceString": "(Увеличение радиуса сбора предметов: <Status_Up>Среднее</>)",
+          "LocalizedString": "(Увеличение радиуса сбора предметов: <Status_Up>Среднее</>)"
+        }
+      },
+      "ItemCollectRangeUp_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ItemCollectRangeUp_Rank_4_TextData",
+          "SourceString": "(Увеличение радиуса сбора предметов: <Status_Up>Большое</>)",
+          "LocalizedString": "(Увеличение радиуса сбора предметов: <Status_Up>Большое</>)"
+        }
+      },
+      "ItemCollectRangeUp_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ItemCollectRangeUp_Rank_5_TextData",
+          "SourceString": "(Увеличение радиуса сбора предметов: <Status_Up>Очень большое</>)",
+          "LocalizedString": "(Увеличение радиуса сбора предметов: <Status_Up>Очень большое</>)"
+        }
+      },
+      "SANDownResist_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SANDownResist_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "SANDownResist_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SANDownResist_Rank_2_TextData",
+          "SourceString": "(Повышение сопротивления потере рассудка: <Status_Up>Небольшое</>)",
+          "LocalizedString": "(Повышение сопротивления потере рассудка: <Status_Up>Небольшое</>)"
+        }
+      },
+      "SANDownResist_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SANDownResist_Rank_3_TextData",
+          "SourceString": "(Повышение сопротивления потере рассудка: <Status_Up>Среднее</>)",
+          "LocalizedString": "(Повышение сопротивления потере рассудка: <Status_Up>Среднее</>)"
+        }
+      },
+      "SANDownResist_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SANDownResist_Rank_4_TextData",
+          "SourceString": "(Повышение сопротивления потере рассудка: <Status_Up>Большое</>)",
+          "LocalizedString": "(Повышение сопротивления потере рассудка: <Status_Up>Большое</>)"
+        }
+      },
+      "SANDownResist_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SANDownResist_Rank_5_TextData",
+          "SourceString": "(Повышение сопротивления потере рассудка: <Status_Up>Очень большое</>)",
+          "LocalizedString": "(Повышение сопротивления потере рассудка: <Status_Up>Очень большое</>)"
+        }
+      },
+      "ElementBoost_Dark_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Dark_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "ElementBoost_Dark_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Dark_Rank_2_TextData",
+          "SourceString": "(Усиление атак тёмного элемента: <Status_Up>Небольшое</>)",
+          "LocalizedString": "(Усиление атак тёмного элемента: <Status_Up>Небольшое</>)"
+        }
+      },
+      "ElementBoost_Dark_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Dark_Rank_3_TextData",
+          "SourceString": "(Усиление атак тёмного элемента: <Status_Up>Среднее</>)",
+          "LocalizedString": "(Усиление атак тёмного элемента: <Status_Up>Среднее</>)"
+        }
+      },
+      "ElementBoost_Dark_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Dark_Rank_4_TextData",
+          "SourceString": "(Усиление атак тёмного элемента: <Status_Up>Большое</>)",
+          "LocalizedString": "(Усиление атак тёмного элемента: <Status_Up>Большое</>)"
+        }
+      },
+      "ElementBoost_Dark_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Dark_Rank_5_TextData",
+          "SourceString": "(Усиление атак тёмного элемента: <Status_Up>Очень большое</>)",
+          "LocalizedString": "(Усиление атак тёмного элемента: <Status_Up>Очень большое</>)"
+        }
+      },
+      "SyncroPassiveWhenCapture_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SyncroPassiveWhenCapture_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "SyncroPassiveWhenCapture_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SyncroPassiveWhenCapture_Rank_2_TextData",
+          "SourceString": "(Повышение шанса поимки Палов с одинаковыми пассивными навыками: <Status_Up>Небольшое</>)",
+          "LocalizedString": "(Повышение шанса поимки Палов с одинаковыми пассивными навыками: <Status_Up>Небольшое</>)"
+        }
+      },
+      "SyncroPassiveWhenCapture_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SyncroPassiveWhenCapture_Rank_3_TextData",
+          "SourceString": "(Повышение шанса поимки Палов с одинаковыми пассивными навыками: <Status_Up>Среднее</>)",
+          "LocalizedString": "(Повышение шанса поимки Палов с одинаковыми пассивными навыками: <Status_Up>Среднее</>)"
+        }
+      },
+      "SyncroPassiveWhenCapture_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SyncroPassiveWhenCapture_Rank_4_TextData",
+          "SourceString": "(Повышение шанса поимки Палов с одинаковыми пассивными навыками: <Status_Up>Большое</>)",
+          "LocalizedString": "(Повышение шанса поимки Палов с одинаковыми пассивными навыками: <Status_Up>Большое</>)"
+        }
+      },
+      "SyncroPassiveWhenCapture_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SyncroPassiveWhenCapture_Rank_5_TextData",
+          "SourceString": "(Повышение шанса поимки Палов с одинаковыми пассивными навыками: <Status_Up>Очень большое</>)",
+          "LocalizedString": "(Повышение шанса поимки Палов с одинаковыми пассивными навыками: <Status_Up>Очень большое</>)"
+        }
+      },
+      "FarmCropGrowupSpeed_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropGrowupSpeed_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "FarmCropGrowupSpeed_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropGrowupSpeed_Rank_2_TextData",
+          "SourceString": "(Ускорение роста посевов: <Status_Up>Небольшое</>)",
+          "LocalizedString": "(Ускорение роста посевов: <Status_Up>Небольшое</>)"
+        }
+      },
+      "FarmCropGrowupSpeed_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropGrowupSpeed_Rank_3_TextData",
+          "SourceString": "(Ускорение роста посевов: <Status_Up>Среднее</>)",
+          "LocalizedString": "(Ускорение роста посевов: <Status_Up>Среднее</>)"
+        }
+      },
+      "FarmCropGrowupSpeed_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropGrowupSpeed_Rank_4_TextData",
+          "SourceString": "(Ускорение роста посевов: <Status_Up>Большое</>)",
+          "LocalizedString": "(Ускорение роста посевов: <Status_Up>Большое</>)"
+        }
+      },
+      "FarmCropGrowupSpeed_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropGrowupSpeed_Rank_5_TextData",
+          "SourceString": "(Ускорение роста посевов: <Status_Up>Очень большое</>)",
+          "LocalizedString": "(Ускорение роста посевов: <Status_Up>Очень большое</>)"
+        }
+      },
+      "GriderPerformanceUp_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "GriderPerformanceUp_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "GriderPerformanceUp_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "GriderPerformanceUp_Rank_2_TextData",
+          "SourceString": "(Улучшение характеристик глайдера: <Status_Up>Небольшое</>)",
+          "LocalizedString": "(Улучшение характеристик глайдера: <Status_Up>Небольшое</>)"
+        }
+      },
+      "GriderPerformanceUp_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "GriderPerformanceUp_Rank_3_TextData",
+          "SourceString": "(Улучшение характеристик глайдера: <Status_Up>Среднее</>)",
+          "LocalizedString": "(Улучшение характеристик глайдера: <Status_Up>Среднее</>)"
+        }
+      },
+      "GriderPerformanceUp_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "GriderPerformanceUp_Rank_4_TextData",
+          "SourceString": "(Улучшение характеристик глайдера: <Status_Up>Большое</>)",
+          "LocalizedString": "(Улучшение характеристик глайдера: <Status_Up>Большое</>)"
+        }
+      },
+      "GriderPerformanceUp_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "GriderPerformanceUp_Rank_5_TextData",
+          "SourceString": "(Улучшение характеристик глайдера: <Status_Up>Очень большое</>)",
+          "LocalizedString": "(Улучшение характеристик глайдера: <Status_Up>Очень большое</>)"
+        }
+      },
+      "FarmCropHarvestNumRate_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropHarvestNumRate_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "FarmCropHarvestNumRate_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropHarvestNumRate_Rank_2_TextData",
+          "SourceString": "(Увеличение кол-ва собранного урожая: <Status_Up>Небольшое</>)",
+          "LocalizedString": "(Увеличение кол-ва собранного урожая: <Status_Up>Небольшое</>)"
+        }
+      },
+      "FarmCropHarvestNumRate_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropHarvestNumRate_Rank_3_TextData",
+          "SourceString": "(Увеличение кол-ва собранного урожая: <Status_Up>Среднее</>)",
+          "LocalizedString": "(Увеличение кол-ва собранного урожая: <Status_Up>Среднее</>)"
+        }
+      },
+      "FarmCropHarvestNumRate_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropHarvestNumRate_Rank_4_TextData",
+          "SourceString": "(Увеличение кол-ва собранного урожая: <Status_Up>Большое</>)",
+          "LocalizedString": "(Увеличение кол-ва собранного урожая: <Status_Up>Большое</>)"
+        }
+      },
+      "FarmCropHarvestNumRate_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropHarvestNumRate_Rank_5_TextData",
+          "SourceString": "(Увеличение кол-ва собранного урожая: <Status_Up>Очень большое</>)",
+          "LocalizedString": "(Увеличение кол-ва собранного урожая: <Status_Up>Очень большое</>)"
+        }
+      },
+      "ElementBoost_Neutral_Dark_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Neutral_Dark_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "ElementBoost_Neutral_Dark_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Neutral_Dark_Rank_2_TextData",
+          "SourceString": "(Усиление атак нейтрального и тёмного элемента: <Status_Up>Небольшое</>)",
+          "LocalizedString": "(Усиление атак нейтрального и тёмного элемента: <Status_Up>Небольшое</>)"
+        }
+      },
+      "ElementBoost_Neutral_Dark_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Neutral_Dark_Rank_3_TextData",
+          "SourceString": "(Усиление атак нейтрального и тёмного элемента: <Status_Up>Среднее</>)",
+          "LocalizedString": "(Усиление атак нейтрального и тёмного элемента: <Status_Up>Среднее</>)"
+        }
+      },
+      "ElementBoost_Neutral_Dark_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Neutral_Dark_Rank_4_TextData",
+          "SourceString": "(Усиление атак нейтрального и тёмного элемента: <Status_Up>Большое</>)",
+          "LocalizedString": "(Усиление атак нейтрального и тёмного элемента: <Status_Up>Большое</>)"
+        }
+      },
+      "ElementBoost_Neutral_Dark_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Neutral_Dark_Rank_5_TextData",
+          "SourceString": "(Усиление атак нейтрального и тёмного элемента: <Status_Up>Очень большое</>)",
+          "LocalizedString": "(Усиление атак нейтрального и тёмного элемента: <Status_Up>Очень большое</>)"
+        }
+      },
+      "Funnel_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Funnel_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "Funnel_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Funnel_Rank_2_TextData",
+          "SourceString": "(Усиление дополнительных атак: <Status_Up>Небольшое</>)",
+          "LocalizedString": "(Усиление дополнительных атак: <Status_Up>Небольшое</>)"
+        }
+      },
+      "Funnel_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Funnel_Rank_3_TextData",
+          "SourceString": "(Усиление дополнительных атак: <Status_Up>Среднее</>)",
+          "LocalizedString": "(Усиление дополнительных атак: <Status_Up>Среднее</>)"
+        }
+      },
+      "Funnel_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Funnel_Rank_4_TextData",
+          "SourceString": "(Усиление дополнительных атак: <Status_Up>Большое</>)",
+          "LocalizedString": "(Усиление дополнительных атак: <Status_Up>Большое</>)"
+        }
+      },
+      "Funnel_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Funnel_Rank_5_TextData",
+          "SourceString": "(Усиление дополнительных атак: <Status_Up>Очень большое</>)",
+          "LocalizedString": "(Усиление дополнительных атак: <Status_Up>Очень большое</>)"
+        }
+      },
+      "DamageUp_CooldownReduction_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_CooldownReduction_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "DamageUp_CooldownReduction_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_CooldownReduction_Rank_2_TextData",
+          "SourceString": "(Повышение урона, сокращение перезарядки: <Status_Up>Небольшое</>)",
+          "LocalizedString": "(Повышение урона, сокращение перезарядки: <Status_Up>Небольшое</>)"
+        }
+      },
+      "DamageUp_CooldownReduction_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_CooldownReduction_Rank_3_TextData",
+          "SourceString": "(Повышение урона, сокращение перезарядки: <Status_Up>Среднее</>)",
+          "LocalizedString": "(Повышение урона, сокращение перезарядки: <Status_Up>Среднее</>)"
+        }
+      },
+      "DamageUp_CooldownReduction_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_CooldownReduction_Rank_4_TextData",
+          "SourceString": "(Повышение урона, сокращение перезарядки: <Status_Up>Большое</>)",
+          "LocalizedString": "(Повышение урона, сокращение перезарядки: <Status_Up>Большое</>)"
+        }
+      },
+      "DamageUp_CooldownReduction_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_CooldownReduction_Rank_5_TextData",
+          "SourceString": "(Повышение урона, сокращение перезарядки: <Status_Up>Очень большое</>)",
+          "LocalizedString": "(Повышение урона, сокращение перезарядки: <Status_Up>Очень большое</>)"
+        }
+      },
+      "Talent_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Talent_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "Talent_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Talent_Rank_2_TextData",
+          "SourceString": "(Повышение шанса выловить Палов с талантами: <Status_Up>Небольшое</>)",
+          "LocalizedString": "(Повышение шанса выловить Палов с талантами: <Status_Up>Небольшое</>)"
+        }
+      },
+      "Talent_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Talent_Rank_3_TextData",
+          "SourceString": "(Повышение шанса выловить Палов с талантами: <Status_Up>Среднее</>)",
+          "LocalizedString": "(Повышение шанса выловить Палов с талантами: <Status_Up>Среднее</>)"
+        }
+      },
+      "Talent_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Talent_Rank_4_TextData",
+          "SourceString": "(Повышение шанса выловить Палов с талантами: <Status_Up>Большое</>)",
+          "LocalizedString": "(Повышение шанса выловить Палов с талантами: <Status_Up>Большое</>)"
+        }
+      },
+      "Talent_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Talent_Rank_5_TextData",
+          "SourceString": "(Повышение шанса выловить Палов с талантами: <Status_Up>Очень большое</>)",
+          "LocalizedString": "(Повышение шанса выловить Палов с талантами: <Status_Up>Очень большое</>)"
+        }
+      },
+      "StealthTime_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "StealthTime_Rank_1_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "StealthTime_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "StealthTime_Rank_2_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "StealthTime_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "StealthTime_Rank_3_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "StealthTime_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "StealthTime_Rank_4_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "StealthTime_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "StealthTime_Rank_5_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "ShortDashSpeed_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeed_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "ShortDashSpeed_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeed_Rank_2_TextData",
+          "SourceString": "(Увеличение скорости рывка: <Status_Up>Небольшое</>)",
+          "LocalizedString": "(Увеличение скорости рывка: <Status_Up>Небольшое</>)"
+        }
+      },
+      "ShortDashSpeed_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeed_Rank_3_TextData",
+          "SourceString": "(Увеличение скорости рывка: <Status_Up>Среднее</>)",
+          "LocalizedString": "(Увеличение скорости рывка: <Status_Up>Среднее</>)"
+        }
+      },
+      "ShortDashSpeed_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeed_Rank_4_TextData",
+          "SourceString": "(Увеличение скорости рывка: <Status_Up>Большое</>)",
+          "LocalizedString": "(Увеличение скорости рывка: <Status_Up>Большое</>)"
+        }
+      },
+      "ShortDashSpeed_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeed_Rank_5_TextData",
+          "SourceString": "(Увеличение скорости рывка: <Status_Up>Очень большое</>)",
+          "LocalizedString": "(Увеличение скорости рывка: <Status_Up>Очень большое</>)"
+        }
+      },
+      "ShortDashSpeedCoolTime_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeedCoolTime_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "ShortDashSpeedCoolTime_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeedCoolTime_Rank_2_TextData",
+          "SourceString": "(Увеличение скорости рывка, сокращение перезарядки: <Status_Up>Небольшое</>)",
+          "LocalizedString": "(Увеличение скорости рывка, сокращение перезарядки: <Status_Up>Небольшое</>)"
+        }
+      },
+      "ShortDashSpeedCoolTime_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeedCoolTime_Rank_3_TextData",
+          "SourceString": "(Увеличение скорости рывка, сокращение перезарядки: <Status_Up>Среднее</>)",
+          "LocalizedString": "(Увеличение скорости рывка, сокращение перезарядки: <Status_Up>Среднее</>)"
+        }
+      },
+      "ShortDashSpeedCoolTime_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeedCoolTime_Rank_4_TextData",
+          "SourceString": "(Увеличение скорости рывка, сокращение перезарядки: <Status_Up>Большое</>)",
+          "LocalizedString": "(Увеличение скорости рывка, сокращение перезарядки: <Status_Up>Большое</>)"
+        }
+      },
+      "ShortDashSpeedCoolTime_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeedCoolTime_Rank_5_TextData",
+          "SourceString": "(Увеличение скорости рывка, сокращение перезарядки: <Status_Up>Очень большое</>)",
+          "LocalizedString": "(Увеличение скорости рывка, сокращение перезарядки: <Status_Up>Очень большое</>)"
+        }
+      },
+      "Waza_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Waza_Rank_1_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "Waza_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Waza_Rank_2_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "Waza_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Waza_Rank_3_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "Waza_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Waza_Rank_4_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "Waza_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Waza_Rank_5_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "CaptureRate_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CaptureRate_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "CaptureRate_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CaptureRate_Rank_2_TextData",
+          "SourceString": "(Повышение шанса поимки: <Status_Up>Небольшое</>)",
+          "LocalizedString": "(Повышение шанса поимки: <Status_Up>Небольшое</>)"
+        }
+      },
+      "CaptureRate_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CaptureRate_Rank_3_TextData",
+          "SourceString": "(Повышение шанса поимки: <Status_Up>Среднее</>)",
+          "LocalizedString": "(Повышение шанса поимки: <Status_Up>Среднее</>)"
+        }
+      },
+      "CaptureRate_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CaptureRate_Rank_4_TextData",
+          "SourceString": "(Повышение шанса поимки: <Status_Up>Большое</>)",
+          "LocalizedString": "(Повышение шанса поимки: <Status_Up>Большое</>)"
+        }
+      },
+      "CaptureRate_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CaptureRate_Rank_5_TextData",
+          "SourceString": "(Повышение шанса поимки: <Status_Up>Очень большое</>)",
+          "LocalizedString": "(Повышение шанса поимки: <Status_Up>Очень большое</>)"
+        }
+      },
+      "EnemySightRate_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "EnemySightRate_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "EnemySightRate_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "EnemySightRate_Rank_2_TextData",
+          "SourceString": "(Скрытность повышена: <Status_Up>Небольшое</>)",
+          "LocalizedString": "(Скрытность повышена: <Status_Up>Небольшое</>)"
+        }
+      },
+      "EnemySightRate_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "EnemySightRate_Rank_3_TextData",
+          "SourceString": "(Скрытность повышена: <Status_Up>Среднее</>)",
+          "LocalizedString": "(Скрытность повышена: <Status_Up>Среднее</>)"
+        }
+      },
+      "EnemySightRate_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "EnemySightRate_Rank_4_TextData",
+          "SourceString": "(Скрытность повышена: <Status_Up>Большое</>)",
+          "LocalizedString": "(Скрытность повышена: <Status_Up>Большое</>)"
+        }
+      },
+      "EnemySightRate_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "EnemySightRate_Rank_5_TextData",
+          "SourceString": "(Скрытность повышена: <Status_Up>Очень большое</>)",
+          "LocalizedString": "(Скрытность повышена: <Status_Up>Очень большое</>)"
+        }
+      },
+      "SearchAreaCoolTime_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SearchAreaCoolTime_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "SearchAreaCoolTime_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SearchAreaCoolTime_Rank_2_TextData",
+          "SourceString": "(Увеличение радиуса обнаружения и сокращение перезарядки: <Status_Up>Небольшое</>)",
+          "LocalizedString": "(Увеличение радиуса обнаружения и сокращение перезарядки: <Status_Up>Небольшое</>)"
+        }
+      },
+      "SearchAreaCoolTime_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SearchAreaCoolTime_Rank_3_TextData",
+          "SourceString": "(Увеличение радиуса обнаружения и сокращение перезарядки: <Status_Up>Среднее</>)",
+          "LocalizedString": "(Увеличение радиуса обнаружения и сокращение перезарядки: <Status_Up>Среднее</>)"
+        }
+      },
+      "SearchAreaCoolTime_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SearchAreaCoolTime_Rank_4_TextData",
+          "SourceString": "(Увеличение радиуса обнаружения и сокращение перезарядки: <Status_Up>Большое</>)",
+          "LocalizedString": "(Увеличение радиуса обнаружения и сокращение перезарядки: <Status_Up>Большое</>)"
+        }
+      },
+      "SearchAreaCoolTime_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SearchAreaCoolTime_Rank_5_TextData",
+          "SourceString": "(Увеличение радиуса обнаружения и сокращение перезарядки: <Status_Up>Очень большое</>)",
+          "LocalizedString": "(Увеличение радиуса обнаружения и сокращение перезарядки: <Status_Up>Очень большое</>)"
+        }
+      }
+    }
+  }
+]

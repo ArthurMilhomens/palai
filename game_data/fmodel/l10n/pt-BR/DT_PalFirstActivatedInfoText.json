@@ -2,9 +2,8 @@
   {
     "Type": "DataTable",
     "Name": "DT_PalFirstActivatedInfoText",
-    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'DataTable'",
-    "Package": "Pal/Content/L10N/pt-BR/Pal/DataTable/Text/DT_PalFirstActivatedInfoText",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "RowStruct": {
         "ObjectName": "ScriptStruct'PalLocalizedTextData'",
@@ -600,8 +599,8 @@
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_IceHorse_Dark_TextData",
-          "SourceString": "Você pode montar nas suas costas para voar.\r\nEnquanto monta, os ataques do seu personagem são alterados para o elemento <img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>, seu poder de ataque aumenta em <Status_Up>{Passive2_EffectValue1}%</> e é aplicado <Status_Up><uiCommon id=|ADDITIONAL_EFFECT_Darkness| style=|Elem_Dark|/></> da condição negativa {Passive3_EffectValue1} aos seus ataques.",
-          "LocalizedString": "Você pode montar nas suas costas para voar.\r\nEnquanto monta, os ataques do seu personagem são alterados para o elemento <img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>, seu poder de ataque aumenta em <Status_Up>{Passive2_EffectValue1}%</> e é aplicado <Status_Up><uiCommon id=|ADDITIONAL_EFFECT_Darkness| style=|Elem_Dark|/></> da condição negativa {Passive3_EffectValue1} aos seus ataques."
+          "SourceString": "Você pode montar nas suas costas para voar.\r\nEnquanto monta, os ataques do seu personagem são alterados para o elemento <img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>, seu poder de ataque aumenta em <Status_Up>{Passive2_EffectValue1}%</> e é aplicado {Passive3_EffectValue1} da condição negativa <Status_Up><uiCommon id=|ADDITIONAL_EFFECT_Darkness| style=|Elem_Dark|/></> aos seus ataques.",
+          "LocalizedString": "Você pode montar nas suas costas para voar.\r\nEnquanto monta, os ataques do seu personagem são alterados para o elemento <img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>, seu poder de ataque aumenta em <Status_Up>{Passive2_EffectValue1}%</> e é aplicado {Passive3_EffectValue1} da condição negativa <Status_Up><uiCommon id=|ADDITIONAL_EFFECT_Darkness| style=|Elem_Dark|/></> aos seus ataques."
         }
       },
       "PAL_FIRST_SPAWN_DESC_JetDragon": {
@@ -880,8 +879,8 @@
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_RobinHood_Ground_TextData",
-          "SourceString": "Enquanto este Pal estiver com você, a <Status_Keyword>velocidade de carga das flechas</> do seu personagem acelera em <Status_Up>{Passive1_EffectValue1}%</>. (Efeito não acumulável)",
-          "LocalizedString": "Enquanto este Pal estiver com você, a <Status_Keyword>velocidade de carga das flechas</> do seu personagem acelera em <Status_Up>{Passive1_EffectValue1}%</>. (Efeito não acumulável)"
+          "SourceString": "Enquanto este Pal estiver com você, a <Status_Keyword>velocidade de carga das flechas</> usadas pelo seu personagem acelera em <Status_Up>{Passive1_EffectValue1}%</>. (Efeito não acumulável)",
+          "LocalizedString": "Enquanto este Pal estiver com você, a <Status_Keyword>velocidade de carga das flechas</> usadas pelo seu personagem acelera em <Status_Up>{Passive1_EffectValue1}%</>. (Efeito não acumulável)"
         }
       },
       "PAL_FIRST_SPAWN_DESC_Ronin": {
@@ -1280,8 +1279,8 @@
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_MimicDog_TextData",
-          "SourceString": "Enquanto vocês lutarem juntos, o poder do <characterName id=|MimicDog|/> possibilitará abrir baús sem usar chave nenhuma.\r\n{ReferenceMsgId_CooldownReduction}",
-          "LocalizedString": "Enquanto vocês lutarem juntos, o poder do <characterName id=|MimicDog|/> possibilitará abrir baús sem usar chave nenhuma.\r\n{ReferenceMsgId_CooldownReduction}"
+          "SourceString": "Enquanto vocês lutarem juntos, o poder do <characterName id=|MimicDog|/> permitirá abrir baús de qualquer categoria sem usar chave nenhuma.\r\nNo entanto, baús que exigem uma aptidão para trabalho específica não podem ser abertos.\r\n{ReferenceMsgId_CooldownReduction}",
+          "LocalizedString": "Enquanto vocês lutarem juntos, o poder do <characterName id=|MimicDog|/> permitirá abrir baús de qualquer categoria sem usar chave nenhuma.\r\nNo entanto, baús que exigem uma aptidão para trabalho específica não podem ser abertos.\r\n{ReferenceMsgId_CooldownReduction}"
         }
       },
       "PAL_FIRST_SPAWN_DESC_KendoFrog": {
@@ -1952,16 +1951,16 @@
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_GrassGolem_TextData",
-          "SourceString": "Você pode montar nas suas costas para se locomover.\r\nQuando ativado, dispara um poderoso laser de elemento <img id=|ElemIcon_Grass|/><uiCommon id=|COMMON_ELEMENT_NAME_Leaf| style=|Elem_Grass|/> pela direita do <characterName id=|GrassGolem|/>.\r\n{ReferenceMsgId_CooldownReduction}",
-          "LocalizedString": "Você pode montar nas suas costas para se locomover.\r\nQuando ativado, dispara um poderoso laser de elemento <img id=|ElemIcon_Grass|/><uiCommon id=|COMMON_ELEMENT_NAME_Leaf| style=|Elem_Grass|/> pela direita do <characterName id=|GrassGolem|/>.\r\n{ReferenceMsgId_CooldownReduction}"
+          "SourceString": "Você pode montar nas suas costas para se locomover.\r\nEnquanto monta, pode disparar um poderoso laser de elemento <img id=|ElemIcon_Grass|/><uiCommon id=|COMMON_ELEMENT_NAME_Leaf| style=|Elem_Grass|/> pela direita do <characterName id=|GrassGolem|/>.\r\n{ReferenceMsgId_CooldownReduction}",
+          "LocalizedString": "Você pode montar nas suas costas para se locomover.\r\nEnquanto monta, pode disparar um poderoso laser de elemento <img id=|ElemIcon_Grass|/><uiCommon id=|COMMON_ELEMENT_NAME_Leaf| style=|Elem_Grass|/> pela direita do <characterName id=|GrassGolem|/>.\r\n{ReferenceMsgId_CooldownReduction}"
         }
       },
       "PAL_FIRST_SPAWN_DESC_GrassGolem_Dark": {
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_GrassGolem_Dark_TextData",
-          "SourceString": "Você pode montar nas suas costas para se locomover.\r\nQuando ativado, dispara um poderoso laser de elemento <img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/> pela direita do <characterName id=|GrassGolem_Dark|/>.\r\n{ReferenceMsgId_CooldownReduction}",
-          "LocalizedString": "Você pode montar nas suas costas para se locomover.\r\nQuando ativado, dispara um poderoso laser de elemento <img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/> pela direita do <characterName id=|GrassGolem_Dark|/>.\r\n{ReferenceMsgId_CooldownReduction}"
+          "SourceString": "Você pode montar nas suas costas para se locomover.\r\nEnquanto monta, pode disparar um poderoso laser de elemento <img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/> pela direita do <characterName id=|GrassGolem_Dark|/>.\r\n{ReferenceMsgId_CooldownReduction}",
+          "LocalizedString": "Você pode montar nas suas costas para se locomover.\r\nEnquanto monta, pode disparar um poderoso laser de elemento <img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/> pela direita do <characterName id=|GrassGolem_Dark|/>.\r\n{ReferenceMsgId_CooldownReduction}"
         }
       },
       "PAL_FIRST_SPAWN_DESC_FlowerDoll_Fire": {

@@ -1,0 +1,672 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_BuildObjectCategoryText",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "CATEGORY_TYPE_A_Product": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_A_Product_TextData",
+          "SourceString": "生產",
+          "LocalizedString": "生產"
+        }
+      },
+      "CATEGORY_TYPE_A_Pal": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_A_Pal_TextData",
+          "SourceString": "帕魯",
+          "LocalizedString": "帕魯"
+        }
+      },
+      "CATEGORY_TYPE_A_Infrastructure": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_A_Infrastructure_TextData",
+          "SourceString": "基礎設施",
+          "LocalizedString": "基礎設施"
+        }
+      },
+      "CATEGORY_TYPE_A_Food": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_A_Food_TextData",
+          "SourceString": "食物",
+          "LocalizedString": "食物"
+        }
+      },
+      "CATEGORY_TYPE_A_Foundation": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_A_Foundation_TextData",
+          "SourceString": "建築",
+          "LocalizedString": "建築"
+        }
+      },
+      "CATEGORY_TYPE_A_Defense": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_A_Defense_TextData",
+          "SourceString": "防禦",
+          "LocalizedString": "防禦"
+        }
+      },
+      "CATEGORY_TYPE_A_Other": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_A_Other_TextData",
+          "SourceString": "其他",
+          "LocalizedString": "其他"
+        }
+      },
+      "CATEGORY_TYPE_A_Storage": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_A_Storage_TextData",
+          "SourceString": "收納",
+          "LocalizedString": "收納"
+        }
+      },
+      "CATEGORY_TYPE_A_Light": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_A_Light_TextData",
+          "SourceString": "照明",
+          "LocalizedString": "照明"
+        }
+      },
+      "CATEGORY_TYPE_A_Furniture": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_A_Furniture_TextData",
+          "SourceString": "家具",
+          "LocalizedString": "家具"
+        }
+      },
+      "CATEGORY_TYPE_A_Dismantle": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_A_Dismantle_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "CATEGORY_TYPE_B_Prod_Craft": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_B_Prod_Craft_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "CATEGORY_TYPE_B_Prod_Resource": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_B_Prod_Resource_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "CATEGORY_TYPE_B_Prod_Furnace": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_B_Prod_Furnace_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "CATEGORY_TYPE_B_Prod_Medicine": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_B_Prod_Medicine_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "CATEGORY_TYPE_B_Pal_Capture": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_B_Pal_Capture_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "CATEGORY_TYPE_B_Pal_Breed": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_B_Pal_Breed_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "CATEGORY_TYPE_B_Pal_Modify": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_B_Pal_Modify_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "CATEGORY_TYPE_B_Infra_Medical": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_B_Infra_Medical_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "CATEGORY_TYPE_B_Infra_Storage": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_B_Infra_Storage_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "CATEGORY_TYPE_B_Infra_Trade": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_B_Infra_Trade_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "CATEGORY_TYPE_B_Infra_GeneratePower": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_B_Infra_GeneratePower_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "CATEGORY_TYPE_B_Infra_Defense": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_B_Infra_Defense_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "CATEGORY_TYPE_B_Infra_Environment": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_B_Infra_Environment_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "CATEGORY_TYPE_B_Food_Basic": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_B_Food_Basic_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "CATEGORY_TYPE_B_Food_Agriculture": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_B_Food_Agriculture_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "CATEGORY_TYPE_B_Food_Cooking": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_B_Food_Cooking_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "CATEGORY_TYPE_B_Food_Livestock": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_B_Food_Livestock_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "CATEGORY_TYPE_B_Found_Basic": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_B_Found_Basic_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "CATEGORY_TYPE_B_Found_House": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_B_Found_House_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "CATEGORY_TYPE_B_Other": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_B_Other_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "CATEGORY_TYPE_A_Blueprint": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_A_Blueprint_TextData",
+          "SourceString": "設計圖",
+          "LocalizedString": "設計圖"
+        }
+      },
+      "CATEGORY_TYPE_A_Favorite": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_A_Favorite_TextData",
+          "SourceString": "我的最愛",
+          "LocalizedString": "我的最愛"
+        }
+      },
+      "CATEGORY_TYPE_UI_Product_Repair": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Product_Repair_TextData",
+          "SourceString": "製作/修理",
+          "LocalizedString": "製作/修理"
+        }
+      },
+      "CATEGORY_TYPE_UI_Weapon": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Weapon_TextData",
+          "SourceString": "武器",
+          "LocalizedString": "武器"
+        }
+      },
+      "CATEGORY_TYPE_UI_Refine": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Refine_TextData",
+          "SourceString": "精煉",
+          "LocalizedString": "精煉"
+        }
+      },
+      "CATEGORY_TYPE_UI_Medicine": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Medicine_TextData",
+          "SourceString": "製藥",
+          "LocalizedString": "製藥"
+        }
+      },
+      "CATEGORY_TYPE_UI_Deforest_Mining": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Deforest_Mining_TextData",
+          "SourceString": "伐木/挖掘",
+          "LocalizedString": "伐木/挖掘"
+        }
+      },
+      "CATEGORY_TYPE_UI_Milling_Crusher": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Milling_Crusher_TextData",
+          "SourceString": "磨粉/粉碎",
+          "LocalizedString": "磨粉/粉碎"
+        }
+      },
+      "CATEGORY_TYPE_UI_FishingPond": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_FishingPond_TextData",
+          "SourceString": "釣魚池",
+          "LocalizedString": "釣魚池"
+        }
+      },
+      "CATEGORY_TYPE_UI_PalCaptureItem": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_PalCaptureItem_TextData",
+          "SourceString": "帕魯球",
+          "LocalizedString": "帕魯球"
+        }
+      },
+      "CATEGORY_TYPE_UI_PalManagement": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_PalManagement_TextData",
+          "SourceString": "帕魯管理",
+          "LocalizedString": "帕魯管理"
+        }
+      },
+      "CATEGORY_TYPE_UI_PalTraining": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_PalTraining_TextData",
+          "SourceString": "帕魯培育",
+          "LocalizedString": "帕魯培育"
+        }
+      },
+      "CATEGORY_TYPE_UI_PalWork": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_PalWork_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "CATEGORY_TYPE_UI_PalBreeding": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_PalBreeding_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "CATEGORY_TYPE_UI_PalOther": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_PalOther_TextData",
+          "SourceString": "帕魯其他",
+          "LocalizedString": "帕魯其他"
+        }
+      },
+      "CATEGORY_TYPE_UI_Chest": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Chest_TextData",
+          "SourceString": "箱子",
+          "LocalizedString": "箱子"
+        }
+      },
+      "CATEGORY_TYPE_UI_StorageFurniture": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_StorageFurniture_TextData",
+          "SourceString": "收納家具",
+          "LocalizedString": "收納家具"
+        }
+      },
+      "CATEGORY_TYPE_UI_Cooking": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Cooking_TextData",
+          "SourceString": "烹飪",
+          "LocalizedString": "烹飪"
+        }
+      },
+      "CATEGORY_TYPE_UI_FeedBox": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_FeedBox_TextData",
+          "SourceString": "飼料箱",
+          "LocalizedString": "飼料箱"
+        }
+      },
+      "CATEGORY_TYPE_UI_Farm": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Farm_TextData",
+          "SourceString": "農園",
+          "LocalizedString": "農園"
+        }
+      },
+      "CATEGORY_TYPE_UI_Bed": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Bed_TextData",
+          "SourceString": "床（寢具）",
+          "LocalizedString": "床（寢具）"
+        }
+      },
+      "CATEGORY_TYPE_UI_GenerateElectricity": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_GenerateElectricity_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "CATEGORY_TYPE_UI_Electricity": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Electricity_TextData",
+          "SourceString": "電力",
+          "LocalizedString": "電力"
+        }
+      },
+      "CATEGORY_TYPE_UI_Spa": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Spa_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "CATEGORY_TYPE_UI_Health": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Health_TextData",
+          "SourceString": "健康管理",
+          "LocalizedString": "健康管理"
+        }
+      },
+      "CATEGORY_TYPE_UI_Freestanding": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Freestanding_TextData",
+          "SourceString": "落地型",
+          "LocalizedString": "落地型"
+        }
+      },
+      "CATEGORY_TYPE_UI_WallHanging": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_WallHanging_TextData",
+          "SourceString": "壁掛型",
+          "LocalizedString": "壁掛型"
+        }
+      },
+      "CATEGORY_TYPE_UI_Ceiling": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Ceiling_TextData",
+          "SourceString": "天花板",
+          "LocalizedString": "天花板"
+        }
+      },
+      "CATEGORY_TYPE_UI_Wood": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Wood_TextData",
+          "SourceString": "木材",
+          "LocalizedString": "木材"
+        }
+      },
+      "CATEGORY_TYPE_UI_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Stone_TextData",
+          "SourceString": "石材",
+          "LocalizedString": "石材"
+        }
+      },
+      "CATEGORY_TYPE_UI_Metal": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Metal_TextData",
+          "SourceString": "金屬",
+          "LocalizedString": "金屬"
+        }
+      },
+      "CATEGORY_TYPE_UI_Glass": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Glass_TextData",
+          "SourceString": "玻璃",
+          "LocalizedString": "玻璃"
+        }
+      },
+      "CATEGORY_TYPE_UI_JapaneseStyle": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_JapaneseStyle_TextData",
+          "SourceString": "和風",
+          "LocalizedString": "和風"
+        }
+      },
+      "CATEGORY_TYPE_UI_Clean": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Clean_TextData",
+          "SourceString": "簡約",
+          "LocalizedString": "簡約"
+        }
+      },
+      "CATEGORY_TYPE_UI_Trap": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Trap_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "CATEGORY_TYPE_UI_Interception": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Interception_TextData",
+          "SourceString": "迎擊設施",
+          "LocalizedString": "迎擊設施"
+        }
+      },
+      "CATEGORY_TYPE_UI_Barieer": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Barieer_TextData",
+          "SourceString": "防禦牆",
+          "LocalizedString": "防禦牆"
+        }
+      },
+      "CATEGORY_TYPE_UI_EfficiencEnhancement": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_EfficiencEnhancement_TextData",
+          "SourceString": "效率強化",
+          "LocalizedString": "效率強化"
+        }
+      },
+      "CATEGORY_TYPE_UI_SignBoard": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_SignBoard_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "CATEGORY_TYPE_UI_FleaMarket": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_FleaMarket_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "CATEGORY_TYPE_UI_Statue": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Statue_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "CATEGORY_TYPE_UI_Raid": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Raid_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "CATEGORY_TYPE_UI_Desk": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Desk_TextData",
+          "SourceString": "桌子",
+          "LocalizedString": "桌子"
+        }
+      },
+      "CATEGORY_TYPE_UI_Chair": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Chair_TextData",
+          "SourceString": "椅子",
+          "LocalizedString": "椅子"
+        }
+      },
+      "CATEGORY_TYPE_UI_Carpet": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Carpet_TextData",
+          "SourceString": "地毯（鋪設物）",
+          "LocalizedString": "地毯（鋪設物）"
+        }
+      },
+      "CATEGORY_TYPE_UI_WallDecoration": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_WallDecoration_TextData",
+          "SourceString": "牆面/天花板裝飾",
+          "LocalizedString": "牆面/天花板裝飾"
+        }
+      },
+      "CATEGORY_TYPE_UI_Houseplants": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Houseplants_TextData",
+          "SourceString": "植物",
+          "LocalizedString": "植物"
+        }
+      },
+      "CATEGORY_TYPE_UI_Flag": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Flag_TextData",
+          "SourceString": "旗幟",
+          "LocalizedString": "旗幟"
+        }
+      },
+      "CATEGORY_TYPE_UI_Ornament": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Ornament_TextData",
+          "SourceString": "擺飾",
+          "LocalizedString": "擺飾"
+        }
+      },
+      "CATEGORY_TYPE_UI_Other": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Other_TextData",
+          "SourceString": "其他",
+          "LocalizedString": "其他"
+        }
+      },
+      "CATEGORY_TYPE_UI_Ancient": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Ancient_TextData",
+          "SourceString": "古代文明",
+          "LocalizedString": "古代文明"
+        }
+      }
+    }
+  }
+]

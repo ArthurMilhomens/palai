@@ -1,0 +1,1608 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_MapRespawnPointInfoText",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "SpawnPoint_1": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_1_TextData",
+          "SourceString": "Güzel bir manzarası ve bol miktarda kaynağı olan küçük bir tepe.\r\nYeni oyuncular için önerilir.",
+          "LocalizedString": "Güzel bir manzarası ve bol miktarda kaynağı olan küçük bir tepe.\r\nYeni oyuncular için önerilir."
+        }
+      },
+      "SpawnPoint_1_Title": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_1_Title_TextData",
+          "SourceString": "Rüzgârın Estiği Ada: Uçan Balık Sahili",
+          "LocalizedString": "Rüzgârın Estiği Ada: Uçan Balık Sahili"
+        }
+      },
+      "SpawnPoint_2": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_2_TextData",
+          "SourceString": "Çevresinde pek çok su Pal'ının olduğu bir kumsal.\r\nFazla ağaç yoktur ama pek çok Pal burayı evi bilir.",
+          "LocalizedString": "Çevresinde pek çok su Pal'ının olduğu bir kumsal.\r\nFazla ağaç yoktur ama pek çok Pal burayı evi bilir."
+        }
+      },
+      "SpawnPoint_2_Title": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_2_Title_TextData",
+          "SourceString": "Rüzgârın estiği ada, Uçan Balık Sahili",
+          "LocalizedString": "Rüzgârın estiği ada, Uçan Balık Sahili"
+        }
+      },
+      "SpawnPoint_3": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_3_TextData",
+          "SourceString": "Her yönünde resifler bulunan bir kıyı şeridi.\r\nOrta miktarda kaynak ve Pal'lar içerir.\r\nKayalık bir yer olmasına rağmen geniş, açık bir toprak parçası bulmak kolaydır.",
+          "LocalizedString": "Her yönünde resifler bulunan bir kıyı şeridi.\r\nOrta miktarda kaynak ve Pal'lar içerir.\r\nKayalık bir yer olmasına rağmen geniş, açık bir toprak parçası bulmak kolaydır."
+        }
+      },
+      "SpawnPoint_3_Title": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_3_Title_TextData",
+          "SourceString": "İmbat Takımadaları - Resif",
+          "LocalizedString": "İmbat Takımadaları - Resif"
+        }
+      },
+      "SpawnPoint_4": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_4_TextData",
+          "SourceString": "Keyifli bir imbata ev sahipliği yapan güneşli adalar.\r\nBir volkanın yakınındadır ve sıcak, yaşaması kolay bir iklimi vardır.\r\nÇevredeki diğer adalara da kolayca geçilebildiği için, maceralara çıkmak için harika bir yerdir. ",
+          "LocalizedString": "Keyifli bir imbata ev sahipliği yapan güneşli adalar.\r\nBir volkanın yakınındadır ve sıcak, yaşaması kolay bir iklimi vardır.\r\nÇevredeki diğer adalara da kolayca geçilebildiği için, maceralara çıkmak için harika bir yerdir. "
+        }
+      },
+      "SpawnPoint_4_Title": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_4_Title_TextData",
+          "SourceString": "İmbat Takımadaları - Kazazede Kumsalı",
+          "LocalizedString": "İmbat Takımadaları - Kazazede Kumsalı"
+        }
+      },
+      "SpawnPoint_5": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_5_TextData",
+          "SourceString": "Ana adanın uzaklarındaki bu adada hiç kimse yaşamıyor gibidir.\r\nTakımadaların en kuzey ucunda yer alır ve sıcaklıklar biraz düşüktür. \r\nEv sahipliği yaptığı çok az Pal ve kaynak sebebiyle burada yaşamak zordur.",
+          "LocalizedString": "Ana adanın uzaklarındaki bu adada hiç kimse yaşamıyor gibidir.\r\nTakımadaların en kuzey ucunda yer alır ve sıcaklıklar biraz düşüktür. \r\nEv sahipliği yaptığı çok az Pal ve kaynak sebebiyle burada yaşamak zordur."
+        }
+      },
+      "SpawnPoint_5_Title": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_5_Title_TextData",
+          "SourceString": "Sukunet Adası",
+          "LocalizedString": "Sukunet Adası"
+        }
+      },
+      "SpawnPoint_6": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_6_TextData",
+          "SourceString": "Yüksek ve alçak araziler ile ağaçlarla çevrili sakin bir ada.\r\nKaynaklar ve Pal sayısı sınırlıdır.\r\nBuraya yerleşenlerin sayısı azdır.",
+          "LocalizedString": "Yüksek ve alçak araziler ile ağaçlarla çevrili sakin bir ada.\r\nKaynaklar ve Pal sayısı sınırlıdır.\r\nBuraya yerleşenlerin sayısı azdır."
+        }
+      },
+      "SpawnPoint_6_Title": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_6_Title_TextData",
+          "SourceString": "Dalgaların Fısıldadığı Ada",
+          "LocalizedString": "Dalgaların Fısıldadığı Ada"
+        }
+      },
+      "SpawnPoint_7": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_7_TextData",
+          "SourceString": "Doğuda kalan vahşi bir ada.\r\nAna adanın kenarında bulunur. Burayı imar etmek kimsenin aklına gelmemiştir.\r\nVahşi doğada yaşamaya alışmamış kişilerin burada hayatta kalması zordur.",
+          "LocalizedString": "Doğuda kalan vahşi bir ada.\r\nAna adanın kenarında bulunur. Burayı imar etmek kimsenin aklına gelmemiştir.\r\nVahşi doğada yaşamaya alışmamış kişilerin burada hayatta kalması zordur."
+        }
+      },
+      "SpawnPoint_7_Title": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_7_Title_TextData",
+          "SourceString": "Doğudaki Issız Ada",
+          "LocalizedString": "Doğudaki Issız Ada"
+        }
+      },
+      "SpawnPoint_8": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_8_TextData",
+          "SourceString": "Geniş bataklıklara ev sahipliği yapan bir ada.\r\nIlıman iklimi sayesinde her yerde meyveler bulunabilir.\r\nFarklı türlerde Pal’ler burada yaşamaktadır.",
+          "LocalizedString": "Geniş bataklıklara ev sahipliği yapan bir ada.\r\nIlıman iklimi sayesinde her yerde meyveler bulunabilir.\r\nFarklı türlerde Pal’ler burada yaşamaktadır."
+        }
+      },
+      "SpawnPoint_8_Title": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_8_Title_TextData",
+          "SourceString": "Bataklık Adası",
+          "LocalizedString": "Bataklık Adası"
+        }
+      },
+      "FTPoint1": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint1_TextData",
+          "SourceString": "Obsidiyen Dağı - Orta Nokta",
+          "LocalizedString": "Obsidiyen Dağı - Orta Nokta"
+        }
+      },
+      "FTPoint2": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint2_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "FTPoint3": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint3_TextData",
+          "SourceString": "Ölümsüz Ateş Kulesi Girişi",
+          "LocalizedString": "Ölümsüz Ateş Kulesi Girişi"
+        }
+      },
+      "FTPoint4": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint4_TextData",
+          "SourceString": "Kadim Medeniyet Kalıntıları",
+          "LocalizedString": "Kadim Medeniyet Kalıntıları"
+        }
+      },
+      "FTPoint5": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint5_TextData",
+          "SourceString": "Balıkçı Burnu",
+          "LocalizedString": "Balıkçı Burnu"
+        }
+      },
+      "FTPoint6": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint6_TextData",
+          "SourceString": "Obsidiyen Dağı - Anubis Heykeli",
+          "LocalizedString": "Obsidiyen Dağı - Anubis Heykeli"
+        }
+      },
+      "FTPoint7": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint7_TextData",
+          "SourceString": "Bitmeyen Yaz Plajı",
+          "LocalizedString": "Bitmeyen Yaz Plajı"
+        }
+      },
+      "FTPoint8": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint8_TextData",
+          "SourceString": "Hisar Harabesi Kenti",
+          "LocalizedString": "Hisar Harabesi Kenti"
+        }
+      },
+      "FTPoint9": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint9_TextData",
+          "SourceString": "PASG Kulesi Girişi",
+          "LocalizedString": "PASG Kulesi Girişi"
+        }
+      },
+      "FTPoint10": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint10_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "FTPoint11": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint11_TextData",
+          "SourceString": "Kum Tepeleri Girişi",
+          "LocalizedString": "Kum Tepeleri Girişi"
+        }
+      },
+      "FTPoint12": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint12_TextData",
+          "SourceString": "Kumul Sığınağı",
+          "LocalizedString": "Kumul Sığınağı"
+        }
+      },
+      "FTPoint13": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint13_TextData",
+          "SourceString": "Derin Kum Tepeleri",
+          "LocalizedString": "Derin Kum Tepeleri"
+        }
+      },
+      "FTPoint14": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint14_TextData",
+          "SourceString": "Soğuk Sahil",
+          "LocalizedString": "Soğuk Sahil"
+        }
+      },
+      "FTPoint15": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint15_TextData",
+          "SourceString": "Sahipsiz Patika",
+          "LocalizedString": "Sahipsiz Patika"
+        }
+      },
+      "FTPoint16": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint16_TextData",
+          "SourceString": "Donuk Sansar Tepesi",
+          "LocalizedString": "Donuk Sansar Tepesi"
+        }
+      },
+      "FTPoint17": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint17_TextData",
+          "SourceString": "Erimez Göl",
+          "LocalizedString": "Erimez Göl"
+        }
+      },
+      "FTPoint18": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint18_TextData",
+          "SourceString": "Mutlak Sıfır Toprakları",
+          "LocalizedString": "Mutlak Sıfır Toprakları"
+        }
+      },
+      "FTPoint19": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint19_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "FTPoint20": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint20_TextData",
+          "SourceString": "PAL Genetik Araştırma Birimi Kulesi Girişi",
+          "LocalizedString": "PAL Genetik Araştırma Birimi Kulesi Girişi"
+        }
+      },
+      "FTPoint21": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint21_TextData",
+          "SourceString": "Çimen Canavarı Tepeleri",
+          "LocalizedString": "Çimen Canavarı Tepeleri"
+        }
+      },
+      "FTPoint22": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint22_TextData",
+          "SourceString": "Issız Kilise",
+          "LocalizedString": "Issız Kilise"
+        }
+      },
+      "FTPoint23": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint23_TextData",
+          "SourceString": "Başlangıç Tepesi",
+          "LocalizedString": "Başlangıç Tepesi"
+        }
+      },
+      "FTPoint24": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint24_TextData",
+          "SourceString": "Küçük Yerleşim",
+          "LocalizedString": "Küçük Yerleşim"
+        }
+      },
+      "FTPoint25": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint25_TextData",
+          "SourceString": "Münzevi Şelaleler",
+          "LocalizedString": "Münzevi Şelaleler"
+        }
+      },
+      "FTPoint26": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint26_TextData",
+          "SourceString": "Volkanın Ayağı",
+          "LocalizedString": "Volkanın Ayağı"
+        }
+      },
+      "FTPoint27": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint27_TextData",
+          "SourceString": "Donuk Kanatların Mühürlü Âlemi",
+          "LocalizedString": "Donuk Kanatların Mühürlü Âlemi"
+        }
+      },
+      "FTPoint28": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint28_TextData",
+          "SourceString": "Hisar Kalıntıları",
+          "LocalizedString": "Hisar Kalıntıları"
+        }
+      },
+      "FTPoint29": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint29_TextData",
+          "SourceString": "Kılıç Ustasının Mühürlü Diyarı",
+          "LocalizedString": "Kılıç Ustasının Mühürlü Diyarı"
+        }
+      },
+      "FTPoint30": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint30_TextData",
+          "SourceString": "Müfettiş Çatalı",
+          "LocalizedString": "Müfettiş Çatalı"
+        }
+      },
+      "FTPoint31": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint31_TextData",
+          "SourceString": "Kadim Ayin Alanı",
+          "LocalizedString": "Kadim Ayin Alanı"
+        }
+      },
+      "FTPoint32": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint32_TextData",
+          "SourceString": "Flopie Dağı Zirvesi",
+          "LocalizedString": "Flopie Dağı Zirvesi"
+        }
+      },
+      "FTPoint33": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint33_TextData",
+          "SourceString": "Gölün Merkezi",
+          "LocalizedString": "Gölün Merkezi"
+        }
+      },
+      "FTPoint34": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint34_TextData",
+          "SourceString": "İkiyüzlü Tepesi",
+          "LocalizedString": "İkiyüzlü Tepesi"
+        }
+      },
+      "FTPoint35": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint35_TextData",
+          "SourceString": "Gizemli Mühürlü Bölge",
+          "LocalizedString": "Gizemli Mühürlü Bölge"
+        }
+      },
+      "FTPoint36": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint36_TextData",
+          "SourceString": "Karlı Dağ Kavşağı",
+          "LocalizedString": "Karlı Dağ Kavşağı"
+        }
+      },
+      "FTPoint37": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint37_TextData",
+          "SourceString": "Buzlu Dağ’ın Zirvesi",
+          "LocalizedString": "Buzlu Dağ’ın Zirvesi"
+        }
+      },
+      "FTPoint38": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint38_TextData",
+          "SourceString": "Çeviğin Mühürlü Âlemi",
+          "LocalizedString": "Çeviğin Mühürlü Âlemi"
+        }
+      },
+      "FTPoint39": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint39_TextData",
+          "SourceString": "Mossanda Ormanı",
+          "LocalizedString": "Mossanda Ormanı"
+        }
+      },
+      "FTPoint40": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint40_TextData",
+          "SourceString": "Gobfin'in Mıntıkası",
+          "LocalizedString": "Gobfin'in Mıntıkası"
+        }
+      },
+      "FTPoint41": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint41_TextData",
+          "SourceString": "Cinnamoth Ormanı",
+          "LocalizedString": "Cinnamoth Ormanı"
+        }
+      },
+      "FTPoint42": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint42_TextData",
+          "SourceString": "Kavurucu Mühürlü Bölge",
+          "LocalizedString": "Kavurucu Mühürlü Bölge"
+        }
+      },
+      "FTPoint43": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint43_TextData",
+          "SourceString": "Derin Bambu Ağaçlığı",
+          "LocalizedString": "Derin Bambu Ağaçlığı"
+        }
+      },
+      "FTPoint44": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint44_TextData",
+          "SourceString": "Sayısız Alevin Mühürlü Diyarı",
+          "LocalizedString": "Sayısız Alevin Mühürlü Diyarı"
+        }
+      },
+      "FTPoint45": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint45_TextData",
+          "SourceString": "Rayne Örgütü Kulesi Girişi",
+          "LocalizedString": "Rayne Örgütü Kulesi Girişi"
+        }
+      },
+      "FTPoint46": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint46_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "FTPoint47": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint47_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "FTPoint48": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint48_TextData",
+          "SourceString": "El Değmemiş Kar Arazisi",
+          "LocalizedString": "El Değmemiş Kar Arazisi"
+        }
+      },
+      "FTPoint49": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint49_TextData",
+          "SourceString": "Sukunet Adası",
+          "LocalizedString": "Sukunet Adası"
+        }
+      },
+      "FTPoint50": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint50_TextData",
+          "SourceString": "Dalgaların Fısıldadığı Ada",
+          "LocalizedString": "Dalgaların Fısıldadığı Ada"
+        }
+      },
+      "FTPoint51": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint51_TextData",
+          "SourceString": "Kelpsea Tepesi",
+          "LocalizedString": "Kelpsea Tepesi"
+        }
+      },
+      "FTPoint52": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint52_TextData",
+          "SourceString": "İmbat Takımadaları - Kazazede Kumsalı",
+          "LocalizedString": "İmbat Takımadaları - Kazazede Kumsalı"
+        }
+      },
+      "FTPoint53": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint53_TextData",
+          "SourceString": "İmbat Takımadaları Kilisesi",
+          "LocalizedString": "İmbat Takımadaları Kilisesi"
+        }
+      },
+      "FTPoint54": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint54_TextData",
+          "SourceString": "Küçük Koy",
+          "LocalizedString": "Küçük Koy"
+        }
+      },
+      "FTPoint55": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint55_TextData",
+          "SourceString": "Ada Gezgini Kıyısı",
+          "LocalizedString": "Ada Gezgini Kıyısı"
+        }
+      },
+      "FTPoint56": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint56_TextData",
+          "SourceString": "Bataklık Adası",
+          "LocalizedString": "Bataklık Adası"
+        }
+      },
+      "FTPoint57": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint57_TextData",
+          "SourceString": "Doğudaki Issız Ada",
+          "LocalizedString": "Doğudaki Issız Ada"
+        }
+      },
+      "FTPoint58": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint58_TextData",
+          "SourceString": "Doğal Köprü",
+          "LocalizedString": "Doğal Köprü"
+        }
+      },
+      "FTPoint59": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint59_TextData",
+          "SourceString": "Sukunet Adası Kilise Kalıntıları",
+          "LocalizedString": "Sukunet Adası Kilise Kalıntıları"
+        }
+      },
+      "FTPoint60": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint60_TextData",
+          "SourceString": "Bataklık Adası Kilise Kalıntıları",
+          "LocalizedString": "Bataklık Adası Kilise Kalıntıları"
+        }
+      },
+      "FTPoint61": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint61_TextData",
+          "SourceString": "İkiz Şövalyeler Köprüsü",
+          "LocalizedString": "İkiz Şövalyeler Köprüsü"
+        }
+      },
+      "FTPoint62": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint62_TextData",
+          "SourceString": "Koyak Girişi",
+          "LocalizedString": "Koyak Girişi"
+        }
+      },
+      "FTPoint63": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint63_TextData",
+          "SourceString": "Arena Girişi",
+          "LocalizedString": "Arena Girişi"
+        }
+      },
+      "FTPoint64": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint64_TextData",
+          "SourceString": "Sakurajima: Mantar Sulakları",
+          "LocalizedString": "Sakurajima: Mantar Sulakları"
+        }
+      },
+      "FTPoint65": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint65_TextData",
+          "SourceString": "Sakurajima: Güney Kumluğu",
+          "LocalizedString": "Sakurajima: Güney Kumluğu"
+        }
+      },
+      "FTPoint66": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint66_TextData",
+          "SourceString": "Ay Goncası Kulesi",
+          "LocalizedString": "Ay Goncası Kulesi"
+        }
+      },
+      "FTPoint67": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint67_TextData",
+          "SourceString": "Ay Goncası Kulesi Girişi",
+          "LocalizedString": "Ay Goncası Kulesi Girişi"
+        }
+      },
+      "FTPoint68": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint68_TextData",
+          "SourceString": "Kiraz Çiçeği Kavşağı",
+          "LocalizedString": "Kiraz Çiçeği Kavşağı"
+        }
+      },
+      "FTPoint69": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint69_TextData",
+          "SourceString": "Sakurajima: Kuzey Kayalıkları",
+          "LocalizedString": "Sakurajima: Kuzey Kayalıkları"
+        }
+      },
+      "FTPoint70": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint70_TextData",
+          "SourceString": "İzbe Mezarlık",
+          "LocalizedString": "İzbe Mezarlık"
+        }
+      },
+      "FTPoint71": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint71_TextData",
+          "SourceString": "Kavrulmuş Kül Toprakları",
+          "LocalizedString": "Kavrulmuş Kül Toprakları"
+        }
+      },
+      "FTPoint72": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint72_TextData",
+          "SourceString": "Taş Direk Mağarası Girişi",
+          "LocalizedString": "Taş Direk Mağarası Girişi"
+        }
+      },
+      "FTPoint73": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint73_TextData",
+          "SourceString": "Lös Düzlükleri",
+          "LocalizedString": "Lös Düzlükleri"
+        }
+      },
+      "FTPoint74": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint74_TextData",
+          "SourceString": "Göz Pencere Kapısına Giden Gizli Geçit",
+          "LocalizedString": "Göz Pencere Kapısına Giden Gizli Geçit"
+        }
+      },
+      "FTPoint75": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint75_TextData",
+          "SourceString": "Göz Pencere Kapısı, Kule Görünüyor",
+          "LocalizedString": "Göz Pencere Kapısı, Kule Görünüyor"
+        }
+      },
+      "FTPoint76": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint76_TextData",
+          "SourceString": "Feybreak Kulesi Girişi",
+          "LocalizedString": "Feybreak Kulesi Girişi"
+        }
+      },
+      "FTPoint78": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint78_TextData",
+          "SourceString": "Küle Dönmüş Tepe",
+          "LocalizedString": "Küle Dönmüş Tepe"
+        }
+      },
+      "FTPoint79": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint79_TextData",
+          "SourceString": "Terk Edilmiş Kül Platosu",
+          "LocalizedString": "Terk Edilmiş Kül Platosu"
+        }
+      },
+      "FTPoint80": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint80_TextData",
+          "SourceString": "Kor Taş Platosu",
+          "LocalizedString": "Kor Taş Platosu"
+        }
+      },
+      "FTPoint81": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint81_TextData",
+          "SourceString": "Kalkan Ejderhası Tüneli",
+          "LocalizedString": "Kalkan Ejderhası Tüneli"
+        }
+      },
+      "FTPoint82": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint82_TextData",
+          "SourceString": "Kalkan Ejderhası Tüneli",
+          "LocalizedString": "Kalkan Ejderhası Tüneli"
+        }
+      },
+      "FTPoint83": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint83_TextData",
+          "SourceString": "Feybreak Gemi Enkazı",
+          "LocalizedString": "Feybreak Gemi Enkazı"
+        }
+      },
+      "FTPoint84": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint84_TextData",
+          "SourceString": "Hinata’nın Issız Adası",
+          "LocalizedString": "Hinata’nın Issız Adası"
+        }
+      },
+      "FTPoint85": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint85_TextData",
+          "SourceString": "Vahanın Yalnız Adası",
+          "LocalizedString": "Vahanın Yalnız Adası"
+        }
+      },
+      "FTPoint86": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint86_TextData",
+          "SourceString": "Buzlarla Kaplı Issız Ada",
+          "LocalizedString": "Buzlarla Kaplı Issız Ada"
+        }
+      },
+      "FTPoint87": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint87_TextData",
+          "SourceString": "Donmuş Issız Ada",
+          "LocalizedString": "Donmuş Issız Ada"
+        }
+      },
+      "FTPoint88": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint88_TextData",
+          "SourceString": "Hayaletlerin Issız Adası",
+          "LocalizedString": "Hayaletlerin Issız Adası"
+        }
+      },
+      "FTPoint89": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint89_TextData",
+          "SourceString": "Harap Hazine Adası",
+          "LocalizedString": "Harap Hazine Adası"
+        }
+      },
+      "FTPoint90": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint90_TextData",
+          "SourceString": "Terraria’ya Ait Mühürlü Alan",
+          "LocalizedString": "Terraria’ya Ait Mühürlü Alan"
+        }
+      },
+      "FTPoint91": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint91_TextData",
+          "SourceString": "Dalgaların Fısıldadığı Ada Sahili",
+          "LocalizedString": "Dalgaların Fısıldadığı Ada Sahili"
+        }
+      },
+      "FTPoint92": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint92_TextData",
+          "SourceString": "Anubis’in Kum Tepeleri",
+          "LocalizedString": "Anubis’in Kum Tepeleri"
+        }
+      },
+      "FTPoint93": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint93_TextData",
+          "SourceString": "Sasayışı Kayalıkları",
+          "LocalizedString": "Sasayışı Kayalıkları"
+        }
+      },
+      "FTPoint94": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint94_TextData",
+          "SourceString": "Sasayışı Yokuşu",
+          "LocalizedString": "Sasayışı Yokuşu"
+        }
+      },
+      "FTPoint95": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint95_TextData",
+          "SourceString": "Rüzgârın Uğuldadığı Vadi",
+          "LocalizedString": "Rüzgârın Uğuldadığı Vadi"
+        }
+      },
+      "FTPoint96": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint96_TextData",
+          "SourceString": "Deniz Esintili Sahil",
+          "LocalizedString": "Deniz Esintili Sahil"
+        }
+      },
+      "FTPoint97": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint97_TextData",
+          "SourceString": "Kum Fırtınasına Bakan Sahil",
+          "LocalizedString": "Kum Fırtınasına Bakan Sahil"
+        }
+      },
+      "FTPoint98": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint98_TextData",
+          "SourceString": "Fırtına Çağıran Sunak",
+          "LocalizedString": "Fırtına Çağıran Sunak"
+        }
+      },
+      "FTPoint99": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint99_TextData",
+          "SourceString": "Çim Panda’nın Arka Sahili",
+          "LocalizedString": "Çim Panda’nın Arka Sahili"
+        }
+      },
+      "FTPoint100": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint100_TextData",
+          "SourceString": "Taze Yeşillik Deresi",
+          "LocalizedString": "Taze Yeşillik Deresi"
+        }
+      },
+      "FTPoint101": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint101_TextData",
+          "SourceString": "Kuruyan Sahil",
+          "LocalizedString": "Kuruyan Sahil"
+        }
+      },
+      "FTPoint102": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint102_TextData",
+          "SourceString": "Susuzluğun En Ucu",
+          "LocalizedString": "Susuzluğun En Ucu"
+        }
+      },
+      "FTPoint103": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint103_TextData",
+          "SourceString": "Çölün Omurgası",
+          "LocalizedString": "Çölün Omurgası"
+        }
+      },
+      "FTPoint104": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint104_TextData",
+          "SourceString": "Issız Kum Seddi",
+          "LocalizedString": "Issız Kum Seddi"
+        }
+      },
+      "FTPoint105": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint105_TextData",
+          "SourceString": "Dünyanın Sonundaki Beyaz Kumluk",
+          "LocalizedString": "Dünyanın Sonundaki Beyaz Kumluk"
+        }
+      },
+      "FTPoint106": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint106_TextData",
+          "SourceString": "Denize Uzanan Koridor",
+          "LocalizedString": "Denize Uzanan Koridor"
+        }
+      },
+      "FTPoint107": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint107_TextData",
+          "SourceString": "Donmuş Kum Koyu",
+          "LocalizedString": "Donmuş Kum Koyu"
+        }
+      },
+      "FTPoint108": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint108_TextData",
+          "SourceString": "Rüzgar Bekleme Seyir Terası",
+          "LocalizedString": "Rüzgar Bekleme Seyir Terası"
+        }
+      },
+      "FTPoint109": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint109_TextData",
+          "SourceString": "Obsidyen Volkanı – İkinci İstasyon",
+          "LocalizedString": "Obsidyen Volkanı – İkinci İstasyon"
+        }
+      },
+      "FTPoint110": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint110_TextData",
+          "SourceString": "Obsidyen Volkanı Tırmanış Yolu",
+          "LocalizedString": "Obsidyen Volkanı Tırmanış Yolu"
+        }
+      },
+      "FTPoint111": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint111_TextData",
+          "SourceString": "Kurak Kum Tepesi",
+          "LocalizedString": "Kurak Kum Tepesi"
+        }
+      },
+      "FTPoint112": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint112_TextData",
+          "SourceString": "Sıcak Hava Deniz Geçidi",
+          "LocalizedString": "Sıcak Hava Deniz Geçidi"
+        }
+      },
+      "FTPoint113": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint113_TextData",
+          "SourceString": "Kar Eriyen Turkuaz Burnu",
+          "LocalizedString": "Kar Eriyen Turkuaz Burnu"
+        }
+      },
+      "FTPoint114": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint114_TextData",
+          "SourceString": "Kutsal Dağın Orta Yamacı",
+          "LocalizedString": "Kutsal Dağın Orta Yamacı"
+        }
+      },
+      "FTPoint115": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint115_TextData",
+          "SourceString": "Uçurum Altı Unutulmuş Bahçe",
+          "LocalizedString": "Uçurum Altı Unutulmuş Bahçe"
+        }
+      },
+      "FTPoint116": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint116_TextData",
+          "SourceString": "Sakura Adası: Batı Sahili",
+          "LocalizedString": "Sakura Adası: Batı Sahili"
+        }
+      },
+      "FTPoint117": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint117_TextData",
+          "SourceString": "Kızıl Uçurum",
+          "LocalizedString": "Kızıl Uçurum"
+        }
+      },
+      "FTPoint118": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint118_TextData",
+          "SourceString": "Yüksek Tepeye Giriş",
+          "LocalizedString": "Yüksek Tepeye Giriş"
+        }
+      },
+      "FTPoint119": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint119_TextData",
+          "SourceString": "Kavisli Kırmızı Kaya",
+          "LocalizedString": "Kavisli Kırmızı Kaya"
+        }
+      },
+      "FTPoint120": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint120_TextData",
+          "SourceString": "Kızıl Seyir Terası",
+          "LocalizedString": "Kızıl Seyir Terası"
+        }
+      },
+      "FTPoint121": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint121_TextData",
+          "SourceString": "Kızıl Labirent Ormanı",
+          "LocalizedString": "Kızıl Labirent Ormanı"
+        }
+      },
+      "FTPoint122": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint122_TextData",
+          "SourceString": "Kristal Dev Ağaç",
+          "LocalizedString": "Kristal Dev Ağaç"
+        }
+      },
+      "FTPoint123": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint123_TextData",
+          "SourceString": "Çorak Arazi Su Kapısı",
+          "LocalizedString": "Çorak Arazi Su Kapısı"
+        }
+      },
+      "FTPoint124": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint124_TextData",
+          "SourceString": "Petrol Gözetleme Tepesi",
+          "LocalizedString": "Petrol Gözetleme Tepesi"
+        }
+      },
+      "FTPoint125": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint125_TextData",
+          "SourceString": "Tuhaf Mantar Uçurumu",
+          "LocalizedString": "Tuhaf Mantar Uçurumu"
+        }
+      },
+      "FTPoint126": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint126_TextData",
+          "SourceString": "Sessiz Göl",
+          "LocalizedString": "Sessiz Göl"
+        }
+      },
+      "FTPoint127": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint127_TextData",
+          "SourceString": "Turkuaz Deniz Uçurumu",
+          "LocalizedString": "Turkuaz Deniz Uçurumu"
+        }
+      },
+      "FTPoint128": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint128_TextData",
+          "SourceString": "Mor Yalnız Uçurum",
+          "LocalizedString": "Mor Yalnız Uçurum"
+        }
+      },
+      "FTPoint129": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint129_TextData",
+          "SourceString": "Sürgünlerin Burnu",
+          "LocalizedString": "Sürgünlerin Burnu"
+        }
+      },
+      "Boss_KingWhale": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "Boss_KingWhale_TextData",
+          "SourceString": "Unutulmuş Issız Ada",
+          "LocalizedString": "Unutulmuş Issız Ada"
+        }
+      },
+      "Boss_Forest": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "Boss_Forest_TextData",
+          "SourceString": "Pal Koruma Cemiyeti Kulesi - Giriş",
+          "LocalizedString": "Pal Koruma Cemiyeti Kulesi - Giriş"
+        }
+      },
+      "WatchTower_1": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_1_TextData",
+          "SourceString": "Rüzgarlı Ada Gözetleme Kulesi",
+          "LocalizedString": "Rüzgarlı Ada Gözetleme Kulesi"
+        }
+      },
+      "WatchTower_2": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_2_TextData",
+          "SourceString": "Doğudaki Issız Ada Gözetleme Kulesi",
+          "LocalizedString": "Doğudaki Issız Ada Gözetleme Kulesi"
+        }
+      },
+      "WatchTower_3": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_3_TextData",
+          "SourceString": "Hilal Gölü Kıyısı Gözetleme Kulesi",
+          "LocalizedString": "Hilal Gölü Kıyısı Gözetleme Kulesi"
+        }
+      },
+      "WatchTower_4": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_4_TextData",
+          "SourceString": "Sıcak Kum Tepeleri Gözetleme Kulesi",
+          "LocalizedString": "Sıcak Kum Tepeleri Gözetleme Kulesi"
+        }
+      },
+      "WatchTower_5": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_5_TextData",
+          "SourceString": "Kumtaşı Platosu Gözetleme Kulesi",
+          "LocalizedString": "Kumtaşı Platosu Gözetleme Kulesi"
+        }
+      },
+      "WatchTower_6": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_6_TextData",
+          "SourceString": "Taze Yeşil Dere Gözetleme Kulesi",
+          "LocalizedString": "Taze Yeşil Dere Gözetleme Kulesi"
+        }
+      },
+      "WatchTower_7": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_7_TextData",
+          "SourceString": "Buz Gelinciği Tepesi Gözetleme Kulesi",
+          "LocalizedString": "Buz Gelinciği Tepesi Gözetleme Kulesi"
+        }
+      },
+      "WatchTower_8": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_8_TextData",
+          "SourceString": "Gümüş Kutsal Zirve Yamacı Gözetleme Kulesi",
+          "LocalizedString": "Gümüş Kutsal Zirve Yamacı Gözetleme Kulesi"
+        }
+      },
+      "WatchTower_9": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_9_TextData",
+          "SourceString": "Bambu Ormanı Vadisi Gözetleme Kulesi",
+          "LocalizedString": "Bambu Ormanı Vadisi Gözetleme Kulesi"
+        }
+      },
+      "WatchTower_10": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_10_TextData",
+          "SourceString": "Deniz Meltemi Takımadaları Gözetleme Kulesi",
+          "LocalizedString": "Deniz Meltemi Takımadaları Gözetleme Kulesi"
+        }
+      },
+      "WatchTower_11": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_11_TextData",
+          "SourceString": "Bambu Ormanının Derinliklerindeki Gözetleme Kulesi",
+          "LocalizedString": "Bambu Ormanının Derinliklerindeki Gözetleme Kulesi"
+        }
+      },
+      "WatchTower_12": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_12_TextData",
+          "SourceString": "Sakura Adası Gözetleme Kulesi",
+          "LocalizedString": "Sakura Adası Gözetleme Kulesi"
+        }
+      },
+      "WatchTower_13": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_13_TextData",
+          "SourceString": "Obsidyen Yanık Topraklar Gözetleme Kulesi",
+          "LocalizedString": "Obsidyen Yanık Topraklar Gözetleme Kulesi"
+        }
+      },
+      "WatchTower_14": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_14_TextData",
+          "SourceString": "Lav Birikintisi Gözetleme Kulesi",
+          "LocalizedString": "Lav Birikintisi Gözetleme Kulesi"
+        }
+      },
+      "WatchTower_15": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_15_TextData",
+          "SourceString": "Kuru Kumsal Gözetleme Kulesi",
+          "LocalizedString": "Kuru Kumsal Gözetleme Kulesi"
+        }
+      },
+      "WatchTower_16": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_16_TextData",
+          "SourceString": "Harabe Kale Şehri Gözetleme Kulesi",
+          "LocalizedString": "Harabe Kale Şehri Gözetleme Kulesi"
+        }
+      },
+      "WatchTower_17": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_17_TextData",
+          "SourceString": "Sarı Toprak Ovaları Gözetleme Kulesi",
+          "LocalizedString": "Sarı Toprak Ovaları Gözetleme Kulesi"
+        }
+      },
+      "WatchTower_18": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_18_TextData",
+          "SourceString": "Kavurucu Fay Hattı Gözetleme Kulesi",
+          "LocalizedString": "Kavurucu Fay Hattı Gözetleme Kulesi"
+        }
+      },
+      "WatchTower_19": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_19_TextData",
+          "SourceString": "Yakıcı Plato Gözetleme Kulesi",
+          "LocalizedString": "Yakıcı Plato Gözetleme Kulesi"
+        }
+      },
+      "WatchTower_20": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_20_TextData",
+          "SourceString": "Donmuş Mercan Tepesi Gözetleme Kulesi",
+          "LocalizedString": "Donmuş Mercan Tepesi Gözetleme Kulesi"
+        }
+      },
+      "WatchTower_21": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_21_TextData",
+          "SourceString": "Sıcak Rüzgar Yabanı Gözetleme Kulesi",
+          "LocalizedString": "Sıcak Rüzgar Yabanı Gözetleme Kulesi"
+        }
+      },
+      "WatchTower_22": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_22_TextData",
+          "SourceString": "Gökgüneş Diyarı Gözetleme Kulesi",
+          "LocalizedString": "Gökgüneş Diyarı Gözetleme Kulesi"
+        }
+      },
+      "SkyIsland_A": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SkyIsland_A_TextData",
+          "SourceString": "Göksel Cennet",
+          "LocalizedString": "Göksel Cennet"
+        }
+      },
+      "SkyIsland_B": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SkyIsland_B_TextData",
+          "SourceString": "Kristal Takımadaları",
+          "LocalizedString": "Kristal Takımadaları"
+        }
+      },
+      "SkyIsland_C": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SkyIsland_C_TextData",
+          "SourceString": "Nilüferli Dağ Geçidi",
+          "LocalizedString": "Nilüferli Dağ Geçidi"
+        }
+      },
+      "SkyIsland_D": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SkyIsland_D_TextData",
+          "SourceString": "Gökyüzü Mavisi Yarık Bölge",
+          "LocalizedString": "Gökyüzü Mavisi Yarık Bölge"
+        }
+      },
+      "SkyIsland_E": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SkyIsland_E_TextData",
+          "SourceString": "Bulut-Çamur Bataklığı",
+          "LocalizedString": "Bulut-Çamur Bataklığı"
+        }
+      },
+      "SkyIsland_BOSS": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SkyIsland_BOSS_TextData",
+          "SourceString": "Ahit Kulesi Girişi",
+          "LocalizedString": "Ahit Kulesi Girişi"
+        }
+      },
+      "WorldTree_A": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_A_TextData",
+          "SourceString": "Kutsal Yeşil Dağ Eteği Ovaları",
+          "LocalizedString": "Kutsal Yeşil Dağ Eteği Ovaları"
+        }
+      },
+      "WorldTree_B": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_B_TextData",
+          "SourceString": "Davetkar Morsalkım Ormanı",
+          "LocalizedString": "Davetkar Morsalkım Ormanı"
+        }
+      },
+      "WorldTree_C_1": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_C_1_TextData",
+          "SourceString": "Sarı Tozlu Kanyon",
+          "LocalizedString": "Sarı Tozlu Kanyon"
+        }
+      },
+      "WorldTree_C_2": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_C_2_TextData",
+          "SourceString": "Kadavraların Nehir Kıyısı",
+          "LocalizedString": "Kadavraların Nehir Kıyısı"
+        }
+      },
+      "WorldTree_D": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_D_TextData",
+          "SourceString": "Çürümüş Ağaç Kovuğu",
+          "LocalizedString": "Çürümüş Ağaç Kovuğu"
+        }
+      },
+      "WorldTree_E": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_E_TextData",
+          "SourceString": "Kutsal Şelale Gölü Kıyısı",
+          "LocalizedString": "Kutsal Şelale Gölü Kıyısı"
+        }
+      },
+      "WorldTree_I": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_I_TextData",
+          "SourceString": "Kutsal Buz Dağ Sırası",
+          "LocalizedString": "Kutsal Buz Dağ Sırası"
+        }
+      },
+      "WorldTree_L": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_L_TextData",
+          "SourceString": "Spor Koridoru",
+          "LocalizedString": "Spor Koridoru"
+        }
+      },
+      "WorldTree_M": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_M_TextData",
+          "SourceString": "Kutsal Gözyaşı Sığlığı",
+          "LocalizedString": "Kutsal Gözyaşı Sığlığı"
+        }
+      },
+      "WorldTree_N": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_N_TextData",
+          "SourceString": "Altın Terk Edilmiş Şehir",
+          "LocalizedString": "Altın Terk Edilmiş Şehir"
+        }
+      },
+      "WorldTree_lab": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_lab_TextData",
+          "SourceString": "Terk Edilmiş Araştırma Laboratuvarı",
+          "LocalizedString": "Terk Edilmiş Araştırma Laboratuvarı"
+        }
+      },
+      "WorldTree_LastBoss": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_LastBoss_TextData",
+          "SourceString": "Mühürlü Oda",
+          "LocalizedString": "Mühürlü Oda"
+        }
+      },
+      "WatchTower_WorldTree_1": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_WorldTree_1_TextData",
+          "SourceString": "Sarı Tozlu Kanyondaki Gözetleme Kulesi",
+          "LocalizedString": "Sarı Tozlu Kanyondaki Gözetleme Kulesi"
+        }
+      },
+      "WatchTower_WorldTree_2": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_WorldTree_2_TextData",
+          "SourceString": "Altın Harabelerdeki Gözetleme Kulesi",
+          "LocalizedString": "Altın Harabelerdeki Gözetleme Kulesi"
+        }
+      },
+      "New_SmallIsland01": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "New_SmallIsland01_TextData",
+          "SourceString": "Çember Kalıntılardaki Issız Ada",
+          "LocalizedString": "Çember Kalıntılardaki Issız Ada"
+        }
+      },
+      "New_SmallIsland02": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "New_SmallIsland02_TextData",
+          "SourceString": "Ateş Enerji Hattındaki Issız Ada",
+          "LocalizedString": "Ateş Enerji Hattındaki Issız Ada"
+        }
+      },
+      "New_SmallIsland03": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "New_SmallIsland03_TextData",
+          "SourceString": "Rüzgarla Aşınmış Issız Ada",
+          "LocalizedString": "Rüzgarla Aşınmış Issız Ada"
+        }
+      },
+      "New_SmallIsland04": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "New_SmallIsland04_TextData",
+          "SourceString": "Çift Boynuzlu Issız Ada",
+          "LocalizedString": "Çift Boynuzlu Issız Ada"
+        }
+      },
+      "New_SmallIsland05": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "New_SmallIsland05_TextData",
+          "SourceString": "Donmuş Çember Kalıntılarındaki Issız Ada",
+          "LocalizedString": "Donmuş Çember Kalıntılarındaki Issız Ada"
+        }
+      },
+      "New_SmallIsland06": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "New_SmallIsland06_TextData",
+          "SourceString": "Kumtaşı Geçidindeki Issız Ada",
+          "LocalizedString": "Kumtaşı Geçidindeki Issız Ada"
+        }
+      },
+      "New_SmallIsland07": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "New_SmallIsland07_TextData",
+          "SourceString": "Güneş Desenli Issız Ada",
+          "LocalizedString": "Güneş Desenli Issız Ada"
+        }
+      },
+      "FootOfWorldTree": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FootOfWorldTree_TextData",
+          "SourceString": "Dünya Ağacı Etekleri",
+          "LocalizedString": "Dünya Ağacı Etekleri"
+        }
+      },
+      "WorldTree_MiddleBoss_1": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_MiddleBoss_1_TextData",
+          "SourceString": "Çürütücü Sisin Kaynağı",
+          "LocalizedString": "Çürütücü Sisin Kaynağı"
+        }
+      },
+      "WorldTree_MiddleBoss_2": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_MiddleBoss_2_TextData",
+          "SourceString": "Fosforlu Sporların Kaynağı",
+          "LocalizedString": "Fosforlu Sporların Kaynağı"
+        }
+      },
+      "WorldTree_MiddleBoss_3": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_MiddleBoss_3_TextData",
+          "SourceString": "Yasaklı Araştırma Laboratuvarı",
+          "LocalizedString": "Yasaklı Araştırma Laboratuvarı"
+        }
+      }
+    }
+  }
+]

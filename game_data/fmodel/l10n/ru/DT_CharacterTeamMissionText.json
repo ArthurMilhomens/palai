@@ -1,0 +1,160 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_CharacterTeamMissionText",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "DUNGEON_GRASS": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_GRASS_TextData",
+          "SourceString": "Пещера на равнине",
+          "LocalizedString": "Пещера на равнине"
+        }
+      },
+      "DUNGEON_FOREST": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_FOREST_TextData",
+          "SourceString": "Неизведанные чертоги леса",
+          "LocalizedString": "Неизведанные чертоги леса"
+        }
+      },
+      "DUNGEON_VOLCANO": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_VOLCANO_TextData",
+          "SourceString": "Раскалённая пещера на вулкане",
+          "LocalizedString": "Раскалённая пещера на вулкане"
+        }
+      },
+      "DUNGEON_DESERT": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_DESERT_TextData",
+          "SourceString": "Скрытые руины в пустыне",
+          "LocalizedString": "Скрытые руины в пустыне"
+        }
+      },
+      "DUNGEON_SNOW": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_SNOW_TextData",
+          "SourceString": "Ледяная пещера на заснеженной горе",
+          "LocalizedString": "Ледяная пещера на заснеженной горе"
+        }
+      },
+      "DUNGEON_SAKURAJIMA": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_SAKURAJIMA_TextData",
+          "SourceString": "Пещера призрачных цветов на Сакурадзиме",
+          "LocalizedString": "Пещера призрачных цветов на Сакурадзиме"
+        }
+      },
+      "DUNGEON_DARKISLAND": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_DARKISLAND_TextData",
+          "SourceString": "Логово Тэнраку",
+          "LocalizedString": "Логово Тэнраку"
+        }
+      },
+      "DUNGEON_GRASSHARD": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_GRASSHARD_TextData",
+          "SourceString": "Тайный склад контрабанды Браконьеров Рейн",
+          "LocalizedString": "Тайный склад контрабанды Браконьеров Рейн"
+        }
+      },
+      "DUNGEON_FORESTHARD": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_FORESTHARD_TextData",
+          "SourceString": "Подпольная биржа Организации по Защите Палов",
+          "LocalizedString": "Подпольная биржа Организации по Защите Палов"
+        }
+      },
+      "DUNGEON_VOLCANOHARD": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_VOLCANOHARD_TextData",
+          "SourceString": "Чёрный рынок Братства Вечного Пламени",
+          "LocalizedString": "Чёрный рынок Братства Вечного Пламени"
+        }
+      },
+      "DUNGEON_DESERTHARD": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_DESERTHARD_TextData",
+          "SourceString": "Нелегальный завод Вигилантов",
+          "LocalizedString": "Нелегальный завод Вигилантов"
+        }
+      },
+      "DUNGEON_SNOWHARD": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_SNOWHARD_TextData",
+          "SourceString": "Лаборатория отряда Генетических Исследований",
+          "LocalizedString": "Лаборатория отряда Генетических Исследований"
+        }
+      },
+      "DUNGEON_SAKURAJIMAHARD": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_SAKURAJIMAHARD_TextData",
+          "SourceString": "Тайная база Лунных Цветов",
+          "LocalizedString": "Тайная база Лунных Цветов"
+        }
+      },
+      "DUNGEON_DARKISLANDHARD": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_DARKISLANDHARD_TextData",
+          "SourceString": "Древние руины Тэнраку",
+          "LocalizedString": "Древние руины Тэнраку"
+        }
+      },
+      "DUNGEON_SKYISLAND": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_SKYISLAND_TextData",
+          "SourceString": "Остров Санрича",
+          "LocalizedString": "Остров Санрича"
+        }
+      },
+      "DUNGEON_WORLDTREE": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_WORLDTREE_TextData",
+          "SourceString": "Руины подземного города у Мирового Древа",
+          "LocalizedString": "Руины подземного города у Мирового Древа"
+        }
+      },
+      "DUNGEON_SKYISLANDHARD": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_SKYISLANDHARD_TextData",
+          "SourceString": "Пещера драконьих останков Санрича",
+          "LocalizedString": "Пещера драконьих останков Санрича"
+        }
+      },
+      "DUNGEON_WORLDTREEHARD": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_WORLDTREEHARD_TextData",
+          "SourceString": "Запретная зона Мирового Древа",
+          "LocalizedString": "Запретная зона Мирового Древа"
+        }
+      }
+    }
+  }
+]

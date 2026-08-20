@@ -289,6 +289,8 @@ model Item {
   name          String
   description   String?
   iconUrl       String?
+  /// "item" (default) or "build" (placeable structure)
+  kind          String   @default("item")
   rarity        Int?
   weight        Float?
   price         Int?
@@ -306,6 +308,7 @@ model Item {
 
   @@unique([internalName, gameVersionId])
   @@index([gameVersionId])
+  @@index([gameVersionId, kind])
 }
 
 model Recipe {

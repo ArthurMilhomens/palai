@@ -2,9 +2,8 @@
   {
     "Type": "CompositeDataTable",
     "Name": "DT_MapObjectItemProductDataTable",
-    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'CompositeDataTable'",
-    "Package": "Pal/Content/Pal/DataTable/MapObject/DT_MapObjectItemProductDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "ParentTables": [
         {
@@ -46,7 +45,7 @@
       "OilPump": {
         "Product_Id": "CrudeOil",
         "RequiredWorkAmount": 8000.0,
-        "AutoWorkAmountBySec": 120.0
+        "AutoWorkAmountBySec": 150.0
       },
       "CoalPit": {
         "Product_Id": "Coal",
@@ -91,7 +90,7 @@
       "OilPump02": {
         "Product_Id": "CrudeOil",
         "RequiredWorkAmount": 8000.0,
-        "AutoWorkAmountBySec": 120.0
+        "AutoWorkAmountBySec": 150.0
       },
       "ManganesePit": {
         "Product_Id": "ManganeseOre",

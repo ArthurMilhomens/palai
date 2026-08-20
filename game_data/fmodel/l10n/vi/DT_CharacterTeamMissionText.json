@@ -1,0 +1,160 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_CharacterTeamMissionText",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "DUNGEON_GRASS": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_GRASS_TextData",
+          "SourceString": "Hang Động Trên Thảo Nguyên",
+          "LocalizedString": "Hang Động Trên Thảo Nguyên"
+        }
+      },
+      "DUNGEON_FOREST": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_FOREST_TextData",
+          "SourceString": "Cấm Địa Nơi Rừng Rậm",
+          "LocalizedString": "Cấm Địa Nơi Rừng Rậm"
+        }
+      },
+      "DUNGEON_VOLCANO": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_VOLCANO_TextData",
+          "SourceString": "Hang Động Núi Lửa Rực Cháy",
+          "LocalizedString": "Hang Động Núi Lửa Rực Cháy"
+        }
+      },
+      "DUNGEON_DESERT": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_DESERT_TextData",
+          "SourceString": "Tàn Tích Ẩn Mình Nơi Sa Mạc",
+          "LocalizedString": "Tàn Tích Ẩn Mình Nơi Sa Mạc"
+        }
+      },
+      "DUNGEON_SNOW": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_SNOW_TextData",
+          "SourceString": "Hang Băng Trên Núi Tuyết",
+          "LocalizedString": "Hang Băng Trên Núi Tuyết"
+        }
+      },
+      "DUNGEON_SAKURAJIMA": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_SAKURAJIMA_TextData",
+          "SourceString": "Hang Đảo Hoa Đào Kỳ Diệu",
+          "LocalizedString": "Hang Đảo Hoa Đào Kỳ Diệu"
+        }
+      },
+      "DUNGEON_DARKISLAND": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_DARKISLAND_TextData",
+          "SourceString": "Hang Động Feybreak U Ám",
+          "LocalizedString": "Hang Động Feybreak U Ám"
+        }
+      },
+      "DUNGEON_GRASSHARD": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_GRASSHARD_TextData",
+          "SourceString": "Kho Hàng Của Tổ Chức Săn Trộm Rayne",
+          "LocalizedString": "Kho Hàng Của Tổ Chức Săn Trộm Rayne"
+        }
+      },
+      "DUNGEON_FORESTHARD": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_FORESTHARD_TextData",
+          "SourceString": "Điểm Giao Dịch Ngầm Của Tổ Chức Bảo Vệ Pal",
+          "LocalizedString": "Điểm Giao Dịch Ngầm Của Tổ Chức Bảo Vệ Pal"
+        }
+      },
+      "DUNGEON_VOLCANOHARD": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_VOLCANOHARD_TextData",
+          "SourceString": "Chợ Đen Của Đồng Minh Ngọn Lửa Vĩnh Cửu",
+          "LocalizedString": "Chợ Đen Của Đồng Minh Ngọn Lửa Vĩnh Cửu"
+        }
+      },
+      "DUNGEON_DESERTHARD": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_DESERTHARD_TextData",
+          "SourceString": "Nhà Máy Chui Của Đội Tự Vệ",
+          "LocalizedString": "Nhà Máy Chui Của Đội Tự Vệ"
+        }
+      },
+      "DUNGEON_SNOWHARD": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_SNOWHARD_TextData",
+          "SourceString": "Sở Nghiên Cứu Của Đơn Vị Nghiên Cứu Gen",
+          "LocalizedString": "Sở Nghiên Cứu Của Đơn Vị Nghiên Cứu Gen"
+        }
+      },
+      "DUNGEON_SAKURAJIMAHARD": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_SAKURAJIMAHARD_TextData",
+          "SourceString": "Căn Cứ Bí Mật Của Gia Tộc Hoa Mặt Trăng",
+          "LocalizedString": "Căn Cứ Bí Mật Của Gia Tộc Hoa Mặt Trăng"
+        }
+      },
+      "DUNGEON_DARKISLANDHARD": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_DARKISLANDHARD_TextData",
+          "SourceString": "Di Tích Cổ Feybreak",
+          "LocalizedString": "Di Tích Cổ Feybreak"
+        }
+      },
+      "DUNGEON_SKYISLAND": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_SKYISLAND_TextData",
+          "SourceString": "Đảo Nổi Miền Ánh Dương",
+          "LocalizedString": "Đảo Nổi Miền Ánh Dương"
+        }
+      },
+      "DUNGEON_WORLDTREE": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_WORLDTREE_TextData",
+          "SourceString": "Di Tích Thành Phố Ngầm Của Cây Thế giới",
+          "LocalizedString": "Di Tích Thành Phố Ngầm Của Cây Thế giới"
+        }
+      },
+      "DUNGEON_SKYISLANDHARD": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_SKYISLANDHARD_TextData",
+          "SourceString": "Động Xương Rồng Miền Ánh Dương",
+          "LocalizedString": "Động Xương Rồng Miền Ánh Dương"
+        }
+      },
+      "DUNGEON_WORLDTREEHARD": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_WORLDTREEHARD_TextData",
+          "SourceString": "Cấm Địa Cây Thế giới",
+          "LocalizedString": "Cấm Địa Cây Thế giới"
+        }
+      }
+    }
+  }
+]

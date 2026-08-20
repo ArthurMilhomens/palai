@@ -14,6 +14,9 @@ services:
       interval: 5s
       timeout: 5s
       retries: 10
+    restart: unless-stopped
+    networks:
+      - palai
 
   redis:
     image: redis:7-alpine
@@ -24,23 +27,36 @@ services:
       interval: 5s
       timeout: 3s
       retries: 10
+    restart: unless-stopped
+    networks:
+      - palai
 
   opensearch:
     image: opensearchproject/opensearch:2.17.1
     environment:
       discovery.type: single-node
       plugins.security.disabled: "true"
-      OPENSEARCH_JAVA_OPTS: "-Xms512m -Xmx512m"
       DISABLE_INSTALL_DEMO_CONFIG: "true"
+      OPENSEARCH_JAVA_OPTS: "-Xms512m -Xmx512m"
     ports:
       - "9200:9200"
     volumes:
       - opensearch_data:/usr/share/opensearch/data
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+      nofile:
+        soft: 65536
+        hard: 65536
     healthcheck:
       test: ["CMD-SHELL", "curl -sf http://localhost:9200/_cluster/health || exit 1"]
       interval: 10s
       timeout: 5s
       retries: 20
+    restart: unless-stopped
+    networks:
+      - palai
 
   minio:
     image: minio/minio:latest
@@ -58,22 +74,91 @@ services:
       interval: 10s
       timeout: 5s
       retries: 10
+    restart: unless-stopped
+    networks:
+      - palai
 
   minio-init:
     image: minio/mc:latest
     depends_on:
       minio:
-        condition: service_started
+        condition: service_healthy
+    networks:
+      - palai
     entrypoint: >
       /bin/sh -c "
-      sleep 3;
       mc alias set local http://minio:9000 palai palaisecret;
       mc mb -p local/palai || true;
       mc anonymous set download local/palai/icons || true;
       exit 0;
       "
 
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      NODE_ENV: production
+      HOST: 0.0.0.0
+      PORT: 3000
+      LOG_LEVEL: info
+      DATABASE_URL: postgresql://palai:palai@postgres:5432/palai?schema=public
+      REDIS_URL: redis://redis:6379
+      OPENSEARCH_NODE: http://opensearch:9200
+      S3_ENDPOINT: http://minio:9000
+      S3_REGION: us-east-1
+      S3_ACCESS_KEY_ID: palai
+      S3_SECRET_ACCESS_KEY: palaisecret
+      S3_BUCKET: palai
+      S3_PUBLIC_URL: http://localhost:9000/palai
+      S3_FORCE_PATH_STYLE: "true"
+      JWT_ACCESS_SECRET: ${JWT_ACCESS_SECRET:-change-me-to-a-long-random-secret-at-least-32-chars}
+      JWT_ACCESS_TTL: 15m
+      REFRESH_TOKEN_TTL_DAYS: 30
+      BOOTSTRAP_ADMIN_EMAIL: ${BOOTSTRAP_ADMIN_EMAIL:-admin@palai.local}
+      BOOTSTRAP_ADMIN_PASSWORD: ${BOOTSTRAP_ADMIN_PASSWORD:-ChangeMeAdmin123!}
+      CORS_ORIGIN: ${CORS_ORIGIN:-http://localhost,http://localhost:80,http://localhost:8080,http://localhost:5173}
+      RATE_LIMIT_MAX: 200
+      RATE_LIMIT_TIME_WINDOW_MS: 60000
+      CACHE_TTL_SECONDS: 300
+      UPLOAD_MAX_BYTES: 314572800
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      opensearch:
+        condition: service_healthy
+      minio:
+        condition: service_healthy
+      minio-init:
+        condition: service_completed_successfully
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "node",
+          "-e",
+          "fetch('http://127.0.0.1:3000/health').then((r)=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))",
+        ]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+      start_period: 40s
+    restart: unless-stopped
+    networks:
+      - palai
+
 volumes:
   postgres_data:
+    name: palai_postgres_data
   opensearch_data:
+    name: palai_opensearch_data
   minio_data:
+    name: palai_minio_data
+
+networks:
+  palai:
+    name: palai

@@ -2,9 +2,8 @@
   {
     "Type": "DataTable",
     "Name": "DT_BuildObjectDescText_Common",
-    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'DataTable'",
-    "Package": "Pal/Content/L10N/en/Pal/DataTable/Text/DT_BuildObjectDescText_Common",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "RowStruct": {
         "ObjectName": "ScriptStruct'PalLocalizedTextData'",
@@ -616,8 +615,8 @@
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_WeaponFactory_Dirty_01_TextData",
-          "SourceString": "A <mapObjectName id=|WorkBench|/> for producing weapons and ammunition.\r\nA small workspace prevents the production of high quality weapons.\r\nRequires Pals that can work with their hands.",
-          "LocalizedString": "A <mapObjectName id=|WorkBench|/> for producing weapons and ammunition.\r\nA small workspace prevents the production of high quality weapons.\r\nRequires Pals that can work with their hands."
+          "SourceString": "A Primitive Workbench for producing weapons and ammunition.\r\nA small workspace prevents the production of high quality weapons.\r\nRequires Pals that can work with their hands.",
+          "LocalizedString": "A Primitive Workbench for producing weapons and ammunition.\r\nA small workspace prevents the production of high quality weapons.\r\nRequires Pals that can work with their hands."
         }
       },
       "BUILDOBJECT_DESC_WeaponFactory_Dirty_02": {
@@ -1296,32 +1295,32 @@
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_Barrel_Wood_TextData",
-          "SourceString": "Wooden barrel for storing items.",
-          "LocalizedString": "Wooden barrel for storing items."
+          "SourceString": "Wooden barrel for storing items.\r\n",
+          "LocalizedString": "Wooden barrel for storing items.\r\n"
         }
       },
       "BUILDOBJECT_DESC_Box_Wood": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_Box_Wood_TextData",
-          "SourceString": "Wooden box for storing items.",
-          "LocalizedString": "Wooden box for storing items."
+          "SourceString": "Wooden box for storing items.\r\n",
+          "LocalizedString": "Wooden box for storing items.\r\n"
         }
       },
       "BUILDOBJECT_DESC_Shelf_Wood": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_Shelf_Wood_TextData",
-          "SourceString": "Wooden shelf for storing items.",
-          "LocalizedString": "Wooden shelf for storing items."
+          "SourceString": "Wooden shelf for storing items.\r\n",
+          "LocalizedString": "Wooden shelf for storing items.\r\n"
         }
       },
       "BUILDOBJECT_DESC_Shelf_Cask_Wood": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_Shelf_Cask_Wood_TextData",
-          "SourceString": "Wooden barrel shelf for storing items.",
-          "LocalizedString": "Wooden barrel shelf for storing items."
+          "SourceString": "Wooden barrel shelf for storing items.\r\n",
+          "LocalizedString": "Wooden barrel shelf for storing items.\r\n"
         }
       },
       "BUILDOBJECT_DESC_Shelf_Hang01_Wood": {
@@ -1360,24 +1359,24 @@
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_Ivy01_TextData",
-          "SourceString": "Decorative large ivy.\r\nCan be placed on a wall.\r\n",
-          "LocalizedString": "Decorative large ivy.\r\nCan be placed on a wall.\r\n"
+          "SourceString": "Decorative large ivy.\r\nCan be placed on a wall.",
+          "LocalizedString": "Decorative large ivy.\r\nCan be placed on a wall."
         }
       },
       "BUILDOBJECT_DESC_Ivy02": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_Ivy02_TextData",
-          "SourceString": "Decorative small ivy.\r\nCan be placed on a wall.\r\n",
-          "LocalizedString": "Decorative small ivy.\r\nCan be placed on a wall.\r\n"
+          "SourceString": "Decorative small ivy.\r\nCan be placed on a wall.",
+          "LocalizedString": "Decorative small ivy.\r\nCan be placed on a wall."
         }
       },
       "BUILDOBJECT_DESC_Ivy03": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_Ivy03_TextData",
-          "SourceString": "Decorative horizontal ivy.\r\nCan be placed on a wall.\r\n",
-          "LocalizedString": "Decorative horizontal ivy.\r\nCan be placed on a wall.\r\n"
+          "SourceString": "Decorative horizontal ivy.\r\nCan be placed on a wall.",
+          "LocalizedString": "Decorative horizontal ivy.\r\nCan be placed on a wall."
         }
       },
       "BUILDOBJECT_DESC_Chair01_Wood": {
@@ -1416,16 +1415,16 @@
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_Box01_Iron_TextData",
-          "SourceString": "Small container for storing items.",
-          "LocalizedString": "Small container for storing items."
+          "SourceString": "Small container for storing items.\r\n",
+          "LocalizedString": "Small container for storing items.\r\n"
         }
       },
       "BUILDOBJECT_DESC_Box02_Iron": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_Box02_Iron_TextData",
-          "SourceString": "Cloth covered container for storing items.",
-          "LocalizedString": "Cloth covered container for storing items."
+          "SourceString": "Cloth covered container for storing items.\r\n",
+          "LocalizedString": "Cloth covered container for storing items.\r\n"
         }
       },
       "BUILDOBJECT_DESC_CableCoil01_Iron": {
@@ -1448,8 +1447,8 @@
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_Chair02_Iron_TextData",
-          "SourceString": "Decorative wooden chair.\r\n",
-          "LocalizedString": "Decorative wooden chair.\r\n"
+          "SourceString": "Decorative iron chair.\r\n",
+          "LocalizedString": "Decorative iron chair.\r\n"
         }
       },
       "BUILDOBJECT_DESC_Clock01_Wall_Iron": {
@@ -1512,16 +1511,16 @@
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_Shelf01_Iron_TextData",
-          "SourceString": "Iron shelf for storing items.",
-          "LocalizedString": "Iron shelf for storing items."
+          "SourceString": "Iron shelf for storing items.\r\n",
+          "LocalizedString": "Iron shelf for storing items.\r\n"
         }
       },
       "BUILDOBJECT_DESC_Shelf02_Iron": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_Shelf02_Iron_TextData",
-          "SourceString": "Long iron shelf for storing items.",
-          "LocalizedString": "Long iron shelf for storing items."
+          "SourceString": "Long iron shelf for storing items.\r\n",
+          "LocalizedString": "Long iron shelf for storing items.\r\n"
         }
       },
       "BUILDOBJECT_DESC_Shelf03_Iron": {
@@ -1544,16 +1543,16 @@
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_SignExit_Ceiling_Iron_TextData",
-          "SourceString": "Decorative emergency exit sign.\r\nCan be placed on ceilings.\r\n",
-          "LocalizedString": "Decorative emergency exit sign.\r\nCan be placed on ceilings.\r\n"
+          "SourceString": "Decorative emergency exit sign.\r\nCan be placed on ceilings.",
+          "LocalizedString": "Decorative emergency exit sign.\r\nCan be placed on ceilings."
         }
       },
       "BUILDOBJECT_DESC_SignExit_Wall_Iron": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_SignExit_Wall_Iron_TextData",
-          "SourceString": "Decorative emergency exit sign.\r\nCan be placed on walls.\r\n",
-          "LocalizedString": "Decorative emergency exit sign.\r\nCan be placed on walls.\r\n"
+          "SourceString": "Decorative emergency exit sign.\r\nCan be placed on walls.",
+          "LocalizedString": "Decorative emergency exit sign.\r\nCan be placed on walls."
         }
       },
       "BUILDOBJECT_DESC_Sofa01_Iron": {
@@ -2232,8 +2231,8 @@
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_Chair01_Pal_TextData",
-          "SourceString": "Cute decorative chair.",
-          "LocalizedString": "Cute decorative chair."
+          "SourceString": "Cute decorative chair.\r\n",
+          "LocalizedString": "Cute decorative chair.\r\n"
         }
       },
       "BUILDOBJECT_DESC_Altar": {
@@ -2968,56 +2967,56 @@
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_Wire_Fence_TextData",
-          "SourceString": "Decorative wired fence.",
-          "LocalizedString": "Decorative wired fence."
+          "SourceString": "Decorative wired fence.\r\n",
+          "LocalizedString": "Decorative wired fence.\r\n"
         }
       },
       "BUILDOBJECT_DESC_LilyQueenStatue": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_LilyQueenStatue_TextData",
-          "SourceString": "Decorative Lyleen statue.",
-          "LocalizedString": "Decorative Lyleen statue."
+          "SourceString": "Decorative Lyleen statue.\r\n",
+          "LocalizedString": "Decorative Lyleen statue.\r\n"
         }
       },
       "BUILDOBJECT_DESC_ConservationGroupBannerA": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_ConservationGroupBannerA_TextData",
-          "SourceString": "Decorative Free Pal Alliance flag.",
-          "LocalizedString": "Decorative Free Pal Alliance flag."
+          "SourceString": "Decorative Free Pal Alliance flag.\r\n",
+          "LocalizedString": "Decorative Free Pal Alliance flag.\r\n"
         }
       },
       "BUILDOBJECT_DESC_ConservationGroupBannerB": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_ConservationGroupBannerB_TextData",
-          "SourceString": "Decorative Free Pal Alliance horizontal banner.",
-          "LocalizedString": "Decorative Free Pal Alliance horizontal banner."
+          "SourceString": "Decorative Free Pal Alliance horizontal banner.\r\n",
+          "LocalizedString": "Decorative Free Pal Alliance horizontal banner.\r\n"
         }
       },
       "BUILDOBJECT_DESC_Hunter_GangFlag": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_Hunter_GangFlag_TextData",
-          "SourceString": "Decorative Rayne Syndicate flag.",
-          "LocalizedString": "Decorative Rayne Syndicate flag."
+          "SourceString": "Decorative Rayne Syndicate flag.\r\n",
+          "LocalizedString": "Decorative Rayne Syndicate flag.\r\n"
         }
       },
       "BUILDOBJECT_DESC_PalCage": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_PalCage_TextData",
-          "SourceString": "Decorative aerial cage.",
-          "LocalizedString": "Decorative aerial cage."
+          "SourceString": "Decorative aerial cage.\r\n",
+          "LocalizedString": "Decorative aerial cage.\r\n"
         }
       },
       "BUILDOBJECT_DESC_WoodenBarricade": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_WoodenBarricade_TextData",
-          "SourceString": "Decorative wooden barricade.",
-          "LocalizedString": "Decorative wooden barricade."
+          "SourceString": "Decorative wooden barricade.\r\n",
+          "LocalizedString": "Decorative wooden barricade.\r\n"
         }
       },
       "BUILDOBJECT_DESC_WallTorch02": {
@@ -3096,24 +3095,24 @@
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_LanternTop_TextData",
-          "SourceString": "Decorative paper lantern.",
-          "LocalizedString": "Decorative paper lantern."
+          "SourceString": "Decorative paper lantern.\r\n",
+          "LocalizedString": "Decorative paper lantern.\r\n"
         }
       },
       "BUILDOBJECT_DESC_Shrine_Lantern": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_Shrine_Lantern_TextData",
-          "SourceString": "Decorative red wooden lantern.",
-          "LocalizedString": "Decorative red wooden lantern."
+          "SourceString": "Decorative red wooden lantern.\r\n",
+          "LocalizedString": "Decorative red wooden lantern.\r\n"
         }
       },
       "BUILDOBJECT_DESC_GuardianDogStatue": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_GuardianDogStatue_TextData",
-          "SourceString": "Decorative Yakumo statue.",
-          "LocalizedString": "Decorative Yakumo statue."
+          "SourceString": "Decorative Yakumo statue.\r\n",
+          "LocalizedString": "Decorative Yakumo statue.\r\n"
         }
       },
       "BUILDOBJECT_DESC_SF_foundation": {
@@ -3192,56 +3191,56 @@
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_SF_Desk_TextData",
-          "SourceString": "Decorative laboratory desk.",
-          "LocalizedString": "Decorative laboratory desk."
+          "SourceString": "Decorative laboratory desk.\r\n",
+          "LocalizedString": "Decorative laboratory desk.\r\n"
         }
       },
       "BUILDOBJECT_DESC_SF_Chair": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_SF_Chair_TextData",
-          "SourceString": "Decorative laboratory chair.",
-          "LocalizedString": "Decorative laboratory chair."
+          "SourceString": "Decorative laboratory chair.\r\n",
+          "LocalizedString": "Decorative laboratory chair.\r\n"
         }
       },
       "BUILDOBJECT_DESC_Hunter_Flag": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_Hunter_Flag_TextData",
-          "SourceString": "Decorative Rayne Syndicate Standard.",
-          "LocalizedString": "Decorative Rayne Syndicate Standard."
+          "SourceString": "Decorative Rayne Syndicate Standard.\r\n",
+          "LocalizedString": "Decorative Rayne Syndicate Standard.\r\n"
         }
       },
       "BUILDOBJECT_DESC_Hunter_Banner": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_Hunter_Banner_TextData",
-          "SourceString": "Decorative Rayne Syndicate Vertical Banner.",
-          "LocalizedString": "Decorative Rayne Syndicate Vertical Banner."
+          "SourceString": "Decorative Rayne Syndicate Vertical Banner.\r\n",
+          "LocalizedString": "Decorative Rayne Syndicate Vertical Banner.\r\n"
         }
       },
       "BUILDOBJECT_DESC_Believer_Flag": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_Believer_Flag_TextData",
-          "SourceString": "Decorative Free Pal Alliance Standard.",
-          "LocalizedString": "Decorative Free Pal Alliance Standard."
+          "SourceString": "Decorative Free Pal Alliance Standard.\r\n",
+          "LocalizedString": "Decorative Free Pal Alliance Standard.\r\n"
         }
       },
       "BUILDOBJECT_DESC_Believer_Banner": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_Believer_Banner_TextData",
-          "SourceString": "Decorative Free Pal Alliance Vertical Banner.",
-          "LocalizedString": "Decorative Free Pal Alliance Vertical Banner."
+          "SourceString": "Decorative Free Pal Alliance Vertical Banner.\r\n",
+          "LocalizedString": "Decorative Free Pal Alliance Vertical Banner.\r\n"
         }
       },
       "BUILDOBJECT_DESC_FireCult_Flag": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_FireCult_Flag_TextData",
-          "SourceString": "Decorative Brothers of the Eternal Pyre Standard.",
-          "LocalizedString": "Decorative Brothers of the Eternal Pyre Standard."
+          "SourceString": "Decorative Brothers of the Eternal Pyre Standard.\r\n",
+          "LocalizedString": "Decorative Brothers of the Eternal Pyre Standard.\r\n"
         }
       },
       "BUILDOBJECT_DESC_FireCult_Banner": {
@@ -3256,24 +3255,24 @@
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_Police_Flag_TextData",
-          "SourceString": "Decorative PIDF Standard.",
-          "LocalizedString": "Decorative PIDF Standard."
+          "SourceString": "Decorative PIDF Standard.\r\n",
+          "LocalizedString": "Decorative PIDF Standard.\r\n"
         }
       },
       "BUILDOBJECT_DESC_Police_Banner": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_Police_Banner_TextData",
-          "SourceString": "Decorative PIDF Vertical Banner.",
-          "LocalizedString": "Decorative PIDF Vertical Banner."
+          "SourceString": "Decorative PIDF Vertical Banner.\r\n",
+          "LocalizedString": "Decorative PIDF Vertical Banner.\r\n"
         }
       },
       "BUILDOBJECT_DESC_Scientist_Flag": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_Scientist_Flag_TextData",
-          "SourceString": "Decorative PAL Genetic Research Unit Standard.",
-          "LocalizedString": "Decorative PAL Genetic Research Unit Standard."
+          "SourceString": "Decorative PAL Genetic Research Unit Standard.\r\n",
+          "LocalizedString": "Decorative PAL Genetic Research Unit Standard.\r\n"
         }
       },
       "BUILDOBJECT_DESC_Scientist_Banner": {
@@ -3288,16 +3287,16 @@
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_Ninja_Flag_TextData",
-          "SourceString": "Decorative Moonflower Standard.",
-          "LocalizedString": "Decorative Moonflower Standard."
+          "SourceString": "Decorative Moonflower Standard.\r\n",
+          "LocalizedString": "Decorative Moonflower Standard.\r\n"
         }
       },
       "BUILDOBJECT_DESC_Ninja_Banner": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_Ninja_Banner_TextData",
-          "SourceString": "Decorative Moonflower Vertical Banner.",
-          "LocalizedString": "Decorative Moonflower Vertical Banner."
+          "SourceString": "Decorative Moonflower Vertical Banner.\r\n",
+          "LocalizedString": "Decorative Moonflower Vertical Banner.\r\n"
         }
       },
       "BUILDOBJECT_DESC_FishingPond1": {
@@ -3736,280 +3735,280 @@
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_FurnitureTree01_Green_TextData",
-          "SourceString": "A realistic replication of some greenery. For decoration only. Cannot be harvested for materials.",
-          "LocalizedString": "A realistic replication of some greenery. For decoration only. Cannot be harvested for materials."
+          "SourceString": "A realistic replication of some greenery.\r\nFor decoration only.\r\nCannot be harvested for materials.",
+          "LocalizedString": "A realistic replication of some greenery.\r\nFor decoration only.\r\nCannot be harvested for materials."
         }
       },
       "BUILDOBJECT_DESC_FurnitureTree02_Green": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_FurnitureTree02_Green_TextData",
-          "SourceString": "A realistic replication of some greenery. For decoration only. Cannot be harvested for materials.",
-          "LocalizedString": "A realistic replication of some greenery. For decoration only. Cannot be harvested for materials."
+          "SourceString": "A realistic replication of some greenery.\r\nFor decoration only.\r\nCannot be harvested for materials.",
+          "LocalizedString": "A realistic replication of some greenery.\r\nFor decoration only.\r\nCannot be harvested for materials."
         }
       },
       "BUILDOBJECT_DESC_FurnitureTree03_Green": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_FurnitureTree03_Green_TextData",
-          "SourceString": "A realistic replication of some greenery. For decoration only. Cannot be harvested for materials.",
-          "LocalizedString": "A realistic replication of some greenery. For decoration only. Cannot be harvested for materials."
+          "SourceString": "A realistic replication of some greenery.\r\nFor decoration only.\r\nCannot be harvested for materials.",
+          "LocalizedString": "A realistic replication of some greenery.\r\nFor decoration only.\r\nCannot be harvested for materials."
         }
       },
       "BUILDOBJECT_DESC_FurnitureTree01_Red": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_FurnitureTree01_Red_TextData",
-          "SourceString": "A realistic replication of some crimson foliage. For decoration only. Cannot be harvested for materials.",
-          "LocalizedString": "A realistic replication of some crimson foliage. For decoration only. Cannot be harvested for materials."
+          "SourceString": "A realistic replication of some crimson foliage.\r\nFor decoration only.\r\nCannot be harvested for materials.",
+          "LocalizedString": "A realistic replication of some crimson foliage.\r\nFor decoration only.\r\nCannot be harvested for materials."
         }
       },
       "BUILDOBJECT_DESC_FurnitureTree02_Red": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_FurnitureTree02_Red_TextData",
-          "SourceString": "A realistic replication of some crimson foliage. For decoration only. Cannot be harvested for materials.",
-          "LocalizedString": "A realistic replication of some crimson foliage. For decoration only. Cannot be harvested for materials."
+          "SourceString": "A realistic replication of some crimson foliage.\r\nFor decoration only.\r\nCannot be harvested for materials.",
+          "LocalizedString": "A realistic replication of some crimson foliage.\r\nFor decoration only.\r\nCannot be harvested for materials."
         }
       },
       "BUILDOBJECT_DESC_FurnitureTree03_Red": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_FurnitureTree03_Red_TextData",
-          "SourceString": "A realistic replication of some crimson foliage. For decoration only. Cannot be harvested for materials.",
-          "LocalizedString": "A realistic replication of some crimson foliage. For decoration only. Cannot be harvested for materials."
+          "SourceString": "A realistic replication of some crimson foliage.\r\nFor decoration only.\r\nCannot be harvested for materials.",
+          "LocalizedString": "A realistic replication of some crimson foliage.\r\nFor decoration only.\r\nCannot be harvested for materials."
         }
       },
       "BUILDOBJECT_DESC_FurnitureTree01_Yellow": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_FurnitureTree01_Yellow_TextData",
-          "SourceString": "A realistic replication of some golden foliage. For decoration only. Cannot be harvested for materials.",
-          "LocalizedString": "A realistic replication of some golden foliage. For decoration only. Cannot be harvested for materials."
+          "SourceString": "A realistic replication of some golden foliage.\r\nFor decoration only.\r\nCannot be harvested for materials.",
+          "LocalizedString": "A realistic replication of some golden foliage.\r\nFor decoration only.\r\nCannot be harvested for materials."
         }
       },
       "BUILDOBJECT_DESC_FurnitureTree02_Yellow": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_FurnitureTree02_Yellow_TextData",
-          "SourceString": "A realistic replication of some golden foliage. For decoration only. Cannot be harvested for materials.",
-          "LocalizedString": "A realistic replication of some golden foliage. For decoration only. Cannot be harvested for materials."
+          "SourceString": "A realistic replication of some golden foliage.\r\nFor decoration only.\r\nCannot be harvested for materials.",
+          "LocalizedString": "A realistic replication of some golden foliage.\r\nFor decoration only.\r\nCannot be harvested for materials."
         }
       },
       "BUILDOBJECT_DESC_FurnitureTree03_Yellow": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_FurnitureTree03_Yellow_TextData",
-          "SourceString": "A realistic replication of some golden foliage. For decoration only. Cannot be harvested for materials.",
-          "LocalizedString": "A realistic replication of some golden foliage. For decoration only. Cannot be harvested for materials."
+          "SourceString": "A realistic replication of some golden foliage.\r\nFor decoration only.\r\nCannot be harvested for materials.",
+          "LocalizedString": "A realistic replication of some golden foliage.\r\nFor decoration only.\r\nCannot be harvested for materials."
         }
       },
       "BUILDOBJECT_DESC_FurnitureTree01_Cherry": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_FurnitureTree01_Cherry_TextData",
-          "SourceString": "A realistic replication of some cherry blossoms. For decoration only. Cannot be harvested for materials.",
-          "LocalizedString": "A realistic replication of some cherry blossoms. For decoration only. Cannot be harvested for materials."
+          "SourceString": "A realistic replication of some cherry blossoms.\r\nFor decoration only.\r\nCannot be harvested for materials.",
+          "LocalizedString": "A realistic replication of some cherry blossoms.\r\nFor decoration only.\r\nCannot be harvested for materials."
         }
       },
       "BUILDOBJECT_DESC_FurnitureTree02_Cherry": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_FurnitureTree02_Cherry_TextData",
-          "SourceString": "A realistic replication of some cherry blossoms. For decoration only. Cannot be harvested for materials.",
-          "LocalizedString": "A realistic replication of some cherry blossoms. For decoration only. Cannot be harvested for materials."
+          "SourceString": "A realistic replication of some cherry blossoms.\r\nFor decoration only.\r\nCannot be harvested for materials.",
+          "LocalizedString": "A realistic replication of some cherry blossoms.\r\nFor decoration only.\r\nCannot be harvested for materials."
         }
       },
       "BUILDOBJECT_DESC_FurnitureTree03_Cherry": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_FurnitureTree03_Cherry_TextData",
-          "SourceString": "A realistic replication of some cherry blossoms. For decoration only. Cannot be harvested for materials.",
-          "LocalizedString": "A realistic replication of some cherry blossoms. For decoration only. Cannot be harvested for materials."
+          "SourceString": "A realistic replication of some cherry blossoms.\r\nFor decoration only.\r\nCannot be harvested for materials.",
+          "LocalizedString": "A realistic replication of some cherry blossoms.\r\nFor decoration only.\r\nCannot be harvested for materials."
         }
       },
       "BUILDOBJECT_DESC_FurnitureTree01_Tropical": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_FurnitureTree01_Tropical_TextData",
-          "SourceString": "A realistic replication of some tropical greenery. For decoration only. Cannot be harvested for materials.",
-          "LocalizedString": "A realistic replication of some tropical greenery. For decoration only. Cannot be harvested for materials."
+          "SourceString": "A realistic replication of some tropical greenery.\r\nFor decoration only.\r\nCannot be harvested for materials.",
+          "LocalizedString": "A realistic replication of some tropical greenery.\r\nFor decoration only.\r\nCannot be harvested for materials."
         }
       },
       "BUILDOBJECT_DESC_FurnitureTree02_Tropical": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_FurnitureTree02_Tropical_TextData",
-          "SourceString": "A realistic replication of some tropical greenery. For decoration only. Cannot be harvested for materials.",
-          "LocalizedString": "A realistic replication of some tropical greenery. For decoration only. Cannot be harvested for materials."
+          "SourceString": "A realistic replication of some tropical greenery.\r\nFor decoration only.\r\nCannot be harvested for materials.",
+          "LocalizedString": "A realistic replication of some tropical greenery.\r\nFor decoration only.\r\nCannot be harvested for materials."
         }
       },
       "BUILDOBJECT_DESC_FurnitureTree03_Tropical": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_FurnitureTree03_Tropical_TextData",
-          "SourceString": "A realistic replication of some tropical greenery. For decoration only. Cannot be harvested for materials.",
-          "LocalizedString": "A realistic replication of some tropical greenery. For decoration only. Cannot be harvested for materials."
+          "SourceString": "A realistic replication of some tropical greenery.\r\nFor decoration only.\r\nCannot be harvested for materials.",
+          "LocalizedString": "A realistic replication of some tropical greenery.\r\nFor decoration only.\r\nCannot be harvested for materials."
         }
       },
       "BUILDOBJECT_DESC_FurnitureTree01_Snow": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_FurnitureTree01_Snow_TextData",
-          "SourceString": "A realistic replication of some snow-covered greenery. For decoration only. Cannot be harvested for materials.",
-          "LocalizedString": "A realistic replication of some snow-covered greenery. For decoration only. Cannot be harvested for materials."
+          "SourceString": "A realistic replication of some snow-covered greenery.\r\nFor decoration only.\r\nCannot be harvested for materials.",
+          "LocalizedString": "A realistic replication of some snow-covered greenery.\r\nFor decoration only.\r\nCannot be harvested for materials."
         }
       },
       "BUILDOBJECT_DESC_FurnitureTree02_Snow": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_FurnitureTree02_Snow_TextData",
-          "SourceString": "A realistic replication of some snow-covered greenery. For decoration only. Cannot be harvested for materials.",
-          "LocalizedString": "A realistic replication of some snow-covered greenery. For decoration only. Cannot be harvested for materials."
+          "SourceString": "A realistic replication of some snow-covered greenery.\r\nFor decoration only.\r\nCannot be harvested for materials.",
+          "LocalizedString": "A realistic replication of some snow-covered greenery.\r\nFor decoration only.\r\nCannot be harvested for materials."
         }
       },
       "BUILDOBJECT_DESC_FurnitureTree03_Snow": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_FurnitureTree03_Snow_TextData",
-          "SourceString": "A realistic replication of some snow-covered greenery. For decoration only. Cannot be harvested for materials.",
-          "LocalizedString": "A realistic replication of some snow-covered greenery. For decoration only. Cannot be harvested for materials."
+          "SourceString": "A realistic replication of some snow-covered greenery.\r\nFor decoration only.\r\nCannot be harvested for materials.",
+          "LocalizedString": "A realistic replication of some snow-covered greenery.\r\nFor decoration only.\r\nCannot be harvested for materials."
         }
       },
       "BUILDOBJECT_DESC_FurnitureTree01_Desert": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_FurnitureTree01_Desert_TextData",
-          "SourceString": "A realistic replication of some desert greenery. For decoration only. Cannot be harvested for materials.",
-          "LocalizedString": "A realistic replication of some desert greenery. For decoration only. Cannot be harvested for materials."
+          "SourceString": "A realistic replication of some desert greenery.\r\nFor decoration only.\r\nCannot be harvested for materials.",
+          "LocalizedString": "A realistic replication of some desert greenery.\r\nFor decoration only.\r\nCannot be harvested for materials."
         }
       },
       "BUILDOBJECT_DESC_FurnitureTree02_Desert": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_FurnitureTree02_Desert_TextData",
-          "SourceString": "A realistic replication of some desert greenery. For decoration only. Cannot be harvested for materials.",
-          "LocalizedString": "A realistic replication of some desert greenery. For decoration only. Cannot be harvested for materials."
+          "SourceString": "A realistic replication of some desert greenery.\r\nFor decoration only.\r\nCannot be harvested for materials.",
+          "LocalizedString": "A realistic replication of some desert greenery.\r\nFor decoration only.\r\nCannot be harvested for materials."
         }
       },
       "BUILDOBJECT_DESC_FurnitureTree03_Desert": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_FurnitureTree03_Desert_TextData",
-          "SourceString": "A realistic replication of some desert greenery. For decoration only. Cannot be harvested for materials.",
-          "LocalizedString": "A realistic replication of some desert greenery. For decoration only. Cannot be harvested for materials."
+          "SourceString": "A realistic replication of some desert greenery.\r\nFor decoration only.\r\nCannot be harvested for materials.",
+          "LocalizedString": "A realistic replication of some desert greenery.\r\nFor decoration only.\r\nCannot be harvested for materials."
         }
       },
       "BUILDOBJECT_DESC_FurnitureTree01_Bamboo": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_FurnitureTree01_Bamboo_TextData",
-          "SourceString": "A realistic replication of some bamboo. For decoration only. Cannot be harvested for materials.",
-          "LocalizedString": "A realistic replication of some bamboo. For decoration only. Cannot be harvested for materials."
+          "SourceString": "A realistic replication of some bamboo.\r\nFor decoration only.\r\nCannot be harvested for materials.",
+          "LocalizedString": "A realistic replication of some bamboo.\r\nFor decoration only.\r\nCannot be harvested for materials."
         }
       },
       "BUILDOBJECT_DESC_FurnitureTree02_Bamboo": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_FurnitureTree02_Bamboo_TextData",
-          "SourceString": "A realistic replication of some bamboo. For decoration only. Cannot be harvested for materials.",
-          "LocalizedString": "A realistic replication of some bamboo. For decoration only. Cannot be harvested for materials."
+          "SourceString": "A realistic replication of some bamboo.\r\nFor decoration only.\r\nCannot be harvested for materials.",
+          "LocalizedString": "A realistic replication of some bamboo.\r\nFor decoration only.\r\nCannot be harvested for materials."
         }
       },
       "BUILDOBJECT_DESC_FurnitureTree03_Bamboo": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_FurnitureTree03_Bamboo_TextData",
-          "SourceString": "A realistic replication of some bamboo. For decoration only. Cannot be harvested for materials.",
-          "LocalizedString": "A realistic replication of some bamboo. For decoration only. Cannot be harvested for materials."
+          "SourceString": "A realistic replication of some bamboo.\r\nFor decoration only.\r\nCannot be harvested for materials.",
+          "LocalizedString": "A realistic replication of some bamboo.\r\nFor decoration only.\r\nCannot be harvested for materials."
         }
       },
       "BUILDOBJECT_DESC_FurnitureBush01_Green": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_FurnitureBush01_Green_TextData",
-          "SourceString": "A realistic replication of a bush. For decoration only. Cannot be harvested for materials.",
-          "LocalizedString": "A realistic replication of a bush. For decoration only. Cannot be harvested for materials."
+          "SourceString": "A realistic replication of a bush.\r\nFor decoration only.\r\nCannot be harvested for materials.",
+          "LocalizedString": "A realistic replication of a bush.\r\nFor decoration only.\r\nCannot be harvested for materials."
         }
       },
       "BUILDOBJECT_DESC_FurnitureBush01_Yellow": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_FurnitureBush01_Yellow_TextData",
-          "SourceString": "A realistic replication of a golden bush. For decoration only. Cannot be harvested for materials.",
-          "LocalizedString": "A realistic replication of a golden bush. For decoration only. Cannot be harvested for materials."
+          "SourceString": "A realistic replication of a golden bush.\r\nFor decoration only.\r\nCannot be harvested for materials.",
+          "LocalizedString": "A realistic replication of a golden bush.\r\nFor decoration only.\r\nCannot be harvested for materials."
         }
       },
       "BUILDOBJECT_DESC_FurnitureBush01_Flower": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_FurnitureBush01_Flower_TextData",
-          "SourceString": "A realistic replication of a flowering bush. For decoration only. Cannot be harvested for materials.",
-          "LocalizedString": "A realistic replication of a flowering bush. For decoration only. Cannot be harvested for materials."
+          "SourceString": "A realistic replication of a flowering bush.\r\nFor decoration only.\r\nCannot be harvested for materials.",
+          "LocalizedString": "A realistic replication of a flowering bush.\r\nFor decoration only.\r\nCannot be harvested for materials."
         }
       },
       "BUILDOBJECT_DESC_FurnitureBush02_Flower": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_FurnitureBush02_Flower_TextData",
-          "SourceString": "A realistic replication of a flowering bush. For decoration only. Cannot be harvested for materials.",
-          "LocalizedString": "A realistic replication of a flowering bush. For decoration only. Cannot be harvested for materials."
+          "SourceString": "A realistic replication of a flowering bush.\r\nFor decoration only.\r\nCannot be harvested for materials.",
+          "LocalizedString": "A realistic replication of a flowering bush.\r\nFor decoration only.\r\nCannot be harvested for materials."
         }
       },
       "BUILDOBJECT_DESC_FurnitureBush01_Tropical": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_FurnitureBush01_Tropical_TextData",
-          "SourceString": "A realistic replication of a tropical bush. For decoration only. Cannot be harvested for materials.",
-          "LocalizedString": "A realistic replication of a tropical bush. For decoration only. Cannot be harvested for materials."
+          "SourceString": "A realistic replication of a tropical bush.\r\nFor decoration only.\r\nCannot be harvested for materials.",
+          "LocalizedString": "A realistic replication of a tropical bush.\r\nFor decoration only.\r\nCannot be harvested for materials."
         }
       },
       "BUILDOBJECT_DESC_FurnitureBush01_Snow": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_FurnitureBush01_Snow_TextData",
-          "SourceString": "A realistic replication of a snow-covered bush. For decoration only. Cannot be harvested for materials.",
-          "LocalizedString": "A realistic replication of a snow-covered bush. For decoration only. Cannot be harvested for materials."
+          "SourceString": "A realistic replication of a snow-covered bush.\r\nFor decoration only.\r\nCannot be harvested for materials.",
+          "LocalizedString": "A realistic replication of a snow-covered bush.\r\nFor decoration only.\r\nCannot be harvested for materials."
         }
       },
       "BUILDOBJECT_DESC_FurnitureStone01": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_FurnitureStone01_TextData",
-          "SourceString": "A realistic replication of a boulder. For decoration only. Cannot be harvested for materials.",
-          "LocalizedString": "A realistic replication of a boulder. For decoration only. Cannot be harvested for materials."
+          "SourceString": "A realistic replication of a boulder.\r\nFor decoration only.\r\nCannot be harvested for materials.",
+          "LocalizedString": "A realistic replication of a boulder.\r\nFor decoration only.\r\nCannot be harvested for materials."
         }
       },
       "BUILDOBJECT_DESC_TableCircular_Wood_None": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_TableCircular_Wood_None_TextData",
-          "SourceString": "Decorative round table with a clean surface.",
-          "LocalizedString": "Decorative round table with a clean surface."
+          "SourceString": "Decorative round table with a clean surface.\r\n",
+          "LocalizedString": "Decorative round table with a clean surface.\r\n"
         }
       },
       "BUILDOBJECT_DESC_TableSquare_Wood_None": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_TableSquare_Wood_None_TextData",
-          "SourceString": "Decorative square table with a clean surface.",
-          "LocalizedString": "Decorative square table with a clean surface."
+          "SourceString": "Decorative square table with a clean surface.\r\n",
+          "LocalizedString": "Decorative square table with a clean surface.\r\n"
         }
       },
       "BUILDOBJECT_DESC_JetDragonStatue": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_JetDragonStatue_TextData",
-          "SourceString": "Decorative Jetragon statue.",
-          "LocalizedString": "Decorative Jetragon statue."
+          "SourceString": "Decorative Jetragon statue.\r\n",
+          "LocalizedString": "Decorative Jetragon statue.\r\n"
         }
       },
       "BUILDOBJECT_DESC_IceHorseStatue": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_IceHorseStatue_TextData",
-          "SourceString": "Decorative Frostallion statue.",
-          "LocalizedString": "Decorative Frostallion statue."
+          "SourceString": "Decorative Frostallion statue.\r\n",
+          "LocalizedString": "Decorative Frostallion statue.\r\n"
         }
       },
       "BUILDOBJECT_DESC_ArcadeVideoGame": {
@@ -4128,8 +4127,8 @@
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_Ancient_TriangleWall_TextData",
-          "SourceString": "Triangular wall built on a foundation to keep out intruders. \r\nCan be used to create create clean, futuristic architecture.",
-          "LocalizedString": "Triangular wall built on a foundation to keep out intruders. \r\nCan be used to create create clean, futuristic architecture."
+          "SourceString": "Triangular wall built on a foundation to keep out intruders. \r\nRecreates the architectural style of ancient civilizations.",
+          "LocalizedString": "Triangular wall built on a foundation to keep out intruders. \r\nRecreates the architectural style of ancient civilizations."
         }
       },
       "BUILDOBJECT_DESC_Ancient_SlantedRoof": {
@@ -4184,16 +4183,16 @@
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_AncientCookingStove_TextData",
-          "SourceString": "A special kitchen based on ancient technology that can create everything from existing dishes to entirely new recipes.\r\nIt retains heat through fire and completes cooking with manual preparation, allowing it to prepare any kind of cuisine.\r\nIt requires Pals with high-level Kindling and Handiwork suitability.\r\n",
-          "LocalizedString": "A special kitchen based on ancient technology that can create everything from existing dishes to entirely new recipes.\r\nIt retains heat through fire and completes cooking with manual preparation, allowing it to prepare any kind of cuisine.\r\nIt requires Pals with high-level Kindling and Handiwork suitability.\r\n"
+          "SourceString": "A special kitchen based on ancient technology that can create everything from existing dishes to entirely new recipes.\r\nIt retains heat through fire and completes cooking with manual preparation, allowing it to prepare any kind of cuisine.\r\nIt requires Pals with high-level Kindling and Handiwork suitability.",
+          "LocalizedString": "A special kitchen based on ancient technology that can create everything from existing dishes to entirely new recipes.\r\nIt retains heat through fire and completes cooking with manual preparation, allowing it to prepare any kind of cuisine.\r\nIt requires Pals with high-level Kindling and Handiwork suitability."
         }
       },
       "BUILDOBJECT_DESC_AncientMultiProduct": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_AncientMultiProduct_TextData",
-          "SourceString": "A special generator based on ancient technology that uses the power of the World Tree to produce all kinds of wood and ore.\r\nDue to its complex structure, only one Pal can be assigned to it.\r\n",
-          "LocalizedString": "A special generator based on ancient technology that uses the power of the World Tree to produce all kinds of wood and ore.\r\nDue to its complex structure, only one Pal can be assigned to it.\r\n"
+          "SourceString": "A special generator based on ancient technology that uses the power of the World Tree to produce all kinds of wood and ore.\r\nDue to its complex structure, only one Pal can be assigned to it.",
+          "LocalizedString": "A special generator based on ancient technology that uses the power of the World Tree to produce all kinds of wood and ore.\r\nDue to its complex structure, only one Pal can be assigned to it."
         }
       },
       "BUILDOBJECT_DESC_AncientFarmBlock": {
@@ -4232,16 +4231,16 @@
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_Ancient_MedicalPalBed_TextData",
-          "SourceString": "A ulitmate Pal Bed made from ancient recovery pod with soft matress.\r\nIt offers one of the highest SAN recovery rates of all Pal beds, quickly relieving fatigue.\r\nIt is the same size as a Large Pal Bed, allowing large Pals to rest comfortably.",
-          "LocalizedString": "A ulitmate Pal Bed made from ancient recovery pod with soft matress.\r\nIt offers one of the highest SAN recovery rates of all Pal beds, quickly relieving fatigue.\r\nIt is the same size as a Large Pal Bed, allowing large Pals to rest comfortably."
+          "SourceString": "An ultimate Pal Bed made from ancient recovery pod with soft matress.\r\nIt offers one of the highest SAN recovery rates of all Pal beds, quickly relieving fatigue.\r\nIt is the same size as a Large Pal Bed, allowing large Pals to rest comfortably.",
+          "LocalizedString": "An ultimate Pal Bed made from ancient recovery pod with soft matress.\r\nIt offers one of the highest SAN recovery rates of all Pal beds, quickly relieving fatigue.\r\nIt is the same size as a Large Pal Bed, allowing large Pals to rest comfortably."
         }
       },
       "BUILDOBJECT_DESC_AncientAirConditioner": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_AncientAirConditioner_TextData",
-          "SourceString": "An air conditioning unit based on ancient technology that regulates the temperature of the entire base.\r\nSmaller than standard heating and cooling systems, it maintains a comfortable temperature as long as it is powered.\r\nNo Pals are required for temperature control, and harsh climates can be neutralized with sufficient electricity.\r\n",
-          "LocalizedString": "An air conditioning unit based on ancient technology that regulates the temperature of the entire base.\r\nSmaller than standard heating and cooling systems, it maintains a comfortable temperature as long as it is powered.\r\nNo Pals are required for temperature control, and harsh climates can be neutralized with sufficient electricity.\r\n"
+          "SourceString": "An air conditioning unit based on ancient technology that regulates the temperature of the entire base.\r\nSmaller than standard heating and cooling systems, it maintains a comfortable temperature as long as it is powered.\r\nNo Pals are required for temperature control, and harsh climates can be neutralized with sufficient electricity.",
+          "LocalizedString": "An air conditioning unit based on ancient technology that regulates the temperature of the entire base.\r\nSmaller than standard heating and cooling systems, it maintains a comfortable temperature as long as it is powered.\r\nNo Pals are required for temperature control, and harsh climates can be neutralized with sufficient electricity."
         }
       },
       "BUILDOBJECT_DESC_Ancient_Spa": {
@@ -4272,48 +4271,48 @@
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_Ancient_Clinic_TextData",
-          "SourceString": "A top-tier medical facility that reproduces advanced ancient medical technology.\r\nIt offers significantly greater protective capability than a standard clinic.\r\nBy assigning a Pal with Medicine Production suitability, even bases with harsh working conditions can maintain the highest level of hygiene.\r\n",
-          "LocalizedString": "A top-tier medical facility that reproduces advanced ancient medical technology.\r\nIt offers significantly greater protective capability than a standard clinic.\r\nBy assigning a Pal with Medicine Production suitability, even bases with harsh working conditions can maintain the highest level of hygiene.\r\n"
+          "SourceString": "A top-tier medical facility that reproduces advanced ancient medical technology.\r\nIt offers significantly greater protective capability than a standard clinic.\r\nBy assigning a Pal with Medicine Production suitability, even bases with harsh working conditions can maintain the highest level of hygiene.",
+          "LocalizedString": "A top-tier medical facility that reproduces advanced ancient medical technology.\r\nIt offers significantly greater protective capability than a standard clinic.\r\nBy assigning a Pal with Medicine Production suitability, even bases with harsh working conditions can maintain the highest level of hygiene."
         }
       },
       "BUILDOBJECT_DESC_SkyIslandOrePit": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_SkyIslandOrePit_TextData",
-          "SourceString": "Facility for producing <itemName id=|SkyIslandOre|/>.\r\nDigging <itemName id=|SkyIslandOre|/> is grueling physical work.\r\nLeave it to a Pal that is good at mining.\r\n",
-          "LocalizedString": "Facility for producing <itemName id=|SkyIslandOre|/>.\r\nDigging <itemName id=|SkyIslandOre|/> is grueling physical work.\r\nLeave it to a Pal that is good at mining.\r\n"
+          "SourceString": "Facility for producing <itemName id=|SkyIslandOre|/>.\r\nDigging <itemName id=|SkyIslandOre|/> is grueling physical work.\r\nLeave it to a Pal that is good at mining.",
+          "LocalizedString": "Facility for producing <itemName id=|SkyIslandOre|/>.\r\nDigging <itemName id=|SkyIslandOre|/> is grueling physical work.\r\nLeave it to a Pal that is good at mining."
         }
       },
       "BUILDOBJECT_DESC_DarkIsland_Flag": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_DarkIsland_Flag_TextData",
-          "SourceString": "Decorative Feybreak flag.",
-          "LocalizedString": "Decorative Feybreak flag."
+          "SourceString": "Decorative Feybreak flag.\r\n",
+          "LocalizedString": "Decorative Feybreak flag.\r\n"
         }
       },
       "BUILDOBJECT_DESC_DarkIsland_Banner": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_DarkIsland_Banner_TextData",
-          "SourceString": "Decorative Feybreak banner.",
-          "LocalizedString": "Decorative Feybreak banner."
+          "SourceString": "Decorative Feybreak banner.\r\n",
+          "LocalizedString": "Decorative Feybreak banner.\r\n"
         }
       },
       "BUILDOBJECT_DESC_SkyIsland_Flag": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_SkyIsland_Flag_TextData",
-          "SourceString": "Decorative Azure Covenant flag.",
-          "LocalizedString": "Decorative Azure Covenant flag."
+          "SourceString": "Decorative Azure Covenant flag.\r\n",
+          "LocalizedString": "Decorative Azure Covenant flag.\r\n"
         }
       },
       "BUILDOBJECT_DESC_SkyIsland_Banner": {
         "TextData": {
           "Namespace": "DT_BuildObjectDescText_Common",
           "Key": "BUILDOBJECT_DESC_SkyIsland_Banner_TextData",
-          "SourceString": "Decorative Azure Covenant banner.",
-          "LocalizedString": "Decorative Azure Covenant banner."
+          "SourceString": "Decorative Azure Covenant banner.\r\n",
+          "LocalizedString": "Decorative Azure Covenant banner.\r\n"
         }
       },
       "BUILDOBJECT_DESC_StationDeforest3": {

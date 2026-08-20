@@ -1,0 +1,296 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_TutorialMessage_Text",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "TUTORIAL_SP_1": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_SP_1_TextData",
+          "SourceString": "Tekan tombol <keyGuideIcon id=|Interact_1|/> untuk mengambil item",
+          "LocalizedString": "Tekan tombol <keyGuideIcon id=|Interact_1|/> untuk mengambil item"
+        }
+      },
+      "TUTORIAL_ITEM_1": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_ITEM_1_TextData",
+          "SourceString": "Tekan tombol <keyGuideIcon id=|OpenConstructionMenu|/> untuk membuka menu konstruksi",
+          "LocalizedString": "Tekan tombol <keyGuideIcon id=|OpenConstructionMenu|/> untuk membuka menu konstruksi"
+        }
+      },
+      "TUTORIAL_ITEM_2": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_ITEM_2_TextData",
+          "SourceString": "Tekan tombol <keyGuideIcon id=|ThrowObject|/> untuk melempar Sphere dan menangkap Pal!\r\nPal lebih mudah ditangkap jika dilemahkan.",
+          "LocalizedString": "Tekan tombol <keyGuideIcon id=|ThrowObject|/> untuk melempar Sphere dan menangkap Pal!\r\nPal lebih mudah ditangkap jika dilemahkan."
+        }
+      },
+      "TUTORIAL_ITEM_3": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_ITEM_3_TextData",
+          "SourceString": "Gunakan tombol <keyGuideIcon id=|OpenConstructionMenu|/>dari menu konstruksi\r\nuntuk membangun Palbox dan mendirikan markas",
+          "LocalizedString": "Gunakan tombol <keyGuideIcon id=|OpenConstructionMenu|/>dari menu konstruksi\r\nuntuk membangun Palbox dan mendirikan markas"
+        }
+      },
+      "TUTORIAL_ITEM_4": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_ITEM_4_TextData",
+          "SourceString": "Gunakan |Buah Skill| dari inventori\r\nuntuk mengajari Pal sebuah Skill",
+          "LocalizedString": "Gunakan |Buah Skill| dari inventori\r\nuntuk mengajari Pal sebuah Skill"
+        }
+      },
+      "TUTORIAL_ITEM_5": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_ITEM_5_TextData",
+          "SourceString": "Kumpulkan <itemName id=|Relic|/> dan persembahkan ke <MapObjectName id=|BuildableGoddessStatue|/>\r\nuntuk meningkatkan Daya Tangkap Pal pemain",
+          "LocalizedString": "Kumpulkan <itemName id=|Relic|/> dan persembahkan ke <MapObjectName id=|BuildableGoddessStatue|/>\r\nuntuk meningkatkan Daya Tangkap Pal pemain"
+        }
+      },
+      "TUTORIAL_ITEM_6": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_ITEM_6_TextData",
+          "SourceString": "Kamu bisa meluncur dengan menekan tombol <keyGuideIcon id=|Jump|/> sambil melompat",
+          "LocalizedString": "Kamu bisa meluncur dengan menekan tombol <keyGuideIcon id=|Jump|/> sambil melompat"
+        }
+      },
+      "TUTORIAL_ITEM_7": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_ITEM_7_TextData",
+          "SourceString": "Dengan membangun <MapObjectName id=|HatchingPalEgg|/>,\r\nkamu bisa menetaskan telur Pal",
+          "LocalizedString": "Dengan membangun <MapObjectName id=|HatchingPalEgg|/>,\r\nkamu bisa menetaskan telur Pal"
+        }
+      },
+      "TUTORIAL_RESPAWN_1": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_RESPAWN_1_TextData",
+          "SourceString": "Dengan membangun Palbox,\r\nkamu bisa hidup kembali di lokasi tersebut",
+          "LocalizedString": "Dengan membangun Palbox,\r\nkamu bisa hidup kembali di lokasi tersebut"
+        }
+      },
+      "TUTORIAL_RESPAWN_2": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_RESPAWN_2_TextData",
+          "SourceString": "Pal atau item akan tertinggal di tempat kamu kalah,\r\nambil sebelum direbut orang lain",
+          "LocalizedString": "Pal atau item akan tertinggal di tempat kamu kalah,\r\nambil sebelum direbut orang lain"
+        }
+      },
+      "TUTORIAL_INDIVIDUAL_1": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_INDIVIDUAL_1_TextData",
+          "SourceString": "Kamu bisa membuka item atau fasilitas baru\r\ndengan menggunakan poin teknologi",
+          "LocalizedString": "Kamu bisa membuka item atau fasilitas baru\r\ndengan menggunakan poin teknologi"
+        }
+      },
+      "TUTORIAL_INDIVIDUAL_2": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_INDIVIDUAL_2_TextData",
+          "SourceString": "Tekan tombol <keyGuideIcon id=|OpenCharacterMenu|/> untuk membuka inventori,\r\nlalu gunakan poin status untuk memperkuat pemain.",
+          "LocalizedString": "Tekan tombol <keyGuideIcon id=|OpenCharacterMenu|/> untuk membuka inventori,\r\nlalu gunakan poin status untuk memperkuat pemain."
+        }
+      },
+      "TUTORIAL_INDIVIDUAL_3": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_INDIVIDUAL_3_TextData",
+          "SourceString": "Parameter akan turun jika kamu sedang lapar,\r\nkamu bisa makan menggunakan item dari inventori",
+          "LocalizedString": "Parameter akan turun jika kamu sedang lapar,\r\nkamu bisa makan menggunakan item dari inventori"
+        }
+      },
+      "TUTORIAL_INDIVIDUAL_4": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_INDIVIDUAL_4_TextData",
+          "SourceString": "Parameter Pal akan turun jika Pal sedang lapar,\r\ngunakan item dari inventori, lalu berikan sebagai makanan untuk Pal",
+          "LocalizedString": "Parameter Pal akan turun jika Pal sedang lapar,\r\ngunakan item dari inventori, lalu berikan sebagai makanan untuk Pal"
+        }
+      },
+      "TUTORIAL_INDIVIDUAL_5": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_INDIVIDUAL_5_TextData",
+          "SourceString": "Jika nilai SAN Pal menurun, mereka bisa menjadi malas atau sakit,\r\nberikan makanan berkualitas dan bangun pemandian air panas untuk memulihkan mereka",
+          "LocalizedString": "Jika nilai SAN Pal menurun, mereka bisa menjadi malas atau sakit,\r\nberikan makanan berkualitas dan bangun pemandian air panas untuk memulihkan mereka"
+        }
+      },
+      "TUTORIAL_INDIVIDUAL_6": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_INDIVIDUAL_6_TextData",
+          "SourceString": "Jika Pal jatuh sakit,\r\nberikan pengobatan dengan membuat obat di meja pembuatan obat",
+          "LocalizedString": "Jika Pal jatuh sakit,\r\nberikan pengobatan dengan membuat obat di meja pembuatan obat"
+        }
+      },
+      "TUTORIAL_INDIVIDUAL_7": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_INDIVIDUAL_7_TextData",
+          "SourceString": "Nilai SAN Pal yang bekerja akan menurun dan membuatnya menjadi malas,\r\nbangun pemandian air panas atau fasilitas lainnya agar mereka segera kembali bekerja",
+          "LocalizedString": "Nilai SAN Pal yang bekerja akan menurun dan membuatnya menjadi malas,\r\nbangun pemandian air panas atau fasilitas lainnya agar mereka segera kembali bekerja"
+        }
+      },
+      "TUTORIAL_CAPTURE_1": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_CAPTURE_1_TextData",
+          "SourceString": "Pal liar jadi lebih mudah ditangkap saat <uiCommon id=|COMMON_STATUS_HP|/> miliknya berkurang,\r\ntetapi tidak bisa ditangkap jika mati",
+          "LocalizedString": "Pal liar jadi lebih mudah ditangkap saat <uiCommon id=|COMMON_STATUS_HP|/> miliknya berkurang,\r\ntetapi tidak bisa ditangkap jika mati"
+        }
+      },
+      "TUTORIAL_CAPTURE_2": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_CAPTURE_2_TextData",
+          "SourceString": "Tekan tombol <keyGuideIcon id=|ThrowPal|/> untuk memanggil Pal yang sudah ditangkap",
+          "LocalizedString": "Tekan tombol <keyGuideIcon id=|ThrowPal|/> untuk memanggil Pal yang sudah ditangkap"
+        }
+      },
+      "TUTORIAL_CAPTURE_3": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_CAPTURE_3_TextData",
+          "SourceString": "Kamu akan mendapat banyak EXP jika menangkap Pal jenis baru,\r\nayo lanjutkan perjalanan sambil mencari Pal yang belum pernah terlihat sebelumnya",
+          "LocalizedString": "Kamu akan mendapat banyak EXP jika menangkap Pal jenis baru,\r\nayo lanjutkan perjalanan sambil mencari Pal yang belum pernah terlihat sebelumnya"
+        }
+      },
+      "TUTORIAL_CAPTURE_4": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_CAPTURE_4_TextData",
+          "SourceString": "Bahkan untuk Pal yang sudah pernah ditangkap, kamu masih bisa mendapatkan bonus EXP\r\nsampai kamu mengumpulkan 5 Pal.",
+          "LocalizedString": "Bahkan untuk Pal yang sudah pernah ditangkap, kamu masih bisa mendapatkan bonus EXP\r\nsampai kamu mengumpulkan 5 Pal."
+        }
+      },
+      "TUTORIAL_CAPTURE_5": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_CAPTURE_5_TextData",
+          "SourceString": "Kamu bisa membawa lima ekor Pal sekaligus,\r\njika kamu menangkap lebih dari lima ekor, mereka akan dikirim ke Palbox secara otomatis",
+          "LocalizedString": "Kamu bisa membawa lima ekor Pal sekaligus,\r\njika kamu menangkap lebih dari lima ekor, mereka akan dikirim ke Palbox secara otomatis"
+        }
+      },
+      "TUTORIAL_CAPTURE_6": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_CAPTURE_6_TextData",
+          "SourceString": "Kamu menangkap Pal langka!\r\nSepertinya dia memiliki skill khusus",
+          "LocalizedString": "Kamu menangkap Pal langka!\r\nSepertinya dia memiliki skill khusus"
+        }
+      },
+      "TUTORIAL_CAPTURE_7": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_CAPTURE_7_TextData",
+          "SourceString": "Dengan membangun Palbox,\r\nkamu bisa mengeluarkan Pal yang tertangkap",
+          "LocalizedString": "Dengan membangun Palbox,\r\nkamu bisa mengeluarkan Pal yang tertangkap"
+        }
+      },
+      "TUTORIAL_CAPTURE_8": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_CAPTURE_8_TextData",
+          "SourceString": "Kamu tidak bisa menggunakan Pal yang levelnya lebih tinggi dari kamu dengan efektif!\r\nKemampuannya akan menurun hingga setingkat dengan level pemain",
+          "LocalizedString": "Kamu tidak bisa menggunakan Pal yang levelnya lebih tinggi dari kamu dengan efektif!\r\nKemampuannya akan menurun hingga setingkat dengan level pemain"
+        }
+      },
+      "TUTORIAL_COMMON_1": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_1_TextData",
+          "SourceString": "Kamu tidak akan bisa bergerak jika membawa barang terlalu berat,\r\ngunakan poin status untuk meningkatkan kapasitas bawaan",
+          "LocalizedString": "Kamu tidak akan bisa bergerak jika membawa barang terlalu berat,\r\ngunakan poin status untuk meningkatkan kapasitas bawaan"
+        }
+      },
+      "TUTORIAL_COMMON_2": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_2_TextData",
+          "SourceString": "Obor dapat menerangi sekitar dan mencegah kedinginan,\r\nayo buat di meja kerja",
+          "LocalizedString": "Obor dapat menerangi sekitar dan mencegah kedinginan,\r\nayo buat di meja kerja"
+        }
+      },
+      "TUTORIAL_COMMON_3": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_3_TextData",
+          "SourceString": "Pal-mu dikalahkan!\r\nLetakkan dia di Palbox untuk menyembuhkannya dari kondisi |<uiCommon id=|COMMON_CONDITION_NAME_Dying|/>|",
+          "LocalizedString": "Pal-mu dikalahkan!\r\nLetakkan dia di Palbox untuk menyembuhkannya dari kondisi |<uiCommon id=|COMMON_CONDITION_NAME_Dying|/>|"
+        }
+      },
+      "TUTORIAL_COMMON_4": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_4_TextData",
+          "SourceString": "Keluarkan Pal di markas dan mereka\r\nakan mencari pekerjaan yang bisa mereka kerjakan",
+          "LocalizedString": "Keluarkan Pal di markas dan mereka\r\nakan mencari pekerjaan yang bisa mereka kerjakan"
+        }
+      },
+      "TUTORIAL_COMMON_5": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_5_TextData",
+          "SourceString": "Jika kamu mengeluarkan Pal dari Palbox di markas,\r\nPal tersebut akan membantu pekerjaan yang mereka kuasai",
+          "LocalizedString": "Jika kamu mengeluarkan Pal dari Palbox di markas,\r\nPal tersebut akan membantu pekerjaan yang mereka kuasai"
+        }
+      },
+      "TUTORIAL_COMMON_6": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_6_TextData",
+          "SourceString": "Pal hanya dapat menggunakan 3 skill aktif,\r\nskill baru bisa diganti lewat menu <uiCommon id=|INGAME_MAIN_MENU_PAL|/>",
+          "LocalizedString": "Pal hanya dapat menggunakan 3 skill aktif,\r\nskill baru bisa diganti lewat menu <uiCommon id=|INGAME_MAIN_MENU_PAL|/>"
+        }
+      },
+      "TUTORIAL_COMMON_7": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_7_TextData",
+          "SourceString": "Karena keganasannya, Pal liar sulit dikalahkan dengan tangan kosong,\r\nbangun meja kerja dan buat senjata",
+          "LocalizedString": "Karena keganasannya, Pal liar sulit dikalahkan dengan tangan kosong,\r\nbangun meja kerja dan buat senjata"
+        }
+      },
+      "TUTORIAL_COMMON_8": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_8_TextData",
+          "SourceString": "Kamu mendapat memo dari petualang lain,\r\njejak perjalanan mereka dapat dilihat dari layar opsi",
+          "LocalizedString": "Kamu mendapat memo dari petualang lain,\r\njejak perjalanan mereka dapat dilihat dari layar opsi"
+        }
+      },
+      "TUTORIAL_COMMON_9": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_9_TextData",
+          "SourceString": "Beberapa senjata memungkinkanmu untuk mengganti jenis peluru\r\ndengan menahan tombol <keyGuideIcon id=|Reload|/>.",
+          "LocalizedString": "Beberapa senjata memungkinkanmu untuk mengganti jenis peluru\r\ndengan menahan tombol <keyGuideIcon id=|Reload|/>."
+        }
+      },
+      "TUTORIAL_COMMON_9_GamePad": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_9_GamePad_TextData",
+          "SourceString": "Beberapa senjata memungkinkanmu untuk mengganti jenis peluru\r\ndengan menahan tombol <keyGuideIcon id=|ChangeWeaponNext_GamePad|/>.",
+          "LocalizedString": "Beberapa senjata memungkinkanmu untuk mengganti jenis peluru\r\ndengan menahan tombol <keyGuideIcon id=|ChangeWeaponNext_GamePad|/>."
+        }
+      }
+    }
+  }
+]

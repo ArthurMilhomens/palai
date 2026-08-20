@@ -7,14 +7,23 @@ export class PalsController {
   async list(request: FastifyRequest, reply: FastifyReply) {
     const query = listQuerySchema.parse(request.query);
     const lang = resolveLocale(request, query.lang);
-    const result = await palsService.list({ ...query, lang });
+    const result = await palsService.list({
+      ...query,
+      lang,
+      acceptLanguage: request.headers['accept-language'],
+    });
     return reply.send(result);
   }
 
   async get(request: FastifyRequest, reply: FastifyReply) {
     const { idOrSlug } = idOrSlugParamsSchema.parse(request.params);
     const query = listQuerySchema.pick({ gameVersion: true, lang: true }).parse(request.query);
-    const data = await palsService.getByIdOrSlug(idOrSlug, query.gameVersion);
+    const lang = resolveLocale(request, query.lang);
+    const data = await palsService.getByIdOrSlug(idOrSlug, {
+      gameVersion: query.gameVersion,
+      lang,
+      acceptLanguage: request.headers['accept-language'],
+    });
     return reply.send({ data });
   }
 

@@ -2,9 +2,8 @@
   {
     "Type": "CompositeDataTable",
     "Name": "DT_ItemDescriptionText",
-    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'CompositeDataTable'",
-    "Package": "Pal/Content/Pal/DataTable/Text/DT_ItemDescriptionText",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "ParentTables": [
         {
@@ -366,8 +365,8 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_Fiber_TextData",
-          "SourceString": "木から採れる繊維。\r\n弓などを作る素材となる。",
-          "LocalizedString": "木から採れる繊維。\r\n弓などを作る素材となる。"
+          "SourceString": "木から採れる繊維。\r\n弓などを作る素材となる。\r\n<itemName id=|Wood|/>を「<mapObjectName id=|Crusher|/>」で分解しても手に入る。",
+          "LocalizedString": "木から採れる繊維。\r\n弓などを作る素材となる。\r\n<itemName id=|Wood|/>を「<mapObjectName id=|Crusher|/>」で分解しても手に入る。"
         }
       },
       "ITEM_DESC_FishMeat": {
@@ -574,16 +573,16 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_MachineParts_TextData",
-          "SourceString": "多くの施設の製作に必要な部品。\r\n<mapObjectName id=|WorkBench|/>で作成できる。",
-          "LocalizedString": "多くの施設の製作に必要な部品。\r\n<mapObjectName id=|WorkBench|/>で作成できる。"
+          "SourceString": "多くの施設の製作に必要な部品。\r\n「<mapObjectName id=|WorkBench|/>」で作成できる。",
+          "LocalizedString": "多くの施設の製作に必要な部品。\r\n「<mapObjectName id=|WorkBench|/>」で作成できる。"
         }
       },
       "ITEM_DESC_MachineParts2": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_MachineParts2_TextData",
-          "SourceString": "精密機器の製作に必要な<itemName id=|MachineParts2|/>。\r\n<mapObjectName id=|Factory_Hard_02|/>で作成できる。",
-          "LocalizedString": "精密機器の製作に必要な<itemName id=|MachineParts2|/>。\r\n<mapObjectName id=|Factory_Hard_02|/>で作成できる。"
+          "SourceString": "精密機器の製作に必要な<itemName id=|MachineParts2|/>。\r\n「<mapObjectName id=|Factory_Hard_02|/>」で作成できる。",
+          "LocalizedString": "精密機器の製作に必要な<itemName id=|MachineParts2|/>。\r\n「<mapObjectName id=|Factory_Hard_02|/>」で作成できる。"
         }
       },
       "ITEM_DESC_Meat": {
@@ -1038,8 +1037,8 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_Wood_TextData",
-          "SourceString": "建築物やアイテムの材料となる。\r\n主に木を伐採することで手に入る。",
-          "LocalizedString": "建築物やアイテムの材料となる。\r\n主に木を伐採することで手に入る。"
+          "SourceString": "建築物やアイテムの材料となる。\r\n主に木を伐採することで手に入る。\r\n「<mapObjectName id=|Crusher|/>」で<itemName id=|Fiber|/>に分解できる。",
+          "LocalizedString": "建築物やアイテムの材料となる。\r\n主に木を伐採することで手に入る。\r\n「<mapObjectName id=|Crusher|/>」で<itemName id=|Fiber|/>に分解できる。"
         }
       },
       "ITEM_DESC_Wool": {
@@ -1054,16 +1053,16 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_CrudeOil_TextData",
-          "SourceString": "様々な製品に加工できる素材。\r\n油田に<mapObjectName id=|OilPump|/>を\r\n設置することで入手できる。",
-          "LocalizedString": "様々な製品に加工できる素材。\r\n油田に<mapObjectName id=|OilPump|/>を\r\n設置することで入手できる。"
+          "SourceString": "様々な製品に加工できる素材。\r\n油田に「<mapObjectName id=|OilPump|/>」を\r\n設置することで入手できる。",
+          "LocalizedString": "様々な製品に加工できる素材。\r\n油田に「<mapObjectName id=|OilPump|/>」を\r\n設置することで入手できる。"
         }
       },
       "ITEM_DESC_Plastic": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_Plastic_TextData",
-          "SourceString": "<itemName id=|CrudeOil|/>と金属を加工して作る特殊な素材。\r\n<mapObjectName id=|BlastFurnace3|/>で作成できる。",
-          "LocalizedString": "<itemName id=|CrudeOil|/>と金属を加工して作る特殊な素材。\r\n<mapObjectName id=|BlastFurnace3|/>で作成できる。"
+          "SourceString": "<itemName id=|CrudeOil|/>と金属を加工して作る特殊な素材。\r\n「<mapObjectName id=|BlastFurnace3|/>」で作成できる。",
+          "LocalizedString": "<itemName id=|CrudeOil|/>と金属を加工して作る特殊な素材。\r\n「<mapObjectName id=|BlastFurnace3|/>」で作成できる。"
         }
       },
       "ITEM_DESC_Computer": {
@@ -1430,360 +1429,360 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Normal_01_TextData",
-          "SourceString": "<itemName id=|PalEgg_Normal_01|/>。\r\nやさしい胎動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。",
-          "LocalizedString": "<itemName id=|PalEgg_Normal_01|/>。\r\nやさしい胎動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。"
+          "SourceString": "<itemName id=|PalEgg_Normal_01|/>。\r\nやさしい胎動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。",
+          "LocalizedString": "<itemName id=|PalEgg_Normal_01|/>。\r\nやさしい胎動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。"
         }
       },
       "ITEM_DESC_PalEgg_Normal_02": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Normal_02_TextData",
-          "SourceString": "<itemName id=|PalEgg_Normal_02|/>。\r\nやさしい胎動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。",
-          "LocalizedString": "<itemName id=|PalEgg_Normal_02|/>。\r\nやさしい胎動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。"
+          "SourceString": "<itemName id=|PalEgg_Normal_02|/>。\r\nやさしい胎動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。",
+          "LocalizedString": "<itemName id=|PalEgg_Normal_02|/>。\r\nやさしい胎動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。"
         }
       },
       "ITEM_DESC_PalEgg_Normal_03": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Normal_03_TextData",
-          "SourceString": "<itemName id=|PalEgg_Normal_03|/>。\r\n安らかな鼓動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。",
-          "LocalizedString": "<itemName id=|PalEgg_Normal_03|/>。\r\n安らかな鼓動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。"
+          "SourceString": "<itemName id=|PalEgg_Normal_03|/>。\r\n安らかな鼓動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。",
+          "LocalizedString": "<itemName id=|PalEgg_Normal_03|/>。\r\n安らかな鼓動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。"
         }
       },
       "ITEM_DESC_PalEgg_Normal_04": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Normal_04_TextData",
-          "SourceString": "<itemName id=|PalEgg_Normal_04|/>。\r\n安らかな鼓動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。",
-          "LocalizedString": "<itemName id=|PalEgg_Normal_04|/>。\r\n安らかな鼓動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。"
+          "SourceString": "<itemName id=|PalEgg_Normal_04|/>。\r\n安らかな鼓動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。",
+          "LocalizedString": "<itemName id=|PalEgg_Normal_04|/>。\r\n安らかな鼓動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。"
         }
       },
       "ITEM_DESC_PalEgg_Normal_05": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Normal_05_TextData",
-          "SourceString": "<itemName id=|PalEgg_Normal_05|/>。\r\n怪物が生まれそうな、博愛の魂の躍動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。",
-          "LocalizedString": "<itemName id=|PalEgg_Normal_05|/>。\r\n怪物が生まれそうな、博愛の魂の躍動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。"
+          "SourceString": "<itemName id=|PalEgg_Normal_05|/>。\r\n怪物が生まれそうな、博愛の魂の躍動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。",
+          "LocalizedString": "<itemName id=|PalEgg_Normal_05|/>。\r\n怪物が生まれそうな、博愛の魂の躍動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。"
         }
       },
       "ITEM_DESC_PalEgg_Fire_01": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Fire_01_TextData",
-          "SourceString": "<itemName id=|PalEgg_Fire_01|/>。\r\nアツい胎動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。",
-          "LocalizedString": "<itemName id=|PalEgg_Fire_01|/>。\r\nアツい胎動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。"
+          "SourceString": "<itemName id=|PalEgg_Fire_01|/>。\r\nアツい胎動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。",
+          "LocalizedString": "<itemName id=|PalEgg_Fire_01|/>。\r\nアツい胎動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。"
         }
       },
       "ITEM_DESC_PalEgg_Fire_02": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Fire_02_TextData",
-          "SourceString": "<itemName id=|PalEgg_Fire_02|/>。\r\nアツい胎動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。",
-          "LocalizedString": "<itemName id=|PalEgg_Fire_02|/>。\r\nアツい胎動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。"
+          "SourceString": "<itemName id=|PalEgg_Fire_02|/>。\r\nアツい胎動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。",
+          "LocalizedString": "<itemName id=|PalEgg_Fire_02|/>。\r\nアツい胎動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。"
         }
       },
       "ITEM_DESC_PalEgg_Fire_03": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Fire_03_TextData",
-          "SourceString": "<itemName id=|PalEgg_Fire_03|/>。\r\n強い情熱を持った鼓動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。",
-          "LocalizedString": "<itemName id=|PalEgg_Fire_03|/>。\r\n強い情熱を持った鼓動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。"
+          "SourceString": "<itemName id=|PalEgg_Fire_03|/>。\r\n強い情熱を持った鼓動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。",
+          "LocalizedString": "<itemName id=|PalEgg_Fire_03|/>。\r\n強い情熱を持った鼓動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。"
         }
       },
       "ITEM_DESC_PalEgg_Fire_04": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Fire_04_TextData",
-          "SourceString": "<itemName id=|PalEgg_Fire_04|/>。\r\n強い情熱を持った鼓動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。",
-          "LocalizedString": "<itemName id=|PalEgg_Fire_04|/>。\r\n強い情熱を持った鼓動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。"
+          "SourceString": "<itemName id=|PalEgg_Fire_04|/>。\r\n強い情熱を持った鼓動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。",
+          "LocalizedString": "<itemName id=|PalEgg_Fire_04|/>。\r\n強い情熱を持った鼓動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。"
         }
       },
       "ITEM_DESC_PalEgg_Fire_05": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Fire_05_TextData",
-          "SourceString": "<itemName id=|PalEgg_Fire_05|/>。\r\n怪物が生まれそうな、燃える魂の躍動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。",
-          "LocalizedString": "<itemName id=|PalEgg_Fire_05|/>。\r\n怪物が生まれそうな、燃える魂の躍動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。"
+          "SourceString": "<itemName id=|PalEgg_Fire_05|/>。\r\n怪物が生まれそうな、燃える魂の躍動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。",
+          "LocalizedString": "<itemName id=|PalEgg_Fire_05|/>。\r\n怪物が生まれそうな、燃える魂の躍動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。"
         }
       },
       "ITEM_DESC_PalEgg_Water_01": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Water_01_TextData",
-          "SourceString": "<itemName id=|PalEgg_Water_01|/>。\r\n清き胎動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。",
-          "LocalizedString": "<itemName id=|PalEgg_Water_01|/>。\r\n清き胎動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。"
+          "SourceString": "<itemName id=|PalEgg_Water_01|/>。\r\n清き胎動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。",
+          "LocalizedString": "<itemName id=|PalEgg_Water_01|/>。\r\n清き胎動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。"
         }
       },
       "ITEM_DESC_PalEgg_Water_02": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Water_02_TextData",
-          "SourceString": "<itemName id=|PalEgg_Water_02|/>。\r\n清き胎動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。",
-          "LocalizedString": "<itemName id=|PalEgg_Water_02|/>。\r\n清き胎動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。"
+          "SourceString": "<itemName id=|PalEgg_Water_02|/>。\r\n清き胎動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。",
+          "LocalizedString": "<itemName id=|PalEgg_Water_02|/>。\r\n清き胎動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。"
         }
       },
       "ITEM_DESC_PalEgg_Water_03": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Water_03_TextData",
-          "SourceString": "<itemName id=|PalEgg_Water_03|/>。\r\n清廉な鼓動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。",
-          "LocalizedString": "<itemName id=|PalEgg_Water_03|/>。\r\n清廉な鼓動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。"
+          "SourceString": "<itemName id=|PalEgg_Water_03|/>。\r\n清廉な鼓動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。",
+          "LocalizedString": "<itemName id=|PalEgg_Water_03|/>。\r\n清廉な鼓動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。"
         }
       },
       "ITEM_DESC_PalEgg_Water_04": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Water_04_TextData",
-          "SourceString": "<itemName id=|PalEgg_Water_04|/>。\r\n清廉な鼓動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。",
-          "LocalizedString": "<itemName id=|PalEgg_Water_04|/>。\r\n清廉な鼓動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。"
+          "SourceString": "<itemName id=|PalEgg_Water_04|/>。\r\n清廉な鼓動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。",
+          "LocalizedString": "<itemName id=|PalEgg_Water_04|/>。\r\n清廉な鼓動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。"
         }
       },
       "ITEM_DESC_PalEgg_Water_05": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Water_05_TextData",
-          "SourceString": "<itemName id=|PalEgg_Water_05|/>。\r\n怪物が生まれそうな、澄んだ魂の躍動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。",
-          "LocalizedString": "<itemName id=|PalEgg_Water_05|/>。\r\n怪物が生まれそうな、澄んだ魂の躍動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。"
+          "SourceString": "<itemName id=|PalEgg_Water_05|/>。\r\n怪物が生まれそうな、澄んだ魂の躍動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。",
+          "LocalizedString": "<itemName id=|PalEgg_Water_05|/>。\r\n怪物が生まれそうな、澄んだ魂の躍動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。"
         }
       },
       "ITEM_DESC_PalEgg_Leaf_01": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Leaf_01_TextData",
-          "SourceString": "<itemName id=|PalEgg_Leaf_01|/>。\r\n生き生きとした胎動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。",
-          "LocalizedString": "<itemName id=|PalEgg_Leaf_01|/>。\r\n生き生きとした胎動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。"
+          "SourceString": "<itemName id=|PalEgg_Leaf_01|/>。\r\n生き生きとした胎動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。",
+          "LocalizedString": "<itemName id=|PalEgg_Leaf_01|/>。\r\n生き生きとした胎動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。"
         }
       },
       "ITEM_DESC_PalEgg_Leaf_02": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Leaf_02_TextData",
-          "SourceString": "<itemName id=|PalEgg_Leaf_02|/>。\r\n生き生きとした胎動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。",
-          "LocalizedString": "<itemName id=|PalEgg_Leaf_02|/>。\r\n生き生きとした胎動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。"
+          "SourceString": "<itemName id=|PalEgg_Leaf_02|/>。\r\n生き生きとした胎動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。",
+          "LocalizedString": "<itemName id=|PalEgg_Leaf_02|/>。\r\n生き生きとした胎動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。"
         }
       },
       "ITEM_DESC_PalEgg_Leaf_03": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Leaf_03_TextData",
-          "SourceString": "<itemName id=|PalEgg_Leaf_03|/>。\r\n生命力あふれる鼓動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。",
-          "LocalizedString": "<itemName id=|PalEgg_Leaf_03|/>。\r\n生命力あふれる鼓動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。"
+          "SourceString": "<itemName id=|PalEgg_Leaf_03|/>。\r\n生命力あふれる鼓動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。",
+          "LocalizedString": "<itemName id=|PalEgg_Leaf_03|/>。\r\n生命力あふれる鼓動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。"
         }
       },
       "ITEM_DESC_PalEgg_Leaf_04": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Leaf_04_TextData",
-          "SourceString": "<itemName id=|PalEgg_Leaf_04|/>。\r\n生命力あふれる鼓動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。",
-          "LocalizedString": "<itemName id=|PalEgg_Leaf_04|/>。\r\n生命力あふれる鼓動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。"
+          "SourceString": "<itemName id=|PalEgg_Leaf_04|/>。\r\n生命力あふれる鼓動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。",
+          "LocalizedString": "<itemName id=|PalEgg_Leaf_04|/>。\r\n生命力あふれる鼓動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。"
         }
       },
       "ITEM_DESC_PalEgg_Leaf_05": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Leaf_05_TextData",
-          "SourceString": "<itemName id=|PalEgg_Leaf_05|/>。\r\n怪物が生まれそうな、深緑の魂の躍動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。",
-          "LocalizedString": "<itemName id=|PalEgg_Leaf_05|/>。\r\n怪物が生まれそうな、深緑の魂の躍動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。"
+          "SourceString": "<itemName id=|PalEgg_Leaf_05|/>。\r\n怪物が生まれそうな、深緑の魂の躍動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。",
+          "LocalizedString": "<itemName id=|PalEgg_Leaf_05|/>。\r\n怪物が生まれそうな、深緑の魂の躍動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。"
         }
       },
       "ITEM_DESC_PalEgg_Electricity_01": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Electricity_01_TextData",
-          "SourceString": "<itemName id=|PalEgg_Electricity_01|/>。\r\nハジけるような胎動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。",
-          "LocalizedString": "<itemName id=|PalEgg_Electricity_01|/>。\r\nハジけるような胎動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。"
+          "SourceString": "<itemName id=|PalEgg_Electricity_01|/>。\r\nハジけるような胎動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。",
+          "LocalizedString": "<itemName id=|PalEgg_Electricity_01|/>。\r\nハジけるような胎動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。"
         }
       },
       "ITEM_DESC_PalEgg_Electricity_02": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Electricity_02_TextData",
-          "SourceString": "<itemName id=|PalEgg_Electricity_02|/>。\r\nハジけるような胎動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。",
-          "LocalizedString": "<itemName id=|PalEgg_Electricity_02|/>。\r\nハジけるような胎動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。"
+          "SourceString": "<itemName id=|PalEgg_Electricity_02|/>。\r\nハジけるような胎動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。",
+          "LocalizedString": "<itemName id=|PalEgg_Electricity_02|/>。\r\nハジけるような胎動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。"
         }
       },
       "ITEM_DESC_PalEgg_Electricity_03": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Electricity_03_TextData",
-          "SourceString": "<itemName id=|PalEgg_Electricity_03|/>。\r\n強いエネルギーの鼓動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。",
-          "LocalizedString": "<itemName id=|PalEgg_Electricity_03|/>。\r\n強いエネルギーの鼓動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。"
+          "SourceString": "<itemName id=|PalEgg_Electricity_03|/>。\r\n強いエネルギーの鼓動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。",
+          "LocalizedString": "<itemName id=|PalEgg_Electricity_03|/>。\r\n強いエネルギーの鼓動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。"
         }
       },
       "ITEM_DESC_PalEgg_Electricity_04": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Electricity_04_TextData",
-          "SourceString": "<itemName id=|PalEgg_Electricity_04|/>。\r\n強いエネルギーの鼓動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。",
-          "LocalizedString": "<itemName id=|PalEgg_Electricity_04|/>。\r\n強いエネルギーの鼓動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。"
+          "SourceString": "<itemName id=|PalEgg_Electricity_04|/>。\r\n強いエネルギーの鼓動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。",
+          "LocalizedString": "<itemName id=|PalEgg_Electricity_04|/>。\r\n強いエネルギーの鼓動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。"
         }
       },
       "ITEM_DESC_PalEgg_Electricity_05": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Electricity_05_TextData",
-          "SourceString": "<itemName id=|PalEgg_Electricity_05|/>。\r\n怪物が生まれそうな、激しい魂の躍動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。",
-          "LocalizedString": "<itemName id=|PalEgg_Electricity_05|/>。\r\n怪物が生まれそうな、激しい魂の躍動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。"
+          "SourceString": "<itemName id=|PalEgg_Electricity_05|/>。\r\n怪物が生まれそうな、激しい魂の躍動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。",
+          "LocalizedString": "<itemName id=|PalEgg_Electricity_05|/>。\r\n怪物が生まれそうな、激しい魂の躍動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。"
         }
       },
       "ITEM_DESC_PalEgg_Ice_01": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Ice_01_TextData",
-          "SourceString": "<itemName id=|PalEgg_Ice_01|/>。\r\n冷たい胎動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。",
-          "LocalizedString": "<itemName id=|PalEgg_Ice_01|/>。\r\n冷たい胎動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。"
+          "SourceString": "<itemName id=|PalEgg_Ice_01|/>。\r\n冷たい胎動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。",
+          "LocalizedString": "<itemName id=|PalEgg_Ice_01|/>。\r\n冷たい胎動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。"
         }
       },
       "ITEM_DESC_PalEgg_Ice_02": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Ice_02_TextData",
-          "SourceString": "<itemName id=|PalEgg_Ice_02|/>。\r\n冷たい胎動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。",
-          "LocalizedString": "<itemName id=|PalEgg_Ice_02|/>。\r\n冷たい胎動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。"
+          "SourceString": "<itemName id=|PalEgg_Ice_02|/>。\r\n冷たい胎動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。",
+          "LocalizedString": "<itemName id=|PalEgg_Ice_02|/>。\r\n冷たい胎動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。"
         }
       },
       "ITEM_DESC_PalEgg_Ice_03": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Ice_03_TextData",
-          "SourceString": "<itemName id=|PalEgg_Ice_03|/>。\r\n冷徹な鼓動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。",
-          "LocalizedString": "<itemName id=|PalEgg_Ice_03|/>。\r\n冷徹な鼓動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。"
+          "SourceString": "<itemName id=|PalEgg_Ice_03|/>。\r\n冷徹な鼓動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。",
+          "LocalizedString": "<itemName id=|PalEgg_Ice_03|/>。\r\n冷徹な鼓動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。"
         }
       },
       "ITEM_DESC_PalEgg_Ice_04": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Ice_04_TextData",
-          "SourceString": "<itemName id=|PalEgg_Ice_04|/>。\r\n冷徹な鼓動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。",
-          "LocalizedString": "<itemName id=|PalEgg_Ice_04|/>。\r\n冷徹な鼓動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。"
+          "SourceString": "<itemName id=|PalEgg_Ice_04|/>。\r\n冷徹な鼓動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。",
+          "LocalizedString": "<itemName id=|PalEgg_Ice_04|/>。\r\n冷徹な鼓動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。"
         }
       },
       "ITEM_DESC_PalEgg_Ice_05": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Ice_05_TextData",
-          "SourceString": "<itemName id=|PalEgg_Ice_05|/>。\r\n怪物が生まれそうな、絶対零度の魂の躍動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。",
-          "LocalizedString": "<itemName id=|PalEgg_Ice_05|/>。\r\n怪物が生まれそうな、絶対零度の魂の躍動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。"
+          "SourceString": "<itemName id=|PalEgg_Ice_05|/>。\r\n怪物が生まれそうな、絶対零度の魂の躍動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。",
+          "LocalizedString": "<itemName id=|PalEgg_Ice_05|/>。\r\n怪物が生まれそうな、絶対零度の魂の躍動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。"
         }
       },
       "ITEM_DESC_PalEgg_Earth_01": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Earth_01_TextData",
-          "SourceString": "<itemName id=|PalEgg_Earth_01|/>。\r\nおおらかな胎動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。",
-          "LocalizedString": "<itemName id=|PalEgg_Earth_01|/>。\r\nおおらかな胎動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。"
+          "SourceString": "<itemName id=|PalEgg_Earth_01|/>。\r\nおおらかな胎動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。",
+          "LocalizedString": "<itemName id=|PalEgg_Earth_01|/>。\r\nおおらかな胎動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。"
         }
       },
       "ITEM_DESC_PalEgg_Earth_02": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Earth_02_TextData",
-          "SourceString": "<itemName id=|PalEgg_Earth_02|/>。\r\nおおらかな胎動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。",
-          "LocalizedString": "<itemName id=|PalEgg_Earth_02|/>。\r\nおおらかな胎動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。"
+          "SourceString": "<itemName id=|PalEgg_Earth_02|/>。\r\nおおらかな胎動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。",
+          "LocalizedString": "<itemName id=|PalEgg_Earth_02|/>。\r\nおおらかな胎動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。"
         }
       },
       "ITEM_DESC_PalEgg_Earth_03": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Earth_03_TextData",
-          "SourceString": "<itemName id=|PalEgg_Earth_03|/>。\r\n重厚な鼓動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。",
-          "LocalizedString": "<itemName id=|PalEgg_Earth_03|/>。\r\n重厚な鼓動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。"
+          "SourceString": "<itemName id=|PalEgg_Earth_03|/>。\r\n重厚な鼓動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。",
+          "LocalizedString": "<itemName id=|PalEgg_Earth_03|/>。\r\n重厚な鼓動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。"
         }
       },
       "ITEM_DESC_PalEgg_Earth_04": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Earth_04_TextData",
-          "SourceString": "<itemName id=|PalEgg_Earth_04|/>。\r\n重厚な鼓動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。",
-          "LocalizedString": "<itemName id=|PalEgg_Earth_04|/>。\r\n重厚な鼓動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。"
+          "SourceString": "<itemName id=|PalEgg_Earth_04|/>。\r\n重厚な鼓動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。",
+          "LocalizedString": "<itemName id=|PalEgg_Earth_04|/>。\r\n重厚な鼓動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。"
         }
       },
       "ITEM_DESC_PalEgg_Earth_05": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Earth_05_TextData",
-          "SourceString": "<itemName id=|PalEgg_Earth_05|/>。\r\n怪物が生まれそうな、大地の魂の躍動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。",
-          "LocalizedString": "<itemName id=|PalEgg_Earth_05|/>。\r\n怪物が生まれそうな、大地の魂の躍動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。"
+          "SourceString": "<itemName id=|PalEgg_Earth_05|/>。\r\n怪物が生まれそうな、大地の魂の躍動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。",
+          "LocalizedString": "<itemName id=|PalEgg_Earth_05|/>。\r\n怪物が生まれそうな、大地の魂の躍動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。"
         }
       },
       "ITEM_DESC_PalEgg_Dark_01": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Dark_01_TextData",
-          "SourceString": "<itemName id=|PalEgg_Dark_01|/>。\r\n不規則な胎動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。",
-          "LocalizedString": "<itemName id=|PalEgg_Dark_01|/>。\r\n不規則な胎動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。"
+          "SourceString": "<itemName id=|PalEgg_Dark_01|/>。\r\n不規則な胎動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。",
+          "LocalizedString": "<itemName id=|PalEgg_Dark_01|/>。\r\n不規則な胎動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。"
         }
       },
       "ITEM_DESC_PalEgg_Dark_02": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Dark_02_TextData",
-          "SourceString": "<itemName id=|PalEgg_Dark_02|/>。\r\n不規則な胎動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。",
-          "LocalizedString": "<itemName id=|PalEgg_Dark_02|/>。\r\n不規則な胎動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。"
+          "SourceString": "<itemName id=|PalEgg_Dark_02|/>。\r\n不規則な胎動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。",
+          "LocalizedString": "<itemName id=|PalEgg_Dark_02|/>。\r\n不規則な胎動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。"
         }
       },
       "ITEM_DESC_PalEgg_Dark_03": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Dark_03_TextData",
-          "SourceString": "<itemName id=|PalEgg_Dark_03|/>。\r\n邪悪な鼓動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。",
-          "LocalizedString": "<itemName id=|PalEgg_Dark_03|/>。\r\n邪悪な鼓動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。"
+          "SourceString": "<itemName id=|PalEgg_Dark_03|/>。\r\n邪悪な鼓動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。",
+          "LocalizedString": "<itemName id=|PalEgg_Dark_03|/>。\r\n邪悪な鼓動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。"
         }
       },
       "ITEM_DESC_PalEgg_Dark_04": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Dark_04_TextData",
-          "SourceString": "<itemName id=|PalEgg_Dark_04|/>。\r\n邪悪な鼓動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。",
-          "LocalizedString": "<itemName id=|PalEgg_Dark_04|/>。\r\n邪悪な鼓動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。"
+          "SourceString": "<itemName id=|PalEgg_Dark_04|/>。\r\n邪悪な鼓動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。",
+          "LocalizedString": "<itemName id=|PalEgg_Dark_04|/>。\r\n邪悪な鼓動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。"
         }
       },
       "ITEM_DESC_PalEgg_Dark_05": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Dark_05_TextData",
-          "SourceString": "<itemName id=|PalEgg_Dark_05|/>。\r\n怪物が生まれそうな、深淵の魂の躍動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。",
-          "LocalizedString": "<itemName id=|PalEgg_Dark_05|/>。\r\n怪物が生まれそうな、深淵の魂の躍動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。"
+          "SourceString": "<itemName id=|PalEgg_Dark_05|/>。\r\n怪物が生まれそうな、深淵の魂の躍動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。",
+          "LocalizedString": "<itemName id=|PalEgg_Dark_05|/>。\r\n怪物が生まれそうな、深淵の魂の躍動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。"
         }
       },
       "ITEM_DESC_PalEgg_Dragon_01": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Dragon_01_TextData",
-          "SourceString": "<itemName id=|PalEgg_Dragon_01|/>。\r\nわんぱくな胎動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。",
-          "LocalizedString": "<itemName id=|PalEgg_Dragon_01|/>。\r\nわんぱくな胎動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。"
+          "SourceString": "<itemName id=|PalEgg_Dragon_01|/>。\r\nわんぱくな胎動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。",
+          "LocalizedString": "<itemName id=|PalEgg_Dragon_01|/>。\r\nわんぱくな胎動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。"
         }
       },
       "ITEM_DESC_PalEgg_Dragon_02": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Dragon_02_TextData",
-          "SourceString": "<itemName id=|PalEgg_Dragon_02|/>。\r\nわんぱくな胎動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。",
-          "LocalizedString": "<itemName id=|PalEgg_Dragon_02|/>。\r\nわんぱくな胎動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。"
+          "SourceString": "<itemName id=|PalEgg_Dragon_02|/>。\r\nわんぱくな胎動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。",
+          "LocalizedString": "<itemName id=|PalEgg_Dragon_02|/>。\r\nわんぱくな胎動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。"
         }
       },
       "ITEM_DESC_PalEgg_Dragon_03": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Dragon_03_TextData",
-          "SourceString": "<itemName id=|PalEgg_Dragon_03|/>。\r\n規格外の鼓動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。",
-          "LocalizedString": "<itemName id=|PalEgg_Dragon_03|/>。\r\n規格外の鼓動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。"
+          "SourceString": "<itemName id=|PalEgg_Dragon_03|/>。\r\n規格外の鼓動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。",
+          "LocalizedString": "<itemName id=|PalEgg_Dragon_03|/>。\r\n規格外の鼓動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。"
         }
       },
       "ITEM_DESC_PalEgg_Dragon_04": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Dragon_04_TextData",
-          "SourceString": "<itemName id=|PalEgg_Dragon_04|/>。\r\n規格外の鼓動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。",
-          "LocalizedString": "<itemName id=|PalEgg_Dragon_04|/>。\r\n規格外の鼓動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。"
+          "SourceString": "<itemName id=|PalEgg_Dragon_04|/>。\r\n規格外の鼓動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。",
+          "LocalizedString": "<itemName id=|PalEgg_Dragon_04|/>。\r\n規格外の鼓動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。"
         }
       },
       "ITEM_DESC_PalEgg_Dragon_05": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Dragon_05_TextData",
-          "SourceString": "<itemName id=|PalEgg_Dragon_05|/>。\r\n怪物が生まれそうな、荘厳な魂の躍動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。",
-          "LocalizedString": "<itemName id=|PalEgg_Dragon_05|/>。\r\n怪物が生まれそうな、荘厳な魂の躍動を感じる。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。"
+          "SourceString": "<itemName id=|PalEgg_Dragon_05|/>。\r\n怪物が生まれそうな、荘厳な魂の躍動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。",
+          "LocalizedString": "<itemName id=|PalEgg_Dragon_05|/>。\r\n怪物が生まれそうな、荘厳な魂の躍動を感じる。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。"
         }
       },
       "ITEM_DESC_Relic": {
@@ -3062,24 +3061,24 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalUpgradeStone_TextData",
-          "SourceString": "小さなパルの遺した魂。\r\n<mapObjectName id=|BuildableGoddessStatue|/>に捧げることで、秘められた才能を引き出す。",
-          "LocalizedString": "小さなパルの遺した魂。\r\n<mapObjectName id=|BuildableGoddessStatue|/>に捧げることで、秘められた才能を引き出す。"
+          "SourceString": "小さなパルの遺した魂。\r\n「<mapObjectName id=|BuildableGoddessStatue|/>」に捧げることで、秘められた才能を引き出す。",
+          "LocalizedString": "小さなパルの遺した魂。\r\n「<mapObjectName id=|BuildableGoddessStatue|/>」に捧げることで、秘められた才能を引き出す。"
         }
       },
       "ITEM_DESC_PalUpgradeStone2": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalUpgradeStone2_TextData",
-          "SourceString": "パルの遺した魂。\r\n<mapObjectName id=|BuildableGoddessStatue|/>に捧げることで、秘められた才能を引き出す。",
-          "LocalizedString": "パルの遺した魂。\r\n<mapObjectName id=|BuildableGoddessStatue|/>に捧げることで、秘められた才能を引き出す。"
+          "SourceString": "パルの遺した魂。\r\n「<mapObjectName id=|BuildableGoddessStatue|/>」に捧げることで、秘められた才能を引き出す。",
+          "LocalizedString": "パルの遺した魂。\r\n「<mapObjectName id=|BuildableGoddessStatue|/>」に捧げることで、秘められた才能を引き出す。"
         }
       },
       "ITEM_DESC_PalUpgradeStone3": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalUpgradeStone3_TextData",
-          "SourceString": "大きなパルの遺した魂。\r\n<mapObjectName id=|BuildableGoddessStatue|/>に捧げることで、秘められた才能を引き出す。",
-          "LocalizedString": "大きなパルの遺した魂。\r\n<mapObjectName id=|BuildableGoddessStatue|/>に捧げることで、秘められた才能を引き出す。"
+          "SourceString": "大きなパルの遺した魂。\r\n「<mapObjectName id=|BuildableGoddessStatue|/>」に捧げることで、秘められた才能を引き出す。",
+          "LocalizedString": "大きなパルの遺した魂。\r\n「<mapObjectName id=|BuildableGoddessStatue|/>」に捧げることで、秘められた才能を引き出す。"
         }
       },
       "ITEM_DESC_PalItem_ColorfulBird": {
@@ -3678,8 +3677,8 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_IceOrgan_TextData",
-          "SourceString": "<uiCommon id=|COMMON_ELEMENT_NAME_Ice|/>のパルから採れる素材。\r\n<mapObjectName id=|Trap_MineFreeze|/>などの素材となる。",
-          "LocalizedString": "<uiCommon id=|COMMON_ELEMENT_NAME_Ice|/>のパルから採れる素材。\r\n<mapObjectName id=|Trap_MineFreeze|/>などの素材となる。"
+          "SourceString": "<uiCommon id=|COMMON_ELEMENT_NAME_Ice|/>のパルから採れる素材。\r\n「<mapObjectName id=|Trap_MineFreeze|/>」などの素材となる。",
+          "LocalizedString": "<uiCommon id=|COMMON_ELEMENT_NAME_Ice|/>のパルから採れる素材。\r\n「<mapObjectName id=|Trap_MineFreeze|/>」などの素材となる。"
         }
       },
       "ITEM_DESC_Bone": {
@@ -3710,8 +3709,8 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_Cement_TextData",
-          "SourceString": "建築物の素材となる<itemName id=|Cement|/>。\r\n<mapObjectName id=|Factory_Hard_01|/>で作成できる。",
-          "LocalizedString": "建築物の素材となる<itemName id=|Cement|/>。\r\n<mapObjectName id=|Factory_Hard_01|/>で作成できる。"
+          "SourceString": "建築物の素材となる<itemName id=|Cement|/>。\r\n「<mapObjectName id=|Factory_Hard_01|/>」で作成できる。",
+          "LocalizedString": "建築物の素材となる<itemName id=|Cement|/>。\r\n「<mapObjectName id=|Factory_Hard_01|/>」で作成できる。"
         }
       },
       "ITEM_DESC_CarbonFiber": {
@@ -4166,8 +4165,8 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_Cake_TextData",
-          "SourceString": "お祝いごとがあるときに食べる料理。\r\n<mapObjectName id=|BreedFarm|/>のチェストに入れておくと、\r\nこれを食べて活力をつけたパルがタマゴを産む。",
-          "LocalizedString": "お祝いごとがあるときに食べる料理。\r\n<mapObjectName id=|BreedFarm|/>のチェストに入れておくと、\r\nこれを食べて活力をつけたパルがタマゴを産む。"
+          "SourceString": "お祝いごとがあるときに食べる料理。\r\n「<mapObjectName id=|BreedFarm|/>」のチェストに入れておくと、\r\nこれを食べて活力をつけたパルがタマゴを産む。",
+          "LocalizedString": "お祝いごとがあるときに食べる料理。\r\n「<mapObjectName id=|BreedFarm|/>」のチェストに入れておくと、\r\nこれを食べて活力をつけたパルがタマゴを産む。"
         }
       },
       "ITEM_DESC_WeakerBow_2": {
@@ -6670,32 +6669,32 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalSummon_TextData",
-          "SourceString": "<characterName id=|NightLady|/>が描かれた石板。\r\n<mapObjectName id=|Altar|/>に捧げることで、\r\n強大なパルを召喚できる。",
-          "LocalizedString": "<characterName id=|NightLady|/>が描かれた石板。\r\n<mapObjectName id=|Altar|/>に捧げることで、\r\n強大なパルを召喚できる。"
+          "SourceString": "<characterName id=|NightLady|/>が描かれた石板。\r\n「<mapObjectName id=|Altar|/>」に捧げることで、\r\n強大なパルを召喚できる。",
+          "LocalizedString": "<characterName id=|NightLady|/>が描かれた石板。\r\n「<mapObjectName id=|Altar|/>」に捧げることで、\r\n強大なパルを召喚できる。"
         }
       },
       "ITEM_DESC_PalSummon_NightLady": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalSummon_NightLady_TextData",
-          "SourceString": "<characterName id=|NightLady|/>が描かれた石板。\r\n<mapObjectName id=|Altar|/>に捧げることで、\r\n強大な<characterName id=|NightLady|/>[Lv 35]が召喚される。",
-          "LocalizedString": "<characterName id=|NightLady|/>が描かれた石板。\r\n<mapObjectName id=|Altar|/>に捧げることで、\r\n強大な<characterName id=|NightLady|/>[Lv 35]が召喚される。"
+          "SourceString": "<characterName id=|NightLady|/>が描かれた石板。\r\n「<mapObjectName id=|Altar|/>」に捧げることで、\r\n強大な<characterName id=|NightLady|/>[Lv 35]が召喚される。",
+          "LocalizedString": "<characterName id=|NightLady|/>が描かれた石板。\r\n「<mapObjectName id=|Altar|/>」に捧げることで、\r\n強大な<characterName id=|NightLady|/>[Lv 35]が召喚される。"
         }
       },
       "ITEM_DESC_PalSummon_NightLady_Dark": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalSummon_NightLady_Dark_TextData",
-          "SourceString": "<characterName id=|NightLady_Dark|/>が描かれた石板。\r\n<mapObjectName id=|Altar|/>に捧げることで、\r\n非常に強大な<characterName id=|NightLady_Dark|/>[Lv 45]が召喚される。",
-          "LocalizedString": "<characterName id=|NightLady_Dark|/>が描かれた石板。\r\n<mapObjectName id=|Altar|/>に捧げることで、\r\n非常に強大な<characterName id=|NightLady_Dark|/>[Lv 45]が召喚される。"
+          "SourceString": "<characterName id=|NightLady_Dark|/>が描かれた石板。\r\n「<mapObjectName id=|Altar|/>」に捧げることで、\r\n非常に強大な<characterName id=|NightLady_Dark|/>[Lv 45]が召喚される。",
+          "LocalizedString": "<characterName id=|NightLady_Dark|/>が描かれた石板。\r\n「<mapObjectName id=|Altar|/>」に捧げることで、\r\n非常に強大な<characterName id=|NightLady_Dark|/>[Lv 45]が召喚される。"
         }
       },
       "ITEM_DESC_PalSummon_NightLady_Dark_2": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalSummon_NightLady_Dark_2_TextData",
-          "SourceString": "<characterName id=|NightLady_Dark|/>の力が溢れ出る石板。\r\n<mapObjectName id=|Altar|/>に捧げることで、\r\n絶望的な強さの<characterName id=|NightLady_Dark|/>[Lv ??]が召喚される。",
-          "LocalizedString": "<characterName id=|NightLady_Dark|/>の力が溢れ出る石板。\r\n<mapObjectName id=|Altar|/>に捧げることで、\r\n絶望的な強さの<characterName id=|NightLady_Dark|/>[Lv ??]が召喚される。"
+          "SourceString": "<characterName id=|NightLady_Dark|/>の力が溢れ出る石板。\r\n「<mapObjectName id=|Altar|/>」に捧げることで、\r\n絶望的な強さの<characterName id=|NightLady_Dark|/>[Lv ??]が召喚される。",
+          "LocalizedString": "<characterName id=|NightLady_Dark|/>の力が溢れ出る石板。\r\n「<mapObjectName id=|Altar|/>」に捧げることで、\r\n絶望的な強さの<characterName id=|NightLady_Dark|/>[Lv ??]が召喚される。"
         }
       },
       "ITEM_DESC_PalSummon_NightLady_Parts": {
@@ -7254,8 +7253,8 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalSummon_KingBahamut_Dragon_TextData",
-          "SourceString": "<characterName id=|KingBahamut_Dragon|/>が描かれた石板。\r\n<mapObjectName id=|Altar|/>に捧げることで、\r\n非常に強大な<characterName id=|KingBahamut_Dragon|/>[Lv 55]が召喚される。",
-          "LocalizedString": "<characterName id=|KingBahamut_Dragon|/>が描かれた石板。\r\n<mapObjectName id=|Altar|/>に捧げることで、\r\n非常に強大な<characterName id=|KingBahamut_Dragon|/>[Lv 55]が召喚される。"
+          "SourceString": "<characterName id=|KingBahamut_Dragon|/>が描かれた石板。\r\n「<mapObjectName id=|Altar|/>」に捧げることで、\r\n非常に強大な<characterName id=|KingBahamut_Dragon|/>[Lv 55]が召喚される。",
+          "LocalizedString": "<characterName id=|KingBahamut_Dragon|/>が描かれた石板。\r\n「<mapObjectName id=|Altar|/>」に捧げることで、\r\n非常に強大な<characterName id=|KingBahamut_Dragon|/>[Lv 55]が召喚される。"
         }
       },
       "ITEM_DESC_PalSummon_KingBahamut_Dragon_Parts": {
@@ -7270,8 +7269,8 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalSummon_KingBahamut_Dragon_2_TextData",
-          "SourceString": "<characterName id=|KingBahamut_Dragon|/>の力が溢れ出る石板。\r\n<mapObjectName id=|Altar|/>に捧げることで、\r\n絶望的な強さの<characterName id=|KingBahamut_Dragon|/>[Lv ??]が召喚される。",
-          "LocalizedString": "<characterName id=|KingBahamut_Dragon|/>の力が溢れ出る石板。\r\n<mapObjectName id=|Altar|/>に捧げることで、\r\n絶望的な強さの<characterName id=|KingBahamut_Dragon|/>[Lv ??]が召喚される。"
+          "SourceString": "<characterName id=|KingBahamut_Dragon|/>の力が溢れ出る石板。\r\n「<mapObjectName id=|Altar|/>」に捧げることで、\r\n絶望的な強さの<characterName id=|KingBahamut_Dragon|/>[Lv ??]が召喚される。",
+          "LocalizedString": "<characterName id=|KingBahamut_Dragon|/>の力が溢れ出る石板。\r\n「<mapObjectName id=|Altar|/>」に捧げることで、\r\n絶望的な強さの<characterName id=|KingBahamut_Dragon|/>[Lv ??]が召喚される。"
         }
       },
       "ITEM_DESC_PalSummon_KingBahamut_Dragon_Parts_2": {
@@ -8726,8 +8725,8 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalUpgradeStone4_TextData",
-          "SourceString": "とても鍛えられたパルの遺した魂。\r\n<mapObjectName id=|BuildableGoddessStatue|/>に捧げることで、秘められた才能を引き出す。",
-          "LocalizedString": "とても鍛えられたパルの遺した魂。\r\n<mapObjectName id=|BuildableGoddessStatue|/>に捧げることで、秘められた才能を引き出す。"
+          "SourceString": "とても鍛えられたパルの遺した魂。\r\n「<mapObjectName id=|BuildableGoddessStatue|/>」に捧げることで、秘められた才能を引き出す。",
+          "LocalizedString": "とても鍛えられたパルの遺した魂。\r\n「<mapObjectName id=|BuildableGoddessStatue|/>」に捧げることで、秘められた才能を引き出す。"
         }
       },
       "ITEM_DESC_HeadEquip044": {
@@ -8750,8 +8749,8 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalSummon_DarkMechaDragon_TextData",
-          "SourceString": "<characterName id=|DarkMechaDragon|/>が描かれた石板。\r\n<mapObjectName id=|Altar|/>に捧げることで、\r\n非常に強大な<characterName id=|DarkMechaDragon|/>[Lv 65]が召喚される。",
-          "LocalizedString": "<characterName id=|DarkMechaDragon|/>が描かれた石板。\r\n<mapObjectName id=|Altar|/>に捧げることで、\r\n非常に強大な<characterName id=|DarkMechaDragon|/>[Lv 65]が召喚される。"
+          "SourceString": "<characterName id=|DarkMechaDragon|/>が描かれた石板。\r\n「<mapObjectName id=|Altar|/>」に捧げることで、\r\n非常に強大な<characterName id=|DarkMechaDragon|/>[Lv 65]が召喚される。",
+          "LocalizedString": "<characterName id=|DarkMechaDragon|/>が描かれた石板。\r\n「<mapObjectName id=|Altar|/>」に捧げることで、\r\n非常に強大な<characterName id=|DarkMechaDragon|/>[Lv 65]が召喚される。"
         }
       },
       "ITEM_DESC_PalSummon_DarkMechaDragon_Parts": {
@@ -8766,8 +8765,8 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalSummon_DarkMechaDragon_2_TextData",
-          "SourceString": "<characterName id=|DarkMechaDragon|/>の力が溢れ出る石板。\r\n<mapObjectName id=|Altar|/>に捧げることで、\r\n絶望的な強さの<characterName id=|DarkMechaDragon|/>[Lv ??]が召喚される。",
-          "LocalizedString": "<characterName id=|DarkMechaDragon|/>の力が溢れ出る石板。\r\n<mapObjectName id=|Altar|/>に捧げることで、\r\n絶望的な強さの<characterName id=|DarkMechaDragon|/>[Lv ??]が召喚される。"
+          "SourceString": "<characterName id=|DarkMechaDragon|/>の力が溢れ出る石板。\r\n「<mapObjectName id=|Altar|/>」に捧げることで、\r\n絶望的な強さの<characterName id=|DarkMechaDragon|/>[Lv ??]が召喚される。",
+          "LocalizedString": "<characterName id=|DarkMechaDragon|/>の力が溢れ出る石板。\r\n「<mapObjectName id=|Altar|/>」に捧げることで、\r\n絶望的な強さの<characterName id=|DarkMechaDragon|/>[Lv ??]が召喚される。"
         }
       },
       "ITEM_DESC_PalSummon_DarkMechaDragon_Parts_2": {
@@ -10414,16 +10413,16 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalPassiveSkillChange_TextData",
-          "SourceString": "パルの身体に埋め込み、パッシブスキルを変更するためのインプラント。\r\n所持していると、<mapObjectName id=|OperatingTable|/>で該当パッシブスキルを選択することができるようになる。",
-          "LocalizedString": "パルの身体に埋め込み、パッシブスキルを変更するためのインプラント。\r\n所持していると、<mapObjectName id=|OperatingTable|/>で該当パッシブスキルを選択することができるようになる。"
+          "SourceString": "パルの身体に埋め込み、パッシブスキルを変更するためのインプラント。\r\n所持していると、「<mapObjectName id=|OperatingTable|/>」で該当パッシブスキルを選択することができるようになる。",
+          "LocalizedString": "パルの身体に埋め込み、パッシブスキルを変更するためのインプラント。\r\n所持していると、「<mapObjectName id=|OperatingTable|/>」で該当パッシブスキルを選択することができるようになる。"
         }
       },
       "ITEM_DESC_PalGenderReverse": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalGenderReverse_TextData",
-          "SourceString": "パルの性別を反転させることができる、不思議な薬品。\r\n<mapObjectName id=|OperatingTable|/>で使用できる。",
-          "LocalizedString": "パルの性別を反転させることができる、不思議な薬品。\r\n<mapObjectName id=|OperatingTable|/>で使用できる。"
+          "SourceString": "パルの性別を反転させることができる、不思議な薬品。\r\n「<mapObjectName id=|OperatingTable|/>」で使用できる。",
+          "LocalizedString": "パルの性別を反転させることができる、不思議な薬品。\r\n「<mapObjectName id=|OperatingTable|/>」で使用できる。"
         }
       },
       "ITEM_DESC_BattleTicket": {
@@ -11270,16 +11269,16 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_FishingBait_2_TextData",
-          "SourceString": "パルを誘い寄せる釣りエサ。\r\n改良され、パルがエサに食いつきやすくなった。",
-          "LocalizedString": "パルを誘い寄せる釣りエサ。\r\n改良され、パルがエサに食いつきやすくなった。"
+          "SourceString": "パルを誘い寄せる釣りエサ。\r\n改良され、パルがエサに食いつきやすくなり、\r\n釣りで手に入るアイテムの獲得量がほんの少し増えるようになった。",
+          "LocalizedString": "パルを誘い寄せる釣りエサ。\r\n改良され、パルがエサに食いつきやすくなり、\r\n釣りで手に入るアイテムの獲得量がほんの少し増えるようになった。"
         }
       },
       "ITEM_DESC_FishingBait_3": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_FishingBait_3_TextData",
-          "SourceString": "パルを誘い寄せる釣りエサ。\r\n改良され、ミニゲーム中のバーが少し大きくなった。",
-          "LocalizedString": "パルを誘い寄せる釣りエサ。\r\n改良され、ミニゲーム中のバーが少し大きくなった。"
+          "SourceString": "パルを誘い寄せる釣りエサ。\r\n改良され、ミニゲーム中のバーが少し大きくなり、\r\n釣りで手に入るアイテムの獲得量が少し増えるようになった。",
+          "LocalizedString": "パルを誘い寄せる釣りエサ。\r\n改良され、ミニゲーム中のバーが少し大きくなり、\r\n釣りで手に入るアイテムの獲得量が少し増えるようになった。"
         }
       },
       "ITEM_DESC_FishingBait_1_A": {
@@ -11902,8 +11901,8 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalSummon_YakushimaBoss002_TextData",
-          "SourceString": "[テラリア コラボ]\r\n未知の文様が描かれた印章。\r\n<mapObjectName id=|Altar|/>に捧げることで、\r\n強大な存在を召喚できる。",
-          "LocalizedString": "[テラリア コラボ]\r\n未知の文様が描かれた印章。\r\n<mapObjectName id=|Altar|/>に捧げることで、\r\n強大な存在を召喚できる。"
+          "SourceString": "[テラリア コラボ]\r\n未知の文様が描かれた印章。\r\n「<mapObjectName id=|Altar|/>」に捧げることで、\r\n強大な存在を召喚できる。",
+          "LocalizedString": "[テラリア コラボ]\r\n未知の文様が描かれた印章。\r\n「<mapObjectName id=|Altar|/>」に捧げることで、\r\n強大な存在を召喚できる。"
         }
       },
       "ITEM_DESC_YakushimaIngot001": {
@@ -12046,8 +12045,8 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalSummon_YakushimaBoss002_2_TextData",
-          "SourceString": "[テラリア コラボ]\r\n未知の文様が描かれた印章。\r\n<mapObjectName id=|Altar|/>に捧げることで、\r\n絶望的な強さの存在を召喚できる。",
-          "LocalizedString": "[テラリア コラボ]\r\n未知の文様が描かれた印章。\r\n<mapObjectName id=|Altar|/>に捧げることで、\r\n絶望的な強さの存在を召喚できる。"
+          "SourceString": "[テラリア コラボ]\r\n未知の文様が描かれた印章。\r\n「<mapObjectName id=|Altar|/>」に捧げることで、\r\n絶望的な強さの存在を召喚できる。",
+          "LocalizedString": "[テラリア コラボ]\r\n未知の文様が描かれた印章。\r\n「<mapObjectName id=|Altar|/>」に捧げることで、\r\n絶望的な強さの存在を召喚できる。"
         }
       },
       "ITEM_DESC_Sweet_Caramel": {
@@ -12166,8 +12165,8 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalSummon_LegendDeer_TextData",
-          "SourceString": "<characterName id=|LegendDeer|/>が描かれた石板。\r\n<mapObjectName id=|Altar|/>に捧げることで、\r\n非常に強大な<characterName id=|LegendDeer|/>[Lv 70]が召喚される。",
-          "LocalizedString": "<characterName id=|LegendDeer|/>が描かれた石板。\r\n<mapObjectName id=|Altar|/>に捧げることで、\r\n非常に強大な<characterName id=|LegendDeer|/>[Lv 70]が召喚される。"
+          "SourceString": "<characterName id=|LegendDeer|/>が描かれた石板。\r\n「<mapObjectName id=|Altar|/>」に捧げることで、\r\n非常に強大な<characterName id=|LegendDeer|/>[Lv 70]が召喚される。",
+          "LocalizedString": "<characterName id=|LegendDeer|/>が描かれた石板。\r\n「<mapObjectName id=|Altar|/>」に捧げることで、\r\n非常に強大な<characterName id=|LegendDeer|/>[Lv 70]が召喚される。"
         }
       },
       "ITEM_DESC_PalSummon_LegendDeer_Parts": {
@@ -12182,8 +12181,8 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalSummon_LegendDeer_2_TextData",
-          "SourceString": "<characterName id=|LegendDeer|/>の力が溢れ出る石板。\r\n<mapObjectName id=|Altar|/>に捧げることで、\r\n絶望的な強さの<characterName id=|LegendDeer|/>[Lv ??]が召喚される。",
-          "LocalizedString": "<characterName id=|LegendDeer|/>の力が溢れ出る石板。\r\n<mapObjectName id=|Altar|/>に捧げることで、\r\n絶望的な強さの<characterName id=|LegendDeer|/>[Lv ??]が召喚される。"
+          "SourceString": "<characterName id=|LegendDeer|/>の力が溢れ出る石板。\r\n「<mapObjectName id=|Altar|/>」に捧げることで、\r\n絶望的な強さの<characterName id=|LegendDeer|/>[Lv ??]が召喚される。",
+          "LocalizedString": "<characterName id=|LegendDeer|/>の力が溢れ出る石板。\r\n「<mapObjectName id=|Altar|/>」に捧げることで、\r\n絶望的な強さの<characterName id=|LegendDeer|/>[Lv ??]が召喚される。"
         }
       },
       "ITEM_DESC_PalSummon_LegendDeer_Parts_2": {
@@ -14494,112 +14493,112 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_MutationPal_01_TextData",
-          "SourceString": "<itemName id=|PalEgg_MutationPal_01|/>。\r\nごく稀に生まれる、特別な変異を遂げたタマゴ。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。",
-          "LocalizedString": "<itemName id=|PalEgg_MutationPal_01|/>。\r\nごく稀に生まれる、特別な変異を遂げたタマゴ。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。"
+          "SourceString": "<itemName id=|PalEgg_MutationPal_01|/>。\r\nごく稀に生まれる、特別な変異を遂げたタマゴ。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。",
+          "LocalizedString": "<itemName id=|PalEgg_MutationPal_01|/>。\r\nごく稀に生まれる、特別な変異を遂げたタマゴ。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。"
         }
       },
       "ITEM_DESC_PalEgg_MutationPal_02": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_MutationPal_02_TextData",
-          "SourceString": "<itemName id=|PalEgg_MutationPal_02|/>。\r\nごく稀に生まれる、特別な変異を遂げたタマゴ。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。",
-          "LocalizedString": "<itemName id=|PalEgg_MutationPal_02|/>。\r\nごく稀に生まれる、特別な変異を遂げたタマゴ。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。"
+          "SourceString": "<itemName id=|PalEgg_MutationPal_02|/>。\r\nごく稀に生まれる、特別な変異を遂げたタマゴ。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。",
+          "LocalizedString": "<itemName id=|PalEgg_MutationPal_02|/>。\r\nごく稀に生まれる、特別な変異を遂げたタマゴ。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。"
         }
       },
       "ITEM_DESC_PalEgg_MutationPal_03": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_MutationPal_03_TextData",
-          "SourceString": "<itemName id=|PalEgg_MutationPal_03|/>。\r\nごく稀に生まれる、特別な変異を遂げたタマゴ。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。",
-          "LocalizedString": "<itemName id=|PalEgg_MutationPal_03|/>。\r\nごく稀に生まれる、特別な変異を遂げたタマゴ。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。"
+          "SourceString": "<itemName id=|PalEgg_MutationPal_03|/>。\r\nごく稀に生まれる、特別な変異を遂げたタマゴ。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。",
+          "LocalizedString": "<itemName id=|PalEgg_MutationPal_03|/>。\r\nごく稀に生まれる、特別な変異を遂げたタマゴ。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。"
         }
       },
       "ITEM_DESC_PalEgg_MutationPal_04": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_MutationPal_04_TextData",
-          "SourceString": "<itemName id=|PalEgg_MutationPal_04|/>。\r\nごく稀に生まれる、特別な変異を遂げたタマゴ。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。",
-          "LocalizedString": "<itemName id=|PalEgg_MutationPal_04|/>。\r\nごく稀に生まれる、特別な変異を遂げたタマゴ。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。"
+          "SourceString": "<itemName id=|PalEgg_MutationPal_04|/>。\r\nごく稀に生まれる、特別な変異を遂げたタマゴ。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。",
+          "LocalizedString": "<itemName id=|PalEgg_MutationPal_04|/>。\r\nごく稀に生まれる、特別な変異を遂げたタマゴ。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。"
         }
       },
       "ITEM_DESC_PalEgg_MutationPal_05": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_MutationPal_05_TextData",
-          "SourceString": "<itemName id=|PalEgg_MutationPal_05|/>。\r\nごく稀に生まれる、特別な変異を遂げたタマゴ。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。",
-          "LocalizedString": "<itemName id=|PalEgg_MutationPal_05|/>。\r\nごく稀に生まれる、特別な変異を遂げたタマゴ。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。"
+          "SourceString": "<itemName id=|PalEgg_MutationPal_05|/>。\r\nごく稀に生まれる、特別な変異を遂げたタマゴ。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。",
+          "LocalizedString": "<itemName id=|PalEgg_MutationPal_05|/>。\r\nごく稀に生まれる、特別な変異を遂げたタマゴ。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。"
         }
       },
       "ITEM_DESC_PalEgg_WorldTree_01": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_WorldTree_01_TextData",
-          "SourceString": "<itemName id=|PalEgg_WorldTree_01|/>\r\n世界樹のエネルギーを宿した不思議なタマゴ。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。",
-          "LocalizedString": "<itemName id=|PalEgg_WorldTree_01|/>\r\n世界樹のエネルギーを宿した不思議なタマゴ。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。"
+          "SourceString": "<itemName id=|PalEgg_WorldTree_01|/>\r\n世界樹のエネルギーを宿した不思議なタマゴ。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。",
+          "LocalizedString": "<itemName id=|PalEgg_WorldTree_01|/>\r\n世界樹のエネルギーを宿した不思議なタマゴ。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。"
         }
       },
       "ITEM_DESC_PalEgg_WorldTree_02": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_WorldTree_02_TextData",
-          "SourceString": "<itemName id=|PalEgg_WorldTree_02|/>\r\n世界樹のエネルギーを宿した不思議なタマゴ。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。",
-          "LocalizedString": "<itemName id=|PalEgg_WorldTree_02|/>\r\n世界樹のエネルギーを宿した不思議なタマゴ。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。"
+          "SourceString": "<itemName id=|PalEgg_WorldTree_02|/>\r\n世界樹のエネルギーを宿した不思議なタマゴ。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。",
+          "LocalizedString": "<itemName id=|PalEgg_WorldTree_02|/>\r\n世界樹のエネルギーを宿した不思議なタマゴ。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。"
         }
       },
       "ITEM_DESC_PalEgg_WorldTree_03": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_WorldTree_03_TextData",
-          "SourceString": "<itemName id=|PalEgg_WorldTree_03|/>\r\n世界樹のエネルギーを宿した不思議なタマゴ。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。",
-          "LocalizedString": "<itemName id=|PalEgg_WorldTree_03|/>\r\n世界樹のエネルギーを宿した不思議なタマゴ。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。"
+          "SourceString": "<itemName id=|PalEgg_WorldTree_03|/>\r\n世界樹のエネルギーを宿した不思議なタマゴ。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。",
+          "LocalizedString": "<itemName id=|PalEgg_WorldTree_03|/>\r\n世界樹のエネルギーを宿した不思議なタマゴ。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。"
         }
       },
       "ITEM_DESC_PalEgg_WorldTree_04": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_WorldTree_04_TextData",
-          "SourceString": "<itemName id=|PalEgg_WorldTree_04|/>\r\n世界樹のエネルギーを宿した不思議なタマゴ。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。",
-          "LocalizedString": "<itemName id=|PalEgg_WorldTree_04|/>\r\n世界樹のエネルギーを宿した不思議なタマゴ。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。"
+          "SourceString": "<itemName id=|PalEgg_WorldTree_04|/>\r\n世界樹のエネルギーを宿した不思議なタマゴ。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。",
+          "LocalizedString": "<itemName id=|PalEgg_WorldTree_04|/>\r\n世界樹のエネルギーを宿した不思議なタマゴ。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。"
         }
       },
       "ITEM_DESC_PalEgg_WorldTree_05": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_WorldTree_05_TextData",
-          "SourceString": "<itemName id=|PalEgg_WorldTree_05|/>\r\n世界樹のエネルギーを宿した不思議なタマゴ。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。",
-          "LocalizedString": "<itemName id=|PalEgg_WorldTree_05|/>\r\n世界樹のエネルギーを宿した不思議なタマゴ。\r\n<mapObjectName id=|HatchingPalEgg|/>に置いて孵化させよう。"
+          "SourceString": "<itemName id=|PalEgg_WorldTree_05|/>\r\n世界樹のエネルギーを宿した不思議なタマゴ。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。",
+          "LocalizedString": "<itemName id=|PalEgg_WorldTree_05|/>\r\n世界樹のエネルギーを宿した不思議なタマゴ。\r\n「<mapObjectName id=|HatchingPalEgg|/>」に置いて孵化させよう。"
         }
       },
       "ITEM_DESC_Cake02": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_Cake02_TextData",
-          "SourceString": "<mapObjectName id=|BreedFarm|/>のチェストに入れておくと、\r\nこれを食べて活力をつけたパルがタマゴを産む。\r\n生まれるパルの才能が少し伸びやすくなる。",
-          "LocalizedString": "<mapObjectName id=|BreedFarm|/>のチェストに入れておくと、\r\nこれを食べて活力をつけたパルがタマゴを産む。\r\n生まれるパルの才能が少し伸びやすくなる。"
+          "SourceString": "「<mapObjectName id=|BreedFarm|/>」のチェストに入れておくと、\r\nこれを食べて活力をつけたパルがタマゴを産む。\r\n生まれるパルの才能が少し伸びやすくなる。",
+          "LocalizedString": "「<mapObjectName id=|BreedFarm|/>」のチェストに入れておくと、\r\nこれを食べて活力をつけたパルがタマゴを産む。\r\n生まれるパルの才能が少し伸びやすくなる。"
         }
       },
       "ITEM_DESC_Cake03": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_Cake03_TextData",
-          "SourceString": "<mapObjectName id=|BreedFarm|/>のチェストに入れておくと、\r\nこれを食べて活力をつけたパルがタマゴを産む。\r\n一度に2回タマゴを産む。",
-          "LocalizedString": "<mapObjectName id=|BreedFarm|/>のチェストに入れておくと、\r\nこれを食べて活力をつけたパルがタマゴを産む。\r\n一度に2回タマゴを産む。"
+          "SourceString": "「<mapObjectName id=|BreedFarm|/>」のチェストに入れておくと、\r\nこれを食べて活力をつけたパルがタマゴを産む。\r\n一度に2回タマゴを産む。",
+          "LocalizedString": "「<mapObjectName id=|BreedFarm|/>」のチェストに入れておくと、\r\nこれを食べて活力をつけたパルがタマゴを産む。\r\n一度に2回タマゴを産む。"
         }
       },
       "ITEM_DESC_Cake04": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_Cake04_TextData",
-          "SourceString": "<mapObjectName id=|BreedFarm|/>のチェストに入れておくと、\r\nこれを食べて活力をつけたパルがタマゴを産む。\r\n突然変異が起こりやすくなり、才能も伸びやすくなる。",
-          "LocalizedString": "<mapObjectName id=|BreedFarm|/>のチェストに入れておくと、\r\nこれを食べて活力をつけたパルがタマゴを産む。\r\n突然変異が起こりやすくなり、才能も伸びやすくなる。"
+          "SourceString": "「<mapObjectName id=|BreedFarm|/>」のチェストに入れておくと、\r\nこれを食べて活力をつけたパルがタマゴを産む。\r\n突然変異が起こりやすくなり、才能も伸びやすくなる。",
+          "LocalizedString": "「<mapObjectName id=|BreedFarm|/>」のチェストに入れておくと、\r\nこれを食べて活力をつけたパルがタマゴを産む。\r\n突然変異が起こりやすくなり、才能も伸びやすくなる。"
         }
       },
       "ITEM_DESC_Cake05": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_Cake05_TextData",
-          "SourceString": "<mapObjectName id=|BreedFarm|/>のチェストに入れておくと、\r\nこれを食べたパルが活力を得てタマゴを産む。\r\n親からパッシブスキルを多く継承しやすくなる。",
-          "LocalizedString": "<mapObjectName id=|BreedFarm|/>のチェストに入れておくと、\r\nこれを食べたパルが活力を得てタマゴを産む。\r\n親からパッシブスキルを多く継承しやすくなる。"
+          "SourceString": "「<mapObjectName id=|BreedFarm|/>」のチェストに入れておくと、\r\nこれを食べたパルが活力を得てタマゴを産む。\r\n親からパッシブスキルを多く継承しやすくなる。",
+          "LocalizedString": "「<mapObjectName id=|BreedFarm|/>」のチェストに入れておくと、\r\nこれを食べたパルが活力を得てタマゴを産む。\r\n親からパッシブスキルを多く継承しやすくなる。"
         }
       },
       "ITEM_DESC_HeadEquip049": {

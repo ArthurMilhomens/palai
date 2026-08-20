@@ -2,9 +2,8 @@
   {
     "Type": "DataTable",
     "Name": "DT_MapObjectNameText_Common",
-    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'DataTable'",
-    "Package": "Pal/Content/L10N/pt-BR/Pal/DataTable/Text/DT_MapObjectNameText_Common",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "RowStruct": {
         "ObjectName": "ScriptStruct'PalLocalizedTextData'",
@@ -4938,6 +4937,14 @@
           "Key": "MAPOBJECT_NAME_OilPump02_TextData",
           "SourceString": "Extrator de Petróleo de Alta Pressão",
           "LocalizedString": "Extrator de Petróleo de Alta Pressão"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableWood0001": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableWood0001_TextData",
+          "SourceString": "Casca de Árvore Antiga",
+          "LocalizedString": "Casca de Árvore Antiga"
         }
       }
     }

@@ -1,0 +1,1072 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_HumanNameText_Common",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "NAME_TEST_NPC": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_TEST_NPC_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "NAME_CITIZEN": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_CITIZEN_TextData",
+          "SourceString": "Ada Sakini",
+          "LocalizedString": "Ada Sakini"
+        }
+      },
+      "NAME_VILLAGER": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_VILLAGER_TextData",
+          "SourceString": "Köylü",
+          "LocalizedString": "Köylü"
+        }
+      },
+      "NAME_QUESTMAN": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_QUESTMAN_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "NAME_SELESPERSON": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_SELESPERSON_TextData",
+          "SourceString": "Gezgin Tüccar",
+          "LocalizedString": "Gezgin Tüccar"
+        }
+      },
+      "NAME_VISITING": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_VISITING_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "NAME_WEAPON_DEALER": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_WEAPON_DEALER_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "NAME_PAL_DEALER": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_PAL_DEALER_TextData",
+          "SourceString": "Pal Tüccarı",
+          "LocalizedString": "Pal Tüccarı"
+        }
+      },
+      "NAME_GUARD": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_GUARD_TextData",
+          "SourceString": "Muhafız",
+          "LocalizedString": "Muhafız"
+        }
+      },
+      "NAME_SecurityDrone": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_SecurityDrone_TextData",
+          "SourceString": "Hücum Helikopteri",
+          "LocalizedString": "Hücum Helikopteri"
+        }
+      },
+      "NAME_Believer": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Believer_TextData",
+          "SourceString": "Hür Pal İttifakı Fedaisi",
+          "LocalizedString": "Hür Pal İttifakı Fedaisi"
+        }
+      },
+      "NAME_FireCult": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_FireCult_TextData",
+          "SourceString": "Ölümsüz Ateş Kardeşliği Gazisi",
+          "LocalizedString": "Ölümsüz Ateş Kardeşliği Gazisi"
+        }
+      },
+      "NAME_Labmen": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Labmen_TextData",
+          "SourceString": "PAL Genetik Araştırma Birimi İnfazcısı",
+          "LocalizedString": "PAL Genetik Araştırma Birimi İnfazcısı"
+        }
+      },
+      "NAME_POLICE": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_POLICE_TextData",
+          "SourceString": "PASG Muhafızı",
+          "LocalizedString": "PASG Muhafızı"
+        }
+      },
+      "NAME_POLICE_1": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_POLICE_1_TextData",
+          "SourceString": "PASG Devriyesi",
+          "LocalizedString": "PASG Devriyesi"
+        }
+      },
+      "NAME_POLICE_2": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_POLICE_2_TextData",
+          "SourceString": "PASG Piyadesi",
+          "LocalizedString": "PASG Piyadesi"
+        }
+      },
+      "NAME_POLICE_3": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_POLICE_3_TextData",
+          "SourceString": "PASG Seçkini",
+          "LocalizedString": "PASG Seçkini"
+        }
+      },
+      "NAME_HUNTER": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_TextData",
+          "SourceString": "Örgüt Haydudu",
+          "LocalizedString": "Örgüt Haydudu"
+        }
+      },
+      "NAME_HUNTER_2": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_2_TextData",
+          "SourceString": "Örgüt Tüfekçisi",
+          "LocalizedString": "Örgüt Tüfekçisi"
+        }
+      },
+      "NAME_HUNTER_3": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_3_TextData",
+          "SourceString": "Örgüt Avcısı",
+          "LocalizedString": "Örgüt Avcısı"
+        }
+      },
+      "NAME_HUNTER_4": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_4_TextData",
+          "SourceString": "Örgüt Bombacısı",
+          "LocalizedString": "Örgüt Bombacısı"
+        }
+      },
+      "NAME_HUNTER_5": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_5_TextData",
+          "SourceString": "Örgüt Temizlikçisi",
+          "LocalizedString": "Örgüt Temizlikçisi"
+        }
+      },
+      "NAME_HUNTER_6": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_6_TextData",
+          "SourceString": "Örgüt Seçkini",
+          "LocalizedString": "Örgüt Seçkini"
+        }
+      },
+      "NAME_HUNTER_BOSS": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_BOSS_TextData",
+          "SourceString": "Örgüt Ezicisi",
+          "LocalizedString": "Örgüt Ezicisi"
+        }
+      },
+      "NAME_DarkTrader": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_DarkTrader_TextData",
+          "SourceString": "Karaborsacı",
+          "LocalizedString": "Karaborsacı"
+        }
+      },
+      "NAME_HUNTER_7": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_7_TextData",
+          "SourceString": "Örgüt Gediklisi",
+          "LocalizedString": "Örgüt Gediklisi"
+        }
+      },
+      "NAME_HUNTER_8": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_8_TextData",
+          "SourceString": "Örgüt Müdahalecisi",
+          "LocalizedString": "Örgüt Müdahalecisi"
+        }
+      },
+      "NAME_Ninja": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Ninja_TextData",
+          "SourceString": "Ay Goncası Genin",
+          "LocalizedString": "Ay Goncası Genin"
+        }
+      },
+      "NAME_Ninja_2": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Ninja_2_TextData",
+          "SourceString": "Ay Goncası Jonin",
+          "LocalizedString": "Ay Goncası Jonin"
+        }
+      },
+      "NAME_MedalTrader": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_MedalTrader_TextData",
+          "SourceString": "Madalya Tüccarı",
+          "LocalizedString": "Madalya Tüccarı"
+        }
+      },
+      "NAME_BOSS_Hunter_Rifle": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Hunter_Rifle_TextData",
+          "SourceString": "Şahin",
+          "LocalizedString": "Şahin"
+        }
+      },
+      "NAME_BOSS_Hunter_Fat_GatlingGun": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Hunter_Fat_GatlingGun_TextData",
+          "SourceString": "Izgara",
+          "LocalizedString": "Izgara"
+        }
+      },
+      "NAME_BOSS_Believer_CrossBow": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Believer_CrossBow_TextData",
+          "SourceString": "Ego",
+          "LocalizedString": "Ego"
+        }
+      },
+      "NAME_BOSS_Believer_Fat_GiantClub": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Believer_Fat_GiantClub_TextData",
+          "SourceString": "Tuğla",
+          "LocalizedString": "Tuğla"
+        }
+      },
+      "NAME_BOSS_Police_Rifle": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Police_Rifle_TextData",
+          "SourceString": "Kırbaç",
+          "LocalizedString": "Kırbaç"
+        }
+      },
+      "NAME_BOSS_FireCult_FlameThrower": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_FireCult_FlameThrower_TextData",
+          "SourceString": "Gölge",
+          "LocalizedString": "Gölge"
+        }
+      },
+      "NAME_BOSS_Scientist_LaserRifle": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Scientist_LaserRifle_TextData",
+          "SourceString": "Çabucak",
+          "LocalizedString": "Çabucak"
+        }
+      },
+      "NAME_BOSS_Ninja": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Ninja_TextData",
+          "SourceString": "Beceriksiz",
+          "LocalizedString": "Beceriksiz"
+        }
+      },
+      "NAME_BOSS_Male_NinjaElite": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_NinjaElite_TextData",
+          "SourceString": "Hayta",
+          "LocalizedString": "Hayta"
+        }
+      },
+      "NAME_BOSS_Female_Soldier": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Female_Soldier_TextData",
+          "SourceString": "Yeşim",
+          "LocalizedString": "Yeşim"
+        }
+      },
+      "NAME_BOSS_Female_Soldier02": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Female_Soldier02_TextData",
+          "SourceString": "Pırıltı",
+          "LocalizedString": "Pırıltı"
+        }
+      },
+      "NAME_BOSS_Female_Soldier03": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Female_Soldier03_TextData",
+          "SourceString": "Aloha",
+          "LocalizedString": "Aloha"
+        }
+      },
+      "NAME_BOSS_Female_Soldier04": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Female_Soldier04_TextData",
+          "SourceString": "Çabuk",
+          "LocalizedString": "Çabuk"
+        }
+      },
+      "NAME_BOSS_Male_Soldier": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_Soldier_TextData",
+          "SourceString": "Çarpma",
+          "LocalizedString": "Çarpma"
+        }
+      },
+      "NAME_BOSS_Male_Soldier02": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_Soldier02_TextData",
+          "SourceString": "Dart",
+          "LocalizedString": "Dart"
+        }
+      },
+      "NAME_BOSS_Male_Soldier03": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_Soldier03_TextData",
+          "SourceString": "Clint",
+          "LocalizedString": "Clint"
+        }
+      },
+      "NAME_BOSS_Male_Soldier04": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_Soldier04_TextData",
+          "SourceString": "Kement",
+          "LocalizedString": "Kement"
+        }
+      },
+      "NAME_BOSS_Female_People": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Female_People_TextData",
+          "SourceString": "Fişek",
+          "LocalizedString": "Fişek"
+        }
+      },
+      "NAME_BOSS_Female_People02": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Female_People02_TextData",
+          "SourceString": "Siren",
+          "LocalizedString": "Siren"
+        }
+      },
+      "NAME_BOSS_Female_People03": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Female_People03_TextData",
+          "SourceString": "Dönek",
+          "LocalizedString": "Dönek"
+        }
+      },
+      "NAME_BOSS_Male_People": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_People_TextData",
+          "SourceString": "Dina",
+          "LocalizedString": "Dina"
+        }
+      },
+      "NAME_BOSS_Male_People2": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_People2_TextData",
+          "SourceString": "Mit",
+          "LocalizedString": "Mit"
+        }
+      },
+      "NAME_BOSS_Male_People02": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_People02_TextData",
+          "SourceString": "Tüy",
+          "LocalizedString": "Tüy"
+        }
+      },
+      "NAME_BOSS_Male_People03": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_People03_TextData",
+          "SourceString": "Akış",
+          "LocalizedString": "Akış"
+        }
+      },
+      "NAME_BOSS_Male_DesertPeople": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_DesertPeople_TextData",
+          "SourceString": "Hayalet",
+          "LocalizedString": "Hayalet"
+        }
+      },
+      "NAME_BOSS_Female_DesertPeople": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Female_DesertPeople_TextData",
+          "SourceString": "Fısıltı",
+          "LocalizedString": "Fısıltı"
+        }
+      },
+      "NAME_BOSS_Viking": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Viking_TextData",
+          "SourceString": "Kemirgen",
+          "LocalizedString": "Kemirgen"
+        }
+      },
+      "NAME_BOSS_VikingElite": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_VikingElite_TextData",
+          "SourceString": "Zula",
+          "LocalizedString": "Zula"
+        }
+      },
+      "NAME_BOSS_Police_Old": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Police_Old_TextData",
+          "SourceString": "Çimdik",
+          "LocalizedString": "Çimdik"
+        }
+      },
+      "NAME_BOSS_DarkTrader": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_DarkTrader_TextData",
+          "SourceString": "Keçi",
+          "LocalizedString": "Keçi"
+        }
+      },
+      "NAME_BOSS_Male_Trader01": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_Trader01_TextData",
+          "SourceString": "Sıyırık",
+          "LocalizedString": "Sıyırık"
+        }
+      },
+      "NAME_BOSS_Male_Trader02": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_Trader02_TextData",
+          "SourceString": "Mimik",
+          "LocalizedString": "Mimik"
+        }
+      },
+      "NAME_BOSS_Male_Trader03": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_Trader03_TextData",
+          "SourceString": "Billy",
+          "LocalizedString": "Billy"
+        }
+      },
+      "NAME_BOSS_Hunter_Fat_GatlingGun_Quest_StrongOldMan": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Hunter_Fat_GatlingGun_Quest_StrongOldMan_TextData",
+          "SourceString": "Başına ödül konmuş kişi: Elder",
+          "LocalizedString": "Başına ödül konmuş kişi: Elder"
+        }
+      },
+      "NAME_Solider": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Solider_TextData",
+          "SourceString": "Sağlam Paralı Asker",
+          "LocalizedString": "Sağlam Paralı Asker"
+        }
+      },
+      "NAME_Recruiter": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Recruiter_TextData",
+          "SourceString": "Pal İşe Alıcı",
+          "LocalizedString": "Pal İşe Alıcı"
+        }
+      },
+      "NAME_CaravanLeader01": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_CaravanLeader01_TextData",
+          "SourceString": "Kervan Lideri",
+          "LocalizedString": "Kervan Lideri"
+        }
+      },
+      "NAME_Viking": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Viking_TextData",
+          "SourceString": "Feybreak Halkı",
+          "LocalizedString": "Feybreak Halkı"
+        }
+      },
+      "NAME_Viking_Elite": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Viking_Elite_TextData",
+          "SourceString": "Feybreak Halkının Elit Savaşçısı",
+          "LocalizedString": "Feybreak Halkının Elit Savaşçısı"
+        }
+      },
+      "NAME_Ambassador01": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Ambassador01_TextData",
+          "SourceString": "Çöl Kasabası Elçisi",
+          "LocalizedString": "Çöl Kasabası Elçisi"
+        }
+      },
+      "NAME_Blacksmith01": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Blacksmith01_TextData",
+          "SourceString": "Demirci Çırağı",
+          "LocalizedString": "Demirci Çırağı"
+        }
+      },
+      "NAME_Epicure01": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Epicure01_TextData",
+          "SourceString": "Gurme Avcı",
+          "LocalizedString": "Gurme Avcı"
+        }
+      },
+      "NAME_Escort_Warrior01": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Escort_Warrior01_TextData",
+          "SourceString": "Koruma Paralı Asker",
+          "LocalizedString": "Koruma Paralı Asker"
+        }
+      },
+      "NAME_Escort_PalTamer01": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Escort_PalTamer01_TextData",
+          "SourceString": "Koruma Pal Terbiyecisi",
+          "LocalizedString": "Koruma Pal Terbiyecisi"
+        }
+      },
+      "NAME_HUNTER_9": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_9_TextData",
+          "SourceString": "Örgüt Lazer Tüfekçisi",
+          "LocalizedString": "Örgüt Lazer Tüfekçisi"
+        }
+      },
+      "NAME_HUNTER_10": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_10_TextData",
+          "SourceString": "Örgüt Arbaletçisi",
+          "LocalizedString": "Örgüt Arbaletçisi"
+        }
+      },
+      "NAME_HUNTER_11": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_11_TextData",
+          "SourceString": "Örgüt Silahşoru",
+          "LocalizedString": "Örgüt Silahşoru"
+        }
+      },
+      "NAME_Believer_BOSS": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Believer_BOSS_TextData",
+          "SourceString": "Hür Pal İttifakı Yargıcı",
+          "LocalizedString": "Hür Pal İttifakı Yargıcı"
+        }
+      },
+      "NAME_Male_Soldier02_Invader": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Male_Soldier02_Invader_TextData",
+          "SourceString": "Ateşli Pal Terbiyecisi",
+          "LocalizedString": "Ateşli Pal Terbiyecisi"
+        }
+      },
+      "NAME_Female_Soldier03_Invader": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Female_Soldier03_Invader_TextData",
+          "SourceString": "İkizler Terbiyecileri",
+          "LocalizedString": "İkizler Terbiyecileri"
+        }
+      },
+      "NAME_BattlePaltamer001": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BattlePaltamer001_TextData",
+          "SourceString": "Çaylak Pal Terbiyecisi",
+          "LocalizedString": "Çaylak Pal Terbiyecisi"
+        }
+      },
+      "NAME_BattlePaltamer002": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BattlePaltamer002_TextData",
+          "SourceString": "Geleceği Parlak Pal Terbiyecisi",
+          "LocalizedString": "Geleceği Parlak Pal Terbiyecisi"
+        }
+      },
+      "NAME_BattlePaltamer003": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BattlePaltamer003_TextData",
+          "SourceString": "Zalim Pal Terbiyecisi",
+          "LocalizedString": "Zalim Pal Terbiyecisi"
+        }
+      },
+      "NAME_BattlePaltamer004": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BattlePaltamer004_TextData",
+          "SourceString": "Gedikli Pal Terbiyecisi",
+          "LocalizedString": "Gedikli Pal Terbiyecisi"
+        }
+      },
+      "NAME_BattlePaltamer005": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BattlePaltamer005_TextData",
+          "SourceString": "Coşkulu Pal Terbiyecisi",
+          "LocalizedString": "Coşkulu Pal Terbiyecisi"
+        }
+      },
+      "NAME_BattlePaltamer006": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BattlePaltamer006_TextData",
+          "SourceString": "Usta Pal Terbiyecisi",
+          "LocalizedString": "Usta Pal Terbiyecisi"
+        }
+      },
+      "NAME_Female_Presenter01": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Female_Presenter01_TextData",
+          "SourceString": "Dost Canlısı Pal Terbiyecisi",
+          "LocalizedString": "Dost Canlısı Pal Terbiyecisi"
+        }
+      },
+      "NAME_Police_Chief": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Police_Chief_TextData",
+          "SourceString": "Motivasyonsuz şef",
+          "LocalizedString": "Motivasyonsuz şef"
+        }
+      },
+      "NAME_Police_old_Prisoner": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Police_old_Prisoner_TextData",
+          "SourceString": "Tutuklu eski şef",
+          "LocalizedString": "Tutuklu eski şef"
+        }
+      },
+      "NAME_Police001": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Police001_TextData",
+          "SourceString": "Reenkarne Olmuş Kişi",
+          "LocalizedString": "Reenkarne Olmuş Kişi"
+        }
+      },
+      "NAME_Reward_Emote": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Reward_Emote_TextData",
+          "SourceString": "Aşkın Habercisi",
+          "LocalizedString": "Aşkın Habercisi"
+        }
+      },
+      "NAME_PalPassive_Doctor": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_PalPassive_Doctor_TextData",
+          "SourceString": "Dr. Brawn",
+          "LocalizedString": "Dr. Brawn"
+        }
+      },
+      "NAME_QUEST_SCHOLAR01": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_QUEST_SCHOLAR01_TextData",
+          "SourceString": "Bir efsanenin peşindeki araştırmacılar",
+          "LocalizedString": "Bir efsanenin peşindeki araştırmacılar"
+        }
+      },
+      "NAME_Reward_Paldex": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Reward_Paldex_TextData",
+          "SourceString": "Pal Ekolojik Araştırmacısı",
+          "LocalizedString": "Pal Ekolojik Araştırmacısı"
+        }
+      },
+      "NAME_Reward_BossDefeat": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Reward_BossDefeat_TextData",
+          "SourceString": "Gedikli Avcı",
+          "LocalizedString": "Gedikli Avcı"
+        }
+      },
+      "NAME_QUEST_RANGER04": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_QUEST_RANGER04_TextData",
+          "SourceString": "Güzel kokan avcı",
+          "LocalizedString": "Güzel kokan avcı"
+        }
+      },
+      "NAME_GrassBoss": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_GrassBoss_TextData",
+          "SourceString": "Zoe",
+          "LocalizedString": "Zoe"
+        }
+      },
+      "NAME_SurveyGirl": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_SurveyGirl_TextData",
+          "SourceString": "Fia",
+          "LocalizedString": "Fia"
+        }
+      },
+      "NAME_SurveyWoman": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_SurveyWoman_TextData",
+          "SourceString": "Carla",
+          "LocalizedString": "Carla"
+        }
+      },
+      "NAME_SurveyMan": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_SurveyMan_TextData",
+          "SourceString": "Gadel",
+          "LocalizedString": "Gadel"
+        }
+      },
+      "NAME_StrongOldMan": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_StrongOldMan_TextData",
+          "SourceString": "Harold",
+          "LocalizedString": "Harold"
+        }
+      },
+      "NAME_WildlifeSanctuaryDrone": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_WildlifeSanctuaryDrone_TextData",
+          "SourceString": "Savunma Dronu",
+          "LocalizedString": "Savunma Dronu"
+        }
+      },
+      "NAME_Police_Invader_Katana": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Police_Invader_Katana_TextData",
+          "SourceString": "PASG Kılıç Ustası",
+          "LocalizedString": "PASG Kılıç Ustası"
+        }
+      },
+      "NAME_Police_Invader_CrossBow": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Police_Invader_CrossBow_TextData",
+          "SourceString": "PASG İsyan Bastırıcı",
+          "LocalizedString": "PASG İsyan Bastırıcı"
+        }
+      },
+      "NAME_Police_Invader_LaserRifle": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Police_Invader_LaserRifle_TextData",
+          "SourceString": "PASG Yüksek Teknisyeni",
+          "LocalizedString": "PASG Yüksek Teknisyeni"
+        }
+      },
+      "NAME_Police_Invader_GrenadeLauncher": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Police_Invader_GrenadeLauncher_TextData",
+          "SourceString": "PASG Kıdemlisi",
+          "LocalizedString": "PASG Kıdemlisi"
+        }
+      },
+      "NAME_Police_Invader_FlameThrower": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Police_Invader_FlameThrower_TextData",
+          "SourceString": "PASG Temizlikçisi",
+          "LocalizedString": "PASG Temizlikçisi"
+        }
+      },
+      "NAME_Police_Invader_RocketLauncher": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Police_Invader_RocketLauncher_TextData",
+          "SourceString": "PASG Roketçisi",
+          "LocalizedString": "PASG Roketçisi"
+        }
+      },
+      "NAME_Police_Invader_MissileLauncher": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Police_Invader_MissileLauncher_TextData",
+          "SourceString": "PASG Önleyicisi",
+          "LocalizedString": "PASG Önleyicisi"
+        }
+      },
+      "NAME_Sorajima_Enemy": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Sorajima_Enemy_TextData",
+          "SourceString": "Gökyüzü Yemininin İnfazcısı",
+          "LocalizedString": "Gökyüzü Yemininin İnfazcısı"
+        }
+      },
+      "NAME_Caravan04": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan04_TextData",
+          "SourceString": "Kasap Çırağı",
+          "LocalizedString": "Kasap Çırağı"
+        }
+      },
+      "NAME_Caravan05": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan05_TextData",
+          "SourceString": "Usta Balıkçı ve Kasap",
+          "LocalizedString": "Usta Balıkçı ve Kasap"
+        }
+      },
+      "NAME_Caravan06": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan06_TextData",
+          "SourceString": "Avcılık Ustası",
+          "LocalizedString": "Avcılık Ustası"
+        }
+      },
+      "NAME_Caravan07": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan07_TextData",
+          "SourceString": "Efsanevi Av Hayvanı Avcısı",
+          "LocalizedString": "Efsanevi Av Hayvanı Avcısı"
+        }
+      },
+      "NAME_Caravan08": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan08_TextData",
+          "SourceString": "Kaçakçıların Kurye Çırağı",
+          "LocalizedString": "Kaçakçıların Kurye Çırağı"
+        }
+      },
+      "NAME_Caravan09": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan09_TextData",
+          "SourceString": "Paralı Askerlerin İkmal Görevlisi",
+          "LocalizedString": "Paralı Askerlerin İkmal Görevlisi"
+        }
+      },
+      "NAME_Caravan10": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan10_TextData",
+          "SourceString": "Ağır Silahlı Tüccar",
+          "LocalizedString": "Ağır Silahlı Tüccar"
+        }
+      },
+      "NAME_Caravan11": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan11_TextData",
+          "SourceString": "Efsanevi Mühimmat Tüccarı",
+          "LocalizedString": "Efsanevi Mühimmat Tüccarı"
+        }
+      },
+      "NAME_Caravan12": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan12_TextData",
+          "SourceString": "Köyün Manavı",
+          "LocalizedString": "Köyün Manavı"
+        }
+      },
+      "NAME_Caravan13": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan13_TextData",
+          "SourceString": "Çiftlik Seyyar Tüccarı",
+          "LocalizedString": "Çiftlik Seyyar Tüccarı"
+        }
+      },
+      "NAME_Caravan14": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan14_TextData",
+          "SourceString": "Efsanevi Manav",
+          "LocalizedString": "Efsanevi Manav"
+        }
+      },
+      "NAME_Caravan15": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan15_TextData",
+          "SourceString": "Şüpheli İlaç Satıcısı",
+          "LocalizedString": "Şüpheli İlaç Satıcısı"
+        }
+      },
+      "NAME_Caravan16": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan16_TextData",
+          "SourceString": "Lisanslı Eczacı",
+          "LocalizedString": "Lisanslı Eczacı"
+        }
+      },
+      "NAME_Caravan17": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan17_TextData",
+          "SourceString": "Efsanevi Şifacı",
+          "LocalizedString": "Efsanevi Şifacı"
+        }
+      },
+      "NAME_Caravan18": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan18_TextData",
+          "SourceString": "Sokak Tezgâhı Fırıncısı",
+          "LocalizedString": "Sokak Tezgâhı Fırıncısı"
+        }
+      },
+      "NAME_Caravan19": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan19_TextData",
+          "SourceString": "Şehir Lokantası",
+          "LocalizedString": "Şehir Lokantası"
+        }
+      },
+      "NAME_Caravan20": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan20_TextData",
+          "SourceString": "Çaylak Gurme",
+          "LocalizedString": "Çaylak Gurme"
+        }
+      },
+      "NAME_Caravan21": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan21_TextData",
+          "SourceString": "Efsanevi Gurme",
+          "LocalizedString": "Efsanevi Gurme"
+        }
+      },
+      "NAME_Caravan22": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan22_TextData",
+          "SourceString": "Malzeme Toplayan Tüccar",
+          "LocalizedString": "Malzeme Toplayan Tüccar"
+        }
+      },
+      "NAME_Caravan23": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan23_TextData",
+          "SourceString": "Resmi Malzeme Tüccarı",
+          "LocalizedString": "Resmi Malzeme Tüccarı"
+        }
+      },
+      "NAME_Caravan24": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan24_TextData",
+          "SourceString": "Element Tüccarı",
+          "LocalizedString": "Element Tüccarı"
+        }
+      },
+      "NAME_Caravan25": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan25_TextData",
+          "SourceString": "Efsanevi Malzeme Tüccarı",
+          "LocalizedString": "Efsanevi Malzeme Tüccarı"
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_FishPondTargetTypeNameText",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "NAME_SHADOW_SMALL": {
+        "TextData": {
+          "Namespace": "DT_FishPondTargetTypeNameText",
+          "Key": "NAME_SHADOW_SMALL_TextData",
+          "SourceString": "Sylwetka małej ryby",
+          "LocalizedString": "Sylwetka małej ryby"
+        }
+      },
+      "NAME_SHADOW_MEDIUM": {
+        "TextData": {
+          "Namespace": "DT_FishPondTargetTypeNameText",
+          "Key": "NAME_SHADOW_MEDIUM_TextData",
+          "SourceString": "Sylwetka średniej ryby",
+          "LocalizedString": "Sylwetka średniej ryby"
+        }
+      },
+      "NAME_SHADOW_BIG": {
+        "TextData": {
+          "Namespace": "DT_FishPondTargetTypeNameText",
+          "Key": "NAME_SHADOW_BIG_TextData",
+          "SourceString": "Sylwetka dużej ryby",
+          "LocalizedString": "Sylwetka dużej ryby"
+        }
+      }
+    }
+  }
+]

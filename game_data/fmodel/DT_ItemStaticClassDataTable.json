@@ -1,0 +1,79 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_ItemStaticClassDataTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalEditorItemStaticClassTableRow'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "NewRow": {
+        "ClassName": "None",
+        "StaticClass": {
+          "ObjectName": "Class'PalStaticItemDataBase'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      "NewRow_0": {
+        "ClassName": "CommonConsume",
+        "StaticClass": {
+          "ObjectName": "Class'PalStaticConsumeItemData'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      "NewRow_1": {
+        "ClassName": "CommonWeapon",
+        "StaticClass": {
+          "ObjectName": "Class'PalStaticWeaponItemData'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      "NewRow_2": {
+        "ClassName": "CommonArmor",
+        "StaticClass": {
+          "ObjectName": "Class'PalStaticArmorItemData'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      "NewRow_3": {
+        "ClassName": "Consume_GrantTechnologyPoint",
+        "StaticClass": {
+          "ObjectName": "Class'PalStaticItem_GrantTechnologyPt'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      "NewRow_4": {
+        "ClassName": "Consume_Homeward",
+        "StaticClass": {
+          "ObjectName": "Class'PalStaticItem_Homeward'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      "NewRow_5": {
+        "ClassName": "Consume_TreasureMap",
+        "StaticClass": {
+          "ObjectName": "Class'PalStaticItem_TreasureMap'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      "NewRow_6": {
+        "ClassName": "PlayerLamp",
+        "StaticClass": {
+          "ObjectName": "Class'PalStaticItem_PlayerLamp'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      "NewRow_7": {
+        "ClassName": "Consume_WorldTreeHolyWater",
+        "StaticClass": {
+          "ObjectName": "Class'PalStaticItem_WorldTreeHolyWater'",
+          "ObjectPath": "/Script/Pal"
+        }
+      }
+    }
+  }
+]

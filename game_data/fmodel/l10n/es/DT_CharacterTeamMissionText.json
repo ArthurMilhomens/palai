@@ -1,0 +1,160 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_CharacterTeamMissionText",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "DUNGEON_GRASS": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_GRASS_TextData",
+          "SourceString": "Cueva de las praderas",
+          "LocalizedString": "Cueva de las praderas"
+        }
+      },
+      "DUNGEON_FOREST": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_FOREST_TextData",
+          "SourceString": "Región  forestal inexplorada",
+          "LocalizedString": "Región  forestal inexplorada"
+        }
+      },
+      "DUNGEON_VOLCANO": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_VOLCANO_TextData",
+          "SourceString": "Cueva ardiente del volcán",
+          "LocalizedString": "Cueva ardiente del volcán"
+        }
+      },
+      "DUNGEON_DESERT": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_DESERT_TextData",
+          "SourceString": "Ruinas ocultas del desierto",
+          "LocalizedString": "Ruinas ocultas del desierto"
+        }
+      },
+      "DUNGEON_SNOW": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_SNOW_TextData",
+          "SourceString": "Cueva gélida de los picos nevados",
+          "LocalizedString": "Cueva gélida de los picos nevados"
+        }
+      },
+      "DUNGEON_SAKURAJIMA": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_SAKURAJIMA_TextData",
+          "SourceString": "Cueva espiritual de la Isla Cerezo",
+          "LocalizedString": "Cueva espiritual de la Isla Cerezo"
+        }
+      },
+      "DUNGEON_DARKISLAND": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_DARKISLAND_TextData",
+          "SourceString": "Caverna demoníaca de Tenraku",
+          "LocalizedString": "Caverna demoníaca de Tenraku"
+        }
+      },
+      "DUNGEON_GRASSHARD": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_GRASSHARD_TextData",
+          "SourceString": "Almacén secreto del Sindicato Rayne",
+          "LocalizedString": "Almacén secreto del Sindicato Rayne"
+        }
+      },
+      "DUNGEON_FORESTHARD": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_FORESTHARD_TextData",
+          "SourceString": "Zona turbia de la Liga de defensa de los Pals",
+          "LocalizedString": "Zona turbia de la Liga de defensa de los Pals"
+        }
+      },
+      "DUNGEON_VOLCANOHARD": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_VOLCANOHARD_TextData",
+          "SourceString": "Mercado negro de la Llama eterna",
+          "LocalizedString": "Mercado negro de la Llama eterna"
+        }
+      },
+      "DUNGEON_DESERTHARD": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_DESERTHARD_TextData",
+          "SourceString": "Fábrica ilegal de Los Vigilantes",
+          "LocalizedString": "Fábrica ilegal de Los Vigilantes"
+        }
+      },
+      "DUNGEON_SNOWHARD": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_SNOWHARD_TextData",
+          "SourceString": "Laboratorio del Equipo de investigación genética",
+          "LocalizedString": "Laboratorio del Equipo de investigación genética"
+        }
+      },
+      "DUNGEON_SAKURAJIMAHARD": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_SAKURAJIMAHARD_TextData",
+          "SourceString": "Base secreta de las Flores Lunares",
+          "LocalizedString": "Base secreta de las Flores Lunares"
+        }
+      },
+      "DUNGEON_DARKISLANDHARD": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_DARKISLANDHARD_TextData",
+          "SourceString": "Ruinas ancestrales de Tenraku",
+          "LocalizedString": "Ruinas ancestrales de Tenraku"
+        }
+      },
+      "DUNGEON_SKYISLAND": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_SKYISLAND_TextData",
+          "SourceString": "Isla flotante de Celuxia",
+          "LocalizedString": "Isla flotante de Celuxia"
+        }
+      },
+      "DUNGEON_WORLDTREE": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_WORLDTREE_TextData",
+          "SourceString": "Ruinas de la ciudad bajo el Árbol del Mundo",
+          "LocalizedString": "Ruinas de la ciudad bajo el Árbol del Mundo"
+        }
+      },
+      "DUNGEON_SKYISLANDHARD": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_SKYISLANDHARD_TextData",
+          "SourceString": "Caverna ósea del dragón de Celuxia",
+          "LocalizedString": "Caverna ósea del dragón de Celuxia"
+        }
+      },
+      "DUNGEON_WORLDTREEHARD": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_WORLDTREEHARD_TextData",
+          "SourceString": "Zona prohibida del Árbol del Mundo",
+          "LocalizedString": "Zona prohibida del Árbol del Mundo"
+        }
+      }
+    }
+  }
+]

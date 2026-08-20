@@ -1,0 +1,296 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_TutorialMessage_Text",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "TUTORIAL_SP_1": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_SP_1_TextData",
+          "SourceString": "Подобрать предмет, нажав на <keyGuideIcon id=|Interact_1|/>.",
+          "LocalizedString": "Подобрать предмет, нажав на <keyGuideIcon id=|Interact_1|/>."
+        }
+      },
+      "TUTORIAL_ITEM_1": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_ITEM_1_TextData",
+          "SourceString": "Откройте меню строительства в <keyGuideIcon id=|OpenConstructionMenu|/>",
+          "LocalizedString": "Откройте меню строительства в <keyGuideIcon id=|OpenConstructionMenu|/>"
+        }
+      },
+      "TUTORIAL_ITEM_2": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_ITEM_2_TextData",
+          "SourceString": "Бросьте сферу, нажав на <keyGuideIcon id=|ThrowObject|/>, чтобы поймать Пала.\r\nОслабленных Палов поймать проще.",
+          "LocalizedString": "Бросьте сферу, нажав на <keyGuideIcon id=|ThrowObject|/>, чтобы поймать Пала.\r\nОслабленных Палов поймать проще."
+        }
+      },
+      "TUTORIAL_ITEM_3": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_ITEM_3_TextData",
+          "SourceString": "Откройте меню строительства с помощью <keyGuideIcon id=|OpenConstructionMenu|/>\r\nи постройте Палбокс, чтобы заложить базу.",
+          "LocalizedString": "Откройте меню строительства с помощью <keyGuideIcon id=|OpenConstructionMenu|/>\r\nи постройте Палбокс, чтобы заложить базу."
+        }
+      },
+      "TUTORIAL_ITEM_4": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_ITEM_4_TextData",
+          "SourceString": "Используйте плод мастерства из инвентаря,\r\nчтобы обучить Пала новому навыку.",
+          "LocalizedString": "Используйте плод мастерства из инвентаря,\r\nчтобы обучить Пала новому навыку."
+        }
+      },
+      "TUTORIAL_ITEM_5": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_ITEM_5_TextData",
+          "SourceString": "Собирайте предметы <itemName id=|Relic|/> и делайте подношение монументу <MapObjectName id=|BuildableGoddessStatue|/>,\r\nчтобы усилить свой навык поимки Палов.",
+          "LocalizedString": "Собирайте предметы <itemName id=|Relic|/> и делайте подношение монументу <MapObjectName id=|BuildableGoddessStatue|/>,\r\nчтобы усилить свой навык поимки Палов."
+        }
+      },
+      "TUTORIAL_ITEM_6": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_ITEM_6_TextData",
+          "SourceString": "Нажмите <keyGuideIcon id=|Jump|/> в прыжке, чтобы скользить на глайдере.",
+          "LocalizedString": "Нажмите <keyGuideIcon id=|Jump|/> в прыжке, чтобы скользить на глайдере."
+        }
+      },
+      "TUTORIAL_ITEM_7": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_ITEM_7_TextData",
+          "SourceString": "Постройте <MapObjectName id=|HatchingPalEgg|/>,\r\nчтобы получать Палов из яиц.",
+          "LocalizedString": "Постройте <MapObjectName id=|HatchingPalEgg|/>,\r\nчтобы получать Палов из яиц."
+        }
+      },
+      "TUTORIAL_RESPAWN_1": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_RESPAWN_1_TextData",
+          "SourceString": "Построив Палбокс, вы сможете возрождаться в месте его установки.",
+          "LocalizedString": "Построив Палбокс, вы сможете возрождаться в месте его установки."
+        }
+      },
+      "TUTORIAL_RESPAWN_2": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_RESPAWN_2_TextData",
+          "SourceString": "На месте смерти остались Палы и предметы.\r\nЗаберите их, пока это не сделали другие.",
+          "LocalizedString": "На месте смерти остались Палы и предметы.\r\nЗаберите их, пока это не сделали другие."
+        }
+      },
+      "TUTORIAL_INDIVIDUAL_1": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_INDIVIDUAL_1_TextData",
+          "SourceString": "С помощью очков технологий\r\nможно открыть новые предметы и постройки.",
+          "LocalizedString": "С помощью очков технологий\r\nможно открыть новые предметы и постройки."
+        }
+      },
+      "TUTORIAL_INDIVIDUAL_2": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_INDIVIDUAL_2_TextData",
+          "SourceString": "Откройте инвентарь, нажав на <keyGuideIcon id=|OpenCharacterMenu|/>\r\nи потратьте очки характеристик для усиления игрока.",
+          "LocalizedString": "Откройте инвентарь, нажав на <keyGuideIcon id=|OpenCharacterMenu|/>\r\nи потратьте очки характеристик для усиления игрока."
+        }
+      },
+      "TUTORIAL_INDIVIDUAL_3": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_INDIVIDUAL_3_TextData",
+          "SourceString": "Голод снижает характеристики.\r\nИспользуйте предмет из инвентаря, чтобы поесть.",
+          "LocalizedString": "Голод снижает характеристики.\r\nИспользуйте предмет из инвентаря, чтобы поесть."
+        }
+      },
+      "TUTORIAL_INDIVIDUAL_4": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_INDIVIDUAL_4_TextData",
+          "SourceString": "Когда Палы голодны, их характеристики снижаются.\r\nИспользуйте предмет из инвентаря, чтобы покормить Палов.",
+          "LocalizedString": "Когда Палы голодны, их характеристики снижаются.\r\nИспользуйте предмет из инвентаря, чтобы покормить Палов."
+        }
+      },
+      "TUTORIAL_INDIVIDUAL_5": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_INDIVIDUAL_5_TextData",
+          "SourceString": "При снижении рассудка Палы начинают лениться или заболевать.\r\nНакормите их или постройте горячий источник для восстановления.",
+          "LocalizedString": "При снижении рассудка Палы начинают лениться или заболевать.\r\nНакормите их или постройте горячий источник для восстановления."
+        }
+      },
+      "TUTORIAL_INDIVIDUAL_6": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_INDIVIDUAL_6_TextData",
+          "SourceString": "Ваш Пал заболел.\r\nСоздайте лекарство на столе фармацевта, чтобы его исцелить.",
+          "LocalizedString": "Ваш Пал заболел.\r\nСоздайте лекарство на столе фармацевта, чтобы его исцелить."
+        }
+      },
+      "TUTORIAL_INDIVIDUAL_7": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_INDIVIDUAL_7_TextData",
+          "SourceString": "В процессе работы рассудок Палов снижается, и они начинают халтурить.\r\nПостройте горячий источник, чтобы Пал поскорее вернулся к работе.",
+          "LocalizedString": "В процессе работы рассудок Палов снижается, и они начинают халтурить.\r\nПостройте горячий источник, чтобы Пал поскорее вернулся к работе."
+        }
+      },
+      "TUTORIAL_CAPTURE_1": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_CAPTURE_1_TextData",
+          "SourceString": "Диких Палов проще поймать, если предварительно снизить их <uiCommon id=|COMMON_STATUS_HP|/>.\r\nЕсли вы их убьёте, поймать уже не получится.",
+          "LocalizedString": "Диких Палов проще поймать, если предварительно снизить их <uiCommon id=|COMMON_STATUS_HP|/>.\r\nЕсли вы их убьёте, поймать уже не получится."
+        }
+      },
+      "TUTORIAL_CAPTURE_2": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_CAPTURE_2_TextData",
+          "SourceString": "Нажмите <keyGuideIcon id=|ThrowPal|/>, чтобы призвать пойманного Пала.",
+          "LocalizedString": "Нажмите <keyGuideIcon id=|ThrowPal|/>, чтобы призвать пойманного Пала."
+        }
+      },
+      "TUTORIAL_CAPTURE_3": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_CAPTURE_3_TextData",
+          "SourceString": "За поимку нового вида Пала вы получаете большое количество опыта.\r\nПродвигайтесь дальше, чтобы найти новых Палов.",
+          "LocalizedString": "За поимку нового вида Пала вы получаете большое количество опыта.\r\nПродвигайтесь дальше, чтобы найти новых Палов."
+        }
+      },
+      "TUTORIAL_CAPTURE_4": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_CAPTURE_4_TextData",
+          "SourceString": "За поимку до 5 особей уже пойманных Палов\r\nвы получаете дополнительный опыт.",
+          "LocalizedString": "За поимку до 5 особей уже пойманных Палов\r\nвы получаете дополнительный опыт."
+        }
+      },
+      "TUTORIAL_CAPTURE_5": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_CAPTURE_5_TextData",
+          "SourceString": "Одновременно можно носить не более 5 Палов.\r\nЕсли поймать больше, они автоматически отправляются в Палбокс.",
+          "LocalizedString": "Одновременно можно носить не более 5 Палов.\r\nЕсли поймать больше, они автоматически отправляются в Палбокс."
+        }
+      },
+      "TUTORIAL_CAPTURE_6": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_CAPTURE_6_TextData",
+          "SourceString": "Вы поймали удачливого Пала!\r\nПохоже, он обладает особым навыком.",
+          "LocalizedString": "Вы поймали удачливого Пала!\r\nПохоже, он обладает особым навыком."
+        }
+      },
+      "TUTORIAL_CAPTURE_7": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_CAPTURE_7_TextData",
+          "SourceString": "Постройте Палбокс, чтобы получать доступ к пойманным Палам.",
+          "LocalizedString": "Постройте Палбокс, чтобы получать доступ к пойманным Палам."
+        }
+      },
+      "TUTORIAL_CAPTURE_8": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_CAPTURE_8_TextData",
+          "SourceString": "Вы не можете полностью управлять Палом более высокого уровня!\r\nЕго эффективность снижается до уровня игрока.",
+          "LocalizedString": "Вы не можете полностью управлять Палом более высокого уровня!\r\nЕго эффективность снижается до уровня игрока."
+        }
+      },
+      "TUTORIAL_COMMON_1": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_1_TextData",
+          "SourceString": "Когда вес предметов в инвентаре превышает предел, вы теряете способность передвигаться.\r\nИспользуйте очки характеристик, чтобы увеличить макс. переносимый вес.",
+          "LocalizedString": "Когда вес предметов в инвентаре превышает предел, вы теряете способность передвигаться.\r\nИспользуйте очки характеристик, чтобы увеличить макс. переносимый вес."
+        }
+      },
+      "TUTORIAL_COMMON_2": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_2_TextData",
+          "SourceString": "Переносной факел освещает окрестности и защищает от холода.\r\nИспользуйте верстак, чтобы его изготовить.",
+          "LocalizedString": "Переносной факел освещает окрестности и защищает от холода.\r\nИспользуйте верстак, чтобы его изготовить."
+        }
+      },
+      "TUTORIAL_COMMON_3": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_3_TextData",
+          "SourceString": "Ваш Пал погиб в бою!\r\nПоместите его в Палбокс, чтобы он восстановился от состояния |<uiCommon id=|COMMON_CONDITION_NAME_Dying|/>|.",
+          "LocalizedString": "Ваш Пал погиб в бою!\r\nПоместите его в Палбокс, чтобы он восстановился от состояния |<uiCommon id=|COMMON_CONDITION_NAME_Dying|/>|."
+        }
+      },
+      "TUTORIAL_COMMON_4": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_4_TextData",
+          "SourceString": "Выпущенные на базе Палы сами находят подходящую работу и приступают к ней.",
+          "LocalizedString": "Выпущенные на базе Палы сами находят подходящую работу и приступают к ней."
+        }
+      },
+      "TUTORIAL_COMMON_5": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_5_TextData",
+          "SourceString": "Если выпустить Палов из Палбокса на базе,\r\nони будут помогать вам с работой, в которой особенно сильны.",
+          "LocalizedString": "Если выпустить Палов из Палбокса на базе,\r\nони будут помогать вам с работой, в которой особенно сильны."
+        }
+      },
+      "TUTORIAL_COMMON_6": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_6_TextData",
+          "SourceString": "Палу доступно не более трёх активных навыков.\r\nСменить навыки можно в меню <uiCommon id=|INGAME_MAIN_MENU_PAL|/>.",
+          "LocalizedString": "Палу доступно не более трёх активных навыков.\r\nСменить навыки можно в меню <uiCommon id=|INGAME_MAIN_MENU_PAL|/>."
+        }
+      },
+      "TUTORIAL_COMMON_7": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_7_TextData",
+          "SourceString": "Дикие Палы агрессивны, и победить их голыми руками сложно.\r\nПостройте верстак и изготовьте оружие.",
+          "LocalizedString": "Дикие Палы агрессивны, и победить их голыми руками сложно.\r\nПостройте верстак и изготовьте оружие."
+        }
+      },
+      "TUTORIAL_COMMON_8": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_8_TextData",
+          "SourceString": "Получены записки дневника других приключенцев.\r\nПосмотреть его записи дневника можно из экрана настроек.",
+          "LocalizedString": "Получены записки дневника других приключенцев.\r\nПосмотреть его записи дневника можно из экрана настроек."
+        }
+      },
+      "TUTORIAL_COMMON_9": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_9_TextData",
+          "SourceString": "Для некоторых видов оружия удерживайте <keyGuideIcon id=|Reload|/>, чтобы переключить патроны.\r\n.",
+          "LocalizedString": "Для некоторых видов оружия удерживайте <keyGuideIcon id=|Reload|/>, чтобы переключить патроны.\r\n."
+        }
+      },
+      "TUTORIAL_COMMON_9_GamePad": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_9_GamePad_TextData",
+          "SourceString": "Для некоторых видов оружия удерживайте <keyGuideIcon id=|ChangeWeaponNext_GamePad|/>, чтобы переключить патроны.",
+          "LocalizedString": "Для некоторых видов оружия удерживайте <keyGuideIcon id=|ChangeWeaponNext_GamePad|/>, чтобы переключить патроны."
+        }
+      }
+    }
+  }
+]

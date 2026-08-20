@@ -1,0 +1,2496 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_PalLongDescriptionText",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "PAL_LONG_DESC_Alpaca": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Alpaca_TextData",
+          "SourceString": "복슬복슬한 털을 보고 방심해선 안 된다.\r\n긴 다리로 가하는 초고속 발차기에 맞으면\r\n지구 반대편까지 날아간다.",
+          "LocalizedString": "복슬복슬한 털을 보고 방심해선 안 된다.\r\n긴 다리로 가하는 초고속 발차기에 맞으면\r\n지구 반대편까지 날아간다."
+        }
+      },
+      "PAL_LONG_DESC_AmaterasuWolf": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_AmaterasuWolf_TextData",
+          "SourceString": "기질이 워낙 예민해\r\n기분이 상하면 동굴에 숨어 버린다.\r\n옛 사람들은 <characterName id=|AmaterasuWolf|/>이(가)\r\n숨으면 흉조로 여겼다.",
+          "LocalizedString": "기질이 워낙 예민해\r\n기분이 상하면 동굴에 숨어 버린다.\r\n옛 사람들은 <characterName id=|AmaterasuWolf|/>이(가)\r\n숨으면 흉조로 여겼다."
+        }
+      },
+      "PAL_LONG_DESC_AmaterasuWolf_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_AmaterasuWolf_Dark_TextData",
+          "SourceString": "기질이 워낙 예민해\r\n기분이 상하면 동굴에 숨어 버린다.\r\n하지만 너무 오래 숨어서 그런지 좀 흐리멍덩해졌다.",
+          "LocalizedString": "기질이 워낙 예민해\r\n기분이 상하면 동굴에 숨어 버린다.\r\n하지만 너무 오래 숨어서 그런지 좀 흐리멍덩해졌다."
+        }
+      },
+      "PAL_LONG_DESC_Anubis": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Anubis_TextData",
+          "SourceString": "그 풍모 덕택에 일찍이 고귀한 자의 상징이었다.\r\n부와 권력을 멀리하는 이에게도 귀감이었으나\r\n언제부턴가 <characterName id=|Anubis|/>은(는) 죽음의 상징이 되었다.",
+          "LocalizedString": "그 풍모 덕택에 일찍이 고귀한 자의 상징이었다.\r\n부와 권력을 멀리하는 이에게도 귀감이었으나\r\n언제부턴가 <characterName id=|Anubis|/>은(는) 죽음의 상징이 되었다."
+        }
+      },
+      "PAL_LONG_DESC_BadCatgirl": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BadCatgirl_TextData",
+          "SourceString": "남에게 양쪽 눈을 보여주는 것을 극도로 싫어한다.\r\n억지로 확인해 보려 하면 갑자기 울음을 터뜨리고\r\n적어도 2주 동안은 상대조차 안 해준다.",
+          "LocalizedString": "남에게 양쪽 눈을 보여주는 것을 극도로 싫어한다.\r\n억지로 확인해 보려 하면 갑자기 울음을 터뜨리고\r\n적어도 2주 동안은 상대조차 안 해준다."
+        }
+      },
+      "PAL_LONG_DESC_Baphomet": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Baphomet_TextData",
+          "SourceString": "밤에 사냥감을 잡아 자기 영역에 돌아온다.\r\n잡힌 팰이 그 후 어떤 일을\r\n당할지는 불 보듯 뻔하다.",
+          "LocalizedString": "밤에 사냥감을 잡아 자기 영역에 돌아온다.\r\n잡힌 팰이 그 후 어떤 일을\r\n당할지는 불 보듯 뻔하다."
+        }
+      },
+      "PAL_LONG_DESC_Baphomet_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Baphomet_Dark_TextData",
+          "SourceString": "어린 팰만 노려 자기 구역에 데리고 간다.\r\n아이를 빼앗긴 부모 팰이 얼마나 절망에 빠졌을지\r\n상상도 안 된다.",
+          "LocalizedString": "어린 팰만 노려 자기 구역에 데리고 간다.\r\n아이를 빼앗긴 부모 팰이 얼마나 절망에 빠졌을지\r\n상상도 안 된다."
+        }
+      },
+      "PAL_LONG_DESC_Bastet": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Bastet_TextData",
+          "SourceString": "단단한 꼬리 조직은 잘라도 그대로이다.\r\n그 꼬리가 재물을 불러온다는 미신이 성행해\r\n대량의 <characterName id=|Bastet|/>이(가) 목숨을 잃었다.",
+          "LocalizedString": "단단한 꼬리 조직은 잘라도 그대로이다.\r\n그 꼬리가 재물을 불러온다는 미신이 성행해\r\n대량의 <characterName id=|Bastet|/>이(가) 목숨을 잃었다."
+        }
+      },
+      "PAL_LONG_DESC_Bastet_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Bastet_Ice_TextData",
+          "SourceString": "꼬리의 결정은 아름답지만 죽기 무섭게 망가져 버린다.\r\n많이 키우면 재물을 불러온다고 해\r\n다들 <characterName id=|Bastet_Ice|/>을(를) 애지중지 키웠다.",
+          "LocalizedString": "꼬리의 결정은 아름답지만 죽기 무섭게 망가져 버린다.\r\n많이 키우면 재물을 불러온다고 해\r\n다들 <characterName id=|Bastet_Ice|/>을(를) 애지중지 키웠다."
+        }
+      },
+      "PAL_LONG_DESC_BeardedDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BeardedDragon_TextData",
+          "SourceString": "ko_Text",
+          "LocalizedString": "ko_Text"
+        }
+      },
+      "PAL_LONG_DESC_BerryGoat": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BerryGoat_TextData",
+          "SourceString": "밥을 잘 먹이면 등의 덤불에 열매가 맺힌다.\r\n마음에 드는 상대에게\r\n그 열매를 먹여 입맛을 사로잡으면 한 쌍의 커플이 된다.",
+          "LocalizedString": "밥을 잘 먹이면 등의 덤불에 열매가 맺힌다.\r\n마음에 드는 상대에게\r\n그 열매를 먹여 입맛을 사로잡으면 한 쌍의 커플이 된다."
+        }
+      },
+      "PAL_LONG_DESC_BerryGoat_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BerryGoat_Dark_TextData",
+          "SourceString": "정신 상태에 따라 등의 덤불에 맺히는 열매의 맛이 변화한다.\r\n악랄한 환경 속에서 자랄수록 맛이 달게 변하기에\r\n사육당하는 대부분의 <characterName id=|BerryGoat_Dark|/>은(는) 사랑을 배우지 못했다.",
+          "LocalizedString": "정신 상태에 따라 등의 덤불에 맺히는 열매의 맛이 변화한다.\r\n악랄한 환경 속에서 자랄수록 맛이 달게 변하기에\r\n사육당하는 대부분의 <characterName id=|BerryGoat_Dark|/>은(는) 사랑을 배우지 못했다."
+        }
+      },
+      "PAL_LONG_DESC_BirdDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BirdDragon_TextData",
+          "SourceString": "<characterName id=|BirdDragon|/>의 외골격으로 만든 피리 소리는\r\n천 개의 봉우리를 건넌다고 한다.\r\n고대 전쟁에선 공격 신호로 사용했다.",
+          "LocalizedString": "<characterName id=|BirdDragon|/>의 외골격으로 만든 피리 소리는\r\n천 개의 봉우리를 건넌다고 한다.\r\n고대 전쟁에선 공격 신호로 사용했다."
+        }
+      },
+      "PAL_LONG_DESC_BirdDragon_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BirdDragon_Ice_TextData",
+          "SourceString": "<characterName id=|BirdDragon_Ice|/>의 외골격으로 만든 피리 소리는\r\n천 개의 봉우리를 건넌다고 한다.\r\n고대의 전쟁에선 승리의 나팔로 사용했다.",
+          "LocalizedString": "<characterName id=|BirdDragon_Ice|/>의 외골격으로 만든 피리 소리는\r\n천 개의 봉우리를 건넌다고 한다.\r\n고대의 전쟁에선 승리의 나팔로 사용했다."
+        }
+      },
+      "PAL_LONG_DESC_BlackCentaur": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BlackCentaur_TextData",
+          "SourceString": "본래 <characterName id=|SaintCentaur|/>와(과) 하나의 존재였다.\r\n부정적 감정이 분리된 존재로 여겨지나\r\n눈동자 속에는 일말의 자비가 반짝인다.",
+          "LocalizedString": "본래 <characterName id=|SaintCentaur|/>와(과) 하나의 존재였다.\r\n부정적 감정이 분리된 존재로 여겨지나\r\n눈동자 속에는 일말의 자비가 반짝인다."
+        }
+      },
+      "PAL_LONG_DESC_BlackFurDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BlackFurDragon_TextData",
+          "SourceString": "심연에서 온 침묵의 존재.\r\n그대, 이 용의 등에 타지 말지어다.\r\n그대, 이 용에게 소리치지 말지어다.",
+          "LocalizedString": "심연에서 온 침묵의 존재.\r\n그대, 이 용의 등에 타지 말지어다.\r\n그대, 이 용에게 소리치지 말지어다."
+        }
+      },
+      "PAL_LONG_DESC_BlackGriffon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BlackGriffon_TextData",
+          "SourceString": "광기 끝에 태어난 금기의 존재.\r\n다른 팰과 유전적 연관성이 사라진 상태이며\r\n팰의 범주에서 벗어나 버렸는지도 모른다.",
+          "LocalizedString": "광기 끝에 태어난 금기의 존재.\r\n다른 팰과 유전적 연관성이 사라진 상태이며\r\n팰의 범주에서 벗어나 버렸는지도 모른다."
+        }
+      },
+      "PAL_LONG_DESC_BlackMetalDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BlackMetalDragon_TextData",
+          "SourceString": "심연에서 온 난폭한 존재.\r\n그대, 이 용 앞에 서지 말지어다.\r\n그대, 이 용의 울음에 귀를 막을지어다.",
+          "LocalizedString": "심연에서 온 난폭한 존재.\r\n그대, 이 용 앞에 서지 말지어다.\r\n그대, 이 용의 울음에 귀를 막을지어다."
+        }
+      },
+      "PAL_LONG_DESC_BlackPuppy": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BlackPuppy_TextData",
+          "SourceString": "검은 불꽃은 만져도 따뜻한 정도에 그치지만\r\n그 불꽃에 계속 닿으면 내부부터 천천히 녹게 된다.\r\n치즈를 녹일 때 쓰면 절묘한 맛을 자아낼 수 있다.",
+          "LocalizedString": "검은 불꽃은 만져도 따뜻한 정도에 그치지만\r\n그 불꽃에 계속 닿으면 내부부터 천천히 녹게 된다.\r\n치즈를 녹일 때 쓰면 절묘한 맛을 자아낼 수 있다."
+        }
+      },
+      "PAL_LONG_DESC_BlackPuppy_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BlackPuppy_Ice_TextData",
+          "SourceString": "푸르스름한 불꽃은 만져도 살짝 차가운 정도에 그치지만\r\n그 불꽃에 계속 닿으면 천천히 얼게 된다.\r\n우유병을 잠시 갖다 대면 프로즌 밀크를 만들 수 있다!",
+          "LocalizedString": "푸르스름한 불꽃은 만져도 살짝 차가운 정도에 그치지만\r\n그 불꽃에 계속 닿으면 천천히 얼게 된다.\r\n우유병을 잠시 갖다 대면 프로즌 밀크를 만들 수 있다!"
+        }
+      },
+      "PAL_LONG_DESC_BlueberryFairy": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BlueberryFairy_TextData",
+          "SourceString": "똑똑하며 기품 있는 행동거지 덕분에\r\n섬에 살던 귀족들이 시중으로 삼았던 적이 있었다.\r\n그러나 한밤중에 만나면 얼굴이 너무나도 무섭다는\r\n이유로 순식간에 인기가 떨어지고 말았다.",
+          "LocalizedString": "똑똑하며 기품 있는 행동거지 덕분에\r\n섬에 살던 귀족들이 시중으로 삼았던 적이 있었다.\r\n그러나 한밤중에 만나면 얼굴이 너무나도 무섭다는\r\n이유로 순식간에 인기가 떨어지고 말았다."
+        }
+      },
+      "PAL_LONG_DESC_BlueDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BlueDragon_TextData",
+          "SourceString": "새하얀 띠는 불순한 물에 닿아 시커멓게 변색한다.\r\n독성 확인에 유용하다고 남획된 터라\r\n지금도 인간을 안 좋게 생각한다.",
+          "LocalizedString": "새하얀 띠는 불순한 물에 닿아 시커멓게 변색한다.\r\n독성 확인에 유용하다고 남획된 터라\r\n지금도 인간을 안 좋게 생각한다."
+        }
+      },
+      "PAL_LONG_DESC_BluePlatypus": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BluePlatypus_TextData",
+          "SourceString": "체내에서 물을 생성해 어디든지 물결을 일으킨다.\r\n급할 때는 몸으로 물살을 타고 이동한다.\r\n기운이 넘쳐 종종 벽에 부딪혀 죽는다.",
+          "LocalizedString": "체내에서 물을 생성해 어디든지 물결을 일으킨다.\r\n급할 때는 몸으로 물살을 타고 이동한다.\r\n기운이 넘쳐 종종 벽에 부딪혀 죽는다."
+        }
+      },
+      "PAL_LONG_DESC_BlueThunderHorse": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BlueThunderHorse_TextData",
+          "SourceString": "<characterName id=|Kirin|/>와(과) 마찬가지로 번개 신과 관련된 팰로 여겨졌다.\r\n<characterName id=|Kirin|/>의 신앙이 무너진 이후로는\r\n<characterName id=|BlueThunderHorse|/>만이 진정한 번개 신의 사자라는 말이 나왔지만\r\n시간이 지나며 결국 마차를 끄는 신세로 전락했다.",
+          "LocalizedString": "<characterName id=|Kirin|/>와(과) 마찬가지로 번개 신과 관련된 팰로 여겨졌다.\r\n<characterName id=|Kirin|/>의 신앙이 무너진 이후로는\r\n<characterName id=|BlueThunderHorse|/>만이 진정한 번개 신의 사자라는 말이 나왔지만\r\n시간이 지나며 결국 마차를 끄는 신세로 전락했다."
+        }
+      },
+      "PAL_LONG_DESC_Boar": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Boar_TextData",
+          "SourceString": "굉장히 호전적으로, 힘 차이를 계산하기도 전에 상대에게 싸움을 건다.\r\n몸집이 작은 팰이지만, 무시무시한 돌진력은\r\n큰 바위도 날릴 기세다.",
+          "LocalizedString": "굉장히 호전적으로, 힘 차이를 계산하기도 전에 상대에게 싸움을 건다.\r\n몸집이 작은 팰이지만, 무시무시한 돌진력은\r\n큰 바위도 날릴 기세다."
+        }
+      },
+      "PAL_LONG_DESC_BrownRabbit": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BrownRabbit_TextData",
+          "SourceString": "대지의 목소리를 들으며 불안정한 지면을 피해 달린다.\r\n때로는 말이 안 통하는 지면에게 속아 넘어가\r\n계속 나자빠지는 경우도 있다.",
+          "LocalizedString": "대지의 목소리를 들으며 불안정한 지면을 피해 달린다.\r\n때로는 말이 안 통하는 지면에게 속아 넘어가\r\n계속 나자빠지는 경우도 있다."
+        }
+      },
+      "PAL_LONG_DESC_CandleGhost": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CandleGhost_TextData",
+          "SourceString": "일찍이 세계가 종말에 가까워질수록 화염이 약해진다고 사람들은 믿었다.\r\n종말론자들은 이후에도 불길이 약해졌다고 여러 번 소동을 피웠지만\r\n결국 <characterName id=|CandleGhost|/>의 변덕에 불과하다.\r\n적어도 현재로선 그렇다.",
+          "LocalizedString": "일찍이 세계가 종말에 가까워질수록 화염이 약해진다고 사람들은 믿었다.\r\n종말론자들은 이후에도 불길이 약해졌다고 여러 번 소동을 피웠지만\r\n결국 <characterName id=|CandleGhost|/>의 변덕에 불과하다.\r\n적어도 현재로선 그렇다."
+        }
+      },
+      "PAL_LONG_DESC_CaptainPenguin": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CaptainPenguin_TextData",
+          "SourceString": "사실 <characterName id=|Penguin|/>와(과) 아무 연관도 없는 종.\r\n멋대로 상전 대접을 받은 터라\r\n일단 열심히 뻗대고 보고 있다.",
+          "LocalizedString": "사실 <characterName id=|Penguin|/>와(과) 아무 연관도 없는 종.\r\n멋대로 상전 대접을 받은 터라\r\n일단 열심히 뻗대고 보고 있다."
+        }
+      },
+      "PAL_LONG_DESC_Carbunclo": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Carbunclo_TextData",
+          "SourceString": "5~7세 정도의 지능이 있다.\r\n파트너용이지만 무기 쓰는 법을 배운 개체가\r\n주인을 살해한 기록도 일부 존재한다.",
+          "LocalizedString": "5~7세 정도의 지능이 있다.\r\n파트너용이지만 무기 쓰는 법을 배운 개체가\r\n주인을 살해한 기록도 일부 존재한다."
+        }
+      },
+      "PAL_LONG_DESC_CatBat": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CatBat_TextData",
+          "SourceString": "갑자기 다른 팰 앞에 나타나\r\n자랑스레 날개를 펼쳐 존재감을 과시한다.\r\n위협적인 종으로 여겨지나\r\n어딘지 모르게 황홀한 표정을 하고 있다.",
+          "LocalizedString": "갑자기 다른 팰 앞에 나타나\r\n자랑스레 날개를 펼쳐 존재감을 과시한다.\r\n위협적인 종으로 여겨지나\r\n어딘지 모르게 황홀한 표정을 하고 있다."
+        }
+      },
+      "PAL_LONG_DESC_CatMage": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CatMage_TextData",
+          "SourceString": "음기의 힘으로 기괴한 술수를 부린다.\r\n뭐든지 생으로 먹는 걸 좋아한다.\r\n<characterName id=|FoxMage|/>하고는 사이가 나쁘다.",
+          "LocalizedString": "음기의 힘으로 기괴한 술수를 부린다.\r\n뭐든지 생으로 먹는 걸 좋아한다.\r\n<characterName id=|FoxMage|/>하고는 사이가 나쁘다."
+        }
+      },
+      "PAL_LONG_DESC_CatMage_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CatMage_Fire_TextData",
+          "SourceString": "부모의 교육에 따라 음식이 날것인지 아닌지 같은\r\n자잘한 부분은 신경 쓰지 않게 됐다.\r\n매콤한 음식을 가장 좋아하는 듯하다.\r\n<characterName id=|FoxMage_Dark|/>하고는 사이가 나쁘다.",
+          "LocalizedString": "부모의 교육에 따라 음식이 날것인지 아닌지 같은\r\n자잘한 부분은 신경 쓰지 않게 됐다.\r\n매콤한 음식을 가장 좋아하는 듯하다.\r\n<characterName id=|FoxMage_Dark|/>하고는 사이가 나쁘다."
+        }
+      },
+      "PAL_LONG_DESC_CatVampire": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CatVampire_TextData",
+          "SourceString": "어둠 속에서 먹잇감을 습격해\r\n망토 같은 날개로 가둬 버린다.\r\n안에서 무슨 일이 벌어지는지\r\n날개 안이 왜 시뻘건지는 모르는 게 약이다.",
+          "LocalizedString": "어둠 속에서 먹잇감을 습격해\r\n망토 같은 날개로 가둬 버린다.\r\n안에서 무슨 일이 벌어지는지\r\n날개 안이 왜 시뻘건지는 모르는 게 약이다."
+        }
+      },
+      "PAL_LONG_DESC_ChickenPal": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ChickenPal_TextData",
+          "SourceString": "너무나 약하고 또 너무나 맛있다.\r\n<characterName id=|SheepBall|/>와(과) 함께 최약체를 담당한다.\r\n많이 잡았다 싶으면 또 어디선가 튀어나온다.",
+          "LocalizedString": "너무나 약하고 또 너무나 맛있다.\r\n<characterName id=|SheepBall|/>와(과) 함께 최약체를 담당한다.\r\n많이 잡았다 싶으면 또 어디선가 튀어나온다."
+        }
+      },
+      "PAL_LONG_DESC_ColorfulBird": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ColorfulBird_TextData",
+          "SourceString": "폭발하는 알을 낳는 공포의 팰.\r\n보통 엉덩이에서 발사하는 알을 무기로 삼지만\r\n궁지에 몰리면 자기 몸까지 터뜨린다.",
+          "LocalizedString": "폭발하는 알을 낳는 공포의 팰.\r\n보통 엉덩이에서 발사하는 알을 무기로 삼지만\r\n궁지에 몰리면 자기 몸까지 터뜨린다."
+        }
+      },
+      "PAL_LONG_DESC_CowPal": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CowPal_TextData",
+          "SourceString": "대충 풀어놓기만 해도 수도꼭지처럼 우유가 쏟아진다.\r\n수컷도 우유가 나온다.\r\n그야말로 생명의 신비다.",
+          "LocalizedString": "대충 풀어놓기만 해도 수도꼭지처럼 우유가 쏟아진다.\r\n수컷도 우유가 나온다.\r\n그야말로 생명의 신비다."
+        }
+      },
+      "PAL_LONG_DESC_CuteButterfly": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CuteButterfly_TextData",
+          "SourceString": "가루를 흡입하면 승천하는 듯한 쾌락을 안겨준다.\r\n단속을 강화하자는 움직임도 있지만\r\n팰 애호 단체의 반대로 진척이 없다.",
+          "LocalizedString": "가루를 흡입하면 승천하는 듯한 쾌락을 안겨준다.\r\n단속을 강화하자는 움직임도 있지만\r\n팰 애호 단체의 반대로 진척이 없다."
+        }
+      },
+      "PAL_LONG_DESC_CuteFox": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CuteFox_TextData",
+          "SourceString": "팰파고스섬의 아이돌.\r\n<characterName id=|CuteFox|/>을(를) 괴롭히면\r\n전 세계가 적으로 돌변한다.",
+          "LocalizedString": "팰파고스섬의 아이돌.\r\n<characterName id=|CuteFox|/>을(를) 괴롭히면\r\n전 세계가 적으로 돌변한다."
+        }
+      },
+      "PAL_LONG_DESC_CuteMole": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CuteMole_TextData",
+          "SourceString": "커다란 발톱은 다이아몬드처럼 단단하지만\r\n발톱 손질에 힘을 너무 쏟은 나머지\r\n그대로 지쳐 하루를 마감하기도 한다.",
+          "LocalizedString": "커다란 발톱은 다이아몬드처럼 단단하지만\r\n발톱 손질에 힘을 너무 쏟은 나머지\r\n그대로 지쳐 하루를 마감하기도 한다."
+        }
+      },
+      "PAL_LONG_DESC_DarkAlien": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_DarkAlien_TextData",
+          "SourceString": "정보를 보내고 망각하는 행위를 통해 에너지를 얻는다.\r\n정기적으로 누군가에게 정보를 보내는 듯하다.\r\n- 응답하라, 목표 발견, 즉시 파괴하러 가라",
+          "LocalizedString": "정보를 보내고 망각하는 행위를 통해 에너지를 얻는다.\r\n정기적으로 누군가에게 정보를 보내는 듯하다.\r\n- 응답하라, 목표 발견, 즉시 파괴하러 가라"
+        }
+      },
+      "PAL_LONG_DESC_DarkCrow": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_DarkCrow_TextData",
+          "SourceString": "원래 드넓은 창공을 자유로이 날아다녔으나\r\n<characterName id=|Eagle|/>와(과) 싸움에서 패배해\r\n하늘을 빼앗기고 밤에 숨죽인 채 살게 됐다.",
+          "LocalizedString": "원래 드넓은 창공을 자유로이 날아다녔으나\r\n<characterName id=|Eagle|/>와(과) 싸움에서 패배해\r\n하늘을 빼앗기고 밤에 숨죽인 채 살게 됐다."
+        }
+      },
+      "PAL_LONG_DESC_DarkMechaDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_DarkMechaDragon_TextData",
+          "SourceString": "- 목적지에 도착. |개체: 유성용|의 수색을 우선.\r\n- 비고: 제압 완료 기한 (<://Error_Code:146DC>년 전).\r\n- 추가 기록: 제압 흔적 없음. 귀화 확인, 제거 개시.\r\n- 업무 연락: 중요한 정보를 잊거나 먹으면 안 됩니다!",
+          "LocalizedString": "- 목적지에 도착. |개체: 유성용|의 수색을 우선.\r\n- 비고: 제압 완료 기한 (<://Error_Code:146DC>년 전).\r\n- 추가 기록: 제압 흔적 없음. 귀화 확인, 제거 개시.\r\n- 업무 연락: 중요한 정보를 잊거나 먹으면 안 됩니다!"
+        }
+      },
+      "PAL_LONG_DESC_DarkMutant": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_DarkMutant_TextData",
+          "SourceString": "실력이 극에 달한 <characterName id=|DarkMutant|/>의 칼질 한 번에\r\n차원이 단절되고 공간에 균열이 생긴다고 한다.\r\n일부 팰은 그곳에서 태어난다는 설도 있다.",
+          "LocalizedString": "실력이 극에 달한 <characterName id=|DarkMutant|/>의 칼질 한 번에\r\n차원이 단절되고 공간에 균열이 생긴다고 한다.\r\n일부 팰은 그곳에서 태어난다는 설도 있다."
+        }
+      },
+      "PAL_LONG_DESC_DarkScorpion": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_DarkScorpion_TextData",
+          "SourceString": "본체는 에너지 덩어리로 속이 비었다.\r\n먹잇감을 외피 속으로 끌어들여 산 채로 흡수한다.\r\n주변엔 지옥 같은 신음이 끝없이 울려 퍼진다.",
+          "LocalizedString": "본체는 에너지 덩어리로 속이 비었다.\r\n먹잇감을 외피 속으로 끌어들여 산 채로 흡수한다.\r\n주변엔 지옥 같은 신음이 끝없이 울려 퍼진다."
+        }
+      },
+      "PAL_LONG_DESC_DarkScorpion_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_DarkScorpion_Ground_TextData",
+          "SourceString": "본체는 에너지 덩어리로 속이 비었다.\r\n토사나 광물을 외피 속에 채워 압도적인 질량을 보여준다.\r\n공격당한 상대는 지옥 같은 신음을 내지를 수밖에 없다.",
+          "LocalizedString": "본체는 에너지 덩어리로 속이 비었다.\r\n토사나 광물을 외피 속에 채워 압도적인 질량을 보여준다.\r\n공격당한 상대는 지옥 같은 신음을 내지를 수밖에 없다."
+        }
+      },
+      "PAL_LONG_DESC_Deer": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Deer_TextData",
+          "SourceString": "가장 멋진 뿔을 가진 개체가 우두머리가 된다.\r\n뿔이 꺾이는 순간 마음도 꺾인다.\r\n그렇게 무리를 떠나 아무도 보지 못하는 곳에서 생을 다한다.",
+          "LocalizedString": "가장 멋진 뿔을 가진 개체가 우두머리가 된다.\r\n뿔이 꺾이는 순간 마음도 꺾인다.\r\n그렇게 무리를 떠나 아무도 보지 못하는 곳에서 생을 다한다."
+        }
+      },
+      "PAL_LONG_DESC_Deer_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Deer_Ground_TextData",
+          "SourceString": "뿔이 제일 단단한 개체가 우두머리가 된다.\r\n그리고 뿔을 잃으면 그 자격도 잃게 된다.\r\n모두의 배웅을 받으며 무리를 떠나, 조용히 흙으로 돌아간다.",
+          "LocalizedString": "뿔이 제일 단단한 개체가 우두머리가 된다.\r\n그리고 뿔을 잃으면 그 자격도 잃게 된다.\r\n모두의 배웅을 받으며 무리를 떠나, 조용히 흙으로 돌아간다."
+        }
+      },
+      "PAL_LONG_DESC_DreamDemon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_DreamDemon_TextData",
+          "SourceString": "마음에 드는 상대를 깊은 잠에 빠뜨려\r\n행복한 꿈을 꾸게 해준다.\r\n죽을 때까지 잠에서 깰 일은 절대 없다.",
+          "LocalizedString": "마음에 드는 상대를 깊은 잠에 빠뜨려\r\n행복한 꿈을 꾸게 해준다.\r\n죽을 때까지 잠에서 깰 일은 절대 없다."
+        }
+      },
+      "PAL_LONG_DESC_DrillGame": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_DrillGame_TextData",
+          "SourceString": "|<characterName id=|DrillGame|/>의 드릴|이란 이야기가 있다.\r\n최강의 등딱지와 드릴을 가진 <characterName id=|DrillGame|/>이(가)\r\n모순에 관해 고민하는 도덕적인 이야기다.",
+          "LocalizedString": "|<characterName id=|DrillGame|/>의 드릴|이란 이야기가 있다.\r\n최강의 등딱지와 드릴을 가진 <characterName id=|DrillGame|/>이(가)\r\n모순에 관해 고민하는 도덕적인 이야기다."
+        }
+      },
+      "PAL_LONG_DESC_Eagle": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Eagle_TextData",
+          "SourceString": "사람을 낚아챈 채로도 잘 날아다닌다.\r\n하지만 지치면 주저 없이 놓아버리므로\r\n추락사 사고가 끊이지 않는다.",
+          "LocalizedString": "사람을 낚아챈 채로도 잘 날아다닌다.\r\n하지만 지치면 주저 없이 놓아버리므로\r\n추락사 사고가 끊이지 않는다."
+        }
+      },
+      "PAL_LONG_DESC_ElecCat": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ElecCat_TextData",
+          "SourceString": "건기엔 신경질적이어서 항상 까칠하다.\r\n같은 무리끼리의 사소한 충돌도\r\n우당탕탕 큰 싸움으로 번진다.",
+          "LocalizedString": "건기엔 신경질적이어서 항상 까칠하다.\r\n같은 무리끼리의 사소한 충돌도\r\n우당탕탕 큰 싸움으로 번진다."
+        }
+      },
+      "PAL_LONG_DESC_ElecLion": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ElecLion_TextData",
+          "SourceString": "ko_Text",
+          "LocalizedString": "ko_Text"
+        }
+      },
+      "PAL_LONG_DESC_ElecPanda": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ElecPanda_TextData",
+          "SourceString": "호쾌한 얼굴에 듬직한 체구를 가졌으며\r\n친구로 인정한 상대에겐 순종적이다.\r\n하지만 어쩐 일인지 미니건만 맡기면 돌변한다.",
+          "LocalizedString": "호쾌한 얼굴에 듬직한 체구를 가졌으며\r\n친구로 인정한 상대에겐 순종적이다.\r\n하지만 어쩐 일인지 미니건만 맡기면 돌변한다."
+        }
+      },
+      "PAL_LONG_DESC_FairyDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FairyDragon_TextData",
+          "SourceString": "겉모습처럼 천진난만한 성격이다.\r\n그래서인지 선악의 구별에 어두워\r\n악의를 가진 인간에게 이용당하기 십상이다.",
+          "LocalizedString": "겉모습처럼 천진난만한 성격이다.\r\n그래서인지 선악의 구별에 어두워\r\n악의를 가진 인간에게 이용당하기 십상이다."
+        }
+      },
+      "PAL_LONG_DESC_FairyDragon_Water": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FairyDragon_Water_TextData",
+          "SourceString": "겉모습처럼 천진난만한 성격이다.\r\n그래서인지 어떤 행동에도 악의가 없어서\r\n누군가를 죽여도 별생각이 없을 정도다.",
+          "LocalizedString": "겉모습처럼 천진난만한 성격이다.\r\n그래서인지 어떤 행동에도 악의가 없어서\r\n누군가를 죽여도 별생각이 없을 정도다."
+        }
+      },
+      "PAL_LONG_DESC_FeatherOstrich": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FeatherOstrich_TextData",
+          "SourceString": "한 발짝 내딛으면 망설임을 잊고\r\n두 발짝 내딛으면 근심을 잊으며\r\n세 발짝 내딛으면 공포를 잊고\r\n어떤 적이 와도 맞설 수 있다.",
+          "LocalizedString": "한 발짝 내딛으면 망설임을 잊고\r\n두 발짝 내딛으면 근심을 잊으며\r\n세 발짝 내딛으면 공포를 잊고\r\n어떤 적이 와도 맞설 수 있다."
+        }
+      },
+      "PAL_LONG_DESC_FengyunDeeper": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FengyunDeeper_TextData",
+          "SourceString": "먼 옛날, 그 아름다움 덕에\r\n그림의 소재가 된 친근한 존재였다.\r\n시대가 흐르며 아름다운 털가죽과 뿔도\r\n예술품의 재료가 되어 일상적인 존재가 됐다.",
+          "LocalizedString": "먼 옛날, 그 아름다움 덕에\r\n그림의 소재가 된 친근한 존재였다.\r\n시대가 흐르며 아름다운 털가죽과 뿔도\r\n예술품의 재료가 되어 일상적인 존재가 됐다."
+        }
+      },
+      "PAL_LONG_DESC_FengyunDeeper_Electric": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FengyunDeeper_Electric_TextData",
+          "SourceString": "머나먼 옛 시대에는 <characterName id=|FengyunDeeper_Electric|/>의 그림을 그리면\r\n번개에 맞아 죽는다는 미신이 횡행했었다.\r\n그러나 세월이 흐르며 <characterName id=|FengyunDeeper_Electric|/>을(를) 묘사한 예술품이\r\n번개를 피하는 부적이 되는 등 친근한 존재로 자리 잡았다.",
+          "LocalizedString": "머나먼 옛 시대에는 <characterName id=|FengyunDeeper_Electric|/>의 그림을 그리면\r\n번개에 맞아 죽는다는 미신이 횡행했었다.\r\n그러나 세월이 흐르며 <characterName id=|FengyunDeeper_Electric|/>을(를) 묘사한 예술품이\r\n번개를 피하는 부적이 되는 등 친근한 존재로 자리 잡았다."
+        }
+      },
+      "PAL_LONG_DESC_FireKirin": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FireKirin_TextData",
+          "SourceString": "전신이 고효율의 방열 기관이 되어\r\n경이적인 지구력을 발휘한다.\r\n누가 올라타면 화상을 입지 않도록 배려해준다.",
+          "LocalizedString": "전신이 고효율의 방열 기관이 되어\r\n경이적인 지구력을 발휘한다.\r\n누가 올라타면 화상을 입지 않도록 배려해준다."
+        }
+      },
+      "PAL_LONG_DESC_FireKirin_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FireKirin_Dark_TextData",
+          "SourceString": "정체불명의 암흑 물질을 태워 에너지로 삼으며\r\n남은 어둠의 입자를 전신에서 방출한다.\r\n누군가 탑승하면 그가 어둠에 물들지 않도록, 눈치 있게 배려하는 면도 있다.",
+          "LocalizedString": "정체불명의 암흑 물질을 태워 에너지로 삼으며\r\n남은 어둠의 입자를 전신에서 방출한다.\r\n누군가 탑승하면 그가 어둠에 물들지 않도록, 눈치 있게 배려하는 면도 있다."
+        }
+      },
+      "PAL_LONG_DESC_FlameBambi": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FlameBambi_TextData",
+          "SourceString": "야생 <characterName id=|FlameBambi|/>은(는) 놀라울 정도로 건강을 잘 지킨다.\r\n하루에 하나씩 가지를 태워 만든 숯을 먹는 것이\r\n영원한 건강의 비결이라고 한다.",
+          "LocalizedString": "야생 <characterName id=|FlameBambi|/>은(는) 놀라울 정도로 건강을 잘 지킨다.\r\n하루에 하나씩 가지를 태워 만든 숯을 먹는 것이\r\n영원한 건강의 비결이라고 한다."
+        }
+      },
+      "PAL_LONG_DESC_FlameBuffalo": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FlameBuffalo_TextData",
+          "SourceString": "먼 옛날엔 육식 팰에게 사냥당하기 일쑤였다.\r\n그 부조리에 울부짖은 <characterName id=|FlameBuffalo|/> 무리의 분노는\r\n활활 타오르며 대대로 이어졌다.",
+          "LocalizedString": "먼 옛날엔 육식 팰에게 사냥당하기 일쑤였다.\r\n그 부조리에 울부짖은 <characterName id=|FlameBuffalo|/> 무리의 분노는\r\n활활 타오르며 대대로 이어졌다."
+        }
+      },
+      "PAL_LONG_DESC_FlowerDinosaur": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FlowerDinosaur_TextData",
+          "SourceString": "한번 화를 내면 걷잡을 수 없을 정도로 분기탱천한다.\r\n'<characterName id=|FlowerDinosaur|/>의 꼬리를 밟다'라는 말은\r\n누군가의 격노를 샀다는 뜻이다.",
+          "LocalizedString": "한번 화를 내면 걷잡을 수 없을 정도로 분기탱천한다.\r\n'<characterName id=|FlowerDinosaur|/>의 꼬리를 밟다'라는 말은\r\n누군가의 격노를 샀다는 뜻이다."
+        }
+      },
+      "PAL_LONG_DESC_FlowerDinosaur_Electric": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FlowerDinosaur_Electric_TextData",
+          "SourceString": "낙뢰에 맞았지만 목숨만은 건졌다.\r\n'<characterName id=|FlowerDinosaur_Electric|/>에게 번개가 떨어진다'라는 표현은\r\n곧 구사일생이라는 뜻이다.",
+          "LocalizedString": "낙뢰에 맞았지만 목숨만은 건졌다.\r\n'<characterName id=|FlowerDinosaur_Electric|/>에게 번개가 떨어진다'라는 표현은\r\n곧 구사일생이라는 뜻이다."
+        }
+      },
+      "PAL_LONG_DESC_FlowerDoll": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FlowerDoll_TextData",
+          "SourceString": "수명이 다하면 큰 식물로 변한다.\r\n10년에 한 번 아주 예쁜 꽃을 피우며\r\n거기서 새 <characterName id=|FlowerDoll|/>이(가) 자란다.",
+          "LocalizedString": "수명이 다하면 큰 식물로 변한다.\r\n10년에 한 번 아주 예쁜 꽃을 피우며\r\n거기서 새 <characterName id=|FlowerDoll|/>이(가) 자란다."
+        }
+      },
+      "PAL_LONG_DESC_FlowerRabbit": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FlowerRabbit_TextData",
+          "SourceString": "식물이 많은 곳을 좋아하지만\r\n최근 <characterName id=|FlowerRabbit|/> 무리에게\r\n꽃가루 알레르기가 유행하는 듯하다.",
+          "LocalizedString": "식물이 많은 곳을 좋아하지만\r\n최근 <characterName id=|FlowerRabbit|/> 무리에게\r\n꽃가루 알레르기가 유행하는 듯하다."
+        }
+      },
+      "PAL_LONG_DESC_FlyingManta": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FlyingManta_TextData",
+          "SourceString": "바람을 타고 자유로이 여행한다.\r\n도착한 곳에서 파트너를 발견하면\r\n이들의 여행도 끝이 난다.",
+          "LocalizedString": "바람을 타고 자유로이 여행한다.\r\n도착한 곳에서 파트너를 발견하면\r\n이들의 여행도 끝이 난다."
+        }
+      },
+      "PAL_LONG_DESC_FoxMage": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FoxMage_TextData",
+          "SourceString": "양기의 힘으로 기괴한 술수를 부린다.\r\n뭐든지 노릇노릇하게 구워 먹는다.\r\n<characterName id=|CatMage|/>하고는 사이가 나쁘다.",
+          "LocalizedString": "양기의 힘으로 기괴한 술수를 부린다.\r\n뭐든지 노릇노릇하게 구워 먹는다.\r\n<characterName id=|CatMage|/>하고는 사이가 나쁘다."
+        }
+      },
+      "PAL_LONG_DESC_FoxMage_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FoxMage_Dark_TextData",
+          "SourceString": "부모의 교육에 따라 음식이 구운 것인지 아닌지 같은\r\n자잘한 부분은 신경 쓰지 않게 됐다.\r\n달콤한 음식을 가장 좋아하는 듯하다.\r\n<characterName id=|CatMage_Fire|/>하고는 사이가 나쁘다.",
+          "LocalizedString": "부모의 교육에 따라 음식이 구운 것인지 아닌지 같은\r\n자잘한 부분은 신경 쓰지 않게 됐다.\r\n달콤한 음식을 가장 좋아하는 듯하다.\r\n<characterName id=|CatMage_Fire|/>하고는 사이가 나쁘다."
+        }
+      },
+      "PAL_LONG_DESC_Ganesha": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Ganesha_TextData",
+          "SourceString": "코로 추정되는 기관에서 대량의 물이 나오는데\r\n그냥 콧물이라는 지적도 있다.\r\n연구자들 사이에 열띤 토론이 한창이다.",
+          "LocalizedString": "코로 추정되는 기관에서 대량의 물이 나오는데\r\n그냥 콧물이라는 지적도 있다.\r\n연구자들 사이에 열띤 토론이 한창이다."
+        }
+      },
+      "PAL_LONG_DESC_Garm": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Garm_TextData",
+          "SourceString": "인간과 접촉이 뜸해진 지 오래지만\r\n<characterName id=|Garm|/> 무리의 수렵 체계는\r\n일찍이 인간과 함께했던 사냥이 그 뿌리다.",
+          "LocalizedString": "인간과 접촉이 뜸해진 지 오래지만\r\n<characterName id=|Garm|/> 무리의 수렵 체계는\r\n일찍이 인간과 함께했던 사냥이 그 뿌리다."
+        }
+      },
+      "PAL_LONG_DESC_GhostAnglerfish": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GhostAnglerfish_TextData",
+          "SourceString": "반짝이는 발광체로 주변의 어둠을 밝게 비춘다.\r\n발광체의 빛에 혹해 이끌려 온 팰들은\r\n<characterName id=|GhostAnglerFish|/>의 정처 없는 길 안내를 받게 된다.\r\n그저 무사히 집에 돌아갈 때를 기다리면서.",
+          "LocalizedString": "반짝이는 발광체로 주변의 어둠을 밝게 비춘다.\r\n발광체의 빛에 혹해 이끌려 온 팰들은\r\n<characterName id=|GhostAnglerFish|/>의 정처 없는 길 안내를 받게 된다.\r\n그저 무사히 집에 돌아갈 때를 기다리면서."
+        }
+      },
+      "PAL_LONG_DESC_GhostBeast": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GhostBeast_TextData",
+          "SourceString": "죽을 때가 가까워진 생물이 뿜어내는 독특한 냄새를 좋아한다.\r\n<characterName id=|GhostBeast|/>에게 사랑받는다는 건\r\n바로 그런 것이다.",
+          "LocalizedString": "죽을 때가 가까워진 생물이 뿜어내는 독특한 냄새를 좋아한다.\r\n<characterName id=|GhostBeast|/>에게 사랑받는다는 건\r\n바로 그런 것이다."
+        }
+      },
+      "PAL_LONG_DESC_GhostRabbit": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GhostRabbit_TextData",
+          "SourceString": "자신의 영혼을 꺼내어 들고 다닌다.\r\n누군가에게 연심을 품으면 영혼을 억지로 뽑아 내어\r\n자신의 영혼에 넣고 뒤섞는 식으로 하나가 되고 싶어 한다.",
+          "LocalizedString": "자신의 영혼을 꺼내어 들고 다닌다.\r\n누군가에게 연심을 품으면 영혼을 억지로 뽑아 내어\r\n자신의 영혼에 넣고 뒤섞는 식으로 하나가 되고 싶어 한다."
+        }
+      },
+      "PAL_LONG_DESC_GhostRabbit_Grass": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GhostRabbit_Grass_TextData",
+          "SourceString": "자신의 영혼을 꺼내어 들고 다닌다.\r\n누군가에게 연심을 품으면 영혼을 힘껏 던져\r\n상대의 영혼과 뒤섞여 하나가 되고 싶어 한다.",
+          "LocalizedString": "자신의 영혼을 꺼내어 들고 다닌다.\r\n누군가에게 연심을 품으면 영혼을 힘껏 던져\r\n상대의 영혼과 뒤섞여 하나가 되고 싶어 한다."
+        }
+      },
+      "PAL_LONG_DESC_GoldenHorse": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GoldenHorse_TextData",
+          "SourceString": "섬 내에 연금술이 번창하던 무렵, 황금빛으로\r\n반짝이는 털이 황금을 만들 촉매로 인기를 얻었다.\r\n그러던 어느 날, 그들은 대단한 발견을 하게 된다.\r\n같은 황금빛이라면, 갈기를 가공하기만 해도 되었다고.",
+          "LocalizedString": "섬 내에 연금술이 번창하던 무렵, 황금빛으로\r\n반짝이는 털이 황금을 만들 촉매로 인기를 얻었다.\r\n그러던 어느 날, 그들은 대단한 발견을 하게 된다.\r\n같은 황금빛이라면, 갈기를 가공하기만 해도 되었다고."
+        }
+      },
+      "PAL_LONG_DESC_Gorilla": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Gorilla_TextData",
+          "SourceString": "지면을 두드리는 리듬으로 동료와 의사소통한다.\r\n리듬에 상응하는 의미는 무리마다 다른데\r\n그 분류는 지금도 명확하지 않다.",
+          "LocalizedString": "지면을 두드리는 리듬으로 동료와 의사소통한다.\r\n리듬에 상응하는 의미는 무리마다 다른데\r\n그 분류는 지금도 명확하지 않다."
+        }
+      },
+      "PAL_LONG_DESC_Gorilla_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Gorilla_Ground_TextData",
+          "SourceString": "지면을 때리는 리듬으로 동료와 의사소통을 한다.\r\n<characterName id=|Gorilla|/>의 팔 힘은 무척 세서\r\n만일 <characterName id=|Gorilla_Ground|/> 전원이 동시에 지면을 두들기면\r\n팰파고스섬이 1초만에 가라앉는다.",
+          "LocalizedString": "지면을 때리는 리듬으로 동료와 의사소통을 한다.\r\n<characterName id=|Gorilla|/>의 팔 힘은 무척 세서\r\n만일 <characterName id=|Gorilla_Ground|/> 전원이 동시에 지면을 두들기면\r\n팰파고스섬이 1초만에 가라앉는다."
+        }
+      },
+      "PAL_LONG_DESC_GrassDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GrassDragon_TextData",
+          "SourceString": "ko_Text",
+          "LocalizedString": "ko_Text"
+        }
+      },
+      "PAL_LONG_DESC_GrassMammoth": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GrassMammoth_TextData",
+          "SourceString": "등에 있는 식물은 개체마다 제각각이다.\r\n관상용으로 익숙한 역사도 있으며\r\n<characterName id=|GrassMammoth|/> 전문 정원사마저 존재했다.",
+          "LocalizedString": "등에 있는 식물은 개체마다 제각각이다.\r\n관상용으로 익숙한 역사도 있으며\r\n<characterName id=|GrassMammoth|/> 전문 정원사마저 존재했다."
+        }
+      },
+      "PAL_LONG_DESC_GrassMammoth_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GrassMammoth_Ice_TextData",
+          "SourceString": "등 위의 식물은 개체마다 제각각이다.\r\n멸종한 줄 알았던 식물이 얼어붙은 채로\r\n<characterName id=|GrassMammoth_Ice|/>의 등에서 발견되는 경우도 있다.",
+          "LocalizedString": "등 위의 식물은 개체마다 제각각이다.\r\n멸종한 줄 알았던 식물이 얼어붙은 채로\r\n<characterName id=|GrassMammoth_Ice|/>의 등에서 발견되는 경우도 있다."
+        }
+      },
+      "PAL_LONG_DESC_GrassPanda": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GrassPanda_TextData",
+          "SourceString": "믿기 힘든 괴력의 소유자.\r\n어느 실험에서 3,000장이 넘는 종이 뭉치를 가볍게 찢었다.\r\n육식을 안 하는 걸 감사히 생각해야 한다.",
+          "LocalizedString": "믿기 힘든 괴력의 소유자.\r\n어느 실험에서 3,000장이 넘는 종이 뭉치를 가볍게 찢었다.\r\n육식을 안 하는 걸 감사히 생각해야 한다."
+        }
+      },
+      "PAL_LONG_DESC_GrassPanda_Electric": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GrassPanda_Electric_TextData",
+          "SourceString": "믿기 힘든 괴력의 소유자.\r\n전기를 신호로 바꿔 신체 능력의 한계를 돌파했다.\r\n최강 생물이 화제에 오르면 절대 빠지지 않는다.",
+          "LocalizedString": "믿기 힘든 괴력의 소유자.\r\n전기를 신호로 바꿔 신체 능력의 한계를 돌파했다.\r\n최강 생물이 화제에 오르면 절대 빠지지 않는다."
+        }
+      },
+      "PAL_LONG_DESC_GrassRabbitMan": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GrassRabbitMan_TextData",
+          "SourceString": "<characterName id=|GrassRabbitMan|/>이(가) 달리고 나면\r\n토질이 좋아져 초목이 우거진다.\r\n제초제를 뿌리면 그곳은 달리지 않는다.",
+          "LocalizedString": "<characterName id=|GrassRabbitMan|/>이(가) 달리고 나면\r\n토질이 좋아져 초목이 우거진다.\r\n제초제를 뿌리면 그곳은 달리지 않는다."
+        }
+      },
+      "PAL_LONG_DESC_GrimGirl": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GrimGirl_TextData",
+          "SourceString": "사냥감을 해체하려는 본능에 사로잡혀\r\n자꾸만 끓어오르는 충동을 억제하지 못한다.\r\n선호하는 해체 순서는 각 개체마다 다르기 때문에\r\n<characterName id=|GrimGirl|/>에게 붙잡혔다면 목을 먼저 쳐주길 바랄 수밖에 없다.",
+          "LocalizedString": "사냥감을 해체하려는 본능에 사로잡혀\r\n자꾸만 끓어오르는 충동을 억제하지 못한다.\r\n선호하는 해체 순서는 각 개체마다 다르기 때문에\r\n<characterName id=|GrimGirl|/>에게 붙잡혔다면 목을 먼저 쳐주길 바랄 수밖에 없다."
+        }
+      },
+      "PAL_LONG_DESC_GuardianDog": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GuardianDog_TextData",
+          "SourceString": "재액을 막아주는 성질이 있어 우수한 파트너로서\r\n오랫동안 섬 주민과 좋은 관계를 쌓아왔다.\r\n오늘, <characterName id=|GuardianDog|/> 무리는\r\n인간과의 사이에 갈등의 벽을 쌓는다.",
+          "LocalizedString": "재액을 막아주는 성질이 있어 우수한 파트너로서\r\n오랫동안 섬 주민과 좋은 관계를 쌓아왔다.\r\n오늘, <characterName id=|GuardianDog|/> 무리는\r\n인간과의 사이에 갈등의 벽을 쌓는다."
+        }
+      },
+      "PAL_LONG_DESC_HadesBird": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_HadesBird_TextData",
+          "SourceString": "지옥에서 번개를 불러낸다.\r\n<characterName id=|HadesBird|/>의 번개에 맞아 불타 죽으면\r\n그 혼은 지옥에 떨어진다.",
+          "LocalizedString": "지옥에서 번개를 불러낸다.\r\n<characterName id=|HadesBird|/>의 번개에 맞아 불타 죽으면\r\n그 혼은 지옥에 떨어진다."
+        }
+      },
+      "PAL_LONG_DESC_HadesBird_Electric": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_HadesBird_Electric_TextData",
+          "SourceString": "지옥에서 번개를 불러낸다.\r\n<characterName id=|HadesBird|/>의 아종으로 알려져 있으나\r\n실은 지옥에서 번개에 맞은 <characterName id=|HadesBird_Electric|/>(이)가\r\n<characterName id=|HadesBird|/>(으)로 변했다는 설도 있다.",
+          "LocalizedString": "지옥에서 번개를 불러낸다.\r\n<characterName id=|HadesBird|/>의 아종으로 알려져 있으나\r\n실은 지옥에서 번개에 맞은 <characterName id=|HadesBird_Electric|/>(이)가\r\n<characterName id=|HadesBird|/>(으)로 변했다는 설도 있다."
+        }
+      },
+      "PAL_LONG_DESC_HawkBird": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_HawkBird_TextData",
+          "SourceString": "막 태어난 팰을 둥지로 데려와\r\n부모 대신 키운다.\r\n적당히 살이 붙으면 잡아먹는다.",
+          "LocalizedString": "막 태어난 팰을 둥지로 데려와\r\n부모 대신 키운다.\r\n적당히 살이 붙으면 잡아먹는다."
+        }
+      },
+      "PAL_LONG_DESC_Hedgehog": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Hedgehog_TextData",
+          "SourceString": "충격을 받으면 모았던 전기를 방출한다.\r\n그 전압은 1,000만 볼트가 넘는다.\r\n던지면 어설픈 중화기보다 더 위험하다.",
+          "LocalizedString": "충격을 받으면 모았던 전기를 방출한다.\r\n그 전압은 1,000만 볼트가 넘는다.\r\n던지면 어설픈 중화기보다 더 위험하다."
+        }
+      },
+      "PAL_LONG_DESC_Hedgehog_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Hedgehog_Ice_TextData",
+          "SourceString": "충격을 받으면 모았던 냉기를 방출한다.\r\n방사상에 퍼진 냉기는 대기를 꽁꽁 얼려\r\n습격해온 상대의 몸을 꿰뚫는다.",
+          "LocalizedString": "충격을 받으면 모았던 냉기를 방출한다.\r\n방사상에 퍼진 냉기는 대기를 꽁꽁 얼려\r\n습격해온 상대의 몸을 꿰뚫는다."
+        }
+      },
+      "PAL_LONG_DESC_HerculesBeetle": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_HerculesBeetle_TextData",
+          "SourceString": "전신을 감싸는 초강력 장갑은\r\n압도적인 강도와 내열성을 자랑한다.\r\n네이팜탄마저 거의 효과를 못 본다.",
+          "LocalizedString": "전신을 감싸는 초강력 장갑은\r\n압도적인 강도와 내열성을 자랑한다.\r\n네이팜탄마저 거의 효과를 못 본다."
+        }
+      },
+      "PAL_LONG_DESC_HerculesBeetle_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_HerculesBeetle_Ground_TextData",
+          "SourceString": "전신을 감싸는 초강력 장갑은\r\n압도적인 강도와 내열성을 자랑한다\r\n<characterName id=|GrassMammoth|/>에게 밟혀도 끄떡도 없다.",
+          "LocalizedString": "전신을 감싸는 초강력 장갑은\r\n압도적인 강도와 내열성을 자랑한다\r\n<characterName id=|GrassMammoth|/>에게 밟혀도 끄떡도 없다."
+        }
+      },
+      "PAL_LONG_DESC_Horus": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Horus_TextData",
+          "SourceString": "먹잇감 무리를 발견하면\r\n작열하는 회오리바람으로 주변 일대를 불바다로 만든다.\r\n<characterName id=|Horus|/>의 서식지는 감미로운 향기가 난다.",
+          "LocalizedString": "먹잇감 무리를 발견하면\r\n작열하는 회오리바람으로 주변 일대를 불바다로 만든다.\r\n<characterName id=|Horus|/>의 서식지는 감미로운 향기가 난다."
+        }
+      },
+      "PAL_LONG_DESC_Horus_Water": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Horus_Water_TextData",
+          "SourceString": "무리 지어 다니는 사냥감을 발견하면\r\n급류를 만들어 주변 일대를 모조리 휩쓸어 버린다.\r\n정작 휩쓸린 사냥감을 못 찾는 경우가 허다하기에\r\n이걸 사냥이라고 불러도 될지는 알 수 없다.",
+          "LocalizedString": "무리 지어 다니는 사냥감을 발견하면\r\n급류를 만들어 주변 일대를 모조리 휩쓸어 버린다.\r\n정작 휩쓸린 사냥감을 못 찾는 경우가 허다하기에\r\n이걸 사냥이라고 불러도 될지는 알 수 없다."
+        }
+      },
+      "PAL_LONG_DESC_Human": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Human_TextData",
+          "SourceString": "포획당한 인간.\r\n팰파고스섬에서는 인간을 팰 스피어로 포획하는 걸\r\n비인도적 행위로 간주한다.",
+          "LocalizedString": "포획당한 인간.\r\n팰파고스섬에서는 인간을 팰 스피어로 포획하는 걸\r\n비인도적 행위로 간주한다."
+        }
+      },
+      "PAL_LONG_DESC_IceCrocodile": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_IceCrocodile_TextData",
+          "SourceString": "입속이 무척 차가워 닫으면 냉장고 그 자체가 된다.\r\n타액에 포함된 특수한 성분도 음식의 부패를 막아준다.\r\n인간용 식재료 보관고로 쓰려면 쓸 수야 있지만\r\n위생적으로는 애매하니 누가 물어보면 입을 닫는 편이 좋겠다.",
+          "LocalizedString": "입속이 무척 차가워 닫으면 냉장고 그 자체가 된다.\r\n타액에 포함된 특수한 성분도 음식의 부패를 막아준다.\r\n인간용 식재료 보관고로 쓰려면 쓸 수야 있지만\r\n위생적으로는 애매하니 누가 물어보면 입을 닫는 편이 좋겠다."
+        }
+      },
+      "PAL_LONG_DESC_IceDeer": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_IceDeer_TextData",
+          "SourceString": "속이 비치는 투명한 뿔은 절대 영도에서 반짝인다.\r\n맨손으로 만지면 전신이 얼어붙어\r\n목숨마저 가루처럼 부서져 날아간다.",
+          "LocalizedString": "속이 비치는 투명한 뿔은 절대 영도에서 반짝인다.\r\n맨손으로 만지면 전신이 얼어붙어\r\n목숨마저 가루처럼 부서져 날아간다."
+        }
+      },
+      "PAL_LONG_DESC_IceFox": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_IceFox_TextData",
+          "SourceString": "오로라가 보이는 밤이면 하늘을 올려다보며\r\n아름다운 목소리로 노래를 시작한다.\r\n다만 그 탓에 적에게 자주 공격당한다.",
+          "LocalizedString": "오로라가 보이는 밤이면 하늘을 올려다보며\r\n아름다운 목소리로 노래를 시작한다.\r\n다만 그 탓에 적에게 자주 공격당한다."
+        }
+      },
+      "PAL_LONG_DESC_IceHorse": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_IceHorse_TextData",
+          "SourceString": "겨울을 불러오는 팰파고스섬의 수호신.\r\n일찍이 재앙이 이 땅을 석권할 때\r\n하늘을 가로지르며 끝나지 않는 겨울을 불러와 이를 봉인했다.",
+          "LocalizedString": "겨울을 불러오는 팰파고스섬의 수호신.\r\n일찍이 재앙이 이 땅을 석권할 때\r\n하늘을 가로지르며 끝나지 않는 겨울을 불러와 이를 봉인했다."
+        }
+      },
+      "PAL_LONG_DESC_IceHorse_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_IceHorse_Dark_TextData",
+          "SourceString": "밤을 불러오는 팰파고스섬의 수호신.\r\n일찍이 재앙이 이 땅을 석권할 때\r\n하늘을 가로지르며 끝나지 않는 어둠을 불러와 이를 봉인했다.",
+          "LocalizedString": "밤을 불러오는 팰파고스섬의 수호신.\r\n일찍이 재앙이 이 땅을 석권할 때\r\n하늘을 가로지르며 끝나지 않는 어둠을 불러와 이를 봉인했다."
+        }
+      },
+      "PAL_LONG_DESC_IceNarwhal": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_IceNarwhal_TextData",
+          "SourceString": "자는 동안 유빙으로 착각한 팰이 등에 올라타 쉬곤 한다.\r\n개인 공간을 침범당해 속으로는 스트레스를 받지만\r\n성격이 착해 잠에서 깨도 억지로 내리게 하진 않는다.",
+          "LocalizedString": "자는 동안 유빙으로 착각한 팰이 등에 올라타 쉬곤 한다.\r\n개인 공간을 침범당해 속으로는 스트레스를 받지만\r\n성격이 착해 잠에서 깨도 억지로 내리게 하진 않는다."
+        }
+      },
+      "PAL_LONG_DESC_IceSeal": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_IceSeal_TextData",
+          "SourceString": "눈 위를 제일 빠르게 미끄러지는 개체가 가장 높은 취급을 받는다.\r\n간혹 너무 신난 나머지 점프한 개체가 하늘에서 떨어지는\r\n경우가 있으며, 우두머리 경쟁 시기에 더더욱 자주 볼 수 있다.\r\n맑음 때때로 <characterName id=|IceSeal|/>.",
+          "LocalizedString": "눈 위를 제일 빠르게 미끄러지는 개체가 가장 높은 취급을 받는다.\r\n간혹 너무 신난 나머지 점프한 개체가 하늘에서 떨어지는\r\n경우가 있으며, 우두머리 경쟁 시기에 더더욱 자주 볼 수 있다.\r\n맑음 때때로 <characterName id=|IceSeal|/>."
+        }
+      },
+      "PAL_LONG_DESC_IceWitch": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_IceWitch_TextData",
+          "SourceString": "더위 속에서 몸이 녹아내리지만, 일광욕을 너무나도 좋아한다.\r\n열탕 속에서 몸이 녹아내리지만, 온천을 너무나도 좋아한다.\r\n죽을 날이 온다면 맑은 날의 노천온천에서 녹기를 바란다고 한다.",
+          "LocalizedString": "더위 속에서 몸이 녹아내리지만, 일광욕을 너무나도 좋아한다.\r\n열탕 속에서 몸이 녹아내리지만, 온천을 너무나도 좋아한다.\r\n죽을 날이 온다면 맑은 날의 노천온천에서 녹기를 바란다고 한다."
+        }
+      },
+      "PAL_LONG_DESC_JellyfishFairy": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_JellyfishFairy_TextData",
+          "SourceString": "<characterName id=|JellyfishGhost|/>와(과) 아주 많이 닮은 팰.\r\n친구 관계가 넓으며 약속이 겹칠 때에는\r\n사이좋은 <characterName id=|JellyfishGhost|/>에게 대역을 부탁하기도 한다.\r\n답례는 데이트 1번.",
+          "LocalizedString": "<characterName id=|JellyfishGhost|/>와(과) 아주 많이 닮은 팰.\r\n친구 관계가 넓으며 약속이 겹칠 때에는\r\n사이좋은 <characterName id=|JellyfishGhost|/>에게 대역을 부탁하기도 한다.\r\n답례는 데이트 1번."
+        }
+      },
+      "PAL_LONG_DESC_JellyfishGhost": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_JellyfishGhost_TextData",
+          "SourceString": "<characterName id=|JellyfishFairy|/>와(과) 아주 많이 닮은 팰.\r\n약속이 엇물린 <characterName id=|JellyfishFairy|/>의 부탁을 받아\r\n대신 약속 장소에 나타나는 경우가 있다.\r\n절묘한 연기 실력 덕에 아무도 대역임을 눈치채지 못한다.",
+          "LocalizedString": "<characterName id=|JellyfishFairy|/>와(과) 아주 많이 닮은 팰.\r\n약속이 엇물린 <characterName id=|JellyfishFairy|/>의 부탁을 받아\r\n대신 약속 장소에 나타나는 경우가 있다.\r\n절묘한 연기 실력 덕에 아무도 대역임을 눈치채지 못한다."
+        }
+      },
+      "PAL_LONG_DESC_JetDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_JetDragon_TextData",
+          "SourceString": "팰파고스섬을 저 먼 하늘에서 굽어본다.\r\n재앙이 다시 눈을 떠 대지를 가르고 하늘을 불태울 때\r\n완전한 파멸의 섬광으로 이를 파괴하리라.",
+          "LocalizedString": "팰파고스섬을 저 먼 하늘에서 굽어본다.\r\n재앙이 다시 눈을 떠 대지를 가르고 하늘을 불태울 때\r\n완전한 파멸의 섬광으로 이를 파괴하리라."
+        }
+      },
+      "PAL_LONG_DESC_Kelpie": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Kelpie_TextData",
+          "SourceString": "태어난 장소의 수질에 따라 성격이 달라진다.\r\n더러운 웅덩이에서 태어난<characterName id=|Kelpie|/>은(는)\r\n대체로 성격이 나쁘고 흉악하기 일쑤다.",
+          "LocalizedString": "태어난 장소의 수질에 따라 성격이 달라진다.\r\n더러운 웅덩이에서 태어난<characterName id=|Kelpie|/>은(는)\r\n대체로 성격이 나쁘고 흉악하기 일쑤다."
+        }
+      },
+      "PAL_LONG_DESC_Kelpie_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Kelpie_Fire_TextData",
+          "SourceString": "태어난 장소의 수온에 따라 성격이 달라진다.\r\n따뜻한 웅덩이에서 태어난<characterName id=|Kelpie|/>은(는)\r\n대체로 성격이 화끈하며 의욕이 넘쳐흐른다.",
+          "LocalizedString": "태어난 장소의 수온에 따라 성격이 달라진다.\r\n따뜻한 웅덩이에서 태어난<characterName id=|Kelpie|/>은(는)\r\n대체로 성격이 화끈하며 의욕이 넘쳐흐른다."
+        }
+      },
+      "PAL_LONG_DESC_KendoFrog": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_KendoFrog_TextData",
+          "SourceString": "무리 중에서도 큰 실수를 범한 녀석은 자결을 강요받는다.\r\n한계까지 부푼 소리 주머니에 나뭇가지를 찌르면\r\n대기권 반대편까지 날아가 저승으로 돌아간다.",
+          "LocalizedString": "무리 중에서도 큰 실수를 범한 녀석은 자결을 강요받는다.\r\n한계까지 부푼 소리 주머니에 나뭇가지를 찌르면\r\n대기권 반대편까지 날아가 저승으로 돌아간다."
+        }
+      },
+      "PAL_LONG_DESC_KendoFrog_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_KendoFrog_Dark_TextData",
+          "SourceString": "명예를 버린 <characterName id=|KendoFrog|/>들이 모여 분파를 이루었다.\r\n사냥감은 온갖 비열한 수단을 쓰더라도 놓치지 않는다.\r\n한밤중에 <characterName id=|KendoFrog_Dark|/> 무리를 만나게 된다면\r\n그들이 우리를 저승으로 보낼 것이다.",
+          "LocalizedString": "명예를 버린 <characterName id=|KendoFrog|/>들이 모여 분파를 이루었다.\r\n사냥감은 온갖 비열한 수단을 쓰더라도 놓치지 않는다.\r\n한밤중에 <characterName id=|KendoFrog_Dark|/> 무리를 만나게 된다면\r\n그들이 우리를 저승으로 보낼 것이다."
+        }
+      },
+      "PAL_LONG_DESC_KingAlpaca": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_KingAlpaca_TextData",
+          "SourceString": "<characterName id=|Alpaca|/>의 시중을 받는다.\r\n<characterName id=|KingAlpaca|/>끼리 결투로 서열을 정한다.\r\n혼자인 개체는 패배한 녀석이다.",
+          "LocalizedString": "<characterName id=|Alpaca|/>의 시중을 받는다.\r\n<characterName id=|KingAlpaca|/>끼리 결투로 서열을 정한다.\r\n혼자인 개체는 패배한 녀석이다."
+        }
+      },
+      "PAL_LONG_DESC_KingAlpaca_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_KingAlpaca_Ice_TextData",
+          "SourceString": "냉담한 성격으로 감정 표현이 서투르다.\r\n외톨이인 개체는 <characterName id=|Alpaca|/>와(과)의 의사소통이\r\n너무 서툴렀던 슬픈 개체다.",
+          "LocalizedString": "냉담한 성격으로 감정 표현이 서투르다.\r\n외톨이인 개체는 <characterName id=|Alpaca|/>와(과)의 의사소통이\r\n너무 서툴렀던 슬픈 개체다."
+        }
+      },
+      "PAL_LONG_DESC_KingBahamut": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_KingBahamut_TextData",
+          "SourceString": "화산 분화와 함께 태어났다는 전설이 있다.\r\n이 대지는 거대한 <characterName id=|KingBahamut|/>의 등이라고\r\n주장하는 괴상한 단체도 있었다.",
+          "LocalizedString": "화산 분화와 함께 태어났다는 전설이 있다.\r\n이 대지는 거대한 <characterName id=|KingBahamut|/>의 등이라고\r\n주장하는 괴상한 단체도 있었다."
+        }
+      },
+      "PAL_LONG_DESC_KingBahamut_Dragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_KingBahamut_Dragon_TextData",
+          "SourceString": "아주 먼 옛날, 깊은 땅속에서 모습을 드러냈다.\r\n맹렬한 폭염으로 일말의 자비도 없이\r\n섬을 몽땅 태울 때까지 절대 사라지지 않았다.\r\n말 그대로 |영원한 불꽃| 그 자체였다.",
+          "LocalizedString": "아주 먼 옛날, 깊은 땅속에서 모습을 드러냈다.\r\n맹렬한 폭염으로 일말의 자비도 없이\r\n섬을 몽땅 태울 때까지 절대 사라지지 않았다.\r\n말 그대로 |영원한 불꽃| 그 자체였다."
+        }
+      },
+      "PAL_LONG_DESC_Kirin": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Kirin_TextData",
+          "SourceString": "예전엔 번개 신의 사자로 여겨져 사람들이 건드리지 않았다.\r\n하지만 낙뢰에 맞아 사망하는 모습이 목격된 뒤로\r\n신앙이 무너지며 보이는 족족 잡혔다.",
+          "LocalizedString": "예전엔 번개 신의 사자로 여겨져 사람들이 건드리지 않았다.\r\n하지만 낙뢰에 맞아 사망하는 모습이 목격된 뒤로\r\n신앙이 무너지며 보이는 족족 잡혔다."
+        }
+      },
+      "PAL_LONG_DESC_Kirin_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Kirin_Ice_TextData",
+          "SourceString": "예전엔 겨울 신의 사자로 여겨져 사람들이 건드리지 않았다.\r\n하지만 얼음 위에서 미끄러져 넘어진 모습이 목격된 뒤로\r\n신앙이 무너지며 마차를 끄는 신세로까지 미끄러졌다.",
+          "LocalizedString": "예전엔 겨울 신의 사자로 여겨져 사람들이 건드리지 않았다.\r\n하지만 얼음 위에서 미끄러져 넘어진 모습이 목격된 뒤로\r\n신앙이 무너지며 마차를 끄는 신세로까지 미끄러졌다."
+        }
+      },
+      "PAL_LONG_DESC_Kitsunebi": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Kitsunebi_TextData",
+          "SourceString": "태어난 직후엔 불을 잘 못 다뤄서\r\n걸핏하면 불을 뿜다가 숨이 탁 막힌다.\r\n<characterName id=|Kitsunebi|/>의 재채기는 산림 화재의 원인이 된다.",
+          "LocalizedString": "태어난 직후엔 불을 잘 못 다뤄서\r\n걸핏하면 불을 뿜다가 숨이 탁 막힌다.\r\n<characterName id=|Kitsunebi|/>의 재채기는 산림 화재의 원인이 된다."
+        }
+      },
+      "PAL_LONG_DESC_Kitsunebi_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Kitsunebi_Ice_TextData",
+          "SourceString": "태어난 직후엔 냉기를 잘 못 다뤄서\r\n걸핏하면 냉기를 뿜다가 숨이 탁 막힌다.\r\n감기에 걸리면 콧물이 어는 바람에 숨이 가빠진다.",
+          "LocalizedString": "태어난 직후엔 냉기를 잘 못 다뤄서\r\n걸핏하면 냉기를 뿜다가 숨이 탁 막힌다.\r\n감기에 걸리면 콧물이 어는 바람에 숨이 가빠진다."
+        }
+      },
+      "PAL_LONG_DESC_LavaGirl": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_LavaGirl_TextData",
+          "SourceString": "울 때 눈물 대신 용암이 흐른다.\r\n흘러내린 용암은 다시 몸에 흡수되어 더욱 뜨거워진다.\r\n흘린 눈물만큼 강해지는 것이다.",
+          "LocalizedString": "울 때 눈물 대신 용암이 흐른다.\r\n흘러내린 용암은 다시 몸에 흡수되어 더욱 뜨거워진다.\r\n흘린 눈물만큼 강해지는 것이다."
+        }
+      },
+      "PAL_LONG_DESC_LazyCatfish": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_LazyCatfish_TextData",
+          "SourceString": "한없이 늘어질 때는 모든 반응이 둔해진다.\r\n28번의 자상을 입게 되더라도\r\n다음 날이 되어서야 이를 깨닫고 목숨을 잃는다.",
+          "LocalizedString": "한없이 늘어질 때는 모든 반응이 둔해진다.\r\n28번의 자상을 입게 되더라도\r\n다음 날이 되어서야 이를 깨닫고 목숨을 잃는다."
+        }
+      },
+      "PAL_LONG_DESC_LazyDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_LazyDragon_TextData",
+          "SourceString": "어리바리한 겉모습과 달리 속은 사납다.\r\n눈에 띄는 모든 걸 먹이로 인식하여\r\n닥치는 대로 잡아먹으려고 든다.",
+          "LocalizedString": "어리바리한 겉모습과 달리 속은 사납다.\r\n눈에 띄는 모든 걸 먹이로 인식하여\r\n닥치는 대로 잡아먹으려고 든다."
+        }
+      },
+      "PAL_LONG_DESC_LazyDragon_Electric": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_LazyDragon_Electric_TextData",
+          "SourceString": "<characterName id=|LazyDragon|/>은(는) 생각했다.\r\n슬슬 자신을 바꿀 때라고.\r\n그 순간 전신에 전기가 흘렀다!",
+          "LocalizedString": "<characterName id=|LazyDragon|/>은(는) 생각했다.\r\n슬슬 자신을 바꿀 때라고.\r\n그 순간 전신에 전기가 흘렀다!"
+        }
+      },
+      "PAL_LONG_DESC_LeafMomonga": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_LeafMomonga_TextData",
+          "SourceString": "고장난 건 뭐든 때리면 고쳐진다고 여긴다.\r\n<characterName id=|LeafMomonga|/>의 힘조절은 인간 입장에선 완벽하기에\r\n때리기만 해도 멈췄던 심장이 다시 움직이는 경우도 있다.",
+          "LocalizedString": "고장난 건 뭐든 때리면 고쳐진다고 여긴다.\r\n<characterName id=|LeafMomonga|/>의 힘조절은 인간 입장에선 완벽하기에\r\n때리기만 해도 멈췄던 심장이 다시 움직이는 경우도 있다."
+        }
+      },
+      "PAL_LONG_DESC_LeafPrincess": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_LeafPrincess_TextData",
+          "SourceString": "봄이 다가오면 바람을 타고 섬에 꽃가루가 휘날린다.\r\n<characterName id=|FlowerRabbit|/>의 꽃가루 알레르기는\r\n<characterName id=|LeafPrincess|/> 때문에 발생한다.",
+          "LocalizedString": "봄이 다가오면 바람을 타고 섬에 꽃가루가 휘날린다.\r\n<characterName id=|FlowerRabbit|/>의 꽃가루 알레르기는\r\n<characterName id=|LeafPrincess|/> 때문에 발생한다."
+        }
+      },
+      "PAL_LONG_DESC_LilyQueen": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_LilyQueen_TextData",
+          "SourceString": "자애심으로 가득한 온화한 팰.\r\n부모를 잃은 어린 팰들을 돌봐주고 있다.\r\n훈육 방법은 전력으로 쏘는 <activeSkillName id=|SolarBeam|/>.",
+          "LocalizedString": "자애심으로 가득한 온화한 팰.\r\n부모를 잃은 어린 팰들을 돌봐주고 있다.\r\n훈육 방법은 전력으로 쏘는 <activeSkillName id=|SolarBeam|/>."
+        }
+      },
+      "PAL_LONG_DESC_LilyQueen_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_LilyQueen_Dark_TextData",
+          "SourceString": "기품이 넘치는 우아한 팰.\r\n무례한 녀석에겐 눈물이 쏙 빠지는 따귀를 날린다.\r\n그걸 노리는 팰도 더러 있다.",
+          "LocalizedString": "기품이 넘치는 우아한 팰.\r\n무례한 녀석에겐 눈물이 쏙 빠지는 따귀를 날린다.\r\n그걸 노리는 팰도 더러 있다."
+        }
+      },
+      "PAL_LONG_DESC_LittleBriarRose": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_LittleBriarRose_TextData",
+          "SourceString": "가시엔 독이 있어 찔리면 위험하다.\r\n<characterName id=|CuteButterfly|/>하고 사이 좋게\r\n꿀을 빨 때만큼은 얼굴이 밝아진다.",
+          "LocalizedString": "가시엔 독이 있어 찔리면 위험하다.\r\n<characterName id=|CuteButterfly|/>하고 사이 좋게\r\n꿀을 빨 때만큼은 얼굴이 밝아진다."
+        }
+      },
+      "PAL_LONG_DESC_LizardMan": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_LizardMan_TextData",
+          "SourceString": "일어선 모습에 이상한 집착을 보인다.\r\n항상 제일 멋진 자세를 연구하며\r\n거울을 주면 하루 종일 자세만 궁리한다.",
+          "LocalizedString": "일어선 모습에 이상한 집착을 보인다.\r\n항상 제일 멋진 자세를 연구하며\r\n거울을 주면 하루 종일 자세만 궁리한다."
+        }
+      },
+      "PAL_LONG_DESC_LizardMan_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_LizardMan_Fire_TextData",
+          "SourceString": "자신의 포즈에 이상한 집착을 보인다.\r\n항상 제일 뜨거운 자세를 연구하며\r\n키우는 사람은 보기만 해도 숨이 막히는 자세를 계속 봐야만 한다.",
+          "LocalizedString": "자신의 포즈에 이상한 집착을 보인다.\r\n항상 제일 뜨거운 자세를 연구하며\r\n키우는 사람은 보기만 해도 숨이 막히는 자세를 계속 봐야만 한다."
+        }
+      },
+      "PAL_LONG_DESC_Manticore": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Manticore_TextData",
+          "SourceString": "생고기를 좋아하지만 항상 익힌 고기를 먹는다.\r\n타오르는 발톱을 무기로 삼은 탓에\r\n잡은 먹이가 바싹 익어버린다는 것을 깨닫지 못했기 때문이다.",
+          "LocalizedString": "생고기를 좋아하지만 항상 익힌 고기를 먹는다.\r\n타오르는 발톱을 무기로 삼은 탓에\r\n잡은 먹이가 바싹 익어버린다는 것을 깨닫지 못했기 때문이다."
+        }
+      },
+      "PAL_LONG_DESC_Manticore_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Manticore_Dark_TextData",
+          "SourceString": "평범한 고기를 좋아하지만 항상 오염된 고기를 먹는다.\r\n암흑의 발톱을 무기로 삼은 탓에\r\n잡은 먹이가 저주받는다는 걸 깨닫지 못했기 때문이다.",
+          "LocalizedString": "평범한 고기를 좋아하지만 항상 오염된 고기를 먹는다.\r\n암흑의 발톱을 무기로 삼은 탓에\r\n잡은 먹이가 저주받는다는 걸 깨닫지 못했기 때문이다."
+        }
+      },
+      "PAL_LONG_DESC_MimicDog": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_MimicDog_TextData",
+          "SourceString": "일찍이 섬에 존재했던 왕국에는\r\n그 해에 가장 바보 같은 죽음을 맞은 이에게 상을 내리는 전통이 있었다.\r\n기념할 만한 최초의 사인은\r\n|<characterName id=|MimicDog|/>의 존재를 눈치채지 못하고, 상자를 열다 물려 죽었다|였다.",
+          "LocalizedString": "일찍이 섬에 존재했던 왕국에는\r\n그 해에 가장 바보 같은 죽음을 맞은 이에게 상을 내리는 전통이 있었다.\r\n기념할 만한 최초의 사인은\r\n|<characterName id=|MimicDog|/>의 존재를 눈치채지 못하고, 상자를 열다 물려 죽었다|였다."
+        }
+      },
+      "PAL_LONG_DESC_Monkey": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Monkey_TextData",
+          "SourceString": "예전엔 나뭇가지처럼 가늘고 긴 물건을 무기로 삼았다.\r\n인간과 엮이며 그런 무기는 쓰지 않게 됐다.\r\n대신 가늘고 길며 더 효율적인 '총기'를 찾았다.",
+          "LocalizedString": "예전엔 나뭇가지처럼 가늘고 긴 물건을 무기로 삼았다.\r\n인간과 엮이며 그런 무기는 쓰지 않게 됐다.\r\n대신 가늘고 길며 더 효율적인 '총기'를 찾았다."
+        }
+      },
+      "PAL_LONG_DESC_Monkey_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Monkey_Fire_TextData",
+          "SourceString": "손바닥이 진화하여 불에 달궈진 물건을\r\n잡아도 화상을 입지 않는다.\r\n잔탄을 소진하고 나면 한창 뜨거워진 총신을\r\n손으로 붙잡아 둔기로 쓸 수 있을지도 모른다.",
+          "LocalizedString": "손바닥이 진화하여 불에 달궈진 물건을\r\n잡아도 화상을 입지 않는다.\r\n잔탄을 소진하고 나면 한창 뜨거워진 총신을\r\n손으로 붙잡아 둔기로 쓸 수 있을지도 모른다."
+        }
+      },
+      "PAL_LONG_DESC_MoonQueen": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_MoonQueen_TextData",
+          "SourceString": "등 뒤에 떠다니는 달처럼 생긴 물체는\r\n세대를 거듭할 때마다 아주 조금씩 원형에 가까워진다고 한다.\r\n그 달이 완전히 찼을 때 무슨 일이 벌어질지는, 아무도 모른다.",
+          "LocalizedString": "등 뒤에 떠다니는 달처럼 생긴 물체는\r\n세대를 거듭할 때마다 아주 조금씩 원형에 가까워진다고 한다.\r\n그 달이 완전히 찼을 때 무슨 일이 벌어질지는, 아무도 모른다."
+        }
+      },
+      "PAL_LONG_DESC_MopBaby": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_MopBaby_TextData",
+          "SourceString": "지면을 기어 다니며 미세 유기물을 섭취한다.\r\n영양이 없는 건 잠시 후 배출한다.\r\n걸레라 생각하고 청소에 활용하면 서로 윈윈.",
+          "LocalizedString": "지면을 기어 다니며 미세 유기물을 섭취한다.\r\n영양이 없는 건 잠시 후 배출한다.\r\n걸레라 생각하고 청소에 활용하면 서로 윈윈."
+        }
+      },
+      "PAL_LONG_DESC_MopKing": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_MopKing_TextData",
+          "SourceString": "동면 중엔 거대한 털 뭉치 속에\r\n대량의 <characterName id=|MopBaby|/>이(가) 숨어 있다.\r\n과거 최대 기록은 무려 101마리.",
+          "LocalizedString": "동면 중엔 거대한 털 뭉치 속에\r\n대량의 <characterName id=|MopBaby|/>이(가) 숨어 있다.\r\n과거 최대 기록은 무려 101마리."
+        }
+      },
+      "PAL_LONG_DESC_MushroomDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_MushroomDragon_TextData",
+          "SourceString": "내뿜는 포자를 대량 흡입하면 일종의 도취 상태에 빠진다.\r\n가끔 <characterName id=|MushroomDragon|/>이(가) 가만히 있는 이유는\r\n버섯 흉내를 내는 것이 아니라\r\n자신의 포자를 흡입하여 취했기 때문이다.",
+          "LocalizedString": "내뿜는 포자를 대량 흡입하면 일종의 도취 상태에 빠진다.\r\n가끔 <characterName id=|MushroomDragon|/>이(가) 가만히 있는 이유는\r\n버섯 흉내를 내는 것이 아니라\r\n자신의 포자를 흡입하여 취했기 때문이다."
+        }
+      },
+      "PAL_LONG_DESC_MushroomDragon_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_MushroomDragon_Dark_TextData",
+          "SourceString": "내뿜는 포자가 대량 축적되면 햇빛마저 완전히 가리게 된다.\r\n가끔 <characterName id=|MushroomDragon_Dark|/>이(가) 가만히 있는 이유는\r\n버섯 흉내를 내는 것이 아니라\r\n자신의 포자가 눈을 가려 아무것도 안 보이기 때문이다.",
+          "LocalizedString": "내뿜는 포자가 대량 축적되면 햇빛마저 완전히 가리게 된다.\r\n가끔 <characterName id=|MushroomDragon_Dark|/>이(가) 가만히 있는 이유는\r\n버섯 흉내를 내는 것이 아니라\r\n자신의 포자가 눈을 가려 아무것도 안 보이기 때문이다."
+        }
+      },
+      "PAL_LONG_DESC_Mutant": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Mutant_TextData",
+          "SourceString": "무심결에 눈을 쳐다봤다간 꼼짝없이 당하고 만다.\r\n<characterName id=|Mutant|/>을(를) 데리고 다니는 상당수는\r\n그저 그렇게 하도록 홀렸을 뿐이다.",
+          "LocalizedString": "무심결에 눈을 쳐다봤다간 꼼짝없이 당하고 만다.\r\n<characterName id=|Mutant|/>을(를) 데리고 다니는 상당수는\r\n그저 그렇게 하도록 홀렸을 뿐이다."
+        }
+      },
+      "PAL_LONG_DESC_MysteryMask": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_MysteryMask_TextData",
+          "SourceString": "가면으로 보이는 부분은, 사실 얼굴이 아니라고 한다.\r\n눈앞에 있는 듯해도, 사실 눈앞에 없다고 한다.\r\n항상 어딘가에서, 지켜보고 있다고 한다.\r\n그리고 뒤돌아보면, 바로 그곳에 있다고 한다.",
+          "LocalizedString": "가면으로 보이는 부분은, 사실 얼굴이 아니라고 한다.\r\n눈앞에 있는 듯해도, 사실 눈앞에 없다고 한다.\r\n항상 어딘가에서, 지켜보고 있다고 한다.\r\n그리고 뒤돌아보면, 바로 그곳에 있다고 한다."
+        }
+      },
+      "PAL_LONG_DESC_NaughtyCat": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_NaughtyCat_TextData",
+          "SourceString": "<characterName id=|NaughtyCat|/>의 영역에 들어가면\r\n곧장 감시의 눈이 번뜩인다.\r\n말만 그런 게 아니라 정말로 번뜩인다.",
+          "LocalizedString": "<characterName id=|NaughtyCat|/>의 영역에 들어가면\r\n곧장 감시의 눈이 번뜩인다.\r\n말만 그런 게 아니라 정말로 번뜩인다."
+        }
+      },
+      "PAL_LONG_DESC_NegativeKoala": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_NegativeKoala_TextData",
+          "SourceString": "눈빛이 안 좋아 친구는 적지만 마음은 따뜻하다.\r\n무리와 떨어진 <characterName id=|CuteFox|/>에게\r\n먹이를 나눠주는 모습이 목격되고 있다.",
+          "LocalizedString": "눈빛이 안 좋아 친구는 적지만 마음은 따뜻하다.\r\n무리와 떨어진 <characterName id=|CuteFox|/>에게\r\n먹이를 나눠주는 모습이 목격되고 있다."
+        }
+      },
+      "PAL_LONG_DESC_NegativeOctopus": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_NegativeOctopus_TextData",
+          "SourceString": "적에 머리에 달라붙어 내용물을 쪽쪽 빨아먹는다.\r\n팰의 미라가 드물게 발견되는데 대개\r\n<characterName id=|NegativeOctopus|/>에게 희생된 팰이다.",
+          "LocalizedString": "적에 머리에 달라붙어 내용물을 쪽쪽 빨아먹는다.\r\n팰의 미라가 드물게 발견되는데 대개\r\n<characterName id=|NegativeOctopus|/>에게 희생된 팰이다."
+        }
+      },
+      "PAL_LONG_DESC_NightBlueHorse": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_NightBlueHorse_TextData",
+          "SourceString": "물 흐르는 듯이 아름다운 갈기를 자랑으로 여긴다.\r\n갈라진 털끝이 보이면 부끄러워 달리기에 집중을 못 한다.\r\n정전기가 일어나면 갈기가 마구잡이로 뜨기에\r\n<characterName id=|BlueThunderHorse|/> 근처에는 얼씬도 하지 않으려 한다.",
+          "LocalizedString": "물 흐르는 듯이 아름다운 갈기를 자랑으로 여긴다.\r\n갈라진 털끝이 보이면 부끄러워 달리기에 집중을 못 한다.\r\n정전기가 일어나면 갈기가 마구잡이로 뜨기에\r\n<characterName id=|BlueThunderHorse|/> 근처에는 얼씬도 하지 않으려 한다."
+        }
+      },
+      "PAL_LONG_DESC_NightBlueHorse_Neutral": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_NightBlueHorse_Neutral_TextData",
+          "SourceString": "번쩍이는 듯이 아름다운 갈기를 자랑으로 여긴다.\r\n약간이라도 더러워지면 부끄러워 달리기에 집중을 못 한다.\r\n피지 얼룩이 생기기 때문에 아무리 좋아하는 팰 조련사라 해도\r\n지나치게 만지는 것은 원치 않는다.",
+          "LocalizedString": "번쩍이는 듯이 아름다운 갈기를 자랑으로 여긴다.\r\n약간이라도 더러워지면 부끄러워 달리기에 집중을 못 한다.\r\n피지 얼룩이 생기기 때문에 아무리 좋아하는 팰 조련사라 해도\r\n지나치게 만지는 것은 원치 않는다."
+        }
+      },
+      "PAL_LONG_DESC_NightFox": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_NightFox_TextData",
+          "SourceString": "밤길에 <characterName id=|NightFox|/>의 털을 발견했다면\r\n줍지 말고 그대로 두는 게 좋다.\r\n그 털은 밝지 않는 밤으로 향하는 편도 티켓이다.",
+          "LocalizedString": "밤길에 <characterName id=|NightFox|/>의 털을 발견했다면\r\n줍지 말고 그대로 두는 게 좋다.\r\n그 털은 밝지 않는 밤으로 향하는 편도 티켓이다."
+        }
+      },
+      "PAL_LONG_DESC_NightLady": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_NightLady_TextData",
+          "SourceString": "존재도 없이, 그저 조용히 세계를 바라볼 뿐이었다.\r\n언제부터인가, 누군가의 시선을 갈망하게 됐다.\r\n외부 세계를 적대시하던 욕망의 덩어리는\r\n광란의 숙녀라고 정의되었다.",
+          "LocalizedString": "존재도 없이, 그저 조용히 세계를 바라볼 뿐이었다.\r\n언제부터인가, 누군가의 시선을 갈망하게 됐다.\r\n외부 세계를 적대시하던 욕망의 덩어리는\r\n광란의 숙녀라고 정의되었다."
+        }
+      },
+      "PAL_LONG_DESC_NightLady_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_NightLady_Dark_TextData",
+          "SourceString": "풀려난 욕망은, 끝내 가라앉지 못했다.\r\n|나|를 바라보는, |나|를 갈망했다.\r\n외부 세계를 적대시하던 응시하는 자매는\r\n결국 구석까지 내몰린 채 서서히 눈을 감게 되었다.",
+          "LocalizedString": "풀려난 욕망은, 끝내 가라앉지 못했다.\r\n|나|를 바라보는, |나|를 갈망했다.\r\n외부 세계를 적대시하던 응시하는 자매는\r\n결국 구석까지 내몰린 채 서서히 눈을 감게 되었다."
+        }
+      },
+      "PAL_LONG_DESC_OctopusGirl": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_OctopusGirl_TextData",
+          "SourceString": "같이 잘 때는 미리 내일 스케줄을 확인하자.\r\n빨판 자국이 키스 마크로 보일 수 있기에\r\n잠꼬대로 빨려 자국이 남으면 온갖 오해를 사게 되기 때문이다.",
+          "LocalizedString": "같이 잘 때는 미리 내일 스케줄을 확인하자.\r\n빨판 자국이 키스 마크로 보일 수 있기에\r\n잠꼬대로 빨려 자국이 남으면 온갖 오해를 사게 되기 때문이다."
+        }
+      },
+      "PAL_LONG_DESC_OctopusGirl_Neutral": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_OctopusGirl_Neutral_TextData",
+          "SourceString": "같이 잘 때는 다음 날의 스케줄을 확인하자.\r\n빨판 자국이 물린 자국처럼 보일 수 있으니\r\n잠결에 빨려 자국이라도 생기면 괜한 오해를 살 수 있다.",
+          "LocalizedString": "같이 잘 때는 다음 날의 스케줄을 확인하자.\r\n빨판 자국이 물린 자국처럼 보일 수 있으니\r\n잠결에 빨려 자국이라도 생기면 괜한 오해를 살 수 있다."
+        }
+      },
+      "PAL_LONG_DESC_Penguin": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Penguin_TextData",
+          "SourceString": "날개가 완전히 퇴화해 날 수 없다.\r\n대신 유전자에 새겨진 하늘을 향한 미련이 있어\r\n어떻게든 다시 날아오르려고 한다.",
+          "LocalizedString": "날개가 완전히 퇴화해 날 수 없다.\r\n대신 유전자에 새겨진 하늘을 향한 미련이 있어\r\n어떻게든 다시 날아오르려고 한다."
+        }
+      },
+      "PAL_LONG_DESC_PinkCat": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_PinkCat_TextData",
+          "SourceString": "얼핏 보기엔 당당하지만 실은 대단한 겁쟁이다.\r\n<characterName id=|PinkCat|/>이(가) 핥아준다는 건\r\n어떤 의미에선 최고의 굴욕이다.",
+          "LocalizedString": "얼핏 보기엔 당당하지만 실은 대단한 겁쟁이다.\r\n<characterName id=|PinkCat|/>이(가) 핥아준다는 건\r\n어떤 의미에선 최고의 굴욕이다."
+        }
+      },
+      "PAL_LONG_DESC_PinkLizard": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_PinkLizard_TextData",
+          "SourceString": "하룻밤의 사랑을 찾아 항상 누군가를 뒤쫓는다.\r\n처음엔 팰에게만 흥미를 보였지만\r\n최근엔 사람에게도 마수를 뻗기 시작했다.",
+          "LocalizedString": "하룻밤의 사랑을 찾아 항상 누군가를 뒤쫓는다.\r\n처음엔 팰에게만 흥미를 보였지만\r\n최근엔 사람에게도 마수를 뻗기 시작했다."
+        }
+      },
+      "PAL_LONG_DESC_PinkRabbit": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_PinkRabbit_TextData",
+          "SourceString": "항상 방긋방긋 웃는 얼굴로 지낸다.\r\n가끔 <characterName id=|PinkCat|/>의 장난으로 촉수가 묶이기도 한다.\r\n그리고 그때만큼은 귀신의 형상으로 변하게 된다고 한다.",
+          "LocalizedString": "항상 방긋방긋 웃는 얼굴로 지낸다.\r\n가끔 <characterName id=|PinkCat|/>의 장난으로 촉수가 묶이기도 한다.\r\n그리고 그때만큼은 귀신의 형상으로 변하게 된다고 한다."
+        }
+      },
+      "PAL_LONG_DESC_PinkRabbit_Grass": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_PinkRabbit_Grass_TextData",
+          "SourceString": "항상 방긋방긋 웃는 얼굴로 지낸다.\r\n가끔 <characterName id=|PinkCat|/>의 장난으로 촉수가 묶이기도 한다.\r\n그리고 그럴 때에는 웃는 얼굴로 폭력을 행사한다고 한다.",
+          "LocalizedString": "항상 방긋방긋 웃는 얼굴로 지낸다.\r\n가끔 <characterName id=|PinkCat|/>의 장난으로 촉수가 묶이기도 한다.\r\n그리고 그럴 때에는 웃는 얼굴로 폭력을 행사한다고 한다."
+        }
+      },
+      "PAL_LONG_DESC_PlantSlime": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_PlantSlime_TextData",
+          "SourceString": "수액 같은 몸을 가진 신기한 팰.\r\n뒤집어쓸 게 없으면 서서히 말라가다가\r\n결국 썩어서 없어진다.",
+          "LocalizedString": "수액 같은 몸을 가진 신기한 팰.\r\n뒤집어쓸 게 없으면 서서히 말라가다가\r\n결국 썩어서 없어진다."
+        }
+      },
+      "PAL_LONG_DESC_Plesiosaur": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Plesiosaur_TextData",
+          "SourceString": "날숨에 섞인 꽃가루 같은 물질은\r\n모든 식물과도 수분할 수 있는 기적의 물질.\r\n식물이 자라난 팰 입장에선 꽤나 복잡한 상대로 볼 수 있다.",
+          "LocalizedString": "날숨에 섞인 꽃가루 같은 물질은\r\n모든 식물과도 수분할 수 있는 기적의 물질.\r\n식물이 자라난 팰 입장에선 꽤나 복잡한 상대로 볼 수 있다."
+        }
+      },
+      "PAL_LONG_DESC_PurpleSpider": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_PurpleSpider_TextData",
+          "SourceString": "지극히 끈적거리며, 찐득찐득 달라붙는다.\r\n몸부림치면 칠수록, 더욱 세게 들러붙는다.\r\n그러한 |성격|을 지니고 있다.",
+          "LocalizedString": "지극히 끈적거리며, 찐득찐득 달라붙는다.\r\n몸부림치면 칠수록, 더욱 세게 들러붙는다.\r\n그러한 |성격|을 지니고 있다."
+        }
+      },
+      "PAL_LONG_DESC_QueenBee": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_QueenBee_TextData",
+          "SourceString": "<characterName id=|SoldierBee|/>을(를) 총괄하는 선택받은 여왕.\r\n위대한 여왕을 위해 일한다는 기쁨으로\r\n죽을 때까지 일하는 하인이 끊이지 않는다.",
+          "LocalizedString": "<characterName id=|SoldierBee|/>을(를) 총괄하는 선택받은 여왕.\r\n위대한 여왕을 위해 일한다는 기쁨으로\r\n죽을 때까지 일하는 하인이 끊이지 않는다."
+        }
+      },
+      "PAL_LONG_DESC_RaijinDaughter": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_RaijinDaughter_TextData",
+          "SourceString": "외톨이인 팰에게 친근하게 잘 대해준다.\r\n착각한 상대 팰이 곁을 내주기가 무섭게\r\n이때다 하고 낙뢰로 숨통을 끊는다.",
+          "LocalizedString": "외톨이인 팰에게 친근하게 잘 대해준다.\r\n착각한 상대 팰이 곁을 내주기가 무섭게\r\n이때다 하고 낙뢰로 숨통을 끊는다."
+        }
+      },
+      "PAL_LONG_DESC_RaijinDaughter_Water": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_RaijinDaughter_Water_TextData",
+          "SourceString": "외톨이인 팰에게 친근하게 잘 대해주고\r\n곁을 내주기가 무섭게 낙뢰로 숨통을 끊는다.\r\n본래 계획은 그랬지만 타이밍을 놓치다가\r\n좋은 친구 사이로 남게 된다고 한다.",
+          "LocalizedString": "외톨이인 팰에게 친근하게 잘 대해주고\r\n곁을 내주기가 무섭게 낙뢰로 숨통을 끊는다.\r\n본래 계획은 그랬지만 타이밍을 놓치다가\r\n좋은 친구 사이로 남게 된다고 한다."
+        }
+      },
+      "PAL_LONG_DESC_RedArmorBird": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_RedArmorBird_TextData",
+          "SourceString": "<characterName id=|ThunderBird|/>의 근연종이지만 관계는 없다.\r\n암석이 주식이며 오랜 세월에 걸쳐\r\n주둥이는 물론 머리 전체가 단단해졌다.",
+          "LocalizedString": "<characterName id=|ThunderBird|/>의 근연종이지만 관계는 없다.\r\n암석이 주식이며 오랜 세월에 걸쳐\r\n주둥이는 물론 머리 전체가 단단해졌다."
+        }
+      },
+      "PAL_LONG_DESC_RobinHood": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_RobinHood_TextData",
+          "SourceString": "숲에서 수렵 생활을 하는, 사람과 비슷한 성질의 팰.\r\n아주 먼 옛날 사람과 다른 계통으로 갈라졌다고 여겨지며\r\n팰의 정체를 밝혀줄 열쇠일지도 모른다.",
+          "LocalizedString": "숲에서 수렵 생활을 하는, 사람과 비슷한 성질의 팰.\r\n아주 먼 옛날 사람과 다른 계통으로 갈라졌다고 여겨지며\r\n팰의 정체를 밝혀줄 열쇠일지도 모른다."
+        }
+      },
+      "PAL_LONG_DESC_RobinHood_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_RobinHood_Ground_TextData",
+          "SourceString": "바위투성이인 곳에서 수렵 생활을 하며, 사람과 성질이 아주 비슷한 팰.\r\n유적에서 <characterName id=|RobinHood_Ground|/>의 뼈가 발견된다면\r\n사람의 뼈 또한 반드시 출토된다.",
+          "LocalizedString": "바위투성이인 곳에서 수렵 생활을 하며, 사람과 성질이 아주 비슷한 팰.\r\n유적에서 <characterName id=|RobinHood_Ground|/>의 뼈가 발견된다면\r\n사람의 뼈 또한 반드시 출토된다."
+        }
+      },
+      "PAL_LONG_DESC_Ronin": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Ronin_TextData",
+          "SourceString": "죽기 무섭게 몸이 칼날처럼 변해 다음 세대로 넘겨진다.\r\n<characterName id=|Ronin|/> 이외의 존재가 칼을 소유하면\r\n안에 감춰진 망자들의 끈질긴 목소리에 미쳐버리고 만다.",
+          "LocalizedString": "죽기 무섭게 몸이 칼날처럼 변해 다음 세대로 넘겨진다.\r\n<characterName id=|Ronin|/> 이외의 존재가 칼을 소유하면\r\n안에 감춰진 망자들의 끈질긴 목소리에 미쳐버리고 만다."
+        }
+      },
+      "PAL_LONG_DESC_Ronin_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Ronin_Dark_TextData",
+          "SourceString": "죽기 무섭게 몸이 칼날처럼 변해 다음 세대로 넘겨진다. \r\n칼을 물려받은 <characterName id=|Ronin|/>의 심지가 굳지 못하면\r\n안에 감춰진 망자들의 끈질긴 목소리에 못 견뎌\r\n<characterName id=|Ronin_Dark|/>(으)로 변해 방황하게 된다.",
+          "LocalizedString": "죽기 무섭게 몸이 칼날처럼 변해 다음 세대로 넘겨진다. \r\n칼을 물려받은 <characterName id=|Ronin|/>의 심지가 굳지 못하면\r\n안에 감춰진 망자들의 끈질긴 목소리에 못 견뎌\r\n<characterName id=|Ronin_Dark|/>(으)로 변해 방황하게 된다."
+        }
+      },
+      "PAL_LONG_DESC_SaintCentaur": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SaintCentaur_TextData",
+          "SourceString": "본래 <characterName id=|BlackCentaur|/>와(과) 하나의 존재였다.\r\n부정적 감정을 제거한 존재로 여겨지나\r\n눈동자 속에선 일말의 증오가 번뜩인다.",
+          "LocalizedString": "본래 <characterName id=|BlackCentaur|/>와(과) 하나의 존재였다.\r\n부정적 감정을 제거한 존재로 여겨지나\r\n눈동자 속에선 일말의 증오가 번뜩인다."
+        }
+      },
+      "PAL_LONG_DESC_SakuraSaurus": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SakuraSaurus_TextData",
+          "SourceString": "교미 전후로 체취가 크게 달라진다.\r\n파트너를 발견한 뒤엔 좋은 향기가 나\r\n'첫사랑의 향기'라고 불린다.",
+          "LocalizedString": "교미 전후로 체취가 크게 달라진다.\r\n파트너를 발견한 뒤엔 좋은 향기가 나\r\n'첫사랑의 향기'라고 불린다."
+        }
+      },
+      "PAL_LONG_DESC_SakuraSaurus_Water": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SakuraSaurus_Water_TextData",
+          "SourceString": "교미 전후로 체취가 크게 달라진다.\r\n파트너를 발견하기 전까지의 향기가 좋다 하여\r\n'순결의 향기'라고 불린다.",
+          "LocalizedString": "교미 전후로 체취가 크게 달라진다.\r\n파트너를 발견하기 전까지의 향기가 좋다 하여\r\n'순결의 향기'라고 불린다."
+        }
+      },
+      "PAL_LONG_DESC_ScorpionMan": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ScorpionMan_TextData",
+          "SourceString": "약 5,000종에 달하는 독을 함유하고 있다.\r\n그중에는 즉사할 정도로 무시무시한 위력의 독도 있으나\r\n정작 독의 농도가 하나같이 옅은 탓에 아무런 의미가 없다.",
+          "LocalizedString": "약 5,000종에 달하는 독을 함유하고 있다.\r\n그중에는 즉사할 정도로 무시무시한 위력의 독도 있으나\r\n정작 독의 농도가 하나같이 옅은 탓에 아무런 의미가 없다."
+        }
+      },
+      "PAL_LONG_DESC_ScorpionMan_Electric": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ScorpionMan_Electric_TextData",
+          "SourceString": "상대를 꼬리로 찔러 몸속에 전기를 흘려보낼 수 있으나\r\n정작 전기가 너무 약한 탓에\r\n차라리 직접 때리는 게 훨씬 나을 정도다.",
+          "LocalizedString": "상대를 꼬리로 찔러 몸속에 전기를 흘려보낼 수 있으나\r\n정작 전기가 너무 약한 탓에\r\n차라리 직접 때리는 게 훨씬 나을 정도다."
+        }
+      },
+      "PAL_LONG_DESC_Serpent": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Serpent_TextData",
+          "SourceString": "유선형의 몸을 가져 수상 활동에 적합하다.\r\n밀렵꾼에게 자주 붙잡혀\r\n서핑보드 대용으로 사용되고 있다.",
+          "LocalizedString": "유선형의 몸을 가져 수상 활동에 적합하다.\r\n밀렵꾼에게 자주 붙잡혀\r\n서핑보드 대용으로 사용되고 있다."
+        }
+      },
+      "PAL_LONG_DESC_Serpent_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Serpent_Ground_TextData",
+          "SourceString": "유선형의 몸을 가져 모래 위 생활에 적합하다.\r\n밀렵꾼에게 자주 붙잡혀\r\n서핑보드 대용으로 사용되고 있다.",
+          "LocalizedString": "유선형의 몸을 가져 모래 위 생활에 적합하다.\r\n밀렵꾼에게 자주 붙잡혀\r\n서핑보드 대용으로 사용되고 있다."
+        }
+      },
+      "PAL_LONG_DESC_SharkKid": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SharkKid_TextData",
+          "SourceString": "먼 옛날엔 거대하고 강력한 수생 팰이었지만\r\n먹이가 적어지며 지상으로 나왔다.\r\n걷는 데 상당한 에너지가 필요해\r\n점점 몸집이 작아졌고 지금은 약한 팰이 됐다.",
+          "LocalizedString": "먼 옛날엔 거대하고 강력한 수생 팰이었지만\r\n먹이가 적어지며 지상으로 나왔다.\r\n걷는 데 상당한 에너지가 필요해\r\n점점 몸집이 작아졌고 지금은 약한 팰이 됐다."
+        }
+      },
+      "PAL_LONG_DESC_SharkKid_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SharkKid_Fire_TextData",
+          "SourceString": "먼 옛날엔 거대하고 강력한 수생 팰이었지만\r\n먹이가 적어지며 지상으로 나왔다.\r\n걷는 데 상당한 칼로리를 연소한 결과\r\n화염의 힘에 눈뜨게 됐다!",
+          "LocalizedString": "먼 옛날엔 거대하고 강력한 수생 팰이었지만\r\n먹이가 적어지며 지상으로 나왔다.\r\n걷는 데 상당한 칼로리를 연소한 결과\r\n화염의 힘에 눈뜨게 됐다!"
+        }
+      },
+      "PAL_LONG_DESC_SheepBall": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SheepBall_TextData",
+          "SourceString": "언덕길을 걷다 저 혼자 데굴데굴 구른다.\r\n결국 눈이 핑핑 돌아 몸을 못 가눌 때\r\n간단히 처치할 수 있는 먹이 사슬의 최하층이다.",
+          "LocalizedString": "언덕길을 걷다 저 혼자 데굴데굴 구른다.\r\n결국 눈이 핑핑 돌아 몸을 못 가눌 때\r\n간단히 처치할 수 있는 먹이 사슬의 최하층이다."
+        }
+      },
+      "PAL_LONG_DESC_SifuDog": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SifuDog_TextData",
+          "SourceString": "무아지경에 빠지는 것을 목표로 명상을 거듭한다.\r\n번뇌를 마주해 말끔히 씻어내면\r\n배불리 먹은 뒤 이렇게 생각한다.\r\n오늘도 과식해 버렸다고.",
+          "LocalizedString": "무아지경에 빠지는 것을 목표로 명상을 거듭한다.\r\n번뇌를 마주해 말끔히 씻어내면\r\n배불리 먹은 뒤 이렇게 생각한다.\r\n오늘도 과식해 버렸다고."
+        }
+      },
+      "PAL_LONG_DESC_SkyDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SkyDragon_TextData",
+          "SourceString": "<characterName id=|SkyDragon|/>을(를) 껴안고 자면\r\n천국에 온 듯한 기분이나\r\n잠버릇이 험한 개체와 자면 깔려 죽어서 천국으로 직행이다.",
+          "LocalizedString": "<characterName id=|SkyDragon|/>을(를) 껴안고 자면\r\n천국에 온 듯한 기분이나\r\n잠버릇이 험한 개체와 자면 깔려 죽어서 천국으로 직행이다."
+        }
+      },
+      "PAL_LONG_DESC_SkyDragon_Grass": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SkyDragon_Grass_TextData",
+          "SourceString": "<characterName id=|SkyDragon_Grass|/>을(를) 안고 있을 때\r\n햇님과 초원의 향기가 난다면 내일 날씨는 맑다.\r\n아직 축축한 냄새가 난다면 내일은 장대비가 온다.",
+          "LocalizedString": "<characterName id=|SkyDragon_Grass|/>을(를) 안고 있을 때\r\n햇님과 초원의 향기가 난다면 내일 날씨는 맑다.\r\n아직 축축한 냄새가 난다면 내일은 장대비가 온다."
+        }
+      },
+      "PAL_LONG_DESC_SmallArmadillo": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SmallArmadillo_TextData",
+          "SourceString": "예전엔 <characterName id=|SmallArmadillo|/> 축구가 유행했다.\r\n팰 애호 단체의 강한 반발에 부딪쳐 곧 폐지되었지만\r\n오래된 각질이 떨어지기 때문에, <characterName id=|SmallArmadillo|/> 무리도\r\n크게 꺼리는 기색은 없었다고 한다.",
+          "LocalizedString": "예전엔 <characterName id=|SmallArmadillo|/> 축구가 유행했다.\r\n팰 애호 단체의 강한 반발에 부딪쳐 곧 폐지되었지만\r\n오래된 각질이 떨어지기 때문에, <characterName id=|SmallArmadillo|/> 무리도\r\n크게 꺼리는 기색은 없었다고 한다."
+        }
+      },
+      "PAL_LONG_DESC_SnowTigerBeastman": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SnowTigerBeastman_TextData",
+          "SourceString": "둥근 물체를 볼 때마다 주먹이 근질거린다.\r\n<characterName id=|SnowTigerBeastMan|/>에게 생존 다음으로 힘겨운 일은\r\n눈사람을 온전하게 완성하는 것이다.",
+          "LocalizedString": "둥근 물체를 볼 때마다 주먹이 근질거린다.\r\n<characterName id=|SnowTigerBeastMan|/>에게 생존 다음으로 힘겨운 일은\r\n눈사람을 온전하게 완성하는 것이다."
+        }
+      },
+      "PAL_LONG_DESC_SoldierBee": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SoldierBee_TextData",
+          "SourceString": "<characterName id=|QueenBee|/>을(를) 충실히 따르는 하인.\r\n여왕에게 해를 끼치는 자를 철저히 배제한다.\r\n끝내 자폭을 해서라도 여왕을 지켜낸다.",
+          "LocalizedString": "<characterName id=|QueenBee|/>을(를) 충실히 따르는 하인.\r\n여왕에게 해를 끼치는 자를 철저히 배제한다.\r\n끝내 자폭을 해서라도 여왕을 지켜낸다."
+        }
+      },
+      "PAL_LONG_DESC_StuffedShark": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_StuffedShark_TextData",
+          "SourceString": "인형 속에서 무언가 이쪽을 들여다보는 듯하지만\r\n정작 그 안에 손을 넣어보면 아무것도 없다.\r\n오히려 손이 빨려 들어갈 듯 끝없이 들어간다.\r\n어쩌면 우주는 이곳에 있을지도 모른다.",
+          "LocalizedString": "인형 속에서 무언가 이쪽을 들여다보는 듯하지만\r\n정작 그 안에 손을 넣어보면 아무것도 없다.\r\n오히려 손이 빨려 들어갈 듯 끝없이 들어간다.\r\n어쩌면 우주는 이곳에 있을지도 모른다."
+        }
+      },
+      "PAL_LONG_DESC_Suzaku": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Suzaku_TextData",
+          "SourceString": "옛날에는 건기를 불러오는 존재로 여겨졌다.\r\n지난 해에 가물었다면 다음 해의 풍작을 기원하며\r\n이 녀석을 집요하게 사냥하곤 했다.",
+          "LocalizedString": "옛날에는 건기를 불러오는 존재로 여겨졌다.\r\n지난 해에 가물었다면 다음 해의 풍작을 기원하며\r\n이 녀석을 집요하게 사냥하곤 했다."
+        }
+      },
+      "PAL_LONG_DESC_Suzaku_Water": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Suzaku_Water_TextData",
+          "SourceString": "옛날에는 우기를 불러오는 존재로 여겨졌다.\r\n지난 해에 수해가 발생했다면 다음 해의 안전을 기원하며\r\n이 녀석을 집요하게 사냥하곤 했다.",
+          "LocalizedString": "옛날에는 우기를 불러오는 존재로 여겨졌다.\r\n지난 해에 수해가 발생했다면 다음 해의 안전을 기원하며\r\n이 녀석을 집요하게 사냥하곤 했다."
+        }
+      },
+      "PAL_LONG_DESC_SweetsSheep": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SweetsSheep_TextData",
+          "SourceString": "전신이 설탕보다 18,000배나 달다.\r\n향기에 이끌려 덥석 베어 문 육식 팰은\r\n상상을 초월하는 단맛에 눈이 뒤집힌 채 졸도해 버린다.",
+          "LocalizedString": "전신이 설탕보다 18,000배나 달다.\r\n향기에 이끌려 덥석 베어 문 육식 팰은\r\n상상을 초월하는 단맛에 눈이 뒤집힌 채 졸도해 버린다."
+        }
+      },
+      "PAL_LONG_DESC_SweetsSheep_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SweetsSheep_Ground_TextData",
+          "SourceString": "털에서 달콤한 냄새가 나지만 살은 어마어마하게 쓰다.\r\n향기에 이끌려 덥석 베어 문 육식 팰은\r\n상상을 초월하는 쓴맛에 눈이 뒤집힌 채 졸도해 버린다.",
+          "LocalizedString": "털에서 달콤한 냄새가 나지만 살은 어마어마하게 쓰다.\r\n향기에 이끌려 덥석 베어 문 육식 팰은\r\n상상을 초월하는 쓴맛에 눈이 뒤집힌 채 졸도해 버린다."
+        }
+      },
+      "PAL_LONG_DESC_TentacleTurtle": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_TentacleTurtle_TextData",
+          "SourceString": "물렁한 본체를 지키기 위해 단단한 갑각을 얻었다.\r\n그 대신 본체의 방어력을 거의 다 포기했기에\r\n간지럽히기만 해도 기절한다.",
+          "LocalizedString": "물렁한 본체를 지키기 위해 단단한 갑각을 얻었다.\r\n그 대신 본체의 방어력을 거의 다 포기했기에\r\n간지럽히기만 해도 기절한다."
+        }
+      },
+      "PAL_LONG_DESC_ThunderBird": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ThunderBird_TextData",
+          "SourceString": "<characterName id=|RedArmorBird|/>의 근연종으로 보이나 관계는 없다.\r\n급강하해 날카로운 주둥이로 적을 처치한다.\r\n그 모습은 마치 낙뢰를 보는 듯하다.",
+          "LocalizedString": "<characterName id=|RedArmorBird|/>의 근연종으로 보이나 관계는 없다.\r\n급강하해 날카로운 주둥이로 적을 처치한다.\r\n그 모습은 마치 낙뢰를 보는 듯하다."
+        }
+      },
+      "PAL_LONG_DESC_ThunderDog": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ThunderDog_TextData",
+          "SourceString": "전속력으로 뛰면 그야말로 번개나 다름없다.\r\n<characterName id=|ThunderDog|/>끼리 충돌하면\r\n천둥 같은 굉음이 울려 퍼진다.",
+          "LocalizedString": "전속력으로 뛰면 그야말로 번개나 다름없다.\r\n<characterName id=|ThunderDog|/>끼리 충돌하면\r\n천둥 같은 굉음이 울려 퍼진다."
+        }
+      },
+      "PAL_LONG_DESC_ThunderDog_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ThunderDog_Ice_TextData",
+          "SourceString": "설원을 전속력으로 뛰면 눈보라가 휘몰아친다.\r\n그 탓에 서로의 모습을 확인할 수 없어\r\n<characterName id=|ThunderDog_Ice|/>(으)로 인한 교통사고가 자주 발생한다.",
+          "LocalizedString": "설원을 전속력으로 뛰면 눈보라가 휘몰아친다.\r\n그 탓에 서로의 모습을 확인할 수 없어\r\n<characterName id=|ThunderDog_Ice|/>(으)로 인한 교통사고가 자주 발생한다."
+        }
+      },
+      "PAL_LONG_DESC_ThunderDragonMan": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ThunderDragonMan_TextData",
+          "SourceString": "상처로 전류를 흘려보내 상대의 몸을 불태운다.\r\n<characterName id=|ThunderDragonMan|/>끼리 싸우면\r\n순식간에 승부가 난다.",
+          "LocalizedString": "상처로 전류를 흘려보내 상대의 몸을 불태운다.\r\n<characterName id=|ThunderDragonMan|/>끼리 싸우면\r\n순식간에 승부가 난다."
+        }
+      },
+      "PAL_LONG_DESC_TropicalOstrich": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_TropicalOstrich_TextData",
+          "SourceString": "특징적인 춤으로 적의 리듬을 무너뜨린다.\r\n영역 싸움 중에는 먼저 상대의 리듬에 휘말리면 패배라고 한다.\r\n구애 행위도, 심심풀이도, 전부 다 춤!\r\n그렇다면, 인간을 향한 춤에는 과연 어떤 의미가 있을까.",
+          "LocalizedString": "특징적인 춤으로 적의 리듬을 무너뜨린다.\r\n영역 싸움 중에는 먼저 상대의 리듬에 휘말리면 패배라고 한다.\r\n구애 행위도, 심심풀이도, 전부 다 춤!\r\n그렇다면, 인간을 향한 춤에는 과연 어떤 의미가 있을까."
+        }
+      },
+      "PAL_LONG_DESC_Umihebi": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Umihebi_TextData",
+          "SourceString": "억울한 누명으로 소용돌이치는 물속에 떨어진 현자가\r\n<characterName id=|Umihebi|/>(으)로 환생하여\r\n나라를 멸망시켰다는 전설이 있다.",
+          "LocalizedString": "억울한 누명으로 소용돌이치는 물속에 떨어진 현자가\r\n<characterName id=|Umihebi|/>(으)로 환생하여\r\n나라를 멸망시켰다는 전설이 있다."
+        }
+      },
+      "PAL_LONG_DESC_Umihebi_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Umihebi_Fire_TextData",
+          "SourceString": "억울한 누명으로 화산에 떨어진 전사가\r\n<characterName id=|Umihebi_Fire|/>(으)로 환생하여\r\n한 나라를 모조리 불살라버렸다는 전설이 있다.",
+          "LocalizedString": "억울한 누명으로 화산에 떨어진 전사가\r\n<characterName id=|Umihebi_Fire|/>(으)로 환생하여\r\n한 나라를 모조리 불살라버렸다는 전설이 있다."
+        }
+      },
+      "PAL_LONG_DESC_VioletFairy": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_VioletFairy_TextData",
+          "SourceString": "성에는 임금님께서 좋아하시는 꽃이 잔뜩 피어 있었습니다.\r\n어느 날 큰 싸움이 벌어져, 성까지 불이 옮겨붙으려 하고 있었습니다.\r\n바로 그곳에서, 한 꽃의 정령이 나타났습니다.\r\n      - 동화 '임금님의 꽃'에서 발췌.",
+          "LocalizedString": "성에는 임금님께서 좋아하시는 꽃이 잔뜩 피어 있었습니다.\r\n어느 날 큰 싸움이 벌어져, 성까지 불이 옮겨붙으려 하고 있었습니다.\r\n바로 그곳에서, 한 꽃의 정령이 나타났습니다.\r\n      - 동화 '임금님의 꽃'에서 발췌."
+        }
+      },
+      "PAL_LONG_DESC_VolcanicMonster": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_VolcanicMonster_TextData",
+          "SourceString": "마그마 같은 피가 전신에 힘차게 흐르고 있다.\r\n물을 흠뻑 끼얹으면 순식간에 가열돼\r\n엄청난 수증기 폭발이 발생한다.",
+          "LocalizedString": "마그마 같은 피가 전신에 힘차게 흐르고 있다.\r\n물을 흠뻑 끼얹으면 순식간에 가열돼\r\n엄청난 수증기 폭발이 발생한다."
+        }
+      },
+      "PAL_LONG_DESC_VolcanicMonster_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_VolcanicMonster_Ice_TextData",
+          "SourceString": "초저온의 피가 전신에 힘차게 흐르고 있다.\r\n순식간에 가열되면 혈액이 증발해\r\n엄청난 증기 폭발이 발생한다.",
+          "LocalizedString": "초저온의 피가 전신에 힘차게 흐르고 있다.\r\n순식간에 가열되면 혈액이 증발해\r\n엄청난 증기 폭발이 발생한다."
+        }
+      },
+      "PAL_LONG_DESC_WaterLizard": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WaterLizard_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "PAL_LONG_DESC_WeaselDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WeaselDragon_TextData",
+          "SourceString": "몸을 둥글게 말아 엄청난 속도로 회전 이동할 수 있다.\r\n옛날 사람들은 길들인 <characterName id=|WeaselDragon|/>에게\r\n우유 주머니를 달아 방목하며\r\n그 회전력으로 버터를 만들었다.",
+          "LocalizedString": "몸을 둥글게 말아 엄청난 속도로 회전 이동할 수 있다.\r\n옛날 사람들은 길들인 <characterName id=|WeaselDragon|/>에게\r\n우유 주머니를 달아 방목하며\r\n그 회전력으로 버터를 만들었다."
+        }
+      },
+      "PAL_LONG_DESC_WeaselDragon_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WeaselDragon_Fire_TextData",
+          "SourceString": "몸을 둥글게 말아 불꽃을 뿌리며 회전 이동할 수 있다.\r\n흥분했을 때도 불꽃을 뿌린다.\r\n너무 많이 쓰다듬으면 불타오른다.",
+          "LocalizedString": "몸을 둥글게 말아 불꽃을 뿌리며 회전 이동할 수 있다.\r\n흥분했을 때도 불꽃을 뿌린다.\r\n너무 많이 쓰다듬으면 불타오른다."
+        }
+      },
+      "PAL_LONG_DESC_Werewolf": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Werewolf_TextData",
+          "SourceString": "머리의 뿔은 달빛을 받아야 자란다.\r\n태양을 못 견디는 건 아니지만\r\n햇빛을 쬐는 동안에는 뿔이 근질거린다.",
+          "LocalizedString": "머리의 뿔은 달빛을 받아야 자란다.\r\n태양을 못 견디는 건 아니지만\r\n햇빛을 쬐는 동안에는 뿔이 근질거린다."
+        }
+      },
+      "PAL_LONG_DESC_Werewolf_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Werewolf_Ice_TextData",
+          "SourceString": "머리의 뿔은 절대 녹지 않는 신비한 얼음.\r\n뿔을 부러뜨려 빙수를 만들면\r\n엄청난 별미가 된다고 하지만\r\n먹은 본인도 <characterName id=|Werewolf_Ice|/>도 머리가 띵할 만큼 아파진다.",
+          "LocalizedString": "머리의 뿔은 절대 녹지 않는 신비한 얼음.\r\n뿔을 부러뜨려 빙수를 만들면\r\n엄청난 별미가 된다고 하지만\r\n먹은 본인도 <characterName id=|Werewolf_Ice|/>도 머리가 띵할 만큼 아파진다."
+        }
+      },
+      "PAL_LONG_DESC_WhiteAlienDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WhiteAlienDragon_TextData",
+          "SourceString": "정보를 섭취하는 행위를 통해 에너지를 얻는다.\r\n정기적으로 누군가에게 정보를 보내는 듯하다.\r\n- 여보세요, 방금 연락 내용을 보기도 전에 먹어버렸는데요, 뭐라고 보냈죠?",
+          "LocalizedString": "정보를 섭취하는 행위를 통해 에너지를 얻는다.\r\n정기적으로 누군가에게 정보를 보내는 듯하다.\r\n- 여보세요, 방금 연락 내용을 보기도 전에 먹어버렸는데요, 뭐라고 보냈죠?"
+        }
+      },
+      "PAL_LONG_DESC_WhiteDeer": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WhiteDeer_TextData",
+          "SourceString": "고대 문헌에서 |구원의 짐승| 등으로 기록되어 있다.\r\n<characterName id=|WhiteDeer|/>이(가) 내뿜는 빛이\r\n이 세상의 모든 것을 정화하기 때문이다.\r\n말 그대로, 이 세상에서 흔적도 없이 사라진다.",
+          "LocalizedString": "고대 문헌에서 |구원의 짐승| 등으로 기록되어 있다.\r\n<characterName id=|WhiteDeer|/>이(가) 내뿜는 빛이\r\n이 세상의 모든 것을 정화하기 때문이다.\r\n말 그대로, 이 세상에서 흔적도 없이 사라진다."
+        }
+      },
+      "PAL_LONG_DESC_WhiteMoth": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WhiteMoth_TextData",
+          "SourceString": "비를 좋아해서 비가 내리는 동안\r\n꼼작 않고 있는 경우가 많다.\r\n<characterName id=|Kitsunebi|/>이(가) 자주 비를 피하러 찾아온다.",
+          "LocalizedString": "비를 좋아해서 비가 내리는 동안\r\n꼼작 않고 있는 경우가 많다.\r\n<characterName id=|Kitsunebi|/>이(가) 자주 비를 피하러 찾아온다."
+        }
+      },
+      "PAL_LONG_DESC_WhiteShieldDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WhiteShieldDragon_TextData",
+          "SourceString": "목 주위를 감싼 금속 부위에는 자성이 있다.\r\n그렇기에 다리의 금속과 닿으면 서로가 들러붙어 난처해진다.\r\n목에 금속 찌꺼기가 쌓이면 마지못해 청소를 하지만\r\n찌꺼기가 잘 떨어지지 않아 성질을 부린다.",
+          "LocalizedString": "목 주위를 감싼 금속 부위에는 자성이 있다.\r\n그렇기에 다리의 금속과 닿으면 서로가 들러붙어 난처해진다.\r\n목에 금속 찌꺼기가 쌓이면 마지못해 청소를 하지만\r\n찌꺼기가 잘 떨어지지 않아 성질을 부린다."
+        }
+      },
+      "PAL_LONG_DESC_WhiteTiger": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WhiteTiger_TextData",
+          "SourceString": "단단한 발톱으로 험한 산도 즐겁게 오른다.\r\n하지만 다리가 짧아 하산이 힘들어\r\n종종 높은 곳에서 이러지도 저러지도 못한다.",
+          "LocalizedString": "단단한 발톱으로 험한 산도 즐겁게 오른다.\r\n하지만 다리가 짧아 하산이 힘들어\r\n종종 높은 곳에서 이러지도 저러지도 못한다."
+        }
+      },
+      "PAL_LONG_DESC_WhiteTiger_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WhiteTiger_Ground_TextData",
+          "SourceString": "커다란 손으로 많은 짐들을 거뜬히 들어 올릴 수 있다.\r\n하지만 다리가 짧은 탓에 걸음걸이가 느려\r\n채 옮기기도 전에 날이 저무는 경우가 비일비재하다.",
+          "LocalizedString": "커다란 손으로 많은 짐들을 거뜬히 들어 올릴 수 있다.\r\n하지만 다리가 짧은 탓에 걸음걸이가 느려\r\n채 옮기기도 전에 날이 저무는 경우가 비일비재하다."
+        }
+      },
+      "PAL_LONG_DESC_Windchimes": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Windchimes_TextData",
+          "SourceString": "거대한 팔은 강철도 찢어버릴 정도다.\r\n대역죄인을 마을 광장에 결박해\r\n<characterName id=|Windchimes|/>에게 전신이 으스러지도록\r\n만드는 잔혹한 형벌이 시행됐던 적도 있다.",
+          "LocalizedString": "거대한 팔은 강철도 찢어버릴 정도다.\r\n대역죄인을 마을 광장에 결박해\r\n<characterName id=|Windchimes|/>에게 전신이 으스러지도록\r\n만드는 잔혹한 형벌이 시행됐던 적도 있다."
+        }
+      },
+      "PAL_LONG_DESC_Windchimes_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Windchimes_Ice_TextData",
+          "SourceString": "얼음덩어리도 찢어버릴 만큼 거대한 팔이 특징.\r\n대역죄인을 마을 광장에 결박하여\r\n<characterName id=|Windchimes_Ice|/>의 힘으로 머리채를 쥐어뜯어버리는\r\n잔혹한 형벌이 시행됐던 적도 있다.",
+          "LocalizedString": "얼음덩어리도 찢어버릴 만큼 거대한 팔이 특징.\r\n대역죄인을 마을 광장에 결박하여\r\n<characterName id=|Windchimes_Ice|/>의 힘으로 머리채를 쥐어뜯어버리는\r\n잔혹한 형벌이 시행됐던 적도 있다."
+        }
+      },
+      "PAL_LONG_DESC_WingGolem": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WingGolem_TextData",
+          "SourceString": "215개의 부품으로 분해할 수 있으며 뿔뿔이 흩어져도\r\n다시 조립하면 원래대로 움직이는 괴상한 팰.\r\n각 개체의 부품이 섞이면 정체성이 붕괴하고\r\n사고 회로까지 망가진다.",
+          "LocalizedString": "215개의 부품으로 분해할 수 있으며 뿔뿔이 흩어져도\r\n다시 조립하면 원래대로 움직이는 괴상한 팰.\r\n각 개체의 부품이 섞이면 정체성이 붕괴하고\r\n사고 회로까지 망가진다."
+        }
+      },
+      "PAL_LONG_DESC_WizardOwl": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WizardOwl_TextData",
+          "SourceString": "근심에 잠기는 경우가 많아\r\n머릿속이 복잡해 잠을 잘 자지 못한다.\r\n'나는 생각한다, 고로 존재한다'",
+          "LocalizedString": "근심에 잠기는 경우가 많아\r\n머릿속이 복잡해 잠을 잘 자지 못한다.\r\n'나는 생각한다, 고로 존재한다'"
+        }
+      },
+      "PAL_LONG_DESC_WoolFox": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WoolFox_TextData",
+          "SourceString": "<characterName id=|SheepBall|/>보다 털의 품질이 좋고\r\n<characterName id=|SheepBall|/>보다 가축으로 삼기 좋은 성격이다.\r\n하지만 역사적으로는 항상 애완용 팰로 사육되어 왔다.\r\n역시 귀여운 게 최고다.",
+          "LocalizedString": "<characterName id=|SheepBall|/>보다 털의 품질이 좋고\r\n<characterName id=|SheepBall|/>보다 가축으로 삼기 좋은 성격이다.\r\n하지만 역사적으로는 항상 애완용 팰로 사육되어 왔다.\r\n역시 귀여운 게 최고다."
+        }
+      },
+      "PAL_LONG_DESC_Yeti": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Yeti_TextData",
+          "SourceString": "정체를 밝혀내려고 연구자가 털을 깎았지만\r\n애초부터 안엔 아무것도 없었다는 듯\r\n털만 남아 있었다.",
+          "LocalizedString": "정체를 밝혀내려고 연구자가 털을 깎았지만\r\n애초부터 안엔 아무것도 없었다는 듯\r\n털만 남아 있었다."
+        }
+      },
+      "PAL_LONG_DESC_Yeti_Grass": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Yeti_Grass_TextData",
+          "SourceString": "정체를 밝혀내려고 연구자가 풀을 벴지만\r\n애초부터 안엔 아무것도 없었다는 듯\r\n풀만 남아 있었다.",
+          "LocalizedString": "정체를 밝혀내려고 연구자가 풀을 벴지만\r\n애초부터 안엔 아무것도 없었다는 듯\r\n풀만 남아 있었다."
+        }
+      },
+      "PAL_LONG_DESC_NegativeOctopus_Neutral": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_NegativeOctopus_Neutral_TextData",
+          "SourceString": "적의 목을 물어 혈액을 모조리 빨아들인다.\r\n<characterName id=|NegativeOctopus_Neutral|/>끼리 물고 물렸을 경우에는\r\n양쪽 모두 빨아들이는 것에만 집착하기 때문에\r\n어느 한 쪽이 말라버릴 때까지 멈추지 않는다.",
+          "LocalizedString": "적의 목을 물어 혈액을 모조리 빨아들인다.\r\n<characterName id=|NegativeOctopus_Neutral|/>끼리 물고 물렸을 경우에는\r\n양쪽 모두 빨아들이는 것에만 집착하기 때문에\r\n어느 한 쪽이 말라버릴 때까지 멈추지 않는다."
+        }
+      },
+      "PAL_LONG_DESC_Penguin_Electric": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Penguin_Electric_TextData",
+          "SourceString": "날개가 완전히 퇴화해 날 수 없다.\r\n하늘을 향한 미련은 어느덧 질투로 변화하여\r\n하늘을 나는 모든 것을 격추할 전기의 힘을 얻게 되었다!",
+          "LocalizedString": "날개가 완전히 퇴화해 날 수 없다.\r\n하늘을 향한 미련은 어느덧 질투로 변화하여\r\n하늘을 나는 모든 것을 격추할 전기의 힘을 얻게 되었다!"
+        }
+      },
+      "PAL_LONG_DESC_StuffedShark_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_StuffedShark_Fire_TextData",
+          "SourceString": "입에 손을 넣어도 아무것도 없으며, 끝없이 들어간다.\r\n어느 연구자는 이를 이차원 공간으로 예상하여\r\n침낭 대신 쓰려고 온몸을 넣어보려 했지만\r\n구역질을 하는 모습으로 보아 |몸속|인 것만큼은 확실한 듯하다.",
+          "LocalizedString": "입에 손을 넣어도 아무것도 없으며, 끝없이 들어간다.\r\n어느 연구자는 이를 이차원 공간으로 예상하여\r\n침낭 대신 쓰려고 온몸을 넣어보려 했지만\r\n구역질을 하는 모습으로 보아 |몸속|인 것만큼은 확실한 듯하다."
+        }
+      },
+      "PAL_LONG_DESC_FlyingManta_Thunder": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FlyingManta_Thunder_TextData",
+          "SourceString": "무늬가 화려할수록 파트너의 이목을 끌 수 있다고 한다.\r\n역사적으로 <characterName id=|FlyingManta_Thunder|/>에게 감전된 사례는 끊이지 않으며\r\n현재에 이르러 섬 내에서 노랑과 검은 줄무늬는\r\n위험한 색으로 인식되고 있다.",
+          "LocalizedString": "무늬가 화려할수록 파트너의 이목을 끌 수 있다고 한다.\r\n역사적으로 <characterName id=|FlyingManta_Thunder|/>에게 감전된 사례는 끊이지 않으며\r\n현재에 이르러 섬 내에서 노랑과 검은 줄무늬는\r\n위험한 색으로 인식되고 있다."
+        }
+      },
+      "PAL_LONG_DESC_BluePlatypus_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BluePlatypus_Fire_TextData",
+          "SourceString": "배의 마찰력이 아주 강한 탓에\r\n보디 서핑을 하면 불이 붙을 정도다.\r\n너무 신나게 미끄러지다 간혹 불덩이가 되기도 한다.",
+          "LocalizedString": "배의 마찰력이 아주 강한 탓에\r\n보디 서핑을 하면 불이 붙을 정도다.\r\n너무 신나게 미끄러지다 간혹 불덩이가 되기도 한다."
+        }
+      },
+      "PAL_LONG_DESC_CaptainPenguin_Black": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CaptainPenguin_Black_TextData",
+          "SourceString": "수중 사냥에 도움이 되도록 전기의 힘을 얻어 색이 변화했으며\r\n그 결과 <characterName id=|Penguin|/>의 충성을 잃고 말았다.\r\n그러나 어째서인지는 몰라도\r\n이번에는 <characterName id=|Penguin_Electric|/>의 충성을 얻게 되었다.",
+          "LocalizedString": "수중 사냥에 도움이 되도록 전기의 힘을 얻어 색이 변화했으며\r\n그 결과 <characterName id=|Penguin|/>의 충성을 잃고 말았다.\r\n그러나 어째서인지는 몰라도\r\n이번에는 <characterName id=|Penguin_Electric|/>의 충성을 얻게 되었다."
+        }
+      },
+      "PAL_LONG_DESC_LazyCatfish_Gold": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_LazyCatfish_Gold_TextData",
+          "SourceString": "신체 표면의 반사율이 기하급수적으로 상승했다.\r\n게다가 모든 반응 속도가\r\n<characterName id=|LazyCatfish|/>보다 훨씬 느려졌다!",
+          "LocalizedString": "신체 표면의 반사율이 기하급수적으로 상승했다.\r\n게다가 모든 반응 속도가\r\n<characterName id=|LazyCatfish|/>보다 훨씬 느려졌다!"
+        }
+      },
+      "PAL_LONG_DESC_SnowPeafowl": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SnowPeafowl_TextData",
+          "SourceString": "시간에 민감해 매일 아침마다 무조건 정해진 시간에 깨어난다.\r\n팰파고스섬에서 하루를 24개로 쪼개게 된 이유는\r\n날개를 펼친 <characterName id=|SnowPeafowl|/>의 모습을 정면에서 바라보면\r\n닫힌 공백이 딱 24개로 보이기 때문이라는 전설이 있다.",
+          "LocalizedString": "시간에 민감해 매일 아침마다 무조건 정해진 시간에 깨어난다.\r\n팰파고스섬에서 하루를 24개로 쪼개게 된 이유는\r\n날개를 펼친 <characterName id=|SnowPeafowl|/>의 모습을 정면에서 바라보면\r\n닫힌 공백이 딱 24개로 보이기 때문이라는 전설이 있다."
+        }
+      },
+      "PAL_LONG_DESC_TentacleTurtle_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_TentacleTurtle_Ground_TextData",
+          "SourceString": "물렁한 본체를 지키기 위해 단단한 갑각을 얻었다.\r\n대부분의 촉각이 손과 갑각에 집중되어 있기에\r\n본체만 살짝 만지더라도 눈치채지 못한다.",
+          "LocalizedString": "물렁한 본체를 지키기 위해 단단한 갑각을 얻었다.\r\n대부분의 촉각이 손과 갑각에 집중되어 있기에\r\n본체만 살짝 만지더라도 눈치채지 못한다."
+        }
+      },
+      "PAL_LONG_DESC_BlueDragon_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BlueDragon_Ice_TextData",
+          "SourceString": "새하얀 띠는 주위의 열을 끊임없이 흡수한다.\r\n신기하게도 띠 자체의 온도는 결코 변화하지 않는다.\r\n이러한 특성을 눈여겨본 자들에게 남획된 터라\r\n지금도 인간을 안 좋게 생각한다.",
+          "LocalizedString": "새하얀 띠는 주위의 열을 끊임없이 흡수한다.\r\n신기하게도 띠 자체의 온도는 결코 변화하지 않는다.\r\n이러한 특성을 눈여겨본 자들에게 남획된 터라\r\n지금도 인간을 안 좋게 생각한다."
+        }
+      },
+      "PAL_LONG_DESC_IceNarwhal_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_IceNarwhal_Fire_TextData",
+          "SourceString": "유빙으로 착각하지 않도록 온 힘을 다해 몸을 붉게 바꾸었다.\r\n하지만 빨간색을 인식하지 못하는 팰에겐 아무 효과가 없었다.\r\n노력은 수포로 돌아간 채, 오늘도 개인 공간을 침범당한다.",
+          "LocalizedString": "유빙으로 착각하지 않도록 온 힘을 다해 몸을 붉게 바꾸었다.\r\n하지만 빨간색을 인식하지 못하는 팰에겐 아무 효과가 없었다.\r\n노력은 수포로 돌아간 채, 오늘도 개인 공간을 침범당한다."
+        }
+      },
+      "PAL_LONG_DESC_GhostAnglerfish_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GhostAnglerfish_Fire_TextData",
+          "SourceString": "타오르는 발광체를 사냥감을 구울 때 쓰기도 한다.\r\n맛있는 냄새에 혹해 이끌려 온 팰들은\r\n<characterName id=|GhostAnglerfish_Fire|/>의 끝없는 식사 대접을 받게 된다.\r\n그저 배가 빵빵해 질 때를 기다리면서.",
+          "LocalizedString": "타오르는 발광체를 사냥감을 구울 때 쓰기도 한다.\r\n맛있는 냄새에 혹해 이끌려 온 팰들은\r\n<characterName id=|GhostAnglerfish_Fire|/>의 끝없는 식사 대접을 받게 된다.\r\n그저 배가 빵빵해 질 때를 기다리면서."
+        }
+      },
+      "PAL_LONG_DESC_PoseidonOrca": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_PoseidonOrca_TextData",
+          "SourceString": "재앙을 봉인한 후, 천락의 전사가 그것과 마주쳤다.\r\n그 이후, 근처 바다에서 강자들 앞에 모습을 드러낸다.\r\n이는 곧 필연적인 만남이다.",
+          "LocalizedString": "재앙을 봉인한 후, 천락의 전사가 그것과 마주쳤다.\r\n그 이후, 근처 바다에서 강자들 앞에 모습을 드러낸다.\r\n이는 곧 필연적인 만남이다."
+        }
+      },
+      "PAL_LONG_DESC_YakushimaMonster001": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_YakushimaMonster001_TextData",
+          "SourceString": "[테라리아 컬래버]\r\n이세계에서 온 몬스터.\r\n이곳에선 길들일 수 있는 모양이다.",
+          "LocalizedString": "[테라리아 컬래버]\r\n이세계에서 온 몬스터.\r\n이곳에선 길들일 수 있는 모양이다."
+        }
+      },
+      "PAL_LONG_DESC_YakushimaMonster001_Blue": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_YakushimaMonster001_Blue_TextData",
+          "SourceString": "[테라리아 컬래버]\r\n이세계에서 온 몬스터.\r\n이곳에선 길들일 수 있는 모양이다.",
+          "LocalizedString": "[테라리아 컬래버]\r\n이세계에서 온 몬스터.\r\n이곳에선 길들일 수 있는 모양이다."
+        }
+      },
+      "PAL_LONG_DESC_YakushimaMonster001_Red": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_YakushimaMonster001_Red_TextData",
+          "SourceString": "[테라리아 컬래버]\r\n이세계에서 온 몬스터.\r\n이곳에선 길들일 수 있는 모양이다.",
+          "LocalizedString": "[테라리아 컬래버]\r\n이세계에서 온 몬스터.\r\n이곳에선 길들일 수 있는 모양이다."
+        }
+      },
+      "PAL_LONG_DESC_YakushimaMonster001_Purple": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_YakushimaMonster001_Purple_TextData",
+          "SourceString": "[테라리아 컬래버]\r\n이세계에서 온 몬스터.\r\n이곳에선 길들일 수 있는 모양이다.",
+          "LocalizedString": "[테라리아 컬래버]\r\n이세계에서 온 몬스터.\r\n이곳에선 길들일 수 있는 모양이다."
+        }
+      },
+      "PAL_LONG_DESC_YakushimaMonster001_Pink": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_YakushimaMonster001_Pink_TextData",
+          "SourceString": "[테라리아 컬래버]\r\n이세계에서 온 몬스터.\r\n이곳에선 길들일 수 있는 모양이다.",
+          "LocalizedString": "[테라리아 컬래버]\r\n이세계에서 온 몬스터.\r\n이곳에선 길들일 수 있는 모양이다."
+        }
+      },
+      "PAL_LONG_DESC_YakushimaMonster001_Rainbow": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_YakushimaMonster001_Rainbow_TextData",
+          "SourceString": "[테라리아 컬래버]\r\n이세계에서 온 몬스터.\r\n이곳에선 길들일 수 있는 모양이다.",
+          "LocalizedString": "[테라리아 컬래버]\r\n이세계에서 온 몬스터.\r\n이곳에선 길들일 수 있는 모양이다."
+        }
+      },
+      "PAL_LONG_DESC_YakushimaBoss001_Small": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_YakushimaBoss001_Small_TextData",
+          "SourceString": "[테라리아 컬래버]\r\n이세계에서 온 몬스터.\r\n이곳에선 길들일 수 있는 모양이다.",
+          "LocalizedString": "[테라리아 컬래버]\r\n이세계에서 온 몬스터.\r\n이곳에선 길들일 수 있는 모양이다."
+        }
+      },
+      "PAL_LONG_DESC_YakushimaMonster002": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_YakushimaMonster002_TextData",
+          "SourceString": "[테라리아 컬래버]\r\n이세계에서 온 몬스터.\r\n이곳에선 길들일 수 있는 모양이다.",
+          "LocalizedString": "[테라리아 컬래버]\r\n이세계에서 온 몬스터.\r\n이곳에선 길들일 수 있는 모양이다."
+        }
+      },
+      "PAL_LONG_DESC_YakushimaMonster003": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_YakushimaMonster003_TextData",
+          "SourceString": "[테라리아 컬래버]\r\n이세계에서 온 몬스터.\r\n이곳에선 길들일 수 있는 모양이다.",
+          "LocalizedString": "[테라리아 컬래버]\r\n이세계에서 온 몬스터.\r\n이곳에선 길들일 수 있는 모양이다."
+        }
+      },
+      "PAL_LONG_DESC_YakushimaMonster003_Purple": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_YakushimaMonster003_Purple_TextData",
+          "SourceString": "[테라리아 컬래버]\r\n이세계에서 온 몬스터.\r\n이곳에선 길들일 수 있는 모양이다.",
+          "LocalizedString": "[테라리아 컬래버]\r\n이세계에서 온 몬스터.\r\n이곳에선 길들일 수 있는 모양이다."
+        }
+      },
+      "PAL_LONG_DESC_YakushimaBoss001": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_YakushimaBoss001_TextData",
+          "SourceString": "[테라리아 컬래버]\r\n이세계에서 온 몬스터.\r\n이곳에선 길들일 수 있는 모양이다.",
+          "LocalizedString": "[테라리아 컬래버]\r\n이세계에서 온 몬스터.\r\n이곳에선 길들일 수 있는 모양이다."
+        }
+      },
+      "PAL_LONG_DESC_LegendDeer": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_LegendDeer_TextData",
+          "SourceString": "소름 끼칠 정도로 조용하나, 신기할 정도로 침착했다.\r\n이제 나 말고는 아무도 없다. 모두 구원받았다.\r\n구원의 왕이시여, 저도 무한한 정적으로 데려가 주십시오.\r\n - 낡은 문헌의 내용은 여기서 끊겨 있다.",
+          "LocalizedString": "소름 끼칠 정도로 조용하나, 신기할 정도로 침착했다.\r\n이제 나 말고는 아무도 없다. 모두 구원받았다.\r\n구원의 왕이시여, 저도 무한한 정적으로 데려가 주십시오.\r\n - 낡은 문헌의 내용은 여기서 끊겨 있다."
+        }
+      },
+      "PAL_LONG_DESC_VolcanoDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_VolcanoDragon_TextData",
+          "SourceString": "건강한 개체라면 등의 용암이 말끔히 순환하지만\r\n생활 습관이 안 좋으면 흐름이 점점 나빠지며\r\n최악의 경우 용암 경색으로 흐름이 막혀\r\n갑작스러운 대폭발을 일으킨다.",
+          "LocalizedString": "건강한 개체라면 등의 용암이 말끔히 순환하지만\r\n생활 습관이 안 좋으면 흐름이 점점 나빠지며\r\n최악의 경우 용암 경색으로 흐름이 막혀\r\n갑작스러운 대폭발을 일으킨다."
+        }
+      },
+      "PAL_LONG_DESC_HoodGhost": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_HoodGhost_TextData",
+          "SourceString": "잠에 들면 옷만 남는다.\r\n그 자리에 없는 것이다.\r\n잠든 <characterName id=|HoodGhost|/>은(는) 존재하지 않기에\r\n곧 <characterName id=|HoodGhost|/>은(는) 자는 것이 아니다.",
+          "LocalizedString": "잠에 들면 옷만 남는다.\r\n그 자리에 없는 것이다.\r\n잠든 <characterName id=|HoodGhost|/>은(는) 존재하지 않기에\r\n곧 <characterName id=|HoodGhost|/>은(는) 자는 것이 아니다."
+        }
+      },
+      "PAL_LONG_DESC_Sekhmet": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Sekhmet_TextData",
+          "SourceString": "과거에는 성정이 거친 죽음의 상징이었다.\r\n<characterName id=|Anubis|/>이(가) 죽음의 상징으로 탈바꿈한 뒤, 대신할 존재를 원한 이들이\r\n<characterName id=|Sekhmet|/>을(를) 술에 취하게 해 종족을 타락시켰다. 그렇게 <characterName id=|Sekhmet|/>은(는) 고귀의 상징이 되었다.",
+          "LocalizedString": "과거에는 성정이 거친 죽음의 상징이었다.\r\n<characterName id=|Anubis|/>이(가) 죽음의 상징으로 탈바꿈한 뒤, 대신할 존재를 원한 이들이\r\n<characterName id=|Sekhmet|/>을(를) 술에 취하게 해 종족을 타락시켰다. 그렇게 <characterName id=|Sekhmet|/>은(는) 고귀의 상징이 되었다."
+        }
+      },
+      "PAL_LONG_DESC_RockBeast": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_RockBeast_TextData",
+          "SourceString": "더욱 단단한 바위에 몸을 부딪혀, 자신의 몸을 원하는 모양으로 다듬는다.\r\n몸이 파여 있는 개체라면 모르는 척해 주자.\r\n사람으로 비유하자면 앞머리를 너무 많이 자른 것과 비슷하다.",
+          "LocalizedString": "더욱 단단한 바위에 몸을 부딪혀, 자신의 몸을 원하는 모양으로 다듬는다.\r\n몸이 파여 있는 개체라면 모르는 척해 주자.\r\n사람으로 비유하자면 앞머리를 너무 많이 자른 것과 비슷하다."
+        }
+      },
+      "PAL_LONG_DESC_RockBeast_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_RockBeast_Ice_TextData",
+          "SourceString": "방향을 바꿔가며 일광욕을 하면서 얼음을 원하는 모양으로 녹인다.\r\n균형이 안 맞는 개체는 모르는 척해주자.\r\n사람으로 비유하자면 옆머리를 너무 많이 자른 것과 비슷하다.",
+          "LocalizedString": "방향을 바꿔가며 일광욕을 하면서 얼음을 원하는 모양으로 녹인다.\r\n균형이 안 맞는 개체는 모르는 척해주자.\r\n사람으로 비유하자면 옆머리를 너무 많이 자른 것과 비슷하다."
+        }
+      },
+      "PAL_LONG_DESC_MoonChild": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_MoonChild_TextData",
+          "SourceString": "생애를 마쳤을 때 하늘 어딘가에\r\n빛나는 별이 하나 늘어난다.\r\n그 별은 추억의 숫자만큼, 강하게 빛난다.",
+          "LocalizedString": "생애를 마쳤을 때 하늘 어딘가에\r\n빛나는 별이 하나 늘어난다.\r\n그 별은 추억의 숫자만큼, 강하게 빛난다."
+        }
+      },
+      "PAL_LONG_DESC_ClownRabbit": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ClownRabbit_TextData",
+          "SourceString": "자신이 불러낸 분신에게 당해 교체되는 경우가 있다.\r\n어제 만난 <characterName id=|ClownRabbit|/>이(가), 오늘 만난 <characterName id=|ClownRabbit|/>와(과) 같은 개체인지\r\n자신조차도 제대로 알지 못한다.",
+          "LocalizedString": "자신이 불러낸 분신에게 당해 교체되는 경우가 있다.\r\n어제 만난 <characterName id=|ClownRabbit|/>이(가), 오늘 만난 <characterName id=|ClownRabbit|/>와(과) 같은 개체인지\r\n자신조차도 제대로 알지 못한다."
+        }
+      },
+      "PAL_LONG_DESC_CactusDoll": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CactusDoll_TextData",
+          "SourceString": "어떤 감정이든 격해지면 가시가 늘어난다.\r\n<characterName id=|CactusDoll|/>을(를) 소중히 키웠다면 무심코 안아 주고 싶어질 테지만\r\n그런 경우 십중팔구, 눈물 어린 사고로 막을 내리게 된다.",
+          "LocalizedString": "어떤 감정이든 격해지면 가시가 늘어난다.\r\n<characterName id=|CactusDoll|/>을(를) 소중히 키웠다면 무심코 안아 주고 싶어질 테지만\r\n그런 경우 십중팔구, 눈물 어린 사고로 막을 내리게 된다."
+        }
+      },
+      "PAL_LONG_DESC_CactusDoll_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CactusDoll_Dark_TextData",
+          "SourceString": "어떤 감정이든 격해지면 가시가 늘어난다.\r\n<characterName id=|CactusDoll_Dark|/>을(를) 애정을 담아 키웠다면\r\n무심코 주인을 안아 주려 하지만\r\n그 사랑을 받아들이려면 아픔도 받아들여야 한다.",
+          "LocalizedString": "어떤 감정이든 격해지면 가시가 늘어난다.\r\n<characterName id=|CactusDoll_Dark|/>을(를) 애정을 담아 키웠다면\r\n무심코 주인을 안아 주려 하지만\r\n그 사랑을 받아들이려면 아픔도 받아들여야 한다."
+        }
+      },
+      "PAL_LONG_DESC_GrassGolem": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GrassGolem_TextData",
+          "SourceString": "한 생명에 두 의식이 깃든 존재.\r\n이따금 방향성의 차이로 싸우기도 한다.\r\n화해할 때까지 갑옷이 어느 쪽으로 나아갈지는 아무도 모른다!",
+          "LocalizedString": "한 생명에 두 의식이 깃든 존재.\r\n이따금 방향성의 차이로 싸우기도 한다.\r\n화해할 때까지 갑옷이 어느 쪽으로 나아갈지는 아무도 모른다!"
+        }
+      },
+      "PAL_LONG_DESC_GrassGolem_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GrassGolem_Dark_TextData",
+          "SourceString": "한 생명에 두 의식이 깃든 존재.\r\n평소에는 의견도 잘 안 맞고 싸움도 잦지만\r\n전투가 벌어질 때면 순식간에 몸과 마음이 하나로 단결한다!",
+          "LocalizedString": "한 생명에 두 의식이 깃든 존재.\r\n평소에는 의견도 잘 안 맞고 싸움도 잦지만\r\n전투가 벌어질 때면 순식간에 몸과 마음이 하나로 단결한다!"
+        }
+      },
+      "PAL_LONG_DESC_CubeTurtle": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CubeTurtle_TextData",
+          "SourceString": "등에 짊어진 돌에는 불가사의한 의지가 깃들어 있다.\r\n본체와 떼어 내고 먼 곳에 방치하면\r\n스스로 움직여 있어야 할 곳으로 돌아가려 한다.",
+          "LocalizedString": "등에 짊어진 돌에는 불가사의한 의지가 깃들어 있다.\r\n본체와 떼어 내고 먼 곳에 방치하면\r\n스스로 움직여 있어야 할 곳으로 돌아가려 한다."
+        }
+      },
+      "PAL_LONG_DESC_SamuraiDog": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SamuraiDog_TextData",
+          "SourceString": "<characterName id=|SamuraiDog|/>의 영역 싸움은 눈싸움 끝에 이어지는 일섬이다.\r\n만약 길들였다 하더라도 |기다려|를 가르치지 않는 편이 좋다.\r\n|잘했어| 라는 신호 뒤에 일어나는 본능적 행동은 훈련으로 막을 수 없다.",
+          "LocalizedString": "<characterName id=|SamuraiDog|/>의 영역 싸움은 눈싸움 끝에 이어지는 일섬이다.\r\n만약 길들였다 하더라도 |기다려|를 가르치지 않는 편이 좋다.\r\n|잘했어| 라는 신호 뒤에 일어나는 본능적 행동은 훈련으로 막을 수 없다."
+        }
+      },
+      "PAL_LONG_DESC_MummyPal": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_MummyPal_TextData",
+          "SourceString": "금색 붕대는 자유자재로 늘어나고 줄어드는 일종의 기관.\r\n지나치게 건조하면 찢어질 수도 있으므로\r\n날마다 습기 체크를 빼먹지 말아야 한다.",
+          "LocalizedString": "금색 붕대는 자유자재로 늘어나고 줄어드는 일종의 기관.\r\n지나치게 건조하면 찢어질 수도 있으므로\r\n날마다 습기 체크를 빼먹지 말아야 한다."
+        }
+      },
+      "PAL_LONG_DESC_KingSunfish": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_KingSunfish_TextData",
+          "SourceString": "스크루처럼 생긴 꼬리를 회전시켜 추진력을 얻는다.\r\n과거 연구 결과에 따르면 육체 붕괴를 무시하는 가정하에\r\n이론상 88 mph 이상으로도 헤엄칠 수 있다고 한다.",
+          "LocalizedString": "스크루처럼 생긴 꼬리를 회전시켜 추진력을 얻는다.\r\n과거 연구 결과에 따르면 육체 붕괴를 무시하는 가정하에\r\n이론상 88 mph 이상으로도 헤엄칠 수 있다고 한다."
+        }
+      },
+      "PAL_LONG_DESC_KingSunfish_Thunder": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_KingSunfish_Thunder_TextData",
+          "SourceString": "스크루처럼 생긴 꼬리를 회전시켜 전기를 발생시킨다.\r\n이론상 1.21 기가와트의 전력을 발생시킬 수 있다고 하나\r\n순식간에 육체 붕괴가 일어나므로 실용적이지는 않다.",
+          "LocalizedString": "스크루처럼 생긴 꼬리를 회전시켜 전기를 발생시킨다.\r\n이론상 1.21 기가와트의 전력을 발생시킬 수 있다고 하나\r\n순식간에 육체 붕괴가 일어나므로 실용적이지는 않다."
+        }
+      },
+      "PAL_LONG_DESC_MonochromeQueen": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_MonochromeQueen_TextData",
+          "SourceString": "좋은 일을 겪은 후에는 그만큼 나쁜 일을 겪어야 직성이 풀린다.\r\n<characterName id=|MonochromeQueen|/>을(를) 소중히 키우려 한다면\r\n그만한 각오를 해야만 한다.",
+          "LocalizedString": "좋은 일을 겪은 후에는 그만큼 나쁜 일을 겪어야 직성이 풀린다.\r\n<characterName id=|MonochromeQueen|/>을(를) 소중히 키우려 한다면\r\n그만한 각오를 해야만 한다."
+        }
+      },
+      "PAL_LONG_DESC_ElecSnail": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ElecSnail_TextData",
+          "SourceString": "욕조 안에 짜릿한 <characterName id=|ElecSnail|/>을(를) 집어넣고\r\n전기 목욕을 즐기는 트래디셔널한 건강 요법이 있다.\r\n다시 말해, 데인저러스한 액티비티라는 뜻이다.",
+          "LocalizedString": "욕조 안에 짜릿한 <characterName id=|ElecSnail|/>을(를) 집어넣고\r\n전기 목욕을 즐기는 트래디셔널한 건강 요법이 있다.\r\n다시 말해, 데인저러스한 액티비티라는 뜻이다."
+        }
+      },
+      "PAL_LONG_DESC_ElecSnail_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ElecSnail_Ground_TextData",
+          "SourceString": "욕조 안에 뜨거운 <characterName id=|ElecSnail_Ground|/>을(를) 집어넣고\r\n고온 목욕을 즐기는 것이 먼 과거의 유행이었으나\r\n리바이벌 붐으로 인해 요즘에도 핫한 트렌드가 되었다.",
+          "LocalizedString": "욕조 안에 뜨거운 <characterName id=|ElecSnail_Ground|/>을(를) 집어넣고\r\n고온 목욕을 즐기는 것이 먼 과거의 유행이었으나\r\n리바이벌 붐으로 인해 요즘에도 핫한 트렌드가 되었다."
+        }
+      },
+      "PAL_LONG_DESC_SumoDog": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SumoDog_TextData",
+          "SourceString": "옛 섬에는 <characterName id=|SumoDog|/> 스모라는 오락이 존재했다.\r\n톱 클래스의 <characterName id=|SumoDog|/>(이)라면\r\n<characterName id=|Boar|/>의 돌진을 직격으로 맞아도\r\n오히려 <characterName id=|Boar|/>이(가) 멀리 날아갈 정도였다.",
+          "LocalizedString": "옛 섬에는 <characterName id=|SumoDog|/> 스모라는 오락이 존재했다.\r\n톱 클래스의 <characterName id=|SumoDog|/>(이)라면\r\n<characterName id=|Boar|/>의 돌진을 직격으로 맞아도\r\n오히려 <characterName id=|Boar|/>이(가) 멀리 날아갈 정도였다."
+        }
+      },
+      "PAL_LONG_DESC_VolcanicTurtle": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_VolcanicTurtle_TextData",
+          "SourceString": "ko_Text",
+          "LocalizedString": "ko_Text"
+        }
+      },
+      "PAL_LONG_DESC_ElecPomeranian": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ElecPomeranian_TextData",
+          "SourceString": "물에 잠기면 복실복실한 털이 물을 마구 빨아들인다.\r\n몸을 털어 물이 뿌려질 때, 어마어마한 방전을 일으키기에\r\n같이 목욕을 할 때는 목숨을 걸어야 한다.",
+          "LocalizedString": "물에 잠기면 복실복실한 털이 물을 마구 빨아들인다.\r\n몸을 털어 물이 뿌려질 때, 어마어마한 방전을 일으키기에\r\n같이 목욕을 할 때는 목숨을 걸어야 한다."
+        }
+      },
+      "PAL_LONG_DESC_ElecLizard": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ElecLizard_TextData",
+          "SourceString": "하고 싶은 걸 하고, 자고 싶을 때 자고, 먹고 싶은 걸 먹는다.\r\n분명 <characterName id=|ElecLizard|/>들은 그런 생활을 유지하고자\r\n남몰래 노력하고 있을 것이다.\r\n…옛날 섬 주민들은 그렇게라도 생각해야 버틸 수 있었다고 한다.",
+          "LocalizedString": "하고 싶은 걸 하고, 자고 싶을 때 자고, 먹고 싶은 걸 먹는다.\r\n분명 <characterName id=|ElecLizard|/>들은 그런 생활을 유지하고자\r\n남몰래 노력하고 있을 것이다.\r\n…옛날 섬 주민들은 그렇게라도 생각해야 버틸 수 있었다고 한다."
+        }
+      },
+      "PAL_LONG_DESC_RedFlowerBird": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_RedFlowerBird_TextData",
+          "SourceString": "시도 때도 없이 몸을 흔드는 이유는\r\n바람에 흔들리는 꽃으로 위장해 적을 피하기 위함이라고 하나\r\n그저 고속으로 흔들리는 붉은 꽃이 너무 꺼림칙해서\r\n아무도 다가가지 않는 게 아닌가라는 반론도 있다.",
+          "LocalizedString": "시도 때도 없이 몸을 흔드는 이유는\r\n바람에 흔들리는 꽃으로 위장해 적을 피하기 위함이라고 하나\r\n그저 고속으로 흔들리는 붉은 꽃이 너무 꺼림칙해서\r\n아무도 다가가지 않는 게 아닌가라는 반론도 있다."
+        }
+      },
+      "PAL_LONG_DESC_ThiefBird": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ThiefBird_TextData",
+          "SourceString": "손버릇이 고약하여 상대의 눈을 피해 물건을 훔친다.\r\n설령 피하지 못하더라도 상관없다.\r\n그럴 땐 재빨리 |눈을 훔치면| 아무것도 안 보이게 되니 말이다.",
+          "LocalizedString": "손버릇이 고약하여 상대의 눈을 피해 물건을 훔친다.\r\n설령 피하지 못하더라도 상관없다.\r\n그럴 땐 재빨리 |눈을 훔치면| 아무것도 안 보이게 되니 말이다."
+        }
+      },
+      "PAL_LONG_DESC_ThunderFluffyBird": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ThunderFluffyBird_TextData",
+          "SourceString": "먹이가 부족한 고공에서 생활하기 때문인지\r\n때로는 먹잇감의 뇌마저 파먹는다.\r\n먹이 환경이 안정된 곳을 원하던 무리가\r\n저공으로 내려와 <characterName id=|ThunderBird|/>이(가) 된 것이 아닌가라는 설도 있다.",
+          "LocalizedString": "먹이가 부족한 고공에서 생활하기 때문인지\r\n때로는 먹잇감의 뇌마저 파먹는다.\r\n먹이 환경이 안정된 곳을 원하던 무리가\r\n저공으로 내려와 <characterName id=|ThunderBird|/>이(가) 된 것이 아닌가라는 설도 있다."
+        }
+      },
+      "PAL_LONG_DESC_FluffyBird": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FluffyBird_TextData",
+          "SourceString": "얼굴 주변의 복슬복슬한 털이 충격을 흡수한다.\r\n덕분에 웬만한 충격이라면 끄떡없으나\r\n털 관리도 어렵고 가려운 곳도 못 긁는 탓에\r\n괜히 답답하게 느껴진다고 한다.",
+          "LocalizedString": "얼굴 주변의 복슬복슬한 털이 충격을 흡수한다.\r\n덕분에 웬만한 충격이라면 끄떡없으나\r\n털 관리도 어렵고 가려운 곳도 못 긁는 탓에\r\n괜히 답답하게 느껴진다고 한다."
+        }
+      },
+      "PAL_LONG_DESC_FoxExorcist": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FoxExorcist_TextData",
+          "SourceString": "정신을 집중하며 불꽃 속으로부터 미래를 들여다 본다.\r\n원치 않는 미래가 보이면 원하는 미래가 나올 때까지 재시도한다.\r\n그렇기에 <characterName id=|FoxExorcist|/>에게는 항상 밝은 미래만이 있다!",
+          "LocalizedString": "정신을 집중하며 불꽃 속으로부터 미래를 들여다 본다.\r\n원치 않는 미래가 보이면 원하는 미래가 나올 때까지 재시도한다.\r\n그렇기에 <characterName id=|FoxExorcist|/>에게는 항상 밝은 미래만이 있다!"
+        }
+      },
+      "PAL_LONG_DESC_ClioneTwins": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ClioneTwins_TextData",
+          "SourceString": "한 쪽이 사라지면 어디선가 사라진 쪽을 보충하는 누군가가 온다.\r\n그리고 아무 일 없던 것처럼 사이좋게 지낸다.\r\n<characterName id=|ClioneTwins|/>에게 가장 중요한 것은\r\n|사이좋게| 지내는 것이다.",
+          "LocalizedString": "한 쪽이 사라지면 어디선가 사라진 쪽을 보충하는 누군가가 온다.\r\n그리고 아무 일 없던 것처럼 사이좋게 지낸다.\r\n<characterName id=|ClioneTwins|/>에게 가장 중요한 것은\r\n|사이좋게| 지내는 것이다."
+        }
+      },
+      "PAL_LONG_DESC_DandelionGirl": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_DandelionGirl_TextData",
+          "SourceString": "솜털 안에 나쁜 기억을 담아둘 수 있다.\r\n솜털이 바람에 실려 어디론가 날아간다면\r\n우울한 기분과도 작별할 수 있는 셈이다.",
+          "LocalizedString": "솜털 안에 나쁜 기억을 담아둘 수 있다.\r\n솜털이 바람에 실려 어디론가 날아간다면\r\n우울한 기분과도 작별할 수 있는 셈이다."
+        }
+      },
+      "PAL_LONG_DESC_SleeveRabbit": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SleeveRabbit_TextData",
+          "SourceString": "손끝에 난 기다란 털로 자신을 뽐낸다.\r\n위생에 민감해 세심히 관리하고 있기에\r\n근처에서 먼지를 일으키면 아주 싫어하는 표정을 짓는다.",
+          "LocalizedString": "손끝에 난 기다란 털로 자신을 뽐낸다.\r\n위생에 민감해 세심히 관리하고 있기에\r\n근처에서 먼지를 일으키면 아주 싫어하는 표정을 짓는다."
+        }
+      },
+      "PAL_LONG_DESC_SmallYeti": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SmallYeti_TextData",
+          "SourceString": "|<characterName id=|SmallYeti|/>의 눈을 보다|.\r\n사물의 보이지 않는 본질을 탐구한다, 라는 뜻을 가진 말이다.\r\n정작 <characterName id=|SmallYeti|/>에게 눈이 있는지 없는지를\r\n탐구한 연구자는 여태껏 한 명도 없었다.",
+          "LocalizedString": "|<characterName id=|SmallYeti|/>의 눈을 보다|.\r\n사물의 보이지 않는 본질을 탐구한다, 라는 뜻을 가진 말이다.\r\n정작 <characterName id=|SmallYeti|/>에게 눈이 있는지 없는지를\r\n탐구한 연구자는 여태껏 한 명도 없었다."
+        }
+      },
+      "PAL_LONG_DESC_StrawHatCat": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_StrawHatCat_TextData",
+          "SourceString": "ko_Text",
+          "LocalizedString": "ko_Text"
+        }
+      },
+      "PAL_LONG_DESC_CandleWitch": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CandleWitch_TextData",
+          "SourceString": "ko_Text",
+          "LocalizedString": "ko_Text"
+        }
+      },
+      "PAL_LONG_DESC_CloverFairy": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CloverFairy_TextData",
+          "SourceString": "옛적에는 이마에 난 잎이 3장을 넘는 개체가 존재했으나\r\n이러한 개체는 행운의 상징으로 여겨져 남획당한 결과\r\n종 전체적으로 잎이 적게 나도록 진화하기 시작했다.",
+          "LocalizedString": "옛적에는 이마에 난 잎이 3장을 넘는 개체가 존재했으나\r\n이러한 개체는 행운의 상징으로 여겨져 남획당한 결과\r\n종 전체적으로 잎이 적게 나도록 진화하기 시작했다."
+        }
+      },
+      "PAL_LONG_DESC_GhostBlackCat": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GhostBlackCat_TextData",
+          "SourceString": "등 뒤에 뻗어난 손에는\r\n여태껏 일족을 키워 온 인간들의 사념이 깃들어 있다.\r\n요즘엔 <characterName id=|GhostBlackCat|/>을(를) 어여삐 키우는 것이 사념의 공통 의견이라고 한다.",
+          "LocalizedString": "등 뒤에 뻗어난 손에는\r\n여태껏 일족을 키워 온 인간들의 사념이 깃들어 있다.\r\n요즘엔 <characterName id=|GhostBlackCat|/>을(를) 어여삐 키우는 것이 사념의 공통 의견이라고 한다."
+        }
+      },
+      "PAL_LONG_DESC_OniGhostGirl": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_OniGhostGirl_TextData",
+          "SourceString": "누군가를 놀라게 하는 것이 삶의 보람이지만 하나도 안 무섭다.\r\n반대로 귀여워서 놀라주는 이들이 늘어나\r\n<characterName id=|OniGhostGirl|/>은(는) 어느새 미소의 사자가 되었다.",
+          "LocalizedString": "누군가를 놀라게 하는 것이 삶의 보람이지만 하나도 안 무섭다.\r\n반대로 귀여워서 놀라주는 이들이 늘어나\r\n<characterName id=|OniGhostGirl|/>은(는) 어느새 미소의 사자가 되었다."
+        }
+      },
+      "PAL_LONG_DESC_LongCat": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_LongCat_TextData",
+          "SourceString": "옛 그림에는 지금보다 체구가 더 작은 것으로 묘사되어 있다.\r\n어째선지 요즘 들어 몸 이곳저곳이 급속 성장 중인 것으로 관측되어\r\n100년 후에는 지금의 10배 이상으로 커진다는 예측이 나왔다.",
+          "LocalizedString": "옛 그림에는 지금보다 체구가 더 작은 것으로 묘사되어 있다.\r\n어째선지 요즘 들어 몸 이곳저곳이 급속 성장 중인 것으로 관측되어\r\n100년 후에는 지금의 10배 이상으로 커진다는 예측이 나왔다."
+        }
+      },
+      "PAL_LONG_DESC_DarkFlameFox": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_DarkFlameFox_TextData",
+          "SourceString": "허리에 손을 올리고 선 모습이 무척 그럴듯해 보이나\r\n사실은 꼬리털과 머리 부분의 털이 너무 무거워\r\n넘어지지 않도록 버티고 있는 것뿐이다.",
+          "LocalizedString": "허리에 손을 올리고 선 모습이 무척 그럴듯해 보이나\r\n사실은 꼬리털과 머리 부분의 털이 너무 무거워\r\n넘어지지 않도록 버티고 있는 것뿐이다."
+        }
+      },
+      "PAL_LONG_DESC_LanternButler": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_LanternButler_TextData",
+          "SourceString": "신비로운 빛을 띠는 랜턴이 세계의 진실을 비춘다.\r\n랜턴 빛이 눈부시게 느껴진다면\r\n뭔가 켕기는 게 있기 때문일 것이다.",
+          "LocalizedString": "신비로운 빛을 띠는 랜턴이 세계의 진실을 비춘다.\r\n랜턴 빛이 눈부시게 느껴진다면\r\n뭔가 켕기는 게 있기 때문일 것이다."
+        }
+      },
+      "PAL_LONG_DESC_VenusFlytrap": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_VenusFlytrap_TextData",
+          "SourceString": "이상한 것도 거리낌 없이 먹어치우는 탓에\r\n머리 위쪽 입에 구내염이 자주 생긴다.\r\n그럴 땐 얼굴 쪽 입을 대신 사용한다.\r\n식성은 변함없기에 결국 양쪽 입에 구내염이 생긴다.",
+          "LocalizedString": "이상한 것도 거리낌 없이 먹어치우는 탓에\r\n머리 위쪽 입에 구내염이 자주 생긴다.\r\n그럴 땐 얼굴 쪽 입을 대신 사용한다.\r\n식성은 변함없기에 결국 양쪽 입에 구내염이 생긴다."
+        }
+      },
+      "PAL_LONG_DESC_SwordCutlassfish": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SwordCutlassfish_TextData",
+          "SourceString": "몸을 일시 분리해 뼈로 적을 베는 광기에 가까운 생태를 지녔다.\r\n그러나 즉시 몸을 되돌리지 않으면 자신도 쓰러진다.\r\n젊은 개체 중에선 얼마나 오래 분리하는지 겨루는\r\n위험한 놀이가 유행한다는 소문이 있다나 뭐라나.",
+          "LocalizedString": "몸을 일시 분리해 뼈로 적을 베는 광기에 가까운 생태를 지녔다.\r\n그러나 즉시 몸을 되돌리지 않으면 자신도 쓰러진다.\r\n젊은 개체 중에선 얼마나 오래 분리하는지 겨루는\r\n위험한 놀이가 유행한다는 소문이 있다나 뭐라나."
+        }
+      },
+      "PAL_LONG_DESC_SnakeGirl": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SnakeGirl_TextData",
+          "SourceString": "모르는 게 있으면 머리에 있는 뱀들과 함께 회의를 시작한다.\r\n하지만 뱀들도 모두 자기 자신이기에\r\n|모른다|라는 결론만이 나온다.",
+          "LocalizedString": "모르는 게 있으면 머리에 있는 뱀들과 함께 회의를 시작한다.\r\n하지만 뱀들도 모두 자기 자신이기에\r\n|모른다|라는 결론만이 나온다."
+        }
+      },
+      "PAL_LONG_DESC_MushroomLady": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_MushroomLady_TextData",
+          "SourceString": "인간을 써먹기 좋은 기생 대상으로만 여긴다.\r\n<characterName id=|MushroomLady|/>이(가) 지금의 형태를 갖추게 된 것은\r\n인간의 방심을 유도해 포자를 효율적으로 퍼뜨리기 위함이다.",
+          "LocalizedString": "인간을 써먹기 좋은 기생 대상으로만 여긴다.\r\n<characterName id=|MushroomLady|/>이(가) 지금의 형태를 갖추게 된 것은\r\n인간의 방심을 유도해 포자를 효율적으로 퍼뜨리기 위함이다."
+        }
+      },
+      "PAL_LONG_DESC_KingWhale": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_KingWhale_TextData",
+          "SourceString": "사명을 가슴에 품고 살아가던 종족의 마지막 생존자.\r\n책무를 다한 그가 어머니를 불러도\r\n돌아오는 것은 오직 잔향뿐이었다.",
+          "LocalizedString": "사명을 가슴에 품고 살아가던 종족의 마지막 생존자.\r\n책무를 다한 그가 어머니를 불러도\r\n돌아오는 것은 오직 잔향뿐이었다."
+        }
+      },
+      "PAL_LONG_DESC_BlueSkyDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BlueSkyDragon_TextData",
+          "SourceString": "반려로 삼을 상대와의 해후를 이루면\r\n몸체 중앙 부근에 떠 있는 고리를 떼어 내\r\n상대와 교환하는 습성이 있다.",
+          "LocalizedString": "반려로 삼을 상대와의 해후를 이루면\r\n몸체 중앙 부근에 떠 있는 고리를 떼어 내\r\n상대와 교환하는 습성이 있다."
+        }
+      },
+      "PAL_LONG_DESC_Mothman": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Mothman_TextData",
+          "SourceString": "아주 오래전부터 세계수에 서서 무언가를 지키고 있다.\r\n지금 무엇을 지키는지, 왜 지키는지, <characterName id=|Mothman|/>은(는) 모른다.\r\n어차피 세계수가 가르쳐 주니까.\r\n조종하는 포자가, 적을 알고 있을 테니까.",
+          "LocalizedString": "아주 오래전부터 세계수에 서서 무언가를 지키고 있다.\r\n지금 무엇을 지키는지, 왜 지키는지, <characterName id=|Mothman|/>은(는) 모른다.\r\n어차피 세계수가 가르쳐 주니까.\r\n조종하는 포자가, 적을 알고 있을 테니까."
+        }
+      },
+      "PAL_LONG_DESC_GhostDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GhostDragon_TextData",
+          "SourceString": "최근 들어서 목격담이 전해지는 새로운 팰.\r\n온화하고 조용한 성격에, 그저 자유롭게 살아간다.\r\n더는 그 무엇에게도 얽매이지 않는다.",
+          "LocalizedString": "최근 들어서 목격담이 전해지는 새로운 팰.\r\n온화하고 조용한 성격에, 그저 자유롭게 살아간다.\r\n더는 그 무엇에게도 얽매이지 않는다."
+        }
+      },
+      "PAL_LONG_DESC_FlowerPrince": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FlowerPrince_TextData",
+          "SourceString": "아주 오래전부터 세계수에 서서 무언가를 지키고 있다.\r\n지금 무엇을 지키는지, 왜 지키는지, <characterName id=|FlowerPrince|/>은(는) 굳이 확인하지 않는다.\r\n어차피 세계수가 알고 있으니까.\r\n다루는 안개만이, 진실을 보여 줄 테니까.",
+          "LocalizedString": "아주 오래전부터 세계수에 서서 무언가를 지키고 있다.\r\n지금 무엇을 지키는지, 왜 지키는지, <characterName id=|FlowerPrince|/>은(는) 굳이 확인하지 않는다.\r\n어차피 세계수가 알고 있으니까.\r\n다루는 안개만이, 진실을 보여 줄 테니까."
+        }
+      },
+      "PAL_LONG_DESC_WorldTreeDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WorldTreeDragon_TextData",
+          "SourceString": "아주 먼 옛날 팰파고스섬으로 날아온 정체불명의 팰이 도달한 말로.\r\n재앙으로서 파멸을 일으켜 오랜 세월 동안 봉인되었으나\r\n어떤 팰 조련사의 손에 타도당했다.",
+          "LocalizedString": "아주 먼 옛날 팰파고스섬으로 날아온 정체불명의 팰이 도달한 말로.\r\n재앙으로서 파멸을 일으켜 오랜 세월 동안 봉인되었으나\r\n어떤 팰 조련사의 손에 타도당했다."
+        }
+      },
+      "PAL_LONG_DESC_GrassMinotaur": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GrassMinotaur_TextData",
+          "SourceString": "뿔에 난 잎새는 아무리 잡아당겨도 떨어지지 않는다.\r\n이 잎새가 자연스레 떨어지는 순간\r\n<characterName id=|GrassMinotaur|/>은(는) 자신의 최후가 다가왔음을 깨닫는다.",
+          "LocalizedString": "뿔에 난 잎새는 아무리 잡아당겨도 떨어지지 않는다.\r\n이 잎새가 자연스레 떨어지는 순간\r\n<characterName id=|GrassMinotaur|/>은(는) 자신의 최후가 다가왔음을 깨닫는다."
+        }
+      },
+      "PAL_LONG_DESC_GrassMinotaur_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GrassMinotaur_Ice_TextData",
+          "SourceString": "뿔 형태의 얼음은 살아 있는 동안 절대 녹지 않는다.\r\n이 얼음에서 물방울이 떨어지는 순간\r\n<characterName id=|GrassMinotaur_Ice|/>은(는) 자신의 육체가 차가워져 가고 있음을 실감한다.",
+          "LocalizedString": "뿔 형태의 얼음은 살아 있는 동안 절대 녹지 않는다.\r\n이 얼음에서 물방울이 떨어지는 순간\r\n<characterName id=|GrassMinotaur_Ice|/>은(는) 자신의 육체가 차가워져 가고 있음을 실감한다."
+        }
+      },
+      "PAL_LONG_DESC_LotusDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_LotusDragon_TextData",
+          "SourceString": "<characterName id=|LotusDragon|/>이(가) 서식하는 물가에는\r\n무척 비슷한 외형의 꽃이 많이 자라난다.\r\n이 꽃만을 번식시키고자 하는 연구를 여러 번 시도하였으나\r\n사람의 손을 거치면 무슨 수를 써도 시들고 말았다.",
+          "LocalizedString": "<characterName id=|LotusDragon|/>이(가) 서식하는 물가에는\r\n무척 비슷한 외형의 꽃이 많이 자라난다.\r\n이 꽃만을 번식시키고자 하는 연구를 여러 번 시도하였으나\r\n사람의 손을 거치면 무슨 수를 써도 시들고 말았다."
+        }
+      },
+      "PAL_LONG_DESC_PandaGirl": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_PandaGirl_TextData",
+          "SourceString": "일자상전의 무술을 갈고닦기 위해, 매일 단련만이 있을 뿐!\r\n사랑에 정신이 팔리는 것은 언어도단! 매일 단련만이 있을 뿐!\r\n드디어 때가 왔다! 관심 있던 그 애에게 대시! 결과는 실연뿐!\r\n사랑의 기술은 전승받지 못했다! 미련만이 있을 뿐!",
+          "LocalizedString": "일자상전의 무술을 갈고닦기 위해, 매일 단련만이 있을 뿐!\r\n사랑에 정신이 팔리는 것은 언어도단! 매일 단련만이 있을 뿐!\r\n드디어 때가 왔다! 관심 있던 그 애에게 대시! 결과는 실연뿐!\r\n사랑의 기술은 전승받지 못했다! 미련만이 있을 뿐!"
+        }
+      },
+      "PAL_LONG_DESC_KabukiMan": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_KabukiMan_TextData",
+          "SourceString": "적과 마주했을 때, 한눈에 보면\r\n거창하고 빈틈투성이인 움직임처럼 보이지만\r\n신기하게도 상대는 그 움직임에 압도당해 넋을 잃고 바라보게 된다.",
+          "LocalizedString": "적과 마주했을 때, 한눈에 보면\r\n거창하고 빈틈투성이인 움직임처럼 보이지만\r\n신기하게도 상대는 그 움직임에 압도당해 넋을 잃고 바라보게 된다."
+        }
+      },
+      "PAL_LONG_DESC_DomeArmorDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_DomeArmorDragon_TextData",
+          "SourceString": "먼 옛날, 통신 수단이 마땅치 않았던 무렵에는\r\n<characterName id=|DomeArmorDragon|/>의 날개 안쪽에 있는 빛을 깜빡깜빡 점멸시켜\r\n간단한 신호를 보내는 방식으로 활용하기도 했다.",
+          "LocalizedString": "먼 옛날, 통신 수단이 마땅치 않았던 무렵에는\r\n<characterName id=|DomeArmorDragon|/>의 날개 안쪽에 있는 빛을 깜빡깜빡 점멸시켜\r\n간단한 신호를 보내는 방식으로 활용하기도 했다."
+        }
+      },
+      "PAL_LONG_DESC_WhiteDeer_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WhiteDeer_Dark_TextData",
+          "SourceString": "눈부신 빛이 생겨난 후, 동시에 그림자도 생겨났다.\r\n모든 것을 감싸는 어둠을 흩뿌리고, 존재해 마땅한 혼돈을 되찾는다.\r\n균형이야말로, 이 세계에 필요한 것이기 때문이다.",
+          "LocalizedString": "눈부신 빛이 생겨난 후, 동시에 그림자도 생겨났다.\r\n모든 것을 감싸는 어둠을 흩뿌리고, 존재해 마땅한 혼돈을 되찾는다.\r\n균형이야말로, 이 세계에 필요한 것이기 때문이다."
+        }
+      },
+      "PAL_LONG_DESC_WingGolem_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WingGolem_Fire_TextData",
+          "SourceString": "분해해도 다시 조립하면 아무 일 없다는 듯 움직이는 괴상한 팰.\r\n다른 개체의 부품이 섞이면\r\n사고 회로에 치명적 에러가 발생해 과열된다.",
+          "LocalizedString": "분해해도 다시 조립하면 아무 일 없다는 듯 움직이는 괴상한 팰.\r\n다른 개체의 부품이 섞이면\r\n사고 회로에 치명적 에러가 발생해 과열된다."
+        }
+      },
+      "PAL_LONG_DESC_GhostDragon_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GhostDragon_Fire_TextData",
+          "SourceString": "최근 들어서 목격담이 전해지는 새로운 팰.\r\n언제나 무언가에 자극받은 듯, 분노에 미쳐 날뛴다.\r\n더는 그 누구도 믿지 않는다.",
+          "LocalizedString": "최근 들어서 목격담이 전해지는 새로운 팰.\r\n언제나 무언가에 자극받은 듯, 분노에 미쳐 날뛴다.\r\n더는 그 누구도 믿지 않는다."
+        }
+      },
+      "PAL_LONG_DESC_FlowerDoll_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FlowerDoll_Fire_TextData",
+          "SourceString": "수명이 다하면 완전히 불타 재가 된다.\r\n타오른 자리 근처의 토양은 매우 비옥해져\r\n약 10년 동안 수많은 식물들이 무성히 자라난다.",
+          "LocalizedString": "수명이 다하면 완전히 불타 재가 된다.\r\n타오른 자리 근처의 토양은 매우 비옥해져\r\n약 10년 동안 수많은 식물들이 무성히 자라난다."
+        }
+      },
+      "PAL_LONG_DESC_IceSeal_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_IceSeal_Ground_TextData",
+          "SourceString": "눈 위를 제일 빠르게 미끄러지는 개체가 가장 높은 취급을 받는다.\r\n간혹 너무 신난 나머지 점프한 개체가 설원에 박히는\r\n경우가 있으며, 우두머리 경쟁 시기에 더더욱 자주 볼 수 있다.\r\n혼잡 예상, <characterName id=|IceSeal_Ground|/>.",
+          "LocalizedString": "눈 위를 제일 빠르게 미끄러지는 개체가 가장 높은 취급을 받는다.\r\n간혹 너무 신난 나머지 점프한 개체가 설원에 박히는\r\n경우가 있으며, 우두머리 경쟁 시기에 더더욱 자주 볼 수 있다.\r\n혼잡 예상, <characterName id=|IceSeal_Ground|/>."
+        }
+      },
+      "PAL_LONG_DESC_SwordCutlassfish_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SwordCutlassfish_Fire_TextData",
+          "SourceString": "몸을 분리해 뼈로 적을 베지만\r\n즉시 몸을 되돌리지 않으면 자신도 쓰러진다.\r\n늙은 개체 중에선 몸을 일부러 오래 분리해\r\n생존 본능을 활성화시켜 수명을 늘린다는 소문이 있다나 뭐라나.",
+          "LocalizedString": "몸을 분리해 뼈로 적을 베지만\r\n즉시 몸을 되돌리지 않으면 자신도 쓰러진다.\r\n늙은 개체 중에선 몸을 일부러 오래 분리해\r\n생존 본능을 활성화시켜 수명을 늘린다는 소문이 있다나 뭐라나."
+        }
+      },
+      "PAL_LONG_DESC_WhiteMoth_Neutral": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WhiteMoth_Neutral_TextData",
+          "SourceString": "허공을 바라보는 것을 좋아하여\r\n가만히 서 있는 경우가 많다.\r\n그럴 때마다 작은 팰들의 모임터가 되곤 한다.",
+          "LocalizedString": "허공을 바라보는 것을 좋아하여\r\n가만히 서 있는 경우가 많다.\r\n그럴 때마다 작은 팰들의 모임터가 되곤 한다."
+        }
+      },
+      "PAL_LONG_DESC_ThunderBird_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ThunderBird_Ice_TextData",
+          "SourceString": "한랭 토지에 특화되어, 몸체는 가늘지만 추위에 강하다.\r\n막강한 위력의 급강하 공격을 자랑하며\r\n마치 거대한 고드름이 떨어지는 것과 같다.",
+          "LocalizedString": "한랭 토지에 특화되어, 몸체는 가늘지만 추위에 강하다.\r\n막강한 위력의 급강하 공격을 자랑하며\r\n마치 거대한 고드름이 떨어지는 것과 같다."
+        }
+      },
+      "PAL_LONG_DESC_CubeTurtle_Neutral": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CubeTurtle_Neutral_TextData",
+          "SourceString": "등에 짊어진 돌을 누군가 몰래 가져간다 해도\r\n<characterName id=|CubeTurtle_Neutral|/>은(는) 돌이 어디 있는지 알 수 있다.\r\n아무리 멀리 떨어진 곳이라 해도, 반드시 찾아낸다.",
+          "LocalizedString": "등에 짊어진 돌을 누군가 몰래 가져간다 해도\r\n<characterName id=|CubeTurtle_Neutral|/>은(는) 돌이 어디 있는지 알 수 있다.\r\n아무리 멀리 떨어진 곳이라 해도, 반드시 찾아낸다."
+        }
+      },
+      "PAL_LONG_DESC_VolcanoDragon_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_VolcanoDragon_Ice_TextData",
+          "SourceString": "건강한 개체라면 등에 흐르는 물질이 안정적인 온도를 유지한다.\r\n가슴이 두근거리면 온도가 점점 불안정해지며\r\n최악의 경우 기화와 응고를 일으켜\r\n갑작스러운 쇼크사로 사망한다.",
+          "LocalizedString": "건강한 개체라면 등에 흐르는 물질이 안정적인 온도를 유지한다.\r\n가슴이 두근거리면 온도가 점점 불안정해지며\r\n최악의 경우 기화와 응고를 일으켜\r\n갑작스러운 쇼크사로 사망한다."
+        }
+      },
+      "PAL_LONG_DESC_WorldTreeDragon_2": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WorldTreeDragon_2_TextData",
+          "SourceString": "누군가를 상처 입히는 것은 바라지 않았다.\r\n단지 함께 있을 수만 있다면, 그곳에 있을 수만 있으면 좋았다.\r\n그것마저 허락되지 않기에, 허락받지 못했기에\r\n오로지 단둘만이 남은 세상을 바라게 되었다.",
+          "LocalizedString": "누군가를 상처 입히는 것은 바라지 않았다.\r\n단지 함께 있을 수만 있다면, 그곳에 있을 수만 있으면 좋았다.\r\n그것마저 허락되지 않기에, 허락받지 못했기에\r\n오로지 단둘만이 남은 세상을 바라게 되었다."
+        }
+      }
+    }
+  }
+]

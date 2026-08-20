@@ -1,0 +1,4408 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_BuildObjectDescText_Common",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "BUILDOBJECT_DESC_BlastFurnace": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_BlastFurnace_TextData",
+          "SourceString": "可用來冶煉<itemName id=|CopperIngot|/>。\r\n品質不佳，且速度較慢。\r\n需由火系帕魯提供火源。",
+          "LocalizedString": "可用來冶煉<itemName id=|CopperIngot|/>。\r\n品質不佳，且速度較慢。\r\n需由火系帕魯提供火源。"
+        }
+      },
+      "BUILDOBJECT_DESC_BlastFurnace2": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_BlastFurnace2_TextData",
+          "SourceString": "可用來冶煉<itemName id=|IronIngot|/>。\r\n品質雖稍有提升，但速度仍有改善空間。\r\n需由火系帕魯提供火源。",
+          "LocalizedString": "可用來冶煉<itemName id=|IronIngot|/>。\r\n品質雖稍有提升，但速度仍有改善空間。\r\n需由火系帕魯提供火源。"
+        }
+      },
+      "BUILDOBJECT_DESC_BlastFurnace3": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_BlastFurnace3_TextData",
+          "SourceString": "可用來冶煉<itemName id=|StealIngot|/>。\r\n雖需使用電力，但冶煉速度更快。\r\n需由火系帕魯提供火源。",
+          "LocalizedString": "可用來冶煉<itemName id=|StealIngot|/>。\r\n雖需使用電力，但冶煉速度更快。\r\n需由火系帕魯提供火源。"
+        }
+      },
+      "BUILDOBJECT_DESC_BlastFurnace4_Old": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_BlastFurnace4_Old_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "BUILDOBJECT_DESC_BlastFurnace5": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_BlastFurnace5_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "BUILDOBJECT_DESC_CampFire": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_CampFire_TextData",
+          "SourceString": "烹調食物時會用到的設施。\r\n只能用來燒烤簡單的食材。\r\n需由火系帕魯提供火源。",
+          "LocalizedString": "烹調食物時會用到的設施。\r\n只能用來燒烤簡單的食材。\r\n需由火系帕魯提供火源。"
+        }
+      },
+      "BUILDOBJECT_DESC_CharacterRankUp": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_CharacterRankUp_TextData",
+          "SourceString": "用於提升帕魯階級的設施。\r\n將榨出的帕魯精華濃縮後注入同一種帕魯體內，\r\n便可使該帕魯突破肉體極限。",
+          "LocalizedString": "用於提升帕魯階級的設施。\r\n將榨出的帕魯精華濃縮後注入同一種帕魯體內，\r\n便可使該帕魯突破肉體極限。"
+        }
+      },
+      "BUILDOBJECT_DESC_CookingStove": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_CookingStove_TextData",
+          "SourceString": "烹調食物時會用到的設施。\r\n鍋具能讓料理的可能性更加寬廣。\r\n需由火系帕魯提供火源。",
+          "LocalizedString": "烹調食物時會用到的設施。\r\n鍋具能讓料理的可能性更加寬廣。\r\n需由火系帕魯提供火源。"
+        }
+      },
+      "BUILDOBJECT_DESC_DefenseGatlingGun": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_DefenseGatlingGun_TextData",
+          "SourceString": "可以部署帕魯駐守的防禦設施。\r\n將具備「手工作業」適應性的帕魯分派到這裡，\r\n牠就會操作加特林機槍堅守據點。 ",
+          "LocalizedString": "可以部署帕魯駐守的防禦設施。\r\n將具備「手工作業」適應性的帕魯分派到這裡，\r\n牠就會操作加特林機槍堅守據點。 "
+        }
+      },
+      "BUILDOBJECT_DESC_DefenseMachinegun": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_DefenseMachinegun_TextData",
+          "SourceString": "可以部署帕魯駐守的防禦設施。\r\n將具備「手工作業」適應性的帕魯分派到這裡，\r\n牠就會操作機關槍堅守據點。 ",
+          "LocalizedString": "可以部署帕魯駐守的防禦設施。\r\n將具備「手工作業」適應性的帕魯分派到這裡，\r\n牠就會操作機關槍堅守據點。 "
+        }
+      },
+      "BUILDOBJECT_DESC_DefenseMinigun": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_DefenseMinigun_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "BUILDOBJECT_DESC_DefenseMissile": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_DefenseMissile_TextData",
+          "SourceString": "可以部署帕魯駐守的防禦設施。\r\n將具備「手工作業」適應性的帕魯分派到這裡，\r\n牠就會操作導彈發射器堅守據點。 ",
+          "LocalizedString": "可以部署帕魯駐守的防禦設施。\r\n將具備「手工作業」適應性的帕魯分派到這裡，\r\n牠就會操作導彈發射器堅守據點。 "
+        }
+      },
+      "BUILDOBJECT_DESC_DefenseBowGun": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_DefenseBowGun_TextData",
+          "SourceString": "可以部署帕魯駐守的防禦設施。\r\n將具備「手工作業」適應性的帕魯分派到這裡，\r\n牠就會操作十字弓堅守據點。 ",
+          "LocalizedString": "可以部署帕魯駐守的防禦設施。\r\n將具備「手工作業」適應性的帕魯分派到這裡，\r\n牠就會操作十字弓堅守據點。 "
+        }
+      },
+      "BUILDOBJECT_DESC_DefenseWait": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_DefenseWait_TextData",
+          "SourceString": "防禦設施，用以保護據點不受敵人侵襲。\r\n部署於此處的帕魯不會執行其他工作，\r\n而會保持警惕，以應對可能發生的戰鬥。",
+          "LocalizedString": "防禦設施，用以保護據點不受敵人侵襲。\r\n部署於此處的帕魯不會執行其他工作，\r\n而會保持警惕，以應對可能發生的戰鬥。"
+        }
+      },
+      "BUILDOBJECT_DESC_DisplayCharacter": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_DisplayCharacter_TextData",
+          "SourceString": "放置抓來的帕魯的觀賞用籠子。\r\n在裡頭的帕魯無法戰鬥或進行作業，\r\n但也不會肚子餓。",
+          "LocalizedString": "放置抓來的帕魯的觀賞用籠子。\r\n在裡頭的帕魯無法戰鬥或進行作業，\r\n但也不會肚子餓。"
+        }
+      },
+      "BUILDOBJECT_DESC_ElectricGenerator": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_ElectricGenerator_TextData",
+          "SourceString": "儲存雷系帕魯產生的電力的設施。\r\n若無此設施，靠電力驅動的設施就無法運作。",
+          "LocalizedString": "儲存雷系帕魯產生的電力的設施。\r\n若無此設施，靠電力驅動的設施就無法運作。"
+        }
+      },
+      "BUILDOBJECT_DESC_ElectricGenerator_Slave": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_ElectricGenerator_Slave_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "BUILDOBJECT_DESC_ElectricGenerator2": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_ElectricGenerator2_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "BUILDOBJECT_DESC_ElectricGenerator3": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_ElectricGenerator3_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "BUILDOBJECT_DESC_ElectricKitchen": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_ElectricKitchen_TextData",
+          "SourceString": "烹調食物時會用到的設施。\r\n雖需使用電力，但可迅速烹調大量食材。\r\n需由火系帕魯提供火源。",
+          "LocalizedString": "烹調食物時會用到的設施。\r\n雖需使用電力，但可迅速烹調大量食材。\r\n需由火系帕魯提供火源。"
+        }
+      },
+      "BUILDOBJECT_DESC_Factory_Comfortable_01": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Factory_Comfortable_01_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "BUILDOBJECT_DESC_Factory_Comfortable_02": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Factory_Comfortable_02_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "BUILDOBJECT_DESC_Factory_Hard_01": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Factory_Hard_01_TextData",
+          "SourceString": "生產道具及防具的<mapObjectName id=|Factory_Hard_01|/>。\r\n作業場規模較小，無法迅速製作物品。\r\n需有能進行手工作業的帕魯。",
+          "LocalizedString": "生產道具及防具的<mapObjectName id=|Factory_Hard_01|/>。\r\n作業場規模較小，無法迅速製作物品。\r\n需有能進行手工作業的帕魯。"
+        }
+      },
+      "BUILDOBJECT_DESC_Factory_Hard_02": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Factory_Hard_02_TextData",
+          "SourceString": "生產道具及防具的工廠。\r\n經過分工後，製作速度也有了一定的水準。\r\n需有能進行手工作業的帕魯。",
+          "LocalizedString": "生產道具及防具的工廠。\r\n經過分工後，製作速度也有了一定的水準。\r\n需有能進行手工作業的帕魯。"
+        }
+      },
+      "BUILDOBJECT_DESC_Factory_Hard_03": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Factory_Hard_03_TextData",
+          "SourceString": "生產道具及防具的工廠。\r\n工作流程更進一步細分，製作速度變得相當迅速。\r\n需有能進行手工作業的帕魯。",
+          "LocalizedString": "生產道具及防具的工廠。\r\n工作流程更進一步細分，製作速度變得相當迅速。\r\n需有能進行手工作業的帕魯。"
+        }
+      },
+      "BUILDOBJECT_DESC_FarmBlock": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FarmBlock_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "BUILDOBJECT_DESC_FarmBlockV2_Grade01": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FarmBlockV2_Grade01_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "BUILDOBJECT_DESC_FarmBlockV2_Grade02": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FarmBlockV2_Grade02_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "BUILDOBJECT_DESC_FarmBlockV2_Grade03": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FarmBlockV2_Grade03_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "BUILDOBJECT_DESC_FarmBlockV2_wheet": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FarmBlockV2_wheet_TextData",
+          "SourceString": "可培育<itemName id=|Wheat|/>的農園。\r\n此作物播種至收成所需時間為一般水準。\r\n需有數名帕魯負責播種、灌溉及收獲。",
+          "LocalizedString": "可培育<itemName id=|Wheat|/>的農園。\r\n此作物播種至收成所需時間為一般水準。\r\n需有數名帕魯負責播種、灌溉及收獲。"
+        }
+      },
+      "BUILDOBJECT_DESC_FarmBlockV2_tomato": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FarmBlockV2_tomato_TextData",
+          "SourceString": "可培育<itemName id=|Tomato|/>的農園。\r\n此作物播種至收成所需時間較長，但可讓料理更加豐富多元。\r\n需有數名帕魯負責播種、灌溉及收獲。",
+          "LocalizedString": "可培育<itemName id=|Tomato|/>的農園。\r\n此作物播種至收成所需時間較長，但可讓料理更加豐富多元。\r\n需有數名帕魯負責播種、灌溉及收獲。"
+        }
+      },
+      "BUILDOBJECT_DESC_FarmBlockV2_Lettuce": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FarmBlockV2_Lettuce_TextData",
+          "SourceString": "可培育<itemName id=|Lettuce|/>的農園。\r\n此作物播種至收成所需時間較長，但可讓料理更加豐富多元。\r\n需有數名帕魯負責播種、灌溉及收獲。",
+          "LocalizedString": "可培育<itemName id=|Lettuce|/>的農園。\r\n此作物播種至收成所需時間較長，但可讓料理更加豐富多元。\r\n需有數名帕魯負責播種、灌溉及收獲。"
+        }
+      },
+      "BUILDOBJECT_DESC_FarmBlockV2_Berries": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FarmBlockV2_Berries_TextData",
+          "SourceString": "可培育<itemName id=|Berries|/>的農園。\r\n此作物播種至收成所需時間較短，但吃來沒什麼飽足感。\r\n需有數名帕魯負責播種、灌溉及收獲。",
+          "LocalizedString": "可培育<itemName id=|Berries|/>的農園。\r\n此作物播種至收成所需時間較短，但吃來沒什麼飽足感。\r\n需有數名帕魯負責播種、灌溉及收獲。"
+        }
+      },
+      "BUILDOBJECT_DESC_FastTravelPoint": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FastTravelPoint_TextData",
+          "SourceString": "<characterName id=|ChickenPal|/>形狀的石碑。\r\n放置此石碑後，便可進行快速傳送。",
+          "LocalizedString": "<characterName id=|ChickenPal|/>形狀的石碑。\r\n放置此石碑後，便可進行快速傳送。"
+        }
+      },
+      "BUILDOBJECT_DESC_Floor": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Floor_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "BUILDOBJECT_DESC_Floor_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Floor_Stone_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "BUILDOBJECT_DESC_Floor_Wood": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Floor_Wood_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "BUILDOBJECT_DESC_HighTechKitchen": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_HighTechKitchen_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "BUILDOBJECT_DESC_ItemChest": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_ItemChest_TextData",
+          "SourceString": "可用於收納道具。\r\n以木頭製成，相當脆弱。\r\n拿來存放貴重物品不太讓人放心。",
+          "LocalizedString": "可用於收納道具。\r\n以木頭製成，相當脆弱。\r\n拿來存放貴重物品不太讓人放心。"
+        }
+      },
+      "BUILDOBJECT_DESC_ItemChest_02": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_ItemChest_02_TextData",
+          "SourceString": "可用於收納道具。\r\n以金屬補強後變得堅固多了。\r\n體積有所擴展，收納容量也隨之增加。",
+          "LocalizedString": "可用於收納道具。\r\n以金屬補強後變得堅固多了。\r\n體積有所擴展，收納容量也隨之增加。"
+        }
+      },
+      "BUILDOBJECT_DESC_ItemChest_03": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_ItemChest_03_TextData",
+          "SourceString": "可用於收納道具。\r\n以精煉金屬製成，極為堅固。\r\n把它當成巨大且安全的倉庫使用吧。",
+          "LocalizedString": "可用於收納道具。\r\n以精煉金屬製成，極為堅固。\r\n把它當成巨大且安全的倉庫使用吧。"
+        }
+      },
+      "BUILDOBJECT_DESC_MedicalPalBed_02": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_MedicalPalBed_02_TextData",
+          "SourceString": "帕魯用的稻草床。\r\n帕魯在晚上或受傷時可以睡在這裡。\r\n雖然很硬，但有總比沒有好。",
+          "LocalizedString": "帕魯用的稻草床。\r\n帕魯在晚上或受傷時可以睡在這裡。\r\n雖然很硬，但有總比沒有好。"
+        }
+      },
+      "BUILDOBJECT_DESC_MedicalPalBed_03": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_MedicalPalBed_03_TextData",
+          "SourceString": "帕魯用的柔軟床鋪，能夠睡個好覺。\r\n帕魯在晚上或受傷時可以睡在這裡。\r\n帕魯們應該也會喜歡這種柔軟蓬鬆的床。",
+          "LocalizedString": "帕魯用的柔軟床鋪，能夠睡個好覺。\r\n帕魯在晚上或受傷時可以睡在這裡。\r\n帕魯們應該也會喜歡這種柔軟蓬鬆的床。"
+        }
+      },
+      "BUILDOBJECT_DESC_MedicalPalBed_04": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_MedicalPalBed_04_TextData",
+          "SourceString": "帕魯用的大型床鋪，能夠睡個好覺。\r\n帕魯在晚上或受傷時可以睡在這裡。\r\n即使是大型帕魯也能在這張大床上睡個好覺。",
+          "LocalizedString": "帕魯用的大型床鋪，能夠睡個好覺。\r\n帕魯在晚上或受傷時可以睡在這裡。\r\n即使是大型帕魯也能在這張大床上睡個好覺。"
+        }
+      },
+      "BUILDOBJECT_DESC_MedicalPalBed": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_MedicalPalBed_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "BUILDOBJECT_DESC_MedicineFacility_01": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_MedicineFacility_01_TextData",
+          "SourceString": "製作治療帕魯疾病的藥物的設備。\r\n只能製作簡單的藥物。\r\n讓會製藥的帕魯來負責這裡的工作吧。",
+          "LocalizedString": "製作治療帕魯疾病的藥物的設備。\r\n只能製作簡單的藥物。\r\n讓會製藥的帕魯來負責這裡的工作吧。"
+        }
+      },
+      "BUILDOBJECT_DESC_MedicineFacility_02": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_MedicineFacility_02_TextData",
+          "SourceString": "製作治療帕魯疾病的藥物的設備。\r\n雖需使用電力，但可製作高級藥物。\r\n讓會製藥的帕魯來負責這裡的工作吧。",
+          "LocalizedString": "製作治療帕魯疾病的藥物的設備。\r\n雖需使用電力，但可製作高級藥物。\r\n讓會製藥的帕魯來負責這裡的工作吧。"
+        }
+      },
+      "BUILDOBJECT_DESC_MedicineFacility_03_Old": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_MedicineFacility_03_Old_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "BUILDOBJECT_DESC_PalFoodBox": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_PalFoodBox_TextData",
+          "SourceString": "用於存放帕魯飼料的箱子。\r\n肚子餓了的帕魯會來這裡吃飼料。\r\n記得隨時補充飼料，別讓箱子空了。",
+          "LocalizedString": "用於存放帕魯飼料的箱子。\r\n肚子餓了的帕魯會來這裡吃飼料。\r\n記得隨時補充飼料，別讓箱子空了。"
+        }
+      },
+      "BUILDOBJECT_DESC_PalStorage": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_PalStorage_TextData",
+          "SourceString": "用來存放抓到的帕魯的設施。\r\n此設施周圍的區域即為據點。\r\n和帕魯一起打造專屬於自己的據點吧。",
+          "LocalizedString": "用來存放抓到的帕魯的設施。\r\n此設施周圍的區域即為據點。\r\n和帕魯一起打造專屬於自己的據點吧。"
+        }
+      },
+      "BUILDOBJECT_DESC_PalBoxV2": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_PalBoxV2_TextData",
+          "SourceString": "用來存放抓到的帕魯的設施。\r\n終端裡的帕魯會逐漸回復生命值。\r\n此設施周圍的區域即為據點。",
+          "LocalizedString": "用來存放抓到的帕魯的設施。\r\n終端裡的帕魯會逐漸回復生命值。\r\n此設施周圍的區域即為據點。"
+        }
+      },
+      "BUILDOBJECT_DESC_PlayerBed_02": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_PlayerBed_02_TextData",
+          "SourceString": "人類用的破爛床鋪。\r\n晚上或受傷時就在這裡睡覺吧。\r\n但如果沒有屋頂，就沒辦法睡個安穩的好覺了。",
+          "LocalizedString": "人類用的破爛床鋪。\r\n晚上或受傷時就在這裡睡覺吧。\r\n但如果沒有屋頂，就沒辦法睡個安穩的好覺了。"
+        }
+      },
+      "BUILDOBJECT_DESC_PlayerBed_03": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_PlayerBed_03_TextData",
+          "SourceString": "人類用的床鋪，柔軟蓬鬆，能夠睡個好覺。\r\n晚上或受傷時就在這裡睡覺吧。\r\n但如果沒有屋頂，就沒辦法睡個安穩的好覺了。",
+          "LocalizedString": "人類用的床鋪，柔軟蓬鬆，能夠睡個好覺。\r\n晚上或受傷時就在這裡睡覺吧。\r\n但如果沒有屋頂，就沒辦法睡個安穩的好覺了。"
+        }
+      },
+      "BUILDOBJECT_DESC_PlayerBed": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_PlayerBed_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "BUILDOBJECT_DESC_ShippingItemBox": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_ShippingItemBox_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "BUILDOBJECT_DESC_SphereFactory_Black_01": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SphereFactory_Black_01_TextData",
+          "SourceString": "捕捉帕魯用的帕魯球的工作台。\r\n作業場規模較小，無法迅速製作帕魯球。\r\n需有能進行手工作業的帕魯。",
+          "LocalizedString": "捕捉帕魯用的帕魯球的工作台。\r\n作業場規模較小，無法迅速製作帕魯球。\r\n需有能進行手工作業的帕魯。"
+        }
+      },
+      "BUILDOBJECT_DESC_SphereFactory_Black_02": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SphereFactory_Black_02_TextData",
+          "SourceString": "捕捉帕魯用的帕魯球的工廠。\r\n經過分工後，製作速度也有了一定的水準。\r\n需有能進行手工作業的帕魯。",
+          "LocalizedString": "捕捉帕魯用的帕魯球的工廠。\r\n經過分工後，製作速度也有了一定的水準。\r\n需有能進行手工作業的帕魯。"
+        }
+      },
+      "BUILDOBJECT_DESC_SphereFactory_Black_03": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SphereFactory_Black_03_TextData",
+          "SourceString": "捕捉帕魯用的帕魯球的工廠。\r\n工作流程更進一步細分，製作帕魯球的速度變得相當迅速。\r\n需有能進行手工作業的帕魯。",
+          "LocalizedString": "捕捉帕魯用的帕魯球的工廠。\r\n工作流程更進一步細分，製作帕魯球的速度變得相當迅速。\r\n需有能進行手工作業的帕魯。"
+        }
+      },
+      "BUILDOBJECT_DESC_SphereFactory_White_01": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SphereFactory_White_01_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "BUILDOBJECT_DESC_SphereFactory_White_02": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SphereFactory_White_02_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "BUILDOBJECT_DESC_SphereFactory_White_03": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SphereFactory_White_03_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "BUILDOBJECT_DESC_StationDeforest": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_StationDeforest_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "BUILDOBJECT_DESC_Stonehouse1": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Stonehouse1_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "BUILDOBJECT_DESC_StonePit": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_StonePit_TextData",
+          "SourceString": "生產<itemName id=|Stone|/>的設施。\r\n挖掘<itemName id=|Stone|/>的工作需要大量體力，相當嚴苛。\r\n把這些工作交給擅長挖掘的帕魯吧。",
+          "LocalizedString": "生產<itemName id=|Stone|/>的設施。\r\n挖掘<itemName id=|Stone|/>的工作需要大量體力，相當嚴苛。\r\n把這些工作交給擅長挖掘的帕魯吧。"
+        }
+      },
+      "BUILDOBJECT_DESC_CopperMine": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_CopperMine_TextData",
+          "SourceString": "生產<itemName id=|CopperOre|/>的設施。\r\n挖掘<itemName id=|CopperOre|/>的工作需要大量體力，且更為嚴苛。\r\n把這些工作交給更擅長挖掘的帕魯吧。",
+          "LocalizedString": "生產<itemName id=|CopperOre|/>的設施。\r\n挖掘<itemName id=|CopperOre|/>的工作需要大量體力，且更為嚴苛。\r\n把這些工作交給更擅長挖掘的帕魯吧。"
+        }
+      },
+      "BUILDOBJECT_DESC_SteelMine": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SteelMine_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "BUILDOBJECT_DESC_Strawhouse1": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Strawhouse1_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "BUILDOBJECT_DESC_Wall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Wall_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "BUILDOBJECT_DESC_Wall_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Wall_Stone_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "BUILDOBJECT_DESC_Wall_Wood": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Wall_Wood_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "BUILDOBJECT_DESC_DUMMY": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_DUMMY_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "BUILDOBJECT_DESC_WeaponFactory_Clean_01": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_WeaponFactory_Clean_01_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "BUILDOBJECT_DESC_WeaponFactory_Clean_02": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_WeaponFactory_Clean_02_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "BUILDOBJECT_DESC_WeaponFactory_Clean_03": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_WeaponFactory_Clean_03_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "BUILDOBJECT_DESC_WeaponChest": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_WeaponChest_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "BUILDOBJECT_DESC_WeaponFactory_Dirty_01": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_WeaponFactory_Dirty_01_TextData",
+          "SourceString": "生產武器及彈藥的工作台。\r\n作業場規模較小，無法製作高級武器。\r\n需有能進行手工作業的帕魯。",
+          "LocalizedString": "生產武器及彈藥的工作台。\r\n作業場規模較小，無法製作高級武器。\r\n需有能進行手工作業的帕魯。"
+        }
+      },
+      "BUILDOBJECT_DESC_WeaponFactory_Dirty_02": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_WeaponFactory_Dirty_02_TextData",
+          "SourceString": "生產武器及彈藥的工廠。\r\n經過分工後，能製作的武器種類也更厲害了一點。\r\n需有能進行手工作業的帕魯。",
+          "LocalizedString": "生產武器及彈藥的工廠。\r\n經過分工後，能製作的武器種類也更厲害了一點。\r\n需有能進行手工作業的帕魯。"
+        }
+      },
+      "BUILDOBJECT_DESC_WeaponFactory_Dirty_03": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_WeaponFactory_Dirty_03_TextData",
+          "SourceString": "生產武器及彈藥的工廠。\r\n生產流程更進一步細分，製作高級武器的速度迅速多了。\r\n需有能進行手工作業的帕魯。",
+          "LocalizedString": "生產武器及彈藥的工廠。\r\n生產流程更進一步細分，製作高級武器的速度迅速多了。\r\n需有能進行手工作業的帕魯。"
+        }
+      },
+      "BUILDOBJECT_DESC_WeaponFactry": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_WeaponFactry_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "BUILDOBJECT_DESC_Well": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Well_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "BUILDOBJECT_DESC_Woodhouse1": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Woodhouse1_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "BUILDOBJECT_DESC_WorkBench": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_WorkBench_TextData",
+          "SourceString": "用來製作簡單道具的<mapObjectName id=|WorkBench|/>。\r\n需有能進行手工作業的帕魯。",
+          "LocalizedString": "用來製作簡單道具的<mapObjectName id=|WorkBench|/>。\r\n需有能進行手工作業的帕魯。"
+        }
+      },
+      "BUILDOBJECT_DESC_RecoverOtomo": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_RecoverOtomo_TextData",
+          "SourceString": "用來回復帕魯生命值的裝置。\r\n能夠補滿帕魯球內的帕魯礦力量，讓帕魯放松心情。",
+          "LocalizedString": "用來回復帕魯生命值的裝置。\r\n能夠補滿帕魯球內的帕魯礦力量，讓帕魯放松心情。"
+        }
+      },
+      "BUILDOBJECT_DESC_HatchingPalEgg": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_HatchingPalEgg_TextData",
+          "SourceString": "用來孵化帕魯蛋的裝置。\r\n雖然要花一些時間，但將帕魯蛋放進來，它就會自動孵化。",
+          "LocalizedString": "用來孵化帕魯蛋的裝置。\r\n雖然要花一些時間，但將帕魯蛋放進來，它就會自動孵化。"
+        }
+      },
+      "BUILDOBJECT_DESC_StationDeforest2": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_StationDeforest2_TextData",
+          "SourceString": "生產<itemName id=|Wood|/>的設施。\r\n砍樹的工作需要大量體力，相當嚴苛。\r\n把這些工作交給擅長採伐的帕魯吧。",
+          "LocalizedString": "生產<itemName id=|Wood|/>的設施。\r\n砍樹的工作需要大量體力，相當嚴苛。\r\n把這些工作交給擅長採伐的帕魯吧。"
+        }
+      },
+      "BUILDOBJECT_DESC_WorkBench_SkillUnlock": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_WorkBench_SkillUnlock_TextData",
+          "SourceString": "製作帕魯所使用的道具的<mapObjectName id=|WorkBench|/>。\r\n可製作用來騎乘帕魯的鞍具，\r\n或供帕魯射擊用的槍枝。",
+          "LocalizedString": "製作帕魯所使用的道具的<mapObjectName id=|WorkBench|/>。\r\n可製作用來騎乘帕魯的鞍具，\r\n或供帕魯射擊用的槍枝。"
+        }
+      },
+      "BUILDOBJECT_DESC_WorkBench_SkillCard": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_WorkBench_SkillCard_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "BUILDOBJECT_DESC_Foundation": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Foundation_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "BUILDOBJECT_DESC_Roof": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Roof_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "BUILDOBJECT_DESC_Stairs": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Stairs_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "BUILDOBJECT_DESC_Wooden_foundation": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Wooden_foundation_TextData",
+          "SourceString": "建築地基，可在上面建造牆壁或設施。\r\n以木頭製成，相當脆弱。",
+          "LocalizedString": "建築地基，可在上面建造牆壁或設施。\r\n以木頭製成，相當脆弱。"
+        }
+      },
+      "BUILDOBJECT_DESC_Wooden_wall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Wooden_wall_TextData",
+          "SourceString": "建於地基上的牆壁，用於防止入侵者。\r\n以木頭製成，相當脆弱。",
+          "LocalizedString": "建於地基上的牆壁，用於防止入侵者。\r\n以木頭製成，相當脆弱。"
+        }
+      },
+      "BUILDOBJECT_DESC_Wooden_roof": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Wooden_roof_TextData",
+          "SourceString": "建於牆壁上方的屋頂，用於遮擋風雨。\r\n以木頭製成，相當脆弱。",
+          "LocalizedString": "建於牆壁上方的屋頂，用於遮擋風雨。\r\n以木頭製成，相當脆弱。"
+        }
+      },
+      "BUILDOBJECT_DESC_Wooden_stair": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Wooden_stair_TextData",
+          "SourceString": "置於地基或屋頂下方，使之易於攀登的樓梯。\r\n以木頭製成，相當脆弱。",
+          "LocalizedString": "置於地基或屋頂下方，使之易於攀登的樓梯。\r\n以木頭製成，相當脆弱。"
+        }
+      },
+      "BUILDOBJECT_DESC_Wooden_DoorWall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Wooden_DoorWall_TextData",
+          "SourceString": "建於地基上的門，可作為出入口。\r\n以木頭製成，相當脆弱。",
+          "LocalizedString": "建於地基上的門，可作為出入口。\r\n以木頭製成，相當脆弱。"
+        }
+      },
+      "BUILDOBJECT_DESC_Stone_foundation": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Stone_foundation_TextData",
+          "SourceString": "建築地基，可在上面建造牆壁或設施。\r\n以石頭製成，還算堅固。",
+          "LocalizedString": "建築地基，可在上面建造牆壁或設施。\r\n以石頭製成，還算堅固。"
+        }
+      },
+      "BUILDOBJECT_DESC_Stone_wall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Stone_wall_TextData",
+          "SourceString": "建於地基上的牆壁，用於防止入侵者。\r\n以石頭製成，還算堅固。",
+          "LocalizedString": "建於地基上的牆壁，用於防止入侵者。\r\n以石頭製成，還算堅固。"
+        }
+      },
+      "BUILDOBJECT_DESC_Stone_roof": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Stone_roof_TextData",
+          "SourceString": "建於牆壁上方的屋頂，用於遮擋風雨。\r\n以石頭製成，還算堅固。",
+          "LocalizedString": "建於牆壁上方的屋頂，用於遮擋風雨。\r\n以石頭製成，還算堅固。"
+        }
+      },
+      "BUILDOBJECT_DESC_Stone_stair": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Stone_stair_TextData",
+          "SourceString": "置於地基或屋頂下方，使之易於攀登的樓梯。\r\n以石頭製成，還算堅固。",
+          "LocalizedString": "置於地基或屋頂下方，使之易於攀登的樓梯。\r\n以石頭製成，還算堅固。"
+        }
+      },
+      "BUILDOBJECT_DESC_Metal_foundation": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Metal_foundation_TextData",
+          "SourceString": "建築地基，可在上面建造牆壁或設施。\r\n以金屬製成，非常堅固。",
+          "LocalizedString": "建築地基，可在上面建造牆壁或設施。\r\n以金屬製成，非常堅固。"
+        }
+      },
+      "BUILDOBJECT_DESC_Metal_wall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Metal_wall_TextData",
+          "SourceString": "建於地基上的牆壁，用於防止入侵者。\r\n以金屬製成，非常堅固。",
+          "LocalizedString": "建於地基上的牆壁，用於防止入侵者。\r\n以金屬製成，非常堅固。"
+        }
+      },
+      "BUILDOBJECT_DESC_Metal_roof": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Metal_roof_TextData",
+          "SourceString": "建於牆壁上方的屋頂，用於遮擋風雨。\r\n以金屬製成，非常堅固。",
+          "LocalizedString": "建於牆壁上方的屋頂，用於遮擋風雨。\r\n以金屬製成，非常堅固。"
+        }
+      },
+      "BUILDOBJECT_DESC_Metal_stair": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Metal_stair_TextData",
+          "SourceString": "置於地基或屋頂下方，使之易於攀登的樓梯。\r\n以金屬製成，非常堅固。",
+          "LocalizedString": "置於地基或屋頂下方，使之易於攀登的樓梯。\r\n以金屬製成，非常堅固。"
+        }
+      },
+      "BUILDOBJECT_DESC_Heater": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Heater_TextData",
+          "SourceString": "可送出暖風，提升據點氣溫的裝置。\r\n雖然不是很溫暖，但多少能抵禦一些寒意。\r\n需由火系帕魯提供火源。",
+          "LocalizedString": "可送出暖風，提升據點氣溫的裝置。\r\n雖然不是很溫暖，但多少能抵禦一些寒意。\r\n需由火系帕魯提供火源。"
+        }
+      },
+      "BUILDOBJECT_DESC_ElectricHeater": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_ElectricHeater_TextData",
+          "SourceString": "可送出暖風，提升據點氣溫的裝置。\r\n使用電力提升暖風的溫度。\r\n需由火系帕魯提供火源。",
+          "LocalizedString": "可送出暖風，提升據點氣溫的裝置。\r\n使用電力提升暖風的溫度。\r\n需由火系帕魯提供火源。"
+        }
+      },
+      "BUILDOBJECT_DESC_Cooler": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Cooler_TextData",
+          "SourceString": "可送出冷風，降低據點氣溫的裝置。\r\n雖然不是很涼爽，但多少能消除一些暑氣。\r\n需由冰系帕魯負責冷卻。",
+          "LocalizedString": "可送出冷風，降低據點氣溫的裝置。\r\n雖然不是很涼爽，但多少能消除一些暑氣。\r\n需由冰系帕魯負責冷卻。"
+        }
+      },
+      "BUILDOBJECT_DESC_ElectricCooler": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_ElectricCooler_TextData",
+          "SourceString": "可送出冷風，降低據點氣溫的裝置。\r\n使用電力降低冷風的溫度。\r\n需由冰系帕魯負責冷卻。",
+          "LocalizedString": "可送出冷風，降低據點氣溫的裝置。\r\n使用電力降低冷風的溫度。\r\n需由冰系帕魯負責冷卻。"
+        }
+      },
+      "BUILDOBJECT_DESC_Torch": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Torch_TextData",
+          "SourceString": "能在黑夜為據點帶來光明的光源。\r\n需由火系帕魯提供火源。",
+          "LocalizedString": "能在黑夜為據點帶來光明的光源。\r\n需由火系帕魯提供火源。"
+        }
+      },
+      "BUILDOBJECT_DESC_WallTorch": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_WallTorch_TextData",
+          "SourceString": "能在黑夜為據點帶來光明的光源。\r\n可以裝在牆壁上。\r\n需由火系帕魯提供火源。",
+          "LocalizedString": "能在黑夜為據點帶來光明的光源。\r\n可以裝在牆壁上。\r\n需由火系帕魯提供火源。"
+        }
+      },
+      "BUILDOBJECT_DESC_Lamp": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Lamp_TextData",
+          "SourceString": "能在黑夜為據點帶來光明的光源。\r\n雖需使用電力，但照明範圍較為寬廣。",
+          "LocalizedString": "能在黑夜為據點帶來光明的光源。\r\n雖需使用電力，但照明範圍較為寬廣。"
+        }
+      },
+      "BUILDOBJECT_DESC_CeilingLamp": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_CeilingLamp_TextData",
+          "SourceString": "能在黑夜為據點帶來光明的光源。\r\n可以裝在天花板上。\r\n雖需使用電力，但照明範圍較為寬廣。",
+          "LocalizedString": "能在黑夜為據點帶來光明的光源。\r\n可以裝在天花板上。\r\n雖需使用電力，但照明範圍較為寬廣。"
+        }
+      },
+      "BUILDOBJECT_DESC_LargeLamp": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_LargeLamp_TextData",
+          "SourceString": "能在黑夜為據點帶來光明的光源。\r\n雖需使用更多電力，但照明範圍也更加寬廣。",
+          "LocalizedString": "能在黑夜為據點帶來光明的光源。\r\n雖需使用更多電力，但照明範圍也更加寬廣。"
+        }
+      },
+      "BUILDOBJECT_DESC_LargeCeilingLamp": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_LargeCeilingLamp_TextData",
+          "SourceString": "能在黑夜為據點帶來光明的光源。\r\n可以裝在天花板上。\r\n雖需使用更多電力，但照明範圍也更加寬廣。",
+          "LocalizedString": "能在黑夜為據點帶來光明的光源。\r\n可以裝在天花板上。\r\n雖需使用更多電力，但照明範圍也更加寬廣。"
+        }
+      },
+      "BUILDOBJECT_DESC_BuildableGoddessStatue": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_BuildableGoddessStatue_TextData",
+          "SourceString": "帕洛斯群島的傳說中提到的石像。\r\n將<itemName id=|Relic|/>獻給這座石像，\r\n便可獲得神秘力量。",
+          "LocalizedString": "帕洛斯群島的傳說中提到的石像。\r\n將<itemName id=|Relic|/>獻給這座石像，\r\n便可獲得神秘力量。"
+        }
+      },
+      "BUILDOBJECT_DESC_Spa": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Spa_TextData",
+          "SourceString": "讓疲憊的據點帕魯休息的設施。\r\n能夠消除因勞動累積的疲勞，並回復SAN值。",
+          "LocalizedString": "讓疲憊的據點帕魯休息的設施。\r\n能夠消除因勞動累積的疲勞，並回復SAN值。"
+        }
+      },
+      "BUILDOBJECT_DESC_Spa2": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Spa2_TextData",
+          "SourceString": "讓疲憊的據點帕魯休息的設施。\r\n設備更加舒適，可回復更多SAN值。",
+          "LocalizedString": "讓疲憊的據點帕魯休息的設施。\r\n設備更加舒適，可回復更多SAN值。"
+        }
+      },
+      "BUILDOBJECT_DESC_DefenseWall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_DefenseWall_TextData",
+          "SourceString": "防止外敵入侵的巨大防禦牆。\r\n以石頭製成，還算堅固。",
+          "LocalizedString": "防止外敵入侵的巨大防禦牆。\r\n以石頭製成，還算堅固。"
+        }
+      },
+      "BUILDOBJECT_DESC_Crusher": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Crusher_TextData",
+          "SourceString": "可粉碎<itemName id=|Stone|/>或<itemName id=|Wood|/>，\r\n將之轉換為其他素材的設施。\r\n需有具備「澆水」適應性的帕魯負責使水車轉動。",
+          "LocalizedString": "可粉碎<itemName id=|Stone|/>或<itemName id=|Wood|/>，\r\n將之轉換為其他素材的設施。\r\n需有具備「澆水」適應性的帕魯負責使水車轉動。"
+        }
+      },
+      "BUILDOBJECT_DESC_WoodCrusher": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_WoodCrusher_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "BUILDOBJECT_DESC_FlourMill": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FlourMill_TextData",
+          "SourceString": "可將<itemName id=|Wheat|/>磨碎\r\n以生產<itemName id=|Flour|/>的設施。\r\n需有具備「澆水」適應性的帕魯負責使水車轉動。",
+          "LocalizedString": "可將<itemName id=|Wheat|/>磨碎\r\n以生產<itemName id=|Flour|/>的設施。\r\n需有具備「澆水」適應性的帕魯負責使水車轉動。"
+        }
+      },
+      "BUILDOBJECT_DESC_Trap_LegHold": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Trap_LegHold_TextData",
+          "SourceString": "這種陷阱能讓踩到的帕魯困住。\r\n受困的帕魯更易被帕魯球捕獲。\r\n只對小型帕魯有效。",
+          "LocalizedString": "這種陷阱能讓踩到的帕魯困住。\r\n受困的帕魯更易被帕魯球捕獲。\r\n只對小型帕魯有效。"
+        }
+      },
+      "BUILDOBJECT_DESC_Trap_LegHold_Big": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Trap_LegHold_Big_TextData",
+          "SourceString": "這種捕獸夾可夾住大型帕魯，使之無法動彈。\r\n受困的帕魯更易被帕魯球捕獲。\r\n只對大型帕魯有效。小型帕魯不會觸發機關。",
+          "LocalizedString": "這種捕獸夾可夾住大型帕魯，使之無法動彈。\r\n受困的帕魯更易被帕魯球捕獲。\r\n只對大型帕魯有效。小型帕魯不會觸發機關。"
+        }
+      },
+      "BUILDOBJECT_DESC_Trap_MovingPanel": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Trap_MovingPanel_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "BUILDOBJECT_DESC_Trap_MineElecShock": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Trap_MineElecShock_TextData",
+          "SourceString": "這種陷阱能讓踩到的帕魯觸電。\r\n觸電時的帕魯更易被帕魯球捕獲。",
+          "LocalizedString": "這種陷阱能讓踩到的帕魯觸電。\r\n觸電時的帕魯更易被帕魯球捕獲。"
+        }
+      },
+      "BUILDOBJECT_DESC_Trap_MineFreeze": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Trap_MineFreeze_TextData",
+          "SourceString": "這種陷阱能讓踩到的帕魯凍結。\r\n被凍結的帕魯更易被帕魯球捕獲。",
+          "LocalizedString": "這種陷阱能讓踩到的帕魯凍結。\r\n被凍結的帕魯更易被帕魯球捕獲。"
+        }
+      },
+      "BUILDOBJECT_DESC_Trap_MineAttack": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Trap_MineAttack_TextData",
+          "SourceString": "這種陷阱被帕魯踩到便會爆炸，\r\n並對大範圍的目標造成傷害。",
+          "LocalizedString": "這種陷阱被帕魯踩到便會爆炸，\r\n並對大範圍的目標造成傷害。"
+        }
+      },
+      "BUILDOBJECT_DESC_BreedFarm": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_BreedFarm_TextData",
+          "SourceString": "將♂、♀帕魯各一隻分派至此處，\r\n即可讓牠們產下帕魯蛋。\r\n需在設施中放入<itemName id=|Cake|/>才會順利生蛋。",
+          "LocalizedString": "將♂、♀帕魯各一隻分派至此處，\r\n即可讓牠們產下帕魯蛋。\r\n需在設施中放入<itemName id=|Cake|/>才會順利生蛋。"
+        }
+      },
+      "BUILDOBJECT_DESC_ToolBoxV1": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_ToolBoxV1_TextData",
+          "SourceString": "設置於據點時，\r\n「手工作業」的工作速度將會提升。\r\n即使設置複數個，其效果也不會疊加。",
+          "LocalizedString": "設置於據點時，\r\n「手工作業」的工作速度將會提升。\r\n即使設置複數個，其效果也不會疊加。"
+        }
+      },
+      "BUILDOBJECT_DESC_ToolBoxV2": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_ToolBoxV2_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "BUILDOBJECT_DESC_BaseCampWorkHard": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_BaseCampWorkHard_TextData",
+          "SourceString": "可對據點內的帕魯下達工作指示。\r\n請注意不要讓牠們勞動過度了。",
+          "LocalizedString": "可對據點內的帕魯下達工作指示。\r\n請注意不要讓牠們勞動過度了。"
+        }
+      },
+      "BUILDOBJECT_DESC_OlympicCauldron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_OlympicCauldron_TextData",
+          "SourceString": "設置於據點時，\r\n「生火」的工作速度將會提升。\r\n即使設置複數個，其效果也不會疊加。",
+          "LocalizedString": "設置於據點時，\r\n「生火」的工作速度將會提升。\r\n即使設置複數個，其效果也不會疊加。"
+        }
+      },
+      "BUILDOBJECT_DESC_Fountain": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Fountain_TextData",
+          "SourceString": "設置於據點時，\r\n「澆水」的工作速度將會提升。\r\n即使設置複數個，其效果也不會疊加。",
+          "LocalizedString": "設置於據點時，\r\n「澆水」的工作速度將會提升。\r\n即使設置複數個，其效果也不會疊加。"
+        }
+      },
+      "BUILDOBJECT_DESC_Silo": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Silo_TextData",
+          "SourceString": "設置於據點時，\r\n「播種」的工作速度將會提升。\r\n即使設置複數個，其效果也不會疊加。",
+          "LocalizedString": "設置於據點時，\r\n「播種」的工作速度將會提升。\r\n即使設置複數個，其效果也不會疊加。"
+        }
+      },
+      "BUILDOBJECT_DESC_TransmissionTower": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_TransmissionTower_TextData",
+          "SourceString": "設置於據點時，\r\n「發電」的工作速度將會提升。\r\n即使設置複數個，其效果也不會疊加。",
+          "LocalizedString": "設置於據點時，\r\n「發電」的工作速度將會提升。\r\n即使設置複數個，其效果也不會疊加。"
+        }
+      },
+      "BUILDOBJECT_DESC_FlowerBed": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FlowerBed_TextData",
+          "SourceString": "設置於據點時，\r\n「採集」的工作速度將會提升。\r\n即使設置複數個，其效果也不會疊加。",
+          "LocalizedString": "設置於據點時，\r\n「採集」的工作速度將會提升。\r\n即使設置複數個，其效果也不會疊加。"
+        }
+      },
+      "BUILDOBJECT_DESC_Stump": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Stump_TextData",
+          "SourceString": "設置於據點時，\r\n「採伐」的工作速度將會提升。\r\n即使設置複數個，其效果也不會疊加。",
+          "LocalizedString": "設置於據點時，\r\n「採伐」的工作速度將會提升。\r\n即使設置複數個，其效果也不會疊加。"
+        }
+      },
+      "BUILDOBJECT_DESC_MiningTool": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_MiningTool_TextData",
+          "SourceString": "設置於據點時，\r\n「挖掘」的工作速度將會提升。\r\n即使設置複數個，其效果也不會疊加。",
+          "LocalizedString": "設置於據點時，\r\n「挖掘」的工作速度將會提升。\r\n即使設置複數個，其效果也不會疊加。"
+        }
+      },
+      "BUILDOBJECT_DESC_Cauldron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Cauldron_TextData",
+          "SourceString": "設置於據點時，\r\n「製藥」的工作速度將會提升。\r\n即使設置複數個，其效果也不會疊加。",
+          "LocalizedString": "設置於據點時，\r\n「製藥」的工作速度將會提升。\r\n即使設置複數個，其效果也不會疊加。"
+        }
+      },
+      "BUILDOBJECT_DESC_Snowman": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Snowman_TextData",
+          "SourceString": "設置於據點時，\r\n「冷卻」的工作速度將會提升。\r\n即使設置複數個，其效果也不會疊加。",
+          "LocalizedString": "設置於據點時，\r\n「冷卻」的工作速度將會提升。\r\n即使設置複數個，其效果也不會疊加。"
+        }
+      },
+      "BUILDOBJECT_DESC_Stone_DoorWall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Stone_DoorWall_TextData",
+          "SourceString": "建於地基上的門，可作為出入口。\r\n以石頭製成，還算堅固。",
+          "LocalizedString": "建於地基上的門，可作為出入口。\r\n以石頭製成，還算堅固。"
+        }
+      },
+      "BUILDOBJECT_DESC_Metal_DoorWall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Metal_DoorWall_TextData",
+          "SourceString": "建於地基上的門，可作為出入口。\r\n以金屬製成，非常堅固。",
+          "LocalizedString": "建於地基上的門，可作為出入口。\r\n以金屬製成，非常堅固。"
+        }
+      },
+      "BUILDOBJECT_DESC_CoolerBox": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_CoolerBox_TextData",
+          "SourceString": "小型的食物貯藏庫。\r\n將冰系帕魯分派至此設施，\r\n便能讓裡面的食物較不易腐壞。",
+          "LocalizedString": "小型的食物貯藏庫。\r\n將冰系帕魯分派至此設施，\r\n便能讓裡面的食物較不易腐壞。"
+        }
+      },
+      "BUILDOBJECT_DESC_Refrigerator": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Refrigerator_TextData",
+          "SourceString": "大容量的食物貯藏庫。\r\n將冰系帕魯分派至此設施，\r\n便能讓裡面的食物較不易腐壞。",
+          "LocalizedString": "大容量的食物貯藏庫。\r\n將冰系帕魯分派至此設施，\r\n便能讓裡面的食物較不易腐壞。"
+        }
+      },
+      "BUILDOBJECT_DESC_MonsterFarm": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_MonsterFarm_TextData",
+          "SourceString": "可放牧羊、雞等類型帕魯的牧場。\r\n將擁有特殊夥伴技能的帕魯分派到牧場內，\r\n即可生產道具。",
+          "LocalizedString": "可放牧羊、雞等類型帕魯的牧場。\r\n將擁有特殊夥伴技能的帕魯分派到牧場內，\r\n即可生產道具。"
+        }
+      },
+      "BUILDOBJECT_DESC_Wood_Gate": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Wood_Gate_TextData",
+          "SourceString": "可讓稍大的帕魯通過的大門。\r\n以木頭製成，相當脆弱。",
+          "LocalizedString": "可讓稍大的帕魯通過的大門。\r\n以木頭製成，相當脆弱。"
+        }
+      },
+      "BUILDOBJECT_DESC_Stone_Gate": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Stone_Gate_TextData",
+          "SourceString": "可讓稍大的帕魯通過的大門。\r\n以石頭製成，還算堅固。",
+          "LocalizedString": "可讓稍大的帕魯通過的大門。\r\n以石頭製成，還算堅固。"
+        }
+      },
+      "BUILDOBJECT_DESC_Metal_Gate": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Metal_Gate_TextData",
+          "SourceString": "可讓稍大的帕魯通過的大門。\r\n以金屬製成，非常堅固。",
+          "LocalizedString": "可讓稍大的帕魯通過的大門。\r\n以金屬製成，非常堅固。"
+        }
+      },
+      "BUILDOBJECT_DESC_Trap_Noose": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Trap_Noose_TextData",
+          "SourceString": "這種陷阱能抓住途經的帕魯。\r\n受困的帕魯更易被帕魯球捕獲。\r\n只對小型帕魯有效。",
+          "LocalizedString": "這種陷阱能抓住途經的帕魯。\r\n受困的帕魯更易被帕魯球捕獲。\r\n只對小型帕魯有效。"
+        }
+      },
+      "BUILDOBJECT_DESC_RepairBench": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_RepairBench_TextData",
+          "SourceString": "用於修理損壞道具的工作台。\r\n消耗素材即可進行修理。",
+          "LocalizedString": "用於修理損壞道具的工作台。\r\n消耗素材即可進行修理。"
+        }
+      },
+      "BUILDOBJECT_DESC_DamagedScarecrow": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_DamagedScarecrow_TextData",
+          "SourceString": "以<characterName id=|Penguin|/>為原型，用於訓練的稻草人。\r\n只能放在寬闊的地方。",
+          "LocalizedString": "以<characterName id=|Penguin|/>為原型，用於訓練的稻草人。\r\n只能放在寬闊的地方。"
+        }
+      },
+      "BUILDOBJECT_DESC_Signboard": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Signboard_TextData",
+          "SourceString": "可在這塊告示牌上書寫文字。\r\n用它來做紀錄或與他人溝通吧。",
+          "LocalizedString": "可在這塊告示牌上書寫文字。\r\n用它來做紀錄或與他人溝通吧。"
+        }
+      },
+      "BUILDOBJECT_DESC_BaseCampBattleDirector": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_BaseCampBattleDirector_TextData",
+          "SourceString": "用於更改據點內帕魯警戒狀態的鐘。\r\n可隨時於「迎擊外敵」及「專心工作」之間切換。",
+          "LocalizedString": "用於更改據點內帕魯警戒狀態的鐘。\r\n可隨時於「迎擊外敵」及「專心工作」之間切換。"
+        }
+      },
+      "BUILDOBJECT_DESC_DefenseWall_Wood": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_DefenseWall_Wood_TextData",
+          "SourceString": "防止外敵入侵的巨大防禦牆。\r\n以木頭製成，相當脆弱。",
+          "LocalizedString": "防止外敵入侵的巨大防禦牆。\r\n以木頭製成，相當脆弱。"
+        }
+      },
+      "BUILDOBJECT_DESC_DefenseWall_Metal": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_DefenseWall_Metal_TextData",
+          "SourceString": "防止外敵入侵的巨大防禦牆。\r\n以金屬製成，非常堅固。",
+          "LocalizedString": "防止外敵入侵的巨大防禦牆。\r\n以金屬製成，非常堅固。"
+        }
+      },
+      "BUILDOBJECT_DESC_TableSquare_Wood": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_TableSquare_Wood_TextData",
+          "SourceString": "裝飾用的方桌。\r\n",
+          "LocalizedString": "裝飾用的方桌。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_TableCircular_Wood": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_TableCircular_Wood_TextData",
+          "SourceString": "裝飾用的圓桌。\r\n",
+          "LocalizedString": "裝飾用的圓桌。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Bench_Wood": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Bench_Wood_TextData",
+          "SourceString": "裝飾用的木製長椅。\r\n",
+          "LocalizedString": "裝飾用的木製長椅。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Stool_Wood": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Stool_Wood_TextData",
+          "SourceString": "裝飾用的木製凳子。\r\n",
+          "LocalizedString": "裝飾用的木製凳子。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Decal_PalSticker_PinkCat": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Decal_PalSticker_PinkCat_TextData",
+          "SourceString": "tuppanyan貼紙",
+          "LocalizedString": "tuppanyan貼紙"
+        }
+      },
+      "BUILDOBJECT_DESC_Stool_High_Wood": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Stool_High_Wood_TextData",
+          "SourceString": "裝飾用的木製高腳凳。\r\n",
+          "LocalizedString": "裝飾用的木製高腳凳。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Barrel_Wood": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Barrel_Wood_TextData",
+          "SourceString": "可用於收納道具的木桶。",
+          "LocalizedString": "可用於收納道具的木桶。"
+        }
+      },
+      "BUILDOBJECT_DESC_Box_Wood": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Box_Wood_TextData",
+          "SourceString": "可用於收納道具的木箱。",
+          "LocalizedString": "可用於收納道具的木箱。"
+        }
+      },
+      "BUILDOBJECT_DESC_Shelf_Wood": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Shelf_Wood_TextData",
+          "SourceString": "可用於收納道具的木製架子。",
+          "LocalizedString": "可用於收納道具的木製架子。"
+        }
+      },
+      "BUILDOBJECT_DESC_Shelf_Cask_Wood": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Shelf_Cask_Wood_TextData",
+          "SourceString": "可用於收納道具的木桶架子。",
+          "LocalizedString": "可用於收納道具的木桶架子。"
+        }
+      },
+      "BUILDOBJECT_DESC_Shelf_Hang01_Wood": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Shelf_Hang01_Wood_TextData",
+          "SourceString": "可用於收納道具的木製架子。\r\n可以裝在牆壁上。",
+          "LocalizedString": "可用於收納道具的木製架子。\r\n可以裝在牆壁上。"
+        }
+      },
+      "BUILDOBJECT_DESC_Shelf_Hang02_Wood": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Shelf_Hang02_Wood_TextData",
+          "SourceString": "裝飾用的木製架子。\r\n可以裝在牆壁上。",
+          "LocalizedString": "裝飾用的木製架子。\r\n可以裝在牆壁上。"
+        }
+      },
+      "BUILDOBJECT_DESC_Counter_Wood": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Counter_Wood_TextData",
+          "SourceString": "裝飾用的木造吧台。",
+          "LocalizedString": "裝飾用的木造吧台。"
+        }
+      },
+      "BUILDOBJECT_DESC_Rug_Wood": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Rug_Wood_TextData",
+          "SourceString": "毛皮地毯",
+          "LocalizedString": "毛皮地毯"
+        }
+      },
+      "BUILDOBJECT_DESC_Ivy01": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Ivy01_TextData",
+          "SourceString": "裝飾用的大型常春藤。\r\n可以裝在牆壁上。",
+          "LocalizedString": "裝飾用的大型常春藤。\r\n可以裝在牆壁上。"
+        }
+      },
+      "BUILDOBJECT_DESC_Ivy02": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Ivy02_TextData",
+          "SourceString": "裝飾用的小型常春藤。\r\n可以裝在牆壁上。",
+          "LocalizedString": "裝飾用的小型常春藤。\r\n可以裝在牆壁上。"
+        }
+      },
+      "BUILDOBJECT_DESC_Ivy03": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Ivy03_TextData",
+          "SourceString": "裝飾用的長型常春藤。\r\n可以裝在牆壁上。",
+          "LocalizedString": "裝飾用的長型常春藤。\r\n可以裝在牆壁上。"
+        }
+      },
+      "BUILDOBJECT_DESC_Chair01_Wood": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Chair01_Wood_TextData",
+          "SourceString": "裝飾用的木椅。\r\n",
+          "LocalizedString": "裝飾用的木椅。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Barrel01_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Barrel01_Iron_TextData",
+          "SourceString": "裝飾用的紅色鐵桶。\r\n",
+          "LocalizedString": "裝飾用的紅色鐵桶。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Barrel02_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Barrel02_Iron_TextData",
+          "SourceString": "裝飾用的藍色鐵桶。\r\n",
+          "LocalizedString": "裝飾用的藍色鐵桶。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Barrel03_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Barrel03_Iron_TextData",
+          "SourceString": "裝飾用的綠色鐵桶。\r\n",
+          "LocalizedString": "裝飾用的綠色鐵桶。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Box01_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Box01_Iron_TextData",
+          "SourceString": "可用於收納道具的鐵製箱子。",
+          "LocalizedString": "可用於收納道具的鐵製箱子。"
+        }
+      },
+      "BUILDOBJECT_DESC_Box02_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Box02_Iron_TextData",
+          "SourceString": "可用於收納道具的帆布鐵製箱子。",
+          "LocalizedString": "可用於收納道具的帆布鐵製箱子。"
+        }
+      },
+      "BUILDOBJECT_DESC_CableCoil01_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_CableCoil01_Iron_TextData",
+          "SourceString": "裝飾用的電纜盤。\r\n",
+          "LocalizedString": "裝飾用的電纜盤。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Chair01_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Chair01_Iron_TextData",
+          "SourceString": "裝飾用的皮椅。\r\n",
+          "LocalizedString": "裝飾用的皮椅。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Chair02_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Chair02_Iron_TextData",
+          "SourceString": "裝飾用的鐵椅。\r\n",
+          "LocalizedString": "裝飾用的鐵椅。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Clock01_Wall_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Clock01_Wall_Iron_TextData",
+          "SourceString": "裝飾用的掛鐘。\r\n已經損壞，無法用來查看時間。",
+          "LocalizedString": "裝飾用的掛鐘。\r\n已經損壞，無法用來查看時間。"
+        }
+      },
+      "BUILDOBJECT_DESC_Container01_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Container01_Iron_TextData",
+          "SourceString": "可用於收納道具的大型貨櫃。\r\n設計上致敬了繁華古代文明的遺物。",
+          "LocalizedString": "可用於收納道具的大型貨櫃。\r\n設計上致敬了繁華古代文明的遺物。"
+        }
+      },
+      "BUILDOBJECT_DESC_GarbageBag_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_GarbageBag_Iron_TextData",
+          "SourceString": "裝飾用的垃圾袋。\r\n",
+          "LocalizedString": "裝飾用的垃圾袋。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_GoalSoccer_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_GoalSoccer_Iron_TextData",
+          "SourceString": "裝飾用的足球球門。\r\n把<characterName id=|SheepBall|/>踢進球門也無法得分。",
+          "LocalizedString": "裝飾用的足球球門。\r\n把<characterName id=|SheepBall|/>踢進球門也無法得分。"
+        }
+      },
+      "BUILDOBJECT_DESC_MachineGame01_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_MachineGame01_Iron_TextData",
+          "SourceString": "裝飾用的夾娃娃機。\r\n已經損壞，無法遊玩。",
+          "LocalizedString": "裝飾用的夾娃娃機。\r\n已經損壞，無法遊玩。"
+        }
+      },
+      "BUILDOBJECT_DESC_MachineVending01_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_MachineVending01_Iron_TextData",
+          "SourceString": "裝飾用的可樂自動販賣機。\r\n不管投多少硬幣也無法購買道具。",
+          "LocalizedString": "裝飾用的可樂自動販賣機。\r\n不管投多少硬幣也無法購買道具。"
+        }
+      },
+      "BUILDOBJECT_DESC_PipeClay01_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_PipeClay01_Iron_TextData",
+          "SourceString": "裝飾用的陶管。\r\n",
+          "LocalizedString": "裝飾用的陶管。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Shelf01_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Shelf01_Iron_TextData",
+          "SourceString": "可用於收納道具的鐵製架子。",
+          "LocalizedString": "可用於收納道具的鐵製架子。"
+        }
+      },
+      "BUILDOBJECT_DESC_Shelf02_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Shelf02_Iron_TextData",
+          "SourceString": "可用於收納道具的鐵製橫架。",
+          "LocalizedString": "可用於收納道具的鐵製橫架。"
+        }
+      },
+      "BUILDOBJECT_DESC_Shelf03_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Shelf03_Iron_TextData",
+          "SourceString": "可用於收納道具的橘色置物櫃。\r\n上面貼著帕魯圖案的貼紙。",
+          "LocalizedString": "可用於收納道具的橘色置物櫃。\r\n上面貼著帕魯圖案的貼紙。"
+        }
+      },
+      "BUILDOBJECT_DESC_Shelf04_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Shelf04_Iron_TextData",
+          "SourceString": "可用於收納道具的置物櫃。\r\n上面貼著帕魯圖案的貼紙。",
+          "LocalizedString": "可用於收納道具的置物櫃。\r\n上面貼著帕魯圖案的貼紙。"
+        }
+      },
+      "BUILDOBJECT_DESC_SignExit_Ceiling_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SignExit_Ceiling_Iron_TextData",
+          "SourceString": "裝飾用的緊急出口標誌。\r\n可安裝在天花板上。\r\n",
+          "LocalizedString": "裝飾用的緊急出口標誌。\r\n可安裝在天花板上。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_SignExit_Wall_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SignExit_Wall_Iron_TextData",
+          "SourceString": "裝飾用的緊急出口標誌。\r\n可安裝在牆壁上。\r\n",
+          "LocalizedString": "裝飾用的緊急出口標誌。\r\n可安裝在牆壁上。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Sofa01_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Sofa01_Iron_TextData",
+          "SourceString": "裝飾用的單人皮製沙發。\r\n",
+          "LocalizedString": "裝飾用的單人皮製沙發。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Sofa02_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Sofa02_Iron_TextData",
+          "SourceString": "裝飾用的雙人皮製沙發。\r\n",
+          "LocalizedString": "裝飾用的雙人皮製沙發。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Stool01_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Stool01_Iron_TextData",
+          "SourceString": "裝飾用的鐵製凳子。\r\n",
+          "LocalizedString": "裝飾用的鐵製凳子。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_TableCircular01_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_TableCircular01_Iron_TextData",
+          "SourceString": "裝飾用的鐵製圓桌。\r\n",
+          "LocalizedString": "裝飾用的鐵製圓桌。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_TableSide01_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_TableSide01_Iron_TextData",
+          "SourceString": "裝飾用的鐵木邊桌。\r\n",
+          "LocalizedString": "裝飾用的鐵木邊桌。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_TableSquare01_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_TableSquare01_Iron_TextData",
+          "SourceString": "裝飾用的鐵木桌。\r\n",
+          "LocalizedString": "裝飾用的鐵木桌。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_TableSquare02_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_TableSquare02_Iron_TextData",
+          "SourceString": "裝飾用的鐵木茶几。\r\n",
+          "LocalizedString": "裝飾用的鐵木茶几。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Tire01_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Tire01_Iron_TextData",
+          "SourceString": "裝飾用的輪胎。\r\n",
+          "LocalizedString": "裝飾用的輪胎。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_TrafficBarricade01_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_TrafficBarricade01_Iron_TextData",
+          "SourceString": "裝飾用的路障。\r\n",
+          "LocalizedString": "裝飾用的路障。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_TrafficBarricade02_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_TrafficBarricade02_Iron_TextData",
+          "SourceString": "裝飾用的橘色路障。\r\n",
+          "LocalizedString": "裝飾用的橘色路障。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_TrafficBarricade03_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_TrafficBarricade03_Iron_TextData",
+          "SourceString": "裝飾用的鐵製紅色路障。\r\n",
+          "LocalizedString": "裝飾用的鐵製紅色路障。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_TrafficBarricade04_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_TrafficBarricade04_Iron_TextData",
+          "SourceString": "裝飾用的鐵製白色路障。\r\n",
+          "LocalizedString": "裝飾用的鐵製白色路障。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_TrafficBarricade05_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_TrafficBarricade05_Iron_TextData",
+          "SourceString": "裝飾用的鐵製籬笆。\r\n",
+          "LocalizedString": "裝飾用的鐵製籬笆。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_TrafficCone01_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_TrafficCone01_Iron_TextData",
+          "SourceString": "裝飾用的三角錐。\r\n",
+          "LocalizedString": "裝飾用的三角錐。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_TrafficCone02_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_TrafficCone02_Iron_TextData",
+          "SourceString": "裝飾用的寬版交通錐。\r\n",
+          "LocalizedString": "裝飾用的寬版交通錐。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_TrafficCone03_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_TrafficCone03_Iron_TextData",
+          "SourceString": "裝飾用的窄版交通錐。\r\n",
+          "LocalizedString": "裝飾用的窄版交通錐。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_TrafficLight01_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_TrafficLight01_Iron_TextData",
+          "SourceString": "裝飾用的紅綠燈。\r\n",
+          "LocalizedString": "裝飾用的紅綠燈。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_BathTub_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_BathTub_Stone_TextData",
+          "SourceString": "裝飾用的古典浴缸。\r\n",
+          "LocalizedString": "裝飾用的古典浴缸。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Box01_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Box01_Stone_TextData",
+          "SourceString": "裝飾用的古典藤編箱子。\r\n",
+          "LocalizedString": "裝飾用的古典藤編箱子。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Chair01_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Chair01_Stone_TextData",
+          "SourceString": "裝飾用的古典木椅。\r\n",
+          "LocalizedString": "裝飾用的古典木椅。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Chair02_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Chair02_Stone_TextData",
+          "SourceString": "裝飾用的古典綠色木椅。\r\n",
+          "LocalizedString": "裝飾用的古典綠色木椅。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Clock01_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Clock01_Stone_TextData",
+          "SourceString": "裝飾用的古典座鐘。\r\n已經損壞，無法用來查看時間。",
+          "LocalizedString": "裝飾用的古典座鐘。\r\n已經損壞，無法用來查看時間。"
+        }
+      },
+      "BUILDOBJECT_DESC_Curtain01_Wall_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Curtain01_Wall_Stone_TextData",
+          "SourceString": "裝飾用的古典窗簾。\r\n可以裝在牆壁上。\r\n",
+          "LocalizedString": "裝飾用的古典窗簾。\r\n可以裝在牆壁上。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Desk01_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Desk01_Stone_TextData",
+          "SourceString": "裝飾用的古典書桌。\r\n",
+          "LocalizedString": "裝飾用的古典書桌。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Globe01_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Globe01_Stone_TextData",
+          "SourceString": "裝飾用的古典地球儀。\r\n",
+          "LocalizedString": "裝飾用的古典地球儀。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Mirror01_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Mirror01_Stone_TextData",
+          "SourceString": "裝飾用的古典橢圓鏡子。\r\n",
+          "LocalizedString": "裝飾用的古典橢圓鏡子。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Mirror02_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Mirror02_Stone_TextData",
+          "SourceString": "裝飾用的古典鏡子。\r\n",
+          "LocalizedString": "裝飾用的古典鏡子。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Mirror01_Wall_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Mirror01_Wall_Stone_TextData",
+          "SourceString": "裝飾用的古典壁掛鏡子。\r\n可以裝在牆壁上。\r\n",
+          "LocalizedString": "裝飾用的古典壁掛鏡子。\r\n可以裝在牆壁上。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Partition_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Partition_Stone_TextData",
+          "SourceString": "裝飾用的古典屏風。\r\n",
+          "LocalizedString": "裝飾用的古典屏風。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Piano01_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Piano01_Stone_TextData",
+          "SourceString": "裝飾用的大鋼琴。\r\n無法彈奏音樂。",
+          "LocalizedString": "裝飾用的大鋼琴。\r\n無法彈奏音樂。"
+        }
+      },
+      "BUILDOBJECT_DESC_Piano02_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Piano02_Stone_TextData",
+          "SourceString": "裝飾用的直立式鋼琴。\r\n無法彈奏音樂。",
+          "LocalizedString": "裝飾用的直立式鋼琴。\r\n無法彈奏音樂。"
+        }
+      },
+      "BUILDOBJECT_DESC_Rug01_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Rug01_Stone_TextData",
+          "SourceString": "裝飾用的古典地毯。\r\n",
+          "LocalizedString": "裝飾用的古典地毯。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Rug02_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Rug02_Stone_TextData",
+          "SourceString": "裝飾用的古典紅色地毯。\r\n",
+          "LocalizedString": "裝飾用的古典紅色地毯。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Rug03_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Rug03_Stone_TextData",
+          "SourceString": "裝飾用的古典綠色地毯。\r\n",
+          "LocalizedString": "裝飾用的古典綠色地毯。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Rug04_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Rug04_Stone_TextData",
+          "SourceString": "裝飾用的古典長型地毯。\r\n",
+          "LocalizedString": "裝飾用的古典長型地毯。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Shelf01_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Shelf01_Stone_TextData",
+          "SourceString": "可用於收納道具的古典書架。",
+          "LocalizedString": "可用於收納道具的古典書架。"
+        }
+      },
+      "BUILDOBJECT_DESC_Shelf02_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Shelf02_Stone_TextData",
+          "SourceString": "可用於收納道具的古典衣櫥。",
+          "LocalizedString": "可用於收納道具的古典衣櫥。"
+        }
+      },
+      "BUILDOBJECT_DESC_Shelf03_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Shelf03_Stone_TextData",
+          "SourceString": "可用於收納道具的古典抽屜櫃。\r\n飾有帕魯的照片。",
+          "LocalizedString": "可用於收納道具的古典抽屜櫃。\r\n飾有帕魯的照片。"
+        }
+      },
+      "BUILDOBJECT_DESC_Shelf04_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Shelf04_Stone_TextData",
+          "SourceString": "可用於收納道具的古典床頭櫃。\r\n飾有帕魯的照片。",
+          "LocalizedString": "可用於收納道具的古典床頭櫃。\r\n飾有帕魯的照片。"
+        }
+      },
+      "BUILDOBJECT_DESC_Shelf05_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Shelf05_Stone_TextData",
+          "SourceString": "可用於收納道具的古典櫥櫃。",
+          "LocalizedString": "可用於收納道具的古典櫥櫃。"
+        }
+      },
+      "BUILDOBJECT_DESC_Shelf06_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Shelf06_Stone_TextData",
+          "SourceString": "可用於收納道具的古典橫型櫥櫃。\r\n飾有帕魯的照片。",
+          "LocalizedString": "可用於收納道具的古典橫型櫥櫃。\r\n飾有帕魯的照片。"
+        }
+      },
+      "BUILDOBJECT_DESC_Shelf07_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Shelf07_Stone_TextData",
+          "SourceString": "可用於收納道具的古典大型櫥櫃。",
+          "LocalizedString": "可用於收納道具的古典大型櫥櫃。"
+        }
+      },
+      "BUILDOBJECT_DESC_Shelf01_Wall_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Shelf01_Wall_Stone_TextData",
+          "SourceString": "可用於收納道具的古典櫥櫃。\r\n可以裝在牆壁上。",
+          "LocalizedString": "可用於收納道具的古典櫥櫃。\r\n可以裝在牆壁上。"
+        }
+      },
+      "BUILDOBJECT_DESC_Sofa01_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Sofa01_Stone_TextData",
+          "SourceString": "裝飾用的古典單人沙發。\r\n",
+          "LocalizedString": "裝飾用的古典單人沙發。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Sofa02_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Sofa02_Stone_TextData",
+          "SourceString": "裝飾用的古典雙人沙發。\r\n",
+          "LocalizedString": "裝飾用的古典雙人沙發。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Sofa03_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Sofa03_Stone_TextData",
+          "SourceString": "裝飾用的古典椅凳。\r\n",
+          "LocalizedString": "裝飾用的古典椅凳。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Stool01_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Stool01_Stone_TextData",
+          "SourceString": "裝飾用的古典凳子。\r\n",
+          "LocalizedString": "裝飾用的古典凳子。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Stove01_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Stove01_Stone_TextData",
+          "SourceString": "裝飾用的古典火爐。\r\n",
+          "LocalizedString": "裝飾用的古典火爐。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_TableCircular01_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_TableCircular01_Stone_TextData",
+          "SourceString": "裝飾用的古典圓桌。\r\n",
+          "LocalizedString": "裝飾用的古典圓桌。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_TableDresser01_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_TableDresser01_Stone_TextData",
+          "SourceString": "用來檢視自己外貌的梳妝台。\r\n可以改變角色的外觀。",
+          "LocalizedString": "用來檢視自己外貌的梳妝台。\r\n可以改變角色的外觀。"
+        }
+      },
+      "BUILDOBJECT_DESC_TableSink01_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_TableSink01_Stone_TextData",
+          "SourceString": "裝飾用的古典洗手台。\r\n",
+          "LocalizedString": "裝飾用的古典洗手台。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Toilet01_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Toilet01_Stone_TextData",
+          "SourceString": "裝飾用的古典馬桶。\r\n無法用於解決如廁需求。",
+          "LocalizedString": "裝飾用的古典馬桶。\r\n無法用於解決如廁需求。"
+        }
+      },
+      "BUILDOBJECT_DESC_ToiletHolder01_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_ToiletHolder01_Stone_TextData",
+          "SourceString": "裝飾用的古典捲筒衛生紙架。\r\n",
+          "LocalizedString": "裝飾用的古典捲筒衛生紙架。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_TowlRack01_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_TowlRack01_Stone_TextData",
+          "SourceString": "裝飾用的古典毛巾架。\r\n",
+          "LocalizedString": "裝飾用的古典毛巾架。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Plant01_Plant": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Plant01_Plant_TextData",
+          "SourceString": "裝飾用的觀葉植物。\r\n",
+          "LocalizedString": "裝飾用的觀葉植物。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Plant02_Plant": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Plant02_Plant_TextData",
+          "SourceString": "裝飾用的椅子上的觀葉植物。\r\n",
+          "LocalizedString": "裝飾用的椅子上的觀葉植物。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Plant03_Plant": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Plant03_Plant_TextData",
+          "SourceString": "裝飾用的桌上觀葉植物。\r\n",
+          "LocalizedString": "裝飾用的桌上觀葉植物。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Plant04_Plant": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Plant04_Plant_TextData",
+          "SourceString": "裝飾用的大盆觀葉植物。\r\n",
+          "LocalizedString": "裝飾用的大盆觀葉植物。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Light_FloorLamp01": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Light_FloorLamp01_TextData",
+          "SourceString": "可作為光源的古典棕色立燈。\r\n需有電力才能點亮。",
+          "LocalizedString": "可作為光源的古典棕色立燈。\r\n需有電力才能點亮。"
+        }
+      },
+      "BUILDOBJECT_DESC_Light_FloorLamp02": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Light_FloorLamp02_TextData",
+          "SourceString": "可作為光源的古典紅色立燈。\r\n需有電力才能點亮。",
+          "LocalizedString": "可作為光源的古典紅色立燈。\r\n需有電力才能點亮。"
+        }
+      },
+      "BUILDOBJECT_DESC_Light_LightPole01": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Light_LightPole01_TextData",
+          "SourceString": "可作為光源的普通路燈。\r\n需有電力才能點亮。",
+          "LocalizedString": "可作為光源的普通路燈。\r\n需有電力才能點亮。"
+        }
+      },
+      "BUILDOBJECT_DESC_Light_LightPole02": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Light_LightPole02_TextData",
+          "SourceString": "可作為光源的雙臂路燈。\r\n需有電力才能點亮。",
+          "LocalizedString": "可作為光源的雙臂路燈。\r\n需有電力才能點亮。"
+        }
+      },
+      "BUILDOBJECT_DESC_Light_LightPole03": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Light_LightPole03_TextData",
+          "SourceString": "可作為光源的復古路燈。\r\n需有電力才能點亮。",
+          "LocalizedString": "可作為光源的復古路燈。\r\n需有電力才能點亮。"
+        }
+      },
+      "BUILDOBJECT_DESC_Light_LightPole04": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Light_LightPole04_TextData",
+          "SourceString": "可作為光源的時尚路燈。\r\n需有電力才能點亮。",
+          "LocalizedString": "可作為光源的時尚路燈。\r\n需有電力才能點亮。"
+        }
+      },
+      "BUILDOBJECT_DESC_Light_FirePlace01": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Light_FirePlace01_TextData",
+          "SourceString": "可作為光源的磚造暖爐。\r\n需由火系帕魯提供火源。",
+          "LocalizedString": "可作為光源的磚造暖爐。\r\n需由火系帕魯提供火源。"
+        }
+      },
+      "BUILDOBJECT_DESC_Light_FirePlace02": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Light_FirePlace02_TextData",
+          "SourceString": "可作為光源的暖爐。\r\n需由火系帕魯提供火源。",
+          "LocalizedString": "可作為光源的暖爐。\r\n需由火系帕魯提供火源。"
+        }
+      },
+      "BUILDOBJECT_DESC_Light_CandleSticks_Top": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Light_CandleSticks_Top_TextData",
+          "SourceString": "可作為光源的水晶吊燈。\r\n需有電力才能點亮。",
+          "LocalizedString": "可作為光源的水晶吊燈。\r\n需有電力才能點亮。"
+        }
+      },
+      "BUILDOBJECT_DESC_Light_CandleSticks_Wall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Light_CandleSticks_Wall_TextData",
+          "SourceString": "可作為光源的壁燈。\r\n需有電力才能點亮。",
+          "LocalizedString": "可作為光源的壁燈。\r\n需有電力才能點亮。"
+        }
+      },
+      "BUILDOBJECT_DESC_Television01_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Television01_Iron_TextData",
+          "SourceString": "裝飾用的古老電視。\r\n古代文明的文物，如今只會播放企丸丸的影片。",
+          "LocalizedString": "裝飾用的古老電視。\r\n古代文明的文物，如今只會播放企丸丸的影片。"
+        }
+      },
+      "BUILDOBJECT_DESC_Desk01_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Desk01_Iron_TextData",
+          "SourceString": "裝飾用的鐵製書桌。\r\n",
+          "LocalizedString": "裝飾用的鐵製書桌。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Shelf01_Wall_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Shelf01_Wall_Iron_TextData",
+          "SourceString": "可用於收納道具的鐵製牆面置物架。\r\n可以裝在牆壁上。",
+          "LocalizedString": "可用於收納道具的鐵製牆面置物架。\r\n可以裝在牆壁上。"
+        }
+      },
+      "BUILDOBJECT_DESC_TrafficSign01_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_TrafficSign01_Iron_TextData",
+          "SourceString": "裝飾用的道路標誌（禁止帕魯通行）。\r\n古代文明的產物，如今徒具形式，沒有任何作用。",
+          "LocalizedString": "裝飾用的道路標誌（禁止帕魯通行）。\r\n古代文明的產物，如今徒具形式，沒有任何作用。"
+        }
+      },
+      "BUILDOBJECT_DESC_TrafficSign02_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_TrafficSign02_Iron_TextData",
+          "SourceString": "裝飾用的道路標誌（暫停）。\r\n古代文明的產物，如今徒具形式，沒有任何作用。",
+          "LocalizedString": "裝飾用的道路標誌（暫停）。\r\n古代文明的產物，如今徒具形式，沒有任何作用。"
+        }
+      },
+      "BUILDOBJECT_DESC_TrafficSign03_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_TrafficSign03_Iron_TextData",
+          "SourceString": "裝置用的道路標誌（當心紫霞鹿）。\r\n據說在古代文明中，\r\n經常發生與紫霞鹿及帕魯碰撞的事故。",
+          "LocalizedString": "裝置用的道路標誌（當心紫霞鹿）。\r\n據說在古代文明中，\r\n經常發生與紫霞鹿及帕魯碰撞的事故。"
+        }
+      },
+      "BUILDOBJECT_DESC_TrafficSign04_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_TrafficSign04_Iron_TextData",
+          "SourceString": "裝置用的道路標誌（當心森猛獁）。\r\n據說在古代文明中，\r\n經常發生因不慎惹怒森猛獁而死亡的事故。",
+          "LocalizedString": "裝置用的道路標誌（當心森猛獁）。\r\n據說在古代文明中，\r\n經常發生因不慎惹怒森猛獁而死亡的事故。"
+        }
+      },
+      "BUILDOBJECT_DESC_Wood_WindowWall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Wood_WindowWall_TextData",
+          "SourceString": "建於地基上的附窗牆壁，用於防止入侵者。\r\n以木頭製成，相當脆弱。",
+          "LocalizedString": "建於地基上的附窗牆壁，用於防止入侵者。\r\n以木頭製成，相當脆弱。"
+        }
+      },
+      "BUILDOBJECT_DESC_Stone_WindowWall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Stone_WindowWall_TextData",
+          "SourceString": "建於地基上的附窗牆壁，用於防止入侵者。\r\n以石頭製成，還算堅固。",
+          "LocalizedString": "建於地基上的附窗牆壁，用於防止入侵者。\r\n以石頭製成，還算堅固。"
+        }
+      },
+      "BUILDOBJECT_DESC_Metal_WindowWall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Metal_WindowWall_TextData",
+          "SourceString": "建於地基上的附窗牆壁，用於防止入侵者。\r\n以金屬製成，非常堅固。",
+          "LocalizedString": "建於地基上的附窗牆壁，用於防止入侵者。\r\n以金屬製成，非常堅固。"
+        }
+      },
+      "BUILDOBJECT_DESC_Wood_TriangleWall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Wood_TriangleWall_TextData",
+          "SourceString": "建於地基上的三角牆。\r\n以木頭製成，相當脆弱。",
+          "LocalizedString": "建於地基上的三角牆。\r\n以木頭製成，相當脆弱。"
+        }
+      },
+      "BUILDOBJECT_DESC_Stone_TriangleWall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Stone_TriangleWall_TextData",
+          "SourceString": "建於地基上的三角牆。\r\n以石頭製成，還算堅固。",
+          "LocalizedString": "建於地基上的三角牆。\r\n以石頭製成，還算堅固。"
+        }
+      },
+      "BUILDOBJECT_DESC_Metal_TriangleWall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Metal_TriangleWall_TextData",
+          "SourceString": "建於地基上的三角牆。\r\n以金屬製成，非常堅固。",
+          "LocalizedString": "建於地基上的三角牆。\r\n以金屬製成，非常堅固。"
+        }
+      },
+      "BUILDOBJECT_DESC_Wood_SlantedRoof": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Wood_SlantedRoof_TextData",
+          "SourceString": "建於牆壁上方的斜屋頂，用於遮擋風雨。\r\n以木頭製成，相當脆弱。",
+          "LocalizedString": "建於牆壁上方的斜屋頂，用於遮擋風雨。\r\n以木頭製成，相當脆弱。"
+        }
+      },
+      "BUILDOBJECT_DESC_Stone_SlantedRoof": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Stone_SlantedRoof_TextData",
+          "SourceString": "建於牆壁上方的斜屋頂，用於遮擋風雨。\r\n以石頭製成，還算堅固。",
+          "LocalizedString": "建於牆壁上方的斜屋頂，用於遮擋風雨。\r\n以石頭製成，還算堅固。"
+        }
+      },
+      "BUILDOBJECT_DESC_Metal_SlantedRoof": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Metal_SlantedRoof_TextData",
+          "SourceString": "建於牆壁上方的斜屋頂，用於遮擋風雨。\r\n以金屬製成，非常堅固。",
+          "LocalizedString": "建於牆壁上方的斜屋頂，用於遮擋風雨。\r\n以金屬製成，非常堅固。"
+        }
+      },
+      "BUILDOBJECT_DESC_Chair01_Pal": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Chair01_Pal_TextData",
+          "SourceString": "裝飾用的可愛椅子。",
+          "LocalizedString": "裝飾用的可愛椅子。"
+        }
+      },
+      "BUILDOBJECT_DESC_Altar": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Altar_TextData",
+          "SourceString": "在此獻上上面繪有帕魯的石板，\r\n就能將強大的帕魯召喚至據點。\r\n須做好十足的戰鬥準備。",
+          "LocalizedString": "在此獻上上面繪有帕魯的石板，\r\n就能將強大的帕魯召喚至據點。\r\n須做好十足的戰鬥準備。"
+        }
+      },
+      "BUILDOBJECT_DESC_CopperPit": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_CopperPit_TextData",
+          "SourceString": "生產<itemName id=|CopperOre|/>的設施。\r\n挖掘<itemName id=|CopperOre|/>的工作需要大量體力，相當嚴苛。\r\n把這些工作交給擅長挖掘的帕魯吧。",
+          "LocalizedString": "生產<itemName id=|CopperOre|/>的設施。\r\n挖掘<itemName id=|CopperOre|/>的工作需要大量體力，相當嚴苛。\r\n把這些工作交給擅長挖掘的帕魯吧。"
+        }
+      },
+      "BUILDOBJECT_DESC_CopperPit_2": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_CopperPit_2_TextData",
+          "SourceString": "可大量生產<itemName id=|CopperOre|/>的設施。\r\n挖掘<itemName id=|CopperOre|/>的工作需要大量體力，相當嚴苛。\r\n把這些工作交給擅長挖掘的帕魯吧。",
+          "LocalizedString": "可大量生產<itemName id=|CopperOre|/>的設施。\r\n挖掘<itemName id=|CopperOre|/>的工作需要大量體力，相當嚴苛。\r\n把這些工作交給擅長挖掘的帕魯吧。"
+        }
+      },
+      "BUILDOBJECT_DESC_ElectricHatchingPalEgg": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_ElectricHatchingPalEgg_TextData",
+          "SourceString": "用於孵化帕魯蛋的裝置。\r\n需有電力供應才能使用，\r\n但備有使孵化器內部自動維持在最佳溫度的功能。",
+          "LocalizedString": "用於孵化帕魯蛋的裝置。\r\n需有電力供應才能使用，\r\n但備有使孵化器內部自動維持在最佳溫度的功能。"
+        }
+      },
+      "BUILDOBJECT_DESC_OilPump": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_OilPump_TextData",
+          "SourceString": "從油田提取<itemName id=|CrudeOil|/>所需的設備。\r\n它需要大量電力供應才能運行。",
+          "LocalizedString": "從油田提取<itemName id=|CrudeOil|/>所需的設備。\r\n它需要大量電力供應才能運行。"
+        }
+      },
+      "BUILDOBJECT_DESC_CoolerPalFoodBox": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_CoolerPalFoodBox_TextData",
+          "SourceString": "可以冷凍的飼料箱。\r\n將冰系帕魯指派到這裡工作時，\r\n可以使裡面的食物較不易腐壞。",
+          "LocalizedString": "可以冷凍的飼料箱。\r\n將冰系帕魯指派到這裡工作時，\r\n可以使裡面的食物較不易腐壞。"
+        }
+      },
+      "BUILDOBJECT_DESC_SulfurPit": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SulfurPit_TextData",
+          "SourceString": "生產<itemName id=|Sulfur|/>的設施。\r\n挖掘<itemName id=|Sulfur|/>的工作需要大量體力，相當嚴苛。\r\n把這些工作交給擅長挖掘的帕魯吧。",
+          "LocalizedString": "生產<itemName id=|Sulfur|/>的設施。\r\n挖掘<itemName id=|Sulfur|/>的工作需要大量體力，相當嚴苛。\r\n把這些工作交給擅長挖掘的帕魯吧。"
+        }
+      },
+      "BUILDOBJECT_DESC_CoalPit": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_CoalPit_TextData",
+          "SourceString": "生產<itemName id=|Coal|/>的設施。\r\n挖掘<itemName id=|Coal|/>的工作需要大量體力，相當嚴苛。\r\n把這些工作交給擅長挖掘的帕魯吧。",
+          "LocalizedString": "生產<itemName id=|Coal|/>的設施。\r\n挖掘<itemName id=|Coal|/>的工作需要大量體力，相當嚴苛。\r\n把這些工作交給擅長挖掘的帕魯吧。"
+        }
+      },
+      "BUILDOBJECT_DESC_IceCrusher": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_IceCrusher_TextData",
+          "SourceString": "可粉碎<itemName id=|CopperOre|/>以轉換成其他材料的設施。\r\n雖然要使其工作需要電力供應，以及有「冷卻」適應性的帕魯，但是效率極佳。",
+          "LocalizedString": "可粉碎<itemName id=|CopperOre|/>以轉換成其他材料的設施。\r\n雖然要使其工作需要電力供應，以及有「冷卻」適應性的帕魯，但是效率極佳。"
+        }
+      },
+      "BUILDOBJECT_DESC_DismantlingConveyor": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_DismantlingConveyor_TextData",
+          "SourceString": "能夠將放入的帕魯自動解體的，夢幻般的設備。",
+          "LocalizedString": "能夠將放入的帕魯自動解體的，夢幻般的設備。"
+        }
+      },
+      "BUILDOBJECT_DESC_WallSignboard": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_WallSignboard_TextData",
+          "SourceString": "可在這塊告示牌上書寫文字。\r\n可以懸掛在牆壁上。",
+          "LocalizedString": "可在這塊告示牌上書寫文字。\r\n可以懸掛在牆壁上。"
+        }
+      },
+      "BUILDOBJECT_DESC_ElectricGenerator_Large": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_ElectricGenerator_Large_TextData",
+          "SourceString": "儲存雷系帕魯產生的電力的設施。\r\n更加大型，發電效率也更高。",
+          "LocalizedString": "儲存雷系帕魯產生的電力的設施。\r\n更加大型，發電效率也更高。"
+        }
+      },
+      "MAPOBJECT_DESC_TreasureBox_Electric": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "MAPOBJECT_DESC_TreasureBox_Electric_TextData",
+          "SourceString": "zh_Hant_Text",
+          "LocalizedString": "zh_Hant_Text"
+        }
+      },
+      "MAPOBJECT_DESC_TreasureBox_Ivy": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "MAPOBJECT_DESC_TreasureBox_Ivy_TextData",
+          "SourceString": "zh_Hant_Text",
+          "LocalizedString": "zh_Hant_Text"
+        }
+      },
+      "MAPOBJECT_DESC_TreasureBox_Ice": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "MAPOBJECT_DESC_TreasureBox_Ice_TextData",
+          "SourceString": "zh_Hant_Text",
+          "LocalizedString": "zh_Hant_Text"
+        }
+      },
+      "BUILDOBJECT_DESC_Glass_foundation": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Glass_foundation_TextData",
+          "SourceString": "建築地基，可在上面建造牆壁或設施。\r\n以鋼化玻璃製成，非常堅固。",
+          "LocalizedString": "建築地基，可在上面建造牆壁或設施。\r\n以鋼化玻璃製成，非常堅固。"
+        }
+      },
+      "BUILDOBJECT_DESC_Glass_wall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Glass_wall_TextData",
+          "SourceString": "建於地基上的牆壁，用於防止入侵者。\r\n以鋼化玻璃製成，非常堅固。",
+          "LocalizedString": "建於地基上的牆壁，用於防止入侵者。\r\n以鋼化玻璃製成，非常堅固。"
+        }
+      },
+      "BUILDOBJECT_DESC_Glass_roof": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Glass_roof_TextData",
+          "SourceString": "建於牆壁上方的屋頂，用於遮擋風雨。\r\n以鋼化玻璃製成，非常堅固。",
+          "LocalizedString": "建於牆壁上方的屋頂，用於遮擋風雨。\r\n以鋼化玻璃製成，非常堅固。"
+        }
+      },
+      "BUILDOBJECT_DESC_Glass_stair": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Glass_stair_TextData",
+          "SourceString": "置於地基或屋頂下方，使之易於攀登的樓梯。\r\n以鋼化玻璃製成，非常堅固。",
+          "LocalizedString": "置於地基或屋頂下方，使之易於攀登的樓梯。\r\n以鋼化玻璃製成，非常堅固。"
+        }
+      },
+      "BUILDOBJECT_DESC_Glass_DoorWall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Glass_DoorWall_TextData",
+          "SourceString": "建於地基上的門，可作為出入口。\r\n以鋼化玻璃製成，非常堅固。",
+          "LocalizedString": "建於地基上的門，可作為出入口。\r\n以鋼化玻璃製成，非常堅固。"
+        }
+      },
+      "BUILDOBJECT_DESC_Glass_TriangleWall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Glass_TriangleWall_TextData",
+          "SourceString": "建於地基上的三角牆。\r\n以鋼化玻璃製成，非常堅固。",
+          "LocalizedString": "建於地基上的三角牆。\r\n以鋼化玻璃製成，非常堅固。"
+        }
+      },
+      "BUILDOBJECT_DESC_Glass_SlantedRoof": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Glass_SlantedRoof_TextData",
+          "SourceString": "建於牆壁上方的斜屋頂，用於遮擋風雨。\r\n以鋼化玻璃製成，非常堅固。",
+          "LocalizedString": "建於牆壁上方的斜屋頂，用於遮擋風雨。\r\n以鋼化玻璃製成，非常堅固。"
+        }
+      },
+      "BUILDOBJECT_DESC_Glass_WindowWall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Glass_WindowWall_TextData",
+          "SourceString": "建於地基上的附窗牆壁，用於防止入侵者。\r\n以鋼化玻璃製成，非常堅固。",
+          "LocalizedString": "建於地基上的附窗牆壁，用於防止入侵者。\r\n以鋼化玻璃製成，非常堅固。"
+        }
+      },
+      "BUILDOBJECT_DESC_Wooden_Pillar": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Wooden_Pillar_TextData",
+          "SourceString": "用來支撐建築的立柱。\r\n以木頭製成，相當脆弱。",
+          "LocalizedString": "用來支撐建築的立柱。\r\n以木頭製成，相當脆弱。"
+        }
+      },
+      "BUILDOBJECT_DESC_Stone_Pillar": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Stone_Pillar_TextData",
+          "SourceString": "用來支撐建築的立柱。\r\n以石頭製成，還算堅固。",
+          "LocalizedString": "用來支撐建築的立柱。\r\n以石頭製成，還算堅固。"
+        }
+      },
+      "BUILDOBJECT_DESC_Metal_Pillars": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Metal_Pillars_TextData",
+          "SourceString": "用來支撐建築的立柱。\r\n以金屬製成，非常堅固。",
+          "LocalizedString": "用來支撐建築的立柱。\r\n以金屬製成，非常堅固。"
+        }
+      },
+      "BUILDOBJECT_DESC_Glass_Pillars": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Glass_Pillars_TextData",
+          "SourceString": "用來支撐建築的立柱。\r\n以鋼化玻璃製成，非常堅固。",
+          "LocalizedString": "用來支撐建築的立柱。\r\n以鋼化玻璃製成，非常堅固。"
+        }
+      },
+      "BUILDOBJECT_DESC_SkinChange": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SkinChange_TextData",
+          "SourceString": "用於改變外觀的設施。\r\n可以為帕魯更換特別的外觀。\r\n通過遊戲外的其他方式獲得的外觀也能使用。",
+          "LocalizedString": "用於改變外觀的設施。\r\n可以為帕魯更換特別的外觀。\r\n通過遊戲外的其他方式獲得的外觀也能使用。"
+        }
+      },
+      "BUILDOBJECT_DESC_JapaneseStyle_wall_01": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_JapaneseStyle_wall_01_TextData",
+          "SourceString": "建於地基上的牆壁，用於防止入侵者。\r\n可以建造出時尚的日式建築。",
+          "LocalizedString": "建於地基上的牆壁，用於防止入侵者。\r\n可以建造出時尚的日式建築。"
+        }
+      },
+      "BUILDOBJECT_DESC_JapaneseStyle_wall_02": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_JapaneseStyle_wall_02_TextData",
+          "SourceString": "室內用的牆壁，用於防止入侵者。\r\n可以建造出時尚的日式建築。",
+          "LocalizedString": "室內用的牆壁，用於防止入侵者。\r\n可以建造出時尚的日式建築。"
+        }
+      },
+      "BUILDOBJECT_DESC_JapaneseStyle_DoorWall_01": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_JapaneseStyle_DoorWall_01_TextData",
+          "SourceString": "建於地基上的門，可作為出入口。\r\n可以建造出時尚的日式建築。",
+          "LocalizedString": "建於地基上的門，可作為出入口。\r\n可以建造出時尚的日式建築。"
+        }
+      },
+      "BUILDOBJECT_DESC_JapaneseStyle_DoorWall_02": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_JapaneseStyle_DoorWall_02_TextData",
+          "SourceString": "建於地基上的橫拉門，可作為出入口。\r\n可以建造出時尚的日式建築。",
+          "LocalizedString": "建於地基上的橫拉門，可作為出入口。\r\n可以建造出時尚的日式建築。"
+        }
+      },
+      "BUILDOBJECT_DESC_JapaneseStyle_DoorWall_03": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_JapaneseStyle_DoorWall_03_TextData",
+          "SourceString": "建於地基上的紙拉門，可作為出入口。\r\n可以建造出時尚的日式建築。",
+          "LocalizedString": "建於地基上的紙拉門，可作為出入口。\r\n可以建造出時尚的日式建築。"
+        }
+      },
+      "BUILDOBJECT_DESC_JapaneseStyle_ConnectingWall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_JapaneseStyle_ConnectingWall_TextData",
+          "SourceString": "zh_Hans_Text",
+          "LocalizedString": "zh_Hans_Text"
+        }
+      },
+      "BUILDOBJECT_DESC_JapaneseStyle_roof_01": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_JapaneseStyle_roof_01_TextData",
+          "SourceString": "建於牆壁上方的屋頂，用於遮擋風雨。\r\n上層由榻榻米組成。\r\n可以建造出時尚的日式建築。",
+          "LocalizedString": "建於牆壁上方的屋頂，用於遮擋風雨。\r\n上層由榻榻米組成。\r\n可以建造出時尚的日式建築。"
+        }
+      },
+      "BUILDOBJECT_DESC_JapaneseStyle_roof_02": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_JapaneseStyle_roof_02_TextData",
+          "SourceString": "建於牆壁上方的屋頂，用於遮擋風雨。\r\n上層由瓦片組成。\r\n可以建造出時尚的日式建築。",
+          "LocalizedString": "建於牆壁上方的屋頂，用於遮擋風雨。\r\n上層由瓦片組成。\r\n可以建造出時尚的日式建築。"
+        }
+      },
+      "BUILDOBJECT_DESC_JapaneseStyle_SlantedRoof": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_JapaneseStyle_SlantedRoof_TextData",
+          "SourceString": "建於牆壁上方的斜屋頂，用於遮擋風雨。\r\n可以建造出時尚的日式建築。",
+          "LocalizedString": "建於牆壁上方的斜屋頂，用於遮擋風雨。\r\n可以建造出時尚的日式建築。"
+        }
+      },
+      "BUILDOBJECT_DESC_JapaneseStyle_TriangleWall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_JapaneseStyle_TriangleWall_TextData",
+          "SourceString": "建於地基上的三角牆。\r\n可以建造出時尚的日式建築。",
+          "LocalizedString": "建於地基上的三角牆。\r\n可以建造出時尚的日式建築。"
+        }
+      },
+      "BUILDOBJECT_DESC_JapaneseStyle_WindowWall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_JapaneseStyle_WindowWall_TextData",
+          "SourceString": "建於地基上的附窗牆壁，用於防止入侵者。\r\n可以建造出時尚的日式建築。",
+          "LocalizedString": "建於地基上的附窗牆壁，用於防止入侵者。\r\n可以建造出時尚的日式建築。"
+        }
+      },
+      "BUILDOBJECT_DESC_JapaneseStyle_foundation": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_JapaneseStyle_foundation_TextData",
+          "SourceString": "建築地基，可在上面建造牆壁或設施。\r\n可以建造出時尚的日式建築。",
+          "LocalizedString": "建築地基，可在上面建造牆壁或設施。\r\n可以建造出時尚的日式建築。"
+        }
+      },
+      "BUILDOBJECT_DESC_JapaneseStyle_stair": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_JapaneseStyle_stair_TextData",
+          "SourceString": "置於地基或屋頂下方，使之易於攀登的樓梯。\r\n可以建造出時尚的日式建築。",
+          "LocalizedString": "置於地基或屋頂下方，使之易於攀登的樓梯。\r\n可以建造出時尚的日式建築。"
+        }
+      },
+      "BUILDOBJECT_DESC_JapaneseStyle_Pillar": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_JapaneseStyle_Pillar_TextData",
+          "SourceString": "用來支撐建築的立柱。\r\n可以建造出時尚的日式建築。",
+          "LocalizedString": "用來支撐建築的立柱。\r\n可以建造出時尚的日式建築。"
+        }
+      },
+      "BUILDOBJECT_DESC_ItemBooth": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_ItemBooth_TextData",
+          "SourceString": "出售物品的設施。\r\n可以將物品出售給其他玩家。\r\n將冰系帕魯指派到這裡工作時，\r\n可以使裡面的食物較不易腐壞。",
+          "LocalizedString": "出售物品的設施。\r\n可以將物品出售給其他玩家。\r\n將冰系帕魯指派到這裡工作時，\r\n可以使裡面的食物較不易腐壞。"
+        }
+      },
+      "BUILDOBJECT_DESC_PalBooth": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_PalBooth_TextData",
+          "SourceString": "出售帕魯的設施。\r\n可以將帕魯出售給其他玩家。\r\n將冰系帕魯指派到這裡工作時，\r\n可以使裡面的食物較不易腐壞。",
+          "LocalizedString": "出售帕魯的設施。\r\n可以將帕魯出售給其他玩家。\r\n將冰系帕魯指派到這裡工作時，\r\n可以使裡面的食物較不易腐壞。"
+        }
+      },
+      "BUILDOBJECT_DESC_FarmBlockV2_Carrot": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FarmBlockV2_Carrot_TextData",
+          "SourceString": "可培育<itemName id=|Carrot|/>的農園。\r\n此作物播種至收成所需時間較長，但可讓料理更加豐富多元。\r\n需有數名帕魯負責播種、灌溉及收獲。",
+          "LocalizedString": "可培育<itemName id=|Carrot|/>的農園。\r\n此作物播種至收成所需時間較長，但可讓料理更加豐富多元。\r\n需有數名帕魯負責播種、灌溉及收獲。"
+        }
+      },
+      "BUILDOBJECT_DESC_FarmBlockV2_Onion": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FarmBlockV2_Onion_TextData",
+          "SourceString": "可培育<itemName id=|Onion|/>的農園。\r\n此作物播種至收成所需時間較長，但可讓料理更加豐富多元。\r\n需有數名帕魯負責播種、灌溉及收獲。",
+          "LocalizedString": "可培育<itemName id=|Onion|/>的農園。\r\n此作物播種至收成所需時間較長，但可讓料理更加豐富多元。\r\n需有數名帕魯負責播種、灌溉及收獲。"
+        }
+      },
+      "BUILDOBJECT_DESC_FarmBlockV2_Potato": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FarmBlockV2_Potato_TextData",
+          "SourceString": "可培育<itemName id=|Potato|/>的農園。\r\n此作物播種至收成所需時間較長，但可讓料理更加豐富多元。\r\n需有數名帕魯負責播種、灌溉及收獲。",
+          "LocalizedString": "可培育<itemName id=|Potato|/>的農園。\r\n此作物播種至收成所需時間較長，但可讓料理更加豐富多元。\r\n需有數名帕魯負責播種、灌溉及收獲。"
+        }
+      },
+      "BUILDOBJECT_DESC_SphereFactory_Black_04": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SphereFactory_Black_04_TextData",
+          "SourceString": "捕捉帕魯用的帕魯球的工廠。\r\n引進了高性能機器，可以快速製作帕魯球。\r\n需要有能進行手工作業的帕魯。",
+          "LocalizedString": "捕捉帕魯用的帕魯球的工廠。\r\n引進了高性能機器，可以快速製作帕魯球。\r\n需要有能進行手工作業的帕魯。"
+        }
+      },
+      "BUILDOBJECT_DESC_MultiElectricHatchingPalEgg": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_MultiElectricHatchingPalEgg_TextData",
+          "SourceString": "用於孵化帕魯蛋的裝置。\r\n需有電力供應才能使用，\r\n但可以保持在最佳溫度，並同時孵化多個蛋。",
+          "LocalizedString": "用於孵化帕魯蛋的裝置。\r\n需有電力供應才能使用，\r\n但可以保持在最佳溫度，並同時孵化多個蛋。"
+        }
+      },
+      "BUILDOBJECT_DESC_HugeKitchen": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_HugeKitchen_TextData",
+          "SourceString": "烹調食物時會用到的設施。\r\n擴大了佔地面積讓複數帕魯可以同時進行烹調。\r\n需由火系帕魯提供火源。",
+          "LocalizedString": "烹調食物時會用到的設施。\r\n擴大了佔地面積讓複數帕魯可以同時進行烹調。\r\n需由火系帕魯提供火源。"
+        }
+      },
+      "BUILDOBJECT_DESC_Factory_Hard_04": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Factory_Hard_04_TextData",
+          "SourceString": "生產道具及防具的工廠。\r\n引進了高性能機器，可以快速製作。\r\n需要有能進行手工作業的帕魯。",
+          "LocalizedString": "生產道具及防具的工廠。\r\n引進了高性能機器，可以快速製作。\r\n需要有能進行手工作業的帕魯。"
+        }
+      },
+      "BUILDOBJECT_DESC_WeaponFactory_Dirty_04": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_WeaponFactory_Dirty_04_TextData",
+          "SourceString": "生產武器及彈藥的工廠。\r\n引進了高性能機器，可以快速製作武器。\r\n需要有能進行手工作業的帕魯。",
+          "LocalizedString": "生產武器及彈藥的工廠。\r\n引進了高性能機器，可以快速製作武器。\r\n需要有能進行手工作業的帕魯。"
+        }
+      },
+      "BUILDOBJECT_DESC_SanityDecrease1": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SanityDecrease1_TextData",
+          "SourceString": "發出α波讓帕魯放鬆的裝置。\r\n減緩據點內帕魯的SAN值下降速度。\r\n即使設置複數個，其效果也不會疊加。",
+          "LocalizedString": "發出α波讓帕魯放鬆的裝置。\r\n減緩據點內帕魯的SAN值下降速度。\r\n即使設置複數個，其效果也不會疊加。"
+        }
+      },
+      "BUILDOBJECT_DESC_WorkSpeedIncrease1": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_WorkSpeedIncrease1_TextData",
+          "SourceString": "發出β波讓帕魯活動更活躍的裝置。\r\n提升據點內帕魯的工作速度。\r\n即使設置複數個，其效果也不會疊加。",
+          "LocalizedString": "發出β波讓帕魯活動更活躍的裝置。\r\n提升據點內帕魯的工作速度。\r\n即使設置複數個，其效果也不會疊加。"
+        }
+      },
+      "BUILDOBJECT_DESC_QuartzPit": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_QuartzPit_TextData",
+          "SourceString": "生產<itemName id=|Quartz|/>的設施。\r\n挖掘<itemName id=|Quartz|/>的工作需要大量體力，相當嚴苛。\r\n把這些工作交給擅長挖掘的帕魯吧。",
+          "LocalizedString": "生產<itemName id=|Quartz|/>的設施。\r\n挖掘<itemName id=|Quartz|/>的工作需要大量體力，相當嚴苛。\r\n把這些工作交給擅長挖掘的帕魯吧。"
+        }
+      },
+      "BUILDOBJECT_DESC_Factory_Money": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Factory_Money_TextData",
+          "SourceString": "生產<itemName id=|Money|/>的工廠。\r\n因為精神負擔大，工作時SAN值會降低。需有能進行手工作業的帕魯。\r\n請注意，建造這座建築可能會引來自衛隊執行嚴厲鎮壓。",
+          "LocalizedString": "生產<itemName id=|Money|/>的工廠。\r\n因為精神負擔大，工作時SAN值會降低。需有能進行手工作業的帕魯。\r\n請注意，建造這座建築可能會引來自衛隊執行嚴厲鎮壓。"
+        }
+      },
+      "BUILDOBJECT_DESC_ItemChest_04": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_ItemChest_04_TextData",
+          "SourceString": "可用於收納道具。\r\n非常堅固，存放空間也很大。\r\n可以當作巨大且安全的倉庫使用。",
+          "LocalizedString": "可用於收納道具。\r\n非常堅固，存放空間也很大。\r\n可以當作巨大且安全的倉庫使用。"
+        }
+      },
+      "BUILDOBJECT_DESC_MedicalPalBed_05": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_MedicalPalBed_05_TextData",
+          "SourceString": "帕魯用的回復膠囊。\r\n帕魯在晚上或受傷時可以睡在這裡。\r\n因為技術革新，回復量提高了。",
+          "LocalizedString": "帕魯用的回復膠囊。\r\n帕魯在晚上或受傷時可以睡在這裡。\r\n因為技術革新，回復量提高了。"
+        }
+      },
+      "BUILDOBJECT_DESC_BaseCampItemDispenser": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_BaseCampItemDispenser_TextData",
+          "SourceString": "可以自由取出設置的據點內\r\n所有箱子中道具的裝置。",
+          "LocalizedString": "可以自由取出設置的據點內\r\n所有箱子中道具的裝置。"
+        }
+      },
+      "BUILDOBJECT_DESC_GuildChest": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_GuildChest_TextData",
+          "SourceString": "可以瞬間透過亞空間傳送箱子內容的箱子。\r\n這個箱子內的道具會在各據點之間共享。",
+          "LocalizedString": "可以瞬間透過亞空間傳送箱子內容的箱子。\r\n這個箱子內的道具會在各據點之間共享。"
+        }
+      },
+      "BUILDOBJECT_DESC_WoodCreator": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_WoodCreator_TextData",
+          "SourceString": "zh_Hant_Text",
+          "LocalizedString": "zh_Hant_Text"
+        }
+      },
+      "BUILDOBJECT_DESC_Expedition": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Expedition_TextData",
+          "SourceString": "可以派遣帕魯到地下城等地方遠征的設施。\r\n被派遣的帕魯會在各地尋找物品或進行戰鬥，\r\n並將資源帶回據點。",
+          "LocalizedString": "可以派遣帕魯到地下城等地方遠征的設施。\r\n被派遣的帕魯會在各地尋找物品或進行戰鬥，\r\n並將資源帶回據點。"
+        }
+      },
+      "BUILDOBJECT_DESC_Lab": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Lab_TextData",
+          "SourceString": "對帕魯的各種工作進行研究的設施。\r\n在這個設施中讓帕魯工作，\r\n可以進行研究，獲得各種效果。",
+          "LocalizedString": "對帕魯的各種工作進行研究的設施。\r\n在這個設施中讓帕魯工作，\r\n可以進行研究，獲得各種效果。"
+        }
+      },
+      "BUILDOBJECT_DESC_OperatingTable": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_OperatingTable_TextData",
+          "SourceString": "可以對帕魯進行手術，\r\n改變帕魯的性別和被動技能的設施。 ",
+          "LocalizedString": "可以對帕魯進行手術，\r\n改變帕魯的性別和被動技能的設施。 "
+        }
+      },
+      "BUILDOBJECT_DESC_ManualElectricGenerator": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_ManualElectricGenerator_TextData",
+          "SourceString": "利用旋轉動能轉換為電能的設施。\r\n效率不佳，而且工作的帕魯會降低SAN值，\r\n但可以獲得經驗值。",
+          "LocalizedString": "利用旋轉動能轉換為電能的設施。\r\n效率不佳，而且工作的帕魯會降低SAN值，\r\n但可以獲得經驗值。"
+        }
+      },
+      "BUILDOBJECT_DESC_Farm_SkillFruits": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Farm_SkillFruits_TextData",
+          "SourceString": "可以種植技能果實的農園。\r\n將果實作為原種植入地面，\r\n就可以收穫多個相同種類的果實。",
+          "LocalizedString": "可以種植技能果實的農園。\r\n將果實作為原種植入地面，\r\n就可以收穫多個相同種類的果實。"
+        }
+      },
+      "BUILDOBJECT_DESC_Wooden_ladder": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Wooden_ladder_TextData",
+          "SourceString": "可以用來爬上高處的梯子。",
+          "LocalizedString": "可以用來爬上高處的梯子。"
+        }
+      },
+      "BUILDOBJECT_DESC_PalMedicineBox": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_PalMedicineBox_TextData",
+          "SourceString": "用來存放帕魯的藥物的櫃子。\r\n生病的帕魯會來這裡吃藥。\r\n記得隨時補充藥物，別讓櫃子空了。",
+          "LocalizedString": "用來存放帕魯的藥物的櫃子。\r\n生病的帕魯會來這裡吃藥。\r\n記得隨時補充藥物，別讓櫃子空了。"
+        }
+      },
+      "BUILDOBJECT_DESC_EnergyStorage_Electric": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_EnergyStorage_Electric_TextData",
+          "SourceString": "可以儲存<mapObjectName id=|ElectricGenerator|/>產生的多餘電力的設施。",
+          "LocalizedString": "可以儲存<mapObjectName id=|ElectricGenerator|/>產生的多餘電力的設施。"
+        }
+      },
+      "BUILDOBJECT_DESC_BlastFurnace4": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_BlastFurnace4_TextData",
+          "SourceString": "可用來冶煉<itemName id=|StainlessSteel|/>。\r\n擴大了建築面積讓複數帕魯可以同時進行冶煉。\r\n需由火系帕魯提供火源。",
+          "LocalizedString": "可用來冶煉<itemName id=|StainlessSteel|/>。\r\n擴大了建築面積讓複數帕魯可以同時進行冶煉。\r\n需由火系帕魯提供火源。"
+        }
+      },
+      "BUILDOBJECT_DESC_MedicineFacility_03": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_MedicineFacility_03_TextData",
+          "SourceString": "製作治療帕魯疾病的藥物的設備。\r\n透過未來技術，可製作未知的藥物。\r\n讓會製藥的帕魯來負責這裡的工作吧。",
+          "LocalizedString": "製作治療帕魯疾病的藥物的設備。\r\n透過未來技術，可製作未知的藥物。\r\n讓會製藥的帕魯來負責這裡的工作吧。"
+        }
+      },
+      "BUILDOBJECT_DESC_Headstone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Headstone_TextData",
+          "SourceString": "可以書寫文字的墓碑。\r\n用作留下記錄。",
+          "LocalizedString": "可以書寫文字的墓碑。\r\n用作留下記錄。"
+        }
+      },
+      "BUILDOBJECT_DESC_Byobu": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Byobu_TextData",
+          "SourceString": "裝飾用的屏風。\r\n可在建造和風的建築時配合使用。 ",
+          "LocalizedString": "裝飾用的屏風。\r\n可在建造和風的建築時配合使用。 "
+        }
+      },
+      "BUILDOBJECT_DESC_Kakejiku": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Kakejiku_TextData",
+          "SourceString": "裝飾用的掛軸。\r\n可在建造和風的建築時配合使用。 ",
+          "LocalizedString": "裝飾用的掛軸。\r\n可在建造和風的建築時配合使用。 "
+        }
+      },
+      "BUILDOBJECT_DESC_Zaisu": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Zaisu_TextData",
+          "SourceString": "裝飾用的日式椅子。\r\n可在建造和風的建築時配合使用。 ",
+          "LocalizedString": "裝飾用的日式椅子。\r\n可在建造和風的建築時配合使用。 "
+        }
+      },
+      "BUILDOBJECT_DESC_Zabuton": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Zabuton_TextData",
+          "SourceString": "裝飾用的坐墊。\r\n可在建造和風的建築時配合使用。 ",
+          "LocalizedString": "裝飾用的坐墊。\r\n可在建造和風的建築時配合使用。 "
+        }
+      },
+      "BUILDOBJECT_DESC_Irori": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Irori_TextData",
+          "SourceString": "裝飾用的地爐。\r\n可在建造和風的建築時配合使用。 ",
+          "LocalizedString": "裝飾用的地爐。\r\n可在建造和風的建築時配合使用。 "
+        }
+      },
+      "BUILDOBJECT_DESC_Toro": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Toro_TextData",
+          "SourceString": "裝飾用的石燈籠。\r\n可在建造和風的建築時配合使用。 ",
+          "LocalizedString": "裝飾用的石燈籠。\r\n可在建造和風的建築時配合使用。 "
+        }
+      },
+      "BUILDOBJECT_DESC_Andon": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Andon_TextData",
+          "SourceString": "裝飾用的日式燈具。\r\n可在建造和風的建築時配合使用。 ",
+          "LocalizedString": "裝飾用的日式燈具。\r\n可在建造和風的建築時配合使用。 "
+        }
+      },
+      "BUILDOBJECT_DESC_Shishiodoshi": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Shishiodoshi_TextData",
+          "SourceString": "裝飾用的鹿威。\r\n可在建造和風的建築時配合使用。 ",
+          "LocalizedString": "裝飾用的鹿威。\r\n可在建造和風的建築時配合使用。 "
+        }
+      },
+      "BUILDOBJECT_DESC_Bonsai": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Bonsai_TextData",
+          "SourceString": "裝飾用的盆栽。\r\n可在建造和風的建築時配合使用。 ",
+          "LocalizedString": "裝飾用的盆栽。\r\n可在建造和風的建築時配合使用。 "
+        }
+      },
+      "BUILDOBJECT_DESC_Koro": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Koro_TextData",
+          "SourceString": "裝飾用的香爐。\r\n可在建造和風的建築時配合使用。 ",
+          "LocalizedString": "裝飾用的香爐。\r\n可在建造和風的建築時配合使用。 "
+        }
+      },
+      "BUILDOBJECT_DESC_Seika": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Seika_TextData",
+          "SourceString": "裝飾用的插花。\r\n可在建造和風的建築時配合使用。 ",
+          "LocalizedString": "裝飾用的插花。\r\n可在建造和風的建築時配合使用。 "
+        }
+      },
+      "BUILDOBJECT_DESC_Tansu": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Tansu_TextData",
+          "SourceString": "可以用來收納道具的抽屜櫃。\r\n可在建造和風的建築時配合使用。 ",
+          "LocalizedString": "可以用來收納道具的抽屜櫃。\r\n可在建造和風的建築時配合使用。 "
+        }
+      },
+      "BUILDOBJECT_DESC_Fudukue": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Fudukue_TextData",
+          "SourceString": "裝飾用的日式矮桌。\r\n可在建造和風的建築時配合使用。 ",
+          "LocalizedString": "裝飾用的日式矮桌。\r\n可在建造和風的建築時配合使用。 "
+        }
+      },
+      "BUILDOBJECT_DESC_GlobalPalStorage": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_GlobalPalStorage_TextData",
+          "SourceString": "能夠保存帕魯基因序列，\r\n或者從保存的基因序列中復原帕魯的設施。\r\n保存的基因序列能夠帶到其他世界使用。",
+          "LocalizedString": "能夠保存帕魯基因序列，\r\n或者從保存的基因序列中復原帕魯的設施。\r\n保存的基因序列能夠帶到其他世界使用。"
+        }
+      },
+      "BUILDOBJECT_DESC_CompositeDesk": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_CompositeDesk_TextData",
+          "SourceString": "可以透過組合多個設計圖，\r\n製作出更高級的設計圖的設施。",
+          "LocalizedString": "可以透過組合多個設計圖，\r\n製作出更高級的設計圖的設施。"
+        }
+      },
+      "BUILDOBJECT_DESC_DimensionPalStorage": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_DimensionPalStorage_TextData",
+          "SourceString": "可以大量保管捕獲到的帕魯的設施。\r\n只要是公會成員，就可以進行帕魯的存取。\r\n設為私密鎖定的話，就能當作個人帕魯倉庫使用。",
+          "LocalizedString": "可以大量保管捕獲到的帕魯的設施。\r\n只要是公會成員，就可以進行帕魯的存取。\r\n設為私密鎖定的話，就能當作個人帕魯倉庫使用。"
+        }
+      },
+      "BUILDOBJECT_DESC_CrystalPit": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_CrystalPit_TextData",
+          "SourceString": "生產<itemName id=|RainbowCrystal|/>的設施。\r\n挖掘<itemName id=|RainbowCrystal|/>的工作需要大量體力，相當嚴苛。\r\n把這些工作交給擅長挖掘的帕魯吧。 ",
+          "LocalizedString": "生產<itemName id=|RainbowCrystal|/>的設施。\r\n挖掘<itemName id=|RainbowCrystal|/>的工作需要大量體力，相當嚴苛。\r\n把這些工作交給擅長挖掘的帕魯吧。 "
+        }
+      },
+      "BUILDOBJECT_DESC_Spa3": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Spa3_TextData",
+          "SourceString": "讓疲憊的據點帕魯休息的設施。\r\n洋溢著濃濃和風的療癒空間，所以SAN值的恢復效果也更加顯著。 ",
+          "LocalizedString": "讓疲憊的據點帕魯休息的設施。\r\n洋溢著濃濃和風的療癒空間，所以SAN值的恢復效果也更加顯著。 "
+        }
+      },
+      "BUILDOBJECT_DESC_BaseCampWorkerExtraStation": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_BaseCampWorkerExtraStation_TextData",
+          "SourceString": "可遠端操作帕魯終端的設備。\r\n將它配置在你想要部署帕魯的位置，自由地打造據點吧。 ",
+          "LocalizedString": "可遠端操作帕魯終端的設備。\r\n將它配置在你想要部署帕魯的位置，自由地打造據點吧。 "
+        }
+      },
+      "BUILDOBJECT_DESC_Wire_Fence": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Wire_Fence_TextData",
+          "SourceString": "裝飾用的鐵絲網圍籬。",
+          "LocalizedString": "裝飾用的鐵絲網圍籬。"
+        }
+      },
+      "BUILDOBJECT_DESC_LilyQueenStatue": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_LilyQueenStatue_TextData",
+          "SourceString": "裝飾用的百合女王雕像。",
+          "LocalizedString": "裝飾用的百合女王雕像。"
+        }
+      },
+      "BUILDOBJECT_DESC_ConservationGroupBannerA": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_ConservationGroupBannerA_TextData",
+          "SourceString": "裝飾用的帕魯保護團體旗幟。",
+          "LocalizedString": "裝飾用的帕魯保護團體旗幟。"
+        }
+      },
+      "BUILDOBJECT_DESC_ConservationGroupBannerB": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_ConservationGroupBannerB_TextData",
+          "SourceString": "裝飾用的帕魯保護團體橫幅。",
+          "LocalizedString": "裝飾用的帕魯保護團體橫幅。"
+        }
+      },
+      "BUILDOBJECT_DESC_Hunter_GangFlag": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Hunter_GangFlag_TextData",
+          "SourceString": "裝飾用的盜獵團旗幟。",
+          "LocalizedString": "裝飾用的盜獵團旗幟。"
+        }
+      },
+      "BUILDOBJECT_DESC_PalCage": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_PalCage_TextData",
+          "SourceString": "裝飾用的空籠子。",
+          "LocalizedString": "裝飾用的空籠子。"
+        }
+      },
+      "BUILDOBJECT_DESC_WoodenBarricade": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_WoodenBarricade_TextData",
+          "SourceString": "裝飾用的木製路障。",
+          "LocalizedString": "裝飾用的木製路障。"
+        }
+      },
+      "BUILDOBJECT_DESC_WallTorch02": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_WallTorch02_TextData",
+          "SourceString": "燃燒著永炎同心會所信奉之火的莊嚴壁掛火把。\r\n此照明設施可設置在牆壁上。\r\n需由火系帕魯提供火源。 ",
+          "LocalizedString": "燃燒著永炎同心會所信奉之火的莊嚴壁掛火把。\r\n此照明設施可設置在牆壁上。\r\n需由火系帕魯提供火源。 "
+        }
+      },
+      "BUILDOBJECT_DESC_CandleStand": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_CandleStand_TextData",
+          "SourceString": "燃燒著永炎同心會所信奉之火的莊嚴燭台。\r\n此照明設施可設置在地板上。\r\n需由火系帕魯提供火源。 ",
+          "LocalizedString": "燃燒著永炎同心會所信奉之火的莊嚴燭台。\r\n此照明設施可設置在地板上。\r\n需由火系帕魯提供火源。 "
+        }
+      },
+      "BUILDOBJECT_DESC_FireStand": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FireStand_TextData",
+          "SourceString": "燃燒著永炎同心會所信奉之火的儀式用燭台。\r\n此照明設施可設置在地板上。\r\n需由火系帕魯提供火源。 ",
+          "LocalizedString": "燃燒著永炎同心會所信奉之火的儀式用燭台。\r\n此照明設施可設置在地板上。\r\n需由火系帕魯提供火源。 "
+        }
+      },
+      "BUILDOBJECT_DESC_Wood_Fence": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Wood_Fence_TextData",
+          "SourceString": "建在地基或屋頂上，用於防止墜落的柵欄。\r\n以木頭製成，相當脆弱。 ",
+          "LocalizedString": "建在地基或屋頂上，用於防止墜落的柵欄。\r\n以木頭製成，相當脆弱。 "
+        }
+      },
+      "BUILDOBJECT_DESC_Stone_Fence": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Stone_Fence_TextData",
+          "SourceString": "建在地基或屋頂上，用於防止墜落的柵欄。\r\n以石頭製成，還算堅固。 ",
+          "LocalizedString": "建在地基或屋頂上，用於防止墜落的柵欄。\r\n以石頭製成，還算堅固。 "
+        }
+      },
+      "BUILDOBJECT_DESC_Iron_Fence": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Iron_Fence_TextData",
+          "SourceString": "建在地基或屋頂上，用於防止墜落的柵欄。\r\n以金屬製成，非常堅固。 ",
+          "LocalizedString": "建在地基或屋頂上，用於防止墜落的柵欄。\r\n以金屬製成，非常堅固。 "
+        }
+      },
+      "BUILDOBJECT_DESC_Glass_Fence": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Glass_Fence_TextData",
+          "SourceString": "建在地基或屋頂上，用於防止墜落的柵欄。\r\n以鋼化玻璃製成，非常堅固。 ",
+          "LocalizedString": "建在地基或屋頂上，用於防止墜落的柵欄。\r\n以鋼化玻璃製成，非常堅固。 "
+        }
+      },
+      "BUILDOBJECT_DESC_JapaneseStyle_Fence": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_JapaneseStyle_Fence_TextData",
+          "SourceString": "建在地基或屋頂上，用於防止墜落的柵欄。\r\n可以建造出時尚的日式建築。 ",
+          "LocalizedString": "建在地基或屋頂上，用於防止墜落的柵欄。\r\n可以建造出時尚的日式建築。 "
+        }
+      },
+      "BUILDOBJECT_DESC_SF_Fence": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SF_Fence_TextData",
+          "SourceString": "建在地基或屋頂上，用於防止墜落的柵欄。\r\n可以建造出近未來風格的簡約建築。 ",
+          "LocalizedString": "建在地基或屋頂上，用於防止墜落的柵欄。\r\n可以建造出近未來風格的簡約建築。 "
+        }
+      },
+      "BUILDOBJECT_DESC_LanternTop": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_LanternTop_TextData",
+          "SourceString": "裝飾用的日式白燈籠。",
+          "LocalizedString": "裝飾用的日式白燈籠。"
+        }
+      },
+      "BUILDOBJECT_DESC_Shrine_Lantern": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Shrine_Lantern_TextData",
+          "SourceString": "裝飾用的神社赤燈籠。",
+          "LocalizedString": "裝飾用的神社赤燈籠。"
+        }
+      },
+      "BUILDOBJECT_DESC_GuardianDogStatue": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_GuardianDogStatue_TextData",
+          "SourceString": "裝飾用的八雲犬雕像。",
+          "LocalizedString": "裝飾用的八雲犬雕像。"
+        }
+      },
+      "BUILDOBJECT_DESC_SF_foundation": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SF_foundation_TextData",
+          "SourceString": "建築地基，可在上面建造牆壁或設施。\r\n可以建造出近未來風格的簡約建築。",
+          "LocalizedString": "建築地基，可在上面建造牆壁或設施。\r\n可以建造出近未來風格的簡約建築。"
+        }
+      },
+      "BUILDOBJECT_DESC_SF_wall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SF_wall_TextData",
+          "SourceString": "建於地基上的牆壁，用於防止入侵者。\r\n可以建造出近未來風格的簡約建築。",
+          "LocalizedString": "建於地基上的牆壁，用於防止入侵者。\r\n可以建造出近未來風格的簡約建築。"
+        }
+      },
+      "BUILDOBJECT_DESC_SF_roof": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SF_roof_TextData",
+          "SourceString": "建於牆壁上方的屋頂，用於遮擋風雨。\r\n可以建造出近未來風格的簡約建築。",
+          "LocalizedString": "建於牆壁上方的屋頂，用於遮擋風雨。\r\n可以建造出近未來風格的簡約建築。"
+        }
+      },
+      "BUILDOBJECT_DESC_SF_stair": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SF_stair_TextData",
+          "SourceString": "置於地基或屋頂下方，使之易於攀登的樓梯。\r\n可以建造出近未來風格的簡約建築。",
+          "LocalizedString": "置於地基或屋頂下方，使之易於攀登的樓梯。\r\n可以建造出近未來風格的簡約建築。"
+        }
+      },
+      "BUILDOBJECT_DESC_SF_DoorWall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SF_DoorWall_TextData",
+          "SourceString": "建於地基上的門，可作為出入口。\r\n可以建造出近未來風格的簡約建築。",
+          "LocalizedString": "建於地基上的門，可作為出入口。\r\n可以建造出近未來風格的簡約建築。"
+        }
+      },
+      "BUILDOBJECT_DESC_SF_TriangleWall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SF_TriangleWall_TextData",
+          "SourceString": "建於地基上的三角牆。\r\n可以建造出近未來風格的簡約建築。",
+          "LocalizedString": "建於地基上的三角牆。\r\n可以建造出近未來風格的簡約建築。"
+        }
+      },
+      "BUILDOBJECT_DESC_SF_SlantedRoof": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SF_SlantedRoof_TextData",
+          "SourceString": "建於牆壁上方的斜屋頂，用於遮擋風雨。\r\n可以建造出近未來風格的簡約建築。",
+          "LocalizedString": "建於牆壁上方的斜屋頂，用於遮擋風雨。\r\n可以建造出近未來風格的簡約建築。"
+        }
+      },
+      "BUILDOBJECT_DESC_SF_WindowWall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SF_WindowWall_TextData",
+          "SourceString": "建於地基上的附窗牆壁，用於防止入侵者。\r\n可以建造出近未來風格的簡約建築。",
+          "LocalizedString": "建於地基上的附窗牆壁，用於防止入侵者。\r\n可以建造出近未來風格的簡約建築。"
+        }
+      },
+      "BUILDOBJECT_DESC_SF_Pillars": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SF_Pillars_TextData",
+          "SourceString": "用來支撐建築的立柱。\r\n可以建造出近未來風格的簡約建築。",
+          "LocalizedString": "用來支撐建築的立柱。\r\n可以建造出近未來風格的簡約建築。"
+        }
+      },
+      "BUILDOBJECT_DESC_SF_Desk": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SF_Desk_TextData",
+          "SourceString": "裝飾用的研究室風格書桌。",
+          "LocalizedString": "裝飾用的研究室風格書桌。"
+        }
+      },
+      "BUILDOBJECT_DESC_SF_Chair": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SF_Chair_TextData",
+          "SourceString": "裝飾用的研究室風格椅子。",
+          "LocalizedString": "裝飾用的研究室風格椅子。"
+        }
+      },
+      "BUILDOBJECT_DESC_Hunter_Flag": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Hunter_Flag_TextData",
+          "SourceString": "裝飾用的盜獵團團旗。",
+          "LocalizedString": "裝飾用的盜獵團團旗。"
+        }
+      },
+      "BUILDOBJECT_DESC_Hunter_Banner": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Hunter_Banner_TextData",
+          "SourceString": "裝飾用的盜獵團掛旗。",
+          "LocalizedString": "裝飾用的盜獵團掛旗。"
+        }
+      },
+      "BUILDOBJECT_DESC_Believer_Flag": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Believer_Flag_TextData",
+          "SourceString": "裝飾用的帕魯保護團體團旗。",
+          "LocalizedString": "裝飾用的帕魯保護團體團旗。"
+        }
+      },
+      "BUILDOBJECT_DESC_Believer_Banner": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Believer_Banner_TextData",
+          "SourceString": "裝飾用的帕魯保護團體掛旗。",
+          "LocalizedString": "裝飾用的帕魯保護團體掛旗。"
+        }
+      },
+      "BUILDOBJECT_DESC_FireCult_Flag": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FireCult_Flag_TextData",
+          "SourceString": "裝飾用的永炎同心會旗。",
+          "LocalizedString": "裝飾用的永炎同心會旗。"
+        }
+      },
+      "BUILDOBJECT_DESC_FireCult_Banner": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FireCult_Banner_TextData",
+          "SourceString": "裝飾用的永炎同心會掛旗。",
+          "LocalizedString": "裝飾用的永炎同心會掛旗。"
+        }
+      },
+      "BUILDOBJECT_DESC_Police_Flag": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Police_Flag_TextData",
+          "SourceString": "裝飾用的自衛隊隊旗。",
+          "LocalizedString": "裝飾用的自衛隊隊旗。"
+        }
+      },
+      "BUILDOBJECT_DESC_Police_Banner": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Police_Banner_TextData",
+          "SourceString": "裝飾用的自衛隊掛旗。",
+          "LocalizedString": "裝飾用的自衛隊掛旗。"
+        }
+      },
+      "BUILDOBJECT_DESC_Scientist_Flag": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Scientist_Flag_TextData",
+          "SourceString": "裝飾用的基因研究部隊隊旗。",
+          "LocalizedString": "裝飾用的基因研究部隊隊旗。"
+        }
+      },
+      "BUILDOBJECT_DESC_Scientist_Banner": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Scientist_Banner_TextData",
+          "SourceString": "裝飾用的基因研究部隊掛旗。",
+          "LocalizedString": "裝飾用的基因研究部隊掛旗。"
+        }
+      },
+      "BUILDOBJECT_DESC_Ninja_Flag": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Ninja_Flag_TextData",
+          "SourceString": "裝飾用的月花眾團旗。",
+          "LocalizedString": "裝飾用的月花眾團旗。"
+        }
+      },
+      "BUILDOBJECT_DESC_Ninja_Banner": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Ninja_Banner_TextData",
+          "SourceString": "裝飾用的月花眾掛旗。",
+          "LocalizedString": "裝飾用的月花眾掛旗。"
+        }
+      },
+      "BUILDOBJECT_DESC_FishingPond1": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FishingPond1_TextData",
+          "SourceString": "配備釣魚工具的釣魚池。\r\n分派帕魯後，牠會悠閒地幫你釣魚。\r\n需要有能進行手工作業的帕魯。 ",
+          "LocalizedString": "配備釣魚工具的釣魚池。\r\n分派帕魯後，牠會悠閒地幫你釣魚。\r\n需要有能進行手工作業的帕魯。 "
+        }
+      },
+      "BUILDOBJECT_DESC_FishingPond2": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FishingPond2_TextData",
+          "SourceString": "配備釣魚工具的大型釣魚池。\r\n水域更加廣闊，能釣上更大型的帕魯。\r\n需要有能進行手工作業的帕魯。 ",
+          "LocalizedString": "配備釣魚工具的大型釣魚池。\r\n水域更加廣闊，能釣上更大型的帕魯。\r\n需要有能進行手工作業的帕魯。 "
+        }
+      },
+      "BUILDOBJECT_DESC_MultiHatchingPalEgg": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_MultiHatchingPalEgg_TextData",
+          "SourceString": "用於孵化帕魯蛋的裝置。\r\n可自動維持大致適當的溫度，\r\n並同時孵化多個蛋。 ",
+          "LocalizedString": "用於孵化帕魯蛋的裝置。\r\n可自動維持大致適當的溫度，\r\n並同時孵化多個蛋。 "
+        }
+      },
+      "BUILDOBJECT_DESC_YakushimaBoss002_Relic": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_YakushimaBoss002_Relic_TextData",
+          "SourceString": "【泰拉瑞亞合作】\r\n散發著金色光芒的<characterName id=|RAID_YakushimaBoss002|/>雕像。 \r\n跨越絕望之戰後的強者證明。 ",
+          "LocalizedString": "【泰拉瑞亞合作】\r\n散發著金色光芒的<characterName id=|RAID_YakushimaBoss002|/>雕像。 \r\n跨越絕望之戰後的強者證明。 "
+        }
+      },
+      "BUILDOBJECT_DESC_Wooden_TriangleFoundation": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Wooden_TriangleFoundation_TextData",
+          "SourceString": "三角地基，可在上面建造牆壁或設施。\r\n以木頭製成，相當脆弱。",
+          "LocalizedString": "三角地基，可在上面建造牆壁或設施。\r\n以木頭製成，相當脆弱。"
+        }
+      },
+      "BUILDOBJECT_DESC_Wooden_DiagonalWall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Wooden_DiagonalWall_TextData",
+          "SourceString": "建於三角地基上的對角牆壁，用於防止入侵者。\r\n以木頭製成，相當脆弱。",
+          "LocalizedString": "建於三角地基上的對角牆壁，用於防止入侵者。\r\n以木頭製成，相當脆弱。"
+        }
+      },
+      "BUILDOBJECT_DESC_Wooden_TriangleRoof": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Wooden_TriangleRoof_TextData",
+          "SourceString": "建於牆壁上方的三角屋頂，用於遮擋風雨。\r\n以木頭製成，相當脆弱。",
+          "LocalizedString": "建於牆壁上方的三角屋頂，用於遮擋風雨。\r\n以木頭製成，相當脆弱。"
+        }
+      },
+      "BUILDOBJECT_DESC_Wooden_TriangleStairsCorner": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Wooden_TriangleStairsCorner_TextData",
+          "SourceString": "建於牆壁上方的轉角屋頂，用於遮擋風雨。\r\n以木頭製成，相當脆弱。",
+          "LocalizedString": "建於牆壁上方的轉角屋頂，用於遮擋風雨。\r\n以木頭製成，相當脆弱。"
+        }
+      },
+      "BUILDOBJECT_DESC_Wood_TriangleWallReverse": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Wood_TriangleWallReverse_TextData",
+          "SourceString": "建於地基上的三角牆（反向）。\r\n以木頭製成，相當脆弱。",
+          "LocalizedString": "建於地基上的三角牆（反向）。\r\n以木頭製成，相當脆弱。"
+        }
+      },
+      "BUILDOBJECT_DESC_Wooden_WallGate": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Wooden_WallGate_TextData",
+          "SourceString": "建於地基上的帕魯用通道口，可作為出入口。\r\n以木頭製成，相當脆弱。",
+          "LocalizedString": "建於地基上的帕魯用通道口，可作為出入口。\r\n以木頭製成，相當脆弱。"
+        }
+      },
+      "BUILDOBJECT_DESC_Wooden_SlopedRoofCorner": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Wooden_SlopedRoofCorner_TextData",
+          "SourceString": "建於對角牆上方的三角斜屋頂，用於遮擋風雨。\r\n以木頭製成，相當脆弱。",
+          "LocalizedString": "建於對角牆上方的三角斜屋頂，用於遮擋風雨。\r\n以木頭製成，相當脆弱。"
+        }
+      },
+      "BUILDOBJECT_DESC_Wooden_PyramidRoof": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Wooden_PyramidRoof_TextData",
+          "SourceString": "建於牆壁上方的錐形屋頂，用於遮擋風雨。\r\n以木頭製成，相當脆弱。",
+          "LocalizedString": "建於牆壁上方的錐形屋頂，用於遮擋風雨。\r\n以木頭製成，相當脆弱。"
+        }
+      },
+      "BUILDOBJECT_DESC_Stone_TriangleFoundation": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Stone_TriangleFoundation_TextData",
+          "SourceString": "三角地基，可在上面建造牆壁或設施。\r\n以石頭製成，還算堅固。",
+          "LocalizedString": "三角地基，可在上面建造牆壁或設施。\r\n以石頭製成，還算堅固。"
+        }
+      },
+      "BUILDOBJECT_DESC_Stone_DiagonalWall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Stone_DiagonalWall_TextData",
+          "SourceString": "建於三角地基上的對角牆壁，用於防止入侵者。\r\n以石頭製成，還算堅固。",
+          "LocalizedString": "建於三角地基上的對角牆壁，用於防止入侵者。\r\n以石頭製成，還算堅固。"
+        }
+      },
+      "BUILDOBJECT_DESC_Stone_TriangleRoof": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Stone_TriangleRoof_TextData",
+          "SourceString": "建於牆壁上方的三角屋頂，用於遮擋風雨。\r\n以石頭製成，還算堅固。",
+          "LocalizedString": "建於牆壁上方的三角屋頂，用於遮擋風雨。\r\n以石頭製成，還算堅固。"
+        }
+      },
+      "BUILDOBJECT_DESC_Stone_TriangleStairsCorner": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Stone_TriangleStairsCorner_TextData",
+          "SourceString": "建於牆壁上方的轉角屋頂，用於遮擋風雨。\r\n以石頭製成，還算堅固。",
+          "LocalizedString": "建於牆壁上方的轉角屋頂，用於遮擋風雨。\r\n以石頭製成，還算堅固。"
+        }
+      },
+      "BUILDOBJECT_DESC_Stone_TriangleWallReverse": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Stone_TriangleWallReverse_TextData",
+          "SourceString": "建於地基上的三角牆（反向）。\r\n以石頭製成，還算堅固。",
+          "LocalizedString": "建於地基上的三角牆（反向）。\r\n以石頭製成，還算堅固。"
+        }
+      },
+      "BUILDOBJECT_DESC_Stone_WallGate": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Stone_WallGate_TextData",
+          "SourceString": "建造在地基上的帕魯用通道口，可作為出入口。\r\n以石頭製成，還算堅固。",
+          "LocalizedString": "建造在地基上的帕魯用通道口，可作為出入口。\r\n以石頭製成，還算堅固。"
+        }
+      },
+      "BUILDOBJECT_DESC_Stone_SlopedRoofCorner": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Stone_SlopedRoofCorner_TextData",
+          "SourceString": "建於對角牆上方的三角斜屋頂，用於遮擋風雨。\r\n以石頭製成，還算堅固。",
+          "LocalizedString": "建於對角牆上方的三角斜屋頂，用於遮擋風雨。\r\n以石頭製成，還算堅固。"
+        }
+      },
+      "BUILDOBJECT_DESC_Stone_PyramidRoof": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Stone_PyramidRoof_TextData",
+          "SourceString": "建於牆壁上方的錐形屋頂，用於遮擋風雨。\r\n以石頭製成，還算堅固。",
+          "LocalizedString": "建於牆壁上方的錐形屋頂，用於遮擋風雨。\r\n以石頭製成，還算堅固。"
+        }
+      },
+      "BUILDOBJECT_DESC_Iron_TriangleFoundation": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Iron_TriangleFoundation_TextData",
+          "SourceString": "三角地基，可在上面建造牆壁或設施。\r\n以金屬製成，非常堅固。",
+          "LocalizedString": "三角地基，可在上面建造牆壁或設施。\r\n以金屬製成，非常堅固。"
+        }
+      },
+      "BUILDOBJECT_DESC_Iron_DiagonalWall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Iron_DiagonalWall_TextData",
+          "SourceString": "建於三角地基上的對角牆壁，用於防止入侵者。\r\n以金屬製成，非常堅固。",
+          "LocalizedString": "建於三角地基上的對角牆壁，用於防止入侵者。\r\n以金屬製成，非常堅固。"
+        }
+      },
+      "BUILDOBJECT_DESC_Iron_TriangleRoof": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Iron_TriangleRoof_TextData",
+          "SourceString": "建於牆壁上方的三角屋頂，用於遮擋風雨。\r\n以金屬製成，非常堅固。",
+          "LocalizedString": "建於牆壁上方的三角屋頂，用於遮擋風雨。\r\n以金屬製成，非常堅固。"
+        }
+      },
+      "BUILDOBJECT_DESC_Iron_TriangleStairsCorner": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Iron_TriangleStairsCorner_TextData",
+          "SourceString": "建於牆壁上方的轉角屋頂，用於遮擋風雨。\r\n以金屬製成，非常堅固。",
+          "LocalizedString": "建於牆壁上方的轉角屋頂，用於遮擋風雨。\r\n以金屬製成，非常堅固。"
+        }
+      },
+      "BUILDOBJECT_DESC_Iron_TriangleWallReverse": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Iron_TriangleWallReverse_TextData",
+          "SourceString": "建於地基上的三角牆（反向）。\r\n以金屬製成，非常堅固。",
+          "LocalizedString": "建於地基上的三角牆（反向）。\r\n以金屬製成，非常堅固。"
+        }
+      },
+      "BUILDOBJECT_DESC_Iron_WallGate": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Iron_WallGate_TextData",
+          "SourceString": "建於地基上的帕魯用通道口，可作為出入口。\r\n以金屬製成，非常堅固。",
+          "LocalizedString": "建於地基上的帕魯用通道口，可作為出入口。\r\n以金屬製成，非常堅固。"
+        }
+      },
+      "BUILDOBJECT_DESC_Iron_SlopedRoofCorner": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Iron_SlopedRoofCorner_TextData",
+          "SourceString": "建於對角牆上方的三角斜屋頂，用於遮擋風雨。\r\n以金屬製成，非常堅固。",
+          "LocalizedString": "建於對角牆上方的三角斜屋頂，用於遮擋風雨。\r\n以金屬製成，非常堅固。"
+        }
+      },
+      "BUILDOBJECT_DESC_Iron_PyramidRoof": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Iron_PyramidRoof_TextData",
+          "SourceString": "建於牆壁上方的錐形屋頂，用於遮擋風雨。\r\n以金屬製成，非常堅固。",
+          "LocalizedString": "建於牆壁上方的錐形屋頂，用於遮擋風雨。\r\n以金屬製成，非常堅固。"
+        }
+      },
+      "BUILDOBJECT_DESC_Glass_TriangleFoundation": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Glass_TriangleFoundation_TextData",
+          "SourceString": "\r\n三角地基，可在上面建造牆壁或設施。\r\n以鋼化玻璃製成，非常堅固。",
+          "LocalizedString": "\r\n三角地基，可在上面建造牆壁或設施。\r\n以鋼化玻璃製成，非常堅固。"
+        }
+      },
+      "BUILDOBJECT_DESC_Glass_DiagonalWall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Glass_DiagonalWall_TextData",
+          "SourceString": "建於三角地基上的對角牆壁，用於防止入侵者。\r\n以鋼化玻璃製成，非常堅固。",
+          "LocalizedString": "建於三角地基上的對角牆壁，用於防止入侵者。\r\n以鋼化玻璃製成，非常堅固。"
+        }
+      },
+      "BUILDOBJECT_DESC_Glass_TriangleRoof": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Glass_TriangleRoof_TextData",
+          "SourceString": "建於牆壁上方的三角屋頂，用於遮擋風雨。\r\n以鋼化玻璃製成，非常堅固。",
+          "LocalizedString": "建於牆壁上方的三角屋頂，用於遮擋風雨。\r\n以鋼化玻璃製成，非常堅固。"
+        }
+      },
+      "BUILDOBJECT_DESC_Glass_TriangleStairsCorner": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Glass_TriangleStairsCorner_TextData",
+          "SourceString": "建於牆壁上方的轉角屋頂，用於遮擋風雨。\r\n以鋼化玻璃製成，非常堅固。",
+          "LocalizedString": "建於牆壁上方的轉角屋頂，用於遮擋風雨。\r\n以鋼化玻璃製成，非常堅固。"
+        }
+      },
+      "BUILDOBJECT_DESC_Glass_TriangleWallReverse": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Glass_TriangleWallReverse_TextData",
+          "SourceString": "建於地基上的三角牆（反向）。\r\n以鋼化玻璃製成，非常堅固。",
+          "LocalizedString": "建於地基上的三角牆（反向）。\r\n以鋼化玻璃製成，非常堅固。"
+        }
+      },
+      "BUILDOBJECT_DESC_Glass_WallGate": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Glass_WallGate_TextData",
+          "SourceString": "建於地基上的帕魯用通道口，可作為出入口。\r\n以鋼化玻璃製成，非常堅固。",
+          "LocalizedString": "建於地基上的帕魯用通道口，可作為出入口。\r\n以鋼化玻璃製成，非常堅固。"
+        }
+      },
+      "BUILDOBJECT_DESC_Glass_SlopedRoofCorner": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Glass_SlopedRoofCorner_TextData",
+          "SourceString": "建於對角牆上方的三角斜屋頂，用於遮擋風雨。\r\n以鋼化玻璃製成，非常堅固。",
+          "LocalizedString": "建於對角牆上方的三角斜屋頂，用於遮擋風雨。\r\n以鋼化玻璃製成，非常堅固。"
+        }
+      },
+      "BUILDOBJECT_DESC_Glass_PyramidRoof": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Glass_PyramidRoof_TextData",
+          "SourceString": "建於牆壁上方的錐形屋頂，用於遮擋風雨。\r\n以鋼化玻璃製成，非常堅固。",
+          "LocalizedString": "建於牆壁上方的錐形屋頂，用於遮擋風雨。\r\n以鋼化玻璃製成，非常堅固。"
+        }
+      },
+      "BUILDOBJECT_DESC_JapaneseStyle_TriangleFoundation": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_JapaneseStyle_TriangleFoundation_TextData",
+          "SourceString": "三角地基，可在上面建造牆壁或設施。\r\n可以建造出時尚的日式建築。",
+          "LocalizedString": "三角地基，可在上面建造牆壁或設施。\r\n可以建造出時尚的日式建築。"
+        }
+      },
+      "BUILDOBJECT_DESC_JapaneseStyle_DiagonalWall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_JapaneseStyle_DiagonalWall_TextData",
+          "SourceString": "建於三角地基上的對角牆壁，用於防止入侵者。\r\n可以建造出時尚的日式建築。",
+          "LocalizedString": "建於三角地基上的對角牆壁，用於防止入侵者。\r\n可以建造出時尚的日式建築。"
+        }
+      },
+      "BUILDOBJECT_DESC_JapaneseStyle_TriangleRoof_01": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_JapaneseStyle_TriangleRoof_01_TextData",
+          "SourceString": "建於牆壁上方的三角屋頂，用於遮擋風雨。\r\n上層由榻榻米組成。\r\n可以建造出時尚的日式建築。",
+          "LocalizedString": "建於牆壁上方的三角屋頂，用於遮擋風雨。\r\n上層由榻榻米組成。\r\n可以建造出時尚的日式建築。"
+        }
+      },
+      "BUILDOBJECT_DESC_JapaneseStyle_TriangleRoof_02": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_JapaneseStyle_TriangleRoof_02_TextData",
+          "SourceString": "建於牆壁上方的三角屋頂，用於遮擋風雨。\r\n上層由瓦片組成。\r\n可以建造出時尚的日式建築。",
+          "LocalizedString": "建於牆壁上方的三角屋頂，用於遮擋風雨。\r\n上層由瓦片組成。\r\n可以建造出時尚的日式建築。"
+        }
+      },
+      "BUILDOBJECT_DESC_JapaneseStyle_TriangleStairsCorner_01": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_JapaneseStyle_TriangleStairsCorner_01_TextData",
+          "SourceString": "建於牆壁上方的轉角屋頂，用於遮擋風雨。\r\n可以建造出時尚的日式建築。",
+          "LocalizedString": "建於牆壁上方的轉角屋頂，用於遮擋風雨。\r\n可以建造出時尚的日式建築。"
+        }
+      },
+      "BUILDOBJECT_DESC_JapaneseStyle_TriangleStairsCorner_02": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_JapaneseStyle_TriangleStairsCorner_02_TextData",
+          "SourceString": "zh_Hant_Text",
+          "LocalizedString": "zh_Hant_Text"
+        }
+      },
+      "BUILDOBJECT_DESC_JapaneseStyle_TriangleWallReverse": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_JapaneseStyle_TriangleWallReverse_TextData",
+          "SourceString": "\r\n建於地基上的三角牆（反向）。\r\n可以建造出時尚的日式建築。",
+          "LocalizedString": "\r\n建於地基上的三角牆（反向）。\r\n可以建造出時尚的日式建築。"
+        }
+      },
+      "BUILDOBJECT_DESC_JapaneseStyle_WallGate": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_JapaneseStyle_WallGate_TextData",
+          "SourceString": "建於地基上的帕魯用通道口，可作為出入口。\r\n可以建造出時尚的日式建築。",
+          "LocalizedString": "建於地基上的帕魯用通道口，可作為出入口。\r\n可以建造出時尚的日式建築。"
+        }
+      },
+      "BUILDOBJECT_DESC_JapaneseStyle_SlopedRoofCorner": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_JapaneseStyle_SlopedRoofCorner_TextData",
+          "SourceString": "建於對角牆上方的三角斜屋頂，用於遮擋風雨。\r\n可以建造出時尚的日式建築。",
+          "LocalizedString": "建於對角牆上方的三角斜屋頂，用於遮擋風雨。\r\n可以建造出時尚的日式建築。"
+        }
+      },
+      "BUILDOBJECT_DESC_JapaneseStyle_PyramidRoof": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_JapaneseStyle_PyramidRoof_TextData",
+          "SourceString": "建於牆壁上方的錐形屋頂，用於遮擋風雨。\r\n可以建造出時尚的日式建築。",
+          "LocalizedString": "建於牆壁上方的錐形屋頂，用於遮擋風雨。\r\n可以建造出時尚的日式建築。"
+        }
+      },
+      "BUILDOBJECT_DESC_SF_TriangleFoundation": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SF_TriangleFoundation_TextData",
+          "SourceString": "三角地基，可在上面建造牆壁或設施。\r\n可以建造出近未來風格的簡約建築。",
+          "LocalizedString": "三角地基，可在上面建造牆壁或設施。\r\n可以建造出近未來風格的簡約建築。"
+        }
+      },
+      "BUILDOBJECT_DESC_SF_DiagonalWall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SF_DiagonalWall_TextData",
+          "SourceString": "建於三角地基上的對角牆壁，用於防止入侵者。\r\n可以建造出近未來風格的簡約建築。",
+          "LocalizedString": "建於三角地基上的對角牆壁，用於防止入侵者。\r\n可以建造出近未來風格的簡約建築。"
+        }
+      },
+      "BUILDOBJECT_DESC_SF_TriangleRoof": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SF_TriangleRoof_TextData",
+          "SourceString": "建於牆壁上方的三角屋頂，用於遮擋風雨。\r\n可以建造出近未來風格的簡約建築。",
+          "LocalizedString": "建於牆壁上方的三角屋頂，用於遮擋風雨。\r\n可以建造出近未來風格的簡約建築。"
+        }
+      },
+      "BUILDOBJECT_DESC_SF_TriangleStairsCorner": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SF_TriangleStairsCorner_TextData",
+          "SourceString": "建於牆壁上方的轉角屋頂，用於遮擋風雨。\r\n可以建造出近未來風格的簡約建築。",
+          "LocalizedString": "建於牆壁上方的轉角屋頂，用於遮擋風雨。\r\n可以建造出近未來風格的簡約建築。"
+        }
+      },
+      "BUILDOBJECT_DESC_SF_TriangleWallReverse": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SF_TriangleWallReverse_TextData",
+          "SourceString": "建於地基上的三角牆（反向）。\r\n可以建造出近未來風格的簡約建築。",
+          "LocalizedString": "建於地基上的三角牆（反向）。\r\n可以建造出近未來風格的簡約建築。"
+        }
+      },
+      "BUILDOBJECT_DESC_SF_WallGate": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SF_WallGate_TextData",
+          "SourceString": "建於地基上的帕魯用通道口，可作為出入口。\r\n可以建造出近未來風格的簡約建築。",
+          "LocalizedString": "建於地基上的帕魯用通道口，可作為出入口。\r\n可以建造出近未來風格的簡約建築。"
+        }
+      },
+      "BUILDOBJECT_DESC_SF_SlopedRoofCorner": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SF_SlopedRoofCorner_TextData",
+          "SourceString": "建於對角牆上方的三角斜屋頂，用於遮擋風雨。\r\n可以建造出近未來風格的簡約建築。",
+          "LocalizedString": "建於對角牆上方的三角斜屋頂，用於遮擋風雨。\r\n可以建造出近未來風格的簡約建築。"
+        }
+      },
+      "BUILDOBJECT_DESC_SF_PyramidRoof": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SF_PyramidRoof_TextData",
+          "SourceString": "建於牆壁上方的錐形屋頂，用於遮擋風雨。\r\n可以建造出近未來風格的簡約建築。",
+          "LocalizedString": "建於牆壁上方的錐形屋頂，用於遮擋風雨。\r\n可以建造出近未來風格的簡約建築。"
+        }
+      },
+      "BUILDOBJECT_DESC_FurnitureTree01_Green": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FurnitureTree01_Green_TextData",
+          "SourceString": "裝飾用的樹木模型。\r\n拆除此建築物無法取得材料。",
+          "LocalizedString": "裝飾用的樹木模型。\r\n拆除此建築物無法取得材料。"
+        }
+      },
+      "BUILDOBJECT_DESC_FurnitureTree02_Green": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FurnitureTree02_Green_TextData",
+          "SourceString": "裝飾用的樹木模型。\r\n拆除此建築物無法取得材料。",
+          "LocalizedString": "裝飾用的樹木模型。\r\n拆除此建築物無法取得材料。"
+        }
+      },
+      "BUILDOBJECT_DESC_FurnitureTree03_Green": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FurnitureTree03_Green_TextData",
+          "SourceString": "裝飾用的樹木模型。\r\n拆除此建築物無法取得材料。",
+          "LocalizedString": "裝飾用的樹木模型。\r\n拆除此建築物無法取得材料。"
+        }
+      },
+      "BUILDOBJECT_DESC_FurnitureTree01_Red": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FurnitureTree01_Red_TextData",
+          "SourceString": "裝飾用的紅葉樹木模型。\r\n拆除此建築物無法取得材料。",
+          "LocalizedString": "裝飾用的紅葉樹木模型。\r\n拆除此建築物無法取得材料。"
+        }
+      },
+      "BUILDOBJECT_DESC_FurnitureTree02_Red": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FurnitureTree02_Red_TextData",
+          "SourceString": "裝飾用的紅葉樹木模型。\r\n拆除此建築物無法取得材料。",
+          "LocalizedString": "裝飾用的紅葉樹木模型。\r\n拆除此建築物無法取得材料。"
+        }
+      },
+      "BUILDOBJECT_DESC_FurnitureTree03_Red": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FurnitureTree03_Red_TextData",
+          "SourceString": "裝飾用的紅葉樹木模型。\r\n拆除此建築物無法取得材料。",
+          "LocalizedString": "裝飾用的紅葉樹木模型。\r\n拆除此建築物無法取得材料。"
+        }
+      },
+      "BUILDOBJECT_DESC_FurnitureTree01_Yellow": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FurnitureTree01_Yellow_TextData",
+          "SourceString": "裝飾用的黃葉樹木模型。\r\n拆除此建築物無法取得材料。",
+          "LocalizedString": "裝飾用的黃葉樹木模型。\r\n拆除此建築物無法取得材料。"
+        }
+      },
+      "BUILDOBJECT_DESC_FurnitureTree02_Yellow": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FurnitureTree02_Yellow_TextData",
+          "SourceString": "裝飾用的黃葉樹木模型。\r\n拆除此建築物無法取得材料。",
+          "LocalizedString": "裝飾用的黃葉樹木模型。\r\n拆除此建築物無法取得材料。"
+        }
+      },
+      "BUILDOBJECT_DESC_FurnitureTree03_Yellow": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FurnitureTree03_Yellow_TextData",
+          "SourceString": "裝飾用的黃葉樹木模型。\r\n拆除此建築物無法取得材料。",
+          "LocalizedString": "裝飾用的黃葉樹木模型。\r\n拆除此建築物無法取得材料。"
+        }
+      },
+      "BUILDOBJECT_DESC_FurnitureTree01_Cherry": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FurnitureTree01_Cherry_TextData",
+          "SourceString": "裝飾用的櫻花樹模型。\r\n拆除此建築物無法取得材料。",
+          "LocalizedString": "裝飾用的櫻花樹模型。\r\n拆除此建築物無法取得材料。"
+        }
+      },
+      "BUILDOBJECT_DESC_FurnitureTree02_Cherry": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FurnitureTree02_Cherry_TextData",
+          "SourceString": "裝飾用的櫻花樹模型。\r\n拆除此建築物無法取得材料。",
+          "LocalizedString": "裝飾用的櫻花樹模型。\r\n拆除此建築物無法取得材料。"
+        }
+      },
+      "BUILDOBJECT_DESC_FurnitureTree03_Cherry": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FurnitureTree03_Cherry_TextData",
+          "SourceString": "裝飾用的櫻花樹模型。\r\n拆除此建築物無法取得材料。",
+          "LocalizedString": "裝飾用的櫻花樹模型。\r\n拆除此建築物無法取得材料。"
+        }
+      },
+      "BUILDOBJECT_DESC_FurnitureTree01_Tropical": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FurnitureTree01_Tropical_TextData",
+          "SourceString": "裝飾用的熱帶樹木模型。\r\n拆除此建築物無法取得材料。",
+          "LocalizedString": "裝飾用的熱帶樹木模型。\r\n拆除此建築物無法取得材料。"
+        }
+      },
+      "BUILDOBJECT_DESC_FurnitureTree02_Tropical": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FurnitureTree02_Tropical_TextData",
+          "SourceString": "裝飾用的熱帶樹木模型。\r\n拆除此建築物無法取得材料。",
+          "LocalizedString": "裝飾用的熱帶樹木模型。\r\n拆除此建築物無法取得材料。"
+        }
+      },
+      "BUILDOBJECT_DESC_FurnitureTree03_Tropical": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FurnitureTree03_Tropical_TextData",
+          "SourceString": "裝飾用的熱帶樹木模型。\r\n拆除此建築物無法取得材料。",
+          "LocalizedString": "裝飾用的熱帶樹木模型。\r\n拆除此建築物無法取得材料。"
+        }
+      },
+      "BUILDOBJECT_DESC_FurnitureTree01_Snow": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FurnitureTree01_Snow_TextData",
+          "SourceString": "裝飾用的積雪樹木模型。\r\n拆除此建築物無法取得材料。",
+          "LocalizedString": "裝飾用的積雪樹木模型。\r\n拆除此建築物無法取得材料。"
+        }
+      },
+      "BUILDOBJECT_DESC_FurnitureTree02_Snow": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FurnitureTree02_Snow_TextData",
+          "SourceString": "裝飾用的積雪樹木模型。\r\n拆除此建築物無法取得材料。",
+          "LocalizedString": "裝飾用的積雪樹木模型。\r\n拆除此建築物無法取得材料。"
+        }
+      },
+      "BUILDOBJECT_DESC_FurnitureTree03_Snow": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FurnitureTree03_Snow_TextData",
+          "SourceString": "裝飾用的積雪樹木模型。\r\n拆除此建築物無法取得材料。",
+          "LocalizedString": "裝飾用的積雪樹木模型。\r\n拆除此建築物無法取得材料。"
+        }
+      },
+      "BUILDOBJECT_DESC_FurnitureTree01_Desert": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FurnitureTree01_Desert_TextData",
+          "SourceString": "裝飾用的沙漠樹木模型。\r\n拆除此建築物無法取得材料。",
+          "LocalizedString": "裝飾用的沙漠樹木模型。\r\n拆除此建築物無法取得材料。"
+        }
+      },
+      "BUILDOBJECT_DESC_FurnitureTree02_Desert": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FurnitureTree02_Desert_TextData",
+          "SourceString": "裝飾用的沙漠樹木模型。\r\n拆除此建築物無法取得材料。",
+          "LocalizedString": "裝飾用的沙漠樹木模型。\r\n拆除此建築物無法取得材料。"
+        }
+      },
+      "BUILDOBJECT_DESC_FurnitureTree03_Desert": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FurnitureTree03_Desert_TextData",
+          "SourceString": "裝飾用的沙漠樹木模型。\r\n拆除此建築物無法取得材料。",
+          "LocalizedString": "裝飾用的沙漠樹木模型。\r\n拆除此建築物無法取得材料。"
+        }
+      },
+      "BUILDOBJECT_DESC_FurnitureTree01_Bamboo": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FurnitureTree01_Bamboo_TextData",
+          "SourceString": "裝飾用的竹子模型。\r\n拆除此建築物無法取得材料。",
+          "LocalizedString": "裝飾用的竹子模型。\r\n拆除此建築物無法取得材料。"
+        }
+      },
+      "BUILDOBJECT_DESC_FurnitureTree02_Bamboo": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FurnitureTree02_Bamboo_TextData",
+          "SourceString": "裝飾用的竹子模型。\r\n拆除此建築物無法取得材料。",
+          "LocalizedString": "裝飾用的竹子模型。\r\n拆除此建築物無法取得材料。"
+        }
+      },
+      "BUILDOBJECT_DESC_FurnitureTree03_Bamboo": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FurnitureTree03_Bamboo_TextData",
+          "SourceString": "裝飾用的竹子模型。\r\n拆除此建築物無法取得材料。",
+          "LocalizedString": "裝飾用的竹子模型。\r\n拆除此建築物無法取得材料。"
+        }
+      },
+      "BUILDOBJECT_DESC_FurnitureBush01_Green": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FurnitureBush01_Green_TextData",
+          "SourceString": "裝飾用的樹叢模型。\r\n拆除此建築物無法取得材料。",
+          "LocalizedString": "裝飾用的樹叢模型。\r\n拆除此建築物無法取得材料。"
+        }
+      },
+      "BUILDOBJECT_DESC_FurnitureBush01_Yellow": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FurnitureBush01_Yellow_TextData",
+          "SourceString": "裝飾用的枯樹叢模型。\r\n拆除此建築物無法取得材料。",
+          "LocalizedString": "裝飾用的枯樹叢模型。\r\n拆除此建築物無法取得材料。"
+        }
+      },
+      "BUILDOBJECT_DESC_FurnitureBush01_Flower": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FurnitureBush01_Flower_TextData",
+          "SourceString": "裝飾用的開花樹叢模型。\r\n拆除此建築物無法取得材料。",
+          "LocalizedString": "裝飾用的開花樹叢模型。\r\n拆除此建築物無法取得材料。"
+        }
+      },
+      "BUILDOBJECT_DESC_FurnitureBush02_Flower": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FurnitureBush02_Flower_TextData",
+          "SourceString": "裝飾用的開花樹叢模型。\r\n拆除此建築物無法取得材料。",
+          "LocalizedString": "裝飾用的開花樹叢模型。\r\n拆除此建築物無法取得材料。"
+        }
+      },
+      "BUILDOBJECT_DESC_FurnitureBush01_Tropical": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FurnitureBush01_Tropical_TextData",
+          "SourceString": "裝飾用的熱帶樹叢模型。\r\n拆除此建築物無法取得材料。",
+          "LocalizedString": "裝飾用的熱帶樹叢模型。\r\n拆除此建築物無法取得材料。"
+        }
+      },
+      "BUILDOBJECT_DESC_FurnitureBush01_Snow": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FurnitureBush01_Snow_TextData",
+          "SourceString": "裝飾用的白色樹叢模型。\r\n拆除此建築物無法取得材料。",
+          "LocalizedString": "裝飾用的白色樹叢模型。\r\n拆除此建築物無法取得材料。"
+        }
+      },
+      "BUILDOBJECT_DESC_FurnitureStone01": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FurnitureStone01_TextData",
+          "SourceString": "裝飾用的岩石模型。\r\n拆除此建築物無法取得材料。",
+          "LocalizedString": "裝飾用的岩石模型。\r\n拆除此建築物無法取得材料。"
+        }
+      },
+      "BUILDOBJECT_DESC_TableCircular_Wood_None": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_TableCircular_Wood_None_TextData",
+          "SourceString": "裝飾用的整潔圓桌。",
+          "LocalizedString": "裝飾用的整潔圓桌。"
+        }
+      },
+      "BUILDOBJECT_DESC_TableSquare_Wood_None": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_TableSquare_Wood_None_TextData",
+          "SourceString": "裝飾用的整潔方桌。",
+          "LocalizedString": "裝飾用的整潔方桌。"
+        }
+      },
+      "BUILDOBJECT_DESC_JetDragonStatue": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_JetDragonStatue_TextData",
+          "SourceString": "裝飾用的空渦龍雕像。",
+          "LocalizedString": "裝飾用的空渦龍雕像。"
+        }
+      },
+      "BUILDOBJECT_DESC_IceHorseStatue": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_IceHorseStatue_TextData",
+          "SourceString": "裝飾用的喚冬獸雕像。",
+          "LocalizedString": "裝飾用的喚冬獸雕像。"
+        }
+      },
+      "BUILDOBJECT_DESC_ArcadeVideoGame": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_ArcadeVideoGame_TextData",
+          "SourceString": "裝飾用的街機遊戲機台。\r\n壞掉了，所以不能玩了。",
+          "LocalizedString": "裝飾用的街機遊戲機台。\r\n壞掉了，所以不能玩了。"
+        }
+      },
+      "BUILDOBJECT_DESC_Ancient_TriangleFoundation": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Ancient_TriangleFoundation_TextData",
+          "SourceString": "三角地基，可在上面建造牆壁或設施。\r\n重現了古代文明的建築樣式。",
+          "LocalizedString": "三角地基，可在上面建造牆壁或設施。\r\n重現了古代文明的建築樣式。"
+        }
+      },
+      "BUILDOBJECT_DESC_Ancient_DiagonalWall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Ancient_DiagonalWall_TextData",
+          "SourceString": "建於三角地基上的對角牆壁，用於防止入侵者。\r\n重現了古代文明的建築樣式。",
+          "LocalizedString": "建於三角地基上的對角牆壁，用於防止入侵者。\r\n重現了古代文明的建築樣式。"
+        }
+      },
+      "BUILDOBJECT_DESC_Ancient_TriangleRoof": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Ancient_TriangleRoof_TextData",
+          "SourceString": "建於牆壁上方的三角屋頂，用於遮擋風雨。\r\n重現了古代文明的建築樣式。",
+          "LocalizedString": "建於牆壁上方的三角屋頂，用於遮擋風雨。\r\n重現了古代文明的建築樣式。"
+        }
+      },
+      "BUILDOBJECT_DESC_Ancient_TriangleStairsCorner": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Ancient_TriangleStairsCorner_TextData",
+          "SourceString": "建於牆壁上方的轉角屋頂，用於遮擋風雨。\r\n重現了古代文明的建築樣式。",
+          "LocalizedString": "建於牆壁上方的轉角屋頂，用於遮擋風雨。\r\n重現了古代文明的建築樣式。"
+        }
+      },
+      "BUILDOBJECT_DESC_Ancient_TriangleWallReverse": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Ancient_TriangleWallReverse_TextData",
+          "SourceString": "建於地基上的三角牆（反向）。\r\n重現了古代文明的建築樣式。",
+          "LocalizedString": "建於地基上的三角牆（反向）。\r\n重現了古代文明的建築樣式。"
+        }
+      },
+      "BUILDOBJECT_DESC_Ancient_WallGate": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Ancient_WallGate_TextData",
+          "SourceString": "建於地基上的帕魯用通道口，可作為出入口。\r\n重現了古代文明的建築樣式。",
+          "LocalizedString": "建於地基上的帕魯用通道口，可作為出入口。\r\n重現了古代文明的建築樣式。"
+        }
+      },
+      "BUILDOBJECT_DESC_Ancient_SlopedRoofCorner": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Ancient_SlopedRoofCorner_TextData",
+          "SourceString": "建於對角牆上方的三角斜屋頂，用於遮擋風雨。\r\n重現了古代文明的建築樣式。",
+          "LocalizedString": "建於對角牆上方的三角斜屋頂，用於遮擋風雨。\r\n重現了古代文明的建築樣式。"
+        }
+      },
+      "BUILDOBJECT_DESC_Ancient_PyramidRoof": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Ancient_PyramidRoof_TextData",
+          "SourceString": "建於牆壁上方的錐形屋頂，用於遮擋風雨。\r\n重現了古代文明的建築樣式。",
+          "LocalizedString": "建於牆壁上方的錐形屋頂，用於遮擋風雨。\r\n重現了古代文明的建築樣式。"
+        }
+      },
+      "BUILDOBJECT_DESC_Ancient_foundation": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Ancient_foundation_TextData",
+          "SourceString": "建築地基，可在上面建造牆壁或設施。\r\n重現了古代文明的建築樣式。",
+          "LocalizedString": "建築地基，可在上面建造牆壁或設施。\r\n重現了古代文明的建築樣式。"
+        }
+      },
+      "BUILDOBJECT_DESC_Ancient_wall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Ancient_wall_TextData",
+          "SourceString": "建於地基上的牆壁，用於防止入侵者。\r\n重現了古代文明的建築樣式。",
+          "LocalizedString": "建於地基上的牆壁，用於防止入侵者。\r\n重現了古代文明的建築樣式。"
+        }
+      },
+      "BUILDOBJECT_DESC_Ancient_roof": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Ancient_roof_TextData",
+          "SourceString": "建於牆壁上方的屋頂，用於遮擋風雨。\r\n重現了古代文明的建築樣式。",
+          "LocalizedString": "建於牆壁上方的屋頂，用於遮擋風雨。\r\n重現了古代文明的建築樣式。"
+        }
+      },
+      "BUILDOBJECT_DESC_Ancient_stair": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Ancient_stair_TextData",
+          "SourceString": "置於地基或屋頂下方，使之易於攀登的樓梯。\r\n重現了古代文明的建築樣式。",
+          "LocalizedString": "置於地基或屋頂下方，使之易於攀登的樓梯。\r\n重現了古代文明的建築樣式。"
+        }
+      },
+      "BUILDOBJECT_DESC_Ancient_DoorWall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Ancient_DoorWall_TextData",
+          "SourceString": "建於地基上的門，可作為出入口。\r\n重現了古代文明的建築樣式。",
+          "LocalizedString": "建於地基上的門，可作為出入口。\r\n重現了古代文明的建築樣式。"
+        }
+      },
+      "BUILDOBJECT_DESC_Ancient_TriangleWall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Ancient_TriangleWall_TextData",
+          "SourceString": "建於地基上的三角牆。\r\n重現了古代文明的建築樣式。",
+          "LocalizedString": "建於地基上的三角牆。\r\n重現了古代文明的建築樣式。"
+        }
+      },
+      "BUILDOBJECT_DESC_Ancient_SlantedRoof": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Ancient_SlantedRoof_TextData",
+          "SourceString": "建於牆壁上方的斜屋頂，用於遮擋風雨。\r\n重現了古代文明的建築樣式。",
+          "LocalizedString": "建於牆壁上方的斜屋頂，用於遮擋風雨。\r\n重現了古代文明的建築樣式。"
+        }
+      },
+      "BUILDOBJECT_DESC_Ancient_WindowWall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Ancient_WindowWall_TextData",
+          "SourceString": "建於地基上的附窗牆壁，用於防止入侵者。\r\n重現了古代文明的建築樣式。",
+          "LocalizedString": "建於地基上的附窗牆壁，用於防止入侵者。\r\n重現了古代文明的建築樣式。"
+        }
+      },
+      "BUILDOBJECT_DESC_Ancient_Pillars": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Ancient_Pillars_TextData",
+          "SourceString": "用來支撐建築的立柱。\r\n重現了古代文明的建築樣式。",
+          "LocalizedString": "用來支撐建築的立柱。\r\n重現了古代文明的建築樣式。"
+        }
+      },
+      "BUILDOBJECT_DESC_AncientWorkBench": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_AncientWorkBench_TextData",
+          "SourceString": "帕魯專用的複合設施，可以在一個地方製作所有道具。\r\n玩家無法進行作業，製作速度也和一般設備無異。\r\n由於功能複雜，需要具備高等級手工作業和製藥適應性的帕魯。",
+          "LocalizedString": "帕魯專用的複合設施，可以在一個地方製作所有道具。\r\n玩家無法進行作業，製作速度也和一般設備無異。\r\n由於功能複雜，需要具備高等級手工作業和製藥適應性的帕魯。"
+        }
+      },
+      "BUILDOBJECT_DESC_AncientElectricGenerator": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_AncientElectricGenerator_TextData",
+          "SourceString": "重現了失落的古代技術所製造出的超高效發電機。\r\n它能製造出龐大的電力，但運作時有過熱的風險。\r\n運作時除了需要高等級發電適應性的帕魯，還需要具備澆水適應性的帕魯負責冷卻。",
+          "LocalizedString": "重現了失落的古代技術所製造出的超高效發電機。\r\n它能製造出龐大的電力，但運作時有過熱的風險。\r\n運作時除了需要高等級發電適應性的帕魯，還需要具備澆水適應性的帕魯負責冷卻。"
+        }
+      },
+      "BUILDOBJECT_DESC_AncientBlastFurnace": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_AncientBlastFurnace_TextData",
+          "SourceString": "應用了古文明技術的特殊火爐，能冶煉所有種類的金屬錠。\r\n用火焰的熱度熔化素材，再用冰之力讓其快速凝固。\r\n要使其運作，需要具備高等級生火和有冷卻適應性的帕魯。",
+          "LocalizedString": "應用了古文明技術的特殊火爐，能冶煉所有種類的金屬錠。\r\n用火焰的熱度熔化素材，再用冰之力讓其快速凝固。\r\n要使其運作，需要具備高等級生火和有冷卻適應性的帕魯。"
+        }
+      },
+      "BUILDOBJECT_DESC_AncientCookingStove": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_AncientCookingStove_TextData",
+          "SourceString": "從既有的食譜到未知的新作都能做出來的古代文明廚房。\r\n先用火焰加熱，再手工完成最後的步驟，即可做出各種料理。\r\n要使其運作，需要具備高等級生火和手工作業適應性的帕魯。",
+          "LocalizedString": "從既有的食譜到未知的新作都能做出來的古代文明廚房。\r\n先用火焰加熱，再手工完成最後的步驟，即可做出各種料理。\r\n要使其運作，需要具備高等級生火和手工作業適應性的帕魯。"
+        }
+      },
+      "BUILDOBJECT_DESC_AncientMultiProduct": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_AncientMultiProduct_TextData",
+          "SourceString": "利用世界樹之力可以生成各種木材和礦石的古代文明生成器。\r\n由於構造複雜，只能分派1隻帕魯。",
+          "LocalizedString": "利用世界樹之力可以生成各種木材和礦石的古代文明生成器。\r\n由於構造複雜，只能分派1隻帕魯。"
+        }
+      },
+      "BUILDOBJECT_DESC_AncientFarmBlock": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_AncientFarmBlock_TextData",
+          "SourceString": "利用世界樹之力可以培育帕洛斯群島各種植物的古代文明栽培器。\r\n體積比野莓園小很多，能設置在室內，但培育的流程與從前無異。\r\n要使其運作，需要具備高等級播種、澆水、採集適應性的帕魯。",
+          "LocalizedString": "利用世界樹之力可以培育帕洛斯群島各種植物的古代文明栽培器。\r\n體積比野莓園小很多，能設置在室內，但培育的流程與從前無異。\r\n要使其運作，需要具備高等級播種、澆水、採集適應性的帕魯。"
+        }
+      },
+      "BUILDOBJECT_DESC_DefenseMachinegun_AutoTurret": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_DefenseMachinegun_AutoTurret_TextData",
+          "SourceString": "古代文明的無人防禦塔，具備相當於火箭發射器的口徑與火力。\r\n無需配置彈藥和帕魯，只消耗電力就能全自動迎擊敵人。\r\n性能非常強大，但需要龐大的電力來維持其運作。",
+          "LocalizedString": "古代文明的無人防禦塔，具備相當於火箭發射器的口徑與火力。\r\n無需配置彈藥和帕魯，只消耗電力就能全自動迎擊敵人。\r\n性能非常強大，但需要龐大的電力來維持其運作。"
+        }
+      },
+      "BUILDOBJECT_DESC_MultiElectricHatchingPalEggWithBreed": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_MultiElectricHatchingPalEggWithBreed_TextData",
+          "SourceString": "覆蓋電子玻璃的古代文明高級配種設施。\r\n從產蛋到孵化都能全自動高速完成，還能提升稀有技能的遺傳率。\r\n以全息投影監控設施內部的帕魯，不再需要廣大的牧場空間。",
+          "LocalizedString": "覆蓋電子玻璃的古代文明高級配種設施。\r\n從產蛋到孵化都能全自動高速完成，還能提升稀有技能的遺傳率。\r\n以全息投影監控設施內部的帕魯，不再需要廣大的牧場空間。"
+        }
+      },
+      "BUILDOBJECT_DESC_BaseCampWorkHard03": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_BaseCampWorkHard03_TextData",
+          "SourceString": "鑲嵌紅色帕魯礦的古代科技監視台。\r\n能透過全像影像介面對整個據點下達指示，同時延緩帕魯SAN值降低的速度。\r\n它會發出特殊的波長包裹據點，在嚴苛的工作環境下也能撫慰帕魯的心。",
+          "LocalizedString": "鑲嵌紅色帕魯礦的古代科技監視台。\r\n能透過全像影像介面對整個據點下達指示，同時延緩帕魯SAN值降低的速度。\r\n它會發出特殊的波長包裹據點，在嚴苛的工作環境下也能撫慰帕魯的心。"
+        }
+      },
+      "BUILDOBJECT_DESC_Ancient_MedicalPalBed": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Ancient_MedicalPalBed_TextData",
+          "SourceString": "在治癒生命的古代膠囊裡鋪上柔軟的襯布，是最高級的帕魯床。\r\n在各類帕魯床中具有最高的SAN值恢復量，能夠迅速緩解疲勞。\r\n尺寸與大型帕魯床相同，體型較大的帕魯也能舒適地休息。",
+          "LocalizedString": "在治癒生命的古代膠囊裡鋪上柔軟的襯布，是最高級的帕魯床。\r\n在各類帕魯床中具有最高的SAN值恢復量，能夠迅速緩解疲勞。\r\n尺寸與大型帕魯床相同，體型較大的帕魯也能舒適地休息。"
+        }
+      },
+      "BUILDOBJECT_DESC_AncientAirConditioner": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_AncientAirConditioner_TextData",
+          "SourceString": "採用古代技術，能控制整個據點溫度的空調機。\r\n機型比舊有的溫控設備更小，只需給它通電就能將體感溫度維持在舒適範圍。\r\n不需要調整溫度的帕魯參與，只需電力就能抵銷嚴苛環境的影響。",
+          "LocalizedString": "採用古代技術，能控制整個據點溫度的空調機。\r\n機型比舊有的溫控設備更小，只需給它通電就能將體感溫度維持在舒適範圍。\r\n不需要調整溫度的帕魯參與，只需電力就能抵銷嚴苛環境的影響。"
+        }
+      },
+      "BUILDOBJECT_DESC_Ancient_Spa": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Ancient_Spa_TextData",
+          "SourceString": "古代科技製造的溫泉，能泡到溶有帕魯礦物成分的特殊熱水。\r\n在所有溫泉中擁有最高等級的SAN值恢復量，還能一併恢復體力。\r\n尺寸與舊有的溫泉相近，能讓受傷的帕魯享受到極盡療癒。",
+          "LocalizedString": "古代科技製造的溫泉，能泡到溶有帕魯礦物成分的特殊熱水。\r\n在所有溫泉中擁有最高等級的SAN值恢復量，還能一併恢復體力。\r\n尺寸與舊有的溫泉相近，能讓受傷的帕魯享受到極盡療癒。"
+        }
+      },
+      "BUILDOBJECT_DESC_AncientRelicRecycler": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_AncientRelicRecycler_TextData",
+          "SourceString": "利用失落文明的技術製造出來的古代物質轉化裝置。\r\n透過破解「古代文明的遺物」中遺留的技術，使其昇華為全新的形態。\r\n是能最大限度發揮遺物的利用價值、極為特殊的設備。",
+          "LocalizedString": "利用失落文明的技術製造出來的古代物質轉化裝置。\r\n透過破解「古代文明的遺物」中遺留的技術，使其昇華為全新的形態。\r\n是能最大限度發揮遺物的利用價值、極為特殊的設備。"
+        }
+      },
+      "BUILDOBJECT_DESC_Clinic": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Clinic_TextData",
+          "SourceString": "基礎醫療設施，用於管理在據點工作的帕魯們的健康狀態。\r\n分派擅長製藥的帕魯，就能減緩SAN值下降，降低帕魯生病受傷的頻率。\r\n它能維持的環境清潔度存在上限，但在初期管理據點衛生時相當重要。",
+          "LocalizedString": "基礎醫療設施，用於管理在據點工作的帕魯們的健康狀態。\r\n分派擅長製藥的帕魯，就能減緩SAN值下降，降低帕魯生病受傷的頻率。\r\n它能維持的環境清潔度存在上限，但在初期管理據點衛生時相當重要。"
+        }
+      },
+      "BUILDOBJECT_DESC_Ancient_Clinic": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Ancient_Clinic_TextData",
+          "SourceString": "重現了古代高級醫療技術的頂級醫療設施。\r\n保護能力遠遠凌駕於普通的診所之上。\r\n只要為其分派熟練的製藥帕魯，即便據點的工作條件非常嚴苛，也能將衛生等級維持在最高水準。",
+          "LocalizedString": "重現了古代高級醫療技術的頂級醫療設施。\r\n保護能力遠遠凌駕於普通的診所之上。\r\n只要為其分派熟練的製藥帕魯，即便據點的工作條件非常嚴苛，也能將衛生等級維持在最高水準。"
+        }
+      },
+      "BUILDOBJECT_DESC_SkyIslandOrePit": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SkyIslandOrePit_TextData",
+          "SourceString": "生產<itemName id=|SkyIslandOre|/>的設施。\r\n<itemName id=|SkyIslandOre|/>挖掘的工作需要大量體力，相當嚴苛。\r\n把這些工作交給擅長挖掘的帕魯吧。",
+          "LocalizedString": "生產<itemName id=|SkyIslandOre|/>的設施。\r\n<itemName id=|SkyIslandOre|/>挖掘的工作需要大量體力，相當嚴苛。\r\n把這些工作交給擅長挖掘的帕魯吧。"
+        }
+      },
+      "BUILDOBJECT_DESC_DarkIsland_Flag": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_DarkIsland_Flag_TextData",
+          "SourceString": "裝飾用的天墜之民團旗。",
+          "LocalizedString": "裝飾用的天墜之民團旗。"
+        }
+      },
+      "BUILDOBJECT_DESC_DarkIsland_Banner": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_DarkIsland_Banner_TextData",
+          "SourceString": "裝飾用的天墜之民掛旗。",
+          "LocalizedString": "裝飾用的天墜之民掛旗。"
+        }
+      },
+      "BUILDOBJECT_DESC_SkyIsland_Flag": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SkyIsland_Flag_TextData",
+          "SourceString": "裝飾用的蒼天的盟約盟旗。",
+          "LocalizedString": "裝飾用的蒼天的盟約盟旗。"
+        }
+      },
+      "BUILDOBJECT_DESC_SkyIsland_Banner": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SkyIsland_Banner_TextData",
+          "SourceString": "裝飾用的蒼天的盟約掛旗。",
+          "LocalizedString": "裝飾用的蒼天的盟約掛旗。"
+        }
+      },
+      "BUILDOBJECT_DESC_StationDeforest3": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_StationDeforest3_TextData",
+          "SourceString": "用於生產<itemName id=|Wood_Fine|/>的設施。\r\n砍樹的工作需要大量體力，相當嚴苛。\r\n交給擅長採伐的帕魯吧。",
+          "LocalizedString": "用於生產<itemName id=|Wood_Fine|/>的設施。\r\n砍樹的工作需要大量體力，相當嚴苛。\r\n交給擅長採伐的帕魯吧。"
+        }
+      },
+      "BUILDOBJECT_DESC_BaseCampWorkHard02": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_BaseCampWorkHard02_TextData",
+          "SourceString": "重新設計材料與結構，使得成品更為凝鍊的監控台。\r\n不但能照常指揮工作分配，還能減緩據點內帕魯的SAN值下降速度。\r\n稍微改善一點勞動環境，帕魯們就沒那麼多不滿了吧。",
+          "LocalizedString": "重新設計材料與結構，使得成品更為凝鍊的監控台。\r\n不但能照常指揮工作分配，還能減緩據點內帕魯的SAN值下降速度。\r\n稍微改善一點勞動環境，帕魯們就沒那麼多不滿了吧。"
+        }
+      },
+      "BUILDOBJECT_DESC_Ancient_Fence": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Ancient_Fence_TextData",
+          "SourceString": "建在地基或屋頂上，用於防止墜落的柵欄。\r\n重現了古代文明的建築樣式。",
+          "LocalizedString": "建在地基或屋頂上，用於防止墜落的柵欄。\r\n重現了古代文明的建築樣式。"
+        }
+      },
+      "BUILDOBJECT_DESC_Wooden_SlopedRoofCornerReverse": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Wooden_SlopedRoofCornerReverse_TextData",
+          "SourceString": "建於對角牆上方的三角斜屋頂（反向），用於遮擋風雨。\r\n以木頭製成，相當脆弱。",
+          "LocalizedString": "建於對角牆上方的三角斜屋頂（反向），用於遮擋風雨。\r\n以木頭製成，相當脆弱。"
+        }
+      },
+      "BUILDOBJECT_DESC_Stone_SlopedRoofCornerReverse": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Stone_SlopedRoofCornerReverse_TextData",
+          "SourceString": "建於對角牆上方的三角斜屋頂（反向），用於遮擋風雨。\r\n以石頭製成，還算堅固。",
+          "LocalizedString": "建於對角牆上方的三角斜屋頂（反向），用於遮擋風雨。\r\n以石頭製成，還算堅固。"
+        }
+      },
+      "BUILDOBJECT_DESC_Iron_SlopedRoofCornerReverse": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Iron_SlopedRoofCornerReverse_TextData",
+          "SourceString": "建於對角牆上方的三角斜屋頂（反向），用於遮擋風雨。\r\n以金屬製成，非常堅固。",
+          "LocalizedString": "建於對角牆上方的三角斜屋頂（反向），用於遮擋風雨。\r\n以金屬製成，非常堅固。"
+        }
+      },
+      "BUILDOBJECT_DESC_Glass_SlopedRoofCornerReverse": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Glass_SlopedRoofCornerReverse_TextData",
+          "SourceString": "建於對角牆上方的三角斜屋頂（反向），用於遮擋風雨。\r\n以鋼化玻璃製成，非常堅固。",
+          "LocalizedString": "建於對角牆上方的三角斜屋頂（反向），用於遮擋風雨。\r\n以鋼化玻璃製成，非常堅固。"
+        }
+      },
+      "BUILDOBJECT_DESC_JapaneseStyle_SlopedRoofCornerReverse": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_JapaneseStyle_SlopedRoofCornerReverse_TextData",
+          "SourceString": "建於對角牆上方的三角斜屋頂（反向），用於遮擋風雨。\r\n可以建造出時尚的日式建築。",
+          "LocalizedString": "建於對角牆上方的三角斜屋頂（反向），用於遮擋風雨。\r\n可以建造出時尚的日式建築。"
+        }
+      },
+      "BUILDOBJECT_DESC_SF_SlopedRoofCornerReverse": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SF_SlopedRoofCornerReverse_TextData",
+          "SourceString": "建於對角牆上方的三角斜屋頂（反向），用於遮擋風雨。\r\n可以建造出近未來風格的簡約建築。",
+          "LocalizedString": "建於對角牆上方的三角斜屋頂（反向），用於遮擋風雨。\r\n可以建造出近未來風格的簡約建築。"
+        }
+      },
+      "BUILDOBJECT_DESC_Ancient_SlopedRoofCornerReverse": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Ancient_SlopedRoofCornerReverse_TextData",
+          "SourceString": "建於對角牆上方的三角斜屋頂（反向），用於遮擋風雨。\r\n重現了古代文明的建築樣式。",
+          "LocalizedString": "建於對角牆上方的三角斜屋頂（反向），用於遮擋風雨。\r\n重現了古代文明的建築樣式。"
+        }
+      },
+      "BUILDOBJECT_DESC_OilPump02": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_OilPump02_TextData",
+          "SourceString": "從地下深處開採抽取<itemName id=|CrudeOil|/>的裝置。\r\n即使在沒有油田的地方也能生產<itemName id=|CrudeOil|/>，但只能設置在下方不是建築物的地表。\r\n相較於<mapObjectName id=|OilPump|/>需要更龐大的電力供應。",
+          "LocalizedString": "從地下深處開採抽取<itemName id=|CrudeOil|/>的裝置。\r\n即使在沒有油田的地方也能生產<itemName id=|CrudeOil|/>，但只能設置在下方不是建築物的地表。\r\n相較於<mapObjectName id=|OilPump|/>需要更龐大的電力供應。"
+        }
+      }
+    }
+  }
+]

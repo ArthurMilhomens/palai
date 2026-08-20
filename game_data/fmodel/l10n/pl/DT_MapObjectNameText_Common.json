@@ -1,0 +1,4952 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_MapObjectNameText_Common",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "MAPOBJECT_NAME_DummyFoliage": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DummyFoliage_TextData",
+          "SourceString": "Drzewo",
+          "LocalizedString": "Drzewo"
+        }
+      },
+      "MAPOBJECT_NAME_BlastFurnace": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_BlastFurnace_TextData",
+          "SourceString": "Prymitywny piec hutniczy",
+          "LocalizedString": "Prymitywny piec hutniczy"
+        }
+      },
+      "MAPOBJECT_NAME_BlastFurnace2": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_BlastFurnace2_TextData",
+          "SourceString": "Ulepszony piec hutniczy",
+          "LocalizedString": "Ulepszony piec hutniczy"
+        }
+      },
+      "MAPOBJECT_NAME_BlastFurnace3": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_BlastFurnace3_TextData",
+          "SourceString": "Elektryczny piec hutniczy",
+          "LocalizedString": "Elektryczny piec hutniczy"
+        }
+      },
+      "MAPOBJECT_NAME_BlastFurnace4_Old": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_BlastFurnace4_Old_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_BlastFurnace5": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_BlastFurnace5_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_CampFire": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_CampFire_TextData",
+          "SourceString": "Ognisko",
+          "LocalizedString": "Ognisko"
+        }
+      },
+      "MAPOBJECT_NAME_CharacterRankUp": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_CharacterRankUp_TextData",
+          "SourceString": "Kondensator Esencji Pali",
+          "LocalizedString": "Kondensator Esencji Pali"
+        }
+      },
+      "MAPOBJECT_NAME_CookingStove": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_CookingStove_TextData",
+          "SourceString": "Kociołek",
+          "LocalizedString": "Kociołek"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableRock0001": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableRock0001_TextData",
+          "SourceString": "Kamień",
+          "LocalizedString": "Kamień"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableRock0002": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableRock0002_TextData",
+          "SourceString": "Ruda miedzi",
+          "LocalizedString": "Ruda miedzi"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableRock0003": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableRock0003_TextData",
+          "SourceString": "Czysty kwarc",
+          "LocalizedString": "Czysty kwarc"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableRock0004": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableRock0004_TextData",
+          "SourceString": "Węgiel",
+          "LocalizedString": "Węgiel"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableRock0005": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableRock0005_TextData",
+          "SourceString": "Ruda Paldium",
+          "LocalizedString": "Ruda Paldium"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableRock0006": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableRock0006_TextData",
+          "SourceString": "Siarka",
+          "LocalizedString": "Siarka"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableRock0007": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableRock0007_TextData",
+          "SourceString": "Kamień",
+          "LocalizedString": "Kamień"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableRock0008": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableRock0008_TextData",
+          "SourceString": "Kamień",
+          "LocalizedString": "Kamień"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableRock0009": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableRock0009_TextData",
+          "SourceString": "Kamień",
+          "LocalizedString": "Kamień"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableRock0010": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableRock0010_TextData",
+          "SourceString": "Kamień",
+          "LocalizedString": "Kamień"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableRock0011": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableRock0011_TextData",
+          "SourceString": "Kamień",
+          "LocalizedString": "Kamień"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableRock0012": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableRock0012_TextData",
+          "SourceString": "Kamień",
+          "LocalizedString": "Kamień"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableRock0013": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableRock0013_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableRock0014": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableRock0014_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableRock0015": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableRock0015_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableRock0016": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableRock0016_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_DeathPenaltyChest": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DeathPenaltyChest_TextData",
+          "SourceString": "Skrzynia pośmiertna",
+          "LocalizedString": "Skrzynia pośmiertna"
+        }
+      },
+      "MAPOBJECT_NAME_DefenseGatlingGun": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DefenseGatlingGun_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_DefenseMachinegun": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DefenseMachinegun_TextData",
+          "SourceString": "Stacjonarny karabin maszynowy",
+          "LocalizedString": "Stacjonarny karabin maszynowy"
+        }
+      },
+      "MAPOBJECT_NAME_DefenseMinigun": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DefenseMinigun_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_DefenseMissile": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DefenseMissile_TextData",
+          "SourceString": "Stacjonarna wyrzutnia pocisków",
+          "LocalizedString": "Stacjonarna wyrzutnia pocisków"
+        }
+      },
+      "MAPOBJECT_NAME_DefenseBowGun": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DefenseBowGun_TextData",
+          "SourceString": "Stacjonarna kusza",
+          "LocalizedString": "Stacjonarna kusza"
+        }
+      },
+      "MAPOBJECT_NAME_DefenseWait": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DefenseWait_TextData",
+          "SourceString": "Worki z piaskiem",
+          "LocalizedString": "Worki z piaskiem"
+        }
+      },
+      "MAPOBJECT_NAME_DUMMY": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DUMMY_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_ElectricGenerator": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ElectricGenerator_TextData",
+          "SourceString": "Generator prądu",
+          "LocalizedString": "Generator prądu"
+        }
+      },
+      "MAPOBJECT_NAME_ElectricGenerator_Slave": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ElectricGenerator_Slave_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_ElectricGenerator2": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ElectricGenerator2_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_ElectricGenerator3": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ElectricGenerator3_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_ElectricKitchen": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ElectricKitchen_TextData",
+          "SourceString": "Kuchnia elektryczna",
+          "LocalizedString": "Kuchnia elektryczna"
+        }
+      },
+      "MAPOBJECT_NAME_Factory_Comfortable_01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Factory_Comfortable_01_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_Factory_Comfortable_02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Factory_Comfortable_02_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_Factory_Hard_01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Factory_Hard_01_TextData",
+          "SourceString": "Warsztat wysokiej jakości",
+          "LocalizedString": "Warsztat wysokiej jakości"
+        }
+      },
+      "MAPOBJECT_NAME_Factory_Hard_02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Factory_Hard_02_TextData",
+          "SourceString": "Linia produkcyjna",
+          "LocalizedString": "Linia produkcyjna"
+        }
+      },
+      "MAPOBJECT_NAME_Factory_Hard_03": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Factory_Hard_03_TextData",
+          "SourceString": "Linia produkcyjna II",
+          "LocalizedString": "Linia produkcyjna II"
+        }
+      },
+      "MAPOBJECT_NAME_FarmBlock": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FarmBlock_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_FarmBlockV2_Grade01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FarmBlockV2_Grade01_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_FarmBlockV2_Grade02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FarmBlockV2_Grade02_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_FarmBlockV2_Grade03": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FarmBlockV2_Grade03_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_FarmBlockV2_wheet": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FarmBlockV2_wheet_TextData",
+          "SourceString": "Plantacja pszenicy",
+          "LocalizedString": "Plantacja pszenicy"
+        }
+      },
+      "MAPOBJECT_NAME_FarmBlockV2_tomato": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FarmBlockV2_tomato_TextData",
+          "SourceString": "Plantacja pomidorów",
+          "LocalizedString": "Plantacja pomidorów"
+        }
+      },
+      "MAPOBJECT_NAME_FarmBlockV2_Lettuce": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FarmBlockV2_Lettuce_TextData",
+          "SourceString": "Plantacja sałaty",
+          "LocalizedString": "Plantacja sałaty"
+        }
+      },
+      "MAPOBJECT_NAME_FarmBlockV2_Berries": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FarmBlockV2_Berries_TextData",
+          "SourceString": "Plantacja jagód",
+          "LocalizedString": "Plantacja jagód"
+        }
+      },
+      "MAPOBJECT_NAME_FastTravelPoint": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FastTravelPoint_TextData",
+          "SourceString": "Posąg Wielkiego Orła",
+          "LocalizedString": "Posąg Wielkiego Orła"
+        }
+      },
+      "MAPOBJECT_NAME_Floor": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Floor_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_Floor_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Floor_Stone_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_Floor_Wood": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Floor_Wood_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_FoliageLogTest": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FoliageLogTest_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_HighTechKitchen": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_HighTechKitchen_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_ItemChest": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ItemChest_TextData",
+          "SourceString": "Drewniana skrzynia",
+          "LocalizedString": "Drewniana skrzynia"
+        }
+      },
+      "MAPOBJECT_NAME_ItemChest_02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ItemChest_02_TextData",
+          "SourceString": "Metalowa skrzynia",
+          "LocalizedString": "Metalowa skrzynia"
+        }
+      },
+      "MAPOBJECT_NAME_ItemChest_03": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ItemChest_03_TextData",
+          "SourceString": "Skrzynia z rafinowanego metalu",
+          "LocalizedString": "Skrzynia z rafinowanego metalu"
+        }
+      },
+      "MAPOBJECT_NAME_MedicalPalBed_02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_MedicalPalBed_02_TextData",
+          "SourceString": "Słomiane łóżko dla Pala",
+          "LocalizedString": "Słomiane łóżko dla Pala"
+        }
+      },
+      "MAPOBJECT_NAME_MedicalPalBed_03": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_MedicalPalBed_03_TextData",
+          "SourceString": "Puszyste łóżko dla Pala",
+          "LocalizedString": "Puszyste łóżko dla Pala"
+        }
+      },
+      "MAPOBJECT_NAME_MedicalPalBed_04": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_MedicalPalBed_04_TextData",
+          "SourceString": "Duże łóżko dla Pala",
+          "LocalizedString": "Duże łóżko dla Pala"
+        }
+      },
+      "MAPOBJECT_NAME_MedicalPalBed": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_MedicalPalBed_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_MedicineFacility_01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_MedicineFacility_01_TextData",
+          "SourceString": "Średniowieczny stół apteczny",
+          "LocalizedString": "Średniowieczny stół apteczny"
+        }
+      },
+      "MAPOBJECT_NAME_MedicineFacility_02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_MedicineFacility_02_TextData",
+          "SourceString": "Elektryczny stół apteczny",
+          "LocalizedString": "Elektryczny stół apteczny"
+        }
+      },
+      "MAPOBJECT_NAME_MedicineFacility_03_Old": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_MedicineFacility_03_Old_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_PalFoodBox": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PalFoodBox_TextData",
+          "SourceString": "Karmnik",
+          "LocalizedString": "Karmnik"
+        }
+      },
+      "MAPOBJECT_NAME_PalStorage": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PalStorage_TextData",
+          "SourceString": "Palbox",
+          "LocalizedString": "Palbox"
+        }
+      },
+      "MAPOBJECT_NAME_PalBoxV2": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PalBoxV2_TextData",
+          "SourceString": "Palbox",
+          "LocalizedString": "Palbox"
+        }
+      },
+      "MAPOBJECT_NAME_DisplayCharacter": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DisplayCharacter_TextData",
+          "SourceString": "Klatka wystawowa",
+          "LocalizedString": "Klatka wystawowa"
+        }
+      },
+      "MAPOBJECT_NAME_PickupItem_Flint": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PickupItem_Flint_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_PickupItem_Log": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PickupItem_Log_TextData",
+          "SourceString": "Drewno konstrukcyjne",
+          "LocalizedString": "Drewno konstrukcyjne"
+        }
+      },
+      "MAPOBJECT_NAME_PickupItem_RedBerry": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PickupItem_RedBerry_TextData",
+          "SourceString": "Czerwona jagoda",
+          "LocalizedString": "Czerwona jagoda"
+        }
+      },
+      "MAPOBJECT_NAME_PickupItem_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PickupItem_Stone_TextData",
+          "SourceString": "Kamyk",
+          "LocalizedString": "Kamyk"
+        }
+      },
+      "MAPOBJECT_NAME_PickupItem_Potato": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PickupItem_Potato_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_PlayerBed_02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PlayerBed_02_TextData",
+          "SourceString": "Liche łóżko",
+          "LocalizedString": "Liche łóżko"
+        }
+      },
+      "MAPOBJECT_NAME_PlayerBed_03": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PlayerBed_03_TextData",
+          "SourceString": "Porządne łóżko",
+          "LocalizedString": "Porządne łóżko"
+        }
+      },
+      "MAPOBJECT_NAME_PlayerBed": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PlayerBed_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_ShippingItemBox": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ShippingItemBox_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_SphereFactory_Black_01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SphereFactory_Black_01_TextData",
+          "SourceString": "Stół warsztatowy do sfer",
+          "LocalizedString": "Stół warsztatowy do sfer"
+        }
+      },
+      "MAPOBJECT_NAME_SphereFactory_Black_02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SphereFactory_Black_02_TextData",
+          "SourceString": "Linia produkcyjna sfer",
+          "LocalizedString": "Linia produkcyjna sfer"
+        }
+      },
+      "MAPOBJECT_NAME_SphereFactory_Black_03": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SphereFactory_Black_03_TextData",
+          "SourceString": "Linia produkcyjna sfer II",
+          "LocalizedString": "Linia produkcyjna sfer II"
+        }
+      },
+      "MAPOBJECT_NAME_SphereFactory_White_01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SphereFactory_White_01_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_SphereFactory_White_02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SphereFactory_White_02_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_SphereFactory_White_03": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SphereFactory_White_03_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_StationDeforest": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_StationDeforest_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_Stonehouse1": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stonehouse1_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_StonePit": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_StonePit_TextData",
+          "SourceString": "Kamieniołom",
+          "LocalizedString": "Kamieniołom"
+        }
+      },
+      "MAPOBJECT_NAME_CopperMine": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_CopperMine_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_SteelMine": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SteelMine_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_Strawhouse1": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Strawhouse1_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_TEST_TestGlobalContainer": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TEST_TestGlobalContainer_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_Wall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wall_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_Wall_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wall_Stone_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_Wall_Wood": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wall_Wood_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_WeaponChest": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_WeaponChest_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_WeaponFactory_Base": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_WeaponFactory_Base_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_WeaponFactory_Clean_01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_WeaponFactory_Clean_01_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_WeaponFactory_Clean_02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_WeaponFactory_Clean_02_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_WeaponFactory_Clean_03": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_WeaponFactory_Clean_03_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_WeaponFactory_Dirty_01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_WeaponFactory_Dirty_01_TextData",
+          "SourceString": "Stół do wytwarzania broni",
+          "LocalizedString": "Stół do wytwarzania broni"
+        }
+      },
+      "MAPOBJECT_NAME_WeaponFactory_Dirty_02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_WeaponFactory_Dirty_02_TextData",
+          "SourceString": "Linia produkcyjna broni",
+          "LocalizedString": "Linia produkcyjna broni"
+        }
+      },
+      "MAPOBJECT_NAME_WeaponFactory_Dirty_03": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_WeaponFactory_Dirty_03_TextData",
+          "SourceString": "Linia produkcyjna broni II",
+          "LocalizedString": "Linia produkcyjna broni II"
+        }
+      },
+      "MAPOBJECT_NAME_WeaponFactry": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_WeaponFactry_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_Well": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Well_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_WoodHouse1": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_WoodHouse1_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_WorkBench": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_WorkBench_TextData",
+          "SourceString": "Prymitywny stół warsztatowy",
+          "LocalizedString": "Prymitywny stół warsztatowy"
+        }
+      },
+      "MAPOBJECT_NAME_RecoverOtomo": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_RecoverOtomo_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_PalEgg": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PalEgg_TextData",
+          "SourceString": "Jajo Pala",
+          "LocalizedString": "Jajo Pala"
+        }
+      },
+      "MAPOBJECT_NAME_PalEgg_Fire": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PalEgg_Fire_TextData",
+          "SourceString": "Jajo Pala",
+          "LocalizedString": "Jajo Pala"
+        }
+      },
+      "MAPOBJECT_NAME_PalEgg_Water": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PalEgg_Water_TextData",
+          "SourceString": "Jajo Pala",
+          "LocalizedString": "Jajo Pala"
+        }
+      },
+      "MAPOBJECT_NAME_PalEgg_Leaf": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PalEgg_Leaf_TextData",
+          "SourceString": "Jajo Pala",
+          "LocalizedString": "Jajo Pala"
+        }
+      },
+      "MAPOBJECT_NAME_PalEgg_Electricity": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PalEgg_Electricity_TextData",
+          "SourceString": "Jajo Pala",
+          "LocalizedString": "Jajo Pala"
+        }
+      },
+      "MAPOBJECT_NAME_PalEgg_Ice": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PalEgg_Ice_TextData",
+          "SourceString": "Jajo Pala",
+          "LocalizedString": "Jajo Pala"
+        }
+      },
+      "MAPOBJECT_NAME_PalEgg_Earth": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PalEgg_Earth_TextData",
+          "SourceString": "Jajo Pala",
+          "LocalizedString": "Jajo Pala"
+        }
+      },
+      "MAPOBJECT_NAME_PalEgg_Dark": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PalEgg_Dark_TextData",
+          "SourceString": "Jajo Pala",
+          "LocalizedString": "Jajo Pala"
+        }
+      },
+      "MAPOBJECT_NAME_PalEgg_Dragon": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PalEgg_Dragon_TextData",
+          "SourceString": "Jajo Pala",
+          "LocalizedString": "Jajo Pala"
+        }
+      },
+      "MAPOBJECT_NAME_HatchingPalEgg": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_HatchingPalEgg_TextData",
+          "SourceString": "Inkubator jaj",
+          "LocalizedString": "Inkubator jaj"
+        }
+      },
+      "MAPOBJECT_NAME_TowerFastTravelPoint": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TowerFastTravelPoint_TextData",
+          "SourceString": "Posąg Wielkiego Orła",
+          "LocalizedString": "Posąg Wielkiego Orła"
+        }
+      },
+      "MAPOBJECT_NAME_StationDeforest2": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_StationDeforest2_TextData",
+          "SourceString": "Plac wyrębu",
+          "LocalizedString": "Plac wyrębu"
+        }
+      },
+      "MAPOBJECT_NAME_WorkBench_SkillUnlock": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_WorkBench_SkillUnlock_TextData",
+          "SourceString": "Stół warsztatowy do Pal Sprzętu",
+          "LocalizedString": "Stół warsztatowy do Pal Sprzętu"
+        }
+      },
+      "MAPOBJECT_NAME_WorkBench_SkillCard": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_WorkBench_SkillCard_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_Foundation": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Foundation_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_Roof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Roof_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_Stairs": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stairs_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_Wooden_foundation": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wooden_foundation_TextData",
+          "SourceString": "Drewniany fundament",
+          "LocalizedString": "Drewniany fundament"
+        }
+      },
+      "MAPOBJECT_NAME_Wooden_wall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wooden_wall_TextData",
+          "SourceString": "Drewniana ściana",
+          "LocalizedString": "Drewniana ściana"
+        }
+      },
+      "MAPOBJECT_NAME_Wooden_roof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wooden_roof_TextData",
+          "SourceString": "Drewniany dach",
+          "LocalizedString": "Drewniany dach"
+        }
+      },
+      "MAPOBJECT_NAME_Wooden_stair": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wooden_stair_TextData",
+          "SourceString": "Drewniane schody",
+          "LocalizedString": "Drewniane schody"
+        }
+      },
+      "MAPOBJECT_NAME_Wooden_DoorWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wooden_DoorWall_TextData",
+          "SourceString": "Drewniane drzwi",
+          "LocalizedString": "Drewniane drzwi"
+        }
+      },
+      "MAPOBJECT_NAME_Stone_foundation": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stone_foundation_TextData",
+          "SourceString": "Kamienny fundament",
+          "LocalizedString": "Kamienny fundament"
+        }
+      },
+      "MAPOBJECT_NAME_Stone_wall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stone_wall_TextData",
+          "SourceString": "Kamienna ściana",
+          "LocalizedString": "Kamienna ściana"
+        }
+      },
+      "MAPOBJECT_NAME_Stone_roof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stone_roof_TextData",
+          "SourceString": "Kamienny dach",
+          "LocalizedString": "Kamienny dach"
+        }
+      },
+      "MAPOBJECT_NAME_Stone_stair": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stone_stair_TextData",
+          "SourceString": "Kamienne schody",
+          "LocalizedString": "Kamienne schody"
+        }
+      },
+      "MAPOBJECT_NAME_Metal_foundation": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Metal_foundation_TextData",
+          "SourceString": "Metalowy fundament",
+          "LocalizedString": "Metalowy fundament"
+        }
+      },
+      "MAPOBJECT_NAME_Metal_wall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Metal_wall_TextData",
+          "SourceString": "Metalowa ściana",
+          "LocalizedString": "Metalowa ściana"
+        }
+      },
+      "MAPOBJECT_NAME_Metal_roof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Metal_roof_TextData",
+          "SourceString": "Metalowy dach",
+          "LocalizedString": "Metalowy dach"
+        }
+      },
+      "MAPOBJECT_NAME_Metal_stair": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Metal_stair_TextData",
+          "SourceString": "Metalowe schody",
+          "LocalizedString": "Metalowe schody"
+        }
+      },
+      "MAPOBJECT_NAME_Heater": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Heater_TextData",
+          "SourceString": "Grzejnik",
+          "LocalizedString": "Grzejnik"
+        }
+      },
+      "MAPOBJECT_NAME_ElectricHeater": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ElectricHeater_TextData",
+          "SourceString": "Elektryczny grzejnik",
+          "LocalizedString": "Elektryczny grzejnik"
+        }
+      },
+      "MAPOBJECT_NAME_Cooler": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Cooler_TextData",
+          "SourceString": "Chłodziarka",
+          "LocalizedString": "Chłodziarka"
+        }
+      },
+      "MAPOBJECT_NAME_ElectricCooler": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ElectricCooler_TextData",
+          "SourceString": "Elektryczna chłodziarka",
+          "LocalizedString": "Elektryczna chłodziarka"
+        }
+      },
+      "MAPOBJECT_NAME_Torch": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Torch_TextData",
+          "SourceString": "Pochodnia na stojaku",
+          "LocalizedString": "Pochodnia na stojaku"
+        }
+      },
+      "MAPOBJECT_NAME_WallTorch": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_WallTorch_TextData",
+          "SourceString": "Pochodnia ścienna",
+          "LocalizedString": "Pochodnia ścienna"
+        }
+      },
+      "MAPOBJECT_NAME_Lamp": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Lamp_TextData",
+          "SourceString": "Lampa stojąca",
+          "LocalizedString": "Lampa stojąca"
+        }
+      },
+      "MAPOBJECT_NAME_CeilingLamp": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_CeilingLamp_TextData",
+          "SourceString": "Lampa sufitowa",
+          "LocalizedString": "Lampa sufitowa"
+        }
+      },
+      "MAPOBJECT_NAME_LargeLamp": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_LargeLamp_TextData",
+          "SourceString": "Duża lampa na stojaku",
+          "LocalizedString": "Duża lampa na stojaku"
+        }
+      },
+      "MAPOBJECT_NAME_LargeCeilingLamp": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_LargeCeilingLamp_TextData",
+          "SourceString": "Duża lampa sufitowa",
+          "LocalizedString": "Duża lampa sufitowa"
+        }
+      },
+      "MAPOBJECT_NAME_BuildableGoddessStatue": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_BuildableGoddessStatue_TextData",
+          "SourceString": "Posąg Mocy",
+          "LocalizedString": "Posąg Mocy"
+        }
+      },
+      "MAPOBJECT_NAME_Spa": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Spa_TextData",
+          "SourceString": "Gorące źródło",
+          "LocalizedString": "Gorące źródło"
+        }
+      },
+      "MAPOBJECT_NAME_Spa2": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Spa2_TextData",
+          "SourceString": "Gorące źródło wysokiej jakości",
+          "LocalizedString": "Gorące źródło wysokiej jakości"
+        }
+      },
+      "MAPOBJECT_NAME_PickupItem_Mushroom": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PickupItem_Mushroom_TextData",
+          "SourceString": "Grzyb",
+          "LocalizedString": "Grzyb"
+        }
+      },
+      "MAPOBJECT_NAME_PickupItem_Poppy": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PickupItem_Poppy_TextData",
+          "SourceString": "Piękny kwiat",
+          "LocalizedString": "Piękny kwiat"
+        }
+      },
+      "MAPOBJECT_NAME_DefenseWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DefenseWall_TextData",
+          "SourceString": "Kamienna ściana obronna",
+          "LocalizedString": "Kamienna ściana obronna"
+        }
+      },
+      "MAPOBJECT_NAME_Crusher": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Crusher_TextData",
+          "SourceString": "Kruszarka",
+          "LocalizedString": "Kruszarka"
+        }
+      },
+      "MAPOBJECT_NAME_WoodCrusher": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_WoodCrusher_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_FlourMill": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FlourMill_TextData",
+          "SourceString": "Młyn",
+          "LocalizedString": "Młyn"
+        }
+      },
+      "MAPOBJECT_NAME_Trap_LegHold": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Trap_LegHold_TextData",
+          "SourceString": "Potrzask (mały)",
+          "LocalizedString": "Potrzask (mały)"
+        }
+      },
+      "MAPOBJECT_NAME_Trap_LegHold_Big": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Trap_LegHold_Big_TextData",
+          "SourceString": "Potrzask (duży)",
+          "LocalizedString": "Potrzask (duży)"
+        }
+      },
+      "MAPOBJECT_NAME_Trap_Noose": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Trap_Noose_TextData",
+          "SourceString": "Wnyki",
+          "LocalizedString": "Wnyki"
+        }
+      },
+      "MAPOBJECT_NAME_Trap_MovingPanel": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Trap_MovingPanel_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_Trap_MineElecShock": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Trap_MineElecShock_TextData",
+          "SourceString": "Mina elektryczna",
+          "LocalizedString": "Mina elektryczna"
+        }
+      },
+      "MAPOBJECT_NAME_Trap_MineFreeze": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Trap_MineFreeze_TextData",
+          "SourceString": "Mina lodowa",
+          "LocalizedString": "Mina lodowa"
+        }
+      },
+      "MAPOBJECT_NAME_Trap_MineAttack": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Trap_MineAttack_TextData",
+          "SourceString": "Mina",
+          "LocalizedString": "Mina"
+        }
+      },
+      "MAPOBJECT_NAME_BreedFarm": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_BreedFarm_TextData",
+          "SourceString": "Farma hodowlana",
+          "LocalizedString": "Farma hodowlana"
+        }
+      },
+      "MAPOBJECT_NAME_ToolBoxV2": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ToolBoxV2_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_ToolBoxV1": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ToolBoxV1_TextData",
+          "SourceString": "Duża skrzynka z narzędziami",
+          "LocalizedString": "Duża skrzynka z narzędziami"
+        }
+      },
+      "MAPOBJECT_NAME_OlympicCauldron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_OlympicCauldron_TextData",
+          "SourceString": "Palenisko",
+          "LocalizedString": "Palenisko"
+        }
+      },
+      "MAPOBJECT_NAME_Fountain": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Fountain_TextData",
+          "SourceString": "Fontanna",
+          "LocalizedString": "Fontanna"
+        }
+      },
+      "MAPOBJECT_NAME_Silo": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Silo_TextData",
+          "SourceString": "Silos",
+          "LocalizedString": "Silos"
+        }
+      },
+      "MAPOBJECT_NAME_TransmissionTower": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TransmissionTower_TextData",
+          "SourceString": "Słup elektryczny",
+          "LocalizedString": "Słup elektryczny"
+        }
+      },
+      "MAPOBJECT_NAME_FlowerBed": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FlowerBed_TextData",
+          "SourceString": "Klomb kwiatowy",
+          "LocalizedString": "Klomb kwiatowy"
+        }
+      },
+      "MAPOBJECT_NAME_Stump": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stump_TextData",
+          "SourceString": "Pień i siekiera",
+          "LocalizedString": "Pień i siekiera"
+        }
+      },
+      "MAPOBJECT_NAME_MiningTool": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_MiningTool_TextData",
+          "SourceString": "Wózek górniczy",
+          "LocalizedString": "Wózek górniczy"
+        }
+      },
+      "MAPOBJECT_NAME_Cauldron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Cauldron_TextData",
+          "SourceString": "Kocioł czarownicy",
+          "LocalizedString": "Kocioł czarownicy"
+        }
+      },
+      "MAPOBJECT_NAME_Snowman": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Snowman_TextData",
+          "SourceString": "Bałwan",
+          "LocalizedString": "Bałwan"
+        }
+      },
+      "MAPOBJECT_NAME_Stone_DoorWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stone_DoorWall_TextData",
+          "SourceString": "Kamienne drzwi",
+          "LocalizedString": "Kamienne drzwi"
+        }
+      },
+      "MAPOBJECT_NAME_Metal_DoorWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Metal_DoorWall_TextData",
+          "SourceString": "Metalowe drzwi",
+          "LocalizedString": "Metalowe drzwi"
+        }
+      },
+      "MAPOBJECT_NAME_CoolerBox": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_CoolerBox_TextData",
+          "SourceString": "Skrzynka chłodząca",
+          "LocalizedString": "Skrzynka chłodząca"
+        }
+      },
+      "MAPOBJECT_NAME_Refrigerator": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Refrigerator_TextData",
+          "SourceString": "Lodówka",
+          "LocalizedString": "Lodówka"
+        }
+      },
+      "MAPOBJECT_NAME_Decal_PalSticker_PinkCat": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Decal_PalSticker_PinkCat_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_MonsterFarm": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_MonsterFarm_TextData",
+          "SourceString": "Ranczo",
+          "LocalizedString": "Ranczo"
+        }
+      },
+      "MAPOBJECT_NAME_Wood_Gate": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wood_Gate_TextData",
+          "SourceString": "Drewniana brama",
+          "LocalizedString": "Drewniana brama"
+        }
+      },
+      "MAPOBJECT_NAME_Stone_Gate": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stone_Gate_TextData",
+          "SourceString": "Kamienna brama",
+          "LocalizedString": "Kamienna brama"
+        }
+      },
+      "MAPOBJECT_NAME_Metal_Gate": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Metal_Gate_TextData",
+          "SourceString": "Metalowa brama",
+          "LocalizedString": "Metalowa brama"
+        }
+      },
+      "MAPOBJECT_NAME_RepairBench": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_RepairBench_TextData",
+          "SourceString": "Stół naprawczy",
+          "LocalizedString": "Stół naprawczy"
+        }
+      },
+      "MAPOBJECT_NAME_BaseCampWorkHard": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_BaseCampWorkHard_TextData",
+          "SourceString": "Stanowisko obserwacyjne",
+          "LocalizedString": "Stanowisko obserwacyjne"
+        }
+      },
+      "MAPOBJECT_NAME_Signboard": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Signboard_TextData",
+          "SourceString": "Tablica",
+          "LocalizedString": "Tablica"
+        }
+      },
+      "MAPOBJECT_NAME_BaseCampBattleDirector": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_BaseCampBattleDirector_TextData",
+          "SourceString": "Dzwon alarmowy",
+          "LocalizedString": "Dzwon alarmowy"
+        }
+      },
+      "MAPOBJECT_NAME_TableSquare_Wood": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TableSquare_Wood_TextData",
+          "SourceString": "Kwadratowy stół",
+          "LocalizedString": "Kwadratowy stół"
+        }
+      },
+      "MAPOBJECT_NAME_TableCircular_Wood": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TableCircular_Wood_TextData",
+          "SourceString": "Okrągły stół",
+          "LocalizedString": "Okrągły stół"
+        }
+      },
+      "MAPOBJECT_NAME_Bench_Wood": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Bench_Wood_TextData",
+          "SourceString": "Drewniana ławka",
+          "LocalizedString": "Drewniana ławka"
+        }
+      },
+      "MAPOBJECT_NAME_Stool_Wood": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stool_Wood_TextData",
+          "SourceString": "Drewniany stołek",
+          "LocalizedString": "Drewniany stołek"
+        }
+      },
+      "MAPOBJECT_NAME_Stool_High_Wood": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stool_High_Wood_TextData",
+          "SourceString": "Drewniany stołek barowy",
+          "LocalizedString": "Drewniany stołek barowy"
+        }
+      },
+      "MAPOBJECT_NAME_Barrel_Wood": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Barrel_Wood_TextData",
+          "SourceString": "Drewniana beczka",
+          "LocalizedString": "Drewniana beczka"
+        }
+      },
+      "MAPOBJECT_NAME_Box_Wood": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Box_Wood_TextData",
+          "SourceString": "Drewniane pudło",
+          "LocalizedString": "Drewniane pudło"
+        }
+      },
+      "MAPOBJECT_NAME_Shelf_Wood": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Shelf_Wood_TextData",
+          "SourceString": "Drewniany regał",
+          "LocalizedString": "Drewniany regał"
+        }
+      },
+      "MAPOBJECT_NAME_Shelf_Cask_Wood": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Shelf_Cask_Wood_TextData",
+          "SourceString": "Drewniany regał na beczki",
+          "LocalizedString": "Drewniany regał na beczki"
+        }
+      },
+      "MAPOBJECT_NAME_Shelf_Hang01_Wood": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Shelf_Hang01_Wood_TextData",
+          "SourceString": "Drewniana półka ścienna",
+          "LocalizedString": "Drewniana półka ścienna"
+        }
+      },
+      "MAPOBJECT_NAME_Shelf_Hang02_Wood": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Shelf_Hang02_Wood_TextData",
+          "SourceString": "Drewniana półka ścienna dekoracyjna",
+          "LocalizedString": "Drewniana półka ścienna dekoracyjna"
+        }
+      },
+      "MAPOBJECT_NAME_Counter_Wood": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Counter_Wood_TextData",
+          "SourceString": "Drewniana lada",
+          "LocalizedString": "Drewniana lada"
+        }
+      },
+      "MAPOBJECT_NAME_Rug_Wood": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Rug_Wood_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_Ivy01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ivy01_TextData",
+          "SourceString": "Duży bluszcz ścienny",
+          "LocalizedString": "Duży bluszcz ścienny"
+        }
+      },
+      "MAPOBJECT_NAME_Ivy02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ivy02_TextData",
+          "SourceString": "Mały bluszcz ścienny",
+          "LocalizedString": "Mały bluszcz ścienny"
+        }
+      },
+      "MAPOBJECT_NAME_Ivy03": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ivy03_TextData",
+          "SourceString": "Poziomy bluszcz ścienny",
+          "LocalizedString": "Poziomy bluszcz ścienny"
+        }
+      },
+      "MAPOBJECT_NAME_DamagedScarecrow": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagedScarecrow_TextData",
+          "SourceString": "Manekin treningowy",
+          "LocalizedString": "Manekin treningowy"
+        }
+      },
+      "MAPOBJECT_NAME_Chair01_Wood": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Chair01_Wood_TextData",
+          "SourceString": "Drewniane krzesło",
+          "LocalizedString": "Drewniane krzesło"
+        }
+      },
+      "MAPOBJECT_NAME_Barrel01_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Barrel01_Iron_TextData",
+          "SourceString": "Czerwona metalowa beczka",
+          "LocalizedString": "Czerwona metalowa beczka"
+        }
+      },
+      "MAPOBJECT_NAME_Barrel02_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Barrel02_Iron_TextData",
+          "SourceString": "Niebieska metalowa beczka",
+          "LocalizedString": "Niebieska metalowa beczka"
+        }
+      },
+      "MAPOBJECT_NAME_Barrel03_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Barrel03_Iron_TextData",
+          "SourceString": "Zielona metalowa beczka",
+          "LocalizedString": "Zielona metalowa beczka"
+        }
+      },
+      "MAPOBJECT_NAME_Box01_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Box01_Iron_TextData",
+          "SourceString": "Mały kontener",
+          "LocalizedString": "Mały kontener"
+        }
+      },
+      "MAPOBJECT_NAME_Box02_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Box02_Iron_TextData",
+          "SourceString": "Kontener przykryty tkaniną",
+          "LocalizedString": "Kontener przykryty tkaniną"
+        }
+      },
+      "MAPOBJECT_NAME_CableCoil01_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_CableCoil01_Iron_TextData",
+          "SourceString": "Szpula kabla",
+          "LocalizedString": "Szpula kabla"
+        }
+      },
+      "MAPOBJECT_NAME_Chair01_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Chair01_Iron_TextData",
+          "SourceString": "Skórzane krzesło",
+          "LocalizedString": "Skórzane krzesło"
+        }
+      },
+      "MAPOBJECT_NAME_Chair02_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Chair02_Iron_TextData",
+          "SourceString": "Żelazne krzesło",
+          "LocalizedString": "Żelazne krzesło"
+        }
+      },
+      "MAPOBJECT_NAME_Clock01_Wall_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Clock01_Wall_Iron_TextData",
+          "SourceString": "Zegar ścienny",
+          "LocalizedString": "Zegar ścienny"
+        }
+      },
+      "MAPOBJECT_NAME_Container01_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Container01_Iron_TextData",
+          "SourceString": "Duży kontener",
+          "LocalizedString": "Duży kontener"
+        }
+      },
+      "MAPOBJECT_NAME_GarbageBag_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_GarbageBag_Iron_TextData",
+          "SourceString": "Worek na śmieci",
+          "LocalizedString": "Worek na śmieci"
+        }
+      },
+      "MAPOBJECT_NAME_GoalSoccer_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_GoalSoccer_Iron_TextData",
+          "SourceString": "Bramka piłkarska",
+          "LocalizedString": "Bramka piłkarska"
+        }
+      },
+      "MAPOBJECT_NAME_MachineGame01_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_MachineGame01_Iron_TextData",
+          "SourceString": "Automat z chwytakiem",
+          "LocalizedString": "Automat z chwytakiem"
+        }
+      },
+      "MAPOBJECT_NAME_MachineVending01_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_MachineVending01_Iron_TextData",
+          "SourceString": "Automat z colą",
+          "LocalizedString": "Automat z colą"
+        }
+      },
+      "MAPOBJECT_NAME_PipeClay01_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PipeClay01_Iron_TextData",
+          "SourceString": "Gliniana rura",
+          "LocalizedString": "Gliniana rura"
+        }
+      },
+      "MAPOBJECT_NAME_Shelf01_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Shelf01_Iron_TextData",
+          "SourceString": "Żelazny regał",
+          "LocalizedString": "Żelazny regał"
+        }
+      },
+      "MAPOBJECT_NAME_Shelf02_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Shelf02_Iron_TextData",
+          "SourceString": "Podłużny żelazny regał",
+          "LocalizedString": "Podłużny żelazny regał"
+        }
+      },
+      "MAPOBJECT_NAME_Shelf03_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Shelf03_Iron_TextData",
+          "SourceString": "Pomarańczowa szafka",
+          "LocalizedString": "Pomarańczowa szafka"
+        }
+      },
+      "MAPOBJECT_NAME_Shelf04_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Shelf04_Iron_TextData",
+          "SourceString": "Szafka",
+          "LocalizedString": "Szafka"
+        }
+      },
+      "MAPOBJECT_NAME_SignExit_Ceiling_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SignExit_Ceiling_Iron_TextData",
+          "SourceString": "Sufitowy znak wyjścia ewakuacyjnego",
+          "LocalizedString": "Sufitowy znak wyjścia ewakuacyjnego"
+        }
+      },
+      "MAPOBJECT_NAME_SignExit_Wall_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SignExit_Wall_Iron_TextData",
+          "SourceString": "Ścienny znak wyjścia ewakuacyjnego",
+          "LocalizedString": "Ścienny znak wyjścia ewakuacyjnego"
+        }
+      },
+      "MAPOBJECT_NAME_Sofa01_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Sofa01_Iron_TextData",
+          "SourceString": "Skórzany fotel",
+          "LocalizedString": "Skórzany fotel"
+        }
+      },
+      "MAPOBJECT_NAME_Sofa02_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Sofa02_Iron_TextData",
+          "SourceString": "Skórzana kanapa",
+          "LocalizedString": "Skórzana kanapa"
+        }
+      },
+      "MAPOBJECT_NAME_Stool01_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stool01_Iron_TextData",
+          "SourceString": "Żelazny stołek",
+          "LocalizedString": "Żelazny stołek"
+        }
+      },
+      "MAPOBJECT_NAME_TableCircular01_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TableCircular01_Iron_TextData",
+          "SourceString": "Okrągły żelazny stół",
+          "LocalizedString": "Okrągły żelazny stół"
+        }
+      },
+      "MAPOBJECT_NAME_TableSide01_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TableSide01_Iron_TextData",
+          "SourceString": "Boczny stolik z żelaznego drewna",
+          "LocalizedString": "Boczny stolik z żelaznego drewna"
+        }
+      },
+      "MAPOBJECT_NAME_TableSquare01_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TableSquare01_Iron_TextData",
+          "SourceString": "Stół z żelaznego drewna",
+          "LocalizedString": "Stół z żelaznego drewna"
+        }
+      },
+      "MAPOBJECT_NAME_TableSquare02_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TableSquare02_Iron_TextData",
+          "SourceString": "Niski stół z żelaznego drewna",
+          "LocalizedString": "Niski stół z żelaznego drewna"
+        }
+      },
+      "MAPOBJECT_NAME_Tire01_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Tire01_Iron_TextData",
+          "SourceString": "Opona",
+          "LocalizedString": "Opona"
+        }
+      },
+      "MAPOBJECT_NAME_TrafficBarricade01_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TrafficBarricade01_Iron_TextData",
+          "SourceString": "Barykada",
+          "LocalizedString": "Barykada"
+        }
+      },
+      "MAPOBJECT_NAME_TrafficBarricade02_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TrafficBarricade02_Iron_TextData",
+          "SourceString": "Pomarańczowa barykada",
+          "LocalizedString": "Pomarańczowa barykada"
+        }
+      },
+      "MAPOBJECT_NAME_TrafficBarricade03_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TrafficBarricade03_Iron_TextData",
+          "SourceString": "Czerwona żelazna barykada",
+          "LocalizedString": "Czerwona żelazna barykada"
+        }
+      },
+      "MAPOBJECT_NAME_TrafficBarricade04_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TrafficBarricade04_Iron_TextData",
+          "SourceString": "Biała żelazna barykada",
+          "LocalizedString": "Biała żelazna barykada"
+        }
+      },
+      "MAPOBJECT_NAME_TrafficBarricade05_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TrafficBarricade05_Iron_TextData",
+          "SourceString": "Żelazne ogrodzenie",
+          "LocalizedString": "Żelazne ogrodzenie"
+        }
+      },
+      "MAPOBJECT_NAME_TrafficCone01_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TrafficCone01_Iron_TextData",
+          "SourceString": "Pachołek drogowy",
+          "LocalizedString": "Pachołek drogowy"
+        }
+      },
+      "MAPOBJECT_NAME_TrafficCone02_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TrafficCone02_Iron_TextData",
+          "SourceString": "Gruby pachołek drogowy",
+          "LocalizedString": "Gruby pachołek drogowy"
+        }
+      },
+      "MAPOBJECT_NAME_TrafficCone03_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TrafficCone03_Iron_TextData",
+          "SourceString": "Cienki pachołek drogowy",
+          "LocalizedString": "Cienki pachołek drogowy"
+        }
+      },
+      "MAPOBJECT_NAME_TrafficLight01_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TrafficLight01_Iron_TextData",
+          "SourceString": "Sygnalizacja świetlna",
+          "LocalizedString": "Sygnalizacja świetlna"
+        }
+      },
+      "MAPOBJECT_NAME_BathTub_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_BathTub_Stone_TextData",
+          "SourceString": "Antyczna wanna",
+          "LocalizedString": "Antyczna wanna"
+        }
+      },
+      "MAPOBJECT_NAME_Box01_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Box01_Stone_TextData",
+          "SourceString": "Antyczny pleciony kosz",
+          "LocalizedString": "Antyczny pleciony kosz"
+        }
+      },
+      "MAPOBJECT_NAME_Chair01_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Chair01_Stone_TextData",
+          "SourceString": "Antyczne drewniane krzesło",
+          "LocalizedString": "Antyczne drewniane krzesło"
+        }
+      },
+      "MAPOBJECT_NAME_Chair02_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Chair02_Stone_TextData",
+          "SourceString": "Zielone antyczne drewniane krzesło",
+          "LocalizedString": "Zielone antyczne drewniane krzesło"
+        }
+      },
+      "MAPOBJECT_NAME_Clock01_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Clock01_Stone_TextData",
+          "SourceString": "Antyczny zegar stojący",
+          "LocalizedString": "Antyczny zegar stojący"
+        }
+      },
+      "MAPOBJECT_NAME_Curtain01_Wall_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Curtain01_Wall_Stone_TextData",
+          "SourceString": "Antyczna zasłona",
+          "LocalizedString": "Antyczna zasłona"
+        }
+      },
+      "MAPOBJECT_NAME_Desk01_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Desk01_Stone_TextData",
+          "SourceString": "Antyczne biurko",
+          "LocalizedString": "Antyczne biurko"
+        }
+      },
+      "MAPOBJECT_NAME_Globe01_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Globe01_Stone_TextData",
+          "SourceString": "Antyczny globus",
+          "LocalizedString": "Antyczny globus"
+        }
+      },
+      "MAPOBJECT_NAME_Mirror01_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Mirror01_Stone_TextData",
+          "SourceString": "Antyczne owalne lustro",
+          "LocalizedString": "Antyczne owalne lustro"
+        }
+      },
+      "MAPOBJECT_NAME_Mirror02_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Mirror02_Stone_TextData",
+          "SourceString": "Antyczne lustro",
+          "LocalizedString": "Antyczne lustro"
+        }
+      },
+      "MAPOBJECT_NAME_Mirror01_Wall_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Mirror01_Wall_Stone_TextData",
+          "SourceString": "Antyczne lustro ścienne",
+          "LocalizedString": "Antyczne lustro ścienne"
+        }
+      },
+      "MAPOBJECT_NAME_Partition_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Partition_Stone_TextData",
+          "SourceString": "Antyczny parawan",
+          "LocalizedString": "Antyczny parawan"
+        }
+      },
+      "MAPOBJECT_NAME_Piano01_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Piano01_Stone_TextData",
+          "SourceString": "Fortepian",
+          "LocalizedString": "Fortepian"
+        }
+      },
+      "MAPOBJECT_NAME_Piano02_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Piano02_Stone_TextData",
+          "SourceString": "Pianino",
+          "LocalizedString": "Pianino"
+        }
+      },
+      "MAPOBJECT_NAME_Rug01_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Rug01_Stone_TextData",
+          "SourceString": "Antyczny dywan",
+          "LocalizedString": "Antyczny dywan"
+        }
+      },
+      "MAPOBJECT_NAME_Rug02_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Rug02_Stone_TextData",
+          "SourceString": "Antyczny czerwony dywan",
+          "LocalizedString": "Antyczny czerwony dywan"
+        }
+      },
+      "MAPOBJECT_NAME_Rug03_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Rug03_Stone_TextData",
+          "SourceString": "Antyczny zielony dywan",
+          "LocalizedString": "Antyczny zielony dywan"
+        }
+      },
+      "MAPOBJECT_NAME_Rug04_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Rug04_Stone_TextData",
+          "SourceString": "Antyczny podłużny dywan",
+          "LocalizedString": "Antyczny podłużny dywan"
+        }
+      },
+      "MAPOBJECT_NAME_Shelf01_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Shelf01_Stone_TextData",
+          "SourceString": "Antyczny regał na książki",
+          "LocalizedString": "Antyczny regał na książki"
+        }
+      },
+      "MAPOBJECT_NAME_Shelf02_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Shelf02_Stone_TextData",
+          "SourceString": "Antyczna szafa",
+          "LocalizedString": "Antyczna szafa"
+        }
+      },
+      "MAPOBJECT_NAME_Shelf03_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Shelf03_Stone_TextData",
+          "SourceString": "Antyczna skrzynia",
+          "LocalizedString": "Antyczna skrzynia"
+        }
+      },
+      "MAPOBJECT_NAME_Shelf04_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Shelf04_Stone_TextData",
+          "SourceString": "Antyczna szafka boczna",
+          "LocalizedString": "Antyczna szafka boczna"
+        }
+      },
+      "MAPOBJECT_NAME_Shelf05_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Shelf05_Stone_TextData",
+          "SourceString": "Antyczny kredens",
+          "LocalizedString": "Antyczny kredens"
+        }
+      },
+      "MAPOBJECT_NAME_Shelf06_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Shelf06_Stone_TextData",
+          "SourceString": "Antyczny podłużny kredens",
+          "LocalizedString": "Antyczny podłużny kredens"
+        }
+      },
+      "MAPOBJECT_NAME_Shelf07_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Shelf07_Stone_TextData",
+          "SourceString": "Duży antyczny kredens",
+          "LocalizedString": "Duży antyczny kredens"
+        }
+      },
+      "MAPOBJECT_NAME_Shelf01_Wall_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Shelf01_Wall_Stone_TextData",
+          "SourceString": "Antyczna szafka ścienna",
+          "LocalizedString": "Antyczna szafka ścienna"
+        }
+      },
+      "MAPOBJECT_NAME_Sofa01_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Sofa01_Stone_TextData",
+          "SourceString": "Antyczny fotel",
+          "LocalizedString": "Antyczny fotel"
+        }
+      },
+      "MAPOBJECT_NAME_Sofa02_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Sofa02_Stone_TextData",
+          "SourceString": "Antyczna kanapa",
+          "LocalizedString": "Antyczna kanapa"
+        }
+      },
+      "MAPOBJECT_NAME_Sofa03_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Sofa03_Stone_TextData",
+          "SourceString": "Antyczny puf",
+          "LocalizedString": "Antyczny puf"
+        }
+      },
+      "MAPOBJECT_NAME_Stool01_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stool01_Stone_TextData",
+          "SourceString": "Antyczny stołek",
+          "LocalizedString": "Antyczny stołek"
+        }
+      },
+      "MAPOBJECT_NAME_Stove01_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stove01_Stone_TextData",
+          "SourceString": "Antyczny piec",
+          "LocalizedString": "Antyczny piec"
+        }
+      },
+      "MAPOBJECT_NAME_TableCircular01_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TableCircular01_Stone_TextData",
+          "SourceString": "Antyczny okrągły stół",
+          "LocalizedString": "Antyczny okrągły stół"
+        }
+      },
+      "MAPOBJECT_NAME_TableDresser01_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TableDresser01_Stone_TextData",
+          "SourceString": "Antyczna toaletka",
+          "LocalizedString": "Antyczna toaletka"
+        }
+      },
+      "MAPOBJECT_NAME_TableSink01_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TableSink01_Stone_TextData",
+          "SourceString": "Antyczna umywalka",
+          "LocalizedString": "Antyczna umywalka"
+        }
+      },
+      "MAPOBJECT_NAME_Toilet01_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Toilet01_Stone_TextData",
+          "SourceString": "Antyczna toaleta",
+          "LocalizedString": "Antyczna toaleta"
+        }
+      },
+      "MAPOBJECT_NAME_ToiletHolder01_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ToiletHolder01_Stone_TextData",
+          "SourceString": "Antyczny uchwyt na papier toaletowy",
+          "LocalizedString": "Antyczny uchwyt na papier toaletowy"
+        }
+      },
+      "MAPOBJECT_NAME_TowlRack01_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TowlRack01_Stone_TextData",
+          "SourceString": "Antyczny wieszak na ręczniki",
+          "LocalizedString": "Antyczny wieszak na ręczniki"
+        }
+      },
+      "MAPOBJECT_NAME_Plant01_Plant": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Plant01_Plant_TextData",
+          "SourceString": "Roślina doniczkowa",
+          "LocalizedString": "Roślina doniczkowa"
+        }
+      },
+      "MAPOBJECT_NAME_Plant02_Plant": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Plant02_Plant_TextData",
+          "SourceString": "Roślina doniczkowa i krzesło",
+          "LocalizedString": "Roślina doniczkowa i krzesło"
+        }
+      },
+      "MAPOBJECT_NAME_Plant03_Plant": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Plant03_Plant_TextData",
+          "SourceString": "Roślina doniczkowa na stół",
+          "LocalizedString": "Roślina doniczkowa na stół"
+        }
+      },
+      "MAPOBJECT_NAME_Plant04_Plant": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Plant04_Plant_TextData",
+          "SourceString": "Roślina w doniczce",
+          "LocalizedString": "Roślina w doniczce"
+        }
+      },
+      "MAPOBJECT_NAME_Light_FloorLamp01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Light_FloorLamp01_TextData",
+          "SourceString": "Antyczna brązowa lampa podłogowa",
+          "LocalizedString": "Antyczna brązowa lampa podłogowa"
+        }
+      },
+      "MAPOBJECT_NAME_Light_FloorLamp02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Light_FloorLamp02_TextData",
+          "SourceString": "Antyczna czerwona lampa podłogowa",
+          "LocalizedString": "Antyczna czerwona lampa podłogowa"
+        }
+      },
+      "MAPOBJECT_NAME_Light_LightPole01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Light_LightPole01_TextData",
+          "SourceString": "Prosta latarnia uliczna",
+          "LocalizedString": "Prosta latarnia uliczna"
+        }
+      },
+      "MAPOBJECT_NAME_Light_LightPole02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Light_LightPole02_TextData",
+          "SourceString": "Podwójna latarnia uliczna",
+          "LocalizedString": "Podwójna latarnia uliczna"
+        }
+      },
+      "MAPOBJECT_NAME_Light_LightPole03": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Light_LightPole03_TextData",
+          "SourceString": "Latarnia uliczna w stylu retro",
+          "LocalizedString": "Latarnia uliczna w stylu retro"
+        }
+      },
+      "MAPOBJECT_NAME_Light_LightPole04": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Light_LightPole04_TextData",
+          "SourceString": "Stylowa latarnia uliczna",
+          "LocalizedString": "Stylowa latarnia uliczna"
+        }
+      },
+      "MAPOBJECT_NAME_Light_FirePlace01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Light_FirePlace01_TextData",
+          "SourceString": "Ceglany kominek",
+          "LocalizedString": "Ceglany kominek"
+        }
+      },
+      "MAPOBJECT_NAME_DefenseWall_Wood": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DefenseWall_Wood_TextData",
+          "SourceString": "Drewniana ściana obronna",
+          "LocalizedString": "Drewniana ściana obronna"
+        }
+      },
+      "MAPOBJECT_NAME_DefenseWall_Metal": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DefenseWall_Metal_TextData",
+          "SourceString": "Metalowa ściana obronna",
+          "LocalizedString": "Metalowa ściana obronna"
+        }
+      },
+      "MAPOBJECT_NAME_Light_FirePlace02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Light_FirePlace02_TextData",
+          "SourceString": "Kominek",
+          "LocalizedString": "Kominek"
+        }
+      },
+      "MAPOBJECT_NAME_Light_CandleSticks_Top": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Light_CandleSticks_Top_TextData",
+          "SourceString": "Żyrandol",
+          "LocalizedString": "Żyrandol"
+        }
+      },
+      "MAPOBJECT_NAME_Light_CandleSticks_Wall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Light_CandleSticks_Wall_TextData",
+          "SourceString": "Lampa ścienna",
+          "LocalizedString": "Lampa ścienna"
+        }
+      },
+      "MAPOBJECT_NAME_Television01_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Television01_Iron_TextData",
+          "SourceString": "Stary telewizor",
+          "LocalizedString": "Stary telewizor"
+        }
+      },
+      "MAPOBJECT_NAME_Desk01_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Desk01_Iron_TextData",
+          "SourceString": "Żelazne biurko",
+          "LocalizedString": "Żelazne biurko"
+        }
+      },
+      "MAPOBJECT_NAME_Shelf01_Wall_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Shelf01_Wall_Iron_TextData",
+          "SourceString": "Żelazna półka ścienna",
+          "LocalizedString": "Żelazna półka ścienna"
+        }
+      },
+      "MAPOBJECT_NAME_TrafficSign01_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TrafficSign01_Iron_TextData",
+          "SourceString": "Znak „Palom wstęp wzbroniony|",
+          "LocalizedString": "Znak „Palom wstęp wzbroniony|"
+        }
+      },
+      "MAPOBJECT_NAME_TrafficSign02_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TrafficSign02_Iron_TextData",
+          "SourceString": "Znak „Stop|",
+          "LocalizedString": "Znak „Stop|"
+        }
+      },
+      "MAPOBJECT_NAME_TrafficSign03_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TrafficSign03_Iron_TextData",
+          "SourceString": "Znak „Uwaga Eikthyrdeery|",
+          "LocalizedString": "Znak „Uwaga Eikthyrdeery|"
+        }
+      },
+      "MAPOBJECT_NAME_TrafficSign04_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TrafficSign04_Iron_TextData",
+          "SourceString": "Znak „Uwaga Mammoresty|",
+          "LocalizedString": "Znak „Uwaga Mammoresty|"
+        }
+      },
+      "MAPOBJECT_NAME_Wood_WindowWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wood_WindowWall_TextData",
+          "SourceString": "Drewniana ściana z oknem",
+          "LocalizedString": "Drewniana ściana z oknem"
+        }
+      },
+      "MAPOBJECT_NAME_Stone_WindowWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stone_WindowWall_TextData",
+          "SourceString": "Kamienna ściana z oknem",
+          "LocalizedString": "Kamienna ściana z oknem"
+        }
+      },
+      "MAPOBJECT_NAME_Metal_WindowWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Metal_WindowWall_TextData",
+          "SourceString": "Metalowa ściana z oknem",
+          "LocalizedString": "Metalowa ściana z oknem"
+        }
+      },
+      "MAPOBJECT_NAME_Wood_TriangleWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wood_TriangleWall_TextData",
+          "SourceString": "Drewniana trójkątna ściana",
+          "LocalizedString": "Drewniana trójkątna ściana"
+        }
+      },
+      "MAPOBJECT_NAME_Stone_TriangleWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stone_TriangleWall_TextData",
+          "SourceString": "Kamienna trójkątna ściana",
+          "LocalizedString": "Kamienna trójkątna ściana"
+        }
+      },
+      "MAPOBJECT_NAME_Metal_TriangleWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Metal_TriangleWall_TextData",
+          "SourceString": "Metalowa trójkątna ściana",
+          "LocalizedString": "Metalowa trójkątna ściana"
+        }
+      },
+      "MAPOBJECT_NAME_Wood_SlantedRoof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wood_SlantedRoof_TextData",
+          "SourceString": "Drewniany skośny dach",
+          "LocalizedString": "Drewniany skośny dach"
+        }
+      },
+      "MAPOBJECT_NAME_Stone_SlantedRoof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stone_SlantedRoof_TextData",
+          "SourceString": "Kamienny skośny dach",
+          "LocalizedString": "Kamienny skośny dach"
+        }
+      },
+      "MAPOBJECT_NAME_Metal_SlantedRoof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Metal_SlantedRoof_TextData",
+          "SourceString": "Metalowy skośny dach",
+          "LocalizedString": "Metalowy skośny dach"
+        }
+      },
+      "MAPOBJECT_NAME_Chair01_Pal": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Chair01_Pal_TextData",
+          "SourceString": "Krzesło w kształcie żaby",
+          "LocalizedString": "Krzesło w kształcie żaby"
+        }
+      },
+      "MAPOBJECT_NAME_Altar": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Altar_TextData",
+          "SourceString": "Ołtarz przywołania",
+          "LocalizedString": "Ołtarz przywołania"
+        }
+      },
+      "MAPOBJECT_NAME_CopperPit": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_CopperPit_TextData",
+          "SourceString": "Obszar wydobycia rudy",
+          "LocalizedString": "Obszar wydobycia rudy"
+        }
+      },
+      "MAPOBJECT_NAME_CopperPit_2": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_CopperPit_2_TextData",
+          "SourceString": "Obszar wydobycia rudy II",
+          "LocalizedString": "Obszar wydobycia rudy II"
+        }
+      },
+      "MAPOBJECT_NAME_ElectricHatchingPalEgg": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ElectricHatchingPalEgg_TextData",
+          "SourceString": "Elektryczny inkubator jaj",
+          "LocalizedString": "Elektryczny inkubator jaj"
+        }
+      },
+      "MAPOBJECT_NAME_PickupItem_CaveMushroom": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PickupItem_CaveMushroom_TextData",
+          "SourceString": "Jaskiniowy grzyb",
+          "LocalizedString": "Jaskiniowy grzyb"
+        }
+      },
+      "MAPOBJECT_NAME_CoolerPalFoodBox": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_CoolerPalFoodBox_TextData",
+          "SourceString": "Chłodziarka na żywność",
+          "LocalizedString": "Chłodziarka na żywność"
+        }
+      },
+      "MAPOBJECT_NAME_AntiAircraft_LaserTower": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_AntiAircraft_LaserTower_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_AntiAircraft_MachineGun": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_AntiAircraft_MachineGun_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_TreasureBox_Oilrig": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TreasureBox_Oilrig_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_OilRig": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_OilRig_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_SulfurPit": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SulfurPit_TextData",
+          "SourceString": "Kopalnia siarki",
+          "LocalizedString": "Kopalnia siarki"
+        }
+      },
+      "MAPOBJECT_NAME_CoalPit": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_CoalPit_TextData",
+          "SourceString": "Kopalnia węgla",
+          "LocalizedString": "Kopalnia węgla"
+        }
+      },
+      "MAPOBJECT_NAME_IceCrusher": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_IceCrusher_TextData",
+          "SourceString": "Chłodząca kruszarka",
+          "LocalizedString": "Chłodząca kruszarka"
+        }
+      },
+      "MAPOBJECT_NAME_DismantlingConveyor": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DismantlingConveyor_TextData",
+          "SourceString": "Taśmociąg do dekompletacji Pali",
+          "LocalizedString": "Taśmociąg do dekompletacji Pali"
+        }
+      },
+      "MAPOBJECT_NAME_WallSignboard": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_WallSignboard_TextData",
+          "SourceString": "Tabliczka ścienna",
+          "LocalizedString": "Tabliczka ścienna"
+        }
+      },
+      "MAPOBJECT_NAME_Glass_foundation": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Glass_foundation_TextData",
+          "SourceString": "Szklany fundament",
+          "LocalizedString": "Szklany fundament"
+        }
+      },
+      "MAPOBJECT_NAME_Glass_wall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Glass_wall_TextData",
+          "SourceString": "Szklana ściana",
+          "LocalizedString": "Szklana ściana"
+        }
+      },
+      "MAPOBJECT_NAME_Glass_roof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Glass_roof_TextData",
+          "SourceString": "Szklany dach",
+          "LocalizedString": "Szklany dach"
+        }
+      },
+      "MAPOBJECT_NAME_Glass_stair": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Glass_stair_TextData",
+          "SourceString": "Szklane schody",
+          "LocalizedString": "Szklane schody"
+        }
+      },
+      "MAPOBJECT_NAME_Glass_DoorWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Glass_DoorWall_TextData",
+          "SourceString": "Szklana ściana i drzwi",
+          "LocalizedString": "Szklana ściana i drzwi"
+        }
+      },
+      "MAPOBJECT_NAME_Glass_TriangleWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Glass_TriangleWall_TextData",
+          "SourceString": "Szklana trójkątna ściana",
+          "LocalizedString": "Szklana trójkątna ściana"
+        }
+      },
+      "MAPOBJECT_NAME_Glass_SlantedRoof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Glass_SlantedRoof_TextData",
+          "SourceString": "Szklany skośny dach",
+          "LocalizedString": "Szklany skośny dach"
+        }
+      },
+      "MAPOBJECT_NAME_Glass_WindowWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Glass_WindowWall_TextData",
+          "SourceString": "Szklana ściana i okno",
+          "LocalizedString": "Szklana ściana i okno"
+        }
+      },
+      "MAPOBJECT_NAME_Wooden_Pillar": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wooden_Pillar_TextData",
+          "SourceString": "Drewniany filar",
+          "LocalizedString": "Drewniany filar"
+        }
+      },
+      "MAPOBJECT_NAME_Stone_Pillar": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stone_Pillar_TextData",
+          "SourceString": "Kamienny filar",
+          "LocalizedString": "Kamienny filar"
+        }
+      },
+      "MAPOBJECT_NAME_Metal_Pillars": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Metal_Pillars_TextData",
+          "SourceString": "Metalowy filar",
+          "LocalizedString": "Metalowy filar"
+        }
+      },
+      "MAPOBJECT_NAME_Glass_Pillars": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Glass_Pillars_TextData",
+          "SourceString": "Szklany filar",
+          "LocalizedString": "Szklany filar"
+        }
+      },
+      "MAPOBJECT_NAME_MeteorFall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_MeteorFall_TextData",
+          "SourceString": "Meteoryt",
+          "LocalizedString": "Meteoryt"
+        }
+      },
+      "MAPOBJECT_NAME_MeteorDrop_pickup": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_MeteorDrop_pickup_TextData",
+          "SourceString": "Meteoryt",
+          "LocalizedString": "Meteoryt"
+        }
+      },
+      "MAPOBJECT_NAME_SupplyFall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SupplyFall_TextData",
+          "SourceString": "Zasoby",
+          "LocalizedString": "Zasoby"
+        }
+      },
+      "MAPOBJECT_NAME_SupplyDrop": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SupplyDrop_TextData",
+          "SourceString": "Zasoby",
+          "LocalizedString": "Zasoby"
+        }
+      },
+      "MAPOBJECT_NAME_MeteorDrop_Damagable": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_MeteorDrop_Damagable_TextData",
+          "SourceString": "Meteoryt",
+          "LocalizedString": "Meteoryt"
+        }
+      },
+      "MAPOBJECT_NAME_ElectricGenerator_Large": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ElectricGenerator_Large_TextData",
+          "SourceString": "Duży generator prądu",
+          "LocalizedString": "Duży generator prądu"
+        }
+      },
+      "MAPOBJECT_NAME_OilPump": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_OilPump_TextData",
+          "SourceString": "Ekstraktor ropy naftowej",
+          "LocalizedString": "Ekstraktor ropy naftowej"
+        }
+      },
+      "MAPOBJECT_NAME_TreasureBox_RequiredLongHold": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TreasureBox_RequiredLongHold_TextData",
+          "SourceString": "Złom (przytrzymaj, by zebrać)",
+          "LocalizedString": "Złom (przytrzymaj, by zebrać)"
+        }
+      },
+      "MAPOBJECT_NAME_PickupItem_Lotus_Attack_01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PickupItem_Lotus_Attack_01_TextData",
+          "SourceString": "Lotos potęgi (mały)",
+          "LocalizedString": "Lotos potęgi (mały)"
+        }
+      },
+      "MAPOBJECT_NAME_PickupItem_Lotus_Attack_02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PickupItem_Lotus_Attack_02_TextData",
+          "SourceString": "Lotos potęgi (duży)",
+          "LocalizedString": "Lotos potęgi (duży)"
+        }
+      },
+      "MAPOBJECT_NAME_PickupItem_Lotus_HP_01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PickupItem_Lotus_HP_01_TextData",
+          "SourceString": "Lotos życia (mały)",
+          "LocalizedString": "Lotos życia (mały)"
+        }
+      },
+      "MAPOBJECT_NAME_PickupItem_Lotus_HP_02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PickupItem_Lotus_HP_02_TextData",
+          "SourceString": "Lotos życia (duży)",
+          "LocalizedString": "Lotos życia (duży)"
+        }
+      },
+      "MAPOBJECT_NAME_PickupItem_Lotus_Stamina_01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PickupItem_Lotus_Stamina_01_TextData",
+          "SourceString": "Lotos wytrzymałości (mały)",
+          "LocalizedString": "Lotos wytrzymałości (mały)"
+        }
+      },
+      "MAPOBJECT_NAME_PickupItem_Lotus_Stamina_02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PickupItem_Lotus_Stamina_02_TextData",
+          "SourceString": "Lotos wytrzymałości (duży)",
+          "LocalizedString": "Lotos wytrzymałości (duży)"
+        }
+      },
+      "MAPOBJECT_NAME_PickupItem_Lotus_Workspeed_01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PickupItem_Lotus_Workspeed_01_TextData",
+          "SourceString": "Lotos szybkości (mały)",
+          "LocalizedString": "Lotos szybkości (mały)"
+        }
+      },
+      "MAPOBJECT_NAME_PickupItem_Lotus_Workspeed_02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PickupItem_Lotus_Workspeed_02_TextData",
+          "SourceString": "Lotos szybkości (duży)",
+          "LocalizedString": "Lotos szybkości (duży)"
+        }
+      },
+      "MAPOBJECT_NAME_PickupItem_Lotus_Weight_01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PickupItem_Lotus_Weight_01_TextData",
+          "SourceString": "Lotos udźwigu (mały)",
+          "LocalizedString": "Lotos udźwigu (mały)"
+        }
+      },
+      "MAPOBJECT_NAME_PickupItem_Lotus_Weight_02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PickupItem_Lotus_Weight_02_TextData",
+          "SourceString": "Lotos udźwigu (duży)",
+          "LocalizedString": "Lotos udźwigu (duży)"
+        }
+      },
+      "MAPOBJECT_NAME_SkinChange": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SkinChange_TextData",
+          "SourceString": "Urządzenie do stylizacji Pali",
+          "LocalizedString": "Urządzenie do stylizacji Pali"
+        }
+      },
+      "MAPOBJECT_NAME_PickupItem_DogCoin": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PickupItem_DogCoin_TextData",
+          "SourceString": "Psia moneta",
+          "LocalizedString": "Psia moneta"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_wall_01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_wall_01_TextData",
+          "SourceString": "Ściana w stylu japońskim",
+          "LocalizedString": "Ściana w stylu japońskim"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_wall_02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_wall_02_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_DoorWall_01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_DoorWall_01_TextData",
+          "SourceString": "Drzwi w stylu japońskim A",
+          "LocalizedString": "Drzwi w stylu japońskim A"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_DoorWall_02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_DoorWall_02_TextData",
+          "SourceString": "Drzwi w stylu japońskim B",
+          "LocalizedString": "Drzwi w stylu japońskim B"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_DoorWall_03": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_DoorWall_03_TextData",
+          "SourceString": "Drzwi w stylu japońskim C",
+          "LocalizedString": "Drzwi w stylu japońskim C"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_ConnectingWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_ConnectingWall_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_roof_01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_roof_01_TextData",
+          "SourceString": "Dach w stylu japońskim A",
+          "LocalizedString": "Dach w stylu japońskim A"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_roof_02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_roof_02_TextData",
+          "SourceString": "Dach w stylu japońskim B",
+          "LocalizedString": "Dach w stylu japońskim B"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_SlantedRoof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_SlantedRoof_TextData",
+          "SourceString": "Skośny dach w stylu japońskim",
+          "LocalizedString": "Skośny dach w stylu japońskim"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_TriangleWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_TriangleWall_TextData",
+          "SourceString": "Trójkątna ściana w stylu japońskim",
+          "LocalizedString": "Trójkątna ściana w stylu japońskim"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_WindowWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_WindowWall_TextData",
+          "SourceString": "Ściana z oknem w stylu japońskim",
+          "LocalizedString": "Ściana z oknem w stylu japońskim"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_foundation": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_foundation_TextData",
+          "SourceString": "Fundament w stylu japońskim",
+          "LocalizedString": "Fundament w stylu japońskim"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_stair": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_stair_TextData",
+          "SourceString": "Schody w stylu japońskim",
+          "LocalizedString": "Schody w stylu japońskim"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_Pillar": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_Pillar_TextData",
+          "SourceString": "Filar w stylu japońskim",
+          "LocalizedString": "Filar w stylu japońskim"
+        }
+      },
+      "MAPOBJECT_NAME_ItemBooth": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ItemBooth_TextData",
+          "SourceString": "Pchli targ (przedmioty)",
+          "LocalizedString": "Pchli targ (przedmioty)"
+        }
+      },
+      "MAPOBJECT_NAME_PalBooth": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PalBooth_TextData",
+          "SourceString": "Pchli targ (Pale)",
+          "LocalizedString": "Pchli targ (Pale)"
+        }
+      },
+      "MAPOBJECT_NAME_FarmBlockV2_Carrot": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FarmBlockV2_Carrot_TextData",
+          "SourceString": "Plantacja marchewek",
+          "LocalizedString": "Plantacja marchewek"
+        }
+      },
+      "MAPOBJECT_NAME_FarmBlockV2_Onion": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FarmBlockV2_Onion_TextData",
+          "SourceString": "Plantacja cebuli",
+          "LocalizedString": "Plantacja cebuli"
+        }
+      },
+      "MAPOBJECT_NAME_FarmBlockV2_Potato": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FarmBlockV2_Potato_TextData",
+          "SourceString": "Plantacja ziemniaków",
+          "LocalizedString": "Plantacja ziemniaków"
+        }
+      },
+      "MAPOBJECT_NAME_SphereFactory_Black_04": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SphereFactory_Black_04_TextData",
+          "SourceString": "Zaawansowana linia produkcyjna sfer",
+          "LocalizedString": "Zaawansowana linia produkcyjna sfer"
+        }
+      },
+      "MAPOBJECT_NAME_MultiElectricHatchingPalEgg": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_MultiElectricHatchingPalEgg_TextData",
+          "SourceString": "Duży elektryczny inkubator jaj",
+          "LocalizedString": "Duży elektryczny inkubator jaj"
+        }
+      },
+      "MAPOBJECT_NAME_HugeKitchen": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_HugeKitchen_TextData",
+          "SourceString": "Duża kuchnia",
+          "LocalizedString": "Duża kuchnia"
+        }
+      },
+      "MAPOBJECT_NAME_Factory_Hard_04": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Factory_Hard_04_TextData",
+          "SourceString": "Warsztat zaawansowanej cywilizacji",
+          "LocalizedString": "Warsztat zaawansowanej cywilizacji"
+        }
+      },
+      "MAPOBJECT_NAME_WeaponFactory_Dirty_04": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_WeaponFactory_Dirty_04_TextData",
+          "SourceString": "Zbrojownia zaawansowanej cywilizacji",
+          "LocalizedString": "Zbrojownia zaawansowanej cywilizacji"
+        }
+      },
+      "MAPOBJECT_NAME_SanityDecrease1": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SanityDecrease1_TextData",
+          "SourceString": "Generator fal alfa",
+          "LocalizedString": "Generator fal alfa"
+        }
+      },
+      "MAPOBJECT_NAME_WorkSpeedIncrease1": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_WorkSpeedIncrease1_TextData",
+          "SourceString": "Generator fal beta",
+          "LocalizedString": "Generator fal beta"
+        }
+      },
+      "MAPOBJECT_NAME_QuartzPit": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_QuartzPit_TextData",
+          "SourceString": "Kopalnia czystego kwarcu",
+          "LocalizedString": "Kopalnia czystego kwarcu"
+        }
+      },
+      "MAPOBJECT_NAME_Factory_Money": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Factory_Money_TextData",
+          "SourceString": "Linia produkcyjna złotych monet",
+          "LocalizedString": "Linia produkcyjna złotych monet"
+        }
+      },
+      "MAPOBJECT_NAME_ItemChest_04": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ItemChest_04_TextData",
+          "SourceString": "Zaawansowana skrzynia",
+          "LocalizedString": "Zaawansowana skrzynia"
+        }
+      },
+      "MAPOBJECT_NAME_MedicalPalBed_05": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_MedicalPalBed_05_TextData",
+          "SourceString": "Kapsuła Pala",
+          "LocalizedString": "Kapsuła Pala"
+        }
+      },
+      "MAPOBJECT_NAME_BaseCampItemDispenser": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_BaseCampItemDispenser_TextData",
+          "SourceString": "Maszyna do odbierania przedmiotów",
+          "LocalizedString": "Maszyna do odbierania przedmiotów"
+        }
+      },
+      "MAPOBJECT_NAME_GuildChest": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_GuildChest_TextData",
+          "SourceString": "Skrzynia gildii",
+          "LocalizedString": "Skrzynia gildii"
+        }
+      },
+      "MAPOBJECT_NAME_WoodCreator": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_WoodCreator_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_Expedition": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Expedition_TextData",
+          "SourceString": "Stacja ekspedycyjna Pali",
+          "LocalizedString": "Stacja ekspedycyjna Pali"
+        }
+      },
+      "MAPOBJECT_NAME_Lab": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Lab_TextData",
+          "SourceString": "Laboratorium pracy Pali",
+          "LocalizedString": "Laboratorium pracy Pali"
+        }
+      },
+      "MAPOBJECT_NAME_OperatingTable": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_OperatingTable_TextData",
+          "SourceString": "Stół operacyjny dla Pali",
+          "LocalizedString": "Stół operacyjny dla Pali"
+        }
+      },
+      "MAPOBJECT_NAME_ManualElectricGenerator": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ManualElectricGenerator_TextData",
+          "SourceString": "Generator napędzany siłą ludzką",
+          "LocalizedString": "Generator napędzany siłą ludzką"
+        }
+      },
+      "MAPOBJECT_NAME_Farm_SkillFruits": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Farm_SkillFruits_TextData",
+          "SourceString": "Sad owoców umiejętności",
+          "LocalizedString": "Sad owoców umiejętności"
+        }
+      },
+      "MAPOBJECT_NAME_Wooden_ladder": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wooden_ladder_TextData",
+          "SourceString": "Drabina",
+          "LocalizedString": "Drabina"
+        }
+      },
+      "MAPOBJECT_NAME_PalMedicineBox": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PalMedicineBox_TextData",
+          "SourceString": "Regał na medykamenty",
+          "LocalizedString": "Regał na medykamenty"
+        }
+      },
+      "MAPOBJECT_NAME_EnergyStorage_Electric": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_EnergyStorage_Electric_TextData",
+          "SourceString": "Akumulator",
+          "LocalizedString": "Akumulator"
+        }
+      },
+      "MAPOBJECT_NAME_BlastFurnace4": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_BlastFurnace4_TextData",
+          "SourceString": "Olbrzymi piec hutniczy",
+          "LocalizedString": "Olbrzymi piec hutniczy"
+        }
+      },
+      "MAPOBJECT_NAME_MedicineFacility_03": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_MedicineFacility_03_TextData",
+          "SourceString": "Zaawansowany stół apteczny",
+          "LocalizedString": "Zaawansowany stół apteczny"
+        }
+      },
+      "MAPOBJECT_NAME_PickupItem_NightStone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PickupItem_NightStone_TextData",
+          "SourceString": "Piasek nocnej gwiazdy",
+          "LocalizedString": "Piasek nocnej gwiazdy"
+        }
+      },
+      "MAPOBJECT_NAME_TreasureBox_Fire": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TreasureBox_Fire_TextData",
+          "SourceString": "Skrzynia skarbów żywiołu (ogień)",
+          "LocalizedString": "Skrzynia skarbów żywiołu (ogień)"
+        }
+      },
+      "MAPOBJECT_NAME_TreasureBox_Water": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TreasureBox_Water_TextData",
+          "SourceString": "Skrzynia skarbów żywiołu (woda)",
+          "LocalizedString": "Skrzynia skarbów żywiołu (woda)"
+        }
+      },
+      "MAPOBJECT_NAME_TreasureBox_Electric": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TreasureBox_Electric_TextData",
+          "SourceString": "Skrzynia skarbów żywiołu (elektryczność)",
+          "LocalizedString": "Skrzynia skarbów żywiołu (elektryczność)"
+        }
+      },
+      "MAPOBJECT_NAME_TreasureBox_Ivy": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TreasureBox_Ivy_TextData",
+          "SourceString": "Skrzynia skarbów żywiołu (roślinność)",
+          "LocalizedString": "Skrzynia skarbów żywiołu (roślinność)"
+        }
+      },
+      "MAPOBJECT_NAME_TreasureBox_Ice": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TreasureBox_Ice_TextData",
+          "SourceString": "Skrzynia skarbów żywiołu (lód)",
+          "LocalizedString": "Skrzynia skarbów żywiołu (lód)"
+        }
+      },
+      "MAPOBJECT_NAME_Headstone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Headstone_TextData",
+          "SourceString": "Nagrobek",
+          "LocalizedString": "Nagrobek"
+        }
+      },
+      "MAPOBJECT_NAME_Byobu": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Byobu_TextData",
+          "SourceString": "Dekoracyjny parawan",
+          "LocalizedString": "Dekoracyjny parawan"
+        }
+      },
+      "MAPOBJECT_NAME_Kakejiku": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Kakejiku_TextData",
+          "SourceString": "Zwój ścienny",
+          "LocalizedString": "Zwój ścienny"
+        }
+      },
+      "MAPOBJECT_NAME_Zaisu": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Zaisu_TextData",
+          "SourceString": "Japońskie krzesło podłogowe",
+          "LocalizedString": "Japońskie krzesło podłogowe"
+        }
+      },
+      "MAPOBJECT_NAME_Zabuton": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Zabuton_TextData",
+          "SourceString": "Japońska poduszka do siedzenia",
+          "LocalizedString": "Japońska poduszka do siedzenia"
+        }
+      },
+      "MAPOBJECT_NAME_Irori": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Irori_TextData",
+          "SourceString": "Japońskie palenisko",
+          "LocalizedString": "Japońskie palenisko"
+        }
+      },
+      "MAPOBJECT_NAME_Toro": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Toro_TextData",
+          "SourceString": "Kamienna latarnia",
+          "LocalizedString": "Kamienna latarnia"
+        }
+      },
+      "MAPOBJECT_NAME_Andon": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Andon_TextData",
+          "SourceString": "Japoński lampion papierowy",
+          "LocalizedString": "Japoński lampion papierowy"
+        }
+      },
+      "MAPOBJECT_NAME_Shishiodoshi": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Shishiodoshi_TextData",
+          "SourceString": "Odstraszacz jeleni",
+          "LocalizedString": "Odstraszacz jeleni"
+        }
+      },
+      "MAPOBJECT_NAME_Bonsai": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Bonsai_TextData",
+          "SourceString": "Bonsai",
+          "LocalizedString": "Bonsai"
+        }
+      },
+      "MAPOBJECT_NAME_Koro": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Koro_TextData",
+          "SourceString": "Kadzielnica",
+          "LocalizedString": "Kadzielnica"
+        }
+      },
+      "MAPOBJECT_NAME_Seika": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Seika_TextData",
+          "SourceString": "Kompozycja kwiatowa",
+          "LocalizedString": "Kompozycja kwiatowa"
+        }
+      },
+      "MAPOBJECT_NAME_Tansu": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Tansu_TextData",
+          "SourceString": "Skrzynia w stylu japońskim",
+          "LocalizedString": "Skrzynia w stylu japońskim"
+        }
+      },
+      "MAPOBJECT_NAME_Fudukue": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Fudukue_TextData",
+          "SourceString": "Biurko w stylu japońskim",
+          "LocalizedString": "Biurko w stylu japońskim"
+        }
+      },
+      "MAPOBJECT_NAME_GlobalPalStorage": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_GlobalPalStorage_TextData",
+          "SourceString": "Globalny Palbox",
+          "LocalizedString": "Globalny Palbox"
+        }
+      },
+      "MAPOBJECT_NAME_CompositeDesk": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_CompositeDesk_TextData",
+          "SourceString": "Stół kreślarski",
+          "LocalizedString": "Stół kreślarski"
+        }
+      },
+      "MAPOBJECT_NAME_DimensionPalStorage": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DimensionPalStorage_TextData",
+          "SourceString": "Międzywymiarowy skład Pali",
+          "LocalizedString": "Międzywymiarowy skład Pali"
+        }
+      },
+      "MAPOBJECT_NAME_Wire_Fence": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wire_Fence_TextData",
+          "SourceString": "Ogrodzenie z drutem",
+          "LocalizedString": "Ogrodzenie z drutem"
+        }
+      },
+      "MAPOBJECT_NAME_LilyQueenStatue": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_LilyQueenStatue_TextData",
+          "SourceString": "Posąg Lyleen",
+          "LocalizedString": "Posąg Lyleen"
+        }
+      },
+      "MAPOBJECT_NAME_ConservationGroupBannerA": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ConservationGroupBannerA_TextData",
+          "SourceString": "Flaga Związku Wolnych Pali",
+          "LocalizedString": "Flaga Związku Wolnych Pali"
+        }
+      },
+      "MAPOBJECT_NAME_ConservationGroupBannerB": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ConservationGroupBannerB_TextData",
+          "SourceString": "Baner Związku Wolnych Pali",
+          "LocalizedString": "Baner Związku Wolnych Pali"
+        }
+      },
+      "MAPOBJECT_NAME_Hunter_GangFlag": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Hunter_GangFlag_TextData",
+          "SourceString": "Flaga gangu kłusowników",
+          "LocalizedString": "Flaga gangu kłusowników"
+        }
+      },
+      "MAPOBJECT_NAME_PalCage": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PalCage_TextData",
+          "SourceString": "Pusta klatka",
+          "LocalizedString": "Pusta klatka"
+        }
+      },
+      "MAPOBJECT_NAME_WoodenBarricade": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_WoodenBarricade_TextData",
+          "SourceString": "Drewniana barykada",
+          "LocalizedString": "Drewniana barykada"
+        }
+      },
+      "MAPOBJECT_NAME_WallTorch02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_WallTorch02_TextData",
+          "SourceString": "Ozdobna pochodnia ścienna",
+          "LocalizedString": "Ozdobna pochodnia ścienna"
+        }
+      },
+      "MAPOBJECT_NAME_CandleStand": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_CandleStand_TextData",
+          "SourceString": "Ozdobny świecznik",
+          "LocalizedString": "Ozdobny świecznik"
+        }
+      },
+      "MAPOBJECT_NAME_FireStand": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FireStand_TextData",
+          "SourceString": "Świecznik rytualny",
+          "LocalizedString": "Świecznik rytualny"
+        }
+      },
+      "MAPOBJECT_NAME_Wood_Fence": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wood_Fence_TextData",
+          "SourceString": "Drewniany płot",
+          "LocalizedString": "Drewniany płot"
+        }
+      },
+      "MAPOBJECT_NAME_Stone_Fence": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stone_Fence_TextData",
+          "SourceString": "Kamienny płot",
+          "LocalizedString": "Kamienny płot"
+        }
+      },
+      "MAPOBJECT_NAME_Iron_Fence": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Iron_Fence_TextData",
+          "SourceString": "Metalowy płot",
+          "LocalizedString": "Metalowy płot"
+        }
+      },
+      "MAPOBJECT_NAME_Glass_Fence": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Glass_Fence_TextData",
+          "SourceString": "Szklany płot",
+          "LocalizedString": "Szklany płot"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_Fence": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_Fence_TextData",
+          "SourceString": "Plot w stylu japońskim",
+          "LocalizedString": "Plot w stylu japońskim"
+        }
+      },
+      "MAPOBJECT_NAME_SF_Fence": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SF_Fence_TextData",
+          "SourceString": "Minimalistyczny płot",
+          "LocalizedString": "Minimalistyczny płot"
+        }
+      },
+      "MAPOBJECT_NAME_CrystalPit": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_CrystalPit_TextData",
+          "SourceString": "Kopalnia kwarcu heksolitu",
+          "LocalizedString": "Kopalnia kwarcu heksolitu"
+        }
+      },
+      "MAPOBJECT_NAME_Spa3": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Spa3_TextData",
+          "SourceString": "Gorące źródło w stylu japońskim",
+          "LocalizedString": "Gorące źródło w stylu japońskim"
+        }
+      },
+      "MAPOBJECT_NAME_BaseCampWorkerExtraStation": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_BaseCampWorkerExtraStation_TextData",
+          "SourceString": "Panel sterowania Palboxem",
+          "LocalizedString": "Panel sterowania Palboxem"
+        }
+      },
+      "MAPOBJECT_NAME_LanternTop": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_LanternTop_TextData",
+          "SourceString": "Lampion",
+          "LocalizedString": "Lampion"
+        }
+      },
+      "MAPOBJECT_NAME_Shrine_Lantern": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Shrine_Lantern_TextData",
+          "SourceString": "Latarnia",
+          "LocalizedString": "Latarnia"
+        }
+      },
+      "MAPOBJECT_NAME_GuardianDogStatue": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_GuardianDogStatue_TextData",
+          "SourceString": "Posąg Yakumo",
+          "LocalizedString": "Posąg Yakumo"
+        }
+      },
+      "MAPOBJECT_NAME_MultiHatchingPalEgg": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_MultiHatchingPalEgg_TextData",
+          "SourceString": "Duży inkubator jaj",
+          "LocalizedString": "Duży inkubator jaj"
+        }
+      },
+      "MAPOBJECT_NAME_SF_foundation": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SF_foundation_TextData",
+          "SourceString": "Minimalistyczny fundament",
+          "LocalizedString": "Minimalistyczny fundament"
+        }
+      },
+      "MAPOBJECT_NAME_SF_wall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SF_wall_TextData",
+          "SourceString": "Minimalistyczna ściana",
+          "LocalizedString": "Minimalistyczna ściana"
+        }
+      },
+      "MAPOBJECT_NAME_SF_roof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SF_roof_TextData",
+          "SourceString": "Minimalistyczny dach",
+          "LocalizedString": "Minimalistyczny dach"
+        }
+      },
+      "MAPOBJECT_NAME_SF_stair": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SF_stair_TextData",
+          "SourceString": "Minimalistyczne schody",
+          "LocalizedString": "Minimalistyczne schody"
+        }
+      },
+      "MAPOBJECT_NAME_SF_DoorWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SF_DoorWall_TextData",
+          "SourceString": "Minimalistyczna ściana z drzwiami",
+          "LocalizedString": "Minimalistyczna ściana z drzwiami"
+        }
+      },
+      "MAPOBJECT_NAME_SF_TriangleWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SF_TriangleWall_TextData",
+          "SourceString": "Minimalistyczna ściana trójkątna",
+          "LocalizedString": "Minimalistyczna ściana trójkątna"
+        }
+      },
+      "MAPOBJECT_NAME_SF_SlantedRoof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SF_SlantedRoof_TextData",
+          "SourceString": "Minimalistyczny dach skośny",
+          "LocalizedString": "Minimalistyczny dach skośny"
+        }
+      },
+      "MAPOBJECT_NAME_SF_WindowWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SF_WindowWall_TextData",
+          "SourceString": "Minimalistyczna ściana z oknem",
+          "LocalizedString": "Minimalistyczna ściana z oknem"
+        }
+      },
+      "MAPOBJECT_NAME_SF_Pillars": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SF_Pillars_TextData",
+          "SourceString": "Minimalistyczna kolumna",
+          "LocalizedString": "Minimalistyczna kolumna"
+        }
+      },
+      "MAPOBJECT_NAME_SF_Desk": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SF_Desk_TextData",
+          "SourceString": "Biurko w stylu laboratoryjnym",
+          "LocalizedString": "Biurko w stylu laboratoryjnym"
+        }
+      },
+      "MAPOBJECT_NAME_SF_Chair": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SF_Chair_TextData",
+          "SourceString": "Krzesło w stylu laboratoryjnym",
+          "LocalizedString": "Krzesło w stylu laboratoryjnym"
+        }
+      },
+      "MAPOBJECT_NAME_Hunter_Flag": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Hunter_Flag_TextData",
+          "SourceString": "Flaga drużyny gangu kłusowników",
+          "LocalizedString": "Flaga drużyny gangu kłusowników"
+        }
+      },
+      "MAPOBJECT_NAME_Hunter_Banner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Hunter_Banner_TextData",
+          "SourceString": "Pionowy baner gangu kłusowników",
+          "LocalizedString": "Pionowy baner gangu kłusowników"
+        }
+      },
+      "MAPOBJECT_NAME_Believer_Flag": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Believer_Flag_TextData",
+          "SourceString": "Flaga drużyny Związku Wolnych Pali",
+          "LocalizedString": "Flaga drużyny Związku Wolnych Pali"
+        }
+      },
+      "MAPOBJECT_NAME_Believer_Banner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Believer_Banner_TextData",
+          "SourceString": "Pionowy baner Związku Wolnych Pali",
+          "LocalizedString": "Pionowy baner Związku Wolnych Pali"
+        }
+      },
+      "MAPOBJECT_NAME_FireCult_Flag": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FireCult_Flag_TextData",
+          "SourceString": "Flaga drużyny Bractwa Wiecznego Płomienia",
+          "LocalizedString": "Flaga drużyny Bractwa Wiecznego Płomienia"
+        }
+      },
+      "MAPOBJECT_NAME_FireCult_Banner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FireCult_Banner_TextData",
+          "SourceString": "Pionowy baner Bractwa Wiecznego Płomienia",
+          "LocalizedString": "Pionowy baner Bractwa Wiecznego Płomienia"
+        }
+      },
+      "MAPOBJECT_NAME_Police_Flag": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Police_Flag_TextData",
+          "SourceString": "Flaga drużyny SOWP",
+          "LocalizedString": "Flaga drużyny SOWP"
+        }
+      },
+      "MAPOBJECT_NAME_Police_Banner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Police_Banner_TextData",
+          "SourceString": "Pionowy baner SOWP",
+          "LocalizedString": "Pionowy baner SOWP"
+        }
+      },
+      "MAPOBJECT_NAME_Scientist_Flag": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Scientist_Flag_TextData",
+          "SourceString": "Flaga drużyny Jednostki Badań Genetycznych PAL",
+          "LocalizedString": "Flaga drużyny Jednostki Badań Genetycznych PAL"
+        }
+      },
+      "MAPOBJECT_NAME_Scientist_Banner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Scientist_Banner_TextData",
+          "SourceString": "Pionowy baner Jednostki Badań Genetycznych PAL",
+          "LocalizedString": "Pionowy baner Jednostki Badań Genetycznych PAL"
+        }
+      },
+      "MAPOBJECT_NAME_Ninja_Flag": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ninja_Flag_TextData",
+          "SourceString": "Flaga drużyny Księżycowego Kwiatu",
+          "LocalizedString": "Flaga drużyny Księżycowego Kwiatu"
+        }
+      },
+      "MAPOBJECT_NAME_Ninja_Banner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ninja_Banner_TextData",
+          "SourceString": "Pionowy baner Księżycowego Kwiatu",
+          "LocalizedString": "Pionowy baner Księżycowego Kwiatu"
+        }
+      },
+      "MAPOBJECT_NAME_FishingPond1": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FishingPond1_TextData",
+          "SourceString": "Łowisko",
+          "LocalizedString": "Łowisko"
+        }
+      },
+      "MAPOBJECT_NAME_FishingPond2": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FishingPond2_TextData",
+          "SourceString": "Duże łowisko",
+          "LocalizedString": "Duże łowisko"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableRock0019": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableRock0019_TextData",
+          "SourceString": "Kwarc heksolitu",
+          "LocalizedString": "Kwarc heksolitu"
+        }
+      },
+      "MAPOBJECT_NAME_YakushimaBoss002_Relic": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_YakushimaBoss002_Relic_TextData",
+          "SourceString": "Posąg Księżycowego Władcy",
+          "LocalizedString": "Posąg Księżycowego Władcy"
+        }
+      },
+      "MAPOBJECT_NAME_Wooden_TriangleFoundation": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wooden_TriangleFoundation_TextData",
+          "SourceString": "Drewniany trójkątny fundament",
+          "LocalizedString": "Drewniany trójkątny fundament"
+        }
+      },
+      "MAPOBJECT_NAME_Wooden_DiagonalWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wooden_DiagonalWall_TextData",
+          "SourceString": "Drewniana skośna ściana",
+          "LocalizedString": "Drewniana skośna ściana"
+        }
+      },
+      "MAPOBJECT_NAME_Wooden_TriangleRoof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wooden_TriangleRoof_TextData",
+          "SourceString": "Drewniany trójkątny dach",
+          "LocalizedString": "Drewniany trójkątny dach"
+        }
+      },
+      "MAPOBJECT_NAME_Wooden_TriangleStairsCorner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wooden_TriangleStairsCorner_TextData",
+          "SourceString": "Drewniany dach narożny",
+          "LocalizedString": "Drewniany dach narożny"
+        }
+      },
+      "MAPOBJECT_NAME_Wood_TriangleWallReverse": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wood_TriangleWallReverse_TextData",
+          "SourceString": "Drewniana trójkątna ściana (odwrócona)",
+          "LocalizedString": "Drewniana trójkątna ściana (odwrócona)"
+        }
+      },
+      "MAPOBJECT_NAME_Wooden_WallGate": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wooden_WallGate_TextData",
+          "SourceString": "Drewniane przejście dla Pali",
+          "LocalizedString": "Drewniane przejście dla Pali"
+        }
+      },
+      "MAPOBJECT_NAME_Wooden_SlopedRoofCorner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wooden_SlopedRoofCorner_TextData",
+          "SourceString": "Drewniany trójkątny skośny dach",
+          "LocalizedString": "Drewniany trójkątny skośny dach"
+        }
+      },
+      "MAPOBJECT_NAME_Wooden_PyramidRoof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wooden_PyramidRoof_TextData",
+          "SourceString": "Drewniany dach piramidalny",
+          "LocalizedString": "Drewniany dach piramidalny"
+        }
+      },
+      "MAPOBJECT_NAME_Stone_TriangleFoundation": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stone_TriangleFoundation_TextData",
+          "SourceString": "Kamienny trójkątny fundament",
+          "LocalizedString": "Kamienny trójkątny fundament"
+        }
+      },
+      "MAPOBJECT_NAME_Stone_DiagonalWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stone_DiagonalWall_TextData",
+          "SourceString": "Kamienna skośna ściana",
+          "LocalizedString": "Kamienna skośna ściana"
+        }
+      },
+      "MAPOBJECT_NAME_Stone_TriangleRoof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stone_TriangleRoof_TextData",
+          "SourceString": "Kamienny trójkątny dach",
+          "LocalizedString": "Kamienny trójkątny dach"
+        }
+      },
+      "MAPOBJECT_NAME_Stone_TriangleStairsCorner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stone_TriangleStairsCorner_TextData",
+          "SourceString": "Kamienny dach narożny",
+          "LocalizedString": "Kamienny dach narożny"
+        }
+      },
+      "MAPOBJECT_NAME_Stone_TriangleWallReverse": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stone_TriangleWallReverse_TextData",
+          "SourceString": "Kamienna trójkątna ściana (odwrócona)",
+          "LocalizedString": "Kamienna trójkątna ściana (odwrócona)"
+        }
+      },
+      "MAPOBJECT_NAME_Stone_WallGate": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stone_WallGate_TextData",
+          "SourceString": "Kamienne przejście dla Pali",
+          "LocalizedString": "Kamienne przejście dla Pali"
+        }
+      },
+      "MAPOBJECT_NAME_Stone_SlopedRoofCorner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stone_SlopedRoofCorner_TextData",
+          "SourceString": "Kamienny trójkątny skośny dach",
+          "LocalizedString": "Kamienny trójkątny skośny dach"
+        }
+      },
+      "MAPOBJECT_NAME_Stone_PyramidRoof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stone_PyramidRoof_TextData",
+          "SourceString": "Kamienny dach piramidalny",
+          "LocalizedString": "Kamienny dach piramidalny"
+        }
+      },
+      "MAPOBJECT_NAME_Iron_TriangleFoundation": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Iron_TriangleFoundation_TextData",
+          "SourceString": "Metalowy trójkątny fundament",
+          "LocalizedString": "Metalowy trójkątny fundament"
+        }
+      },
+      "MAPOBJECT_NAME_Iron_DiagonalWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Iron_DiagonalWall_TextData",
+          "SourceString": "Metalowa skośna ściana",
+          "LocalizedString": "Metalowa skośna ściana"
+        }
+      },
+      "MAPOBJECT_NAME_Iron_TriangleRoof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Iron_TriangleRoof_TextData",
+          "SourceString": "Metalowy trójkątny dach",
+          "LocalizedString": "Metalowy trójkątny dach"
+        }
+      },
+      "MAPOBJECT_NAME_Iron_TriangleStairsCorner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Iron_TriangleStairsCorner_TextData",
+          "SourceString": "Metalowy dach narożny",
+          "LocalizedString": "Metalowy dach narożny"
+        }
+      },
+      "MAPOBJECT_NAME_Iron_TriangleWallReverse": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Iron_TriangleWallReverse_TextData",
+          "SourceString": "Metalowa trójkątna ściana (odwrócona)",
+          "LocalizedString": "Metalowa trójkątna ściana (odwrócona)"
+        }
+      },
+      "MAPOBJECT_NAME_Iron_WallGate": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Iron_WallGate_TextData",
+          "SourceString": "Metalowe przejście dla Pali",
+          "LocalizedString": "Metalowe przejście dla Pali"
+        }
+      },
+      "MAPOBJECT_NAME_Iron_SlopedRoofCorner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Iron_SlopedRoofCorner_TextData",
+          "SourceString": "Metalowy trójkątny skośny dach",
+          "LocalizedString": "Metalowy trójkątny skośny dach"
+        }
+      },
+      "MAPOBJECT_NAME_Iron_PyramidRoof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Iron_PyramidRoof_TextData",
+          "SourceString": "Metalowy dach piramidalny",
+          "LocalizedString": "Metalowy dach piramidalny"
+        }
+      },
+      "MAPOBJECT_NAME_Glass_TriangleFoundation": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Glass_TriangleFoundation_TextData",
+          "SourceString": "Szklany trójkątny fundament",
+          "LocalizedString": "Szklany trójkątny fundament"
+        }
+      },
+      "MAPOBJECT_NAME_Glass_DiagonalWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Glass_DiagonalWall_TextData",
+          "SourceString": "Szklana skośna ściana",
+          "LocalizedString": "Szklana skośna ściana"
+        }
+      },
+      "MAPOBJECT_NAME_Glass_TriangleRoof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Glass_TriangleRoof_TextData",
+          "SourceString": "Szklany trójkątny dach",
+          "LocalizedString": "Szklany trójkątny dach"
+        }
+      },
+      "MAPOBJECT_NAME_Glass_TriangleStairsCorner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Glass_TriangleStairsCorner_TextData",
+          "SourceString": "Szklany dach narożny",
+          "LocalizedString": "Szklany dach narożny"
+        }
+      },
+      "MAPOBJECT_NAME_Glass_TriangleWallReverse": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Glass_TriangleWallReverse_TextData",
+          "SourceString": "Szklana trójkątna ściana (odwrócona)",
+          "LocalizedString": "Szklana trójkątna ściana (odwrócona)"
+        }
+      },
+      "MAPOBJECT_NAME_Glass_WallGate": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Glass_WallGate_TextData",
+          "SourceString": "Szklane przejście dla Pali",
+          "LocalizedString": "Szklane przejście dla Pali"
+        }
+      },
+      "MAPOBJECT_NAME_Glass_SlopedRoofCorner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Glass_SlopedRoofCorner_TextData",
+          "SourceString": "Szklany trójkątny skośny dach",
+          "LocalizedString": "Szklany trójkątny skośny dach"
+        }
+      },
+      "MAPOBJECT_NAME_Glass_PyramidRoof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Glass_PyramidRoof_TextData",
+          "SourceString": "Szklany dach piramidalny",
+          "LocalizedString": "Szklany dach piramidalny"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_TriangleFoundation": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_TriangleFoundation_TextData",
+          "SourceString": "Trójkątny fundament w stylu japońskim",
+          "LocalizedString": "Trójkątny fundament w stylu japońskim"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_DiagonalWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_DiagonalWall_TextData",
+          "SourceString": "Skośna ściana w stylu japońskim",
+          "LocalizedString": "Skośna ściana w stylu japońskim"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_TriangleRoof_01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_TriangleRoof_01_TextData",
+          "SourceString": "Trójkątny dach w stylu japońskim A",
+          "LocalizedString": "Trójkątny dach w stylu japońskim A"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_TriangleRoof_02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_TriangleRoof_02_TextData",
+          "SourceString": "Trójkątny dach w stylu japońskim B",
+          "LocalizedString": "Trójkątny dach w stylu japońskim B"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_TriangleStairsCorner_01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_TriangleStairsCorner_01_TextData",
+          "SourceString": "Narożny dach w stylu japońskim",
+          "LocalizedString": "Narożny dach w stylu japońskim"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_TriangleStairsCorner_02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_TriangleStairsCorner_02_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_TriangleWallReverse": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_TriangleWallReverse_TextData",
+          "SourceString": "Trójkątna ściana w stylu japońskim (odwrócona)",
+          "LocalizedString": "Trójkątna ściana w stylu japońskim (odwrócona)"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_WallGate": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_WallGate_TextData",
+          "SourceString": "Przejście dla Pali w stylu japońskim",
+          "LocalizedString": "Przejście dla Pali w stylu japońskim"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_SlopedRoofCorner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_SlopedRoofCorner_TextData",
+          "SourceString": "Trójkątny dach skośny w stylu japońskim",
+          "LocalizedString": "Trójkątny dach skośny w stylu japońskim"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_PyramidRoof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_PyramidRoof_TextData",
+          "SourceString": "Dach piramidalny w stylu japońskim",
+          "LocalizedString": "Dach piramidalny w stylu japońskim"
+        }
+      },
+      "MAPOBJECT_NAME_SF_TriangleFoundation": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SF_TriangleFoundation_TextData",
+          "SourceString": "Minimalistyczny trójkątny fundament",
+          "LocalizedString": "Minimalistyczny trójkątny fundament"
+        }
+      },
+      "MAPOBJECT_NAME_SF_DiagonalWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SF_DiagonalWall_TextData",
+          "SourceString": "Minimalistyczna skośna ściana",
+          "LocalizedString": "Minimalistyczna skośna ściana"
+        }
+      },
+      "MAPOBJECT_NAME_SF_TriangleRoof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SF_TriangleRoof_TextData",
+          "SourceString": "Minimalistyczny trójkątny dach",
+          "LocalizedString": "Minimalistyczny trójkątny dach"
+        }
+      },
+      "MAPOBJECT_NAME_SF_TriangleStairsCorner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SF_TriangleStairsCorner_TextData",
+          "SourceString": "Minimalistyczny dach narożny",
+          "LocalizedString": "Minimalistyczny dach narożny"
+        }
+      },
+      "MAPOBJECT_NAME_SF_TriangleWallReverse": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SF_TriangleWallReverse_TextData",
+          "SourceString": "Minimalistyczna trójkątna ściana (odwrócona)",
+          "LocalizedString": "Minimalistyczna trójkątna ściana (odwrócona)"
+        }
+      },
+      "MAPOBJECT_NAME_SF_WallGate": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SF_WallGate_TextData",
+          "SourceString": "Minimalistyczne przejście dla Pali",
+          "LocalizedString": "Minimalistyczne przejście dla Pali"
+        }
+      },
+      "MAPOBJECT_NAME_SF_SlopedRoofCorner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SF_SlopedRoofCorner_TextData",
+          "SourceString": "Minimalistyczny trójkątny dach skośny",
+          "LocalizedString": "Minimalistyczny trójkątny dach skośny"
+        }
+      },
+      "MAPOBJECT_NAME_SF_PyramidRoof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SF_PyramidRoof_TextData",
+          "SourceString": "Minimalistyczny dach piramidalny",
+          "LocalizedString": "Minimalistyczny dach piramidalny"
+        }
+      },
+      "MAPOBJECT_NAME_AncientRelicRecycler": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_AncientRelicRecycler_TextData",
+          "SourceString": "Recykler reliktów starożytnej cywilizacji",
+          "LocalizedString": "Recykler reliktów starożytnej cywilizacji"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableBone0001": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableBone0001_TextData",
+          "SourceString": "Starożytne szczątki",
+          "LocalizedString": "Starożytne szczątki"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableRock0022": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableRock0022_TextData",
+          "SourceString": "Starożytna bryła lawy",
+          "LocalizedString": "Starożytna bryła lawy"
+        }
+      },
+      "MAPOBJECT_NAME_AncientWorkBench": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_AncientWorkBench_TextData",
+          "SourceString": "Warsztat starożytnej cywilizacji",
+          "LocalizedString": "Warsztat starożytnej cywilizacji"
+        }
+      },
+      "MAPOBJECT_NAME_AncientElectricGenerator": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_AncientElectricGenerator_TextData",
+          "SourceString": "Generator starożytnej cywilizacji",
+          "LocalizedString": "Generator starożytnej cywilizacji"
+        }
+      },
+      "MAPOBJECT_NAME_AncientBlastFurnace": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_AncientBlastFurnace_TextData",
+          "SourceString": "Piec starożytnej cywilizacji",
+          "LocalizedString": "Piec starożytnej cywilizacji"
+        }
+      },
+      "MAPOBJECT_NAME_AncientCookingStove": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_AncientCookingStove_TextData",
+          "SourceString": "Kuchnia starożytnej cywilizacji",
+          "LocalizedString": "Kuchnia starożytnej cywilizacji"
+        }
+      },
+      "MAPOBJECT_NAME_AncientMultiProduct": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_AncientMultiProduct_TextData",
+          "SourceString": "Generator materii starożytnej cywilizacji",
+          "LocalizedString": "Generator materii starożytnej cywilizacji"
+        }
+      },
+      "MAPOBJECT_NAME_AncientFarmBlock": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_AncientFarmBlock_TextData",
+          "SourceString": "Kultywator starożytnej cywilizacji",
+          "LocalizedString": "Kultywator starożytnej cywilizacji"
+        }
+      },
+      "MAPOBJECT_NAME_DefenseMachinegun_AutoTurret": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DefenseMachinegun_AutoTurret_TextData",
+          "SourceString": "Wieżyczka starożytnej cywilizacji",
+          "LocalizedString": "Wieżyczka starożytnej cywilizacji"
+        }
+      },
+      "MAPOBJECT_NAME_MultiElectricHatchingPalEggWithBreed": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_MultiElectricHatchingPalEggWithBreed_TextData",
+          "SourceString": "Rozmnażarka starożytnej cywilizacji",
+          "LocalizedString": "Rozmnażarka starożytnej cywilizacji"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableRock0020": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableRock0020_TextData",
+          "SourceString": "Solit",
+          "LocalizedString": "Solit"
+        }
+      },
+      "MAPOBJECT_NAME_BaseCampWorkHard03": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_BaseCampWorkHard03_TextData",
+          "SourceString": "Stanowisko obserwacyjne starożytnej cywilizacji",
+          "LocalizedString": "Stanowisko obserwacyjne starożytnej cywilizacji"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_TriangleFoundation": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_TriangleFoundation_TextData",
+          "SourceString": "Trójkątny fundament w stylu starożytnej cywilizacji",
+          "LocalizedString": "Trójkątny fundament w stylu starożytnej cywilizacji"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_DiagonalWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_DiagonalWall_TextData",
+          "SourceString": "Skośna ściana w stylu starożytnej cywilizacji",
+          "LocalizedString": "Skośna ściana w stylu starożytnej cywilizacji"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_TriangleRoof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_TriangleRoof_TextData",
+          "SourceString": "Trójkątny dach w stylu starożytnej cywilizacji",
+          "LocalizedString": "Trójkątny dach w stylu starożytnej cywilizacji"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_TriangleStairsCorner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_TriangleStairsCorner_TextData",
+          "SourceString": "Narożny dach w stylu starożytnej cywilizacji",
+          "LocalizedString": "Narożny dach w stylu starożytnej cywilizacji"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_TriangleWallReverse": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_TriangleWallReverse_TextData",
+          "SourceString": "Trójkątna ściana w stylu starożytnej cywilizacji (odwrócona)",
+          "LocalizedString": "Trójkątna ściana w stylu starożytnej cywilizacji (odwrócona)"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_WallGate": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_WallGate_TextData",
+          "SourceString": "Przejście dla Pali w stylu starożytnej cywilizacji",
+          "LocalizedString": "Przejście dla Pali w stylu starożytnej cywilizacji"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_SlopedRoofCorner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_SlopedRoofCorner_TextData",
+          "SourceString": "Trójkątny dach skośny w stylu starożytnej cywilizacji",
+          "LocalizedString": "Trójkątny dach skośny w stylu starożytnej cywilizacji"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_PyramidRoof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_PyramidRoof_TextData",
+          "SourceString": "Dach piramidalny w stylu starożytnej cywilizacji",
+          "LocalizedString": "Dach piramidalny w stylu starożytnej cywilizacji"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_foundation": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_foundation_TextData",
+          "SourceString": "Fundament w stylu starożytnej cywilizacji",
+          "LocalizedString": "Fundament w stylu starożytnej cywilizacji"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_wall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_wall_TextData",
+          "SourceString": "Ściana w stylu starożytnej cywilizacji",
+          "LocalizedString": "Ściana w stylu starożytnej cywilizacji"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_roof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_roof_TextData",
+          "SourceString": "Dach w stylu starożytnej cywilizacji",
+          "LocalizedString": "Dach w stylu starożytnej cywilizacji"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_stair": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_stair_TextData",
+          "SourceString": "Schody w stylu starożytnej cywilizacji",
+          "LocalizedString": "Schody w stylu starożytnej cywilizacji"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_DoorWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_DoorWall_TextData",
+          "SourceString": "Ściana z drzwiami w stylu starożytnej cywilizacji",
+          "LocalizedString": "Ściana z drzwiami w stylu starożytnej cywilizacji"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_TriangleWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_TriangleWall_TextData",
+          "SourceString": "Trójkątna ściana w stylu starożytnej cywilizacji",
+          "LocalizedString": "Trójkątna ściana w stylu starożytnej cywilizacji"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_SlantedRoof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_SlantedRoof_TextData",
+          "SourceString": "Dach skośny w stylu starożytnej cywilizacji",
+          "LocalizedString": "Dach skośny w stylu starożytnej cywilizacji"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_WindowWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_WindowWall_TextData",
+          "SourceString": "Ściana z oknem w stylu starożytnej cywilizacji",
+          "LocalizedString": "Ściana z oknem w stylu starożytnej cywilizacji"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_Pillars": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_Pillars_TextData",
+          "SourceString": "Filar w stylu starożytnej cywilizacji",
+          "LocalizedString": "Filar w stylu starożytnej cywilizacji"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_Fence": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_Fence_TextData",
+          "SourceString": "Płot w stylu starożytnej cywilizacji",
+          "LocalizedString": "Płot w stylu starożytnej cywilizacji"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree01_Green": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree01_Green_TextData",
+          "SourceString": "Model drzewa A",
+          "LocalizedString": "Model drzewa A"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree02_Green": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree02_Green_TextData",
+          "SourceString": "Model drzewa B",
+          "LocalizedString": "Model drzewa B"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree03_Green": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree03_Green_TextData",
+          "SourceString": "Model drzewa C",
+          "LocalizedString": "Model drzewa C"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree01_Red": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree01_Red_TextData",
+          "SourceString": "Model czerwonego drzewa A",
+          "LocalizedString": "Model czerwonego drzewa A"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree02_Red": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree02_Red_TextData",
+          "SourceString": "Model czerwonego drzewa B",
+          "LocalizedString": "Model czerwonego drzewa B"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree03_Red": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree03_Red_TextData",
+          "SourceString": "Model czerwonego drzewa C",
+          "LocalizedString": "Model czerwonego drzewa C"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree01_Yellow": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree01_Yellow_TextData",
+          "SourceString": "Model żółtego drzewa A",
+          "LocalizedString": "Model żółtego drzewa A"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree02_Yellow": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree02_Yellow_TextData",
+          "SourceString": "Model żółtego drzewa B",
+          "LocalizedString": "Model żółtego drzewa B"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree03_Yellow": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree03_Yellow_TextData",
+          "SourceString": "Model żółtego drzewa C",
+          "LocalizedString": "Model żółtego drzewa C"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree01_Cherry": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree01_Cherry_TextData",
+          "SourceString": "Model wiśni A",
+          "LocalizedString": "Model wiśni A"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree02_Cherry": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree02_Cherry_TextData",
+          "SourceString": "Model wiśni B",
+          "LocalizedString": "Model wiśni B"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree03_Cherry": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree03_Cherry_TextData",
+          "SourceString": "Model wiśni C",
+          "LocalizedString": "Model wiśni C"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree01_Tropical": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree01_Tropical_TextData",
+          "SourceString": "Model tropikalnego drzewa A",
+          "LocalizedString": "Model tropikalnego drzewa A"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree02_Tropical": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree02_Tropical_TextData",
+          "SourceString": "Model tropikalnego drzewa B",
+          "LocalizedString": "Model tropikalnego drzewa B"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree03_Tropical": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree03_Tropical_TextData",
+          "SourceString": "Model tropikalnego drzewa C",
+          "LocalizedString": "Model tropikalnego drzewa C"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree01_Snow": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree01_Snow_TextData",
+          "SourceString": "Model ośnieżonego drzewa A",
+          "LocalizedString": "Model ośnieżonego drzewa A"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree02_Snow": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree02_Snow_TextData",
+          "SourceString": "Model ośnieżonego drzewa B",
+          "LocalizedString": "Model ośnieżonego drzewa B"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree03_Snow": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree03_Snow_TextData",
+          "SourceString": "Model ośnieżonego drzewa C",
+          "LocalizedString": "Model ośnieżonego drzewa C"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree01_Desert": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree01_Desert_TextData",
+          "SourceString": "Model pustynnego drzewa A",
+          "LocalizedString": "Model pustynnego drzewa A"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree02_Desert": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree02_Desert_TextData",
+          "SourceString": "Model pustynnego drzewa B",
+          "LocalizedString": "Model pustynnego drzewa B"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree03_Desert": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree03_Desert_TextData",
+          "SourceString": "Model pustynnego drzewa C",
+          "LocalizedString": "Model pustynnego drzewa C"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree01_Bamboo": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree01_Bamboo_TextData",
+          "SourceString": "Model bambusa A",
+          "LocalizedString": "Model bambusa A"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree02_Bamboo": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree02_Bamboo_TextData",
+          "SourceString": "Model bambusa B",
+          "LocalizedString": "Model bambusa B"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree03_Bamboo": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree03_Bamboo_TextData",
+          "SourceString": "Model bambusa C",
+          "LocalizedString": "Model bambusa C"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureBush01_Green": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureBush01_Green_TextData",
+          "SourceString": "Model krzewu",
+          "LocalizedString": "Model krzewu"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureBush01_Yellow": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureBush01_Yellow_TextData",
+          "SourceString": "Model żółtego krzewu",
+          "LocalizedString": "Model żółtego krzewu"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureBush01_Flower": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureBush01_Flower_TextData",
+          "SourceString": "Model kwitnącego krzewu A",
+          "LocalizedString": "Model kwitnącego krzewu A"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureBush02_Flower": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureBush02_Flower_TextData",
+          "SourceString": "Model kwitnącego krzewu B",
+          "LocalizedString": "Model kwitnącego krzewu B"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureBush01_Tropical": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureBush01_Tropical_TextData",
+          "SourceString": "Model tropikalnego krzewu",
+          "LocalizedString": "Model tropikalnego krzewu"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureBush01_Snow": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureBush01_Snow_TextData",
+          "SourceString": "Model białego krzewu",
+          "LocalizedString": "Model białego krzewu"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureStone01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureStone01_TextData",
+          "SourceString": "Model głazu",
+          "LocalizedString": "Model głazu"
+        }
+      },
+      "MAPOBJECT_NAME_TableCircular_Wood_None": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TableCircular_Wood_None_TextData",
+          "SourceString": "Schludny okrągły stół",
+          "LocalizedString": "Schludny okrągły stół"
+        }
+      },
+      "MAPOBJECT_NAME_TableSquare_Wood_None": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TableSquare_Wood_None_TextData",
+          "SourceString": "Schludny kwadratowy stół",
+          "LocalizedString": "Schludny kwadratowy stół"
+        }
+      },
+      "MAPOBJECT_NAME_JetDragonStatue": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JetDragonStatue_TextData",
+          "SourceString": "Posąg Jetragona",
+          "LocalizedString": "Posąg Jetragona"
+        }
+      },
+      "MAPOBJECT_NAME_IceHorseStatue": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_IceHorseStatue_TextData",
+          "SourceString": "Posąg Frostalliona",
+          "LocalizedString": "Posąg Frostalliona"
+        }
+      },
+      "MAPOBJECT_NAME_ArcadeVideoGame": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ArcadeVideoGame_TextData",
+          "SourceString": "Automat do gier typu arcade",
+          "LocalizedString": "Automat do gier typu arcade"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_MedicalPalBed": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_MedicalPalBed_TextData",
+          "SourceString": "Łóżko dla Pala w stylu starożytnej cywilizacji",
+          "LocalizedString": "Łóżko dla Pala w stylu starożytnej cywilizacji"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_AirConditioner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_AirConditioner_TextData",
+          "SourceString": "Klimatyzator starożytnej cywilizacji",
+          "LocalizedString": "Klimatyzator starożytnej cywilizacji"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_Spa": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_Spa_TextData",
+          "SourceString": "Gorące źródło w stylu starożytnej cywilizacji",
+          "LocalizedString": "Gorące źródło w stylu starożytnej cywilizacji"
+        }
+      },
+      "MAPOBJECT_NAME_Clinic": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Clinic_TextData",
+          "SourceString": "Klinika",
+          "LocalizedString": "Klinika"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_Clinic": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_Clinic_TextData",
+          "SourceString": "Klinika starożytnej cywilizacji",
+          "LocalizedString": "Klinika starożytnej cywilizacji"
+        }
+      },
+      "MAPOBJECT_NAME_SkyIslandOrePit": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SkyIslandOrePit_TextData",
+          "SourceString": "Kopalnia solitu",
+          "LocalizedString": "Kopalnia solitu"
+        }
+      },
+      "MAPOBJECT_NAME_DarkIsland_Flag": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DarkIsland_Flag_TextData",
+          "SourceString": "Flaga ludu Feybreak",
+          "LocalizedString": "Flaga ludu Feybreak"
+        }
+      },
+      "MAPOBJECT_NAME_DarkIsland_Banner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DarkIsland_Banner_TextData",
+          "SourceString": "Pionowy baner ludu Feybreak",
+          "LocalizedString": "Pionowy baner ludu Feybreak"
+        }
+      },
+      "MAPOBJECT_NAME_SkyIsland_Flag": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SkyIsland_Flag_TextData",
+          "SourceString": "Flaga Przymierza Błękitnego Nieba",
+          "LocalizedString": "Flaga Przymierza Błękitnego Nieba"
+        }
+      },
+      "MAPOBJECT_NAME_SkyIsland_Banner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SkyIsland_Banner_TextData",
+          "SourceString": "Pionowy baner Przymierza Błękitnego Nieba",
+          "LocalizedString": "Pionowy baner Przymierza Błękitnego Nieba"
+        }
+      },
+      "MAPOBJECT_NAME_StationDeforest3": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_StationDeforest3_TextData",
+          "SourceString": "Plac wyrębu II",
+          "LocalizedString": "Plac wyrębu II"
+        }
+      },
+      "MAPOBJECT_NAME_BaseCampWorkHard02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_BaseCampWorkHard02_TextData",
+          "SourceString": "Wysokiej jakości stanowisko obserwacyjne",
+          "LocalizedString": "Wysokiej jakości stanowisko obserwacyjne"
+        }
+      },
+      "MAPOBJECT_NAME_Wooden_SlopedRoofCornerReverse": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wooden_SlopedRoofCornerReverse_TextData",
+          "SourceString": "Trójkątny skośny dach z drewna (odwrócony)",
+          "LocalizedString": "Trójkątny skośny dach z drewna (odwrócony)"
+        }
+      },
+      "MAPOBJECT_NAME_Stone_SlopedRoofCornerReverse": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stone_SlopedRoofCornerReverse_TextData",
+          "SourceString": "Trójkątny skośny dach z kamienia (odwrócony)",
+          "LocalizedString": "Trójkątny skośny dach z kamienia (odwrócony)"
+        }
+      },
+      "MAPOBJECT_NAME_Iron_SlopedRoofCornerReverse": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Iron_SlopedRoofCornerReverse_TextData",
+          "SourceString": "Trójkątny skośny dach z metalu (odwrócony)",
+          "LocalizedString": "Trójkątny skośny dach z metalu (odwrócony)"
+        }
+      },
+      "MAPOBJECT_NAME_Glass_SlopedRoofCornerReverse": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Glass_SlopedRoofCornerReverse_TextData",
+          "SourceString": "Trójkątny skośny dach ze szkła (odwrócony)",
+          "LocalizedString": "Trójkątny skośny dach ze szkła (odwrócony)"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_SlopedRoofCornerReverse": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_SlopedRoofCornerReverse_TextData",
+          "SourceString": "Trójkątny dach skośny w stylu japońskim (odwrócony)",
+          "LocalizedString": "Trójkątny dach skośny w stylu japońskim (odwrócony)"
+        }
+      },
+      "MAPOBJECT_NAME_SF_SlopedRoofCornerReverse": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SF_SlopedRoofCornerReverse_TextData",
+          "SourceString": "Trójkątny dach skośny w minimalistycznym stylu (odwrócony)",
+          "LocalizedString": "Trójkątny dach skośny w minimalistycznym stylu (odwrócony)"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_SlopedRoofCornerReverse": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_SlopedRoofCornerReverse_TextData",
+          "SourceString": "Trójkątny dach skośny w stylu starożytnej cywilizacji (odwrócony)",
+          "LocalizedString": "Trójkątny dach skośny w stylu starożytnej cywilizacji (odwrócony)"
+        }
+      },
+      "MAPOBJECT_NAME_OilPump02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_OilPump02_TextData",
+          "SourceString": "Wysokociśnieniowy ekstraktor ropy naftowej",
+          "LocalizedString": "Wysokociśnieniowy ekstraktor ropy naftowej"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableWood0001": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableWood0001_TextData",
+          "SourceString": "Starożytna kora",
+          "LocalizedString": "Starożytna kora"
+        }
+      }
+    }
+  }
+]

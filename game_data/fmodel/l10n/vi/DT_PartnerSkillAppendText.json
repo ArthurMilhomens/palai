@@ -1,0 +1,1296 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_PartnerSkillAppendText",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "TEST_TEXT_RANK_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "TEST_TEXT_RANK_1_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "TEST_TEXT_RANK_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "TEST_TEXT_RANK_2_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "TEST_TEXT_RANK_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "TEST_TEXT_RANK_3_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "TEST_TEXT_RANK_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "TEST_TEXT_RANK_4_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "TEST_TEXT_RANK_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "TEST_TEXT_RANK_5_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "DamageUp_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "DamageUp_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_Rank_2_TextData",
+          "SourceString": "(Tăng sát thương:<Status_Up>Nhỏ</>)",
+          "LocalizedString": "(Tăng sát thương:<Status_Up>Nhỏ</>)"
+        }
+      },
+      "DamageUp_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_Rank_3_TextData",
+          "SourceString": "(Tăng sát thương:<Status_Up>Vừa</>)",
+          "LocalizedString": "(Tăng sát thương:<Status_Up>Vừa</>)"
+        }
+      },
+      "DamageUp_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_Rank_4_TextData",
+          "SourceString": "(Tăng sát thương:<Status_Up>Lớn</>)",
+          "LocalizedString": "(Tăng sát thương:<Status_Up>Lớn</>)"
+        }
+      },
+      "DamageUp_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_Rank_5_TextData",
+          "SourceString": "(Tăng sát thương:<Status_Up>Siêu lớn</>)",
+          "LocalizedString": "(Tăng sát thương:<Status_Up>Siêu lớn</>)"
+        }
+      },
+      "CooldownReduction_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CooldownReduction_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "CooldownReduction_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CooldownReduction_Rank_2_TextData",
+          "SourceString": "(Rút ngắn thời gian hồi chiêu: <Status_Up>Nhỏ</>)",
+          "LocalizedString": "(Rút ngắn thời gian hồi chiêu: <Status_Up>Nhỏ</>)"
+        }
+      },
+      "CooldownReduction_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CooldownReduction_Rank_3_TextData",
+          "SourceString": "(Rút ngắn thời gian hồi chiêu: <Status_Up>Vừa</>)",
+          "LocalizedString": "(Rút ngắn thời gian hồi chiêu: <Status_Up>Vừa</>)"
+        }
+      },
+      "CooldownReduction_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CooldownReduction_Rank_4_TextData",
+          "SourceString": "(Rút ngắn thời gian hồi chiêu: <Status_Up>Lớn</>)",
+          "LocalizedString": "(Rút ngắn thời gian hồi chiêu: <Status_Up>Lớn</>)"
+        }
+      },
+      "CooldownReduction_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CooldownReduction_Rank_5_TextData",
+          "SourceString": "(Rút ngắn thời gian hồi chiêu: <Status_Up>Siêu lớn</>)",
+          "LocalizedString": "(Rút ngắn thời gian hồi chiêu: <Status_Up>Siêu lớn</>)"
+        }
+      },
+      "MiningUp_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "MiningUp_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "MiningUp_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "MiningUp_Rank_2_TextData",
+          "SourceString": "(Tăng hiệu suất khai thác: <Status_Up>Nhỏ</>)",
+          "LocalizedString": "(Tăng hiệu suất khai thác: <Status_Up>Nhỏ</>)"
+        }
+      },
+      "MiningUp_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "MiningUp_Rank_3_TextData",
+          "SourceString": "(Tăng hiệu suất khai thác: <Status_Up>Vừa</>)",
+          "LocalizedString": "(Tăng hiệu suất khai thác: <Status_Up>Vừa</>)"
+        }
+      },
+      "MiningUp_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "MiningUp_Rank_4_TextData",
+          "SourceString": "(Tăng hiệu suất khai thác: <Status_Up>Lớn</>)",
+          "LocalizedString": "(Tăng hiệu suất khai thác: <Status_Up>Lớn</>)"
+        }
+      },
+      "MiningUp_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "MiningUp_Rank_5_TextData",
+          "SourceString": "(Tăng hiệu suất khai thác: <Status_Up>Siêu lớn</>)",
+          "LocalizedString": "(Tăng hiệu suất khai thác: <Status_Up>Siêu lớn</>)"
+        }
+      },
+      "RideSpeedUp_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "RideSpeedUp_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_Rank_2_TextData",
+          "SourceString": "(Tốc độ di chuyển khi cưỡi: tăng <Status_Up>10%</>)",
+          "LocalizedString": "(Tốc độ di chuyển khi cưỡi: tăng <Status_Up>10%</>)"
+        }
+      },
+      "RideSpeedUp_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_Rank_3_TextData",
+          "SourceString": "(Tốc độ di chuyển khi cưỡi: tăng <Status_Up>12%</>)",
+          "LocalizedString": "(Tốc độ di chuyển khi cưỡi: tăng <Status_Up>12%</>)"
+        }
+      },
+      "RideSpeedUp_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_Rank_4_TextData",
+          "SourceString": "(Tốc độ di chuyển khi cưỡi: tăng <Status_Up>15%</>)",
+          "LocalizedString": "(Tốc độ di chuyển khi cưỡi: tăng <Status_Up>15%</>)"
+        }
+      },
+      "RideSpeedUp_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_Rank_5_TextData",
+          "SourceString": "(Tốc độ di chuyển khi cưỡi: tăng <Status_Up>20%</>)",
+          "LocalizedString": "(Tốc độ di chuyển khi cưỡi: tăng <Status_Up>20%</>)"
+        }
+      },
+      "SwimSpeedUp_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "SwimSpeedUp_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_Rank_2_TextData",
+          "SourceString": "(Tốc độ di chuyển trên nước: tăng <Status_Up>10%</>)",
+          "LocalizedString": "(Tốc độ di chuyển trên nước: tăng <Status_Up>10%</>)"
+        }
+      },
+      "SwimSpeedUp_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_Rank_3_TextData",
+          "SourceString": "(Tốc độ di chuyển trên nước: tăng <Status_Up>14%</>)",
+          "LocalizedString": "(Tốc độ di chuyển trên nước: tăng <Status_Up>14%</>)"
+        }
+      },
+      "SwimSpeedUp_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_Rank_4_TextData",
+          "SourceString": "(Tốc độ di chuyển trên nước: tăng <Status_Up>18%</>)",
+          "LocalizedString": "(Tốc độ di chuyển trên nước: tăng <Status_Up>18%</>)"
+        }
+      },
+      "SwimSpeedUp_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_Rank_5_TextData",
+          "SourceString": "(Tốc độ di chuyển trên nước: tăng <Status_Up>25%</>)",
+          "LocalizedString": "(Tốc độ di chuyển trên nước: tăng <Status_Up>25%</>)"
+        }
+      },
+      "LoggingUp_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "LoggingUp_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_Rank_2_TextData",
+          "SourceString": "(Tăng hiệu suất đốn gỗ: <Status_Up>Nhỏ</>)",
+          "LocalizedString": "(Tăng hiệu suất đốn gỗ: <Status_Up>Nhỏ</>)"
+        }
+      },
+      "LoggingUp_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_Rank_3_TextData",
+          "SourceString": "(Tăng hiệu suất đốn gỗ: <Status_Up>Vừa</>)",
+          "LocalizedString": "(Tăng hiệu suất đốn gỗ: <Status_Up>Vừa</>)"
+        }
+      },
+      "LoggingUp_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_Rank_4_TextData",
+          "SourceString": "(Tăng hiệu suất đốn gỗ: <Status_Up>Lớn</>)",
+          "LocalizedString": "(Tăng hiệu suất đốn gỗ: <Status_Up>Lớn</>)"
+        }
+      },
+      "LoggingUp_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_Rank_5_TextData",
+          "SourceString": "(Tăng hiệu suất đốn gỗ: <Status_Up>Siêu lớn</>)",
+          "LocalizedString": "(Tăng hiệu suất đốn gỗ: <Status_Up>Siêu lớn</>)"
+        }
+      },
+      "DropUp_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DropUp_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "DropUp_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DropUp_Rank_2_TextData",
+          "SourceString": "(Tăng lượng vật phẩm nhận được: <Status_Up>Nhỏ</>)",
+          "LocalizedString": "(Tăng lượng vật phẩm nhận được: <Status_Up>Nhỏ</>)"
+        }
+      },
+      "DropUp_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DropUp_Rank_3_TextData",
+          "SourceString": "(Tăng lượng vật phẩm nhận được: <Status_Up>Vừa</>)",
+          "LocalizedString": "(Tăng lượng vật phẩm nhận được: <Status_Up>Vừa</>)"
+        }
+      },
+      "DropUp_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DropUp_Rank_4_TextData",
+          "SourceString": "(Tăng lượng vật phẩm nhận được: <Status_Up>Lớn</>)",
+          "LocalizedString": "(Tăng lượng vật phẩm nhận được: <Status_Up>Lớn</>)"
+        }
+      },
+      "DropUp_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DropUp_Rank_5_TextData",
+          "SourceString": "(Tăng lượng vật phẩm nhận được: <Status_Up>Siêu lớn</>)",
+          "LocalizedString": "(Tăng lượng vật phẩm nhận được: <Status_Up>Siêu lớn</>)"
+        }
+      },
+      "FishingAssist_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FishingAssist_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "FishingAssist_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FishingAssist_Rank_2_TextData",
+          "SourceString": "(Tăng hiệu quả hỗ trợ câu cá: <Status_Up>Nhỏ</>)",
+          "LocalizedString": "(Tăng hiệu quả hỗ trợ câu cá: <Status_Up>Nhỏ</>)"
+        }
+      },
+      "FishingAssist_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FishingAssist_Rank_3_TextData",
+          "SourceString": "(Tăng hiệu quả hỗ trợ câu cá: <Status_Up>Vừa</>)",
+          "LocalizedString": "(Tăng hiệu quả hỗ trợ câu cá: <Status_Up>Vừa</>)"
+        }
+      },
+      "FishingAssist_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FishingAssist_Rank_4_TextData",
+          "SourceString": "(Tăng hiệu quả hỗ trợ câu cá: <Status_Up>Lớn</>)",
+          "LocalizedString": "(Tăng hiệu quả hỗ trợ câu cá: <Status_Up>Lớn</>)"
+        }
+      },
+      "FishingAssist_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FishingAssist_Rank_5_TextData",
+          "SourceString": "(Tăng hiệu quả hỗ trợ câu cá: <Status_Up>Siêu lớn</>)",
+          "LocalizedString": "(Tăng hiệu quả hỗ trợ câu cá: <Status_Up>Siêu lớn</>)"
+        }
+      },
+      "LifeSteal_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LifeSteal_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "LifeSteal_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LifeSteal_Rank_2_TextData",
+          "SourceString": "(Tăng hiệu ứng hút sinh mệnh: <Status_Up>Nhỏ</>)",
+          "LocalizedString": "(Tăng hiệu ứng hút sinh mệnh: <Status_Up>Nhỏ</>)"
+        }
+      },
+      "LifeSteal_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LifeSteal_Rank_3_TextData",
+          "SourceString": "(Tăng hiệu ứng hút sinh mệnh: <Status_Up>Vừa</>)",
+          "LocalizedString": "(Tăng hiệu ứng hút sinh mệnh: <Status_Up>Vừa</>)"
+        }
+      },
+      "LifeSteal_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LifeSteal_Rank_4_TextData",
+          "SourceString": "(Tăng hiệu ứng hút sinh mệnh: <Status_Up>Lớn</>)",
+          "LocalizedString": "(Tăng hiệu ứng hút sinh mệnh: <Status_Up>Lớn</>)"
+        }
+      },
+      "LifeSteal_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LifeSteal_Rank_5_TextData",
+          "SourceString": "(Tăng hiệu ứng hút sinh mệnh: <Status_Up>Siêu lớn</>)",
+          "LocalizedString": "(Tăng hiệu ứng hút sinh mệnh: <Status_Up>Siêu lớn</>)"
+        }
+      },
+      "RideSpeedUp_CooldownReduction_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_CooldownReduction_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "RideSpeedUp_CooldownReduction_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_CooldownReduction_Rank_2_TextData",
+          "SourceString": "(Tăng tốc độ di chuyển ・ Rút ngắn thời gian hồi chiêu: <Status_Up>Nhỏ</>)",
+          "LocalizedString": "(Tăng tốc độ di chuyển ・ Rút ngắn thời gian hồi chiêu: <Status_Up>Nhỏ</>)"
+        }
+      },
+      "RideSpeedUp_CooldownReduction_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_CooldownReduction_Rank_3_TextData",
+          "SourceString": "(Tăng tốc độ di chuyển ・ Rút ngắn thời gian hồi chiêu: <Status_Up>Vừa</>)",
+          "LocalizedString": "(Tăng tốc độ di chuyển ・ Rút ngắn thời gian hồi chiêu: <Status_Up>Vừa</>)"
+        }
+      },
+      "RideSpeedUp_CooldownReduction_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_CooldownReduction_Rank_4_TextData",
+          "SourceString": "(Tăng tốc độ di chuyển ・ Rút ngắn thời gian hồi chiêu: <Status_Up>Lớn</>)",
+          "LocalizedString": "(Tăng tốc độ di chuyển ・ Rút ngắn thời gian hồi chiêu: <Status_Up>Lớn</>)"
+        }
+      },
+      "RideSpeedUp_CooldownReduction_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_CooldownReduction_Rank_5_TextData",
+          "SourceString": "(Tăng tốc độ di chuyển ・ Rút ngắn thời gian hồi chiêu: <Status_Up>Siêu lớn</>)",
+          "LocalizedString": "(Tăng tốc độ di chuyển ・ Rút ngắn thời gian hồi chiêu: <Status_Up>Siêu lớn</>)"
+        }
+      },
+      "SwimSpeedUp_CooldownReduction_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_CooldownReduction_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "SwimSpeedUp_CooldownReduction_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_CooldownReduction_Rank_2_TextData",
+          "SourceString": "(Tốc độ di chuyển trên nước: tăng <Status_Up>10%</>/Giảm thời gian hồi chiêu:<Status_Up>Ít</>)",
+          "LocalizedString": "(Tốc độ di chuyển trên nước: tăng <Status_Up>10%</>/Giảm thời gian hồi chiêu:<Status_Up>Ít</>)"
+        }
+      },
+      "SwimSpeedUp_CooldownReduction_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_CooldownReduction_Rank_3_TextData",
+          "SourceString": "(Tốc độ di chuyển trên nước: tăng <Status_Up>14%</>/Giảm thời gian hồi chiêu:<Status_Up>Vừa</>)",
+          "LocalizedString": "(Tốc độ di chuyển trên nước: tăng <Status_Up>14%</>/Giảm thời gian hồi chiêu:<Status_Up>Vừa</>)"
+        }
+      },
+      "SwimSpeedUp_CooldownReduction_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_CooldownReduction_Rank_4_TextData",
+          "SourceString": "(Tốc độ di chuyển trên nước: tăng <Status_Up>18%</>/Giảm thời gian hồi chiêu:<Status_Up>Nhiều</>)",
+          "LocalizedString": "(Tốc độ di chuyển trên nước: tăng <Status_Up>18%</>/Giảm thời gian hồi chiêu:<Status_Up>Nhiều</>)"
+        }
+      },
+      "SwimSpeedUp_CooldownReduction_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_CooldownReduction_Rank_5_TextData",
+          "SourceString": "(Tốc độ di chuyển trên nước: tăng <Status_Up>25%</>/Giảm thời gian hồi chiêu:<Status_Up>Cực đại</>)",
+          "LocalizedString": "(Tốc độ di chuyển trên nước: tăng <Status_Up>25%</>/Giảm thời gian hồi chiêu:<Status_Up>Cực đại</>)"
+        }
+      },
+      "LoggingUp_MiningUp_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_MiningUp_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "LoggingUp_MiningUp_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_MiningUp_Rank_2_TextData",
+          "SourceString": "(Tăng hiệu suất đốn gỗ / khai thác:<Status_Up>Nhỏ</>)",
+          "LocalizedString": "(Tăng hiệu suất đốn gỗ / khai thác:<Status_Up>Nhỏ</>)"
+        }
+      },
+      "LoggingUp_MiningUp_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_MiningUp_Rank_3_TextData",
+          "SourceString": "(Tăng hiệu suất đốn gỗ / khai thác:<Status_Up>Vừa</>)",
+          "LocalizedString": "(Tăng hiệu suất đốn gỗ / khai thác:<Status_Up>Vừa</>)"
+        }
+      },
+      "LoggingUp_MiningUp_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_MiningUp_Rank_4_TextData",
+          "SourceString": "(Tăng hiệu suất đốn gỗ / khai thác:<Status_Up>Lớn</>)",
+          "LocalizedString": "(Tăng hiệu suất đốn gỗ / khai thác:<Status_Up>Lớn</>)"
+        }
+      },
+      "LoggingUp_MiningUp_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_MiningUp_Rank_5_TextData",
+          "SourceString": "(Tăng hiệu suất đốn gỗ / khai thác:<Status_Up>Siêu lớn</>)",
+          "LocalizedString": "(Tăng hiệu suất đốn gỗ / khai thác:<Status_Up>Siêu lớn</>)"
+        }
+      },
+      "ElementPassive_Dark_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementPassive_Dark_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "ElementPassive_Dark_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementPassive_Dark_Rank_2_TextData",
+          "SourceString": "(Tăng sức tấn công Pal hệ Bóng Tối: <Status_Up>Nhỏ</>)",
+          "LocalizedString": "(Tăng sức tấn công Pal hệ Bóng Tối: <Status_Up>Nhỏ</>)"
+        }
+      },
+      "ElementPassive_Dark_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementPassive_Dark_Rank_3_TextData",
+          "SourceString": "(Tăng sức tấn công Pal hệ Bóng Tối: <Status_Up>Vừa</>)",
+          "LocalizedString": "(Tăng sức tấn công Pal hệ Bóng Tối: <Status_Up>Vừa</>)"
+        }
+      },
+      "ElementPassive_Dark_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementPassive_Dark_Rank_4_TextData",
+          "SourceString": "(Tăng sức tấn công Pal hệ Bóng Tối: <Status_Up>Lớn</>)",
+          "LocalizedString": "(Tăng sức tấn công Pal hệ Bóng Tối: <Status_Up>Lớn</>)"
+        }
+      },
+      "ElementPassive_Dark_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementPassive_Dark_Rank_5_TextData",
+          "SourceString": "(Tăng sức tấn công Pal hệ Bóng Tối: <Status_Up>Siêu lớn</>)",
+          "LocalizedString": "(Tăng sức tấn công Pal hệ Bóng Tối: <Status_Up>Siêu lớn</>)"
+        }
+      },
+      "ItemCollectRangeUp_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ItemCollectRangeUp_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "ItemCollectRangeUp_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ItemCollectRangeUp_Rank_2_TextData",
+          "SourceString": "(Tăng phạm vi thu thập vật phẩm: <Status_Up>Nhỏ</>)",
+          "LocalizedString": "(Tăng phạm vi thu thập vật phẩm: <Status_Up>Nhỏ</>)"
+        }
+      },
+      "ItemCollectRangeUp_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ItemCollectRangeUp_Rank_3_TextData",
+          "SourceString": "(Tăng phạm vi thu thập vật phẩm: <Status_Up>Vừa</>)",
+          "LocalizedString": "(Tăng phạm vi thu thập vật phẩm: <Status_Up>Vừa</>)"
+        }
+      },
+      "ItemCollectRangeUp_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ItemCollectRangeUp_Rank_4_TextData",
+          "SourceString": "(Tăng phạm vi thu thập vật phẩm: <Status_Up>Lớn</>)",
+          "LocalizedString": "(Tăng phạm vi thu thập vật phẩm: <Status_Up>Lớn</>)"
+        }
+      },
+      "ItemCollectRangeUp_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ItemCollectRangeUp_Rank_5_TextData",
+          "SourceString": "(Tăng phạm vi thu thập vật phẩm: <Status_Up>Siêu Lớn</>)",
+          "LocalizedString": "(Tăng phạm vi thu thập vật phẩm: <Status_Up>Siêu Lớn</>)"
+        }
+      },
+      "SANDownResist_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SANDownResist_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "SANDownResist_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SANDownResist_Rank_2_TextData",
+          "SourceString": "(Tăng khả năng chống tiêu hao chỉ số Minh Mẫn: <Status_Up>Nhỏ</>)",
+          "LocalizedString": "(Tăng khả năng chống tiêu hao chỉ số Minh Mẫn: <Status_Up>Nhỏ</>)"
+        }
+      },
+      "SANDownResist_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SANDownResist_Rank_3_TextData",
+          "SourceString": "(Tăng khả năng chống tiêu hao chỉ số Minh Mẫn: <Status_Up>Vừa</>)",
+          "LocalizedString": "(Tăng khả năng chống tiêu hao chỉ số Minh Mẫn: <Status_Up>Vừa</>)"
+        }
+      },
+      "SANDownResist_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SANDownResist_Rank_4_TextData",
+          "SourceString": "(Tăng khả năng chống tiêu hao chỉ số Minh Mẫn: <Status_Up>Lớn</>)",
+          "LocalizedString": "(Tăng khả năng chống tiêu hao chỉ số Minh Mẫn: <Status_Up>Lớn</>)"
+        }
+      },
+      "SANDownResist_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SANDownResist_Rank_5_TextData",
+          "SourceString": "(Tăng khả năng chống tiêu hao chỉ số Minh Mẫn: <Status_Up>Siêu Lớn</>)",
+          "LocalizedString": "(Tăng khả năng chống tiêu hao chỉ số Minh Mẫn: <Status_Up>Siêu Lớn</>)"
+        }
+      },
+      "ElementBoost_Dark_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Dark_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "ElementBoost_Dark_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Dark_Rank_2_TextData",
+          "SourceString": "(Tăng cường tấn công hệ Bóng Tối: <Status_Up>Nhỏ</>)",
+          "LocalizedString": "(Tăng cường tấn công hệ Bóng Tối: <Status_Up>Nhỏ</>)"
+        }
+      },
+      "ElementBoost_Dark_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Dark_Rank_3_TextData",
+          "SourceString": "(Tăng cường tấn công hệ Bóng Tối: <Status_Up>Vừa</>)",
+          "LocalizedString": "(Tăng cường tấn công hệ Bóng Tối: <Status_Up>Vừa</>)"
+        }
+      },
+      "ElementBoost_Dark_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Dark_Rank_4_TextData",
+          "SourceString": "(Tăng cường tấn công hệ Bóng Tối: <Status_Up>Lớn</>)",
+          "LocalizedString": "(Tăng cường tấn công hệ Bóng Tối: <Status_Up>Lớn</>)"
+        }
+      },
+      "ElementBoost_Dark_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Dark_Rank_5_TextData",
+          "SourceString": "(Tăng cường tấn công hệ Bóng Tối: <Status_Up>Siêu Lớn</>)",
+          "LocalizedString": "(Tăng cường tấn công hệ Bóng Tối: <Status_Up>Siêu Lớn</>)"
+        }
+      },
+      "SyncroPassiveWhenCapture_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SyncroPassiveWhenCapture_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "SyncroPassiveWhenCapture_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SyncroPassiveWhenCapture_Rank_2_TextData",
+          "SourceString": "(Tăng tỷ lệ chạm trán với Pal sở hữu cùng kỹ năng bị động: <Status_Up>Nhỏ</>)",
+          "LocalizedString": "(Tăng tỷ lệ chạm trán với Pal sở hữu cùng kỹ năng bị động: <Status_Up>Nhỏ</>)"
+        }
+      },
+      "SyncroPassiveWhenCapture_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SyncroPassiveWhenCapture_Rank_3_TextData",
+          "SourceString": "(Tăng tỷ lệ chạm trán với Pal sở hữu cùng kỹ năng bị động: <Status_Up>Vừa</>)",
+          "LocalizedString": "(Tăng tỷ lệ chạm trán với Pal sở hữu cùng kỹ năng bị động: <Status_Up>Vừa</>)"
+        }
+      },
+      "SyncroPassiveWhenCapture_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SyncroPassiveWhenCapture_Rank_4_TextData",
+          "SourceString": "(Tăng tỷ lệ chạm trán với Pal sở hữu cùng kỹ năng bị động: <Status_Up>Lớn</>)",
+          "LocalizedString": "(Tăng tỷ lệ chạm trán với Pal sở hữu cùng kỹ năng bị động: <Status_Up>Lớn</>)"
+        }
+      },
+      "SyncroPassiveWhenCapture_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SyncroPassiveWhenCapture_Rank_5_TextData",
+          "SourceString": "(Tăng tỷ lệ chạm trán với Pal sở hữu cùng kỹ năng bị động: <Status_Up>Siêu Lớn</>)",
+          "LocalizedString": "(Tăng tỷ lệ chạm trán với Pal sở hữu cùng kỹ năng bị động: <Status_Up>Siêu Lớn</>)"
+        }
+      },
+      "FarmCropGrowupSpeed_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropGrowupSpeed_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "FarmCropGrowupSpeed_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropGrowupSpeed_Rank_2_TextData",
+          "SourceString": "(Tăng tốc độ tăng trưởng của cây trồng: <Status_Up>Nhỏ</>)",
+          "LocalizedString": "(Tăng tốc độ tăng trưởng của cây trồng: <Status_Up>Nhỏ</>)"
+        }
+      },
+      "FarmCropGrowupSpeed_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropGrowupSpeed_Rank_3_TextData",
+          "SourceString": "(Tăng tốc độ tăng trưởng của cây trồng: <Status_Up>Vừa</>)",
+          "LocalizedString": "(Tăng tốc độ tăng trưởng của cây trồng: <Status_Up>Vừa</>)"
+        }
+      },
+      "FarmCropGrowupSpeed_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropGrowupSpeed_Rank_4_TextData",
+          "SourceString": "(Tăng tốc độ tăng trưởng của cây trồng: <Status_Up>Lớn</>)",
+          "LocalizedString": "(Tăng tốc độ tăng trưởng của cây trồng: <Status_Up>Lớn</>)"
+        }
+      },
+      "FarmCropGrowupSpeed_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropGrowupSpeed_Rank_5_TextData",
+          "SourceString": "(Tăng tốc độ tăng trưởng của cây trồng: <Status_Up>Siêu Lớn</>)",
+          "LocalizedString": "(Tăng tốc độ tăng trưởng của cây trồng: <Status_Up>Siêu Lớn</>)"
+        }
+      },
+      "GriderPerformanceUp_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "GriderPerformanceUp_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "GriderPerformanceUp_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "GriderPerformanceUp_Rank_2_TextData",
+          "SourceString": "(Tăng cường hiệu suất Dù Lượn: <Status_Up>Nhỏ</>)",
+          "LocalizedString": "(Tăng cường hiệu suất Dù Lượn: <Status_Up>Nhỏ</>)"
+        }
+      },
+      "GriderPerformanceUp_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "GriderPerformanceUp_Rank_3_TextData",
+          "SourceString": "(Tăng cường hiệu suất Dù Lượn: <Status_Up>Vừa</>)",
+          "LocalizedString": "(Tăng cường hiệu suất Dù Lượn: <Status_Up>Vừa</>)"
+        }
+      },
+      "GriderPerformanceUp_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "GriderPerformanceUp_Rank_4_TextData",
+          "SourceString": "(Tăng cường hiệu suất Dù Lượn: <Status_Up>Lớn</>)",
+          "LocalizedString": "(Tăng cường hiệu suất Dù Lượn: <Status_Up>Lớn</>)"
+        }
+      },
+      "GriderPerformanceUp_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "GriderPerformanceUp_Rank_5_TextData",
+          "SourceString": "(Tăng cường hiệu suất Dù Lượn: <Status_Up>Siêu Lớn</>)",
+          "LocalizedString": "(Tăng cường hiệu suất Dù Lượn: <Status_Up>Siêu Lớn</>)"
+        }
+      },
+      "FarmCropHarvestNumRate_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropHarvestNumRate_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "FarmCropHarvestNumRate_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropHarvestNumRate_Rank_2_TextData",
+          "SourceString": "(Tăng sản lượng thu hoạch của cây trồng: <Status_Up>Nhỏ</>)",
+          "LocalizedString": "(Tăng sản lượng thu hoạch của cây trồng: <Status_Up>Nhỏ</>)"
+        }
+      },
+      "FarmCropHarvestNumRate_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropHarvestNumRate_Rank_3_TextData",
+          "SourceString": "(Tăng sản lượng thu hoạch của cây trồng: <Status_Up>Vừa</>)",
+          "LocalizedString": "(Tăng sản lượng thu hoạch của cây trồng: <Status_Up>Vừa</>)"
+        }
+      },
+      "FarmCropHarvestNumRate_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropHarvestNumRate_Rank_4_TextData",
+          "SourceString": "(Tăng sản lượng thu hoạch của cây trồng: <Status_Up>Lớn</>)",
+          "LocalizedString": "(Tăng sản lượng thu hoạch của cây trồng: <Status_Up>Lớn</>)"
+        }
+      },
+      "FarmCropHarvestNumRate_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropHarvestNumRate_Rank_5_TextData",
+          "SourceString": "(Tăng sản lượng thu hoạch của cây trồng: <Status_Up>Siêu Lớn</>)",
+          "LocalizedString": "(Tăng sản lượng thu hoạch của cây trồng: <Status_Up>Siêu Lớn</>)"
+        }
+      },
+      "ElementBoost_Neutral_Dark_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Neutral_Dark_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "ElementBoost_Neutral_Dark_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Neutral_Dark_Rank_2_TextData",
+          "SourceString": "(Tăng cường tấn công hệ Thường/hệ Bóng Tối: <Status_Up>Nhỏ</>)",
+          "LocalizedString": "(Tăng cường tấn công hệ Thường/hệ Bóng Tối: <Status_Up>Nhỏ</>)"
+        }
+      },
+      "ElementBoost_Neutral_Dark_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Neutral_Dark_Rank_3_TextData",
+          "SourceString": "(Tăng cường tấn công hệ Thường/hệ Bóng Tối: <Status_Up>Vừa</>)",
+          "LocalizedString": "(Tăng cường tấn công hệ Thường/hệ Bóng Tối: <Status_Up>Vừa</>)"
+        }
+      },
+      "ElementBoost_Neutral_Dark_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Neutral_Dark_Rank_4_TextData",
+          "SourceString": "(Tăng cường tấn công hệ Thường/hệ Bóng Tối: <Status_Up>Lớn</>)",
+          "LocalizedString": "(Tăng cường tấn công hệ Thường/hệ Bóng Tối: <Status_Up>Lớn</>)"
+        }
+      },
+      "ElementBoost_Neutral_Dark_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Neutral_Dark_Rank_5_TextData",
+          "SourceString": "(Tăng cường tấn công hệ Thường/hệ Bóng Tối: <Status_Up>Siêu Lớn</>)",
+          "LocalizedString": "(Tăng cường tấn công hệ Thường/hệ Bóng Tối: <Status_Up>Siêu Lớn</>)"
+        }
+      },
+      "Funnel_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Funnel_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "Funnel_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Funnel_Rank_2_TextData",
+          "SourceString": "(Tăng cường truy kích: <Status_Up>Nhỏ</>)",
+          "LocalizedString": "(Tăng cường truy kích: <Status_Up>Nhỏ</>)"
+        }
+      },
+      "Funnel_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Funnel_Rank_3_TextData",
+          "SourceString": "(Tăng cường truy kích: <Status_Up>Vừa</>)",
+          "LocalizedString": "(Tăng cường truy kích: <Status_Up>Vừa</>)"
+        }
+      },
+      "Funnel_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Funnel_Rank_4_TextData",
+          "SourceString": "(Tăng cường truy kích: <Status_Up>Lớn</>)",
+          "LocalizedString": "(Tăng cường truy kích: <Status_Up>Lớn</>)"
+        }
+      },
+      "Funnel_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Funnel_Rank_5_TextData",
+          "SourceString": "(Tăng cường truy kích: <Status_Up>Siêu Lớn</>)",
+          "LocalizedString": "(Tăng cường truy kích: <Status_Up>Siêu Lớn</>)"
+        }
+      },
+      "DamageUp_CooldownReduction_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_CooldownReduction_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "DamageUp_CooldownReduction_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_CooldownReduction_Rank_2_TextData",
+          "SourceString": "(Tăng sát thương/Rút ngắn thời gian hồi chiêu: <Status_Up>Nhỏ</>)",
+          "LocalizedString": "(Tăng sát thương/Rút ngắn thời gian hồi chiêu: <Status_Up>Nhỏ</>)"
+        }
+      },
+      "DamageUp_CooldownReduction_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_CooldownReduction_Rank_3_TextData",
+          "SourceString": "(Tăng sát thương/Rút ngắn thời gian hồi chiêu: <Status_Up>Vừa</>)",
+          "LocalizedString": "(Tăng sát thương/Rút ngắn thời gian hồi chiêu: <Status_Up>Vừa</>)"
+        }
+      },
+      "DamageUp_CooldownReduction_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_CooldownReduction_Rank_4_TextData",
+          "SourceString": "(Tăng sát thương/Rút ngắn thời gian hồi chiêu: <Status_Up>Lớn</>)",
+          "LocalizedString": "(Tăng sát thương/Rút ngắn thời gian hồi chiêu: <Status_Up>Lớn</>)"
+        }
+      },
+      "DamageUp_CooldownReduction_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_CooldownReduction_Rank_5_TextData",
+          "SourceString": "(Tăng sát thương/Rút ngắn thời gian hồi chiêu: <Status_Up>Siêu Lớn</>)",
+          "LocalizedString": "(Tăng sát thương/Rút ngắn thời gian hồi chiêu: <Status_Up>Siêu Lớn</>)"
+        }
+      },
+      "Talent_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Talent_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "Talent_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Talent_Rank_2_TextData",
+          "SourceString": "(Tăng xác suất câu được Pal có tài năng: <Status_Up>Nhỏ</>)",
+          "LocalizedString": "(Tăng xác suất câu được Pal có tài năng: <Status_Up>Nhỏ</>)"
+        }
+      },
+      "Talent_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Talent_Rank_3_TextData",
+          "SourceString": "(Tăng xác suất câu được Pal có tài năng: <Status_Up>Vừa</>)",
+          "LocalizedString": "(Tăng xác suất câu được Pal có tài năng: <Status_Up>Vừa</>)"
+        }
+      },
+      "Talent_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Talent_Rank_4_TextData",
+          "SourceString": "(Tăng xác suất câu được Pal có tài năng: <Status_Up>Lớn</>)",
+          "LocalizedString": "(Tăng xác suất câu được Pal có tài năng: <Status_Up>Lớn</>)"
+        }
+      },
+      "Talent_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Talent_Rank_5_TextData",
+          "SourceString": "(Tăng xác suất câu được Pal có tài năng: <Status_Up>Siêu Lớn</>)",
+          "LocalizedString": "(Tăng xác suất câu được Pal có tài năng: <Status_Up>Siêu Lớn</>)"
+        }
+      },
+      "StealthTime_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "StealthTime_Rank_1_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "StealthTime_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "StealthTime_Rank_2_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "StealthTime_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "StealthTime_Rank_3_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "StealthTime_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "StealthTime_Rank_4_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "StealthTime_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "StealthTime_Rank_5_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "ShortDashSpeed_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeed_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "ShortDashSpeed_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeed_Rank_2_TextData",
+          "SourceString": "(Tăng tốc độ lướt: <Status_Up>Nhỏ</>)",
+          "LocalizedString": "(Tăng tốc độ lướt: <Status_Up>Nhỏ</>)"
+        }
+      },
+      "ShortDashSpeed_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeed_Rank_3_TextData",
+          "SourceString": "(Tăng tốc độ lướt: <Status_Up>Vừa</>)",
+          "LocalizedString": "(Tăng tốc độ lướt: <Status_Up>Vừa</>)"
+        }
+      },
+      "ShortDashSpeed_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeed_Rank_4_TextData",
+          "SourceString": "(Tăng tốc độ lướt: <Status_Up>Lớn</>)",
+          "LocalizedString": "(Tăng tốc độ lướt: <Status_Up>Lớn</>)"
+        }
+      },
+      "ShortDashSpeed_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeed_Rank_5_TextData",
+          "SourceString": "(Tăng tốc độ lướt: <Status_Up>Siêu Lớn</>)",
+          "LocalizedString": "(Tăng tốc độ lướt: <Status_Up>Siêu Lớn</>)"
+        }
+      },
+      "ShortDashSpeedCoolTime_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeedCoolTime_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "ShortDashSpeedCoolTime_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeedCoolTime_Rank_2_TextData",
+          "SourceString": "(Tăng tốc độ lướt/Rút ngắn thời gian hồi chiêu: <Status_Up>Nhỏ</>)",
+          "LocalizedString": "(Tăng tốc độ lướt/Rút ngắn thời gian hồi chiêu: <Status_Up>Nhỏ</>)"
+        }
+      },
+      "ShortDashSpeedCoolTime_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeedCoolTime_Rank_3_TextData",
+          "SourceString": "(Tăng tốc độ lướt/Rút ngắn thời gian hồi chiêu: <Status_Up>Vừa</>)",
+          "LocalizedString": "(Tăng tốc độ lướt/Rút ngắn thời gian hồi chiêu: <Status_Up>Vừa</>)"
+        }
+      },
+      "ShortDashSpeedCoolTime_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeedCoolTime_Rank_4_TextData",
+          "SourceString": "(Tăng tốc độ lướt/Rút ngắn thời gian hồi chiêu: <Status_Up>Lớn</>)",
+          "LocalizedString": "(Tăng tốc độ lướt/Rút ngắn thời gian hồi chiêu: <Status_Up>Lớn</>)"
+        }
+      },
+      "ShortDashSpeedCoolTime_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeedCoolTime_Rank_5_TextData",
+          "SourceString": "(Tăng tốc độ lướt/Rút ngắn thời gian hồi chiêu: <Status_Up>Siêu Lớn</>)",
+          "LocalizedString": "(Tăng tốc độ lướt/Rút ngắn thời gian hồi chiêu: <Status_Up>Siêu Lớn</>)"
+        }
+      },
+      "Waza_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Waza_Rank_1_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "Waza_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Waza_Rank_2_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "Waza_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Waza_Rank_3_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "Waza_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Waza_Rank_4_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "Waza_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Waza_Rank_5_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "CaptureRate_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CaptureRate_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "CaptureRate_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CaptureRate_Rank_2_TextData",
+          "SourceString": "(Tăng tỉ lệ bắt được:<Status_Up>Nhẹ</>)",
+          "LocalizedString": "(Tăng tỉ lệ bắt được:<Status_Up>Nhẹ</>)"
+        }
+      },
+      "CaptureRate_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CaptureRate_Rank_3_TextData",
+          "SourceString": "(Tăng tỉ lệ bắt được:<Status_Up>Vừa</>)",
+          "LocalizedString": "(Tăng tỉ lệ bắt được:<Status_Up>Vừa</>)"
+        }
+      },
+      "CaptureRate_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CaptureRate_Rank_4_TextData",
+          "SourceString": "(Tăng tỉ lệ bắt được:<Status_Up>Mạnh</>)",
+          "LocalizedString": "(Tăng tỉ lệ bắt được:<Status_Up>Mạnh</>)"
+        }
+      },
+      "CaptureRate_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CaptureRate_Rank_5_TextData",
+          "SourceString": "(Tăng tỉ lệ bắt được:<Status_Up>Cực đại</>)",
+          "LocalizedString": "(Tăng tỉ lệ bắt được:<Status_Up>Cực đại</>)"
+        }
+      },
+      "EnemySightRate_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "EnemySightRate_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "EnemySightRate_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "EnemySightRate_Rank_2_TextData",
+          "SourceString": "(Khó bị phát hiện hơn: <Status_Up>Nhẹ</>)",
+          "LocalizedString": "(Khó bị phát hiện hơn: <Status_Up>Nhẹ</>)"
+        }
+      },
+      "EnemySightRate_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "EnemySightRate_Rank_3_TextData",
+          "SourceString": "(Khó bị phát hiện hơn: <Status_Up>Vừa</>)",
+          "LocalizedString": "(Khó bị phát hiện hơn: <Status_Up>Vừa</>)"
+        }
+      },
+      "EnemySightRate_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "EnemySightRate_Rank_4_TextData",
+          "SourceString": "(Khó bị phát hiện hơn: <Status_Up>Mạnh</>)",
+          "LocalizedString": "(Khó bị phát hiện hơn: <Status_Up>Mạnh</>)"
+        }
+      },
+      "EnemySightRate_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "EnemySightRate_Rank_5_TextData",
+          "SourceString": "(Khó bị phát hiện hơn: <Status_Up>Cực đại</>)",
+          "LocalizedString": "(Khó bị phát hiện hơn: <Status_Up>Cực đại</>)"
+        }
+      },
+      "SearchAreaCoolTime_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SearchAreaCoolTime_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "SearchAreaCoolTime_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SearchAreaCoolTime_Rank_2_TextData",
+          "SourceString": "(Mở rộng phạm vi dò tìm/Giảm thời gian hồi chiêu: <Status_Up>Nhỏ</>)",
+          "LocalizedString": "(Mở rộng phạm vi dò tìm/Giảm thời gian hồi chiêu: <Status_Up>Nhỏ</>)"
+        }
+      },
+      "SearchAreaCoolTime_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SearchAreaCoolTime_Rank_3_TextData",
+          "SourceString": "(Mở rộng phạm vi dò tìm/Giảm thời gian hồi chiêu: <Status_Up>Vừa</>)",
+          "LocalizedString": "(Mở rộng phạm vi dò tìm/Giảm thời gian hồi chiêu: <Status_Up>Vừa</>)"
+        }
+      },
+      "SearchAreaCoolTime_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SearchAreaCoolTime_Rank_4_TextData",
+          "SourceString": "(Mở rộng phạm vi dò tìm/Giảm thời gian hồi chiêu: <Status_Up>Lớn</>)",
+          "LocalizedString": "(Mở rộng phạm vi dò tìm/Giảm thời gian hồi chiêu: <Status_Up>Lớn</>)"
+        }
+      },
+      "SearchAreaCoolTime_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SearchAreaCoolTime_Rank_5_TextData",
+          "SourceString": "(Mở rộng phạm vi dò tìm/Giảm thời gian hồi chiêu: <Status_Up>Siêu lớn</>)",
+          "LocalizedString": "(Mở rộng phạm vi dò tìm/Giảm thời gian hồi chiêu: <Status_Up>Siêu lớn</>)"
+        }
+      }
+    }
+  }
+]

@@ -23,14 +23,20 @@ export function textureBaseFromAssetPath(assetPath: string | null | undefined): 
 
 export function iconTextureFromRow(row: Record<string, unknown> | null | undefined): string | null {
   if (!row) return null;
-  const icon = row.Icon;
-  if (icon && typeof icon === 'object') {
-    const obj = icon as Record<string, unknown>;
-    return textureBaseFromAssetPath(
-      typeof obj.AssetPathName === 'string' ? obj.AssetPathName : null,
-    );
+  for (const key of ['Icon', 'SoftIcon', 'icon', 'softIcon']) {
+    const icon = row[key];
+    if (icon && typeof icon === 'object') {
+      const obj = icon as Record<string, unknown>;
+      const tex = textureBaseFromAssetPath(
+        typeof obj.AssetPathName === 'string' ? obj.AssetPathName : null,
+      );
+      if (tex) return tex;
+    }
+    if (typeof icon === 'string') {
+      const tex = textureBaseFromAssetPath(icon);
+      if (tex) return tex;
+    }
   }
-  if (typeof icon === 'string') return textureBaseFromAssetPath(icon);
   return null;
 }
 
@@ -104,6 +110,7 @@ export function resolveIconPath(
       key,
       `T_itemicon_Material_${key}`,
       `T_itemicon_${key}`,
+      `T_icon_buildObject_${key}`,
       `T_${key}_icon_normal`,
     ]) {
       const file = filesByBase.get(candidate);

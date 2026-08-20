@@ -2,9 +2,8 @@
   {
     "Type": "CompositeDataTable",
     "Name": "DT_UI_Common_Text",
-    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'CompositeDataTable'",
-    "Package": "Pal/Content/Pal/DataTable/Text/DT_UI_Common_Text",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "ParentTables": [
         {
@@ -10478,8 +10477,8 @@
         "TextData": {
           "Namespace": "DT_UI_Common_Text_Common",
           "Key": "SETTING_LANG_ES_TextData",
-          "SourceString": "español",
-          "LocalizedString": "español"
+          "SourceString": "Español",
+          "LocalizedString": "Español"
         }
       },
       "SETTING_LANG_KO": {
@@ -13546,6 +13545,30 @@
           "LocalizedString": "セーブに失敗しました。\r\n以下のいずれかが原因となっている可能性があります。\r\n・HDD/SSDの空き容量が不足している\r\n・HDD/SSDが破損している"
         }
       },
+      "SAVE_ERROR_FILE_PATH_TOO_LONG": {
+        "TextData": {
+          "Namespace": "DT_UI_Common_Text_Common",
+          "Key": "SAVE_ERROR_FILE_PATH_TOO_LONG_TextData",
+          "SourceString": "セーブに失敗しました。\r\n以下が原因となっている可能性があります。\r\n・セーブデータのファイルパスが長すぎる",
+          "LocalizedString": "セーブに失敗しました。\r\n以下が原因となっている可能性があります。\r\n・セーブデータのファイルパスが長すぎる"
+        }
+      },
+      "WARNING_FILE_PATH_TOO_LONG": {
+        "TextData": {
+          "Namespace": "DT_UI_Common_Text_Common",
+          "Key": "WARNING_FILE_PATH_TOO_LONG_TextData",
+          "SourceString": "以下の原因により、セーブに失敗する可能性があります。\r\n・セーブデータのファイルパスが長すぎる",
+          "LocalizedString": "以下の原因により、セーブに失敗する可能性があります。\r\n・セーブデータのファイルパスが長すぎる"
+        }
+      },
+      "WARNING_DISK_SPACE_NOT_ENOUGH": {
+        "TextData": {
+          "Namespace": "DT_UI_Common_Text_Common",
+          "Key": "WARNING_DISK_SPACE_NOT_ENOUGH_TextData",
+          "SourceString": "以下の原因により、セーブに失敗する可能性があります。\r\n・HDD/SSDの空き容量が不足している",
+          "LocalizedString": "以下の原因により、セーブに失敗する可能性があります。\r\n・HDD/SSDの空き容量が不足している"
+        }
+      },
       "INVENTORY_NOTICE_SAME_ACCESSORY": {
         "TextData": {
           "Namespace": "DT_UI_Common_Text_Common",
@@ -15262,8 +15285,8 @@
         "TextData": {
           "Namespace": "DT_UI_Common_Text_Common",
           "Key": "FAILED_TO_LOAD_WORLD_DATA_FOR_CONSUMER_TextData",
-          "SourceString": "ワールドデータのロードに失敗しました、ワールドデータが破損している可能性があります。\r\nバックアップデータから復元してみてください。",
-          "LocalizedString": "ワールドデータのロードに失敗しました、ワールドデータが破損している可能性があります。\r\nバックアップデータから復元してみてください。"
+          "SourceString": "ワールドデータのロードに失敗しました。\r\nワールドデータが破損している可能性があります。\r\n\r\n「ゲームを開始する」から対象ワールドを選択し、\r\n<Yellow_16>「バックアップデータから復元」</>をお試しください。",
+          "LocalizedString": "ワールドデータのロードに失敗しました。\r\nワールドデータが破損している可能性があります。\r\n\r\n「ゲームを開始する」から対象ワールドを選択し、\r\n<Yellow_16>「バックアップデータから復元」</>をお試しください。"
         }
       },
       "CAPTURE_SPHERE_CRITICAL_BONUS": {
@@ -20350,8 +20373,8 @@
         "TextData": {
           "Namespace": "DT_UI_Common_Text_Common",
           "Key": "MOD_DIALOG_NOTICE_RestartWithoutMods_TextData",
-          "SourceString": "直前のプレイ中に予期しないエラーが発生しました。インストール中のModが原因の可能性があります。\r\nSteamワークショップで導入したModを無効化して起動しますか？",
-          "LocalizedString": "直前のプレイ中に予期しないエラーが発生しました。インストール中のModが原因の可能性があります。\r\nSteamワークショップで導入したModを無効化して起動しますか？"
+          "SourceString": "<Yellow_16>直前のプレイ中に予期しないエラーが発生しました。</>\r\nインストール中のModが原因の可能性があります。\r\nSteamワークショップで導入したModを無効化して起動しますか？",
+          "LocalizedString": "<Yellow_16>直前のプレイ中に予期しないエラーが発生しました。</>\r\nインストール中のModが原因の可能性があります。\r\nSteamワークショップで導入したModを無効化して起動しますか？"
         }
       },
       "MOD_SETTINGS_DIALOG_CANCEL": {
@@ -24854,8 +24877,8 @@
         "TextData": {
           "Namespace": "DT_UI_Common_Text_Common",
           "Key": "TIPS_25_TextData",
-          "SourceString": "パルボックスと大鷲の像からは、ファストトラベルを使用できます。 \r\n大鷲の像を解放すると、移動できる地域が増えていきます。",
-          "LocalizedString": "パルボックスと大鷲の像からは、ファストトラベルを使用できます。 \r\n大鷲の像を解放すると、移動できる地域が増えていきます。"
+          "SourceString": "拠点と大鷲の像からファストトラベルを利用できます。 \r\n大鷲の像を解放すると、移動できる地域が増えていきます。",
+          "LocalizedString": "拠点と大鷲の像からファストトラベルを利用できます。 \r\n大鷲の像を解放すると、移動できる地域が増えていきます。"
         }
       },
       "TIPS_26": {
@@ -25102,40 +25125,136 @@
         "TextData": {
           "Namespace": "DT_UI_Common_Text_Common",
           "Key": "MOD_DIALOG_NOTICE_ModsDetected_TextData",
-          "SourceString": "MODが検出されました\r\n\r\n現在、MODが導入された状態でパルワールドを実行しています。\r\nMODの使用はクラッシュ、セーブデータの破損・損失、予期しない不具合の原因になる場合があります。\r\n重要なセーブデータは、MODを使用する前にバックアップすることをおすすめします。\r\n\r\n問題が発生した場合、以下の手順をお試しください。\r\n・導入しているMODをすべて削除する。\r\n・「Mod管理」からSteamワークショップで導入したModを無効化する。\r\n\r\n詳しくはガイドラインをご確認ください。",
-          "LocalizedString": "MODが検出されました\r\n\r\n現在、MODが導入された状態でパルワールドを実行しています。\r\nMODの使用はクラッシュ、セーブデータの破損・損失、予期しない不具合の原因になる場合があります。\r\n重要なセーブデータは、MODを使用する前にバックアップすることをおすすめします。\r\n\r\n問題が発生した場合、以下の手順をお試しください。\r\n・導入しているMODをすべて削除する。\r\n・「Mod管理」からSteamワークショップで導入したModを無効化する。\r\n\r\n詳しくはガイドラインをご確認ください。"
+          "SourceString": "<Yellow_20B>Modが検出されました</>\r\n\r\n現在、Modが導入された状態でパルワールドを実行しています。\r\nModの使用はクラッシュ、セーブデータの破損・損失、予期しない不具合の原因になる場合があります。\r\n重要なセーブデータは、<Yellow_14>Modを使用する前にバックアップすること</>をおすすめします。\r\n\r\n問題が発生した場合、以下の手順をお試しください。\r\n・<Yellow_14>Steamワークショップ以外で導入されたModを削除</>する。\r\n・「Mod管理」から<Yellow_14>Steamワークショップで導入したModを無効化</>する。\r\n\r\nModの削除方法など、詳しくはガイドラインをご確認ください。",
+          "LocalizedString": "<Yellow_20B>Modが検出されました</>\r\n\r\n現在、Modが導入された状態でパルワールドを実行しています。\r\nModの使用はクラッシュ、セーブデータの破損・損失、予期しない不具合の原因になる場合があります。\r\n重要なセーブデータは、<Yellow_14>Modを使用する前にバックアップすること</>をおすすめします。\r\n\r\n問題が発生した場合、以下の手順をお試しください。\r\n・<Yellow_14>Steamワークショップ以外で導入されたModを削除</>する。\r\n・「Mod管理」から<Yellow_14>Steamワークショップで導入したModを無効化</>する。\r\n\r\nModの削除方法など、詳しくはガイドラインをご確認ください。"
         }
       },
       "MOD_DIALOG_NOTICE_CrashWithExternalMods": {
         "TextData": {
           "Namespace": "DT_UI_Common_Text_Common",
           "Key": "MOD_DIALOG_NOTICE_CrashWithExternalMods_TextData",
-          "SourceString": "直前のプレイ中に予期しないエラーが発生しました。インストール中のModが原因の可能性があります。\r\n\r\n以下の手順をお試しください。\r\n・導入しているMODをすべて削除する。\r\n・「Mod管理」からSteamワークショップで導入したModを無効化する。",
-          "LocalizedString": "直前のプレイ中に予期しないエラーが発生しました。インストール中のModが原因の可能性があります。\r\n\r\n以下の手順をお試しください。\r\n・導入しているMODをすべて削除する。\r\n・「Mod管理」からSteamワークショップで導入したModを無効化する。"
+          "SourceString": "<Yellow_16>直前のプレイ中に予期しないエラーが発生しました。</>\r\nインストール中のModが原因の可能性があります。\r\n\r\n以下の手順をお試しください。\r\n・<Yellow_16>Steamワークショップ以外で導入されたModを削除</>する。\r\n・「Mod管理」から<Yellow_16>Steamワークショップで導入したModを無効化</>する。\r\n\r\nModの削除方法など、詳しくはガイドラインをご確認ください。",
+          "LocalizedString": "<Yellow_16>直前のプレイ中に予期しないエラーが発生しました。</>\r\nインストール中のModが原因の可能性があります。\r\n\r\n以下の手順をお試しください。\r\n・<Yellow_16>Steamワークショップ以外で導入されたModを削除</>する。\r\n・「Mod管理」から<Yellow_16>Steamワークショップで導入したModを無効化</>する。\r\n\r\nModの削除方法など、詳しくはガイドラインをご確認ください。"
         }
       },
-      "SAVE_ERROR_FILE_PATH_TOO_LONG": {
+      "COMMON_WORK_SUITABILITY_EmitFlame_DESC": {
         "TextData": {
           "Namespace": "DT_UI_Common_Text_Common",
-          "Key": "SAVE_ERROR_FILE_PATH_TOO_LONG_TextData",
-          "SourceString": "セーブに失敗しました。\r\n以下が原因となっている可能性があります。\r\n・セーブデータのファイルパスが長すぎる",
-          "LocalizedString": "セーブに失敗しました。\r\n以下が原因となっている可能性があります。\r\n・セーブデータのファイルパスが長すぎる"
+          "Key": "COMMON_WORK_SUITABILITY_EmitFlame_DESC_TextData",
+          "SourceString": "料理や鉱石の製錬など、火を使う作業ができる。\r\nLvが高いほど、より速く作業できる。",
+          "LocalizedString": "料理や鉱石の製錬など、火を使う作業ができる。\r\nLvが高いほど、より速く作業できる。"
         }
       },
-      "WARNING_FILE_PATH_TOO_LONG": {
+      "COMMON_WORK_SUITABILITY_Watering_DESC": {
         "TextData": {
           "Namespace": "DT_UI_Common_Text_Common",
-          "Key": "WARNING_FILE_PATH_TOO_LONG_TextData",
-          "SourceString": "以下の原因により、セーブに失敗する可能性があります。\r\n・セーブデータのファイルパスが長すぎる",
-          "LocalizedString": "以下の原因により、セーブに失敗する可能性があります。\r\n・セーブデータのファイルパスが長すぎる"
+          "Key": "COMMON_WORK_SUITABILITY_Watering_DESC_TextData",
+          "SourceString": "農園への水やりなど、水を使う作業ができる。\r\nLvが高いほど、より速く作業できる。",
+          "LocalizedString": "農園への水やりなど、水を使う作業ができる。\r\nLvが高いほど、より速く作業できる。"
         }
       },
-      "WARNING_DISK_SPACE_NOT_ENOUGH": {
+      "COMMON_WORK_SUITABILITY_Seeding_DESC": {
         "TextData": {
           "Namespace": "DT_UI_Common_Text_Common",
-          "Key": "WARNING_DISK_SPACE_NOT_ENOUGH_TextData",
-          "SourceString": "以下の原因により、セーブに失敗する可能性があります。\r\n・HDD/SSDの空き容量が不足している",
-          "LocalizedString": "以下の原因により、セーブに失敗する可能性があります。\r\n・HDD/SSDの空き容量が不足している"
+          "Key": "COMMON_WORK_SUITABILITY_Seeding_DESC_TextData",
+          "SourceString": "農園に種をまくことができる。\r\nLvが高いほど、より速く作業できる。",
+          "LocalizedString": "農園に種をまくことができる。\r\nLvが高いほど、より速く作業できる。"
+        }
+      },
+      "COMMON_WORK_SUITABILITY_GenerateElectricity_DESC": {
+        "TextData": {
+          "Namespace": "DT_UI_Common_Text_Common",
+          "Key": "COMMON_WORK_SUITABILITY_GenerateElectricity_DESC_TextData",
+          "SourceString": "発電機で作業し、施設を動かすための電力を蓄えることができる。\r\nLvが高いほど、より速く発電できる。",
+          "LocalizedString": "発電機で作業し、施設を動かすための電力を蓄えることができる。\r\nLvが高いほど、より速く発電できる。"
+        }
+      },
+      "COMMON_WORK_SUITABILITY_Handcraft_DESC": {
+        "TextData": {
+          "Namespace": "DT_UI_Common_Text_Common",
+          "Key": "COMMON_WORK_SUITABILITY_Handcraft_DESC_TextData",
+          "SourceString": "アイテムの生産や建築ができる。\r\nLvが高いほど、より速く作業できる。",
+          "LocalizedString": "アイテムの生産や建築ができる。\r\nLvが高いほど、より速く作業できる。"
+        }
+      },
+      "COMMON_WORK_SUITABILITY_Collection_DESC": {
+        "TextData": {
+          "Namespace": "DT_UI_Common_Text_Common",
+          "Key": "COMMON_WORK_SUITABILITY_Collection_DESC_TextData",
+          "SourceString": "農園の作物を収穫できる。\r\nLvが高いほど、より速く収穫でき、収穫量も増える。",
+          "LocalizedString": "農園の作物を収穫できる。\r\nLvが高いほど、より速く収穫でき、収穫量も増える。"
+        }
+      },
+      "COMMON_WORK_SUITABILITY_Deforest_DESC": {
+        "TextData": {
+          "Namespace": "DT_UI_Common_Text_Common",
+          "Key": "COMMON_WORK_SUITABILITY_Deforest_DESC_TextData",
+          "SourceString": "木を伐採できる。\r\nLvが高いほど、より速く作業できる。",
+          "LocalizedString": "木を伐採できる。\r\nLvが高いほど、より速く作業できる。"
+        }
+      },
+      "COMMON_WORK_SUITABILITY_Mining_DESC": {
+        "TextData": {
+          "Namespace": "DT_UI_Common_Text_Common",
+          "Key": "COMMON_WORK_SUITABILITY_Mining_DESC_TextData",
+          "SourceString": "鉱石を採掘できる。\r\nLvが高いほど、より速く作業できる。\r\n一部の鉱石は、高いLvでないと掘ることができない。",
+          "LocalizedString": "鉱石を採掘できる。\r\nLvが高いほど、より速く作業できる。\r\n一部の鉱石は、高いLvでないと掘ることができない。"
+        }
+      },
+      "COMMON_WORK_SUITABILITY_ProductMedicine_DESC": {
+        "TextData": {
+          "Namespace": "DT_UI_Common_Text_Common",
+          "Key": "COMMON_WORK_SUITABILITY_ProductMedicine_DESC_TextData",
+          "SourceString": "薬を作成できる。\r\nLvが高いほど、より速く作業できる。",
+          "LocalizedString": "薬を作成できる。\r\nLvが高いほど、より速く作業できる。"
+        }
+      },
+      "COMMON_WORK_SUITABILITY_Cool_DESC": {
+        "TextData": {
+          "Namespace": "DT_UI_Common_Text_Common",
+          "Key": "COMMON_WORK_SUITABILITY_Cool_DESC_TextData",
+          "SourceString": "クーラーや冷蔵庫などで作業し、気温を調節したり、食料の腐敗を遅らせたりできる。\r\nLvが高いほど、食料がより長持ちする。",
+          "LocalizedString": "クーラーや冷蔵庫などで作業し、気温を調節したり、食料の腐敗を遅らせたりできる。\r\nLvが高いほど、食料がより長持ちする。"
+        }
+      },
+      "COMMON_WORK_SUITABILITY_Transport_DESC": {
+        "TextData": {
+          "Namespace": "DT_UI_Common_Text_Common",
+          "Key": "COMMON_WORK_SUITABILITY_Transport_DESC_TextData",
+          "SourceString": "生産されたアイテムや落ちているアイテムを拾い、チェストへ運ぶことができる。\r\nLvが高いほど、より多くのアイテムを運べる。",
+          "LocalizedString": "生産されたアイテムや落ちているアイテムを拾い、チェストへ運ぶことができる。\r\nLvが高いほど、より多くのアイテムを運べる。"
+        }
+      },
+      "COMMON_WORK_SUITABILITY_MonsterFarm_DESC": {
+        "TextData": {
+          "Namespace": "DT_UI_Common_Text_Common",
+          "Key": "COMMON_WORK_SUITABILITY_MonsterFarm_DESC_TextData",
+          "SourceString": "牧場にアサインすることで、アイテムを生み出せる。\r\nLvが高いほど、より多くのアイテムを生み出せる。",
+          "LocalizedString": "牧場にアサインすることで、アイテムを生み出せる。\r\nLvが高いほど、より多くのアイテムを生み出せる。"
+        }
+      },
+      "LOG_Decay_WorldTreeWood": {
+        "TextData": {
+          "Namespace": "DT_UI_Common_Text_Common",
+          "Key": "LOG_Decay_WorldTreeWood_TextData",
+          "SourceString": "神秘の木が朽ちてしまった…\r\n世界樹の加護を纏う必要がありそうだ。",
+          "LocalizedString": "神秘の木が朽ちてしまった…\r\n世界樹の加護を纏う必要がありそうだ。"
+        }
+      },
+      "LOG_Decay_WorldTreeOre": {
+        "TextData": {
+          "Namespace": "DT_UI_Common_Text_Common",
+          "Key": "LOG_Decay_WorldTreeOre_TextData",
+          "SourceString": "パルキサイトが朽ちてしまった…\r\n世界樹の加護を纏う必要がありそうだ。",
+          "LocalizedString": "パルキサイトが朽ちてしまった…\r\n世界樹の加護を纏う必要がありそうだ。"
+        }
+      },
+      "GUILD_ROLE_WARNING_DIALOG_GUILDMASTER": {
+        "TextData": {
+          "Namespace": "DT_UI_Common_Text_Common",
+          "Key": "GUILD_ROLE_WARNING_DIALOG_GUILDMASTER_TextData",
+          "SourceString": "<{TargetPlayer}>の役職を<{RoleName}>に変更します。よろしいですか？\r\n\r\n<NumRed_12><{RoleName}>を譲渡すると、あなたの役職は<{NewRole}>へと変更され</>\r\n<NumRed_12><{RoleName}>としての権限は失われます。</>",
+          "LocalizedString": "<{TargetPlayer}>の役職を<{RoleName}>に変更します。よろしいですか？\r\n\r\n<NumRed_12><{RoleName}>を譲渡すると、あなたの役職は<{NewRole}>へと変更され</>\r\n<NumRed_12><{RoleName}>としての権限は失われます。</>"
         }
       },
       "SETTING_KEY_DirectAttackOrder": {
@@ -25144,6 +25263,78 @@
           "Key": "SETTING_KEY_DirectAttackOrder_TextData",
           "SourceString": "パル指示（この敵を攻撃しろ！）",
           "LocalizedString": "パル指示（この敵を攻撃しろ！）"
+        }
+      },
+      "BASECAMP_TASK_BUILDOBJECT_NUM_TASK_INFO_MULTIPLE": {
+        "TextData": {
+          "Namespace": "DT_UI_Common_Text_Common",
+          "Key": "BASECAMP_TASK_BUILDOBJECT_NUM_TASK_INFO_MULTIPLE_TextData",
+          "SourceString": "{ObjectName}のいずれかを建築する。",
+          "LocalizedString": "{ObjectName}のいずれかを建築する。"
+        }
+      },
+      "SETTING_GRA_AMD_FSR": {
+        "TextData": {
+          "Namespace": "DT_UI_Common_Text_Common",
+          "Key": "SETTING_GRA_AMD_FSR_TextData",
+          "SourceString": "AMD FSR",
+          "LocalizedString": "AMD FSR"
+        }
+      },
+      "SETTING_AMD_FSR_LEVEL_0": {
+        "TextData": {
+          "Namespace": "DT_UI_Common_Text_Common",
+          "Key": "SETTING_AMD_FSR_LEVEL_0_TextData",
+          "SourceString": "オフ",
+          "LocalizedString": "オフ"
+        }
+      },
+      "SETTING_AMD_FSR_LEVEL_1": {
+        "TextData": {
+          "Namespace": "DT_UI_Common_Text_Common",
+          "Key": "SETTING_AMD_FSR_LEVEL_1_TextData",
+          "SourceString": "ウルトラパフォーマンス",
+          "LocalizedString": "ウルトラパフォーマンス"
+        }
+      },
+      "SETTING_AMD_FSR_LEVEL_2": {
+        "TextData": {
+          "Namespace": "DT_UI_Common_Text_Common",
+          "Key": "SETTING_AMD_FSR_LEVEL_2_TextData",
+          "SourceString": "パフォーマンス",
+          "LocalizedString": "パフォーマンス"
+        }
+      },
+      "SETTING_AMD_FSR_LEVEL_3": {
+        "TextData": {
+          "Namespace": "DT_UI_Common_Text_Common",
+          "Key": "SETTING_AMD_FSR_LEVEL_3_TextData",
+          "SourceString": "バランス",
+          "LocalizedString": "バランス"
+        }
+      },
+      "SETTING_AMD_FSR_LEVEL_4": {
+        "TextData": {
+          "Namespace": "DT_UI_Common_Text_Common",
+          "Key": "SETTING_AMD_FSR_LEVEL_4_TextData",
+          "SourceString": "品質",
+          "LocalizedString": "品質"
+        }
+      },
+      "SETTING_GRA_DLSS_FRAME_GENERATION": {
+        "TextData": {
+          "Namespace": "DT_UI_Common_Text_Common",
+          "Key": "SETTING_GRA_DLSS_FRAME_GENERATION_TextData",
+          "SourceString": "DLSS フレーム生成",
+          "LocalizedString": "DLSS フレーム生成"
+        }
+      },
+      "SETTING_GRA_AMD_FSR_FRAME_GENERATION": {
+        "TextData": {
+          "Namespace": "DT_UI_Common_Text_Common",
+          "Key": "SETTING_GRA_AMD_FSR_FRAME_GENERATION_TextData",
+          "SourceString": "AMD FSR フレーム生成",
+          "LocalizedString": "AMD FSR フレーム生成"
         }
       },
       "SETTING_KEY_UI_OpenCHaracterMenu_Another": {
@@ -25160,6 +25351,70 @@
           "Key": "SETTING_KEY_SET_CONFLICT_WARNING_TextData",
           "SourceString": "キーコンフィグ内に重複したキー設定が存在します。ゲームプレイに影響が出る可能性がありますが、このまま続けますか？",
           "LocalizedString": "キーコンフィグ内に重複したキー設定が存在します。ゲームプレイに影響が出る可能性がありますが、このまま続けますか？"
+        }
+      },
+      "TIPS_31": {
+        "TextData": {
+          "Namespace": "DT_UI_Common_Text_Common",
+          "Key": "TIPS_31_TextData",
+          "SourceString": "繊維が不足したら、「粉砕機」で木材を分解してみましょう。",
+          "LocalizedString": "繊維が不足したら、「粉砕機」で木材を分解してみましょう。"
+        }
+      },
+      "MOVEITEM_IncludeBaseCamp": {
+        "TextData": {
+          "Namespace": "DT_UI_Common_Text_Common",
+          "Key": "MOVEITEM_IncludeBaseCamp_TextData",
+          "SourceString": "拠点内も含める",
+          "LocalizedString": "拠点内も含める"
+        }
+      },
+      "INCUBATOR_SET": {
+        "TextData": {
+          "Namespace": "DT_UI_Common_Text_Common",
+          "Key": "INCUBATOR_SET_TextData",
+          "SourceString": "タマゴを設置",
+          "LocalizedString": "タマゴを設置"
+        }
+      },
+      "RECYCLER_PutIn_All": {
+        "TextData": {
+          "Namespace": "DT_UI_Common_Text_Common",
+          "Key": "RECYCLER_PutIn_All_TextData",
+          "SourceString": "すべて投入する",
+          "LocalizedString": "すべて投入する"
+        }
+      },
+      "FISHING_RECOMMEND_TITLE": {
+        "TextData": {
+          "Namespace": "DT_UI_Common_Text_Common",
+          "Key": "FISHING_RECOMMEND_TITLE_TextData",
+          "SourceString": "推奨",
+          "LocalizedString": "推奨"
+        }
+      },
+      "FISHING_AREA_GUIDE_NoRod": {
+        "TextData": {
+          "Namespace": "DT_UI_Common_Text_Common",
+          "Key": "FISHING_AREA_GUIDE_NoRod_TextData",
+          "SourceString": "釣り竿を持っていません",
+          "LocalizedString": "釣り竿を持っていません"
+        }
+      },
+      "FISHING_PALSKILL_ADVICE": {
+        "TextData": {
+          "Namespace": "DT_UI_Common_Text_Common",
+          "Key": "FISHING_PALSKILL_ADVICE_TextData",
+          "SourceString": "釣りをサポートしてくれるパルが必要かもしれない",
+          "LocalizedString": "釣りをサポートしてくれるパルが必要かもしれない"
+        }
+      },
+      "BOSSDEFEATREWARD_TEXT": {
+        "TextData": {
+          "Namespace": "DT_UI_Common_Text_Common",
+          "Key": "BOSSDEFEATREWARD_TEXT_TextData",
+          "SourceString": "恒久的に手持ちパル能力強化",
+          "LocalizedString": "恒久的に手持ちパル能力強化"
         }
       }
     }

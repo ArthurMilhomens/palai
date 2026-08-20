@@ -1,0 +1,1296 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_PartnerSkillAppendText",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "TEST_TEXT_RANK_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "TEST_TEXT_RANK_1_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "TEST_TEXT_RANK_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "TEST_TEXT_RANK_2_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "TEST_TEXT_RANK_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "TEST_TEXT_RANK_3_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "TEST_TEXT_RANK_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "TEST_TEXT_RANK_4_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "TEST_TEXT_RANK_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "TEST_TEXT_RANK_5_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "DamageUp_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "DamageUp_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_Rank_2_TextData",
+          "SourceString": "(Hasar artışı:<Status_Up>küçük</>)",
+          "LocalizedString": "(Hasar artışı:<Status_Up>küçük</>)"
+        }
+      },
+      "DamageUp_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_Rank_3_TextData",
+          "SourceString": "(Hasar artışı:<Status_Up>orta</>)",
+          "LocalizedString": "(Hasar artışı:<Status_Up>orta</>)"
+        }
+      },
+      "DamageUp_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_Rank_4_TextData",
+          "SourceString": "(Hasar artışı:<Status_Up>büyük</>)",
+          "LocalizedString": "(Hasar artışı:<Status_Up>büyük</>)"
+        }
+      },
+      "DamageUp_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_Rank_5_TextData",
+          "SourceString": "(Hasar artışı:<Status_Up>çok büyük</>)",
+          "LocalizedString": "(Hasar artışı:<Status_Up>çok büyük</>)"
+        }
+      },
+      "CooldownReduction_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CooldownReduction_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "CooldownReduction_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CooldownReduction_Rank_2_TextData",
+          "SourceString": "(Bekleme süresi kısalması:<Status_Up>küçük</>)",
+          "LocalizedString": "(Bekleme süresi kısalması:<Status_Up>küçük</>)"
+        }
+      },
+      "CooldownReduction_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CooldownReduction_Rank_3_TextData",
+          "SourceString": "(Bekleme süresi kısalması:<Status_Up>orta</>)",
+          "LocalizedString": "(Bekleme süresi kısalması:<Status_Up>orta</>)"
+        }
+      },
+      "CooldownReduction_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CooldownReduction_Rank_4_TextData",
+          "SourceString": "(Bekleme süresi kısalması:<Status_Up>büyük</>)",
+          "LocalizedString": "(Bekleme süresi kısalması:<Status_Up>büyük</>)"
+        }
+      },
+      "CooldownReduction_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CooldownReduction_Rank_5_TextData",
+          "SourceString": "(Bekleme süresi kısalması:<Status_Up>çok büyük</>)",
+          "LocalizedString": "(Bekleme süresi kısalması:<Status_Up>çok büyük</>)"
+        }
+      },
+      "MiningUp_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "MiningUp_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "MiningUp_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "MiningUp_Rank_2_TextData",
+          "SourceString": "(Madencilik verimliliği artışı:<Status_Up>küçük</>)",
+          "LocalizedString": "(Madencilik verimliliği artışı:<Status_Up>küçük</>)"
+        }
+      },
+      "MiningUp_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "MiningUp_Rank_3_TextData",
+          "SourceString": "(Madencilik verimliliği artışı:<Status_Up>orta</>)",
+          "LocalizedString": "(Madencilik verimliliği artışı:<Status_Up>orta</>)"
+        }
+      },
+      "MiningUp_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "MiningUp_Rank_4_TextData",
+          "SourceString": "(Madencilik verimliliği artışı:<Status_Up>büyük</>)",
+          "LocalizedString": "(Madencilik verimliliği artışı:<Status_Up>büyük</>)"
+        }
+      },
+      "MiningUp_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "MiningUp_Rank_5_TextData",
+          "SourceString": "(Madencilik verimliliği artışı:<Status_Up>çok büyük</>)",
+          "LocalizedString": "(Madencilik verimliliği artışı:<Status_Up>çok büyük</>)"
+        }
+      },
+      "RideSpeedUp_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "RideSpeedUp_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_Rank_2_TextData",
+          "SourceString": "(Biniş halindeki hareket hızı: <Status_Up>%10</> artar)",
+          "LocalizedString": "(Biniş halindeki hareket hızı: <Status_Up>%10</> artar)"
+        }
+      },
+      "RideSpeedUp_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_Rank_3_TextData",
+          "SourceString": "(Biniş halindeki hareket hızı: <Status_Up>%12</> artar)",
+          "LocalizedString": "(Biniş halindeki hareket hızı: <Status_Up>%12</> artar)"
+        }
+      },
+      "RideSpeedUp_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_Rank_4_TextData",
+          "SourceString": "(Biniş halindeki hareket hızı: <Status_Up>%15</> artar)",
+          "LocalizedString": "(Biniş halindeki hareket hızı: <Status_Up>%15</> artar)"
+        }
+      },
+      "RideSpeedUp_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_Rank_5_TextData",
+          "SourceString": "(Biniş halindeki hareket hızı: <Status_Up>%20</> artar)",
+          "LocalizedString": "(Biniş halindeki hareket hızı: <Status_Up>%20</> artar)"
+        }
+      },
+      "SwimSpeedUp_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "SwimSpeedUp_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_Rank_2_TextData",
+          "SourceString": "(Su üstündeki hareket hızı: <Status_Up>%10</> artar)",
+          "LocalizedString": "(Su üstündeki hareket hızı: <Status_Up>%10</> artar)"
+        }
+      },
+      "SwimSpeedUp_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_Rank_3_TextData",
+          "SourceString": "(Su üstündeki hareket hızı: <Status_Up>%14</> artar)",
+          "LocalizedString": "(Su üstündeki hareket hızı: <Status_Up>%14</> artar)"
+        }
+      },
+      "SwimSpeedUp_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_Rank_4_TextData",
+          "SourceString": "(Su üstündeki hareket hızı: <Status_Up>%18</> artar)",
+          "LocalizedString": "(Su üstündeki hareket hızı: <Status_Up>%18</> artar)"
+        }
+      },
+      "SwimSpeedUp_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_Rank_5_TextData",
+          "SourceString": "(Su üstündeki hareket hızı: <Status_Up>%25</> artar)",
+          "LocalizedString": "(Su üstündeki hareket hızı: <Status_Up>%25</> artar)"
+        }
+      },
+      "LoggingUp_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "LoggingUp_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_Rank_2_TextData",
+          "SourceString": "(Ağaç kesme verimliliği artışı:<Status_Up>küçük</>)",
+          "LocalizedString": "(Ağaç kesme verimliliği artışı:<Status_Up>küçük</>)"
+        }
+      },
+      "LoggingUp_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_Rank_3_TextData",
+          "SourceString": "(Ağaç kesme verimliliği artışı:<Status_Up>orta</>)",
+          "LocalizedString": "(Ağaç kesme verimliliği artışı:<Status_Up>orta</>)"
+        }
+      },
+      "LoggingUp_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_Rank_4_TextData",
+          "SourceString": "(Ağaç kesme verimliliği artışı:<Status_Up>büyük</>)",
+          "LocalizedString": "(Ağaç kesme verimliliği artışı:<Status_Up>büyük</>)"
+        }
+      },
+      "LoggingUp_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_Rank_5_TextData",
+          "SourceString": "(Ağaç kesme verimliliği artışı:<Status_Up>çok büyük</>)",
+          "LocalizedString": "(Ağaç kesme verimliliği artışı:<Status_Up>çok büyük</>)"
+        }
+      },
+      "DropUp_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DropUp_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "DropUp_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DropUp_Rank_2_TextData",
+          "SourceString": "(Eşya elde etme miktarı artışı:<Status_Up>küçük</>)",
+          "LocalizedString": "(Eşya elde etme miktarı artışı:<Status_Up>küçük</>)"
+        }
+      },
+      "DropUp_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DropUp_Rank_3_TextData",
+          "SourceString": "(Eşya elde etme miktarı artışı:<Status_Up>orta</>)",
+          "LocalizedString": "(Eşya elde etme miktarı artışı:<Status_Up>orta</>)"
+        }
+      },
+      "DropUp_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DropUp_Rank_4_TextData",
+          "SourceString": "(Eşya elde etme miktarı artışı:<Status_Up>büyük</>)",
+          "LocalizedString": "(Eşya elde etme miktarı artışı:<Status_Up>büyük</>)"
+        }
+      },
+      "DropUp_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DropUp_Rank_5_TextData",
+          "SourceString": "(Eşya elde etme miktarı artışı:<Status_Up>çok büyük</>)",
+          "LocalizedString": "(Eşya elde etme miktarı artışı:<Status_Up>çok büyük</>)"
+        }
+      },
+      "FishingAssist_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FishingAssist_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "FishingAssist_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FishingAssist_Rank_2_TextData",
+          "SourceString": "(Balıkçılık yardım etkisi artışı:<Status_Up>küçük</>)",
+          "LocalizedString": "(Balıkçılık yardım etkisi artışı:<Status_Up>küçük</>)"
+        }
+      },
+      "FishingAssist_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FishingAssist_Rank_3_TextData",
+          "SourceString": "(Balıkçılık yardım etkisi artışı:<Status_Up>orta</>)",
+          "LocalizedString": "(Balıkçılık yardım etkisi artışı:<Status_Up>orta</>)"
+        }
+      },
+      "FishingAssist_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FishingAssist_Rank_4_TextData",
+          "SourceString": "(Balıkçılık yardım etkisi artışı:<Status_Up>büyük</>)",
+          "LocalizedString": "(Balıkçılık yardım etkisi artışı:<Status_Up>büyük</>)"
+        }
+      },
+      "FishingAssist_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FishingAssist_Rank_5_TextData",
+          "SourceString": "(Balıkçılık yardım etkisi artışı:<Status_Up>çok büyük</>)",
+          "LocalizedString": "(Balıkçılık yardım etkisi artışı:<Status_Up>çok büyük</>)"
+        }
+      },
+      "LifeSteal_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LifeSteal_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "LifeSteal_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LifeSteal_Rank_2_TextData",
+          "SourceString": "(Can çalma etkisi artışı:<Status_Up>küçük</>)",
+          "LocalizedString": "(Can çalma etkisi artışı:<Status_Up>küçük</>)"
+        }
+      },
+      "LifeSteal_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LifeSteal_Rank_3_TextData",
+          "SourceString": "(Can çalma etkisi artışı:<Status_Up>orta</>)",
+          "LocalizedString": "(Can çalma etkisi artışı:<Status_Up>orta</>)"
+        }
+      },
+      "LifeSteal_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LifeSteal_Rank_4_TextData",
+          "SourceString": "(Can çalma etkisi artışı:<Status_Up>büyük</>)",
+          "LocalizedString": "(Can çalma etkisi artışı:<Status_Up>büyük</>)"
+        }
+      },
+      "LifeSteal_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LifeSteal_Rank_5_TextData",
+          "SourceString": "(Can çalma etkisi artışı:<Status_Up>çok büyük</>)",
+          "LocalizedString": "(Can çalma etkisi artışı:<Status_Up>çok büyük</>)"
+        }
+      },
+      "RideSpeedUp_CooldownReduction_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_CooldownReduction_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "RideSpeedUp_CooldownReduction_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_CooldownReduction_Rank_2_TextData",
+          "SourceString": "(Hareket hızı artışı ve bekleme süresi kısalması:<Status_Up>küçük</>)",
+          "LocalizedString": "(Hareket hızı artışı ve bekleme süresi kısalması:<Status_Up>küçük</>)"
+        }
+      },
+      "RideSpeedUp_CooldownReduction_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_CooldownReduction_Rank_3_TextData",
+          "SourceString": "(Hareket hızı artışı ve bekleme süresi kısalması:<Status_Up>orta</>)",
+          "LocalizedString": "(Hareket hızı artışı ve bekleme süresi kısalması:<Status_Up>orta</>)"
+        }
+      },
+      "RideSpeedUp_CooldownReduction_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_CooldownReduction_Rank_4_TextData",
+          "SourceString": "(Hareket hızı artışı ve bekleme süresi kısalması:<Status_Up>büyük</>)",
+          "LocalizedString": "(Hareket hızı artışı ve bekleme süresi kısalması:<Status_Up>büyük</>)"
+        }
+      },
+      "RideSpeedUp_CooldownReduction_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_CooldownReduction_Rank_5_TextData",
+          "SourceString": "(Hareket hızı artışı ve bekleme süresi kısalması:<Status_Up>çok büyük</>)",
+          "LocalizedString": "(Hareket hızı artışı ve bekleme süresi kısalması:<Status_Up>çok büyük</>)"
+        }
+      },
+      "SwimSpeedUp_CooldownReduction_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_CooldownReduction_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "SwimSpeedUp_CooldownReduction_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_CooldownReduction_Rank_2_TextData",
+          "SourceString": "(Su üstündeki hareket hızı: <Status_Up>%10</> artar / Bekleme süresi kısalması: <Status_Up>Küçük</>)",
+          "LocalizedString": "(Su üstündeki hareket hızı: <Status_Up>%10</> artar / Bekleme süresi kısalması: <Status_Up>Küçük</>)"
+        }
+      },
+      "SwimSpeedUp_CooldownReduction_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_CooldownReduction_Rank_3_TextData",
+          "SourceString": "(Su üstündeki hareket hızı: <Status_Up>%14</> artar / Bekleme süresi kısalması: <Status_Up>Orta</>)",
+          "LocalizedString": "(Su üstündeki hareket hızı: <Status_Up>%14</> artar / Bekleme süresi kısalması: <Status_Up>Orta</>)"
+        }
+      },
+      "SwimSpeedUp_CooldownReduction_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_CooldownReduction_Rank_4_TextData",
+          "SourceString": "(Su üstündeki hareket hızı: <Status_Up>%18</> artar / Bekleme süresi kısalması: <Status_Up>Büyük</>)",
+          "LocalizedString": "(Su üstündeki hareket hızı: <Status_Up>%18</> artar / Bekleme süresi kısalması: <Status_Up>Büyük</>)"
+        }
+      },
+      "SwimSpeedUp_CooldownReduction_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_CooldownReduction_Rank_5_TextData",
+          "SourceString": "(Su üstündeki hareket hızı: <Status_Up>%25</> artar / Bekleme süresi kısalması: <Status_Up>Çok Büyük</>)",
+          "LocalizedString": "(Su üstündeki hareket hızı: <Status_Up>%25</> artar / Bekleme süresi kısalması: <Status_Up>Çok Büyük</>)"
+        }
+      },
+      "LoggingUp_MiningUp_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_MiningUp_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "LoggingUp_MiningUp_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_MiningUp_Rank_2_TextData",
+          "SourceString": "(Ağaç kesme ve madencilik verimliliği artışı:<Status_Up>küçük</>)",
+          "LocalizedString": "(Ağaç kesme ve madencilik verimliliği artışı:<Status_Up>küçük</>)"
+        }
+      },
+      "LoggingUp_MiningUp_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_MiningUp_Rank_3_TextData",
+          "SourceString": "(Ağaç kesme ve madencilik verimliliği artışı:<Status_Up>orta</>)",
+          "LocalizedString": "(Ağaç kesme ve madencilik verimliliği artışı:<Status_Up>orta</>)"
+        }
+      },
+      "LoggingUp_MiningUp_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_MiningUp_Rank_4_TextData",
+          "SourceString": "(Ağaç kesme ve madencilik verimliliği artışı:<Status_Up>büyük</>)",
+          "LocalizedString": "(Ağaç kesme ve madencilik verimliliği artışı:<Status_Up>büyük</>)"
+        }
+      },
+      "LoggingUp_MiningUp_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_MiningUp_Rank_5_TextData",
+          "SourceString": "(Ağaç kesme ve madencilik verimliliği artışı:<Status_Up>çok büyük</>)",
+          "LocalizedString": "(Ağaç kesme ve madencilik verimliliği artışı:<Status_Up>çok büyük</>)"
+        }
+      },
+      "ElementPassive_Dark_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementPassive_Dark_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "ElementPassive_Dark_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementPassive_Dark_Rank_2_TextData",
+          "SourceString": "(Karanlık elementli Pal saldırı gücü artışı:<Status_Up>küçük</>)",
+          "LocalizedString": "(Karanlık elementli Pal saldırı gücü artışı:<Status_Up>küçük</>)"
+        }
+      },
+      "ElementPassive_Dark_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementPassive_Dark_Rank_3_TextData",
+          "SourceString": "(Karanlık elementli Pal saldırı gücü artışı:<Status_Up>orta</>)",
+          "LocalizedString": "(Karanlık elementli Pal saldırı gücü artışı:<Status_Up>orta</>)"
+        }
+      },
+      "ElementPassive_Dark_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementPassive_Dark_Rank_4_TextData",
+          "SourceString": "(Karanlık elementli Pal saldırı gücü artışı:<Status_Up>büyük</>)",
+          "LocalizedString": "(Karanlık elementli Pal saldırı gücü artışı:<Status_Up>büyük</>)"
+        }
+      },
+      "ElementPassive_Dark_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementPassive_Dark_Rank_5_TextData",
+          "SourceString": "(Karanlık elementli Pal saldırı gücü artışı:<Status_Up>çok büyük</>)",
+          "LocalizedString": "(Karanlık elementli Pal saldırı gücü artışı:<Status_Up>çok büyük</>)"
+        }
+      },
+      "ItemCollectRangeUp_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ItemCollectRangeUp_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "ItemCollectRangeUp_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ItemCollectRangeUp_Rank_2_TextData",
+          "SourceString": "(Eşya toplama menzili artışı:<Status_Up>küçük</>)",
+          "LocalizedString": "(Eşya toplama menzili artışı:<Status_Up>küçük</>)"
+        }
+      },
+      "ItemCollectRangeUp_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ItemCollectRangeUp_Rank_3_TextData",
+          "SourceString": "(Eşya toplama menzili artışı:<Status_Up>orta</>)",
+          "LocalizedString": "(Eşya toplama menzili artışı:<Status_Up>orta</>)"
+        }
+      },
+      "ItemCollectRangeUp_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ItemCollectRangeUp_Rank_4_TextData",
+          "SourceString": "(Eşya toplama menzili artışı:<Status_Up>büyük</>)",
+          "LocalizedString": "(Eşya toplama menzili artışı:<Status_Up>büyük</>)"
+        }
+      },
+      "ItemCollectRangeUp_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ItemCollectRangeUp_Rank_5_TextData",
+          "SourceString": "(Eşya toplama menzili artışı:<Status_Up>çok büyük</>)",
+          "LocalizedString": "(Eşya toplama menzili artışı:<Status_Up>çok büyük</>)"
+        }
+      },
+      "SANDownResist_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SANDownResist_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "SANDownResist_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SANDownResist_Rank_2_TextData",
+          "SourceString": "(SAN değeri düşüş direnci artışı:<Status_Up>küçük</>)",
+          "LocalizedString": "(SAN değeri düşüş direnci artışı:<Status_Up>küçük</>)"
+        }
+      },
+      "SANDownResist_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SANDownResist_Rank_3_TextData",
+          "SourceString": "(SAN değeri düşüş direnci artışı:<Status_Up>orta</>)",
+          "LocalizedString": "(SAN değeri düşüş direnci artışı:<Status_Up>orta</>)"
+        }
+      },
+      "SANDownResist_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SANDownResist_Rank_4_TextData",
+          "SourceString": "(SAN değeri düşüş direnci artışı:<Status_Up>büyük</>)",
+          "LocalizedString": "(SAN değeri düşüş direnci artışı:<Status_Up>büyük</>)"
+        }
+      },
+      "SANDownResist_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SANDownResist_Rank_5_TextData",
+          "SourceString": "(SAN değeri düşüş direnci artışı:<Status_Up>çok büyük</>)",
+          "LocalizedString": "(SAN değeri düşüş direnci artışı:<Status_Up>çok büyük</>)"
+        }
+      },
+      "ElementBoost_Dark_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Dark_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "ElementBoost_Dark_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Dark_Rank_2_TextData",
+          "SourceString": "(Karanlık elementli saldırı güçlendirmesi:<Status_Up>küçük</>)",
+          "LocalizedString": "(Karanlık elementli saldırı güçlendirmesi:<Status_Up>küçük</>)"
+        }
+      },
+      "ElementBoost_Dark_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Dark_Rank_3_TextData",
+          "SourceString": "(Karanlık elementli saldırı güçlendirmesi:<Status_Up>orta</>)",
+          "LocalizedString": "(Karanlık elementli saldırı güçlendirmesi:<Status_Up>orta</>)"
+        }
+      },
+      "ElementBoost_Dark_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Dark_Rank_4_TextData",
+          "SourceString": "(Karanlık elementli saldırı güçlendirmesi:<Status_Up>büyük</>)",
+          "LocalizedString": "(Karanlık elementli saldırı güçlendirmesi:<Status_Up>büyük</>)"
+        }
+      },
+      "ElementBoost_Dark_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Dark_Rank_5_TextData",
+          "SourceString": "(Karanlık elementli saldırı güçlendirmesi:<Status_Up>çok büyük</>)",
+          "LocalizedString": "(Karanlık elementli saldırı güçlendirmesi:<Status_Up>çok büyük</>)"
+        }
+      },
+      "SyncroPassiveWhenCapture_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SyncroPassiveWhenCapture_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "SyncroPassiveWhenCapture_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SyncroPassiveWhenCapture_Rank_2_TextData",
+          "SourceString": "(Aynı pasif yeteneğe sahip Pal ile karşılaşma oranı artışı:<Status_Up>küçük</>)",
+          "LocalizedString": "(Aynı pasif yeteneğe sahip Pal ile karşılaşma oranı artışı:<Status_Up>küçük</>)"
+        }
+      },
+      "SyncroPassiveWhenCapture_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SyncroPassiveWhenCapture_Rank_3_TextData",
+          "SourceString": "(Aynı pasif yeteneğe sahip Pal ile karşılaşma oranı artışı:<Status_Up>orta</>)",
+          "LocalizedString": "(Aynı pasif yeteneğe sahip Pal ile karşılaşma oranı artışı:<Status_Up>orta</>)"
+        }
+      },
+      "SyncroPassiveWhenCapture_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SyncroPassiveWhenCapture_Rank_4_TextData",
+          "SourceString": "(Aynı pasif yeteneğe sahip Pal ile karşılaşma oranı artışı:<Status_Up>büyük</>)",
+          "LocalizedString": "(Aynı pasif yeteneğe sahip Pal ile karşılaşma oranı artışı:<Status_Up>büyük</>)"
+        }
+      },
+      "SyncroPassiveWhenCapture_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SyncroPassiveWhenCapture_Rank_5_TextData",
+          "SourceString": "(Aynı pasif yeteneğe sahip Pal ile karşılaşma oranı artışı:<Status_Up>çok büyük</>)",
+          "LocalizedString": "(Aynı pasif yeteneğe sahip Pal ile karşılaşma oranı artışı:<Status_Up>çok büyük</>)"
+        }
+      },
+      "FarmCropGrowupSpeed_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropGrowupSpeed_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "FarmCropGrowupSpeed_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropGrowupSpeed_Rank_2_TextData",
+          "SourceString": "(Mahsul büyüme hızı artışı:<Status_Up>küçük</>)",
+          "LocalizedString": "(Mahsul büyüme hızı artışı:<Status_Up>küçük</>)"
+        }
+      },
+      "FarmCropGrowupSpeed_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropGrowupSpeed_Rank_3_TextData",
+          "SourceString": "(Mahsul büyüme hızı artışı:<Status_Up>orta</>)",
+          "LocalizedString": "(Mahsul büyüme hızı artışı:<Status_Up>orta</>)"
+        }
+      },
+      "FarmCropGrowupSpeed_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropGrowupSpeed_Rank_4_TextData",
+          "SourceString": "(Mahsul büyüme hızı artışı:<Status_Up>büyük</>)",
+          "LocalizedString": "(Mahsul büyüme hızı artışı:<Status_Up>büyük</>)"
+        }
+      },
+      "FarmCropGrowupSpeed_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropGrowupSpeed_Rank_5_TextData",
+          "SourceString": "(Mahsul büyüme hızı artışı:<Status_Up>çok büyük</>)",
+          "LocalizedString": "(Mahsul büyüme hızı artışı:<Status_Up>çok büyük</>)"
+        }
+      },
+      "GriderPerformanceUp_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "GriderPerformanceUp_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "GriderPerformanceUp_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "GriderPerformanceUp_Rank_2_TextData",
+          "SourceString": "(Planör performansı güçlendirme:<Status_Up>küçük</>)",
+          "LocalizedString": "(Planör performansı güçlendirme:<Status_Up>küçük</>)"
+        }
+      },
+      "GriderPerformanceUp_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "GriderPerformanceUp_Rank_3_TextData",
+          "SourceString": "(Planör performansı güçlendirme:<Status_Up>orta</>)",
+          "LocalizedString": "(Planör performansı güçlendirme:<Status_Up>orta</>)"
+        }
+      },
+      "GriderPerformanceUp_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "GriderPerformanceUp_Rank_4_TextData",
+          "SourceString": "(Planör performansı güçlendirme:<Status_Up>büyük</>)",
+          "LocalizedString": "(Planör performansı güçlendirme:<Status_Up>büyük</>)"
+        }
+      },
+      "GriderPerformanceUp_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "GriderPerformanceUp_Rank_5_TextData",
+          "SourceString": "(Planör performansı güçlendirme:<Status_Up>çok büyük</>)",
+          "LocalizedString": "(Planör performansı güçlendirme:<Status_Up>çok büyük</>)"
+        }
+      },
+      "FarmCropHarvestNumRate_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropHarvestNumRate_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "FarmCropHarvestNumRate_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropHarvestNumRate_Rank_2_TextData",
+          "SourceString": "(Ürün hasat miktarı artışı:<Status_Up>küçük</>)",
+          "LocalizedString": "(Ürün hasat miktarı artışı:<Status_Up>küçük</>)"
+        }
+      },
+      "FarmCropHarvestNumRate_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropHarvestNumRate_Rank_3_TextData",
+          "SourceString": "(Ürün hasat miktarı artışı:<Status_Up>orta</>)",
+          "LocalizedString": "(Ürün hasat miktarı artışı:<Status_Up>orta</>)"
+        }
+      },
+      "FarmCropHarvestNumRate_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropHarvestNumRate_Rank_4_TextData",
+          "SourceString": "(Ürün hasat miktarı artışı:<Status_Up>büyük</>)",
+          "LocalizedString": "(Ürün hasat miktarı artışı:<Status_Up>büyük</>)"
+        }
+      },
+      "FarmCropHarvestNumRate_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropHarvestNumRate_Rank_5_TextData",
+          "SourceString": "(Ürün hasat miktarı artışı:<Status_Up>çok büyük</>)",
+          "LocalizedString": "(Ürün hasat miktarı artışı:<Status_Up>çok büyük</>)"
+        }
+      },
+      "ElementBoost_Neutral_Dark_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Neutral_Dark_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "ElementBoost_Neutral_Dark_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Neutral_Dark_Rank_2_TextData",
+          "SourceString": "(Nötr ve Karanlık element saldırı güçlendirme:<Status_Up>küçük</>)",
+          "LocalizedString": "(Nötr ve Karanlık element saldırı güçlendirme:<Status_Up>küçük</>)"
+        }
+      },
+      "ElementBoost_Neutral_Dark_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Neutral_Dark_Rank_3_TextData",
+          "SourceString": "(Nötr ve Karanlık element saldırı güçlendirme:<Status_Up>orta</>)",
+          "LocalizedString": "(Nötr ve Karanlık element saldırı güçlendirme:<Status_Up>orta</>)"
+        }
+      },
+      "ElementBoost_Neutral_Dark_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Neutral_Dark_Rank_4_TextData",
+          "SourceString": "(Nötr ve Karanlık element saldırı güçlendirme:<Status_Up>büyük</>)",
+          "LocalizedString": "(Nötr ve Karanlık element saldırı güçlendirme:<Status_Up>büyük</>)"
+        }
+      },
+      "ElementBoost_Neutral_Dark_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Neutral_Dark_Rank_5_TextData",
+          "SourceString": "(Nötr ve Karanlık element saldırı güçlendirme:<Status_Up>çok büyük</>)",
+          "LocalizedString": "(Nötr ve Karanlık element saldırı güçlendirme:<Status_Up>çok büyük</>)"
+        }
+      },
+      "Funnel_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Funnel_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "Funnel_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Funnel_Rank_2_TextData",
+          "SourceString": "(Takip saldırısı güçlendirme:<Status_Up>küçük</>)",
+          "LocalizedString": "(Takip saldırısı güçlendirme:<Status_Up>küçük</>)"
+        }
+      },
+      "Funnel_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Funnel_Rank_3_TextData",
+          "SourceString": "(Takip saldırısı güçlendirme:<Status_Up>orta</>)",
+          "LocalizedString": "(Takip saldırısı güçlendirme:<Status_Up>orta</>)"
+        }
+      },
+      "Funnel_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Funnel_Rank_4_TextData",
+          "SourceString": "(Takip saldırısı güçlendirme:<Status_Up>büyük</>)",
+          "LocalizedString": "(Takip saldırısı güçlendirme:<Status_Up>büyük</>)"
+        }
+      },
+      "Funnel_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Funnel_Rank_5_TextData",
+          "SourceString": "(Takip saldırısı güçlendirme:<Status_Up>çok büyük</>)",
+          "LocalizedString": "(Takip saldırısı güçlendirme:<Status_Up>çok büyük</>)"
+        }
+      },
+      "DamageUp_CooldownReduction_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_CooldownReduction_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "DamageUp_CooldownReduction_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_CooldownReduction_Rank_2_TextData",
+          "SourceString": "(Hasar artışı・bekleme süresi kısaltma:<Status_Up>küçük</>)",
+          "LocalizedString": "(Hasar artışı・bekleme süresi kısaltma:<Status_Up>küçük</>)"
+        }
+      },
+      "DamageUp_CooldownReduction_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_CooldownReduction_Rank_3_TextData",
+          "SourceString": "(Hasar artışı・bekleme süresi kısaltma:<Status_Up>orta</>)",
+          "LocalizedString": "(Hasar artışı・bekleme süresi kısaltma:<Status_Up>orta</>)"
+        }
+      },
+      "DamageUp_CooldownReduction_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_CooldownReduction_Rank_4_TextData",
+          "SourceString": "(Hasar artışı・bekleme süresi kısaltma:<Status_Up>büyük</>)",
+          "LocalizedString": "(Hasar artışı・bekleme süresi kısaltma:<Status_Up>büyük</>)"
+        }
+      },
+      "DamageUp_CooldownReduction_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_CooldownReduction_Rank_5_TextData",
+          "SourceString": "(Hasar artışı・bekleme süresi kısaltma:<Status_Up>çok büyük</>)",
+          "LocalizedString": "(Hasar artışı・bekleme süresi kısaltma:<Status_Up>çok büyük</>)"
+        }
+      },
+      "Talent_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Talent_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "Talent_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Talent_Rank_2_TextData",
+          "SourceString": "(Yetenekli Pal yakalama olasılığı artışı:<Status_Up>küçük</>)",
+          "LocalizedString": "(Yetenekli Pal yakalama olasılığı artışı:<Status_Up>küçük</>)"
+        }
+      },
+      "Talent_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Talent_Rank_3_TextData",
+          "SourceString": "(Yetenekli Pal yakalama olasılığı artışı:<Status_Up>orta</>)",
+          "LocalizedString": "(Yetenekli Pal yakalama olasılığı artışı:<Status_Up>orta</>)"
+        }
+      },
+      "Talent_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Talent_Rank_4_TextData",
+          "SourceString": "(Yetenekli Pal yakalama olasılığı artışı:<Status_Up>büyük</>)",
+          "LocalizedString": "(Yetenekli Pal yakalama olasılığı artışı:<Status_Up>büyük</>)"
+        }
+      },
+      "Talent_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Talent_Rank_5_TextData",
+          "SourceString": "(Yetenekli Pal yakalama olasılığı artışı:<Status_Up>çok büyük</>)",
+          "LocalizedString": "(Yetenekli Pal yakalama olasılığı artışı:<Status_Up>çok büyük</>)"
+        }
+      },
+      "StealthTime_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "StealthTime_Rank_1_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "StealthTime_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "StealthTime_Rank_2_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "StealthTime_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "StealthTime_Rank_3_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "StealthTime_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "StealthTime_Rank_4_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "StealthTime_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "StealthTime_Rank_5_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "ShortDashSpeed_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeed_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "ShortDashSpeed_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeed_Rank_2_TextData",
+          "SourceString": "(Koşu hızı artışı:<Status_Up>küçük</>)",
+          "LocalizedString": "(Koşu hızı artışı:<Status_Up>küçük</>)"
+        }
+      },
+      "ShortDashSpeed_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeed_Rank_3_TextData",
+          "SourceString": "(Koşu hızı artışı:<Status_Up>orta</>)",
+          "LocalizedString": "(Koşu hızı artışı:<Status_Up>orta</>)"
+        }
+      },
+      "ShortDashSpeed_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeed_Rank_4_TextData",
+          "SourceString": "(Koşu hızı artışı:<Status_Up>büyük</>)",
+          "LocalizedString": "(Koşu hızı artışı:<Status_Up>büyük</>)"
+        }
+      },
+      "ShortDashSpeed_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeed_Rank_5_TextData",
+          "SourceString": "(Koşu hızı artışı:<Status_Up>çok büyük</>)",
+          "LocalizedString": "(Koşu hızı artışı:<Status_Up>çok büyük</>)"
+        }
+      },
+      "ShortDashSpeedCoolTime_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeedCoolTime_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "ShortDashSpeedCoolTime_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeedCoolTime_Rank_2_TextData",
+          "SourceString": "(Koşu hızı artışı・bekleme süresi kısaltma:<Status_Up>küçük</>)",
+          "LocalizedString": "(Koşu hızı artışı・bekleme süresi kısaltma:<Status_Up>küçük</>)"
+        }
+      },
+      "ShortDashSpeedCoolTime_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeedCoolTime_Rank_3_TextData",
+          "SourceString": "Koşu hızı artışı・bekleme süresi kısaltma:<Status_Up>orta</>)",
+          "LocalizedString": "Koşu hızı artışı・bekleme süresi kısaltma:<Status_Up>orta</>)"
+        }
+      },
+      "ShortDashSpeedCoolTime_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeedCoolTime_Rank_4_TextData",
+          "SourceString": "Koşu hızı artışı・bekleme süresi kısaltma:<Status_Up>büyük</>)",
+          "LocalizedString": "Koşu hızı artışı・bekleme süresi kısaltma:<Status_Up>büyük</>)"
+        }
+      },
+      "ShortDashSpeedCoolTime_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeedCoolTime_Rank_5_TextData",
+          "SourceString": "Koşu hızı artışı・bekleme süresi kısaltma:<Status_Up>çok büyük</>)",
+          "LocalizedString": "Koşu hızı artışı・bekleme süresi kısaltma:<Status_Up>çok büyük</>)"
+        }
+      },
+      "Waza_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Waza_Rank_1_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "Waza_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Waza_Rank_2_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "Waza_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Waza_Rank_3_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "Waza_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Waza_Rank_4_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "Waza_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Waza_Rank_5_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "CaptureRate_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CaptureRate_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "CaptureRate_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CaptureRate_Rank_2_TextData",
+          "SourceString": "(Yakalama şansı artışı: <Status_Up>Küçük</>)",
+          "LocalizedString": "(Yakalama şansı artışı: <Status_Up>Küçük</>)"
+        }
+      },
+      "CaptureRate_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CaptureRate_Rank_3_TextData",
+          "SourceString": "(Yakalama şansı artışı: <Status_Up>Orta</>)",
+          "LocalizedString": "(Yakalama şansı artışı: <Status_Up>Orta</>)"
+        }
+      },
+      "CaptureRate_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CaptureRate_Rank_4_TextData",
+          "SourceString": "(Yakalama şansı artışı: <Status_Up>Büyük</>)",
+          "LocalizedString": "(Yakalama şansı artışı: <Status_Up>Büyük</>)"
+        }
+      },
+      "CaptureRate_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CaptureRate_Rank_5_TextData",
+          "SourceString": "(Yakalama şansı artışı: <Status_Up>Çok Büyük</>)",
+          "LocalizedString": "(Yakalama şansı artışı: <Status_Up>Çok Büyük</>)"
+        }
+      },
+      "EnemySightRate_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "EnemySightRate_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "EnemySightRate_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "EnemySightRate_Rank_2_TextData",
+          "SourceString": "(Tespit edilmeme oranı artışı: <Status_Up>Küçük</>)",
+          "LocalizedString": "(Tespit edilmeme oranı artışı: <Status_Up>Küçük</>)"
+        }
+      },
+      "EnemySightRate_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "EnemySightRate_Rank_3_TextData",
+          "SourceString": "(Tespit edilmeme oranı artışı: <Status_Up>Orta</>)",
+          "LocalizedString": "(Tespit edilmeme oranı artışı: <Status_Up>Orta</>)"
+        }
+      },
+      "EnemySightRate_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "EnemySightRate_Rank_4_TextData",
+          "SourceString": "(Tespit edilmeme oranı artışı: <Status_Up>Büyük</>)",
+          "LocalizedString": "(Tespit edilmeme oranı artışı: <Status_Up>Büyük</>)"
+        }
+      },
+      "EnemySightRate_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "EnemySightRate_Rank_5_TextData",
+          "SourceString": "(Tespit edilmeme oranı artışı: <Status_Up>Çok Büyük</>)",
+          "LocalizedString": "(Tespit edilmeme oranı artışı: <Status_Up>Çok Büyük</>)"
+        }
+      },
+      "SearchAreaCoolTime_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SearchAreaCoolTime_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "SearchAreaCoolTime_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SearchAreaCoolTime_Rank_2_TextData",
+          "SourceString": "(Tespit menzili artışı / Bekleme süresi kısalması: <Status_Up>Küçük</>)",
+          "LocalizedString": "(Tespit menzili artışı / Bekleme süresi kısalması: <Status_Up>Küçük</>)"
+        }
+      },
+      "SearchAreaCoolTime_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SearchAreaCoolTime_Rank_3_TextData",
+          "SourceString": "(Tespit menzili artışı / Bekleme süresi kısalması: <Status_Up>Orta</>)",
+          "LocalizedString": "(Tespit menzili artışı / Bekleme süresi kısalması: <Status_Up>Orta</>)"
+        }
+      },
+      "SearchAreaCoolTime_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SearchAreaCoolTime_Rank_4_TextData",
+          "SourceString": "(Tespit menzili artışı / Bekleme süresi kısalması: <Status_Up>Büyük</>)",
+          "LocalizedString": "(Tespit menzili artışı / Bekleme süresi kısalması: <Status_Up>Büyük</>)"
+        }
+      },
+      "SearchAreaCoolTime_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SearchAreaCoolTime_Rank_5_TextData",
+          "SourceString": "(Tespit menzili artışı / Bekleme süresi kısalması: <Status_Up>Çok Büyük</>)",
+          "LocalizedString": "(Tespit menzili artışı / Bekleme süresi kısalması: <Status_Up>Çok Büyük</>)"
+        }
+      }
+    }
+  }
+]

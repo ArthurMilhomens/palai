@@ -1,0 +1,1072 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_HumanNameText_Common",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "NAME_TEST_NPC": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_TEST_NPC_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "NAME_CITIZEN": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_CITIZEN_TextData",
+          "SourceString": "岛民",
+          "LocalizedString": "岛民"
+        }
+      },
+      "NAME_VILLAGER": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_VILLAGER_TextData",
+          "SourceString": "村民",
+          "LocalizedString": "村民"
+        }
+      },
+      "NAME_QUESTMAN": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_QUESTMAN_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "NAME_SELESPERSON": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_SELESPERSON_TextData",
+          "SourceString": "流浪商人",
+          "LocalizedString": "流浪商人"
+        }
+      },
+      "NAME_VISITING": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_VISITING_TextData",
+          "SourceString": "来访者",
+          "LocalizedString": "来访者"
+        }
+      },
+      "NAME_WEAPON_DEALER": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_WEAPON_DEALER_TextData",
+          "SourceString": "武器商人",
+          "LocalizedString": "武器商人"
+        }
+      },
+      "NAME_PAL_DEALER": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_PAL_DEALER_TextData",
+          "SourceString": "帕鲁商人",
+          "LocalizedString": "帕鲁商人"
+        }
+      },
+      "NAME_GUARD": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_GUARD_TextData",
+          "SourceString": "卫兵",
+          "LocalizedString": "卫兵"
+        }
+      },
+      "NAME_SecurityDrone": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_SecurityDrone_TextData",
+          "SourceString": "武装直升机",
+          "LocalizedString": "武装直升机"
+        }
+      },
+      "NAME_Believer": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Believer_TextData",
+          "SourceString": "帕鲁保护团体 支持者",
+          "LocalizedString": "帕鲁保护团体 支持者"
+        }
+      },
+      "NAME_FireCult": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_FireCult_TextData",
+          "SourceString": "永炎同心会 殉教者",
+          "LocalizedString": "永炎同心会 殉教者"
+        }
+      },
+      "NAME_Labmen": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Labmen_TextData",
+          "SourceString": "基因研究部队 执行小队",
+          "LocalizedString": "基因研究部队 执行小队"
+        }
+      },
+      "NAME_POLICE": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_POLICE_TextData",
+          "SourceString": "自卫队 守卫",
+          "LocalizedString": "自卫队 守卫"
+        }
+      },
+      "NAME_POLICE_1": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_POLICE_1_TextData",
+          "SourceString": "自卫队 巡逻员",
+          "LocalizedString": "自卫队 巡逻员"
+        }
+      },
+      "NAME_POLICE_2": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_POLICE_2_TextData",
+          "SourceString": "自卫队 步枪士兵",
+          "LocalizedString": "自卫队 步枪士兵"
+        }
+      },
+      "NAME_POLICE_3": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_POLICE_3_TextData",
+          "SourceString": "自卫队 精英",
+          "LocalizedString": "自卫队 精英"
+        }
+      },
+      "NAME_HUNTER": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_TextData",
+          "SourceString": "盗猎集团 新手",
+          "LocalizedString": "盗猎集团 新手"
+        }
+      },
+      "NAME_HUNTER_2": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_2_TextData",
+          "SourceString": "盗猎集团 射手",
+          "LocalizedString": "盗猎集团 射手"
+        }
+      },
+      "NAME_HUNTER_3": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_3_TextData",
+          "SourceString": "盗猎集团 猎人",
+          "LocalizedString": "盗猎集团 猎人"
+        }
+      },
+      "NAME_HUNTER_4": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_4_TextData",
+          "SourceString": "盗猎集团 投弹手",
+          "LocalizedString": "盗猎集团 投弹手"
+        }
+      },
+      "NAME_HUNTER_5": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_5_TextData",
+          "SourceString": "盗猎集团 善后组",
+          "LocalizedString": "盗猎集团 善后组"
+        }
+      },
+      "NAME_HUNTER_6": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_6_TextData",
+          "SourceString": "盗猎集团 精英",
+          "LocalizedString": "盗猎集团 精英"
+        }
+      },
+      "NAME_HUNTER_BOSS": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_BOSS_TextData",
+          "SourceString": "盗猎集团 粉碎者",
+          "LocalizedString": "盗猎集团 粉碎者"
+        }
+      },
+      "NAME_DarkTrader": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_DarkTrader_TextData",
+          "SourceString": "黑市商人",
+          "LocalizedString": "黑市商人"
+        }
+      },
+      "NAME_HUNTER_7": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_7_TextData",
+          "SourceString": "盗猎集团 老手",
+          "LocalizedString": "盗猎集团 老手"
+        }
+      },
+      "NAME_HUNTER_8": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_8_TextData",
+          "SourceString": "盗猎集团 拦截者",
+          "LocalizedString": "盗猎集团 拦截者"
+        }
+      },
+      "NAME_Ninja": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Ninja_TextData",
+          "SourceString": "月花众 下忍",
+          "LocalizedString": "月花众 下忍"
+        }
+      },
+      "NAME_Ninja_2": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Ninja_2_TextData",
+          "SourceString": "月花众 上忍",
+          "LocalizedString": "月花众 上忍"
+        }
+      },
+      "NAME_MedalTrader": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_MedalTrader_TextData",
+          "SourceString": "奖章商人",
+          "LocalizedString": "奖章商人"
+        }
+      },
+      "NAME_BOSS_Hunter_Rifle": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Hunter_Rifle_TextData",
+          "SourceString": "通缉犯 霍克",
+          "LocalizedString": "通缉犯 霍克"
+        }
+      },
+      "NAME_BOSS_Hunter_Fat_GatlingGun": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Hunter_Fat_GatlingGun_TextData",
+          "SourceString": "通缉犯 格里尔",
+          "LocalizedString": "通缉犯 格里尔"
+        }
+      },
+      "NAME_BOSS_Believer_CrossBow": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Believer_CrossBow_TextData",
+          "SourceString": "通缉犯 埃戈",
+          "LocalizedString": "通缉犯 埃戈"
+        }
+      },
+      "NAME_BOSS_Believer_Fat_GiantClub": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Believer_Fat_GiantClub_TextData",
+          "SourceString": "通缉犯 布里克",
+          "LocalizedString": "通缉犯 布里克"
+        }
+      },
+      "NAME_BOSS_Police_Rifle": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Police_Rifle_TextData",
+          "SourceString": "通缉犯 威普",
+          "LocalizedString": "通缉犯 威普"
+        }
+      },
+      "NAME_BOSS_FireCult_FlameThrower": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_FireCult_FlameThrower_TextData",
+          "SourceString": "通缉犯 暗影",
+          "LocalizedString": "通缉犯 暗影"
+        }
+      },
+      "NAME_BOSS_Scientist_LaserRifle": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Scientist_LaserRifle_TextData",
+          "SourceString": "通缉犯 威斯克",
+          "LocalizedString": "通缉犯 威斯克"
+        }
+      },
+      "NAME_BOSS_Ninja": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Ninja_TextData",
+          "SourceString": "通缉犯 方博",
+          "LocalizedString": "通缉犯 方博"
+        }
+      },
+      "NAME_BOSS_Male_NinjaElite": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_NinjaElite_TextData",
+          "SourceString": "通缉犯 厄棘",
+          "LocalizedString": "通缉犯 厄棘"
+        }
+      },
+      "NAME_BOSS_Female_Soldier": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Female_Soldier_TextData",
+          "SourceString": "通缉犯 姬蒂",
+          "LocalizedString": "通缉犯 姬蒂"
+        }
+      },
+      "NAME_BOSS_Female_Soldier02": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Female_Soldier02_TextData",
+          "SourceString": "通缉犯 黛姿",
+          "LocalizedString": "通缉犯 黛姿"
+        }
+      },
+      "NAME_BOSS_Female_Soldier03": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Female_Soldier03_TextData",
+          "SourceString": "通缉犯 阿罗哈",
+          "LocalizedString": "通缉犯 阿罗哈"
+        }
+      },
+      "NAME_BOSS_Female_Soldier04": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Female_Soldier04_TextData",
+          "SourceString": "通缉犯 妮波",
+          "LocalizedString": "通缉犯 妮波"
+        }
+      },
+      "NAME_BOSS_Male_Soldier": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_Soldier_TextData",
+          "SourceString": "通缉犯 克雷斯",
+          "LocalizedString": "通缉犯 克雷斯"
+        }
+      },
+      "NAME_BOSS_Male_Soldier02": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_Soldier02_TextData",
+          "SourceString": "通缉犯 达特",
+          "LocalizedString": "通缉犯 达特"
+        }
+      },
+      "NAME_BOSS_Male_Soldier03": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_Soldier03_TextData",
+          "SourceString": "通缉犯 克林特",
+          "LocalizedString": "通缉犯 克林特"
+        }
+      },
+      "NAME_BOSS_Male_Soldier04": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_Soldier04_TextData",
+          "SourceString": "通缉犯 拉索",
+          "LocalizedString": "通缉犯 拉索"
+        }
+      },
+      "NAME_BOSS_Female_People": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Female_People_TextData",
+          "SourceString": "通缉犯 芙蕾雅",
+          "LocalizedString": "通缉犯 芙蕾雅"
+        }
+      },
+      "NAME_BOSS_Female_People02": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Female_People02_TextData",
+          "SourceString": "通缉犯 赛莲",
+          "LocalizedString": "通缉犯 赛莲"
+        }
+      },
+      "NAME_BOSS_Female_People03": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Female_People03_TextData",
+          "SourceString": "通缉犯 逆裳",
+          "LocalizedString": "通缉犯 逆裳"
+        }
+      },
+      "NAME_BOSS_Male_People": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_People_TextData",
+          "SourceString": "通缉犯 戴拿",
+          "LocalizedString": "通缉犯 戴拿"
+        }
+      },
+      "NAME_BOSS_Male_People2": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_People2_TextData",
+          "SourceString": "通缉犯 麦特",
+          "LocalizedString": "通缉犯 麦特"
+        }
+      },
+      "NAME_BOSS_Male_People02": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_People02_TextData",
+          "SourceString": "通缉犯 柯伊尔",
+          "LocalizedString": "通缉犯 柯伊尔"
+        }
+      },
+      "NAME_BOSS_Male_People03": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_People03_TextData",
+          "SourceString": "通缉犯 斯科特",
+          "LocalizedString": "通缉犯 斯科特"
+        }
+      },
+      "NAME_BOSS_Male_DesertPeople": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_DesertPeople_TextData",
+          "SourceString": "通缉犯 幻影",
+          "LocalizedString": "通缉犯 幻影"
+        }
+      },
+      "NAME_BOSS_Female_DesertPeople": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Female_DesertPeople_TextData",
+          "SourceString": "通缉犯 低语",
+          "LocalizedString": "通缉犯 低语"
+        }
+      },
+      "NAME_BOSS_Viking": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Viking_TextData",
+          "SourceString": "通缉犯 奈尔",
+          "LocalizedString": "通缉犯 奈尔"
+        }
+      },
+      "NAME_BOSS_VikingElite": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_VikingElite_TextData",
+          "SourceString": "通缉犯 卡什",
+          "LocalizedString": "通缉犯 卡什"
+        }
+      },
+      "NAME_BOSS_Police_Old": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Police_Old_TextData",
+          "SourceString": "通缉犯 狄奇",
+          "LocalizedString": "通缉犯 狄奇"
+        }
+      },
+      "NAME_BOSS_DarkTrader": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_DarkTrader_TextData",
+          "SourceString": "通缉犯 拉姆",
+          "LocalizedString": "通缉犯 拉姆"
+        }
+      },
+      "NAME_BOSS_Male_Trader01": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_Trader01_TextData",
+          "SourceString": "通缉犯 斯吉姆",
+          "LocalizedString": "通缉犯 斯吉姆"
+        }
+      },
+      "NAME_BOSS_Male_Trader02": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_Trader02_TextData",
+          "SourceString": "通缉犯 模仿者",
+          "LocalizedString": "通缉犯 模仿者"
+        }
+      },
+      "NAME_BOSS_Male_Trader03": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_Trader03_TextData",
+          "SourceString": "通缉犯 比利",
+          "LocalizedString": "通缉犯 比利"
+        }
+      },
+      "NAME_BOSS_Hunter_Fat_GatlingGun_Quest_StrongOldMan": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Hunter_Fat_GatlingGun_Quest_StrongOldMan_TextData",
+          "SourceString": "通缉犯 埃尔达",
+          "LocalizedString": "通缉犯 埃尔达"
+        }
+      },
+      "NAME_Solider": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Solider_TextData",
+          "SourceString": "强壮的佣兵",
+          "LocalizedString": "强壮的佣兵"
+        }
+      },
+      "NAME_Recruiter": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Recruiter_TextData",
+          "SourceString": "帕鲁中介",
+          "LocalizedString": "帕鲁中介"
+        }
+      },
+      "NAME_CaravanLeader01": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_CaravanLeader01_TextData",
+          "SourceString": "流民商队长",
+          "LocalizedString": "流民商队长"
+        }
+      },
+      "NAME_Viking": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Viking_TextData",
+          "SourceString": "天坠之民",
+          "LocalizedString": "天坠之民"
+        }
+      },
+      "NAME_Viking_Elite": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Viking_Elite_TextData",
+          "SourceString": "天坠之民 精英",
+          "LocalizedString": "天坠之民 精英"
+        }
+      },
+      "NAME_Ambassador01": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Ambassador01_TextData",
+          "SourceString": "沙漠镇的大使",
+          "LocalizedString": "沙漠镇的大使"
+        }
+      },
+      "NAME_Blacksmith01": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Blacksmith01_TextData",
+          "SourceString": "修行中的锻造专家",
+          "LocalizedString": "修行中的锻造专家"
+        }
+      },
+      "NAME_Epicure01": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Epicure01_TextData",
+          "SourceString": "美食猎人",
+          "LocalizedString": "美食猎人"
+        }
+      },
+      "NAME_Escort_Warrior01": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Escort_Warrior01_TextData",
+          "SourceString": "护卫的佣兵",
+          "LocalizedString": "护卫的佣兵"
+        }
+      },
+      "NAME_Escort_PalTamer01": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Escort_PalTamer01_TextData",
+          "SourceString": "佣兵帕鲁驯养师",
+          "LocalizedString": "佣兵帕鲁驯养师"
+        }
+      },
+      "NAME_HUNTER_9": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_9_TextData",
+          "SourceString": "盗猎团员 高科技部队",
+          "LocalizedString": "盗猎团员 高科技部队"
+        }
+      },
+      "NAME_HUNTER_10": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_10_TextData",
+          "SourceString": "盗猎团员 十字弓手",
+          "LocalizedString": "盗猎团员 十字弓手"
+        }
+      },
+      "NAME_HUNTER_11": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_11_TextData",
+          "SourceString": "盗猎团员 剑士",
+          "LocalizedString": "盗猎团员 剑士"
+        }
+      },
+      "NAME_Believer_BOSS": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Believer_BOSS_TextData",
+          "SourceString": "帕鲁保护团体 审判官",
+          "LocalizedString": "帕鲁保护团体 审判官"
+        }
+      },
+      "NAME_Male_Soldier02_Invader": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Male_Soldier02_Invader_TextData",
+          "SourceString": "充满斗志的帕鲁驯养师",
+          "LocalizedString": "充满斗志的帕鲁驯养师"
+        }
+      },
+      "NAME_Female_Soldier03_Invader": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Female_Soldier03_Invader_TextData",
+          "SourceString": "双子帕鲁驯养师",
+          "LocalizedString": "双子帕鲁驯养师"
+        }
+      },
+      "NAME_BattlePaltamer001": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BattlePaltamer001_TextData",
+          "SourceString": "初出茅庐的帕鲁驯养师",
+          "LocalizedString": "初出茅庐的帕鲁驯养师"
+        }
+      },
+      "NAME_BattlePaltamer002": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BattlePaltamer002_TextData",
+          "SourceString": "锋芒毕露的帕鲁驯养师",
+          "LocalizedString": "锋芒毕露的帕鲁驯养师"
+        }
+      },
+      "NAME_BattlePaltamer003": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BattlePaltamer003_TextData",
+          "SourceString": "冷酷的帕鲁驯养师",
+          "LocalizedString": "冷酷的帕鲁驯养师"
+        }
+      },
+      "NAME_BattlePaltamer004": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BattlePaltamer004_TextData",
+          "SourceString": "老手帕鲁驯养师",
+          "LocalizedString": "老手帕鲁驯养师"
+        }
+      },
+      "NAME_BattlePaltamer005": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BattlePaltamer005_TextData",
+          "SourceString": "斗志昂扬的帕鲁驯养师",
+          "LocalizedString": "斗志昂扬的帕鲁驯养师"
+        }
+      },
+      "NAME_BattlePaltamer006": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BattlePaltamer006_TextData",
+          "SourceString": "经验老到的帕鲁驯养师",
+          "LocalizedString": "经验老到的帕鲁驯养师"
+        }
+      },
+      "NAME_Female_Presenter01": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Female_Presenter01_TextData",
+          "SourceString": "亲切的帕鲁驯养师",
+          "LocalizedString": "亲切的帕鲁驯养师"
+        }
+      },
+      "NAME_Police_Chief": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Police_Chief_TextData",
+          "SourceString": "没干劲的警长",
+          "LocalizedString": "没干劲的警长"
+        }
+      },
+      "NAME_Police_old_Prisoner": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Police_old_Prisoner_TextData",
+          "SourceString": "进狱系前警长",
+          "LocalizedString": "进狱系前警长"
+        }
+      },
+      "NAME_Police001": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Police001_TextData",
+          "SourceString": "异世界大叔",
+          "LocalizedString": "异世界大叔"
+        }
+      },
+      "NAME_Reward_Emote": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Reward_Emote_TextData",
+          "SourceString": "爱的传教者",
+          "LocalizedString": "爱的传教者"
+        }
+      },
+      "NAME_PalPassive_Doctor": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_PalPassive_Doctor_TextData",
+          "SourceString": "布朗博士",
+          "LocalizedString": "布朗博士"
+        }
+      },
+      "NAME_QUEST_SCHOLAR01": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_QUEST_SCHOLAR01_TextData",
+          "SourceString": "追寻传说的研究员",
+          "LocalizedString": "追寻传说的研究员"
+        }
+      },
+      "NAME_Reward_Paldex": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Reward_Paldex_TextData",
+          "SourceString": "帕鲁生态调查员",
+          "LocalizedString": "帕鲁生态调查员"
+        }
+      },
+      "NAME_Reward_BossDefeat": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Reward_BossDefeat_TextData",
+          "SourceString": "老手帕鲁猎手",
+          "LocalizedString": "老手帕鲁猎手"
+        }
+      },
+      "NAME_QUEST_RANGER04": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_QUEST_RANGER04_TextData",
+          "SourceString": "身上很好闻的猎人",
+          "LocalizedString": "身上很好闻的猎人"
+        }
+      },
+      "NAME_GrassBoss": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_GrassBoss_TextData",
+          "SourceString": "佐伊",
+          "LocalizedString": "佐伊"
+        }
+      },
+      "NAME_SurveyGirl": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_SurveyGirl_TextData",
+          "SourceString": "菲亚",
+          "LocalizedString": "菲亚"
+        }
+      },
+      "NAME_SurveyWoman": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_SurveyWoman_TextData",
+          "SourceString": "卡拉",
+          "LocalizedString": "卡拉"
+        }
+      },
+      "NAME_SurveyMan": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_SurveyMan_TextData",
+          "SourceString": "加德尔",
+          "LocalizedString": "加德尔"
+        }
+      },
+      "NAME_StrongOldMan": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_StrongOldMan_TextData",
+          "SourceString": "哈罗德",
+          "LocalizedString": "哈罗德"
+        }
+      },
+      "NAME_WildlifeSanctuaryDrone": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_WildlifeSanctuaryDrone_TextData",
+          "SourceString": "防卫无人机",
+          "LocalizedString": "防卫无人机"
+        }
+      },
+      "NAME_Police_Invader_Katana": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Police_Invader_Katana_TextData",
+          "SourceString": "自卫队 剑士",
+          "LocalizedString": "自卫队 剑士"
+        }
+      },
+      "NAME_Police_Invader_CrossBow": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Police_Invader_CrossBow_TextData",
+          "SourceString": "自卫队 暴徒",
+          "LocalizedString": "自卫队 暴徒"
+        }
+      },
+      "NAME_Police_Invader_LaserRifle": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Police_Invader_LaserRifle_TextData",
+          "SourceString": "自卫队 高科技分隊",
+          "LocalizedString": "自卫队 高科技分隊"
+        }
+      },
+      "NAME_Police_Invader_GrenadeLauncher": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Police_Invader_GrenadeLauncher_TextData",
+          "SourceString": "自卫队 老手",
+          "LocalizedString": "自卫队 老手"
+        }
+      },
+      "NAME_Police_Invader_FlameThrower": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Police_Invader_FlameThrower_TextData",
+          "SourceString": "自卫队 善后组",
+          "LocalizedString": "自卫队 善后组"
+        }
+      },
+      "NAME_Police_Invader_RocketLauncher": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Police_Invader_RocketLauncher_TextData",
+          "SourceString": "自卫队 火箭手",
+          "LocalizedString": "自卫队 火箭手"
+        }
+      },
+      "NAME_Police_Invader_MissileLauncher": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Police_Invader_MissileLauncher_TextData",
+          "SourceString": "自卫队 拦截者",
+          "LocalizedString": "自卫队 拦截者"
+        }
+      },
+      "NAME_Sorajima_Enemy": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Sorajima_Enemy_TextData",
+          "SourceString": "苍天的盟约 执行者",
+          "LocalizedString": "苍天的盟约 执行者"
+        }
+      },
+      "NAME_Caravan04": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan04_TextData",
+          "SourceString": "肉铺学徒",
+          "LocalizedString": "肉铺学徒"
+        }
+      },
+      "NAME_Caravan05": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan05_TextData",
+          "SourceString": "熟练渔夫兼肉铺老板",
+          "LocalizedString": "熟练渔夫兼肉铺老板"
+        }
+      },
+      "NAME_Caravan06": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan06_TextData",
+          "SourceString": "狩猎达人",
+          "LocalizedString": "狩猎达人"
+        }
+      },
+      "NAME_Caravan07": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan07_TextData",
+          "SourceString": "传说中的野味猎人",
+          "LocalizedString": "传说中的野味猎人"
+        }
+      },
+      "NAME_Caravan08": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan08_TextData",
+          "SourceString": "走私者的跑腿小弟",
+          "LocalizedString": "走私者的跑腿小弟"
+        }
+      },
+      "NAME_Caravan09": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan09_TextData",
+          "SourceString": "佣兵的补给官",
+          "LocalizedString": "佣兵的补给官"
+        }
+      },
+      "NAME_Caravan10": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan10_TextData",
+          "SourceString": "重武装商人",
+          "LocalizedString": "重武装商人"
+        }
+      },
+      "NAME_Caravan11": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan11_TextData",
+          "SourceString": "传说中的弹药商",
+          "LocalizedString": "传说中的弹药商"
+        }
+      },
+      "NAME_Caravan12": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan12_TextData",
+          "SourceString": "蔬果摊老板",
+          "LocalizedString": "蔬果摊老板"
+        }
+      },
+      "NAME_Caravan13": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan13_TextData",
+          "SourceString": "旅行的农园商人",
+          "LocalizedString": "旅行的农园商人"
+        }
+      },
+      "NAME_Caravan14": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan14_TextData",
+          "SourceString": "传说中的蔬果店老板",
+          "LocalizedString": "传说中的蔬果店老板"
+        }
+      },
+      "NAME_Caravan15": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan15_TextData",
+          "SourceString": "可疑的药贩子",
+          "LocalizedString": "可疑的药贩子"
+        }
+      },
+      "NAME_Caravan16": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan16_TextData",
+          "SourceString": "正规药师",
+          "LocalizedString": "正规药师"
+        }
+      },
+      "NAME_Caravan17": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan17_TextData",
+          "SourceString": "传说中的药师",
+          "LocalizedString": "传说中的药师"
+        }
+      },
+      "NAME_Caravan18": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan18_TextData",
+          "SourceString": "小摊面包师",
+          "LocalizedString": "小摊面包师"
+        }
+      },
+      "NAME_Caravan19": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan19_TextData",
+          "SourceString": "小饭馆老板",
+          "LocalizedString": "小饭馆老板"
+        }
+      },
+      "NAME_Caravan20": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan20_TextData",
+          "SourceString": "初出茅庐的美食家",
+          "LocalizedString": "初出茅庐的美食家"
+        }
+      },
+      "NAME_Caravan21": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan21_TextData",
+          "SourceString": "传说中的美食家",
+          "LocalizedString": "传说中的美食家"
+        }
+      },
+      "NAME_Caravan22": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan22_TextData",
+          "SourceString": "捡材料的商人",
+          "LocalizedString": "捡材料的商人"
+        }
+      },
+      "NAME_Caravan23": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan23_TextData",
+          "SourceString": "正规材料商人",
+          "LocalizedString": "正规材料商人"
+        }
+      },
+      "NAME_Caravan24": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan24_TextData",
+          "SourceString": "元素商人",
+          "LocalizedString": "元素商人"
+        }
+      },
+      "NAME_Caravan25": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan25_TextData",
+          "SourceString": "传说中的材料商人",
+          "LocalizedString": "传说中的材料商人"
+        }
+      }
+    }
+  }
+]

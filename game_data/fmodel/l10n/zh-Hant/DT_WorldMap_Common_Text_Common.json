@@ -1,0 +1,1264 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_WorldMap_Common_Text_Common",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "REGION_Grass_1": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Grass_1_TextData",
+          "SourceString": "風起之島",
+          "LocalizedString": "風起之島"
+        }
+      },
+      "REGION_Grass_2": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Grass_2_TextData",
+          "SourceString": "翠竹溪谷",
+          "LocalizedString": "翠竹溪谷"
+        }
+      },
+      "REGION_Forest_1": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Forest_1_TextData",
+          "SourceString": "弦月湖畔",
+          "LocalizedString": "弦月湖畔"
+        }
+      },
+      "REGION_Forest_2": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Forest_2_TextData",
+          "SourceString": "新綠清流",
+          "LocalizedString": "新綠清流"
+        }
+      },
+      "REGION_Volcano_1": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Volcano_1_TextData",
+          "SourceString": "黑曜火山",
+          "LocalizedString": "黑曜火山"
+        }
+      },
+      "REGION_Desert_1": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Desert_1_TextData",
+          "SourceString": "荒漠沙丘",
+          "LocalizedString": "荒漠沙丘"
+        }
+      },
+      "REGION_Frost_1": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Frost_1_TextData",
+          "SourceString": "白銀靈峰",
+          "LocalizedString": "白銀靈峰"
+        }
+      },
+      "REGION_Frost_small": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Frost_small_TextData",
+          "SourceString": "霜凍雪山",
+          "LocalizedString": "霜凍雪山"
+        }
+      },
+      "REGION_Desert_Small": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Desert_Small_TextData",
+          "SourceString": "日暮沙地",
+          "LocalizedString": "日暮沙地"
+        }
+      },
+      "REGION_Grass_Boss": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Grass_Boss_TextData",
+          "SourceString": "雷恩盜獵集團的高塔",
+          "LocalizedString": "雷恩盜獵集團的高塔"
+        }
+      },
+      "REGION_Forest_Boss": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Forest_Boss_TextData",
+          "SourceString": "帕魯保護團體的高塔",
+          "LocalizedString": "帕魯保護團體的高塔"
+        }
+      },
+      "REGION_Desert_Boss": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Desert_Boss_TextData",
+          "SourceString": "自衛隊的高塔",
+          "LocalizedString": "自衛隊的高塔"
+        }
+      },
+      "REGION_Volcano_Boss": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Volcano_Boss_TextData",
+          "SourceString": "永炎同心會的高塔",
+          "LocalizedString": "永炎同心會的高塔"
+        }
+      },
+      "REGION_Frost_Boss": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Frost_Boss_TextData",
+          "SourceString": "基因研究部隊的高塔",
+          "LocalizedString": "基因研究部隊的高塔"
+        }
+      },
+      "REGION_TEST_CHICKEN": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_TEST_CHICKEN_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "REGION_Grass_1_Church": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Grass_1_Church_TextData",
+          "SourceString": "破敗教會",
+          "LocalizedString": "破敗教會"
+        }
+      },
+      "REGION_Grass_1_Village": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Grass_1_Village_TextData",
+          "SourceString": "小型聚落",
+          "LocalizedString": "小型聚落"
+        }
+      },
+      "REGION_Desert_1_Village": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Desert_1_Village_TextData",
+          "SourceString": "沙漠之鎮",
+          "LocalizedString": "沙漠之鎮"
+        }
+      },
+      "REGION_Volcano_1_Village": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Volcano_1_Village_TextData",
+          "SourceString": "邊遠漁村",
+          "LocalizedString": "邊遠漁村"
+        }
+      },
+      "REGION_Preserve1": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Preserve1_TextData",
+          "SourceString": "第一禁獵區",
+          "LocalizedString": "第一禁獵區"
+        }
+      },
+      "REGION_Preserve2": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Preserve2_TextData",
+          "SourceString": "第二禁獵區",
+          "LocalizedString": "第二禁獵區"
+        }
+      },
+      "REGION_Preserve3": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Preserve3_TextData",
+          "SourceString": "第三禁獵區",
+          "LocalizedString": "第三禁獵區"
+        }
+      },
+      "REGION_Statue1": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Statue1_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "REGION_Statue2": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Statue2_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "REGION_Statue3": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Statue3_TextData",
+          "SourceString": "zh-hant text",
+          "LocalizedString": "zh-hant text"
+        }
+      },
+      "REGION_Forest_Ruin": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Forest_Ruin_TextData",
+          "SourceString": "古老的祭祀場",
+          "LocalizedString": "古老的祭祀場"
+        }
+      },
+      "REGION_FixedDungeon_grass_1": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_grass_1_TextData",
+          "SourceString": "冰鳥密域",
+          "LocalizedString": "冰鳥密域"
+        }
+      },
+      "REGION_FixedDungeon_grass_2": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_grass_2_TextData",
+          "SourceString": "灼熱密域",
+          "LocalizedString": "灼熱密域"
+        }
+      },
+      "REGION_FixedDungeon_grass_3": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_grass_3_TextData",
+          "SourceString": "百焰密域",
+          "LocalizedString": "百焰密域"
+        }
+      },
+      "REGION_FixedDungeon_grass_4": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_grass_4_TextData",
+          "SourceString": "劍豪密域",
+          "LocalizedString": "劍豪密域"
+        }
+      },
+      "REGION_FixedDungeon_grass_5": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_grass_5_TextData",
+          "SourceString": "冰紛密域",
+          "LocalizedString": "冰紛密域"
+        }
+      },
+      "REGION_FixedDungeon_grass_6": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_grass_6_TextData",
+          "SourceString": "冰狐密域",
+          "LocalizedString": "冰狐密域"
+        }
+      },
+      "REGION_FixedDungeon_grass_7": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_grass_7_TextData",
+          "SourceString": "蒼鬱密域",
+          "LocalizedString": "蒼鬱密域"
+        }
+      },
+      "REGION_FixedDungeon_forest_1": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_forest_1_TextData",
+          "SourceString": "魔導士密域",
+          "LocalizedString": "魔導士密域"
+        }
+      },
+      "REGION_FixedDungeon_forest_2": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_forest_2_TextData",
+          "SourceString": "守護者密域",
+          "LocalizedString": "守護者密域"
+        }
+      },
+      "REGION_FixedDungeon_forest_3": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_forest_3_TextData",
+          "SourceString": "神速密域",
+          "LocalizedString": "神速密域"
+        }
+      },
+      "REGION_FixedDungeon_forest_4": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_forest_4_TextData",
+          "SourceString": "神秘密域",
+          "LocalizedString": "神秘密域"
+        }
+      },
+      "REGION_FixedDungeon_forest_5": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_forest_5_TextData",
+          "SourceString": "純白密域",
+          "LocalizedString": "純白密域"
+        }
+      },
+      "REGION_UndergroundCave_grass01": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_grass01_TextData",
+          "SourceString": "廢棄坑道",
+          "LocalizedString": "廢棄坑道"
+        }
+      },
+      "REGION_UndergroundCave_grass02": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_grass02_TextData",
+          "SourceString": "淺灘坑道",
+          "LocalizedString": "淺灘坑道"
+        }
+      },
+      "REGION_UndergroundCave_grass03": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_grass03_TextData",
+          "SourceString": "水濂坑道",
+          "LocalizedString": "水濂坑道"
+        }
+      },
+      "REGION_UndergroundCave_grass04": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_grass04_TextData",
+          "SourceString": "海灣坑道",
+          "LocalizedString": "海灣坑道"
+        }
+      },
+      "REGION_UndergroundCave_forest01": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_forest01_TextData",
+          "SourceString": "信徒坑道",
+          "LocalizedString": "信徒坑道"
+        }
+      },
+      "REGION_UndergroundCave_dessert01": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_dessert01_TextData",
+          "SourceString": "枯渴坑道",
+          "LocalizedString": "枯渴坑道"
+        }
+      },
+      "REGION_UndergroundCave_dessert02": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_dessert02_TextData",
+          "SourceString": "秘密坑道",
+          "LocalizedString": "秘密坑道"
+        }
+      },
+      "REGION_UndergroundCave_dessert03": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_dessert03_TextData",
+          "SourceString": "邊境坑道",
+          "LocalizedString": "邊境坑道"
+        }
+      },
+      "REGION_UndergroundCave_volcano01": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_volcano01_TextData",
+          "SourceString": "灼熱坑道",
+          "LocalizedString": "灼熱坑道"
+        }
+      },
+      "REGION_UndergroundCave_volcano02": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_volcano02_TextData",
+          "SourceString": "破滅坑道",
+          "LocalizedString": "破滅坑道"
+        }
+      },
+      "REGION_UndergroundCave_snow01": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_snow01_TextData",
+          "SourceString": "冰山坑道",
+          "LocalizedString": "冰山坑道"
+        }
+      },
+      "REGION_UndergroundCave_snow02": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_snow02_TextData",
+          "SourceString": "忘卻坑道",
+          "LocalizedString": "忘卻坑道"
+        }
+      },
+      "REGION_PvP_1": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_PvP_1_TextData",
+          "SourceString": "潮風群島",
+          "LocalizedString": "潮風群島"
+        }
+      },
+      "REGION_PvP_2": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_PvP_2_TextData",
+          "SourceString": "寂靜之島",
+          "LocalizedString": "寂靜之島"
+        }
+      },
+      "REGION_PvP_3": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_PvP_3_TextData",
+          "SourceString": "潺鳴之島",
+          "LocalizedString": "潺鳴之島"
+        }
+      },
+      "REGION_PvP_4": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_PvP_4_TextData",
+          "SourceString": "東部的荒蕪島嶼",
+          "LocalizedString": "東部的荒蕪島嶼"
+        }
+      },
+      "REGION_PvP_5": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_PvP_5_TextData",
+          "SourceString": "濕地之島",
+          "LocalizedString": "濕地之島"
+        }
+      },
+      "REGION_PvP_1_Church": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_PvP_1_Church_TextData",
+          "SourceString": "潮風群島的教會",
+          "LocalizedString": "潮風群島的教會"
+        }
+      },
+      "REGION_PvP_2_Church": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_PvP_2_Church_TextData",
+          "SourceString": "寂靜之島的教會遺跡",
+          "LocalizedString": "寂靜之島的教會遺跡"
+        }
+      },
+      "REGION_PvP_3_Church": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_PvP_3_Church_TextData",
+          "SourceString": "濕地之島的教會遺跡",
+          "LocalizedString": "濕地之島的教會遺跡"
+        }
+      },
+      "REGION_Arena": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Arena_TextData",
+          "SourceString": "競技場",
+          "LocalizedString": "競技場"
+        }
+      },
+      "REGION_Mushroom": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Mushroom_TextData",
+          "SourceString": "櫻花島：蘑菇濕地",
+          "LocalizedString": "櫻花島：蘑菇濕地"
+        }
+      },
+      "REGION_Sakura": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Sakura_TextData",
+          "SourceString": "舞櫻神社",
+          "LocalizedString": "舞櫻神社"
+        }
+      },
+      "REGION_RockSand": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_RockSand_TextData",
+          "SourceString": "櫻花島：北部礦場",
+          "LocalizedString": "櫻花島：北部礦場"
+        }
+      },
+      "REGION_WhiteSand": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_WhiteSand_TextData",
+          "SourceString": "櫻花島：南部砂原",
+          "LocalizedString": "櫻花島：南部砂原"
+        }
+      },
+      "REGION_Sakurajima_Boss": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Sakurajima_Boss_TextData",
+          "SourceString": "月花眾的高塔",
+          "LocalizedString": "月花眾的高塔"
+        }
+      },
+      "REGION_Oilrig_1": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Oilrig_1_TextData",
+          "SourceString": "盜獵團的油田",
+          "LocalizedString": "盜獵團的油田"
+        }
+      },
+      "REGION_Oilrig_2": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Oilrig_2_TextData",
+          "SourceString": "盜獵團的勘探油田",
+          "LocalizedString": "盜獵團的勘探油田"
+        }
+      },
+      "REGION_Oilrig_3": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Oilrig_3_TextData",
+          "SourceString": "盜獵團的大型油田",
+          "LocalizedString": "盜獵團的大型油田"
+        }
+      },
+      "REGION_Darkisland01": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland01_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "REGION_Darkisland02": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland02_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "REGION_Darkisland03": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland03_TextData",
+          "SourceString": "天墜的遇難船",
+          "LocalizedString": "天墜的遇難船"
+        }
+      },
+      "REGION_Darkisland04": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland04_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "REGION_Darkisland05": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland05_TextData",
+          "SourceString": "結晶大樹",
+          "LocalizedString": "結晶大樹"
+        }
+      },
+      "REGION_Darkisland06": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland06_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "REGION_Darkisland06_dokutsu": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland06_dokutsu_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "REGION_Darkisland07": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland07_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "REGION_Darkisland08": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland08_TextData",
+          "SourceString": "石柱洞窟",
+          "LocalizedString": "石柱洞窟"
+        }
+      },
+      "REGION_Darkisland09": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland09_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "REGION_Darkisland10": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland10_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "REGION_Darkisland11": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland11_TextData",
+          "SourceString": "餘燼溶岩台",
+          "LocalizedString": "餘燼溶岩台"
+        }
+      },
+      "REGION_Darkisland_FT01": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland_FT01_TextData",
+          "SourceString": "燃灰之地",
+          "LocalizedString": "燃灰之地"
+        }
+      },
+      "REGION_Darkisland_FT02": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland_FT02_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "REGION_Darkisland_FT03": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland_FT03_TextData",
+          "SourceString": "黃土平原",
+          "LocalizedString": "黃土平原"
+        }
+      },
+      "REGION_Darkisland_FT04": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland_FT04_TextData",
+          "SourceString": "通往環形門的密道",
+          "LocalizedString": "通往環形門的密道"
+        }
+      },
+      "REGION_Darkisland_FT05": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland_FT05_TextData",
+          "SourceString": "俯瞰高塔的環形門",
+          "LocalizedString": "俯瞰高塔的環形門"
+        }
+      },
+      "REGION_Darkisland_FT06": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland_FT06_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "REGION_Darkisland_FT07": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland_FT07_TextData",
+          "SourceString": "灼熱高台",
+          "LocalizedString": "灼熱高台"
+        }
+      },
+      "REGION_Darkisland_FT08": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland_FT08_TextData",
+          "SourceString": "鏽灰高原",
+          "LocalizedString": "鏽灰高原"
+        }
+      },
+      "REGION_Darkisland_Boss": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland_Boss_TextData",
+          "SourceString": "天墜之塔",
+          "LocalizedString": "天墜之塔"
+        }
+      },
+      "REGION_Darkisland_FT09": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland_FT09_TextData",
+          "SourceString": "乾枯海岸",
+          "LocalizedString": "乾枯海岸"
+        }
+      },
+      "REGION_Darkisland_FT10": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland_FT10_TextData",
+          "SourceString": "冰封珊瑚丘",
+          "LocalizedString": "冰封珊瑚丘"
+        }
+      },
+      "REGION_UndergroundCave_Darkisland_1": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_Darkisland_1_TextData",
+          "SourceString": "食人鬼坑道",
+          "LocalizedString": "食人鬼坑道"
+        }
+      },
+      "REGION_UndergroundCave_Darkisland_2": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_Darkisland_2_TextData",
+          "SourceString": "盾龍坑道",
+          "LocalizedString": "盾龍坑道"
+        }
+      },
+      "REGION_UndergroundCave_Darkisland_3": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_Darkisland_3_TextData",
+          "SourceString": "結晶坑道",
+          "LocalizedString": "結晶坑道"
+        }
+      },
+      "REGION_UndergroundCave_Darkisland_4": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_Darkisland_4_TextData",
+          "SourceString": "暗炎坑道",
+          "LocalizedString": "暗炎坑道"
+        }
+      },
+      "REGION_UndergroundCave_Darkisland_5": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_Darkisland_5_TextData",
+          "SourceString": "染血坑道",
+          "LocalizedString": "染血坑道"
+        }
+      },
+      "REGION_Grass_3": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Grass_3_TextData",
+          "SourceString": "黃金色的丘陵",
+          "LocalizedString": "黃金色的丘陵"
+        }
+      },
+      "REGION_Grass_4": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Grass_4_TextData",
+          "SourceString": "紅葉岩場",
+          "LocalizedString": "紅葉岩場"
+        }
+      },
+      "REGION_Grass_5": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Grass_5_TextData",
+          "SourceString": "要塞遺跡",
+          "LocalizedString": "要塞遺跡"
+        }
+      },
+      "REGION_Grass_6": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Grass_6_TextData",
+          "SourceString": "飛魚海岸",
+          "LocalizedString": "飛魚海岸"
+        }
+      },
+      "REGION_Grass_7": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Grass_7_TextData",
+          "SourceString": "鯊小子的地盤",
+          "LocalizedString": "鯊小子的地盤"
+        }
+      },
+      "REGION_Grass_8": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Grass_8_TextData",
+          "SourceString": "戰火爪痕",
+          "LocalizedString": "戰火爪痕"
+        }
+      },
+      "REGION_Grass_9": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Grass_9_TextData",
+          "SourceString": "竹林深處",
+          "LocalizedString": "竹林深處"
+        }
+      },
+      "REGION_Grass_10": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Grass_10_TextData",
+          "SourceString": "寂靜之湖",
+          "LocalizedString": "寂靜之湖"
+        }
+      },
+      "REGION_Frost_2": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Frost_2_TextData",
+          "SourceString": "靈峰山腳",
+          "LocalizedString": "靈峰山腳"
+        }
+      },
+      "REGION_Frost_3": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Frost_3_TextData",
+          "SourceString": "廢棄遺跡",
+          "LocalizedString": "廢棄遺跡"
+        }
+      },
+      "REGION_Volcano_2": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Volcano_2_TextData",
+          "SourceString": "火山山腳",
+          "LocalizedString": "火山山腳"
+        }
+      },
+      "REGION_Volcano_3": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Volcano_3_TextData",
+          "SourceString": "要塞城市遺址",
+          "LocalizedString": "要塞城市遺址"
+        }
+      },
+      "REGION_Volcano_4": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Volcano_4_TextData",
+          "SourceString": "乾燥沙灘",
+          "LocalizedString": "乾燥沙灘"
+        }
+      },
+      "REGION_FixedDungeon_DarkIsland_1": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_DarkIsland_1_TextData",
+          "SourceString": "守護岩密域",
+          "LocalizedString": "守護岩密域"
+        }
+      },
+      "REGION_FixedDungeon_DarkIsland_2": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_DarkIsland_2_TextData",
+          "SourceString": "小勇者密域",
+          "LocalizedString": "小勇者密域"
+        }
+      },
+      "REGION_FixedDungeon_DarkIsland_3": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_DarkIsland_3_TextData",
+          "SourceString": "靛青密域",
+          "LocalizedString": "靛青密域"
+        }
+      },
+      "REGION_FixedDungeon_DarkIsland_4": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_DarkIsland_4_TextData",
+          "SourceString": "獵魂密域",
+          "LocalizedString": "獵魂密域"
+        }
+      },
+      "REGION_SmallIsland01": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_SmallIsland01_TextData",
+          "SourceString": "向陽孤島",
+          "LocalizedString": "向陽孤島"
+        }
+      },
+      "REGION_SmallIsland02": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_SmallIsland02_TextData",
+          "SourceString": "綠洲孤島",
+          "LocalizedString": "綠洲孤島"
+        }
+      },
+      "REGION_SmallIsland03": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_SmallIsland03_TextData",
+          "SourceString": "冰封孤島",
+          "LocalizedString": "冰封孤島"
+        }
+      },
+      "REGION_SmallIsland04": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_SmallIsland04_TextData",
+          "SourceString": "極凍孤島",
+          "LocalizedString": "極凍孤島"
+        }
+      },
+      "REGION_SmallIsland05": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_SmallIsland05_TextData",
+          "SourceString": "亡靈孤島",
+          "LocalizedString": "亡靈孤島"
+        }
+      },
+      "REGION_SmallIsland06": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_SmallIsland06_TextData",
+          "SourceString": "塵封寶藏孤島",
+          "LocalizedString": "塵封寶藏孤島"
+        }
+      },
+      "REGION_SmallIsland07": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_SmallIsland07_TextData",
+          "SourceString": "常夏孤島",
+          "LocalizedString": "常夏孤島"
+        }
+      },
+      "REGION_FixedDungeon_Yakushima": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_Yakushima_TextData",
+          "SourceString": "泰拉瑞亞密域",
+          "LocalizedString": "泰拉瑞亞密域"
+        }
+      },
+      "REGION_FixedDungeon_SmallIsland03": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_SmallIsland03_TextData",
+          "SourceString": "冰封密域",
+          "LocalizedString": "冰封密域"
+        }
+      },
+      "WORLDMAP_NAME_MainMap": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "WORLDMAP_NAME_MainMap_TextData",
+          "SourceString": "帕洛斯群島",
+          "LocalizedString": "帕洛斯群島"
+        }
+      },
+      "WORLDMAP_NAME_Tree": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "WORLDMAP_NAME_Tree_TextData",
+          "SourceString": "世界樹",
+          "LocalizedString": "世界樹"
+        }
+      },
+      "REGION_Boss_KingWhale": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Boss_KingWhale_TextData",
+          "SourceString": "忘卻孤島",
+          "LocalizedString": "忘卻孤島"
+        }
+      },
+      "REGION_New_SmallIsland01": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_New_SmallIsland01_TextData",
+          "SourceString": "環形遺跡孤島",
+          "LocalizedString": "環形遺跡孤島"
+        }
+      },
+      "REGION_New_SmallIsland02": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_New_SmallIsland02_TextData",
+          "SourceString": "炎脈孤島",
+          "LocalizedString": "炎脈孤島"
+        }
+      },
+      "REGION_New_SmallIsland03": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_New_SmallIsland03_TextData",
+          "SourceString": "風蝕孤島",
+          "LocalizedString": "風蝕孤島"
+        }
+      },
+      "REGION_New_SmallIsland04": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_New_SmallIsland04_TextData",
+          "SourceString": "雙角孤島",
+          "LocalizedString": "雙角孤島"
+        }
+      },
+      "REGION_New_SmallIsland05": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_New_SmallIsland05_TextData",
+          "SourceString": "冰環遺跡孤島",
+          "LocalizedString": "冰環遺跡孤島"
+        }
+      },
+      "REGION_New_SmallIsland06": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_New_SmallIsland06_TextData",
+          "SourceString": "砂岩門孤島",
+          "LocalizedString": "砂岩門孤島"
+        }
+      },
+      "REGION_New_SmallIsland07": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_New_SmallIsland07_TextData",
+          "SourceString": "太陽紋孤島",
+          "LocalizedString": "太陽紋孤島"
+        }
+      },
+      "REGION_WorldTree01": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_WorldTree01_TextData",
+          "SourceString": "聖綠麓原",
+          "LocalizedString": "聖綠麓原"
+        }
+      },
+      "REGION_WorldTree02": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_WorldTree02_TextData",
+          "SourceString": "誘藤之林",
+          "LocalizedString": "誘藤之林"
+        }
+      },
+      "REGION_WorldTree03": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_WorldTree03_TextData",
+          "SourceString": "黃塵峽谷",
+          "LocalizedString": "黃塵峽谷"
+        }
+      },
+      "REGION_WorldTree04": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_WorldTree04_TextData",
+          "SourceString": "亡骸河畔",
+          "LocalizedString": "亡骸河畔"
+        }
+      },
+      "REGION_WorldTree05": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_WorldTree05_TextData",
+          "SourceString": "侵蝕樹洞",
+          "LocalizedString": "侵蝕樹洞"
+        }
+      },
+      "REGION_WorldTree06": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_WorldTree06_TextData",
+          "SourceString": "聖瀑湖畔",
+          "LocalizedString": "聖瀑湖畔"
+        }
+      },
+      "REGION_WorldTree07": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_WorldTree07_TextData",
+          "SourceString": "聖冰山嶺",
+          "LocalizedString": "聖冰山嶺"
+        }
+      },
+      "REGION_WorldTree08": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_WorldTree08_TextData",
+          "SourceString": "封印之室",
+          "LocalizedString": "封印之室"
+        }
+      },
+      "REGION_WorldTree09": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_WorldTree09_TextData",
+          "SourceString": "廢棄研究所",
+          "LocalizedString": "廢棄研究所"
+        }
+      },
+      "REGION_WorldTree10": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_WorldTree10_TextData",
+          "SourceString": "孢子迴廊",
+          "LocalizedString": "孢子迴廊"
+        }
+      },
+      "REGION_WorldTree11": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_WorldTree11_TextData",
+          "SourceString": "聖淚淺灘",
+          "LocalizedString": "聖淚淺灘"
+        }
+      },
+      "REGION_WorldTree12": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_WorldTree12_TextData",
+          "SourceString": "黃金廢都",
+          "LocalizedString": "黃金廢都"
+        }
+      },
+      "REGION_Wide_Sakurajima01": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Wide_Sakurajima01_TextData",
+          "SourceString": "櫻花島",
+          "LocalizedString": "櫻花島"
+        }
+      },
+      "REGION_Wide_Darkisland01": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Wide_Darkisland01_TextData",
+          "SourceString": "天墜",
+          "LocalizedString": "天墜"
+        }
+      },
+      "REGION_Wide_Skyisland01": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Wide_Skyisland01_TextData",
+          "SourceString": "天陽鄉",
+          "LocalizedString": "天陽鄉"
+        }
+      },
+      "REGION_Skyisland_Boss": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Skyisland_Boss_TextData",
+          "SourceString": "盟約之塔",
+          "LocalizedString": "盟約之塔"
+        }
+      },
+      "REGION_Skyisland01": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Skyisland01_TextData",
+          "SourceString": "碧落裂隙",
+          "LocalizedString": "碧落裂隙"
+        }
+      },
+      "REGION_Skyisland02": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Skyisland02_TextData",
+          "SourceString": "睡蓮峽谷",
+          "LocalizedString": "睡蓮峽谷"
+        }
+      },
+      "REGION_Skyisland03": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Skyisland03_TextData",
+          "SourceString": "龍痕山嶺",
+          "LocalizedString": "龍痕山嶺"
+        }
+      },
+      "REGION_Skyisland04": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Skyisland04_TextData",
+          "SourceString": "雲泥濕地",
+          "LocalizedString": "雲泥濕地"
+        }
+      },
+      "REGION_Skyisland05": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Skyisland05_TextData",
+          "SourceString": "深藍樹海",
+          "LocalizedString": "深藍樹海"
+        }
+      },
+      "REGION_Skyisland06": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Skyisland06_TextData",
+          "SourceString": "結晶群島",
+          "LocalizedString": "結晶群島"
+        }
+      },
+      "REGION_Skyisland07": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Skyisland07_TextData",
+          "SourceString": "天空仙境",
+          "LocalizedString": "天空仙境"
+        }
+      },
+      "REGION_FixedDungeon_SkyIsland_01": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_SkyIsland_01_TextData",
+          "SourceString": "星願密域",
+          "LocalizedString": "星願密域"
+        }
+      },
+      "REGION_FootOfWorldTree": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FootOfWorldTree_TextData",
+          "SourceString": "世界樹下",
+          "LocalizedString": "世界樹下"
+        }
+      }
+    }
+  }
+]

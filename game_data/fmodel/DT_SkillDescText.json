@@ -2,9 +2,8 @@
   {
     "Type": "CompositeDataTable",
     "Name": "DT_SkillDescText",
-    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'CompositeDataTable'",
-    "Package": "Pal/Content/Pal/DataTable/Text/DT_SkillDescText",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "ParentTables": [
         {
@@ -3294,24 +3293,24 @@
         "TextData": {
           "Namespace": "DT_SkillDescText_Common",
           "Key": "PASSIVE_PAL_SelfDeathAddItemDrop_up_1_TextData",
-          "SourceString": "自身のドロップアイテム+{EffectValue1}%",
-          "LocalizedString": "自身のドロップアイテム+{EffectValue1}%"
+          "SourceString": "このパルのドロップアイテム+{EffectValue1}%",
+          "LocalizedString": "このパルのドロップアイテム+{EffectValue1}%"
         }
       },
       "PASSIVE_PAL_SelfDeathAddItemDrop_up_2": {
         "TextData": {
           "Namespace": "DT_SkillDescText_Common",
           "Key": "PASSIVE_PAL_SelfDeathAddItemDrop_up_2_TextData",
-          "SourceString": "自身のドロップアイテム+{EffectValue1}%",
-          "LocalizedString": "自身のドロップアイテム+{EffectValue1}%"
+          "SourceString": "このパルのドロップアイテム+{EffectValue1}%",
+          "LocalizedString": "このパルのドロップアイテム+{EffectValue1}%"
         }
       },
       "PASSIVE_PAL_SelfDeathAddItemDrop_up_3": {
         "TextData": {
           "Namespace": "DT_SkillDescText_Common",
           "Key": "PASSIVE_PAL_SelfDeathAddItemDrop_up_3_TextData",
-          "SourceString": "自身のドロップアイテム+{EffectValue1}%",
-          "LocalizedString": "自身のドロップアイテム+{EffectValue1}%"
+          "SourceString": "このパルのドロップアイテム+{EffectValue1}%",
+          "LocalizedString": "このパルのドロップアイテム+{EffectValue1}%"
         }
       },
       "PASSIVE_PAL_WorkSuitabilityAddRank_MonsterFarm_1": {

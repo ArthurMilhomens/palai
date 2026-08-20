@@ -1,0 +1,1296 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_PartnerSkillAppendText",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "TEST_TEXT_RANK_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "TEST_TEXT_RANK_1_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "TEST_TEXT_RANK_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "TEST_TEXT_RANK_2_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "TEST_TEXT_RANK_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "TEST_TEXT_RANK_3_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "TEST_TEXT_RANK_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "TEST_TEXT_RANK_4_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "TEST_TEXT_RANK_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "TEST_TEXT_RANK_5_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "DamageUp_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "DamageUp_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_Rank_2_TextData",
+          "SourceString": "(Peningkatan Dampak:<Status_Up>Kecil</>)",
+          "LocalizedString": "(Peningkatan Dampak:<Status_Up>Kecil</>)"
+        }
+      },
+      "DamageUp_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_Rank_3_TextData",
+          "SourceString": "(Peningkatan Dampak:<Status_Up>Sedang</>)",
+          "LocalizedString": "(Peningkatan Dampak:<Status_Up>Sedang</>)"
+        }
+      },
+      "DamageUp_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_Rank_4_TextData",
+          "SourceString": "(Peningkatan Dampak:<Status_Up>Besar</>)",
+          "LocalizedString": "(Peningkatan Dampak:<Status_Up>Besar</>)"
+        }
+      },
+      "DamageUp_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_Rank_5_TextData",
+          "SourceString": "(Peningkatan Dampak:<Status_Up>Sangat Besar</>)",
+          "LocalizedString": "(Peningkatan Dampak:<Status_Up>Sangat Besar</>)"
+        }
+      },
+      "CooldownReduction_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CooldownReduction_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "CooldownReduction_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CooldownReduction_Rank_2_TextData",
+          "SourceString": "(Penurunan Jeda Tunggu:<Status_Up>Kecil</>)",
+          "LocalizedString": "(Penurunan Jeda Tunggu:<Status_Up>Kecil</>)"
+        }
+      },
+      "CooldownReduction_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CooldownReduction_Rank_3_TextData",
+          "SourceString": "(Penurunan Jeda Tunggu:<Status_Up>Sedang</>)",
+          "LocalizedString": "(Penurunan Jeda Tunggu:<Status_Up>Sedang</>)"
+        }
+      },
+      "CooldownReduction_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CooldownReduction_Rank_4_TextData",
+          "SourceString": "(Penurunan Jeda Tunggu:<Status_Up>Besar</>)",
+          "LocalizedString": "(Penurunan Jeda Tunggu:<Status_Up>Besar</>)"
+        }
+      },
+      "CooldownReduction_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CooldownReduction_Rank_5_TextData",
+          "SourceString": "(Penurunan Jeda Tunggu:<Status_Up>Sangat Besar</>)",
+          "LocalizedString": "(Penurunan Jeda Tunggu:<Status_Up>Sangat Besar</>)"
+        }
+      },
+      "MiningUp_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "MiningUp_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "MiningUp_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "MiningUp_Rank_2_TextData",
+          "SourceString": "(Peningkatan Efisiensi Tambang:<Status_Up>Kecil</>)",
+          "LocalizedString": "(Peningkatan Efisiensi Tambang:<Status_Up>Kecil</>)"
+        }
+      },
+      "MiningUp_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "MiningUp_Rank_3_TextData",
+          "SourceString": "(Peningkatan Efisiensi Tambang:<Status_Up>Sedang</>)",
+          "LocalizedString": "(Peningkatan Efisiensi Tambang:<Status_Up>Sedang</>)"
+        }
+      },
+      "MiningUp_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "MiningUp_Rank_4_TextData",
+          "SourceString": "(Peningkatan Efisiensi Tambang:<Status_Up>Besar</>)",
+          "LocalizedString": "(Peningkatan Efisiensi Tambang:<Status_Up>Besar</>)"
+        }
+      },
+      "MiningUp_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "MiningUp_Rank_5_TextData",
+          "SourceString": "(Peningkatan Efisiensi Tambang:<Status_Up>Sangat Besar</>)",
+          "LocalizedString": "(Peningkatan Efisiensi Tambang:<Status_Up>Sangat Besar</>)"
+        }
+      },
+      "RideSpeedUp_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "RideSpeedUp_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_Rank_2_TextData",
+          "SourceString": "(Kecepatan bergerak saat ditunggangi: meningkat <Status_Up>10%</>)",
+          "LocalizedString": "(Kecepatan bergerak saat ditunggangi: meningkat <Status_Up>10%</>)"
+        }
+      },
+      "RideSpeedUp_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_Rank_3_TextData",
+          "SourceString": "(Kecepatan bergerak saat ditunggangi: meningkat <Status_Up>12%</>)",
+          "LocalizedString": "(Kecepatan bergerak saat ditunggangi: meningkat <Status_Up>12%</>)"
+        }
+      },
+      "RideSpeedUp_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_Rank_4_TextData",
+          "SourceString": "(Kecepatan bergerak saat ditunggangi: meningkat <Status_Up>15%</>)",
+          "LocalizedString": "(Kecepatan bergerak saat ditunggangi: meningkat <Status_Up>15%</>)"
+        }
+      },
+      "RideSpeedUp_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_Rank_5_TextData",
+          "SourceString": "(Kecepatan bergerak saat ditunggangi: meningkat <Status_Up>20%</>)",
+          "LocalizedString": "(Kecepatan bergerak saat ditunggangi: meningkat <Status_Up>20%</>)"
+        }
+      },
+      "SwimSpeedUp_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "SwimSpeedUp_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_Rank_2_TextData",
+          "SourceString": "(Kecepatan bergerak di atas air: meningkat <Status_Up>10%</>)",
+          "LocalizedString": "(Kecepatan bergerak di atas air: meningkat <Status_Up>10%</>)"
+        }
+      },
+      "SwimSpeedUp_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_Rank_3_TextData",
+          "SourceString": "(Kecepatan bergerak di atas air: meningkat <Status_Up>14%</>)",
+          "LocalizedString": "(Kecepatan bergerak di atas air: meningkat <Status_Up>14%</>)"
+        }
+      },
+      "SwimSpeedUp_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_Rank_4_TextData",
+          "SourceString": "(Kecepatan bergerak di atas air: meningkat <Status_Up>18%</>)",
+          "LocalizedString": "(Kecepatan bergerak di atas air: meningkat <Status_Up>18%</>)"
+        }
+      },
+      "SwimSpeedUp_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_Rank_5_TextData",
+          "SourceString": "(Kecepatan bergerak di atas air: meningkat <Status_Up>25%</>)",
+          "LocalizedString": "(Kecepatan bergerak di atas air: meningkat <Status_Up>25%</>)"
+        }
+      },
+      "LoggingUp_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "LoggingUp_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_Rank_2_TextData",
+          "SourceString": "(Peningkatan efisiensi penebangan:<Status_Up>Kecil</>)",
+          "LocalizedString": "(Peningkatan efisiensi penebangan:<Status_Up>Kecil</>)"
+        }
+      },
+      "LoggingUp_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_Rank_3_TextData",
+          "SourceString": "(Peningkatan efisiensi penebangan:<Status_Up>Sedang</>)",
+          "LocalizedString": "(Peningkatan efisiensi penebangan:<Status_Up>Sedang</>)"
+        }
+      },
+      "LoggingUp_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_Rank_4_TextData",
+          "SourceString": "(Peningkatan efisiensi penebangan:<Status_Up>Besar</>)",
+          "LocalizedString": "(Peningkatan efisiensi penebangan:<Status_Up>Besar</>)"
+        }
+      },
+      "LoggingUp_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_Rank_5_TextData",
+          "SourceString": "(Peningkatan efisiensi penebangan:<Status_Up>Sangat Besar</>)",
+          "LocalizedString": "(Peningkatan efisiensi penebangan:<Status_Up>Sangat Besar</>)"
+        }
+      },
+      "DropUp_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DropUp_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "DropUp_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DropUp_Rank_2_TextData",
+          "SourceString": "(Peningkatan jumlah perolehan item:<Status_Up>Kecil</>)",
+          "LocalizedString": "(Peningkatan jumlah perolehan item:<Status_Up>Kecil</>)"
+        }
+      },
+      "DropUp_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DropUp_Rank_3_TextData",
+          "SourceString": "(Peningkatan jumlah perolehan item:<Status_Up>Sedang</>)",
+          "LocalizedString": "(Peningkatan jumlah perolehan item:<Status_Up>Sedang</>)"
+        }
+      },
+      "DropUp_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DropUp_Rank_4_TextData",
+          "SourceString": "(Peningkatan jumlah perolehan item:<Status_Up>Besar</>)",
+          "LocalizedString": "(Peningkatan jumlah perolehan item:<Status_Up>Besar</>)"
+        }
+      },
+      "DropUp_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DropUp_Rank_5_TextData",
+          "SourceString": "(Peningkatan jumlah perolehan item:<Status_Up>Sangat Besar</>)",
+          "LocalizedString": "(Peningkatan jumlah perolehan item:<Status_Up>Sangat Besar</>)"
+        }
+      },
+      "FishingAssist_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FishingAssist_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "FishingAssist_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FishingAssist_Rank_2_TextData",
+          "SourceString": "(Peningkatan efek bantuan memancing:<Status_Up>Kecil</>)",
+          "LocalizedString": "(Peningkatan efek bantuan memancing:<Status_Up>Kecil</>)"
+        }
+      },
+      "FishingAssist_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FishingAssist_Rank_3_TextData",
+          "SourceString": "(Peningkatan efek bantuan memancing:<Status_Up>Sedang</>)",
+          "LocalizedString": "(Peningkatan efek bantuan memancing:<Status_Up>Sedang</>)"
+        }
+      },
+      "FishingAssist_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FishingAssist_Rank_4_TextData",
+          "SourceString": "(Peningkatan efek bantuan memancing:<Status_Up>Besar</>)",
+          "LocalizedString": "(Peningkatan efek bantuan memancing:<Status_Up>Besar</>)"
+        }
+      },
+      "FishingAssist_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FishingAssist_Rank_5_TextData",
+          "SourceString": "(Peningkatan efek bantuan memancing:<Status_Up>Sangat Besar</>)",
+          "LocalizedString": "(Peningkatan efek bantuan memancing:<Status_Up>Sangat Besar</>)"
+        }
+      },
+      "LifeSteal_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LifeSteal_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "LifeSteal_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LifeSteal_Rank_2_TextData",
+          "SourceString": "(Peningkatan efek lifesteal:<Status_Up>Kecil</>)",
+          "LocalizedString": "(Peningkatan efek lifesteal:<Status_Up>Kecil</>)"
+        }
+      },
+      "LifeSteal_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LifeSteal_Rank_3_TextData",
+          "SourceString": "(Peningkatan efek lifesteal:<Status_Up>Sedang</>)",
+          "LocalizedString": "(Peningkatan efek lifesteal:<Status_Up>Sedang</>)"
+        }
+      },
+      "LifeSteal_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LifeSteal_Rank_4_TextData",
+          "SourceString": "(Peningkatan efek lifesteal:<Status_Up>Besar</>)",
+          "LocalizedString": "(Peningkatan efek lifesteal:<Status_Up>Besar</>)"
+        }
+      },
+      "LifeSteal_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LifeSteal_Rank_5_TextData",
+          "SourceString": "(Peningkatan efek lifesteal:<Status_Up>Sangat Besar</>)",
+          "LocalizedString": "(Peningkatan efek lifesteal:<Status_Up>Sangat Besar</>)"
+        }
+      },
+      "RideSpeedUp_CooldownReduction_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_CooldownReduction_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "RideSpeedUp_CooldownReduction_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_CooldownReduction_Rank_2_TextData",
+          "SourceString": "(Peningkatan kecepatan gerak dan pengurangan waktu tunggu:<Status_Up>Kecil</>)",
+          "LocalizedString": "(Peningkatan kecepatan gerak dan pengurangan waktu tunggu:<Status_Up>Kecil</>)"
+        }
+      },
+      "RideSpeedUp_CooldownReduction_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_CooldownReduction_Rank_3_TextData",
+          "SourceString": "(Peningkatan kecepatan gerak dan pengurangan waktu tunggu:<Status_Up>Sedang</>)",
+          "LocalizedString": "(Peningkatan kecepatan gerak dan pengurangan waktu tunggu:<Status_Up>Sedang</>)"
+        }
+      },
+      "RideSpeedUp_CooldownReduction_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_CooldownReduction_Rank_4_TextData",
+          "SourceString": "(Peningkatan kecepatan gerak dan pengurangan waktu tunggu:<Status_Up>Besar</>)",
+          "LocalizedString": "(Peningkatan kecepatan gerak dan pengurangan waktu tunggu:<Status_Up>Besar</>)"
+        }
+      },
+      "RideSpeedUp_CooldownReduction_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_CooldownReduction_Rank_5_TextData",
+          "SourceString": "(Peningkatan kecepatan gerak dan pengurangan waktu tunggu:<Status_Up>Sangat Besar</>)",
+          "LocalizedString": "(Peningkatan kecepatan gerak dan pengurangan waktu tunggu:<Status_Up>Sangat Besar</>)"
+        }
+      },
+      "SwimSpeedUp_CooldownReduction_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_CooldownReduction_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "SwimSpeedUp_CooldownReduction_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_CooldownReduction_Rank_2_TextData",
+          "SourceString": "(Kecepatan bergerak di atas air: meningkat <Status_Up>10%</>・Pengurangan waktu cooldown: <Status_Up>Kecil</>)",
+          "LocalizedString": "(Kecepatan bergerak di atas air: meningkat <Status_Up>10%</>・Pengurangan waktu cooldown: <Status_Up>Kecil</>)"
+        }
+      },
+      "SwimSpeedUp_CooldownReduction_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_CooldownReduction_Rank_3_TextData",
+          "SourceString": "(Kecepatan bergerak di atas air: meningkat <Status_Up>14%</>・Pengurangan waktu cooldown: <Status_Up>Sedang</>）",
+          "LocalizedString": "(Kecepatan bergerak di atas air: meningkat <Status_Up>14%</>・Pengurangan waktu cooldown: <Status_Up>Sedang</>）"
+        }
+      },
+      "SwimSpeedUp_CooldownReduction_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_CooldownReduction_Rank_4_TextData",
+          "SourceString": "(Kecepatan bergerak di atas air: meningkat <Status_Up>18%</>・Waktu tunggu berkurang: <Status_Up>Besar</>)",
+          "LocalizedString": "(Kecepatan bergerak di atas air: meningkat <Status_Up>18%</>・Waktu tunggu berkurang: <Status_Up>Besar</>)"
+        }
+      },
+      "SwimSpeedUp_CooldownReduction_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_CooldownReduction_Rank_5_TextData",
+          "SourceString": "(Kecepatan bergerak di atas air: meningkat <Status_Up>25%</>・Waktu tunggu berkurang: <Status_Up>Sangat Besar</>)",
+          "LocalizedString": "(Kecepatan bergerak di atas air: meningkat <Status_Up>25%</>・Waktu tunggu berkurang: <Status_Up>Sangat Besar</>)"
+        }
+      },
+      "LoggingUp_MiningUp_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_MiningUp_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "LoggingUp_MiningUp_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_MiningUp_Rank_2_TextData",
+          "SourceString": "(Peningkatan efisiensi penebangan dan penambangan:<Status_Up>Kecil</>)",
+          "LocalizedString": "(Peningkatan efisiensi penebangan dan penambangan:<Status_Up>Kecil</>)"
+        }
+      },
+      "LoggingUp_MiningUp_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_MiningUp_Rank_3_TextData",
+          "SourceString": "(Peningkatan efisiensi penebangan dan penambangan:<Status_Up>Sedang</>)",
+          "LocalizedString": "(Peningkatan efisiensi penebangan dan penambangan:<Status_Up>Sedang</>)"
+        }
+      },
+      "LoggingUp_MiningUp_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_MiningUp_Rank_4_TextData",
+          "SourceString": "(Peningkatan efisiensi penebangan dan penambangan:<Status_Up>Besar</>)",
+          "LocalizedString": "(Peningkatan efisiensi penebangan dan penambangan:<Status_Up>Besar</>)"
+        }
+      },
+      "LoggingUp_MiningUp_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_MiningUp_Rank_5_TextData",
+          "SourceString": "(Peningkatan efisiensi penebangan dan penambangan:<Status_Up>Sangat Besar</>)",
+          "LocalizedString": "(Peningkatan efisiensi penebangan dan penambangan:<Status_Up>Sangat Besar</>)"
+        }
+      },
+      "ElementPassive_Dark_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementPassive_Dark_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "ElementPassive_Dark_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementPassive_Dark_Rank_2_TextData",
+          "SourceString": "(Peningkatan daya serang Pal elemen kegelapan:<Status_Up>Kecil</>)",
+          "LocalizedString": "(Peningkatan daya serang Pal elemen kegelapan:<Status_Up>Kecil</>)"
+        }
+      },
+      "ElementPassive_Dark_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementPassive_Dark_Rank_3_TextData",
+          "SourceString": "(Peningkatan daya serang Pal elemen kegelapan:<Status_Up>Sedang</>)",
+          "LocalizedString": "(Peningkatan daya serang Pal elemen kegelapan:<Status_Up>Sedang</>)"
+        }
+      },
+      "ElementPassive_Dark_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementPassive_Dark_Rank_4_TextData",
+          "SourceString": "(Peningkatan daya serang Pal elemen kegelapan:<Status_Up>Besar</>)",
+          "LocalizedString": "(Peningkatan daya serang Pal elemen kegelapan:<Status_Up>Besar</>)"
+        }
+      },
+      "ElementPassive_Dark_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementPassive_Dark_Rank_5_TextData",
+          "SourceString": "(Peningkatan daya serang Pal elemen kegelapan:<Status_Up>Sangat Besar</>)",
+          "LocalizedString": "(Peningkatan daya serang Pal elemen kegelapan:<Status_Up>Sangat Besar</>)"
+        }
+      },
+      "ItemCollectRangeUp_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ItemCollectRangeUp_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "ItemCollectRangeUp_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ItemCollectRangeUp_Rank_2_TextData",
+          "SourceString": "(Peningkatan jangkauan pengambilan item:<Status_Up>Kecil</>)",
+          "LocalizedString": "(Peningkatan jangkauan pengambilan item:<Status_Up>Kecil</>)"
+        }
+      },
+      "ItemCollectRangeUp_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ItemCollectRangeUp_Rank_3_TextData",
+          "SourceString": "(Peningkatan jangkauan pengambilan item:<Status_Up>Sedang</>)",
+          "LocalizedString": "(Peningkatan jangkauan pengambilan item:<Status_Up>Sedang</>)"
+        }
+      },
+      "ItemCollectRangeUp_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ItemCollectRangeUp_Rank_4_TextData",
+          "SourceString": "(Peningkatan jangkauan pengambilan item:<Status_Up>Besar</>)",
+          "LocalizedString": "(Peningkatan jangkauan pengambilan item:<Status_Up>Besar</>)"
+        }
+      },
+      "ItemCollectRangeUp_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ItemCollectRangeUp_Rank_5_TextData",
+          "SourceString": "(Peningkatan jangkauan pengambilan item:<Status_Up>Sangat Besar</>)",
+          "LocalizedString": "(Peningkatan jangkauan pengambilan item:<Status_Up>Sangat Besar</>)"
+        }
+      },
+      "SANDownResist_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SANDownResist_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "SANDownResist_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SANDownResist_Rank_2_TextData",
+          "SourceString": "(Peningkatan ketahanan berkurangnya SAN:<Status_Up>Kecil</>)",
+          "LocalizedString": "(Peningkatan ketahanan berkurangnya SAN:<Status_Up>Kecil</>)"
+        }
+      },
+      "SANDownResist_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SANDownResist_Rank_3_TextData",
+          "SourceString": "(Peningkatan ketahanan berkurangnya SAN:<Status_Up>Sedang</>)",
+          "LocalizedString": "(Peningkatan ketahanan berkurangnya SAN:<Status_Up>Sedang</>)"
+        }
+      },
+      "SANDownResist_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SANDownResist_Rank_4_TextData",
+          "SourceString": "(Peningkatan ketahanan berkurangnya SAN:<Status_Up>Besar</>)",
+          "LocalizedString": "(Peningkatan ketahanan berkurangnya SAN:<Status_Up>Besar</>)"
+        }
+      },
+      "SANDownResist_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SANDownResist_Rank_5_TextData",
+          "SourceString": "(Peningkatan ketahanan berkurangnya SAN:<Status_Up>Sangat Besar</>)",
+          "LocalizedString": "(Peningkatan ketahanan berkurangnya SAN:<Status_Up>Sangat Besar</>)"
+        }
+      },
+      "ElementBoost_Dark_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Dark_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "ElementBoost_Dark_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Dark_Rank_2_TextData",
+          "SourceString": "(Peningkatan kekuatan serangan elemen kegelapan:<Status_Up>Kecil</>)",
+          "LocalizedString": "(Peningkatan kekuatan serangan elemen kegelapan:<Status_Up>Kecil</>)"
+        }
+      },
+      "ElementBoost_Dark_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Dark_Rank_3_TextData",
+          "SourceString": "(Peningkatan kekuatan serangan elemen kegelapan:<Status_Up>Sedang</>)",
+          "LocalizedString": "(Peningkatan kekuatan serangan elemen kegelapan:<Status_Up>Sedang</>)"
+        }
+      },
+      "ElementBoost_Dark_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Dark_Rank_4_TextData",
+          "SourceString": "(Peningkatan kekuatan serangan elemen kegelapan:<Status_Up>Besar</>)",
+          "LocalizedString": "(Peningkatan kekuatan serangan elemen kegelapan:<Status_Up>Besar</>)"
+        }
+      },
+      "ElementBoost_Dark_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Dark_Rank_5_TextData",
+          "SourceString": "(Peningkatan kekuatan serangan elemen kegelapan:<Status_Up>Sangat Besar</>)",
+          "LocalizedString": "(Peningkatan kekuatan serangan elemen kegelapan:<Status_Up>Sangat Besar</>)"
+        }
+      },
+      "SyncroPassiveWhenCapture_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SyncroPassiveWhenCapture_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "SyncroPassiveWhenCapture_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SyncroPassiveWhenCapture_Rank_2_TextData",
+          "SourceString": "(Peningkatan peluang bertemu Pal dengan kemampuan pasif yang sama:<Status_Up>Kecil</>)",
+          "LocalizedString": "(Peningkatan peluang bertemu Pal dengan kemampuan pasif yang sama:<Status_Up>Kecil</>)"
+        }
+      },
+      "SyncroPassiveWhenCapture_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SyncroPassiveWhenCapture_Rank_3_TextData",
+          "SourceString": "(Peningkatan peluang bertemu Pal dengan kemampuan pasif yang sama:<Status_Up>Sedang</>)",
+          "LocalizedString": "(Peningkatan peluang bertemu Pal dengan kemampuan pasif yang sama:<Status_Up>Sedang</>)"
+        }
+      },
+      "SyncroPassiveWhenCapture_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SyncroPassiveWhenCapture_Rank_4_TextData",
+          "SourceString": "(Peningkatan peluang bertemu Pal dengan kemampuan pasif yang sama:<Status_Up>Besar</>)",
+          "LocalizedString": "(Peningkatan peluang bertemu Pal dengan kemampuan pasif yang sama:<Status_Up>Besar</>)"
+        }
+      },
+      "SyncroPassiveWhenCapture_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SyncroPassiveWhenCapture_Rank_5_TextData",
+          "SourceString": "(Peningkatan peluang bertemu Pal dengan kemampuan pasif yang sama:<Status_Up>Sangat Besar</>)",
+          "LocalizedString": "(Peningkatan peluang bertemu Pal dengan kemampuan pasif yang sama:<Status_Up>Sangat Besar</>)"
+        }
+      },
+      "FarmCropGrowupSpeed_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropGrowupSpeed_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "FarmCropGrowupSpeed_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropGrowupSpeed_Rank_2_TextData",
+          "SourceString": "(Peningkatan laju pertumbuhan tanaman:<Status_Up>Kecil</>)",
+          "LocalizedString": "(Peningkatan laju pertumbuhan tanaman:<Status_Up>Kecil</>)"
+        }
+      },
+      "FarmCropGrowupSpeed_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropGrowupSpeed_Rank_3_TextData",
+          "SourceString": "(Peningkatan laju pertumbuhan tanaman:<Status_Up>Sedang</>)",
+          "LocalizedString": "(Peningkatan laju pertumbuhan tanaman:<Status_Up>Sedang</>)"
+        }
+      },
+      "FarmCropGrowupSpeed_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropGrowupSpeed_Rank_4_TextData",
+          "SourceString": "(Peningkatan laju pertumbuhan tanaman:<Status_Up>Besar</>)",
+          "LocalizedString": "(Peningkatan laju pertumbuhan tanaman:<Status_Up>Besar</>)"
+        }
+      },
+      "FarmCropGrowupSpeed_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropGrowupSpeed_Rank_5_TextData",
+          "SourceString": "(Peningkatan laju pertumbuhan tanaman:<Status_Up>Sangat Besar</>)",
+          "LocalizedString": "(Peningkatan laju pertumbuhan tanaman:<Status_Up>Sangat Besar</>)"
+        }
+      },
+      "GriderPerformanceUp_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "GriderPerformanceUp_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "GriderPerformanceUp_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "GriderPerformanceUp_Rank_2_TextData",
+          "SourceString": "(Peningkatan performa luncur:<Status_Up>Kecil</>)",
+          "LocalizedString": "(Peningkatan performa luncur:<Status_Up>Kecil</>)"
+        }
+      },
+      "GriderPerformanceUp_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "GriderPerformanceUp_Rank_3_TextData",
+          "SourceString": "(Peningkatan performa luncur:<Status_Up>Sedang</>)",
+          "LocalizedString": "(Peningkatan performa luncur:<Status_Up>Sedang</>)"
+        }
+      },
+      "GriderPerformanceUp_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "GriderPerformanceUp_Rank_4_TextData",
+          "SourceString": "(Peningkatan performa luncur:<Status_Up>Besar</>)",
+          "LocalizedString": "(Peningkatan performa luncur:<Status_Up>Besar</>)"
+        }
+      },
+      "GriderPerformanceUp_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "GriderPerformanceUp_Rank_5_TextData",
+          "SourceString": "(Peningkatan performa luncur:<Status_Up>Sangat Besar</>)",
+          "LocalizedString": "(Peningkatan performa luncur:<Status_Up>Sangat Besar</>)"
+        }
+      },
+      "FarmCropHarvestNumRate_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropHarvestNumRate_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "FarmCropHarvestNumRate_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropHarvestNumRate_Rank_2_TextData",
+          "SourceString": "(Peningkatan hasil panen:<Status_Up>Kecil</>)",
+          "LocalizedString": "(Peningkatan hasil panen:<Status_Up>Kecil</>)"
+        }
+      },
+      "FarmCropHarvestNumRate_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropHarvestNumRate_Rank_3_TextData",
+          "SourceString": "(Peningkatan hasil panen:<Status_Up>Sedang</>)",
+          "LocalizedString": "(Peningkatan hasil panen:<Status_Up>Sedang</>)"
+        }
+      },
+      "FarmCropHarvestNumRate_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropHarvestNumRate_Rank_4_TextData",
+          "SourceString": "(Peningkatan hasil panen:<Status_Up>Besar</>)",
+          "LocalizedString": "(Peningkatan hasil panen:<Status_Up>Besar</>)"
+        }
+      },
+      "FarmCropHarvestNumRate_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropHarvestNumRate_Rank_5_TextData",
+          "SourceString": "(Peningkatan hasil panen:<Status_Up>Sangat Besar</>)",
+          "LocalizedString": "(Peningkatan hasil panen:<Status_Up>Sangat Besar</>)"
+        }
+      },
+      "ElementBoost_Neutral_Dark_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Neutral_Dark_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "ElementBoost_Neutral_Dark_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Neutral_Dark_Rank_2_TextData",
+          "SourceString": "(Peningkatan kekuatan serangan netral non-elemen dan elemen kegelapan:<Status_Up>Kecil</>)",
+          "LocalizedString": "(Peningkatan kekuatan serangan netral non-elemen dan elemen kegelapan:<Status_Up>Kecil</>)"
+        }
+      },
+      "ElementBoost_Neutral_Dark_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Neutral_Dark_Rank_3_TextData",
+          "SourceString": "(Peningkatan kekuatan serangan netral non-elemen dan elemen kegelapan:<Status_Up>Sedang</>)",
+          "LocalizedString": "(Peningkatan kekuatan serangan netral non-elemen dan elemen kegelapan:<Status_Up>Sedang</>)"
+        }
+      },
+      "ElementBoost_Neutral_Dark_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Neutral_Dark_Rank_4_TextData",
+          "SourceString": "(Peningkatan kekuatan serangan netral non-elemen dan elemen kegelapan:<Status_Up>Besar</>)",
+          "LocalizedString": "(Peningkatan kekuatan serangan netral non-elemen dan elemen kegelapan:<Status_Up>Besar</>)"
+        }
+      },
+      "ElementBoost_Neutral_Dark_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Neutral_Dark_Rank_5_TextData",
+          "SourceString": "(Peningkatan kekuatan serangan netral non-elemen dan elemen kegelapan:<Status_Up>Sangat Besar</>)",
+          "LocalizedString": "(Peningkatan kekuatan serangan netral non-elemen dan elemen kegelapan:<Status_Up>Sangat Besar</>)"
+        }
+      },
+      "Funnel_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Funnel_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "Funnel_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Funnel_Rank_2_TextData",
+          "SourceString": "(Peningkatan Pengejaran:<Status_Up>Kecil</>)",
+          "LocalizedString": "(Peningkatan Pengejaran:<Status_Up>Kecil</>)"
+        }
+      },
+      "Funnel_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Funnel_Rank_3_TextData",
+          "SourceString": "(Peningkatan Pengejaran:<Status_Up>Sedang</>)",
+          "LocalizedString": "(Peningkatan Pengejaran:<Status_Up>Sedang</>)"
+        }
+      },
+      "Funnel_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Funnel_Rank_4_TextData",
+          "SourceString": "(Peningkatan Pengejaran:<Status_Up>Besar</>)",
+          "LocalizedString": "(Peningkatan Pengejaran:<Status_Up>Besar</>)"
+        }
+      },
+      "Funnel_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Funnel_Rank_5_TextData",
+          "SourceString": "(Peningkatan Pengejaran:<Status_Up>Sangat Besar</>)",
+          "LocalizedString": "(Peningkatan Pengejaran:<Status_Up>Sangat Besar</>)"
+        }
+      },
+      "DamageUp_CooldownReduction_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_CooldownReduction_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "DamageUp_CooldownReduction_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_CooldownReduction_Rank_2_TextData",
+          "SourceString": "(Peningkatan dampak serangan dan pengurangan waktu tunggu:<Status_Up>Kecil</>)",
+          "LocalizedString": "(Peningkatan dampak serangan dan pengurangan waktu tunggu:<Status_Up>Kecil</>)"
+        }
+      },
+      "DamageUp_CooldownReduction_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_CooldownReduction_Rank_3_TextData",
+          "SourceString": "(Peningkatan dampak serangan dan pengurangan waktu tunggu:<Status_Up>Sedang</>)",
+          "LocalizedString": "(Peningkatan dampak serangan dan pengurangan waktu tunggu:<Status_Up>Sedang</>)"
+        }
+      },
+      "DamageUp_CooldownReduction_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_CooldownReduction_Rank_4_TextData",
+          "SourceString": "(Peningkatan dampak serangan dan pengurangan waktu tunggu:<Status_Up>Besar</>)",
+          "LocalizedString": "(Peningkatan dampak serangan dan pengurangan waktu tunggu:<Status_Up>Besar</>)"
+        }
+      },
+      "DamageUp_CooldownReduction_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_CooldownReduction_Rank_5_TextData",
+          "SourceString": "(Peningkatan dampak serangan dan pengurangan waktu tunggu:<Status_Up>Sangat Besar</>)",
+          "LocalizedString": "(Peningkatan dampak serangan dan pengurangan waktu tunggu:<Status_Up>Sangat Besar</>)"
+        }
+      },
+      "Talent_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Talent_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "Talent_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Talent_Rank_2_TextData",
+          "SourceString": "(Peningkatan peluang penangkapan Pal berbakat:<Status_Up>Kecil</>)",
+          "LocalizedString": "(Peningkatan peluang penangkapan Pal berbakat:<Status_Up>Kecil</>)"
+        }
+      },
+      "Talent_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Talent_Rank_3_TextData",
+          "SourceString": "(Peningkatan peluang penangkapan Pal berbakat:<Status_Up>Sedang</>)",
+          "LocalizedString": "(Peningkatan peluang penangkapan Pal berbakat:<Status_Up>Sedang</>)"
+        }
+      },
+      "Talent_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Talent_Rank_4_TextData",
+          "SourceString": "(Peningkatan peluang penangkapan Pal berbakat:<Status_Up>Besar</>)",
+          "LocalizedString": "(Peningkatan peluang penangkapan Pal berbakat:<Status_Up>Besar</>)"
+        }
+      },
+      "Talent_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Talent_Rank_5_TextData",
+          "SourceString": "(Peningkatan peluang penangkapan Pal berbakat:<Status_Up>Sangat Besar</>)",
+          "LocalizedString": "(Peningkatan peluang penangkapan Pal berbakat:<Status_Up>Sangat Besar</>)"
+        }
+      },
+      "StealthTime_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "StealthTime_Rank_1_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "StealthTime_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "StealthTime_Rank_2_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "StealthTime_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "StealthTime_Rank_3_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "StealthTime_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "StealthTime_Rank_4_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "StealthTime_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "StealthTime_Rank_5_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "ShortDashSpeed_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeed_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "ShortDashSpeed_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeed_Rank_2_TextData",
+          "SourceString": "(Peningkatan kecepatan terjangan:<Status_Up>Kecil</>)",
+          "LocalizedString": "(Peningkatan kecepatan terjangan:<Status_Up>Kecil</>)"
+        }
+      },
+      "ShortDashSpeed_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeed_Rank_3_TextData",
+          "SourceString": "(Peningkatan kecepatan terjangan:<Status_Up>Sedang</>)",
+          "LocalizedString": "(Peningkatan kecepatan terjangan:<Status_Up>Sedang</>)"
+        }
+      },
+      "ShortDashSpeed_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeed_Rank_4_TextData",
+          "SourceString": "(Peningkatan kecepatan terjangan:<Status_Up>Besar</>)",
+          "LocalizedString": "(Peningkatan kecepatan terjangan:<Status_Up>Besar</>)"
+        }
+      },
+      "ShortDashSpeed_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeed_Rank_5_TextData",
+          "SourceString": "(Peningkatan kecepatan terjangan:<Status_Up>Sangat Besar</>)",
+          "LocalizedString": "(Peningkatan kecepatan terjangan:<Status_Up>Sangat Besar</>)"
+        }
+      },
+      "ShortDashSpeedCoolTime_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeedCoolTime_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "ShortDashSpeedCoolTime_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeedCoolTime_Rank_2_TextData",
+          "SourceString": "(Peningkatan kecepatan lari cepat dan pengurangan waktu tunggu:<Status_Up>Kecil</>)",
+          "LocalizedString": "(Peningkatan kecepatan lari cepat dan pengurangan waktu tunggu:<Status_Up>Kecil</>)"
+        }
+      },
+      "ShortDashSpeedCoolTime_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeedCoolTime_Rank_3_TextData",
+          "SourceString": "(Peningkatan kecepatan lari cepat dan pengurangan waktu tunggu:<Status_Up>Sedang</>)",
+          "LocalizedString": "(Peningkatan kecepatan lari cepat dan pengurangan waktu tunggu:<Status_Up>Sedang</>)"
+        }
+      },
+      "ShortDashSpeedCoolTime_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeedCoolTime_Rank_4_TextData",
+          "SourceString": "(Peningkatan kecepatan lari cepat dan pengurangan waktu tunggu:<Status_Up>Besar</>)",
+          "LocalizedString": "(Peningkatan kecepatan lari cepat dan pengurangan waktu tunggu:<Status_Up>Besar</>)"
+        }
+      },
+      "ShortDashSpeedCoolTime_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeedCoolTime_Rank_5_TextData",
+          "SourceString": "(Peningkatan kecepatan lari cepat dan pengurangan waktu tunggu:<Status_Up>Sangat Besar</>)",
+          "LocalizedString": "(Peningkatan kecepatan lari cepat dan pengurangan waktu tunggu:<Status_Up>Sangat Besar</>)"
+        }
+      },
+      "Waza_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Waza_Rank_1_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "Waza_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Waza_Rank_2_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "Waza_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Waza_Rank_3_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "Waza_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Waza_Rank_4_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "Waza_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Waza_Rank_5_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "CaptureRate_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CaptureRate_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "CaptureRate_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CaptureRate_Rank_2_TextData",
+          "SourceString": "(Peningkatan peluang keberhasilan penangkapan: <Status_Up>Kecil</>)",
+          "LocalizedString": "(Peningkatan peluang keberhasilan penangkapan: <Status_Up>Kecil</>)"
+        }
+      },
+      "CaptureRate_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CaptureRate_Rank_3_TextData",
+          "SourceString": "(Peningkatan peluang keberhasilan penangkapan: <Status_Up>Sedang</>)",
+          "LocalizedString": "(Peningkatan peluang keberhasilan penangkapan: <Status_Up>Sedang</>)"
+        }
+      },
+      "CaptureRate_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CaptureRate_Rank_4_TextData",
+          "SourceString": "(Peningkatan peluang keberhasilan penangkapan: <Status_Up>Besar</>)",
+          "LocalizedString": "(Peningkatan peluang keberhasilan penangkapan: <Status_Up>Besar</>)"
+        }
+      },
+      "CaptureRate_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CaptureRate_Rank_5_TextData",
+          "SourceString": "(Peningkatan peluang keberhasilan penangkapan: <Status_Up>Sangat Besar</>)",
+          "LocalizedString": "(Peningkatan peluang keberhasilan penangkapan: <Status_Up>Sangat Besar</>)"
+        }
+      },
+      "EnemySightRate_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "EnemySightRate_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "EnemySightRate_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "EnemySightRate_Rank_2_TextData",
+          "SourceString": "(Peningkatan kesulitan ditemukan: <Status_Up>Kecil</>)",
+          "LocalizedString": "(Peningkatan kesulitan ditemukan: <Status_Up>Kecil</>)"
+        }
+      },
+      "EnemySightRate_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "EnemySightRate_Rank_3_TextData",
+          "SourceString": "(Peningkatan kesulitan ditemukan: <Status_Up>Sedang</>)",
+          "LocalizedString": "(Peningkatan kesulitan ditemukan: <Status_Up>Sedang</>)"
+        }
+      },
+      "EnemySightRate_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "EnemySightRate_Rank_4_TextData",
+          "SourceString": "(Peningkatan kesulitan ditemukan: <Status_Up>Besar</>)",
+          "LocalizedString": "(Peningkatan kesulitan ditemukan: <Status_Up>Besar</>)"
+        }
+      },
+      "EnemySightRate_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "EnemySightRate_Rank_5_TextData",
+          "SourceString": "(Peningkatan kesulitan ditemukan: <Status_Up>Sangat Besar</>)",
+          "LocalizedString": "(Peningkatan kesulitan ditemukan: <Status_Up>Sangat Besar</>)"
+        }
+      },
+      "SearchAreaCoolTime_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SearchAreaCoolTime_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "SearchAreaCoolTime_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SearchAreaCoolTime_Rank_2_TextData",
+          "SourceString": "(Peningkatan jangkauan deteksi・Pengurangan waktu cooldown: <Status_Up>Kecil</>)",
+          "LocalizedString": "(Peningkatan jangkauan deteksi・Pengurangan waktu cooldown: <Status_Up>Kecil</>)"
+        }
+      },
+      "SearchAreaCoolTime_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SearchAreaCoolTime_Rank_3_TextData",
+          "SourceString": "(Peningkatan jangkauan deteksi・Pengurangan waktu cooldown: <Status_Up>Sedang</>)",
+          "LocalizedString": "(Peningkatan jangkauan deteksi・Pengurangan waktu cooldown: <Status_Up>Sedang</>)"
+        }
+      },
+      "SearchAreaCoolTime_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SearchAreaCoolTime_Rank_4_TextData",
+          "SourceString": "(Peningkatan jangkauan deteksi・Pengurangan waktu cooldown: <Status_Up>Besar</>)",
+          "LocalizedString": "(Peningkatan jangkauan deteksi・Pengurangan waktu cooldown: <Status_Up>Besar</>)"
+        }
+      },
+      "SearchAreaCoolTime_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SearchAreaCoolTime_Rank_5_TextData",
+          "SourceString": "(Peningkatan jangkauan deteksi・Pengurangan waktu cooldown: <Status_Up>Sangat Besar</>)",
+          "LocalizedString": "(Peningkatan jangkauan deteksi・Pengurangan waktu cooldown: <Status_Up>Sangat Besar</>)"
+        }
+      }
+    }
+  }
+]

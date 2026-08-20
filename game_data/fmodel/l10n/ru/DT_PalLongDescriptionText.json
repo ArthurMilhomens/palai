@@ -1,0 +1,2496 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_PalLongDescriptionText",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "PAL_LONG_DESC_Alpaca": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Alpaca_TextData",
+          "SourceString": "Не дайте пушистому виду себя обмануть.\r\nСуперскоростной удар его длинных ног —\r\nи вы окажетесь на другой стороне планеты.",
+          "LocalizedString": "Не дайте пушистому виду себя обмануть.\r\nСуперскоростной удар его длинных ног —\r\nи вы окажетесь на другой стороне планеты."
+        }
+      },
+      "PAL_LONG_DESC_AmaterasuWolf": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_AmaterasuWolf_TextData",
+          "SourceString": "Обладает чрезвычайно чувствительным характером.\r\nСтоит случиться чему-то неприятному — и он скрывается в пещере.\r\nВ древности люди верили: если <characterName id=|AmaterasuWolf|/> исчез, беда не за горами.",
+          "LocalizedString": "Обладает чрезвычайно чувствительным характером.\r\nСтоит случиться чему-то неприятному — и он скрывается в пещере.\r\nВ древности люди верили: если <characterName id=|AmaterasuWolf|/> исчез, беда не за горами."
+        }
+      },
+      "PAL_LONG_DESC_AmaterasuWolf_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_AmaterasuWolf_Dark_TextData",
+          "SourceString": "Обладает чрезвычайно чувствительным характером.\r\nСтоит случиться чему-то неприятному — и он скрывается в пещере.\r\nОт постоянного уединения он стал каким-то мрачным.",
+          "LocalizedString": "Обладает чрезвычайно чувствительным характером.\r\nСтоит случиться чему-то неприятному — и он скрывается в пещере.\r\nОт постоянного уединения он стал каким-то мрачным."
+        }
+      },
+      "PAL_LONG_DESC_Anubis": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Anubis_TextData",
+          "SourceString": "Благодаря своему облику он некогда считался символом знатности.\r\nДля тех, кто ненавидел богатство и власть, он стал удобной мишенью.\r\nСо временем <characterName id=|Anubis|/> превратился в символ смерти.",
+          "LocalizedString": "Благодаря своему облику он некогда считался символом знатности.\r\nДля тех, кто ненавидел богатство и власть, он стал удобной мишенью.\r\nСо временем <characterName id=|Anubis|/> превратился в символ смерти."
+        }
+      },
+      "PAL_LONG_DESC_BadCatgirl": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BadCatgirl_TextData",
+          "SourceString": "Очень не любит, когда кто-то смотрит ему в глаза.\r\nСтоит лишь уставиться — он тут же расплачется\r\nи ещё пару недель будет тебя игнорировать.",
+          "LocalizedString": "Очень не любит, когда кто-то смотрит ему в глаза.\r\nСтоит лишь уставиться — он тут же расплачется\r\nи ещё пару недель будет тебя игнорировать."
+        }
+      },
+      "PAL_LONG_DESC_Baphomet": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Baphomet_TextData",
+          "SourceString": "По ночам он хватает добычу и тащит её в своё логово.\r\nНетрудно представить, через что придётся пройти попавшимся Палам.",
+          "LocalizedString": "По ночам он хватает добычу и тащит её в своё логово.\r\nНетрудно представить, через что придётся пройти попавшимся Палам."
+        }
+      },
+      "PAL_LONG_DESC_Baphomet_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Baphomet_Dark_TextData",
+          "SourceString": "Целенаправленно охотится на детёнышей Палов, утаскивая их в своё логово.\r\nНетрудно представить, в какое отчаяние впадают их родители.",
+          "LocalizedString": "Целенаправленно охотится на детёнышей Палов, утаскивая их в своё логово.\r\nНетрудно представить, в какое отчаяние впадают их родители."
+        }
+      },
+      "PAL_LONG_DESC_Bastet": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Bastet_TextData",
+          "SourceString": "Хвост <characterName id=|Bastet|/> остаётся твёрдым даже после отделения.\r\nИз-за суеверия, будто он приносит богатство,\r\nмногие из них напрасно отдали свои жизни.",
+          "LocalizedString": "Хвост <characterName id=|Bastet|/> остаётся твёрдым даже после отделения.\r\nИз-за суеверия, будто он приносит богатство,\r\nмногие из них напрасно отдали свои жизни."
+        }
+      },
+      "PAL_LONG_DESC_Bastet_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Bastet_Ice_TextData",
+          "SourceString": "Кристальный хвост этого Пала необычайно красив,\r\nно с его смертью рассыпается в прах.\r\nИз-за суеверия, будто несколько таких Палов приносят удачу,\r\n<characterName id=|Bastet_Ice|/> держали с особой заботой.",
+          "LocalizedString": "Кристальный хвост этого Пала необычайно красив,\r\nно с его смертью рассыпается в прах.\r\nИз-за суеверия, будто несколько таких Палов приносят удачу,\r\n<characterName id=|Bastet_Ice|/> держали с особой заботой."
+        }
+      },
+      "PAL_LONG_DESC_BeardedDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BeardedDragon_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "PAL_LONG_DESC_BerryGoat": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BerryGoat_TextData",
+          "SourceString": "Если Пал не голодает, в зарослях на его спине созревают ягоды.\r\nОн угощает ими понравившегося Пала,\r\nи если угощение придётся по вкусу — образуется пара.",
+          "LocalizedString": "Если Пал не голодает, в зарослях на его спине созревают ягоды.\r\nОн угощает ими понравившегося Пала,\r\nи если угощение придётся по вкусу — образуется пара."
+        }
+      },
+      "PAL_LONG_DESC_BerryGoat_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BerryGoat_Dark_TextData",
+          "SourceString": "Вкус ягод, растущих в зарослях на спине, меняется в зависимости от душевного состояния.\r\nЧем суровее условия, в которых он вырос, тем слаще становится ягода.\r\nПоэтому многие <characterName id=|BerryGoat_Dark|/>, выращенные в неволе, так и не познали любви.",
+          "LocalizedString": "Вкус ягод, растущих в зарослях на спине, меняется в зависимости от душевного состояния.\r\nЧем суровее условия, в которых он вырос, тем слаще становится ягода.\r\nПоэтому многие <characterName id=|BerryGoat_Dark|/>, выращенные в неволе, так и не познали любви."
+        }
+      },
+      "PAL_LONG_DESC_BirdDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BirdDragon_TextData",
+          "SourceString": "Говорят, что звук флейты, сделанной из экзоскелета <characterName id=|BirdDragon|/>, \r\nслышен за пределами тысячи гор.\r\nВ древности она использовалась как сигнал к началу атаки во время сражений.",
+          "LocalizedString": "Говорят, что звук флейты, сделанной из экзоскелета <characterName id=|BirdDragon|/>, \r\nслышен за пределами тысячи гор.\r\nВ древности она использовалась как сигнал к началу атаки во время сражений."
+        }
+      },
+      "PAL_LONG_DESC_BirdDragon_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BirdDragon_Ice_TextData",
+          "SourceString": "Говорят, что звук флейты, сделанной из экзоскелета <characterName id=|BirdDragon_Ice|/>, \r\nслышен за пределами тысячи гор.\r\nВ древности её использовали как победный клич после сражений.",
+          "LocalizedString": "Говорят, что звук флейты, сделанной из экзоскелета <characterName id=|BirdDragon_Ice|/>, \r\nслышен за пределами тысячи гор.\r\nВ древности её использовали как победный клич после сражений."
+        }
+      },
+      "PAL_LONG_DESC_BlackCentaur": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BlackCentaur_TextData",
+          "SourceString": "Некогда этот Пал и <characterName id=|SaintCentaur|/> были единым существом.\r\nСчитается, что он — воплощение отделившихся негативных эмоций,\r\nоднако в глубине его глаз теплятся едва заметные угольки сострадания.",
+          "LocalizedString": "Некогда этот Пал и <characterName id=|SaintCentaur|/> были единым существом.\r\nСчитается, что он — воплощение отделившихся негативных эмоций,\r\nоднако в глубине его глаз теплятся едва заметные угольки сострадания."
+        }
+      },
+      "PAL_LONG_DESC_BlackFurDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BlackFurDragon_TextData",
+          "SourceString": "Дитя бездны, само безмолвие.\r\nНа спину этого зверя не смей взойти.\r\nК этому зверю не смей взывать.",
+          "LocalizedString": "Дитя бездны, само безмолвие.\r\nНа спину этого зверя не смей взойти.\r\nК этому зверю не смей взывать."
+        }
+      },
+      "PAL_LONG_DESC_BlackGriffon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BlackGriffon_TextData",
+          "SourceString": "Порождённый безумием, запретный, извращённый облик.\r\nЕго генетическая связь с другими Палами исчезла —\r\nвозможно, он уже вышел за пределы самого понятия Пал.",
+          "LocalizedString": "Порождённый безумием, запретный, извращённый облик.\r\nЕго генетическая связь с другими Палами исчезла —\r\nвозможно, он уже вышел за пределы самого понятия Пал."
+        }
+      },
+      "PAL_LONG_DESC_BlackMetalDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BlackMetalDragon_TextData",
+          "SourceString": "Дитя бездны, воплощение ярости.\r\nПеред этим зверем не смей стоять.\r\nГолосу зверя не смей внимать.",
+          "LocalizedString": "Дитя бездны, воплощение ярости.\r\nПеред этим зверем не смей стоять.\r\nГолосу зверя не смей внимать."
+        }
+      },
+      "PAL_LONG_DESC_BlackPuppy": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BlackPuppy_TextData",
+          "SourceString": "Чёрное пламя на ощупь лишь слегка тёплое,\r\nно всё, что касается его слишком долго, медленно плавится изнутри.\r\nСтоит лишь поднести кусок сыра — получается настоящий деликатес.",
+          "LocalizedString": "Чёрное пламя на ощупь лишь слегка тёплое,\r\nно всё, что касается его слишком долго, медленно плавится изнутри.\r\nСтоит лишь поднести кусок сыра — получается настоящий деликатес."
+        }
+      },
+      "PAL_LONG_DESC_BlackPuppy_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BlackPuppy_Ice_TextData",
+          "SourceString": "Бледно-голубое пламя на ощупь лишь немного холодное,\r\nно всё, что касается его слишком долго, медленно замерзает.\r\nСтоит лишь поднести бутылку молока — получается замороженное молоко!",
+          "LocalizedString": "Бледно-голубое пламя на ощупь лишь немного холодное,\r\nно всё, что касается его слишком долго, медленно замерзает.\r\nСтоит лишь поднести бутылку молока — получается замороженное молоко!"
+        }
+      },
+      "PAL_LONG_DESC_BlueberryFairy": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BlueberryFairy_TextData",
+          "SourceString": "Обладают умом и благородными манерами,\r\nпоэтому их нередко брали в прислугу знатные островитяне.\r\nОднако встретив такого ночью, можно ужаснуться —\r\nи популярность быстро сошла на нет.",
+          "LocalizedString": "Обладают умом и благородными манерами,\r\nпоэтому их нередко брали в прислугу знатные островитяне.\r\nОднако встретив такого ночью, можно ужаснуться —\r\nи популярность быстро сошла на нет."
+        }
+      },
+      "PAL_LONG_DESC_BlueDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BlueDragon_TextData",
+          "SourceString": "Его белый пояс темнеет при контакте с нечистой водой —\r\nтак можно выявить наличие яда.\r\nВ прошлом из-за этого его массово отлавливали,\r\nпоэтому он до сих пор не питает симпатии к людям.",
+          "LocalizedString": "Его белый пояс темнеет при контакте с нечистой водой —\r\nтак можно выявить наличие яда.\r\nВ прошлом из-за этого его массово отлавливали,\r\nпоэтому он до сих пор не питает симпатии к людям."
+        }
+      },
+      "PAL_LONG_DESC_BluePlatypus": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BluePlatypus_TextData",
+          "SourceString": "Этот Пал может производить воду и создавать волну в любом месте.\r\nКогда спешит, он передвигается на боди-сёрфинге.\r\nНа пике энтузиазма он часто врезается в стены и погибает.",
+          "LocalizedString": "Этот Пал может производить воду и создавать волну в любом месте.\r\nКогда спешит, он передвигается на боди-сёрфинге.\r\nНа пике энтузиазма он часто врезается в стены и погибает."
+        }
+      },
+      "PAL_LONG_DESC_BlueThunderHorse": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BlueThunderHorse_TextData",
+          "SourceString": "Считалось, что он, как и <characterName id=|Kirin|/>, связан с богом грома.\r\nПосле того как вера в <characterName id=|Kirin|/> пришла в упадок,\r\nименно <characterName id=|BlueThunderHorse|/> стали считать истинным посланником божества.\r\nНо со временем и его постигла та же участь — тягловой лошади.",
+          "LocalizedString": "Считалось, что он, как и <characterName id=|Kirin|/>, связан с богом грома.\r\nПосле того как вера в <characterName id=|Kirin|/> пришла в упадок,\r\nименно <characterName id=|BlueThunderHorse|/> стали считать истинным посланником божества.\r\nНо со временем и его постигла та же участь — тягловой лошади."
+        }
+      },
+      "PAL_LONG_DESC_Boar": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Boar_TextData",
+          "SourceString": "Крайне задирист, лезет в драку,\r\nне подумав, кто перед ним.\r\nНесмотря на крошечный рост,\r\nего натиск способен снести даже валун.",
+          "LocalizedString": "Крайне задирист, лезет в драку,\r\nне подумав, кто перед ним.\r\nНесмотря на крошечный рост,\r\nего натиск способен снести даже валун."
+        }
+      },
+      "PAL_LONG_DESC_BrownRabbit": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BrownRabbit_TextData",
+          "SourceString": "Прислушивается к голосу земли и, избегая неустойчивой почвы, бежит вперёд.\r\nНо если с почвой не ладит, часто теряет равновесие и падает.",
+          "LocalizedString": "Прислушивается к голосу земли и, избегая неустойчивой почвы, бежит вперёд.\r\nНо если с почвой не ладит, часто теряет равновесие и падает."
+        }
+      },
+      "PAL_LONG_DESC_CandleGhost": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CandleGhost_TextData",
+          "SourceString": "Раньше верили, что по мере приближения конца света пламя слабеет.\r\nКаждый раз, когда оно заметно угасало, сторонники апокалипсиса поднимали панику.\r\nНо в конце концов оказалось, что это всего лишь выходки <characterName id=|CandleGhost|/>.\r\nПо крайней мере, пока что.",
+          "LocalizedString": "Раньше верили, что по мере приближения конца света пламя слабеет.\r\nКаждый раз, когда оно заметно угасало, сторонники апокалипсиса поднимали панику.\r\nНо в конце концов оказалось, что это всего лишь выходки <characterName id=|CandleGhost|/>.\r\nПо крайней мере, пока что."
+        }
+      },
+      "PAL_LONG_DESC_CaptainPenguin": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CaptainPenguin_TextData",
+          "SourceString": "На самом деле, у него почти нет ничего общего с <characterName id=|Penguin|/>.\r\nНо раз уж его обожают просто так —\r\nон пока что изо всех сил старается выглядеть важным.",
+          "LocalizedString": "На самом деле, у него почти нет ничего общего с <characterName id=|Penguin|/>.\r\nНо раз уж его обожают просто так —\r\nон пока что изо всех сил старается выглядеть важным."
+        }
+      },
+      "PAL_LONG_DESC_Carbunclo": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Carbunclo_TextData",
+          "SourceString": "Его интеллект соответствует уровню 5-7 лет. \r\nПодходит для роли партнера, но были зафиксированы случаи, \r\nкогда особи, обученные обращаться с оружием, убивали своих хозяев.",
+          "LocalizedString": "Его интеллект соответствует уровню 5-7 лет. \r\nПодходит для роли партнера, но были зафиксированы случаи, \r\nкогда особи, обученные обращаться с оружием, убивали своих хозяев."
+        }
+      },
+      "PAL_LONG_DESC_CatBat": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CatBat_TextData",
+          "SourceString": "Любит внезапно появиться перед другими Палами\r\nи красоваться, самодовольно распахнув свои крылья.\r\nСчитается, что это один из способов устрашения,\r\nно при этом в выражении его лица сквозит восторг.",
+          "LocalizedString": "Любит внезапно появиться перед другими Палами\r\nи красоваться, самодовольно распахнув свои крылья.\r\nСчитается, что это один из способов устрашения,\r\nно при этом в выражении его лица сквозит восторг."
+        }
+      },
+      "PAL_LONG_DESC_CatMage": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CatMage_TextData",
+          "SourceString": "Управляет тёмной силой и творит странные заклинания.\r\nЛюбую еду предпочитает есть сырой.\r\nПлохо ладит с <characterName id=|FoxMage|/>.",
+          "LocalizedString": "Управляет тёмной силой и творит странные заклинания.\r\nЛюбую еду предпочитает есть сырой.\r\nПлохо ладит с <characterName id=|FoxMage|/>."
+        }
+      },
+      "PAL_LONG_DESC_CatMage_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CatMage_Fire_TextData",
+          "SourceString": "Благодаря воспитанию родителей он перестал обращать внимание на такие мелочи, \r\nкак сырая еда или нет.\r\nПредпочитает острую пищу.\r\nПлохо ладит с <characterName id=|FoxMage_Dark|/>.",
+          "LocalizedString": "Благодаря воспитанию родителей он перестал обращать внимание на такие мелочи, \r\nкак сырая еда или нет.\r\nПредпочитает острую пищу.\r\nПлохо ладит с <characterName id=|FoxMage_Dark|/>."
+        }
+      },
+      "PAL_LONG_DESC_CatVampire": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CatVampire_TextData",
+          "SourceString": "Нападает на добычу из сумрака, накрывая ее\r\nсвоими подобными плащу крыльями.\r\nЧто происходит под ними и почему внутренняя\r\nсторона его крыльев красная - лучше и не знать.",
+          "LocalizedString": "Нападает на добычу из сумрака, накрывая ее\r\nсвоими подобными плащу крыльями.\r\nЧто происходит под ними и почему внутренняя\r\nсторона его крыльев красная - лучше и не знать."
+        }
+      },
+      "PAL_LONG_DESC_ChickenPal": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ChickenPal_TextData",
+          "SourceString": "Черезвычайно слаб, но при этом невероятно вкусен. \r\nВместе с <characterName id=|SheepBall|/> он является одним из самых слабых Палов. \r\nНезависимо от того, сколько бы ты на них ни охотился, они продолжают появляться снова и снова.",
+          "LocalizedString": "Черезвычайно слаб, но при этом невероятно вкусен. \r\nВместе с <characterName id=|SheepBall|/> он является одним из самых слабых Палов. \r\nНезависимо от того, сколько бы ты на них ни охотился, они продолжают появляться снова и снова."
+        }
+      },
+      "PAL_LONG_DESC_ColorfulBird": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ColorfulBird_TextData",
+          "SourceString": "Грозный Пал, несущий взрывоопасные яйца.\r\nОбычно пускает их из-под хвоста как снаряды,\r\nно если совсем прижмёт — с грохотом взрывается сам.",
+          "LocalizedString": "Грозный Пал, несущий взрывоопасные яйца.\r\nОбычно пускает их из-под хвоста как снаряды,\r\nно если совсем прижмёт — с грохотом взрывается сам."
+        }
+      },
+      "PAL_LONG_DESC_CowPal": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CowPal_TextData",
+          "SourceString": "Молоко хлещет, как из крана, даже без особого ухода.\r\nМужские особи тоже дают молоко.\r\nЗагадка природы, не иначе.",
+          "LocalizedString": "Молоко хлещет, как из крана, даже без особого ухода.\r\nМужские особи тоже дают молоко.\r\nЗагадка природы, не иначе."
+        }
+      },
+      "PAL_LONG_DESC_CuteButterfly": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CuteButterfly_TextData",
+          "SourceString": "Вдыхая чешуйки с его крыльев, можно испытать блаженство, словно возносишься к небесам.\r\nХотя предпринимаются меры по усилению контроля, \r\nони буксуют из-за сопротивления Организации по Защите Палов.",
+          "LocalizedString": "Вдыхая чешуйки с его крыльев, можно испытать блаженство, словно возносишься к небесам.\r\nХотя предпринимаются меры по усилению контроля, \r\nони буксуют из-за сопротивления Организации по Защите Палов."
+        }
+      },
+      "PAL_LONG_DESC_CuteFox": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CuteFox_TextData",
+          "SourceString": "Звезда острова Палпагос.\r\nТот, кто обидит <characterName id=|CuteFox|/>,\r\nнаживёт себе врагов во всём мире.",
+          "LocalizedString": "Звезда острова Палпагос.\r\nТот, кто обидит <characterName id=|CuteFox|/>,\r\nнаживёт себе врагов во всём мире."
+        }
+      },
+      "PAL_LONG_DESC_CuteMole": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CuteMole_TextData",
+          "SourceString": "Большие когти этого Пала прочны, как алмаз,\r\nно на их заточку он тратит почти всю свою энергию.\r\nИногда это всё, что он успевает сделать за день.",
+          "LocalizedString": "Большие когти этого Пала прочны, как алмаз,\r\nно на их заточку он тратит почти всю свою энергию.\r\nИногда это всё, что он успевает сделать за день."
+        }
+      },
+      "PAL_LONG_DESC_DarkAlien": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_DarkAlien_TextData",
+          "SourceString": "Преобразует информацию в энергию, отправляя её и затем забывая.\r\nПохоже, он регулярно передаёт данные кому-то…\r\n- Ответьте. Цель обнаружена. Срочно приступить к уничтожению.",
+          "LocalizedString": "Преобразует информацию в энергию, отправляя её и затем забывая.\r\nПохоже, он регулярно передаёт данные кому-то…\r\n- Ответьте. Цель обнаружена. Срочно приступить к уничтожению."
+        }
+      },
+      "PAL_LONG_DESC_DarkCrow": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_DarkCrow_TextData",
+          "SourceString": "Когда-то они свободно парили в небе,\r\nно потерпели поражение в соперничестве с <characterName id=|Eagle|/>\r\nи отказались от неба, перейдя к ночному образу жизни.",
+          "LocalizedString": "Когда-то они свободно парили в небе,\r\nно потерпели поражение в соперничестве с <characterName id=|Eagle|/>\r\nи отказались от неба, перейдя к ночному образу жизни."
+        }
+      },
+      "PAL_LONG_DESC_DarkMechaDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_DarkMechaDragon_TextData",
+          "SourceString": "- Прибытие на место подтверждено. Приоритет: поиск объекта |Метеоритный дракон|.\r\n- Примечание: крайний срок подавления истёк <://Error_Code:146DC> лет назад.\r\n- Добавлено: следов подавления не обнаружено. Натурализация подтверждена. Начать ликвидацию.\r\n- Служебное сообщение: не забывайте и не поедайте важную информацию!",
+          "LocalizedString": "- Прибытие на место подтверждено. Приоритет: поиск объекта |Метеоритный дракон|.\r\n- Примечание: крайний срок подавления истёк <://Error_Code:146DC> лет назад.\r\n- Добавлено: следов подавления не обнаружено. Натурализация подтверждена. Начать ликвидацию.\r\n- Служебное сообщение: не забывайте и не поедайте важную информацию!"
+        }
+      },
+      "PAL_LONG_DESC_DarkMutant": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_DarkMutant_TextData",
+          "SourceString": "Говорят, что <characterName id=|DarkMutant|/> одним взмахом\r\nоткрывает разломы в пространстве, разрывая\r\nдаже границы измерений. Существует теория,\r\nчто некоторые Палы появились из этих разломов.",
+          "LocalizedString": "Говорят, что <characterName id=|DarkMutant|/> одним взмахом\r\nоткрывает разломы в пространстве, разрывая\r\nдаже границы измерений. Существует теория,\r\nчто некоторые Палы появились из этих разломов."
+        }
+      },
+      "PAL_LONG_DESC_DarkScorpion": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_DarkScorpion_TextData",
+          "SourceString": "Его тело — чистый сгусток энергии, а внутри — пустота. \r\nОн живьём заталкивает свою добычу в панцирь и поглощает её. \r\nАдские стоны заполняют окрестности.",
+          "LocalizedString": "Его тело — чистый сгусток энергии, а внутри — пустота. \r\nОн живьём заталкивает свою добычу в панцирь и поглощает её. \r\nАдские стоны заполняют окрестности."
+        }
+      },
+      "PAL_LONG_DESC_DarkScorpion_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_DarkScorpion_Ground_TextData",
+          "SourceString": "Их настоящее тело — сгусток энергии, а внутри лишь пустота.\r\nНаполняя свой панцирь землёй и минералами, они приобретают колоссальную массу.\r\nТот, кто попадёт под их удар, может лишь стонать, словно в аду.",
+          "LocalizedString": "Их настоящее тело — сгусток энергии, а внутри лишь пустота.\r\nНаполняя свой панцирь землёй и минералами, они приобретают колоссальную массу.\r\nТот, кто попадёт под их удар, может лишь стонать, словно в аду."
+        }
+      },
+      "PAL_LONG_DESC_Deer": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Deer_TextData",
+          "SourceString": "Особь с самыми величественными рогами становится вожаком.\r\nКогда ломаются рога — ломается и дух.\r\nИ тогда он покидает стаю и уходит умирать в место, где его никто не увидит.",
+          "LocalizedString": "Особь с самыми величественными рогами становится вожаком.\r\nКогда ломаются рога — ломается и дух.\r\nИ тогда он покидает стаю и уходит умирать в место, где его никто не увидит."
+        }
+      },
+      "PAL_LONG_DESC_Deer_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Deer_Ground_TextData",
+          "SourceString": "Вожаком становится тот, чьи рога самые крепкие.\r\nПотеряв их — теряет и право вести стаю.\r\nПод прощальные взгляды сородичей он уходит…\r\nи в тишине возвращается к земле.",
+          "LocalizedString": "Вожаком становится тот, чьи рога самые крепкие.\r\nПотеряв их — теряет и право вести стаю.\r\nПод прощальные взгляды сородичей он уходит…\r\nи в тишине возвращается к земле."
+        }
+      },
+      "PAL_LONG_DESC_DreamDemon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_DreamDemon_TextData",
+          "SourceString": "Погружает в глубокий сон того, кто ей по душе\r\nи дарит ему бесконечные счастливые сны.\r\nДо самой смерти он уже не проснётся.",
+          "LocalizedString": "Погружает в глубокий сон того, кто ей по душе\r\nи дарит ему бесконечные счастливые сны.\r\nДо самой смерти он уже не проснётся."
+        }
+      },
+      "PAL_LONG_DESC_DrillGame": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_DrillGame_TextData",
+          "SourceString": "|<characterName id=|DrillGame|/> и бур| — поучительная история\r\nо существе с непробиваемым панцирем и мощным буром,\r\nкоторое размышляет о природе противоречий.",
+          "LocalizedString": "|<characterName id=|DrillGame|/> и бур| — поучительная история\r\nо существе с непробиваемым панцирем и мощным буром,\r\nкоторое размышляет о природе противоречий."
+        }
+      },
+      "PAL_LONG_DESC_Eagle": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Eagle_TextData",
+          "SourceString": "Легко взлетает, даже схватив человека.\r\nНо стоит ему устать — он без жалости разжимает лапы,\r\nи случаи падений со смертельным исходом не прекращаются.",
+          "LocalizedString": "Легко взлетает, даже схватив человека.\r\nНо стоит ему устать — он без жалости разжимает лапы,\r\nи случаи падений со смертельным исходом не прекращаются."
+        }
+      },
+      "PAL_LONG_DESC_ElecCat": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ElecCat_TextData",
+          "SourceString": "В сезон засухи он становится раздражительным и всё время на взводе. \r\nДаже малейшее провоцирование может привести к большой драке, даже среди сородичей.",
+          "LocalizedString": "В сезон засухи он становится раздражительным и всё время на взводе. \r\nДаже малейшее провоцирование может привести к большой драке, даже среди сородичей."
+        }
+      },
+      "PAL_LONG_DESC_ElecLion": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ElecLion_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "PAL_LONG_DESC_ElecPanda": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ElecPanda_TextData",
+          "SourceString": "С широкой улыбкой и внушительным телосложением\r\nон становится послушным и преданным тем, кого признаёт напарником.\r\nНо стоит вложить ему в руки миниган — и он меняется на глазах.",
+          "LocalizedString": "С широкой улыбкой и внушительным телосложением\r\nон становится послушным и преданным тем, кого признаёт напарником.\r\nНо стоит вложить ему в руки миниган — и он меняется на глазах."
+        }
+      },
+      "PAL_LONG_DESC_FairyDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FairyDragon_TextData",
+          "SourceString": "Внешность этого Пала не обманчива — он сама наивность.\r\nВозможно, именно поэтому ему трудно отличить добро от зла,\r\nи злые люди нередко этим пользуются.",
+          "LocalizedString": "Внешность этого Пала не обманчива — он сама наивность.\r\nВозможно, именно поэтому ему трудно отличить добро от зла,\r\nи злые люди нередко этим пользуются."
+        }
+      },
+      "PAL_LONG_DESC_FairyDragon_Water": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FairyDragon_Water_TextData",
+          "SourceString": "Внешность этого Пала не обманчива — он сама наивность.\r\nВозможно, именно поэтому в его поступках нет злого умысла,\r\nи даже если он кого-то убьёт, это его нисколько не тронет.",
+          "LocalizedString": "Внешность этого Пала не обманчива — он сама наивность.\r\nВозможно, именно поэтому в его поступках нет злого умысла,\r\nи даже если он кого-то убьёт, это его нисколько не тронет."
+        }
+      },
+      "PAL_LONG_DESC_FeatherOstrich": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FeatherOstrich_TextData",
+          "SourceString": "Один шаг — и исчезает сомнение.\r\nВторой шаг — и уходит тревога.\r\nТретий шаг — и забывается страх.\r\nПосле этого — им по силам любой враг.",
+          "LocalizedString": "Один шаг — и исчезает сомнение.\r\nВторой шаг — и уходит тревога.\r\nТретий шаг — и забывается страх.\r\nПосле этого — им по силам любой враг."
+        }
+      },
+      "PAL_LONG_DESC_FengyunDeeper": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FengyunDeeper_TextData",
+          "SourceString": "В далёкие времена его прекрасный облик\r\nвдохновлял художников и был привычным образом в живописи.\r\nС течением времени ценность обрели уже не формы,\r\nа его красивая шкура и рога —\r\nкак материалы для создания предметов искусства.",
+          "LocalizedString": "В далёкие времена его прекрасный облик\r\nвдохновлял художников и был привычным образом в живописи.\r\nС течением времени ценность обрели уже не формы,\r\nа его красивая шкура и рога —\r\nкак материалы для создания предметов искусства."
+        }
+      },
+      "PAL_LONG_DESC_FengyunDeeper_Electric": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FengyunDeeper_Electric_TextData",
+          "SourceString": "В далёкие времена люди верили, что если изобразить Пала\r\n<characterName id=|FengyunDeeper_Electric|/> на картине, тебя поразит молния.\r\nС течением времени изделия с его изображением\r\nстали привычной частью жизни — их использовали как талисманы от грозы.",
+          "LocalizedString": "В далёкие времена люди верили, что если изобразить Пала\r\n<characterName id=|FengyunDeeper_Electric|/> на картине, тебя поразит молния.\r\nС течением времени изделия с его изображением\r\nстали привычной частью жизни — их использовали как талисманы от грозы."
+        }
+      },
+      "PAL_LONG_DESC_FireKirin": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FireKirin_TextData",
+          "SourceString": "Всё его тело — это сверхэффективный теплоотвод,\r\nчто даёт ему поразительную выносливость.\r\nЕсли кто-то садится верхом, он осторожно снижает жар, чтобы не обжечь наездника.",
+          "LocalizedString": "Всё его тело — это сверхэффективный теплоотвод,\r\nчто даёт ему поразительную выносливость.\r\nЕсли кто-то садится верхом, он осторожно снижает жар, чтобы не обжечь наездника."
+        }
+      },
+      "PAL_LONG_DESC_FireKirin_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FireKirin_Dark_TextData",
+          "SourceString": "Сжигает загадочную тёмную материю, превращая её в энергию.\r\nОстаточные тёмные частицы рассеиваются по его телу.\r\nКогда кто-то садится на него верхом, он старается, чтобы тот не поддался тьме.",
+          "LocalizedString": "Сжигает загадочную тёмную материю, превращая её в энергию.\r\nОстаточные тёмные частицы рассеиваются по его телу.\r\nКогда кто-то садится на него верхом, он старается, чтобы тот не поддался тьме."
+        }
+      },
+      "PAL_LONG_DESC_FlameBambi": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FlameBambi_TextData",
+          "SourceString": "Дикие <characterName id=|FlameBambi|/> на удивление редко болеют.\r\nИх секрет долголетия — каждый день съедать кусочек угля,\r\nсделанный из сожжённой веточки.",
+          "LocalizedString": "Дикие <characterName id=|FlameBambi|/> на удивление редко болеют.\r\nИх секрет долголетия — каждый день съедать кусочек угля,\r\nсделанный из сожжённой веточки."
+        }
+      },
+      "PAL_LONG_DESC_FlameBuffalo": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FlameBuffalo_TextData",
+          "SourceString": "В древние времена его постоянно преследовали плотоядные Палы.\r\nГнев <characterName id=|FlameBuffalo|/>, вопивших от несправедливости,\r\nпревратился в палящее пламя и непрерывно передавался из поколения в поколение.",
+          "LocalizedString": "В древние времена его постоянно преследовали плотоядные Палы.\r\nГнев <characterName id=|FlameBuffalo|/>, вопивших от несправедливости,\r\nпревратился в палящее пламя и непрерывно передавался из поколения в поколение."
+        }
+      },
+      "PAL_LONG_DESC_FlowerDinosaur": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FlowerDinosaur_TextData",
+          "SourceString": "Стоит этому Палу разозлиться — и он выходит из-под контроля, беснуясь, словно пылающее пламя.\r\nВыражение |наступить на хвост <characterName id=|FlowerDinosaur|/>| означает довести кого-то до ярости.",
+          "LocalizedString": "Стоит этому Палу разозлиться — и он выходит из-под контроля, беснуясь, словно пылающее пламя.\r\nВыражение |наступить на хвост <characterName id=|FlowerDinosaur|/>| означает довести кого-то до ярости."
+        }
+      },
+      "PAL_LONG_DESC_FlowerDinosaur_Electric": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FlowerDinosaur_Electric_TextData",
+          "SourceString": "В этого Пала ударила молния — но он чудом выжил.\r\nВыражение |в <characterName id=|FlowerDinosaur_Electric|/> ударила молния|\r\nозначает чудесное спасение от гибели.",
+          "LocalizedString": "В этого Пала ударила молния — но он чудом выжил.\r\nВыражение |в <characterName id=|FlowerDinosaur_Electric|/> ударила молния|\r\nозначает чудесное спасение от гибели."
+        }
+      },
+      "PAL_LONG_DESC_FlowerDoll": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FlowerDoll_TextData",
+          "SourceString": "Когда срок жизни подходит к концу, превращается в огромное растение.\r\nРаз в десять лет распускается прекрасный цветок,\r\nиз которого появляется новый <characterName id=|FlowerDoll|/>.",
+          "LocalizedString": "Когда срок жизни подходит к концу, превращается в огромное растение.\r\nРаз в десять лет распускается прекрасный цветок,\r\nиз которого появляется новый <characterName id=|FlowerDoll|/>."
+        }
+      },
+      "PAL_LONG_DESC_FlowerRabbit": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FlowerRabbit_TextData",
+          "SourceString": "<characterName id=|FlowerRabbit|/> любит заросли и цветущие луга.\r\nНо, говорят, среди них в последнее время\r\nпошла мода на аллергию к пыльце.",
+          "LocalizedString": "<characterName id=|FlowerRabbit|/> любит заросли и цветущие луга.\r\nНо, говорят, среди них в последнее время\r\nпошла мода на аллергию к пыльце."
+        }
+      },
+      "PAL_LONG_DESC_FlyingManta": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FlyingManta_TextData",
+          "SourceString": "Несомый ветром, он вольно скитается по миру.\r\nНо как только находит себе пару,\r\nего странствия завершаются.",
+          "LocalizedString": "Несомый ветром, он вольно скитается по миру.\r\nНо как только находит себе пару,\r\nего странствия завершаются."
+        }
+      },
+      "PAL_LONG_DESC_FoxMage": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FoxMage_TextData",
+          "SourceString": "Управляет светлой силой и творит странные заклинания.\r\nЛюбую еду предпочитает в румяно-прожаренном виде.\r\nПлохо ладит с <characterName id=|CatMage|/>.",
+          "LocalizedString": "Управляет светлой силой и творит странные заклинания.\r\nЛюбую еду предпочитает в румяно-прожаренном виде.\r\nПлохо ладит с <characterName id=|CatMage|/>."
+        }
+      },
+      "PAL_LONG_DESC_FoxMage_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FoxMage_Dark_TextData",
+          "SourceString": "Благодаря воспитанию родителей он перестал обращать внимание на такие мелочи, \r\nкак прожарена ли еда.\r\nПредпочитает сладкое.\r\nПлохо ладит с <characterName id=|CatMage_Fire|/>.",
+          "LocalizedString": "Благодаря воспитанию родителей он перестал обращать внимание на такие мелочи, \r\nкак прожарена ли еда.\r\nПредпочитает сладкое.\r\nПлохо ладит с <characterName id=|CatMage_Fire|/>."
+        }
+      },
+      "PAL_LONG_DESC_Ganesha": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Ganesha_TextData",
+          "SourceString": "Из органа, который предположительно является носом,\r\nвытекают огромные объёмы воды.\r\nЕсть мнение, что это всего лишь сопли.\r\nВ кругах учёных по этому поводу разгорелись жаркие споры.",
+          "LocalizedString": "Из органа, который предположительно является носом,\r\nвытекают огромные объёмы воды.\r\nЕсть мнение, что это всего лишь сопли.\r\nВ кругах учёных по этому поводу разгорелись жаркие споры."
+        }
+      },
+      "PAL_LONG_DESC_Garm": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Garm_TextData",
+          "SourceString": "Связь с людьми давно ослабла,\r\nно система охоты <characterName id=|Garm|/> и их сородичей\r\nберёт своё начало в тех временах,\r\nкогда они охотились вместе с человеком.",
+          "LocalizedString": "Связь с людьми давно ослабла,\r\nно система охоты <characterName id=|Garm|/> и их сородичей\r\nберёт своё начало в тех временах,\r\nкогда они охотились вместе с человеком."
+        }
+      },
+      "PAL_LONG_DESC_GhostAnglerfish": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GhostAnglerfish_TextData",
+          "SourceString": "Сияющей приманкой он озаряет темноту.\r\nЗаблудшие Палы, привлечённые светом,\r\nесли попадутся <characterName id=|GhostAnglerFish|/> ,\r\nуже не смогут сбежать.\r\nОн будет преследовать их, пока не убедится,\r\nчто они благополучно добрались домой.",
+          "LocalizedString": "Сияющей приманкой он озаряет темноту.\r\nЗаблудшие Палы, привлечённые светом,\r\nесли попадутся <characterName id=|GhostAnglerFish|/> ,\r\nуже не смогут сбежать.\r\nОн будет преследовать их, пока не убедится,\r\nчто они благополучно добрались домой."
+        }
+      },
+      "PAL_LONG_DESC_GhostBeast": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GhostBeast_TextData",
+          "SourceString": "Он тяготеет к запаху, который источают те, чья смерть уже близка.\r\nТак что если <characterName id=|GhostBeast|/> начнёт проявлять к вам интерес…\r\nСкорее всего, всё уже решено.",
+          "LocalizedString": "Он тяготеет к запаху, который источают те, чья смерть уже близка.\r\nТак что если <characterName id=|GhostBeast|/> начнёт проявлять к вам интерес…\r\nСкорее всего, всё уже решено."
+        }
+      },
+      "PAL_LONG_DESC_GhostRabbit": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GhostRabbit_TextData",
+          "SourceString": "Держит в руках свою душу.\r\nВлюбившись, насильно вырывает чужую душу,\r\nсмешивает со своей и стремится стать единым целым.",
+          "LocalizedString": "Держит в руках свою душу.\r\nВлюбившись, насильно вырывает чужую душу,\r\nсмешивает со своей и стремится стать единым целым."
+        }
+      },
+      "PAL_LONG_DESC_GhostRabbit_Grass": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GhostRabbit_Grass_TextData",
+          "SourceString": "Держит в руках свою душу.\r\nВлюбившись, швыряет её в чужую,\r\nсмешивает со своей и стремится стать единым целым.",
+          "LocalizedString": "Держит в руках свою душу.\r\nВлюбившись, швыряет её в чужую,\r\nсмешивает со своей и стремится стать единым целым."
+        }
+      },
+      "PAL_LONG_DESC_GoldenHorse": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GoldenHorse_TextData",
+          "SourceString": "Во времена, когда на острове процветала алхимия,\r\nзолотистый мех этих Палов ценился как катализатор для получения золота.\r\nСпустя какое-то время было сделано замечательное открытие:\r\nесли важен лишь золотой цвет, достаточно просто обработать гриву.",
+          "LocalizedString": "Во времена, когда на острове процветала алхимия,\r\nзолотистый мех этих Палов ценился как катализатор для получения золота.\r\nСпустя какое-то время было сделано замечательное открытие:\r\nесли важен лишь золотой цвет, достаточно просто обработать гриву."
+        }
+      },
+      "PAL_LONG_DESC_Gorilla": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Gorilla_TextData",
+          "SourceString": "Общаются с сородичами, выстукивая ритмы по земле.\r\nУ каждой стаи свои значения сигналов,\r\nпоэтому их классификация до сих пор не завершена.",
+          "LocalizedString": "Общаются с сородичами, выстукивая ритмы по земле.\r\nУ каждой стаи свои значения сигналов,\r\nпоэтому их классификация до сих пор не завершена."
+        }
+      },
+      "PAL_LONG_DESC_Gorilla_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Gorilla_Ground_TextData",
+          "SourceString": "Общается с сородичами, выстукивая ритмы по земле.\r\nПо силе он превосходит даже <characterName id=|Gorilla|/>.\r\nГоворят, если все <characterName id=|Gorilla_Ground|/> одновременно ударят по земле —\r\nостров Палпагос уйдёт под воду за секунду.",
+          "LocalizedString": "Общается с сородичами, выстукивая ритмы по земле.\r\nПо силе он превосходит даже <characterName id=|Gorilla|/>.\r\nГоворят, если все <characterName id=|Gorilla_Ground|/> одновременно ударят по земле —\r\nостров Палпагос уйдёт под воду за секунду."
+        }
+      },
+      "PAL_LONG_DESC_GrassDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GrassDragon_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "PAL_LONG_DESC_GrassMammoth": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GrassMammoth_TextData",
+          "SourceString": "Растительность на спинах у каждого — своя, уникальная.\r\nКогда-то она была популярным украшением,\r\nи даже были настоящие профи, которые занимались стрижкой <characterName id=|GrassMammoth|/>.",
+          "LocalizedString": "Растительность на спинах у каждого — своя, уникальная.\r\nКогда-то она была популярным украшением,\r\nи даже были настоящие профи, которые занимались стрижкой <characterName id=|GrassMammoth|/>."
+        }
+      },
+      "PAL_LONG_DESC_GrassMammoth_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GrassMammoth_Ice_TextData",
+          "SourceString": "Растительность на спинах у каждого — своя, уникальная.\r\nБывали случаи, когда на заледеневшей спине <characterName id=|GrassMammoth_Ice|/>\r\nнаходили растения, считавшиеся давно исчезнувшими.",
+          "LocalizedString": "Растительность на спинах у каждого — своя, уникальная.\r\nБывали случаи, когда на заледеневшей спине <characterName id=|GrassMammoth_Ice|/>\r\nнаходили растения, считавшиеся давно исчезнувшими."
+        }
+      },
+      "PAL_LONG_DESC_GrassPanda": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GrassPanda_TextData",
+          "SourceString": "Обладает невероятной силой. В одном из\r\nэкспериментов этому Палу удалось порвать\r\nстопку из 3000 листов бумаги. К большому\r\nсчастью, эти существа не плотоядные.",
+          "LocalizedString": "Обладает невероятной силой. В одном из\r\nэкспериментов этому Палу удалось порвать\r\nстопку из 3000 листов бумаги. К большому\r\nсчастью, эти существа не плотоядные."
+        }
+      },
+      "PAL_LONG_DESC_GrassPanda_Electric": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GrassPanda_Electric_TextData",
+          "SourceString": "Обладает невероятной силой.\r\nПреобразуя электричество в сигналы, он превзошёл пределы физических возможностей.\r\nСтоит только заговорить о сильнейших существах — он тут как тут.",
+          "LocalizedString": "Обладает невероятной силой.\r\nПреобразуя электричество в сигналы, он превзошёл пределы физических возможностей.\r\nСтоит только заговорить о сильнейших существах — он тут как тут."
+        }
+      },
+      "PAL_LONG_DESC_GrassRabbitMan": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GrassRabbitMan_TextData",
+          "SourceString": "Почва, по которой пробегает <characterName id=|GrassRabbitMan|/>,\r\nстановится очень плодородной, и там буйно разрастается зелень.\r\nЕсли обработать землю гербицидом — он туда больше не сунется.",
+          "LocalizedString": "Почва, по которой пробегает <characterName id=|GrassRabbitMan|/>,\r\nстановится очень плодородной, и там буйно разрастается зелень.\r\nЕсли обработать землю гербицидом — он туда больше не сунется."
+        }
+      },
+      "PAL_LONG_DESC_GrimGirl": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GrimGirl_TextData",
+          "SourceString": "Инстинкты заставляют этого Пала рвать своих жертв на части.\r\nКаждая особь предпочитает свой порядок расчленения жертвы.\r\nЕсли тебя поймает <characterName id=|GrimGirl|/>,\r\nостаётся только надеяться, что начнёт с головы.",
+          "LocalizedString": "Инстинкты заставляют этого Пала рвать своих жертв на части.\r\nКаждая особь предпочитает свой порядок расчленения жертвы.\r\nЕсли тебя поймает <characterName id=|GrimGirl|/>,\r\nостаётся только надеяться, что начнёт с головы."
+        }
+      },
+      "PAL_LONG_DESC_GuardianDog": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GuardianDog_TextData",
+          "SourceString": "Обладая природной способностью отвергать зло,\r\nон должен был стать надёжным спутником островитян\r\nи построить с ними прочные, долгие отношения.\r\nТеперь же <characterName id=|GuardianDog|/> возводят между собой и людьми стену зла.",
+          "LocalizedString": "Обладая природной способностью отвергать зло,\r\nон должен был стать надёжным спутником островитян\r\nи построить с ними прочные, долгие отношения.\r\nТеперь же <characterName id=|GuardianDog|/> возводят между собой и людьми стену зла."
+        }
+      },
+      "PAL_LONG_DESC_HadesBird": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_HadesBird_TextData",
+          "SourceString": "Призывает молнии из преисподней.\r\nДуши тех, кого сожжёт молнией <characterName id=|HadesBird|/>,\r\nпадают в ад.",
+          "LocalizedString": "Призывает молнии из преисподней.\r\nДуши тех, кого сожжёт молнией <characterName id=|HadesBird|/>,\r\nпадают в ад."
+        }
+      },
+      "PAL_LONG_DESC_HadesBird_Electric": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_HadesBird_Electric_TextData",
+          "SourceString": "Призывает молнии из преисподней.\r\nСчитается подвидом <characterName id=|HadesBird|/>,\r\nно есть версия, что <characterName id=|HadesBird_Electric|/>,\r\nполучив удар молнии из преисподней, превратился в <characterName id=|HadesBird|/>.",
+          "LocalizedString": "Призывает молнии из преисподней.\r\nСчитается подвидом <characterName id=|HadesBird|/>,\r\nно есть версия, что <characterName id=|HadesBird_Electric|/>,\r\nполучив удар молнии из преисподней, превратился в <characterName id=|HadesBird|/>."
+        }
+      },
+      "PAL_LONG_DESC_HawkBird": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_HawkBird_TextData",
+          "SourceString": "Уносит в своё гнездо новорождённых Палов\r\nи выращивает их, заменяя родителей.\r\nКогда они готовы к употреблению,\r\nубивает их и съедает.",
+          "LocalizedString": "Уносит в своё гнездо новорождённых Палов\r\nи выращивает их, заменяя родителей.\r\nКогда они готовы к употреблению,\r\nубивает их и съедает."
+        }
+      },
+      "PAL_LONG_DESC_Hedgehog": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Hedgehog_TextData",
+          "SourceString": "При сильном ударе он выпускает накопленное электричество.\r\nЕго напряжение превышает 10 миллионов вольт.\r\nЕсли бросить его — это куда опаснее, чем плохо обращённое тяжёлое оружие.",
+          "LocalizedString": "При сильном ударе он выпускает накопленное электричество.\r\nЕго напряжение превышает 10 миллионов вольт.\r\nЕсли бросить его — это куда опаснее, чем плохо обращённое тяжёлое оружие."
+        }
+      },
+      "PAL_LONG_DESC_Hedgehog_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Hedgehog_Ice_TextData",
+          "SourceString": "При ударе выпускает накопленный холод.\r\nЛедяные волны расходятся во все стороны, замораживая воздух,\r\nи напавший оказывается пронзён насквозь морозом.",
+          "LocalizedString": "При ударе выпускает накопленный холод.\r\nЛедяные волны расходятся во все стороны, замораживая воздух,\r\nи напавший оказывается пронзён насквозь морозом."
+        }
+      },
+      "PAL_LONG_DESC_HerculesBeetle": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_HerculesBeetle_TextData",
+          "SourceString": "Сверхпрочный панцирь, покрывающий всё тело,\r\nобладает колоссальной прочностью и жаростойкостью.\r\nДаже напалм едва ли оставляет на нём следы.",
+          "LocalizedString": "Сверхпрочный панцирь, покрывающий всё тело,\r\nобладает колоссальной прочностью и жаростойкостью.\r\nДаже напалм едва ли оставляет на нём следы."
+        }
+      },
+      "PAL_LONG_DESC_HerculesBeetle_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_HerculesBeetle_Ground_TextData",
+          "SourceString": "Сверхпрочный панцирь, покрывающий всё тело,\r\nобладает колоссальной прочностью и жаростойкостью.\r\nДаже если по нему пройдет <characterName id=|GrassMammoth|/>,\r\nпанцирь останется невредимым.",
+          "LocalizedString": "Сверхпрочный панцирь, покрывающий всё тело,\r\nобладает колоссальной прочностью и жаростойкостью.\r\nДаже если по нему пройдет <characterName id=|GrassMammoth|/>,\r\nпанцирь останется невредимым."
+        }
+      },
+      "PAL_LONG_DESC_Horus": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Horus_TextData",
+          "SourceString": "Завидев стаю добычи, выжигает всё вокруг раскалённым вихрем.\r\nВ местах, где обитает <characterName id=|Horus|/>, пахнет аппетитно.",
+          "LocalizedString": "Завидев стаю добычи, выжигает всё вокруг раскалённым вихрем.\r\nВ местах, где обитает <characterName id=|Horus|/>, пахнет аппетитно."
+        }
+      },
+      "PAL_LONG_DESC_Horus_Water": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Horus_Water_TextData",
+          "SourceString": "Завидев стаю добычи,\r\nзаливает всё вокруг мощным потоком воды.\r\nЧаще всего добыча ускользает, и он её теряет из виду —\r\nтак что назвать это охотой, мягко говоря, сомнительно.",
+          "LocalizedString": "Завидев стаю добычи,\r\nзаливает всё вокруг мощным потоком воды.\r\nЧаще всего добыча ускользает, и он её теряет из виду —\r\nтак что назвать это охотой, мягко говоря, сомнительно."
+        }
+      },
+      "PAL_LONG_DESC_Human": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Human_TextData",
+          "SourceString": "Пойманный человек.\r\nНа острове Палпагос ловля людей с помощью Пал-сфер\r\nсчитается негуманной.",
+          "LocalizedString": "Пойманный человек.\r\nНа острове Палпагос ловля людей с помощью Пал-сфер\r\nсчитается негуманной."
+        }
+      },
+      "PAL_LONG_DESC_IceCrocodile": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_IceCrocodile_TextData",
+          "SourceString": "Во рту у него очень прохладно, а если он его закрывает — становится прямо-таки как в холодильнике.\r\nОсобые вещества в его слюне предотвращают порчу пищи.\r\nТеоретически его можно использовать как хранилище для продуктов,\r\nно с точки зрения гигиены — лучше держать рот закрытым.",
+          "LocalizedString": "Во рту у него очень прохладно, а если он его закрывает — становится прямо-таки как в холодильнике.\r\nОсобые вещества в его слюне предотвращают порчу пищи.\r\nТеоретически его можно использовать как хранилище для продуктов,\r\nно с точки зрения гигиены — лучше держать рот закрытым."
+        }
+      },
+      "PAL_LONG_DESC_IceDeer": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_IceDeer_TextData",
+          "SourceString": "Прозрачно-синий рог сияет холодом абсолютного нуля.\r\nСтоит только дотронуться до него голой рукой — \r\nи всё тело мгновенно покроется льдом, \r\nа вы вместе с жизнью рассыплетесь вдребезги.",
+          "LocalizedString": "Прозрачно-синий рог сияет холодом абсолютного нуля.\r\nСтоит только дотронуться до него голой рукой — \r\nи всё тело мгновенно покроется льдом, \r\nа вы вместе с жизнью рассыплетесь вдребезги."
+        }
+      },
+      "PAL_LONG_DESC_IceFox": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_IceFox_TextData",
+          "SourceString": "В ночи, когда в небе мерцает северное сияние,\r\nони поднимают глаза к небу и поют красивым голосом.\r\nУвы, именно это пение привлекает к ним врагов.",
+          "LocalizedString": "В ночи, когда в небе мерцает северное сияние,\r\nони поднимают глаза к небу и поют красивым голосом.\r\nУвы, именно это пение привлекает к ним врагов."
+        }
+      },
+      "PAL_LONG_DESC_IceHorse": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_IceHorse_TextData",
+          "SourceString": "Призывающий зиму — хранитель острова Палпагос.\r\nВ былые времена, когда бедствие охватило эти земли,\r\nон взмыл в небеса, вознёс вечную зиму и тем самым запечатал зло.",
+          "LocalizedString": "Призывающий зиму — хранитель острова Палпагос.\r\nВ былые времена, когда бедствие охватило эти земли,\r\nон взмыл в небеса, вознёс вечную зиму и тем самым запечатал зло."
+        }
+      },
+      "PAL_LONG_DESC_IceHorse_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_IceHorse_Dark_TextData",
+          "SourceString": "Призывающий ночь — хранитель острова Палпагос.\r\nВ былые времена, когда бедствие охватило эти земли,\r\nон взмыл в небеса, вознёс бесконечную ночь и тем самым запечатал зло.",
+          "LocalizedString": "Призывающий ночь — хранитель острова Палпагос.\r\nВ былые времена, когда бедствие охватило эти земли,\r\nон взмыл в небеса, вознёс бесконечную ночь и тем самым запечатал зло."
+        }
+      },
+      "PAL_LONG_DESC_IceNarwhal": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_IceNarwhal_TextData",
+          "SourceString": "Когда он спит, некоторые Палы принимают его за льдину и приходят на неё отдохнуть.\r\nОн не сбрасывает их после пробуждения — добрый нрав не позволяет.\r\nОднако, несмотря на это, внутри он переживает стресс из-за нарушения своего личного пространства.",
+          "LocalizedString": "Когда он спит, некоторые Палы принимают его за льдину и приходят на неё отдохнуть.\r\nОн не сбрасывает их после пробуждения — добрый нрав не позволяет.\r\nОднако, несмотря на это, внутри он переживает стресс из-за нарушения своего личного пространства."
+        }
+      },
+      "PAL_LONG_DESC_IceSeal": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_IceSeal_TextData",
+          "SourceString": "Самым уважаемым считается тот, кто быстрее всех скользит по снегу.\r\nИногда особо разогнавшиеся особи подпрыгивают… и внезапно падают с неба.\r\nВ период борьбы за лидерство такое случается особенно часто.\r\nЯсно, местами <characterName id=|IceSeal|/>.",
+          "LocalizedString": "Самым уважаемым считается тот, кто быстрее всех скользит по снегу.\r\nИногда особо разогнавшиеся особи подпрыгивают… и внезапно падают с неба.\r\nВ период борьбы за лидерство такое случается особенно часто.\r\nЯсно, местами <characterName id=|IceSeal|/>."
+        }
+      },
+      "PAL_LONG_DESC_IceWitch": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_IceWitch_TextData",
+          "SourceString": "Когда жарко, его тело начинает таять, но он ничего не может с собой поделать — слишком уж любит солнечные ванны.\r\nОт тепла он тоже начинает плавиться, но страсть к горячим источникам сильнее.\r\nПо его мнению, если уж умирать — то лучше растаять в открытом горячем источнике под ясным небом.",
+          "LocalizedString": "Когда жарко, его тело начинает таять, но он ничего не может с собой поделать — слишком уж любит солнечные ванны.\r\nОт тепла он тоже начинает плавиться, но страсть к горячим источникам сильнее.\r\nПо его мнению, если уж умирать — то лучше растаять в открытом горячем источнике под ясным небом."
+        }
+      },
+      "PAL_LONG_DESC_JellyfishFairy": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_JellyfishFairy_TextData",
+          "SourceString": "Пал, внешне очень похожий на <characterName id=|JellyfishGhost|/>.\r\nОн ведёт активную социальную жизнь, и когда планы пересекаются,\r\nпросит своего близкого друга <characterName id=|JellyfishGhost|/> сходить вместо него.\r\nПлата за это — одно свидание.",
+          "LocalizedString": "Пал, внешне очень похожий на <characterName id=|JellyfishGhost|/>.\r\nОн ведёт активную социальную жизнь, и когда планы пересекаются,\r\nпросит своего близкого друга <characterName id=|JellyfishGhost|/> сходить вместо него.\r\nПлата за это — одно свидание."
+        }
+      },
+      "PAL_LONG_DESC_JellyfishGhost": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_JellyfishGhost_TextData",
+          "SourceString": "Пал, внешне очень похожий на <characterName id=|JellyfishFairy|/>.\r\nКогда у <characterName id=|JellyfishFairy|/> не получается прийти, он иногда появляется вместо него.\r\nЕго игра настолько убедительна, что никто не замечает подмены.",
+          "LocalizedString": "Пал, внешне очень похожий на <characterName id=|JellyfishFairy|/>.\r\nКогда у <characterName id=|JellyfishFairy|/> не получается прийти, он иногда появляется вместо него.\r\nЕго игра настолько убедительна, что никто не замечает подмены."
+        }
+      },
+      "PAL_LONG_DESC_JetDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_JetDragon_TextData",
+          "SourceString": "Наблюдает за островом Палпагос с высот небес.\r\nИ когда вновь пробудится бедствие, земля расколется, а небо вспыхнет огнём —\r\nон уничтожит всё вспышкой абсолютного разрушения.",
+          "LocalizedString": "Наблюдает за островом Палпагос с высот небес.\r\nИ когда вновь пробудится бедствие, земля расколется, а небо вспыхнет огнём —\r\nон уничтожит всё вспышкой абсолютного разрушения."
+        }
+      },
+      "PAL_LONG_DESC_Kelpie": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Kelpie_TextData",
+          "SourceString": "Характер <characterName id=|Kelpie|/> зависит от качества воды, в которой он появился на свет. \r\nОсоби, родившиеся в грязном водоёме, как правило, обладают скверным характером и ведут себя как настоящие хулиганы.",
+          "LocalizedString": "Характер <characterName id=|Kelpie|/> зависит от качества воды, в которой он появился на свет. \r\nОсоби, родившиеся в грязном водоёме, как правило, обладают скверным характером и ведут себя как настоящие хулиганы."
+        }
+      },
+      "PAL_LONG_DESC_Kelpie_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Kelpie_Fire_TextData",
+          "SourceString": "Характер <characterName id=|Kelpie|/> зависит от температуры воды, в которой он появился на свет.\r\nОсоби, родившиеся в тёплом водоёме, как правило, обладают пылким нравом и неиссякаемой энергией.",
+          "LocalizedString": "Характер <characterName id=|Kelpie|/> зависит от температуры воды, в которой он появился на свет.\r\nОсоби, родившиеся в тёплом водоёме, как правило, обладают пылким нравом и неиссякаемой энергией."
+        }
+      },
+      "PAL_LONG_DESC_KendoFrog": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_KendoFrog_TextData",
+          "SourceString": "Член стаи, совершивший серьёзную ошибку, обязан покинуть этот мир.\r\nСтоит лишь воткнуть ветку в раздутый до предела звуковой мешок —\r\nи его с силой уносит за пределы атмосферы, туда, где заканчивается всё живое.",
+          "LocalizedString": "Член стаи, совершивший серьёзную ошибку, обязан покинуть этот мир.\r\nСтоит лишь воткнуть ветку в раздутый до предела звуковой мешок —\r\nи его с силой уносит за пределы атмосферы, туда, где заканчивается всё живое."
+        }
+      },
+      "PAL_LONG_DESC_KendoFrog_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_KendoFrog_Dark_TextData",
+          "SourceString": "Лишенные чувства чести <characterName id=|KendoFrog|/> объединились в отдельный вид.\r\nКакие бы трюки ни применяла жертва, <characterName id=|KendoFrog_Dark|/> не даст ей уйти.\r\nЕсли в полночь вы наткнетесь на стаю этих Палов, на тот свет отправитесь именно вы.",
+          "LocalizedString": "Лишенные чувства чести <characterName id=|KendoFrog|/> объединились в отдельный вид.\r\nКакие бы трюки ни применяла жертва, <characterName id=|KendoFrog_Dark|/> не даст ей уйти.\r\nЕсли в полночь вы наткнетесь на стаю этих Палов, на тот свет отправитесь именно вы."
+        }
+      },
+      "PAL_LONG_DESC_KingAlpaca": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_KingAlpaca_TextData",
+          "SourceString": "В поединках <characterName id=|KingAlpaca|/> используют в качестве \r\nставки своих прислужников‑<characterName id=|Alpaca|/>.\r\nОсобь, лишённая прислужника, считается проигравшим.",
+          "LocalizedString": "В поединках <characterName id=|KingAlpaca|/> используют в качестве \r\nставки своих прислужников‑<characterName id=|Alpaca|/>.\r\nОсобь, лишённая прислужника, считается проигравшим."
+        }
+      },
+      "PAL_LONG_DESC_KingAlpaca_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_KingAlpaca_Ice_TextData",
+          "SourceString": "Его характер хладнокровен, и выражать эмоции ему непросто.\r\nТе, кто оказался слишком неуклюжим по отношению к <characterName id=|Alpaca|/>, \r\nобречены на одиночество.",
+          "LocalizedString": "Его характер хладнокровен, и выражать эмоции ему непросто.\r\nТе, кто оказался слишком неуклюжим по отношению к <characterName id=|Alpaca|/>, \r\nобречены на одиночество."
+        }
+      },
+      "PAL_LONG_DESC_KingBahamut": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_KingBahamut_TextData",
+          "SourceString": "Согласно легенде, <characterName id=|KingBahamut|/> \r\nпоявляется во время извержения вулкана.\r\nСуществовала даже загадочная группа, которая утверждала, \r\nчто наша земля — это спина гигантского Пала.",
+          "LocalizedString": "Согласно легенде, <characterName id=|KingBahamut|/> \r\nпоявляется во время извержения вулкана.\r\nСуществовала даже загадочная группа, которая утверждала, \r\nчто наша земля — это спина гигантского Пала."
+        }
+      },
+      "PAL_LONG_DESC_KingBahamut_Dragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_KingBahamut_Dragon_TextData",
+          "SourceString": "Давно, в глубинах земли, он появился на свет.\r\nЕго неукротимый пыл сжигал всё без жалости,\r\nне стихая, пока не опалил весь остров.\r\nИменно так его прозвали — |Вечное пламя|.",
+          "LocalizedString": "Давно, в глубинах земли, он появился на свет.\r\nЕго неукротимый пыл сжигал всё без жалости,\r\nне стихая, пока не опалил весь остров.\r\nИменно так его прозвали — |Вечное пламя|."
+        }
+      },
+      "PAL_LONG_DESC_Kirin": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Kirin_TextData",
+          "SourceString": "В древности их считали посланниками бога грома, поэтому люди на них не охотились.\r\nНо однажды кто-то стал свидетелем того, как Пала убило молнией —\r\nвера угасла, и теперь они буквально стали рабочими лошадками.",
+          "LocalizedString": "В древности их считали посланниками бога грома, поэтому люди на них не охотились.\r\nНо однажды кто-то стал свидетелем того, как Пала убило молнией —\r\nвера угасла, и теперь они буквально стали рабочими лошадками."
+        }
+      },
+      "PAL_LONG_DESC_Kirin_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Kirin_Ice_TextData",
+          "SourceString": "В древности их считали посланниками бога зимы, поэтому люди на них не охотились.\r\nНо однажды кто-то стал свидетелем того, как Пал поскользнулся на льду — вера угасла, и теперь они буквально стали рабочими лошадками.",
+          "LocalizedString": "В древности их считали посланниками бога зимы, поэтому люди на них не охотились.\r\nНо однажды кто-то стал свидетелем того, как Пал поскользнулся на льду — вера угасла, и теперь они буквально стали рабочими лошадками."
+        }
+      },
+      "PAL_LONG_DESC_Kitsunebi": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Kitsunebi_TextData",
+          "SourceString": "Недавно родившиеся Палы ещё не умеют\r\nобращаться с огнём. Они извергают пламя\r\nпо малейшему поводу и начинают закашливаться.\r\nИх чихание нередко становится причиной лесных пожаров.",
+          "LocalizedString": "Недавно родившиеся Палы ещё не умеют\r\nобращаться с огнём. Они извергают пламя\r\nпо малейшему поводу и начинают закашливаться.\r\nИх чихание нередко становится причиной лесных пожаров."
+        }
+      },
+      "PAL_LONG_DESC_Kitsunebi_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Kitsunebi_Ice_TextData",
+          "SourceString": "Недавно родившиеся Палы ещё не умеют обращаться с холодом.\r\nОни извергают ледяное дыхание по малейшему поводу и закашливаются.\r\nЕсли такой Пал простудится, его замёрзшие сопли мешают ему дышать и вызывают панику.",
+          "LocalizedString": "Недавно родившиеся Палы ещё не умеют обращаться с холодом.\r\nОни извергают ледяное дыхание по малейшему поводу и закашливаются.\r\nЕсли такой Пал простудится, его замёрзшие сопли мешают ему дышать и вызывают панику."
+        }
+      },
+      "PAL_LONG_DESC_LavaGirl": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_LavaGirl_TextData",
+          "SourceString": "Когда этот Пал плачет, вместо слёз из его глаз течёт магма.\r\nОна снова впитывается в его тело — и становится всё горячее.\r\nЧем больше он плачет, тем сильнее становится.",
+          "LocalizedString": "Когда этот Пал плачет, вместо слёз из его глаз течёт магма.\r\nОна снова впитывается в его тело — и становится всё горячее.\r\nЧем больше он плачет, тем сильнее становится."
+        }
+      },
+      "PAL_LONG_DESC_LazyCatfish": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_LazyCatfish_TextData",
+          "SourceString": "Когда этот Пал слишком расслабляется, все его реакции замедляются.\r\nДаже получив 28 колотых ран, он замечает это только на следующее утро — и тут же умирает.",
+          "LocalizedString": "Когда этот Пал слишком расслабляется, все его реакции замедляются.\r\nДаже получив 28 колотых ран, он замечает это только на следующее утро — и тут же умирает."
+        }
+      },
+      "PAL_LONG_DESC_LazyDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_LazyDragon_TextData",
+          "SourceString": "Вопреки расслабленному виду, на удивление свиреп.\r\nВсё, что попадает в поле зрения, воспринимает как еду —\r\nи пытается съесть добычу любой ценой.",
+          "LocalizedString": "Вопреки расслабленному виду, на удивление свиреп.\r\nВсё, что попадает в поле зрения, воспринимает как еду —\r\nи пытается съесть добычу любой ценой."
+        }
+      },
+      "PAL_LONG_DESC_LazyDragon_Electric": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_LazyDragon_Electric_TextData",
+          "SourceString": "<characterName id=|LazyDragon|/> однажды задумался:\r\nа не пора ли мне измениться?\r\nИ в тот же миг его пронзил электрический разряд!",
+          "LocalizedString": "<characterName id=|LazyDragon|/> однажды задумался:\r\nа не пора ли мне измениться?\r\nИ в тот же миг его пронзил электрический разряд!"
+        }
+      },
+      "PAL_LONG_DESC_LeafMomonga": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_LeafMomonga_TextData",
+          "SourceString": "Он считает, что любую поломку можно исправить простым ударом.\r\nСила <characterName id=|LeafMomonga|/> идеально рассчитана для человека — одного удара достаточно, чтобы снова запустить остановившееся сердце.",
+          "LocalizedString": "Он считает, что любую поломку можно исправить простым ударом.\r\nСила <characterName id=|LeafMomonga|/> идеально рассчитана для человека — одного удара достаточно, чтобы снова запустить остановившееся сердце."
+        }
+      },
+      "PAL_LONG_DESC_LeafPrincess": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_LeafPrincess_TextData",
+          "SourceString": "С приходом весны ветер разносит по острову клубы пыльцы.\r\nВ своей аллергии на неё <characterName id=|FlowerRabbit|/>\r\nвинит <characterName id=|LeafPrincess|/>.",
+          "LocalizedString": "С приходом весны ветер разносит по острову клубы пыльцы.\r\nВ своей аллергии на неё <characterName id=|FlowerRabbit|/>\r\nвинит <characterName id=|LeafPrincess|/>."
+        }
+      },
+      "PAL_LONG_DESC_LilyQueen": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_LilyQueen_TextData",
+          "SourceString": "Добрый и спокойный Пал, полный любви.\r\nОн опекает маленьких Палов, потерявших родителей.\r\nВоспитание? Только <activeSkillName id=|SolarBeam|/> — со всей силы.",
+          "LocalizedString": "Добрый и спокойный Пал, полный любви.\r\nОн опекает маленьких Палов, потерявших родителей.\r\nВоспитание? Только <activeSkillName id=|SolarBeam|/> — со всей силы."
+        }
+      },
+      "PAL_LONG_DESC_LilyQueen_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_LilyQueen_Dark_TextData",
+          "SourceString": "Изящный и благородный Пал, полный достоинства.\r\nГрубиянов он наказывает сокрушительной пощёчиной.\r\nНекоторые Палы, впрочем, только этого и добиваются.",
+          "LocalizedString": "Изящный и благородный Пал, полный достоинства.\r\nГрубиянов он наказывает сокрушительной пощёчиной.\r\nНекоторые Палы, впрочем, только этого и добиваются."
+        }
+      },
+      "PAL_LONG_DESC_LittleBriarRose": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_LittleBriarRose_TextData",
+          "SourceString": "Шипы ядовиты — даже один укол может быть опасен.\r\nС <characterName id=|CuteButterfly|/> он в хороших отношениях —\r\nи только когда делится с ним нектаром, на его лице появляется улыбка.",
+          "LocalizedString": "Шипы ядовиты — даже один укол может быть опасен.\r\nС <characterName id=|CuteButterfly|/> он в хороших отношениях —\r\nи только когда делится с ним нектаром, на его лице появляется улыбка."
+        }
+      },
+      "PAL_LONG_DESC_LizardMan": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_LizardMan_TextData",
+          "SourceString": "Этот Пал зациклен на том, как он стоит.\r\nОн бесконечно оттачивает крутую позу,\r\nа если дать ему зеркало — будет позировать перед ним целый день.",
+          "LocalizedString": "Этот Пал зациклен на том, как он стоит.\r\nОн бесконечно оттачивает крутую позу,\r\nа если дать ему зеркало — будет позировать перед ним целый день."
+        }
+      },
+      "PAL_LONG_DESC_LizardMan_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_LizardMan_Fire_TextData",
+          "SourceString": "Этот Пал зациклен на том, как он стоит.\r\nОн бесконечно оттачивает горячую позу,\r\nи весь день устраивает перед хозяином пафосное шоу.",
+          "LocalizedString": "Этот Пал зациклен на том, как он стоит.\r\nОн бесконечно оттачивает горячую позу,\r\nи весь день устраивает перед хозяином пафосное шоу."
+        }
+      },
+      "PAL_LONG_DESC_Manticore": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Manticore_TextData",
+          "SourceString": "Предпочитает сырое мясо, но всегда питается жареным.\r\nОн не осознает, что служащие ему оружием раскаленные когти\r\nпрожаривают всю его добычу.",
+          "LocalizedString": "Предпочитает сырое мясо, но всегда питается жареным.\r\nОн не осознает, что служащие ему оружием раскаленные когти\r\nпрожаривают всю его добычу."
+        }
+      },
+      "PAL_LONG_DESC_Manticore_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Manticore_Dark_TextData",
+          "SourceString": "Предпочитает обычное мясо, но всегда питается проклятым.\r\nОн не осознаёт, что служащие ему оружием тёмные когти\r\nнакладывают проклятие на всю его добычу.",
+          "LocalizedString": "Предпочитает обычное мясо, но всегда питается проклятым.\r\nОн не осознаёт, что служащие ему оружием тёмные когти\r\nнакладывают проклятие на всю его добычу."
+        }
+      },
+      "PAL_LONG_DESC_MimicDog": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_MimicDog_TextData",
+          "SourceString": "Когда-то на этом острове существовало королевство,\r\nгде ежегодно вручали награду за самую глупую смерть.\r\nПервым её получил тот, кто\r\n|открыл сундук, не заметив <characterName id=|MimicDog|/>, — и был загрызен|.",
+          "LocalizedString": "Когда-то на этом острове существовало королевство,\r\nгде ежегодно вручали награду за самую глупую смерть.\r\nПервым её получил тот, кто\r\n|открыл сундук, не заметив <characterName id=|MimicDog|/>, — и был загрызен|."
+        }
+      },
+      "PAL_LONG_DESC_Monkey": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Monkey_TextData",
+          "SourceString": "Некогда этот Пал использовал в бою продолговатые предметы — вроде веток деревьев.\r\nНо, начав общаться с людьми, он нашёл нечто поэффективнее — огнестрельное оружие.",
+          "LocalizedString": "Некогда этот Пал использовал в бою продолговатые предметы — вроде веток деревьев.\r\nНо, начав общаться с людьми, он нашёл нечто поэффективнее — огнестрельное оружие."
+        }
+      },
+      "PAL_LONG_DESC_Monkey_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Monkey_Fire_TextData",
+          "SourceString": "Ладони эволюционировали так, чтобы можно было хватать раскалённое, не обжигаясь.\r\nЕсли закончатся патроны,\r\nможно схватить разогретый ствол и пойти врукопашную.",
+          "LocalizedString": "Ладони эволюционировали так, чтобы можно было хватать раскалённое, не обжигаясь.\r\nЕсли закончатся патроны,\r\nможно схватить разогретый ствол и пойти врукопашную."
+        }
+      },
+      "PAL_LONG_DESC_MoonQueen": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_MoonQueen_TextData",
+          "SourceString": "Объект, похожий на луну, витающий за спиной этого Пала,\r\nс каждым новым поколением понемногу приближается к идеальному кругу.\r\nЧто произойдёт, когда луна станет полной — никто не знает.",
+          "LocalizedString": "Объект, похожий на луну, витающий за спиной этого Пала,\r\nс каждым новым поколением понемногу приближается к идеальному кругу.\r\nЧто произойдёт, когда луна станет полной — никто не знает."
+        }
+      },
+      "PAL_LONG_DESC_MopBaby": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_MopBaby_TextData",
+          "SourceString": "Ползает по земле, поедая мельчайшие органические остатки.\r\nВсё неперевариваемое со временем выводится наружу.\r\nЕсли использовать его как швабру — выгодно всем.",
+          "LocalizedString": "Ползает по земле, поедая мельчайшие органические остатки.\r\nВсё неперевариваемое со временем выводится наружу.\r\nЕсли использовать его как швабру — выгодно всем."
+        }
+      },
+      "PAL_LONG_DESC_MopKing": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_MopKing_TextData",
+          "SourceString": "Во время зимней спячки под густой шерстью этого Пала\r\nпрячется множество <characterName id=|MopBaby|/>.\r\nПо официальному рекорду — целых 101 особь!",
+          "LocalizedString": "Во время зимней спячки под густой шерстью этого Пала\r\nпрячется множество <characterName id=|MopBaby|/>.\r\nПо официальному рекорду — целых 101 особь!"
+        }
+      },
+      "PAL_LONG_DESC_MushroomDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_MushroomDragon_TextData",
+          "SourceString": "Вдохнув большое количество спор, он впадает в некое подобие транса.\r\nИ если <characterName id=|MushroomDragon|/> вдруг замирает,\r\nто делает это не потому, что притворяется грибом —\r\nа потому что его накрыло собственными спорами.",
+          "LocalizedString": "Вдохнув большое количество спор, он впадает в некое подобие транса.\r\nИ если <characterName id=|MushroomDragon|/> вдруг замирает,\r\nто делает это не потому, что притворяется грибом —\r\nа потому что его накрыло собственными спорами."
+        }
+      },
+      "PAL_LONG_DESC_MushroomDragon_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_MushroomDragon_Dark_TextData",
+          "SourceString": "Облака спор легко перекрывают солнечный свет.\r\nИногда <characterName id=|MushroomDragon_Dark|/> замирает вовсе не потому,\r\nчто маскируется под гриб,\r\nа просто потому, что ничего не видит из-за собственных спор.",
+          "LocalizedString": "Облака спор легко перекрывают солнечный свет.\r\nИногда <characterName id=|MushroomDragon_Dark|/> замирает вовсе не потому,\r\nчто маскируется под гриб,\r\nа просто потому, что ничего не видит из-за собственных спор."
+        }
+      },
+      "PAL_LONG_DESC_Mutant": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Mutant_TextData",
+          "SourceString": "Стоит лишь на миг встретиться с его взглядом — и ты уже не принадлежишь себе.\r\nТе, кто держит <characterName id=|Mutant|/> при себе, лишь тешат себя иллюзией власти.\r\nНа деле управляет он.",
+          "LocalizedString": "Стоит лишь на миг встретиться с его взглядом — и ты уже не принадлежишь себе.\r\nТе, кто держит <characterName id=|Mutant|/> при себе, лишь тешат себя иллюзией власти.\r\nНа деле управляет он."
+        }
+      },
+      "PAL_LONG_DESC_MysteryMask": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_MysteryMask_TextData",
+          "SourceString": "Говорят, что то, что выглядит как маска, — вовсе не лицо.\r\nКажется, он перед вами, но на самом деле — нет.\r\nГоворят, он всегда наблюдает… откуда-то.\r\nГоворят, стоит обернуться — и он будет там.",
+          "LocalizedString": "Говорят, что то, что выглядит как маска, — вовсе не лицо.\r\nКажется, он перед вами, но на самом деле — нет.\r\nГоворят, он всегда наблюдает… откуда-то.\r\nГоворят, стоит обернуться — и он будет там."
+        }
+      },
+      "PAL_LONG_DESC_NaughtyCat": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_NaughtyCat_TextData",
+          "SourceString": "Стоит только войти на территорию <characterName id=|NaughtyCat|/>,\r\nкак за вами сразу начинают следить сверкающие глаза.\r\nИ это не преувеличение — они действительно светятся.",
+          "LocalizedString": "Стоит только войти на территорию <characterName id=|NaughtyCat|/>,\r\nкак за вами сразу начинают следить сверкающие глаза.\r\nИ это не преувеличение — они действительно светятся."
+        }
+      },
+      "PAL_LONG_DESC_NegativeKoala": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_NegativeKoala_TextData",
+          "SourceString": "Из-за своего угрюмого взгляда имеет мало друзей,\r\nно обладает добрым сердцем. Можно увидеть,\r\nкак они делятся едой с отбившимися от стаи\r\nПалами. <characterName id=|CuteFox|/> не даст соврать.",
+          "LocalizedString": "Из-за своего угрюмого взгляда имеет мало друзей,\r\nно обладает добрым сердцем. Можно увидеть,\r\nкак они делятся едой с отбившимися от стаи\r\nПалами. <characterName id=|CuteFox|/> не даст соврать."
+        }
+      },
+      "PAL_LONG_DESC_NegativeOctopus": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_NegativeOctopus_TextData",
+          "SourceString": "<characterName id=|NegativeOctopus|/> садится врагу на голову и\r\nвысасывает всё, что внутри его черепа.\r\nИногда находят мумии Палов, и почти все из них — его жертвы.",
+          "LocalizedString": "<characterName id=|NegativeOctopus|/> садится врагу на голову и\r\nвысасывает всё, что внутри его черепа.\r\nИногда находят мумии Палов, и почти все из них — его жертвы."
+        }
+      },
+      "PAL_LONG_DESC_NightBlueHorse": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_NightBlueHorse_TextData",
+          "SourceString": "Безмерно гордится своей красивой, струящейся гривой.\r\nСтоит заметить секущийся волос — от стыда не может сосредоточиться на беге.\r\nОт статического электричества шерсть портится,\r\nпоэтому к <characterName id=|BlueThunderHorse|/> лучше не приближаться.",
+          "LocalizedString": "Безмерно гордится своей красивой, струящейся гривой.\r\nСтоит заметить секущийся волос — от стыда не может сосредоточиться на беге.\r\nОт статического электричества шерсть портится,\r\nпоэтому к <characterName id=|BlueThunderHorse|/> лучше не приближаться."
+        }
+      },
+      "PAL_LONG_DESC_NightBlueHorse_Neutral": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_NightBlueHorse_Neutral_TextData",
+          "SourceString": "Безмерно гордится своей красивой, сияющей гривой.\r\nСтоит ей хоть немного испачкаться — от стыда не может сосредоточиться на беге.\r\nКожный жир оставляет следы, поэтому даже любимому хозяину не стоит слишком часто трогать.",
+          "LocalizedString": "Безмерно гордится своей красивой, сияющей гривой.\r\nСтоит ей хоть немного испачкаться — от стыда не может сосредоточиться на беге.\r\nКожный жир оставляет следы, поэтому даже любимому хозяину не стоит слишком часто трогать."
+        }
+      },
+      "PAL_LONG_DESC_NightFox": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_NightFox_TextData",
+          "SourceString": "Если на ночной дороге вы нашли волосок\r\n<characterName id=|NightFox|/>, лучше его не трогать.\r\nЭто билет в один конец в мир вечной ночи.",
+          "LocalizedString": "Если на ночной дороге вы нашли волосок\r\n<characterName id=|NightFox|/>, лучше его не трогать.\r\nЭто билет в один конец в мир вечной ночи."
+        }
+      },
+      "PAL_LONG_DESC_NightLady": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_NightLady_TextData",
+          "SourceString": "Она не существовала — лишь молча взирала на мир.\r\nНо со временем ей захотелось, чтобы взирали на неё.\r\nСгусток желаний, враждебных внешнему миру,\r\nбыл определён как Безумная Леди.",
+          "LocalizedString": "Она не существовала — лишь молча взирала на мир.\r\nНо со временем ей захотелось, чтобы взирали на неё.\r\nСгусток желаний, враждебных внешнему миру,\r\nбыл определён как Безумная Леди."
+        }
+      },
+      "PAL_LONG_DESC_NightLady_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_NightLady_Dark_TextData",
+          "SourceString": "Освобождённое желание так и не утихло.\r\nЯ хочу лишь себя — ту, что смотрит на меня.\r\nСестры, взиравшие с враждой на внешний мир,\r\nбыли наконец загнаны в межмирье — и лишь тогда закрыли глаза.",
+          "LocalizedString": "Освобождённое желание так и не утихло.\r\nЯ хочу лишь себя — ту, что смотрит на меня.\r\nСестры, взиравшие с враждой на внешний мир,\r\nбыли наконец загнаны в межмирье — и лишь тогда закрыли глаза."
+        }
+      },
+      "PAL_LONG_DESC_OctopusGirl": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_OctopusGirl_TextData",
+          "SourceString": "Если берёте его с собой в постель, лучше заранее проверить расписание на завтра.\r\nСледы от его присосок похожи на поцелуи,\r\nтак что если он случайно присосётся во сне — легко попасть в неловкую ситуацию.",
+          "LocalizedString": "Если берёте его с собой в постель, лучше заранее проверить расписание на завтра.\r\nСледы от его присосок похожи на поцелуи,\r\nтак что если он случайно присосётся во сне — легко попасть в неловкую ситуацию."
+        }
+      },
+      "PAL_LONG_DESC_OctopusGirl_Neutral": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_OctopusGirl_Neutral_TextData",
+          "SourceString": "Если берёте его с собой в постель, лучше заранее проверить расписание на завтра.\r\nСледы от его присосок похожи на поцелуи, так что если он случайно присосётся во сне —\r\nэто может вызвать ненужную тревогу у окружающих.",
+          "LocalizedString": "Если берёте его с собой в постель, лучше заранее проверить расписание на завтра.\r\nСледы от его присосок похожи на поцелуи, так что если он случайно присосётся во сне —\r\nэто может вызвать ненужную тревогу у окружающих."
+        }
+      },
+      "PAL_LONG_DESC_Penguin": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Penguin_TextData",
+          "SourceString": "Его крылья давно утратили способность к полёту.\r\nНо в его генах всё ещё живёт тоска по небу,\r\nи он изо всех сил пытается снова подняться ввысь.",
+          "LocalizedString": "Его крылья давно утратили способность к полёту.\r\nНо в его генах всё ещё живёт тоска по небу,\r\nи он изо всех сил пытается снова подняться ввысь."
+        }
+      },
+      "PAL_LONG_DESC_PinkCat": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_PinkCat_TextData",
+          "SourceString": "С виду он кажется внушительным, но на самом деле этот Пал труслив и слаб. \r\nЕсли Каттива вас презирает, это, в каком-то смысле, высшее унижение.",
+          "LocalizedString": "С виду он кажется внушительным, но на самом деле этот Пал труслив и слаб. \r\nЕсли Каттива вас презирает, это, в каком-то смысле, высшее унижение."
+        }
+      },
+      "PAL_LONG_DESC_PinkLizard": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_PinkLizard_TextData",
+          "SourceString": "Постоянно преследует кого-то в поисках любви на одну ночь.\r\nПоначалу интересовался только Палами,\r\nно в последние годы стал тянуть свои нечистые лапы и к людям.",
+          "LocalizedString": "Постоянно преследует кого-то в поисках любви на одну ночь.\r\nПоначалу интересовался только Палами,\r\nно в последние годы стал тянуть свои нечистые лапы и к людям."
+        }
+      },
+      "PAL_LONG_DESC_PinkRabbit": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_PinkRabbit_TextData",
+          "SourceString": "С лица этого Пала никогда не сходит лучезарная улыбка.\r\nИногда <characterName id=|PinkCat|/> ради шутки завязывает ему щупальца в тугой узел.\r\nТолько в такие моменты его лицо искажается грозной, почти демонической гримасой.",
+          "LocalizedString": "С лица этого Пала никогда не сходит лучезарная улыбка.\r\nИногда <characterName id=|PinkCat|/> ради шутки завязывает ему щупальца в тугой узел.\r\nТолько в такие моменты его лицо искажается грозной, почти демонической гримасой."
+        }
+      },
+      "PAL_LONG_DESC_PinkRabbit_Grass": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_PinkRabbit_Grass_TextData",
+          "SourceString": "С лица этого Пала никогда не сходит лучезарная улыбка.\r\nИногда <characterName id=|PinkCat|/> ради шутки завязывает ему щупальца в тугой узел.\r\nВ такие моменты он избивает обидчика — всё с той же улыбкой на лице.",
+          "LocalizedString": "С лица этого Пала никогда не сходит лучезарная улыбка.\r\nИногда <characterName id=|PinkCat|/> ради шутки завязывает ему щупальца в тугой узел.\r\nВ такие моменты он избивает обидчика — всё с той же улыбкой на лице."
+        }
+      },
+      "PAL_LONG_DESC_PlantSlime": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_PlantSlime_TextData",
+          "SourceString": "Удивительный Пал с телом, похожим на древесный сок.\r\nЕсли он теряет свою шапочку, то начинает постепенно увядать —\r\nи в конце концов окончательно сгнивает.",
+          "LocalizedString": "Удивительный Пал с телом, похожим на древесный сок.\r\nЕсли он теряет свою шапочку, то начинает постепенно увядать —\r\nи в конце концов окончательно сгнивает."
+        }
+      },
+      "PAL_LONG_DESC_Plesiosaur": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Plesiosaur_TextData",
+          "SourceString": "Пыльца, смешанная с его дыханием, — это настоящее чудо. \r\nОна может опылить любое растение. \r\nДля Палов-растений он — весьма... неоднозначная фигура.",
+          "LocalizedString": "Пыльца, смешанная с его дыханием, — это настоящее чудо. \r\nОна может опылить любое растение. \r\nДля Палов-растений он — весьма... неоднозначная фигура."
+        }
+      },
+      "PAL_LONG_DESC_PurpleSpider": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_PurpleSpider_TextData",
+          "SourceString": "Крайне липкий и навязчивый.\r\nЧем сильнее вырывается — тем сильнее прилипает.\r\nТаков уж у него… |характер|.",
+          "LocalizedString": "Крайне липкий и навязчивый.\r\nЧем сильнее вырывается — тем сильнее прилипает.\r\nТаков уж у него… |характер|."
+        }
+      },
+      "PAL_LONG_DESC_QueenBee": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_QueenBee_TextData",
+          "SourceString": "Избранная королева, повелевающая <characterName id=|SoldierBee|/>.\r\nРадость служения великой королеве так велика,\r\nчто её слуги работают до изнеможения и умирают от переутомления —\r\nодин за другим.",
+          "LocalizedString": "Избранная королева, повелевающая <characterName id=|SoldierBee|/>.\r\nРадость служения великой королеве так велика,\r\nчто её слуги работают до изнеможения и умирают от переутомления —\r\nодин за другим."
+        }
+      },
+      "PAL_LONG_DESC_RaijinDaughter": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_RaijinDaughter_TextData",
+          "SourceString": "Часто проявляет доброту к одиноким Палам.\r\nСтоит кому-то из них принять это за нечто большее —\r\nи в следующую секунду тот уже ловит разряд молнии.",
+          "LocalizedString": "Часто проявляет доброту к одиноким Палам.\r\nСтоит кому-то из них принять это за нечто большее —\r\nи в следующую секунду тот уже ловит разряд молнии."
+        }
+      },
+      "PAL_LONG_DESC_RaijinDaughter_Water": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_RaijinDaughter_Water_TextData",
+          "SourceString": "Проявляет доброту к одиноким Палам, выжидая удобный момент, чтобы ударить молнией.\r\nТаков был замысел. Но подходящий случай всё не представлялся —\r\nи в итоге они просто становились друзьями.",
+          "LocalizedString": "Проявляет доброту к одиноким Палам, выжидая удобный момент, чтобы ударить молнией.\r\nТаков был замысел. Но подходящий случай всё не представлялся —\r\nи в итоге они просто становились друзьями."
+        }
+      },
+      "PAL_LONG_DESC_RedArmorBird": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_RedArmorBird_TextData",
+          "SourceString": "Можно подумать, что он — близкий сородич <characterName id=|ThunderBird|/>,\r\nно на самом деле между ними нет никакой связи.\r\nВ его рацион входят горные породы, и с течением лет\r\nзатвердел не только клюв, но и вся голова.",
+          "LocalizedString": "Можно подумать, что он — близкий сородич <characterName id=|ThunderBird|/>,\r\nно на самом деле между ними нет никакой связи.\r\nВ его рацион входят горные породы, и с течением лет\r\nзатвердел не только клюв, но и вся голова."
+        }
+      },
+      "PAL_LONG_DESC_RobinHood": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_RobinHood_TextData",
+          "SourceString": "Этот лесной охотник по своей натуре очень близок к человеку.\r\nСчитается, что в древности он отделился от людей как отдельный вид.\r\nВозможно, именно он — ключ к пониманию природы Палов.",
+          "LocalizedString": "Этот лесной охотник по своей натуре очень близок к человеку.\r\nСчитается, что в древности он отделился от людей как отдельный вид.\r\nВозможно, именно он — ключ к пониманию природы Палов."
+        }
+      },
+      "PAL_LONG_DESC_RobinHood_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_RobinHood_Ground_TextData",
+          "SourceString": "Эти охотники, обитающие в скалистой местности, поразительно близки к человеку по своей натуре.\r\nКогда в руинах находят кости <characterName id=|RobinHood_Ground|/>,\r\nрядом неизменно лежат и человеческие останки.",
+          "LocalizedString": "Эти охотники, обитающие в скалистой местности, поразительно близки к человеку по своей натуре.\r\nКогда в руинах находят кости <characterName id=|RobinHood_Ground|/>,\r\nрядом неизменно лежат и человеческие останки."
+        }
+      },
+      "PAL_LONG_DESC_Ronin": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Ronin_TextData",
+          "SourceString": "После смерти <characterName id=|Ronin|/> становится мечом,\r\nпередаваемым следующим поколениям.\r\nНо стоит кому-то чужому взять его в руки —\r\nи шепот мёртвых, заключённых внутри, сведёт его с ума.",
+          "LocalizedString": "После смерти <characterName id=|Ronin|/> становится мечом,\r\nпередаваемым следующим поколениям.\r\nНо стоит кому-то чужому взять его в руки —\r\nи шепот мёртвых, заключённых внутри, сведёт его с ума."
+        }
+      },
+      "PAL_LONG_DESC_Ronin_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Ronin_Dark_TextData",
+          "SourceString": "После смерти <characterName id=|Ronin|/> становится мечом, передаваемым следующим поколениям.\r\nЕсли <characterName id=|Ronin|/> с неокрепшим духом примет его и не выдержит шепота мёртвых, \r\nзаключённых внутри, то он превращается в <characterName id=|Ronin_Dark|/> и обречён скитаться.",
+          "LocalizedString": "После смерти <characterName id=|Ronin|/> становится мечом, передаваемым следующим поколениям.\r\nЕсли <characterName id=|Ronin|/> с неокрепшим духом примет его и не выдержит шепота мёртвых, \r\nзаключённых внутри, то он превращается в <characterName id=|Ronin_Dark|/> и обречён скитаться."
+        }
+      },
+      "PAL_LONG_DESC_SaintCentaur": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SaintCentaur_TextData",
+          "SourceString": "Некогда этот Пал и <characterName id=|BlackCentaur|/> были единым существом.\r\nСчитается, что он лишён негативных эмоций,\r\nоднако в глубине его глаз теплятся едва заметные угольки ненависти.",
+          "LocalizedString": "Некогда этот Пал и <characterName id=|BlackCentaur|/> были единым существом.\r\nСчитается, что он лишён негативных эмоций,\r\nоднако в глубине его глаз теплятся едва заметные угольки ненависти."
+        }
+      },
+      "PAL_LONG_DESC_SakuraSaurus": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SakuraSaurus_TextData",
+          "SourceString": "Запах этого Пала существенно меняется до и после спаривания. \r\nПосле того как он находит партнёра, его аромат считается приятным \r\nи называется |ароматом первой любви|.",
+          "LocalizedString": "Запах этого Пала существенно меняется до и после спаривания. \r\nПосле того как он находит партнёра, его аромат считается приятным \r\nи называется |ароматом первой любви|."
+        }
+      },
+      "PAL_LONG_DESC_SakuraSaurus_Water": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SakuraSaurus_Water_TextData",
+          "SourceString": "Запах этого Пала существенно меняется до и после спаривания. \r\nДо того как он находит партнёра, его аромат считается особенно приятным \r\nи имеет название |аромат невинности|.",
+          "LocalizedString": "Запах этого Пала существенно меняется до и после спаривания. \r\nДо того как он находит партнёра, его аромат считается особенно приятным \r\nи имеет название |аромат невинности|."
+        }
+      },
+      "PAL_LONG_DESC_ScorpionMan": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ScorpionMan_TextData",
+          "SourceString": "Обладает примерно 5000 видами яда.\r\nСреди них есть и такие, что могут убить мгновенно.\r\nНо концентрация у всех настолько низкая, что толку от них — никакого.",
+          "LocalizedString": "Обладает примерно 5000 видами яда.\r\nСреди них есть и такие, что могут убить мгновенно.\r\nНо концентрация у всех настолько низкая, что толку от них — никакого."
+        }
+      },
+      "PAL_LONG_DESC_ScorpionMan_Electric": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ScorpionMan_Electric_TextData",
+          "SourceString": "Вонзает хвост в тело врага, пропуская через него электрический разряд.\r\nНо заряд слишком слабый —\r\nгораздо эффективнее просто хорошенько врезать.",
+          "LocalizedString": "Вонзает хвост в тело врага, пропуская через него электрический разряд.\r\nНо заряд слишком слабый —\r\nгораздо эффективнее просто хорошенько врезать."
+        }
+      },
+      "PAL_LONG_DESC_Serpent": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Serpent_TextData",
+          "SourceString": "Обтекаемая форма этого Пала позволяет ему быстро передвигаться по воде.\r\nИз-за этого браконьеры нередко ловят его — и катаются на нём, как на серфе.",
+          "LocalizedString": "Обтекаемая форма этого Пала позволяет ему быстро передвигаться по воде.\r\nИз-за этого браконьеры нередко ловят его — и катаются на нём, как на серфе."
+        }
+      },
+      "PAL_LONG_DESC_Serpent_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Serpent_Ground_TextData",
+          "SourceString": "Обтекаемая форма этого Пала позволяет ему быстро передвигаться по песку.\r\nИз-за этого браконьеры нередко ловят его — и катаются на нём, как на серфе.",
+          "LocalizedString": "Обтекаемая форма этого Пала позволяет ему быстро передвигаться по песку.\r\nИз-за этого браконьеры нередко ловят его — и катаются на нём, как на серфе."
+        }
+      },
+      "PAL_LONG_DESC_SharkKid": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SharkKid_TextData",
+          "SourceString": "В древности он был огромным и сильным водным Палом,\r\nно из-за нехватки пищи переселился на сушу.\r\nПередвижение по земле оказалось слишком энергозатратным,\r\nи со временем он уменьшился до нынешнего, жалкого состояния.",
+          "LocalizedString": "В древности он был огромным и сильным водным Палом,\r\nно из-за нехватки пищи переселился на сушу.\r\nПередвижение по земле оказалось слишком энергозатратным,\r\nи со временем он уменьшился до нынешнего, жалкого состояния."
+        }
+      },
+      "PAL_LONG_DESC_SharkKid_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SharkKid_Fire_TextData",
+          "SourceString": "В древности он был огромным и сильным водным Палом,\r\nно из-за нехватки пищи вышел на сушу.\r\nСжигая уйму калорий при ходьбе,\r\nон — как ни странно — пробудил в себе силу огня!",
+          "LocalizedString": "В древности он был огромным и сильным водным Палом,\r\nно из-за нехватки пищи вышел на сушу.\r\nСжигая уйму калорий при ходьбе,\r\nон — как ни странно — пробудил в себе силу огня!"
+        }
+      },
+      "PAL_LONG_DESC_SheepBall": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SheepBall_TextData",
+          "SourceString": "Если дорога ведет под горку, этот Пал начинает катиться вниз. \r\nГоловокружение парализует его, лишая возможности двигаться, превращая в лёгкую добычу. \r\nОн занимает самое низкое положение в пищевой цепи.",
+          "LocalizedString": "Если дорога ведет под горку, этот Пал начинает катиться вниз. \r\nГоловокружение парализует его, лишая возможности двигаться, превращая в лёгкую добычу. \r\nОн занимает самое низкое положение в пищевой цепи."
+        }
+      },
+      "PAL_LONG_DESC_SifuDog": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SifuDog_TextData",
+          "SourceString": "Они проводят дни в медитации, стремясь достичь состояния небытия.\r\nСтолкнувшись с мирскими желаниями, ощущают облегчение и набрасываются на еду.\r\nПотом думают: |Сегодня я снова переел|.",
+          "LocalizedString": "Они проводят дни в медитации, стремясь достичь состояния небытия.\r\nСтолкнувшись с мирскими желаниями, ощущают облегчение и набрасываются на еду.\r\nПотом думают: |Сегодня я снова переел|."
+        }
+      },
+      "PAL_LONG_DESC_SkyDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SkyDragon_TextData",
+          "SourceString": "Засыпать в обнимку с <characterName id=|SkyDragon|/> — райское наслаждение.\r\nНо если он ворочается во сне, то может вас раздавить,\r\nи вы отправитесь в рай в прямом смысле.",
+          "LocalizedString": "Засыпать в обнимку с <characterName id=|SkyDragon|/> — райское наслаждение.\r\nНо если он ворочается во сне, то может вас раздавить,\r\nи вы отправитесь в рай в прямом смысле."
+        }
+      },
+      "PAL_LONG_DESC_SkyDragon_Grass": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SkyDragon_Grass_TextData",
+          "SourceString": "Если обнять <characterName id=|SkyDragon_Grass|/>\r\nи почувствовать запах солнца и лугов — завтра будет ясно.\r\nА если от него пахнет сыростью — ждите проливной дождь.",
+          "LocalizedString": "Если обнять <characterName id=|SkyDragon_Grass|/>\r\nи почувствовать запах солнца и лугов — завтра будет ясно.\r\nА если от него пахнет сыростью — ждите проливной дождь."
+        }
+      },
+      "PAL_LONG_DESC_SmallArmadillo": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SmallArmadillo_TextData",
+          "SourceString": "Когда-то был популярен футбол, где <characterName id=|SmallArmadillo|/> выступал в роли мяча.\r\nЭта мода быстро сошла на нет благодаря усилиям Организации по защите Палов, но сами Палы были отнюдь не против —\r\nведь так они легко избавлялись от ороговевшей кожи.",
+          "LocalizedString": "Когда-то был популярен футбол, где <characterName id=|SmallArmadillo|/> выступал в роли мяча.\r\nЭта мода быстро сошла на нет благодаря усилиям Организации по защите Палов, но сами Палы были отнюдь не против —\r\nведь так они легко избавлялись от ороговевшей кожи."
+        }
+      },
+      "PAL_LONG_DESC_SnowTigerBeastman": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SnowTigerBeastman_TextData",
+          "SourceString": "При виде чего-то круглого <characterName id=|SnowTigerBeastMan|/> испытывает непреодолимое желание ударить.\r\nСамое сложное для него после самого факта существования — это слепить снеговика.",
+          "LocalizedString": "При виде чего-то круглого <characterName id=|SnowTigerBeastMan|/> испытывает непреодолимое желание ударить.\r\nСамое сложное для него после самого факта существования — это слепить снеговика."
+        }
+      },
+      "PAL_LONG_DESC_SoldierBee": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SoldierBee_TextData",
+          "SourceString": "Верный слуга, присягнувший королеве <characterName id=|QueenBee|/>.\r\nБез колебаний расправляется с теми, кто посмеет причинить ей вред.\r\nОн защитит её даже ценою собственной жизни.",
+          "LocalizedString": "Верный слуга, присягнувший королеве <characterName id=|QueenBee|/>.\r\nБез колебаний расправляется с теми, кто посмеет причинить ей вред.\r\nОн защитит её даже ценою собственной жизни."
+        }
+      },
+      "PAL_LONG_DESC_StuffedShark": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_StuffedShark_TextData",
+          "SourceString": "Выглядит так, будто из кигуруми кто-то выглядывает.\r\nНо если сунуть руку внутрь — там пусто.\r\nПричём руку можно засовывать бесконечно глубоко.\r\nИногда кажется, что внутри — целая вселенная.",
+          "LocalizedString": "Выглядит так, будто из кигуруми кто-то выглядывает.\r\nНо если сунуть руку внутрь — там пусто.\r\nПричём руку можно засовывать бесконечно глубоко.\r\nИногда кажется, что внутри — целая вселенная."
+        }
+      },
+      "PAL_LONG_DESC_Suzaku": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Suzaku_TextData",
+          "SourceString": "В древности его считали вестником засухи.\r\nКогда один год был неурожайным,\r\nв надежде на следующий, люди безжалостно истребляли этих Палов.",
+          "LocalizedString": "В древности его считали вестником засухи.\r\nКогда один год был неурожайным,\r\nв надежде на следующий, люди безжалостно истребляли этих Палов."
+        }
+      },
+      "PAL_LONG_DESC_Suzaku_Water": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Suzaku_Water_TextData",
+          "SourceString": "В древности его считали вестником сезона дождей.\r\nЕсли в предыдущем году случалось наводнение,\r\nлюди, молясь о будущем спокойствии, настойчиво его истребляли.",
+          "LocalizedString": "В древности его считали вестником сезона дождей.\r\nЕсли в предыдущем году случалось наводнение,\r\nлюди, молясь о будущем спокойствии, настойчиво его истребляли."
+        }
+      },
+      "PAL_LONG_DESC_SweetsSheep": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SweetsSheep_TextData",
+          "SourceString": "Тело этого Пала в 18 000 раз слаще сахара.\r\nПлотоядные Палы, привлеченные его запахом,\r\nс первым же укусом падают в обморок от такой сладости.",
+          "LocalizedString": "Тело этого Пала в 18 000 раз слаще сахара.\r\nПлотоядные Палы, привлеченные его запахом,\r\nс первым же укусом падают в обморок от такой сладости."
+        }
+      },
+      "PAL_LONG_DESC_SweetsSheep_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SweetsSheep_Ground_TextData",
+          "SourceString": "Шерсть источает приторно-сладкий аромат, но мясо отвратительно горькое.\r\nПлотоядные Палы, привлечённые запахом, от горечи закатывают глаза и падают без сознания.",
+          "LocalizedString": "Шерсть источает приторно-сладкий аромат, но мясо отвратительно горькое.\r\nПлотоядные Палы, привлечённые запахом, от горечи закатывают глаза и падают без сознания."
+        }
+      },
+      "PAL_LONG_DESC_TentacleTurtle": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_TentacleTurtle_TextData",
+          "SourceString": "Для защиты слабого тела он обзавёлся мощным панцирем.\r\nНо теперь его тело настолько уязвимо, что даже от лёгкой щекотки он теряет сознание.",
+          "LocalizedString": "Для защиты слабого тела он обзавёлся мощным панцирем.\r\nНо теперь его тело настолько уязвимо, что даже от лёгкой щекотки он теряет сознание."
+        }
+      },
+      "PAL_LONG_DESC_ThunderBird": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ThunderBird_TextData",
+          "SourceString": "Можно подумать, что он — близкий сородич <characterName id=|RedArmorBird|/>,\r\nно на самом деле между ними нет никакой связи.\r\nОн стремительно пикирует вниз и пронзает врага острым клювом —\r\nсловно удар молнии.",
+          "LocalizedString": "Можно подумать, что он — близкий сородич <characterName id=|RedArmorBird|/>,\r\nно на самом деле между ними нет никакой связи.\r\nОн стремительно пикирует вниз и пронзает врага острым клювом —\r\nсловно удар молнии."
+        }
+      },
+      "PAL_LONG_DESC_ThunderDog": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ThunderDog_TextData",
+          "SourceString": "При полном разгоне скорость подобна молнии.\r\nСтолкновение двух <characterName id=|ThunderDog|/> сопровождается грохотом,\r\nнапоминающим раскат грома.",
+          "LocalizedString": "При полном разгоне скорость подобна молнии.\r\nСтолкновение двух <characterName id=|ThunderDog|/> сопровождается грохотом,\r\nнапоминающим раскат грома."
+        }
+      },
+      "PAL_LONG_DESC_ThunderDog_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ThunderDog_Ice_TextData",
+          "SourceString": "При беге во весь опор по снежной равнине поднимается снежная буря.\r\nИз-за плохой видимости <characterName id=|ThunderDog_Ice|/> нередко сталкиваются друг с другом.",
+          "LocalizedString": "При беге во весь опор по снежной равнине поднимается снежная буря.\r\nИз-за плохой видимости <characterName id=|ThunderDog_Ice|/> нередко сталкиваются друг с другом."
+        }
+      },
+      "PAL_LONG_DESC_ThunderDragonMan": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ThunderDragonMan_TextData",
+          "SourceString": "Пропускает электрический разряд через раны противника,\r\nобжигая его тело изнутри.\r\nКогда два <characterName id=|ThunderDragonMan|/> сталкиваются — \r\nвсё решается в одно мгновение.",
+          "LocalizedString": "Пропускает электрический разряд через раны противника,\r\nобжигая его тело изнутри.\r\nКогда два <characterName id=|ThunderDragonMan|/> сталкиваются — \r\nвсё решается в одно мгновение."
+        }
+      },
+      "PAL_LONG_DESC_TropicalOstrich": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_TropicalOstrich_TextData",
+          "SourceString": "Сбивает противника с ритма своим фирменным танцем.\r\nВ борьбе за территорию проигрывает тот, кто первым поддался ритму другого.\r\nОн танцует всегда — и в ухаживаниях, и от скуки, и просто так!\r\nТак что же значит танец, если он адресован человеку?",
+          "LocalizedString": "Сбивает противника с ритма своим фирменным танцем.\r\nВ борьбе за территорию проигрывает тот, кто первым поддался ритму другого.\r\nОн танцует всегда — и в ухаживаниях, и от скуки, и просто так!\r\nТак что же значит танец, если он адресован человеку?"
+        }
+      },
+      "PAL_LONG_DESC_Umihebi": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Umihebi_TextData",
+          "SourceString": "Ходит легенда о мудреце, несправедливо сброшенном в водоворот.\r\nВозродившись в облике <characterName id=|Umihebi|/>,\r\nон обрушил гибель на целую страну.",
+          "LocalizedString": "Ходит легенда о мудреце, несправедливо сброшенном в водоворот.\r\nВозродившись в облике <characterName id=|Umihebi|/>,\r\nон обрушил гибель на целую страну."
+        }
+      },
+      "PAL_LONG_DESC_Umihebi_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Umihebi_Fire_TextData",
+          "SourceString": "Ходит легенда о воине, несправедливо сброшенном в жерло вулкана.\r\nВозродившись в облике <characterName id=|Umihebi_Fire|/>,\r\nон сжёг страну дотла.",
+          "LocalizedString": "Ходит легенда о воине, несправедливо сброшенном в жерло вулкана.\r\nВозродившись в облике <characterName id=|Umihebi_Fire|/>,\r\nон сжёг страну дотла."
+        }
+      },
+      "PAL_LONG_DESC_VioletFairy": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_VioletFairy_TextData",
+          "SourceString": "У замка было много цветов, которые любил король.\r\nРазразилась большая битва, и пламя подступило к замку.\r\nИ тут появилась одна цветочная фея.\r\n— Из детской сказки |Цветок короля|",
+          "LocalizedString": "У замка было много цветов, которые любил король.\r\nРазразилась большая битва, и пламя подступило к замку.\r\nИ тут появилась одна цветочная фея.\r\n— Из детской сказки |Цветок короля|"
+        }
+      },
+      "PAL_LONG_DESC_VolcanicMonster": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_VolcanicMonster_TextData",
+          "SourceString": "По всему телу этого Пала струится подобная\r\nмагме кровь. Если вылить на него большое\r\nколичество воды, она мигом нагреется,\r\nи произойдет чудовищный фреатический взрыв.",
+          "LocalizedString": "По всему телу этого Пала струится подобная\r\nмагме кровь. Если вылить на него большое\r\nколичество воды, она мигом нагреется,\r\nи произойдет чудовищный фреатический взрыв."
+        }
+      },
+      "PAL_LONG_DESC_VolcanicMonster_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_VolcanicMonster_Ice_TextData",
+          "SourceString": "По всему телу этого Пала струится ледяная кровь.\r\nПри моментальном нагревании кровь превращается\r\nв пар, вызывая чудовищный фреатический взрыв.",
+          "LocalizedString": "По всему телу этого Пала струится ледяная кровь.\r\nПри моментальном нагревании кровь превращается\r\nв пар, вызывая чудовищный фреатический взрыв."
+        }
+      },
+      "PAL_LONG_DESC_WaterLizard": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WaterLizard_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "PAL_LONG_DESC_WeaselDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WeaselDragon_TextData",
+          "SourceString": "Сворачивается в клубок и мчится с бешеной скоростью.\r\nВ древности люди приручали <characterName id=|WeaselDragon|/>,\r\nпривязывали к нему мешок с молоком и отпускали пастись.\r\nПока тот катался, внутри сбивалось масло.",
+          "LocalizedString": "Сворачивается в клубок и мчится с бешеной скоростью.\r\nВ древности люди приручали <characterName id=|WeaselDragon|/>,\r\nпривязывали к нему мешок с молоком и отпускали пастись.\r\nПока тот катался, внутри сбивалось масло."
+        }
+      },
+      "PAL_LONG_DESC_WeaselDragon_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WeaselDragon_Fire_TextData",
+          "SourceString": "Сворачивается в клубок и катится, разбрасывая искры.\r\nДаже сильное волнение вызывает выброс искр.\r\nЕсли гладить слишком усердно — может загореться.",
+          "LocalizedString": "Сворачивается в клубок и катится, разбрасывая искры.\r\nДаже сильное волнение вызывает выброс искр.\r\nЕсли гладить слишком усердно — может загореться."
+        }
+      },
+      "PAL_LONG_DESC_Werewolf": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Werewolf_TextData",
+          "SourceString": "Рог на его голове растёт под лунным светом.\r\nСолнце ему не вредит, но на солнце рог слегка зудит.",
+          "LocalizedString": "Рог на его голове растёт под лунным светом.\r\nСолнце ему не вредит, но на солнце рог слегка зудит."
+        }
+      },
+      "PAL_LONG_DESC_Werewolf_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Werewolf_Ice_TextData",
+          "SourceString": "Ледяные рога на его голове никогда не тают.\r\nГоворят, что колотый лёд из отколовшихся рогов — настоящий деликатес,\r\nно потом болит голова и у того, кто его съел, и у самого <characterName id=|Werewolf_Ice|/>.",
+          "LocalizedString": "Ледяные рога на его голове никогда не тают.\r\nГоворят, что колотый лёд из отколовшихся рогов — настоящий деликатес,\r\nно потом болит голова и у того, кто его съел, и у самого <characterName id=|Werewolf_Ice|/>."
+        }
+      },
+      "PAL_LONG_DESC_WhiteAlienDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WhiteAlienDragon_TextData",
+          "SourceString": "Генерирует энергию, поедая информацию.\r\nПохоже, он регулярно передаёт данные кому-то.\r\n- Приём? Я съел прошлое сообщение, не прочитав. Что там было?",
+          "LocalizedString": "Генерирует энергию, поедая информацию.\r\nПохоже, он регулярно передаёт данные кому-то.\r\n- Приём? Я съел прошлое сообщение, не прочитав. Что там было?"
+        }
+      },
+      "PAL_LONG_DESC_WhiteDeer": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WhiteDeer_TextData",
+          "SourceString": "В древних текстах его называют |Зверем-спасителем|.\r\nСвет, который излучает <characterName id=|WhiteDeer|/>,\r\nочищает всё вокруг.\r\nБуквально — стирает из этого мира без следа.",
+          "LocalizedString": "В древних текстах его называют |Зверем-спасителем|.\r\nСвет, который излучает <characterName id=|WhiteDeer|/>,\r\nочищает всё вокруг.\r\nБуквально — стирает из этого мира без следа."
+        }
+      },
+      "PAL_LONG_DESC_WhiteMoth": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WhiteMoth_TextData",
+          "SourceString": "Любит дождь и часто просто стоит,\r\nне шевелясь, пока он не прекращается.\r\n<characterName id=|Kitsunebi|/> часто прибегает к нему, \r\nчтобы укрыться от дождя.",
+          "LocalizedString": "Любит дождь и часто просто стоит,\r\nне шевелясь, пока он не прекращается.\r\n<characterName id=|Kitsunebi|/> часто прибегает к нему, \r\nчтобы укрыться от дождя."
+        }
+      },
+      "PAL_LONG_DESC_WhiteShieldDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WhiteShieldDragon_TextData",
+          "SourceString": "Металлический обод на его шее обладает магнитными свойствами.\r\nСтоит поднести к нему лапу — и он тут же притягивается сам к себе.\r\nКогда на шее скапливается металлический мусор, он нехотя берётся за уборку,\r\nно ничего не отлипает — и его охватывает приступ бешенства.",
+          "LocalizedString": "Металлический обод на его шее обладает магнитными свойствами.\r\nСтоит поднести к нему лапу — и он тут же притягивается сам к себе.\r\nКогда на шее скапливается металлический мусор, он нехотя берётся за уборку,\r\nно ничего не отлипает — и его охватывает приступ бешенства."
+        }
+      },
+      "PAL_LONG_DESC_WhiteTiger": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WhiteTiger_TextData",
+          "SourceString": "Своими крепкими когтями легко карабкается даже на самые крутые горы.\r\nНо из-за коротких ног не умеет толком спускаться —\r\nи часто оказывается в полном замешательстве на большой высоте.",
+          "LocalizedString": "Своими крепкими когтями легко карабкается даже на самые крутые горы.\r\nНо из-за коротких ног не умеет толком спускаться —\r\nи часто оказывается в полном замешательстве на большой высоте."
+        }
+      },
+      "PAL_LONG_DESC_WhiteTiger_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WhiteTiger_Ground_TextData",
+          "SourceString": "С легкостью переносит своими большими руками горы вещей.\r\nОднако короткие ноги мешают ему быстро передвигаться,\r\nи нередко ночь застает его в пути.",
+          "LocalizedString": "С легкостью переносит своими большими руками горы вещей.\r\nОднако короткие ноги мешают ему быстро передвигаться,\r\nи нередко ночь застает его в пути."
+        }
+      },
+      "PAL_LONG_DESC_Windchimes": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Windchimes_TextData",
+          "SourceString": "Его огромные руки способны разорвать даже железо.\r\nКогда-то на городской площади проводили варварскую казнь:\r\nтяжких преступников приковывали к столбу и позволяли <characterName id=|Windchimes|/> разрывать их плоть.",
+          "LocalizedString": "Его огромные руки способны разорвать даже железо.\r\nКогда-то на городской площади проводили варварскую казнь:\r\nтяжких преступников приковывали к столбу и позволяли <characterName id=|Windchimes|/> разрывать их плоть."
+        }
+      },
+      "PAL_LONG_DESC_Windchimes_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Windchimes_Ice_TextData",
+          "SourceString": "Его огромные руки способны разрывать даже ледяные глыбы.\r\nКогда-то в центре города устраивали жестокое публичное устрашение:\r\nтяжких преступников приковывали к столбу,\r\nи <characterName id=|Windchimes_Ice|/> вырывал им волосы, наводя ужас на толпу.",
+          "LocalizedString": "Его огромные руки способны разрывать даже ледяные глыбы.\r\nКогда-то в центре города устраивали жестокое публичное устрашение:\r\nтяжких преступников приковывали к столбу,\r\nи <characterName id=|Windchimes_Ice|/> вырывал им волосы, наводя ужас на толпу."
+        }
+      },
+      "PAL_LONG_DESC_WingGolem": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WingGolem_TextData",
+          "SourceString": "Загадочный Пал, которого можно разобрать на 215 частей.\r\nДаже после полной разборки, при повторной сборке начинает двигаться как ни в чём не бывало.\r\nЕсли смешать детали разных особей, личность разрушается\r\nи рассудок идёт вразнос.",
+          "LocalizedString": "Загадочный Пал, которого можно разобрать на 215 частей.\r\nДаже после полной разборки, при повторной сборке начинает двигаться как ни в чём не бывало.\r\nЕсли смешать детали разных особей, личность разрушается\r\nи рассудок идёт вразнос."
+        }
+      },
+      "PAL_LONG_DESC_WizardOwl": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WizardOwl_TextData",
+          "SourceString": "Часто предаётся раздумьям\r\nи не может уснуть от собственных мыслей.\r\n|Я мыслю, следовательно, я существую|.",
+          "LocalizedString": "Часто предаётся раздумьям\r\nи не может уснуть от собственных мыслей.\r\n|Я мыслю, следовательно, я существую|."
+        }
+      },
+      "PAL_LONG_DESC_WoolFox": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WoolFox_TextData",
+          "SourceString": "Обладает более качественной шерстью, чем <characterName id=|SheepBall|/>,\r\nи более спокойным, пригодным для домашнего разведения нравом.\r\nТем не менее, на протяжении всей истории его держали как милого питомца.\r\nМилота была выше логики.",
+          "LocalizedString": "Обладает более качественной шерстью, чем <characterName id=|SheepBall|/>,\r\nи более спокойным, пригодным для домашнего разведения нравом.\r\nТем не менее, на протяжении всей истории его держали как милого питомца.\r\nМилота была выше логики."
+        }
+      },
+      "PAL_LONG_DESC_Yeti": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Yeti_TextData",
+          "SourceString": "Учёные пытались раскрыть тайну этого Пала\r\nи срезали с него всю шерсть.\r\nНо осталась лишь кучка шерсти —\r\nсловно изначально внутри никого и не было.",
+          "LocalizedString": "Учёные пытались раскрыть тайну этого Пала\r\nи срезали с него всю шерсть.\r\nНо осталась лишь кучка шерсти —\r\nсловно изначально внутри никого и не было."
+        }
+      },
+      "PAL_LONG_DESC_Yeti_Grass": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Yeti_Grass_TextData",
+          "SourceString": "Учёные попытались раскрыть тайну этого Пала\r\nи срезали с него всю траву.\r\nНо осталась лишь кучка травы —\r\nсловно изначально внутри никого и не было.",
+          "LocalizedString": "Учёные попытались раскрыть тайну этого Пала\r\nи срезали с него всю траву.\r\nНо осталась лишь кучка травы —\r\nсловно изначально внутри никого и не было."
+        }
+      },
+      "PAL_LONG_DESC_NegativeOctopus_Neutral": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_NegativeOctopus_Neutral_TextData",
+          "SourceString": "Вцепляется в шею врага, высасывая всю кровь до последней капли.\r\nЕсли два <characterName id=|NegativeOctopus_Neutral|/> сцепляются друг с другом,\r\nони начинают бесконечно пить друг у друга,\r\nне отпуская, пока один не падёт.",
+          "LocalizedString": "Вцепляется в шею врага, высасывая всю кровь до последней капли.\r\nЕсли два <characterName id=|NegativeOctopus_Neutral|/> сцепляются друг с другом,\r\nони начинают бесконечно пить друг у друга,\r\nне отпуская, пока один не падёт."
+        }
+      },
+      "PAL_LONG_DESC_Penguin_Electric": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Penguin_Electric_TextData",
+          "SourceString": "Его крылья полностью атрофировались — летать он больше не в силах.\r\nТоска по небу превратилась в жгучую зависть.\r\nТеперь у него электрическая сила, способная сбивать летунов прямо с небес!",
+          "LocalizedString": "Его крылья полностью атрофировались — летать он больше не в силах.\r\nТоска по небу превратилась в жгучую зависть.\r\nТеперь у него электрическая сила, способная сбивать летунов прямо с небес!"
+        }
+      },
+      "PAL_LONG_DESC_StuffedShark_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_StuffedShark_Fire_TextData",
+          "SourceString": "Руку можно засовывать ему в пасть сколько угодно глубоко — внутри пусто.\r\nОдин исследователь решил, что это, возможно, карманное измерение,\r\nи попытался целиком в него залезть, как в спальный мешок.\r\nНо Пала начало тошнить — видимо, это всё-таки его внутренности.",
+          "LocalizedString": "Руку можно засовывать ему в пасть сколько угодно глубоко — внутри пусто.\r\nОдин исследователь решил, что это, возможно, карманное измерение,\r\nи попытался целиком в него залезть, как в спальный мешок.\r\nНо Пала начало тошнить — видимо, это всё-таки его внутренности."
+        }
+      },
+      "PAL_LONG_DESC_FlyingManta_Thunder": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FlyingManta_Thunder_TextData",
+          "SourceString": "Яркий узор на теле помогает ему найти партнера.\r\nИстория несчастных случаев от поражений электрическим током, связанных с этим Палом, уходит в давнее прошлое.\r\nВ наше время жёлто-черная полосатая расцветка\r\nвоспринимается как опасная на острове.",
+          "LocalizedString": "Яркий узор на теле помогает ему найти партнера.\r\nИстория несчастных случаев от поражений электрическим током, связанных с этим Палом, уходит в давнее прошлое.\r\nВ наше время жёлто-черная полосатая расцветка\r\nвоспринимается как опасная на острове."
+        }
+      },
+      "PAL_LONG_DESC_BluePlatypus_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BluePlatypus_Fire_TextData",
+          "SourceString": "Его живот обладает высоким трением, и при боди-сёрфинге он воспламеняется. \r\nЧасто превращается в огненный факел, если разгонится слишком сильно.",
+          "LocalizedString": "Его живот обладает высоким трением, и при боди-сёрфинге он воспламеняется. \r\nЧасто превращается в огненный факел, если разгонится слишком сильно."
+        }
+      },
+      "PAL_LONG_DESC_CaptainPenguin_Black": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CaptainPenguin_Black_TextData",
+          "SourceString": "Он получил электрическую силу для подводной охоты, и его окрас изменился.\r\nВ результате <characterName id=|Penguin|/> перестал тянуться к нему.\r\nНо по какой-то причине у него появился новый подчинённый — <characterName id=|Penguin_Electric|/>.",
+          "LocalizedString": "Он получил электрическую силу для подводной охоты, и его окрас изменился.\r\nВ результате <characterName id=|Penguin|/> перестал тянуться к нему.\r\nНо по какой-то причине у него появился новый подчинённый — <characterName id=|Penguin_Electric|/>."
+        }
+      },
+      "PAL_LONG_DESC_LazyCatfish_Gold": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_LazyCatfish_Gold_TextData",
+          "SourceString": "Его тело имеет невероятно высокую способность к отражению.\r\nА скорость его реакций ещё медленнее, чем у <characterName id=|LazyCatfish|/>!",
+          "LocalizedString": "Его тело имеет невероятно высокую способность к отражению.\r\nА скорость его реакций ещё медленнее, чем у <characterName id=|LazyCatfish|/>!"
+        }
+      },
+      "PAL_LONG_DESC_SnowPeafowl": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SnowPeafowl_TextData",
+          "SourceString": "Чувствителен ко времени и каждое утро просыпается в одно и то же время.\r\nГоворят, что на острове Палпагос день был поделен на 24 части, потому что, если посмотреть прямо на <characterName id=|SnowPeafowl|/> с расправленными крыльями, можно насчитать 24 промежутка между перьями.",
+          "LocalizedString": "Чувствителен ко времени и каждое утро просыпается в одно и то же время.\r\nГоворят, что на острове Палпагос день был поделен на 24 части, потому что, если посмотреть прямо на <characterName id=|SnowPeafowl|/> с расправленными крыльями, можно насчитать 24 промежутка между перьями."
+        }
+      },
+      "PAL_LONG_DESC_TentacleTurtle_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_TentacleTurtle_Ground_TextData",
+          "SourceString": "Чтобы защитить своё уязвимое тело, он обзавёлся прочным панцирем.\r\nБольшая часть его осязания сосредоточена в лапах и панцире,\r\nи если тайком прикоснуться к самому телу, он этого даже не почувствует.",
+          "LocalizedString": "Чтобы защитить своё уязвимое тело, он обзавёлся прочным панцирем.\r\nБольшая часть его осязания сосредоточена в лапах и панцире,\r\nи если тайком прикоснуться к самому телу, он этого даже не почувствует."
+        }
+      },
+      "PAL_LONG_DESC_BlueDragon_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BlueDragon_Ice_TextData",
+          "SourceString": "Его белый пояс непрерывно поглощает тепло из окружающей среды.\r\nУдивительно, но его температура при этом остаётся неизменной.\r\nИз-за этого необычного свойства его в прошлом массово отлавливали,\r\nи даже сейчас он не питает симпатии к человеку.",
+          "LocalizedString": "Его белый пояс непрерывно поглощает тепло из окружающей среды.\r\nУдивительно, но его температура при этом остаётся неизменной.\r\nИз-за этого необычного свойства его в прошлом массово отлавливали,\r\nи даже сейчас он не питает симпатии к человеку."
+        }
+      },
+      "PAL_LONG_DESC_IceNarwhal_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_IceNarwhal_Fire_TextData",
+          "SourceString": "Чтобы его больше не путали со льдиной, он усилием воли покраснел.\r\nНо Палам, не различающим красный цвет, было всё равно — они продолжали нарушать его личное пространство.\r\nВсе старания оказались тщетны.",
+          "LocalizedString": "Чтобы его больше не путали со льдиной, он усилием воли покраснел.\r\nНо Палам, не различающим красный цвет, было всё равно — они продолжали нарушать его личное пространство.\r\nВсе старания оказались тщетны."
+        }
+      },
+      "PAL_LONG_DESC_GhostAnglerfish_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GhostAnglerfish_Fire_TextData",
+          "SourceString": "Он использует свою пылающую приманку, чтобы поджаривать добычу.\r\nПаламы, привлечённые аппетитным запахом, уже не могут убежать —\r\nесли <characterName id=|GhostAnglerfish_Fire|/> их заметит,\r\nон будет лакомиться ими, пока не наестся досыта.",
+          "LocalizedString": "Он использует свою пылающую приманку, чтобы поджаривать добычу.\r\nПаламы, привлечённые аппетитным запахом, уже не могут убежать —\r\nесли <characterName id=|GhostAnglerfish_Fire|/> их заметит,\r\nон будет лакомиться ими, пока не наестся досыта."
+        }
+      },
+      "PAL_LONG_DESC_PoseidonOrca": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_PoseidonOrca_TextData",
+          "SourceString": "После того как катастрофа была запечатана, ему повстречался воин, павший с небес.\r\nС тех пор он возникает в прибрежных водах — лишь перед теми, кто достоин.\r\nТакая встреча — не случайна, она предначертана.",
+          "LocalizedString": "После того как катастрофа была запечатана, ему повстречался воин, павший с небес.\r\nС тех пор он возникает в прибрежных водах — лишь перед теми, кто достоин.\r\nТакая встреча — не случайна, она предначертана."
+        }
+      },
+      "PAL_LONG_DESC_YakushimaMonster001": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_YakushimaMonster001_TextData",
+          "SourceString": "[Коллаборация с Terraria]\r\nМонстр из другого мира.\r\nПохоже, здесь его можно приручить.",
+          "LocalizedString": "[Коллаборация с Terraria]\r\nМонстр из другого мира.\r\nПохоже, здесь его можно приручить."
+        }
+      },
+      "PAL_LONG_DESC_YakushimaMonster001_Blue": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_YakushimaMonster001_Blue_TextData",
+          "SourceString": "[Коллаборация с Terraria]\r\nМонстр из другого мира.\r\nПохоже, здесь его можно приручить.",
+          "LocalizedString": "[Коллаборация с Terraria]\r\nМонстр из другого мира.\r\nПохоже, здесь его можно приручить."
+        }
+      },
+      "PAL_LONG_DESC_YakushimaMonster001_Red": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_YakushimaMonster001_Red_TextData",
+          "SourceString": "[Коллаборация с Terraria]\r\nМонстр из другого мира.\r\nПохоже, здесь его можно приручить.",
+          "LocalizedString": "[Коллаборация с Terraria]\r\nМонстр из другого мира.\r\nПохоже, здесь его можно приручить."
+        }
+      },
+      "PAL_LONG_DESC_YakushimaMonster001_Purple": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_YakushimaMonster001_Purple_TextData",
+          "SourceString": "[Коллаборация с Terraria]\r\nМонстр из другого мира.\r\nПохоже, здесь его можно приручить.",
+          "LocalizedString": "[Коллаборация с Terraria]\r\nМонстр из другого мира.\r\nПохоже, здесь его можно приручить."
+        }
+      },
+      "PAL_LONG_DESC_YakushimaMonster001_Pink": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_YakushimaMonster001_Pink_TextData",
+          "SourceString": "[Коллаборация с Terraria]\r\nМонстр из другого мира.\r\nПохоже, здесь его можно приручить.",
+          "LocalizedString": "[Коллаборация с Terraria]\r\nМонстр из другого мира.\r\nПохоже, здесь его можно приручить."
+        }
+      },
+      "PAL_LONG_DESC_YakushimaMonster001_Rainbow": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_YakushimaMonster001_Rainbow_TextData",
+          "SourceString": "[Коллаборация с Terraria]\r\nМонстр из другого мира.\r\nПохоже, здесь его можно приручить.",
+          "LocalizedString": "[Коллаборация с Terraria]\r\nМонстр из другого мира.\r\nПохоже, здесь его можно приручить."
+        }
+      },
+      "PAL_LONG_DESC_YakushimaBoss001_Small": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_YakushimaBoss001_Small_TextData",
+          "SourceString": "[Коллаборация с Terraria]\r\nМонстр из другого мира.\r\nПохоже, здесь его можно приручить.",
+          "LocalizedString": "[Коллаборация с Terraria]\r\nМонстр из другого мира.\r\nПохоже, здесь его можно приручить."
+        }
+      },
+      "PAL_LONG_DESC_YakushimaMonster002": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_YakushimaMonster002_TextData",
+          "SourceString": "[Коллаборация с Terraria]\r\nМонстр из другого мира.\r\nПохоже, здесь его можно приручить.",
+          "LocalizedString": "[Коллаборация с Terraria]\r\nМонстр из другого мира.\r\nПохоже, здесь его можно приручить."
+        }
+      },
+      "PAL_LONG_DESC_YakushimaMonster003": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_YakushimaMonster003_TextData",
+          "SourceString": "[Коллаборация с Terraria]\r\nМонстр из другого мира.\r\nПохоже, здесь его можно приручить.",
+          "LocalizedString": "[Коллаборация с Terraria]\r\nМонстр из другого мира.\r\nПохоже, здесь его можно приручить."
+        }
+      },
+      "PAL_LONG_DESC_YakushimaMonster003_Purple": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_YakushimaMonster003_Purple_TextData",
+          "SourceString": "[Коллаборация с Terraria]\r\nМонстр из другого мира.\r\nПохоже, здесь его можно приручить.",
+          "LocalizedString": "[Коллаборация с Terraria]\r\nМонстр из другого мира.\r\nПохоже, здесь его можно приручить."
+        }
+      },
+      "PAL_LONG_DESC_YakushimaBoss001": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_YakushimaBoss001_TextData",
+          "SourceString": "[Коллаборация с Terraria]\r\nМонстр из другого мира.\r\nПохоже, здесь его можно приручить.",
+          "LocalizedString": "[Коллаборация с Terraria]\r\nМонстр из другого мира.\r\nПохоже, здесь его можно приручить."
+        }
+      },
+      "PAL_LONG_DESC_LegendDeer": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_LegendDeer_TextData",
+          "SourceString": "Пугающе тихо… и всё же удивительно спокойно.\r\nБольше никого нет. Все уже давно спасены.\r\nО Царь‑спаситель, прошу, унеси и меня в бесконечное безмолвие.\r\n— На этом древний текст обрывается.",
+          "LocalizedString": "Пугающе тихо… и всё же удивительно спокойно.\r\nБольше никого нет. Все уже давно спасены.\r\nО Царь‑спаситель, прошу, унеси и меня в бесконечное безмолвие.\r\n— На этом древний текст обрывается."
+        }
+      },
+      "PAL_LONG_DESC_VolcanoDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_VolcanoDragon_TextData",
+          "SourceString": "У здоровых особей поток лавы на спине течёт бесперебойно.\r\nПри плохих привычках течение замедляется,\r\nа в худшем случае возникает лавовый затор,\r\nприводящий к внезапному и мощному взрыву.",
+          "LocalizedString": "У здоровых особей поток лавы на спине течёт бесперебойно.\r\nПри плохих привычках течение замедляется,\r\nа в худшем случае возникает лавовый затор,\r\nприводящий к внезапному и мощному взрыву."
+        }
+      },
+      "PAL_LONG_DESC_HoodGhost": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_HoodGhost_TextData",
+          "SourceString": "Сжимается во сне.\r\nВо сне его нет.\r\nПоскольку во сне <characterName id=|HoodGhost|/> не существует,\r\n<characterName id=|HoodGhost|/> не спит.",
+          "LocalizedString": "Сжимается во сне.\r\nВо сне его нет.\r\nПоскольку во сне <characterName id=|HoodGhost|/> не существует,\r\n<characterName id=|HoodGhost|/> не спит."
+        }
+      },
+      "PAL_LONG_DESC_Sekhmet": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Sekhmet_TextData",
+          "SourceString": "Раньше отличался свирепым нравом и считался символом смерти.\r\nПосле того как <characterName id=|Anubis|/> трансформировался в символ смерти,\r\nбогатые, искавшие новый знак отличия, опаивали <characterName id=|Sekhmet|/> алкоголем и расположили к себе.\r\nСо временем <characterName id=|Sekhmet|/> стал символом знати.",
+          "LocalizedString": "Раньше отличался свирепым нравом и считался символом смерти.\r\nПосле того как <characterName id=|Anubis|/> трансформировался в символ смерти,\r\nбогатые, искавшие новый знак отличия, опаивали <characterName id=|Sekhmet|/> алкоголем и расположили к себе.\r\nСо временем <characterName id=|Sekhmet|/> стал символом знати."
+        }
+      },
+      "PAL_LONG_DESC_RockBeast": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_RockBeast_TextData",
+          "SourceString": "Бьётся о твёрдые камни, чтобы держать тело в желаемой форме.\r\nОсобей с вмятинами лучше просто оставить в покое.\r\nЕсли провести аналогию с людьми, это как если бы слишком коротко подстричь челку.",
+          "LocalizedString": "Бьётся о твёрдые камни, чтобы держать тело в желаемой форме.\r\nОсобей с вмятинами лучше просто оставить в покое.\r\nЕсли провести аналогию с людьми, это как если бы слишком коротко подстричь челку."
+        }
+      },
+      "PAL_LONG_DESC_RockBeast_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_RockBeast_Ice_TextData",
+          "SourceString": "Загорает, поворачиваясь под разными углами, растапливая лёд до желаемой формы.\r\nТем, кто потерял баланс, лучше не мешать.\r\nЕсли провести аналогию с людьми, это как слишком увлечься стрижкой висков.",
+          "LocalizedString": "Загорает, поворачиваясь под разными углами, растапливая лёд до желаемой формы.\r\nТем, кто потерял баланс, лучше не мешать.\r\nЕсли провести аналогию с людьми, это как слишком увлечься стрижкой висков."
+        }
+      },
+      "PAL_LONG_DESC_MoonChild": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_MoonChild_TextData",
+          "SourceString": "Когда жизнь подходит к концу, где-то в этом небе загорается ещё одна звезда.\r\nЧем больше воспоминаний, тем ярче она светит.",
+          "LocalizedString": "Когда жизнь подходит к концу, где-то в этом небе загорается ещё одна звезда.\r\nЧем больше воспоминаний, тем ярче она светит."
+        }
+      },
+      "PAL_LONG_DESC_ClownRabbit": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ClownRabbit_TextData",
+          "SourceString": "Иногда вызванный двойник одерживает верх и занимает место оригинала.\r\nТот ли <characterName id=|ClownRabbit|/> сегодня, что и вчера,\r\nне вполне ясно даже самому <characterName id=|ClownRabbit|/>.",
+          "LocalizedString": "Иногда вызванный двойник одерживает верх и занимает место оригинала.\r\nТот ли <characterName id=|ClownRabbit|/> сегодня, что и вчера,\r\nне вполне ясно даже самому <characterName id=|ClownRabbit|/>."
+        }
+      },
+      "PAL_LONG_DESC_CactusDoll": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CactusDoll_TextData",
+          "SourceString": "При усилении эмоций шипы выдвигаются и втягиваются.\r\nВыращенный с заботой <characterName id=|CactusDoll|/> стремится к объятиям,\r\nно в девяти случаях из десяти это заканчивается несчастным случаем.",
+          "LocalizedString": "При усилении эмоций шипы выдвигаются и втягиваются.\r\nВыращенный с заботой <characterName id=|CactusDoll|/> стремится к объятиям,\r\nно в девяти случаях из десяти это заканчивается несчастным случаем."
+        }
+      },
+      "PAL_LONG_DESC_CactusDoll_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CactusDoll_Dark_TextData",
+          "SourceString": "При усилении эмоций шипы выдвигаются и втягиваются.\r\nВыращенный с любовью <characterName id=|CactusDoll_Dark|/> склонен прижиматься к хозяину,\r\nоднако принятие этой любви неизбежно сопряжено с болью.",
+          "LocalizedString": "При усилении эмоций шипы выдвигаются и втягиваются.\r\nВыращенный с любовью <characterName id=|CactusDoll_Dark|/> склонен прижиматься к хозяину,\r\nоднако принятие этой любви неизбежно сопряжено с болью."
+        }
+      },
+      "PAL_LONG_DESC_GrassGolem": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GrassGolem_TextData",
+          "SourceString": "Одно тело, два сознания.\r\nИногда они ссорятся из-за разных целей.\r\nПока не помирятся, совершенно непонятно, куда движется доспех!",
+          "LocalizedString": "Одно тело, два сознания.\r\nИногда они ссорятся из-за разных целей.\r\nПока не помирятся, совершенно непонятно, куда движется доспех!"
+        }
+      },
+      "PAL_LONG_DESC_GrassGolem_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GrassGolem_Dark_TextData",
+          "SourceString": "Одно тело, два сознания.\r\nОбычно мнения расходятся и ссор нет-нет да бывают,\r\nно стоит начаться бою — разум и тело мгновенно сливаются в одно!",
+          "LocalizedString": "Одно тело, два сознания.\r\nОбычно мнения расходятся и ссор нет-нет да бывают,\r\nно стоит начаться бою — разум и тело мгновенно сливаются в одно!"
+        }
+      },
+      "PAL_LONG_DESC_CubeTurtle": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CubeTurtle_TextData",
+          "SourceString": "Камни на его спине обладают собственной волей.\r\nЕсли снять их и оставить вдалеке,\r\nони самостоятельно двинутся обратно на своё место.",
+          "LocalizedString": "Камни на его спине обладают собственной волей.\r\nЕсли снять их и оставить вдалеке,\r\nони самостоятельно двинутся обратно на своё место."
+        }
+      },
+      "PAL_LONG_DESC_SamuraiDog": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SamuraiDog_TextData",
+          "SourceString": "Их территориальные стычки начинаются с взаимного взгляда и мгновенного удара.\r\nПриручённых особей лучше не учить команде «Жди».\r\nИнстинктивная реакция после «Можно!» неизбежна.",
+          "LocalizedString": "Их территориальные стычки начинаются с взаимного взгляда и мгновенного удара.\r\nПриручённых особей лучше не учить команде «Жди».\r\nИнстинктивная реакция после «Можно!» неизбежна."
+        }
+      },
+      "PAL_LONG_DESC_MummyPal": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_MummyPal_TextData",
+          "SourceString": "Золотистый, похожий на бинт орган свободно растягивается и сжимается.\r\nЕсли он слишком пересохнет, может надорваться,\r\nпоэтому ежедневная проверка увлажнённости абсолютно необходима.",
+          "LocalizedString": "Золотистый, похожий на бинт орган свободно растягивается и сжимается.\r\nЕсли он слишком пересохнет, может надорваться,\r\nпоэтому ежедневная проверка увлажнённости абсолютно необходима."
+        }
+      },
+      "PAL_LONG_DESC_KingSunfish": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_KingSunfish_TextData",
+          "SourceString": "Вращая винтообразный хвост, создаёт мощную движущую силу.\r\nПо данным прошлых исследований, если не учитывать разрушение тела,\r\nтеоретически может плавать со скоростью более 88 миль в час.",
+          "LocalizedString": "Вращая винтообразный хвост, создаёт мощную движущую силу.\r\nПо данным прошлых исследований, если не учитывать разрушение тела,\r\nтеоретически может плавать со скоростью более 88 миль в час."
+        }
+      },
+      "PAL_LONG_DESC_KingSunfish_Thunder": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_KingSunfish_Thunder_TextData",
+          "SourceString": "Вращение винтообразного хвоста позволяет ему вырабатывать электричество.\r\nТеоретически способен производить до 1,21 гигаватта энергии,\r\nоднако мгновенное разрушение тела делает это свойство непрактичным.",
+          "LocalizedString": "Вращение винтообразного хвоста позволяет ему вырабатывать электричество.\r\nТеоретически способен производить до 1,21 гигаватта энергии,\r\nоднако мгновенное разрушение тела делает это свойство непрактичным."
+        }
+      },
+      "PAL_LONG_DESC_MonochromeQueen": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_MonochromeQueen_TextData",
+          "SourceString": "После хорошего опыта <characterName id=|MonochromeQueen|/> не успокоится, пока не получит столь же плохой.\r\nЕсли берёшь на себя заботу о <characterName id=|MonochromeQueen|/>, нужна соответствующая решимость.",
+          "LocalizedString": "После хорошего опыта <characterName id=|MonochromeQueen|/> не успокоится, пока не получит столь же плохой.\r\nЕсли берёшь на себя заботу о <characterName id=|MonochromeQueen|/>, нужна соответствующая решимость."
+        }
+      },
+      "PAL_LONG_DESC_ElecSnail": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ElecSnail_TextData",
+          "SourceString": "Бросить <characterName id=|ElecSnail|/> в воду и наслаждаться электрической ванной\r\nсчитается традиционным способом укрепления здоровья.\r\nИначе говоря, опасная активность.",
+          "LocalizedString": "Бросить <characterName id=|ElecSnail|/> в воду и наслаждаться электрической ванной\r\nсчитается традиционным способом укрепления здоровья.\r\nИначе говоря, опасная активность."
+        }
+      },
+      "PAL_LONG_DESC_ElecSnail_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ElecSnail_Ground_TextData",
+          "SourceString": "Бросать раскалённого <characterName id=|ElecSnail_Ground|/> в ванну\r\nи наслаждаться обжигающей водой когда-то было модой.\r\nСегодня, благодаря ретро-буму, это снова горячий тренд.",
+          "LocalizedString": "Бросать раскалённого <characterName id=|ElecSnail_Ground|/> в ванну\r\nи наслаждаться обжигающей водой когда-то было модой.\r\nСегодня, благодаря ретро-буму, это снова горячий тренд."
+        }
+      },
+      "PAL_LONG_DESC_SumoDog": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SumoDog_TextData",
+          "SourceString": "Когда-то на острове существовала забава под названием сумо <characterName id=|SumoDog|/>.\r\nЕсли <characterName id=|SumoDog|/> был высшего класса, то он мог выдержать даже лобовую атаку <characterName id=|Boar|/>,\r\nи в итоге в воздух отлетал уже сам <characterName id=|Boar|/>.",
+          "LocalizedString": "Когда-то на острове существовала забава под названием сумо <characterName id=|SumoDog|/>.\r\nЕсли <characterName id=|SumoDog|/> был высшего класса, то он мог выдержать даже лобовую атаку <characterName id=|Boar|/>,\r\nи в итоге в воздух отлетал уже сам <characterName id=|Boar|/>."
+        }
+      },
+      "PAL_LONG_DESC_VolcanicTurtle": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_VolcanicTurtle_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "PAL_LONG_DESC_ElecPomeranian": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ElecPomeranian_TextData",
+          "SourceString": "При намокании пушистый мех впитывает большое количество воды.\r\nПри её стряхивании происходит мощнейший электрический разряд,\r\nи купание вместе с ним становится вопросом жизни и смерти.",
+          "LocalizedString": "При намокании пушистый мех впитывает большое количество воды.\r\nПри её стряхивании происходит мощнейший электрический разряд,\r\nи купание вместе с ним становится вопросом жизни и смерти."
+        }
+      },
+      "PAL_LONG_DESC_ElecLizard": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ElecLizard_TextData",
+          "SourceString": "Делает что хочет, спит когда захочется, ест что вздумается.\r\nЧтобы поддерживать такой образ жизни, <characterName id=|ElecLizard|/>, должно быть, прилагают незаметные усилия.\r\n…Говорят, прежние островитяне не выдержали бы, если бы не думали так.",
+          "LocalizedString": "Делает что хочет, спит когда захочется, ест что вздумается.\r\nЧтобы поддерживать такой образ жизни, <characterName id=|ElecLizard|/>, должно быть, прилагают незаметные усилия.\r\n…Говорят, прежние островитяне не выдержали бы, если бы не думали так."
+        }
+      },
+      "PAL_LONG_DESC_RedFlowerBird": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_RedFlowerBird_TextData",
+          "SourceString": "Яростные размахивания телом якобы служат маскировкой под цветок,\r\nколышущийся на ветру, чтобы избегать врагов.\r\nНо есть мнение, что быстро мечущийся красный цветок слишком жуток,\r\nи потому к нему никто не подходит.",
+          "LocalizedString": "Яростные размахивания телом якобы служат маскировкой под цветок,\r\nколышущийся на ветру, чтобы избегать врагов.\r\nНо есть мнение, что быстро мечущийся красный цветок слишком жуток,\r\nи потому к нему никто не подходит."
+        }
+      },
+      "PAL_LONG_DESC_ThiefBird": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ThiefBird_TextData",
+          "SourceString": "Руки нечисты, и при удобном случае что-нибудь да стянет.\r\nДаже если почти поймали, это не беда.\r\nДостаточно быстро украсть «глаза», и видеть будет уже нечем.",
+          "LocalizedString": "Руки нечисты, и при удобном случае что-нибудь да стянет.\r\nДаже если почти поймали, это не беда.\r\nДостаточно быстро украсть «глаза», и видеть будет уже нечем."
+        }
+      },
+      "PAL_LONG_DESC_ThunderFluffyBird": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ThunderFluffyBird_TextData",
+          "SourceString": "В высоких слоях, где пищи мало, порой едят даже мозги врагов.\r\nСчитается, что группа, искавшая более стабильный источник пищи,\r\nспустилась ниже и эволюционировала в <characterName id=|ThunderBird|/>.",
+          "LocalizedString": "В высоких слоях, где пищи мало, порой едят даже мозги врагов.\r\nСчитается, что группа, искавшая более стабильный источник пищи,\r\nспустилась ниже и эволюционировала в <characterName id=|ThunderBird|/>."
+        }
+      },
+      "PAL_LONG_DESC_FluffyBird": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FluffyBird_TextData",
+          "SourceString": "Пух вокруг лица смягчает удары.\r\nДаже если слегка сдувает, это не страшно, но ухаживать за перьями\r\nнеудобно, а почесать зудящее место невозможно — в итоге постоянно что-то раздражает.",
+          "LocalizedString": "Пух вокруг лица смягчает удары.\r\nДаже если слегка сдувает, это не страшно, но ухаживать за перьями\r\nнеудобно, а почесать зудящее место невозможно — в итоге постоянно что-то раздражает."
+        }
+      },
+      "PAL_LONG_DESC_FoxExorcist": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FoxExorcist_TextData",
+          "SourceString": "Сосредотачивается и выискивает будущее в пламени.\r\nЕсли будущее не устраивает, повторяет, пока не выпадет лучшее.\r\nПоэтому будущее <characterName id=|FoxExorcist|/> всегда сияет!",
+          "LocalizedString": "Сосредотачивается и выискивает будущее в пламени.\r\nЕсли будущее не устраивает, повторяет, пока не выпадет лучшее.\r\nПоэтому будущее <characterName id=|FoxExorcist|/> всегда сияет!"
+        }
+      },
+      "PAL_LONG_DESC_ClioneTwins": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ClioneTwins_TextData",
+          "SourceString": "Если одна половина исчезает, откуда ни возьмись появляется замена.\r\nИ снова живут дружно, словно ничего не случилось.\r\nДля <characterName id=|ClioneTwins|/> главное — жить в согласии.",
+          "LocalizedString": "Если одна половина исчезает, откуда ни возьмись появляется замена.\r\nИ снова живут дружно, словно ничего не случилось.\r\nДля <characterName id=|ClioneTwins|/> главное — жить в согласии."
+        }
+      },
+      "PAL_LONG_DESC_DandelionGirl": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_DandelionGirl_TextData",
+          "SourceString": "Внутрь пуха можно набить неприятные воспоминания.\r\nСтоит ветру унести его прочь,\r\nи тёмному настроению можно сказать прощай.",
+          "LocalizedString": "Внутрь пуха можно набить неприятные воспоминания.\r\nСтоит ветру унести его прочь,\r\nи тёмному настроению можно сказать прощай."
+        }
+      },
+      "PAL_LONG_DESC_SleeveRabbit": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SleeveRabbit_TextData",
+          "SourceString": "Длинную шерсть на кончиках лап использует для демонстрации.\r\nЧувствителен к грязи и тщательно за ней ухаживает.\r\nЕсли рядом поднять пыль, лицо становится крайне недовольным.",
+          "LocalizedString": "Длинную шерсть на кончиках лап использует для демонстрации.\r\nЧувствителен к грязи и тщательно за ней ухаживает.\r\nЕсли рядом поднять пыль, лицо становится крайне недовольным."
+        }
+      },
+      "PAL_LONG_DESC_SmallYeti": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SmallYeti_TextData",
+          "SourceString": "«Увидеть глаза <characterName id=|SmallYeti|/>».\r\nТак говорят о попытке постичь невидимую суть вещей.\r\nОднако почему-то не нашлось ни одного исследователя,\r\nкоторый бы проверил, есть ли у Пала глаза вообще.",
+          "LocalizedString": "«Увидеть глаза <characterName id=|SmallYeti|/>».\r\nТак говорят о попытке постичь невидимую суть вещей.\r\nОднако почему-то не нашлось ни одного исследователя,\r\nкоторый бы проверил, есть ли у Пала глаза вообще."
+        }
+      },
+      "PAL_LONG_DESC_StrawHatCat": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_StrawHatCat_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "PAL_LONG_DESC_CandleWitch": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CandleWitch_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "PAL_LONG_DESC_CloverFairy": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CloverFairy_TextData",
+          "SourceString": "Раньше встречались особи с тремя и более листьями на лбу.\r\nТак как считалось, что это приносит удачу,\r\nособей с множеством листьев бесконтрольно отлавливали.\r\nВ результате вид эволюционирует в сторону меньшего числа листьев.",
+          "LocalizedString": "Раньше встречались особи с тремя и более листьями на лбу.\r\nТак как считалось, что это приносит удачу,\r\nособей с множеством листьев бесконтрольно отлавливали.\r\nВ результате вид эволюционирует в сторону меньшего числа листьев."
+        }
+      },
+      "PAL_LONG_DESC_GhostBlackCat": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GhostBlackCat_TextData",
+          "SourceString": "Руки за спиной наполнены мыслями всех людей, которые воспитывали род до сих пор.\r\nВ последнее время, похоже, все решили баловать <characterName id=|GhostBlackCat|/>.",
+          "LocalizedString": "Руки за спиной наполнены мыслями всех людей, которые воспитывали род до сих пор.\r\nВ последнее время, похоже, все решили баловать <characterName id=|GhostBlackCat|/>."
+        }
+      },
+      "PAL_LONG_DESC_OniGhostGirl": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_OniGhostGirl_TextData",
+          "SourceString": "Живёт ради того, чтобы пугать, но совсем не страшный.\r\nОднако все лишь делают вид, что пугаются его милоты,\r\nи в итоге <characterName id=|OniGhostGirl|/> стал вестником улыбок.",
+          "LocalizedString": "Живёт ради того, чтобы пугать, но совсем не страшный.\r\nОднако все лишь делают вид, что пугаются его милоты,\r\nи в итоге <characterName id=|OniGhostGirl|/> стал вестником улыбок."
+        }
+      },
+      "PAL_LONG_DESC_LongCat": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_LongCat_TextData",
+          "SourceString": "На старых картинах изображён значительно меньше, чем сейчас.\r\nВ последние годы, по всей видимости, различные части тела стремительно удлиняются.\r\nТакими темпами через 100 лет размеры достигнут примерно десятикратного нынешнего размера.",
+          "LocalizedString": "На старых картинах изображён значительно меньше, чем сейчас.\r\nВ последние годы, по всей видимости, различные части тела стремительно удлиняются.\r\nТакими темпами через 100 лет размеры достигнут примерно десятикратного нынешнего размера."
+        }
+      },
+      "PAL_LONG_DESC_DarkFlameFox": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_DarkFlameFox_TextData",
+          "SourceString": "Стоит, уперев руки в бёдра, и выглядит эффектно.\r\nНо на самом деле хвост и волосы слишком тяжёлы,\r\nи это всего лишь попытка не упасть.",
+          "LocalizedString": "Стоит, уперев руки в бёдра, и выглядит эффектно.\r\nНо на самом деле хвост и волосы слишком тяжёлы,\r\nи это всего лишь попытка не упасть."
+        }
+      },
+      "PAL_LONG_DESC_LanternButler": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_LanternButler_TextData",
+          "SourceString": "Таинственно светящийся фонарь выявляет истинную суть мира.\r\nЕсли его свет кажется ослепляющим,\r\nвероятно, на душе есть что-то тёмное.",
+          "LocalizedString": "Таинственно светящийся фонарь выявляет истинную суть мира.\r\nЕсли его свет кажется ослепляющим,\r\nвероятно, на душе есть что-то тёмное."
+        }
+      },
+      "PAL_LONG_DESC_VenusFlytrap": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_VenusFlytrap_TextData",
+          "SourceString": "Не гнушается даже самой странной едой,\r\nпоэтому рот на макушке часто покрывается ужасным стоматитом.\r\nВ таких случаях пользуется обычным ртом,\r\nно привычки не меняются, и в итоге воспаляются оба рта.",
+          "LocalizedString": "Не гнушается даже самой странной едой,\r\nпоэтому рот на макушке часто покрывается ужасным стоматитом.\r\nВ таких случаях пользуется обычным ртом,\r\nно привычки не меняются, и в итоге воспаляются оба рта."
+        }
+      },
+      "PAL_LONG_DESC_SwordCutlassfish": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SwordCutlassfish_TextData",
+          "SourceString": "Способность временно отделять тело и рассекать врагов костями.\r\nЕсли тело не вернуть сразу, силы быстро истощаются.\r\nГоворят, среди молодых особей популярна опасная игра —\r\nсоревнуются, кто дольше продержится разделённым.",
+          "LocalizedString": "Способность временно отделять тело и рассекать врагов костями.\r\nЕсли тело не вернуть сразу, силы быстро истощаются.\r\nГоворят, среди молодых особей популярна опасная игра —\r\nсоревнуются, кто дольше продержится разделённым."
+        }
+      },
+      "PAL_LONG_DESC_SnakeGirl": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SnakeGirl_TextData",
+          "SourceString": "Когда возникает что-то непонятное, начинается обсуждение со змеями на голове.\r\nНо поскольку в итоге все — одно и то же сознание,\r\nстановится ясно, что ничего не понятно.",
+          "LocalizedString": "Когда возникает что-то непонятное, начинается обсуждение со змеями на голове.\r\nНо поскольку в итоге все — одно и то же сознание,\r\nстановится ясно, что ничего не понятно."
+        }
+      },
+      "PAL_LONG_DESC_MushroomLady": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_MushroomLady_TextData",
+          "SourceString": "Смотрит на людей только как на удобную цель для паразитирования.\r\n<characterName id=|MushroomLady|/> принял этот облик,\r\nчтобы люди были расслаблены и споры распространялись максимально эффективно.",
+          "LocalizedString": "Смотрит на людей только как на удобную цель для паразитирования.\r\n<characterName id=|MushroomLady|/> принял этот облик,\r\nчтобы люди были расслаблены и споры распространялись максимально эффективно."
+        }
+      },
+      "PAL_LONG_DESC_KingWhale": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_KingWhale_TextData",
+          "SourceString": "Последний выживший представитель своего рода,\r\nкоторый с честью исполнил свой долг.\r\nСколько бы он ни звал мать — в ответ слышно лишь эхо.",
+          "LocalizedString": "Последний выживший представитель своего рода,\r\nкоторый с честью исполнил свой долг.\r\nСколько бы он ни звал мать — в ответ слышно лишь эхо."
+        }
+      },
+      "PAL_LONG_DESC_BlueSkyDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BlueSkyDragon_TextData",
+          "SourceString": "Встретив того, с кем им суждено пройти жизнь до конца,\r\nони снимают парящее у середины тела кольцо и обмениваются ими.",
+          "LocalizedString": "Встретив того, с кем им суждено пройти жизнь до конца,\r\nони снимают парящее у середины тела кольцо и обмениваются ими."
+        }
+      },
+      "PAL_LONG_DESC_Mothman": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Mothman_TextData",
+          "SourceString": "С незапамятных времён он стоит у Древа и продолжает что-то охранять.\r\nЧто именно он защищает сейчас и почему делает это — сам <characterName id=|Mothman|/> не знает.\r\nПотому что так велит Древо.\r\nПотому что споры, которыми он управляет, должны знать, кто является врагом.",
+          "LocalizedString": "С незапамятных времён он стоит у Древа и продолжает что-то охранять.\r\nЧто именно он защищает сейчас и почему делает это — сам <characterName id=|Mothman|/> не знает.\r\nПотому что так велит Древо.\r\nПотому что споры, которыми он управляет, должны знать, кто является врагом."
+        }
+      },
+      "PAL_LONG_DESC_GhostDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GhostDragon_TextData",
+          "SourceString": "Новый Пал, недавно появившийся у Мирового Древа.\r\nСпокойный и тихий, он просто живет, наслаждаясь свободой.\r\nБольше ничто не сдерживает его.",
+          "LocalizedString": "Новый Пал, недавно появившийся у Мирового Древа.\r\nСпокойный и тихий, он просто живет, наслаждаясь свободой.\r\nБольше ничто не сдерживает его."
+        }
+      },
+      "PAL_LONG_DESC_FlowerPrince": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FlowerPrince_TextData",
+          "SourceString": "С незапамятных времён он стоит у Древа и продолжает что-то охранять.\r\nЧто именно он защищает сейчас и почему делает это — <characterName id=|FlowerPrince|/> не пытается постичь.\r\nПотому что Древо знает ответ.\r\nПотому что лишь подвластный ему туман позволяет увидеть истину.",
+          "LocalizedString": "С незапамятных времён он стоит у Древа и продолжает что-то охранять.\r\nЧто именно он защищает сейчас и почему делает это — <characterName id=|FlowerPrince|/> не пытается постичь.\r\nПотому что Древо знает ответ.\r\nПотому что лишь подвластный ему туман позволяет увидеть истину."
+        }
+      },
+      "PAL_LONG_DESC_WorldTreeDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WorldTreeDragon_TextData",
+          "SourceString": "То, во что превратился таинственный Пал, когда-то прибывший  на остров Палпагос.\r\nОн стал катастрофой, принеся разрушения, и долгое время был заточен с помощью печати,\r\nвпоследствии был повержен одним укротителем Палов.",
+          "LocalizedString": "То, во что превратился таинственный Пал, когда-то прибывший  на остров Палпагос.\r\nОн стал катастрофой, принеся разрушения, и долгое время был заточен с помощью печати,\r\nвпоследствии был повержен одним укротителем Палов."
+        }
+      },
+      "PAL_LONG_DESC_GrassMinotaur": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GrassMinotaur_TextData",
+          "SourceString": "Листок, приставший к рогу, как ни тяни, не оторвать.\r\nКогда этот лист сам по себе упадёт,\r\n<characterName id=|GrassMinotaur|/> осознаёт, что пришёл его срок.",
+          "LocalizedString": "Листок, приставший к рогу, как ни тяни, не оторвать.\r\nКогда этот лист сам по себе упадёт,\r\n<characterName id=|GrassMinotaur|/> осознаёт, что пришёл его срок."
+        }
+      },
+      "PAL_LONG_DESC_GrassMinotaur_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GrassMinotaur_Ice_TextData",
+          "SourceString": "Ледяные рога не тают на протяжении жизни.\r\nКапли воды, стекающие с них, предупреждают о том,\r\nчто тело <characterName id=|GrassMinotaur_Ice|/> постепенно теряет тепло.",
+          "LocalizedString": "Ледяные рога не тают на протяжении жизни.\r\nКапли воды, стекающие с них, предупреждают о том,\r\nчто тело <characterName id=|GrassMinotaur_Ice|/> постепенно теряет тепло."
+        }
+      },
+      "PAL_LONG_DESC_LotusDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_LotusDragon_TextData",
+          "SourceString": "В водоёмах, где обитает <characterName id=|LotusDragon|/>,\r\nрастёт множество цветов, внешне очень похожих на него.\r\nНе раз предпринимались попытки размножить только этот цветок,\r\nно стоит вмешаться человеку — и он неизбежно вянет.",
+          "LocalizedString": "В водоёмах, где обитает <characterName id=|LotusDragon|/>,\r\nрастёт множество цветов, внешне очень похожих на него.\r\nНе раз предпринимались попытки размножить только этот цветок,\r\nно стоит вмешаться человеку — и он неизбежно вянет."
+        }
+      },
+      "PAL_LONG_DESC_PandaGirl": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_PandaGirl_TextData",
+          "SourceString": "Чтобы отточить боевое искусство, передаваемое единственному наследнику,\r\nтолько ежедневные тренировки!\r\nТерять голову из-за любви — недопустимо! Только ежедневная практика!\r\nНо час настал! В атаку на ту, что не даёт покоя! Итог — одно разбитое сердце!\r\nТехники любви не передаются по наследству! Остаётся лишь сожаление!",
+          "LocalizedString": "Чтобы отточить боевое искусство, передаваемое единственному наследнику,\r\nтолько ежедневные тренировки!\r\nТерять голову из-за любви — недопустимо! Только ежедневная практика!\r\nНо час настал! В атаку на ту, что не даёт покоя! Итог — одно разбитое сердце!\r\nТехники любви не передаются по наследству! Остаётся лишь сожаление!"
+        }
+      },
+      "PAL_LONG_DESC_KabukiMan": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_KabukiMan_TextData",
+          "SourceString": "Когда сталкивается с врагом,\r\nна первый взгляд движения кажутся чрезмерно театральными и полными уязвимостей.\r\nОднако, удивительно, противник оказывается подавленным и невольно залипает взглядом.",
+          "LocalizedString": "Когда сталкивается с врагом,\r\nна первый взгляд движения кажутся чрезмерно театральными и полными уязвимостей.\r\nОднако, удивительно, противник оказывается подавленным и невольно залипает взглядом."
+        }
+      },
+      "PAL_LONG_DESC_DomeArmorDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_DomeArmorDragon_TextData",
+          "SourceString": "Давным-давно, когда средств связи было мало,\r\nиногда отправляли простые сигналы,\r\nмигая светом на внутренней стороне крыльев <characterName id=|DomeArmorDragon|/>.",
+          "LocalizedString": "Давным-давно, когда средств связи было мало,\r\nиногда отправляли простые сигналы,\r\nмигая светом на внутренней стороне крыльев <characterName id=|DomeArmorDragon|/>."
+        }
+      },
+      "PAL_LONG_DESC_WhiteDeer_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WhiteDeer_Dark_TextData",
+          "SourceString": "Ослепительный свет одновременно породил и тень.\r\nРазбрасывая тьму, охватывающую всё, восстанавливается естественный хаос.\r\nМиру необходимо равновесие.",
+          "LocalizedString": "Ослепительный свет одновременно породил и тень.\r\nРазбрасывая тьму, охватывающую всё, восстанавливается естественный хаос.\r\nМиру необходимо равновесие."
+        }
+      },
+      "PAL_LONG_DESC_WingGolem_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WingGolem_Fire_TextData",
+          "SourceString": "Загадочный Пал, который даже после разборки\r\nспокойно начинает двигаться, если собрать снова.\r\nЕсли смешать детали разных особей, в мышлении возникает критическая ошибка,\r\nчто приводит к перегреву.",
+          "LocalizedString": "Загадочный Пал, который даже после разборки\r\nспокойно начинает двигаться, если собрать снова.\r\nЕсли смешать детали разных особей, в мышлении возникает критическая ошибка,\r\nчто приводит к перегреву."
+        }
+      },
+      "PAL_LONG_DESC_GhostDragon_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GhostDragon_Fire_TextData",
+          "SourceString": "Новый Пал, появившийся совсем недавно.\r\nСвирепый по натуре, он непрестанно выплёскивает свой гнев на окружающий мир.\r\nОн утратил веру во всё.",
+          "LocalizedString": "Новый Пал, появившийся совсем недавно.\r\nСвирепый по натуре, он непрестанно выплёскивает свой гнев на окружающий мир.\r\nОн утратил веру во всё."
+        }
+      },
+      "PAL_LONG_DESC_FlowerDoll_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FlowerDoll_Fire_TextData",
+          "SourceString": "Когда срок жизни подходит к концу, сгорает дотла, обращаясь в пепел.\r\nПочва вокруг становится чрезвычайно плодородной,\r\nи в последующие десять лет там буйно разрастается растительность.",
+          "LocalizedString": "Когда срок жизни подходит к концу, сгорает дотла, обращаясь в пепел.\r\nПочва вокруг становится чрезвычайно плодородной,\r\nи в последующие десять лет там буйно разрастается растительность."
+        }
+      },
+      "PAL_LONG_DESC_IceSeal_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_IceSeal_Ground_TextData",
+          "SourceString": "Самым уважаемым считается тот, кто быстрее всех скользит по снегу.\r\nИногда особо разогнавшиеся особи подпрыгивают и зарываются в снег.\r\nВ период борьбы за лидерство такое случается особенно часто.\r\nПрогноз заторов — <characterName id=|IceSeal_Ground|/>.",
+          "LocalizedString": "Самым уважаемым считается тот, кто быстрее всех скользит по снегу.\r\nИногда особо разогнавшиеся особи подпрыгивают и зарываются в снег.\r\nВ период борьбы за лидерство такое случается особенно часто.\r\nПрогноз заторов — <characterName id=|IceSeal_Ground|/>."
+        }
+      },
+      "PAL_LONG_DESC_SwordCutlassfish_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SwordCutlassfish_Fire_TextData",
+          "SourceString": "Отделяя тело, рассекать врагов костями.\r\nЕсли тело не вернуть сразу, силы быстро истощаются.\r\nГоворят, старые особи сознательно держат тело отделённым надолго,\r\nчтобы активизировать инстинкт выживания и продлить жизнь… или нет.",
+          "LocalizedString": "Отделяя тело, рассекать врагов костями.\r\nЕсли тело не вернуть сразу, силы быстро истощаются.\r\nГоворят, старые особи сознательно держат тело отделённым надолго,\r\nчтобы активизировать инстинкт выживания и продлить жизнь… или нет."
+        }
+      },
+      "PAL_LONG_DESC_WhiteMoth_Neutral": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WhiteMoth_Neutral_TextData",
+          "SourceString": "Любит смотреть в пустоту и часто просто неподвижно стоит, задумавшись.\r\nНередко вокруг него собираются маленькие Палы.",
+          "LocalizedString": "Любит смотреть в пустоту и часто просто неподвижно стоит, задумавшись.\r\nНередко вокруг него собираются маленькие Палы."
+        }
+      },
+      "PAL_LONG_DESC_ThunderBird_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ThunderBird_Ice_TextData",
+          "SourceString": "Приспособлен к жизни в холодных регионах и\r\nспособен выдерживать мороз, даже при тонком телосложении.\r\nЕго пикирующие атаки обладают поразительной мощью —\r\nсловно огромная сосулька падает с неба.",
+          "LocalizedString": "Приспособлен к жизни в холодных регионах и\r\nспособен выдерживать мороз, даже при тонком телосложении.\r\nЕго пикирующие атаки обладают поразительной мощью —\r\nсловно огромная сосулька падает с неба."
+        }
+      },
+      "PAL_LONG_DESC_CubeTurtle_Neutral": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CubeTurtle_Neutral_TextData",
+          "SourceString": "Даже если камень с его спины куда-то унесут,\r\n<characterName id=|CubeTurtle_Neutral|/> знает его местонахождение.\r\nИ обязательно найдет, как бы далеко это ни было.",
+          "LocalizedString": "Даже если камень с его спины куда-то унесут,\r\n<characterName id=|CubeTurtle_Neutral|/> знает его местонахождение.\r\nИ обязательно найдет, как бы далеко это ни было."
+        }
+      },
+      "PAL_LONG_DESC_VolcanoDragon_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_VolcanoDragon_Ice_TextData",
+          "SourceString": "У здоровых особей температура потока на спине течёт стабильно.\r\nПри волнении она становится нестабильной,\r\nа в худших случаях это вызывает испарение или затвердевание и внезапную смерть от шока.",
+          "LocalizedString": "У здоровых особей температура потока на спине течёт стабильно.\r\nПри волнении она становится нестабильной,\r\nа в худших случаях это вызывает испарение или затвердевание и внезапную смерть от шока."
+        }
+      },
+      "PAL_LONG_DESC_WorldTreeDragon_2": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WorldTreeDragon_2_TextData",
+          "SourceString": "Я никогда не хотел причинять кому-либо боль.\r\nМне было достаточно просто быть рядом, просто иметь возможность оставаться там.\r\nНо раз мне этого не позволено, раз мне не могут этого простить...\r\nЯ захотел мира, где были бы только мы двое.",
+          "LocalizedString": "Я никогда не хотел причинять кому-либо боль.\r\nМне было достаточно просто быть рядом, просто иметь возможность оставаться там.\r\nНо раз мне этого не позволено, раз мне не могут этого простить...\r\nЯ захотел мира, где были бы только мы двое."
+        }
+      }
+    }
+  }
+]

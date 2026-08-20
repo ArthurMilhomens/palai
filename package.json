@@ -22,7 +22,11 @@
     "lint": "tsc --noEmit",
     "typecheck": "tsc --noEmit",
     "dump:generate": "tsx scripts/generate-dump.ts",
-    "dump:fixture": "tsx scripts/generate-dump.ts --fixture"
+    "dump:fixture": "tsx scripts/generate-dump.ts --fixture",
+    "dump:import": "tsx scripts/import-local-dump.ts",
+    "extract": "tsx scripts/run-extractor.ts",
+    "extract:build": "dotnet build tools/extractor/Palai.Extractor.csproj -c Release",
+    "dump:from-game": "tsx scripts/run-extractor.ts --download-mappings && tsx scripts/generate-dump.ts"
   },
   "keywords": [
     "palworld",

@@ -1,0 +1,392 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_HelpGuideDescText",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "Help_1": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_1_TextData",
+          "SourceString": "조작 방법(키보드)\r\n\r\n마우스　카메라 조작\r\n<keyGuideIcon id=|W_ForHelp|/><keyGuideIcon id=|A_ForHelp|/><keyGuideIcon id=|S_ForHelp|/><keyGuideIcon id=|D_ForHelp|/>　이동\r\n<keyGuideIcon id=|ThrowPal| OverrideType=|1|/>　팰 소환\r\n<keyGuideIcon id=|ThrowObject| OverrideType=|1|/>　스피어 투척\r\n<keyGuideIcon id=|OpenConstructionMenu| OverrideType=|1|/>　건축 메뉴\r\n<keyGuideIcon id=|Jump| OverrideType=|1|/>　점프\r\n<keyGuideIcon id=|WeaponReady| OverrideType=|1|/>　조준\r\n<keyGuideIcon id=|WeaponUse| OverrideType=|1|/>　공격\r\n<keyGuideIcon id=|Coop| OverrideType=|1|/>　파트너 스킬\r\n<keyGuideIcon id=|Reload| OverrideType=|1|/>　재장전\r\n<keyGuideIcon id=|ChangeWeaponNext| OverrideType=|1|/><keyGuideIcon id=|ChangeWeaponPrev| OverrideType=|1|/>　무기 교체\r\n<keyGuideIcon id=|Crouch| OverrideType=|1|/>　웅크리기\r\n<keyGuideIcon id=|Rolling| OverrideType=|1|/>　구르기\r\n<keyGuideIcon id=|Dash| OverrideType=|1|/>　대시\r\n<keyGuideIcon id=|PartnerPalInstructions| OverrideType=|1|/>　팰 지시\r\n<keyGuideIcon id=|OtomoChangeIncrement| OverrideType=|1|/><keyGuideIcon id=|OtomoChangeDecrement| OverrideType=|1|/>　팰 교체\r\n<keyGuideIcon id=|SphereChange| OverrideType=|1|/>　스피어 교체",
+          "LocalizedString": "조작 방법(키보드)\r\n\r\n마우스　카메라 조작\r\n<keyGuideIcon id=|W_ForHelp|/><keyGuideIcon id=|A_ForHelp|/><keyGuideIcon id=|S_ForHelp|/><keyGuideIcon id=|D_ForHelp|/>　이동\r\n<keyGuideIcon id=|ThrowPal| OverrideType=|1|/>　팰 소환\r\n<keyGuideIcon id=|ThrowObject| OverrideType=|1|/>　스피어 투척\r\n<keyGuideIcon id=|OpenConstructionMenu| OverrideType=|1|/>　건축 메뉴\r\n<keyGuideIcon id=|Jump| OverrideType=|1|/>　점프\r\n<keyGuideIcon id=|WeaponReady| OverrideType=|1|/>　조준\r\n<keyGuideIcon id=|WeaponUse| OverrideType=|1|/>　공격\r\n<keyGuideIcon id=|Coop| OverrideType=|1|/>　파트너 스킬\r\n<keyGuideIcon id=|Reload| OverrideType=|1|/>　재장전\r\n<keyGuideIcon id=|ChangeWeaponNext| OverrideType=|1|/><keyGuideIcon id=|ChangeWeaponPrev| OverrideType=|1|/>　무기 교체\r\n<keyGuideIcon id=|Crouch| OverrideType=|1|/>　웅크리기\r\n<keyGuideIcon id=|Rolling| OverrideType=|1|/>　구르기\r\n<keyGuideIcon id=|Dash| OverrideType=|1|/>　대시\r\n<keyGuideIcon id=|PartnerPalInstructions| OverrideType=|1|/>　팰 지시\r\n<keyGuideIcon id=|OtomoChangeIncrement| OverrideType=|1|/><keyGuideIcon id=|OtomoChangeDecrement| OverrideType=|1|/>　팰 교체\r\n<keyGuideIcon id=|SphereChange| OverrideType=|1|/>　스피어 교체"
+        }
+      },
+      "Help_2": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_2_TextData",
+          "SourceString": "조작 방법(컨트롤러)\r\n\r\n왼쪽 스틱　이동\r\n오른쪽 스틱　카메라 조작\r\n<keyGuideIcon id=|ThrowPal| OverrideType=|2|/>　팰 소환\r\n<keyGuideIcon id=|ThrowObject| OverrideType=|2|/>　스피어 투척\r\n<keyGuideIcon id=|OpenConstructionMenu| OverrideType=|2|/>　건축 메뉴\r\n<keyGuideIcon id=|Jump| OverrideType=|2|/>　점프\r\n<keyGuideIcon id=|WeaponReady| OverrideType=|2|/>　조준\r\n<keyGuideIcon id=|WeaponUse| OverrideType=|2|/>　공격\r\n<keyGuideIcon id=|ReloadAndCoop| OverrideType=|2|/>　파트너 스킬\r\n<keyGuideIcon id=|ChangeWeaponNext_GamePad| OverrideType=|2|/>　무기 교체\r\n<keyGuideIcon id=|RollingAndCrouch| OverrideType=|2|/>　웅크리기/구르기\r\n<keyGuideIcon id=|DashController| OverrideType=|2|/>　대시\r\n<keyGuideIcon id=|PartnerPalInstructions| OverrideType=|2|/>　팰 지시\r\n<keyGuideIcon id=|OtomoChangeIncrement| OverrideType=|2|/><keyGuideIcon id=|OtomoChangeDecrement| OverrideType=|2|/>　팰 교체\r\n<keyGuideIcon id=|SphereChange| OverrideType=|2|/>　스피어 교체",
+          "LocalizedString": "조작 방법(컨트롤러)\r\n\r\n왼쪽 스틱　이동\r\n오른쪽 스틱　카메라 조작\r\n<keyGuideIcon id=|ThrowPal| OverrideType=|2|/>　팰 소환\r\n<keyGuideIcon id=|ThrowObject| OverrideType=|2|/>　스피어 투척\r\n<keyGuideIcon id=|OpenConstructionMenu| OverrideType=|2|/>　건축 메뉴\r\n<keyGuideIcon id=|Jump| OverrideType=|2|/>　점프\r\n<keyGuideIcon id=|WeaponReady| OverrideType=|2|/>　조준\r\n<keyGuideIcon id=|WeaponUse| OverrideType=|2|/>　공격\r\n<keyGuideIcon id=|ReloadAndCoop| OverrideType=|2|/>　파트너 스킬\r\n<keyGuideIcon id=|ChangeWeaponNext_GamePad| OverrideType=|2|/>　무기 교체\r\n<keyGuideIcon id=|RollingAndCrouch| OverrideType=|2|/>　웅크리기/구르기\r\n<keyGuideIcon id=|DashController| OverrideType=|2|/>　대시\r\n<keyGuideIcon id=|PartnerPalInstructions| OverrideType=|2|/>　팰 지시\r\n<keyGuideIcon id=|OtomoChangeIncrement| OverrideType=|2|/><keyGuideIcon id=|OtomoChangeDecrement| OverrideType=|2|/>　팰 교체\r\n<keyGuideIcon id=|SphereChange| OverrideType=|2|/>　스피어 교체"
+        }
+      },
+      "Help_3": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_3_TextData",
+          "SourceString": "게임의 목적\r\n\r\n앞길을 가로막는 미지의 세력과 맞서 싸우며, 이 신비로운 땅의 비밀을 파헤치세요. 팰의 기원 속에 숨겨진 진실을 발견하게 될지도 모릅니다.\r\n\r\n최강의 거점을 구축하고, 최강의 팰을 포획하여 전투에 대비하세요. 팰을 직접 번식시켜 전력을 증강하는 것도 가능합니다! \r\n\r\n새로운 세계에서, 팰들과의 독특하고도 새로운 모험을 즐겨 보세요!",
+          "LocalizedString": "게임의 목적\r\n\r\n앞길을 가로막는 미지의 세력과 맞서 싸우며, 이 신비로운 땅의 비밀을 파헤치세요. 팰의 기원 속에 숨겨진 진실을 발견하게 될지도 모릅니다.\r\n\r\n최강의 거점을 구축하고, 최강의 팰을 포획하여 전투에 대비하세요. 팰을 직접 번식시켜 전력을 증강하는 것도 가능합니다! \r\n\r\n새로운 세계에서, 팰들과의 독특하고도 새로운 모험을 즐겨 보세요!"
+        }
+      },
+      "Help_4": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_4_TextData",
+          "SourceString": "처음엔 어떻게 하면 좋을까요?\r\n\r\n먼저 떨어진 가지나 작을 돌을 주우며, 나무와 돌을 모으세요.\r\n큰 나무나 암석을 맨손으로 두들겨도 나무와 돌을 채집할 수 있습니다.\r\n작업대를 만들고 도끼와 곡괭이를 제작해 채집 효율을 높여 봅시다.\r\n\r\n소재를 다 모았으면 거점이 될 장소를 정하고 |팰 상자|를 만들어 봅시다.\r\n|팰 상자|가 있는 곳이 당신의 거점이 됩니다.\r\n\r\n레벨이 오르면 무기와 |팰 스피어|를 만든 뒤 팰의 힘을 빼고 포획해 보세요.\r\n팰은 함께 싸울 동료가 되어 주며, 거점에 풀어놓아 노동력으로도 쓸 수 있습니다.\r\n\r\n밤은 위험합니다. |모닥불|과 |횃불|, |침대|를 만들어 첫날밤을 대비하세요.",
+          "LocalizedString": "처음엔 어떻게 하면 좋을까요?\r\n\r\n먼저 떨어진 가지나 작을 돌을 주우며, 나무와 돌을 모으세요.\r\n큰 나무나 암석을 맨손으로 두들겨도 나무와 돌을 채집할 수 있습니다.\r\n작업대를 만들고 도끼와 곡괭이를 제작해 채집 효율을 높여 봅시다.\r\n\r\n소재를 다 모았으면 거점이 될 장소를 정하고 |팰 상자|를 만들어 봅시다.\r\n|팰 상자|가 있는 곳이 당신의 거점이 됩니다.\r\n\r\n레벨이 오르면 무기와 |팰 스피어|를 만든 뒤 팰의 힘을 빼고 포획해 보세요.\r\n팰은 함께 싸울 동료가 되어 주며, 거점에 풀어놓아 노동력으로도 쓸 수 있습니다.\r\n\r\n밤은 위험합니다. |모닥불|과 |횃불|, |침대|를 만들어 첫날밤을 대비하세요."
+        }
+      },
+      "Help_5": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_5_TextData",
+          "SourceString": "팰\r\n\r\n팰은 이 지역에 서식하는 신비한 생물입니다.\r\n스피어로 포획하면 동료로 삼을 수 있으며\r\n동료가 된 보유 팰은 <keyGuideIcon id=|ThrowPal|/>(으)로 스피어에서 꺼낼 수 있습니다.\r\n\r\n한 번에 휴대 가능한 팰은 최대 5마리이며, 6마리 이상 포획한 경우에는 자동으로 팰 상자에 전송됩니다.\r\n상자로 전송된 팰은 팰 상자를 건설하면 꺼낼 수 있게 됩니다.",
+          "LocalizedString": "팰\r\n\r\n팰은 이 지역에 서식하는 신비한 생물입니다.\r\n스피어로 포획하면 동료로 삼을 수 있으며\r\n동료가 된 보유 팰은 <keyGuideIcon id=|ThrowPal|/>(으)로 스피어에서 꺼낼 수 있습니다.\r\n\r\n한 번에 휴대 가능한 팰은 최대 5마리이며, 6마리 이상 포획한 경우에는 자동으로 팰 상자에 전송됩니다.\r\n상자로 전송된 팰은 팰 상자를 건설하면 꺼낼 수 있게 됩니다."
+        }
+      },
+      "Help_6": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_6_TextData",
+          "SourceString": "HUD\r\n\r\n왼쪽 아래엔 보유 팰과 플레이어 HP 및 포만도가 표시됩니다.\r\n그 옆엔 기온이 표시되며 고온/저온이 되면 피해를 입습니다.\r\n오른쪽 아래엔 장착한 스피어 및 무기, 각각의 잔탄 수가 표시됩니다.",
+          "LocalizedString": "HUD\r\n\r\n왼쪽 아래엔 보유 팰과 플레이어 HP 및 포만도가 표시됩니다.\r\n그 옆엔 기온이 표시되며 고온/저온이 되면 피해를 입습니다.\r\n오른쪽 아래엔 장착한 스피어 및 무기, 각각의 잔탄 수가 표시됩니다."
+        }
+      },
+      "Help_7": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_7_TextData",
+          "SourceString": "아이템 습득\r\n\r\n떨어진 아이템은 <keyGuideIcon id=|Interact_1|/>으로 주울 수 있습니다.\r\n또한, 나무나 돌 등을 도끼나 곡괭이로 파괴해도 소재를 얻을 수 있습니다.\r\n팰을 쓰러뜨려도 아이템이 떨어집니다.",
+          "LocalizedString": "아이템 습득\r\n\r\n떨어진 아이템은 <keyGuideIcon id=|Interact_1|/>으로 주울 수 있습니다.\r\n또한, 나무나 돌 등을 도끼나 곡괭이로 파괴해도 소재를 얻을 수 있습니다.\r\n팰을 쓰러뜨려도 아이템이 떨어집니다."
+        }
+      },
+      "Help_8": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_8_TextData",
+          "SourceString": "건축\r\n\r\n<keyGuideIcon id=|OpenConstructionMenu|/>으로 건축 메뉴를 열고, 건물을 지을 수 있습니다.\r\n건축 메뉴에서 건축 위치를 정한 뒤 그곳에서 <keyGuideIcon id=|Interact_1|/>을 길게 누르면 건축이 완료됩니다.\r\n팰을 보유 중이거나, 거점에 팰이 있다면 건축을 도와줍니다.",
+          "LocalizedString": "건축\r\n\r\n<keyGuideIcon id=|OpenConstructionMenu|/>으로 건축 메뉴를 열고, 건물을 지을 수 있습니다.\r\n건축 메뉴에서 건축 위치를 정한 뒤 그곳에서 <keyGuideIcon id=|Interact_1|/>을 길게 누르면 건축이 완료됩니다.\r\n팰을 보유 중이거나, 거점에 팰이 있다면 건축을 도와줍니다."
+        }
+      },
+      "Help_9": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_9_TextData",
+          "SourceString": "제작\r\n\r\n작업대 등을 만들어 상호 작용하면 아이템을 제작할 수 있습니다.\r\n기술 포인트로 새로운 레시피를 해제하거나\r\n다른 작업 시설을 건축하면 새로운 아이템을 제작할 수 있게 됩니다.",
+          "LocalizedString": "제작\r\n\r\n작업대 등을 만들어 상호 작용하면 아이템을 제작할 수 있습니다.\r\n기술 포인트로 새로운 레시피를 해제하거나\r\n다른 작업 시설을 건축하면 새로운 아이템을 제작할 수 있게 됩니다."
+        }
+      },
+      "Help_10": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_10_TextData",
+          "SourceString": "기술\r\n\r\n메뉴의 기술 탭에서 기술 포인트를 소비하여\r\n새로운 건축물이나 신규 아이템 레시피를 해제할 수 있습니다.\r\n기술 포인트는 레벨 업이나 참수리 상을 해방하여 획득할 수 있습니다.",
+          "LocalizedString": "기술\r\n\r\n메뉴의 기술 탭에서 기술 포인트를 소비하여\r\n새로운 건축물이나 신규 아이템 레시피를 해제할 수 있습니다.\r\n기술 포인트는 레벨 업이나 참수리 상을 해방하여 획득할 수 있습니다."
+        }
+      },
+      "Help_11": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_11_TextData",
+          "SourceString": "고대 기술\r\n\r\n강대한 적을 쓰러뜨리면 고대 기술 포인트를 획득하며\r\n이를 소비하여 고대 기술을 해제할 수 있습니다.\r\n\r\n고대 기술은 멸망한 문명이 보유했던 선진적 기술로\r\n독특하고 강력한 효과를 갖춘 기술이 많습니다.",
+          "LocalizedString": "고대 기술\r\n\r\n강대한 적을 쓰러뜨리면 고대 기술 포인트를 획득하며\r\n이를 소비하여 고대 기술을 해제할 수 있습니다.\r\n\r\n고대 기술은 멸망한 문명이 보유했던 선진적 기술로\r\n독특하고 강력한 효과를 갖춘 기술이 많습니다."
+        }
+      },
+      "Help_12": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_12_TextData",
+          "SourceString": "레벨\r\n\r\n플레이어 및 팰은 충분한 경험치를 획득하면 레벨이 상승합니다.\r\n경험치는 팰을 토벌하거나 포획하여 획득합니다.\r\n또한, 건축과 제작으로도 작업량에 따른 경험치를 획득할 수 있습니다.\r\n\r\n팰의 레벨이 플레이어보다 높으면 본래의 능력을 발휘할 수 없으며\r\n이 경우에는 레벨 싱크를 통해 팰의 스테이터스가 플레이어의 레벨에 맞게 하향 조정됩니다.",
+          "LocalizedString": "레벨\r\n\r\n플레이어 및 팰은 충분한 경험치를 획득하면 레벨이 상승합니다.\r\n경험치는 팰을 토벌하거나 포획하여 획득합니다.\r\n또한, 건축과 제작으로도 작업량에 따른 경험치를 획득할 수 있습니다.\r\n\r\n팰의 레벨이 플레이어보다 높으면 본래의 능력을 발휘할 수 없으며\r\n이 경우에는 레벨 싱크를 통해 팰의 스테이터스가 플레이어의 레벨에 맞게 하향 조정됩니다."
+        }
+      },
+      "Help_13": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_13_TextData",
+          "SourceString": "플레이어 스테이터스 강화\r\n\r\n메뉴의 인벤토리 탭에서 스테이터스 포인트를 분배하여\r\n플레이어 자신의 능력치를 올릴 수 있습니다.\r\n스테이터스 포인트는 플레이어 레벨을 올려서 획득합니다.",
+          "LocalizedString": "플레이어 스테이터스 강화\r\n\r\n메뉴의 인벤토리 탭에서 스테이터스 포인트를 분배하여\r\n플레이어 자신의 능력치를 올릴 수 있습니다.\r\n스테이터스 포인트는 플레이어 레벨을 올려서 획득합니다."
+        }
+      },
+      "Help_14": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_14_TextData",
+          "SourceString": "거점\r\n\r\n팰 상자를 건축하면 주위 일대가 거점으로 인식됩니다.\r\n팰 상자와 상호 작용하면 거점에 팰을 소환할 수 있으며\r\n거점으로 나온 팰은 작업 적성에 맞게 자발적으로 작업을 수행합니다.\r\n\r\n거점 내에 건축물을 지어 팰에게 작업을 맡길 수도 있습니다.\r\n거점으로 나온 팰은 외부의 적이나 위험에 노출되므로, 주의해야 합니다.",
+          "LocalizedString": "거점\r\n\r\n팰 상자를 건축하면 주위 일대가 거점으로 인식됩니다.\r\n팰 상자와 상호 작용하면 거점에 팰을 소환할 수 있으며\r\n거점으로 나온 팰은 작업 적성에 맞게 자발적으로 작업을 수행합니다.\r\n\r\n거점 내에 건축물을 지어 팰에게 작업을 맡길 수도 있습니다.\r\n거점으로 나온 팰은 외부의 적이나 위험에 노출되므로, 주의해야 합니다."
+        }
+      },
+      "Help_15": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_15_TextData",
+          "SourceString": "팰 상자\r\n\r\n팰 상자를 중심으로 일정 범위의 구역을 자신이 소속된 길드의 거점 영토로 취급하며, 영토 내에 세워진 건축물은 해당 길드의 소유물이 됩니다.\r\n상자와 상호 작용하여 확인 가능한 '거점 임무'를 클리어하면 길드의 거점이 성장하며, 거점에 소환할 수 있는 팰의 숫자가 증가합니다.\r\n\r\n상자에 팰을 넣어 두면 상자 내에서 휴식하며 회복합니다.\r\n빈사 상태에 빠진 팰 또한 점차 몸을 회복합니다.\r\n\r\n팰 상자에는 빠른 이동 기능이 탑재되어 여행지에서 해방했던 참수리 상으로 순간 이동할 수 있습니다.\r\n※월드 설정에서 |빠른 이동 불가|로 설정한 경우에는 빠른 이동 기능을 이용할 수 없습니다.",
+          "LocalizedString": "팰 상자\r\n\r\n팰 상자를 중심으로 일정 범위의 구역을 자신이 소속된 길드의 거점 영토로 취급하며, 영토 내에 세워진 건축물은 해당 길드의 소유물이 됩니다.\r\n상자와 상호 작용하여 확인 가능한 '거점 임무'를 클리어하면 길드의 거점이 성장하며, 거점에 소환할 수 있는 팰의 숫자가 증가합니다.\r\n\r\n상자에 팰을 넣어 두면 상자 내에서 휴식하며 회복합니다.\r\n빈사 상태에 빠진 팰 또한 점차 몸을 회복합니다.\r\n\r\n팰 상자에는 빠른 이동 기능이 탑재되어 여행지에서 해방했던 참수리 상으로 순간 이동할 수 있습니다.\r\n※월드 설정에서 |빠른 이동 불가|로 설정한 경우에는 빠른 이동 기능을 이용할 수 없습니다."
+        }
+      },
+      "Help_16": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_16_TextData",
+          "SourceString": "포획\r\n\r\n<keyGuideIcon id=|ThrowObject|/>으로 팰 스피어를 던져 팰에게 맞히면, 해당 팰을 포획할 수 있습니다.\r\n팰은 HP가 내려가거나, 상태 이상에 빠지거나, 덫에 걸렸을 경우 포획하기 수월해집니다.\r\n또한 팰에게 들키지 않은 상태에서 팰 스피어를 등 뒤쪽으로부터 던져도 포획률이 상승합니다.\r\n강력한 팰을 포획하려면 그에 맞는 강력한 스피어를 준비해야 합니다.",
+          "LocalizedString": "포획\r\n\r\n<keyGuideIcon id=|ThrowObject|/>으로 팰 스피어를 던져 팰에게 맞히면, 해당 팰을 포획할 수 있습니다.\r\n팰은 HP가 내려가거나, 상태 이상에 빠지거나, 덫에 걸렸을 경우 포획하기 수월해집니다.\r\n또한 팰에게 들키지 않은 상태에서 팰 스피어를 등 뒤쪽으로부터 던져도 포획률이 상승합니다.\r\n강력한 팰을 포획하려면 그에 맞는 강력한 스피어를 준비해야 합니다."
+        }
+      },
+      "Help_17": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_17_TextData",
+          "SourceString": "보유 팰\r\n\r\n메뉴에서 보유 팰 탭을 열 수 있습니다.\r\n보유 팰의 HP 및 포만도 등 다양한 스테이터스를 확인할 수 있습니다.\r\n또한 보유 스킬 관련 정보 확인 및\r\n익혀 두었던 액티브 스킬을 교체하는 것도 가능합니다.",
+          "LocalizedString": "보유 팰\r\n\r\n메뉴에서 보유 팰 탭을 열 수 있습니다.\r\n보유 팰의 HP 및 포만도 등 다양한 스테이터스를 확인할 수 있습니다.\r\n또한 보유 스킬 관련 정보 확인 및\r\n익혀 두었던 액티브 스킬을 교체하는 것도 가능합니다."
+        }
+      },
+      "Help_18": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_18_TextData",
+          "SourceString": "포만도\r\n\r\n플레이어와 팰은 활동하면서 포만도가 떨어집니다.\r\n포만도가 낮을 경우 능력치가 내려가는 등의 악영향을 끼칩니다.\r\n\r\n인벤토리에서 식품 아이템을 사용하면\r\n플레이어나 팰의 포만도를 회복시킬 수 있습니다.",
+          "LocalizedString": "포만도\r\n\r\n플레이어와 팰은 활동하면서 포만도가 떨어집니다.\r\n포만도가 낮을 경우 능력치가 내려가는 등의 악영향을 끼칩니다.\r\n\r\n인벤토리에서 식품 아이템을 사용하면\r\n플레이어나 팰의 포만도를 회복시킬 수 있습니다."
+        }
+      },
+      "Help_19": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_19_TextData",
+          "SourceString": "SAN 수치\r\n\r\n팰은 거점에서 작업하면 SAN 수치가 떨어집니다.\r\nSAN 수치가 낮을 경우 팰이 농땡이를 치거나 병이 나고 맙니다.\r\n만약 포만도 수치가 낮다면 SAN 수치가 더 빠르게 떨어집니다.\r\n양질의 식사를 제공하거나, 온천에서 쉬게 해주면 회복시킬 수 있습니다.",
+          "LocalizedString": "SAN 수치\r\n\r\n팰은 거점에서 작업하면 SAN 수치가 떨어집니다.\r\nSAN 수치가 낮을 경우 팰이 농땡이를 치거나 병이 나고 맙니다.\r\n만약 포만도 수치가 낮다면 SAN 수치가 더 빠르게 떨어집니다.\r\n양질의 식사를 제공하거나, 온천에서 쉬게 해주면 회복시킬 수 있습니다."
+        }
+      },
+      "Help_20": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_20_TextData",
+          "SourceString": "파트너 스킬\r\n\r\n팰이 종족별로 갖춘 고유 능력입니다.\r\n파트너 스킬 중엔 팰에 탑승하거나 팰이 사격 능력을 갖추는 것도 존재합니다.\r\n\r\n일부 팰의 파트너 스킬을 개방하려면 팰 장비 작업대에서 만들 수 있는 |팰 장비|가 필요합니다.\r\n\r\n효과는 보유 팰 화면에서 확인할 수 있으며, 보유하기만 해도 몇 가지 효과를 발휘하는 팰도 존재합니다.",
+          "LocalizedString": "파트너 스킬\r\n\r\n팰이 종족별로 갖춘 고유 능력입니다.\r\n파트너 스킬 중엔 팰에 탑승하거나 팰이 사격 능력을 갖추는 것도 존재합니다.\r\n\r\n일부 팰의 파트너 스킬을 개방하려면 팰 장비 작업대에서 만들 수 있는 |팰 장비|가 필요합니다.\r\n\r\n효과는 보유 팰 화면에서 확인할 수 있으며, 보유하기만 해도 몇 가지 효과를 발휘하는 팰도 존재합니다."
+        }
+      },
+      "Help_21": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_21_TextData",
+          "SourceString": "팰 도감\r\n\r\n메뉴에서 팰 도감을 열 수 있습니다.\r\n포획하거나 목격한 팰의 정보가 기록되며\r\n해당 팰이 어디에 서식하는지 등의 정보도 확인할 수 있습니다.",
+          "LocalizedString": "팰 도감\r\n\r\n메뉴에서 팰 도감을 열 수 있습니다.\r\n포획하거나 목격한 팰의 정보가 기록되며\r\n해당 팰이 어디에 서식하는지 등의 정보도 확인할 수 있습니다."
+        }
+      },
+      "Help_22": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_22_TextData",
+          "SourceString": "도감 보너스\r\n\r\n신종 팰을 포획하면 플레이어가 보너스 경험치를 획득합니다.\r\n이 경험치 보너스는 같은 종족을 5마리 포획할 때까지 획득할 수 있습니다.",
+          "LocalizedString": "도감 보너스\r\n\r\n신종 팰을 포획하면 플레이어가 보너스 경험치를 획득합니다.\r\n이 경험치 보너스는 같은 종족을 5마리 포획할 때까지 획득할 수 있습니다."
+        }
+      },
+      "Help_23": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_23_TextData",
+          "SourceString": "길드\r\n\r\n다른 플레이어에게 접근하면 상대 길드에 가입을 의뢰할 수 있습니다.\r\n또한 메뉴의 길드 탭을 통해\r\n소속 중인 길드의 정보와 멤버 상황 등을 확인할 수 있습니다.\r\n같은 길드 내 플레이어는 거점을 공유하며\r\n작업 중인 팰도 자유롭게 공유할 수 있게 됩니다.",
+          "LocalizedString": "길드\r\n\r\n다른 플레이어에게 접근하면 상대 길드에 가입을 의뢰할 수 있습니다.\r\n또한 메뉴의 길드 탭을 통해\r\n소속 중인 길드의 정보와 멤버 상황 등을 확인할 수 있습니다.\r\n같은 길드 내 플레이어는 거점을 공유하며\r\n작업 중인 팰도 자유롭게 공유할 수 있게 됩니다."
+        }
+      },
+      "Help_24": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_24_TextData",
+          "SourceString": "지도\r\n\r\n<keyGuideIcon id=|OpenWorldMap|/>으로 지도를 표시할 수 있습니다.\r\n지도 상에는 필드 정보 등이 표시됩니다.",
+          "LocalizedString": "지도\r\n\r\n<keyGuideIcon id=|OpenWorldMap|/>으로 지도를 표시할 수 있습니다.\r\n지도 상에는 필드 정보 등이 표시됩니다."
+        }
+      },
+      "Help_25": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_25_TextData",
+          "SourceString": "참수리 상\r\n\r\n상호 작용하여 해방하면 다른 참수리 상 및\r\n자신의 팰 상자로 빠른 이동을 할 수 있게 됩니다.\r\n\r\n또한 참수리 상을 해방할 때마다 기술 포인트를 획득합니다.\r\n참수리 상은 지역 각지에 존재하니 잘 찾아봅시다.\r\n\r\n※월드 설정에서 |빠른 여행 불가|로 설정한 경우에는 빠른 여행 기능을 이용할 수 없습니다",
+          "LocalizedString": "참수리 상\r\n\r\n상호 작용하여 해방하면 다른 참수리 상 및\r\n자신의 팰 상자로 빠른 이동을 할 수 있게 됩니다.\r\n\r\n또한 참수리 상을 해방할 때마다 기술 포인트를 획득합니다.\r\n참수리 상은 지역 각지에 존재하니 잘 찾아봅시다.\r\n\r\n※월드 설정에서 |빠른 여행 불가|로 설정한 경우에는 빠른 여행 기능을 이용할 수 없습니다"
+        }
+      },
+      "Help_26": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_26_TextData",
+          "SourceString": "원형 메뉴\r\n\r\n<keyGuideIcon id=|PartnerPalInstructions|/> 키로 열 수 있는 메뉴입니다.\r\n보유 팰에게 작전 지시를 내리거나 먹이를 주는 등의 기능을 이용할 수 있습니다.",
+          "LocalizedString": "원형 메뉴\r\n\r\n<keyGuideIcon id=|PartnerPalInstructions|/> 키로 열 수 있는 메뉴입니다.\r\n보유 팰에게 작전 지시를 내리거나 먹이를 주는 등의 기능을 이용할 수 있습니다."
+        }
+      },
+      "Help_27": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_27_TextData",
+          "SourceString": "밤\r\n\r\n시간이 경과하여 밤이 되면 주위가 어두워지고 기온이 내려가며, 위험한 야행성 팰이 출현합니다.\r\n안전한 장소에서 전원이 지낼 침대를 만들어 아침까지 잠을 자거나, 모닥불 주위에서 몸을 따뜻하게 덥히며 무사히 밤을 보내세요.",
+          "LocalizedString": "밤\r\n\r\n시간이 경과하여 밤이 되면 주위가 어두워지고 기온이 내려가며, 위험한 야행성 팰이 출현합니다.\r\n안전한 장소에서 전원이 지낼 침대를 만들어 아침까지 잠을 자거나, 모닥불 주위에서 몸을 따뜻하게 덥히며 무사히 밤을 보내세요."
+        }
+      },
+      "Help_28": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_28_TextData",
+          "SourceString": "탑의 보스\r\n\r\n각 지역에 하나씩 존재하는 탑에는 해당 지역을 지배하는 조직 리더가 한 명씩 있습니다.\r\n이들은 기본적으로 섬 외부에서 온 팰 조련사를 적대시하며 탑에 들어가면 즉시 전투가 벌어집니다.\r\n탑 보스전은 시간 제한이 있으며 제한 시간 내에 적을 쓰러뜨리지 못하면 패배합니다.\r\n탑 보스전은 다른 사람이 도전하지 않으면 몇 번이고 도전할 수 있습니다.",
+          "LocalizedString": "탑의 보스\r\n\r\n각 지역에 하나씩 존재하는 탑에는 해당 지역을 지배하는 조직 리더가 한 명씩 있습니다.\r\n이들은 기본적으로 섬 외부에서 온 팰 조련사를 적대시하며 탑에 들어가면 즉시 전투가 벌어집니다.\r\n탑 보스전은 시간 제한이 있으며 제한 시간 내에 적을 쓰러뜨리지 못하면 패배합니다.\r\n탑 보스전은 다른 사람이 도전하지 않으면 몇 번이고 도전할 수 있습니다."
+        }
+      },
+      "Help_29": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_29_TextData",
+          "SourceString": "범죄\r\n\r\n필드나 마을에 있는 선량한 NPC를 공격하면 누군가의 신고를 통해 |범죄 상태|가 됩니다.\r\n범죄 행각을 남에게 들키면 팰파고스섬 자경단에게 지명 수배되므로 주의해야 합니다.\r\n\r\n만약 지명 수배당했을 경우, 일정 시간 동안 자경단의 눈을 피해 숨어 다니면\r\n지명 수배 상태를 해제할 수 있습니다.",
+          "LocalizedString": "범죄\r\n\r\n필드나 마을에 있는 선량한 NPC를 공격하면 누군가의 신고를 통해 |범죄 상태|가 됩니다.\r\n범죄 행각을 남에게 들키면 팰파고스섬 자경단에게 지명 수배되므로 주의해야 합니다.\r\n\r\n만약 지명 수배당했을 경우, 일정 시간 동안 자경단의 눈을 피해 숨어 다니면\r\n지명 수배 상태를 해제할 수 있습니다."
+        }
+      },
+      "Help_30": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_30_TextData",
+          "SourceString": "장비 내구도\r\n\r\n장비는 사용하면서 내구도가 감소하며 내구도가 0이 되면 파괴됩니다.\r\n내구도가 내려간 장비는 수리대에서 소재를 소비하여 수리할 수 있습니다.",
+          "LocalizedString": "장비 내구도\r\n\r\n장비는 사용하면서 내구도가 감소하며 내구도가 0이 되면 파괴됩니다.\r\n내구도가 내려간 장비는 수리대에서 소재를 소비하여 수리할 수 있습니다."
+        }
+      },
+      "Help_31": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_31_TextData",
+          "SourceString": "아이템 부패\r\n\r\n일부 식품 등의 아이템은 시간 경과에 따라 부패하며, 완전히 부패한 아이템은 소멸되고 맙니다.\r\n아이스박스나 냉장고에 아이템을 넣어두면 부패를 억제할 수 있습니다.",
+          "LocalizedString": "아이템 부패\r\n\r\n일부 식품 등의 아이템은 시간 경과에 따라 부패하며, 완전히 부패한 아이템은 소멸되고 맙니다.\r\n아이스박스나 냉장고에 아이템을 넣어두면 부패를 억제할 수 있습니다."
+        }
+      },
+      "Help_32": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_32_TextData",
+          "SourceString": "속성\r\n\r\n팰은 속성을 가지고 있으며 각 속성마다 유리한 속성 및 불리한 속성이 존재합니다.\r\n유리한 속성을 상대로 공격하면 피해량이 증가하며 불리한 속성을 상대로 공격하면 반대로 피해량이 감소합니다.",
+          "LocalizedString": "속성\r\n\r\n팰은 속성을 가지고 있으며 각 속성마다 유리한 속성 및 불리한 속성이 존재합니다.\r\n유리한 속성을 상대로 공격하면 피해량이 증가하며 불리한 속성을 상대로 공격하면 반대로 피해량이 감소합니다."
+        }
+      },
+      "Help_33": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_33_TextData",
+          "SourceString": "상태 이상\r\n\r\n팰과 플레이어는 주위 환경 혹은 스킬 효과로 인해 상태 이상에 빠지는 경우가 있습니다.\r\n상태 이상은 다양한 종류가 있으며, 각기 다른 효과를 일으킵니다.\r\n또한 팰에게 상태 이상을 부여하면 포획 확률이 증가합니다.\r\n\r\n\r\n|화상|\r\n몸에 불이 일어나 지속적으로 피해를 받습니다.\r\n풀 속성 공격을 맞았을 때 받는 피해량이 감소합니다.\r\n화염 속성 및 물 속성 팰은 화상 상태에 빠지지 않습니다.\r\n\r\n|젖음|\r\n몸이 물에 젖어 이동 속도가 감소합니다.\r\n번개 속성 공격을 맞았을 때 받는 피해량이 증가합니다.\r\n화염 속성 공격을 맞았을 때 받는 피해량이 감소합니다.\r\n\r\n|덩굴|\r\n몸이 덩굴에 휘감겨 이동 속도가 감소합니다.\r\n점프나 회피 등의 일부 행동이 제한됩니다.\r\n화염 속성 공격을 맞았을 때 받는 피해량이 증가합니다.\r\n\r\n|감전|\r\n몸이 전기로 마비되어 행동 불능 상태에 빠집니다.\r\n물 속성 공격을 맞았을 때 받는 피해량이 증가합니다.\r\n\r\n|빙결|\r\n몸이 얼어붙어 행동 불능 상태에 빠집니다.\r\n\r\n|진흙|\r\n몸이 진흙으로 뒤덮여 이동 속도가 감소합니다.\r\n풀 속성 공격을 맞았을 때 받는 피해량이 증가합니다.\r\n번개 속성 공격을 맞았을 때 받는 피해량이 감소합니다.\r\n\r\n|암흑|\r\n시야가 어두워져 공격 대상을 놓치게 됩니다.\r\n\r\n|독|\r\n몸에 독이 퍼져 지속적으로 피해를 받습니다.",
+          "LocalizedString": "상태 이상\r\n\r\n팰과 플레이어는 주위 환경 혹은 스킬 효과로 인해 상태 이상에 빠지는 경우가 있습니다.\r\n상태 이상은 다양한 종류가 있으며, 각기 다른 효과를 일으킵니다.\r\n또한 팰에게 상태 이상을 부여하면 포획 확률이 증가합니다.\r\n\r\n\r\n|화상|\r\n몸에 불이 일어나 지속적으로 피해를 받습니다.\r\n풀 속성 공격을 맞았을 때 받는 피해량이 감소합니다.\r\n화염 속성 및 물 속성 팰은 화상 상태에 빠지지 않습니다.\r\n\r\n|젖음|\r\n몸이 물에 젖어 이동 속도가 감소합니다.\r\n번개 속성 공격을 맞았을 때 받는 피해량이 증가합니다.\r\n화염 속성 공격을 맞았을 때 받는 피해량이 감소합니다.\r\n\r\n|덩굴|\r\n몸이 덩굴에 휘감겨 이동 속도가 감소합니다.\r\n점프나 회피 등의 일부 행동이 제한됩니다.\r\n화염 속성 공격을 맞았을 때 받는 피해량이 증가합니다.\r\n\r\n|감전|\r\n몸이 전기로 마비되어 행동 불능 상태에 빠집니다.\r\n물 속성 공격을 맞았을 때 받는 피해량이 증가합니다.\r\n\r\n|빙결|\r\n몸이 얼어붙어 행동 불능 상태에 빠집니다.\r\n\r\n|진흙|\r\n몸이 진흙으로 뒤덮여 이동 속도가 감소합니다.\r\n풀 속성 공격을 맞았을 때 받는 피해량이 증가합니다.\r\n번개 속성 공격을 맞았을 때 받는 피해량이 감소합니다.\r\n\r\n|암흑|\r\n시야가 어두워져 공격 대상을 놓치게 됩니다.\r\n\r\n|독|\r\n몸에 독이 퍼져 지속적으로 피해를 받습니다."
+        }
+      },
+      "Help_34": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_34_TextData",
+          "SourceString": "팰의 알\r\n\r\n필드를 걷다 보면 팰의 알을 발견하기도 합니다.\r\n팰의 알을 부화기에 넣어두면 부화시킬 수 있습니다.\r\n알 주변의 온도를 해당 알에 맞는 적절한 온도로 유지시켜주면 부화가 한결 더 수월해집니다.",
+          "LocalizedString": "팰의 알\r\n\r\n필드를 걷다 보면 팰의 알을 발견하기도 합니다.\r\n팰의 알을 부화기에 넣어두면 부화시킬 수 있습니다.\r\n알 주변의 온도를 해당 알에 맞는 적절한 온도로 유지시켜주면 부화가 한결 더 수월해집니다."
+        }
+      },
+      "Help_35": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_35_TextData",
+          "SourceString": "팰 배합 목장\r\n\r\n배합 목장에 암컷과 수컷 팰을 배치하고, 목장에 케이크를 넣어두면\r\n팰의 알이 생겨나는 경우가 있습니다.\r\n일부 특수 조합으로 배합하면 특수 팰의 알이 탄생합니다.",
+          "LocalizedString": "팰 배합 목장\r\n\r\n배합 목장에 암컷과 수컷 팰을 배치하고, 목장에 케이크를 넣어두면\r\n팰의 알이 생겨나는 경우가 있습니다.\r\n일부 특수 조합으로 배합하면 특수 팰의 알이 탄생합니다."
+        }
+      },
+      "Help_36": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_36_TextData",
+          "SourceString": "팰의 랭크와 농축 포드\r\n\r\n팰에게는 랭크 수치가 존재하며, 랭크 수치가 높을수록 스테이터스가 상승합니다.\r\n또한 랭크가 상승하면 파트너 스킬이 더 강력해지기도 합니다.\r\n랭크를 올리려면 농축 포드 시설을 준비하고, 같은 종의 팰을 대량으로 포획하여 정수로 만들어야 합니다.",
+          "LocalizedString": "팰의 랭크와 농축 포드\r\n\r\n팰에게는 랭크 수치가 존재하며, 랭크 수치가 높을수록 스테이터스가 상승합니다.\r\n또한 랭크가 상승하면 파트너 스킬이 더 강력해지기도 합니다.\r\n랭크를 올리려면 농축 포드 시설을 준비하고, 같은 종의 팰을 대량으로 포획하여 정수로 만들어야 합니다."
+        }
+      },
+      "Help_37": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_37_TextData",
+          "SourceString": "팰 상\r\n\r\n필드 곳곳에서 발견되는 팰 상을 힘의 석상에 바치면, 플레이어의 다양한 능력을 강화할 수 있습니다.",
+          "LocalizedString": "팰 상\r\n\r\n필드 곳곳에서 발견되는 팰 상을 힘의 석상에 바치면, 플레이어의 다양한 능력을 강화할 수 있습니다."
+        }
+      },
+      "Help_38": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_38_TextData",
+          "SourceString": "팰 영혼\r\n\r\n보물 상자 등에서 획득 가능한 팰 영혼은 힘의 석상에 바쳐서 팰 강화에 사용할 수 있습니다.\r\n팰 영혼을 바치면 팰의 능력치를 끌어올릴 수 있습니다.",
+          "LocalizedString": "팰 영혼\r\n\r\n보물 상자 등에서 획득 가능한 팰 영혼은 힘의 석상에 바쳐서 팰 강화에 사용할 수 있습니다.\r\n팰 영혼을 바치면 팰의 능력치를 끌어올릴 수 있습니다."
+        }
+      },
+      "Help_39": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_39_TextData",
+          "SourceString": "팰 아종\r\n\r\n일부 팰은 서식지 환경에 적응하여 |아종|이라고 하는 다른 모습의 존재로 관측되기도 합니다.\r\n아종은 기존 종과 다른 속성을 가지며 스테이터스가 아주 약간 높습니다.\r\n\r\n또한 배합할 때의 조합에 따라서도 아종이 태어나기도 합니다.\r\n\r\n아종의 도감 보너스는 원종과 별개로 계산되므로, 원종의 도감 보너스를 전부 획득했더라도 아종 5마리의 도감 보너스 경험치는 그대로 획득할 수 있습니다.",
+          "LocalizedString": "팰 아종\r\n\r\n일부 팰은 서식지 환경에 적응하여 |아종|이라고 하는 다른 모습의 존재로 관측되기도 합니다.\r\n아종은 기존 종과 다른 속성을 가지며 스테이터스가 아주 약간 높습니다.\r\n\r\n또한 배합할 때의 조합에 따라서도 아종이 태어나기도 합니다.\r\n\r\n아종의 도감 보너스는 원종과 별개로 계산되므로, 원종의 도감 보너스를 전부 획득했더라도 아종 5마리의 도감 보너스 경험치는 그대로 획득할 수 있습니다."
+        }
+      },
+      "Help_40": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_40_TextData",
+          "SourceString": "럭키 팰\r\n\r\n필드 상에는 |럭키 팰|이라고 하는 희귀 팰이 등장하기도 합니다.\r\n럭키 팰의 특징은 몸집이 더 크고, 빛을 내뿜는다는 점입니다.\r\n특수 패시브 스킬 및 액티브 스킬을 보유하며, 스테이터스가 기존보다 높은 경우가 많습니다.",
+          "LocalizedString": "럭키 팰\r\n\r\n필드 상에는 |럭키 팰|이라고 하는 희귀 팰이 등장하기도 합니다.\r\n럭키 팰의 특징은 몸집이 더 크고, 빛을 내뿜는다는 점입니다.\r\n특수 패시브 스킬 및 액티브 스킬을 보유하며, 스테이터스가 기존보다 높은 경우가 많습니다."
+        }
+      },
+      "Help_40_2": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_40_2_TextData",
+          "SourceString": "프레데터 팰\r\n\r\n필드에는 |프레데터 팰|이라고 하는 흉악한 팰이 등장하기도 합니다.\r\n온몸에 붉은빛이 감도는 어둠의 아우라를 내뿜으며, 몸집이 더 크고 매우 흉포하다는 특징이 있습니다.\r\n스피어를 던져도 어둠의 아우라에 튕겨나가기 때문에, 포획은 불가능합니다.\r\n충분한 전력을 갖춘 후에 상대하는 것을 추천합니다.",
+          "LocalizedString": "프레데터 팰\r\n\r\n필드에는 |프레데터 팰|이라고 하는 흉악한 팰이 등장하기도 합니다.\r\n온몸에 붉은빛이 감도는 어둠의 아우라를 내뿜으며, 몸집이 더 크고 매우 흉포하다는 특징이 있습니다.\r\n스피어를 던져도 어둠의 아우라에 튕겨나가기 때문에, 포획은 불가능합니다.\r\n충분한 전력을 갖춘 후에 상대하는 것을 추천합니다."
+        }
+      },
+      "Help_41": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_41_TextData",
+          "SourceString": "데스 페널티\r\n\r\n플레이어가 사망하면 그 자리에 보유한 아이템과 팰을 떨어뜨립니다.\r\n떨어뜨린 소지품은 부활 후 다시 사망했던 장소로 직접 가서 회수해야 합니다.\r\n사망 지점에 빛기둥이 생성되며, 이 빛기둥에 직접 혹은 상공에서 접촉하여 아이템과 팰을 회수할 수 있습니다.\r\n\r\n※월드 설정에 따라 데스 페널티 유무 및 내용을 변경할 수 있습니다.",
+          "LocalizedString": "데스 페널티\r\n\r\n플레이어가 사망하면 그 자리에 보유한 아이템과 팰을 떨어뜨립니다.\r\n떨어뜨린 소지품은 부활 후 다시 사망했던 장소로 직접 가서 회수해야 합니다.\r\n사망 지점에 빛기둥이 생성되며, 이 빛기둥에 직접 혹은 상공에서 접촉하여 아이템과 팰을 회수할 수 있습니다.\r\n\r\n※월드 설정에 따라 데스 페널티 유무 및 내용을 변경할 수 있습니다."
+        }
+      },
+      "Help_42": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_42_TextData",
+          "SourceString": "투기장\r\n\r\n사막 지대로부터 멀리 떨어진 작은 섬에 있는 시설입니다.\r\n자신이 훈련한 팰과 힘을 합쳐 같은 월드 내에 존재하는 다른 팰 조련사와 힘을 겨룰 수 있습니다.\r\n또한 NPC와도 겨룰 수 있으며, 특히 마스터 랭크 이상의 NPC는 차원이 다른 힘을 자랑합니다.\r\n\r\n전투에 참가하는 멤버로 보유 팰 5마리 중에서 파트너가 될 메인 팰 1마리, 함께 전투에 참가하는 보조 팰 2마리를 선택합니다.\r\n상대 팰 조련사, 혹은 상대의 팰을 모두 쓰러뜨리면 승리합니다.\r\n\r\n전투 중에 사용한 아이템이나 쓰러진 팰은 전투 종료 후 원상태로 복구됩니다.\r\n※투기장 내에서는 소비 아이템을 사용할 수 없습니다.\r\n※투기장 내에서는 팰 스피어를 활용하는 무기, 강화 효과를 부여하는 무기를 사용할 수 없습니다.\r\n\r\n승리할 시 랭크 포인트(RP)를 획득하며, 일정 RP를 획득하면 랭크가 상승합니다.\r\n패배할 시 RP를 잃습니다.\r\n\r\n전투에 참여하지 않고 진행 중인 플레이어 간 대전을 관전하는 것도 가능합니다.",
+          "LocalizedString": "투기장\r\n\r\n사막 지대로부터 멀리 떨어진 작은 섬에 있는 시설입니다.\r\n자신이 훈련한 팰과 힘을 합쳐 같은 월드 내에 존재하는 다른 팰 조련사와 힘을 겨룰 수 있습니다.\r\n또한 NPC와도 겨룰 수 있으며, 특히 마스터 랭크 이상의 NPC는 차원이 다른 힘을 자랑합니다.\r\n\r\n전투에 참가하는 멤버로 보유 팰 5마리 중에서 파트너가 될 메인 팰 1마리, 함께 전투에 참가하는 보조 팰 2마리를 선택합니다.\r\n상대 팰 조련사, 혹은 상대의 팰을 모두 쓰러뜨리면 승리합니다.\r\n\r\n전투 중에 사용한 아이템이나 쓰러진 팰은 전투 종료 후 원상태로 복구됩니다.\r\n※투기장 내에서는 소비 아이템을 사용할 수 없습니다.\r\n※투기장 내에서는 팰 스피어를 활용하는 무기, 강화 효과를 부여하는 무기를 사용할 수 없습니다.\r\n\r\n승리할 시 랭크 포인트(RP)를 획득하며, 일정 RP를 획득하면 랭크가 상승합니다.\r\n패배할 시 RP를 잃습니다.\r\n\r\n전투에 참여하지 않고 진행 중인 플레이어 간 대전을 관전하는 것도 가능합니다."
+        }
+      },
+      "Help_2_PS5": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_2_PS5_TextData",
+          "SourceString": "조작 방법(컨트롤러)\r\n\r\n왼쪽 스틱　이동\r\n오른쪽 스틱　카메라 조작\r\n<keyGuideIcon id=|ThrowPal| OverrideType=|2|/>　팰 소환\r\n<keyGuideIcon id=|ThrowObject| OverrideType=|2|/>　스피어 투척\r\n<keyGuideIcon id=|OpenConstructionMenu| OverrideType=|2|/>　건축 메뉴\r\n<keyGuideIcon id=|Jump| OverrideType=|2|/>　점프\r\n<keyGuideIcon id=|WeaponReady| OverrideType=|2|/>　조준\r\n<keyGuideIcon id=|WeaponUse| OverrideType=|2|/>　공격\r\n<keyGuideIcon id=|ReloadAndCoop| OverrideType=|2|/>　파트너 스킬\r\n<keyGuideIcon id=|ChangeWeaponNext| OverrideType=|2|/>　무기 교체\r\n<keyGuideIcon id=|RollingAndCrouch| OverrideType=|2|/>　웅크리기/구르기\r\n<keyGuideIcon id=|DashController| OverrideType=|2|/>　대시\r\n<keyGuideIcon id=|PartnerPalInstructions| OverrideType=|2|/>　팰 표시\r\n<keyGuideIcon id=|OtomoChangeIncrement| OverrideType=|2|/><keyGuideIcon id=|OtomoChangeDecrement| OverrideType=|2|/>　팰 교체\r\n<keyGuideIcon id=|SphereChange| OverrideType=|2|/>　스피어 교체",
+          "LocalizedString": "조작 방법(컨트롤러)\r\n\r\n왼쪽 스틱　이동\r\n오른쪽 스틱　카메라 조작\r\n<keyGuideIcon id=|ThrowPal| OverrideType=|2|/>　팰 소환\r\n<keyGuideIcon id=|ThrowObject| OverrideType=|2|/>　스피어 투척\r\n<keyGuideIcon id=|OpenConstructionMenu| OverrideType=|2|/>　건축 메뉴\r\n<keyGuideIcon id=|Jump| OverrideType=|2|/>　점프\r\n<keyGuideIcon id=|WeaponReady| OverrideType=|2|/>　조준\r\n<keyGuideIcon id=|WeaponUse| OverrideType=|2|/>　공격\r\n<keyGuideIcon id=|ReloadAndCoop| OverrideType=|2|/>　파트너 스킬\r\n<keyGuideIcon id=|ChangeWeaponNext| OverrideType=|2|/>　무기 교체\r\n<keyGuideIcon id=|RollingAndCrouch| OverrideType=|2|/>　웅크리기/구르기\r\n<keyGuideIcon id=|DashController| OverrideType=|2|/>　대시\r\n<keyGuideIcon id=|PartnerPalInstructions| OverrideType=|2|/>　팰 표시\r\n<keyGuideIcon id=|OtomoChangeIncrement| OverrideType=|2|/><keyGuideIcon id=|OtomoChangeDecrement| OverrideType=|2|/>　팰 교체\r\n<keyGuideIcon id=|SphereChange| OverrideType=|2|/>　스피어 교체"
+        }
+      },
+      "Help_43": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_43_TextData",
+          "SourceString": "글로벌 팰 상자\r\n\r\n팰 상자에 들어 있는 팰의 유전자 데이터를 저장하거나 저장한 유전자 데이터로 팰을 복원할 수 있는 시설입니다.\r\n단, 같은 월드 내에 같은 유전자 데이터를 가진 팰은 2마리 이상 존재할 수 없습니다.\r\n저장된 유전자 데이터를 다른 월드에 인계하는 것도 가능합니다.\r\n\r\n※월드 설정에서 팰 복원 혹은 팰 유전자 데이터 저장 허가 옵션이 불가로 설정되었을 경우, 팰 복원 혹은 팰 유전자 데이터 저장 기능을 이용할 수 없습니다.",
+          "LocalizedString": "글로벌 팰 상자\r\n\r\n팰 상자에 들어 있는 팰의 유전자 데이터를 저장하거나 저장한 유전자 데이터로 팰을 복원할 수 있는 시설입니다.\r\n단, 같은 월드 내에 같은 유전자 데이터를 가진 팰은 2마리 이상 존재할 수 없습니다.\r\n저장된 유전자 데이터를 다른 월드에 인계하는 것도 가능합니다.\r\n\r\n※월드 설정에서 팰 복원 혹은 팰 유전자 데이터 저장 허가 옵션이 불가로 설정되었을 경우, 팰 복원 혹은 팰 유전자 데이터 저장 기능을 이용할 수 없습니다."
+        }
+      },
+      "Help_44": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_44_TextData",
+          "SourceString": "지형에 끼었을 경우\r\n\r\n메뉴의 옵션 탭에서 |긴급 탈출|을 선택하여 그 자리에서 사망하는 대신 거점으로 복귀할 수 있습니다.\r\n해당 기능을 사용하지 않아도 거점에 돌아갈 수 있는 아이템이나 거점 복귀 능력을 지닌 팰도 존재하므로, 미리 준비해 두는 것을 추천합니다.",
+          "LocalizedString": "지형에 끼었을 경우\r\n\r\n메뉴의 옵션 탭에서 |긴급 탈출|을 선택하여 그 자리에서 사망하는 대신 거점으로 복귀할 수 있습니다.\r\n해당 기능을 사용하지 않아도 거점에 돌아갈 수 있는 아이템이나 거점 복귀 능력을 지닌 팰도 존재하므로, 미리 준비해 두는 것을 추천합니다."
+        }
+      },
+      "Help_45": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_45_TextData",
+          "SourceString": "낚시\r\n\r\n낚싯대를 장비하고 인벤토리에서 낚시 미끼를 선택합니다. 물고기 그림자가 보이는 물가에서 <keyGuideIcon id=|WeaponReady|/>(으)로 자세를 취하고, <keyGuideIcon id=|WeaponUse|/>을(를) 눌러 찌를 던지면 낚시가 시작됩니다.\r\n팰에 탑승한 상태로도 낚시를 할 수 있습니다.\r\n\r\n팰이 미끼에 접근해 수면 위로 오를 때 타이밍에 맞게 <keyGuideIcon id=|WeaponUse|/>을(를) 누르면 힘 싸움을 시작합니다.\r\n\r\n힘 싸움은 미니게임으로 진행됩니다. 물고기 아이콘에 바가 계속 겹쳐지도록 움직이세요.\r\n<keyGuideIcon id=|WeaponUse|/>을(를) 누르는 동안 오른쪽으로, 놓은 동안 왼쪽으로 바가 이동합니다.\r\n팰이 저항하며 좌우로 계속 움직이니, 움직임에 맞춰 바 안에 계속 담아두는 것이 중요합니다.\r\n\r\n바가 물고기 아이콘과 겹쳐진 동안 포획 게이지가 상승합니다.\r\n포획 게이지를 최대까지 채우면 낚시에 성공하여 팰과 아이템을 획득할 수 있습니다.\r\n\r\n낚싯대와 낚시 미끼를 강화하면 더욱 유리하게 낚시를 즐길 수 있습니다.\r\n낚시가 잘 안 된다고 느낄 때에는 보다 높은 성능의 낚싯대와 낚시 미끼를 제작한 후 다시 도전해 보세요.\r\n플레이어의 낚시를 도와주는 팰을 찾아 동료로 삼는 것도 좋습니다.",
+          "LocalizedString": "낚시\r\n\r\n낚싯대를 장비하고 인벤토리에서 낚시 미끼를 선택합니다. 물고기 그림자가 보이는 물가에서 <keyGuideIcon id=|WeaponReady|/>(으)로 자세를 취하고, <keyGuideIcon id=|WeaponUse|/>을(를) 눌러 찌를 던지면 낚시가 시작됩니다.\r\n팰에 탑승한 상태로도 낚시를 할 수 있습니다.\r\n\r\n팰이 미끼에 접근해 수면 위로 오를 때 타이밍에 맞게 <keyGuideIcon id=|WeaponUse|/>을(를) 누르면 힘 싸움을 시작합니다.\r\n\r\n힘 싸움은 미니게임으로 진행됩니다. 물고기 아이콘에 바가 계속 겹쳐지도록 움직이세요.\r\n<keyGuideIcon id=|WeaponUse|/>을(를) 누르는 동안 오른쪽으로, 놓은 동안 왼쪽으로 바가 이동합니다.\r\n팰이 저항하며 좌우로 계속 움직이니, 움직임에 맞춰 바 안에 계속 담아두는 것이 중요합니다.\r\n\r\n바가 물고기 아이콘과 겹쳐진 동안 포획 게이지가 상승합니다.\r\n포획 게이지를 최대까지 채우면 낚시에 성공하여 팰과 아이템을 획득할 수 있습니다.\r\n\r\n낚싯대와 낚시 미끼를 강화하면 더욱 유리하게 낚시를 즐길 수 있습니다.\r\n낚시가 잘 안 된다고 느낄 때에는 보다 높은 성능의 낚싯대와 낚시 미끼를 제작한 후 다시 도전해 보세요.\r\n플레이어의 낚시를 도와주는 팰을 찾아 동료로 삼는 것도 좋습니다."
+        }
+      }
+    }
+  }
+]

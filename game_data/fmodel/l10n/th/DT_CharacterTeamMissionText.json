@@ -1,0 +1,160 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_CharacterTeamMissionText",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "DUNGEON_GRASS": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_GRASS_TextData",
+          "SourceString": "ถ้ำกลางทุ่งหญ้า",
+          "LocalizedString": "ถ้ำกลางทุ่งหญ้า"
+        }
+      },
+      "DUNGEON_FOREST": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_FOREST_TextData",
+          "SourceString": "เขตลับกลางพงไพร",
+          "LocalizedString": "เขตลับกลางพงไพร"
+        }
+      },
+      "DUNGEON_VOLCANO": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_VOLCANO_TextData",
+          "SourceString": "ถ้ำแผดเผากลางภูเขาไฟ",
+          "LocalizedString": "ถ้ำแผดเผากลางภูเขาไฟ"
+        }
+      },
+      "DUNGEON_DESERT": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_DESERT_TextData",
+          "SourceString": "โบราณสถานลับกลางทะเลทราย",
+          "LocalizedString": "โบราณสถานลับกลางทะเลทราย"
+        }
+      },
+      "DUNGEON_SNOW": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_SNOW_TextData",
+          "SourceString": "ถ้ำเยือกแข็งกลางภูเขาหิมะ",
+          "LocalizedString": "ถ้ำเยือกแข็งกลางภูเขาหิมะ"
+        }
+      },
+      "DUNGEON_SAKURAJIMA": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_SAKURAJIMA_TextData",
+          "SourceString": "ถ้ำบุปผาวิญญาณบนเกาะซากุระ",
+          "LocalizedString": "ถ้ำบุปผาวิญญาณบนเกาะซากุระ"
+        }
+      },
+      "DUNGEON_DARKISLAND": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_DARKISLAND_TextData",
+          "SourceString": "ถ้ำมารแห่งสวรรค์ล่ม",
+          "LocalizedString": "ถ้ำมารแห่งสวรรค์ล่ม"
+        }
+      },
+      "DUNGEON_GRASSHARD": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_GRASSHARD_TextData",
+          "SourceString": "โกดังสินค้าเถื่อนของขบวนการพรานเถื่อน เรน",
+          "LocalizedString": "โกดังสินค้าเถื่อนของขบวนการพรานเถื่อน เรน"
+        }
+      },
+      "DUNGEON_FORESTHARD": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_FORESTHARD_TextData",
+          "SourceString": "จุดขายของเถื่อนขององค์กรผู้พิทักษ์พาล",
+          "LocalizedString": "จุดขายของเถื่อนขององค์กรผู้พิทักษ์พาล"
+        }
+      },
+      "DUNGEON_VOLCANOHARD": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_VOLCANOHARD_TextData",
+          "SourceString": "ตลาดมืดของภารดรเพลิงนิรันดร์",
+          "LocalizedString": "ตลาดมืดของภารดรเพลิงนิรันดร์"
+        }
+      },
+      "DUNGEON_DESERTHARD": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_DESERTHARD_TextData",
+          "SourceString": "โรงงานเถื่อนของสันติบาล",
+          "LocalizedString": "โรงงานเถื่อนของสันติบาล"
+        }
+      },
+      "DUNGEON_SNOWHARD": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_SNOWHARD_TextData",
+          "SourceString": "ศูนย์วิจัยของกองกำลังวิจัยพันธุกรรม",
+          "LocalizedString": "ศูนย์วิจัยของกองกำลังวิจัยพันธุกรรม"
+        }
+      },
+      "DUNGEON_SAKURAJIMAHARD": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_SAKURAJIMAHARD_TextData",
+          "SourceString": "ฐานลับของกลุ่มบุปผาจันทรา",
+          "LocalizedString": "ฐานลับของกลุ่มบุปผาจันทรา"
+        }
+      },
+      "DUNGEON_DARKISLANDHARD": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_DARKISLANDHARD_TextData",
+          "SourceString": "โบราณสถาน ณ สวรรค์ล่ม",
+          "LocalizedString": "โบราณสถาน ณ สวรรค์ล่ม"
+        }
+      },
+      "DUNGEON_SKYISLAND": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_SKYISLAND_TextData",
+          "SourceString": "เกาะลอยฟ้าแห่งแสงสุริยัน",
+          "LocalizedString": "เกาะลอยฟ้าแห่งแสงสุริยัน"
+        }
+      },
+      "DUNGEON_WORLDTREE": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_WORLDTREE_TextData",
+          "SourceString": "ซากเมืองใต้ดินแห่งพฤกษาโลก",
+          "LocalizedString": "ซากเมืองใต้ดินแห่งพฤกษาโลก"
+        }
+      },
+      "DUNGEON_SKYISLANDHARD": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_SKYISLANDHARD_TextData",
+          "SourceString": "ถ้ำโครงกระดูกมังกรแห่งแสงสุริยัน",
+          "LocalizedString": "ถ้ำโครงกระดูกมังกรแห่งแสงสุริยัน"
+        }
+      },
+      "DUNGEON_WORLDTREEHARD": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_WORLDTREEHARD_TextData",
+          "SourceString": "เขตหวงห้ามแห่งพฤกษาโลก",
+          "LocalizedString": "เขตหวงห้ามแห่งพฤกษาโลก"
+        }
+      }
+    }
+  }
+]

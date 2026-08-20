@@ -13,6 +13,22 @@ export class PalsRepository {
   async list(query: ListQuery) {
     const gameVersionId = await resolveActiveGameVersionId(query.gameVersion);
     const page = toPrismaPage(query);
+
+    const translationIds = query.q
+      ? (
+          await prisma.translation.findMany({
+            where: {
+              gameVersionId,
+              entityType: 'pal',
+              field: 'name',
+              value: { contains: query.q, mode: 'insensitive' },
+            },
+            select: { entityId: true },
+            take: 200,
+          })
+        ).map((r) => r.entityId)
+      : [];
+
     const where: Prisma.PalWhereInput = {
       gameVersionId,
       ...(query.name
@@ -24,6 +40,9 @@ export class PalsRepository {
               { name: { contains: query.q, mode: 'insensitive' } },
               { description: { contains: query.q, mode: 'insensitive' } },
               { internalName: { contains: query.q, mode: 'insensitive' } },
+              ...(translationIds.length > 0
+                ? [{ id: { in: translationIds } }]
+                : []),
             ],
           }
         : {}),
@@ -101,8 +120,96 @@ export class PalsRepository {
         skills: { include: { skill: { include: { element: true } } } },
         passives: { include: { passiveSkill: true } },
         workSuitabilities: { include: { workSuitability: true } },
-        drops: { include: { item: true } },
+        drops: {
+          include: {
+            item: {
+              select: {
+                id: true,
+                internalName: true,
+                name: true,
+                description: true,
+                iconUrl: true,
+                rarity: true,
+                kind: true,
+              },
+            },
+          },
+        },
         habitats: { include: { location: true } },
+        bosses: {
+          include: {
+            location: true,
+            dungeon: true,
+          },
+        },
+        breedingAsChild: {
+          include: {
+            parentA: {
+              select: {
+                id: true,
+                internalName: true,
+                name: true,
+                iconUrl: true,
+                paldexNumber: true,
+              },
+            },
+            parentB: {
+              select: {
+                id: true,
+                internalName: true,
+                name: true,
+                iconUrl: true,
+                paldexNumber: true,
+              },
+            },
+          },
+        },
+        breedingAsParentA: {
+          take: 40,
+          include: {
+            parentB: {
+              select: {
+                id: true,
+                internalName: true,
+                name: true,
+                iconUrl: true,
+                paldexNumber: true,
+              },
+            },
+            child: {
+              select: {
+                id: true,
+                internalName: true,
+                name: true,
+                iconUrl: true,
+                paldexNumber: true,
+              },
+            },
+          },
+        },
+        breedingAsParentB: {
+          take: 40,
+          include: {
+            parentA: {
+              select: {
+                id: true,
+                internalName: true,
+                name: true,
+                iconUrl: true,
+                paldexNumber: true,
+              },
+            },
+            child: {
+              select: {
+                id: true,
+                internalName: true,
+                name: true,
+                iconUrl: true,
+                paldexNumber: true,
+              },
+            },
+          },
+        },
       },
     });
     if (!pal) throw new NotFoundError(`Pal not found: ${idOrSlug}`);

@@ -1,0 +1,52 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_OptionWorldModePresetTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalOptionWorldModePresetRow'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "Single": {
+        "WorldMode": "EPalOptionWorldMode::Single",
+        "bEnablePlayerToPlayerDamage": false,
+        "bCanPickupOtherGuildDeathPenaltyDrop": false,
+        "bEnableNonLoginPenalty": false,
+        "bEnableFastTravel": false,
+        "bIsStartLocationSelectByMap": false,
+        "bExistPlayerAfterLogout": false
+      },
+      "ListenMulti": {
+        "WorldMode": "EPalOptionWorldMode::ListenMulti",
+        "bEnablePlayerToPlayerDamage": false,
+        "bCanPickupOtherGuildDeathPenaltyDrop": false,
+        "bEnableNonLoginPenalty": false,
+        "bEnableFastTravel": false,
+        "bIsStartLocationSelectByMap": false,
+        "bExistPlayerAfterLogout": false
+      },
+      "Dedicated_PvE": {
+        "WorldMode": "EPalOptionWorldMode::Dedicated_PvE",
+        "bEnablePlayerToPlayerDamage": false,
+        "bCanPickupOtherGuildDeathPenaltyDrop": false,
+        "bEnableNonLoginPenalty": true,
+        "bEnableFastTravel": true,
+        "bIsStartLocationSelectByMap": false,
+        "bExistPlayerAfterLogout": false
+      },
+      "Dedicated_PvP": {
+        "WorldMode": "EPalOptionWorldMode::Dedicated_PvP",
+        "bEnablePlayerToPlayerDamage": false,
+        "bCanPickupOtherGuildDeathPenaltyDrop": true,
+        "bEnableNonLoginPenalty": true,
+        "bEnableFastTravel": true,
+        "bIsStartLocationSelectByMap": true,
+        "bExistPlayerAfterLogout": true
+      }
+    }
+  }
+]

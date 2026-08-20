@@ -1,0 +1,1264 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_WorldMap_Common_Text_Common",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "REGION_Grass_1": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Grass_1_TextData",
+          "SourceString": "Pulau Angin Bertiup",
+          "LocalizedString": "Pulau Angin Bertiup"
+        }
+      },
+      "REGION_Grass_2": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Grass_2_TextData",
+          "SourceString": "Lembah Hutan Bambu",
+          "LocalizedString": "Lembah Hutan Bambu"
+        }
+      },
+      "REGION_Forest_1": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Forest_1_TextData",
+          "SourceString": "Tepi Danau Bulan Sabit",
+          "LocalizedString": "Tepi Danau Bulan Sabit"
+        }
+      },
+      "REGION_Forest_2": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Forest_2_TextData",
+          "SourceString": "Aliran Sungai Hijau",
+          "LocalizedString": "Aliran Sungai Hijau"
+        }
+      },
+      "REGION_Volcano_1": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Volcano_1_TextData",
+          "SourceString": "Gunung Obsidian",
+          "LocalizedString": "Gunung Obsidian"
+        }
+      },
+      "REGION_Desert_1": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Desert_1_TextData",
+          "SourceString": "Bukit Pasir Dahaga",
+          "LocalizedString": "Bukit Pasir Dahaga"
+        }
+      },
+      "REGION_Frost_1": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Frost_1_TextData",
+          "SourceString": "Gunung Suci Perak",
+          "LocalizedString": "Gunung Suci Perak"
+        }
+      },
+      "REGION_Frost_small": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Frost_small_TextData",
+          "SourceString": "Gunung Beku",
+          "LocalizedString": "Gunung Beku"
+        }
+      },
+      "REGION_Desert_Small": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Desert_Small_TextData",
+          "SourceString": "Padang Pasir Senja",
+          "LocalizedString": "Padang Pasir Senja"
+        }
+      },
+      "REGION_Grass_Boss": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Grass_Boss_TextData",
+          "SourceString": "Menara Gerombolan Pemburu Liar Rayne",
+          "LocalizedString": "Menara Gerombolan Pemburu Liar Rayne"
+        }
+      },
+      "REGION_Forest_Boss": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Forest_Boss_TextData",
+          "SourceString": "Menara Kelompok Perlindungan Pal",
+          "LocalizedString": "Menara Kelompok Perlindungan Pal"
+        }
+      },
+      "REGION_Desert_Boss": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Desert_Boss_TextData",
+          "SourceString": "Menara Penegak Hukum",
+          "LocalizedString": "Menara Penegak Hukum"
+        }
+      },
+      "REGION_Volcano_Boss": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Volcano_Boss_TextData",
+          "SourceString": "Menara Sekutu Api Abadi",
+          "LocalizedString": "Menara Sekutu Api Abadi"
+        }
+      },
+      "REGION_Frost_Boss": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Frost_Boss_TextData",
+          "SourceString": "Menara Unit Penelitian Genetika",
+          "LocalizedString": "Menara Unit Penelitian Genetika"
+        }
+      },
+      "REGION_TEST_CHICKEN": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_TEST_CHICKEN_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "REGION_Grass_1_Church": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Grass_1_Church_TextData",
+          "SourceString": "Gereja Terlantar",
+          "LocalizedString": "Gereja Terlantar"
+        }
+      },
+      "REGION_Grass_1_Village": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Grass_1_Village_TextData",
+          "SourceString": "Pemukiman Kecil",
+          "LocalizedString": "Pemukiman Kecil"
+        }
+      },
+      "REGION_Desert_1_Village": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Desert_1_Village_TextData",
+          "SourceString": "Kota Padang Pasir",
+          "LocalizedString": "Kota Padang Pasir"
+        }
+      },
+      "REGION_Volcano_1_Village": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Volcano_1_Village_TextData",
+          "SourceString": "Desa Nelayan di Perbatasan",
+          "LocalizedString": "Desa Nelayan di Perbatasan"
+        }
+      },
+      "REGION_Preserve1": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Preserve1_TextData",
+          "SourceString": "Zona Perburuan Terlarang 1",
+          "LocalizedString": "Zona Perburuan Terlarang 1"
+        }
+      },
+      "REGION_Preserve2": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Preserve2_TextData",
+          "SourceString": "Zona Perburuan Terlarang 2",
+          "LocalizedString": "Zona Perburuan Terlarang 2"
+        }
+      },
+      "REGION_Preserve3": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Preserve3_TextData",
+          "SourceString": "Zona Perburuan Terlarang 3",
+          "LocalizedString": "Zona Perburuan Terlarang 3"
+        }
+      },
+      "REGION_Statue1": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Statue1_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "REGION_Statue2": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Statue2_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "REGION_Statue3": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Statue3_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "REGION_Forest_Ruin": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Forest_Ruin_TextData",
+          "SourceString": "Situs Pemujaan Kuno",
+          "LocalizedString": "Situs Pemujaan Kuno"
+        }
+      },
+      "REGION_FixedDungeon_grass_1": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_grass_1_TextData",
+          "SourceString": "Wilayah Kekuasaan Burung Es",
+          "LocalizedString": "Wilayah Kekuasaan Burung Es"
+        }
+      },
+      "REGION_FixedDungeon_grass_2": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_grass_2_TextData",
+          "SourceString": "Wilayah Segel Panas Membara",
+          "LocalizedString": "Wilayah Segel Panas Membara"
+        }
+      },
+      "REGION_FixedDungeon_grass_3": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_grass_3_TextData",
+          "SourceString": "Wilayah Segel Seratus Api",
+          "LocalizedString": "Wilayah Segel Seratus Api"
+        }
+      },
+      "REGION_FixedDungeon_grass_4": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_grass_4_TextData",
+          "SourceString": "Wilayah Segel Sang Ahli Pedang",
+          "LocalizedString": "Wilayah Segel Sang Ahli Pedang"
+        }
+      },
+      "REGION_FixedDungeon_grass_5": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_grass_5_TextData",
+          "SourceString": "Wilayah Segel Bunga Es",
+          "LocalizedString": "Wilayah Segel Bunga Es"
+        }
+      },
+      "REGION_FixedDungeon_grass_6": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_grass_6_TextData",
+          "SourceString": "Wilayah Segel Rubah Es",
+          "LocalizedString": "Wilayah Segel Rubah Es"
+        }
+      },
+      "REGION_FixedDungeon_grass_7": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_grass_7_TextData",
+          "SourceString": "Wilayah Segel Hutan Lebat",
+          "LocalizedString": "Wilayah Segel Hutan Lebat"
+        }
+      },
+      "REGION_FixedDungeon_forest_1": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_forest_1_TextData",
+          "SourceString": "Wilayah Segel Penyihir",
+          "LocalizedString": "Wilayah Segel Penyihir"
+        }
+      },
+      "REGION_FixedDungeon_forest_2": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_forest_2_TextData",
+          "SourceString": "Wilayah Segel Penjaga",
+          "LocalizedString": "Wilayah Segel Penjaga"
+        }
+      },
+      "REGION_FixedDungeon_forest_3": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_forest_3_TextData",
+          "SourceString": "Wilayah Kekuasaan Kecepatan Kilat",
+          "LocalizedString": "Wilayah Kekuasaan Kecepatan Kilat"
+        }
+      },
+      "REGION_FixedDungeon_forest_4": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_forest_4_TextData",
+          "SourceString": "Wilayah Segel Misteri",
+          "LocalizedString": "Wilayah Segel Misteri"
+        }
+      },
+      "REGION_FixedDungeon_forest_5": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_forest_5_TextData",
+          "SourceString": "Wilayah Kekuasaan Putih Bersih",
+          "LocalizedString": "Wilayah Kekuasaan Putih Bersih"
+        }
+      },
+      "REGION_UndergroundCave_grass01": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_grass01_TextData",
+          "SourceString": "Terowongan Terlantar",
+          "LocalizedString": "Terowongan Terlantar"
+        }
+      },
+      "REGION_UndergroundCave_grass02": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_grass02_TextData",
+          "SourceString": "Terowongan Perairan Dangkal",
+          "LocalizedString": "Terowongan Perairan Dangkal"
+        }
+      },
+      "REGION_UndergroundCave_grass03": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_grass03_TextData",
+          "SourceString": "Terowongan di Balik Air Terjun",
+          "LocalizedString": "Terowongan di Balik Air Terjun"
+        }
+      },
+      "REGION_UndergroundCave_grass04": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_grass04_TextData",
+          "SourceString": "Terowongan Teluk",
+          "LocalizedString": "Terowongan Teluk"
+        }
+      },
+      "REGION_UndergroundCave_forest01": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_forest01_TextData",
+          "SourceString": "Terowongan Kaum Beriman",
+          "LocalizedString": "Terowongan Kaum Beriman"
+        }
+      },
+      "REGION_UndergroundCave_dessert01": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_dessert01_TextData",
+          "SourceString": "Terowongan Dahaga",
+          "LocalizedString": "Terowongan Dahaga"
+        }
+      },
+      "REGION_UndergroundCave_dessert02": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_dessert02_TextData",
+          "SourceString": "Terowongan Rahasia",
+          "LocalizedString": "Terowongan Rahasia"
+        }
+      },
+      "REGION_UndergroundCave_dessert03": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_dessert03_TextData",
+          "SourceString": "Terowongan Terujung",
+          "LocalizedString": "Terowongan Terujung"
+        }
+      },
+      "REGION_UndergroundCave_volcano01": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_volcano01_TextData",
+          "SourceString": "Terowongan Panas Membara",
+          "LocalizedString": "Terowongan Panas Membara"
+        }
+      },
+      "REGION_UndergroundCave_volcano02": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_volcano02_TextData",
+          "SourceString": "Terowongan Hancur",
+          "LocalizedString": "Terowongan Hancur"
+        }
+      },
+      "REGION_UndergroundCave_snow01": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_snow01_TextData",
+          "SourceString": "Terowongan Gunung Es",
+          "LocalizedString": "Terowongan Gunung Es"
+        }
+      },
+      "REGION_UndergroundCave_snow02": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_snow02_TextData",
+          "SourceString": "Terowongan yang Terlupakan",
+          "LocalizedString": "Terowongan yang Terlupakan"
+        }
+      },
+      "REGION_PvP_1": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_PvP_1_TextData",
+          "SourceString": "Kepulauan Angin Samudra",
+          "LocalizedString": "Kepulauan Angin Samudra"
+        }
+      },
+      "REGION_PvP_2": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_PvP_2_TextData",
+          "SourceString": "Pulau Sunyi",
+          "LocalizedString": "Pulau Sunyi"
+        }
+      },
+      "REGION_PvP_3": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_PvP_3_TextData",
+          "SourceString": "Pulau Bisikan",
+          "LocalizedString": "Pulau Bisikan"
+        }
+      },
+      "REGION_PvP_4": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_PvP_4_TextData",
+          "SourceString": "Pulau Timur Terpencil",
+          "LocalizedString": "Pulau Timur Terpencil"
+        }
+      },
+      "REGION_PvP_5": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_PvP_5_TextData",
+          "SourceString": "Pulau Rawa",
+          "LocalizedString": "Pulau Rawa"
+        }
+      },
+      "REGION_PvP_1_Church": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_PvP_1_Church_TextData",
+          "SourceString": "Gereja Kepulauan Angin Samudra",
+          "LocalizedString": "Gereja Kepulauan Angin Samudra"
+        }
+      },
+      "REGION_PvP_2_Church": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_PvP_2_Church_TextData",
+          "SourceString": "Reruntuhan Gereja di Pulau Sunyi",
+          "LocalizedString": "Reruntuhan Gereja di Pulau Sunyi"
+        }
+      },
+      "REGION_PvP_3_Church": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_PvP_3_Church_TextData",
+          "SourceString": "Reruntuhan Gereja Pulau Rawa",
+          "LocalizedString": "Reruntuhan Gereja Pulau Rawa"
+        }
+      },
+      "REGION_Arena": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Arena_TextData",
+          "SourceString": "Arena Pertempuran",
+          "LocalizedString": "Arena Pertempuran"
+        }
+      },
+      "REGION_Mushroom": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Mushroom_TextData",
+          "SourceString": "Pulau Sakurajima: Rawa Jamur",
+          "LocalizedString": "Pulau Sakurajima: Rawa Jamur"
+        }
+      },
+      "REGION_Sakura": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Sakura_TextData",
+          "SourceString": "Kuil Tarian Sakura",
+          "LocalizedString": "Kuil Tarian Sakura"
+        }
+      },
+      "REGION_RockSand": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_RockSand_TextData",
+          "SourceString": "Pulau Sakurajima: Lahan Berbatu Wilayah Utara",
+          "LocalizedString": "Pulau Sakurajima: Lahan Berbatu Wilayah Utara"
+        }
+      },
+      "REGION_WhiteSand": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_WhiteSand_TextData",
+          "SourceString": "Pulau Sakurajima: Padang Pasir Wilayah Selatan",
+          "LocalizedString": "Pulau Sakurajima: Padang Pasir Wilayah Selatan"
+        }
+      },
+      "REGION_Sakurajima_Boss": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Sakurajima_Boss_TextData",
+          "SourceString": "Menara Bunga Bulan",
+          "LocalizedString": "Menara Bunga Bulan"
+        }
+      },
+      "REGION_Oilrig_1": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Oilrig_1_TextData",
+          "SourceString": "Rig Minyak Milik Gerombolan Pemburu Liar",
+          "LocalizedString": "Rig Minyak Milik Gerombolan Pemburu Liar"
+        }
+      },
+      "REGION_Oilrig_2": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Oilrig_2_TextData",
+          "SourceString": "Rig Minyak untuk Pengeboran Milik Gerombolan Pemburu Liar",
+          "LocalizedString": "Rig Minyak untuk Pengeboran Milik Gerombolan Pemburu Liar"
+        }
+      },
+      "REGION_Oilrig_3": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Oilrig_3_TextData",
+          "SourceString": "Rig Minyak Skala Besar Milik Gerombolan Pemburu Liar",
+          "LocalizedString": "Rig Minyak Skala Besar Milik Gerombolan Pemburu Liar"
+        }
+      },
+      "REGION_Darkisland01": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland01_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "REGION_Darkisland02": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland02_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "REGION_Darkisland03": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland03_TextData",
+          "SourceString": "Kapal Karam Langit Jatuh",
+          "LocalizedString": "Kapal Karam Langit Jatuh"
+        }
+      },
+      "REGION_Darkisland04": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland04_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "REGION_Darkisland05": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland05_TextData",
+          "SourceString": "Pohon Besar yang Mengkristal",
+          "LocalizedString": "Pohon Besar yang Mengkristal"
+        }
+      },
+      "REGION_Darkisland06": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland06_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "REGION_Darkisland06_dokutsu": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland06_dokutsu_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "REGION_Darkisland07": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland07_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "REGION_Darkisland08": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland08_TextData",
+          "SourceString": "Gua Pilar Batu",
+          "LocalizedString": "Gua Pilar Batu"
+        }
+      },
+      "REGION_Darkisland09": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland09_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "REGION_Darkisland10": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland10_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "REGION_Darkisland11": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland11_TextData",
+          "SourceString": "Dataran Lava Membara",
+          "LocalizedString": "Dataran Lava Membara"
+        }
+      },
+      "REGION_Darkisland_FT01": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland_FT01_TextData",
+          "SourceString": "Tanah Abu yang Terbakar",
+          "LocalizedString": "Tanah Abu yang Terbakar"
+        }
+      },
+      "REGION_Darkisland_FT02": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland_FT02_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "REGION_Darkisland_FT03": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland_FT03_TextData",
+          "SourceString": "Dataran Loess",
+          "LocalizedString": "Dataran Loess"
+        }
+      },
+      "REGION_Darkisland_FT04": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland_FT04_TextData",
+          "SourceString": "Jalan Rahasia ke Gerbang Okulus",
+          "LocalizedString": "Jalan Rahasia ke Gerbang Okulus"
+        }
+      },
+      "REGION_Darkisland_FT05": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland_FT05_TextData",
+          "SourceString": "Gerbang Okulus menghadap Menara",
+          "LocalizedString": "Gerbang Okulus menghadap Menara"
+        }
+      },
+      "REGION_Darkisland_FT06": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland_FT06_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "REGION_Darkisland_FT07": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland_FT07_TextData",
+          "SourceString": "Bukit Hangus",
+          "LocalizedString": "Bukit Hangus"
+        }
+      },
+      "REGION_Darkisland_FT08": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland_FT08_TextData",
+          "SourceString": "Dataran Tinggi Abu yang Terlantar",
+          "LocalizedString": "Dataran Tinggi Abu yang Terlantar"
+        }
+      },
+      "REGION_Darkisland_Boss": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland_Boss_TextData",
+          "SourceString": "Menara Langit Jatuh",
+          "LocalizedString": "Menara Langit Jatuh"
+        }
+      },
+      "REGION_Darkisland_FT09": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland_FT09_TextData",
+          "SourceString": "Tepi Laut yang Kering",
+          "LocalizedString": "Tepi Laut yang Kering"
+        }
+      },
+      "REGION_Darkisland_FT10": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland_FT10_TextData",
+          "SourceString": "Bukit Karang Beku",
+          "LocalizedString": "Bukit Karang Beku"
+        }
+      },
+      "REGION_UndergroundCave_Darkisland_1": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_Darkisland_1_TextData",
+          "SourceString": "Terowongan Kanibal",
+          "LocalizedString": "Terowongan Kanibal"
+        }
+      },
+      "REGION_UndergroundCave_Darkisland_2": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_Darkisland_2_TextData",
+          "SourceString": "Terowongan Silvegis",
+          "LocalizedString": "Terowongan Silvegis"
+        }
+      },
+      "REGION_UndergroundCave_Darkisland_3": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_Darkisland_3_TextData",
+          "SourceString": "Terowongan yang Mengkristal",
+          "LocalizedString": "Terowongan yang Mengkristal"
+        }
+      },
+      "REGION_UndergroundCave_Darkisland_4": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_Darkisland_4_TextData",
+          "SourceString": "Terowongan Api Kegelapan",
+          "LocalizedString": "Terowongan Api Kegelapan"
+        }
+      },
+      "REGION_UndergroundCave_Darkisland_5": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_Darkisland_5_TextData",
+          "SourceString": "Terowongan Bersimbah Darah",
+          "LocalizedString": "Terowongan Bersimbah Darah"
+        }
+      },
+      "REGION_Grass_3": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Grass_3_TextData",
+          "SourceString": "Bukit Keemasan",
+          "LocalizedString": "Bukit Keemasan"
+        }
+      },
+      "REGION_Grass_4": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Grass_4_TextData",
+          "SourceString": "Lahan Berbatu Berdaun Merah",
+          "LocalizedString": "Lahan Berbatu Berdaun Merah"
+        }
+      },
+      "REGION_Grass_5": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Grass_5_TextData",
+          "SourceString": "Reruntuhan Benteng",
+          "LocalizedString": "Reruntuhan Benteng"
+        }
+      },
+      "REGION_Grass_6": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Grass_6_TextData",
+          "SourceString": "Pesisir Ikan Terbang",
+          "LocalizedString": "Pesisir Ikan Terbang"
+        }
+      },
+      "REGION_Grass_7": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Grass_7_TextData",
+          "SourceString": "Wilayah Kekuasaan Gobfin",
+          "LocalizedString": "Wilayah Kekuasaan Gobfin"
+        }
+      },
+      "REGION_Grass_8": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Grass_8_TextData",
+          "SourceString": "Bekas Cakar Perang",
+          "LocalizedString": "Bekas Cakar Perang"
+        }
+      },
+      "REGION_Grass_9": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Grass_9_TextData",
+          "SourceString": "Bagian dalam Hutan Bambu",
+          "LocalizedString": "Bagian dalam Hutan Bambu"
+        }
+      },
+      "REGION_Grass_10": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Grass_10_TextData",
+          "SourceString": "Danau Kesunyian",
+          "LocalizedString": "Danau Kesunyian"
+        }
+      },
+      "REGION_Frost_2": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Frost_2_TextData",
+          "SourceString": "Kaki Gunung Keramat",
+          "LocalizedString": "Kaki Gunung Keramat"
+        }
+      },
+      "REGION_Frost_3": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Frost_3_TextData",
+          "SourceString": "Reruntuhan Terlantar",
+          "LocalizedString": "Reruntuhan Terlantar"
+        }
+      },
+      "REGION_Volcano_2": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Volcano_2_TextData",
+          "SourceString": "Kaki Gunung Berapi",
+          "LocalizedString": "Kaki Gunung Berapi"
+        }
+      },
+      "REGION_Volcano_3": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Volcano_3_TextData",
+          "SourceString": "Kota Benteng yang Hancur",
+          "LocalizedString": "Kota Benteng yang Hancur"
+        }
+      },
+      "REGION_Volcano_4": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Volcano_4_TextData",
+          "SourceString": "Bukit Pasir Kering",
+          "LocalizedString": "Bukit Pasir Kering"
+        }
+      },
+      "REGION_FixedDungeon_DarkIsland_1": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_DarkIsland_1_TextData",
+          "SourceString": "Wilayah Segel Batu Penjaga",
+          "LocalizedString": "Wilayah Segel Batu Penjaga"
+        }
+      },
+      "REGION_FixedDungeon_DarkIsland_2": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_DarkIsland_2_TextData",
+          "SourceString": "Wilayah Kekuasaan Pahlawan Kecil",
+          "LocalizedString": "Wilayah Kekuasaan Pahlawan Kecil"
+        }
+      },
+      "REGION_FixedDungeon_DarkIsland_3": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_DarkIsland_3_TextData",
+          "SourceString": "Wilayah Kekuasaan Berwarna Biru",
+          "LocalizedString": "Wilayah Kekuasaan Berwarna Biru"
+        }
+      },
+      "REGION_FixedDungeon_DarkIsland_4": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_DarkIsland_4_TextData",
+          "SourceString": "Wilayah Kekuasaan Jiwa",
+          "LocalizedString": "Wilayah Kekuasaan Jiwa"
+        }
+      },
+      "REGION_SmallIsland01": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_SmallIsland01_TextData",
+          "SourceString": "Pulau Terpencil yang Bermandikan Cahaya",
+          "LocalizedString": "Pulau Terpencil yang Bermandikan Cahaya"
+        }
+      },
+      "REGION_SmallIsland02": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_SmallIsland02_TextData",
+          "SourceString": "Pulau Terpencil di Oasis",
+          "LocalizedString": "Pulau Terpencil di Oasis"
+        }
+      },
+      "REGION_SmallIsland03": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_SmallIsland03_TextData",
+          "SourceString": "Pulau Terpencil di Bongkahan Es",
+          "LocalizedString": "Pulau Terpencil di Bongkahan Es"
+        }
+      },
+      "REGION_SmallIsland04": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_SmallIsland04_TextData",
+          "SourceString": "Pulau Terpencil yang Membeku",
+          "LocalizedString": "Pulau Terpencil yang Membeku"
+        }
+      },
+      "REGION_SmallIsland05": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_SmallIsland05_TextData",
+          "SourceString": "Pulau Terpencil Para Arwah",
+          "LocalizedString": "Pulau Terpencil Para Arwah"
+        }
+      },
+      "REGION_SmallIsland06": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_SmallIsland06_TextData",
+          "SourceString": "Pulau Terpencil Tempat Harta yang Terlupakan",
+          "LocalizedString": "Pulau Terpencil Tempat Harta yang Terlupakan"
+        }
+      },
+      "REGION_SmallIsland07": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_SmallIsland07_TextData",
+          "SourceString": "Pulau Terpencil Musim Panas Abadi",
+          "LocalizedString": "Pulau Terpencil Musim Panas Abadi"
+        }
+      },
+      "REGION_FixedDungeon_Yakushima": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_Yakushima_TextData",
+          "SourceString": "Wilayah Kekuasaan Terraria",
+          "LocalizedString": "Wilayah Kekuasaan Terraria"
+        }
+      },
+      "REGION_FixedDungeon_SmallIsland03": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_SmallIsland03_TextData",
+          "SourceString": "Wilayah Kekuasaan Bongkahan Es",
+          "LocalizedString": "Wilayah Kekuasaan Bongkahan Es"
+        }
+      },
+      "WORLDMAP_NAME_MainMap": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "WORLDMAP_NAME_MainMap_TextData",
+          "SourceString": "Pulau Palpagos",
+          "LocalizedString": "Pulau Palpagos"
+        }
+      },
+      "WORLDMAP_NAME_Tree": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "WORLDMAP_NAME_Tree_TextData",
+          "SourceString": "Pohon Dunia",
+          "LocalizedString": "Pohon Dunia"
+        }
+      },
+      "REGION_Boss_KingWhale": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Boss_KingWhale_TextData",
+          "SourceString": "Pulau Terlupakan",
+          "LocalizedString": "Pulau Terlupakan"
+        }
+      },
+      "REGION_New_SmallIsland01": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_New_SmallIsland01_TextData",
+          "SourceString": "Pulau Terpencil Reruntuhan Lingkaran",
+          "LocalizedString": "Pulau Terpencil Reruntuhan Lingkaran"
+        }
+      },
+      "REGION_New_SmallIsland02": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_New_SmallIsland02_TextData",
+          "SourceString": "Pulau Terpencil Aliran Api",
+          "LocalizedString": "Pulau Terpencil Aliran Api"
+        }
+      },
+      "REGION_New_SmallIsland03": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_New_SmallIsland03_TextData",
+          "SourceString": "Pulau Terpencil Erosi Angin",
+          "LocalizedString": "Pulau Terpencil Erosi Angin"
+        }
+      },
+      "REGION_New_SmallIsland04": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_New_SmallIsland04_TextData",
+          "SourceString": "Pulau Terpencil Tanduk Kembar",
+          "LocalizedString": "Pulau Terpencil Tanduk Kembar"
+        }
+      },
+      "REGION_New_SmallIsland05": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_New_SmallIsland05_TextData",
+          "SourceString": "Pulau Terpencil Reruntuhan Lingkaran Es",
+          "LocalizedString": "Pulau Terpencil Reruntuhan Lingkaran Es"
+        }
+      },
+      "REGION_New_SmallIsland06": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_New_SmallIsland06_TextData",
+          "SourceString": "Pulau Terpencil Gerbang Batu Pasir",
+          "LocalizedString": "Pulau Terpencil Gerbang Batu Pasir"
+        }
+      },
+      "REGION_New_SmallIsland07": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_New_SmallIsland07_TextData",
+          "SourceString": "Pulau Terpencil Jambul Mentari",
+          "LocalizedString": "Pulau Terpencil Jambul Mentari"
+        }
+      },
+      "REGION_WorldTree01": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_WorldTree01_TextData",
+          "SourceString": "Kaki Gunung Hijau yang Suci",
+          "LocalizedString": "Kaki Gunung Hijau yang Suci"
+        }
+      },
+      "REGION_WorldTree02": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_WorldTree02_TextData",
+          "SourceString": "Hutan Wisteria yang Menawan",
+          "LocalizedString": "Hutan Wisteria yang Menawan"
+        }
+      },
+      "REGION_WorldTree03": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_WorldTree03_TextData",
+          "SourceString": "Ngarai Debu Kuning",
+          "LocalizedString": "Ngarai Debu Kuning"
+        }
+      },
+      "REGION_WorldTree04": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_WorldTree04_TextData",
+          "SourceString": "Tepian Sungai Mayat",
+          "LocalizedString": "Tepian Sungai Mayat"
+        }
+      },
+      "REGION_WorldTree05": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_WorldTree05_TextData",
+          "SourceString": "Rongga Pohon Terkikis",
+          "LocalizedString": "Rongga Pohon Terkikis"
+        }
+      },
+      "REGION_WorldTree06": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_WorldTree06_TextData",
+          "SourceString": "Tepi Danau Air Terjun Suci",
+          "LocalizedString": "Tepi Danau Air Terjun Suci"
+        }
+      },
+      "REGION_WorldTree07": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_WorldTree07_TextData",
+          "SourceString": "Puncak Gunung Es Suci",
+          "LocalizedString": "Puncak Gunung Es Suci"
+        }
+      },
+      "REGION_WorldTree08": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_WorldTree08_TextData",
+          "SourceString": "Ruang Tersegel",
+          "LocalizedString": "Ruang Tersegel"
+        }
+      },
+      "REGION_WorldTree09": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_WorldTree09_TextData",
+          "SourceString": "Laboratorium Terbengkalai",
+          "LocalizedString": "Laboratorium Terbengkalai"
+        }
+      },
+      "REGION_WorldTree10": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_WorldTree10_TextData",
+          "SourceString": "Koridor Spora",
+          "LocalizedString": "Koridor Spora"
+        }
+      },
+      "REGION_WorldTree11": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_WorldTree11_TextData",
+          "SourceString": "Perairan Dangkal Air Mata Suci",
+          "LocalizedString": "Perairan Dangkal Air Mata Suci"
+        }
+      },
+      "REGION_WorldTree12": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_WorldTree12_TextData",
+          "SourceString": "Kota Mati Emas",
+          "LocalizedString": "Kota Mati Emas"
+        }
+      },
+      "REGION_Wide_Sakurajima01": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Wide_Sakurajima01_TextData",
+          "SourceString": "Sakurajima",
+          "LocalizedString": "Sakurajima"
+        }
+      },
+      "REGION_Wide_Darkisland01": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Wide_Darkisland01_TextData",
+          "SourceString": "Langit Jatuh",
+          "LocalizedString": "Langit Jatuh"
+        }
+      },
+      "REGION_Wide_Skyisland01": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Wide_Skyisland01_TextData",
+          "SourceString": "Desa Mentari Surgawi",
+          "LocalizedString": "Desa Mentari Surgawi"
+        }
+      },
+      "REGION_Skyisland_Boss": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Skyisland_Boss_TextData",
+          "SourceString": "Menara Perjanjian",
+          "LocalizedString": "Menara Perjanjian"
+        }
+      },
+      "REGION_Skyisland01": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Skyisland01_TextData",
+          "SourceString": "Retakan Biru Langit",
+          "LocalizedString": "Retakan Biru Langit"
+        }
+      },
+      "REGION_Skyisland02": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Skyisland02_TextData",
+          "SourceString": "Ngarai Bunga Teratai",
+          "LocalizedString": "Ngarai Bunga Teratai"
+        }
+      },
+      "REGION_Skyisland03": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Skyisland03_TextData",
+          "SourceString": "Puncak Jejak Naga",
+          "LocalizedString": "Puncak Jejak Naga"
+        }
+      },
+      "REGION_Skyisland04": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Skyisland04_TextData",
+          "SourceString": "Rawa Lumpur Awan",
+          "LocalizedString": "Rawa Lumpur Awan"
+        }
+      },
+      "REGION_Skyisland05": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Skyisland05_TextData",
+          "SourceString": "Hutan Biru Gelap",
+          "LocalizedString": "Hutan Biru Gelap"
+        }
+      },
+      "REGION_Skyisland06": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Skyisland06_TextData",
+          "SourceString": "Kepulauan Kristal",
+          "LocalizedString": "Kepulauan Kristal"
+        }
+      },
+      "REGION_Skyisland07": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Skyisland07_TextData",
+          "SourceString": "Negeri Peri Langit",
+          "LocalizedString": "Negeri Peri Langit"
+        }
+      },
+      "REGION_FixedDungeon_SkyIsland_01": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_SkyIsland_01_TextData",
+          "SourceString": "Wilayah Segel Bintang Jatuh",
+          "LocalizedString": "Wilayah Segel Bintang Jatuh"
+        }
+      },
+      "REGION_FootOfWorldTree": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FootOfWorldTree_TextData",
+          "SourceString": "Kaki Pohon Dunia",
+          "LocalizedString": "Kaki Pohon Dunia"
+        }
+      }
+    }
+  }
+]

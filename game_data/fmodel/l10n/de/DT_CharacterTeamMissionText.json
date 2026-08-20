@@ -1,0 +1,160 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_CharacterTeamMissionText",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "DUNGEON_GRASS": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_GRASS_TextData",
+          "SourceString": "Grasland-Höhle",
+          "LocalizedString": "Grasland-Höhle"
+        }
+      },
+      "DUNGEON_FOREST": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_FOREST_TextData",
+          "SourceString": "Waldversteck",
+          "LocalizedString": "Waldversteck"
+        }
+      },
+      "DUNGEON_VOLCANO": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_VOLCANO_TextData",
+          "SourceString": "Glutheiße Vulkanhöhle",
+          "LocalizedString": "Glutheiße Vulkanhöhle"
+        }
+      },
+      "DUNGEON_DESERT": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_DESERT_TextData",
+          "SourceString": "Verborgene Wüstenruinen",
+          "LocalizedString": "Verborgene Wüstenruinen"
+        }
+      },
+      "DUNGEON_SNOW": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_SNOW_TextData",
+          "SourceString": "Eisige Schneegipfelhöhle",
+          "LocalizedString": "Eisige Schneegipfelhöhle"
+        }
+      },
+      "DUNGEON_SAKURAJIMA": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_SAKURAJIMA_TextData",
+          "SourceString": "Geisterhafte Kirschblütenhöhle",
+          "LocalizedString": "Geisterhafte Kirschblütenhöhle"
+        }
+      },
+      "DUNGEON_DARKISLAND": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_DARKISLAND_TextData",
+          "SourceString": "Verfluchte Feybreakhöhle",
+          "LocalizedString": "Verfluchte Feybreakhöhle"
+        }
+      },
+      "DUNGEON_GRASSHARD": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_GRASSHARD_TextData",
+          "SourceString": "Schmugglerlager des Rayne-Syndikats",
+          "LocalizedString": "Schmugglerlager des Rayne-Syndikats"
+        }
+      },
+      "DUNGEON_FORESTHARD": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_FORESTHARD_TextData",
+          "SourceString": "Untergrundbörse der Liga der Palfreunde",
+          "LocalizedString": "Untergrundbörse der Liga der Palfreunde"
+        }
+      },
+      "DUNGEON_VOLCANOHARD": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_VOLCANOHARD_TextData",
+          "SourceString": "Schwarzmarkt der Bruderschaft der ewigen Lohe",
+          "LocalizedString": "Schwarzmarkt der Bruderschaft der ewigen Lohe"
+        }
+      },
+      "DUNGEON_DESERTHARD": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_DESERTHARD_TextData",
+          "SourceString": "Illegale Fabrik der Miliz",
+          "LocalizedString": "Illegale Fabrik der Miliz"
+        }
+      },
+      "DUNGEON_SNOWHARD": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_SNOWHARD_TextData",
+          "SourceString": "Forschungslabor des Instituts für Genforschung",
+          "LocalizedString": "Forschungslabor des Instituts für Genforschung"
+        }
+      },
+      "DUNGEON_SAKURAJIMAHARD": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_SAKURAJIMAHARD_TextData",
+          "SourceString": "Geheimbasis der Gesellschaft des Blumenmondes",
+          "LocalizedString": "Geheimbasis der Gesellschaft des Blumenmondes"
+        }
+      },
+      "DUNGEON_DARKISLANDHARD": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_DARKISLANDHARD_TextData",
+          "SourceString": "Alte Ruinen der Feybreak",
+          "LocalizedString": "Alte Ruinen der Feybreak"
+        }
+      },
+      "DUNGEON_SKYISLAND": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_SKYISLAND_TextData",
+          "SourceString": "Sonnenhort – Schwebende Insel",
+          "LocalizedString": "Sonnenhort – Schwebende Insel"
+        }
+      },
+      "DUNGEON_WORLDTREE": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_WORLDTREE_TextData",
+          "SourceString": "Weltenbaum – Versunkene Untergrundstadt",
+          "LocalizedString": "Weltenbaum – Versunkene Untergrundstadt"
+        }
+      },
+      "DUNGEON_SKYISLANDHARD": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_SKYISLANDHARD_TextData",
+          "SourceString": "Sonnenhort – Höhle der Drachengebeine",
+          "LocalizedString": "Sonnenhort – Höhle der Drachengebeine"
+        }
+      },
+      "DUNGEON_WORLDTREEHARD": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_WORLDTREEHARD_TextData",
+          "SourceString": "Weltenbaum – Verbotene Domäne",
+          "LocalizedString": "Weltenbaum – Verbotene Domäne"
+        }
+      }
+    }
+  }
+]

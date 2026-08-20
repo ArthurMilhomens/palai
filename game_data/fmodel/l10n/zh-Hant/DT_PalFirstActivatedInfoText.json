@@ -1,0 +1,2456 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_PalFirstActivatedInfoText",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "PAL_FIRST_SPAWN_DESC_Alpaca": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Alpaca_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n若牠在隊伍中，<characterName id=|KingAlpaca|/>的防禦力和移動速度將會提升。\r\n將牠分派到<mapObjectName id=|MonsterFarm|/>，牠就有機會掉落<itemName id=|Wool| style=|Status_Keyword|/>。",
+          "LocalizedString": "可騎在牠的背上移動。\r\n若牠在隊伍中，<characterName id=|KingAlpaca|/>的防禦力和移動速度將會提升。\r\n將牠分派到<mapObjectName id=|MonsterFarm|/>，牠就有機會掉落<itemName id=|Wool| style=|Status_Keyword|/>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_AmaterasuWolf": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_AmaterasuWolf_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n若牠在隊伍中，玩家和帕魯受到的<img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>傷害減輕<Status_Up>{Passive1_EffectValue1}%</>，並且不會陷入<uiCommon id=|ADDITIONAL_EFFECT_Freeze| style=|Effect_Freeze|/>狀態。（不可疊加）\r\n{ReferenceMsgId_RideSpeedUp}",
+          "LocalizedString": "可騎在牠的背上移動。\r\n若牠在隊伍中，玩家和帕魯受到的<img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>傷害減輕<Status_Up>{Passive1_EffectValue1}%</>，並且不會陷入<uiCommon id=|ADDITIONAL_EFFECT_Freeze| style=|Effect_Freeze|/>狀態。（不可疊加）\r\n{ReferenceMsgId_RideSpeedUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Anubis": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Anubis_TextData",
+          "SourceString": "發動後，<characterName id=|Anubis|/>會將力量分給玩家，讓玩家的攻擊轉變為<img id=|ElemIcon_Ground|/><uiCommon id=|COMMON_ELEMENT_NAME_Earth| style=|Elem_Ground|/>，且攻擊力提升<Status_Up>{ReferencePassive1_EffectValue1}%</>。\r\n戰鬥時偶爾會以高速滑步迴避攻擊。",
+          "LocalizedString": "發動後，<characterName id=|Anubis|/>會將力量分給玩家，讓玩家的攻擊轉變為<img id=|ElemIcon_Ground|/><uiCommon id=|COMMON_ELEMENT_NAME_Earth| style=|Elem_Ground|/>，且攻擊力提升<Status_Up>{ReferencePassive1_EffectValue1}%</>。\r\n戰鬥時偶爾會以高速滑步迴避攻擊。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Baphomet": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Baphomet_TextData",
+          "SourceString": "發動後會以<activeSkillName id=|Unique_Baphomet_SwallowKite| style=|Status_Keyword|/>攻擊鎖定的目標敵人。\r\n此帕魯使用的<activeSkillName id=|Unique_Baphomet_SwallowKite| style=|Status_Keyword|/>的威力將提升至<Status_Up>{ActiveSkillMainValueByRank}倍</>。",
+          "LocalizedString": "發動後會以<activeSkillName id=|Unique_Baphomet_SwallowKite| style=|Status_Keyword|/>攻擊鎖定的目標敵人。\r\n此帕魯使用的<activeSkillName id=|Unique_Baphomet_SwallowKite| style=|Status_Keyword|/>的威力將提升至<Status_Up>{ActiveSkillMainValueByRank}倍</>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Baphomet_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Baphomet_Dark_TextData",
+          "SourceString": "發動後會以<activeSkillName id=|Unique_Baphomet_Dark_DarkKite| style=|Status_Keyword|/>攻擊鎖定的目標敵人。\r\n此帕魯使用的<activeSkillName id=|Unique_Baphomet_Dark_DarkKite| style=|Status_Keyword|/>的威力將提升至<Status_Up>{ActiveSkillMainValueByRank}倍</>。",
+          "LocalizedString": "發動後會以<activeSkillName id=|Unique_Baphomet_Dark_DarkKite| style=|Status_Keyword|/>攻擊鎖定的目標敵人。\r\n此帕魯使用的<activeSkillName id=|Unique_Baphomet_Dark_DarkKite| style=|Status_Keyword|/>的威力將提升至<Status_Up>{ActiveSkillMainValueByRank}倍</>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Bastet": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Bastet_TextData",
+          "SourceString": "將牠分派到<mapObjectName id=|MonsterFarm|/>，牠就有機會從地裡挖出<itemName id=|Money| style=|Status_Keyword|/>。",
+          "LocalizedString": "將牠分派到<mapObjectName id=|MonsterFarm|/>，牠就有機會從地裡挖出<itemName id=|Money| style=|Status_Keyword|/>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Bastet_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Bastet_Ice_TextData",
+          "SourceString": "將牠分派到<mapObjectName id=|MonsterFarm|/>，牠就有機會掉落<itemName id=|Iceorgan| style=|Status_Keyword|/>。",
+          "LocalizedString": "將牠分派到<mapObjectName id=|MonsterFarm|/>，牠就有機會掉落<itemName id=|Iceorgan| style=|Status_Keyword|/>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_BeardedDragon": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_BeardedDragon_TextData",
+          "SourceString": "zh_Hant_Text",
+          "LocalizedString": "zh_Hant_Text"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_BerryGoat": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_BerryGoat_TextData",
+          "SourceString": "將牠分派到<mapObjectName id=|MonsterFarm|/>，就有機會從背上掉落<itemName id=|Berries| style=|Status_Keyword|/>。\r\n若牠在隊伍中，每5分鐘會讓目前飽足度最低的帕魯恢復<Status_Up>{Passive1_EffectValue1}</>點飽足度。（不可疊加）",
+          "LocalizedString": "將牠分派到<mapObjectName id=|MonsterFarm|/>，就有機會從背上掉落<itemName id=|Berries| style=|Status_Keyword|/>。\r\n若牠在隊伍中，每5分鐘會讓目前飽足度最低的帕魯恢復<Status_Up>{Passive1_EffectValue1}</>點飽足度。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_BirdDragon": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_BirdDragon_TextData",
+          "SourceString": "可騎在牠的背上在空中飛行。\r\n若牠在隊伍中，玩家攻擊敵方弱點部位造成的傷害將提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "可騎在牠的背上在空中飛行。\r\n若牠在隊伍中，玩家攻擊敵方弱點部位造成的傷害將提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_BirdDragon_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_BirdDragon_Ice_TextData",
+          "SourceString": "可騎在牠的背上在空中飛行。\r\n若牠在隊伍中，玩家攻擊敵方弱點部位造成的傷害將提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "可騎在牠的背上在空中飛行。\r\n若牠在隊伍中，玩家攻擊敵方弱點部位造成的傷害將提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_BlackCentaur": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_BlackCentaur_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n騎乘期間可以進行<Status_Keyword>2段跳躍</>，發動<activeSkillName id=|Unique_BlackCentaur_TwoSpearRushes| style=|Status_Keyword|/>後，會召喚出1隻隊伍中的<characterName id=|SaintCentaur|/>，一起進行攻擊。\r\n{ReferenceMsgId_RideSpeedUp}",
+          "LocalizedString": "可騎在牠的背上移動。\r\n騎乘期間可以進行<Status_Keyword>2段跳躍</>，發動<activeSkillName id=|Unique_BlackCentaur_TwoSpearRushes| style=|Status_Keyword|/>後，會召喚出1隻隊伍中的<characterName id=|SaintCentaur|/>，一起進行攻擊。\r\n{ReferenceMsgId_RideSpeedUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_BlackFurDragon": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_BlackFurDragon_TextData",
+          "SourceString": "zh_Hant_Text",
+          "LocalizedString": "zh_Hant_Text"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_BlackGriffon": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_BlackGriffon_TextData",
+          "SourceString": "可騎在牠的背上在空中飛行。\r\n騎乘期間的<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>攻擊將提升<Status_Up>{Passive1_EffectValue1}%</>。\r\n且飛行期間移動速度將會變快。",
+          "LocalizedString": "可騎在牠的背上在空中飛行。\r\n騎乘期間的<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>攻擊將提升<Status_Up>{Passive1_EffectValue1}%</>。\r\n且飛行期間移動速度將會變快。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_BlackMetalDragon": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_BlackMetalDragon_TextData",
+          "SourceString": "可騎在牠的背上在空中飛行。\r\n騎乘期間對礦石造成的傷害將提升<Status_Up>{Passive1_EffectValue1}%</>，且<itemName id=|CopperOre| style=|Status_Keyword|/>的掉落量提升<Status_Up>{Passive2_EffectValue1}%</>。",
+          "LocalizedString": "可騎在牠的背上在空中飛行。\r\n騎乘期間對礦石造成的傷害將提升<Status_Up>{Passive1_EffectValue1}%</>，且<itemName id=|CopperOre| style=|Status_Keyword|/>的掉落量提升<Status_Up>{Passive2_EffectValue1}%</>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_BlueDragon": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_BlueDragon_TextData",
+          "SourceString": "可騎在牠的背上在水上移動。\r\n騎乘期間玩家的攻擊會轉變為<img id=|ElemIcon_Water|/><uiCommon id=|COMMON_ELEMENT_NAME_Water| style=|Elem_Water|/>，且攻擊力提升<Status_Up>{Passive2_EffectValue1}%</>。\r\n{ReferenceMsgId_SwimSpeedUp}",
+          "LocalizedString": "可騎在牠的背上在水上移動。\r\n騎乘期間玩家的攻擊會轉變為<img id=|ElemIcon_Water|/><uiCommon id=|COMMON_ELEMENT_NAME_Water| style=|Elem_Water|/>，且攻擊力提升<Status_Up>{Passive2_EffectValue1}%</>。\r\n{ReferenceMsgId_SwimSpeedUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_BluePlatypus": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_BluePlatypus_TextData",
+          "SourceString": "發動後，<characterName id=|BluePlatypus|/>會乘著浪頭衝向敵人。\r\n{ReferenceMsgId_DamageUp}",
+          "LocalizedString": "發動後，<characterName id=|BluePlatypus|/>會乘著浪頭衝向敵人。\r\n{ReferenceMsgId_DamageUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Boar": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Boar_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n騎乘期間破壞岩石的效率將提升<Status_Up>{Passive1_EffectValue1}%</>。",
+          "LocalizedString": "可騎在牠的背上移動。\r\n騎乘期間破壞岩石的效率將提升<Status_Up>{Passive1_EffectValue1}%</>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_BrownRabbit": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_BrownRabbit_TextData",
+          "SourceString": "若牠在隊伍中，玩家在衝刺期間的防禦力提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "若牠在隊伍中，玩家在衝刺期間的防禦力提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_CaptainPenguin": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_CaptainPenguin_TextData",
+          "SourceString": "若牠在隊伍中，擊倒<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/>帕魯時的道具掉落量增加<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "若牠在隊伍中，擊倒<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/>帕魯時的道具掉落量增加<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Carbunclo": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Carbunclo_TextData",
+          "SourceString": "發動後牠會坐在玩家的頭上，配合玩家的攻擊用衝鋒槍進行追擊。\r\n{ReferenceMsgId_DamageUp}",
+          "LocalizedString": "發動後牠會坐在玩家的頭上，配合玩家的攻擊用衝鋒槍進行追擊。\r\n{ReferenceMsgId_DamageUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_CatBat": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_CatBat_TextData",
+          "SourceString": "發動後能夠發出超音波，探測附近<Status_Keyword>地下城、寶箱以及廢品的位置</>。\r\n{ReferenceMsgId_SearchAreaCoolTime}",
+          "LocalizedString": "發動後能夠發出超音波，探測附近<Status_Keyword>地下城、寶箱以及廢品的位置</>。\r\n{ReferenceMsgId_SearchAreaCoolTime}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_CatMage": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_CatMage_TextData",
+          "SourceString": "若牠在隊伍中，擊倒<img id=|ElemIcon_Neutral|/><uiCommon id=|COMMON_ELEMENT_NAME_Normal| style=|Elem_Neutral|/>帕魯時的道具掉落量增加<Status_Up>{Passive1_EffectValue1}%</>。\r\n此外，當玩家投擲帕魯球時，有<Status_Up>{Passive2_EffectValue1}%</>的機率不會消耗帕魯球。（不可疊加）",
+          "LocalizedString": "若牠在隊伍中，擊倒<img id=|ElemIcon_Neutral|/><uiCommon id=|COMMON_ELEMENT_NAME_Normal| style=|Elem_Neutral|/>帕魯時的道具掉落量增加<Status_Up>{Passive1_EffectValue1}%</>。\r\n此外，當玩家投擲帕魯球時，有<Status_Up>{Passive2_EffectValue1}%</>的機率不會消耗帕魯球。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_CatVampire": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_CatVampire_TextData",
+          "SourceString": "與牠並肩作戰時，會為玩家與<characterName id=|CatVampire|/>賦予生命竊取效果，攻擊造成傷害時將<Status_Keyword>恢復</>等同於傷害量<Status_Up>{Passive1_EffectValue1}%</>的<uiCommon id=|COMMON_STATUS_HP| style=|Status_Keyword|/>。",
+          "LocalizedString": "與牠並肩作戰時，會為玩家與<characterName id=|CatVampire|/>賦予生命竊取效果，攻擊造成傷害時將<Status_Keyword>恢復</>等同於傷害量<Status_Up>{Passive1_EffectValue1}%</>的<uiCommon id=|COMMON_STATUS_HP| style=|Status_Keyword|/>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_ChickenPal": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_ChickenPal_TextData",
+          "SourceString": "將牠分派到<mapObjectName id=|MonsterFarm|/>，牠就有機會產下<itemName id=|Egg| style=|Status_Keyword|/>。",
+          "LocalizedString": "將牠分派到<mapObjectName id=|MonsterFarm|/>，牠就有機會產下<itemName id=|Egg| style=|Status_Keyword|/>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_ColorfulBird": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_ColorfulBird_TextData",
+          "SourceString": "發動後牠會化身為裝備在玩家身上的發射器，製造出會爆炸的蛋。\r\n{ReferenceMsgId_DamageUp}",
+          "LocalizedString": "發動後牠會化身為裝備在玩家身上的發射器，製造出會爆炸的蛋。\r\n{ReferenceMsgId_DamageUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_CowPal": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_CowPal_TextData",
+          "SourceString": "將牠分派到<mapObjectName id=|MonsterFarm|/>，牠就有機會產出<itemName id=|Milk| style=|Status_Keyword|/>。",
+          "LocalizedString": "將牠分派到<mapObjectName id=|MonsterFarm|/>，牠就有機會產出<itemName id=|Milk| style=|Status_Keyword|/>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_CuteButterfly": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_CuteButterfly_TextData",
+          "SourceString": "發動後會以<activeSkillName id=|PoisonFog| style=|Status_Keyword|/>攻擊鎖定的目標敵人。\r\n若牠在據點裡，其他據點帕魯的<uiCommon id=|COMMON_WORK_SUITABILITY_MonsterFarm| style=|Status_Keyword|/>的工作適應性等級<Status_Keyword>+{Passive1_EffectValue1}</>。（不可疊加）",
+          "LocalizedString": "發動後會以<activeSkillName id=|PoisonFog| style=|Status_Keyword|/>攻擊鎖定的目標敵人。\r\n若牠在據點裡，其他據點帕魯的<uiCommon id=|COMMON_WORK_SUITABILITY_MonsterFarm| style=|Status_Keyword|/>的工作適應性等級<Status_Keyword>+{Passive1_EffectValue1}</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_CuteFox": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_CuteFox_TextData",
+          "SourceString": "將牠分派到<mapObjectName id=|MonsterFarm|/>，牠就有機會從地裡挖出道具。",
+          "LocalizedString": "將牠分派到<mapObjectName id=|MonsterFarm|/>，牠就有機會從地裡挖出道具。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_CuteMole": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_CuteMole_TextData",
+          "SourceString": "若牠在隊伍中，玩家採礦時造成的傷害將提升<Status_Up>{Passive1_EffectValue1}%</>，<itemName id=|Stone| style=|Status_Keyword|/>的重量將減輕<Status_Up>{Passive2_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "若牠在隊伍中，玩家採礦時造成的傷害將提升<Status_Up>{Passive1_EffectValue1}%</>，<itemName id=|Stone| style=|Status_Keyword|/>的重量將減輕<Status_Up>{Passive2_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_DarkCrow": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_DarkCrow_TextData",
+          "SourceString": "發動後可以使用<Status_Keyword>夜視</>，即使在黑暗中也能看得一清二楚。\r\n再次發動即可解除該效果。\r\n將牠分派到<mapObjectName id=|MonsterFarm|/>，牠就有機會從地裡挖出<itemName id=|Bone| style=|Status_Keyword|/>。",
+          "LocalizedString": "發動後可以使用<Status_Keyword>夜視</>，即使在黑暗中也能看得一清二楚。\r\n再次發動即可解除該效果。\r\n將牠分派到<mapObjectName id=|MonsterFarm|/>，牠就有機會從地裡挖出<itemName id=|Bone| style=|Status_Keyword|/>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_DarkMutant": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_DarkMutant_TextData",
+          "SourceString": "zh_Hant_Text",
+          "LocalizedString": "zh_Hant_Text"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_DarkScorpion": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_DarkScorpion_TextData",
+          "SourceString": "若牠在隊伍中，玩家的防禦力將提升<Status_Up>{Passive2_EffectValue1}%</>，且擊倒<img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/>帕魯時的道具掉落量增加<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "若牠在隊伍中，玩家的防禦力將提升<Status_Up>{Passive2_EffectValue1}%</>，且擊倒<img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/>帕魯時的道具掉落量增加<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Deer": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Deer_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n騎乘期間可以進行<Status_Keyword>2段跳躍</>，破壞樹木的效率也會提升<Status_Up>{Passive1_EffectValue1}%</>。",
+          "LocalizedString": "可騎在牠的背上移動。\r\n騎乘期間可以進行<Status_Keyword>2段跳躍</>，破壞樹木的效率也會提升<Status_Up>{Passive1_EffectValue1}%</>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Deer_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Deer_Ground_TextData",
+          "SourceString": "可騎在牠的背上移動。騎乘期間可以進行<Status_Keyword>2段跳躍</>。\r\n若牠在據點裡，其他據點帕魯的<uiCommon id=|COMMON_WORK_SUITABILITY_Deforest| style=|Status_Keyword|/>工作適應性等級<Status_Keyword>+{Passive1_EffectValue1}</>。（不可疊加）",
+          "LocalizedString": "可騎在牠的背上移動。騎乘期間可以進行<Status_Keyword>2段跳躍</>。\r\n若牠在據點裡，其他據點帕魯的<uiCommon id=|COMMON_WORK_SUITABILITY_Deforest| style=|Status_Keyword|/>工作適應性等級<Status_Keyword>+{Passive1_EffectValue1}</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_DreamDemon": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_DreamDemon_TextData",
+          "SourceString": "若牠在隊伍中，就會出現於玩家身邊。\r\n牠會用<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>的魔彈追擊敵對的個體。\r\n且該追擊不會使獵物斃命。\r\n{ReferenceMsgId_DamageUp}",
+          "LocalizedString": "若牠在隊伍中，就會出現於玩家身邊。\r\n牠會用<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>的魔彈追擊敵對的個體。\r\n且該追擊不會使獵物斃命。\r\n{ReferenceMsgId_DamageUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_DrillGame": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_DrillGame_TextData",
+          "SourceString": "發動後會進入<activeSkillName id=|Unique_DrillGame_ShellAttack| style=|Status_Keyword|/>狀態。\r\n牠會一邊旋轉一邊跟隨玩家，且破壞礦石的效率將提升<Status_Up>{ReferencePassive1_EffectValue1}%</>。",
+          "LocalizedString": "發動後會進入<activeSkillName id=|Unique_DrillGame_ShellAttack| style=|Status_Keyword|/>狀態。\r\n牠會一邊旋轉一邊跟隨玩家，且破壞礦石的效率將提升<Status_Up>{ReferencePassive1_EffectValue1}%</>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Eagle": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Eagle_TextData",
+          "SourceString": "若牠在隊伍中，會改變滑翔傘的性能。\r\n能夠高速滑翔，且在滑翔期間能用右手使用槍械射擊。\r\n{ReferenceMsgId_GriderPerformanceUp}",
+          "LocalizedString": "若牠在隊伍中，會改變滑翔傘的性能。\r\n能夠高速滑翔，且在滑翔期間能用右手使用槍械射擊。\r\n{ReferenceMsgId_GriderPerformanceUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_ElecCat": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_ElecCat_TextData",
+          "SourceString": "若牠在隊伍中，<img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/>帕魯的攻擊力會提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）\r\n將牠分派到<mapObjectName id=|MonsterFarm|/>，牠就有機會掉落<itemName id=|ElectricOrgan| style=|Status_Keyword|/>。",
+          "LocalizedString": "若牠在隊伍中，<img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/>帕魯的攻擊力會提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）\r\n將牠分派到<mapObjectName id=|MonsterFarm|/>，牠就有機會掉落<itemName id=|ElectricOrgan| style=|Status_Keyword|/>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_ElecLion": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_ElecLion_TextData",
+          "SourceString": "zh_Hant_Text",
+          "LocalizedString": "zh_Hant_Text"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_ElecPanda": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_ElecPanda_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n騎乘期間牠還能用機關槍連續攻擊。\r\n{ReferenceMsgId_DamageUp}",
+          "LocalizedString": "可騎在牠的背上移動。\r\n騎乘期間牠還能用機關槍連續攻擊。\r\n{ReferenceMsgId_DamageUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_FairyDragon": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_FairyDragon_TextData",
+          "SourceString": "可騎在牠的背上在空中飛行。\r\n飛行期間移動速度將會變快。\r\n若牠在隊伍中，擊倒<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>帕魯時的道具掉落量增加<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "可騎在牠的背上在空中飛行。\r\n飛行期間移動速度將會變快。\r\n若牠在隊伍中，擊倒<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>帕魯時的道具掉落量增加<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_FairyDragon_Water": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_FairyDragon_Water_TextData",
+          "SourceString": "可騎在牠的背上在空中飛行。\r\n飛行期間移動速度將會變快。\r\n若牠在隊伍中，玩家和帕魯受到的<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/>傷害減輕<Status_Up>{Passive1_EffectValue1}%</>，並且不會陷入<uiCommon id=|ADDITIONAL_EFFECT_Burn| style=|Effect_Burn|/>狀態。（不可疊加）",
+          "LocalizedString": "可騎在牠的背上在空中飛行。\r\n飛行期間移動速度將會變快。\r\n若牠在隊伍中，玩家和帕魯受到的<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/>傷害減輕<Status_Up>{Passive1_EffectValue1}%</>，並且不會陷入<uiCommon id=|ADDITIONAL_EFFECT_Burn| style=|Effect_Burn|/>狀態。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_FeatherOstrich": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_FeatherOstrich_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n<Status_Keyword>在砂地上</>時，移動速度提高<Status_Up>{Passive1_EffectValue1}%</>。",
+          "LocalizedString": "可騎在牠的背上移動。\r\n<Status_Keyword>在砂地上</>時，移動速度提高<Status_Up>{Passive1_EffectValue1}%</>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_FengyunDeeper": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_FengyunDeeper_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n騎乘期間可以進行<Status_Keyword>2段跳躍</>。\r\n{ReferenceMsgId_RideSpeedUp}",
+          "LocalizedString": "可騎在牠的背上移動。\r\n騎乘期間可以進行<Status_Keyword>2段跳躍</>。\r\n{ReferenceMsgId_RideSpeedUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_FireKirin": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_FireKirin_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n騎乘期間玩家的攻擊會轉變為<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/>，且攻擊力提升<Status_Up>{Passive2_EffectValue1}%</>。",
+          "LocalizedString": "可騎在牠的背上移動。\r\n騎乘期間玩家的攻擊會轉變為<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/>，且攻擊力提升<Status_Up>{Passive2_EffectValue1}%</>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_FireKirin_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_FireKirin_Dark_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n騎乘期間玩家的攻擊會轉變為<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>，且攻擊力提升<Status_Up>{Passive2_EffectValue1}%</>。",
+          "LocalizedString": "可騎在牠的背上移動。\r\n騎乘期間玩家的攻擊會轉變為<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>，且攻擊力提升<Status_Up>{Passive2_EffectValue1}%</>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_FlameBuffalo": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_FlameBuffalo_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n若牠在隊伍中，玩家的<Status_Keyword>耐寒能力+2</>。（不可疊加）\r\n{ReferenceMsgId_RideSpeedUp}",
+          "LocalizedString": "可騎在牠的背上移動。\r\n若牠在隊伍中，玩家的<Status_Keyword>耐寒能力+2</>。（不可疊加）\r\n{ReferenceMsgId_RideSpeedUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_FlowerDinosaur": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_FlowerDinosaur_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n若牠在隊伍中，<img id=|ElemIcon_Dragon|/><uiCommon id=|COMMON_ELEMENT_NAME_Dragon| style=|Elem_Dragon|/>帕魯的防禦力會提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "可騎在牠的背上移動。\r\n若牠在隊伍中，<img id=|ElemIcon_Dragon|/><uiCommon id=|COMMON_ELEMENT_NAME_Dragon| style=|Elem_Dragon|/>帕魯的防禦力會提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_FlowerDinosaur_Electric": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_FlowerDinosaur_Electric_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n若牠在隊伍中，<img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/>帕魯的防禦力會提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "可騎在牠的背上移動。\r\n若牠在隊伍中，<img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/>帕魯的防禦力會提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_FlowerDoll": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_FlowerDoll_TextData",
+          "SourceString": "發動後可透過花朵的治癒能力，來恢復玩家<Status_Up>{ActiveSkillMainValueByRank}%</>的生命值。\r\n若牠在據點裡，其他據點帕魯的<uiCommon id=|COMMON_WORK_SUITABILITY_Seeding| style=|Status_Keyword|/>工作適應性等級<Status_Keyword>+{Passive1_EffectValue1}</>。（不可疊加）",
+          "LocalizedString": "發動後可透過花朵的治癒能力，來恢復玩家<Status_Up>{ActiveSkillMainValueByRank}%</>的生命值。\r\n若牠在據點裡，其他據點帕魯的<uiCommon id=|COMMON_WORK_SUITABILITY_Seeding| style=|Status_Keyword|/>工作適應性等級<Status_Keyword>+{Passive1_EffectValue1}</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_FlowerRabbit": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_FlowerRabbit_TextData",
+          "SourceString": "若牠在隊伍中，就會出現在玩家身邊。\r\n牠會自動前去拾取附近的道具。\r\n{ReferenceMsgId_ItemCollectRangeUp}",
+          "LocalizedString": "若牠在隊伍中，就會出現在玩家身邊。\r\n牠會自動前去拾取附近的道具。\r\n{ReferenceMsgId_ItemCollectRangeUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_FlyingManta": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_FlyingManta_TextData",
+          "SourceString": "若牠在隊伍中，會改變滑翔傘的效能，並使玩家<Status_Keyword>免受墜落傷害</>。\r\n滑翔期間能夠長時間快速移動。\r\n{ReferenceMsgId_GriderPerformanceUp}",
+          "LocalizedString": "若牠在隊伍中，會改變滑翔傘的效能，並使玩家<Status_Keyword>免受墜落傷害</>。\r\n滑翔期間能夠長時間快速移動。\r\n{ReferenceMsgId_GriderPerformanceUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_FoxMage": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_FoxMage_TextData",
+          "SourceString": "發動後，<characterName id=|FoxMage|/>會將力量分給玩家，讓玩家的攻擊轉變為<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/>，且攻擊力提升<Status_Up>{ReferencePassive1_EffectValue1}%</>。",
+          "LocalizedString": "發動後，<characterName id=|FoxMage|/>會將力量分給玩家，讓玩家的攻擊轉變為<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/>，且攻擊力提升<Status_Up>{ReferencePassive1_EffectValue1}%</>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Ganesha": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Ganesha_TextData",
+          "SourceString": "若牠在隊伍中，玩家的生命值低於30%時，將恢復<Status_Up>{Passive1_EffectValue1}%</>的生命值。（不可疊加）\r\n※發動後需{ReferencePassive1_EffectValue1}秒冷卻才可再次觸發",
+          "LocalizedString": "若牠在隊伍中，玩家的生命值低於30%時，將恢復<Status_Up>{Passive1_EffectValue1}%</>的生命值。（不可疊加）\r\n※發動後需{ReferencePassive1_EffectValue1}秒冷卻才可再次觸發"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Garm": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Garm_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n騎乘期間的移動速度會稍微變快。\r\n{ReferenceMsgId_RideSpeedUp}",
+          "LocalizedString": "可騎在牠的背上移動。\r\n騎乘期間的移動速度會稍微變快。\r\n{ReferenceMsgId_RideSpeedUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_GhostBeast": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_GhostBeast_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n若牠在隊伍中，每次打倒敵人時，所有隊伍帕魯的主動技能冷卻時間縮短<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "可騎在牠的背上移動。\r\n若牠在隊伍中，每次打倒敵人時，所有隊伍帕魯的主動技能冷卻時間縮短<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Gorilla": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Gorilla_TextData",
+          "SourceString": "發動後會解放野性之力，並在一定時間內<characterName id=|Gorilla|/>的攻擊力將提升<Status_Up>{ReferencePassive1_EffectValue1}%</>。",
+          "LocalizedString": "發動後會解放野性之力，並在一定時間內<characterName id=|Gorilla|/>的攻擊力將提升<Status_Up>{ReferencePassive1_EffectValue1}%</>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_GrassMammoth": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_GrassMammoth_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n騎乘期間破壞樹木的效率會提高<Status_Up>{Passive1_EffectValue1}%</>，破壞礦石的效率會提高<Status_Up>{Passive2_EffectValue1}%</>。",
+          "LocalizedString": "可騎在牠的背上移動。\r\n騎乘期間破壞樹木的效率會提高<Status_Up>{Passive1_EffectValue1}%</>，破壞礦石的效率會提高<Status_Up>{Passive2_EffectValue1}%</>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_GrassMammoth_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_GrassMammoth_Ice_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n騎乘期間破壞樹木的效率會提高<Status_Up>{Passive1_EffectValue1}%</>，破壞礦石的效率會提高<Status_Up>{Passive2_EffectValue1}%</>。",
+          "LocalizedString": "可騎在牠的背上移動。\r\n騎乘期間破壞樹木的效率會提高<Status_Up>{Passive1_EffectValue1}%</>，破壞礦石的效率會提高<Status_Up>{Passive2_EffectValue1}%</>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_GrassPanda": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_GrassPanda_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n騎乘期間牠還能用榴彈發射器連續攻擊。\r\n{ReferenceMsgId_DamageUp}",
+          "LocalizedString": "可騎在牠的背上移動。\r\n騎乘期間牠還能用榴彈發射器連續攻擊。\r\n{ReferenceMsgId_DamageUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_GrassPanda_Electric": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_GrassPanda_Electric_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n騎乘期間牠還能用榴彈發射器連續攻擊。\r\n{ReferenceMsgId_DamageUp}",
+          "LocalizedString": "可騎在牠的背上移動。\r\n騎乘期間牠還能用榴彈發射器連續攻擊。\r\n{ReferenceMsgId_DamageUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_GrassRabbitMan": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_GrassRabbitMan_TextData",
+          "SourceString": "若牠在隊伍中，可以額外進行<Status_Keyword>+{Passive1_EffectValue1}次</>跳躍和<Status_Keyword>+{Passive1_EffectValue2}次</>空中衝刺。（不可疊加）",
+          "LocalizedString": "若牠在隊伍中，可以額外進行<Status_Keyword>+{Passive1_EffectValue1}次</>跳躍和<Status_Keyword>+{Passive1_EffectValue2}次</>空中衝刺。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_GuardianDog": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_GuardianDog_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n與牠並肩作戰時，遇到和牠有著相同被動技能的帕魯的機率將提升<Status_Up>{Passive1_EffectValue1}%</>。\r\n※部分被動技能除外",
+          "LocalizedString": "可騎在牠的背上移動。\r\n與牠並肩作戰時，遇到和牠有著相同被動技能的帕魯的機率將提升<Status_Up>{Passive1_EffectValue1}%</>。\r\n※部分被動技能除外"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_HadesBird": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_HadesBird_TextData",
+          "SourceString": "可騎在牠的背上在空中飛行。\r\n騎乘期間玩家的攻擊會轉變為<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>，且攻擊力提升<Status_Up>{Passive2_EffectValue1}%</>。",
+          "LocalizedString": "可騎在牠的背上在空中飛行。\r\n騎乘期間玩家的攻擊會轉變為<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>，且攻擊力提升<Status_Up>{Passive2_EffectValue1}%</>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_HawkBird": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_HawkBird_TextData",
+          "SourceString": "可騎在牠的背上在空中飛行。\r\n{ReferenceMsgId_RideSpeedUp}",
+          "LocalizedString": "可騎在牠的背上在空中飛行。\r\n{ReferenceMsgId_RideSpeedUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Hedgehog": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Hedgehog_TextData",
+          "SourceString": "發動後就能將<characterName id=|Hedgehog|/>裝備在手上，若將牠投向敵人且命中目標，便會引發<img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/>爆炸。\r\n{ReferenceMsgId_DamageUp}",
+          "LocalizedString": "發動後就能將<characterName id=|Hedgehog|/>裝備在手上，若將牠投向敵人且命中目標，便會引發<img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/>爆炸。\r\n{ReferenceMsgId_DamageUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Hedgehog_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Hedgehog_Ice_TextData",
+          "SourceString": "發動後就能將<characterName id=|Hedgehog_Ice|/>裝備在手上，若將牠投向敵人且命中目標，便會引發<img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>爆炸。\r\n{ReferenceMsgId_DamageUp}",
+          "LocalizedString": "發動後就能將<characterName id=|Hedgehog_Ice|/>裝備在手上，若將牠投向敵人且命中目標，便會引發<img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>爆炸。\r\n{ReferenceMsgId_DamageUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_HerculesBeetle": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_HerculesBeetle_TextData",
+          "SourceString": "若牠在隊伍中，當玩家的近戰攻擊在<Status_Up>{Passive1_EffectValue1}秒</>內命中5次時，牠會在玩家周圍<Status_Keyword>產生護盾</>。（不可疊加）",
+          "LocalizedString": "若牠在隊伍中，當玩家的近戰攻擊在<Status_Up>{Passive1_EffectValue1}秒</>內命中5次時，牠會在玩家周圍<Status_Keyword>產生護盾</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Horus": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Horus_TextData",
+          "SourceString": "可騎在牠的背上在空中飛行。\r\n若牠在隊伍中，擊倒<img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>帕魯時的道具掉落量增加<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "可騎在牠的背上在空中飛行。\r\n若牠在隊伍中，擊倒<img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>帕魯時的道具掉落量增加<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_IceDeer": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_IceDeer_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n若牠在隊伍中，玩家的<Status_Keyword>耐暑能力+2</>。（不可疊加）\r\n{ReferenceMsgId_RideSpeedUp}",
+          "LocalizedString": "可騎在牠的背上移動。\r\n若牠在隊伍中，玩家的<Status_Keyword>耐暑能力+2</>。（不可疊加）\r\n{ReferenceMsgId_RideSpeedUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_IceFox": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_IceFox_TextData",
+          "SourceString": "若牠在隊伍中，<img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>帕魯的攻擊力會提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）\r\n將牠分派到<mapObjectName id=|MonsterFarm|/>，牠就有機會掉落<itemName id=|IceOrgan| style=|Status_Keyword|/>。",
+          "LocalizedString": "若牠在隊伍中，<img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>帕魯的攻擊力會提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）\r\n將牠分派到<mapObjectName id=|MonsterFarm|/>，牠就有機會掉落<itemName id=|IceOrgan| style=|Status_Keyword|/>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_IceHorse": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_IceHorse_TextData",
+          "SourceString": "可騎在牠的背上在空中飛行。\r\n騎乘期間玩家的攻擊會轉變為<img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>，攻擊力提升<Status_Up>{Passive2_EffectValue1}%</>，且攻擊會附加<Status_Up>{Passive3_EffectValue1}</>點<uiCommon id=|ADDITIONAL_EFFECT_Freeze| style=|Elem_Ice|/>異常狀態值。",
+          "LocalizedString": "可騎在牠的背上在空中飛行。\r\n騎乘期間玩家的攻擊會轉變為<img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>，攻擊力提升<Status_Up>{Passive2_EffectValue1}%</>，且攻擊會附加<Status_Up>{Passive3_EffectValue1}</>點<uiCommon id=|ADDITIONAL_EFFECT_Freeze| style=|Elem_Ice|/>異常狀態值。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_IceHorse_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_IceHorse_Dark_TextData",
+          "SourceString": "可騎在牠的背上在空中飛行。\r\n騎乘期間玩家的攻擊會轉變為<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>，攻擊力提升<Status_Up>{Passive2_EffectValue1}%</>，且攻擊會附加<Status_Up>{Passive3_EffectValue1}</>點<uiCommon id=|ADDITIONAL_EFFECT_Darkness| style=|Elem_Dark|/>異常狀態值。",
+          "LocalizedString": "可騎在牠的背上在空中飛行。\r\n騎乘期間玩家的攻擊會轉變為<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>，攻擊力提升<Status_Up>{Passive2_EffectValue1}%</>，且攻擊會附加<Status_Up>{Passive3_EffectValue1}</>點<uiCommon id=|ADDITIONAL_EFFECT_Darkness| style=|Elem_Dark|/>異常狀態值。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_JetDragon": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_JetDragon_TextData",
+          "SourceString": "可騎在牠的背上在空中飛行。\r\n騎乘期間牠還能用飛彈發射器連續攻擊。\r\n{ReferenceMsgId_DamageUp}",
+          "LocalizedString": "可騎在牠的背上在空中飛行。\r\n騎乘期間牠還能用飛彈發射器連續攻擊。\r\n{ReferenceMsgId_DamageUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Kelpie": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Kelpie_TextData",
+          "SourceString": "若牠在隊伍中，<img id=|ElemIcon_Water|/><uiCommon id=|COMMON_ELEMENT_NAME_Water| style=|Elem_Water|/>帕魯的攻擊力會提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）\r\n將牠分派到<mapObjectName id=|MonsterFarm|/>，牠就有機會掉落<itemName id=|PalFluid| style=|Status_Keyword|/>。",
+          "LocalizedString": "若牠在隊伍中，<img id=|ElemIcon_Water|/><uiCommon id=|COMMON_ELEMENT_NAME_Water| style=|Elem_Water|/>帕魯的攻擊力會提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）\r\n將牠分派到<mapObjectName id=|MonsterFarm|/>，牠就有機會掉落<itemName id=|PalFluid| style=|Status_Keyword|/>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Kelpie_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Kelpie_Fire_TextData",
+          "SourceString": "若牠在隊伍中，<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/>帕魯的攻擊力會提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）\r\n將牠分派到<mapObjectName id=|MonsterFarm|/>，牠就有機會掉落<itemName id=|FireOrgan| style=|Status_Keyword|/>。",
+          "LocalizedString": "若牠在隊伍中，<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/>帕魯的攻擊力會提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）\r\n將牠分派到<mapObjectName id=|MonsterFarm|/>，牠就有機會掉落<itemName id=|FireOrgan| style=|Status_Keyword|/>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_KingAlpaca": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_KingAlpaca_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n此帕魯的防禦力和移動速度會隨著隊伍中<characterName id=|Alpaca| style=|Status_Keyword|/>的數量提升，每隻增加<Status_Up>{Passive1_EffectValue1}%</>。",
+          "LocalizedString": "可騎在牠的背上移動。\r\n此帕魯的防禦力和移動速度會隨著隊伍中<characterName id=|Alpaca| style=|Status_Keyword|/>的數量提升，每隻增加<Status_Up>{Passive1_EffectValue1}%</>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_KingAlpaca_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_KingAlpaca_Ice_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n此帕魯的防禦力和移動速度會隨著隊伍中<characterName id=|Alpaca| style=|Status_Keyword|/>的數量提升，每隻增加<Status_Up>{Passive1_EffectValue1}%</>。",
+          "LocalizedString": "可騎在牠的背上移動。\r\n此帕魯的防禦力和移動速度會隨著隊伍中<characterName id=|Alpaca| style=|Status_Keyword|/>的數量提升，每隻增加<Status_Up>{Passive1_EffectValue1}%</>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_KingBahamut": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_KingBahamut_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n若牠在隊伍中，打倒敵人時，一起並肩作戰的帕魯的攻擊力與防禦力會提升<Status_Up>{Passive1_EffectValue1}%</>。\r\n此效果最多可累積5層，持續20秒。（不可疊加）",
+          "LocalizedString": "可騎在牠的背上移動。\r\n若牠在隊伍中，打倒敵人時，一起並肩作戰的帕魯的攻擊力與防禦力會提升<Status_Up>{Passive1_EffectValue1}%</>。\r\n此效果最多可累積5層，持續20秒。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Kirin": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Kirin_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n若牠在隊伍中，玩家和帕魯以<img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/>攻擊克制的屬性時傷害提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "可騎在牠的背上移動。\r\n若牠在隊伍中，玩家和帕魯以<img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/>攻擊克制的屬性時傷害提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Kitsunebi": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Kitsunebi_TextData",
+          "SourceString": "發動後，牠會化身為裝備在玩家身上的火焰噴射器。\r\n{ReferenceMsgId_DamageUp}",
+          "LocalizedString": "發動後，牠會化身為裝備在玩家身上的火焰噴射器。\r\n{ReferenceMsgId_DamageUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_LazyDragon": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_LazyDragon_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n騎乘期間牠還能用飛彈發射器連續攻擊。\r\n{ReferenceMsgId_DamageUp}",
+          "LocalizedString": "可騎在牠的背上移動。\r\n騎乘期間牠還能用飛彈發射器連續攻擊。\r\n{ReferenceMsgId_DamageUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_LazyDragon_Electric": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_LazyDragon_Electric_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n騎乘期間牠還能用飛彈發射器連續攻擊。\r\n{ReferenceMsgId_DamageUp}",
+          "LocalizedString": "可騎在牠的背上移動。\r\n騎乘期間牠還能用飛彈發射器連續攻擊。\r\n{ReferenceMsgId_DamageUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_LilyQueen": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_LilyQueen_TextData",
+          "SourceString": "發動後便能透過女王的治癒能力，為玩家和隊伍內的帕魯恢復<Status_Up>{ActiveSkillMainValueByRank}%</>的生命值。",
+          "LocalizedString": "發動後便能透過女王的治癒能力，為玩家和隊伍內的帕魯恢復<Status_Up>{ActiveSkillMainValueByRank}%</>的生命值。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_LilyQueen_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_LilyQueen_Dark_TextData",
+          "SourceString": "發動後便能透過女王的治癒能力，為玩家和隊伍內的帕魯恢復<Status_Up>{ActiveSkillMainValueByRank}%</>的生命值。",
+          "LocalizedString": "發動後便能透過女王的治癒能力，為玩家和隊伍內的帕魯恢復<Status_Up>{ActiveSkillMainValueByRank}%</>的生命值。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_LittleBriarRose": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_LittleBriarRose_TextData",
+          "SourceString": "若牠在隊伍中，<img id=|ElemIcon_Grass|/><uiCommon id=|COMMON_ELEMENT_NAME_Leaf| style=|Elem_Grass|/>帕魯的攻擊力會提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "若牠在隊伍中，<img id=|ElemIcon_Grass|/><uiCommon id=|COMMON_ELEMENT_NAME_Leaf| style=|Elem_Grass|/>帕魯的攻擊力會提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_LizardMan": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_LizardMan_TextData",
+          "SourceString": "發動後<Status_Up>{ActiveSkillOverWriteEffectTime}</>秒內，<characterName id=|LizardMan|/>與玩家將變<Status_Keyword>透明</>，並從敵人的視野中消失。\r\n{ReferenceMsgId_CooldownReduction}",
+          "LocalizedString": "發動後<Status_Up>{ActiveSkillOverWriteEffectTime}</>秒內，<characterName id=|LizardMan|/>與玩家將變<Status_Keyword>透明</>，並從敵人的視野中消失。\r\n{ReferenceMsgId_CooldownReduction}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_LizardMan_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_LizardMan_Fire_TextData",
+          "SourceString": "發動後<Status_Up>{ActiveSkillOverWriteEffectTime}</>秒內，<characterName id=|LizardMan_Fire|/>與玩家將變<Status_Keyword>透明</>，並從敵人的視野中消失。\r\n{ReferenceMsgId_CooldownReduction}",
+          "LocalizedString": "發動後<Status_Up>{ActiveSkillOverWriteEffectTime}</>秒內，<characterName id=|LizardMan_Fire|/>與玩家將變<Status_Keyword>透明</>，並從敵人的視野中消失。\r\n{ReferenceMsgId_CooldownReduction}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Manticore": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Manticore_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n若牠在隊伍中，擊倒<img id=|ElemIcon_Grass|/><uiCommon id=|COMMON_ELEMENT_NAME_Leaf| style=|Elem_Grass|/>帕魯時的道具掉落量增加<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "可騎在牠的背上移動。\r\n若牠在隊伍中，擊倒<img id=|ElemIcon_Grass|/><uiCommon id=|COMMON_ELEMENT_NAME_Leaf| style=|Elem_Grass|/>帕魯時的道具掉落量增加<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Manticore_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Manticore_Dark_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n若牠在隊伍中，擊倒<img id=|ElemIcon_Neutral|/><uiCommon id=|COMMON_ELEMENT_NAME_Normal| style=|Elem_Neutral|/>帕魯時的道具掉落量增加<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "可騎在牠的背上移動。\r\n若牠在隊伍中，擊倒<img id=|ElemIcon_Neutral|/><uiCommon id=|COMMON_ELEMENT_NAME_Normal| style=|Elem_Neutral|/>帕魯時的道具掉落量增加<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Monkey": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Monkey_TextData",
+          "SourceString": "發動後，<characterName id=|Monkey|/>會在一定時間內用突擊步槍猛烈掃射附近的敵人。\r\n{ReferenceMsgId_DamageUp}",
+          "LocalizedString": "發動後，<characterName id=|Monkey|/>會在一定時間內用突擊步槍猛烈掃射附近的敵人。\r\n{ReferenceMsgId_DamageUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_MopBaby": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_MopBaby_TextData",
+          "SourceString": "若牠在隊伍中，<characterName id=|MopKing|/>的防禦力和攻擊力將會提升。",
+          "LocalizedString": "若牠在隊伍中，<characterName id=|MopKing|/>的防禦力和攻擊力將會提升。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_MopKing": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_MopKing_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n此帕魯的防禦力和攻擊力會隨著隊伍中<characterName id=|MopBaby| style=|Status_Keyword|/>的數量提升，每隻增加<Status_Up>{Passive1_EffectValue1}%</>。",
+          "LocalizedString": "可騎在牠的背上移動。\r\n此帕魯的防禦力和攻擊力會隨著隊伍中<characterName id=|MopBaby| style=|Status_Keyword|/>的數量提升，每隻增加<Status_Up>{Passive1_EffectValue1}%</>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Mutant": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Mutant_TextData",
+          "SourceString": "若牠在隊伍中，投擲出去的帕魯球將會<Status_Keyword>自動追蹤</>帕魯，且玩家的負重上限提高<Status_Up>{Passive1_EffectValue1}</>。（不可疊加）",
+          "LocalizedString": "若牠在隊伍中，投擲出去的帕魯球將會<Status_Keyword>自動追蹤</>帕魯，且玩家的負重上限提高<Status_Up>{Passive1_EffectValue1}</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_NaughtyCat": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_NaughtyCat_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n若牠在隊伍中，撿到<Status_Keyword>帕魯蛋</>時將有<Status_Up>{Passive1_EffectValue1}%</>的機率再撿到1顆。（不可疊加）",
+          "LocalizedString": "可騎在牠的背上移動。\r\n若牠在隊伍中，撿到<Status_Keyword>帕魯蛋</>時將有<Status_Up>{Passive1_EffectValue1}%</>的機率再撿到1顆。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_NegativeKoala": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_NegativeKoala_TextData",
+          "SourceString": "發動後，<characterName id=|NegativeKoala|/>會大量飲用能量飲料，<characterName id=|NegativeKoala|/>的移動速度和工作速度會因此提升<Status_Up>{ReferencePassive1_EffectValue1}%</>。\r\n將牠分派到<mapObjectName id=|MonsterFarm|/>，牠就有機會掉落<itemName id=|Venom| style=|Status_Keyword|/>。",
+          "LocalizedString": "發動後，<characterName id=|NegativeKoala|/>會大量飲用能量飲料，<characterName id=|NegativeKoala|/>的移動速度和工作速度會因此提升<Status_Up>{ReferencePassive1_EffectValue1}%</>。\r\n將牠分派到<mapObjectName id=|MonsterFarm|/>，牠就有機會掉落<itemName id=|Venom| style=|Status_Keyword|/>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_NegativeOctopus": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_NegativeOctopus_TextData",
+          "SourceString": "若牠在隊伍中，會改變滑翔傘的性能。\r\n滑翔期間能夠長時間漂浮在空中。\r\n{ReferenceMsgId_GriderPerformanceUp}",
+          "LocalizedString": "若牠在隊伍中，會改變滑翔傘的性能。\r\n滑翔期間能夠長時間漂浮在空中。\r\n{ReferenceMsgId_GriderPerformanceUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_NightFox": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_NightFox_TextData",
+          "SourceString": "發動後，牠會偵測附近的<Status_Keyword>帕魯雕像</>。\r\n{ReferenceMsgId_SearchAreaCoolTime}",
+          "LocalizedString": "發動後，牠會偵測附近的<Status_Keyword>帕魯雕像</>。\r\n{ReferenceMsgId_SearchAreaCoolTime}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Penguin": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Penguin_TextData",
+          "SourceString": "發動後玩家將裝備<itemName id=|Launcher_Default|/>，並可將<characterName id=|Penguin|/>當作砲彈射出。\r\n命中目標後<characterName id=|Penguin|/>會爆炸，並陷入瀕死狀態。\r\n{ReferenceMsgId_DamageUp}",
+          "LocalizedString": "發動後玩家將裝備<itemName id=|Launcher_Default|/>，並可將<characterName id=|Penguin|/>當作砲彈射出。\r\n命中目標後<characterName id=|Penguin|/>會爆炸，並陷入瀕死狀態。\r\n{ReferenceMsgId_DamageUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_PinkCat": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_PinkCat_TextData",
+          "SourceString": "若牠在隊伍中，<characterName id=|PinkCat|/>就會幫忙搬運行李，玩家的負重上限將提高<Status_Up>{Passive1_EffectValue1}</>。（不可疊加）",
+          "LocalizedString": "若牠在隊伍中，<characterName id=|PinkCat|/>就會幫忙搬運行李，玩家的負重上限將提高<Status_Up>{Passive1_EffectValue1}</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_PinkLizard": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_PinkLizard_TextData",
+          "SourceString": "與牠並肩作戰時，會為玩家與<characterName id=|PinkLizard|/>賦予生命竊取效果，攻擊造成傷害時將<Status_Keyword>恢復</>等同於傷害量<Status_Up>{Passive1_EffectValue1}%</>的<uiCommon id=|COMMON_STATUS_HP| style=|Status_Keyword|/>。",
+          "LocalizedString": "與牠並肩作戰時，會為玩家與<characterName id=|PinkLizard|/>賦予生命竊取效果，攻擊造成傷害時將<Status_Keyword>恢復</>等同於傷害量<Status_Up>{Passive1_EffectValue1}%</>的<uiCommon id=|COMMON_STATUS_HP| style=|Status_Keyword|/>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_PinkRabbit": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_PinkRabbit_TextData",
+          "SourceString": "若牠在隊伍中，<img id=|ElemIcon_Neutral|/><uiCommon id=|COMMON_ELEMENT_NAME_Normal| style=|Elem_Neutral|/>帕魯的攻擊力會提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）\r\n若牠在據點裡，其他據點帕魯的<uiCommon id=|COMMON_WORK_SUITABILITY_Handcraft| style=|Status_Keyword|/>工作適應性等級<Status_Keyword>+{Passive2_EffectValue1}</>。（不可疊加）",
+          "LocalizedString": "若牠在隊伍中，<img id=|ElemIcon_Neutral|/><uiCommon id=|COMMON_ELEMENT_NAME_Normal| style=|Elem_Neutral|/>帕魯的攻擊力會提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）\r\n若牠在據點裡，其他據點帕魯的<uiCommon id=|COMMON_WORK_SUITABILITY_Handcraft| style=|Status_Keyword|/>工作適應性等級<Status_Keyword>+{Passive2_EffectValue1}</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_PlantSlime": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_PlantSlime_TextData",
+          "SourceString": "若牠在隊伍中，玩家伐木時造成的傷害將提升<Status_Up>{Passive1_EffectValue1}%</>，<Status_Keyword>所有木材種類</>的重量都將減輕<Status_Up>{Passive2_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "若牠在隊伍中，玩家伐木時造成的傷害將提升<Status_Up>{Passive1_EffectValue1}%</>，<Status_Keyword>所有木材種類</>的重量都將減輕<Status_Up>{Passive2_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_QueenBee": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_QueenBee_TextData",
+          "SourceString": "此帕魯的攻擊力會隨著隊伍中<characterName id=|SoldierBee| style=|Status_Keyword|/>的數量提升，每隻增加<Status_Up>{Passive1_EffectValue1}%</>。",
+          "LocalizedString": "此帕魯的攻擊力會隨著隊伍中<characterName id=|SoldierBee| style=|Status_Keyword|/>的數量提升，每隻增加<Status_Up>{Passive1_EffectValue1}%</>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_RaijinDaughter": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_RaijinDaughter_TextData",
+          "SourceString": "若牠在隊伍中，就會出現於玩家身邊。\r\n牠會用<img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/>的落雷追擊敵對的個體。\r\n且該追擊不會使獵物斃命。\r\n{ReferenceMsgId_Funnel}",
+          "LocalizedString": "若牠在隊伍中，就會出現於玩家身邊。\r\n牠會用<img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/>的落雷追擊敵對的個體。\r\n且該追擊不會使獵物斃命。\r\n{ReferenceMsgId_Funnel}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_RedArmorBird": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_RedArmorBird_TextData",
+          "SourceString": "可騎在牠的背上在空中飛行。\r\n騎乘期間玩家的攻擊會轉變為<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/>，且攻擊力提升<Status_Up>{Passive2_EffectValue1}%</>。",
+          "LocalizedString": "可騎在牠的背上在空中飛行。\r\n騎乘期間玩家的攻擊會轉變為<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/>，且攻擊力提升<Status_Up>{Passive2_EffectValue1}%</>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_RobinHood": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_RobinHood_TextData",
+          "SourceString": "若牠在隊伍中，玩家<Status_Keyword>使用弓箭時的傷害</>提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "若牠在隊伍中，玩家<Status_Keyword>使用弓箭時的傷害</>提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_RobinHood_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_RobinHood_Ground_TextData",
+          "SourceString": "若牠在隊伍中，玩家<Status_Keyword>使用弓箭時的蓄力速度</>提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "若牠在隊伍中，玩家<Status_Keyword>使用弓箭時的蓄力速度</>提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Ronin": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Ronin_TextData",
+          "SourceString": "發動後會以<activeSkillName id=|Unique_Ronin_Iai| style=|Status_Keyword|/>攻擊鎖定的目標敵人。\r\n此帕魯使用的<activeSkillName id=|Unique_Ronin_Iai| style=|Status_Keyword|/>的威力將提升至<Status_Up>{ActiveSkillMainValueByRank}倍</>。",
+          "LocalizedString": "發動後會以<activeSkillName id=|Unique_Ronin_Iai| style=|Status_Keyword|/>攻擊鎖定的目標敵人。\r\n此帕魯使用的<activeSkillName id=|Unique_Ronin_Iai| style=|Status_Keyword|/>的威力將提升至<Status_Up>{ActiveSkillMainValueByRank}倍</>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_SaintCentaur": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_SaintCentaur_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n騎乘期間可以進行<Status_Keyword>3段跳躍</>，發動<activeSkillName id=|Unique_SaintCentaur_OneSpearRushes| style=|Status_Keyword|/>後，會召喚出1隻隊伍中的<characterName id=|BlackCentaur|/>，一起進行攻擊。\r\n{ReferenceMsgId_RideSpeedUp}",
+          "LocalizedString": "可騎在牠的背上移動。\r\n騎乘期間可以進行<Status_Keyword>3段跳躍</>，發動<activeSkillName id=|Unique_SaintCentaur_OneSpearRushes| style=|Status_Keyword|/>後，會召喚出1隻隊伍中的<characterName id=|BlackCentaur|/>，一起進行攻擊。\r\n{ReferenceMsgId_RideSpeedUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_SakuraSaurus": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_SakuraSaurus_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n若牠在隊伍中，撿到的帕魯蛋將有<Status_Up>{Passive1_EffectValue1}%</>的機率變成頭目帕魯蛋。（不可疊加）",
+          "LocalizedString": "可騎在牠的背上移動。\r\n若牠在隊伍中，撿到的帕魯蛋將有<Status_Up>{Passive1_EffectValue1}%</>的機率變成頭目帕魯蛋。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_SakuraSaurus_Water": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_SakuraSaurus_Water_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n若牠在隊伍中，撿到的帕魯蛋將有<Status_Up>{Passive1_EffectValue1}%</>的機率變成頭目帕魯蛋。（不可疊加）",
+          "LocalizedString": "可騎在牠的背上移動。\r\n若牠在隊伍中，撿到的帕魯蛋將有<Status_Up>{Passive1_EffectValue1}%</>的機率變成頭目帕魯蛋。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_ScorpionMan": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_ScorpionMan_TextData",
+          "SourceString": "若牠在隊伍中，玩家和帕魯對<uiCommon id=|ADDITIONAL_EFFECT_Poison| style=|Effect_Poison|/>狀態的敵人造成的傷害將提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "若牠在隊伍中，玩家和帕魯對<uiCommon id=|ADDITIONAL_EFFECT_Poison| style=|Effect_Poison|/>狀態的敵人造成的傷害將提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Serpent": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Serpent_TextData",
+          "SourceString": "可騎在牠的背上在水上移動。\r\n將牠分派到<mapObjectName id=|MonsterFarm|/>，牠就有機會掉落<itemName id=|Leather| style=|Status_Keyword|/>。\r\n{ReferenceMsgId_RideSpeedUp}",
+          "LocalizedString": "可騎在牠的背上在水上移動。\r\n將牠分派到<mapObjectName id=|MonsterFarm|/>，牠就有機會掉落<itemName id=|Leather| style=|Status_Keyword|/>。\r\n{ReferenceMsgId_RideSpeedUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Serpent_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Serpent_Ground_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n若牠在隊伍中，會為玩家的攻擊附加<Status_Up>{Passive1_EffectValue1}</>點<uiCommon id=|ADDITIONAL_EFFECT_Muddy| style=|Effect_Muddy|/>異常狀態值。（不可疊加）\r\n{ReferenceMsgId_RideSpeedUp}",
+          "LocalizedString": "可騎在牠的背上移動。\r\n若牠在隊伍中，會為玩家的攻擊附加<Status_Up>{Passive1_EffectValue1}</>點<uiCommon id=|ADDITIONAL_EFFECT_Muddy| style=|Effect_Muddy|/>異常狀態值。（不可疊加）\r\n{ReferenceMsgId_RideSpeedUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_SkyDragon": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_SkyDragon_TextData",
+          "SourceString": "可騎在牠的背上在空中飛行。\r\n若牠在隊伍中，<img id=|ElemIcon_Dragon|/><uiCommon id=|COMMON_ELEMENT_NAME_Dragon| style=|Elem_Dragon|/>帕魯的攻擊力會提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "可騎在牠的背上在空中飛行。\r\n若牠在隊伍中，<img id=|ElemIcon_Dragon|/><uiCommon id=|COMMON_ELEMENT_NAME_Dragon| style=|Elem_Dragon|/>帕魯的攻擊力會提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_SharkKid": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_SharkKid_TextData",
+          "SourceString": "發動後會以<activeSkillName id=|WaterGun| style=|Status_Keyword|/>攻擊鎖定的目標。\r\n此帕魯使用的<activeSkillName id=|WaterGun| style=|Status_Keyword|/>的威力將提升至<Status_Up>{ActiveSkillMainValueByRank}倍</>。\r\n若牠在隊伍中，玩家的攻擊力提升<Status_Up>{Passive1_EffectValue1}%</>。",
+          "LocalizedString": "發動後會以<activeSkillName id=|WaterGun| style=|Status_Keyword|/>攻擊鎖定的目標。\r\n此帕魯使用的<activeSkillName id=|WaterGun| style=|Status_Keyword|/>的威力將提升至<Status_Up>{ActiveSkillMainValueByRank}倍</>。\r\n若牠在隊伍中，玩家的攻擊力提升<Status_Up>{Passive1_EffectValue1}%</>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_SharkKid_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_SharkKid_Fire_TextData",
+          "SourceString": "發動後會以<activeSkillName id=|FireSeed| style=|Status_Keyword|/>攻擊鎖定的目標。\r\n此帕魯使用的<activeSkillName id=|FireSeed| style=|Status_Keyword|/>的威力將提升至<Status_Up>{ActiveSkillMainValueByRank}倍</>。\r\n若牠在隊伍中，玩家的攻擊力提升<Status_Up>{Passive1_EffectValue1}%</>。",
+          "LocalizedString": "發動後會以<activeSkillName id=|FireSeed| style=|Status_Keyword|/>攻擊鎖定的目標。\r\n此帕魯使用的<activeSkillName id=|FireSeed| style=|Status_Keyword|/>的威力將提升至<Status_Up>{ActiveSkillMainValueByRank}倍</>。\r\n若牠在隊伍中，玩家的攻擊力提升<Status_Up>{Passive1_EffectValue1}%</>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_SifuDog": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_SifuDog_TextData",
+          "SourceString": "發動後可以移動至最近的據點。\r\n無法在地下城裡使用。\r\n{ReferenceMsgId_CooldownReduction}",
+          "LocalizedString": "發動後可以移動至最近的據點。\r\n無法在地下城裡使用。\r\n{ReferenceMsgId_CooldownReduction}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_SheepBall": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_SheepBall_TextData",
+          "SourceString": "發動後，牠會化身為裝備在玩家身上的盾牌。\r\n將牠分派到<mapObjectName id=|MonsterFarm|/>，牠就有機會掉落<itemName id=|Wool| style=|Status_Keyword|/>。",
+          "LocalizedString": "發動後，牠會化身為裝備在玩家身上的盾牌。\r\n將牠分派到<mapObjectName id=|MonsterFarm|/>，牠就有機會掉落<itemName id=|Wool| style=|Status_Keyword|/>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_SoldierBee": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_SoldierBee_TextData",
+          "SourceString": "將牠分派到<mapObjectName id=|MonsterFarm|/>，牠就有機會掉落<itemName id=|Honey| style=|Status_Keyword|/>。\r\n若牠在隊伍中，<characterName id=|QueenBee| style=|Status_Keyword|/>的攻擊力將會提升。",
+          "LocalizedString": "將牠分派到<mapObjectName id=|MonsterFarm|/>，牠就有機會掉落<itemName id=|Honey| style=|Status_Keyword|/>。\r\n若牠在隊伍中，<characterName id=|QueenBee| style=|Status_Keyword|/>的攻擊力將會提升。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Suzaku": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Suzaku_TextData",
+          "SourceString": "可騎在牠的背上在空中飛行。\r\n<characterName id=|Suzaku|/>的移動速度，會隨著隊伍中其他<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/>帕魯的數量提升，每隻增加<Status_Up>{Passive1_EffectValue1}%</>。",
+          "LocalizedString": "可騎在牠的背上在空中飛行。\r\n<characterName id=|Suzaku|/>的移動速度，會隨著隊伍中其他<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/>帕魯的數量提升，每隻增加<Status_Up>{Passive1_EffectValue1}%</>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Suzaku_Water": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Suzaku_Water_TextData",
+          "SourceString": "可騎在牠的背上在空中飛行。\r\n<characterName id=|Suzaku_Water|/>的移動速度，會隨著隊伍中其他<img id=|ElemIcon_Water|/><uiCommon id=|COMMON_ELEMENT_NAME_Water| style=|Elem_Water|/>帕魯的數量提升，每隻增加<Status_Up>{Passive1_EffectValue1}%</>。",
+          "LocalizedString": "可騎在牠的背上在空中飛行。\r\n<characterName id=|Suzaku_Water|/>的移動速度，會隨著隊伍中其他<img id=|ElemIcon_Water|/><uiCommon id=|COMMON_ELEMENT_NAME_Water| style=|Elem_Water|/>帕魯的數量提升，每隻增加<Status_Up>{Passive1_EffectValue1}%</>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_SweetsSheep": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_SweetsSheep_TextData",
+          "SourceString": "將牠分派到<mapObjectName id=|MonsterFarm|/>，牠就有機會掉落<itemName id=|Sweet| style=|Status_Keyword|/>。\r\n若牠在據點裡，據點帕魯的<uiCommon id=|COMMON_STATUS_HUNGER|/>的減少幅度將會<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "將牠分派到<mapObjectName id=|MonsterFarm|/>，牠就有機會掉落<itemName id=|Sweet| style=|Status_Keyword|/>。\r\n若牠在據點裡，據點帕魯的<uiCommon id=|COMMON_STATUS_HUNGER|/>的減少幅度將會<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_TentacleTurtle": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_TentacleTurtle_TextData",
+          "SourceString": "若牠在隊伍中，<itemName id=|CopperOre| style=|Status_Keyword|/>的重量會減輕<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "若牠在隊伍中，<itemName id=|CopperOre| style=|Status_Keyword|/>的重量會減輕<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_ThunderBird": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_ThunderBird_TextData",
+          "SourceString": "可騎在牠的背上在空中飛行。\r\n騎乘期間玩家的攻擊會轉變為<img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/>，且攻擊力提升<Status_Up>{Passive3_EffectValue1}%</>。\r\n<characterName id=|ThunderBird|/>的移動速度，會隨著隊伍中其他<img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/>帕魯的數量提升，每隻增加<Status_Up>{Passive1_EffectValue1}%</>。",
+          "LocalizedString": "可騎在牠的背上在空中飛行。\r\n騎乘期間玩家的攻擊會轉變為<img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/>，且攻擊力提升<Status_Up>{Passive3_EffectValue1}%</>。\r\n<characterName id=|ThunderBird|/>的移動速度，會隨著隊伍中其他<img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/>帕魯的數量提升，每隻增加<Status_Up>{Passive1_EffectValue1}%</>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_ThunderDog": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_ThunderDog_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n騎乘期間可以進行<Status_Keyword>2段跳躍</>。\r\n<characterName id=|ThunderDog|/>的移動速度，會隨著隊伍中其他<img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/>帕魯的數量提升，每隻增加<Status_Up>{Passive1_EffectValue1}%</>。",
+          "LocalizedString": "可騎在牠的背上移動。\r\n騎乘期間可以進行<Status_Keyword>2段跳躍</>。\r\n<characterName id=|ThunderDog|/>的移動速度，會隨著隊伍中其他<img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/>帕魯的數量提升，每隻增加<Status_Up>{Passive1_EffectValue1}%</>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_ThunderDragonMan": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_ThunderDragonMan_TextData",
+          "SourceString": "若牠在隊伍中，子彈擊中敵人時，一起並肩作戰的帕魯的攻擊力與防禦力會提升<Status_Up>{Passive1_EffectValue1}%</>。\r\n此效果最多可累積30層，持續5秒。（不可疊加）",
+          "LocalizedString": "若牠在隊伍中，子彈擊中敵人時，一起並肩作戰的帕魯的攻擊力與防禦力會提升<Status_Up>{Passive1_EffectValue1}%</>。\r\n此效果最多可累積30層，持續5秒。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Umihebi": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Umihebi_TextData",
+          "SourceString": "可騎在牠的背上在水上移動。\r\n若牠在隊伍中，玩家和帕魯對<uiCommon id=|ADDITIONAL_EFFECT_Wetness| style=|Effect_Wetness|/>狀態的敵人造成的傷害將提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）\r\n{ReferenceMsgId_RideSpeedUp}",
+          "LocalizedString": "可騎在牠的背上在水上移動。\r\n若牠在隊伍中，玩家和帕魯對<uiCommon id=|ADDITIONAL_EFFECT_Wetness| style=|Effect_Wetness|/>狀態的敵人造成的傷害將提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）\r\n{ReferenceMsgId_RideSpeedUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Umihebi_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Umihebi_Fire_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n若牠在隊伍中，能讓<Status_Keyword>熔岩傷害無效化</>，且玩家和帕魯對<uiCommon id=|ADDITIONAL_EFFECT_Burn| style=|Effect_Burn|/>狀態的敵人造成的傷害將提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）\r\n{ReferenceMsgId_RideSpeedUp}",
+          "LocalizedString": "可騎在牠的背上移動。\r\n若牠在隊伍中，能讓<Status_Keyword>熔岩傷害無效化</>，且玩家和帕魯對<uiCommon id=|ADDITIONAL_EFFECT_Burn| style=|Effect_Burn|/>狀態的敵人造成的傷害將提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）\r\n{ReferenceMsgId_RideSpeedUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_VioletFairy": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_VioletFairy_TextData",
+          "SourceString": "若牠在隊伍中，擊倒<img id=|ElemIcon_Ground|/><uiCommon id=|COMMON_ELEMENT_NAME_Earth| style=|Elem_Ground|/>帕魯時的道具掉落量增加<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）\r\n將牠分派到<mapObjectName id=|MonsterFarm|/>，牠就有機會掉落<Status_Keyword>各式各樣的種子</>。",
+          "LocalizedString": "若牠在隊伍中，擊倒<img id=|ElemIcon_Ground|/><uiCommon id=|COMMON_ELEMENT_NAME_Earth| style=|Elem_Ground|/>帕魯時的道具掉落量增加<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）\r\n將牠分派到<mapObjectName id=|MonsterFarm|/>，牠就有機會掉落<Status_Keyword>各式各樣的種子</>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_VolcanicMonster": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_VolcanicMonster_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n若牠在隊伍中，<Status_Keyword>所有礦石種類</>的重量會減輕<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "可騎在牠的背上移動。\r\n若牠在隊伍中，<Status_Keyword>所有礦石種類</>的重量會減輕<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_VolcanicMonster_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_VolcanicMonster_Ice_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n若牠在隊伍中，<Status_Keyword>所有礦石種類</>的重量會減輕<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "可騎在牠的背上移動。\r\n若牠在隊伍中，<Status_Keyword>所有礦石種類</>的重量會減輕<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_WeaselDragon": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_WeaselDragon_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n騎乘期間玩家的攻擊會轉變為<img id=|ElemIcon_Dragon|/><uiCommon id=|COMMON_ELEMENT_NAME_Dragon| style=|Elem_Dragon|/>，且攻擊力提升<Status_Up>{Passive2_EffectValue1}%</>。",
+          "LocalizedString": "可騎在牠的背上移動。\r\n騎乘期間玩家的攻擊會轉變為<img id=|ElemIcon_Dragon|/><uiCommon id=|COMMON_ELEMENT_NAME_Dragon| style=|Elem_Dragon|/>，且攻擊力提升<Status_Up>{Passive2_EffectValue1}%</>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Werewolf": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Werewolf_TextData",
+          "SourceString": "發動後會以<activeSkillName id=|Unique_Werewolf_Scratch| style=|Status_Keyword|/>攻擊鎖定的目標敵人。\r\n此帕魯使用的<activeSkillName id=|Unique_Werewolf_Scratch| style=|Status_Keyword|/>的威力將提升至<Status_Up>{ActiveSkillMainValueByRank}倍</>。\r\n若牠在隊伍中，玩家的<Status_Keyword>近戰武器攻擊速度</>提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "發動後會以<activeSkillName id=|Unique_Werewolf_Scratch| style=|Status_Keyword|/>攻擊鎖定的目標敵人。\r\n此帕魯使用的<activeSkillName id=|Unique_Werewolf_Scratch| style=|Status_Keyword|/>的威力將提升至<Status_Up>{ActiveSkillMainValueByRank}倍</>。\r\n若牠在隊伍中，玩家的<Status_Keyword>近戰武器攻擊速度</>提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_WhiteMoth": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_WhiteMoth_TextData",
+          "SourceString": "發動後會以<activeSkillName id=|IcicleThrow| style=|Status_Keyword|/>攻擊鎖定的目標敵人。\r\n此帕魯使用的<activeSkillName id=|IcicleThrow| style=|Status_Keyword|/>的威力將提升至<Status_Up>{ActiveSkillMainValueByRank}倍</>。\r\n將牠分派到<mapObjectName id=|MonsterFarm|/>，牠就有機會製造出<itemName id=|Cloth2| style=|Status_Keyword|/>。",
+          "LocalizedString": "發動後會以<activeSkillName id=|IcicleThrow| style=|Status_Keyword|/>攻擊鎖定的目標敵人。\r\n此帕魯使用的<activeSkillName id=|IcicleThrow| style=|Status_Keyword|/>的威力將提升至<Status_Up>{ActiveSkillMainValueByRank}倍</>。\r\n將牠分派到<mapObjectName id=|MonsterFarm|/>，牠就有機會製造出<itemName id=|Cloth2| style=|Status_Keyword|/>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_WhiteTiger": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_WhiteTiger_TextData",
+          "SourceString": "若牠在隊伍中，擊倒<img id=|ElemIcon_Dragon|/><uiCommon id=|COMMON_ELEMENT_NAME_Dragon| style=|Elem_Dragon|/>帕魯時的道具掉落量增加<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "若牠在隊伍中，擊倒<img id=|ElemIcon_Dragon|/><uiCommon id=|COMMON_ELEMENT_NAME_Dragon| style=|Elem_Dragon|/>帕魯時的道具掉落量增加<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Windchimes": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Windchimes_TextData",
+          "SourceString": "若牠在隊伍中，會改變滑翔傘的性能。\r\n滑翔期間能夠緩緩上升。\r\n{ReferenceMsgId_GriderPerformanceUp}",
+          "LocalizedString": "若牠在隊伍中，會改變滑翔傘的性能。\r\n滑翔期間能夠緩緩上升。\r\n{ReferenceMsgId_GriderPerformanceUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Windchimes_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Windchimes_Ice_TextData",
+          "SourceString": "若牠在隊伍中，會改變滑翔傘的性能。\r\n滑翔期間能夠緩緩上升。\r\n{ReferenceMsgId_GriderPerformanceUp}",
+          "LocalizedString": "若牠在隊伍中，會改變滑翔傘的性能。\r\n滑翔期間能夠緩緩上升。\r\n{ReferenceMsgId_GriderPerformanceUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_WizardOwl": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_WizardOwl_TextData",
+          "SourceString": "若牠在隊伍中，<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>帕魯的攻擊力會提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "若牠在隊伍中，<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>帕魯的攻擊力會提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Yeti": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Yeti_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n若牠在據點裡，其他據點帕魯的<uiCommon id=|COMMON_WORK_SUITABILITY_Transport| style=|Status_Keyword|/>工作適應性等級<Status_Keyword>+{Passive1_EffectValue1}</>。（不可疊加）",
+          "LocalizedString": "可騎在牠的背上移動。\r\n若牠在據點裡，其他據點帕魯的<uiCommon id=|COMMON_WORK_SUITABILITY_Transport| style=|Status_Keyword|/>工作適應性等級<Status_Keyword>+{Passive1_EffectValue1}</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Yeti_Grass": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Yeti_Grass_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n若牠在隊伍中，玩家和帕魯受到的<img id=|ElemIcon_Ground|/><uiCommon id=|COMMON_ELEMENT_NAME_Earth| style=|Elem_Ground|/>傷害減輕<Status_Up>{Passive1_EffectValue1}%</>，並且不會陷入<uiCommon id=|ADDITIONAL_EFFECT_Muddy| style=|Effect_Muddy|/>狀態。（不可疊加）",
+          "LocalizedString": "可騎在牠的背上移動。\r\n若牠在隊伍中，玩家和帕魯受到的<img id=|ElemIcon_Ground|/><uiCommon id=|COMMON_ELEMENT_NAME_Earth| style=|Elem_Ground|/>傷害減輕<Status_Up>{Passive1_EffectValue1}%</>，並且不會陷入<uiCommon id=|ADDITIONAL_EFFECT_Muddy| style=|Effect_Muddy|/>狀態。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_WoolFox": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_WoolFox_TextData",
+          "SourceString": "若牠在隊伍中，<img id=|ElemIcon_Neutral|/><uiCommon id=|COMMON_ELEMENT_NAME_Normal| style=|Elem_Neutral|/>帕魯的攻擊力會提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）\r\n將牠分派到<mapObjectName id=|MonsterFarm|/>，牠就有機會掉落<itemName id=|Wool| style=|Status_Keyword|/>。",
+          "LocalizedString": "若牠在隊伍中，<img id=|ElemIcon_Neutral|/><uiCommon id=|COMMON_ELEMENT_NAME_Normal| style=|Elem_Neutral|/>帕魯的攻擊力會提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）\r\n將牠分派到<mapObjectName id=|MonsterFarm|/>，牠就有機會掉落<itemName id=|Wool| style=|Status_Keyword|/>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_LazyCatfish": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_LazyCatfish_TextData",
+          "SourceString": "若牠在隊伍中，<img id=|ElemIcon_Ground|/><uiCommon id=|COMMON_ELEMENT_NAME_Earth| style=|Elem_Ground|/>帕魯的攻擊力會提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）\r\n將牠分派到<mapObjectName id=|MonsterFarm|/>，牠就有機會掉落<itemName id=|PalOil| style=|Status_Keyword|/>。",
+          "LocalizedString": "若牠在隊伍中，<img id=|ElemIcon_Ground|/><uiCommon id=|COMMON_ELEMENT_NAME_Earth| style=|Elem_Ground|/>帕魯的攻擊力會提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）\r\n將牠分派到<mapObjectName id=|MonsterFarm|/>，牠就有機會掉落<itemName id=|PalOil| style=|Status_Keyword|/>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_LavaGirl": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_LavaGirl_TextData",
+          "SourceString": "若牠在隊伍中，非戰鬥時每秒令玩家與隊伍帕魯的生命值恢復<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）\r\n將牠分派到<mapObjectName id=|MonsterFarm|/>，牠就有機會掉落<itemName id=|FireOrgan| style=|Status_Keyword|/>。",
+          "LocalizedString": "若牠在隊伍中，非戰鬥時每秒令玩家與隊伍帕魯的生命值恢復<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）\r\n將牠分派到<mapObjectName id=|MonsterFarm|/>，牠就有機會掉落<itemName id=|FireOrgan| style=|Status_Keyword|/>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_FlameBambi": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_FlameBambi_TextData",
+          "SourceString": "若牠在隊伍中，<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/>帕魯的防禦力會提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）\r\n將牠分派到<mapObjectName id=|MonsterFarm|/>，牠就有機會掉落<itemName id=|FireOrgan| style=|Status_Keyword|/>。",
+          "LocalizedString": "若牠在隊伍中，<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/>帕魯的防禦力會提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）\r\n將牠分派到<mapObjectName id=|MonsterFarm|/>，牠就有機會掉落<itemName id=|FireOrgan| style=|Status_Keyword|/>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Human": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Human_TextData",
+          "SourceString": "人類和帕魯不同，不會任何夥伴技能。",
+          "LocalizedString": "人類和帕魯不同，不會任何夥伴技能。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_NightLady": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_NightLady_TextData",
+          "SourceString": "發動後會以<activeSkillName id=|Unique_NightLady_WarpBeam_Straight| style=|Status_Keyword|/>攻擊鎖定的目標敵人。\r\n此帕魯使用的<activeSkillName id=|Unique_NightLady_WarpBeam_Straight| style=|Status_Keyword|/>的威力將提升至<Status_Up>{ActiveSkillMainValueByRank}倍</>。",
+          "LocalizedString": "發動後會以<activeSkillName id=|Unique_NightLady_WarpBeam_Straight| style=|Status_Keyword|/>攻擊鎖定的目標敵人。\r\n此帕魯使用的<activeSkillName id=|Unique_NightLady_WarpBeam_Straight| style=|Status_Keyword|/>的威力將提升至<Status_Up>{ActiveSkillMainValueByRank}倍</>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_NightLady_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_NightLady_Dark_TextData",
+          "SourceString": "發動後會以<activeSkillName id=|Unique_NightLady_WarpBeam| style=|Status_Keyword|/>攻擊鎖定的目標敵人。\r\n此帕魯使用的<activeSkillName id=|Unique_NightLady_WarpBeam| style=|Status_Keyword|/>的威力將提升至<Status_Up>{ActiveSkillMainValueByRank}倍</>。",
+          "LocalizedString": "發動後會以<activeSkillName id=|Unique_NightLady_WarpBeam| style=|Status_Keyword|/>攻擊鎖定的目標敵人。\r\n此帕魯使用的<activeSkillName id=|Unique_NightLady_WarpBeam| style=|Status_Keyword|/>的威力將提升至<Status_Up>{ActiveSkillMainValueByRank}倍</>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_MushroomDragon": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_MushroomDragon_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n將牠分派到<mapObjectName id=|MonsterFarm|/>，牠就有機會掉落<itemName id=|Mushroom| style=|Status_Keyword|/>或<itemName id=|CaveMushroom| style=|Status_Keyword|/>。",
+          "LocalizedString": "可騎在牠的背上移動。\r\n將牠分派到<mapObjectName id=|MonsterFarm|/>，牠就有機會掉落<itemName id=|Mushroom| style=|Status_Keyword|/>或<itemName id=|CaveMushroom| style=|Status_Keyword|/>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_MushroomDragon_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_MushroomDragon_Dark_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n若牠在據點裡，<characterName id=|MushroomDragon_Dark|/>的神奇孢子將會使據點內帕魯的SAN值下降速度減緩<Status_Up>{Passive1_EffectValue2}%</>。",
+          "LocalizedString": "可騎在牠的背上移動。\r\n若牠在據點裡，<characterName id=|MushroomDragon_Dark|/>的神奇孢子將會使據點內帕魯的SAN值下降速度減緩<Status_Up>{Passive1_EffectValue2}%</>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_LeafPrincess": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_LeafPrincess_TextData",
+          "SourceString": "若牠在據點裡，<characterName id=|LeafPrincess|/>會為農園注入元氣，使作物的生長加速<Status_Up>{Passive1_EffectValue1}%</>。",
+          "LocalizedString": "若牠在據點裡，<characterName id=|LeafPrincess|/>會為農園注入元氣，使作物的生長加速<Status_Up>{Passive1_EffectValue1}%</>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_MoonQueen": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_MoonQueen_TextData",
+          "SourceString": "可坐在牠背後的月亮在空中飛行。\r\n騎乘期間的<img id=|ElemIcon_Neutral|/><uiCommon id=|COMMON_ELEMENT_NAME_Normal| style=|Elem_Neutral|/>和<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>攻擊將提升<Status_Up>{Passive1_EffectValue1}%</>。",
+          "LocalizedString": "可坐在牠背後的月亮在空中飛行。\r\n騎乘期間的<img id=|ElemIcon_Neutral|/><uiCommon id=|COMMON_ELEMENT_NAME_Normal| style=|Elem_Neutral|/>和<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>攻擊將提升<Status_Up>{Passive1_EffectValue1}%</>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_SmallArmadillo": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_SmallArmadillo_TextData",
+          "SourceString": "若牠在隊伍中，<img id=|ElemIcon_Ground|/><uiCommon id=|COMMON_ELEMENT_NAME_Earth| style=|Elem_Ground|/>帕魯的防禦力提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "若牠在隊伍中，<img id=|ElemIcon_Ground|/><uiCommon id=|COMMON_ELEMENT_NAME_Earth| style=|Elem_Ground|/>帕魯的防禦力提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_CandleGhost": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_CandleGhost_TextData",
+          "SourceString": "若牠在隊伍中，玩家和帕魯受到的<img id=|ElemIcon_Neutral|/><uiCommon id=|COMMON_ELEMENT_NAME_Normal| style=|Elem_Neutral|/>傷害減輕<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）\r\n將牠分派到<mapObjectName id=|MonsterFarm|/>，牠就有機會從地裡挖出<itemName id=|Bone| style=|Status_Keyword|/>。",
+          "LocalizedString": "若牠在隊伍中，玩家和帕魯受到的<img id=|ElemIcon_Neutral|/><uiCommon id=|COMMON_ELEMENT_NAME_Normal| style=|Elem_Neutral|/>傷害減輕<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）\r\n將牠分派到<mapObjectName id=|MonsterFarm|/>，牠就有機會從地裡挖出<itemName id=|Bone| style=|Status_Keyword|/>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_WingGolem": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_WingGolem_TextData",
+          "SourceString": "發動後會以鋼鐵般的意志，在一定時間內提高<characterName id=|WingGolem|/>的攻擊力<Status_Up>{ReferencePassive1_EffectValue1}%</>，防禦力<Status_Up>{ReferencePassive2_EffectValue1}%</>。",
+          "LocalizedString": "發動後會以鋼鐵般的意志，在一定時間內提高<characterName id=|WingGolem|/>的攻擊力<Status_Up>{ReferencePassive1_EffectValue1}%</>，防禦力<Status_Up>{ReferencePassive2_EffectValue1}%</>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_DarkAlien": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_DarkAlien_TextData",
+          "SourceString": "若牠在隊伍中，全自動武器的彈匣中最後一發子彈的傷害提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "若牠在隊伍中，全自動武器的彈匣中最後一發子彈的傷害提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_MimicDog": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_MimicDog_TextData",
+          "SourceString": "與牠並肩作戰時，能藉助<characterName id=|MimicDog|/>的力量，在不使用鑰匙的情況下打開各種等級的寶箱。\r\n但無法打開需要特定工作適應性的寶箱。\r\n{ReferenceMsgId_CooldownReduction}",
+          "LocalizedString": "與牠並肩作戰時，能藉助<characterName id=|MimicDog|/>的力量，在不使用鑰匙的情況下打開各種等級的寶箱。\r\n但無法打開需要特定工作適應性的寶箱。\r\n{ReferenceMsgId_CooldownReduction}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_KendoFrog": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_KendoFrog_TextData",
+          "SourceString": "發動後，<characterName id=|KendoFrog|/>會靠忠誠心和膨脹的腹部積蓄力量。玩家踩上去後能高高跳起。\r\n在落地前，玩家的攻擊力提升<Status_Up>{ReferencePassive1_EffectValue1}%</>。",
+          "LocalizedString": "發動後，<characterName id=|KendoFrog|/>會靠忠誠心和膨脹的腹部積蓄力量。玩家踩上去後能高高跳起。\r\n在落地前，玩家的攻擊力提升<Status_Up>{ReferencePassive1_EffectValue1}%</>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_KingBahamut_Dragon": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_KingBahamut_Dragon_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n若牠在隊伍中，玩家和帕魯以<img id=|ElemIcon_Dragon|/><uiCommon id=|COMMON_ELEMENT_NAME_Dragon| style=|Elem_Dragon|/>攻擊克制的屬性時傷害提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "可騎在牠的背上移動。\r\n若牠在隊伍中，玩家和帕魯以<img id=|ElemIcon_Dragon|/><uiCommon id=|COMMON_ELEMENT_NAME_Dragon| style=|Elem_Dragon|/>攻擊克制的屬性時傷害提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_HerculesBeetle_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_HerculesBeetle_Ground_TextData",
+          "SourceString": "若牠在隊伍中，當玩家的近戰攻擊在<Status_Up>{Passive1_EffectValue1}秒</>內命中5次時，牠會在玩家周圍<Status_Keyword>產生護盾</>。（不可疊加）",
+          "LocalizedString": "若牠在隊伍中，當玩家的近戰攻擊在<Status_Up>{Passive1_EffectValue1}秒</>內命中5次時，牠會在玩家周圍<Status_Keyword>產生護盾</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Gorilla_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Gorilla_Ground_TextData",
+          "SourceString": "若牠在隊伍中，玩家的攀爬速度提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "若牠在隊伍中，玩家的攀爬速度提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_HadesBird_Electric": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_HadesBird_Electric_TextData",
+          "SourceString": "可騎在牠的背上在空中飛行。\r\n騎乘期間玩家的攻擊會轉變為<img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/>，且攻擊力提升<Status_Up>{Passive2_EffectValue1}%</>。",
+          "LocalizedString": "可騎在牠的背上在空中飛行。\r\n騎乘期間玩家的攻擊會轉變為<img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/>，且攻擊力提升<Status_Up>{Passive2_EffectValue1}%</>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_DarkScorpion_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_DarkScorpion_Ground_TextData",
+          "SourceString": "若牠在隊伍中，玩家的防禦力將提升<Status_Up>{Passive2_EffectValue1}%</>，且擊倒<img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/>帕魯時的道具掉落量增加<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "若牠在隊伍中，玩家的防禦力將提升<Status_Up>{Passive2_EffectValue1}%</>，且擊倒<img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/>帕魯時的道具掉落量增加<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Ronin_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Ronin_Dark_TextData",
+          "SourceString": "發動後會以<activeSkillName id=|Unique_Ronin_Iai| style=|Status_Keyword|/>攻擊鎖定的目標敵人。\r\n此帕魯使用的<activeSkillName id=|Unique_Ronin_Iai| style=|Status_Keyword|/>的威力將提升至<Status_Up>{ActiveSkillMainValueByRank}倍</>。\r\n若牠在隊伍中，玩家的<Status_Keyword>近戰武器攻擊傷害</>在非戰鬥時提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "發動後會以<activeSkillName id=|Unique_Ronin_Iai| style=|Status_Keyword|/>攻擊鎖定的目標敵人。\r\n此帕魯使用的<activeSkillName id=|Unique_Ronin_Iai| style=|Status_Keyword|/>的威力將提升至<Status_Up>{ActiveSkillMainValueByRank}倍</>。\r\n若牠在隊伍中，玩家的<Status_Keyword>近戰武器攻擊傷害</>在非戰鬥時提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_CatMage_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_CatMage_Fire_TextData",
+          "SourceString": "若牠在據點裡，其他據點帕魯的<uiCommon id=|COMMON_WORK_SUITABILITY_EmitFlame| style=|Status_Keyword|/>工作適應性等級<Status_Keyword>+{Passive1_EffectValue1}</>。（不可疊加）",
+          "LocalizedString": "若牠在據點裡，其他據點帕魯的<uiCommon id=|COMMON_WORK_SUITABILITY_EmitFlame| style=|Status_Keyword|/>工作適應性等級<Status_Keyword>+{Passive1_EffectValue1}</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_FoxMage_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_FoxMage_Dark_TextData",
+          "SourceString": "發動後，<characterName id=|FoxMage_Dark|/>會將力量分給玩家，讓玩家的攻擊轉變為<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>，且攻擊力提升<Status_Up>{ReferencePassive1_EffectValue1}%</>。",
+          "LocalizedString": "發動後，<characterName id=|FoxMage_Dark|/>會將力量分給玩家，讓玩家的攻擊轉變為<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>，且攻擊力提升<Status_Up>{ReferencePassive1_EffectValue1}%</>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_SkyDragon_Grass": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_SkyDragon_Grass_TextData",
+          "SourceString": "可騎在牠的背上在空中飛行。\r\n騎乘期間玩家的攻擊會轉變為<img id=|ElemIcon_Grass|/><uiCommon id=|COMMON_ELEMENT_NAME_Leaf| style=|Elem_Grass|/>，且攻擊力提升<Status_Up>{Passive2_EffectValue1}%</>。",
+          "LocalizedString": "可騎在牠的背上在空中飛行。\r\n騎乘期間玩家的攻擊會轉變為<img id=|ElemIcon_Grass|/><uiCommon id=|COMMON_ELEMENT_NAME_Leaf| style=|Elem_Grass|/>，且攻擊力提升<Status_Up>{Passive2_EffectValue1}%</>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_WeaselDragon_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_WeaselDragon_Fire_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n騎乘期間玩家的攻擊會轉變為<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/>，且攻擊力提升<Status_Up>{Passive2_EffectValue1}%</>。",
+          "LocalizedString": "可騎在牠的背上移動。\r\n騎乘期間玩家的攻擊會轉變為<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/>，且攻擊力提升<Status_Up>{Passive2_EffectValue1}%</>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_WhiteAlienDragon": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_WhiteAlienDragon_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n若牠在隊伍中，玩家<Status_Keyword>使用能量武器時的傷害</>提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "可騎在牠的背上移動。\r\n若牠在隊伍中，玩家<Status_Keyword>使用能量武器時的傷害</>提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Kitsunebi_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Kitsunebi_Ice_TextData",
+          "SourceString": "發動後，牠會化身為裝備在玩家身上的冷凍噴射器。\r\n{ReferenceMsgId_DamageUp}",
+          "LocalizedString": "發動後，牠會化身為裝備在玩家身上的冷凍噴射器。\r\n{ReferenceMsgId_DamageUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_BerryGoat_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_BerryGoat_Dark_TextData",
+          "SourceString": "將牠分派到<mapObjectName id=|MonsterFarm|/>，有機會從背上掉落<itemName id=|Venom| style=|Status_Keyword|/>。\r\n若牠在隊伍中，每5分鐘會讓目前飽足度最低的帕魯恢復<Status_Up>{Passive1_EffectValue1}</>點飽足度。（不可疊加）",
+          "LocalizedString": "將牠分派到<mapObjectName id=|MonsterFarm|/>，有機會從背上掉落<itemName id=|Venom| style=|Status_Keyword|/>。\r\n若牠在隊伍中，每5分鐘會讓目前飽足度最低的帕魯恢復<Status_Up>{Passive1_EffectValue1}</>點飽足度。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_PinkRabbit_Grass": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_PinkRabbit_Grass_TextData",
+          "SourceString": "若牠在隊伍中，玩家和帕魯以<img id=|ElemIcon_Grass|/><uiCommon id=|COMMON_ELEMENT_NAME_Leaf| style=|Elem_Grass|/>攻擊克制的屬性時傷害提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）\r\n<characterName id=|PinkRabbit_Grass|/>在武器製作台或武器工廠等處工作時，工作效率將會提升<Status_Up>{Passive2_EffectValue1}%</>。",
+          "LocalizedString": "若牠在隊伍中，玩家和帕魯以<img id=|ElemIcon_Grass|/><uiCommon id=|COMMON_ELEMENT_NAME_Leaf| style=|Elem_Grass|/>攻擊克制的屬性時傷害提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）\r\n<characterName id=|PinkRabbit_Grass|/>在武器製作台或武器工廠等處工作時，工作效率將會提升<Status_Up>{Passive2_EffectValue1}%</>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Werewolf_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Werewolf_Ice_TextData",
+          "SourceString": "發動後會以<activeSkillName id=|Unique_Werewolf_Ice_SnowScratch| style=|Status_Keyword|/>攻擊鎖定的目標敵人。\r\n此帕魯使用的<activeSkillName id=|Unique_Werewolf_Ice_SnowScratch| style=|Status_Keyword|/>的威力將提升至<Status_Up>{ActiveSkillMainValueByRank}倍</>。\r\n若牠在隊伍中，玩家的<Status_Keyword>近戰武器攻擊速度</>提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "發動後會以<activeSkillName id=|Unique_Werewolf_Ice_SnowScratch| style=|Status_Keyword|/>攻擊鎖定的目標敵人。\r\n此帕魯使用的<activeSkillName id=|Unique_Werewolf_Ice_SnowScratch| style=|Status_Keyword|/>的威力將提升至<Status_Up>{ActiveSkillMainValueByRank}倍</>。\r\n若牠在隊伍中，玩家的<Status_Keyword>近戰武器攻擊速度</>提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_AmaterasuWolf_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_AmaterasuWolf_Dark_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n若牠在隊伍中，玩家和帕魯受到的<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>傷害減輕<Status_Up>{Passive1_EffectValue1}%</>，並且不會陷入<uiCommon id=|ADDITIONAL_EFFECT_Darkness| style=|Effect_Darkness|/>狀態。（不可疊加）\r\n{ReferenceMsgId_RideSpeedUp}",
+          "LocalizedString": "可騎在牠的背上移動。\r\n若牠在隊伍中，玩家和帕魯受到的<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>傷害減輕<Status_Up>{Passive1_EffectValue1}%</>，並且不會陷入<uiCommon id=|ADDITIONAL_EFFECT_Darkness| style=|Effect_Darkness|/>狀態。（不可疊加）\r\n{ReferenceMsgId_RideSpeedUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_RaijinDaughter_Water": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_RaijinDaughter_Water_TextData",
+          "SourceString": "若牠在隊伍中，就會出現於玩家身邊。\r\n牠會用<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>的落雷追擊敵對的個體。\r\n且該追擊不會使獵物斃命。\r\n{ReferenceMsgId_Funnel}",
+          "LocalizedString": "若牠在隊伍中，就會出現於玩家身邊。\r\n牠會用<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>的落雷追擊敵對的個體。\r\n且該追擊不會使獵物斃命。\r\n{ReferenceMsgId_Funnel}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_WhiteTiger_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_WhiteTiger_Ground_TextData",
+          "SourceString": "若牠在隊伍中，攻擊擊中<Status_Keyword>弱點部位</>時，下次擊中弱點部位的攻擊威力提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "若牠在隊伍中，攻擊擊中<Status_Keyword>弱點部位</>時，下次擊中弱點部位的攻擊威力提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_FengyunDeeper_Electric": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_FengyunDeeper_Electric_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n騎乘期間可以進行<Status_Keyword>2段跳躍</>。\r\n若牠在隊伍中，擊倒<img id=|ElemIcon_Water|/><uiCommon id=|COMMON_ELEMENT_NAME_Water| style=|Elem_Water|/>帕魯時的道具掉落量增加<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）\r\n{ReferenceMsgId_RideSpeedUp}",
+          "LocalizedString": "可騎在牠的背上移動。\r\n騎乘期間可以進行<Status_Keyword>2段跳躍</>。\r\n若牠在隊伍中，擊倒<img id=|ElemIcon_Water|/><uiCommon id=|COMMON_ELEMENT_NAME_Water| style=|Elem_Water|/>帕魯時的道具掉落量增加<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）\r\n{ReferenceMsgId_RideSpeedUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Horus_Water": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Horus_Water_TextData",
+          "SourceString": "可騎在牠的背上在空中飛行。\r\n若牠在隊伍中，擊倒<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/>帕魯時的道具掉落量增加<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "可騎在牠的背上在空中飛行。\r\n若牠在隊伍中，擊倒<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/>帕魯時的道具掉落量增加<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_DarkMechaDragon": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_DarkMechaDragon_TextData",
+          "SourceString": "可騎在牠的背上在空中飛行。\r\n若牠在隊伍中，<Status_Keyword>持有武器的帕魯的夥伴技能</>傷害將提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）\r\n{ReferenceMsgId_RideSpeedUp}",
+          "LocalizedString": "可騎在牠的背上在空中飛行。\r\n若牠在隊伍中，<Status_Keyword>持有武器的帕魯的夥伴技能</>傷害將提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）\r\n{ReferenceMsgId_RideSpeedUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_GhostRabbit": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_GhostRabbit_TextData",
+          "SourceString": "若牠在隊伍中，擊倒帕魯時的帕魯之魂掉落量增加<Status_Up>+{Passive1_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "若牠在隊伍中，擊倒帕魯時的帕魯之魂掉落量增加<Status_Up>+{Passive1_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_NightBlueHorse": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_NightBlueHorse_TextData",
+          "SourceString": "可騎在牠的背上移動。騎乘期間跳躍能力提升。\r\n夜晚期間，此帕魯的移動速度提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "可騎在牠的背上移動。騎乘期間跳躍能力提升。\r\n夜晚期間，此帕魯的移動速度提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_WhiteShieldDragon": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_WhiteShieldDragon_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n若牠在隊伍中，玩家的護盾開始修復的等待時間縮短<Status_Up>{Passive1_EffectValue1}%</>，且護盾受到的傷害減少<Status_Up>{Passive2_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "可騎在牠的背上移動。\r\n若牠在隊伍中，玩家的護盾開始修復的等待時間縮短<Status_Up>{Passive1_EffectValue1}%</>，且護盾受到的傷害減少<Status_Up>{Passive2_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_BlackPuppy": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_BlackPuppy_TextData",
+          "SourceString": "發動後能夠以敏銳的嗅覺，來探測附近<itemName id=|Chromium| style=|Status_Keyword|/>的位置。\r\n與牠並肩作戰時，<itemName id=|Chromium| style=|Status_Keyword|/>的掉落量也會提升<Status_Up>{Passive1_EffectValue1}%</>。",
+          "LocalizedString": "發動後能夠以敏銳的嗅覺，來探測附近<itemName id=|Chromium| style=|Status_Keyword|/>的位置。\r\n與牠並肩作戰時，<itemName id=|Chromium| style=|Status_Keyword|/>的掉落量也會提升<Status_Up>{Passive1_EffectValue1}%</>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_WhiteDeer": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_WhiteDeer_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n<characterName id=|WhiteDeer|/>的攻擊力和移動速度，會隨著隊伍中其他<img id=|ElemIcon_Neutral|/><uiCommon id=|COMMON_ELEMENT_NAME_Normal| style=|Elem_Neutral|/>帕魯的數量提升，每隻增加<Status_Up>{Passive2_EffectValue1}%</>。\r\n若牠在隊伍中，非戰鬥時每秒玩家與隊伍帕魯的生命值恢復<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "可騎在牠的背上移動。\r\n<characterName id=|WhiteDeer|/>的攻擊力和移動速度，會隨著隊伍中其他<img id=|ElemIcon_Neutral|/><uiCommon id=|COMMON_ELEMENT_NAME_Normal| style=|Elem_Neutral|/>帕魯的數量提升，每隻增加<Status_Up>{Passive2_EffectValue1}%</>。\r\n若牠在隊伍中，非戰鬥時每秒玩家與隊伍帕魯的生命值恢復<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_MysteryMask": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_MysteryMask_TextData",
+          "SourceString": "若牠在隊伍中，隊伍帕魯<Status_Keyword>所獲得的經驗值</>會提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "若牠在隊伍中，隊伍帕魯<Status_Keyword>所獲得的經驗值</>會提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_GrimGirl": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_GrimGirl_TextData",
+          "SourceString": "若牠在隊伍中， 使用<itemName id=|MeatCutterKnife|/>進行解體時，所獲得的掉落道具增加<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "若牠在隊伍中， 使用<itemName id=|MeatCutterKnife|/>進行解體時，所獲得的掉落道具增加<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_PurpleSpider": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_PurpleSpider_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n騎乘期間可以進行<Status_Keyword>2段跳躍</>，\r\n並向射擊地點發射蜘蛛絲，牽引身體快速移動。\r\n{ReferenceMsgId_RideSpeedUp}",
+          "LocalizedString": "可騎在牠的背上移動。\r\n騎乘期間可以進行<Status_Keyword>2段跳躍</>，\r\n並向射擊地點發射蜘蛛絲，牽引身體快速移動。\r\n{ReferenceMsgId_RideSpeedUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_BlueThunderHorse": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_BlueThunderHorse_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n此外，可<Status_Keyword>在空中進行衝刺</>以高速移動。\r\n{ReferenceMsgId_ShortDashSpeedCoolTime}",
+          "LocalizedString": "可騎在牠的背上移動。\r\n此外，可<Status_Keyword>在空中進行衝刺</>以高速移動。\r\n{ReferenceMsgId_ShortDashSpeedCoolTime}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_SnowTigerBeastman": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_SnowTigerBeastman_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n騎乘期間牠還能揮下<img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>的大錘進行攻擊。\r\n{ReferenceMsgId_DamageUp}",
+          "LocalizedString": "可騎在牠的背上移動。\r\n騎乘期間牠還能揮下<img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>的大錘進行攻擊。\r\n{ReferenceMsgId_DamageUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_BlueberryFairy": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_BlueberryFairy_TextData",
+          "SourceString": "若牠在據點裡，<characterName id=|BlueberryFairy|/>會進行祈禱， 讓作物的收穫量提升<Status_Up>{Passive1_EffectValue1}%</>。",
+          "LocalizedString": "若牠在據點裡，<characterName id=|BlueberryFairy|/>會進行祈禱， 讓作物的收穫量提升<Status_Up>{Passive1_EffectValue1}%</>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_BadCatgirl": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_BadCatgirl_TextData",
+          "SourceString": "發動後，<characterName id=|BadCatgirl|/>會在一段時間內用散彈槍攻擊附近的敵人。\r\n若牠在隊伍中，玩家的散彈槍攻擊傷害提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "發動後，<characterName id=|BadCatgirl|/>會在一段時間內用散彈槍攻擊附近的敵人。\r\n若牠在隊伍中，玩家的散彈槍攻擊傷害提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_GoldenHorse": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_GoldenHorse_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n騎乘期間玩家的攻擊會轉變為<img id=|ElemIcon_Ground|/><uiCommon id=|COMMON_ELEMENT_NAME_Earth| style=|Elem_Ground|/>，且攻擊力提升<Status_Up>{Passive2_EffectValue1}%</>。",
+          "LocalizedString": "可騎在牠的背上移動。\r\n騎乘期間玩家的攻擊會轉變為<img id=|ElemIcon_Ground|/><uiCommon id=|COMMON_ELEMENT_NAME_Earth| style=|Elem_Ground|/>，且攻擊力提升<Status_Up>{Passive2_EffectValue1}%</>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_NegativeOctopus_Neutral": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_NegativeOctopus_Neutral_TextData",
+          "SourceString": "若牠在隊伍中，會改變滑翔傘的性能。\r\n滑翔期間能夠長時間漂浮在空中。\r\n{ReferenceMsgId_GriderPerformanceUp}",
+          "LocalizedString": "若牠在隊伍中，會改變滑翔傘的性能。\r\n滑翔期間能夠長時間漂浮在空中。\r\n{ReferenceMsgId_GriderPerformanceUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Penguin_Electric": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Penguin_Electric_TextData",
+          "SourceString": "發動後玩家將裝備<itemName id=|Launcher_Default|/>，並可將<characterName id=|Penguin_Electric|/>當作砲彈射出。\r\n命中目標後<characterName id=|Penguin_Electric|/>會爆炸，並陷入瀕死狀態。\r\n{ReferenceMsgId_DamageUp}",
+          "LocalizedString": "發動後玩家將裝備<itemName id=|Launcher_Default|/>，並可將<characterName id=|Penguin_Electric|/>當作砲彈射出。\r\n命中目標後<characterName id=|Penguin_Electric|/>會爆炸，並陷入瀕死狀態。\r\n{ReferenceMsgId_DamageUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_CaptainPenguin_Black": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_CaptainPenguin_Black_TextData",
+          "SourceString": "若牠在隊伍中，玩家和帕魯以<img id=|ElemIcon_Water|/><uiCommon id=|COMMON_ELEMENT_NAME_Water| style=|Elem_Water|/>攻擊克制的屬性時傷害提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "若牠在隊伍中，玩家和帕魯以<img id=|ElemIcon_Water|/><uiCommon id=|COMMON_ELEMENT_NAME_Water| style=|Elem_Water|/>攻擊克制的屬性時傷害提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_FlyingManta_Thunder": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_FlyingManta_Thunder_TextData",
+          "SourceString": "若牠在隊伍中，會改變滑翔傘的效能，並使玩家<Status_Keyword>免受墜落傷害</>。\r\n滑翔期間能夠長時間快速移動。\r\n{ReferenceMsgId_GriderPerformanceUp}",
+          "LocalizedString": "若牠在隊伍中，會改變滑翔傘的效能，並使玩家<Status_Keyword>免受墜落傷害</>。\r\n滑翔期間能夠長時間快速移動。\r\n{ReferenceMsgId_GriderPerformanceUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_BluePlatypus_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_BluePlatypus_Fire_TextData",
+          "SourceString": "發動後，<characterName id=|BluePlatypus_Fire|/>會乘著焰浪衝向敵人。\r\n{ReferenceMsgId_DamageUp}",
+          "LocalizedString": "發動後，<characterName id=|BluePlatypus_Fire|/>會乘著焰浪衝向敵人。\r\n{ReferenceMsgId_DamageUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_LazyCatfish_Gold": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_LazyCatfish_Gold_TextData",
+          "SourceString": "若牠在隊伍中，被打倒的敵人掉落的<itemName id=|Money|/>提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）\r\n將牠分派到<mapObjectName id=|MonsterFarm|/>，牠就會掉落<itemName id=|PalOil| style=|Status_Keyword|/>或有小機率掉落<itemName id=|Money| style=|Status_Keyword|/>。",
+          "LocalizedString": "若牠在隊伍中，被打倒的敵人掉落的<itemName id=|Money|/>提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）\r\n將牠分派到<mapObjectName id=|MonsterFarm|/>，牠就會掉落<itemName id=|PalOil| style=|Status_Keyword|/>或有小機率掉落<itemName id=|Money| style=|Status_Keyword|/>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_TentacleTurtle_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_TentacleTurtle_Ground_TextData",
+          "SourceString": "若牠在隊伍中，<itemName id=|Sulfur| style=|Status_Keyword|/>和<itemName id=|Coal| style=|Status_Keyword|/>的重量將減輕<Status_Up>{Passive1_EffectValue1}%</>，且玩家和帕魯以<img id=|ElemIcon_Ground|/><uiCommon id=|COMMON_ELEMENT_NAME_Earth| style=|Elem_Ground|/>攻擊克制的屬性時傷害提升<Status_Up>{Passive2_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "若牠在隊伍中，<itemName id=|Sulfur| style=|Status_Keyword|/>和<itemName id=|Coal| style=|Status_Keyword|/>的重量將減輕<Status_Up>{Passive1_EffectValue1}%</>，且玩家和帕魯以<img id=|ElemIcon_Ground|/><uiCommon id=|COMMON_ELEMENT_NAME_Earth| style=|Elem_Ground|/>攻擊克制的屬性時傷害提升<Status_Up>{Passive2_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_KendoFrog_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_KendoFrog_Dark_TextData",
+          "SourceString": "發動後，<characterName id=|KendoFrog_Dark|/>會靠忠誠心和膨脹的腹部積蓄力量。\r\n玩家踩上去後能高高跳起。\r\n若牠在隊伍中，玩家和帕魯以<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>攻擊克制的屬性時傷害提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "發動後，<characterName id=|KendoFrog_Dark|/>會靠忠誠心和膨脹的腹部積蓄力量。\r\n玩家踩上去後能高高跳起。\r\n若牠在隊伍中，玩家和帕魯以<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>攻擊克制的屬性時傷害提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_BlueDragon_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_BlueDragon_Ice_TextData",
+          "SourceString": "可騎在牠的背上在水上移動。\r\n騎乘期間玩家的攻擊會轉變為<img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>，且攻擊力提升<Status_Up>{Passive2_EffectValue1}%</>。\r\n{ReferenceMsgId_SwimSpeedUp}",
+          "LocalizedString": "可騎在牠的背上在水上移動。\r\n騎乘期間玩家的攻擊會轉變為<img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>，且攻擊力提升<Status_Up>{Passive2_EffectValue1}%</>。\r\n{ReferenceMsgId_SwimSpeedUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_IceNarwhal_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_IceNarwhal_Fire_TextData",
+          "SourceString": "可騎在牠的背上在水上移動。\r\n若牠在隊伍中，釣魚的捕獲計量槽在小遊戲開始時的初始位置升高<Status_Up>{Passive1_EffectValue1}%</>，並且在判定條與魚的圖示重合期間，捕獲計量槽的上升量增加<Status_Up>{Passive2_EffectValue1}%</>。（不可疊加）\r\n{ReferenceMsgId_SwimSpeedUp}",
+          "LocalizedString": "可騎在牠的背上在水上移動。\r\n若牠在隊伍中，釣魚的捕獲計量槽在小遊戲開始時的初始位置升高<Status_Up>{Passive1_EffectValue1}%</>，並且在判定條與魚的圖示重合期間，捕獲計量槽的上升量增加<Status_Up>{Passive2_EffectValue1}%</>。（不可疊加）\r\n{ReferenceMsgId_SwimSpeedUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_GhostAnglerfish_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_GhostAnglerfish_Fire_TextData",
+          "SourceString": "可騎在牠的背上在水上移動。\r\n<characterName id=|GhostAnglerfish_Fire|/>的移動速度，會隨著隊伍中其他<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/>或<img id=|ElemIcon_Water|/><uiCommon id=|COMMON_ELEMENT_NAME_Water| style=|Elem_Water|/>帕魯的數量提升，每隻增加<Status_Up>{Passive1_EffectValue1}%</>。",
+          "LocalizedString": "可騎在牠的背上在水上移動。\r\n<characterName id=|GhostAnglerfish_Fire|/>的移動速度，會隨著隊伍中其他<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/>或<img id=|ElemIcon_Water|/><uiCommon id=|COMMON_ELEMENT_NAME_Water| style=|Elem_Water|/>帕魯的數量提升，每隻增加<Status_Up>{Passive1_EffectValue1}%</>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_StuffedShark_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_StuffedShark_Fire_TextData",
+          "SourceString": "若牠在隊伍中，<characterName id=|StuffedShark_Fire|/>會幫忙分擔負重，背包內武器的重量減輕<Status_Up>{Passive1_EffectValue1}%</>，且玩家和帕魯以<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/>攻擊克制的屬性時傷害提升<Status_Up>{Passive2_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "若牠在隊伍中，<characterName id=|StuffedShark_Fire|/>會幫忙分擔負重，背包內武器的重量減輕<Status_Up>{Passive1_EffectValue1}%</>，且玩家和帕魯以<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/>攻擊克制的屬性時傷害提升<Status_Up>{Passive2_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_TentacleTurtle_NotUse": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_TentacleTurtle_NotUse_TextData",
+          "SourceString": "zh_Hans_Text",
+          "LocalizedString": "zh_Hans_Text"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_OctopusGirl": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_OctopusGirl_TextData",
+          "SourceString": "若牠在隊伍中，在釣魚小遊戲中的判定條和魚的圖示未重合期間，捕獲計量槽的下降量減少<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "若牠在隊伍中，在釣魚小遊戲中的判定條和魚的圖示未重合期間，捕獲計量槽的下降量減少<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_IceNarwhal": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_IceNarwhal_TextData",
+          "SourceString": "可騎在牠的背上在水上移動。\r\n若牠在隊伍中，釣魚的捕獲計量槽在小遊戲開始時的初始位置升高<Status_Up>{Passive1_EffectValue1}%</>，並且在判定條與魚的圖示重合期間，捕獲計量槽的上升量增加<Status_Up>{Passive2_EffectValue1}%</>。（不可疊加）\r\n{ReferenceMsgId_SwimSpeedUp}",
+          "LocalizedString": "可騎在牠的背上在水上移動。\r\n若牠在隊伍中，釣魚的捕獲計量槽在小遊戲開始時的初始位置升高<Status_Up>{Passive1_EffectValue1}%</>，並且在判定條與魚的圖示重合期間，捕獲計量槽的上升量增加<Status_Up>{Passive2_EffectValue1}%</>。（不可疊加）\r\n{ReferenceMsgId_SwimSpeedUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_JellyfishFairy": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_JellyfishFairy_TextData",
+          "SourceString": "若牠在隊伍中，釣魚時獲得的道具增加<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）\r\n此外，當<characterName id=|JellyfishFairy|/>和<characterName id=|JellyfishGhost|/>同時在據點裡時，<characterName id=|JellyfishFairy|/>澆水的工作速度提升<Status_Up>{Passive3_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "若牠在隊伍中，釣魚時獲得的道具增加<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）\r\n此外，當<characterName id=|JellyfishFairy|/>和<characterName id=|JellyfishGhost|/>同時在據點裡時，<characterName id=|JellyfishFairy|/>澆水的工作速度提升<Status_Up>{Passive3_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_JellyfishGhost": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_JellyfishGhost_TextData",
+          "SourceString": "若牠在隊伍中，打撈時獲得的道具增加<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）\r\n此外，當<characterName id=|JellyfishFairy|/>和<characterName id=|JellyfishGhost|/>同時在據點裡時，<characterName id=|JellyfishGhost|/>澆水的工作速度提升<Status_Up>{Passive2_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "若牠在隊伍中，打撈時獲得的道具增加<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）\r\n此外，當<characterName id=|JellyfishFairy|/>和<characterName id=|JellyfishGhost|/>同時在據點裡時，<characterName id=|JellyfishGhost|/>澆水的工作速度提升<Status_Up>{Passive2_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_GhostAnglerfish": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_GhostAnglerfish_TextData",
+          "SourceString": "可騎在牠的背上在水上移動。\r\n<characterName id=|GhostAnglerfish|/>的移動速度，會隨著隊伍中其他<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>或<img id=|ElemIcon_Water|/><uiCommon id=|COMMON_ELEMENT_NAME_Water| style=|Elem_Water|/>帕魯的數量提升，每隻增加<Status_Up>{Passive1_EffectValue1}%</>。",
+          "LocalizedString": "可騎在牠的背上在水上移動。\r\n<characterName id=|GhostAnglerfish|/>的移動速度，會隨著隊伍中其他<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>或<img id=|ElemIcon_Water|/><uiCommon id=|COMMON_ELEMENT_NAME_Water| style=|Elem_Water|/>帕魯的數量提升，每隻增加<Status_Up>{Passive1_EffectValue1}%</>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_IceWitch": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_IceWitch_TextData",
+          "SourceString": "發動後，<characterName id=|IceWitch|/>會將力量分給玩家，讓玩家的攻擊轉變為<img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>，且攻擊力提升<Status_Up>{ReferencePassive1_EffectValue1}%</>。",
+          "LocalizedString": "發動後，<characterName id=|IceWitch|/>會將力量分給玩家，讓玩家的攻擊轉變為<img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>，且攻擊力提升<Status_Up>{ReferencePassive1_EffectValue1}%</>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_LeafMomonga": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_LeafMomonga_TextData",
+          "SourceString": "若牠在隊伍中，<characterName id=|LeafMomonga|/>會在玩家陷入瀕死狀態時，透過治癒能力讓玩家以<uiCommon id=|COMMON_STATUS_HP2|/><Status_Up>{ActiveSkillMainValueByRank}%</>的狀態<Status_Keyword>復活</>。\r\n{ReferenceMsgId_CooldownReduction}",
+          "LocalizedString": "若牠在隊伍中，<characterName id=|LeafMomonga|/>會在玩家陷入瀕死狀態時，透過治癒能力讓玩家以<uiCommon id=|COMMON_STATUS_HP2|/><Status_Up>{ActiveSkillMainValueByRank}%</>的狀態<Status_Keyword>復活</>。\r\n{ReferenceMsgId_CooldownReduction}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_IceCrocodile": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_IceCrocodile_TextData",
+          "SourceString": "若牠在隊伍中，<Status_Keyword>食材</>和<Status_Keyword>料理</>的重量會減輕<Status_Up>{Passive1_EffectValue1}%</>。並在<img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>帕魯原有的防腐效果基礎上，讓腐敗速度進一步<Status_Up>{Passive2_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "若牠在隊伍中，<Status_Keyword>食材</>和<Status_Keyword>料理</>的重量會減輕<Status_Up>{Passive1_EffectValue1}%</>。並在<img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>帕魯原有的防腐效果基礎上，讓腐敗速度進一步<Status_Up>{Passive2_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_StuffedShark": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_StuffedShark_TextData",
+          "SourceString": "發動後，<characterName id=|StuffedShark|/>會將力量分給玩家，讓玩家的攻擊轉變為<img id=|ElemIcon_Water|/><uiCommon id=|COMMON_ELEMENT_NAME_Water| style=|Elem_Water|/>，且攻擊力提升<Status_Up>{ReferencePassive1_EffectValue1}%</>。",
+          "LocalizedString": "發動後，<characterName id=|StuffedShark|/>會將力量分給玩家，讓玩家的攻擊轉變為<img id=|ElemIcon_Water|/><uiCommon id=|COMMON_ELEMENT_NAME_Water| style=|Elem_Water|/>，且攻擊力提升<Status_Up>{ReferencePassive1_EffectValue1}%</>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_IceSeal": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_IceSeal_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n<Status_Keyword>在雪地上</>時，移動速度提高<Status_Up>{Passive1_EffectValue1}%</>。\r\n並且可以在斜坡處快速向下滑行。",
+          "LocalizedString": "可騎在牠的背上移動。\r\n<Status_Keyword>在雪地上</>時，移動速度提高<Status_Up>{Passive1_EffectValue1}%</>。\r\n並且可以在斜坡處快速向下滑行。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Plesiosaur": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Plesiosaur_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n若牠在據點裡，分派到<mapObjectName id=|BreedFarm|/>的帕魯產蛋速度加快<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "可騎在牠的背上移動。\r\n若牠在據點裡，分派到<mapObjectName id=|BreedFarm|/>的帕魯產蛋速度加快<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_TropicalOstrich": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_TropicalOstrich_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n<Status_Keyword>在草地上</>時，移動速度提高<Status_Up>{Passive1_EffectValue1}%</>。",
+          "LocalizedString": "可騎在牠的背上移動。\r\n<Status_Keyword>在草地上</>時，移動速度提高<Status_Up>{Passive1_EffectValue1}%</>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_SnowPeafowl": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_SnowPeafowl_TextData",
+          "SourceString": "若牠在隊伍中，受到<characterName id=|SnowPeafowl|/>釋放的冷氣影響，玩家會更專注，武器<Status_Keyword>重新裝彈的速度</>提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "若牠在隊伍中，受到<characterName id=|SnowPeafowl|/>釋放的冷氣影響，玩家會更專注，武器<Status_Keyword>重新裝彈的速度</>提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_PoseidonOrca": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_PoseidonOrca_TextData",
+          "SourceString": "與牠並肩作戰時，牠會配合玩家的攻擊用<img id=|ElemIcon_Water|/><uiCommon id=|COMMON_ELEMENT_NAME_Water| style=|Elem_Water|/>的長槍進行追擊。\r\n可騎在牠的背上在水上移動。\r\n騎乘期間可在水面高高躍起。\r\n{ReferenceMsgId_SwimSpeedUp_CooldownReduction}",
+          "LocalizedString": "與牠並肩作戰時，牠會配合玩家的攻擊用<img id=|ElemIcon_Water|/><uiCommon id=|COMMON_ELEMENT_NAME_Water| style=|Elem_Water|/>的長槍進行追擊。\r\n可騎在牠的背上在水上移動。\r\n騎乘期間可在水面高高躍起。\r\n{ReferenceMsgId_SwimSpeedUp_CooldownReduction}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_YakushimaMonster001": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_YakushimaMonster001_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n騎乘期間可高高躍起。 ",
+          "LocalizedString": "可騎在牠的背上移動。\r\n騎乘期間可高高躍起。 "
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_YakushimaMonster001_Blue": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_YakushimaMonster001_Blue_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n騎乘期間可高高躍起。 ",
+          "LocalizedString": "可騎在牠的背上移動。\r\n騎乘期間可高高躍起。 "
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_YakushimaMonster001_Red": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_YakushimaMonster001_Red_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n騎乘期間可高高躍起。 ",
+          "LocalizedString": "可騎在牠的背上移動。\r\n騎乘期間可高高躍起。 "
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_YakushimaMonster001_Purple": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_YakushimaMonster001_Purple_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n騎乘期間可高高躍起。 ",
+          "LocalizedString": "可騎在牠的背上移動。\r\n騎乘期間可高高躍起。 "
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_YakushimaMonster001_Pink": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_YakushimaMonster001_Pink_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n騎乘期間可高高躍起。 ",
+          "LocalizedString": "可騎在牠的背上移動。\r\n騎乘期間可高高躍起。 "
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_YakushimaMonster001_Rainbow": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_YakushimaMonster001_Rainbow_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n騎乘期間可高高躍起。 ",
+          "LocalizedString": "可騎在牠的背上移動。\r\n騎乘期間可高高躍起。 "
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_YakushimaBoss001_Small": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_YakushimaBoss001_Small_TextData",
+          "SourceString": "若牠在隊伍中，<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>帕魯的攻擊力會提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "若牠在隊伍中，<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>帕魯的攻擊力會提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_YakushimaMonster002": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_YakushimaMonster002_TextData",
+          "SourceString": "若牠在隊伍中，擊倒<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>帕魯時的道具掉落量增加<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "若牠在隊伍中，擊倒<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>帕魯時的道具掉落量增加<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_YakushimaMonster003": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_YakushimaMonster003_TextData",
+          "SourceString": "若牠在隊伍中，就會出現在玩家身邊。\r\n牠會自動前去拾取附近的道具。\r\n{ReferenceMsgId_ItemCollectRangeUp}",
+          "LocalizedString": "若牠在隊伍中，就會出現在玩家身邊。\r\n牠會自動前去拾取附近的道具。\r\n{ReferenceMsgId_ItemCollectRangeUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_YakushimaMonster003_Purple": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_YakushimaMonster003_Purple_TextData",
+          "SourceString": "若牠在隊伍中，就會出現在玩家身邊。\r\n牠會自動前去拾取附近的道具。\r\n{ReferenceMsgId_ItemCollectRangeUp}",
+          "LocalizedString": "若牠在隊伍中，就會出現在玩家身邊。\r\n牠會自動前去拾取附近的道具。\r\n{ReferenceMsgId_ItemCollectRangeUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_YakushimaBoss001": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_YakushimaBoss001_TextData",
+          "SourceString": "發動後，<characterName id=|YakushimaBoss001|/>會向前方突進並攻擊鎖定的敵人。\r\n{ReferenceMsgId_DamageUp}",
+          "LocalizedString": "發動後，<characterName id=|YakushimaBoss001|/>會向前方突進並攻擊鎖定的敵人。\r\n{ReferenceMsgId_DamageUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_LegendDeer": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_LegendDeer_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n騎乘期間可生成護盾，抵禦一切攻擊。\r\n此外，騎乘期間可進行<Status_Keyword>3段跳躍</>。\r\n{ReferenceMsgId_CooldownReduction}",
+          "LocalizedString": "可騎在牠的背上移動。\r\n騎乘期間可生成護盾，抵禦一切攻擊。\r\n此外，騎乘期間可進行<Status_Keyword>3段跳躍</>。\r\n{ReferenceMsgId_CooldownReduction}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Kirin_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Kirin_Ice_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n騎乘期間玩家的攻擊會轉變為<img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>，且攻擊力提升<Status_Up>{Passive2_EffectValue1}%</>。",
+          "LocalizedString": "可騎在牠的背上移動。\r\n騎乘期間玩家的攻擊會轉變為<img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>，且攻擊力提升<Status_Up>{Passive2_EffectValue1}%</>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_ClioneTwins": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_ClioneTwins_TextData",
+          "SourceString": "若牠在據點裡，其他據點帕魯的<uiCommon id=|COMMON_WORK_SUITABILITY_Watering| style=|Status_Keyword|/>工作適應性等級<Status_Keyword>+{Passive1_EffectValue1}</>。（不可疊加）",
+          "LocalizedString": "若牠在據點裡，其他據點帕魯的<uiCommon id=|COMMON_WORK_SUITABILITY_Watering| style=|Status_Keyword|/>工作適應性等級<Status_Keyword>+{Passive1_EffectValue1}</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_FluffyBird": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_FluffyBird_TextData",
+          "SourceString": "若牠在隊伍中，提升對陷入<uiCommon id=|ADDITIONAL_EFFECT_Freeze| style=|Effect_Freeze|/>狀態帕魯的捕獲機率。（不可疊加）\r\n{ReferenceMsgId_CaptureRate}",
+          "LocalizedString": "若牠在隊伍中，提升對陷入<uiCommon id=|ADDITIONAL_EFFECT_Freeze| style=|Effect_Freeze|/>狀態帕魯的捕獲機率。（不可疊加）\r\n{ReferenceMsgId_CaptureRate}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_MoonChild": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_MoonChild_TextData",
+          "SourceString": "若牠在隊伍中，<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>帕魯的防禦力提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "若牠在隊伍中，<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>帕魯的防禦力提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_CloverFairy": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_CloverFairy_TextData",
+          "SourceString": "若牠在據點裡，其他據點帕魯的<uiCommon id=|COMMON_WORK_SUITABILITY_Collection| style=|Status_Keyword|/>工作適應性等級<Status_Keyword>+{Passive1_EffectValue1}</>。（不可疊加）",
+          "LocalizedString": "若牠在據點裡，其他據點帕魯的<uiCommon id=|COMMON_WORK_SUITABILITY_Collection| style=|Status_Keyword|/>工作適應性等級<Status_Keyword>+{Passive1_EffectValue1}</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_ClownRabbit": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_ClownRabbit_TextData",
+          "SourceString": "若牠在隊伍中，當玩家的生命值低於50%時，<characterName id=|ClownRabbit|/>會在玩家週邊掀起爆炸衝擊波（<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/> / 威力: <Status_Up>{Passive1_EffectValue1}</> / <uiCommon id=|ADDITIONAL_EFFECT_Burn| style=|Effect_Burn|/>積蓄值: <Status_Keyword>{ReferencePassive1_EffectValue1}</>）。\r\n此外，玩家的生命值低於50%期間，玩家的攻擊力提升<Status_Up>{Passive2_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "若牠在隊伍中，當玩家的生命值低於50%時，<characterName id=|ClownRabbit|/>會在玩家週邊掀起爆炸衝擊波（<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/> / 威力: <Status_Up>{Passive1_EffectValue1}</> / <uiCommon id=|ADDITIONAL_EFFECT_Burn| style=|Effect_Burn|/>積蓄值: <Status_Keyword>{ReferencePassive1_EffectValue1}</>）。\r\n此外，玩家的生命值低於50%期間，玩家的攻擊力提升<Status_Up>{Passive2_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_BlackPuppy_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_BlackPuppy_Ice_TextData",
+          "SourceString": "若牠在據點裡，其他據點帕魯的<uiCommon id=|COMMON_WORK_SUITABILITY_Cool| style=|Status_Keyword|/>工作適應性等級<Status_Keyword>+{Passive1_EffectValue1}</>。（不可疊加）",
+          "LocalizedString": "若牠在據點裡，其他據點帕魯的<uiCommon id=|COMMON_WORK_SUITABILITY_Cool| style=|Status_Keyword|/>工作適應性等級<Status_Keyword>+{Passive1_EffectValue1}</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_SwordCutlassfish": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_SwordCutlassfish_TextData",
+          "SourceString": "發動後，<characterName id=|SwordCutlassfish|/>會化身為玩家的刀（<uiCommon id=|COMMON_STATUS_RANGE_ATTACK|/>：<Status_Up>{ActiveSkillMainValueByRank}</>）。\r\n若不及時解除，<characterName id=|SwordCutlassfish|/>將陷入瀕死狀態。\r\n發動居合斬後同樣會陷入瀕死狀態。",
+          "LocalizedString": "發動後，<characterName id=|SwordCutlassfish|/>會化身為玩家的刀（<uiCommon id=|COMMON_STATUS_RANGE_ATTACK|/>：<Status_Up>{ActiveSkillMainValueByRank}</>）。\r\n若不及時解除，<characterName id=|SwordCutlassfish|/>將陷入瀕死狀態。\r\n發動居合斬後同樣會陷入瀕死狀態。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_SwordCutlassfish_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_SwordCutlassfish_Fire_TextData",
+          "SourceString": "發動後，<characterName id=|SwordCutlassfish_Fire|/>會化身為玩家的刀（<uiCommon id=|COMMON_STATUS_RANGE_ATTACK|/>：<Status_Up>{ActiveSkillMainValueByRank}</>）。\r\n若不及時解除，<characterName id=|SwordCutlassfish_Fire|/>將陷入瀕死狀態。\r\n發動居合斬後同樣會陷入瀕死狀態。",
+          "LocalizedString": "發動後，<characterName id=|SwordCutlassfish_Fire|/>會化身為玩家的刀（<uiCommon id=|COMMON_STATUS_RANGE_ATTACK|/>：<Status_Up>{ActiveSkillMainValueByRank}</>）。\r\n若不及時解除，<characterName id=|SwordCutlassfish_Fire|/>將陷入瀕死狀態。\r\n發動居合斬後同樣會陷入瀕死狀態。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_GrassGolem": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_GrassGolem_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n騎乘期間，可以從<characterName id=|GrassGolem|/>的右手處會發射<img id=|ElemIcon_Grass|/><uiCommon id=|COMMON_ELEMENT_NAME_Leaf| style=|Elem_Grass|/>的強力雷射。\r\n{ReferenceMsgId_CooldownReduction}",
+          "LocalizedString": "可騎在牠的背上移動。\r\n騎乘期間，可以從<characterName id=|GrassGolem|/>的右手處會發射<img id=|ElemIcon_Grass|/><uiCommon id=|COMMON_ELEMENT_NAME_Leaf| style=|Elem_Grass|/>的強力雷射。\r\n{ReferenceMsgId_CooldownReduction}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_GrassGolem_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_GrassGolem_Dark_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n騎乘期間，可以從<characterName id=|GrassGolem_Dark|/>的右手處會發射<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>的強力雷射。\r\n{ReferenceMsgId_CooldownReduction}",
+          "LocalizedString": "可騎在牠的背上移動。\r\n騎乘期間，可以從<characterName id=|GrassGolem_Dark|/>的右手處會發射<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>的強力雷射。\r\n{ReferenceMsgId_CooldownReduction}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_FlowerDoll_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_FlowerDoll_Fire_TextData",
+          "SourceString": "發動後，牠會用花朵的治癒之力讓玩家的生命值恢復<Status_Up>{ActiveSkillMainValueByRank}%</>。\r\n若牠在隊伍中，玩家和帕魯受到的<img id=|ElemIcon_Grass|/><uiCommon id=|COMMON_ELEMENT_NAME_Leaf| style=|Elem_Grass|/>傷害減輕<Status_Up>{Passive1_EffectValue1}%</>，並且不會陷入<uiCommon id=|ADDITIONAL_EFFECT_IvyCling| style=|Effect_IvyCling|/>狀態。（不可疊加）",
+          "LocalizedString": "發動後，牠會用花朵的治癒之力讓玩家的生命值恢復<Status_Up>{ActiveSkillMainValueByRank}%</>。\r\n若牠在隊伍中，玩家和帕魯受到的<img id=|ElemIcon_Grass|/><uiCommon id=|COMMON_ELEMENT_NAME_Leaf| style=|Elem_Grass|/>傷害減輕<Status_Up>{Passive1_EffectValue1}%</>，並且不會陷入<uiCommon id=|ADDITIONAL_EFFECT_IvyCling| style=|Effect_IvyCling|/>狀態。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_MushroomLady": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_MushroomLady_TextData",
+          "SourceString": "若牠在據點裡，其他據點帕魯的<uiCommon id=|COMMON_WORK_SUITABILITY_ProductMedicine| style=|Status_Keyword|/>工作適應性等級<Status_Keyword>+{Passive1_EffectValue1}</>。（不可疊加）",
+          "LocalizedString": "若牠在據點裡，其他據點帕魯的<uiCommon id=|COMMON_WORK_SUITABILITY_ProductMedicine| style=|Status_Keyword|/>工作適應性等級<Status_Keyword>+{Passive1_EffectValue1}</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_SumoDog": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_SumoDog_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n若牠在隊伍中，玩家和帕魯受到的<img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/>傷害減輕<Status_Up>{Passive1_EffectValue1}%</>，且不會陷入<uiCommon id=|ADDITIONAL_EFFECT_Electrical| style=|Effect_Electrical|/>狀態。（不可疊加）",
+          "LocalizedString": "可騎在牠的背上移動。\r\n若牠在隊伍中，玩家和帕魯受到的<img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/>傷害減輕<Status_Up>{Passive1_EffectValue1}%</>，且不會陷入<uiCommon id=|ADDITIONAL_EFFECT_Electrical| style=|Effect_Electrical|/>狀態。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_CactusDoll": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_CactusDoll_TextData",
+          "SourceString": "若牠在隊伍中，玩家和帕魯對<uiCommon id=|ADDITIONAL_EFFECT_IvyCling| style=|Effect_IvyCling|/>狀態的敵人造成的傷害將提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "若牠在隊伍中，玩家和帕魯對<uiCommon id=|ADDITIONAL_EFFECT_IvyCling| style=|Effect_IvyCling|/>狀態的敵人造成的傷害將提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_RockBeast": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_RockBeast_TextData",
+          "SourceString": "若牠在隊伍中，玩家和帕魯對<uiCommon id=|ADDITIONAL_EFFECT_Muddy| style=|Effect_Muddy|/>狀態的敵人造成的傷害將提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "若牠在隊伍中，玩家和帕魯對<uiCommon id=|ADDITIONAL_EFFECT_Muddy| style=|Effect_Muddy|/>狀態的敵人造成的傷害將提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_ThiefBird": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_ThiefBird_TextData",
+          "SourceString": "可騎在牠的背上在空中飛行。\r\n若牠在隊伍中，玩家和帕魯對<uiCommon id=|ADDITIONAL_EFFECT_Darkness| style=|Effect_Darkness|/>狀態的敵人造成的傷害將提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "可騎在牠的背上在空中飛行。\r\n若牠在隊伍中，玩家和帕魯對<uiCommon id=|ADDITIONAL_EFFECT_Darkness| style=|Effect_Darkness|/>狀態的敵人造成的傷害將提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_SleeveRabbit": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_SleeveRabbit_TextData",
+          "SourceString": "若牠在隊伍中，其他隊伍帕魯的<Status_Keyword>夥伴技能冷卻時間</>縮短<Status_Up>{Passive1_EffectValue2}%</>。（不可疊加）",
+          "LocalizedString": "若牠在隊伍中，其他隊伍帕魯的<Status_Keyword>夥伴技能冷卻時間</>縮短<Status_Up>{Passive1_EffectValue2}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_SnakeGirl": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_SnakeGirl_TextData",
+          "SourceString": "若牠在隊伍中，會為玩家的攻擊附加<Status_Up>{Passive1_EffectValue1}</>點<uiCommon id=|ADDITIONAL_EFFECT_Darkness| style=|Elem_Dark|/>異常狀態值。（不可疊加）",
+          "LocalizedString": "若牠在隊伍中，會為玩家的攻擊附加<Status_Up>{Passive1_EffectValue1}</>點<uiCommon id=|ADDITIONAL_EFFECT_Darkness| style=|Elem_Dark|/>異常狀態值。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_KabukiMan": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_KabukiMan_TextData",
+          "SourceString": "若牠在隊伍中，會為玩家的攻擊附加<Status_Up>{Passive1_EffectValue1}</>點<uiCommon id=|ADDITIONAL_EFFECT_Burn| style=|Effect_Burn|/>異常狀態值。（不可疊加）",
+          "LocalizedString": "若牠在隊伍中，會為玩家的攻擊附加<Status_Up>{Passive1_EffectValue1}</>點<uiCommon id=|ADDITIONAL_EFFECT_Burn| style=|Effect_Burn|/>異常狀態值。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_SamuraiDog": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_SamuraiDog_TextData",
+          "SourceString": "若牠在隊伍中，玩家<Status_Keyword>使用近戰武器時的傷害</>提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "若牠在隊伍中，玩家<Status_Keyword>使用近戰武器時的傷害</>提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Sekhmet": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Sekhmet_TextData",
+          "SourceString": "若牠在據點裡，據點中的<characterName id=|Anubis| style=|Status_Keyword|/>的工作速度提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）\r\n<characterName id=|Sekhmet|/>在工作台或作業工廠等處工作時，工作效率將會提升<Status_Up>{Passive2_EffectValue1}%</>。",
+          "LocalizedString": "若牠在據點裡，據點中的<characterName id=|Anubis| style=|Status_Keyword|/>的工作速度提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）\r\n<characterName id=|Sekhmet|/>在工作台或作業工廠等處工作時，工作效率將會提升<Status_Up>{Passive2_EffectValue1}%</>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_GhostRabbit_Grass": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_GhostRabbit_Grass_TextData",
+          "SourceString": "若牠在隊伍中，<img id=|ElemIcon_Grass|/><uiCommon id=|COMMON_ELEMENT_NAME_Leaf| style=|Elem_Grass|/>帕魯的防禦力提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "若牠在隊伍中，<img id=|ElemIcon_Grass|/><uiCommon id=|COMMON_ELEMENT_NAME_Leaf| style=|Elem_Grass|/>帕魯的防禦力提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_RockBeast_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_RockBeast_Ice_TextData",
+          "SourceString": "若牠在隊伍中，玩家和帕魯受到的<img id=|ElemIcon_Dragon|/><uiCommon id=|COMMON_ELEMENT_NAME_Dragon| style=|Elem_Dragon|/>傷害減輕<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "若牠在隊伍中，玩家和帕魯受到的<img id=|ElemIcon_Dragon|/><uiCommon id=|COMMON_ELEMENT_NAME_Dragon| style=|Elem_Dragon|/>傷害減輕<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_LotusDragon": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_LotusDragon_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n若牠在隊伍中，會為玩家的攻擊附加<Status_Up>{Passive1_EffectValue1}</>點<uiCommon id=|ADDITIONAL_EFFECT_Wetness| style=|Effect_Wetness|/>異常狀態值。（不可疊加）",
+          "LocalizedString": "可騎在牠的背上移動。\r\n若牠在隊伍中，會為玩家的攻擊附加<Status_Up>{Passive1_EffectValue1}</>點<uiCommon id=|ADDITIONAL_EFFECT_Wetness| style=|Effect_Wetness|/>異常狀態值。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Monkey_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Monkey_Fire_TextData",
+          "SourceString": "發動後，<characterName id=|Monkey_Fire|/>會在一定時間內以<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/>突擊步槍猛烈掃射附近的敵人。\r\n{ReferenceMsgId_DamageUp}",
+          "LocalizedString": "發動後，<characterName id=|Monkey_Fire|/>會在一定時間內以<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/>突擊步槍猛烈掃射附近的敵人。\r\n{ReferenceMsgId_DamageUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_DarkFlameFox": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_DarkFlameFox_TextData",
+          "SourceString": "若牠在隊伍中，玩家的攻擊擊中<uiCommon id=|ADDITIONAL_EFFECT_Burn| style=|Effect_Burn|/>狀態的敵人時，會<Status_Keyword>使敵人週邊燃燒</>，觸碰到火焰的敵人將持續受到相當於玩家攻擊力<Status_Up>{Passive1_EffectValue1}%</>的傷害。（不可疊加）",
+          "LocalizedString": "若牠在隊伍中，玩家的攻擊擊中<uiCommon id=|ADDITIONAL_EFFECT_Burn| style=|Effect_Burn|/>狀態的敵人時，會<Status_Keyword>使敵人週邊燃燒</>，觸碰到火焰的敵人將持續受到相當於玩家攻擊力<Status_Up>{Passive1_EffectValue1}%</>的傷害。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_FoxExorcist": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_FoxExorcist_TextData",
+          "SourceString": "若牠在隊伍中，玩家的攻擊擊中<uiCommon id=|ADDITIONAL_EFFECT_Burn| style=|Effect_Burn|/>狀態的敵人時，會<Status_Keyword>使敵人爆炸</>，額外造成相當於玩家攻擊力<Status_Up>{Passive1_EffectValue1}%</>的傷害。（不可疊加）",
+          "LocalizedString": "若牠在隊伍中，玩家的攻擊擊中<uiCommon id=|ADDITIONAL_EFFECT_Burn| style=|Effect_Burn|/>狀態的敵人時，會<Status_Keyword>使敵人爆炸</>，額外造成相當於玩家攻擊力<Status_Up>{Passive1_EffectValue1}%</>的傷害。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_VenusFlytrap": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_VenusFlytrap_TextData",
+          "SourceString": "若牠在隊伍中，玩家進行翻滾或滑步動作時，<characterName id=|VenusFlytrap|/>會捲起旋風攻擊接觸到的敵人（<img id=|ElemIcon_Grass|/><uiCommon id=|COMMON_ELEMENT_NAME_Leaf| style=|Elem_Grass|/> / 威力: <Status_Up>{Passive1_EffectValue1}</>）。（不可疊加）",
+          "LocalizedString": "若牠在隊伍中，玩家進行翻滾或滑步動作時，<characterName id=|VenusFlytrap|/>會捲起旋風攻擊接觸到的敵人（<img id=|ElemIcon_Grass|/><uiCommon id=|COMMON_ELEMENT_NAME_Leaf| style=|Elem_Grass|/> / 威力: <Status_Up>{Passive1_EffectValue1}</>）。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_ElecLizard": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_ElecLizard_TextData",
+          "SourceString": "若牠在隊伍中，玩家的攻擊擊中<uiCommon id=|ADDITIONAL_EFFECT_Electrical| style=|Effect_Electrical|/>狀態的敵人時，會<Status_Keyword>令敵人放電</>，對周圍的敵人造成相當於玩家攻擊力<Status_Up>{Passive1_EffectValue1}%</>的傷害。（不可疊加）",
+          "LocalizedString": "若牠在隊伍中，玩家的攻擊擊中<uiCommon id=|ADDITIONAL_EFFECT_Electrical| style=|Effect_Electrical|/>狀態的敵人時，會<Status_Keyword>令敵人放電</>，對周圍的敵人造成相當於玩家攻擊力<Status_Up>{Passive1_EffectValue1}%</>的傷害。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_MonochromeQueen": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_MonochromeQueen_TextData",
+          "SourceString": "若牠在隊伍中，且所有隊伍帕魯的種類都不同時，玩家的攻擊力會提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "若牠在隊伍中，且所有隊伍帕魯的種類都不同時，玩家的攻擊力會提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_ElecSnail": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_ElecSnail_TextData",
+          "SourceString": "若牠在隊伍中，會為玩家的攻擊附加<Status_Up>{Passive1_EffectValue1}</>點<uiCommon id=|ADDITIONAL_EFFECT_Electrical| style=|Effect_Electrical|/>異常狀態值。（不可疊加）",
+          "LocalizedString": "若牠在隊伍中，會為玩家的攻擊附加<Status_Up>{Passive1_EffectValue1}</>點<uiCommon id=|ADDITIONAL_EFFECT_Electrical| style=|Effect_Electrical|/>異常狀態值。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_ElecSnail_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_ElecSnail_Ground_TextData",
+          "SourceString": "若牠在隊伍中，玩家和帕魯受到的<img id=|ElemIcon_Water|/><uiCommon id=|COMMON_ELEMENT_NAME_Water| style=|Elem_Water|/>傷害減輕<Status_Up>{Passive1_EffectValue1}%</>，並且不會陷入<uiCommon id=|ADDITIONAL_EFFECT_Wetness| style=|Effect_Wetness|/>狀態。（不可疊加）",
+          "LocalizedString": "若牠在隊伍中，玩家和帕魯受到的<img id=|ElemIcon_Water|/><uiCommon id=|COMMON_ELEMENT_NAME_Water| style=|Elem_Water|/>傷害減輕<Status_Up>{Passive1_EffectValue1}%</>，並且不會陷入<uiCommon id=|ADDITIONAL_EFFECT_Wetness| style=|Effect_Wetness|/>狀態。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_CactusDoll_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_CactusDoll_Dark_TextData",
+          "SourceString": "若牠在隊伍中，會為玩家的攻擊附加<Status_Up>{Passive1_EffectValue1}</>點<uiCommon id=|ADDITIONAL_EFFECT_IvyCling| style=|Effect_IvyCling|/>異常狀態值。（不可疊加）",
+          "LocalizedString": "若牠在隊伍中，會為玩家的攻擊附加<Status_Up>{Passive1_EffectValue1}</>點<uiCommon id=|ADDITIONAL_EFFECT_IvyCling| style=|Effect_IvyCling|/>異常狀態值。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_OctopusGirl_Neutral": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_OctopusGirl_Neutral_TextData",
+          "SourceString": "若牠在隊伍中，<img id=|ElemIcon_Water|/><uiCommon id=|COMMON_ELEMENT_NAME_Water| style=|Elem_Water|/>帕魯的防禦力提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "若牠在隊伍中，<img id=|ElemIcon_Water|/><uiCommon id=|COMMON_ELEMENT_NAME_Water| style=|Elem_Water|/>帕魯的防禦力提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_HoodGhost": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_HoodGhost_TextData",
+          "SourceString": "若牠在隊伍中，玩家對非戰鬥狀態的敵人造成的傷害提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "若牠在隊伍中，玩家對非戰鬥狀態的敵人造成的傷害提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_BlueSkyDragon": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_BlueSkyDragon_TextData",
+          "SourceString": "可騎在牠的背上在空中飛行。\r\n<characterName id=|BlueSkyDragon|/>的攻擊力，會隨著隊伍中其他<img id=|ElemIcon_Dragon|/><uiCommon id=|COMMON_ELEMENT_NAME_Dragon| style=|Elem_Dragon|/>帕魯的數量提升，每隻增加<Status_Up>{Passive1_EffectValue1}%</>。",
+          "LocalizedString": "可騎在牠的背上在空中飛行。\r\n<characterName id=|BlueSkyDragon|/>的攻擊力，會隨著隊伍中其他<img id=|ElemIcon_Dragon|/><uiCommon id=|COMMON_ELEMENT_NAME_Dragon| style=|Elem_Dragon|/>帕魯的數量提升，每隻增加<Status_Up>{Passive1_EffectValue1}%</>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_GhostDragon": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_GhostDragon_TextData",
+          "SourceString": "可騎在牠的背上在空中飛行。\r\n<characterName id=|GhostDragon|/>的攻擊力和移動速度，會隨著隊伍中其他<img id=|ElemIcon_Dragon|/><uiCommon id=|COMMON_ELEMENT_NAME_Dragon| style=|Elem_Dragon|/>或<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>帕魯的數量提升，每隻增加<Status_Up>{Passive1_EffectValue1}%</>。",
+          "LocalizedString": "可騎在牠的背上在空中飛行。\r\n<characterName id=|GhostDragon|/>的攻擊力和移動速度，會隨著隊伍中其他<img id=|ElemIcon_Dragon|/><uiCommon id=|COMMON_ELEMENT_NAME_Dragon| style=|Elem_Dragon|/>或<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>帕魯的數量提升，每隻增加<Status_Up>{Passive1_EffectValue1}%</>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_PandaGirl": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_PandaGirl_TextData",
+          "SourceString": "<characterName id=|PandaGirl|/>的攻擊力和防禦力，會隨著隊伍中其他<img id=|ElemIcon_Grass|/><uiCommon id=|COMMON_ELEMENT_NAME_Leaf| style=|Elem_Grass|/>帕魯的數量提升，每隻增加<Status_Up>{Passive1_EffectValue1}%</>。",
+          "LocalizedString": "<characterName id=|PandaGirl|/>的攻擊力和防禦力，會隨著隊伍中其他<img id=|ElemIcon_Grass|/><uiCommon id=|COMMON_ELEMENT_NAME_Leaf| style=|Elem_Grass|/>帕魯的數量提升，每隻增加<Status_Up>{Passive1_EffectValue1}%</>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_VolcanoDragon": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_VolcanoDragon_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n<characterName id=|VolcanoDragon|/>的攻擊力，會隨著隊伍中其他<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/>或<img id=|ElemIcon_Ground|/><uiCommon id=|COMMON_ELEMENT_NAME_Earth| style=|Elem_Ground|/>帕魯的數量提升，每隻增加<Status_Up>{Passive1_EffectValue1}%</>。",
+          "LocalizedString": "可騎在牠的背上移動。\r\n<characterName id=|VolcanoDragon|/>的攻擊力，會隨著隊伍中其他<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/>或<img id=|ElemIcon_Ground|/><uiCommon id=|COMMON_ELEMENT_NAME_Earth| style=|Elem_Ground|/>帕魯的數量提升，每隻增加<Status_Up>{Passive1_EffectValue1}%</>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_MummyPal": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_MummyPal_TextData",
+          "SourceString": "與玩家並肩作戰時，若<characterName id=|MummyPal|/>陷入瀕死狀態，<characterName id=|MummyPal|/>會消耗全部的飽足度並<Status_Keyword>復活</>。\r\n{ReferenceMsgId_CooldownReduction}",
+          "LocalizedString": "與玩家並肩作戰時，若<characterName id=|MummyPal|/>陷入瀕死狀態，<characterName id=|MummyPal|/>會消耗全部的飽足度並<Status_Keyword>復活</>。\r\n{ReferenceMsgId_CooldownReduction}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_SweetsSheep_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_SweetsSheep_Ground_TextData",
+          "SourceString": "將牠分派到<mapObjectName id=|MonsterFarm|/>，牠就有機會掉落<itemName id=|Sweet_Caramel| style=|Status_Keyword|/>。\r\n若牠在據點裡，據點帕魯的<uiCommon id=|COMMON_STATUS_HUNGER|/>的減少幅度將會<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "將牠分派到<mapObjectName id=|MonsterFarm|/>，牠就有機會掉落<itemName id=|Sweet_Caramel| style=|Status_Keyword|/>。\r\n若牠在據點裡，據點帕魯的<uiCommon id=|COMMON_STATUS_HUNGER|/>的減少幅度將會<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_KingWhale": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_KingWhale_TextData",
+          "SourceString": "可騎在牠的背上在空中飛行。\r\n在據點最多只能召喚1隻。\r\n若牠在據點裡，會在據點上空持續盤旋，遠程砲轟入侵據點的敵人。\r\n{ReferenceMsgId_DamageUp}",
+          "LocalizedString": "可騎在牠的背上在空中飛行。\r\n在據點最多只能召喚1隻。\r\n若牠在據點裡，會在據點上空持續盤旋，遠程砲轟入侵據點的敵人。\r\n{ReferenceMsgId_DamageUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_LanternButler": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_LanternButler_TextData",
+          "SourceString": "若牠在隊伍中，玩家<Status_Keyword>射箭命中目標時會爆炸</>，額外造成相當於玩家攻擊力<Status_Up>{Passive1_EffectValue1}%</>的傷害。（不可疊加）",
+          "LocalizedString": "若牠在隊伍中，玩家<Status_Keyword>射箭命中目標時會爆炸</>，額外造成相當於玩家攻擊力<Status_Up>{Passive1_EffectValue1}%</>的傷害。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_LongCat": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_LongCat_TextData",
+          "SourceString": "若牠在隊伍中，玩家承受的重力減弱，跳躍或墜落時會漂浮落地。（不可疊加）",
+          "LocalizedString": "若牠在隊伍中，玩家承受的重力減弱，跳躍或墜落時會漂浮落地。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_WhiteMoth_Neutral": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_WhiteMoth_Neutral_TextData",
+          "SourceString": "若牠在隊伍中，<img id=|ElemIcon_Neutral|/><uiCommon id=|COMMON_ELEMENT_NAME_Normal| style=|Elem_Neutral|/>帕魯的防禦力會提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）\r\n將牠分派到<mapObjectName id=|MonsterFarm|/>，牠就有機會製作<itemName id=|Cloth2| style=|Status_Keyword|/>。",
+          "LocalizedString": "若牠在隊伍中，<img id=|ElemIcon_Neutral|/><uiCommon id=|COMMON_ELEMENT_NAME_Normal| style=|Elem_Neutral|/>帕魯的防禦力會提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）\r\n將牠分派到<mapObjectName id=|MonsterFarm|/>，牠就有機會製作<itemName id=|Cloth2| style=|Status_Keyword|/>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_CubeTurtle": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_CubeTurtle_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n若牠在據點裡，其他據點帕魯的<uiCommon id=|COMMON_WORK_SUITABILITY_Mining| style=|Status_Keyword|/>工作適應性等級<Status_Keyword>+{Passive1_EffectValue1}</>。（不可疊加）",
+          "LocalizedString": "可騎在牠的背上移動。\r\n若牠在據點裡，其他據點帕魯的<uiCommon id=|COMMON_WORK_SUITABILITY_Mining| style=|Status_Keyword|/>工作適應性等級<Status_Keyword>+{Passive1_EffectValue1}</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_ScorpionMan_Electric": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_ScorpionMan_Electric_TextData",
+          "SourceString": "發動後，<characterName id=|ScorpionMan_Electric|/>會將力量分給玩家，讓玩家的攻擊轉變為<img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/>，且攻擊力提升<Status_Up>{ReferencePassive1_EffectValue1}%</>。",
+          "LocalizedString": "發動後，<characterName id=|ScorpionMan_Electric|/>會將力量分給玩家，讓玩家的攻擊轉變為<img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/>，且攻擊力提升<Status_Up>{ReferencePassive1_EffectValue1}%</>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_DandelionGirl": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_DandelionGirl_TextData",
+          "SourceString": "若牠在隊伍中，提升對陷入<uiCommon id=|ADDITIONAL_EFFECT_IvyCling| style=|Effect_IvyCling|/>狀態帕魯的捕獲機率。（不可疊加）\r\n{ReferenceMsgId_CaptureRate}",
+          "LocalizedString": "若牠在隊伍中，提升對陷入<uiCommon id=|ADDITIONAL_EFFECT_IvyCling| style=|Effect_IvyCling|/>狀態帕魯的捕獲機率。（不可疊加）\r\n{ReferenceMsgId_CaptureRate}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_RedFlowerBird": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_RedFlowerBird_TextData",
+          "SourceString": "若牠在隊伍中，玩家進行翻滾或滑步動作時，無敵時間延長<Status_Up>{Passive1_EffectValue2}%</>。（不可疊加）",
+          "LocalizedString": "若牠在隊伍中，玩家進行翻滾或滑步動作時，無敵時間延長<Status_Up>{Passive1_EffectValue2}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_ThunderFluffyBird": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_ThunderFluffyBird_TextData",
+          "SourceString": "可騎在牠的背上在空中飛行。\r\n若牠在據點裡，帕魯蛋的孵化速度加快<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "可騎在牠的背上在空中飛行。\r\n若牠在據點裡，帕魯蛋的孵化速度加快<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_SmallYeti": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_SmallYeti_TextData",
+          "SourceString": "若牠在隊伍中，會使玩家不容易被敵人發現。（不可疊加）\r\n{ReferenceMsgId_EnemySightRate}",
+          "LocalizedString": "若牠在隊伍中，會使玩家不容易被敵人發現。（不可疊加）\r\n{ReferenceMsgId_EnemySightRate}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Mothman": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Mothman_TextData",
+          "SourceString": "若牠在隊伍中，玩家的攻擊擊中<uiCommon id=|ADDITIONAL_EFFECT_IvyCling| style=|Effect_IvyCling|/>狀態的敵人時，會<Status_Keyword>使敵人爆炸</>，額外造成相當於玩家攻擊力<Status_Up>{Passive2_EffectValue1}%</>的傷害。（不可疊加）\r\n另外，能讓玩家與帕魯<Status_Keyword>不受世界樹的爆炸孢子影響</>。",
+          "LocalizedString": "若牠在隊伍中，玩家的攻擊擊中<uiCommon id=|ADDITIONAL_EFFECT_IvyCling| style=|Effect_IvyCling|/>狀態的敵人時，會<Status_Keyword>使敵人爆炸</>，額外造成相當於玩家攻擊力<Status_Up>{Passive2_EffectValue1}%</>的傷害。（不可疊加）\r\n另外，能讓玩家與帕魯<Status_Keyword>不受世界樹的爆炸孢子影響</>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_IceSeal_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_IceSeal_Ground_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n<Status_Keyword>在雪地上</>時，移動速度提高<Status_Up>{Passive1_EffectValue1}%</>。\r\n並且可以在斜坡處快速向下滑行。\r\n滑行時初始速度較慢，但最高速度更快。",
+          "LocalizedString": "可騎在牠的背上移動。\r\n<Status_Keyword>在雪地上</>時，移動速度提高<Status_Up>{Passive1_EffectValue1}%</>。\r\n並且可以在斜坡處快速向下滑行。\r\n滑行時初始速度較慢，但最高速度更快。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_GhostBlackCat": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_GhostBlackCat_TextData",
+          "SourceString": "若牠在隊伍中，觸發<Status_Keyword>背面獎勵</>時的捕獲機率增加。（不可疊加）\r\n{ReferenceMsgId_CaptureRate}",
+          "LocalizedString": "若牠在隊伍中，觸發<Status_Keyword>背面獎勵</>時的捕獲機率增加。（不可疊加）\r\n{ReferenceMsgId_CaptureRate}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_OniGhostGirl": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_OniGhostGirl_TextData",
+          "SourceString": "若牠在隊伍中，攻擊陷入<uiCommon id=|ADDITIONAL_EFFECT_Poison| style=|Effect_Poison|/>狀態的敵人時，會使該敵人的攻擊力降低<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "若牠在隊伍中，攻擊陷入<uiCommon id=|ADDITIONAL_EFFECT_Poison| style=|Effect_Poison|/>狀態的敵人時，會使該敵人的攻擊力降低<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_GrassMinotaur": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_GrassMinotaur_TextData",
+          "SourceString": "發動後，<characterName id=|GrassMinotaur|/>會將力量分給玩家，讓玩家的攻擊轉變為<img id=|ElemIcon_Grass|/><uiCommon id=|COMMON_ELEMENT_NAME_Leaf| style=|Elem_Grass|/>，且攻擊力提升<Status_Up>{ReferencePassive1_EffectValue1}%</>。",
+          "LocalizedString": "發動後，<characterName id=|GrassMinotaur|/>會將力量分給玩家，讓玩家的攻擊轉變為<img id=|ElemIcon_Grass|/><uiCommon id=|COMMON_ELEMENT_NAME_Leaf| style=|Elem_Grass|/>，且攻擊力提升<Status_Up>{ReferencePassive1_EffectValue1}%</>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_KingSunfish": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_KingSunfish_TextData",
+          "SourceString": "可騎在牠的背上在水上移動。\r\n若牠在隊伍中，會更容易釣上<Status_Keyword>高潛力帕魯</>。（不可疊加）\r\n{ReferenceMsgId_SwimSpeedUp}",
+          "LocalizedString": "可騎在牠的背上在水上移動。\r\n若牠在隊伍中，會更容易釣上<Status_Keyword>高潛力帕魯</>。（不可疊加）\r\n{ReferenceMsgId_SwimSpeedUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_KingSunfish_Thunder": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_KingSunfish_Thunder_TextData",
+          "SourceString": "可騎在牠的背上在水上移動。\r\n騎乘期間玩家的攻擊會轉變為<img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/>，且攻擊力提升<Status_Up>{Passive2_EffectValue1}%</>。\r\n此外，若牠在隊伍中，會更容易釣上<Status_Keyword>高潛力帕魯</>。（不可疊加）\r\n{ReferenceMsgId_SwimSpeedUp}",
+          "LocalizedString": "可騎在牠的背上在水上移動。\r\n騎乘期間玩家的攻擊會轉變為<img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/>，且攻擊力提升<Status_Up>{Passive2_EffectValue1}%</>。\r\n此外，若牠在隊伍中，會更容易釣上<Status_Keyword>高潛力帕魯</>。（不可疊加）\r\n{ReferenceMsgId_SwimSpeedUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_GhostDragon_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_GhostDragon_Fire_TextData",
+          "SourceString": "可騎在牠的背上在空中飛行。\r\n<characterName id=|GhostDragon_Fire|/>的攻擊力和移動速度，會隨著隊伍中其他<img id=|ElemIcon_Dragon|/><uiCommon id=|COMMON_ELEMENT_NAME_Dragon| style=|Elem_Dragon|/>或<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/>帕魯的數量提升，每隻增加<Status_Up>{Passive1_EffectValue1}%</>。",
+          "LocalizedString": "可騎在牠的背上在空中飛行。\r\n<characterName id=|GhostDragon_Fire|/>的攻擊力和移動速度，會隨著隊伍中其他<img id=|ElemIcon_Dragon|/><uiCommon id=|COMMON_ELEMENT_NAME_Dragon| style=|Elem_Dragon|/>或<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/>帕魯的數量提升，每隻增加<Status_Up>{Passive1_EffectValue1}%</>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_WingGolem_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_WingGolem_Fire_TextData",
+          "SourceString": "發動後會以鋼鐵般的意志，在一定時間內提高<characterName id=|WingGolem_Fire|/>的攻擊力<Status_Up>{ReferencePassive1_EffectValue1}%</>，防禦力<Status_Up>{ReferencePassive2_EffectValue1}%</>。",
+          "LocalizedString": "發動後會以鋼鐵般的意志，在一定時間內提高<characterName id=|WingGolem_Fire|/>的攻擊力<Status_Up>{ReferencePassive1_EffectValue1}%</>，防禦力<Status_Up>{ReferencePassive2_EffectValue1}%</>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_ThunderBird_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_ThunderBird_Ice_TextData",
+          "SourceString": "可騎在牠的背上在空中飛行。\r\n騎乘期間玩家的攻擊會轉變為<img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>，且攻擊力提升<Status_Up>{Passive3_EffectValue1}%</>。\r\n<characterName id=|ThunderBird_Ice|/>的移動速度，會隨著隊伍中其他<img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>帕魯的數量提升，每隻增加<Status_Up>{Passive1_EffectValue1}%</>。",
+          "LocalizedString": "可騎在牠的背上在空中飛行。\r\n騎乘期間玩家的攻擊會轉變為<img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>，且攻擊力提升<Status_Up>{Passive3_EffectValue1}%</>。\r\n<characterName id=|ThunderBird_Ice|/>的移動速度，會隨著隊伍中其他<img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>帕魯的數量提升，每隻增加<Status_Up>{Passive1_EffectValue1}%</>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_ElecPomeranian": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_ElecPomeranian_TextData",
+          "SourceString": "若牠在據點裡，其他據點帕魯的<uiCommon id=|COMMON_WORK_SUITABILITY_GenerateElectricity| style=|Status_Keyword|/>工作適應性等級<Status_Keyword>+{Passive1_EffectValue1}</>。（不可疊加）",
+          "LocalizedString": "若牠在據點裡，其他據點帕魯的<uiCommon id=|COMMON_WORK_SUITABILITY_GenerateElectricity| style=|Status_Keyword|/>工作適應性等級<Status_Keyword>+{Passive1_EffectValue1}</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_WhiteDeer_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_WhiteDeer_Dark_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n若牠在隊伍中，一起並肩作戰的帕魯的生命值會逐漸減少，但攻擊力將提升<Status_Up>{ReferencePassive1_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "可騎在牠的背上移動。\r\n若牠在隊伍中，一起並肩作戰的帕魯的生命值會逐漸減少，但攻擊力將提升<Status_Up>{ReferencePassive1_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_CubeTurtle_Neutral": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_CubeTurtle_Neutral_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n若牠在隊伍中，<Status_Keyword>武器</>和<Status_Keyword>防具</>的耐久度損耗減緩<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "可騎在牠的背上移動。\r\n若牠在隊伍中，<Status_Keyword>武器</>和<Status_Keyword>防具</>的耐久度損耗減緩<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_GrassMinotaur_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_GrassMinotaur_Ice_TextData",
+          "SourceString": "若牠在隊伍中，當玩家攻擊<uiCommon id=|ADDITIONAL_EFFECT_Wetness| style=|Effect_Wetness|/>狀態的敵人時，一擊就會讓敵人陷入<uiCommon id=|ADDITIONAL_EFFECT_Freeze| style=|Effect_Freeze|/>狀態。",
+          "LocalizedString": "若牠在隊伍中，當玩家攻擊<uiCommon id=|ADDITIONAL_EFFECT_Wetness| style=|Effect_Wetness|/>狀態的敵人時，一擊就會讓敵人陷入<uiCommon id=|ADDITIONAL_EFFECT_Freeze| style=|Effect_Freeze|/>狀態。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_VolcanoDragon_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_VolcanoDragon_Ice_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n若牠在隊伍中，玩家和帕魯以<img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>攻擊克制的屬性時傷害提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）",
+          "LocalizedString": "可騎在牠的背上移動。\r\n若牠在隊伍中，玩家和帕魯以<img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>攻擊克制的屬性時傷害提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_DomeArmorDragon": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_DomeArmorDragon_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n若牠在隊伍中，玩家和帕魯受到的<Status_Keyword>爆炸攻擊</>傷害減輕<Status_Up>{Passive1_EffectValue2}%</>，並且不會陷入<uiCommon id=|ADDITIONAL_EFFECT_Stun| style=|Effect_Stun|/>狀態。（不可疊加）",
+          "LocalizedString": "可騎在牠的背上移動。\r\n若牠在隊伍中，玩家和帕魯受到的<Status_Keyword>爆炸攻擊</>傷害減輕<Status_Up>{Passive1_EffectValue2}%</>，並且不會陷入<uiCommon id=|ADDITIONAL_EFFECT_Stun| style=|Effect_Stun|/>狀態。（不可疊加）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_FlowerPrince": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_FlowerPrince_TextData",
+          "SourceString": "發動後，為玩家的攻擊附加<Status_Up>{ReferencePassive1_EffectValue1}</>點<uiCommon id=|ADDITIONAL_EFFECT_Poison| style=|Effect_Poison|/>異常狀態值。（不可疊加）\r\n若牠在隊伍中，玩家和帕魯不會陷入<uiCommon id=|ADDITIONAL_EFFECT_Poison| style=|Effect_Poison|/>狀態，並且<Status_Keyword>不受世界樹區域的毒氣影響</>。",
+          "LocalizedString": "發動後，為玩家的攻擊附加<Status_Up>{ReferencePassive1_EffectValue1}</>點<uiCommon id=|ADDITIONAL_EFFECT_Poison| style=|Effect_Poison|/>異常狀態值。（不可疊加）\r\n若牠在隊伍中，玩家和帕魯不會陷入<uiCommon id=|ADDITIONAL_EFFECT_Poison| style=|Effect_Poison|/>狀態，並且<Status_Keyword>不受世界樹區域的毒氣影響</>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_WorldTreeDragon": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_WorldTreeDragon_TextData",
+          "SourceString": "這個帕魯擅長的事情仍在調查中。",
+          "LocalizedString": "這個帕魯擅長的事情仍在調查中。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_NightBlueHorse_Neutral": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_NightBlueHorse_Neutral_TextData",
+          "SourceString": "可騎在牠的背上移動，騎乘期間跳躍能力提升。\r\n<characterName id=|NightBlueHorse_Neutral|/>的移動速度，會隨著隊伍中其他<img id=|ElemIcon_Neutral|/><uiCommon id=|COMMON_ELEMENT_NAME_Normal| style=|Elem_Neutral|/>帕魯的數量提升，每隻增加<Status_Up>{Passive1_EffectValue1}%</>。",
+          "LocalizedString": "可騎在牠的背上移動，騎乘期間跳躍能力提升。\r\n<characterName id=|NightBlueHorse_Neutral|/>的移動速度，會隨著隊伍中其他<img id=|ElemIcon_Neutral|/><uiCommon id=|COMMON_ELEMENT_NAME_Normal| style=|Elem_Neutral|/>帕魯的數量提升，每隻增加<Status_Up>{Passive1_EffectValue1}%</>。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_ThunderDog_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_ThunderDog_Ice_TextData",
+          "SourceString": "可騎在牠的背上移動。\r\n騎乘期間可以進行<Status_Keyword>2段跳躍</>。\r\n若牠在隊伍中，<img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>帕魯的防禦力會提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）\r\n{ReferenceMsgId_RideSpeedUp}",
+          "LocalizedString": "可騎在牠的背上移動。\r\n騎乘期間可以進行<Status_Keyword>2段跳躍</>。\r\n若牠在隊伍中，<img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>帕魯的防禦力會提升<Status_Up>{Passive1_EffectValue1}%</>。（不可疊加）\r\n{ReferenceMsgId_RideSpeedUp}"
+        }
+      }
+    }
+  }
+]

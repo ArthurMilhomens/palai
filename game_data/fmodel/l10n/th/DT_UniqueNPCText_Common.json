@@ -1,0 +1,1352 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_UniqueNPCText_Common",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "NAME_JOHNSON": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_JOHNSON_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "NAME_BOBBY": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_BOBBY_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "NAME_UNIQUE002": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_UNIQUE002_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "NAME_C": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_C_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "NAME_D": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_D_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "NAME_E": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_E_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "NAME_F": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_F_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "NAME_G": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_G_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "NAME_H": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_H_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "NAME_VILLAGELEADER01": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_VILLAGELEADER01_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "NAME_NOVICEPALTIMER": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_NOVICEPALTIMER_TextData",
+          "SourceString": "ผู้รอดชีวิตจากกองกำลังหน้า",
+          "LocalizedString": "ผู้รอดชีวิตจากกองกำลังหน้า"
+        }
+      },
+      "Vigilante_lackey": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "Vigilante_lackey_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "Head_of_Village": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "Head_of_Village_TextData",
+          "SourceString": "หัวหน้าหมู่บ้าน",
+          "LocalizedString": "หัวหน้าหมู่บ้าน"
+        }
+      },
+      "Police_dependable": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "Police_dependable_TextData",
+          "SourceString": "สันติบาลที่ดูพึ่งพาได้",
+          "LocalizedString": "สันติบาลที่ดูพึ่งพาได้"
+        }
+      },
+      "InnkeeperA": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "InnkeeperA_TextData",
+          "SourceString": "เจ้าของบ้านพัก",
+          "LocalizedString": "เจ้าของบ้านพัก"
+        }
+      },
+      "Rumor-loving_villagers": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "Rumor-loving_villagers_TextData",
+          "SourceString": "ชาวบ้านขาเมาท์",
+          "LocalizedString": "ชาวบ้านขาเมาท์"
+        }
+      },
+      "Research-oriented_scholar": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "Research-oriented_scholar_TextData",
+          "SourceString": "ชาวบ้านผู้มุ่งมั่นทำวิจัย",
+          "LocalizedString": "ชาวบ้านผู้มุ่งมั่นทำวิจัย"
+        }
+      },
+      "People_cant_leave": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "People_cant_leave_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "Sweaty_paltimer": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "Sweaty_paltimer_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "Shabby_looking_merchant": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "Shabby_looking_merchant_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "SKILLED_PALTAMIER": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "SKILLED_PALTAMIER_TextData",
+          "SourceString": "ชาวเกาะผู้เชี่ยวชาญ",
+          "LocalizedString": "ชาวเกาะผู้เชี่ยวชาญ"
+        }
+      },
+      "NAME_DarkTrader": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_DarkTrader_TextData",
+          "SourceString": "พ่อค้าเถื่อน",
+          "LocalizedString": "พ่อค้าเถื่อน"
+        }
+      },
+      "BOSSNAME_DEMO_PLAIN_LEADER": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BOSSNAME_DEMO_PLAIN_LEADER_TextData",
+          "SourceString": "ZOE",
+          "LocalizedString": "ZOE"
+        }
+      },
+      "BOSSNAME_DEMO_PLAIN_LEADER_PAL": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BOSSNAME_DEMO_PLAIN_LEADER_PAL_TextData",
+          "SourceString": "GRIZZBOLT",
+          "LocalizedString": "GRIZZBOLT"
+        }
+      },
+      "BOSSNAME_DEMO_VOLCANO_LEADER": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BOSSNAME_DEMO_VOLCANO_LEADER_TextData",
+          "SourceString": "AXEL",
+          "LocalizedString": "AXEL"
+        }
+      },
+      "BOSSNAME_DEMO_VOLCANO_LEADER_PAL": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BOSSNAME_DEMO_VOLCANO_LEADER_PAL_TextData",
+          "SourceString": "ORSERK",
+          "LocalizedString": "ORSERK"
+        }
+      },
+      "BOSSNAME_DEMO_FOREST_LEADER": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BOSSNAME_DEMO_FOREST_LEADER_TextData",
+          "SourceString": "LILY",
+          "LocalizedString": "LILY"
+        }
+      },
+      "BOSSNAME_DEMO_FOREST_LEADER_PAL": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BOSSNAME_DEMO_FOREST_LEADER_PAL_TextData",
+          "SourceString": "LYLEEN",
+          "LocalizedString": "LYLEEN"
+        }
+      },
+      "BOSSNAME_DEMO_DESERT_LEADER": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BOSSNAME_DEMO_DESERT_LEADER_TextData",
+          "SourceString": "MARCUS",
+          "LocalizedString": "MARCUS"
+        }
+      },
+      "BOSSNAME_DEMO_DESERT_LEADER_PAL": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BOSSNAME_DEMO_DESERT_LEADER_PAL_TextData",
+          "SourceString": "FALERIS",
+          "LocalizedString": "FALERIS"
+        }
+      },
+      "BOSSNAME_DEMO_SNOWYMOUNTAIN_LEADER": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BOSSNAME_DEMO_SNOWYMOUNTAIN_LEADER_TextData",
+          "SourceString": "VICTOR",
+          "LocalizedString": "VICTOR"
+        }
+      },
+      "BOSSNAME_DEMO_SNOWYMOUNTAIN_LEADER_PAL": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BOSSNAME_DEMO_SNOWYMOUNTAIN_LEADER_PAL_TextData",
+          "SourceString": "SHADOWBEAK",
+          "LocalizedString": "SHADOWBEAK"
+        }
+      },
+      "DesertVillage001": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "DesertVillage001_TextData",
+          "SourceString": "ชาวทะเลทรายขี้หนาว",
+          "LocalizedString": "ชาวทะเลทรายขี้หนาว"
+        }
+      },
+      "DesertVillage002": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "DesertVillage002_TextData",
+          "SourceString": "ชาวทะเลทรายผู้ใจดี",
+          "LocalizedString": "ชาวทะเลทรายผู้ใจดี"
+        }
+      },
+      "DesertVillage003": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "DesertVillage003_TextData",
+          "SourceString": "ชาวทะเลทรายขี้กลัว",
+          "LocalizedString": "ชาวทะเลทรายขี้กลัว"
+        }
+      },
+      "DesertPolice001": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "DesertPolice001_TextData",
+          "SourceString": "ลูกกระจ๊อกในสันติบาล",
+          "LocalizedString": "ลูกกระจ๊อกในสันติบาล"
+        }
+      },
+      "DesertPolice002": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "DesertPolice002_TextData",
+          "SourceString": "สันติบาลผู้ว่าง่าย",
+          "LocalizedString": "สันติบาลผู้ว่าง่าย"
+        }
+      },
+      "DesertPolice003": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "DesertPolice003_TextData",
+          "SourceString": "สันติบาลผู้ชอบกองไฟ",
+          "LocalizedString": "สันติบาลผู้ชอบกองไฟ"
+        }
+      },
+      "Police001": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "Police001_TextData",
+          "SourceString": "คุณลุงผู้เกิดใหม่",
+          "LocalizedString": "คุณลุงผู้เกิดใหม่"
+        }
+      },
+      "VolcanoVillage001": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "VolcanoVillage001_TextData",
+          "SourceString": "ชาวบ้านผู้ชอบตกปลา",
+          "LocalizedString": "ชาวบ้านผู้ชอบตกปลา"
+        }
+      },
+      "VolcanoVillage002": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "VolcanoVillage002_TextData",
+          "SourceString": "ชาวบ้านผู้ชอบดูแลเอาใจใส่",
+          "LocalizedString": "ชาวบ้านผู้ชอบดูแลเอาใจใส่"
+        }
+      },
+      "VolcanoVillage003": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "VolcanoVillage003_TextData",
+          "SourceString": "ชาวบ้านผู้ชอบดวงดาว",
+          "LocalizedString": "ชาวบ้านผู้ชอบดวงดาว"
+        }
+      },
+      "VolcanoVillage004": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "VolcanoVillage004_TextData",
+          "SourceString": "ชาวบ้านผู้นับถือไฟ",
+          "LocalizedString": "ชาวบ้านผู้นับถือไฟ"
+        }
+      },
+      "VolcanoPolice001": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "VolcanoPolice001_TextData",
+          "SourceString": "สันติบาลผู้เหลวแหลก",
+          "LocalizedString": "สันติบาลผู้เหลวแหลก"
+        }
+      },
+      "VolcanoPolice002": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "VolcanoPolice002_TextData",
+          "SourceString": "สันติบาลผู้หูตาว่องไว",
+          "LocalizedString": "สันติบาลผู้หูตาว่องไว"
+        }
+      },
+      "RandomBattle_PalTamer": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "RandomBattle_PalTamer_TextData",
+          "SourceString": "ทหารรับจ้างร่างบึกบึน",
+          "LocalizedString": "ทหารรับจ้างร่างบึกบึน"
+        }
+      },
+      "RandomBattle_Police": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "RandomBattle_Police_TextData",
+          "SourceString": "สันติบาลร่างบึกบึน",
+          "LocalizedString": "สันติบาลร่างบึกบึน"
+        }
+      },
+      "PvPVillage001": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "PvPVillage001_TextData",
+          "SourceString": "ผู้หลบหนีจากทะเลทราย",
+          "LocalizedString": "ผู้หลบหนีจากทะเลทราย"
+        }
+      },
+      "PvPVillage002": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "PvPVillage002_TextData",
+          "SourceString": "ผู้ท้าชิงเร่ร่อน",
+          "LocalizedString": "ผู้ท้าชิงเร่ร่อน"
+        }
+      },
+      "PvPVillage003": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "PvPVillage003_TextData",
+          "SourceString": "อดีตทหารรับจ้างผู้บาดเจ็บที่เข่า",
+          "LocalizedString": "อดีตทหารรับจ้างผู้บาดเจ็บที่เข่า"
+        }
+      },
+      "PvPVillage004": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "PvPVillage004_TextData",
+          "SourceString": "ผู้อพยพขี้กลัว",
+          "LocalizedString": "ผู้อพยพขี้กลัว"
+        }
+      },
+      "PvPVillage005": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "PvPVillage005_TextData",
+          "SourceString": "ชาวเกาะผู้ขี้ขลาด",
+          "LocalizedString": "ชาวเกาะผู้ขี้ขลาด"
+        }
+      },
+      "PvPVillage006": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "PvPVillage006_TextData",
+          "SourceString": "ชาวเกาะผู้ถอดใจ",
+          "LocalizedString": "ชาวเกาะผู้ถอดใจ"
+        }
+      },
+      "BattlePaltamer001": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BattlePaltamer001_TextData",
+          "SourceString": "พาลเทมเมอร์มือใหม่",
+          "LocalizedString": "พาลเทมเมอร์มือใหม่"
+        }
+      },
+      "BattlePaltamer002": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BattlePaltamer002_TextData",
+          "SourceString": "พาลเทมเมอร์ผู้มีอนาคต",
+          "LocalizedString": "พาลเทมเมอร์ผู้มีอนาคต"
+        }
+      },
+      "BattlePaltamer003": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BattlePaltamer003_TextData",
+          "SourceString": "พาลเทมเมอร์ผู้โหดเหี้ยม",
+          "LocalizedString": "พาลเทมเมอร์ผู้โหดเหี้ยม"
+        }
+      },
+      "BattlePaltamer004": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BattlePaltamer004_TextData",
+          "SourceString": "พาลเทมเมอร์มือโปร",
+          "LocalizedString": "พาลเทมเมอร์มือโปร"
+        }
+      },
+      "BattlePaltamer005": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BattlePaltamer005_TextData",
+          "SourceString": "พาลเทมเมอร์กระหายศึก",
+          "LocalizedString": "พาลเทมเมอร์กระหายศึก"
+        }
+      },
+      "BattlePaltamer006": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BattlePaltamer006_TextData",
+          "SourceString": "พาลเทมเมอร์ผู้เจนจัด",
+          "LocalizedString": "พาลเทมเมอร์ผู้เจนจัด"
+        }
+      },
+      "MerchantwithPAL": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "MerchantwithPAL_TextData",
+          "SourceString": "พ่อค้าพาลแววตาชั่วร้าย",
+          "LocalizedString": "พ่อค้าพาลแววตาชั่วร้าย"
+        }
+      },
+      "Assassin001": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "Assassin001_TextData",
+          "SourceString": "พ่อค้าผู้ยิ้มเสมอ",
+          "LocalizedString": "พ่อค้าผู้ยิ้มเสมอ"
+        }
+      },
+      "Assassin002": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "Assassin002_TextData",
+          "SourceString": "พ่อค้าที่ดูซื่อสัตย์",
+          "LocalizedString": "พ่อค้าที่ดูซื่อสัตย์"
+        }
+      },
+      "Assassin003": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "Assassin003_TextData",
+          "SourceString": "พ่อค้าแววตาวาวโรจน์",
+          "LocalizedString": "พ่อค้าแววตาวาวโรจน์"
+        }
+      },
+      "MedalTrader": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "MedalTrader_TextData",
+          "SourceString": "พ่อค้าเมดัล",
+          "LocalizedString": "พ่อค้าเมดัล"
+        }
+      },
+      "BOSSNAME_DEMO_SAKURAJIMA_LEADER": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BOSSNAME_DEMO_SAKURAJIMA_LEADER_TextData",
+          "SourceString": "SAYA",
+          "LocalizedString": "SAYA"
+        }
+      },
+      "BOSSNAME_DEMO_SAKURAJIMA_LEADER_PAL": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BOSSNAME_DEMO_SAKURAJIMA_LEADER_PAL_TextData",
+          "SourceString": "SELYNE",
+          "LocalizedString": "SELYNE"
+        }
+      },
+      "Police_WarningOilrig": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "Police_WarningOilrig_TextData",
+          "SourceString": "สันติบาลที่มาเตือน",
+          "LocalizedString": "สันติบาลที่มาเตือน"
+        }
+      },
+      "BOSSNAME_DEMO_VIKING_LEADER": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BOSSNAME_DEMO_VIKING_LEADER_TextData",
+          "SourceString": "BJORN",
+          "LocalizedString": "BJORN"
+        }
+      },
+      "BOSSNAME_DEMO_VIKING_LEADER_PAL": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BOSSNAME_DEMO_VIKING_LEADER_PAL_TextData",
+          "SourceString": "BASTIGOR",
+          "LocalizedString": "BASTIGOR"
+        }
+      },
+      "BountyNavigator": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BountyNavigator_TextData",
+          "SourceString": "พ่อค้าข่าวค่าหัว",
+          "LocalizedString": "พ่อค้าข่าวค่าหัว"
+        }
+      },
+      "Presenter001": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "Presenter001_TextData",
+          "SourceString": "พาลเทมเมอร์ผู้ใจดี",
+          "LocalizedString": "พาลเทมเมอร์ผู้ใจดี"
+        }
+      },
+      "BountyTrader": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BountyTrader_TextData",
+          "SourceString": "ผู้ออกหมายจับแห่งสันติบาล",
+          "LocalizedString": "ผู้ออกหมายจับแห่งสันติบาล"
+        }
+      },
+      "Yamishima_guide1": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "Yamishima_guide1_TextData",
+          "SourceString": "นักธรณีวิทยาผู้ปราดเปรื่อง",
+          "LocalizedString": "นักธรณีวิทยาผู้ปราดเปรื่อง"
+        }
+      },
+      "Yamishima_guide2": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "Yamishima_guide2_TextData",
+          "SourceString": "นักพาลวิทยาผู้สูงส่ง",
+          "LocalizedString": "นักพาลวิทยาผู้สูงส่ง"
+        }
+      },
+      "Yamishima_guide3": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "Yamishima_guide3_TextData",
+          "SourceString": "นักวิจัยหินแร่ท่าทางสนุกสนาน",
+          "LocalizedString": "นักวิจัยหินแร่ท่าทางสนุกสนาน"
+        }
+      },
+      "Yamishima_guide4": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "Yamishima_guide4_TextData",
+          "SourceString": "พ่อค้าคนกลางผู้สิ้นหวัง",
+          "LocalizedString": "พ่อค้าคนกลางผู้สิ้นหวัง"
+        }
+      },
+      "Yamishima_guide5": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "Yamishima_guide5_TextData",
+          "SourceString": "นักรบหนีทัพชาวสวรรค์ล่ม",
+          "LocalizedString": "นักรบหนีทัพชาวสวรรค์ล่ม"
+        }
+      },
+      "NAME_PalPassive_Doctor": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_PalPassive_Doctor_TextData",
+          "SourceString": "ศาสตราจารย์ Brawn",
+          "LocalizedString": "ศาสตราจารย์ Brawn"
+        }
+      },
+      "NAME_Reward_Food": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_Reward_Food_TextData",
+          "SourceString": "นักชิมผู้ยโส",
+          "LocalizedString": "นักชิมผู้ยโส"
+        }
+      },
+      "NAME_Reward_Paldex": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_Reward_Paldex_TextData",
+          "SourceString": "นักนิเวศวิทยาพาล",
+          "LocalizedString": "นักนิเวศวิทยาพาล"
+        }
+      },
+      "NAME_Reward_BossDefeat": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_Reward_BossDefeat_TextData",
+          "SourceString": "พาลฮันเตอร์มือโปร",
+          "LocalizedString": "พาลฮันเตอร์มือโปร"
+        }
+      },
+      "NAME_Reward_PalCaptureCount": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_Reward_PalCaptureCount_TextData",
+          "SourceString": "พรานผู้รอบรู้",
+          "LocalizedString": "พรานผู้รอบรู้"
+        }
+      },
+      "NAME_Reward_Emote_A_01": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_Reward_Emote_A_01_TextData",
+          "SourceString": "ผู้เผยแพร่ความรัก",
+          "LocalizedString": "ผู้เผยแพร่ความรัก"
+        }
+      },
+      "NAME_Reward_PalDisplay": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_Reward_PalDisplay_TextData",
+          "SourceString": "นักวิจารณ์พาลผู้เหิมเกริม",
+          "LocalizedString": "นักวิจารณ์พาลผู้เหิมเกริม"
+        }
+      },
+      "ArenaShop": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "ArenaShop_TextData",
+          "SourceString": "พ่อค้าลานประลอง",
+          "LocalizedString": "พ่อค้าลานประลอง"
+        }
+      },
+      "NAME_QUEST_FARMER01": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_FARMER01_TextData",
+          "SourceString": "ชาวนาผู้ยากแค้น",
+          "LocalizedString": "ชาวนาผู้ยากแค้น"
+        }
+      },
+      "NAME_QUEST_FARMER02": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_FARMER02_TextData",
+          "SourceString": "ชาวนาผู้ชอบอาหาร",
+          "LocalizedString": "ชาวนาผู้ชอบอาหาร"
+        }
+      },
+      "NAME_QUEST_FARMER03": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_FARMER03_TextData",
+          "SourceString": "ชาวนาผู้ชอบดูแล",
+          "LocalizedString": "ชาวนาผู้ชอบดูแล"
+        }
+      },
+      "NAME_QUEST_FARMER04": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_FARMER04_TextData",
+          "SourceString": "ชาวนาผู้รักพาล",
+          "LocalizedString": "ชาวนาผู้รักพาล"
+        }
+      },
+      "NAME_QUEST_SCHOLAR01": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_SCHOLAR01_TextData",
+          "SourceString": "นักวิจัยผู้ไล่ตามตำนาน",
+          "LocalizedString": "นักวิจัยผู้ไล่ตามตำนาน"
+        }
+      },
+      "NAME_QUEST_SCHOLAR02": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_SCHOLAR02_TextData",
+          "SourceString": "นักวิจัยของศูนย์วิจัยอารยธรรมโบราณ",
+          "LocalizedString": "นักวิจัยของศูนย์วิจัยอารยธรรมโบราณ"
+        }
+      },
+      "NAME_QUEST_SCHOLAR03": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_SCHOLAR03_TextData",
+          "SourceString": "นักวิจัยผู้คลั่งไคล้ Fuack",
+          "LocalizedString": "นักวิจัยผู้คลั่งไคล้ Fuack"
+        }
+      },
+      "NAME_QUEST_SCHOLAR04": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_SCHOLAR04_TextData",
+          "SourceString": "นักวิจัยผู้ชื่นชอบก้อนหิน",
+          "LocalizedString": "นักวิจัยผู้ชื่นชอบก้อนหิน"
+        }
+      },
+      "NAME_QUEST_BREEDER01": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_BREEDER01_TextData",
+          "SourceString": "บรีดเดอร์มือใหม่ด้านเลี้ยงพาล",
+          "LocalizedString": "บรีดเดอร์มือใหม่ด้านเลี้ยงพาล"
+        }
+      },
+      "NAME_QUEST_BREEDER02": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_BREEDER02_TextData",
+          "SourceString": "บรีดเดอร์ผู้ใส่ใจคู่หู",
+          "LocalizedString": "บรีดเดอร์ผู้ใส่ใจคู่หู"
+        }
+      },
+      "NAME_QUEST_BREEDER03": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_BREEDER03_TextData",
+          "SourceString": "บรีดเดอร์ผู้กลัวความสูง",
+          "LocalizedString": "บรีดเดอร์ผู้กลัวความสูง"
+        }
+      },
+      "NAME_QUEST_BREEDER04": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_BREEDER04_TextData",
+          "SourceString": "บรีดเดอร์นักขยายพันธุ์พาลผู้มุ่งมั่น",
+          "LocalizedString": "บรีดเดอร์นักขยายพันธุ์พาลผู้มุ่งมั่น"
+        }
+      },
+      "NAME_QUEST_RANGER01": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_RANGER01_TextData",
+          "SourceString": "พรานที่ทุกวันคือการล่า",
+          "LocalizedString": "พรานที่ทุกวันคือการล่า"
+        }
+      },
+      "NAME_QUEST_RANGER02": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_RANGER02_TextData",
+          "SourceString": "พรานผู้รักความถูกต้อง",
+          "LocalizedString": "พรานผู้รักความถูกต้อง"
+        }
+      },
+      "NAME_QUEST_RANGER03": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_RANGER03_TextData",
+          "SourceString": "พรานผู้ล่าเหยื่อตัวใหญ่",
+          "LocalizedString": "พรานผู้ล่าเหยื่อตัวใหญ่"
+        }
+      },
+      "NAME_QUEST_RANGER04": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_RANGER04_TextData",
+          "SourceString": "พรานผู้ได้กลิ่นหอม",
+          "LocalizedString": "พรานผู้ได้กลิ่นหอม"
+        }
+      },
+      "NAME_QUEST_NOMAD01": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_NOMAD01_TextData",
+          "SourceString": "ชนเผ่าเร่ร่อนผู้ไม่เผื่อแรงขากลับ",
+          "LocalizedString": "ชนเผ่าเร่ร่อนผู้ไม่เผื่อแรงขากลับ"
+        }
+      },
+      "NAME_QUEST_NOMAD02": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_NOMAD02_TextData",
+          "SourceString": "ชนเผ่าเร่ร่อนผู้เดินทางไกลแสนไกลเพื่อตามหาประกาย",
+          "LocalizedString": "ชนเผ่าเร่ร่อนผู้เดินทางไกลแสนไกลเพื่อตามหาประกาย"
+        }
+      },
+      "NAME_QUEST_NOMAD03": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_NOMAD03_TextData",
+          "SourceString": "ชนเผ่าเร่ร่อนผู้รักการผจญภัยยิ่งกว่าข้าวสามมื้อ",
+          "LocalizedString": "ชนเผ่าเร่ร่อนผู้รักการผจญภัยยิ่งกว่าข้าวสามมื้อ"
+        }
+      },
+      "NAME_QUEST_NOMAD04": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_NOMAD04_TextData",
+          "SourceString": "ชนเผ่าเร่ร่อนผู้ลมเพลมพัด",
+          "LocalizedString": "ชนเผ่าเร่ร่อนผู้ลมเพลมพัด"
+        }
+      },
+      "NAME_QUEST_ANGLER01": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_ANGLER01_TextData",
+          "SourceString": "นักตกปลาที่กำลังดื่มด่ำกับชีวิตสโลว์ไลฟ์",
+          "LocalizedString": "นักตกปลาที่กำลังดื่มด่ำกับชีวิตสโลว์ไลฟ์"
+        }
+      },
+      "CampPolice001": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "CampPolice001_TextData",
+          "SourceString": "สันติบาลลาดตระเวน",
+          "LocalizedString": "สันติบาลลาดตระเวน"
+        }
+      },
+      "CampPolice002": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "CampPolice002_TextData",
+          "SourceString": "สันติบาลที่เลิกงานเเล้ว",
+          "LocalizedString": "สันติบาลที่เลิกงานเเล้ว"
+        }
+      },
+      "CampPolice003": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "CampPolice003_TextData",
+          "SourceString": "สันติบาลผู้ชื่นชอบสุรา",
+          "LocalizedString": "สันติบาลผู้ชื่นชอบสุรา"
+        }
+      },
+      "CampPolice004": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "CampPolice004_TextData",
+          "SourceString": "สันติบาลขี้ประชด",
+          "LocalizedString": "สันติบาลขี้ประชด"
+        }
+      },
+      "CampPolice005": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "CampPolice005_TextData",
+          "SourceString": "สันติบาลในห้องน้ำ",
+          "LocalizedString": "สันติบาลในห้องน้ำ"
+        }
+      },
+      "CampPolice006": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "CampPolice006_TextData",
+          "SourceString": "สันติบาลผู้จริงจัง",
+          "LocalizedString": "สันติบาลผู้จริงจัง"
+        }
+      },
+      "CampPolice007": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "CampPolice007_TextData",
+          "SourceString": "สารวัตรผู้ไม่มีใจทำงาน",
+          "LocalizedString": "สารวัตรผู้ไม่มีใจทำงาน"
+        }
+      },
+      "CampPolice008": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "CampPolice008_TextData",
+          "SourceString": "สันติบาลขี้ขลาด",
+          "LocalizedString": "สันติบาลขี้ขลาด"
+        }
+      },
+      "CampPolice009": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "CampPolice009_TextData",
+          "SourceString": "สันติบาลช่างพูด",
+          "LocalizedString": "สันติบาลช่างพูด"
+        }
+      },
+      "CampPolice010": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "CampPolice010_TextData",
+          "SourceString": "สันติบาลผู้เยือกเย็น",
+          "LocalizedString": "สันติบาลผู้เยือกเย็น"
+        }
+      },
+      "CampPolice011": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "CampPolice011_TextData",
+          "SourceString": "สันติบาลเฝ้าทรัพย์",
+          "LocalizedString": "สันติบาลเฝ้าทรัพย์"
+        }
+      },
+      "CampPolice012": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "CampPolice012_TextData",
+          "SourceString": "สันติบาลในช่วงพัก",
+          "LocalizedString": "สันติบาลในช่วงพัก"
+        }
+      },
+      "CampPolice013": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "CampPolice013_TextData",
+          "SourceString": "สันติบาลเสเพล",
+          "LocalizedString": "สันติบาลเสเพล"
+        }
+      },
+      "CampPolice014": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "CampPolice014_TextData",
+          "SourceString": "สันติบาลงีบหลับ",
+          "LocalizedString": "สันติบาลงีบหลับ"
+        }
+      },
+      "CampPolice015": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "CampPolice015_TextData",
+          "SourceString": "สันติบาลขี้เมา",
+          "LocalizedString": "สันติบาลขี้เมา"
+        }
+      },
+      "CampPolice016": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "CampPolice016_TextData",
+          "SourceString": "สันติบาลกระหายน้ำ",
+          "LocalizedString": "สันติบาลกระหายน้ำ"
+        }
+      },
+      "CampPolice017": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "CampPolice017_TextData",
+          "SourceString": "สันติบาลที่เคลือบเเครงใจ",
+          "LocalizedString": "สันติบาลที่เคลือบเเครงใจ"
+        }
+      },
+      "NAME_GrassBoss": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_GrassBoss_TextData",
+          "SourceString": "Zoe",
+          "LocalizedString": "Zoe"
+        }
+      },
+      "NAME_QUEST_KIGURUMI01": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_KIGURUMI01_TextData",
+          "SourceString": "ชาวเกาะที่อยากเป็น Depresso",
+          "LocalizedString": "ชาวเกาะที่อยากเป็น Depresso"
+        }
+      },
+      "NAME_SurveyGirl": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_SurveyGirl_TextData",
+          "SourceString": "เฟีย",
+          "LocalizedString": "เฟีย"
+        }
+      },
+      "NAME_SurveyWoman": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_SurveyWoman_TextData",
+          "SourceString": "คาร์ลา",
+          "LocalizedString": "คาร์ลา"
+        }
+      },
+      "NAME_SurveyMan": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_SurveyMan_TextData",
+          "SourceString": "กาเดล",
+          "LocalizedString": "กาเดล"
+        }
+      },
+      "NAME_StrongOldMan": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_StrongOldMan_TextData",
+          "SourceString": "ฮาโรลด์",
+          "LocalizedString": "ฮาโรลด์"
+        }
+      },
+      "NAME_Male_DTairikuPeople01": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_Male_DTairikuPeople01_TextData",
+          "SourceString": "พลเมืองป่าไผ่",
+          "LocalizedString": "พลเมืองป่าไผ่"
+        }
+      },
+      "NAME_Female_DTairikuPeople01": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_Female_DTairikuPeople01_TextData",
+          "SourceString": "พลเมืองป่าไผ่",
+          "LocalizedString": "พลเมืองป่าไผ่"
+        }
+      },
+      "NAME_Male_TenrakuPeople01": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_Male_TenrakuPeople01_TextData",
+          "SourceString": "นักวิจัยแห่งสวรรค์ล่ม",
+          "LocalizedString": "นักวิจัยแห่งสวรรค์ล่ม"
+        }
+      },
+      "NAME_Female_TenrakuPeople01": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_Female_TenrakuPeople01_TextData",
+          "SourceString": "นักวิจัยแห่งสวรรค์ล่ม",
+          "LocalizedString": "นักวิจัยแห่งสวรรค์ล่ม"
+        }
+      },
+      "NAME_Male_SnowPeople01": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_Male_SnowPeople01_TextData",
+          "SourceString": "ชาวบ้านเเห่งความเยือกเหน็บ",
+          "LocalizedString": "ชาวบ้านเเห่งความเยือกเหน็บ"
+        }
+      },
+      "NAME_Female_SnowPeople01": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_Female_SnowPeople01_TextData",
+          "SourceString": "ชาวบ้านเเห่งความเยือกเหน็บ",
+          "LocalizedString": "ชาวบ้านเเห่งความเยือกเหน็บ"
+        }
+      },
+      "NAME_Male_SakurajimaPeople01": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_Male_SakurajimaPeople01_TextData",
+          "SourceString": "ชาวเกาะซากุระ",
+          "LocalizedString": "ชาวเกาะซากุระ"
+        }
+      },
+      "NAME_Female_SakurajimaPeople01": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_Female_SakurajimaPeople01_TextData",
+          "SourceString": "ชาวเกาะซากุระ",
+          "LocalizedString": "ชาวเกาะซากุระ"
+        }
+      },
+      "NAME_Negotiator": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_Negotiator_TextData",
+          "SourceString": "นักเจรจา",
+          "LocalizedString": "นักเจรจา"
+        }
+      },
+      "NAME_Male_WorldTreePeople01": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_Male_WorldTreePeople01_TextData",
+          "SourceString": "ผู้พิทักษ์แห่งพฤกษาโลก",
+          "LocalizedString": "ผู้พิทักษ์แห่งพฤกษาโลก"
+        }
+      },
+      "NAME_Female_WorldTreePeople01": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_Female_WorldTreePeople01_TextData",
+          "SourceString": "ผู้พิทักษ์แห่งพฤกษาโลก",
+          "LocalizedString": "ผู้พิทักษ์แห่งพฤกษาโลก"
+        }
+      },
+      "NAME_ArenaNPC_101": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_ArenaNPC_101_TextData",
+          "SourceString": "Regiultima",
+          "LocalizedString": "Regiultima"
+        }
+      },
+      "NAME_ArenaNPC_102": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_ArenaNPC_102_TextData",
+          "SourceString": "Shell Knight",
+          "LocalizedString": "Shell Knight"
+        }
+      },
+      "NAME_ArenaNPC_103": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_ArenaNPC_103_TextData",
+          "SourceString": "Koshi Anpan",
+          "LocalizedString": "Koshi Anpan"
+        }
+      },
+      "NAME_ArenaNPC_104": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_ArenaNPC_104_TextData",
+          "SourceString": "Winget",
+          "LocalizedString": "Winget"
+        }
+      },
+      "NAME_ArenaNPC_105": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_ArenaNPC_105_TextData",
+          "SourceString": "Nabeau",
+          "LocalizedString": "Nabeau"
+        }
+      },
+      "NAME_ArenaNPC_106": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_ArenaNPC_106_TextData",
+          "SourceString": "Krissy Komiya",
+          "LocalizedString": "Krissy Komiya"
+        }
+      },
+      "NAME_ArenaNPC_107": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_ArenaNPC_107_TextData",
+          "SourceString": "Nozomiso",
+          "LocalizedString": "Nozomiso"
+        }
+      },
+      "NAME_ArenaNPC_108": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_ArenaNPC_108_TextData",
+          "SourceString": "Maximum",
+          "LocalizedString": "Maximum"
+        }
+      },
+      "NAME_ArenaNPC_109": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_ArenaNPC_109_TextData",
+          "SourceString": "The Cheat Phantom",
+          "LocalizedString": "The Cheat Phantom"
+        }
+      },
+      "NAME_ArenaNPC_110": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_ArenaNPC_110_TextData",
+          "SourceString": "Prima",
+          "LocalizedString": "Prima"
+        }
+      },
+      "NAME_ArenaNPC_111": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_ArenaNPC_111_TextData",
+          "SourceString": "Jam4u2",
+          "LocalizedString": "Jam4u2"
+        }
+      },
+      "NAME_ArenaNPC_112": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_ArenaNPC_112_TextData",
+          "SourceString": "Certified Cynic",
+          "LocalizedString": "Certified Cynic"
+        }
+      },
+      "NAME_ArenaNPC_113": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_ArenaNPC_113_TextData",
+          "SourceString": "Jeevis",
+          "LocalizedString": "Jeevis"
+        }
+      },
+      "NAME_ArenaNPC_114": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_ArenaNPC_114_TextData",
+          "SourceString": "Rabbit XV",
+          "LocalizedString": "Rabbit XV"
+        }
+      },
+      "NAME_ArenaNPC_115": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_ArenaNPC_115_TextData",
+          "SourceString": "Ashee",
+          "LocalizedString": "Ashee"
+        }
+      },
+      "NAME_ArenaNPC_116": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_ArenaNPC_116_TextData",
+          "SourceString": "Okaetsu",
+          "LocalizedString": "Okaetsu"
+        }
+      },
+      "NAME_ArenaNPC_117": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_ArenaNPC_117_TextData",
+          "SourceString": "RedMage",
+          "LocalizedString": "RedMage"
+        }
+      },
+      "NAME_ArenaNPC_118": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_ArenaNPC_118_TextData",
+          "SourceString": "Ent",
+          "LocalizedString": "Ent"
+        }
+      },
+      "NAME_ArenaNPC_119": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_ArenaNPC_119_TextData",
+          "SourceString": "Pylar",
+          "LocalizedString": "Pylar"
+        }
+      },
+      "NAME_ArenaNPC_120": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_ArenaNPC_120_TextData",
+          "SourceString": "iori",
+          "LocalizedString": "iori"
+        }
+      },
+      "NAME_AncientResearcher": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_AncientResearcher_TextData",
+          "SourceString": "นักวิจัยอารยธรรมโบราณ",
+          "LocalizedString": "นักวิจัยอารยธรรมโบราณ"
+        }
+      },
+      "NAME_Male_SorajimaPeople01": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_Male_SorajimaPeople01_TextData",
+          "SourceString": "ชาวดินแดนแห่งแสงสุริยัน",
+          "LocalizedString": "ชาวดินแดนแห่งแสงสุริยัน"
+        }
+      },
+      "NAME_Female_SorajimaPeople01": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_Female_SorajimaPeople01_TextData",
+          "SourceString": "ชาวดินแดนแห่งแสงสุริยัน",
+          "LocalizedString": "ชาวดินแดนแห่งแสงสุริยัน"
+        }
+      },
+      "BOSSNAME_DEMO_SORAJIMA_LEADER": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BOSSNAME_DEMO_SORAJIMA_LEADER_TextData",
+          "SourceString": "AURI",
+          "LocalizedString": "AURI"
+        }
+      },
+      "BOSSNAME_DEMO_SORAJIMA_LEADER_PAL": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BOSSNAME_DEMO_SORAJIMA_LEADER_PAL_TextData",
+          "SourceString": "SHAOLONG",
+          "LocalizedString": "SHAOLONG"
+        }
+      },
+      "NAME_Male_VolcanoPorter": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_Male_VolcanoPorter_TextData",
+          "SourceString": "ขนส่งเสบียงไปยังภูเขาไฟ",
+          "LocalizedString": "ขนส่งเสบียงไปยังภูเขาไฟ"
+        }
+      },
+      "NAME_Male_DesertVillage004": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_Male_DesertVillage004_TextData",
+          "SourceString": "หมู่บ้านในทะเลทรายอันเงียบสงบ",
+          "LocalizedString": "หมู่บ้านในทะเลทรายอันเงียบสงบ"
+        }
+      }
+    }
+  }
+]

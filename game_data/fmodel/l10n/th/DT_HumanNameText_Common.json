@@ -1,0 +1,1072 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_HumanNameText_Common",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "NAME_TEST_NPC": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_TEST_NPC_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "NAME_CITIZEN": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_CITIZEN_TextData",
+          "SourceString": "ชาวเกาะ",
+          "LocalizedString": "ชาวเกาะ"
+        }
+      },
+      "NAME_VILLAGER": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_VILLAGER_TextData",
+          "SourceString": "ชาวบ้าน",
+          "LocalizedString": "ชาวบ้าน"
+        }
+      },
+      "NAME_QUESTMAN": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_QUESTMAN_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "NAME_SELESPERSON": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_SELESPERSON_TextData",
+          "SourceString": "พ่อค้าเร่",
+          "LocalizedString": "พ่อค้าเร่"
+        }
+      },
+      "NAME_VISITING": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_VISITING_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "NAME_WEAPON_DEALER": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_WEAPON_DEALER_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "NAME_PAL_DEALER": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_PAL_DEALER_TextData",
+          "SourceString": "พ่อค้าพาล",
+          "LocalizedString": "พ่อค้าพาล"
+        }
+      },
+      "NAME_GUARD": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_GUARD_TextData",
+          "SourceString": "ทหารยาม",
+          "LocalizedString": "ทหารยาม"
+        }
+      },
+      "NAME_SecurityDrone": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_SecurityDrone_TextData",
+          "SourceString": "เฮลิคอปเตอร์ติดอาวุธ",
+          "LocalizedString": "เฮลิคอปเตอร์ติดอาวุธ"
+        }
+      },
+      "NAME_Believer": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Believer_TextData",
+          "SourceString": "องค์กรผู้พิทักษ์พาล สาวก",
+          "LocalizedString": "องค์กรผู้พิทักษ์พาล สาวก"
+        }
+      },
+      "NAME_FireCult": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_FireCult_TextData",
+          "SourceString": "ภารดรเพลิงนิรันดร์ ผู้พลีชีพ",
+          "LocalizedString": "ภารดรเพลิงนิรันดร์ ผู้พลีชีพ"
+        }
+      },
+      "NAME_Labmen": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Labmen_TextData",
+          "SourceString": "กองกำลังวิจัยพันธุกรรม ผู้ลงทัณฑ์",
+          "LocalizedString": "กองกำลังวิจัยพันธุกรรม ผู้ลงทัณฑ์"
+        }
+      },
+      "NAME_POLICE": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_POLICE_TextData",
+          "SourceString": "สันติบาล ทหารยาม",
+          "LocalizedString": "สันติบาล ทหารยาม"
+        }
+      },
+      "NAME_POLICE_1": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_POLICE_1_TextData",
+          "SourceString": "สันติบาล ยามลาดตระเวน",
+          "LocalizedString": "สันติบาล ยามลาดตระเวน"
+        }
+      },
+      "NAME_POLICE_2": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_POLICE_2_TextData",
+          "SourceString": "สันติบาล พลปืน",
+          "LocalizedString": "สันติบาล พลปืน"
+        }
+      },
+      "NAME_POLICE_3": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_POLICE_3_TextData",
+          "SourceString": "สันติบาล หัวกะทิ",
+          "LocalizedString": "สันติบาล หัวกะทิ"
+        }
+      },
+      "NAME_HUNTER": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_TextData",
+          "SourceString": "ขบวนการพรานเถื่อน ดาวรุ่ง",
+          "LocalizedString": "ขบวนการพรานเถื่อน ดาวรุ่ง"
+        }
+      },
+      "NAME_HUNTER_2": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_2_TextData",
+          "SourceString": "ขบวนการพรานเถื่อน มือปืน",
+          "LocalizedString": "ขบวนการพรานเถื่อน มือปืน"
+        }
+      },
+      "NAME_HUNTER_3": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_3_TextData",
+          "SourceString": "ขบวนการพรานเถื่อน นักล่า",
+          "LocalizedString": "ขบวนการพรานเถื่อน นักล่า"
+        }
+      },
+      "NAME_HUNTER_4": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_4_TextData",
+          "SourceString": "ขบวนการพรานเถื่อน มือระเบิด",
+          "LocalizedString": "ขบวนการพรานเถื่อน มือระเบิด"
+        }
+      },
+      "NAME_HUNTER_5": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_5_TextData",
+          "SourceString": "ขบวนการพรานเถื่อน นักเก็บกวาด",
+          "LocalizedString": "ขบวนการพรานเถื่อน นักเก็บกวาด"
+        }
+      },
+      "NAME_HUNTER_6": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_6_TextData",
+          "SourceString": "ขบวนการพรานเถื่อน หัวกะทิ",
+          "LocalizedString": "ขบวนการพรานเถื่อน หัวกะทิ"
+        }
+      },
+      "NAME_HUNTER_BOSS": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_BOSS_TextData",
+          "SourceString": "ขบวนการพรานเถื่อน ครัชเชอร์",
+          "LocalizedString": "ขบวนการพรานเถื่อน ครัชเชอร์"
+        }
+      },
+      "NAME_DarkTrader": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_DarkTrader_TextData",
+          "SourceString": "พ่อค้าเถื่อน",
+          "LocalizedString": "พ่อค้าเถื่อน"
+        }
+      },
+      "NAME_HUNTER_7": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_7_TextData",
+          "SourceString": "ขบวนการพรานเถื่อน มือโปร",
+          "LocalizedString": "ขบวนการพรานเถื่อน มือโปร"
+        }
+      },
+      "NAME_HUNTER_8": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_8_TextData",
+          "SourceString": "ขบวนการพรานเถื่อน จอมสกัด",
+          "LocalizedString": "ขบวนการพรานเถื่อน จอมสกัด"
+        }
+      },
+      "NAME_Ninja": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Ninja_TextData",
+          "SourceString": "กลุ่มบุปผาจันทรา เกะนิน",
+          "LocalizedString": "กลุ่มบุปผาจันทรา เกะนิน"
+        }
+      },
+      "NAME_Ninja_2": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Ninja_2_TextData",
+          "SourceString": "กลุ่มบุปผาจันทรา โจนิน",
+          "LocalizedString": "กลุ่มบุปผาจันทรา โจนิน"
+        }
+      },
+      "NAME_MedalTrader": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_MedalTrader_TextData",
+          "SourceString": "พ่อค้าเมดัล",
+          "LocalizedString": "พ่อค้าเมดัล"
+        }
+      },
+      "NAME_BOSS_Hunter_Rifle": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Hunter_Rifle_TextData",
+          "SourceString": "คนร้ายมีค่าหัว Hawk",
+          "LocalizedString": "คนร้ายมีค่าหัว Hawk"
+        }
+      },
+      "NAME_BOSS_Hunter_Fat_GatlingGun": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Hunter_Fat_GatlingGun_TextData",
+          "SourceString": "คนร้ายมีค่าหัว Grill",
+          "LocalizedString": "คนร้ายมีค่าหัว Grill"
+        }
+      },
+      "NAME_BOSS_Believer_CrossBow": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Believer_CrossBow_TextData",
+          "SourceString": "คนร้ายมีค่าหัว Ego",
+          "LocalizedString": "คนร้ายมีค่าหัว Ego"
+        }
+      },
+      "NAME_BOSS_Believer_Fat_GiantClub": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Believer_Fat_GiantClub_TextData",
+          "SourceString": "คนร้ายมีค่าหัว Brick",
+          "LocalizedString": "คนร้ายมีค่าหัว Brick"
+        }
+      },
+      "NAME_BOSS_Police_Rifle": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Police_Rifle_TextData",
+          "SourceString": "คนร้ายมีค่าหัว Whip",
+          "LocalizedString": "คนร้ายมีค่าหัว Whip"
+        }
+      },
+      "NAME_BOSS_FireCult_FlameThrower": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_FireCult_FlameThrower_TextData",
+          "SourceString": "คนร้ายมีค่าหัว Shadow",
+          "LocalizedString": "คนร้ายมีค่าหัว Shadow"
+        }
+      },
+      "NAME_BOSS_Scientist_LaserRifle": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Scientist_LaserRifle_TextData",
+          "SourceString": "คนร้ายมีค่าหัว Whisk",
+          "LocalizedString": "คนร้ายมีค่าหัว Whisk"
+        }
+      },
+      "NAME_BOSS_Ninja": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Ninja_TextData",
+          "SourceString": "คนร้ายมีค่าหัว Fumble",
+          "LocalizedString": "คนร้ายมีค่าหัว Fumble"
+        }
+      },
+      "NAME_BOSS_Male_NinjaElite": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_NinjaElite_TextData",
+          "SourceString": "คนร้ายมีค่าหัว Urchin",
+          "LocalizedString": "คนร้ายมีค่าหัว Urchin"
+        }
+      },
+      "NAME_BOSS_Female_Soldier": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Female_Soldier_TextData",
+          "SourceString": "คนร้ายมีค่าหัว Jade",
+          "LocalizedString": "คนร้ายมีค่าหัว Jade"
+        }
+      },
+      "NAME_BOSS_Female_Soldier02": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Female_Soldier02_TextData",
+          "SourceString": "คนร้ายมีค่าหัว Dazzle",
+          "LocalizedString": "คนร้ายมีค่าหัว Dazzle"
+        }
+      },
+      "NAME_BOSS_Female_Soldier03": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Female_Soldier03_TextData",
+          "SourceString": "คนร้ายมีค่าหัว Aloha",
+          "LocalizedString": "คนร้ายมีค่าหัว Aloha"
+        }
+      },
+      "NAME_BOSS_Female_Soldier04": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Female_Soldier04_TextData",
+          "SourceString": "คนร้ายมีค่าหัว Nimble",
+          "LocalizedString": "คนร้ายมีค่าหัว Nimble"
+        }
+      },
+      "NAME_BOSS_Male_Soldier": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_Soldier_TextData",
+          "SourceString": "คนร้ายมีค่าหัว Crash",
+          "LocalizedString": "คนร้ายมีค่าหัว Crash"
+        }
+      },
+      "NAME_BOSS_Male_Soldier02": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_Soldier02_TextData",
+          "SourceString": "คนร้ายมีค่าหัว Dart",
+          "LocalizedString": "คนร้ายมีค่าหัว Dart"
+        }
+      },
+      "NAME_BOSS_Male_Soldier03": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_Soldier03_TextData",
+          "SourceString": "คนร้ายมีค่าหัว Clint",
+          "LocalizedString": "คนร้ายมีค่าหัว Clint"
+        }
+      },
+      "NAME_BOSS_Male_Soldier04": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_Soldier04_TextData",
+          "SourceString": "คนร้ายมีค่าหัว Lasso",
+          "LocalizedString": "คนร้ายมีค่าหัว Lasso"
+        }
+      },
+      "NAME_BOSS_Female_People": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Female_People_TextData",
+          "SourceString": "คนร้ายมีค่าหัว Flare",
+          "LocalizedString": "คนร้ายมีค่าหัว Flare"
+        }
+      },
+      "NAME_BOSS_Female_People02": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Female_People02_TextData",
+          "SourceString": "คนร้ายมีค่าหัว Siren",
+          "LocalizedString": "คนร้ายมีค่าหัว Siren"
+        }
+      },
+      "NAME_BOSS_Female_People03": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Female_People03_TextData",
+          "SourceString": "คนร้ายมีค่าหัว Turncoat",
+          "LocalizedString": "คนร้ายมีค่าหัว Turncoat"
+        }
+      },
+      "NAME_BOSS_Male_People": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_People_TextData",
+          "SourceString": "คนร้ายมีค่าหัว Dyna",
+          "LocalizedString": "คนร้ายมีค่าหัว Dyna"
+        }
+      },
+      "NAME_BOSS_Male_People2": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_People2_TextData",
+          "SourceString": "คนร้ายมีค่าหัว Mite",
+          "LocalizedString": "คนร้ายมีค่าหัว Mite"
+        }
+      },
+      "NAME_BOSS_Male_People02": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_People02_TextData",
+          "SourceString": "คนร้ายมีค่าหัว Quill",
+          "LocalizedString": "คนร้ายมีค่าหัว Quill"
+        }
+      },
+      "NAME_BOSS_Male_People03": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_People03_TextData",
+          "SourceString": "คนร้ายมีค่าหัว Scoot",
+          "LocalizedString": "คนร้ายมีค่าหัว Scoot"
+        }
+      },
+      "NAME_BOSS_Male_DesertPeople": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_DesertPeople_TextData",
+          "SourceString": "คนร้ายมีค่าหัว Phantom",
+          "LocalizedString": "คนร้ายมีค่าหัว Phantom"
+        }
+      },
+      "NAME_BOSS_Female_DesertPeople": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Female_DesertPeople_TextData",
+          "SourceString": "คนร้ายมีค่าหัว Whisper",
+          "LocalizedString": "คนร้ายมีค่าหัว Whisper"
+        }
+      },
+      "NAME_BOSS_Viking": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Viking_TextData",
+          "SourceString": "คนร้ายมีค่าหัว Gnaw",
+          "LocalizedString": "คนร้ายมีค่าหัว Gnaw"
+        }
+      },
+      "NAME_BOSS_VikingElite": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_VikingElite_TextData",
+          "SourceString": "คนร้ายมีค่าหัว Cache",
+          "LocalizedString": "คนร้ายมีค่าหัว Cache"
+        }
+      },
+      "NAME_BOSS_Police_Old": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Police_Old_TextData",
+          "SourceString": "คนร้ายมีค่าหัว Pinch",
+          "LocalizedString": "คนร้ายมีค่าหัว Pinch"
+        }
+      },
+      "NAME_BOSS_DarkTrader": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_DarkTrader_TextData",
+          "SourceString": "คนร้ายมีค่าหัว Ram",
+          "LocalizedString": "คนร้ายมีค่าหัว Ram"
+        }
+      },
+      "NAME_BOSS_Male_Trader01": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_Trader01_TextData",
+          "SourceString": "คนร้ายมีค่าหัว Skim",
+          "LocalizedString": "คนร้ายมีค่าหัว Skim"
+        }
+      },
+      "NAME_BOSS_Male_Trader02": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_Trader02_TextData",
+          "SourceString": "คนร้ายมีค่าหัว Mimic",
+          "LocalizedString": "คนร้ายมีค่าหัว Mimic"
+        }
+      },
+      "NAME_BOSS_Male_Trader03": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Male_Trader03_TextData",
+          "SourceString": "คนร้ายมีค่าหัว Billy",
+          "LocalizedString": "คนร้ายมีค่าหัว Billy"
+        }
+      },
+      "NAME_BOSS_Hunter_Fat_GatlingGun_Quest_StrongOldMan": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BOSS_Hunter_Fat_GatlingGun_Quest_StrongOldMan_TextData",
+          "SourceString": "นักล่าค่าหัวผู้เฒ่า",
+          "LocalizedString": "นักล่าค่าหัวผู้เฒ่า"
+        }
+      },
+      "NAME_Solider": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Solider_TextData",
+          "SourceString": "ทหารร่างบึกบึน",
+          "LocalizedString": "ทหารร่างบึกบึน"
+        }
+      },
+      "NAME_Recruiter": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Recruiter_TextData",
+          "SourceString": "คนรับสมัครพาล",
+          "LocalizedString": "คนรับสมัครพาล"
+        }
+      },
+      "NAME_CaravanLeader01": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_CaravanLeader01_TextData",
+          "SourceString": "หัวหน้ากลุ่มพ่อค้าเร่",
+          "LocalizedString": "หัวหน้ากลุ่มพ่อค้าเร่"
+        }
+      },
+      "NAME_Viking": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Viking_TextData",
+          "SourceString": "ชาวสวรรค์ล่ม",
+          "LocalizedString": "ชาวสวรรค์ล่ม"
+        }
+      },
+      "NAME_Viking_Elite": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Viking_Elite_TextData",
+          "SourceString": "ชาวสวรรค์ล่ม นักรบผู้กล้า",
+          "LocalizedString": "ชาวสวรรค์ล่ม นักรบผู้กล้า"
+        }
+      },
+      "NAME_Ambassador01": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Ambassador01_TextData",
+          "SourceString": "ทูตแห่งเมืองทะเลทราย",
+          "LocalizedString": "ทูตแห่งเมืองทะเลทราย"
+        }
+      },
+      "NAME_Blacksmith01": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Blacksmith01_TextData",
+          "SourceString": "ช่างตีเหล็กฝึกหัด",
+          "LocalizedString": "ช่างตีเหล็กฝึกหัด"
+        }
+      },
+      "NAME_Epicure01": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Epicure01_TextData",
+          "SourceString": "กูร์เมต์ฮันเตอร์",
+          "LocalizedString": "กูร์เมต์ฮันเตอร์"
+        }
+      },
+      "NAME_Escort_Warrior01": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Escort_Warrior01_TextData",
+          "SourceString": "ทหารรับจ้างอารักขา",
+          "LocalizedString": "ทหารรับจ้างอารักขา"
+        }
+      },
+      "NAME_Escort_PalTamer01": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Escort_PalTamer01_TextData",
+          "SourceString": "พาลเทมเมอร์อารักขา",
+          "LocalizedString": "พาลเทมเมอร์อารักขา"
+        }
+      },
+      "NAME_HUNTER_9": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_9_TextData",
+          "SourceString": "ขบวนการพรานเถื่อน นักรบไฮเทค",
+          "LocalizedString": "ขบวนการพรานเถื่อน นักรบไฮเทค"
+        }
+      },
+      "NAME_HUNTER_10": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_10_TextData",
+          "SourceString": "ขบวนการพรานเถื่อน พรานหน้าไม้",
+          "LocalizedString": "ขบวนการพรานเถื่อน พรานหน้าไม้"
+        }
+      },
+      "NAME_HUNTER_11": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_HUNTER_11_TextData",
+          "SourceString": "ขบวนการพรานเถื่อน นักดาบ",
+          "LocalizedString": "ขบวนการพรานเถื่อน นักดาบ"
+        }
+      },
+      "NAME_Believer_BOSS": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Believer_BOSS_TextData",
+          "SourceString": "องค์กรผู้พิทักษ์พาล ผู้พิพากษา",
+          "LocalizedString": "องค์กรผู้พิทักษ์พาล ผู้พิพากษา"
+        }
+      },
+      "NAME_Male_Soldier02_Invader": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Male_Soldier02_Invader_TextData",
+          "SourceString": "พาลเทมเมอร์ไฟแรง",
+          "LocalizedString": "พาลเทมเมอร์ไฟแรง"
+        }
+      },
+      "NAME_Female_Soldier03_Invader": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Female_Soldier03_Invader_TextData",
+          "SourceString": "พาลเทมเมอร์แฝด",
+          "LocalizedString": "พาลเทมเมอร์แฝด"
+        }
+      },
+      "NAME_BattlePaltamer001": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BattlePaltamer001_TextData",
+          "SourceString": "พาลเทมเมอร์มือใหม่",
+          "LocalizedString": "พาลเทมเมอร์มือใหม่"
+        }
+      },
+      "NAME_BattlePaltamer002": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BattlePaltamer002_TextData",
+          "SourceString": "พาลเทมเมอร์ผู้มีอนาคต",
+          "LocalizedString": "พาลเทมเมอร์ผู้มีอนาคต"
+        }
+      },
+      "NAME_BattlePaltamer003": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BattlePaltamer003_TextData",
+          "SourceString": "พาลเทมเมอร์ผู้โหดเหี้ยม",
+          "LocalizedString": "พาลเทมเมอร์ผู้โหดเหี้ยม"
+        }
+      },
+      "NAME_BattlePaltamer004": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BattlePaltamer004_TextData",
+          "SourceString": "พาลเทมเมอร์มือโปร",
+          "LocalizedString": "พาลเทมเมอร์มือโปร"
+        }
+      },
+      "NAME_BattlePaltamer005": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BattlePaltamer005_TextData",
+          "SourceString": "พาลเทมเมอร์กระหายศึก",
+          "LocalizedString": "พาลเทมเมอร์กระหายศึก"
+        }
+      },
+      "NAME_BattlePaltamer006": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_BattlePaltamer006_TextData",
+          "SourceString": "พาลเทมเมอร์ผู้เจนจัด",
+          "LocalizedString": "พาลเทมเมอร์ผู้เจนจัด"
+        }
+      },
+      "NAME_Female_Presenter01": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Female_Presenter01_TextData",
+          "SourceString": "พาลเทมเมอร์ผู้ใจดี",
+          "LocalizedString": "พาลเทมเมอร์ผู้ใจดี"
+        }
+      },
+      "NAME_Police_Chief": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Police_Chief_TextData",
+          "SourceString": "สารวัตรผู้ไม่มีใจทำงาน",
+          "LocalizedString": "สารวัตรผู้ไม่มีใจทำงาน"
+        }
+      },
+      "NAME_Police_old_Prisoner": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Police_old_Prisoner_TextData",
+          "SourceString": "อดีตสารวัตรผู้โดนจับขังคุก",
+          "LocalizedString": "อดีตสารวัตรผู้โดนจับขังคุก"
+        }
+      },
+      "NAME_Police001": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Police001_TextData",
+          "SourceString": "คุณลุงผู้เกิดใหม่",
+          "LocalizedString": "คุณลุงผู้เกิดใหม่"
+        }
+      },
+      "NAME_Reward_Emote": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Reward_Emote_TextData",
+          "SourceString": "ผู้เผยแพร่ความรัก",
+          "LocalizedString": "ผู้เผยแพร่ความรัก"
+        }
+      },
+      "NAME_PalPassive_Doctor": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_PalPassive_Doctor_TextData",
+          "SourceString": "ศาสตราจารย์ Brawn",
+          "LocalizedString": "ศาสตราจารย์ Brawn"
+        }
+      },
+      "NAME_QUEST_SCHOLAR01": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_QUEST_SCHOLAR01_TextData",
+          "SourceString": "นักวิจัยผู้ไล่ตามตำนาน",
+          "LocalizedString": "นักวิจัยผู้ไล่ตามตำนาน"
+        }
+      },
+      "NAME_Reward_Paldex": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Reward_Paldex_TextData",
+          "SourceString": "นักนิเวศวิทยาพาล",
+          "LocalizedString": "นักนิเวศวิทยาพาล"
+        }
+      },
+      "NAME_Reward_BossDefeat": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Reward_BossDefeat_TextData",
+          "SourceString": "พาลฮันเตอร์มือโปร",
+          "LocalizedString": "พาลฮันเตอร์มือโปร"
+        }
+      },
+      "NAME_QUEST_RANGER04": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_QUEST_RANGER04_TextData",
+          "SourceString": "พรานผู้ได้กลิ่นหอม",
+          "LocalizedString": "พรานผู้ได้กลิ่นหอม"
+        }
+      },
+      "NAME_GrassBoss": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_GrassBoss_TextData",
+          "SourceString": "Zoe",
+          "LocalizedString": "Zoe"
+        }
+      },
+      "NAME_SurveyGirl": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_SurveyGirl_TextData",
+          "SourceString": "เฟีย",
+          "LocalizedString": "เฟีย"
+        }
+      },
+      "NAME_SurveyWoman": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_SurveyWoman_TextData",
+          "SourceString": "คาร์ลา",
+          "LocalizedString": "คาร์ลา"
+        }
+      },
+      "NAME_SurveyMan": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_SurveyMan_TextData",
+          "SourceString": "กาเดล",
+          "LocalizedString": "กาเดล"
+        }
+      },
+      "NAME_StrongOldMan": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_StrongOldMan_TextData",
+          "SourceString": "ฮาโรลด์",
+          "LocalizedString": "ฮาโรลด์"
+        }
+      },
+      "NAME_WildlifeSanctuaryDrone": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_WildlifeSanctuaryDrone_TextData",
+          "SourceString": "โดรนป้องกัน",
+          "LocalizedString": "โดรนป้องกัน"
+        }
+      },
+      "NAME_Police_Invader_Katana": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Police_Invader_Katana_TextData",
+          "SourceString": "หน่วยสันติบาล - เบรเดอร์",
+          "LocalizedString": "หน่วยสันติบาล - เบรเดอร์"
+        }
+      },
+      "NAME_Police_Invader_CrossBow": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Police_Invader_CrossBow_TextData",
+          "SourceString": "หน่วยสันติบาล - ไลโอต",
+          "LocalizedString": "หน่วยสันติบาล - ไลโอต"
+        }
+      },
+      "NAME_Police_Invader_LaserRifle": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Police_Invader_LaserRifle_TextData",
+          "SourceString": "หน่วยสันติบาล - นักรบไฮเทค",
+          "LocalizedString": "หน่วยสันติบาล - นักรบไฮเทค"
+        }
+      },
+      "NAME_Police_Invader_GrenadeLauncher": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Police_Invader_GrenadeLauncher_TextData",
+          "SourceString": "หน่วยสันติบาล - ทหารผ่านศึก",
+          "LocalizedString": "หน่วยสันติบาล - ทหารผ่านศึก"
+        }
+      },
+      "NAME_Police_Invader_FlameThrower": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Police_Invader_FlameThrower_TextData",
+          "SourceString": "หน่วยสันติบาล - ผู้เก็บกวาด",
+          "LocalizedString": "หน่วยสันติบาล - ผู้เก็บกวาด"
+        }
+      },
+      "NAME_Police_Invader_RocketLauncher": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Police_Invader_RocketLauncher_TextData",
+          "SourceString": "หน่วยสันติบาล - หน่วยยิงจรวด",
+          "LocalizedString": "หน่วยสันติบาล - หน่วยยิงจรวด"
+        }
+      },
+      "NAME_Police_Invader_MissileLauncher": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Police_Invader_MissileLauncher_TextData",
+          "SourceString": "หน่วยสันติบาล - หน่วยสกัดกั้น",
+          "LocalizedString": "หน่วยสันติบาล - หน่วยสกัดกั้น"
+        }
+      },
+      "NAME_Sorajima_Enemy": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Sorajima_Enemy_TextData",
+          "SourceString": "ผู้ปฎิบัติการแห่งพันธสัญญาใต้เงาฟ้า",
+          "LocalizedString": "ผู้ปฎิบัติการแห่งพันธสัญญาใต้เงาฟ้า"
+        }
+      },
+      "NAME_Caravan04": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan04_TextData",
+          "SourceString": "ผู้ช่วยช่างตัดเนื้อ",
+          "LocalizedString": "ผู้ช่วยช่างตัดเนื้อ"
+        }
+      },
+      "NAME_Caravan05": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan05_TextData",
+          "SourceString": "ชาวประมงและคนขายเนื้อฝีมือดี",
+          "LocalizedString": "ชาวประมงและคนขายเนื้อฝีมือดี"
+        }
+      },
+      "NAME_Caravan06": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan06_TextData",
+          "SourceString": "นักล่ามือฉมัง",
+          "LocalizedString": "นักล่ามือฉมัง"
+        }
+      },
+      "NAME_Caravan07": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan07_TextData",
+          "SourceString": "นักล่าสัตว์ในตำนาน",
+          "LocalizedString": "นักล่าสัตว์ในตำนาน"
+        }
+      },
+      "NAME_Caravan08": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan08_TextData",
+          "SourceString": "เด็กส่งของของพวกลักลอบ",
+          "LocalizedString": "เด็กส่งของของพวกลักลอบ"
+        }
+      },
+      "NAME_Caravan09": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan09_TextData",
+          "SourceString": "เสบียงทหารรับจ้าง",
+          "LocalizedString": "เสบียงทหารรับจ้าง"
+        }
+      },
+      "NAME_Caravan10": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan10_TextData",
+          "SourceString": "พ่อค้าติดอาวุธหนัก",
+          "LocalizedString": "พ่อค้าติดอาวุธหนัก"
+        }
+      },
+      "NAME_Caravan11": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan11_TextData",
+          "SourceString": "คนขายกระสุนปืนในตำนาน",
+          "LocalizedString": "คนขายกระสุนปืนในตำนาน"
+        }
+      },
+      "NAME_Caravan12": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan12_TextData",
+          "SourceString": "ร้านขายผักในหมู่บ้าน",
+          "LocalizedString": "ร้านขายผักในหมู่บ้าน"
+        }
+      },
+      "NAME_Caravan13": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan13_TextData",
+          "SourceString": "พ่อค้าเร่ขายของเกษตร",
+          "LocalizedString": "พ่อค้าเร่ขายของเกษตร"
+        }
+      },
+      "NAME_Caravan14": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan14_TextData",
+          "SourceString": "พ่อค้าผักในตำนาน",
+          "LocalizedString": "พ่อค้าผักในตำนาน"
+        }
+      },
+      "NAME_Caravan15": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan15_TextData",
+          "SourceString": "คนขายยาน่าสงสัย",
+          "LocalizedString": "คนขายยาน่าสงสัย"
+        }
+      },
+      "NAME_Caravan16": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan16_TextData",
+          "SourceString": "คนปรุงยาที่ขึ้นทะเบียน",
+          "LocalizedString": "คนปรุงยาที่ขึ้นทะเบียน"
+        }
+      },
+      "NAME_Caravan17": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan17_TextData",
+          "SourceString": "คนปรุงยาในตำนาน",
+          "LocalizedString": "คนปรุงยาในตำนาน"
+        }
+      },
+      "NAME_Caravan18": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan18_TextData",
+          "SourceString": "ร้านขนมปังริมถนน",
+          "LocalizedString": "ร้านขนมปังริมถนน"
+        }
+      },
+      "NAME_Caravan19": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan19_TextData",
+          "SourceString": "ร้านอาหารท้องถิ่น",
+          "LocalizedString": "ร้านอาหารท้องถิ่น"
+        }
+      },
+      "NAME_Caravan20": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan20_TextData",
+          "SourceString": "นักชิมอาหารมือใหม่",
+          "LocalizedString": "นักชิมอาหารมือใหม่"
+        }
+      },
+      "NAME_Caravan21": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan21_TextData",
+          "SourceString": "นักชิมอาหารในตำนาน",
+          "LocalizedString": "นักชิมอาหารในตำนาน"
+        }
+      },
+      "NAME_Caravan22": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan22_TextData",
+          "SourceString": "พ่อค้าจัดหาวัสดุ",
+          "LocalizedString": "พ่อค้าจัดหาวัสดุ"
+        }
+      },
+      "NAME_Caravan23": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan23_TextData",
+          "SourceString": "พ่อค้าจัดหาวัสดุที่ถูกต้องตามกฎหมาย",
+          "LocalizedString": "พ่อค้าจัดหาวัสดุที่ถูกต้องตามกฎหมาย"
+        }
+      },
+      "NAME_Caravan24": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan24_TextData",
+          "SourceString": "พ่อค้าเอเลเมนท์",
+          "LocalizedString": "พ่อค้าเอเลเมนท์"
+        }
+      },
+      "NAME_Caravan25": {
+        "TextData": {
+          "Namespace": "DT_HumanNameText_Common",
+          "Key": "NAME_Caravan25_TextData",
+          "SourceString": "พ่อค้าวัสดุในตำนาน",
+          "LocalizedString": "พ่อค้าวัสดุในตำนาน"
+        }
+      }
+    }
+  }
+]

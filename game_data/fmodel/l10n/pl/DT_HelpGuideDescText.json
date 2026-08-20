@@ -1,0 +1,392 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_HelpGuideDescText",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "Help_1": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_1_TextData",
+          "SourceString": "Sterowanie (klawiatura)\r\n\r\nSterowanie kamerą (mysz)\r\n<keyGuideIcon id=|W_ForHelp|/><keyGuideIcon id=|A_ForHelp|/><keyGuideIcon id=|S_ForHelp|/><keyGuideIcon id=|D_ForHelp|/> Ruch\r\n<keyGuideIcon id=|ThrowPal| OverrideType=|1|/> Przyzwanie Pala\r\n<keyGuideIcon id=|ThrowObject| OverrideType=|1|/> Rzut sferą\r\n<keyGuideIcon id=|OpenConstructionMenu| OverrideType=|1|/> Menu budowania\r\n<keyGuideIcon id=|Jump| OverrideType=|1|/> Skok\r\n<keyGuideIcon id=|WeaponReady| OverrideType=|1|/> Celowanie\r\n<keyGuideIcon id=|WeaponUse| OverrideType=|1|/> Atak\r\n<keyGuideIcon id=|Coop| OverrideType=|1|/> Umiejętność Partnera\r\n<keyGuideIcon id=|Reload| OverrideType=|1|/> Przeładowanie\r\n<keyGuideIcon id=|ChangeWeaponNext| OverrideType=|1|/><keyGuideIcon id=|ChangeWeaponPrev| OverrideType=|1|/> Zmiana broni\r\n<keyGuideIcon id=|Crouch| OverrideType=|1|/> Kucanie\r\n<keyGuideIcon id=|Rolling| OverrideType=|1|/> Turlanie\r\n<keyGuideIcon id=|Dash| OverrideType=|1|/> Sprint\r\n<keyGuideIcon id=|PartnerPalInstructions| OverrideType=|1|/> Komendy dla Pala\r\n<keyGuideIcon id=|OtomoChangeIncrement| OverrideType=|1|/><keyGuideIcon id=|OtomoChangeDecrement| OverrideType=|1|/> Zmiana Pala\r\n<keyGuideIcon id=|SphereChange| OverrideType=|1|/> Zmiana sfery",
+          "LocalizedString": "Sterowanie (klawiatura)\r\n\r\nSterowanie kamerą (mysz)\r\n<keyGuideIcon id=|W_ForHelp|/><keyGuideIcon id=|A_ForHelp|/><keyGuideIcon id=|S_ForHelp|/><keyGuideIcon id=|D_ForHelp|/> Ruch\r\n<keyGuideIcon id=|ThrowPal| OverrideType=|1|/> Przyzwanie Pala\r\n<keyGuideIcon id=|ThrowObject| OverrideType=|1|/> Rzut sferą\r\n<keyGuideIcon id=|OpenConstructionMenu| OverrideType=|1|/> Menu budowania\r\n<keyGuideIcon id=|Jump| OverrideType=|1|/> Skok\r\n<keyGuideIcon id=|WeaponReady| OverrideType=|1|/> Celowanie\r\n<keyGuideIcon id=|WeaponUse| OverrideType=|1|/> Atak\r\n<keyGuideIcon id=|Coop| OverrideType=|1|/> Umiejętność Partnera\r\n<keyGuideIcon id=|Reload| OverrideType=|1|/> Przeładowanie\r\n<keyGuideIcon id=|ChangeWeaponNext| OverrideType=|1|/><keyGuideIcon id=|ChangeWeaponPrev| OverrideType=|1|/> Zmiana broni\r\n<keyGuideIcon id=|Crouch| OverrideType=|1|/> Kucanie\r\n<keyGuideIcon id=|Rolling| OverrideType=|1|/> Turlanie\r\n<keyGuideIcon id=|Dash| OverrideType=|1|/> Sprint\r\n<keyGuideIcon id=|PartnerPalInstructions| OverrideType=|1|/> Komendy dla Pala\r\n<keyGuideIcon id=|OtomoChangeIncrement| OverrideType=|1|/><keyGuideIcon id=|OtomoChangeDecrement| OverrideType=|1|/> Zmiana Pala\r\n<keyGuideIcon id=|SphereChange| OverrideType=|1|/> Zmiana sfery"
+        }
+      },
+      "Help_2": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_2_TextData",
+          "SourceString": "Sterowanie (kontroler)\r\n\r\nLewy analog: Ruch\r\nPrawy analog: Sterowanie kamerą\r\n<keyGuideIcon id=|ThrowPal| OverrideType=|2|/> Przyzwanie Pala\r\n<keyGuideIcon id=|ThrowObject| OverrideType=|2|/> Rzut sferą\r\n<keyGuideIcon id=|OpenConstructionMenu| OverrideType=|2|/> Menu budowania\r\n<keyGuideIcon id=|Jump| OverrideType=|2|/> Skok\r\n<keyGuideIcon id=|WeaponReady| OverrideType=|2|/> Celowanie\r\n<keyGuideIcon id=|WeaponUse| OverrideType=|2|/> Atak\r\n<keyGuideIcon id=|ReloadAndCoop| OverrideType=|2|/> Umiejętność Partnera\r\n<keyGuideIcon id=|ChangeWeaponNext_GamePad| OverrideType=|2|/> Zmiana broni\r\n<keyGuideIcon id=|RollingAndCrouch| OverrideType=|2|/> Kucanie/Turlanie\r\n<keyGuideIcon id=|DashController| OverrideType=|2|/> Sprint\r\n<keyGuideIcon id=|PartnerPalInstructions| OverrideType=|2|/> Komendy dla Pala\r\n<keyGuideIcon id=|OtomoChangeIncrement| OverrideType=|2|/><keyGuideIcon id=|OtomoChangeDecrement| OverrideType=|2|/> Zmiana Pala\r\n<keyGuideIcon id=|SphereChange| OverrideType=|2|/> Zmiana sfery",
+          "LocalizedString": "Sterowanie (kontroler)\r\n\r\nLewy analog: Ruch\r\nPrawy analog: Sterowanie kamerą\r\n<keyGuideIcon id=|ThrowPal| OverrideType=|2|/> Przyzwanie Pala\r\n<keyGuideIcon id=|ThrowObject| OverrideType=|2|/> Rzut sferą\r\n<keyGuideIcon id=|OpenConstructionMenu| OverrideType=|2|/> Menu budowania\r\n<keyGuideIcon id=|Jump| OverrideType=|2|/> Skok\r\n<keyGuideIcon id=|WeaponReady| OverrideType=|2|/> Celowanie\r\n<keyGuideIcon id=|WeaponUse| OverrideType=|2|/> Atak\r\n<keyGuideIcon id=|ReloadAndCoop| OverrideType=|2|/> Umiejętność Partnera\r\n<keyGuideIcon id=|ChangeWeaponNext_GamePad| OverrideType=|2|/> Zmiana broni\r\n<keyGuideIcon id=|RollingAndCrouch| OverrideType=|2|/> Kucanie/Turlanie\r\n<keyGuideIcon id=|DashController| OverrideType=|2|/> Sprint\r\n<keyGuideIcon id=|PartnerPalInstructions| OverrideType=|2|/> Komendy dla Pala\r\n<keyGuideIcon id=|OtomoChangeIncrement| OverrideType=|2|/><keyGuideIcon id=|OtomoChangeDecrement| OverrideType=|2|/> Zmiana Pala\r\n<keyGuideIcon id=|SphereChange| OverrideType=|2|/> Zmiana sfery"
+        }
+      },
+      "Help_3": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_3_TextData",
+          "SourceString": "Cel gry\r\n\r\nOdkrywaj tajemnice tej niezwykłej krainy, stawiając czoła niespotykanym dotąd przeciwnościom. \r\nPokonuj bossów strzegących wież w różnych regionach i poznaj prawdę o pochodzeniu Pali.\r\n\r\nBuduj potężne bazy, schwytaj jak najsilniejszego Pala albo wyhoduj go samodzielnie! \r\nWyrusz na niepowtarzalną przygodę u boku swoich Pali w nowym świecie!",
+          "LocalizedString": "Cel gry\r\n\r\nOdkrywaj tajemnice tej niezwykłej krainy, stawiając czoła niespotykanym dotąd przeciwnościom. \r\nPokonuj bossów strzegących wież w różnych regionach i poznaj prawdę o pochodzeniu Pali.\r\n\r\nBuduj potężne bazy, schwytaj jak najsilniejszego Pala albo wyhoduj go samodzielnie! \r\nWyrusz na niepowtarzalną przygodę u boku swoich Pali w nowym świecie!"
+        }
+      },
+      "Help_4": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_4_TextData",
+          "SourceString": "Od czego zacząć?\r\n\r\nNa początek zbierz leżące na ziemi gałęzie i kamyki, aby pozyskać drewno i kamień.\r\nMożesz je też zdobyć, uderzając gołymi rękami w większe drzewa i skały.\r\nZbuduj stół warsztatowy i wykonaj topór oraz kilof – dzięki nim łatwiej będzie ci zbierać surowce.\r\n\r\nGdy zgromadzisz wystarczająco materiałów, wybierz miejsce na bazę i postaw „Palboxa”.\r\nPo jego ustawieniu dany obszar stanie się twoją bazą.\r\n\r\nPo zdobyciu kolejnych poziomów zacznij tworzyć broń i „Pal Sferę”, a potem osłab dzikie Pale i spróbuj je schwytać.\r\n\r\nPale mogą ci towarzyszyć w walce lub pomagać w pracy, jeśli zostaną w bazie.\r\n\r\nNocą bywa niebezpiecznie. Przygotuj się na pierwszą noc, tworząc „ognisko”, „pochodnię” i „łóżko”.",
+          "LocalizedString": "Od czego zacząć?\r\n\r\nNa początek zbierz leżące na ziemi gałęzie i kamyki, aby pozyskać drewno i kamień.\r\nMożesz je też zdobyć, uderzając gołymi rękami w większe drzewa i skały.\r\nZbuduj stół warsztatowy i wykonaj topór oraz kilof – dzięki nim łatwiej będzie ci zbierać surowce.\r\n\r\nGdy zgromadzisz wystarczająco materiałów, wybierz miejsce na bazę i postaw „Palboxa”.\r\nPo jego ustawieniu dany obszar stanie się twoją bazą.\r\n\r\nPo zdobyciu kolejnych poziomów zacznij tworzyć broń i „Pal Sferę”, a potem osłab dzikie Pale i spróbuj je schwytać.\r\n\r\nPale mogą ci towarzyszyć w walce lub pomagać w pracy, jeśli zostaną w bazie.\r\n\r\nNocą bywa niebezpiecznie. Przygotuj się na pierwszą noc, tworząc „ognisko”, „pochodnię” i „łóżko”."
+        }
+      },
+      "Help_5": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_5_TextData",
+          "SourceString": "Pale\r\n\r\nPale to tajemnicze istoty zamieszkujące ten region.\r\nMożesz je schwytać za pomocą sfery, by uczynić je swoimi towarzyszami.\r\nZe sfery przywołasz je, naciskając <keyGuideIcon id=|ThrowPal|/>.\r\n\r\nMożesz mieć przy sobie maksymalnie 5 Pali jednocześnie. Jeśli złapiesz więcej, zostaną automatycznie wysłane do Palboxa (jeśli go nie masz, możesz go zbudować, aby odzyskać swoje Pale).",
+          "LocalizedString": "Pale\r\n\r\nPale to tajemnicze istoty zamieszkujące ten region.\r\nMożesz je schwytać za pomocą sfery, by uczynić je swoimi towarzyszami.\r\nZe sfery przywołasz je, naciskając <keyGuideIcon id=|ThrowPal|/>.\r\n\r\nMożesz mieć przy sobie maksymalnie 5 Pali jednocześnie. Jeśli złapiesz więcej, zostaną automatycznie wysłane do Palboxa (jeśli go nie masz, możesz go zbudować, aby odzyskać swoje Pale)."
+        }
+      },
+      "Help_6": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_6_TextData",
+          "SourceString": "HUD\r\n\r\nW lewym dolnym rogu ekranu wyświetlane są twoje Pale, punkty zdrowia oraz poziom głodu.\r\nWidoczna jest również aktualna temperatura. Ekstremalne warunki pogodowe mogą ci zaszkodzić.\r\nW prawym dolnym rogu znajdziesz wybraną sferę i broń oraz liczbę dostępnych pocisków.",
+          "LocalizedString": "HUD\r\n\r\nW lewym dolnym rogu ekranu wyświetlane są twoje Pale, punkty zdrowia oraz poziom głodu.\r\nWidoczna jest również aktualna temperatura. Ekstremalne warunki pogodowe mogą ci zaszkodzić.\r\nW prawym dolnym rogu znajdziesz wybraną sferę i broń oraz liczbę dostępnych pocisków."
+        }
+      },
+      "Help_7": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_7_TextData",
+          "SourceString": "Zbieranie przedmiotów\r\n\r\nNaciśnij <keyGuideIcon id=|Interact_1|/>, aby podnieść przedmioty z ziemi.\r\nMateriały możesz też zdobyć, niszcząc drzewa i skały przy użyciu topora lub kilofa.\r\nPokonane Pale również upuszczają przedmioty.",
+          "LocalizedString": "Zbieranie przedmiotów\r\n\r\nNaciśnij <keyGuideIcon id=|Interact_1|/>, aby podnieść przedmioty z ziemi.\r\nMateriały możesz też zdobyć, niszcząc drzewa i skały przy użyciu topora lub kilofa.\r\nPokonane Pale również upuszczają przedmioty."
+        }
+      },
+      "Help_8": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_8_TextData",
+          "SourceString": "Budowanie\r\n\r\nNaciśnij <keyGuideIcon id=|OpenConstructionMenu|/>, aby otworzyć menu budowania i rozpocząć budowę.\r\nWybierz miejsce z listy i przytrzymaj <keyGuideIcon id=|Interact_1|/>, aby rozpocząć stawianie konstrukcji.\r\nJeśli masz Pale w drużynie lub w bazie, pomogą ci one w budowie.",
+          "LocalizedString": "Budowanie\r\n\r\nNaciśnij <keyGuideIcon id=|OpenConstructionMenu|/>, aby otworzyć menu budowania i rozpocząć budowę.\r\nWybierz miejsce z listy i przytrzymaj <keyGuideIcon id=|Interact_1|/>, aby rozpocząć stawianie konstrukcji.\r\nJeśli masz Pale w drużynie lub w bazie, pomogą ci one w budowie."
+        }
+      },
+      "Help_9": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_9_TextData",
+          "SourceString": "Rzemiosło\r\n\r\nBuduj stoły warsztatowe i inne obiekty rzemieślnicze, a następnie wejdź z nimi w interakcję, by tworzyć przedmioty.\r\nNowe schematy odblokujesz za pomocą Punktów Technologii. Budując różne stanowiska rzemieślnicze, zyskujesz dostęp do nowych przedmiotów.",
+          "LocalizedString": "Rzemiosło\r\n\r\nBuduj stoły warsztatowe i inne obiekty rzemieślnicze, a następnie wejdź z nimi w interakcję, by tworzyć przedmioty.\r\nNowe schematy odblokujesz za pomocą Punktów Technologii. Budując różne stanowiska rzemieślnicze, zyskujesz dostęp do nowych przedmiotów."
+        }
+      },
+      "Help_10": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_10_TextData",
+          "SourceString": "Technologia\r\n\r\nOtwórz zakładkę Technologia w menu, by wykorzystać Punkty Technologii do odblokowywania nowych budynków i schematów rzemieślniczych.\r\nPunkty te zdobywasz między innymi awansując na kolejne poziomy. Innym sposobem na ich zdobycie są na przykład wizyty przy Posągach Wielkiego Orła.",
+          "LocalizedString": "Technologia\r\n\r\nOtwórz zakładkę Technologia w menu, by wykorzystać Punkty Technologii do odblokowywania nowych budynków i schematów rzemieślniczych.\r\nPunkty te zdobywasz między innymi awansując na kolejne poziomy. Innym sposobem na ich zdobycie są na przykład wizyty przy Posągach Wielkiego Orła."
+        }
+      },
+      "Help_11": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_11_TextData",
+          "SourceString": "Starożytna Technologia\r\n\r\nPokonując potężnych wrogów, możesz zdobyć Punkty Starożytnej Technologii.\r\nWykorzystaj je, aby odblokować obiekty zbudowane zgodnie z dawną sztuką rzemieślniczą.\r\n\r\nStarożytna Technologia to zaawansowana wiedza pochodząca z dawno zaginionej cywilizacji,\r\ndzięki której często możesz uzyskać imponujące i wyjątkowe efekty.",
+          "LocalizedString": "Starożytna Technologia\r\n\r\nPokonując potężnych wrogów, możesz zdobyć Punkty Starożytnej Technologii.\r\nWykorzystaj je, aby odblokować obiekty zbudowane zgodnie z dawną sztuką rzemieślniczą.\r\n\r\nStarożytna Technologia to zaawansowana wiedza pochodząca z dawno zaginionej cywilizacji,\r\ndzięki której często możesz uzyskać imponujące i wyjątkowe efekty."
+        }
+      },
+      "Help_12": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_12_TextData",
+          "SourceString": "Poziomy\r\n\r\nTy i twoje Pale awansujecie na kolejne poziomy po zdobyciu wystarczającej liczby EXP.\r\nEXP można zdobyć, pokonując lub łapiąc Pale,\r\na także poprzez pracę wykonywaną przy budowie i rzemiośle.\r\n\r\nJeśli poziom Pala przewyższa twój, nie będziesz w stanie w pełni go kontrolować, dlatego jego siła zostanie dostosowana do poziomu gracza. \r\nTo ograniczenie znane jest jako synchronizacja poziomu.",
+          "LocalizedString": "Poziomy\r\n\r\nTy i twoje Pale awansujecie na kolejne poziomy po zdobyciu wystarczającej liczby EXP.\r\nEXP można zdobyć, pokonując lub łapiąc Pale,\r\na także poprzez pracę wykonywaną przy budowie i rzemiośle.\r\n\r\nJeśli poziom Pala przewyższa twój, nie będziesz w stanie w pełni go kontrolować, dlatego jego siła zostanie dostosowana do poziomu gracza. \r\nTo ograniczenie znane jest jako synchronizacja poziomu."
+        }
+      },
+      "Help_13": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_13_TextData",
+          "SourceString": "Ulepszanie Statusu\r\n\r\nW zakładce ekwipunek w menu możesz rozdysponować Punkty Statusu,\r\naby zwiększyć statystyki swojej postaci.\r\nZyskując kolejne poziomy, otrzymasz dodatkowe Punkty Statusu.",
+          "LocalizedString": "Ulepszanie Statusu\r\n\r\nW zakładce ekwipunek w menu możesz rozdysponować Punkty Statusu,\r\naby zwiększyć statystyki swojej postaci.\r\nZyskując kolejne poziomy, otrzymasz dodatkowe Punkty Statusu."
+        }
+      },
+      "Help_14": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_14_TextData",
+          "SourceString": "Baza\r\n\r\nZbudowanie Palboxa sprawia, że otaczający go teren staje się twoją bazą.\r\nWchodząc w interakcję z Palboxem, możesz przywołać Pale do bazy,\r\ngdzie będą wykonywać zadania zgodnie ze swoimi predyspozycjami do pracy.\r\n\r\nBudując struktury w obrębie bazy, możesz zlecać Palom różne prace.\r\nPamiętaj, że Pale przebywające w bazie są narażone na ataki wrogów.",
+          "LocalizedString": "Baza\r\n\r\nZbudowanie Palboxa sprawia, że otaczający go teren staje się twoją bazą.\r\nWchodząc w interakcję z Palboxem, możesz przywołać Pale do bazy,\r\ngdzie będą wykonywać zadania zgodnie ze swoimi predyspozycjami do pracy.\r\n\r\nBudując struktury w obrębie bazy, możesz zlecać Palom różne prace.\r\nPamiętaj, że Pale przebywające w bazie są narażone na ataki wrogów."
+        }
+      },
+      "Help_15": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_15_TextData",
+          "SourceString": "Palbox\r\n\r\nObszar wokół Palboxa staje się terytorium bazy gildii, do której należysz, a konstrukcje znajdujące się na tym terenie stają się własnością tej gildii.\r\nWykonywanie „Misji bazy” dostępnych po interakcji z Palboxem pozwala rozwijać bazę gildii oraz zwiększać liczbę Pali, które można w niej przywołać.\r\n\r\nPale przechowywane w Palboxie odpoczywają i regenerują siły.\r\nBędą dochodzić do siebie nawet wtedy, gdy znajdą się na skraju wyczerpania.\r\n\r\nPalbox oferuje funkcję szybkiej podróży, która pozwala przenosić się do Posągów Wielkiego Orła odblokowanych podczas przygód.\r\n*Szybka podróż jest niedostępna, jeśli została wyłączona w ustawieniach świata.",
+          "LocalizedString": "Palbox\r\n\r\nObszar wokół Palboxa staje się terytorium bazy gildii, do której należysz, a konstrukcje znajdujące się na tym terenie stają się własnością tej gildii.\r\nWykonywanie „Misji bazy” dostępnych po interakcji z Palboxem pozwala rozwijać bazę gildii oraz zwiększać liczbę Pali, które można w niej przywołać.\r\n\r\nPale przechowywane w Palboxie odpoczywają i regenerują siły.\r\nBędą dochodzić do siebie nawet wtedy, gdy znajdą się na skraju wyczerpania.\r\n\r\nPalbox oferuje funkcję szybkiej podróży, która pozwala przenosić się do Posągów Wielkiego Orła odblokowanych podczas przygód.\r\n*Szybka podróż jest niedostępna, jeśli została wyłączona w ustawieniach świata."
+        }
+      },
+      "Help_16": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_16_TextData",
+          "SourceString": "Łapanie Pali\r\n\r\nNaciśnij <keyGuideIcon id=|ThrowObject|/>, aby rzucić Pal Sferę w stronę Pala i spróbować go schwytać.\r\nObniż jego poziom zdrowia, nałóż efekty statusu lub zwab go w pułapkę, aby zwiększyć szanse na skuteczne schwytanie.\r\nMożesz też podejść do Pala od tyłu i z zaskoczenia rzucić sferą, co również zwiększa skuteczność.\r\nIm silniejsze sfery stworzysz, tym potężniejsze Pale zdołasz złapać.",
+          "LocalizedString": "Łapanie Pali\r\n\r\nNaciśnij <keyGuideIcon id=|ThrowObject|/>, aby rzucić Pal Sferę w stronę Pala i spróbować go schwytać.\r\nObniż jego poziom zdrowia, nałóż efekty statusu lub zwab go w pułapkę, aby zwiększyć szanse na skuteczne schwytanie.\r\nMożesz też podejść do Pala od tyłu i z zaskoczenia rzucić sferą, co również zwiększa skuteczność.\r\nIm silniejsze sfery stworzysz, tym potężniejsze Pale zdołasz złapać."
+        }
+      },
+      "Help_17": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_17_TextData",
+          "SourceString": "Pale w drużynie\r\n\r\nMożesz mieć przy sobie maksymalnie 5 Pali jednocześnie. Jeśli złapiesz więcej, zostaną one automatycznie wysłane do Palboxa.\r\nGrupka składająca się z maksymalnie 5 Pali to twoja drużyna.\r\n\r\nZakładka drużyny jest dostępna w menu.\r\nTutaj sprawdzisz zdrowie, poziom głodu i inne statystyki swoich Pali.\r\nMożesz również zapoznać się z ich zdobytymi umiejętnościami\r\noraz zmieniać aktywne umiejętności na nowe, jeśli je opanowały.",
+          "LocalizedString": "Pale w drużynie\r\n\r\nMożesz mieć przy sobie maksymalnie 5 Pali jednocześnie. Jeśli złapiesz więcej, zostaną one automatycznie wysłane do Palboxa.\r\nGrupka składająca się z maksymalnie 5 Pali to twoja drużyna.\r\n\r\nZakładka drużyny jest dostępna w menu.\r\nTutaj sprawdzisz zdrowie, poziom głodu i inne statystyki swoich Pali.\r\nMożesz również zapoznać się z ich zdobytymi umiejętnościami\r\noraz zmieniać aktywne umiejętności na nowe, jeśli je opanowały."
+        }
+      },
+      "Help_18": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_18_TextData",
+          "SourceString": "Głód\r\n\r\nPoziom głodu gracza i Pali rośnie w miarę ich aktywności.\r\nNiska wartość może nałożyć negatywne efekty, takie jak obniżenie statystyk.\r\n\r\nWykorzystaj produkty spożywcze z ekwipunku, by\r\nby zaspokoić głód gracza i Pali.",
+          "LocalizedString": "Głód\r\n\r\nPoziom głodu gracza i Pali rośnie w miarę ich aktywności.\r\nNiska wartość może nałożyć negatywne efekty, takie jak obniżenie statystyk.\r\n\r\nWykorzystaj produkty spożywcze z ekwipunku, by\r\nby zaspokoić głód gracza i Pali."
+        }
+      },
+      "Help_19": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_19_TextData",
+          "SourceString": "Wartość SAN („Sanity” — „Poczytalność”)\r\n\r\nGdy Pale pracują w bazie, ich wartość SAN spada.\r\nIm niższy poziom SAN, tym bardziej Pale będą się obijać, a nawet mogą zachorować.\r\nJeśli poziom głodu Pala jest niski, jego SAN spada szybciej.\r\nKarm Pale produktami wysokiej jakości lub pozwól im odpocząć w gorącym źródle, by przywrócić ich SAN.",
+          "LocalizedString": "Wartość SAN („Sanity” — „Poczytalność”)\r\n\r\nGdy Pale pracują w bazie, ich wartość SAN spada.\r\nIm niższy poziom SAN, tym bardziej Pale będą się obijać, a nawet mogą zachorować.\r\nJeśli poziom głodu Pala jest niski, jego SAN spada szybciej.\r\nKarm Pale produktami wysokiej jakości lub pozwól im odpocząć w gorącym źródle, by przywrócić ich SAN."
+        }
+      },
+      "Help_20": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_20_TextData",
+          "SourceString": "Umiejętności Partnera\r\n\r\nTo unikalne zdolności, które posiada każdy gatunek Pala.\r\nNiektóre Pale potrafią na przykład strzelać z broni palnej lub umożliwiają graczowi jazdę na swoim grzbiecie.\r\n\r\nAby odblokować Umiejętność Partnera u niektórych Pali, wymagane jest specjalne wyposażenie, które można wytworzyć przy stole warsztatowym do wytwarzania Pal Sprzętu.\r\n\r\nUmiejętności Partnera można sprawdzić w zakładce Drużyna. Niektóre Pale zapewniają korzyści już samą obecnością w drużynie.",
+          "LocalizedString": "Umiejętności Partnera\r\n\r\nTo unikalne zdolności, które posiada każdy gatunek Pala.\r\nNiektóre Pale potrafią na przykład strzelać z broni palnej lub umożliwiają graczowi jazdę na swoim grzbiecie.\r\n\r\nAby odblokować Umiejętność Partnera u niektórych Pali, wymagane jest specjalne wyposażenie, które można wytworzyć przy stole warsztatowym do wytwarzania Pal Sprzętu.\r\n\r\nUmiejętności Partnera można sprawdzić w zakładce Drużyna. Niektóre Pale zapewniają korzyści już samą obecnością w drużynie."
+        }
+      },
+      "Help_21": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_21_TextData",
+          "SourceString": "Palpedia\r\n\r\nPalpedię możesz otworzyć z poziomu menu.\r\nRejestrowane są w niej informacje o widzianych i schwytanych Palach,\r\ndzięki czemu możesz sprawdzić, gdzie występują.",
+          "LocalizedString": "Palpedia\r\n\r\nPalpedię możesz otworzyć z poziomu menu.\r\nRejestrowane są w niej informacje o widzianych i schwytanych Palach,\r\ndzięki czemu możesz sprawdzić, gdzie występują."
+        }
+      },
+      "Help_22": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_22_TextData",
+          "SourceString": "Bonus za Palpedię\r\n\r\nOtrzymasz dodatkowe EXP za schwytanie nowego gatunku.\r\nBonusowe EXP przyznawany jest też za pierwsze 5 schwytanych osobników tego samego gatunku.",
+          "LocalizedString": "Bonus za Palpedię\r\n\r\nOtrzymasz dodatkowe EXP za schwytanie nowego gatunku.\r\nBonusowe EXP przyznawany jest też za pierwsze 5 schwytanych osobników tego samego gatunku."
+        }
+      },
+      "Help_23": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_23_TextData",
+          "SourceString": "Gildia\r\n\r\nPodchodząc do innych graczy, możesz poprosić o dołączenie do ich gildii.\r\nW zakładce Gildia w menu znajdziesz informacje o swojej gildii i jej członkach.\r\nGracze należący do tej samej gildii dzielą bazę i pracujące w niej Pale.",
+          "LocalizedString": "Gildia\r\n\r\nPodchodząc do innych graczy, możesz poprosić o dołączenie do ich gildii.\r\nW zakładce Gildia w menu znajdziesz informacje o swojej gildii i jej członkach.\r\nGracze należący do tej samej gildii dzielą bazę i pracujące w niej Pale."
+        }
+      },
+      "Help_24": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_24_TextData",
+          "SourceString": "Mapa\r\n\r\nNaciśnij <keyGuideIcon id=|OpenWorldMap|/>, aby wyświetlić mapę.\r\nZnajdziesz na niej informacje o terenie i innych elementach świata.",
+          "LocalizedString": "Mapa\r\n\r\nNaciśnij <keyGuideIcon id=|OpenWorldMap|/>, aby wyświetlić mapę.\r\nZnajdziesz na niej informacje o terenie i innych elementach świata."
+        }
+      },
+      "Help_25": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_25_TextData",
+          "SourceString": "Posąg Wielkiego Orła\r\n\r\nAktywując Posąg Wielkiego Orła, możesz korzystać z szybkiej podróży do innych wcześniej odwiedzonych posągów oraz do swojego Palboxa.\r\n\r\nDodatkowo za każdą aktywację otrzymasz Punkty Technologii.\r\nPosągi są rozsiane po całym świecie, więc warto z nich korzystać.\r\n\r\n*Szybka podróż jest niedostępna, jeśli została wyłączona w ustawieniach świata.",
+          "LocalizedString": "Posąg Wielkiego Orła\r\n\r\nAktywując Posąg Wielkiego Orła, możesz korzystać z szybkiej podróży do innych wcześniej odwiedzonych posągów oraz do swojego Palboxa.\r\n\r\nDodatkowo za każdą aktywację otrzymasz Punkty Technologii.\r\nPosągi są rozsiane po całym świecie, więc warto z nich korzystać.\r\n\r\n*Szybka podróż jest niedostępna, jeśli została wyłączona w ustawieniach świata."
+        }
+      },
+      "Help_26": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_26_TextData",
+          "SourceString": "Menu kołowe\r\n\r\nNaciśnij <keyGuideIcon id=|PartnerPalInstructions|/>, aby otworzyć menu kołowe.\r\nZ jego poziomu możesz wydawać Palom strategiczne polecenia lub je nakarmić.",
+          "LocalizedString": "Menu kołowe\r\n\r\nNaciśnij <keyGuideIcon id=|PartnerPalInstructions|/>, aby otworzyć menu kołowe.\r\nZ jego poziomu możesz wydawać Palom strategiczne polecenia lub je nakarmić."
+        }
+      },
+      "Help_27": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_27_TextData",
+          "SourceString": "Noc\r\n\r\nGdy zapada noc, otoczenie pogrąża się w ciemności, temperatura spada, a niebezpieczne Pale wychodzą ze swych kryjówek.\r\nZbuduj łóżko w bezpiecznym miejscu i przeczekaj noc lub ogrzej się przy ognisku.",
+          "LocalizedString": "Noc\r\n\r\nGdy zapada noc, otoczenie pogrąża się w ciemności, temperatura spada, a niebezpieczne Pale wychodzą ze swych kryjówek.\r\nZbuduj łóżko w bezpiecznym miejscu i przeczekaj noc lub ogrzej się przy ognisku."
+        }
+      },
+      "Help_28": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_28_TextData",
+          "SourceString": "Bossowie wież\r\n\r\nW każdym regionie znajduje się wieża, w której rezyduje lider organizacji rządzącej danym obszarem.\r\nLiderzy ci zazwyczaj uznają Poskramiaczy Pali spoza wyspy za wrogów i natychmiast wyzywają ich na pojedynek.\r\nW walkach z bossami wież obowiązuje limit czasu. Jeśli nie pokonasz przeciwnika w wyznaczonym czasie, przegrywasz.\r\nMożesz próbować tyle razy, ile chcesz, o ile nikt inny nie toczy walki w danym momencie.",
+          "LocalizedString": "Bossowie wież\r\n\r\nW każdym regionie znajduje się wieża, w której rezyduje lider organizacji rządzącej danym obszarem.\r\nLiderzy ci zazwyczaj uznają Poskramiaczy Pali spoza wyspy za wrogów i natychmiast wyzywają ich na pojedynek.\r\nW walkach z bossami wież obowiązuje limit czasu. Jeśli nie pokonasz przeciwnika w wyznaczonym czasie, przegrywasz.\r\nMożesz próbować tyle razy, ile chcesz, o ile nikt inny nie toczy walki w danym momencie."
+        }
+      },
+      "Help_29": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_29_TextData",
+          "SourceString": "Przestępstwo\r\n\r\nAtakowanie pokojowych NPC-ów na polu lub w wioskach zostanie zgłoszone i skutkuje uzyskaniem statusu przestępcy.\r\nJeśli ktoś przyłapie cię na wykroczeniu, trafisz na listę poszukiwanych Sił Obronnych Wysp Palpagos (SOWP), więc miej się na baczności.\r\n\r\nJeśli wpiszą cię na listę poszukiwanych, możesz znieść ten status,\r\nuciekając przed SOWP i przez jakiś czas pozostając poza ich zasięgiem.",
+          "LocalizedString": "Przestępstwo\r\n\r\nAtakowanie pokojowych NPC-ów na polu lub w wioskach zostanie zgłoszone i skutkuje uzyskaniem statusu przestępcy.\r\nJeśli ktoś przyłapie cię na wykroczeniu, trafisz na listę poszukiwanych Sił Obronnych Wysp Palpagos (SOWP), więc miej się na baczności.\r\n\r\nJeśli wpiszą cię na listę poszukiwanych, możesz znieść ten status,\r\nuciekając przed SOWP i przez jakiś czas pozostając poza ich zasięgiem."
+        }
+      },
+      "Help_30": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_30_TextData",
+          "SourceString": "Wytrzymałość ekwipunku\r\n\r\nEkwipunek traci wytrzymałość podczas użytkowania i psuje się, gdy ta spadnie do zera.\r\nUszkodzony sprzęt możesz naprawić przy stole naprawczym, wykorzystując odpowiednie materiały.",
+          "LocalizedString": "Wytrzymałość ekwipunku\r\n\r\nEkwipunek traci wytrzymałość podczas użytkowania i psuje się, gdy ta spadnie do zera.\r\nUszkodzony sprzęt możesz naprawić przy stole naprawczym, wykorzystując odpowiednie materiały."
+        }
+      },
+      "Help_31": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_31_TextData",
+          "SourceString": "Psucie się przedmiotów\r\n\r\nNiektóre przedmioty, takie jak jedzenie, z czasem się psują i ostatecznie znikają.\r\nPrzechowywanie ich w chłodziarce lub lodówce zapobiega ich gniciu.",
+          "LocalizedString": "Psucie się przedmiotów\r\n\r\nNiektóre przedmioty, takie jak jedzenie, z czasem się psują i ostatecznie znikają.\r\nPrzechowywanie ich w chłodziarce lub lodówce zapobiega ich gniciu."
+        }
+      },
+      "Help_32": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_32_TextData",
+          "SourceString": "Żywioły\r\n\r\nKażdy Pal ma przypisany żywioł, a każdy żywioł ma swoje mocne i słabe strony względem innych.\r\nAtaki żywiołowe zadają większe obrażenia przeciwnikom podatnym na dany żywioł, a mniejsze — tym, którzy są na niego odporni.",
+          "LocalizedString": "Żywioły\r\n\r\nKażdy Pal ma przypisany żywioł, a każdy żywioł ma swoje mocne i słabe strony względem innych.\r\nAtaki żywiołowe zadają większe obrażenia przeciwnikom podatnym na dany żywioł, a mniejsze — tym, którzy są na niego odporni."
+        }
+      },
+      "Help_33": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_33_TextData",
+          "SourceString": "Efekty statusu\r\n\r\nPale i postać gracza mogą zostać dotknięte efektami statusu pod wpływem otoczenia lub działania umiejętności.\r\nIstnieje wiele rodzajów efektów statusu, a każdy z nich ma inne działanie.\r\nPonadto Pale znajdujące się pod wpływem efektu statusu łatwiej schwytać.\r\n\r\n\r\n„Podpalenie”\r\nCel staje w płomieniach i otrzymuje ciągłe obrażenia.\r\nZmniejsza obrażenia otrzymywane od ataków roślinnych.\r\nPale typu ognistego i wodnego nie mogą zostać podpalone.\r\n\r\n„Przemoczenie”\r\nCel jest przemoczony, a jego prędkość poruszania się spada.\r\nZwiększa obrażenia otrzymywane od ataków elektrycznych.\r\nZmniejsza obrażenia otrzymywane od ataków ognistych.\r\n\r\n„Oplątanie bluszczem”\r\nCel zostaje opleciony pnączami, a jego prędkość poruszania się spada.\r\nNiektóre akcje, takie jak skok czy unik, zostają ograniczone.\r\nZwiększa obrażenia otrzymywane od ataków ognistych.\r\n\r\n„Porażenie prądem”\r\nCel zostaje sparaliżowany prądem, co uniemożliwia poruszanie się.\r\nZwiększa obrażenia otrzymywane od ataków wodnych.\r\n\r\n„Zamrożenie”\r\nCel zostaje skuty lodem, co uniemożliwia poruszanie się.\r\n\r\n„Zabłocenie”\r\nCel zostaje pokryty błotem, a jego prędkość poruszania się spada.\r\nZwiększa obrażenia otrzymywane od ataków roślinnych.\r\nZmniejsza obrażenia otrzymywane od ataków elektrycznych.\r\n\r\n„Oślepienie”\r\nWidoczność celu zostaje ograniczona, przez co traci obiekt ataku z oczu.\r\n\r\n„Zatrucie”\r\nCel zostaje otruty i otrzymuje ciągłe obrażenia.",
+          "LocalizedString": "Efekty statusu\r\n\r\nPale i postać gracza mogą zostać dotknięte efektami statusu pod wpływem otoczenia lub działania umiejętności.\r\nIstnieje wiele rodzajów efektów statusu, a każdy z nich ma inne działanie.\r\nPonadto Pale znajdujące się pod wpływem efektu statusu łatwiej schwytać.\r\n\r\n\r\n„Podpalenie”\r\nCel staje w płomieniach i otrzymuje ciągłe obrażenia.\r\nZmniejsza obrażenia otrzymywane od ataków roślinnych.\r\nPale typu ognistego i wodnego nie mogą zostać podpalone.\r\n\r\n„Przemoczenie”\r\nCel jest przemoczony, a jego prędkość poruszania się spada.\r\nZwiększa obrażenia otrzymywane od ataków elektrycznych.\r\nZmniejsza obrażenia otrzymywane od ataków ognistych.\r\n\r\n„Oplątanie bluszczem”\r\nCel zostaje opleciony pnączami, a jego prędkość poruszania się spada.\r\nNiektóre akcje, takie jak skok czy unik, zostają ograniczone.\r\nZwiększa obrażenia otrzymywane od ataków ognistych.\r\n\r\n„Porażenie prądem”\r\nCel zostaje sparaliżowany prądem, co uniemożliwia poruszanie się.\r\nZwiększa obrażenia otrzymywane od ataków wodnych.\r\n\r\n„Zamrożenie”\r\nCel zostaje skuty lodem, co uniemożliwia poruszanie się.\r\n\r\n„Zabłocenie”\r\nCel zostaje pokryty błotem, a jego prędkość poruszania się spada.\r\nZwiększa obrażenia otrzymywane od ataków roślinnych.\r\nZmniejsza obrażenia otrzymywane od ataków elektrycznych.\r\n\r\n„Oślepienie”\r\nWidoczność celu zostaje ograniczona, przez co traci obiekt ataku z oczu.\r\n\r\n„Zatrucie”\r\nCel zostaje otruty i otrzymuje ciągłe obrażenia."
+        }
+      },
+      "Help_34": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_34_TextData",
+          "SourceString": "Jaja Pali\r\n\r\nPodczas eksploracji świata możesz natknąć się na jaja Pali.\r\nZ jaj umieszczonych w inkubatorze jaj wyklują się młode Pale.\r\nProces inkubacji przebiega szybciej, gdy temperatura otoczenia jest odpowiednia dla danego jaja.",
+          "LocalizedString": "Jaja Pali\r\n\r\nPodczas eksploracji świata możesz natknąć się na jaja Pali.\r\nZ jaj umieszczonych w inkubatorze jaj wyklują się młode Pale.\r\nProces inkubacji przebiega szybciej, gdy temperatura otoczenia jest odpowiednia dla danego jaja."
+        }
+      },
+      "Help_35": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_35_TextData",
+          "SourceString": "Farma hodowlana Pali\r\n\r\nPrzydziel samca i samicę do farmy hodowlanej i umieść ciasto w skrzyni. Po pewnym czasie możesz znaleźć jajo Pala.\r\nNiektóre wyjątkowe kombinacje Pali mogą zaowocować zniesieniem wyjątkowych jaj Pali.",
+          "LocalizedString": "Farma hodowlana Pali\r\n\r\nPrzydziel samca i samicę do farmy hodowlanej i umieść ciasto w skrzyni. Po pewnym czasie możesz znaleźć jajo Pala.\r\nNiektóre wyjątkowe kombinacje Pali mogą zaowocować zniesieniem wyjątkowych jaj Pali."
+        }
+      },
+      "Help_36": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_36_TextData",
+          "SourceString": "Kondensator Esencji Pala\r\n\r\nKażdy Pal ma swoją rangę – im jest wyższa, tym lepsze są jego statystyki.\r\nWraz ze wzrostem rangi Umiejętność Partnera może stać się silniejsza.\r\nRangę Pala można zwiększyć za pomocą Kondensatora Esencji Pala. Wymaga to jednak przetworzenia ogromnej liczby Pali tego samego gatunku w esencję.",
+          "LocalizedString": "Kondensator Esencji Pala\r\n\r\nKażdy Pal ma swoją rangę – im jest wyższa, tym lepsze są jego statystyki.\r\nWraz ze wzrostem rangi Umiejętność Partnera może stać się silniejsza.\r\nRangę Pala można zwiększyć za pomocą Kondensatora Esencji Pala. Wymaga to jednak przetworzenia ogromnej liczby Pali tego samego gatunku w esencję."
+        }
+      },
+      "Help_37": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_37_TextData",
+          "SourceString": "Posągi Pali\r\n\r\nPosągi Pali można czasami znaleźć w różnych zakątkach świata. Ofiarowanie ich Pomnikowi Mocy pozwala wzmocnić różne zdolności gracza.",
+          "LocalizedString": "Posągi Pali\r\n\r\nPosągi Pali można czasami znaleźć w różnych zakątkach świata. Ofiarowanie ich Pomnikowi Mocy pozwala wzmocnić różne zdolności gracza."
+        }
+      },
+      "Help_38": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_38_TextData",
+          "SourceString": "Dusze Pali\r\n\r\nDusze Pali można czasami znaleźć w skrzyniach ze skarbami.\r\nOfiaruj je Pomnikowi Mocy, aby wzmocnić zwiększyć statystyki Pala.",
+          "LocalizedString": "Dusze Pali\r\n\r\nDusze Pali można czasami znaleźć w skrzyniach ze skarbami.\r\nOfiaruj je Pomnikowi Mocy, aby wzmocnić zwiększyć statystyki Pala."
+        }
+      },
+      "Help_39": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_39_TextData",
+          "SourceString": "Podgatunki Pali\r\n\r\nNiektóre Pale potrafią przystosować się do środowiska w takim stopniu, że zaczynają odbiegać od swojej pierwotnej formy, tworząc tzw. „podgatunek”.\r\nPodgatunki różnią się typem od gatunku podstawowego i posiadają nieco wyższe statystyki.\r\n\r\nPewne kombinacje hodowlane również mogą stworzyć podgatunek.\r\n\r\nPodgatunki są liczone osobno względem gatunków podstawowych w ramach bonusu Palpedii, dlatego schwytanie 5 osobników danego podgatunku pozwala zdobyć dodatkowe EXP.",
+          "LocalizedString": "Podgatunki Pali\r\n\r\nNiektóre Pale potrafią przystosować się do środowiska w takim stopniu, że zaczynają odbiegać od swojej pierwotnej formy, tworząc tzw. „podgatunek”.\r\nPodgatunki różnią się typem od gatunku podstawowego i posiadają nieco wyższe statystyki.\r\n\r\nPewne kombinacje hodowlane również mogą stworzyć podgatunek.\r\n\r\nPodgatunki są liczone osobno względem gatunków podstawowych w ramach bonusu Palpedii, dlatego schwytanie 5 osobników danego podgatunku pozwala zdobyć dodatkowe EXP."
+        }
+      },
+      "Help_40": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_40_TextData",
+          "SourceString": "Szczęśliwe Pale\r\n\r\nSzczęśliwe Pale to rzadkie osobniki, które można spotkać w różnych miejscach na świecie. Są większe od zwykłych i mają promienny wygląd.\r\nCzęsto cechują się wysokimi statystykami oraz unikalnymi umiejętnościami zarówno pasywnymi, jak i aktywnymi.",
+          "LocalizedString": "Szczęśliwe Pale\r\n\r\nSzczęśliwe Pale to rzadkie osobniki, które można spotkać w różnych miejscach na świecie. Są większe od zwykłych i mają promienny wygląd.\r\nCzęsto cechują się wysokimi statystykami oraz unikalnymi umiejętnościami zarówno pasywnymi, jak i aktywnymi."
+        }
+      },
+      "Help_40_2": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_40_2_TextData",
+          "SourceString": "Drapieżne Pale\r\n\r\nDrapieżne Pale to groźne istoty, które można napotkać na otwartym terenie.\r\nWyróżniają się dużymi rozmiarami, wyjątkową agresją oraz czerwoną, mroczną aurą otaczającą ich ciała. \r\nZe względu na tę aurę nie można ich schwytać przy pomocy sfery. Przed podjęciem walki upewnij się, że ty i twoje Pale jesteście gotowi na starcie.",
+          "LocalizedString": "Drapieżne Pale\r\n\r\nDrapieżne Pale to groźne istoty, które można napotkać na otwartym terenie.\r\nWyróżniają się dużymi rozmiarami, wyjątkową agresją oraz czerwoną, mroczną aurą otaczającą ich ciała. \r\nZe względu na tę aurę nie można ich schwytać przy pomocy sfery. Przed podjęciem walki upewnij się, że ty i twoje Pale jesteście gotowi na starcie."
+        }
+      },
+      "Help_41": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_41_TextData",
+          "SourceString": "Śmierć\r\n\r\nGdy gracz zginie, upuszcza wszystkie trzymane przedmioty oraz Pale z drużyny w miejscu zgonu.\r\nMożesz je odzyskać, wracając na to miejsce po odrodzeniu.\r\nPojawi się tam słup światła — możesz z nim wejść w interakcję także z powietrza i odzyskać swoje rzeczy.\r\n\r\n*Tę karę można zmienić lub całkowicie wyłączyć w ustawieniach świata.",
+          "LocalizedString": "Śmierć\r\n\r\nGdy gracz zginie, upuszcza wszystkie trzymane przedmioty oraz Pale z drużyny w miejscu zgonu.\r\nMożesz je odzyskać, wracając na to miejsce po odrodzeniu.\r\nPojawi się tam słup światła — możesz z nim wejść w interakcję także z powietrza i odzyskać swoje rzeczy.\r\n\r\n*Tę karę można zmienić lub całkowicie wyłączyć w ustawieniach świata."
+        }
+      },
+      "Help_42": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_42_TextData",
+          "SourceString": "Arena\r\n\r\nTo obiekt położony na odległej wyspie w pustynnym regionie.\r\nMożesz połączyć siły ze swoimi Palami i rywalizować z innymi Poskramiaczami Pali w tym samym świecie.\r\nMożesz także zmierzyć się z NPC-ami. Szczególnie NPC od rangi Mistrza wzwyż wyróżniają się siłą.\r\n\r\nZ 5 posiadanych Pali wybierz 1 głównego partnera oraz dwa pomocnicze Pale do walki.\r\nWygrywasz, jeśli pokonasz przeciwnika lub wszystkie jego Pale.\r\n\r\nPo zakończeniu walki zużyte przedmioty i pokonane Pale zostaną przywrócone do pierwotnego stanu.\r\n*Na arenie nie można stosować przedmiotów zużywalnych.\r\n*Na arenie nie można korzystać z broni wykorzystującej Pal Sfery ani z broni służącej do dopingu.\r\n\r\nZa zwycięstwo zdobywasz punkty rangi (RP), a po osiągnięciu określonej liczby RP twoja ranga wzrasta.\r\nW przypadku przegranej tracisz RP.\r\n\r\nPoza walką możesz także oglądać pojedynki toczące się między innymi graczami.",
+          "LocalizedString": "Arena\r\n\r\nTo obiekt położony na odległej wyspie w pustynnym regionie.\r\nMożesz połączyć siły ze swoimi Palami i rywalizować z innymi Poskramiaczami Pali w tym samym świecie.\r\nMożesz także zmierzyć się z NPC-ami. Szczególnie NPC od rangi Mistrza wzwyż wyróżniają się siłą.\r\n\r\nZ 5 posiadanych Pali wybierz 1 głównego partnera oraz dwa pomocnicze Pale do walki.\r\nWygrywasz, jeśli pokonasz przeciwnika lub wszystkie jego Pale.\r\n\r\nPo zakończeniu walki zużyte przedmioty i pokonane Pale zostaną przywrócone do pierwotnego stanu.\r\n*Na arenie nie można stosować przedmiotów zużywalnych.\r\n*Na arenie nie można korzystać z broni wykorzystującej Pal Sfery ani z broni służącej do dopingu.\r\n\r\nZa zwycięstwo zdobywasz punkty rangi (RP), a po osiągnięciu określonej liczby RP twoja ranga wzrasta.\r\nW przypadku przegranej tracisz RP.\r\n\r\nPoza walką możesz także oglądać pojedynki toczące się między innymi graczami."
+        }
+      },
+      "Help_2_PS5": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_2_PS5_TextData",
+          "SourceString": "Sterowanie (kontroler)\r\n\r\nLewy drążek: Ruch\r\nPrawy drążek: Sterowanie kamerą\r\n<keyGuideIcon id=|ThrowPal| OverrideType=|2|/> Przyzwanie Pala\r\n<keyGuideIcon id=|ThrowObject| OverrideType=|2|/> Rzut sferą\r\n<keyGuideIcon id=|OpenConstructionMenu| OverrideType=|2|/> Menu budowania\r\n<keyGuideIcon id=|Jump| OverrideType=|2|/> Skok\r\n<keyGuideIcon id=|WeaponReady| OverrideType=|2|/> Celowanie\r\n<keyGuideIcon id=|WeaponUse| OverrideType=|2|/> Atak\r\n<keyGuideIcon id=|ReloadAndCoop| OverrideType=|2|/> Umiejętność Partnera\r\n<keyGuideIcon id=|ChangeWeaponNext| OverrideType=|2|/> Zmiana broni\r\n<keyGuideIcon id=|RollingAndCrouch| OverrideType=|2|/> Kucanie/Turlanie\r\n<keyGuideIcon id=|DashController| OverrideType=|2|/> Sprint\r\n<keyGuideIcon id=|PartnerPalInstructions| OverrideType=|2|/> Komendy dla Pala\r\n<keyGuideIcon id=|OtomoChangeIncrement| OverrideType=|2|/><keyGuideIcon id=|OtomoChangeDecrement| OverrideType=|2|/> Zmiana Pala\r\n<keyGuideIcon id=|SphereChange| OverrideType=|2|/> Zmiana sfery",
+          "LocalizedString": "Sterowanie (kontroler)\r\n\r\nLewy drążek: Ruch\r\nPrawy drążek: Sterowanie kamerą\r\n<keyGuideIcon id=|ThrowPal| OverrideType=|2|/> Przyzwanie Pala\r\n<keyGuideIcon id=|ThrowObject| OverrideType=|2|/> Rzut sferą\r\n<keyGuideIcon id=|OpenConstructionMenu| OverrideType=|2|/> Menu budowania\r\n<keyGuideIcon id=|Jump| OverrideType=|2|/> Skok\r\n<keyGuideIcon id=|WeaponReady| OverrideType=|2|/> Celowanie\r\n<keyGuideIcon id=|WeaponUse| OverrideType=|2|/> Atak\r\n<keyGuideIcon id=|ReloadAndCoop| OverrideType=|2|/> Umiejętność Partnera\r\n<keyGuideIcon id=|ChangeWeaponNext| OverrideType=|2|/> Zmiana broni\r\n<keyGuideIcon id=|RollingAndCrouch| OverrideType=|2|/> Kucanie/Turlanie\r\n<keyGuideIcon id=|DashController| OverrideType=|2|/> Sprint\r\n<keyGuideIcon id=|PartnerPalInstructions| OverrideType=|2|/> Komendy dla Pala\r\n<keyGuideIcon id=|OtomoChangeIncrement| OverrideType=|2|/><keyGuideIcon id=|OtomoChangeDecrement| OverrideType=|2|/> Zmiana Pala\r\n<keyGuideIcon id=|SphereChange| OverrideType=|2|/> Zmiana sfery"
+        }
+      },
+      "Help_43": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_43_TextData",
+          "SourceString": "Globalny Palbox\r\n\r\nTo miejsce pozwala graczom zapisywać dane genetyczne Pali przechowywanych w Palboxie i rekonstruować je na ich podstawie. \r\nW tym samym świecie nie może jednak istnieć więcej niż jeden Pal z identycznymi danymi genetycznymi. \r\nZapisane dane genetyczne można również przenieść do innych światów.\r\n\r\n* Ustawienia świata mogą zabraniać zapisywania danych genetycznych lub rekonstruowania Pali.",
+          "LocalizedString": "Globalny Palbox\r\n\r\nTo miejsce pozwala graczom zapisywać dane genetyczne Pali przechowywanych w Palboxie i rekonstruować je na ich podstawie. \r\nW tym samym świecie nie może jednak istnieć więcej niż jeden Pal z identycznymi danymi genetycznymi. \r\nZapisane dane genetyczne można również przenieść do innych światów.\r\n\r\n* Ustawienia świata mogą zabraniać zapisywania danych genetycznych lub rekonstruowania Pali."
+        }
+      },
+      "Help_44": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_44_TextData",
+          "SourceString": "Jeśli utkniesz w terenie\r\n\r\nWybierając opcję „Awaryjna ewakuacja” w zakładce Opcje w menu, możesz wrócić do bazy, poświęcając życie swojej postaci.\r\nIstnieją jednak przedmioty pozwalające na powrót do bazy bez umierania, a także Pale dysponujące zdolnością teleportacji. Warto ich poszukać.",
+          "LocalizedString": "Jeśli utkniesz w terenie\r\n\r\nWybierając opcję „Awaryjna ewakuacja” w zakładce Opcje w menu, możesz wrócić do bazy, poświęcając życie swojej postaci.\r\nIstnieją jednak przedmioty pozwalające na powrót do bazy bez umierania, a także Pale dysponujące zdolnością teleportacji. Warto ich poszukać."
+        }
+      },
+      "Help_45": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_45_TextData",
+          "SourceString": "Wędkowanie\r\n\r\nWyposaż wędkę, a następnie wybierz przynętę z ekwipunku. Przy wodzie, gdzie widać sylwetki ryb, użyj <keyGuideIcon id=|WeaponReady|/>, aby unieść wędkę, a następnie naciśnij <keyGuideIcon id=|WeaponUse|/>, by zarzucić i rozpocząć łowienie.\r\nMożesz też wędkować, siedząc na Palu.\r\n\r\nKiedy Pal podpłynie do przynęty, a spławik się zanurzy, naciśnij <keyGuideIcon id=|WeaponUse|/> w odpowiednim momencie, by zaciąć.\r\n\r\nPo zacięciu rozpocznie się minigra. Utrzymuj wskaźnik na ikonie ryby.\r\nPrzytrzymanie <keyGuideIcon id=|WeaponUse|/> przesuwa wskaźnik w prawo, a puszczenie – w lewo.\r\nPal będzie stawiał opór i poruszał się na boki, dlatego ważne jest, by dopasować się do jego ruchów i utrzymać wskaźnik we właściwym miejscu.\r\n\r\nGdy wskaźnik pokrywa się z ikoną ryby, pasek przechwycenia napełnia się.\r\nKiedy pasek się zapełni, łowienie zakończy się sukcesem, a ty zdobędziesz Pala i przedmiot.\r\n\r\nUlepszając wędki i przynęty, możesz zwiększyć swoje szanse w minigrze.\r\nJeśli łowienie sprawia ci trudność, ulepsz sprzęt i spróbuj ponownie.\r\nNiektóre Pale mogą pomagać przy wędkowaniu. Poszukaj takich towarzyszy!",
+          "LocalizedString": "Wędkowanie\r\n\r\nWyposaż wędkę, a następnie wybierz przynętę z ekwipunku. Przy wodzie, gdzie widać sylwetki ryb, użyj <keyGuideIcon id=|WeaponReady|/>, aby unieść wędkę, a następnie naciśnij <keyGuideIcon id=|WeaponUse|/>, by zarzucić i rozpocząć łowienie.\r\nMożesz też wędkować, siedząc na Palu.\r\n\r\nKiedy Pal podpłynie do przynęty, a spławik się zanurzy, naciśnij <keyGuideIcon id=|WeaponUse|/> w odpowiednim momencie, by zaciąć.\r\n\r\nPo zacięciu rozpocznie się minigra. Utrzymuj wskaźnik na ikonie ryby.\r\nPrzytrzymanie <keyGuideIcon id=|WeaponUse|/> przesuwa wskaźnik w prawo, a puszczenie – w lewo.\r\nPal będzie stawiał opór i poruszał się na boki, dlatego ważne jest, by dopasować się do jego ruchów i utrzymać wskaźnik we właściwym miejscu.\r\n\r\nGdy wskaźnik pokrywa się z ikoną ryby, pasek przechwycenia napełnia się.\r\nKiedy pasek się zapełni, łowienie zakończy się sukcesem, a ty zdobędziesz Pala i przedmiot.\r\n\r\nUlepszając wędki i przynęty, możesz zwiększyć swoje szanse w minigrze.\r\nJeśli łowienie sprawia ci trudność, ulepsz sprzęt i spróbuj ponownie.\r\nNiektóre Pale mogą pomagać przy wędkowaniu. Poszukaj takich towarzyszy!"
+        }
+      }
+    }
+  }
+]

@@ -70,6 +70,7 @@ export const dumpItemSchema = z.object({
   name: z.string().min(1),
   description: z.string().optional().nullable(),
   icon: z.string().optional().nullable(),
+  kind: z.enum(['item', 'build']).default('item'),
   rarity: z.number().int().optional().nullable(),
   weight: z.number().optional().nullable(),
   price: z.number().int().optional().nullable(),

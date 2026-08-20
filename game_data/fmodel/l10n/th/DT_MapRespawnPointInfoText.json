@@ -1,0 +1,1608 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_MapRespawnPointInfoText",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "SpawnPoint_1": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_1_TextData",
+          "SourceString": "บนเนินที่ไม่สูงมาก\r\nวิสัยทัศน์ดีเยี่ยม ทรัพยากรก็อุดมสมบูรณ์\r\nจึงเป็นสถานที่แนะนำสำหรับผู้เล่นใหม่",
+          "LocalizedString": "บนเนินที่ไม่สูงมาก\r\nวิสัยทัศน์ดีเยี่ยม ทรัพยากรก็อุดมสมบูรณ์\r\nจึงเป็นสถานที่แนะนำสำหรับผู้เล่นใหม่"
+        }
+      },
+      "SpawnPoint_1_Title": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_1_Title_TextData",
+          "SourceString": "เกาะแห่งลมเริ่มผลิ: เนินแห่งจุดเริ่มต้น",
+          "LocalizedString": "เกาะแห่งลมเริ่มผลิ: เนินแห่งจุดเริ่มต้น"
+        }
+      },
+      "SpawnPoint_2": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_2_TextData",
+          "SourceString": "หาดทรายริมทะเล มีพาลธาตุน้ำเยอะ\r\nต้นไม้น้อยก็จริง แต่ก็มีพาลอยู่ประปราย",
+          "LocalizedString": "หาดทรายริมทะเล มีพาลธาตุน้ำเยอะ\r\nต้นไม้น้อยก็จริง แต่ก็มีพาลอยู่ประปราย"
+        }
+      },
+      "SpawnPoint_2_Title": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_2_Title_TextData",
+          "SourceString": "เกาะแห่งลมเริ่มผลิ: ชายฝั่งปลาบิน",
+          "LocalizedString": "เกาะแห่งลมเริ่มผลิ: ชายฝั่งปลาบิน"
+        }
+      },
+      "SpawnPoint_3": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_3_TextData",
+          "SourceString": "ชายฝั่งที่เต็มไปด้วยแนวปะการัง\r\nปริมาณของพาลและทรัพยากรมีพอประมาณ\r\nพื้นที่มีหินเยอะก็จริง แต่เรายึดพื้นที่กว้าง ๆ เป็นของตัวเองได้",
+          "LocalizedString": "ชายฝั่งที่เต็มไปด้วยแนวปะการัง\r\nปริมาณของพาลและทรัพยากรมีพอประมาณ\r\nพื้นที่มีหินเยอะก็จริง แต่เรายึดพื้นที่กว้าง ๆ เป็นของตัวเองได้"
+        }
+      },
+      "SpawnPoint_3_Title": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_3_Title_TextData",
+          "SourceString": "หมู่เกาะลมทะเล: แนวหินโสโครก",
+          "LocalizedString": "หมู่เกาะลมทะเล: แนวหินโสโครก"
+        }
+      },
+      "SpawnPoint_4": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_4_TextData",
+          "SourceString": "เกาะที่ลมทะเลพัดผ่าน\r\nอยู่ใกล้ภูเขาไฟ ภูมิอากาศอบอุ่น เหมาะกับการอยู่อาศัย\r\nเดินทางข้ามไปเกาะโดยรอบได้สะดวก สนุกกับการผจญภัยหลากหลายรูปแบบ",
+          "LocalizedString": "เกาะที่ลมทะเลพัดผ่าน\r\nอยู่ใกล้ภูเขาไฟ ภูมิอากาศอบอุ่น เหมาะกับการอยู่อาศัย\r\nเดินทางข้ามไปเกาะโดยรอบได้สะดวก สนุกกับการผจญภัยหลากหลายรูปแบบ"
+        }
+      },
+      "SpawnPoint_4_Title": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_4_Title_TextData",
+          "SourceString": "หมู่เกาะลมทะเล: ชายหาดผู้ติดเกาะ",
+          "LocalizedString": "หมู่เกาะลมทะเล: ชายหาดผู้ติดเกาะ"
+        }
+      },
+      "SpawnPoint_5": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_5_TextData",
+          "SourceString": "เกาะที่ไม่มีวี่แววคนอาศัยอยู่\r\nทรัพยากรธรรมชาติก็ขัดสน\r\nไม่เหมาะจะอยู่อาศัย",
+          "LocalizedString": "เกาะที่ไม่มีวี่แววคนอาศัยอยู่\r\nทรัพยากรธรรมชาติก็ขัดสน\r\nไม่เหมาะจะอยู่อาศัย"
+        }
+      },
+      "SpawnPoint_5_Title": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_5_Title_TextData",
+          "SourceString": "เกาะแห่งความเงียบงัน",
+          "LocalizedString": "เกาะแห่งความเงียบงัน"
+        }
+      },
+      "SpawnPoint_6": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_6_TextData",
+          "SourceString": "เกาะอันเงียบสงบที่โอบล้อมด้วยหมู่มวลไม้และภูมิประเทศที่มีความต่างระดับ\r\nมีทรัพยากรและพาลอยู่อย่างจำกัด\r\nทำให้ไม่ค่อยมีใครมาตั้งรากฐานอยู่ที่นี่",
+          "LocalizedString": "เกาะอันเงียบสงบที่โอบล้อมด้วยหมู่มวลไม้และภูมิประเทศที่มีความต่างระดับ\r\nมีทรัพยากรและพาลอยู่อย่างจำกัด\r\nทำให้ไม่ค่อยมีใครมาตั้งรากฐานอยู่ที่นี่"
+        }
+      },
+      "SpawnPoint_6_Title": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_6_Title_TextData",
+          "SourceString": "เกาะแห่งเสียงซู่ซ่า",
+          "LocalizedString": "เกาะแห่งเสียงซู่ซ่า"
+        }
+      },
+      "SpawnPoint_7": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_7_TextData",
+          "SourceString": "เกาะรกร้างที่ตั้งอยู่ทางตะวันออก\r\nอยู่สุดขอบทวีป ไม่มีใครคิดจะบุกเบิก\r\nไม่ค่อยเหมาะให้คนที่ไม่ชินพื้นที่มาอยู่อาศัย",
+          "LocalizedString": "เกาะรกร้างที่ตั้งอยู่ทางตะวันออก\r\nอยู่สุดขอบทวีป ไม่มีใครคิดจะบุกเบิก\r\nไม่ค่อยเหมาะให้คนที่ไม่ชินพื้นที่มาอยู่อาศัย"
+        }
+      },
+      "SpawnPoint_7_Title": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_7_Title_TextData",
+          "SourceString": "เกาะรกร้างทางตะวันออก",
+          "LocalizedString": "เกาะรกร้างทางตะวันออก"
+        }
+      },
+      "SpawnPoint_8": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_8_TextData",
+          "SourceString": "เกาะที่เต็มไปด้วยพื้นที่ชุ่มน้ำ\r\nเพราะมีค่าความชื้นเหมาะสม จึงมีเบอร์รีขึ้นอยู่มากมาย\r\nเเละพาลหลากหลายชนิดก็อาศัยอยู่ด้วย",
+          "LocalizedString": "เกาะที่เต็มไปด้วยพื้นที่ชุ่มน้ำ\r\nเพราะมีค่าความชื้นเหมาะสม จึงมีเบอร์รีขึ้นอยู่มากมาย\r\nเเละพาลหลากหลายชนิดก็อาศัยอยู่ด้วย"
+        }
+      },
+      "SpawnPoint_8_Title": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_8_Title_TextData",
+          "SourceString": "เกาะทุ่งพรุ",
+          "LocalizedString": "เกาะทุ่งพรุ"
+        }
+      },
+      "FTPoint1": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint1_TextData",
+          "SourceString": "ภูเขาไฟออบซิเดียน: ช่วงกลางภูเขา",
+          "LocalizedString": "ภูเขาไฟออบซิเดียน: ช่วงกลางภูเขา"
+        }
+      },
+      "FTPoint2": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint2_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "FTPoint3": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint3_TextData",
+          "SourceString": "ภารดรเพลิงนิรันดร์ ทางเข้า",
+          "LocalizedString": "ภารดรเพลิงนิรันดร์ ทางเข้า"
+        }
+      },
+      "FTPoint4": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint4_TextData",
+          "SourceString": "ซากอารยธรรมโบราณ",
+          "LocalizedString": "ซากอารยธรรมโบราณ"
+        }
+      },
+      "FTPoint5": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint5_TextData",
+          "SourceString": "หมู่บ้านชาวประมงไกลปืนเที่ยง",
+          "LocalizedString": "หมู่บ้านชาวประมงไกลปืนเที่ยง"
+        }
+      },
+      "FTPoint6": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint6_TextData",
+          "SourceString": "รูปปั้น Anubis ณ ภูเขาไฟออบซิเดียน",
+          "LocalizedString": "รูปปั้น Anubis ณ ภูเขาไฟออบซิเดียน"
+        }
+      },
+      "FTPoint7": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint7_TextData",
+          "SourceString": "หาดคิมหันต์นิรันดร์",
+          "LocalizedString": "หาดคิมหันต์นิรันดร์"
+        }
+      },
+      "FTPoint8": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint8_TextData",
+          "SourceString": "เมืองป้อมปราการที่ล่มสลาย",
+          "LocalizedString": "เมืองป้อมปราการที่ล่มสลาย"
+        }
+      },
+      "FTPoint9": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint9_TextData",
+          "SourceString": "สันติบาล ทางเข้า",
+          "LocalizedString": "สันติบาล ทางเข้า"
+        }
+      },
+      "FTPoint10": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint10_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "FTPoint11": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint11_TextData",
+          "SourceString": "ทางเข้าเนินทราย",
+          "LocalizedString": "ทางเข้าเนินทราย"
+        }
+      },
+      "FTPoint12": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint12_TextData",
+          "SourceString": "เมืองทะเลทราย",
+          "LocalizedString": "เมืองทะเลทราย"
+        }
+      },
+      "FTPoint13": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint13_TextData",
+          "SourceString": "ใจกลางเนินทราย",
+          "LocalizedString": "ใจกลางเนินทราย"
+        }
+      },
+      "FTPoint14": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint14_TextData",
+          "SourceString": "ชายฝั่งน้ำหนาว",
+          "LocalizedString": "ชายฝั่งน้ำหนาว"
+        }
+      },
+      "FTPoint15": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint15_TextData",
+          "SourceString": "ทางห้ามคนเป็น",
+          "LocalizedString": "ทางห้ามคนเป็น"
+        }
+      },
+      "FTPoint16": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint16_TextData",
+          "SourceString": "เนินวีเซิลน้ำแข็ง",
+          "LocalizedString": "เนินวีเซิลน้ำแข็ง"
+        }
+      },
+      "FTPoint17": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint17_TextData",
+          "SourceString": "ทะเลสาบไม่ละลาย",
+          "LocalizedString": "ทะเลสาบไม่ละลาย"
+        }
+      },
+      "FTPoint18": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint18_TextData",
+          "SourceString": "ดินแดนศูนย์สัมบูรณ์",
+          "LocalizedString": "ดินแดนศูนย์สัมบูรณ์"
+        }
+      },
+      "FTPoint19": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint19_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "FTPoint20": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint20_TextData",
+          "SourceString": "กองกำลังวิจัยพันธุกรรม ทางเข้า",
+          "LocalizedString": "กองกำลังวิจัยพันธุกรรม ทางเข้า"
+        }
+      },
+      "FTPoint21": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint21_TextData",
+          "SourceString": "เนินอสูรหญ้า",
+          "LocalizedString": "เนินอสูรหญ้า"
+        }
+      },
+      "FTPoint22": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint22_TextData",
+          "SourceString": "โบสถ์ร้าง",
+          "LocalizedString": "โบสถ์ร้าง"
+        }
+      },
+      "FTPoint23": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint23_TextData",
+          "SourceString": "เนินแห่งการเริ่มต้น",
+          "LocalizedString": "เนินแห่งการเริ่มต้น"
+        }
+      },
+      "FTPoint24": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint24_TextData",
+          "SourceString": "หมู่บ้านเล็ก ๆ",
+          "LocalizedString": "หมู่บ้านเล็ก ๆ"
+        }
+      },
+      "FTPoint25": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint25_TextData",
+          "SourceString": "น้ำตกผู้ฝึกตน",
+          "LocalizedString": "น้ำตกผู้ฝึกตน"
+        }
+      },
+      "FTPoint26": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint26_TextData",
+          "SourceString": "ตีนภูเขาไฟ",
+          "LocalizedString": "ตีนภูเขาไฟ"
+        }
+      },
+      "FTPoint27": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint27_TextData",
+          "SourceString": "ดินแดนหวงห้ามแห่งปักษีน้ำแข็ง",
+          "LocalizedString": "ดินแดนหวงห้ามแห่งปักษีน้ำแข็ง"
+        }
+      },
+      "FTPoint28": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint28_TextData",
+          "SourceString": "ซากป้อม",
+          "LocalizedString": "ซากป้อม"
+        }
+      },
+      "FTPoint29": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint29_TextData",
+          "SourceString": "ดินแดนหวงห้ามแห่งปรมาจารย์ดาบ",
+          "LocalizedString": "ดินแดนหวงห้ามแห่งปรมาจารย์ดาบ"
+        }
+      },
+      "FTPoint30": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint30_TextData",
+          "SourceString": "ทางแยกของนักสำรวจ",
+          "LocalizedString": "ทางแยกของนักสำรวจ"
+        }
+      },
+      "FTPoint31": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint31_TextData",
+          "SourceString": "ลานพิธีเก่า",
+          "LocalizedString": "ลานพิธีเก่า"
+        }
+      },
+      "FTPoint32": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint32_TextData",
+          "SourceString": "เขาดอกต่าย ยอดเขา",
+          "LocalizedString": "เขาดอกต่าย ยอดเขา"
+        }
+      },
+      "FTPoint33": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint33_TextData",
+          "SourceString": "ใจกลางทะเลสาบ",
+          "LocalizedString": "ใจกลางทะเลสาบ"
+        }
+      },
+      "FTPoint34": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint34_TextData",
+          "SourceString": "เนินคนดีจอมปลอม",
+          "LocalizedString": "เนินคนดีจอมปลอม"
+        }
+      },
+      "FTPoint35": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint35_TextData",
+          "SourceString": "ดินแดนหวงห้ามแห่งพลังลี้ลับ",
+          "LocalizedString": "ดินแดนหวงห้ามแห่งพลังลี้ลับ"
+        }
+      },
+      "FTPoint36": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint36_TextData",
+          "SourceString": "ทางแยกไปภูเขาหิมะ",
+          "LocalizedString": "ทางแยกไปภูเขาหิมะ"
+        }
+      },
+      "FTPoint37": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint37_TextData",
+          "SourceString": "ยอดภูเขาเยือกแข็ง",
+          "LocalizedString": "ยอดภูเขาเยือกแข็ง"
+        }
+      },
+      "FTPoint38": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint38_TextData",
+          "SourceString": "ดินแดนหวงห้ามแห่งความว่องไว",
+          "LocalizedString": "ดินแดนหวงห้ามแห่งความว่องไว"
+        }
+      },
+      "FTPoint39": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint39_TextData",
+          "SourceString": "ป่าแพนด้าหญ้า",
+          "LocalizedString": "ป่าแพนด้าหญ้า"
+        }
+      },
+      "FTPoint40": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint40_TextData",
+          "SourceString": "อาณาเขตฉลามแคระ",
+          "LocalizedString": "อาณาเขตฉลามแคระ"
+        }
+      },
+      "FTPoint41": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint41_TextData",
+          "SourceString": "ป่าผีเสื้อหลากสี",
+          "LocalizedString": "ป่าผีเสื้อหลากสี"
+        }
+      },
+      "FTPoint42": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint42_TextData",
+          "SourceString": "ดินแดนหวงห้ามอันร้อนแรงดั่งไฟแผดเผา",
+          "LocalizedString": "ดินแดนหวงห้ามอันร้อนแรงดั่งไฟแผดเผา"
+        }
+      },
+      "FTPoint43": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint43_TextData",
+          "SourceString": "ใจกลางป่าไผ่",
+          "LocalizedString": "ใจกลางป่าไผ่"
+        }
+      },
+      "FTPoint44": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint44_TextData",
+          "SourceString": "ดินแดนหวงห้ามมหาอัคคี",
+          "LocalizedString": "ดินแดนหวงห้ามมหาอัคคี"
+        }
+      },
+      "FTPoint45": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint45_TextData",
+          "SourceString": "ขบวนการพรานเถื่อน เรน ทางเข้า",
+          "LocalizedString": "ขบวนการพรานเถื่อน เรน ทางเข้า"
+        }
+      },
+      "FTPoint46": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint46_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "FTPoint47": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint47_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "FTPoint48": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint48_TextData",
+          "SourceString": "ทุ่งหิมะขาวบริสุทธิ์",
+          "LocalizedString": "ทุ่งหิมะขาวบริสุทธิ์"
+        }
+      },
+      "FTPoint49": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint49_TextData",
+          "SourceString": "เกาะแห่งความเงียบงัน",
+          "LocalizedString": "เกาะแห่งความเงียบงัน"
+        }
+      },
+      "FTPoint50": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint50_TextData",
+          "SourceString": "เกาะแห่งเสียงซู่ซ่า",
+          "LocalizedString": "เกาะแห่งเสียงซู่ซ่า"
+        }
+      },
+      "FTPoint51": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint51_TextData",
+          "SourceString": "หาดมังกรฟ้าแคระ",
+          "LocalizedString": "หาดมังกรฟ้าแคระ"
+        }
+      },
+      "FTPoint52": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint52_TextData",
+          "SourceString": "หมู่เกาะลมทะเล: ชายหาดผู้ติดเกาะ",
+          "LocalizedString": "หมู่เกาะลมทะเล: ชายหาดผู้ติดเกาะ"
+        }
+      },
+      "FTPoint53": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint53_TextData",
+          "SourceString": "โบสถ์บนหมู่เกาะลมทะเล",
+          "LocalizedString": "โบสถ์บนหมู่เกาะลมทะเล"
+        }
+      },
+      "FTPoint54": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint54_TextData",
+          "SourceString": "ปากน้ำเล็ก",
+          "LocalizedString": "ปากน้ำเล็ก"
+        }
+      },
+      "FTPoint55": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint55_TextData",
+          "SourceString": "ชายฝั่งเชื่อมเกาะ",
+          "LocalizedString": "ชายฝั่งเชื่อมเกาะ"
+        }
+      },
+      "FTPoint56": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint56_TextData",
+          "SourceString": "เกาะทุ่งพรุ",
+          "LocalizedString": "เกาะทุ่งพรุ"
+        }
+      },
+      "FTPoint57": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint57_TextData",
+          "SourceString": "เกาะรกร้างทางตะวันออก",
+          "LocalizedString": "เกาะรกร้างทางตะวันออก"
+        }
+      },
+      "FTPoint58": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint58_TextData",
+          "SourceString": "สะพานธรรมชาติ",
+          "LocalizedString": "สะพานธรรมชาติ"
+        }
+      },
+      "FTPoint59": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint59_TextData",
+          "SourceString": "ซากโบสถ์บนเกาะแห่งความเงียบงัน",
+          "LocalizedString": "ซากโบสถ์บนเกาะแห่งความเงียบงัน"
+        }
+      },
+      "FTPoint60": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint60_TextData",
+          "SourceString": "ซากโบสถ์บนเกาะทุ่งพรุ",
+          "LocalizedString": "ซากโบสถ์บนเกาะทุ่งพรุ"
+        }
+      },
+      "FTPoint61": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint61_TextData",
+          "SourceString": "สะพานอัศวินแฝด",
+          "LocalizedString": "สะพานอัศวินแฝด"
+        }
+      },
+      "FTPoint62": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint62_TextData",
+          "SourceString": "ทางเข้าหุบเหว",
+          "LocalizedString": "ทางเข้าหุบเหว"
+        }
+      },
+      "FTPoint63": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint63_TextData",
+          "SourceString": "ทางเข้าลานประลอง",
+          "LocalizedString": "ทางเข้าลานประลอง"
+        }
+      },
+      "FTPoint64": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint64_TextData",
+          "SourceString": "เกาะซากุระ: ทุ่งพรุเห็ด",
+          "LocalizedString": "เกาะซากุระ: ทุ่งพรุเห็ด"
+        }
+      },
+      "FTPoint65": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint65_TextData",
+          "SourceString": "เกาะซากุระ: ลานทรายทางใต้",
+          "LocalizedString": "เกาะซากุระ: ลานทรายทางใต้"
+        }
+      },
+      "FTPoint66": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint66_TextData",
+          "SourceString": "หอคอยกลุ่มบุปผาจันทรา",
+          "LocalizedString": "หอคอยกลุ่มบุปผาจันทรา"
+        }
+      },
+      "FTPoint67": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint67_TextData",
+          "SourceString": "หอคอยกลุ่มบุปผาจันทรา ทางเข้า",
+          "LocalizedString": "หอคอยกลุ่มบุปผาจันทรา ทางเข้า"
+        }
+      },
+      "FTPoint68": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint68_TextData",
+          "SourceString": "ทางแยกไปสู่ซากุระ",
+          "LocalizedString": "ทางแยกไปสู่ซากุระ"
+        }
+      },
+      "FTPoint69": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint69_TextData",
+          "SourceString": "เกาะซากุระ: ลานหินทางเหนือ",
+          "LocalizedString": "เกาะซากุระ: ลานหินทางเหนือ"
+        }
+      },
+      "FTPoint70": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint70_TextData",
+          "SourceString": "สุสานนอกเกาะ",
+          "LocalizedString": "สุสานนอกเกาะ"
+        }
+      },
+      "FTPoint71": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint71_TextData",
+          "SourceString": "ดินแดนเถ้าถ่าน",
+          "LocalizedString": "ดินแดนเถ้าถ่าน"
+        }
+      },
+      "FTPoint72": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint72_TextData",
+          "SourceString": "ทางเข้าถ้ำเสาหิน",
+          "LocalizedString": "ทางเข้าถ้ำเสาหิน"
+        }
+      },
+      "FTPoint73": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint73_TextData",
+          "SourceString": "ทุ่งดินเหลือง",
+          "LocalizedString": "ทุ่งดินเหลือง"
+        }
+      },
+      "FTPoint74": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint74_TextData",
+          "SourceString": "ทางลับไปประตูวงเดือน",
+          "LocalizedString": "ทางลับไปประตูวงเดือน"
+        }
+      },
+      "FTPoint75": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint75_TextData",
+          "SourceString": "ประตูวงเดือนท้าทายหอคอย",
+          "LocalizedString": "ประตูวงเดือนท้าทายหอคอย"
+        }
+      },
+      "FTPoint76": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint76_TextData",
+          "SourceString": "ทางเข้าหอคอยสวรรค์ล่ม",
+          "LocalizedString": "ทางเข้าหอคอยสวรรค์ล่ม"
+        }
+      },
+      "FTPoint78": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint78_TextData",
+          "SourceString": "เขามอดไหม้",
+          "LocalizedString": "เขามอดไหม้"
+        }
+      },
+      "FTPoint79": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint79_TextData",
+          "SourceString": "ที่ราบสูงเถ้าถ่านอันเงียบเหงา",
+          "LocalizedString": "ที่ราบสูงเถ้าถ่านอันเงียบเหงา"
+        }
+      },
+      "FTPoint80": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint80_TextData",
+          "SourceString": "เนินหินหนืดมีพลัง",
+          "LocalizedString": "เนินหินหนืดมีพลัง"
+        }
+      },
+      "FTPoint81": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint81_TextData",
+          "SourceString": "อุโมงค์มังกรโล่",
+          "LocalizedString": "อุโมงค์มังกรโล่"
+        }
+      },
+      "FTPoint82": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint82_TextData",
+          "SourceString": "อุโมงค์มังกรโล่",
+          "LocalizedString": "อุโมงค์มังกรโล่"
+        }
+      },
+      "FTPoint83": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint83_TextData",
+          "SourceString": "เรืออัปปาง ณ สวรรค์ล่ม",
+          "LocalizedString": "เรืออัปปาง ณ สวรรค์ล่ม"
+        }
+      },
+      "FTPoint84": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint84_TextData",
+          "SourceString": "เกาะสุริยัน",
+          "LocalizedString": "เกาะสุริยัน"
+        }
+      },
+      "FTPoint85": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint85_TextData",
+          "SourceString": "เกาะโอเอซิส",
+          "LocalizedString": "เกาะโอเอซิส"
+        }
+      },
+      "FTPoint86": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint86_TextData",
+          "SourceString": "เกาะธารน้ำเเข็ง",
+          "LocalizedString": "เกาะธารน้ำเเข็ง"
+        }
+      },
+      "FTPoint87": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint87_TextData",
+          "SourceString": "เกาะเหมันต์",
+          "LocalizedString": "เกาะเหมันต์"
+        }
+      },
+      "FTPoint88": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint88_TextData",
+          "SourceString": "เกาะวิญญาณพเนจร",
+          "LocalizedString": "เกาะวิญญาณพเนจร"
+        }
+      },
+      "FTPoint89": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint89_TextData",
+          "SourceString": "เกาะสมบัติผุพัง",
+          "LocalizedString": "เกาะสมบัติผุพัง"
+        }
+      },
+      "FTPoint90": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint90_TextData",
+          "SourceString": "ดินแดนหวงห้ามแห่งTerraria",
+          "LocalizedString": "ดินแดนหวงห้ามแห่งTerraria"
+        }
+      },
+      "FTPoint91": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint91_TextData",
+          "SourceString": "ชายหาดเกาะแห่งเสียงซู่ซ่า",
+          "LocalizedString": "ชายหาดเกาะแห่งเสียงซู่ซ่า"
+        }
+      },
+      "FTPoint92": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint92_TextData",
+          "SourceString": "เนินทราย Anubis",
+          "LocalizedString": "เนินทราย Anubis"
+        }
+      },
+      "FTPoint93": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint93_TextData",
+          "SourceString": "ผาเสียงไผ่",
+          "LocalizedString": "ผาเสียงไผ่"
+        }
+      },
+      "FTPoint94": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint94_TextData",
+          "SourceString": "เนินเสียงไผ่",
+          "LocalizedString": "เนินเสียงไผ่"
+        }
+      },
+      "FTPoint95": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint95_TextData",
+          "SourceString": "หุบเขาลมครวญ",
+          "LocalizedString": "หุบเขาลมครวญ"
+        }
+      },
+      "FTPoint96": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint96_TextData",
+          "SourceString": "ชายฝั่งลมทะเล",
+          "LocalizedString": "ชายฝั่งลมทะเล"
+        }
+      },
+      "FTPoint97": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint97_TextData",
+          "SourceString": "ชายฝั่งพายุทราย",
+          "LocalizedString": "ชายฝั่งพายุทราย"
+        }
+      },
+      "FTPoint98": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint98_TextData",
+          "SourceString": "แท่นอัญเชิญพายุ",
+          "LocalizedString": "แท่นอัญเชิญพายุ"
+        }
+      },
+      "FTPoint99": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint99_TextData",
+          "SourceString": "ชายฝั่งลับของ Grass Panda",
+          "LocalizedString": "ชายฝั่งลับของ Grass Panda"
+        }
+      },
+      "FTPoint100": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint100_TextData",
+          "SourceString": "ลำธารแห่งพฤกษาเขียวขจี",
+          "LocalizedString": "ลำธารแห่งพฤกษาเขียวขจี"
+        }
+      },
+      "FTPoint101": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint101_TextData",
+          "SourceString": "หาดกระหายแล้ง",
+          "LocalizedString": "หาดกระหายแล้ง"
+        }
+      },
+      "FTPoint102": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint102_TextData",
+          "SourceString": "ปลายแดนกระหายแล้ง",
+          "LocalizedString": "ปลายแดนกระหายแล้ง"
+        }
+      },
+      "FTPoint103": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint103_TextData",
+          "SourceString": "สันทรายหลัก",
+          "LocalizedString": "สันทรายหลัก"
+        }
+      },
+      "FTPoint104": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint104_TextData",
+          "SourceString": "สันทรายเดียวดาย",
+          "LocalizedString": "สันทรายเดียวดาย"
+        }
+      },
+      "FTPoint105": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint105_TextData",
+          "SourceString": "ผืนทรายขาวสุดขอบฟ้า",
+          "LocalizedString": "ผืนทรายขาวสุดขอบฟ้า"
+        }
+      },
+      "FTPoint106": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint106_TextData",
+          "SourceString": "ทางทอดสู่ทะเล",
+          "LocalizedString": "ทางทอดสู่ทะเล"
+        }
+      },
+      "FTPoint107": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint107_TextData",
+          "SourceString": "แหลมทรายเยือกแข็ง",
+          "LocalizedString": "แหลมทรายเยือกแข็ง"
+        }
+      },
+      "FTPoint108": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint108_TextData",
+          "SourceString": "จุดชมวิวรอลม",
+          "LocalizedString": "จุดชมวิวรอลม"
+        }
+      },
+      "FTPoint109": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint109_TextData",
+          "SourceString": "ภูเขาไฟออบซิเดียนชั้นสอง",
+          "LocalizedString": "ภูเขาไฟออบซิเดียนชั้นสอง"
+        }
+      },
+      "FTPoint110": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint110_TextData",
+          "SourceString": "ทางขึ้นภูเขาไฟออบซิเดียน",
+          "LocalizedString": "ทางขึ้นภูเขาไฟออบซิเดียน"
+        }
+      },
+      "FTPoint111": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint111_TextData",
+          "SourceString": "สันทรายแห้งแล้ง",
+          "LocalizedString": "สันทรายแห้งแล้ง"
+        }
+      },
+      "FTPoint112": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint112_TextData",
+          "SourceString": "ทวารทะเลร้อนระอุ",
+          "LocalizedString": "ทวารทะเลร้อนระอุ"
+        }
+      },
+      "FTPoint113": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint113_TextData",
+          "SourceString": "แหลมครามหิมะละลาย",
+          "LocalizedString": "แหลมครามหิมะละลาย"
+        }
+      },
+      "FTPoint114": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint114_TextData",
+          "SourceString": "ไหล่เขาศักดิ์สิทธิ์",
+          "LocalizedString": "ไหล่เขาศักดิ์สิทธิ์"
+        }
+      },
+      "FTPoint115": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint115_TextData",
+          "SourceString": "สวนที่ถูกลืมใต้หน้าผา",
+          "LocalizedString": "สวนที่ถูกลืมใต้หน้าผา"
+        }
+      },
+      "FTPoint116": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint116_TextData",
+          "SourceString": "เกาะซากุระ: ชายฝั่งตะวันตก",
+          "LocalizedString": "เกาะซากุระ: ชายฝั่งตะวันตก"
+        }
+      },
+      "FTPoint117": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint117_TextData",
+          "SourceString": "ผาแดงชาด",
+          "LocalizedString": "ผาแดงชาด"
+        }
+      },
+      "FTPoint118": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint118_TextData",
+          "SourceString": "ทางเข้าสู่ที่สูง",
+          "LocalizedString": "ทางเข้าสู่ที่สูง"
+        }
+      },
+      "FTPoint119": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint119_TextData",
+          "SourceString": "โขดหินแดงโค้งเว้า",
+          "LocalizedString": "โขดหินแดงโค้งเว้า"
+        }
+      },
+      "FTPoint120": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint120_TextData",
+          "SourceString": "จุดชมวิวสีชาด",
+          "LocalizedString": "จุดชมวิวสีชาด"
+        }
+      },
+      "FTPoint121": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint121_TextData",
+          "SourceString": "ป่าแดงชาด",
+          "LocalizedString": "ป่าแดงชาด"
+        }
+      },
+      "FTPoint122": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint122_TextData",
+          "SourceString": "ต้นไม้ยักษ์แห่งผลึก",
+          "LocalizedString": "ต้นไม้ยักษ์แห่งผลึก"
+        }
+      },
+      "FTPoint123": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint123_TextData",
+          "SourceString": "ประตูน้ำในทุ่งร้าง",
+          "LocalizedString": "ประตูน้ำในทุ่งร้าง"
+        }
+      },
+      "FTPoint124": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint124_TextData",
+          "SourceString": "เนินบ่อน้ำมัน",
+          "LocalizedString": "เนินบ่อน้ำมัน"
+        }
+      },
+      "FTPoint125": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint125_TextData",
+          "SourceString": "หน้าผาเห็ดพิกล",
+          "LocalizedString": "หน้าผาเห็ดพิกล"
+        }
+      },
+      "FTPoint126": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint126_TextData",
+          "SourceString": "ทะเลสาบแห่งความเงียบงัน",
+          "LocalizedString": "ทะเลสาบแห่งความเงียบงัน"
+        }
+      },
+      "FTPoint127": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint127_TextData",
+          "SourceString": "ผาทะเลสีคราม",
+          "LocalizedString": "ผาทะเลสีคราม"
+        }
+      },
+      "FTPoint128": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint128_TextData",
+          "SourceString": "แหลมม่วงอันโดดเดี่ยว",
+          "LocalizedString": "แหลมม่วงอันโดดเดี่ยว"
+        }
+      },
+      "FTPoint129": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint129_TextData",
+          "SourceString": "แหลมแห่งผู้ไร้แผ่นดิน",
+          "LocalizedString": "แหลมแห่งผู้ไร้แผ่นดิน"
+        }
+      },
+      "Boss_KingWhale": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "Boss_KingWhale_TextData",
+          "SourceString": "เกาะร้างที่ถูกลืม",
+          "LocalizedString": "เกาะร้างที่ถูกลืม"
+        }
+      },
+      "Boss_Forest": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "Boss_Forest_TextData",
+          "SourceString": "ทางเข้าหอคอยองค์กรผู้พิทักษ์พาล",
+          "LocalizedString": "ทางเข้าหอคอยองค์กรผู้พิทักษ์พาล"
+        }
+      },
+      "WatchTower_1": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_1_TextData",
+          "SourceString": "หอสังเกตการณ์แห่งเกาะสายลม",
+          "LocalizedString": "หอสังเกตการณ์แห่งเกาะสายลม"
+        }
+      },
+      "WatchTower_2": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_2_TextData",
+          "SourceString": "หอสังเกตการณ์เกาะรกร้างทางตะวันออก",
+          "LocalizedString": "หอสังเกตการณ์เกาะรกร้างทางตะวันออก"
+        }
+      },
+      "WatchTower_3": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_3_TextData",
+          "SourceString": "หอสังเกตการณ์ริมทะเลสาบจันทร์เสี้ยว",
+          "LocalizedString": "หอสังเกตการณ์ริมทะเลสาบจันทร์เสี้ยว"
+        }
+      },
+      "WatchTower_4": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_4_TextData",
+          "SourceString": "หอสังเกตการณ์แห่งเนินทรายร้อน",
+          "LocalizedString": "หอสังเกตการณ์แห่งเนินทรายร้อน"
+        }
+      },
+      "WatchTower_5": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_5_TextData",
+          "SourceString": "หอสังเกตการณ์แห่งที่ราบสูงหินทราย",
+          "LocalizedString": "หอสังเกตการณ์แห่งที่ราบสูงหินทราย"
+        }
+      },
+      "WatchTower_6": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_6_TextData",
+          "SourceString": "หอสังเกตการณ์แห่งลำธารเขียวขจี",
+          "LocalizedString": "หอสังเกตการณ์แห่งลำธารเขียวขจี"
+        }
+      },
+      "WatchTower_7": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_7_TextData",
+          "SourceString": "หอสังเกตการณ์เนินวีเซิลน้ำแข็ง",
+          "LocalizedString": "หอสังเกตการณ์เนินวีเซิลน้ำแข็ง"
+        }
+      },
+      "WatchTower_8": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_8_TextData",
+          "SourceString": "หอสังเกตการณ์กึ่งกลางยอดเขาจิตวิญญาณสีเงิน",
+          "LocalizedString": "หอสังเกตการณ์กึ่งกลางยอดเขาจิตวิญญาณสีเงิน"
+        }
+      },
+      "WatchTower_9": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_9_TextData",
+          "SourceString": "หอสังเกตการณ์แห่งหุบเขาป่าไผ่",
+          "LocalizedString": "หอสังเกตการณ์แห่งหุบเขาป่าไผ่"
+        }
+      },
+      "WatchTower_10": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_10_TextData",
+          "SourceString": "หอสังเกตการณ์แห่งหมู่เกาะลมทะเล",
+          "LocalizedString": "หอสังเกตการณ์แห่งหมู่เกาะลมทะเล"
+        }
+      },
+      "WatchTower_11": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_11_TextData",
+          "SourceString": "หอสังเกตการณ์ใจกลางป่าไผ่",
+          "LocalizedString": "หอสังเกตการณ์ใจกลางป่าไผ่"
+        }
+      },
+      "WatchTower_12": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_12_TextData",
+          "SourceString": "หอสังเกตการณ์แห่งเกาะซากุระ",
+          "LocalizedString": "หอสังเกตการณ์แห่งเกาะซากุระ"
+        }
+      },
+      "WatchTower_13": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_13_TextData",
+          "SourceString": "หอสังเกตการณ์แห่งแผ่นดินออบซิเดียน",
+          "LocalizedString": "หอสังเกตการณ์แห่งแผ่นดินออบซิเดียน"
+        }
+      },
+      "WatchTower_14": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_14_TextData",
+          "SourceString": "หอสังเกตการณ์แห่งบ่อลาวา",
+          "LocalizedString": "หอสังเกตการณ์แห่งบ่อลาวา"
+        }
+      },
+      "WatchTower_15": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_15_TextData",
+          "SourceString": "หอสังเกตการณ์แห่งหาดทรายแห้งแล้ง",
+          "LocalizedString": "หอสังเกตการณ์แห่งหาดทรายแห้งแล้ง"
+        }
+      },
+      "WatchTower_16": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_16_TextData",
+          "SourceString": "หอสังเกตการณ์เมืองป้อมปราการที่ล่มสลาย",
+          "LocalizedString": "หอสังเกตการณ์เมืองป้อมปราการที่ล่มสลาย"
+        }
+      },
+      "WatchTower_17": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_17_TextData",
+          "SourceString": "หอสังเกตการณ์แห่งที่ราบดินเหลือง",
+          "LocalizedString": "หอสังเกตการณ์แห่งที่ราบดินเหลือง"
+        }
+      },
+      "WatchTower_18": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_18_TextData",
+          "SourceString": "หอสังเกตการณ์แห่งรอยเลื่อนแผดเผา",
+          "LocalizedString": "หอสังเกตการณ์แห่งรอยเลื่อนแผดเผา"
+        }
+      },
+      "WatchTower_19": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_19_TextData",
+          "SourceString": "หอสังเกตการณ์แห่งที่ราบสูงแผดเผา",
+          "LocalizedString": "หอสังเกตการณ์แห่งที่ราบสูงแผดเผา"
+        }
+      },
+      "WatchTower_20": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_20_TextData",
+          "SourceString": "หอสังเกตการณ์เนินปะการังเยือกแข็ง",
+          "LocalizedString": "หอสังเกตการณ์เนินปะการังเยือกแข็ง"
+        }
+      },
+      "WatchTower_21": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_21_TextData",
+          "SourceString": "หอคอยสังเกตการณ์แห่งทุ่งร้างลมร้อน",
+          "LocalizedString": "หอคอยสังเกตการณ์แห่งทุ่งร้างลมร้อน"
+        }
+      },
+      "WatchTower_22": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_22_TextData",
+          "SourceString": "หอสังเกตการณ์ดินแดนแห่งแสงสุริยัน",
+          "LocalizedString": "หอสังเกตการณ์ดินแดนแห่งแสงสุริยัน"
+        }
+      },
+      "SkyIsland_A": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SkyIsland_A_TextData",
+          "SourceString": "ดินแดนเซียนลอยฟ้า",
+          "LocalizedString": "ดินแดนเซียนลอยฟ้า"
+        }
+      },
+      "SkyIsland_B": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SkyIsland_B_TextData",
+          "SourceString": "หมู่เกาะคริสตัล",
+          "LocalizedString": "หมู่เกาะคริสตัล"
+        }
+      },
+      "SkyIsland_C": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SkyIsland_C_TextData",
+          "SourceString": "หุบเขาแห่งดอกบัวหลวง",
+          "LocalizedString": "หุบเขาแห่งดอกบัวหลวง"
+        }
+      },
+      "SkyIsland_D": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SkyIsland_D_TextData",
+          "SourceString": "หุบเหวแยกแห่งนภากาศ",
+          "LocalizedString": "หุบเหวแยกแห่งนภากาศ"
+        }
+      },
+      "SkyIsland_E": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SkyIsland_E_TextData",
+          "SourceString": "หนองน้ำขี้โคลน",
+          "LocalizedString": "หนองน้ำขี้โคลน"
+        }
+      },
+      "SkyIsland_BOSS": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SkyIsland_BOSS_TextData",
+          "SourceString": "ทางเข้าหอคอยแห่งพันธสัญญา",
+          "LocalizedString": "ทางเข้าหอคอยแห่งพันธสัญญา"
+        }
+      },
+      "WorldTree_A": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_A_TextData",
+          "SourceString": "ทุ่งราบชายเขาแห่งพฤกษาศักดิ์สิทธิ์",
+          "LocalizedString": "ทุ่งราบชายเขาแห่งพฤกษาศักดิ์สิทธิ์"
+        }
+      },
+      "WorldTree_B": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_B_TextData",
+          "SourceString": "ป่าพฤกษาโสภิตศิริ",
+          "LocalizedString": "ป่าพฤกษาโสภิตศิริ"
+        }
+      },
+      "WorldTree_C_1": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_C_1_TextData",
+          "SourceString": "หุบเขาแห่งฝุ่นสีทอง",
+          "LocalizedString": "หุบเขาแห่งฝุ่นสีทอง"
+        }
+      },
+      "WorldTree_C_2": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_C_2_TextData",
+          "SourceString": "ริมฝั่งน้ำแห่งซากอสุภ",
+          "LocalizedString": "ริมฝั่งน้ำแห่งซากอสุภ"
+        }
+      },
+      "WorldTree_D": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_D_TextData",
+          "SourceString": "โพรงพฤกษาผู้ถูกกัดกิน",
+          "LocalizedString": "โพรงพฤกษาผู้ถูกกัดกิน"
+        }
+      },
+      "WorldTree_E": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_E_TextData",
+          "SourceString": "ริมทะเลสาบแห่งน้ำตกศักดิ์สิทธิ์",
+          "LocalizedString": "ริมทะเลสาบแห่งน้ำตกศักดิ์สิทธิ์"
+        }
+      },
+      "WorldTree_I": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_I_TextData",
+          "SourceString": "ยอดเขาแห่งน้ำแข็งศักดิ์สิทธิ์",
+          "LocalizedString": "ยอดเขาแห่งน้ำแข็งศักดิ์สิทธิ์"
+        }
+      },
+      "WorldTree_L": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_L_TextData",
+          "SourceString": "ระเบียงแห่งสปอร์",
+          "LocalizedString": "ระเบียงแห่งสปอร์"
+        }
+      },
+      "WorldTree_M": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_M_TextData",
+          "SourceString": "หาดน้ำตื้นแห่งน้ำตาศักดิ์สิทธิ์",
+          "LocalizedString": "หาดน้ำตื้นแห่งน้ำตาศักดิ์สิทธิ์"
+        }
+      },
+      "WorldTree_N": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_N_TextData",
+          "SourceString": "เมืองร้างสีทอง",
+          "LocalizedString": "เมืองร้างสีทอง"
+        }
+      },
+      "WorldTree_lab": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_lab_TextData",
+          "SourceString": "ศูนย์วิจัยที่ถูกทอดทิ้ง",
+          "LocalizedString": "ศูนย์วิจัยที่ถูกทอดทิ้ง"
+        }
+      },
+      "WorldTree_LastBoss": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_LastBoss_TextData",
+          "SourceString": "ห้องโถงแห่งผนึก",
+          "LocalizedString": "ห้องโถงแห่งผนึก"
+        }
+      },
+      "WatchTower_WorldTree_1": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_WorldTree_1_TextData",
+          "SourceString": "หอสังเกตุการณ์แห่งหุบเขาฝุ่นสีทอง",
+          "LocalizedString": "หอสังเกตุการณ์แห่งหุบเขาฝุ่นสีทอง"
+        }
+      },
+      "WatchTower_WorldTree_2": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_WorldTree_2_TextData",
+          "SourceString": "หอสังเกตุการณ์แห่งเมืองร้างสีทอง",
+          "LocalizedString": "หอสังเกตุการณ์แห่งเมืองร้างสีทอง"
+        }
+      },
+      "New_SmallIsland01": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "New_SmallIsland01_TextData",
+          "SourceString": "เกาะโดดเดี่ยวแห่งซากปรักหักพังวงแหวน",
+          "LocalizedString": "เกาะโดดเดี่ยวแห่งซากปรักหักพังวงแหวน"
+        }
+      },
+      "New_SmallIsland02": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "New_SmallIsland02_TextData",
+          "SourceString": "เกาะโดดเดี่ยวแห่งเส้นสายอัคนี",
+          "LocalizedString": "เกาะโดดเดี่ยวแห่งเส้นสายอัคนี"
+        }
+      },
+      "New_SmallIsland03": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "New_SmallIsland03_TextData",
+          "SourceString": "เกาะโดดเดี่ยวแห่งการกัดเซาะของสายลม",
+          "LocalizedString": "เกาะโดดเดี่ยวแห่งการกัดเซาะของสายลม"
+        }
+      },
+      "New_SmallIsland04": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "New_SmallIsland04_TextData",
+          "SourceString": "เกาะโดดเดี่ยวแห่งเขาคู่",
+          "LocalizedString": "เกาะโดดเดี่ยวแห่งเขาคู่"
+        }
+      },
+      "New_SmallIsland05": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "New_SmallIsland05_TextData",
+          "SourceString": "เกาะร้างแห่งซากปรักหักพังวงแหวนเยือกแข็ง",
+          "LocalizedString": "เกาะร้างแห่งซากปรักหักพังวงแหวนเยือกแข็ง"
+        }
+      },
+      "New_SmallIsland06": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "New_SmallIsland06_TextData",
+          "SourceString": "เกาะโดดเดี่ยวแห่งประตูหินทราย",
+          "LocalizedString": "เกาะโดดเดี่ยวแห่งประตูหินทราย"
+        }
+      },
+      "New_SmallIsland07": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "New_SmallIsland07_TextData",
+          "SourceString": "เกาะโดดเดี่ยวแห่งตราสุริยัน",
+          "LocalizedString": "เกาะโดดเดี่ยวแห่งตราสุริยัน"
+        }
+      },
+      "FootOfWorldTree": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FootOfWorldTree_TextData",
+          "SourceString": "ตีนเขาแห่งพฤกษาโลก",
+          "LocalizedString": "ตีนเขาแห่งพฤกษาโลก"
+        }
+      },
+      "WorldTree_MiddleBoss_1": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_MiddleBoss_1_TextData",
+          "SourceString": "ต้นกำเนิดหมอกกัดกร่อน",
+          "LocalizedString": "ต้นกำเนิดหมอกกัดกร่อน"
+        }
+      },
+      "WorldTree_MiddleBoss_2": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_MiddleBoss_2_TextData",
+          "SourceString": "ต้นกำเนิดสปอร์เรืองเเสง",
+          "LocalizedString": "ต้นกำเนิดสปอร์เรืองเเสง"
+        }
+      },
+      "WorldTree_MiddleBoss_3": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_MiddleBoss_3_TextData",
+          "SourceString": "ห้องทดลองต้องห้าม",
+          "LocalizedString": "ห้องทดลองต้องห้าม"
+        }
+      }
+    }
+  }
+]

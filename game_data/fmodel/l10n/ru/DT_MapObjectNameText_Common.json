@@ -1,0 +1,4952 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_MapObjectNameText_Common",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "MAPOBJECT_NAME_DummyFoliage": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DummyFoliage_TextData",
+          "SourceString": "Дерево",
+          "LocalizedString": "Дерево"
+        }
+      },
+      "MAPOBJECT_NAME_BlastFurnace": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_BlastFurnace_TextData",
+          "SourceString": "Примитивная печь",
+          "LocalizedString": "Примитивная печь"
+        }
+      },
+      "MAPOBJECT_NAME_BlastFurnace2": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_BlastFurnace2_TextData",
+          "SourceString": "Улучшенная печь",
+          "LocalizedString": "Улучшенная печь"
+        }
+      },
+      "MAPOBJECT_NAME_BlastFurnace3": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_BlastFurnace3_TextData",
+          "SourceString": "Электрическая печь",
+          "LocalizedString": "Электрическая печь"
+        }
+      },
+      "MAPOBJECT_NAME_BlastFurnace4_Old": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_BlastFurnace4_Old_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "MAPOBJECT_NAME_BlastFurnace5": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_BlastFurnace5_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "MAPOBJECT_NAME_CampFire": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_CampFire_TextData",
+          "SourceString": "Костер",
+          "LocalizedString": "Костер"
+        }
+      },
+      "MAPOBJECT_NAME_CharacterRankUp": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_CharacterRankUp_TextData",
+          "SourceString": "Конденсатор Палов",
+          "LocalizedString": "Конденсатор Палов"
+        }
+      },
+      "MAPOBJECT_NAME_CookingStove": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_CookingStove_TextData",
+          "SourceString": "Котелок",
+          "LocalizedString": "Котелок"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableRock0001": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableRock0001_TextData",
+          "SourceString": "Камень",
+          "LocalizedString": "Камень"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableRock0002": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableRock0002_TextData",
+          "SourceString": "Металлическая руда",
+          "LocalizedString": "Металлическая руда"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableRock0003": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableRock0003_TextData",
+          "SourceString": "Чистый кварц",
+          "LocalizedString": "Чистый кварц"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableRock0004": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableRock0004_TextData",
+          "SourceString": "Уголь",
+          "LocalizedString": "Уголь"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableRock0005": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableRock0005_TextData",
+          "SourceString": "Палдиумная руда",
+          "LocalizedString": "Палдиумная руда"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableRock0006": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableRock0006_TextData",
+          "SourceString": "Сера",
+          "LocalizedString": "Сера"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableRock0007": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableRock0007_TextData",
+          "SourceString": "Камень",
+          "LocalizedString": "Камень"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableRock0008": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableRock0008_TextData",
+          "SourceString": "Камень",
+          "LocalizedString": "Камень"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableRock0009": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableRock0009_TextData",
+          "SourceString": "Камень",
+          "LocalizedString": "Камень"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableRock0010": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableRock0010_TextData",
+          "SourceString": "Камень",
+          "LocalizedString": "Камень"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableRock0011": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableRock0011_TextData",
+          "SourceString": "Камень",
+          "LocalizedString": "Камень"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableRock0012": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableRock0012_TextData",
+          "SourceString": "Камень",
+          "LocalizedString": "Камень"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableRock0013": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableRock0013_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableRock0014": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableRock0014_TextData",
+          "SourceString": "Камень",
+          "LocalizedString": "Камень"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableRock0015": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableRock0015_TextData",
+          "SourceString": "Камень",
+          "LocalizedString": "Камень"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableRock0016": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableRock0016_TextData",
+          "SourceString": "Камень",
+          "LocalizedString": "Камень"
+        }
+      },
+      "MAPOBJECT_NAME_DeathPenaltyChest": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DeathPenaltyChest_TextData",
+          "SourceString": "Сундук смерти",
+          "LocalizedString": "Сундук смерти"
+        }
+      },
+      "MAPOBJECT_NAME_DefenseGatlingGun": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DefenseGatlingGun_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "MAPOBJECT_NAME_DefenseMachinegun": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DefenseMachinegun_TextData",
+          "SourceString": "Стационарный пулемёт",
+          "LocalizedString": "Стационарный пулемёт"
+        }
+      },
+      "MAPOBJECT_NAME_DefenseMinigun": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DefenseMinigun_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "MAPOBJECT_NAME_DefenseMissile": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DefenseMissile_TextData",
+          "SourceString": "Стационарная ракетная установка",
+          "LocalizedString": "Стационарная ракетная установка"
+        }
+      },
+      "MAPOBJECT_NAME_DefenseBowGun": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DefenseBowGun_TextData",
+          "SourceString": "Стационарный арбалет",
+          "LocalizedString": "Стационарный арбалет"
+        }
+      },
+      "MAPOBJECT_NAME_DefenseWait": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DefenseWait_TextData",
+          "SourceString": "Мешок с песком",
+          "LocalizedString": "Мешок с песком"
+        }
+      },
+      "MAPOBJECT_NAME_DUMMY": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DUMMY_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "MAPOBJECT_NAME_ElectricGenerator": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ElectricGenerator_TextData",
+          "SourceString": "Генератор",
+          "LocalizedString": "Генератор"
+        }
+      },
+      "MAPOBJECT_NAME_ElectricGenerator_Slave": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ElectricGenerator_Slave_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "MAPOBJECT_NAME_ElectricGenerator2": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ElectricGenerator2_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "MAPOBJECT_NAME_ElectricGenerator3": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ElectricGenerator3_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "MAPOBJECT_NAME_ElectricKitchen": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ElectricKitchen_TextData",
+          "SourceString": "Электрическая кухня",
+          "LocalizedString": "Электрическая кухня"
+        }
+      },
+      "MAPOBJECT_NAME_Factory_Comfortable_01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Factory_Comfortable_01_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "MAPOBJECT_NAME_Factory_Comfortable_02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Factory_Comfortable_02_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "MAPOBJECT_NAME_Factory_Hard_01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Factory_Hard_01_TextData",
+          "SourceString": "Качественный верстак",
+          "LocalizedString": "Качественный верстак"
+        }
+      },
+      "MAPOBJECT_NAME_Factory_Hard_02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Factory_Hard_02_TextData",
+          "SourceString": "Сборочная линия",
+          "LocalizedString": "Сборочная линия"
+        }
+      },
+      "MAPOBJECT_NAME_Factory_Hard_03": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Factory_Hard_03_TextData",
+          "SourceString": "Сборочная линия II",
+          "LocalizedString": "Сборочная линия II"
+        }
+      },
+      "MAPOBJECT_NAME_FarmBlock": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FarmBlock_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "MAPOBJECT_NAME_FarmBlockV2_Grade01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FarmBlockV2_Grade01_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "MAPOBJECT_NAME_FarmBlockV2_Grade02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FarmBlockV2_Grade02_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "MAPOBJECT_NAME_FarmBlockV2_Grade03": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FarmBlockV2_Grade03_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "MAPOBJECT_NAME_FarmBlockV2_wheet": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FarmBlockV2_wheet_TextData",
+          "SourceString": "Пшеничная плантация",
+          "LocalizedString": "Пшеничная плантация"
+        }
+      },
+      "MAPOBJECT_NAME_FarmBlockV2_tomato": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FarmBlockV2_tomato_TextData",
+          "SourceString": "Томатная плантация",
+          "LocalizedString": "Томатная плантация"
+        }
+      },
+      "MAPOBJECT_NAME_FarmBlockV2_Lettuce": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FarmBlockV2_Lettuce_TextData",
+          "SourceString": "Плантация латука",
+          "LocalizedString": "Плантация латука"
+        }
+      },
+      "MAPOBJECT_NAME_FarmBlockV2_Berries": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FarmBlockV2_Berries_TextData",
+          "SourceString": "Ягодная плантация",
+          "LocalizedString": "Ягодная плантация"
+        }
+      },
+      "MAPOBJECT_NAME_FastTravelPoint": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FastTravelPoint_TextData",
+          "SourceString": "Статуя Орлана",
+          "LocalizedString": "Статуя Орлана"
+        }
+      },
+      "MAPOBJECT_NAME_Floor": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Floor_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "MAPOBJECT_NAME_Floor_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Floor_Stone_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "MAPOBJECT_NAME_Floor_Wood": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Floor_Wood_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "MAPOBJECT_NAME_FoliageLogTest": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FoliageLogTest_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "MAPOBJECT_NAME_HighTechKitchen": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_HighTechKitchen_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "MAPOBJECT_NAME_ItemChest": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ItemChest_TextData",
+          "SourceString": "Деревянный сундук",
+          "LocalizedString": "Деревянный сундук"
+        }
+      },
+      "MAPOBJECT_NAME_ItemChest_02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ItemChest_02_TextData",
+          "SourceString": "Металлический сундук",
+          "LocalizedString": "Металлический сундук"
+        }
+      },
+      "MAPOBJECT_NAME_ItemChest_03": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ItemChest_03_TextData",
+          "SourceString": "Сундук из рафинированного металла",
+          "LocalizedString": "Сундук из рафинированного металла"
+        }
+      },
+      "MAPOBJECT_NAME_MedicalPalBed_02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_MedicalPalBed_02_TextData",
+          "SourceString": "Соломенная пал-кровать",
+          "LocalizedString": "Соломенная пал-кровать"
+        }
+      },
+      "MAPOBJECT_NAME_MedicalPalBed_03": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_MedicalPalBed_03_TextData",
+          "SourceString": "Мягкая пал-кровать",
+          "LocalizedString": "Мягкая пал-кровать"
+        }
+      },
+      "MAPOBJECT_NAME_MedicalPalBed_04": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_MedicalPalBed_04_TextData",
+          "SourceString": "Большая пал-кровать",
+          "LocalizedString": "Большая пал-кровать"
+        }
+      },
+      "MAPOBJECT_NAME_MedicalPalBed": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_MedicalPalBed_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "MAPOBJECT_NAME_MedicineFacility_01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_MedicineFacility_01_TextData",
+          "SourceString": "Средневековый стол фармацевта",
+          "LocalizedString": "Средневековый стол фармацевта"
+        }
+      },
+      "MAPOBJECT_NAME_MedicineFacility_02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_MedicineFacility_02_TextData",
+          "SourceString": "Электрический стол фармацевта",
+          "LocalizedString": "Электрический стол фармацевта"
+        }
+      },
+      "MAPOBJECT_NAME_MedicineFacility_03_Old": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_MedicineFacility_03_Old_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "MAPOBJECT_NAME_PalFoodBox": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PalFoodBox_TextData",
+          "SourceString": "Кормушка",
+          "LocalizedString": "Кормушка"
+        }
+      },
+      "MAPOBJECT_NAME_PalStorage": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PalStorage_TextData",
+          "SourceString": "Палбокс ",
+          "LocalizedString": "Палбокс "
+        }
+      },
+      "MAPOBJECT_NAME_PalBoxV2": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PalBoxV2_TextData",
+          "SourceString": "Палбокс ",
+          "LocalizedString": "Палбокс "
+        }
+      },
+      "MAPOBJECT_NAME_DisplayCharacter": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DisplayCharacter_TextData",
+          "SourceString": "Клетка для демонстрации",
+          "LocalizedString": "Клетка для демонстрации"
+        }
+      },
+      "MAPOBJECT_NAME_PickupItem_Flint": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PickupItem_Flint_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "MAPOBJECT_NAME_PickupItem_Log": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PickupItem_Log_TextData",
+          "SourceString": "Древесина",
+          "LocalizedString": "Древесина"
+        }
+      },
+      "MAPOBJECT_NAME_PickupItem_RedBerry": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PickupItem_RedBerry_TextData",
+          "SourceString": "Красная ягода",
+          "LocalizedString": "Красная ягода"
+        }
+      },
+      "MAPOBJECT_NAME_PickupItem_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PickupItem_Stone_TextData",
+          "SourceString": "Камешек",
+          "LocalizedString": "Камешек"
+        }
+      },
+      "MAPOBJECT_NAME_PickupItem_Potato": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PickupItem_Potato_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "MAPOBJECT_NAME_PlayerBed_02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PlayerBed_02_TextData",
+          "SourceString": "Простая кровать",
+          "LocalizedString": "Простая кровать"
+        }
+      },
+      "MAPOBJECT_NAME_PlayerBed_03": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PlayerBed_03_TextData",
+          "SourceString": "Качественная кровать",
+          "LocalizedString": "Качественная кровать"
+        }
+      },
+      "MAPOBJECT_NAME_PlayerBed": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PlayerBed_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "MAPOBJECT_NAME_ShippingItemBox": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ShippingItemBox_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "MAPOBJECT_NAME_SphereFactory_Black_01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SphereFactory_Black_01_TextData",
+          "SourceString": "Верстак для сфер",
+          "LocalizedString": "Верстак для сфер"
+        }
+      },
+      "MAPOBJECT_NAME_SphereFactory_Black_02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SphereFactory_Black_02_TextData",
+          "SourceString": "Сборочная линия сфер",
+          "LocalizedString": "Сборочная линия сфер"
+        }
+      },
+      "MAPOBJECT_NAME_SphereFactory_Black_03": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SphereFactory_Black_03_TextData",
+          "SourceString": "Сборочная линия сфер II",
+          "LocalizedString": "Сборочная линия сфер II"
+        }
+      },
+      "MAPOBJECT_NAME_SphereFactory_White_01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SphereFactory_White_01_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "MAPOBJECT_NAME_SphereFactory_White_02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SphereFactory_White_02_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "MAPOBJECT_NAME_SphereFactory_White_03": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SphereFactory_White_03_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "MAPOBJECT_NAME_StationDeforest": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_StationDeforest_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "MAPOBJECT_NAME_Stonehouse1": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stonehouse1_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "MAPOBJECT_NAME_StonePit": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_StonePit_TextData",
+          "SourceString": "Карьер",
+          "LocalizedString": "Карьер"
+        }
+      },
+      "MAPOBJECT_NAME_CopperMine": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_CopperMine_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "MAPOBJECT_NAME_SteelMine": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SteelMine_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "MAPOBJECT_NAME_Strawhouse1": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Strawhouse1_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "MAPOBJECT_NAME_TEST_TestGlobalContainer": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TEST_TestGlobalContainer_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "MAPOBJECT_NAME_Wall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wall_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "MAPOBJECT_NAME_Wall_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wall_Stone_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "MAPOBJECT_NAME_Wall_Wood": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wall_Wood_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "MAPOBJECT_NAME_WeaponChest": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_WeaponChest_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "MAPOBJECT_NAME_WeaponFactory_Base": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_WeaponFactory_Base_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "MAPOBJECT_NAME_WeaponFactory_Clean_01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_WeaponFactory_Clean_01_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "MAPOBJECT_NAME_WeaponFactory_Clean_02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_WeaponFactory_Clean_02_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "MAPOBJECT_NAME_WeaponFactory_Clean_03": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_WeaponFactory_Clean_03_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "MAPOBJECT_NAME_WeaponFactory_Dirty_01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_WeaponFactory_Dirty_01_TextData",
+          "SourceString": "Верстак для оружия",
+          "LocalizedString": "Верстак для оружия"
+        }
+      },
+      "MAPOBJECT_NAME_WeaponFactory_Dirty_02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_WeaponFactory_Dirty_02_TextData",
+          "SourceString": "Сборочная линия оружия",
+          "LocalizedString": "Сборочная линия оружия"
+        }
+      },
+      "MAPOBJECT_NAME_WeaponFactory_Dirty_03": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_WeaponFactory_Dirty_03_TextData",
+          "SourceString": "Сборочная линия оружия II",
+          "LocalizedString": "Сборочная линия оружия II"
+        }
+      },
+      "MAPOBJECT_NAME_WeaponFactry": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_WeaponFactry_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "MAPOBJECT_NAME_Well": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Well_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "MAPOBJECT_NAME_WoodHouse1": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_WoodHouse1_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "MAPOBJECT_NAME_WorkBench": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_WorkBench_TextData",
+          "SourceString": "Примитивный верстак",
+          "LocalizedString": "Примитивный верстак"
+        }
+      },
+      "MAPOBJECT_NAME_RecoverOtomo": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_RecoverOtomo_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "MAPOBJECT_NAME_PalEgg": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PalEgg_TextData",
+          "SourceString": "Яйцо Пала",
+          "LocalizedString": "Яйцо Пала"
+        }
+      },
+      "MAPOBJECT_NAME_PalEgg_Fire": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PalEgg_Fire_TextData",
+          "SourceString": "Яйцо Пала",
+          "LocalizedString": "Яйцо Пала"
+        }
+      },
+      "MAPOBJECT_NAME_PalEgg_Water": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PalEgg_Water_TextData",
+          "SourceString": "Яйцо Пала",
+          "LocalizedString": "Яйцо Пала"
+        }
+      },
+      "MAPOBJECT_NAME_PalEgg_Leaf": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PalEgg_Leaf_TextData",
+          "SourceString": "Яйцо Пала",
+          "LocalizedString": "Яйцо Пала"
+        }
+      },
+      "MAPOBJECT_NAME_PalEgg_Electricity": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PalEgg_Electricity_TextData",
+          "SourceString": "Яйцо Пала",
+          "LocalizedString": "Яйцо Пала"
+        }
+      },
+      "MAPOBJECT_NAME_PalEgg_Ice": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PalEgg_Ice_TextData",
+          "SourceString": "Яйцо Пала",
+          "LocalizedString": "Яйцо Пала"
+        }
+      },
+      "MAPOBJECT_NAME_PalEgg_Earth": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PalEgg_Earth_TextData",
+          "SourceString": "Яйцо Пала",
+          "LocalizedString": "Яйцо Пала"
+        }
+      },
+      "MAPOBJECT_NAME_PalEgg_Dark": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PalEgg_Dark_TextData",
+          "SourceString": "Яйцо Пала",
+          "LocalizedString": "Яйцо Пала"
+        }
+      },
+      "MAPOBJECT_NAME_PalEgg_Dragon": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PalEgg_Dragon_TextData",
+          "SourceString": "Яйцо Пала",
+          "LocalizedString": "Яйцо Пала"
+        }
+      },
+      "MAPOBJECT_NAME_HatchingPalEgg": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_HatchingPalEgg_TextData",
+          "SourceString": "Инкубатор",
+          "LocalizedString": "Инкубатор"
+        }
+      },
+      "MAPOBJECT_NAME_TowerFastTravelPoint": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TowerFastTravelPoint_TextData",
+          "SourceString": "Статуя Орлана",
+          "LocalizedString": "Статуя Орлана"
+        }
+      },
+      "MAPOBJECT_NAME_StationDeforest2": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_StationDeforest2_TextData",
+          "SourceString": "Лесоповал",
+          "LocalizedString": "Лесоповал"
+        }
+      },
+      "MAPOBJECT_NAME_WorkBench_SkillUnlock": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_WorkBench_SkillUnlock_TextData",
+          "SourceString": "Верстак снаряж-я для Палов",
+          "LocalizedString": "Верстак снаряж-я для Палов"
+        }
+      },
+      "MAPOBJECT_NAME_WorkBench_SkillCard": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_WorkBench_SkillCard_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "MAPOBJECT_NAME_Foundation": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Foundation_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "MAPOBJECT_NAME_Roof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Roof_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "MAPOBJECT_NAME_Stairs": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stairs_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "MAPOBJECT_NAME_Wooden_foundation": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wooden_foundation_TextData",
+          "SourceString": "Деревянный фундамент",
+          "LocalizedString": "Деревянный фундамент"
+        }
+      },
+      "MAPOBJECT_NAME_Wooden_wall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wooden_wall_TextData",
+          "SourceString": "Деревянная стена",
+          "LocalizedString": "Деревянная стена"
+        }
+      },
+      "MAPOBJECT_NAME_Wooden_roof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wooden_roof_TextData",
+          "SourceString": "Деревянная крыша",
+          "LocalizedString": "Деревянная крыша"
+        }
+      },
+      "MAPOBJECT_NAME_Wooden_stair": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wooden_stair_TextData",
+          "SourceString": "Деревянная лестница",
+          "LocalizedString": "Деревянная лестница"
+        }
+      },
+      "MAPOBJECT_NAME_Wooden_DoorWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wooden_DoorWall_TextData",
+          "SourceString": "Деревянная дверь",
+          "LocalizedString": "Деревянная дверь"
+        }
+      },
+      "MAPOBJECT_NAME_Stone_foundation": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stone_foundation_TextData",
+          "SourceString": "Каменный фундамент",
+          "LocalizedString": "Каменный фундамент"
+        }
+      },
+      "MAPOBJECT_NAME_Stone_wall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stone_wall_TextData",
+          "SourceString": "Каменная стена",
+          "LocalizedString": "Каменная стена"
+        }
+      },
+      "MAPOBJECT_NAME_Stone_roof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stone_roof_TextData",
+          "SourceString": "Каменная крыша",
+          "LocalizedString": "Каменная крыша"
+        }
+      },
+      "MAPOBJECT_NAME_Stone_stair": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stone_stair_TextData",
+          "SourceString": "Каменная лестница",
+          "LocalizedString": "Каменная лестница"
+        }
+      },
+      "MAPOBJECT_NAME_Metal_foundation": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Metal_foundation_TextData",
+          "SourceString": "Металлический фундамент",
+          "LocalizedString": "Металлический фундамент"
+        }
+      },
+      "MAPOBJECT_NAME_Metal_wall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Metal_wall_TextData",
+          "SourceString": "Металлическая стена",
+          "LocalizedString": "Металлическая стена"
+        }
+      },
+      "MAPOBJECT_NAME_Metal_roof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Metal_roof_TextData",
+          "SourceString": "Металлическая крыша",
+          "LocalizedString": "Металлическая крыша"
+        }
+      },
+      "MAPOBJECT_NAME_Metal_stair": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Metal_stair_TextData",
+          "SourceString": "Металлическая лестница",
+          "LocalizedString": "Металлическая лестница"
+        }
+      },
+      "MAPOBJECT_NAME_Heater": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Heater_TextData",
+          "SourceString": "Обогреватель",
+          "LocalizedString": "Обогреватель"
+        }
+      },
+      "MAPOBJECT_NAME_ElectricHeater": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ElectricHeater_TextData",
+          "SourceString": "Электрообогреватель",
+          "LocalizedString": "Электрообогреватель"
+        }
+      },
+      "MAPOBJECT_NAME_Cooler": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Cooler_TextData",
+          "SourceString": "Ледяной охладитель",
+          "LocalizedString": "Ледяной охладитель"
+        }
+      },
+      "MAPOBJECT_NAME_ElectricCooler": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ElectricCooler_TextData",
+          "SourceString": "Кондиционер",
+          "LocalizedString": "Кондиционер"
+        }
+      },
+      "MAPOBJECT_NAME_Torch": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Torch_TextData",
+          "SourceString": "Стационарный факел",
+          "LocalizedString": "Стационарный факел"
+        }
+      },
+      "MAPOBJECT_NAME_WallTorch": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_WallTorch_TextData",
+          "SourceString": "Настенный факел",
+          "LocalizedString": "Настенный факел"
+        }
+      },
+      "MAPOBJECT_NAME_Lamp": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Lamp_TextData",
+          "SourceString": "Стационарная лампа",
+          "LocalizedString": "Стационарная лампа"
+        }
+      },
+      "MAPOBJECT_NAME_CeilingLamp": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_CeilingLamp_TextData",
+          "SourceString": "Потолочная лампа",
+          "LocalizedString": "Потолочная лампа"
+        }
+      },
+      "MAPOBJECT_NAME_LargeLamp": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_LargeLamp_TextData",
+          "SourceString": "Большая стационарная лампа",
+          "LocalizedString": "Большая стационарная лампа"
+        }
+      },
+      "MAPOBJECT_NAME_LargeCeilingLamp": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_LargeCeilingLamp_TextData",
+          "SourceString": "Большая потолочная лампа",
+          "LocalizedString": "Большая потолочная лампа"
+        }
+      },
+      "MAPOBJECT_NAME_BuildableGoddessStatue": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_BuildableGoddessStatue_TextData",
+          "SourceString": "Монумент Силы",
+          "LocalizedString": "Монумент Силы"
+        }
+      },
+      "MAPOBJECT_NAME_Spa": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Spa_TextData",
+          "SourceString": "Горячий источник",
+          "LocalizedString": "Горячий источник"
+        }
+      },
+      "MAPOBJECT_NAME_Spa2": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Spa2_TextData",
+          "SourceString": "Изысканный горячий источник",
+          "LocalizedString": "Изысканный горячий источник"
+        }
+      },
+      "MAPOBJECT_NAME_PickupItem_Mushroom": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PickupItem_Mushroom_TextData",
+          "SourceString": "Грибы",
+          "LocalizedString": "Грибы"
+        }
+      },
+      "MAPOBJECT_NAME_PickupItem_Poppy": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PickupItem_Poppy_TextData",
+          "SourceString": "Красивый цветок",
+          "LocalizedString": "Красивый цветок"
+        }
+      },
+      "MAPOBJECT_NAME_DefenseWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DefenseWall_TextData",
+          "SourceString": "Каменная защитная стена",
+          "LocalizedString": "Каменная защитная стена"
+        }
+      },
+      "MAPOBJECT_NAME_Crusher": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Crusher_TextData",
+          "SourceString": "Дробилка",
+          "LocalizedString": "Дробилка"
+        }
+      },
+      "MAPOBJECT_NAME_WoodCrusher": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_WoodCrusher_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "MAPOBJECT_NAME_FlourMill": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FlourMill_TextData",
+          "SourceString": "Мельница",
+          "LocalizedString": "Мельница"
+        }
+      },
+      "MAPOBJECT_NAME_Trap_LegHold": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Trap_LegHold_TextData",
+          "SourceString": "Небольшой капкан",
+          "LocalizedString": "Небольшой капкан"
+        }
+      },
+      "MAPOBJECT_NAME_Trap_LegHold_Big": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Trap_LegHold_Big_TextData",
+          "SourceString": "Большой капкан",
+          "LocalizedString": "Большой капкан"
+        }
+      },
+      "MAPOBJECT_NAME_Trap_Noose": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Trap_Noose_TextData",
+          "SourceString": "Подвесная ловушка",
+          "LocalizedString": "Подвесная ловушка"
+        }
+      },
+      "MAPOBJECT_NAME_Trap_MovingPanel": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Trap_MovingPanel_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "MAPOBJECT_NAME_Trap_MineElecShock": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Trap_MineElecShock_TextData",
+          "SourceString": "Электрическая мина",
+          "LocalizedString": "Электрическая мина"
+        }
+      },
+      "MAPOBJECT_NAME_Trap_MineFreeze": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Trap_MineFreeze_TextData",
+          "SourceString": "Замораживающая мина",
+          "LocalizedString": "Замораживающая мина"
+        }
+      },
+      "MAPOBJECT_NAME_Trap_MineAttack": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Trap_MineAttack_TextData",
+          "SourceString": "Мина",
+          "LocalizedString": "Мина"
+        }
+      },
+      "MAPOBJECT_NAME_BreedFarm": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_BreedFarm_TextData",
+          "SourceString": "Племенная ферма",
+          "LocalizedString": "Племенная ферма"
+        }
+      },
+      "MAPOBJECT_NAME_ToolBoxV2": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ToolBoxV2_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "MAPOBJECT_NAME_ToolBoxV1": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ToolBoxV1_TextData",
+          "SourceString": "Большой ящик инструментов",
+          "LocalizedString": "Большой ящик инструментов"
+        }
+      },
+      "MAPOBJECT_NAME_OlympicCauldron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_OlympicCauldron_TextData",
+          "SourceString": "Священный огонь",
+          "LocalizedString": "Священный огонь"
+        }
+      },
+      "MAPOBJECT_NAME_Fountain": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Fountain_TextData",
+          "SourceString": "Фонтан",
+          "LocalizedString": "Фонтан"
+        }
+      },
+      "MAPOBJECT_NAME_Silo": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Silo_TextData",
+          "SourceString": "Силос",
+          "LocalizedString": "Силос"
+        }
+      },
+      "MAPOBJECT_NAME_TransmissionTower": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TransmissionTower_TextData",
+          "SourceString": "Вышка электропередачи",
+          "LocalizedString": "Вышка электропередачи"
+        }
+      },
+      "MAPOBJECT_NAME_FlowerBed": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FlowerBed_TextData",
+          "SourceString": "Клумба",
+          "LocalizedString": "Клумба"
+        }
+      },
+      "MAPOBJECT_NAME_Stump": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stump_TextData",
+          "SourceString": "Пень и топор",
+          "LocalizedString": "Пень и топор"
+        }
+      },
+      "MAPOBJECT_NAME_MiningTool": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_MiningTool_TextData",
+          "SourceString": "Вагонетка",
+          "LocalizedString": "Вагонетка"
+        }
+      },
+      "MAPOBJECT_NAME_Cauldron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Cauldron_TextData",
+          "SourceString": "Ведьминский котел",
+          "LocalizedString": "Ведьминский котел"
+        }
+      },
+      "MAPOBJECT_NAME_Snowman": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Snowman_TextData",
+          "SourceString": "Снеговик",
+          "LocalizedString": "Снеговик"
+        }
+      },
+      "MAPOBJECT_NAME_Stone_DoorWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stone_DoorWall_TextData",
+          "SourceString": "Каменная дверь",
+          "LocalizedString": "Каменная дверь"
+        }
+      },
+      "MAPOBJECT_NAME_Metal_DoorWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Metal_DoorWall_TextData",
+          "SourceString": "Металлическая дверь",
+          "LocalizedString": "Металлическая дверь"
+        }
+      },
+      "MAPOBJECT_NAME_CoolerBox": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_CoolerBox_TextData",
+          "SourceString": "Термобокс",
+          "LocalizedString": "Термобокс"
+        }
+      },
+      "MAPOBJECT_NAME_Refrigerator": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Refrigerator_TextData",
+          "SourceString": "Холодильник",
+          "LocalizedString": "Холодильник"
+        }
+      },
+      "MAPOBJECT_NAME_Decal_PalSticker_PinkCat": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Decal_PalSticker_PinkCat_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "MAPOBJECT_NAME_MonsterFarm": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_MonsterFarm_TextData",
+          "SourceString": "Ферма для скота",
+          "LocalizedString": "Ферма для скота"
+        }
+      },
+      "MAPOBJECT_NAME_Wood_Gate": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wood_Gate_TextData",
+          "SourceString": "Деревянные ворота",
+          "LocalizedString": "Деревянные ворота"
+        }
+      },
+      "MAPOBJECT_NAME_Stone_Gate": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stone_Gate_TextData",
+          "SourceString": "Каменные ворота",
+          "LocalizedString": "Каменные ворота"
+        }
+      },
+      "MAPOBJECT_NAME_Metal_Gate": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Metal_Gate_TextData",
+          "SourceString": "Металлические ворота",
+          "LocalizedString": "Металлические ворота"
+        }
+      },
+      "MAPOBJECT_NAME_RepairBench": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_RepairBench_TextData",
+          "SourceString": "Ремонтный верстак",
+          "LocalizedString": "Ремонтный верстак"
+        }
+      },
+      "MAPOBJECT_NAME_BaseCampWorkHard": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_BaseCampWorkHard_TextData",
+          "SourceString": "Пост наблюдения",
+          "LocalizedString": "Пост наблюдения"
+        }
+      },
+      "MAPOBJECT_NAME_Signboard": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Signboard_TextData",
+          "SourceString": "Табличка",
+          "LocalizedString": "Табличка"
+        }
+      },
+      "MAPOBJECT_NAME_BaseCampBattleDirector": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_BaseCampBattleDirector_TextData",
+          "SourceString": "Сигнальный колокол",
+          "LocalizedString": "Сигнальный колокол"
+        }
+      },
+      "MAPOBJECT_NAME_TableSquare_Wood": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TableSquare_Wood_TextData",
+          "SourceString": "Квадратный стол",
+          "LocalizedString": "Квадратный стол"
+        }
+      },
+      "MAPOBJECT_NAME_TableCircular_Wood": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TableCircular_Wood_TextData",
+          "SourceString": "Круглый стол",
+          "LocalizedString": "Круглый стол"
+        }
+      },
+      "MAPOBJECT_NAME_Bench_Wood": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Bench_Wood_TextData",
+          "SourceString": "Деревянная скамейка",
+          "LocalizedString": "Деревянная скамейка"
+        }
+      },
+      "MAPOBJECT_NAME_Stool_Wood": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stool_Wood_TextData",
+          "SourceString": "Деревянный табурет",
+          "LocalizedString": "Деревянный табурет"
+        }
+      },
+      "MAPOBJECT_NAME_Stool_High_Wood": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stool_High_Wood_TextData",
+          "SourceString": "Деревянный барный стул",
+          "LocalizedString": "Деревянный барный стул"
+        }
+      },
+      "MAPOBJECT_NAME_Barrel_Wood": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Barrel_Wood_TextData",
+          "SourceString": "Деревянная бочка",
+          "LocalizedString": "Деревянная бочка"
+        }
+      },
+      "MAPOBJECT_NAME_Box_Wood": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Box_Wood_TextData",
+          "SourceString": "Деревянный ящик",
+          "LocalizedString": "Деревянный ящик"
+        }
+      },
+      "MAPOBJECT_NAME_Shelf_Wood": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Shelf_Wood_TextData",
+          "SourceString": "Деревянная полка",
+          "LocalizedString": "Деревянная полка"
+        }
+      },
+      "MAPOBJECT_NAME_Shelf_Cask_Wood": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Shelf_Cask_Wood_TextData",
+          "SourceString": "Деревянный стеллаж с бочками",
+          "LocalizedString": "Деревянный стеллаж с бочками"
+        }
+      },
+      "MAPOBJECT_NAME_Shelf_Hang01_Wood": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Shelf_Hang01_Wood_TextData",
+          "SourceString": "Деревянная навесная полка",
+          "LocalizedString": "Деревянная навесная полка"
+        }
+      },
+      "MAPOBJECT_NAME_Shelf_Hang02_Wood": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Shelf_Hang02_Wood_TextData",
+          "SourceString": "Настенная декоративная деревянная полка",
+          "LocalizedString": "Настенная декоративная деревянная полка"
+        }
+      },
+      "MAPOBJECT_NAME_Counter_Wood": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Counter_Wood_TextData",
+          "SourceString": "Деревянная стойка",
+          "LocalizedString": "Деревянная стойка"
+        }
+      },
+      "MAPOBJECT_NAME_Rug_Wood": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Rug_Wood_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "MAPOBJECT_NAME_Ivy01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ivy01_TextData",
+          "SourceString": "Большая настенная лоза",
+          "LocalizedString": "Большая настенная лоза"
+        }
+      },
+      "MAPOBJECT_NAME_Ivy02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ivy02_TextData",
+          "SourceString": "Небольшая настенная лоза",
+          "LocalizedString": "Небольшая настенная лоза"
+        }
+      },
+      "MAPOBJECT_NAME_Ivy03": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ivy03_TextData",
+          "SourceString": "Горизонтальная настенная лоза",
+          "LocalizedString": "Горизонтальная настенная лоза"
+        }
+      },
+      "MAPOBJECT_NAME_DamagedScarecrow": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagedScarecrow_TextData",
+          "SourceString": "Тренировочное чучело",
+          "LocalizedString": "Тренировочное чучело"
+        }
+      },
+      "MAPOBJECT_NAME_Chair01_Wood": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Chair01_Wood_TextData",
+          "SourceString": "Деревянный стул",
+          "LocalizedString": "Деревянный стул"
+        }
+      },
+      "MAPOBJECT_NAME_Barrel01_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Barrel01_Iron_TextData",
+          "SourceString": "Красная металлическая бочка",
+          "LocalizedString": "Красная металлическая бочка"
+        }
+      },
+      "MAPOBJECT_NAME_Barrel02_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Barrel02_Iron_TextData",
+          "SourceString": "Синяя металлическая бочка",
+          "LocalizedString": "Синяя металлическая бочка"
+        }
+      },
+      "MAPOBJECT_NAME_Barrel03_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Barrel03_Iron_TextData",
+          "SourceString": "Зелёная металлическая бочка",
+          "LocalizedString": "Зелёная металлическая бочка"
+        }
+      },
+      "MAPOBJECT_NAME_Box01_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Box01_Iron_TextData",
+          "SourceString": "Небольшой контейнер",
+          "LocalizedString": "Небольшой контейнер"
+        }
+      },
+      "MAPOBJECT_NAME_Box02_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Box02_Iron_TextData",
+          "SourceString": "Контейнер, обитый тканью",
+          "LocalizedString": "Контейнер, обитый тканью"
+        }
+      },
+      "MAPOBJECT_NAME_CableCoil01_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_CableCoil01_Iron_TextData",
+          "SourceString": "Кабельная катушка",
+          "LocalizedString": "Кабельная катушка"
+        }
+      },
+      "MAPOBJECT_NAME_Chair01_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Chair01_Iron_TextData",
+          "SourceString": "Кожаный стул",
+          "LocalizedString": "Кожаный стул"
+        }
+      },
+      "MAPOBJECT_NAME_Chair02_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Chair02_Iron_TextData",
+          "SourceString": "Железный стул",
+          "LocalizedString": "Железный стул"
+        }
+      },
+      "MAPOBJECT_NAME_Clock01_Wall_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Clock01_Wall_Iron_TextData",
+          "SourceString": "Настенные часы",
+          "LocalizedString": "Настенные часы"
+        }
+      },
+      "MAPOBJECT_NAME_Container01_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Container01_Iron_TextData",
+          "SourceString": "Большой контейнер",
+          "LocalizedString": "Большой контейнер"
+        }
+      },
+      "MAPOBJECT_NAME_GarbageBag_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_GarbageBag_Iron_TextData",
+          "SourceString": "Мешок для мусора",
+          "LocalizedString": "Мешок для мусора"
+        }
+      },
+      "MAPOBJECT_NAME_GoalSoccer_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_GoalSoccer_Iron_TextData",
+          "SourceString": "Футбольные ворота",
+          "LocalizedString": "Футбольные ворота"
+        }
+      },
+      "MAPOBJECT_NAME_MachineGame01_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_MachineGame01_Iron_TextData",
+          "SourceString": "Кран-автомат",
+          "LocalizedString": "Кран-автомат"
+        }
+      },
+      "MAPOBJECT_NAME_MachineVending01_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_MachineVending01_Iron_TextData",
+          "SourceString": "Торговый автомат с колой",
+          "LocalizedString": "Торговый автомат с колой"
+        }
+      },
+      "MAPOBJECT_NAME_PipeClay01_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PipeClay01_Iron_TextData",
+          "SourceString": "Бетонная труба",
+          "LocalizedString": "Бетонная труба"
+        }
+      },
+      "MAPOBJECT_NAME_Shelf01_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Shelf01_Iron_TextData",
+          "SourceString": "Железный стеллаж",
+          "LocalizedString": "Железный стеллаж"
+        }
+      },
+      "MAPOBJECT_NAME_Shelf02_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Shelf02_Iron_TextData",
+          "SourceString": "Горизонтальный железный стеллаж",
+          "LocalizedString": "Горизонтальный железный стеллаж"
+        }
+      },
+      "MAPOBJECT_NAME_Shelf03_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Shelf03_Iron_TextData",
+          "SourceString": "Оранжевый шкафчик",
+          "LocalizedString": "Оранжевый шкафчик"
+        }
+      },
+      "MAPOBJECT_NAME_Shelf04_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Shelf04_Iron_TextData",
+          "SourceString": "Шкафчик",
+          "LocalizedString": "Шкафчик"
+        }
+      },
+      "MAPOBJECT_NAME_SignExit_Ceiling_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SignExit_Ceiling_Iron_TextData",
+          "SourceString": "Потолочный знак выхода",
+          "LocalizedString": "Потолочный знак выхода"
+        }
+      },
+      "MAPOBJECT_NAME_SignExit_Wall_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SignExit_Wall_Iron_TextData",
+          "SourceString": "Настенный знак выхода",
+          "LocalizedString": "Настенный знак выхода"
+        }
+      },
+      "MAPOBJECT_NAME_Sofa01_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Sofa01_Iron_TextData",
+          "SourceString": "Кожаное кресло",
+          "LocalizedString": "Кожаное кресло"
+        }
+      },
+      "MAPOBJECT_NAME_Sofa02_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Sofa02_Iron_TextData",
+          "SourceString": "Кожаный диван для двоих",
+          "LocalizedString": "Кожаный диван для двоих"
+        }
+      },
+      "MAPOBJECT_NAME_Stool01_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stool01_Iron_TextData",
+          "SourceString": "Железный табурет",
+          "LocalizedString": "Железный табурет"
+        }
+      },
+      "MAPOBJECT_NAME_TableCircular01_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TableCircular01_Iron_TextData",
+          "SourceString": "Круглый железный стол",
+          "LocalizedString": "Круглый железный стол"
+        }
+      },
+      "MAPOBJECT_NAME_TableSide01_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TableSide01_Iron_TextData",
+          "SourceString": "Боковой столик из железного дерева",
+          "LocalizedString": "Боковой столик из железного дерева"
+        }
+      },
+      "MAPOBJECT_NAME_TableSquare01_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TableSquare01_Iron_TextData",
+          "SourceString": "Стол из железного дерева",
+          "LocalizedString": "Стол из железного дерева"
+        }
+      },
+      "MAPOBJECT_NAME_TableSquare02_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TableSquare02_Iron_TextData",
+          "SourceString": "Низкий столик из железного дерева",
+          "LocalizedString": "Низкий столик из железного дерева"
+        }
+      },
+      "MAPOBJECT_NAME_Tire01_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Tire01_Iron_TextData",
+          "SourceString": "Шина",
+          "LocalizedString": "Шина"
+        }
+      },
+      "MAPOBJECT_NAME_TrafficBarricade01_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TrafficBarricade01_Iron_TextData",
+          "SourceString": "Баррикада",
+          "LocalizedString": "Баррикада"
+        }
+      },
+      "MAPOBJECT_NAME_TrafficBarricade02_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TrafficBarricade02_Iron_TextData",
+          "SourceString": "Оранжевая баррикада",
+          "LocalizedString": "Оранжевая баррикада"
+        }
+      },
+      "MAPOBJECT_NAME_TrafficBarricade03_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TrafficBarricade03_Iron_TextData",
+          "SourceString": "Красная железная баррикада",
+          "LocalizedString": "Красная железная баррикада"
+        }
+      },
+      "MAPOBJECT_NAME_TrafficBarricade04_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TrafficBarricade04_Iron_TextData",
+          "SourceString": "Белая железная баррикада",
+          "LocalizedString": "Белая железная баррикада"
+        }
+      },
+      "MAPOBJECT_NAME_TrafficBarricade05_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TrafficBarricade05_Iron_TextData",
+          "SourceString": "Железный забор",
+          "LocalizedString": "Железный забор"
+        }
+      },
+      "MAPOBJECT_NAME_TrafficCone01_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TrafficCone01_Iron_TextData",
+          "SourceString": "Дорожный конус",
+          "LocalizedString": "Дорожный конус"
+        }
+      },
+      "MAPOBJECT_NAME_TrafficCone02_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TrafficCone02_Iron_TextData",
+          "SourceString": "Толстый дорожный конус",
+          "LocalizedString": "Толстый дорожный конус"
+        }
+      },
+      "MAPOBJECT_NAME_TrafficCone03_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TrafficCone03_Iron_TextData",
+          "SourceString": "Тонкий дорожный конус",
+          "LocalizedString": "Тонкий дорожный конус"
+        }
+      },
+      "MAPOBJECT_NAME_TrafficLight01_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TrafficLight01_Iron_TextData",
+          "SourceString": "Светофор",
+          "LocalizedString": "Светофор"
+        }
+      },
+      "MAPOBJECT_NAME_BathTub_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_BathTub_Stone_TextData",
+          "SourceString": "Антикварная ванна",
+          "LocalizedString": "Антикварная ванна"
+        }
+      },
+      "MAPOBJECT_NAME_Box01_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Box01_Stone_TextData",
+          "SourceString": "Антикварная плетёная корзина",
+          "LocalizedString": "Антикварная плетёная корзина"
+        }
+      },
+      "MAPOBJECT_NAME_Chair01_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Chair01_Stone_TextData",
+          "SourceString": "Антикварный деревянный стул",
+          "LocalizedString": "Антикварный деревянный стул"
+        }
+      },
+      "MAPOBJECT_NAME_Chair02_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Chair02_Stone_TextData",
+          "SourceString": "Зелёный антикварный деревянный стул",
+          "LocalizedString": "Зелёный антикварный деревянный стул"
+        }
+      },
+      "MAPOBJECT_NAME_Clock01_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Clock01_Stone_TextData",
+          "SourceString": "Антикварные часы с маятником",
+          "LocalizedString": "Антикварные часы с маятником"
+        }
+      },
+      "MAPOBJECT_NAME_Curtain01_Wall_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Curtain01_Wall_Stone_TextData",
+          "SourceString": "Антикварные занавески",
+          "LocalizedString": "Антикварные занавески"
+        }
+      },
+      "MAPOBJECT_NAME_Desk01_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Desk01_Stone_TextData",
+          "SourceString": "Антикварный стол",
+          "LocalizedString": "Антикварный стол"
+        }
+      },
+      "MAPOBJECT_NAME_Globe01_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Globe01_Stone_TextData",
+          "SourceString": "Антикварный глобус",
+          "LocalizedString": "Антикварный глобус"
+        }
+      },
+      "MAPOBJECT_NAME_Mirror01_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Mirror01_Stone_TextData",
+          "SourceString": "Антикварное овальное зеркало",
+          "LocalizedString": "Антикварное овальное зеркало"
+        }
+      },
+      "MAPOBJECT_NAME_Mirror02_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Mirror02_Stone_TextData",
+          "SourceString": "Антикварное зеркало",
+          "LocalizedString": "Антикварное зеркало"
+        }
+      },
+      "MAPOBJECT_NAME_Mirror01_Wall_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Mirror01_Wall_Stone_TextData",
+          "SourceString": "Антикварное настенное зеркало",
+          "LocalizedString": "Антикварное настенное зеркало"
+        }
+      },
+      "MAPOBJECT_NAME_Partition_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Partition_Stone_TextData",
+          "SourceString": "Антикварная ширма",
+          "LocalizedString": "Антикварная ширма"
+        }
+      },
+      "MAPOBJECT_NAME_Piano01_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Piano01_Stone_TextData",
+          "SourceString": "Рояль",
+          "LocalizedString": "Рояль"
+        }
+      },
+      "MAPOBJECT_NAME_Piano02_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Piano02_Stone_TextData",
+          "SourceString": "Пианино",
+          "LocalizedString": "Пианино"
+        }
+      },
+      "MAPOBJECT_NAME_Rug01_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Rug01_Stone_TextData",
+          "SourceString": "Антикварный ковер",
+          "LocalizedString": "Антикварный ковер"
+        }
+      },
+      "MAPOBJECT_NAME_Rug02_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Rug02_Stone_TextData",
+          "SourceString": "Красный антикварный ковер",
+          "LocalizedString": "Красный антикварный ковер"
+        }
+      },
+      "MAPOBJECT_NAME_Rug03_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Rug03_Stone_TextData",
+          "SourceString": "Зелёный антикварный ковер",
+          "LocalizedString": "Зелёный антикварный ковер"
+        }
+      },
+      "MAPOBJECT_NAME_Rug04_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Rug04_Stone_TextData",
+          "SourceString": "Узкий антикварный ковер",
+          "LocalizedString": "Узкий антикварный ковер"
+        }
+      },
+      "MAPOBJECT_NAME_Shelf01_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Shelf01_Stone_TextData",
+          "SourceString": "Антикварный книжный шкаф",
+          "LocalizedString": "Антикварный книжный шкаф"
+        }
+      },
+      "MAPOBJECT_NAME_Shelf02_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Shelf02_Stone_TextData",
+          "SourceString": "Антикварный гардероб",
+          "LocalizedString": "Антикварный гардероб"
+        }
+      },
+      "MAPOBJECT_NAME_Shelf03_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Shelf03_Stone_TextData",
+          "SourceString": "Антикварная тумба",
+          "LocalizedString": "Антикварная тумба"
+        }
+      },
+      "MAPOBJECT_NAME_Shelf04_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Shelf04_Stone_TextData",
+          "SourceString": "Антикварная тумбочка",
+          "LocalizedString": "Антикварная тумбочка"
+        }
+      },
+      "MAPOBJECT_NAME_Shelf05_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Shelf05_Stone_TextData",
+          "SourceString": "Антикварный комод",
+          "LocalizedString": "Антикварный комод"
+        }
+      },
+      "MAPOBJECT_NAME_Shelf06_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Shelf06_Stone_TextData",
+          "SourceString": "Продолговатый антикварный комод",
+          "LocalizedString": "Продолговатый антикварный комод"
+        }
+      },
+      "MAPOBJECT_NAME_Shelf07_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Shelf07_Stone_TextData",
+          "SourceString": "Большой антикварный комод",
+          "LocalizedString": "Большой антикварный комод"
+        }
+      },
+      "MAPOBJECT_NAME_Shelf01_Wall_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Shelf01_Wall_Stone_TextData",
+          "SourceString": "Антикварный настенный шкаф",
+          "LocalizedString": "Антикварный настенный шкаф"
+        }
+      },
+      "MAPOBJECT_NAME_Sofa01_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Sofa01_Stone_TextData",
+          "SourceString": "Антикварное кресло",
+          "LocalizedString": "Антикварное кресло"
+        }
+      },
+      "MAPOBJECT_NAME_Sofa02_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Sofa02_Stone_TextData",
+          "SourceString": "Антикварный диван для двоих",
+          "LocalizedString": "Антикварный диван для двоих"
+        }
+      },
+      "MAPOBJECT_NAME_Sofa03_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Sofa03_Stone_TextData",
+          "SourceString": "Антикварная оттоманка",
+          "LocalizedString": "Антикварная оттоманка"
+        }
+      },
+      "MAPOBJECT_NAME_Stool01_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stool01_Stone_TextData",
+          "SourceString": "Антикварный табурет",
+          "LocalizedString": "Антикварный табурет"
+        }
+      },
+      "MAPOBJECT_NAME_Stove01_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stove01_Stone_TextData",
+          "SourceString": "Антикварная печь",
+          "LocalizedString": "Антикварная печь"
+        }
+      },
+      "MAPOBJECT_NAME_TableCircular01_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TableCircular01_Stone_TextData",
+          "SourceString": "Круглый антикварный стол",
+          "LocalizedString": "Круглый антикварный стол"
+        }
+      },
+      "MAPOBJECT_NAME_TableDresser01_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TableDresser01_Stone_TextData",
+          "SourceString": "Антикварный туалетный столик",
+          "LocalizedString": "Антикварный туалетный столик"
+        }
+      },
+      "MAPOBJECT_NAME_TableSink01_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TableSink01_Stone_TextData",
+          "SourceString": "Антикварный умывальник",
+          "LocalizedString": "Антикварный умывальник"
+        }
+      },
+      "MAPOBJECT_NAME_Toilet01_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Toilet01_Stone_TextData",
+          "SourceString": "Антикварный унитаз",
+          "LocalizedString": "Антикварный унитаз"
+        }
+      },
+      "MAPOBJECT_NAME_ToiletHolder01_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ToiletHolder01_Stone_TextData",
+          "SourceString": "Антикварный держатель для бумаги",
+          "LocalizedString": "Антикварный держатель для бумаги"
+        }
+      },
+      "MAPOBJECT_NAME_TowlRack01_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TowlRack01_Stone_TextData",
+          "SourceString": "Антикварная вешалка для полотенец",
+          "LocalizedString": "Антикварная вешалка для полотенец"
+        }
+      },
+      "MAPOBJECT_NAME_Plant01_Plant": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Plant01_Plant_TextData",
+          "SourceString": "Декоративное растение",
+          "LocalizedString": "Декоративное растение"
+        }
+      },
+      "MAPOBJECT_NAME_Plant02_Plant": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Plant02_Plant_TextData",
+          "SourceString": "Декоративное растение на стуле",
+          "LocalizedString": "Декоративное растение на стуле"
+        }
+      },
+      "MAPOBJECT_NAME_Plant03_Plant": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Plant03_Plant_TextData",
+          "SourceString": "Декоративное растение на стол",
+          "LocalizedString": "Декоративное растение на стол"
+        }
+      },
+      "MAPOBJECT_NAME_Plant04_Plant": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Plant04_Plant_TextData",
+          "SourceString": "Декоративное растение в горшке",
+          "LocalizedString": "Декоративное растение в горшке"
+        }
+      },
+      "MAPOBJECT_NAME_Light_FloorLamp01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Light_FloorLamp01_TextData",
+          "SourceString": "Антикварная коричневая напольная лампа",
+          "LocalizedString": "Антикварная коричневая напольная лампа"
+        }
+      },
+      "MAPOBJECT_NAME_Light_FloorLamp02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Light_FloorLamp02_TextData",
+          "SourceString": "Антикварная красная напольная лампа",
+          "LocalizedString": "Антикварная красная напольная лампа"
+        }
+      },
+      "MAPOBJECT_NAME_Light_LightPole01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Light_LightPole01_TextData",
+          "SourceString": "Простой уличный фонарь",
+          "LocalizedString": "Простой уличный фонарь"
+        }
+      },
+      "MAPOBJECT_NAME_Light_LightPole02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Light_LightPole02_TextData",
+          "SourceString": "Двухрожковый уличный фонарь",
+          "LocalizedString": "Двухрожковый уличный фонарь"
+        }
+      },
+      "MAPOBJECT_NAME_Light_LightPole03": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Light_LightPole03_TextData",
+          "SourceString": "Старомодный уличный фонарь",
+          "LocalizedString": "Старомодный уличный фонарь"
+        }
+      },
+      "MAPOBJECT_NAME_Light_LightPole04": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Light_LightPole04_TextData",
+          "SourceString": "Элегантный уличный фонарь",
+          "LocalizedString": "Элегантный уличный фонарь"
+        }
+      },
+      "MAPOBJECT_NAME_Light_FirePlace01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Light_FirePlace01_TextData",
+          "SourceString": "Кирпичный камин",
+          "LocalizedString": "Кирпичный камин"
+        }
+      },
+      "MAPOBJECT_NAME_DefenseWall_Wood": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DefenseWall_Wood_TextData",
+          "SourceString": "Деревянная защитная стена",
+          "LocalizedString": "Деревянная защитная стена"
+        }
+      },
+      "MAPOBJECT_NAME_DefenseWall_Metal": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DefenseWall_Metal_TextData",
+          "SourceString": "Металлическая защитная стена",
+          "LocalizedString": "Металлическая защитная стена"
+        }
+      },
+      "MAPOBJECT_NAME_Light_FirePlace02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Light_FirePlace02_TextData",
+          "SourceString": "Камин",
+          "LocalizedString": "Камин"
+        }
+      },
+      "MAPOBJECT_NAME_Light_CandleSticks_Top": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Light_CandleSticks_Top_TextData",
+          "SourceString": "Люстра",
+          "LocalizedString": "Люстра"
+        }
+      },
+      "MAPOBJECT_NAME_Light_CandleSticks_Wall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Light_CandleSticks_Wall_TextData",
+          "SourceString": "Настенная лампа",
+          "LocalizedString": "Настенная лампа"
+        }
+      },
+      "MAPOBJECT_NAME_Television01_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Television01_Iron_TextData",
+          "SourceString": "Старый телевизор",
+          "LocalizedString": "Старый телевизор"
+        }
+      },
+      "MAPOBJECT_NAME_Desk01_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Desk01_Iron_TextData",
+          "SourceString": "Железный стол",
+          "LocalizedString": "Железный стол"
+        }
+      },
+      "MAPOBJECT_NAME_Shelf01_Wall_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Shelf01_Wall_Iron_TextData",
+          "SourceString": "Настенная железная полка",
+          "LocalizedString": "Настенная железная полка"
+        }
+      },
+      "MAPOBJECT_NAME_TrafficSign01_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TrafficSign01_Iron_TextData",
+          "SourceString": "Дорожный знак |Проход для Палов запрещён|",
+          "LocalizedString": "Дорожный знак |Проход для Палов запрещён|"
+        }
+      },
+      "MAPOBJECT_NAME_TrafficSign02_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TrafficSign02_Iron_TextData",
+          "SourceString": "Дорожный знак |Стоп|",
+          "LocalizedString": "Дорожный знак |Стоп|"
+        }
+      },
+      "MAPOBJECT_NAME_TrafficSign03_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TrafficSign03_Iron_TextData",
+          "SourceString": "Предупредительный знак |Осторожно, Иктирдир!|",
+          "LocalizedString": "Предупредительный знак |Осторожно, Иктирдир!|"
+        }
+      },
+      "MAPOBJECT_NAME_TrafficSign04_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TrafficSign04_Iron_TextData",
+          "SourceString": "Предупредительный знак |Осторожно, Мамморест!|",
+          "LocalizedString": "Предупредительный знак |Осторожно, Мамморест!|"
+        }
+      },
+      "MAPOBJECT_NAME_Wood_WindowWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wood_WindowWall_TextData",
+          "SourceString": "Деревянная стена с окном",
+          "LocalizedString": "Деревянная стена с окном"
+        }
+      },
+      "MAPOBJECT_NAME_Stone_WindowWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stone_WindowWall_TextData",
+          "SourceString": "Каменная стена с окном",
+          "LocalizedString": "Каменная стена с окном"
+        }
+      },
+      "MAPOBJECT_NAME_Metal_WindowWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Metal_WindowWall_TextData",
+          "SourceString": "Металлическая стена с окном",
+          "LocalizedString": "Металлическая стена с окном"
+        }
+      },
+      "MAPOBJECT_NAME_Wood_TriangleWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wood_TriangleWall_TextData",
+          "SourceString": "Деревянная треугольная стена",
+          "LocalizedString": "Деревянная треугольная стена"
+        }
+      },
+      "MAPOBJECT_NAME_Stone_TriangleWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stone_TriangleWall_TextData",
+          "SourceString": "Каменная треугольная стена",
+          "LocalizedString": "Каменная треугольная стена"
+        }
+      },
+      "MAPOBJECT_NAME_Metal_TriangleWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Metal_TriangleWall_TextData",
+          "SourceString": "Металлическая треугольная стена",
+          "LocalizedString": "Металлическая треугольная стена"
+        }
+      },
+      "MAPOBJECT_NAME_Wood_SlantedRoof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wood_SlantedRoof_TextData",
+          "SourceString": "Деревянная наклонная крыша",
+          "LocalizedString": "Деревянная наклонная крыша"
+        }
+      },
+      "MAPOBJECT_NAME_Stone_SlantedRoof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stone_SlantedRoof_TextData",
+          "SourceString": "Каменная наклонная крыша",
+          "LocalizedString": "Каменная наклонная крыша"
+        }
+      },
+      "MAPOBJECT_NAME_Metal_SlantedRoof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Metal_SlantedRoof_TextData",
+          "SourceString": "Металлическая наклонная крыша",
+          "LocalizedString": "Металлическая наклонная крыша"
+        }
+      },
+      "MAPOBJECT_NAME_Chair01_Pal": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Chair01_Pal_TextData",
+          "SourceString": "Стул-лягушка",
+          "LocalizedString": "Стул-лягушка"
+        }
+      },
+      "MAPOBJECT_NAME_Altar": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Altar_TextData",
+          "SourceString": "Алтарь призыва",
+          "LocalizedString": "Алтарь призыва"
+        }
+      },
+      "MAPOBJECT_NAME_CopperPit": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_CopperPit_TextData",
+          "SourceString": "Металлический рудник",
+          "LocalizedString": "Металлический рудник"
+        }
+      },
+      "MAPOBJECT_NAME_CopperPit_2": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_CopperPit_2_TextData",
+          "SourceString": "Металлический рудник II",
+          "LocalizedString": "Металлический рудник II"
+        }
+      },
+      "MAPOBJECT_NAME_ElectricHatchingPalEgg": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ElectricHatchingPalEgg_TextData",
+          "SourceString": "Электроинкубатор",
+          "LocalizedString": "Электроинкубатор"
+        }
+      },
+      "MAPOBJECT_NAME_PickupItem_CaveMushroom": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PickupItem_CaveMushroom_TextData",
+          "SourceString": "Пещерный гриб",
+          "LocalizedString": "Пещерный гриб"
+        }
+      },
+      "MAPOBJECT_NAME_CoolerPalFoodBox": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_CoolerPalFoodBox_TextData",
+          "SourceString": "Кормушка-холодильник",
+          "LocalizedString": "Кормушка-холодильник"
+        }
+      },
+      "MAPOBJECT_NAME_AntiAircraft_LaserTower": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_AntiAircraft_LaserTower_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_AntiAircraft_MachineGun": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_AntiAircraft_MachineGun_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_TreasureBox_Oilrig": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TreasureBox_Oilrig_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_OilRig": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_OilRig_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_SulfurPit": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SulfurPit_TextData",
+          "SourceString": "Серный рудник",
+          "LocalizedString": "Серный рудник"
+        }
+      },
+      "MAPOBJECT_NAME_CoalPit": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_CoalPit_TextData",
+          "SourceString": "Угольный рудник",
+          "LocalizedString": "Угольный рудник"
+        }
+      },
+      "MAPOBJECT_NAME_IceCrusher": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_IceCrusher_TextData",
+          "SourceString": "Замораживающий измельчитель",
+          "LocalizedString": "Замораживающий измельчитель"
+        }
+      },
+      "MAPOBJECT_NAME_DismantlingConveyor": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DismantlingConveyor_TextData",
+          "SourceString": "Конвейер для переработки Палов",
+          "LocalizedString": "Конвейер для переработки Палов"
+        }
+      },
+      "MAPOBJECT_NAME_WallSignboard": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_WallSignboard_TextData",
+          "SourceString": "Настенная табличка",
+          "LocalizedString": "Настенная табличка"
+        }
+      },
+      "MAPOBJECT_NAME_Glass_foundation": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Glass_foundation_TextData",
+          "SourceString": "Стеклянный фундамент",
+          "LocalizedString": "Стеклянный фундамент"
+        }
+      },
+      "MAPOBJECT_NAME_Glass_wall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Glass_wall_TextData",
+          "SourceString": "Стеклянная стена",
+          "LocalizedString": "Стеклянная стена"
+        }
+      },
+      "MAPOBJECT_NAME_Glass_roof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Glass_roof_TextData",
+          "SourceString": "Стеклянная крыша",
+          "LocalizedString": "Стеклянная крыша"
+        }
+      },
+      "MAPOBJECT_NAME_Glass_stair": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Glass_stair_TextData",
+          "SourceString": "Стеклянная лестница",
+          "LocalizedString": "Стеклянная лестница"
+        }
+      },
+      "MAPOBJECT_NAME_Glass_DoorWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Glass_DoorWall_TextData",
+          "SourceString": "Стеклянная стена с дверью",
+          "LocalizedString": "Стеклянная стена с дверью"
+        }
+      },
+      "MAPOBJECT_NAME_Glass_TriangleWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Glass_TriangleWall_TextData",
+          "SourceString": "Стеклянная треугольная стена",
+          "LocalizedString": "Стеклянная треугольная стена"
+        }
+      },
+      "MAPOBJECT_NAME_Glass_SlantedRoof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Glass_SlantedRoof_TextData",
+          "SourceString": "Стеклянная наклонная крыша",
+          "LocalizedString": "Стеклянная наклонная крыша"
+        }
+      },
+      "MAPOBJECT_NAME_Glass_WindowWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Glass_WindowWall_TextData",
+          "SourceString": "Стеклянная стена с окном",
+          "LocalizedString": "Стеклянная стена с окном"
+        }
+      },
+      "MAPOBJECT_NAME_Wooden_Pillar": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wooden_Pillar_TextData",
+          "SourceString": "Деревянная колонна",
+          "LocalizedString": "Деревянная колонна"
+        }
+      },
+      "MAPOBJECT_NAME_Stone_Pillar": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stone_Pillar_TextData",
+          "SourceString": "Каменная колонна",
+          "LocalizedString": "Каменная колонна"
+        }
+      },
+      "MAPOBJECT_NAME_Metal_Pillars": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Metal_Pillars_TextData",
+          "SourceString": "Металлическая колонна",
+          "LocalizedString": "Металлическая колонна"
+        }
+      },
+      "MAPOBJECT_NAME_Glass_Pillars": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Glass_Pillars_TextData",
+          "SourceString": "Стеклянная колонна",
+          "LocalizedString": "Стеклянная колонна"
+        }
+      },
+      "MAPOBJECT_NAME_MeteorFall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_MeteorFall_TextData",
+          "SourceString": "Метеорит",
+          "LocalizedString": "Метеорит"
+        }
+      },
+      "MAPOBJECT_NAME_MeteorDrop_pickup": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_MeteorDrop_pickup_TextData",
+          "SourceString": "Метеорит",
+          "LocalizedString": "Метеорит"
+        }
+      },
+      "MAPOBJECT_NAME_SupplyFall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SupplyFall_TextData",
+          "SourceString": "Ресурсы поддержки",
+          "LocalizedString": "Ресурсы поддержки"
+        }
+      },
+      "MAPOBJECT_NAME_SupplyDrop": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SupplyDrop_TextData",
+          "SourceString": "Ресурсы поддержки",
+          "LocalizedString": "Ресурсы поддержки"
+        }
+      },
+      "MAPOBJECT_NAME_MeteorDrop_Damagable": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_MeteorDrop_Damagable_TextData",
+          "SourceString": "Метеорит",
+          "LocalizedString": "Метеорит"
+        }
+      },
+      "MAPOBJECT_NAME_ElectricGenerator_Large": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ElectricGenerator_Large_TextData",
+          "SourceString": "Большой генератор",
+          "LocalizedString": "Большой генератор"
+        }
+      },
+      "MAPOBJECT_NAME_OilPump": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_OilPump_TextData",
+          "SourceString": "Нефтяная вышка",
+          "LocalizedString": "Нефтяная вышка"
+        }
+      },
+      "MAPOBJECT_NAME_TreasureBox_RequiredLongHold": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TreasureBox_RequiredLongHold_TextData",
+          "SourceString": "Мусор (удерживайте, чтобы собрать)",
+          "LocalizedString": "Мусор (удерживайте, чтобы собрать)"
+        }
+      },
+      "MAPOBJECT_NAME_PickupItem_Lotus_Attack_01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PickupItem_Lotus_Attack_01_TextData",
+          "SourceString": "Лотос силы (малый)",
+          "LocalizedString": "Лотос силы (малый)"
+        }
+      },
+      "MAPOBJECT_NAME_PickupItem_Lotus_Attack_02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PickupItem_Lotus_Attack_02_TextData",
+          "SourceString": "Лотос силы (большой)",
+          "LocalizedString": "Лотос силы (большой)"
+        }
+      },
+      "MAPOBJECT_NAME_PickupItem_Lotus_HP_01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PickupItem_Lotus_HP_01_TextData",
+          "SourceString": "Лотос жизни (малый)",
+          "LocalizedString": "Лотос жизни (малый)"
+        }
+      },
+      "MAPOBJECT_NAME_PickupItem_Lotus_HP_02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PickupItem_Lotus_HP_02_TextData",
+          "SourceString": "Лотос жизни (большой)",
+          "LocalizedString": "Лотос жизни (большой)"
+        }
+      },
+      "MAPOBJECT_NAME_PickupItem_Lotus_Stamina_01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PickupItem_Lotus_Stamina_01_TextData",
+          "SourceString": "Лотос выносливости (малый)",
+          "LocalizedString": "Лотос выносливости (малый)"
+        }
+      },
+      "MAPOBJECT_NAME_PickupItem_Lotus_Stamina_02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PickupItem_Lotus_Stamina_02_TextData",
+          "SourceString": "Лотос выносливости (большой)",
+          "LocalizedString": "Лотос выносливости (большой)"
+        }
+      },
+      "MAPOBJECT_NAME_PickupItem_Lotus_Workspeed_01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PickupItem_Lotus_Workspeed_01_TextData",
+          "SourceString": "Лотос скорости (малый)",
+          "LocalizedString": "Лотос скорости (малый)"
+        }
+      },
+      "MAPOBJECT_NAME_PickupItem_Lotus_Workspeed_02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PickupItem_Lotus_Workspeed_02_TextData",
+          "SourceString": "Лотос скорости (большой)",
+          "LocalizedString": "Лотос скорости (большой)"
+        }
+      },
+      "MAPOBJECT_NAME_PickupItem_Lotus_Weight_01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PickupItem_Lotus_Weight_01_TextData",
+          "SourceString": "Лотос транспортировки (малый)",
+          "LocalizedString": "Лотос транспортировки (малый)"
+        }
+      },
+      "MAPOBJECT_NAME_PickupItem_Lotus_Weight_02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PickupItem_Lotus_Weight_02_TextData",
+          "SourceString": "Лотос транспортировки (большой)",
+          "LocalizedString": "Лотос транспортировки (большой)"
+        }
+      },
+      "MAPOBJECT_NAME_SkinChange": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SkinChange_TextData",
+          "SourceString": "Устройство для преображения Палов",
+          "LocalizedString": "Устройство для преображения Палов"
+        }
+      },
+      "MAPOBJECT_NAME_PickupItem_DogCoin": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PickupItem_DogCoin_TextData",
+          "SourceString": "Собачья монета",
+          "LocalizedString": "Собачья монета"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_wall_01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_wall_01_TextData",
+          "SourceString": "Стена в японском стиле",
+          "LocalizedString": "Стена в японском стиле"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_wall_02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_wall_02_TextData",
+          "SourceString": "Стена в японском стиле B",
+          "LocalizedString": "Стена в японском стиле B"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_DoorWall_01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_DoorWall_01_TextData",
+          "SourceString": "Стена с дверью в японском стиле A",
+          "LocalizedString": "Стена с дверью в японском стиле A"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_DoorWall_02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_DoorWall_02_TextData",
+          "SourceString": "Стена с дверью в японском стиле B",
+          "LocalizedString": "Стена с дверью в японском стиле B"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_DoorWall_03": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_DoorWall_03_TextData",
+          "SourceString": "Стена с дверью в японском стиле C",
+          "LocalizedString": "Стена с дверью в японском стиле C"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_ConnectingWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_ConnectingWall_TextData",
+          "SourceString": "Соединяющая стена в японском стиле",
+          "LocalizedString": "Соединяющая стена в японском стиле"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_roof_01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_roof_01_TextData",
+          "SourceString": "Крыша в японском стиле A",
+          "LocalizedString": "Крыша в японском стиле A"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_roof_02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_roof_02_TextData",
+          "SourceString": "Крыша в японском стиле B",
+          "LocalizedString": "Крыша в японском стиле B"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_SlantedRoof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_SlantedRoof_TextData",
+          "SourceString": "Наклонная крыша в японском стиле",
+          "LocalizedString": "Наклонная крыша в японском стиле"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_TriangleWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_TriangleWall_TextData",
+          "SourceString": "Треугольная стена в японском стиле",
+          "LocalizedString": "Треугольная стена в японском стиле"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_WindowWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_WindowWall_TextData",
+          "SourceString": "Японская стена с окном",
+          "LocalizedString": "Японская стена с окном"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_foundation": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_foundation_TextData",
+          "SourceString": "Фундамент в японском стиле",
+          "LocalizedString": "Фундамент в японском стиле"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_stair": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_stair_TextData",
+          "SourceString": "Лестница в японском стиле",
+          "LocalizedString": "Лестница в японском стиле"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_Pillar": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_Pillar_TextData",
+          "SourceString": "Колонна в японском стиле",
+          "LocalizedString": "Колонна в японском стиле"
+        }
+      },
+      "MAPOBJECT_NAME_ItemBooth": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ItemBooth_TextData",
+          "SourceString": "Рынок предметов",
+          "LocalizedString": "Рынок предметов"
+        }
+      },
+      "MAPOBJECT_NAME_PalBooth": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PalBooth_TextData",
+          "SourceString": "Рынок Палов",
+          "LocalizedString": "Рынок Палов"
+        }
+      },
+      "MAPOBJECT_NAME_FarmBlockV2_Carrot": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FarmBlockV2_Carrot_TextData",
+          "SourceString": "Морковная плантация",
+          "LocalizedString": "Морковная плантация"
+        }
+      },
+      "MAPOBJECT_NAME_FarmBlockV2_Onion": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FarmBlockV2_Onion_TextData",
+          "SourceString": "Луковая плантация",
+          "LocalizedString": "Луковая плантация"
+        }
+      },
+      "MAPOBJECT_NAME_FarmBlockV2_Potato": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FarmBlockV2_Potato_TextData",
+          "SourceString": "Картофельная плантация",
+          "LocalizedString": "Картофельная плантация"
+        }
+      },
+      "MAPOBJECT_NAME_SphereFactory_Black_04": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SphereFactory_Black_04_TextData",
+          "SourceString": "Сборочная линия сфер развитой цивилизации",
+          "LocalizedString": "Сборочная линия сфер развитой цивилизации"
+        }
+      },
+      "MAPOBJECT_NAME_MultiElectricHatchingPalEgg": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_MultiElectricHatchingPalEgg_TextData",
+          "SourceString": "Большой электроинкубатор",
+          "LocalizedString": "Большой электроинкубатор"
+        }
+      },
+      "MAPOBJECT_NAME_HugeKitchen": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_HugeKitchen_TextData",
+          "SourceString": "Большая кухня",
+          "LocalizedString": "Большая кухня"
+        }
+      },
+      "MAPOBJECT_NAME_Factory_Hard_04": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Factory_Hard_04_TextData",
+          "SourceString": "Мастерская развитой цивилизации",
+          "LocalizedString": "Мастерская развитой цивилизации"
+        }
+      },
+      "MAPOBJECT_NAME_WeaponFactory_Dirty_04": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_WeaponFactory_Dirty_04_TextData",
+          "SourceString": "Сборочная линия оружия развитой цивилизации",
+          "LocalizedString": "Сборочная линия оружия развитой цивилизации"
+        }
+      },
+      "MAPOBJECT_NAME_SanityDecrease1": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SanityDecrease1_TextData",
+          "SourceString": "Излучатель альфа-волн",
+          "LocalizedString": "Излучатель альфа-волн"
+        }
+      },
+      "MAPOBJECT_NAME_WorkSpeedIncrease1": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_WorkSpeedIncrease1_TextData",
+          "SourceString": "Излучатель бета-волн",
+          "LocalizedString": "Излучатель бета-волн"
+        }
+      },
+      "MAPOBJECT_NAME_QuartzPit": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_QuartzPit_TextData",
+          "SourceString": "Рудник чистого кварца",
+          "LocalizedString": "Рудник чистого кварца"
+        }
+      },
+      "MAPOBJECT_NAME_Factory_Money": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Factory_Money_TextData",
+          "SourceString": "Сборочная линия золотых монет",
+          "LocalizedString": "Сборочная линия золотых монет"
+        }
+      },
+      "MAPOBJECT_NAME_ItemChest_04": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ItemChest_04_TextData",
+          "SourceString": "Сундук развитой цивилизации",
+          "LocalizedString": "Сундук развитой цивилизации"
+        }
+      },
+      "MAPOBJECT_NAME_MedicalPalBed_05": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_MedicalPalBed_05_TextData",
+          "SourceString": "Пал-капсула развитой цивилизации",
+          "LocalizedString": "Пал-капсула развитой цивилизации"
+        }
+      },
+      "MAPOBJECT_NAME_BaseCampItemDispenser": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_BaseCampItemDispenser_TextData",
+          "SourceString": "Механизм извлечения предметов",
+          "LocalizedString": "Механизм извлечения предметов"
+        }
+      },
+      "MAPOBJECT_NAME_GuildChest": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_GuildChest_TextData",
+          "SourceString": "Сундук гильдии",
+          "LocalizedString": "Сундук гильдии"
+        }
+      },
+      "MAPOBJECT_NAME_WoodCreator": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_WoodCreator_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "MAPOBJECT_NAME_Expedition": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Expedition_TextData",
+          "SourceString": "Центр экспедиций Палов",
+          "LocalizedString": "Центр экспедиций Палов"
+        }
+      },
+      "MAPOBJECT_NAME_Lab": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Lab_TextData",
+          "SourceString": "Центр исследования труда Палов",
+          "LocalizedString": "Центр исследования труда Палов"
+        }
+      },
+      "MAPOBJECT_NAME_OperatingTable": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_OperatingTable_TextData",
+          "SourceString": "Операционный стол для Палов",
+          "LocalizedString": "Операционный стол для Палов"
+        }
+      },
+      "MAPOBJECT_NAME_ManualElectricGenerator": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ManualElectricGenerator_TextData",
+          "SourceString": "Ручной генератор",
+          "LocalizedString": "Ручной генератор"
+        }
+      },
+      "MAPOBJECT_NAME_Farm_SkillFruits": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Farm_SkillFruits_TextData",
+          "SourceString": "Плантация плодов мастерства",
+          "LocalizedString": "Плантация плодов мастерства"
+        }
+      },
+      "MAPOBJECT_NAME_Wooden_ladder": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wooden_ladder_TextData",
+          "SourceString": "Лестница",
+          "LocalizedString": "Лестница"
+        }
+      },
+      "MAPOBJECT_NAME_PalMedicineBox": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PalMedicineBox_TextData",
+          "SourceString": "Шкафчик для лекарств",
+          "LocalizedString": "Шкафчик для лекарств"
+        }
+      },
+      "MAPOBJECT_NAME_EnergyStorage_Electric": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_EnergyStorage_Electric_TextData",
+          "SourceString": "Аккумулятор",
+          "LocalizedString": "Аккумулятор"
+        }
+      },
+      "MAPOBJECT_NAME_BlastFurnace4": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_BlastFurnace4_TextData",
+          "SourceString": "Огромная печь",
+          "LocalizedString": "Огромная печь"
+        }
+      },
+      "MAPOBJECT_NAME_MedicineFacility_03": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_MedicineFacility_03_TextData",
+          "SourceString": "Стол фармацевта развитой цивилизации",
+          "LocalizedString": "Стол фармацевта развитой цивилизации"
+        }
+      },
+      "MAPOBJECT_NAME_PickupItem_NightStone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PickupItem_NightStone_TextData",
+          "SourceString": "Ночная звездная пыль",
+          "LocalizedString": "Ночная звездная пыль"
+        }
+      },
+      "MAPOBJECT_NAME_TreasureBox_Fire": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TreasureBox_Fire_TextData",
+          "SourceString": "Пламенный сундук сокровищ",
+          "LocalizedString": "Пламенный сундук сокровищ"
+        }
+      },
+      "MAPOBJECT_NAME_TreasureBox_Water": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TreasureBox_Water_TextData",
+          "SourceString": "Водный сундук сокровищ",
+          "LocalizedString": "Водный сундук сокровищ"
+        }
+      },
+      "MAPOBJECT_NAME_TreasureBox_Electric": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TreasureBox_Electric_TextData",
+          "SourceString": "Грозовой сундук сокровищ",
+          "LocalizedString": "Грозовой сундук сокровищ"
+        }
+      },
+      "MAPOBJECT_NAME_TreasureBox_Ivy": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TreasureBox_Ivy_TextData",
+          "SourceString": "Стихийный сундук с сокровищами (трава)",
+          "LocalizedString": "Стихийный сундук с сокровищами (трава)"
+        }
+      },
+      "MAPOBJECT_NAME_TreasureBox_Ice": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TreasureBox_Ice_TextData",
+          "SourceString": "Стихийный сундук с сокровищами (лед)",
+          "LocalizedString": "Стихийный сундук с сокровищами (лед)"
+        }
+      },
+      "MAPOBJECT_NAME_Headstone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Headstone_TextData",
+          "SourceString": "Надгробие",
+          "LocalizedString": "Надгробие"
+        }
+      },
+      "MAPOBJECT_NAME_Byobu": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Byobu_TextData",
+          "SourceString": "Ширма",
+          "LocalizedString": "Ширма"
+        }
+      },
+      "MAPOBJECT_NAME_Kakejiku": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Kakejiku_TextData",
+          "SourceString": "Свиток",
+          "LocalizedString": "Свиток"
+        }
+      },
+      "MAPOBJECT_NAME_Zaisu": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Zaisu_TextData",
+          "SourceString": "Напольный стул",
+          "LocalizedString": "Напольный стул"
+        }
+      },
+      "MAPOBJECT_NAME_Zabuton": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Zabuton_TextData",
+          "SourceString": "Подушка",
+          "LocalizedString": "Подушка"
+        }
+      },
+      "MAPOBJECT_NAME_Irori": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Irori_TextData",
+          "SourceString": "Очаг",
+          "LocalizedString": "Очаг"
+        }
+      },
+      "MAPOBJECT_NAME_Toro": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Toro_TextData",
+          "SourceString": "Каменный фонарь",
+          "LocalizedString": "Каменный фонарь"
+        }
+      },
+      "MAPOBJECT_NAME_Andon": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Andon_TextData",
+          "SourceString": "Бумажный фонарь",
+          "LocalizedString": "Бумажный фонарь"
+        }
+      },
+      "MAPOBJECT_NAME_Shishiodoshi": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Shishiodoshi_TextData",
+          "SourceString": "Содзу",
+          "LocalizedString": "Содзу"
+        }
+      },
+      "MAPOBJECT_NAME_Bonsai": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Bonsai_TextData",
+          "SourceString": "Бонсай",
+          "LocalizedString": "Бонсай"
+        }
+      },
+      "MAPOBJECT_NAME_Koro": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Koro_TextData",
+          "SourceString": "Курильница",
+          "LocalizedString": "Курильница"
+        }
+      },
+      "MAPOBJECT_NAME_Seika": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Seika_TextData",
+          "SourceString": "Икэбана",
+          "LocalizedString": "Икэбана"
+        }
+      },
+      "MAPOBJECT_NAME_Tansu": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Tansu_TextData",
+          "SourceString": "Комод",
+          "LocalizedString": "Комод"
+        }
+      },
+      "MAPOBJECT_NAME_Fudukue": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Fudukue_TextData",
+          "SourceString": "Письменный стол",
+          "LocalizedString": "Письменный стол"
+        }
+      },
+      "MAPOBJECT_NAME_GlobalPalStorage": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_GlobalPalStorage_TextData",
+          "SourceString": "Глобальный Палбокс",
+          "LocalizedString": "Глобальный Палбокс"
+        }
+      },
+      "MAPOBJECT_NAME_CompositeDesk": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_CompositeDesk_TextData",
+          "SourceString": "Чертёжный стол",
+          "LocalizedString": "Чертёжный стол"
+        }
+      },
+      "MAPOBJECT_NAME_DimensionPalStorage": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DimensionPalStorage_TextData",
+          "SourceString": "Многомерное хранилище Палов",
+          "LocalizedString": "Многомерное хранилище Палов"
+        }
+      },
+      "MAPOBJECT_NAME_Wire_Fence": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wire_Fence_TextData",
+          "SourceString": "Проволочный забор",
+          "LocalizedString": "Проволочный забор"
+        }
+      },
+      "MAPOBJECT_NAME_LilyQueenStatue": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_LilyQueenStatue_TextData",
+          "SourceString": "Статуя Лилин",
+          "LocalizedString": "Статуя Лилин"
+        }
+      },
+      "MAPOBJECT_NAME_ConservationGroupBannerA": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ConservationGroupBannerA_TextData",
+          "SourceString": "Флаг Организации по Защите Палов",
+          "LocalizedString": "Флаг Организации по Защите Палов"
+        }
+      },
+      "MAPOBJECT_NAME_ConservationGroupBannerB": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ConservationGroupBannerB_TextData",
+          "SourceString": "Баннер Организации по Защите Палов",
+          "LocalizedString": "Баннер Организации по Защите Палов"
+        }
+      },
+      "MAPOBJECT_NAME_Hunter_GangFlag": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Hunter_GangFlag_TextData",
+          "SourceString": "Флаг Браконьеров",
+          "LocalizedString": "Флаг Браконьеров"
+        }
+      },
+      "MAPOBJECT_NAME_PalCage": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PalCage_TextData",
+          "SourceString": "Пустая клетка",
+          "LocalizedString": "Пустая клетка"
+        }
+      },
+      "MAPOBJECT_NAME_WoodenBarricade": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_WoodenBarricade_TextData",
+          "SourceString": "Деревянное заграждение",
+          "LocalizedString": "Деревянное заграждение"
+        }
+      },
+      "MAPOBJECT_NAME_WallTorch02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_WallTorch02_TextData",
+          "SourceString": "Величественный настенный факел",
+          "LocalizedString": "Величественный настенный факел"
+        }
+      },
+      "MAPOBJECT_NAME_CandleStand": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_CandleStand_TextData",
+          "SourceString": "Величественный подсвечник",
+          "LocalizedString": "Величественный подсвечник"
+        }
+      },
+      "MAPOBJECT_NAME_FireStand": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FireStand_TextData",
+          "SourceString": "Ритуальный подсвечник",
+          "LocalizedString": "Ритуальный подсвечник"
+        }
+      },
+      "MAPOBJECT_NAME_Wood_Fence": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wood_Fence_TextData",
+          "SourceString": "Деревянная ограда",
+          "LocalizedString": "Деревянная ограда"
+        }
+      },
+      "MAPOBJECT_NAME_Stone_Fence": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stone_Fence_TextData",
+          "SourceString": "Каменная ограда",
+          "LocalizedString": "Каменная ограда"
+        }
+      },
+      "MAPOBJECT_NAME_Iron_Fence": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Iron_Fence_TextData",
+          "SourceString": "Металлическая ограда",
+          "LocalizedString": "Металлическая ограда"
+        }
+      },
+      "MAPOBJECT_NAME_Glass_Fence": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Glass_Fence_TextData",
+          "SourceString": "Стеклянная ограда",
+          "LocalizedString": "Стеклянная ограда"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_Fence": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_Fence_TextData",
+          "SourceString": "Ограда в японском стиле",
+          "LocalizedString": "Ограда в японском стиле"
+        }
+      },
+      "MAPOBJECT_NAME_SF_Fence": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SF_Fence_TextData",
+          "SourceString": "Лаконичная ограда",
+          "LocalizedString": "Лаконичная ограда"
+        }
+      },
+      "MAPOBJECT_NAME_CrystalPit": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_CrystalPit_TextData",
+          "SourceString": "Карьер для добычи гексокварца",
+          "LocalizedString": "Карьер для добычи гексокварца"
+        }
+      },
+      "MAPOBJECT_NAME_Spa3": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Spa3_TextData",
+          "SourceString": "Горячий источник в японском стиле",
+          "LocalizedString": "Горячий источник в японском стиле"
+        }
+      },
+      "MAPOBJECT_NAME_BaseCampWorkerExtraStation": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_BaseCampWorkerExtraStation_TextData",
+          "SourceString": "Терминал управления Палбоксом",
+          "LocalizedString": "Терминал управления Палбоксом"
+        }
+      },
+      "MAPOBJECT_NAME_LanternTop": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_LanternTop_TextData",
+          "SourceString": "Бумажный фонарик",
+          "LocalizedString": "Бумажный фонарик"
+        }
+      },
+      "MAPOBJECT_NAME_Shrine_Lantern": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Shrine_Lantern_TextData",
+          "SourceString": "Японский садовый фонарь",
+          "LocalizedString": "Японский садовый фонарь"
+        }
+      },
+      "MAPOBJECT_NAME_GuardianDogStatue": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_GuardianDogStatue_TextData",
+          "SourceString": "Статуя Якумо",
+          "LocalizedString": "Статуя Якумо"
+        }
+      },
+      "MAPOBJECT_NAME_MultiHatchingPalEgg": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_MultiHatchingPalEgg_TextData",
+          "SourceString": "Большой инкубатор",
+          "LocalizedString": "Большой инкубатор"
+        }
+      },
+      "MAPOBJECT_NAME_SF_foundation": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SF_foundation_TextData",
+          "SourceString": "Лаконичный фундамент",
+          "LocalizedString": "Лаконичный фундамент"
+        }
+      },
+      "MAPOBJECT_NAME_SF_wall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SF_wall_TextData",
+          "SourceString": "Лаконичная стена",
+          "LocalizedString": "Лаконичная стена"
+        }
+      },
+      "MAPOBJECT_NAME_SF_roof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SF_roof_TextData",
+          "SourceString": "Лаконичная крыша",
+          "LocalizedString": "Лаконичная крыша"
+        }
+      },
+      "MAPOBJECT_NAME_SF_stair": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SF_stair_TextData",
+          "SourceString": "Лаконичная лестница",
+          "LocalizedString": "Лаконичная лестница"
+        }
+      },
+      "MAPOBJECT_NAME_SF_DoorWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SF_DoorWall_TextData",
+          "SourceString": "Лаконичная стена с дверью",
+          "LocalizedString": "Лаконичная стена с дверью"
+        }
+      },
+      "MAPOBJECT_NAME_SF_TriangleWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SF_TriangleWall_TextData",
+          "SourceString": "Лаконичная треугольная стена",
+          "LocalizedString": "Лаконичная треугольная стена"
+        }
+      },
+      "MAPOBJECT_NAME_SF_SlantedRoof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SF_SlantedRoof_TextData",
+          "SourceString": "Лаконичная наклонная крыша",
+          "LocalizedString": "Лаконичная наклонная крыша"
+        }
+      },
+      "MAPOBJECT_NAME_SF_WindowWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SF_WindowWall_TextData",
+          "SourceString": "Лаконичная стена с окном",
+          "LocalizedString": "Лаконичная стена с окном"
+        }
+      },
+      "MAPOBJECT_NAME_SF_Pillars": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SF_Pillars_TextData",
+          "SourceString": "Лаконичная колонна",
+          "LocalizedString": "Лаконичная колонна"
+        }
+      },
+      "MAPOBJECT_NAME_SF_Desk": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SF_Desk_TextData",
+          "SourceString": "Лабораторный стол",
+          "LocalizedString": "Лабораторный стол"
+        }
+      },
+      "MAPOBJECT_NAME_SF_Chair": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SF_Chair_TextData",
+          "SourceString": "Лабораторный стул",
+          "LocalizedString": "Лабораторный стул"
+        }
+      },
+      "MAPOBJECT_NAME_Hunter_Flag": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Hunter_Flag_TextData",
+          "SourceString": "Флаг Браконьеров",
+          "LocalizedString": "Флаг Браконьеров"
+        }
+      },
+      "MAPOBJECT_NAME_Hunter_Banner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Hunter_Banner_TextData",
+          "SourceString": "Вертикальное знамя Браконьеров",
+          "LocalizedString": "Вертикальное знамя Браконьеров"
+        }
+      },
+      "MAPOBJECT_NAME_Believer_Flag": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Believer_Flag_TextData",
+          "SourceString": "Флаг Организации по Защите Палов",
+          "LocalizedString": "Флаг Организации по Защите Палов"
+        }
+      },
+      "MAPOBJECT_NAME_Believer_Banner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Believer_Banner_TextData",
+          "SourceString": "Вертикальное знамя Организации по Защите Палов",
+          "LocalizedString": "Вертикальное знамя Организации по Защите Палов"
+        }
+      },
+      "MAPOBJECT_NAME_FireCult_Flag": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FireCult_Flag_TextData",
+          "SourceString": "Флаг Братства Вечного Пламени",
+          "LocalizedString": "Флаг Братства Вечного Пламени"
+        }
+      },
+      "MAPOBJECT_NAME_FireCult_Banner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FireCult_Banner_TextData",
+          "SourceString": "Вертикальное знамя Братства Вечного Пламени",
+          "LocalizedString": "Вертикальное знамя Братства Вечного Пламени"
+        }
+      },
+      "MAPOBJECT_NAME_Police_Flag": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Police_Flag_TextData",
+          "SourceString": "Флаг Вигилантов",
+          "LocalizedString": "Флаг Вигилантов"
+        }
+      },
+      "MAPOBJECT_NAME_Police_Banner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Police_Banner_TextData",
+          "SourceString": "Вертикальное знамя Вигилантов",
+          "LocalizedString": "Вертикальное знамя Вигилантов"
+        }
+      },
+      "MAPOBJECT_NAME_Scientist_Flag": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Scientist_Flag_TextData",
+          "SourceString": "Флаг отряда Генетических Исследований",
+          "LocalizedString": "Флаг отряда Генетических Исследований"
+        }
+      },
+      "MAPOBJECT_NAME_Scientist_Banner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Scientist_Banner_TextData",
+          "SourceString": "Вертикальное знамя отряда Генетических Исследований",
+          "LocalizedString": "Вертикальное знамя отряда Генетических Исследований"
+        }
+      },
+      "MAPOBJECT_NAME_Ninja_Flag": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ninja_Flag_TextData",
+          "SourceString": "Флаг общества Лунных Цветов",
+          "LocalizedString": "Флаг общества Лунных Цветов"
+        }
+      },
+      "MAPOBJECT_NAME_Ninja_Banner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ninja_Banner_TextData",
+          "SourceString": "Вертикальное знамя общества Лунных Цветов",
+          "LocalizedString": "Вертикальное знамя общества Лунных Цветов"
+        }
+      },
+      "MAPOBJECT_NAME_FishingPond1": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FishingPond1_TextData",
+          "SourceString": "Рыболовный пруд",
+          "LocalizedString": "Рыболовный пруд"
+        }
+      },
+      "MAPOBJECT_NAME_FishingPond2": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FishingPond2_TextData",
+          "SourceString": "Большой рыболовный пруд",
+          "LocalizedString": "Большой рыболовный пруд"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableRock0019": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableRock0019_TextData",
+          "SourceString": "Гексокварц",
+          "LocalizedString": "Гексокварц"
+        }
+      },
+      "MAPOBJECT_NAME_YakushimaBoss002_Relic": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_YakushimaBoss002_Relic_TextData",
+          "SourceString": "Статуя Лунного лорда",
+          "LocalizedString": "Статуя Лунного лорда"
+        }
+      },
+      "MAPOBJECT_NAME_Wooden_TriangleFoundation": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wooden_TriangleFoundation_TextData",
+          "SourceString": "Деревянный треугольный фундамент",
+          "LocalizedString": "Деревянный треугольный фундамент"
+        }
+      },
+      "MAPOBJECT_NAME_Wooden_DiagonalWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wooden_DiagonalWall_TextData",
+          "SourceString": "Деревянная диагональная стена",
+          "LocalizedString": "Деревянная диагональная стена"
+        }
+      },
+      "MAPOBJECT_NAME_Wooden_TriangleRoof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wooden_TriangleRoof_TextData",
+          "SourceString": "Деревянная треугольная крыша",
+          "LocalizedString": "Деревянная треугольная крыша"
+        }
+      },
+      "MAPOBJECT_NAME_Wooden_TriangleStairsCorner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wooden_TriangleStairsCorner_TextData",
+          "SourceString": "Деревянная угловая крыша",
+          "LocalizedString": "Деревянная угловая крыша"
+        }
+      },
+      "MAPOBJECT_NAME_Wood_TriangleWallReverse": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wood_TriangleWallReverse_TextData",
+          "SourceString": "Деревянная треугольная стена (перевернутая)",
+          "LocalizedString": "Деревянная треугольная стена (перевернутая)"
+        }
+      },
+      "MAPOBJECT_NAME_Wooden_WallGate": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wooden_WallGate_TextData",
+          "SourceString": "Деревянный проход для Палов",
+          "LocalizedString": "Деревянный проход для Палов"
+        }
+      },
+      "MAPOBJECT_NAME_Wooden_SlopedRoofCorner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wooden_SlopedRoofCorner_TextData",
+          "SourceString": "Деревянная треугольная наклонная крыша",
+          "LocalizedString": "Деревянная треугольная наклонная крыша"
+        }
+      },
+      "MAPOBJECT_NAME_Wooden_PyramidRoof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wooden_PyramidRoof_TextData",
+          "SourceString": "Деревянная пирамидальная крыша",
+          "LocalizedString": "Деревянная пирамидальная крыша"
+        }
+      },
+      "MAPOBJECT_NAME_Stone_TriangleFoundation": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stone_TriangleFoundation_TextData",
+          "SourceString": "Каменный треугольный фундамент",
+          "LocalizedString": "Каменный треугольный фундамент"
+        }
+      },
+      "MAPOBJECT_NAME_Stone_DiagonalWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stone_DiagonalWall_TextData",
+          "SourceString": "Каменная диагональная стена",
+          "LocalizedString": "Каменная диагональная стена"
+        }
+      },
+      "MAPOBJECT_NAME_Stone_TriangleRoof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stone_TriangleRoof_TextData",
+          "SourceString": "Каменная треугольная крыша",
+          "LocalizedString": "Каменная треугольная крыша"
+        }
+      },
+      "MAPOBJECT_NAME_Stone_TriangleStairsCorner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stone_TriangleStairsCorner_TextData",
+          "SourceString": "Каменная угловая крыша",
+          "LocalizedString": "Каменная угловая крыша"
+        }
+      },
+      "MAPOBJECT_NAME_Stone_TriangleWallReverse": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stone_TriangleWallReverse_TextData",
+          "SourceString": "Каменная треугольная стена (перевернутая)",
+          "LocalizedString": "Каменная треугольная стена (перевернутая)"
+        }
+      },
+      "MAPOBJECT_NAME_Stone_WallGate": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stone_WallGate_TextData",
+          "SourceString": "Каменный проход для Палов",
+          "LocalizedString": "Каменный проход для Палов"
+        }
+      },
+      "MAPOBJECT_NAME_Stone_SlopedRoofCorner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stone_SlopedRoofCorner_TextData",
+          "SourceString": "Каменная треугольная наклонная крыша",
+          "LocalizedString": "Каменная треугольная наклонная крыша"
+        }
+      },
+      "MAPOBJECT_NAME_Stone_PyramidRoof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stone_PyramidRoof_TextData",
+          "SourceString": "Каменная пирамидальная крыша",
+          "LocalizedString": "Каменная пирамидальная крыша"
+        }
+      },
+      "MAPOBJECT_NAME_Iron_TriangleFoundation": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Iron_TriangleFoundation_TextData",
+          "SourceString": "Металлический треугольный фундамент",
+          "LocalizedString": "Металлический треугольный фундамент"
+        }
+      },
+      "MAPOBJECT_NAME_Iron_DiagonalWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Iron_DiagonalWall_TextData",
+          "SourceString": "Металлическая диагональная стена",
+          "LocalizedString": "Металлическая диагональная стена"
+        }
+      },
+      "MAPOBJECT_NAME_Iron_TriangleRoof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Iron_TriangleRoof_TextData",
+          "SourceString": "Металлическая треугольная крыша",
+          "LocalizedString": "Металлическая треугольная крыша"
+        }
+      },
+      "MAPOBJECT_NAME_Iron_TriangleStairsCorner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Iron_TriangleStairsCorner_TextData",
+          "SourceString": "Металлическая угловая крыша",
+          "LocalizedString": "Металлическая угловая крыша"
+        }
+      },
+      "MAPOBJECT_NAME_Iron_TriangleWallReverse": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Iron_TriangleWallReverse_TextData",
+          "SourceString": "Металлическая треугольная стена (перевернутая)",
+          "LocalizedString": "Металлическая треугольная стена (перевернутая)"
+        }
+      },
+      "MAPOBJECT_NAME_Iron_WallGate": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Iron_WallGate_TextData",
+          "SourceString": "Металлический проход для Палов",
+          "LocalizedString": "Металлический проход для Палов"
+        }
+      },
+      "MAPOBJECT_NAME_Iron_SlopedRoofCorner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Iron_SlopedRoofCorner_TextData",
+          "SourceString": "Металлическая треугольная наклонная крыша",
+          "LocalizedString": "Металлическая треугольная наклонная крыша"
+        }
+      },
+      "MAPOBJECT_NAME_Iron_PyramidRoof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Iron_PyramidRoof_TextData",
+          "SourceString": "Металлическая пирамидальная крыша",
+          "LocalizedString": "Металлическая пирамидальная крыша"
+        }
+      },
+      "MAPOBJECT_NAME_Glass_TriangleFoundation": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Glass_TriangleFoundation_TextData",
+          "SourceString": "Стеклянный треугольный фундамент",
+          "LocalizedString": "Стеклянный треугольный фундамент"
+        }
+      },
+      "MAPOBJECT_NAME_Glass_DiagonalWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Glass_DiagonalWall_TextData",
+          "SourceString": "Стеклянная диагональная стена",
+          "LocalizedString": "Стеклянная диагональная стена"
+        }
+      },
+      "MAPOBJECT_NAME_Glass_TriangleRoof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Glass_TriangleRoof_TextData",
+          "SourceString": "Стеклянная треугольная крыша",
+          "LocalizedString": "Стеклянная треугольная крыша"
+        }
+      },
+      "MAPOBJECT_NAME_Glass_TriangleStairsCorner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Glass_TriangleStairsCorner_TextData",
+          "SourceString": "Стеклянная угловая крыша",
+          "LocalizedString": "Стеклянная угловая крыша"
+        }
+      },
+      "MAPOBJECT_NAME_Glass_TriangleWallReverse": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Glass_TriangleWallReverse_TextData",
+          "SourceString": "Стеклянная треугольная стена (перевернутая)",
+          "LocalizedString": "Стеклянная треугольная стена (перевернутая)"
+        }
+      },
+      "MAPOBJECT_NAME_Glass_WallGate": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Glass_WallGate_TextData",
+          "SourceString": "Стеклянный проход для Палов",
+          "LocalizedString": "Стеклянный проход для Палов"
+        }
+      },
+      "MAPOBJECT_NAME_Glass_SlopedRoofCorner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Glass_SlopedRoofCorner_TextData",
+          "SourceString": "Стеклянная треугольная наклонная крыша",
+          "LocalizedString": "Стеклянная треугольная наклонная крыша"
+        }
+      },
+      "MAPOBJECT_NAME_Glass_PyramidRoof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Glass_PyramidRoof_TextData",
+          "SourceString": "Стеклянная пирамидальная крыша",
+          "LocalizedString": "Стеклянная пирамидальная крыша"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_TriangleFoundation": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_TriangleFoundation_TextData",
+          "SourceString": "Треугольный фундамент в японском стиле",
+          "LocalizedString": "Треугольный фундамент в японском стиле"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_DiagonalWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_DiagonalWall_TextData",
+          "SourceString": "Диагональная стена в японском стиле",
+          "LocalizedString": "Диагональная стена в японском стиле"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_TriangleRoof_01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_TriangleRoof_01_TextData",
+          "SourceString": "Треугольная крыша в японском стиле A",
+          "LocalizedString": "Треугольная крыша в японском стиле A"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_TriangleRoof_02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_TriangleRoof_02_TextData",
+          "SourceString": "Треугольная крыша в японском стиле B",
+          "LocalizedString": "Треугольная крыша в японском стиле B"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_TriangleStairsCorner_01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_TriangleStairsCorner_01_TextData",
+          "SourceString": "Угловая крыша в японском стиле",
+          "LocalizedString": "Угловая крыша в японском стиле"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_TriangleStairsCorner_02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_TriangleStairsCorner_02_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_TriangleWallReverse": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_TriangleWallReverse_TextData",
+          "SourceString": "Треугольная стена в японском стиле (перевернутая)",
+          "LocalizedString": "Треугольная стена в японском стиле (перевернутая)"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_WallGate": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_WallGate_TextData",
+          "SourceString": "Проход для Палов в японском стиле",
+          "LocalizedString": "Проход для Палов в японском стиле"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_SlopedRoofCorner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_SlopedRoofCorner_TextData",
+          "SourceString": "Треугольная наклонная крыша в японском стиле",
+          "LocalizedString": "Треугольная наклонная крыша в японском стиле"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_PyramidRoof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_PyramidRoof_TextData",
+          "SourceString": "Пирамидальная крыша в японском стиле",
+          "LocalizedString": "Пирамидальная крыша в японском стиле"
+        }
+      },
+      "MAPOBJECT_NAME_SF_TriangleFoundation": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SF_TriangleFoundation_TextData",
+          "SourceString": "Лаконичный треугольный фундамент",
+          "LocalizedString": "Лаконичный треугольный фундамент"
+        }
+      },
+      "MAPOBJECT_NAME_SF_DiagonalWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SF_DiagonalWall_TextData",
+          "SourceString": "Лаконичная диагональная стена",
+          "LocalizedString": "Лаконичная диагональная стена"
+        }
+      },
+      "MAPOBJECT_NAME_SF_TriangleRoof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SF_TriangleRoof_TextData",
+          "SourceString": "Лаконичная треугольная крыша",
+          "LocalizedString": "Лаконичная треугольная крыша"
+        }
+      },
+      "MAPOBJECT_NAME_SF_TriangleStairsCorner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SF_TriangleStairsCorner_TextData",
+          "SourceString": "Лаконичная угловая крыша",
+          "LocalizedString": "Лаконичная угловая крыша"
+        }
+      },
+      "MAPOBJECT_NAME_SF_TriangleWallReverse": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SF_TriangleWallReverse_TextData",
+          "SourceString": "Лаконичная треугольная стена (перевернутая)",
+          "LocalizedString": "Лаконичная треугольная стена (перевернутая)"
+        }
+      },
+      "MAPOBJECT_NAME_SF_WallGate": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SF_WallGate_TextData",
+          "SourceString": "Лаконичный проход для Палов",
+          "LocalizedString": "Лаконичный проход для Палов"
+        }
+      },
+      "MAPOBJECT_NAME_SF_SlopedRoofCorner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SF_SlopedRoofCorner_TextData",
+          "SourceString": "Лаконичная треугольная наклонная крыша",
+          "LocalizedString": "Лаконичная треугольная наклонная крыша"
+        }
+      },
+      "MAPOBJECT_NAME_SF_PyramidRoof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SF_PyramidRoof_TextData",
+          "SourceString": "Лаконичная пирамидальная крыша",
+          "LocalizedString": "Лаконичная пирамидальная крыша"
+        }
+      },
+      "MAPOBJECT_NAME_AncientRelicRecycler": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_AncientRelicRecycler_TextData",
+          "SourceString": "Конвертер артефактов древней цивилизации",
+          "LocalizedString": "Конвертер артефактов древней цивилизации"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableBone0001": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableBone0001_TextData",
+          "SourceString": "Древние кости",
+          "LocalizedString": "Древние кости"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableRock0022": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableRock0022_TextData",
+          "SourceString": "Древний кусок лавы",
+          "LocalizedString": "Древний кусок лавы"
+        }
+      },
+      "MAPOBJECT_NAME_AncientWorkBench": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_AncientWorkBench_TextData",
+          "SourceString": "Древний верстак",
+          "LocalizedString": "Древний верстак"
+        }
+      },
+      "MAPOBJECT_NAME_AncientElectricGenerator": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_AncientElectricGenerator_TextData",
+          "SourceString": "Древний генератор",
+          "LocalizedString": "Древний генератор"
+        }
+      },
+      "MAPOBJECT_NAME_AncientBlastFurnace": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_AncientBlastFurnace_TextData",
+          "SourceString": "Древняя печь",
+          "LocalizedString": "Древняя печь"
+        }
+      },
+      "MAPOBJECT_NAME_AncientCookingStove": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_AncientCookingStove_TextData",
+          "SourceString": "Древняя кухня",
+          "LocalizedString": "Древняя кухня"
+        }
+      },
+      "MAPOBJECT_NAME_AncientMultiProduct": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_AncientMultiProduct_TextData",
+          "SourceString": "Древний генератор материи",
+          "LocalizedString": "Древний генератор материи"
+        }
+      },
+      "MAPOBJECT_NAME_AncientFarmBlock": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_AncientFarmBlock_TextData",
+          "SourceString": "Древняя плантация",
+          "LocalizedString": "Древняя плантация"
+        }
+      },
+      "MAPOBJECT_NAME_DefenseMachinegun_AutoTurret": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DefenseMachinegun_AutoTurret_TextData",
+          "SourceString": "Древняя турель",
+          "LocalizedString": "Древняя турель"
+        }
+      },
+      "MAPOBJECT_NAME_MultiElectricHatchingPalEggWithBreed": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_MultiElectricHatchingPalEggWithBreed_TextData",
+          "SourceString": "Древний инкубатор",
+          "LocalizedString": "Древний инкубатор"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableRock0020": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableRock0020_TextData",
+          "SourceString": "Соллайт",
+          "LocalizedString": "Соллайт"
+        }
+      },
+      "MAPOBJECT_NAME_BaseCampWorkHard03": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_BaseCampWorkHard03_TextData",
+          "SourceString": "Древний пост наблюдения",
+          "LocalizedString": "Древний пост наблюдения"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_TriangleFoundation": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_TriangleFoundation_TextData",
+          "SourceString": "Древний треугольный фундамент",
+          "LocalizedString": "Древний треугольный фундамент"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_DiagonalWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_DiagonalWall_TextData",
+          "SourceString": "Древняя диагональная стена",
+          "LocalizedString": "Древняя диагональная стена"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_TriangleRoof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_TriangleRoof_TextData",
+          "SourceString": "Древняя треугольная крыша",
+          "LocalizedString": "Древняя треугольная крыша"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_TriangleStairsCorner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_TriangleStairsCorner_TextData",
+          "SourceString": "Древняя угловая крыша",
+          "LocalizedString": "Древняя угловая крыша"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_TriangleWallReverse": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_TriangleWallReverse_TextData",
+          "SourceString": "Древняя треугольная стена (перевернутая)",
+          "LocalizedString": "Древняя треугольная стена (перевернутая)"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_WallGate": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_WallGate_TextData",
+          "SourceString": "Древний проход для Палов",
+          "LocalizedString": "Древний проход для Палов"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_SlopedRoofCorner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_SlopedRoofCorner_TextData",
+          "SourceString": "Древняя треугольная наклонная крыша",
+          "LocalizedString": "Древняя треугольная наклонная крыша"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_PyramidRoof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_PyramidRoof_TextData",
+          "SourceString": "Древняя пирамидальная крыша",
+          "LocalizedString": "Древняя пирамидальная крыша"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_foundation": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_foundation_TextData",
+          "SourceString": "Древний фундамент",
+          "LocalizedString": "Древний фундамент"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_wall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_wall_TextData",
+          "SourceString": "Древняя стена",
+          "LocalizedString": "Древняя стена"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_roof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_roof_TextData",
+          "SourceString": "Древняя крыша",
+          "LocalizedString": "Древняя крыша"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_stair": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_stair_TextData",
+          "SourceString": "Древняя лестница",
+          "LocalizedString": "Древняя лестница"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_DoorWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_DoorWall_TextData",
+          "SourceString": "Древняя дверь",
+          "LocalizedString": "Древняя дверь"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_TriangleWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_TriangleWall_TextData",
+          "SourceString": "Древняя треугольная стена",
+          "LocalizedString": "Древняя треугольная стена"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_SlantedRoof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_SlantedRoof_TextData",
+          "SourceString": "Древняя наклонная крыша",
+          "LocalizedString": "Древняя наклонная крыша"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_WindowWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_WindowWall_TextData",
+          "SourceString": "Древняя стена с окном",
+          "LocalizedString": "Древняя стена с окном"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_Pillars": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_Pillars_TextData",
+          "SourceString": "Древняя колонна",
+          "LocalizedString": "Древняя колонна"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_Fence": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_Fence_TextData",
+          "SourceString": "Древняя ограда",
+          "LocalizedString": "Древняя ограда"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree01_Green": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree01_Green_TextData",
+          "SourceString": "Модель дерева A",
+          "LocalizedString": "Модель дерева A"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree02_Green": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree02_Green_TextData",
+          "SourceString": "Модель дерева B",
+          "LocalizedString": "Модель дерева B"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree03_Green": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree03_Green_TextData",
+          "SourceString": "Модель дерева C",
+          "LocalizedString": "Модель дерева C"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree01_Red": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree01_Red_TextData",
+          "SourceString": "Модель листопадного дерева A",
+          "LocalizedString": "Модель листопадного дерева A"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree02_Red": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree02_Red_TextData",
+          "SourceString": "Модель листопадного дерева B",
+          "LocalizedString": "Модель листопадного дерева B"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree03_Red": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree03_Red_TextData",
+          "SourceString": "Модель листопадного дерева C",
+          "LocalizedString": "Модель листопадного дерева C"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree01_Yellow": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree01_Yellow_TextData",
+          "SourceString": "Модель дерева с жёлтой листвой A",
+          "LocalizedString": "Модель дерева с жёлтой листвой A"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree02_Yellow": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree02_Yellow_TextData",
+          "SourceString": "Модель дерева с жёлтой листвой B",
+          "LocalizedString": "Модель дерева с жёлтой листвой B"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree03_Yellow": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree03_Yellow_TextData",
+          "SourceString": "Модель дерева с жёлтой листвой C",
+          "LocalizedString": "Модель дерева с жёлтой листвой C"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree01_Cherry": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree01_Cherry_TextData",
+          "SourceString": "Модель сакуры A",
+          "LocalizedString": "Модель сакуры A"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree02_Cherry": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree02_Cherry_TextData",
+          "SourceString": "Модель сакуры B",
+          "LocalizedString": "Модель сакуры B"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree03_Cherry": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree03_Cherry_TextData",
+          "SourceString": "Модель сакуры C",
+          "LocalizedString": "Модель сакуры C"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree01_Tropical": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree01_Tropical_TextData",
+          "SourceString": "Модель тропического дерева A",
+          "LocalizedString": "Модель тропического дерева A"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree02_Tropical": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree02_Tropical_TextData",
+          "SourceString": "Модель тропического дерева B",
+          "LocalizedString": "Модель тропического дерева B"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree03_Tropical": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree03_Tropical_TextData",
+          "SourceString": "Модель тропического дерева C",
+          "LocalizedString": "Модель тропического дерева C"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree01_Snow": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree01_Snow_TextData",
+          "SourceString": "Модель заснеженного дерева A",
+          "LocalizedString": "Модель заснеженного дерева A"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree02_Snow": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree02_Snow_TextData",
+          "SourceString": "Модель заснеженного дерева B",
+          "LocalizedString": "Модель заснеженного дерева B"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree03_Snow": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree03_Snow_TextData",
+          "SourceString": "Модель заснеженного дерева C",
+          "LocalizedString": "Модель заснеженного дерева C"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree01_Desert": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree01_Desert_TextData",
+          "SourceString": "Модель деревьев пустыни A",
+          "LocalizedString": "Модель деревьев пустыни A"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree02_Desert": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree02_Desert_TextData",
+          "SourceString": "Модель деревьев пустыни B",
+          "LocalizedString": "Модель деревьев пустыни B"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree03_Desert": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree03_Desert_TextData",
+          "SourceString": "Модель деревьев пустыни C",
+          "LocalizedString": "Модель деревьев пустыни C"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree01_Bamboo": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree01_Bamboo_TextData",
+          "SourceString": "Модель бамбука А",
+          "LocalizedString": "Модель бамбука А"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree02_Bamboo": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree02_Bamboo_TextData",
+          "SourceString": "Модель бамбука B",
+          "LocalizedString": "Модель бамбука B"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree03_Bamboo": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree03_Bamboo_TextData",
+          "SourceString": "Модель бамбука C",
+          "LocalizedString": "Модель бамбука C"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureBush01_Green": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureBush01_Green_TextData",
+          "SourceString": "Модель кустарника",
+          "LocalizedString": "Модель кустарника"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureBush01_Yellow": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureBush01_Yellow_TextData",
+          "SourceString": "Модель кустарника с жёлтой листвой",
+          "LocalizedString": "Модель кустарника с жёлтой листвой"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureBush01_Flower": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureBush01_Flower_TextData",
+          "SourceString": "Модель кустарника с цветами A",
+          "LocalizedString": "Модель кустарника с цветами A"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureBush02_Flower": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureBush02_Flower_TextData",
+          "SourceString": "Модель кустарника с цветами B",
+          "LocalizedString": "Модель кустарника с цветами B"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureBush01_Tropical": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureBush01_Tropical_TextData",
+          "SourceString": "Модель тропического куста",
+          "LocalizedString": "Модель тропического куста"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureBush01_Snow": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureBush01_Snow_TextData",
+          "SourceString": "Модель белого куста",
+          "LocalizedString": "Модель белого куста"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureStone01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureStone01_TextData",
+          "SourceString": "Модель камня",
+          "LocalizedString": "Модель камня"
+        }
+      },
+      "MAPOBJECT_NAME_TableCircular_Wood_None": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TableCircular_Wood_None_TextData",
+          "SourceString": "Аккуратный круглый стол",
+          "LocalizedString": "Аккуратный круглый стол"
+        }
+      },
+      "MAPOBJECT_NAME_TableSquare_Wood_None": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TableSquare_Wood_None_TextData",
+          "SourceString": "Аккуратный квадратный стол",
+          "LocalizedString": "Аккуратный квадратный стол"
+        }
+      },
+      "MAPOBJECT_NAME_JetDragonStatue": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JetDragonStatue_TextData",
+          "SourceString": "Статуя Джетрагона",
+          "LocalizedString": "Статуя Джетрагона"
+        }
+      },
+      "MAPOBJECT_NAME_IceHorseStatue": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_IceHorseStatue_TextData",
+          "SourceString": "Статуя Фросталлиона",
+          "LocalizedString": "Статуя Фросталлиона"
+        }
+      },
+      "MAPOBJECT_NAME_ArcadeVideoGame": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ArcadeVideoGame_TextData",
+          "SourceString": "Аркадный автомат",
+          "LocalizedString": "Аркадный автомат"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_MedicalPalBed": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_MedicalPalBed_TextData",
+          "SourceString": "Пал-кровать древней цивилизации",
+          "LocalizedString": "Пал-кровать древней цивилизации"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_AirConditioner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_AirConditioner_TextData",
+          "SourceString": "Древний кондиционер",
+          "LocalizedString": "Древний кондиционер"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_Spa": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_Spa_TextData",
+          "SourceString": "Горячий источник древней цивилизации",
+          "LocalizedString": "Горячий источник древней цивилизации"
+        }
+      },
+      "MAPOBJECT_NAME_Clinic": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Clinic_TextData",
+          "SourceString": "Клиника",
+          "LocalizedString": "Клиника"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_Clinic": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_Clinic_TextData",
+          "SourceString": "Древняя клиника",
+          "LocalizedString": "Древняя клиника"
+        }
+      },
+      "MAPOBJECT_NAME_SkyIslandOrePit": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SkyIslandOrePit_TextData",
+          "SourceString": "Соллайтовый рудник",
+          "LocalizedString": "Соллайтовый рудник"
+        }
+      },
+      "MAPOBJECT_NAME_DarkIsland_Flag": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DarkIsland_Flag_TextData",
+          "SourceString": "Флаг воинов Тэнраку",
+          "LocalizedString": "Флаг воинов Тэнраку"
+        }
+      },
+      "MAPOBJECT_NAME_DarkIsland_Banner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DarkIsland_Banner_TextData",
+          "SourceString": "Вертикальное знамя воинов Тэнраку",
+          "LocalizedString": "Вертикальное знамя воинов Тэнраку"
+        }
+      },
+      "MAPOBJECT_NAME_SkyIsland_Flag": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SkyIsland_Flag_TextData",
+          "SourceString": "Флаг Завета Лазурного Неба",
+          "LocalizedString": "Флаг Завета Лазурного Неба"
+        }
+      },
+      "MAPOBJECT_NAME_SkyIsland_Banner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SkyIsland_Banner_TextData",
+          "SourceString": "Вертикальное знамя Завета Лазурного Неба",
+          "LocalizedString": "Вертикальное знамя Завета Лазурного Неба"
+        }
+      },
+      "MAPOBJECT_NAME_StationDeforest3": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_StationDeforest3_TextData",
+          "SourceString": "Лесоповал Ⅱ",
+          "LocalizedString": "Лесоповал Ⅱ"
+        }
+      },
+      "MAPOBJECT_NAME_BaseCampWorkHard02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_BaseCampWorkHard02_TextData",
+          "SourceString": "Улучшенный пост наблюдения",
+          "LocalizedString": "Улучшенный пост наблюдения"
+        }
+      },
+      "MAPOBJECT_NAME_Wooden_SlopedRoofCornerReverse": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wooden_SlopedRoofCornerReverse_TextData",
+          "SourceString": "Дерев. треуг. накл. крыша (перев.)",
+          "LocalizedString": "Дерев. треуг. накл. крыша (перев.)"
+        }
+      },
+      "MAPOBJECT_NAME_Stone_SlopedRoofCornerReverse": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stone_SlopedRoofCornerReverse_TextData",
+          "SourceString": "Кам. треуг. накл. крыша (перев.)",
+          "LocalizedString": "Кам. треуг. накл. крыша (перев.)"
+        }
+      },
+      "MAPOBJECT_NAME_Iron_SlopedRoofCornerReverse": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Iron_SlopedRoofCornerReverse_TextData",
+          "SourceString": "Метал. треуг. накл. крыша (перев.)",
+          "LocalizedString": "Метал. треуг. накл. крыша (перев.)"
+        }
+      },
+      "MAPOBJECT_NAME_Glass_SlopedRoofCornerReverse": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Glass_SlopedRoofCornerReverse_TextData",
+          "SourceString": "Стекл. треуг. накл. крыша (перев.)",
+          "LocalizedString": "Стекл. треуг. накл. крыша (перев.)"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_SlopedRoofCornerReverse": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_SlopedRoofCornerReverse_TextData",
+          "SourceString": "Япон. треуг. накл. крыша (перев.)",
+          "LocalizedString": "Япон. треуг. накл. крыша (перев.)"
+        }
+      },
+      "MAPOBJECT_NAME_SF_SlopedRoofCornerReverse": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SF_SlopedRoofCornerReverse_TextData",
+          "SourceString": "Лакон. треуг. накл. крыша (перев.)",
+          "LocalizedString": "Лакон. треуг. накл. крыша (перев.)"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_SlopedRoofCornerReverse": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_SlopedRoofCornerReverse_TextData",
+          "SourceString": "Треуг. накл. крыша древн. цив. (перев.)",
+          "LocalizedString": "Треуг. накл. крыша древн. цив. (перев.)"
+        }
+      },
+      "MAPOBJECT_NAME_OilPump02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_OilPump02_TextData",
+          "SourceString": "Нефтяная вышка: высоконапорная",
+          "LocalizedString": "Нефтяная вышка: высоконапорная"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableWood0001": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableWood0001_TextData",
+          "SourceString": "Древняя кора",
+          "LocalizedString": "Древняя кора"
+        }
+      }
+    }
+  }
+]

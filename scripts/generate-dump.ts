@@ -1,10 +1,12 @@
 /**
- * Gera dump Palai a partir do Palworld instalado no PC + exports FModel.
+ * Gera dump Palai a partir do Palworld instalado no PC + exports (extrator C# ou FModel).
  *
- * Fluxo:
- * 1. Localiza Palworld via Steam (libraryfolders.vdf / appmanifest)
- * 2. Procura DataTables exportadas (FModel / game_data/fmodel / raw)
- * 3. Converte para schema Palai e grava game_data/dump.json (+ zip)
+ * Fluxo recomendado:
+ *   npm run extract          # tools/extractor → game_data/fmodel + icons
+ *   npm run dump:generate    # converte → dump.json + dump.zip
+ *   npm run dump:from-game   # os dois em sequência
+ *
+ * Alternativa manual: FModel → game_data/fmodel
  *
  * Uso:
  *   npm run dump:generate
@@ -70,16 +72,29 @@ async function ensureLayout(): Promise<void> {
 }
 
 async function writeExportInstructions(gamePath?: string, pakFile?: string): Promise<void> {
-  const content = `# Como exportar DataTables do Palworld (FModel)
+  const content = `# Como obter DataTables do Palworld
 
-O script **localiza o jogo no Steam**, mas os \`.pak\` precisam ser exportados
-para JSON antes da conversão (Node não lê \`.uasset\` diretamente).
+## Opção A — Extrator Palai (recomendado)
 
-## 1. Instale o FModel
-https://fmodel.app/
+Requer .NET SDK 8.
 
-## 2. Adicione o jogo
-Diretório detectado (se houver):
+\`\`\`bash
+npm run extract -- --download-mappings
+npm run dump:generate
+# ou
+npm run dump:from-game
+\`\`\`
+
+O extrator C# (\`tools/extractor\`) lê os \`.pak\` e grava:
+
+- \`game_data/fmodel/**/*.json\`
+- \`game_data/icons/**/*.png\`
+
+## Opção B — FModel (manual)
+
+1. Instale o FModel: https://fmodel.app/
+2. UE Version: GAME_UE5_1 + mappings \`.usmap\`
+3. Diretório do jogo:
 
 \`\`\`
 ${gamePath ?? '(rode npm run dump:generate para detectar)'}
@@ -91,25 +106,15 @@ Pak:
 ${pakFile ?? 'Pal\\\\Content\\\\Paks\\\\Pal-Windows.pak'}
 \`\`\`
 
-## 3. Exporte estas tabelas (JSON)
-No FModel, abra e exporte (Save → JSON) para **\`game_data/fmodel\`** (pode manter subpastas):
+4. Exporte DataTables (JSON) para **\`game_data/fmodel\`** (pode manter subpastas).
 
 Obrigatória:
 - \`DT_PalMonsterParameter\`
 
-Recomendadas:
-- \`DT_WazaDataTable\`
-- \`DT_PalPassiveSkill\`
-- \`DT_PalDropItem\`
-- \`DT_ItemDataTable\` (ou equivalente de items)
-- \`DT_PalNameText\` / textos de nome
-- \`DT_PalLongDescriptionText\`
-- \`DT_PalCombi\` / breeding unique (se existir)
+Caminhos típicos: \`Pal/Content/Pal/DataTable/...\`
 
-Caminhos típicos no pak:
-\`Pal/Content/Pal/DataTable/...\`
+## Gerar dump
 
-## 4. Gere o dump
 \`\`\`bash
 npm run dump:generate
 \`\`\`

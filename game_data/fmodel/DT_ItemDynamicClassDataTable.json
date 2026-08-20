@@ -1,0 +1,37 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_ItemDynamicClassDataTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalEditorItemDynamicClassTableRow'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "NewRow": {
+        "ClassName": "CommonWeapon",
+        "DynamicClass": {
+          "ObjectName": "Class'PalDynamicWeaponItemDataBase'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      "NewRow_0": {
+        "ClassName": "CommonArmor",
+        "DynamicClass": {
+          "ObjectName": "Class'PalDynamicArmorItemDataBase'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      "NewRow_1": {
+        "ClassName": "PalEgg",
+        "DynamicClass": {
+          "ObjectName": "Class'PalDynamicPalEggItemDataBase'",
+          "ObjectPath": "/Script/Pal"
+        }
+      }
+    }
+  }
+]

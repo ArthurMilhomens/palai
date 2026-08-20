@@ -2,9 +2,8 @@
   {
     "Type": "DataTable",
     "Name": "DT_UI_Common_Text_Common",
-    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'DataTable'",
-    "Package": "Pal/Content/L10N/pt-BR/Pal/DataTable/Text/DT_UI_Common_Text_Common",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "RowStruct": {
         "ObjectName": "ScriptStruct'PalLocalizedTextData'",
@@ -3632,16 +3631,16 @@
         "TextData": {
           "Namespace": "DT_UI_Common_Text_Common",
           "Key": "THROW_REACTION_FailedFixedAssignNoSuitabilityCool_TextData",
-          "SourceString": "Falha na alocação fixa para {0}.\r\nNível de aptidão para trabalho de [<uiCommon id=|COMMON_WORK_SUITABILITY_Cool|/>] insuficiente.",
-          "LocalizedString": "Falha na alocação fixa para {0}.\r\nNível de aptidão para trabalho de [<uiCommon id=|COMMON_WORK_SUITABILITY_Cool|/>] insuficiente."
+          "SourceString": "Falha na alocação fixa para {0}.\r\nSem aptidão para trabalho de [<uiCommon id=|COMMON_WORK_SUITABILITY_Cool|/>].",
+          "LocalizedString": "Falha na alocação fixa para {0}.\r\nSem aptidão para trabalho de [<uiCommon id=|COMMON_WORK_SUITABILITY_Cool|/>]."
         }
       },
       "THROW_REACTION_FailedFixedAssignNotWantToDo": {
         "TextData": {
           "Namespace": "DT_UI_Common_Text_Common",
           "Key": "THROW_REACTION_FailedFixedAssignNotWantToDo_TextData",
-          "SourceString": "Falha na alocação fixa para {0}.\r\nSem aptidão para trabalho de [<uiCommon id=|COMMON_WORK_SUITABILITY_Cool|/>].",
-          "LocalizedString": "Falha na alocação fixa para {0}.\r\nSem aptidão para trabalho de [<uiCommon id=|COMMON_WORK_SUITABILITY_Cool|/>]."
+          "SourceString": "Falha na alocação fixa para {0}.\r\nParece que o Pal não quer trabalhar agora!",
+          "LocalizedString": "Falha na alocação fixa para {0}.\r\nParece que o Pal não quer trabalhar agora!"
         }
       },
       "THROW_REACTION_FailedFixedAssignNotAssignableOtomo": {
@@ -10472,8 +10471,8 @@
         "TextData": {
           "Namespace": "DT_UI_Common_Text_Common",
           "Key": "SETTING_LANG_ES_TextData",
-          "SourceString": "español",
-          "LocalizedString": "español"
+          "SourceString": "Español",
+          "LocalizedString": "Español"
         }
       },
       "SETTING_LANG_KO": {
@@ -12392,8 +12391,8 @@
         "TextData": {
           "Namespace": "DT_UI_Common_Text_Common",
           "Key": "BASECAMP_INFO_WORKER_BATTLE_MODE_AttackToEnemyInBaseCamp_TextData",
-          "SourceString": "Aguardar ataque externo",
-          "LocalizedString": "Aguardar ataque externo"
+          "SourceString": "Interceptar ataque externo",
+          "LocalizedString": "Interceptar ataque externo"
         }
       },
       "BASECAMP_INFO_WORKER_BATTLE_MODE_NoBattle": {
@@ -13536,8 +13535,32 @@
         "TextData": {
           "Namespace": "DT_UI_Common_Text_Common",
           "Key": "SAVE_ERROR_TextData",
-          "SourceString": "Falha ao salvar.\r\nÉ possível que a causa seja uma das listadas abaixo:\r\n- Não há espaço suficiente em disco;\r\n- O disco está corrompido;",
-          "LocalizedString": "Falha ao salvar.\r\nÉ possível que a causa seja uma das listadas abaixo:\r\n- Não há espaço suficiente em disco;\r\n- O disco está corrompido;"
+          "SourceString": "Falha ao salvar.\r\nÉ possível que a causa seja um dos problemas a seguir:\r\n- Não há espaço suficiente em disco;\r\n- O disco está corrompido.",
+          "LocalizedString": "Falha ao salvar.\r\nÉ possível que a causa seja um dos problemas a seguir:\r\n- Não há espaço suficiente em disco;\r\n- O disco está corrompido."
+        }
+      },
+      "SAVE_ERROR_FILE_PATH_TOO_LONG": {
+        "TextData": {
+          "Namespace": "DT_UI_Common_Text_Common",
+          "Key": "SAVE_ERROR_FILE_PATH_TOO_LONG_TextData",
+          "SourceString": "Falha ao salvar.\r\nÉ possível que a causa seja o problema a seguir:\r\n- O caminho para o arquivo dos dados salvos é longo demais.",
+          "LocalizedString": "Falha ao salvar.\r\nÉ possível que a causa seja o problema a seguir:\r\n- O caminho para o arquivo dos dados salvos é longo demais."
+        }
+      },
+      "WARNING_FILE_PATH_TOO_LONG": {
+        "TextData": {
+          "Namespace": "DT_UI_Common_Text_Common",
+          "Key": "WARNING_FILE_PATH_TOO_LONG_TextData",
+          "SourceString": "É possível que o salvamento tenha falhado devido à seguinte causa:\r\n- O caminho para o arquivo dos dados salvos é longo demais.",
+          "LocalizedString": "É possível que o salvamento tenha falhado devido à seguinte causa:\r\n- O caminho para o arquivo dos dados salvos é longo demais."
+        }
+      },
+      "WARNING_DISK_SPACE_NOT_ENOUGH": {
+        "TextData": {
+          "Namespace": "DT_UI_Common_Text_Common",
+          "Key": "WARNING_DISK_SPACE_NOT_ENOUGH_TextData",
+          "SourceString": "É possível que o salvamento tenha falhado devido à seguinte causa:\r\n- Não há espaço suficiente em disco.",
+          "LocalizedString": "É possível que o salvamento tenha falhado devido à seguinte causa:\r\n- Não há espaço suficiente em disco."
         }
       },
       "INVENTORY_NOTICE_SAME_ACCESSORY": {
@@ -13952,8 +13975,8 @@
         "TextData": {
           "Namespace": "DT_UI_Common_Text_Common",
           "Key": "WORLDSSETTING_SUPPLY_DROP_SPAN_TextData",
-          "SourceString": "Distância (m) de lançamento de meteoritos/suprimentos",
-          "LocalizedString": "Distância (m) de lançamento de meteoritos/suprimentos"
+          "SourceString": "Intervalo (min) de lançamento de meteoritos/suprimentos",
+          "LocalizedString": "Intervalo (min) de lançamento de meteoritos/suprimentos"
         }
       },
       "SETTING_KEY_SET_ERROR_PS5": {
@@ -15712,8 +15735,8 @@
         "TextData": {
           "Namespace": "DT_UI_Common_Text_Common",
           "Key": "GLOBAL_PALSTORAGE_TUTORIAL_TextData",
-          "SourceString": "Você pode salvar os dados genéticos do seu Pal e restaurá-lo a partir desses dados.\r\nVocê também pode transferir dados genéticos salvos para outros mundos.\r\nContudo, não pode haver mais do que dois Pals com os mesmos dados genéticos no mesmo mundo.\r\n\r\n* Caso as configurações de mundo não permitam restaurar seu Pal ou salvar seus dados genéticos,\r\nvocê não poderá fazer essas ações.",
-          "LocalizedString": "Você pode salvar os dados genéticos do seu Pal e restaurá-lo a partir desses dados.\r\nVocê também pode transferir dados genéticos salvos para outros mundos.\r\nContudo, não pode haver mais do que dois Pals com os mesmos dados genéticos no mesmo mundo.\r\n\r\n* Caso as configurações de mundo não permitam restaurar seu Pal ou salvar seus dados genéticos,\r\nvocê não poderá fazer essas ações."
+          "SourceString": "Você pode salvar os dados genéticos do seu Pal e restaurá-lo a partir desses dados.\r\nVocê também pode transferir dados genéticos salvos para outros mundos.\r\nContudo, não pode haver mais do que um Pal com os mesmos dados genéticos no mesmo mundo.\r\n\r\n* Caso as configurações de mundo não permitam restaurar seu Pal ou salvar seus dados genéticos,\r\nvocê não poderá fazer essas ações.",
+          "LocalizedString": "Você pode salvar os dados genéticos do seu Pal e restaurá-lo a partir desses dados.\r\nVocê também pode transferir dados genéticos salvos para outros mundos.\r\nContudo, não pode haver mais do que um Pal com os mesmos dados genéticos no mesmo mundo.\r\n\r\n* Caso as configurações de mundo não permitam restaurar seu Pal ou salvar seus dados genéticos,\r\nvocê não poderá fazer essas ações."
         }
       },
       "GLOBAL_PALSTORAGE_OVERWRITE_DATA": {
@@ -19552,8 +19575,8 @@
         "TextData": {
           "Namespace": "DT_UI_Common_Text_Common",
           "Key": "INTERACT_INDICATOR_Salvage_NotSwimPal_TextData",
-          "SourceString": "É necessário equipar a vara de pesca ou montar num Pal que se mova sobre a água",
-          "LocalizedString": "É necessário equipar a vara de pesca ou montar num Pal que se mova sobre a água"
+          "SourceString": "É necessário equipar a vara de pesca e montar num Pal que se mova sobre a água",
+          "LocalizedString": "É necessário equipar a vara de pesca e montar num Pal que se mova sobre a água"
         }
       },
       "COMMON_FailNoMoney": {
@@ -20344,8 +20367,8 @@
         "TextData": {
           "Namespace": "DT_UI_Common_Text_Common",
           "Key": "MOD_DIALOG_NOTICE_RestartWithoutMods_TextData",
-          "SourceString": "Ocorreu um erro inesperado durante seu último jogo. Talvez isso tenha sido causado por algum mod instalado.\r\nDeseja iniciar o jogo desabilitando os mods instalados por meio da Oficina Steam?",
-          "LocalizedString": "Ocorreu um erro inesperado durante seu último jogo. Talvez isso tenha sido causado por algum mod instalado.\r\nDeseja iniciar o jogo desabilitando os mods instalados por meio da Oficina Steam?"
+          "SourceString": "<Yellow_16>Ocorreu um erro inesperado durante seu último jogo.</>\r\nTalvez isso tenha sido causado por algum mod instalado.\r\nDeseja iniciar o jogo desabilitando os mods instalados por meio da Oficina Steam?",
+          "LocalizedString": "<Yellow_16>Ocorreu um erro inesperado durante seu último jogo.</>\r\nTalvez isso tenha sido causado por algum mod instalado.\r\nDeseja iniciar o jogo desabilitando os mods instalados por meio da Oficina Steam?"
         }
       },
       "MOD_SETTINGS_DIALOG_CANCEL": {
@@ -20616,8 +20639,8 @@
         "TextData": {
           "Namespace": "DT_UI_Common_Text_Common",
           "Key": "QUEST_MAIN_OBJECTIVE_CRAFT_PALGEAR_TextData",
-          "SourceString": "Crie [<itemName id=|SkillUnlock_Carbunclo|/>].",
-          "LocalizedString": "Crie [<itemName id=|SkillUnlock_Carbunclo|/>]."
+          "SourceString": "Crie [<itemName id=|SkillUnlock_Kitsunebi|/>].",
+          "LocalizedString": "Crie [<itemName id=|SkillUnlock_Kitsunebi|/>]."
         }
       },
       "QUEST_MAIN_TITLE_CRAFT_PALGEAR": {
@@ -24848,8 +24871,8 @@
         "TextData": {
           "Namespace": "DT_UI_Common_Text_Common",
           "Key": "TIPS_25_TextData",
-          "SourceString": "Você pode utilizar viagem rápida nas Caixas de Pals ou nas Estátuas da Águia Gigante.\r\nDesbloqueie Estátuas da Águia Gigante para aumentar o número de áreas para onde pode viajar.",
-          "LocalizedString": "Você pode utilizar viagem rápida nas Caixas de Pals ou nas Estátuas da Águia Gigante.\r\nDesbloqueie Estátuas da Águia Gigante para aumentar o número de áreas para onde pode viajar."
+          "SourceString": "Você pode utilizar viagem rápida na base ou nas Estátuas da Águia Gigante.\r\nDesbloqueie Estátuas da Águia Gigante para aumentar o número de áreas para onde pode viajar.",
+          "LocalizedString": "Você pode utilizar viagem rápida na base ou nas Estátuas da Águia Gigante.\r\nDesbloqueie Estátuas da Águia Gigante para aumentar o número de áreas para onde pode viajar."
         }
       },
       "TIPS_26": {
@@ -25024,24 +25047,24 @@
         "TextData": {
           "Namespace": "DT_UI_Common_Text_Common",
           "Key": "QUEST_SUB_TITLE_YakushimaDungeon_TextData",
-          "SourceString": "Além das dimensões",
-          "LocalizedString": "Além das dimensões"
+          "SourceString": "Ultrapassando dimensões",
+          "LocalizedString": "Ultrapassando dimensões"
         }
       },
       "QUEST_SUB_OBJECTIVE_YakushimaDungeon_010": {
         "TextData": {
           "Namespace": "DT_UI_Common_Text_Common",
           "Key": "QUEST_SUB_OBJECTIVE_YakushimaDungeon_010_TextData",
-          "SourceString": "Investigue a ilhota misteriosa",
-          "LocalizedString": "Investigue a ilhota misteriosa"
+          "SourceString": "Investigue a pequena ilha misteriosa.",
+          "LocalizedString": "Investigue a pequena ilha misteriosa."
         }
       },
       "QUEST_SUB_OBJECTIVE_YakushimaDungeon_020": {
         "TextData": {
           "Namespace": "DT_UI_Common_Text_Common",
           "Key": "QUEST_SUB_OBJECTIVE_YakushimaDungeon_020_TextData",
-          "SourceString": "Conclua a masmorra",
-          "LocalizedString": "Conclua a masmorra"
+          "SourceString": "Complete a dungeon.",
+          "LocalizedString": "Complete a dungeon."
         }
       },
       "QUEST_SUB_OBJECTIVE_YakushimaDungeon_030": {
@@ -25056,24 +25079,24 @@
         "TextData": {
           "Namespace": "DT_UI_Common_Text_Common",
           "Key": "QUEST_SUB_TITLE_YakushimaBoss002_TextData",
-          "SourceString": "Do lado oculto da Lua",
-          "LocalizedString": "Do lado oculto da Lua"
+          "SourceString": "Da outra face da lua",
+          "LocalizedString": "Da outra face da lua"
         }
       },
       "QUEST_SUB_OBJECTIVE_YakushimaBoss002_010": {
         "TextData": {
           "Namespace": "DT_UI_Common_Text_Common",
           "Key": "QUEST_SUB_OBJECTIVE_YakushimaBoss002_010_TextData",
-          "SourceString": "Fabrique <itemName id=|PalSummon_YakushimaBoss002|/> com base no esquema",
-          "LocalizedString": "Fabrique <itemName id=|PalSummon_YakushimaBoss002|/> com base no esquema"
+          "SourceString": "Crie um <itemName id=|PalSummon_YakushimaBoss002|/> com base no esquema.",
+          "LocalizedString": "Crie um <itemName id=|PalSummon_YakushimaBoss002|/> com base no esquema."
         }
       },
       "QUEST_SUB_OBJECTIVE_YakushimaBoss002_020": {
         "TextData": {
           "Namespace": "DT_UI_Common_Text_Common",
           "Key": "QUEST_SUB_OBJECTIVE_YakushimaBoss002_020_TextData",
-          "SourceString": "Ofereça <itemName id=|PalSummon_YakushimaBoss002|/> no <mapObjectName id=|Altar|/> construído na sua base\r\ne derrote o ser que surgir",
-          "LocalizedString": "Ofereça <itemName id=|PalSummon_YakushimaBoss002|/> no <mapObjectName id=|Altar|/> construído na sua base\r\ne derrote o ser que surgir"
+          "SourceString": "Vá até o <mapObjectName id=|Altar|/> construído na base,\r\nofereça o <itemName id=|PalSummon_YakushimaBoss002|/> e elimine a entidade que surgir.",
+          "LocalizedString": "Vá até o <mapObjectName id=|Altar|/> construído na base,\r\nofereça o <itemName id=|PalSummon_YakushimaBoss002|/> e elimine a entidade que surgir."
         }
       },
       "QUEST_SUB_OBJECTIVE_YakushimaBoss002_030": {
@@ -25088,56 +25111,224 @@
         "TextData": {
           "Namespace": "DT_UI_Common_Text_Common",
           "Key": "LOG_PARTNERSKIII_LifeDrainPower_AttackUp_TextData",
-          "SourceString": "Pelo poder de {CharacterName}, a sua força vital está sendo drenada...!",
-          "LocalizedString": "Pelo poder de {CharacterName}, a sua força vital está sendo drenada...!"
+          "SourceString": "{CharacterName} está usando poderes para roubar a força vital dos Pals lutando ao seu lado!",
+          "LocalizedString": "{CharacterName} está usando poderes para roubar a força vital dos Pals lutando ao seu lado!"
         }
       },
       "MOD_DIALOG_NOTICE_ModsDetected": {
         "TextData": {
           "Namespace": "DT_UI_Common_Text_Common",
           "Key": "MOD_DIALOG_NOTICE_ModsDetected_TextData",
-          "SourceString": "Mods detectados\r\n\r\nNo momento, você está executando Palworld com mods instalados.\r\nO uso de mods pode causar travamentos, perda ou corrompimento de dados salvos e outros problemas inesperados.\r\nRecomendamos fazer backup dos dados salvos importantes antes de usar mods.\r\n\r\nSe ocorrerem problemas, tente o seguinte:\r\n- Remova todos os mods instalados, independentemente da origem.\r\n- Desabilite os mods da Oficina Steam no menu Gerenciar mods.\r\n\r\nConsulte as diretrizes para mais informações.",
-          "LocalizedString": "Mods detectados\r\n\r\nNo momento, você está executando Palworld com mods instalados.\r\nO uso de mods pode causar travamentos, perda ou corrompimento de dados salvos e outros problemas inesperados.\r\nRecomendamos fazer backup dos dados salvos importantes antes de usar mods.\r\n\r\nSe ocorrerem problemas, tente o seguinte:\r\n- Remova todos os mods instalados, independentemente da origem.\r\n- Desabilite os mods da Oficina Steam no menu Gerenciar mods.\r\n\r\nConsulte as diretrizes para mais informações."
+          "SourceString": "<Yellow_20B>Mods detectados</>\r\n\r\nNo momento, Palworld está sendo executado com mods instalados.\r\nO uso de mods pode causar travamentos, corrupção ou perda de dados salvos, além de outros problemas inesperados.\r\n\r\nRecomendamos <Yellow_14>fazer backup dos dados salvos importantes antes de utilizar mods</>.\r\nCaso ocorra algum problema, experimente os métodos a seguir.\r\n- <Yellow_14>Excluir todos os mods instalados, independentemente da origem</>.\r\n- <Yellow_14>Desabilitar os mods instalados pela Oficina Steam</> em |Gerenciar mods|.\r\n\r\nConfira as diretrizes para mais detalhes sobre como excluir mods.",
+          "LocalizedString": "<Yellow_20B>Mods detectados</>\r\n\r\nNo momento, Palworld está sendo executado com mods instalados.\r\nO uso de mods pode causar travamentos, corrupção ou perda de dados salvos, além de outros problemas inesperados.\r\n\r\nRecomendamos <Yellow_14>fazer backup dos dados salvos importantes antes de utilizar mods</>.\r\nCaso ocorra algum problema, experimente os métodos a seguir.\r\n- <Yellow_14>Excluir todos os mods instalados, independentemente da origem</>.\r\n- <Yellow_14>Desabilitar os mods instalados pela Oficina Steam</> em |Gerenciar mods|.\r\n\r\nConfira as diretrizes para mais detalhes sobre como excluir mods."
         }
       },
       "MOD_DIALOG_NOTICE_CrashWithExternalMods": {
         "TextData": {
           "Namespace": "DT_UI_Common_Text_Common",
           "Key": "MOD_DIALOG_NOTICE_CrashWithExternalMods_TextData",
-          "SourceString": "Ocorreu um erro inesperado durante sua sessão anterior.\r\nMods instalados podem ter causado o problema.\r\n\r\nTente o seguinte:\r\n- Remova todos os mods instalados, independentemente da origem.\r\n- Desabilite os mods da Oficina Steam no menu Gerenciar mods.",
-          "LocalizedString": "Ocorreu um erro inesperado durante sua sessão anterior.\r\nMods instalados podem ter causado o problema.\r\n\r\nTente o seguinte:\r\n- Remova todos os mods instalados, independentemente da origem.\r\n- Desabilite os mods da Oficina Steam no menu Gerenciar mods."
+          "SourceString": "<Yellow_16>Ocorreu um erro inesperado durante seu último jogo.</>\r\nTalvez isso tenha sido causado pelos mods instalados.\r\n\r\nExperimente os métodos a seguir.\r\n- <Yellow_16>Excluir todos os mods instalados, independentemente da origem</>.\r\n- <Yellow_16>Desabilitar os mods instalados pela Oficina Steam</> em |Gerenciar mods|.\r\n\r\nConfira as diretrizes para mais detalhes sobre como excluir mods.",
+          "LocalizedString": "<Yellow_16>Ocorreu um erro inesperado durante seu último jogo.</>\r\nTalvez isso tenha sido causado pelos mods instalados.\r\n\r\nExperimente os métodos a seguir.\r\n- <Yellow_16>Excluir todos os mods instalados, independentemente da origem</>.\r\n- <Yellow_16>Desabilitar os mods instalados pela Oficina Steam</> em |Gerenciar mods|.\r\n\r\nConfira as diretrizes para mais detalhes sobre como excluir mods."
         }
       },
-      "SAVE_ERROR_FILE_PATH_TOO_LONG": {
+      "COMMON_WORK_SUITABILITY_EmitFlame_DESC": {
         "TextData": {
           "Namespace": "DT_UI_Common_Text_Common",
-          "Key": "SAVE_ERROR_FILE_PATH_TOO_LONG_TextData",
-          "SourceString": "Falha ao salvar.\r\nA causa pode ser a indicada abaixo:\r\n- O caminho para o arquivo dos dados salvos é longo demais.",
-          "LocalizedString": "Falha ao salvar.\r\nA causa pode ser a indicada abaixo:\r\n- O caminho para o arquivo dos dados salvos é longo demais."
+          "Key": "COMMON_WORK_SUITABILITY_EmitFlame_DESC_TextData",
+          "SourceString": "Consegue realizar trabalhos que utilizam fogo, como cozinhar ou refinar minérios.\r\nQuanto maior o nível, mais rápido o trabalho.",
+          "LocalizedString": "Consegue realizar trabalhos que utilizam fogo, como cozinhar ou refinar minérios.\r\nQuanto maior o nível, mais rápido o trabalho."
         }
       },
-      "WARNING_FILE_PATH_TOO_LONG": {
+      "COMMON_WORK_SUITABILITY_Watering_DESC": {
         "TextData": {
           "Namespace": "DT_UI_Common_Text_Common",
-          "Key": "WARNING_FILE_PATH_TOO_LONG_TextData",
-          "SourceString": "Pode ocorrer uma falha ao salvar pelo seguinte motivo:\r\n- O caminho para o arquivo dos dados salvos é longo demais.",
-          "LocalizedString": "Pode ocorrer uma falha ao salvar pelo seguinte motivo:\r\n- O caminho para o arquivo dos dados salvos é longo demais."
+          "Key": "COMMON_WORK_SUITABILITY_Watering_DESC_TextData",
+          "SourceString": "Consegue realizar trabalhos que utilizam água, como regar plantações.\r\nQuanto maior o nível, mais rápido o trabalho.",
+          "LocalizedString": "Consegue realizar trabalhos que utilizam água, como regar plantações.\r\nQuanto maior o nível, mais rápido o trabalho."
         }
       },
-      "WARNING_DISK_SPACE_NOT_ENOUGH": {
+      "COMMON_WORK_SUITABILITY_Seeding_DESC": {
         "TextData": {
           "Namespace": "DT_UI_Common_Text_Common",
-          "Key": "WARNING_DISK_SPACE_NOT_ENOUGH_TextData",
-          "SourceString": "Pode ocorrer uma falha ao salvar pelo seguinte motivo:\r\n- Não há espaço suficiente em disco;",
-          "LocalizedString": "Pode ocorrer uma falha ao salvar pelo seguinte motivo:\r\n- Não há espaço suficiente em disco;"
+          "Key": "COMMON_WORK_SUITABILITY_Seeding_DESC_TextData",
+          "SourceString": "Consegue semear plantações.\r\nQuanto maior o nível, mais rápido o trabalho.",
+          "LocalizedString": "Consegue semear plantações.\r\nQuanto maior o nível, mais rápido o trabalho."
+        }
+      },
+      "COMMON_WORK_SUITABILITY_GenerateElectricity_DESC": {
+        "TextData": {
+          "Namespace": "DT_UI_Common_Text_Common",
+          "Key": "COMMON_WORK_SUITABILITY_GenerateElectricity_DESC_TextData",
+          "SourceString": "Consegue trabalhar em geradores elétricos armazenando a eletricidade necessária para alimentar certas instalações.\r\nQuanto maior o nível, mais rápida a geração de energia.",
+          "LocalizedString": "Consegue trabalhar em geradores elétricos armazenando a eletricidade necessária para alimentar certas instalações.\r\nQuanto maior o nível, mais rápida a geração de energia."
+        }
+      },
+      "COMMON_WORK_SUITABILITY_Handcraft_DESC": {
+        "TextData": {
+          "Namespace": "DT_UI_Common_Text_Common",
+          "Key": "COMMON_WORK_SUITABILITY_Handcraft_DESC_TextData",
+          "SourceString": "Consegue construir e produzir itens.\r\nQuanto maior o nível, mais rápido o trabalho.",
+          "LocalizedString": "Consegue construir e produzir itens.\r\nQuanto maior o nível, mais rápido o trabalho."
+        }
+      },
+      "COMMON_WORK_SUITABILITY_Collection_DESC": {
+        "TextData": {
+          "Namespace": "DT_UI_Common_Text_Common",
+          "Key": "COMMON_WORK_SUITABILITY_Collection_DESC_TextData",
+          "SourceString": "Consegue realizar a colheita em plantações.\r\nQuanto maior o nível, mais rápida e mais farta a colheita.",
+          "LocalizedString": "Consegue realizar a colheita em plantações.\r\nQuanto maior o nível, mais rápida e mais farta a colheita."
+        }
+      },
+      "COMMON_WORK_SUITABILITY_Deforest_DESC": {
+        "TextData": {
+          "Namespace": "DT_UI_Common_Text_Common",
+          "Key": "COMMON_WORK_SUITABILITY_Deforest_DESC_TextData",
+          "SourceString": "Consegue cortar árvores.\r\nQuanto maior o nível, mais rápido o trabalho.",
+          "LocalizedString": "Consegue cortar árvores.\r\nQuanto maior o nível, mais rápido o trabalho."
+        }
+      },
+      "COMMON_WORK_SUITABILITY_Mining_DESC": {
+        "TextData": {
+          "Namespace": "DT_UI_Common_Text_Common",
+          "Key": "COMMON_WORK_SUITABILITY_Mining_DESC_TextData",
+          "SourceString": "Consegue garimpar minérios.\r\nQuanto maior o nível, mais rápido o trabalho.\r\nCertos minérios só podem ser garimpados em níveis altos.",
+          "LocalizedString": "Consegue garimpar minérios.\r\nQuanto maior o nível, mais rápido o trabalho.\r\nCertos minérios só podem ser garimpados em níveis altos."
+        }
+      },
+      "COMMON_WORK_SUITABILITY_ProductMedicine_DESC": {
+        "TextData": {
+          "Namespace": "DT_UI_Common_Text_Common",
+          "Key": "COMMON_WORK_SUITABILITY_ProductMedicine_DESC_TextData",
+          "SourceString": "Consegue manipular remédios.\r\nQuanto maior o nível, mais rápido o trabalho.",
+          "LocalizedString": "Consegue manipular remédios.\r\nQuanto maior o nível, mais rápido o trabalho."
+        }
+      },
+      "COMMON_WORK_SUITABILITY_Cool_DESC": {
+        "TextData": {
+          "Namespace": "DT_UI_Common_Text_Common",
+          "Key": "COMMON_WORK_SUITABILITY_Cool_DESC_TextData",
+          "SourceString": "Consegue trabalhar em resfriadores e refrigeradores para controlar a temperatura e retardar a putrefação de alimentos.\r\nQuanto maior o nível, mais duram os alimentos.",
+          "LocalizedString": "Consegue trabalhar em resfriadores e refrigeradores para controlar a temperatura e retardar a putrefação de alimentos.\r\nQuanto maior o nível, mais duram os alimentos."
+        }
+      },
+      "COMMON_WORK_SUITABILITY_Transport_DESC": {
+        "TextData": {
+          "Namespace": "DT_UI_Common_Text_Common",
+          "Key": "COMMON_WORK_SUITABILITY_Transport_DESC_TextData",
+          "SourceString": "Consegue pegar itens produzidos ou caídos no chão para levá-los até um baú.\r\nQuanto maior o nível, mais itens pode carregar.",
+          "LocalizedString": "Consegue pegar itens produzidos ou caídos no chão para levá-los até um baú.\r\nQuanto maior o nível, mais itens pode carregar."
+        }
+      },
+      "COMMON_WORK_SUITABILITY_MonsterFarm_DESC": {
+        "TextData": {
+          "Namespace": "DT_UI_Common_Text_Common",
+          "Key": "COMMON_WORK_SUITABILITY_MonsterFarm_DESC_TextData",
+          "SourceString": "Consegue produzir itens quando está numa fazenda.\r\nQuanto maior o nível, mais itens produz.",
+          "LocalizedString": "Consegue produzir itens quando está numa fazenda.\r\nQuanto maior o nível, mais itens produz."
+        }
+      },
+      "LOG_Decay_WorldTreeWood": {
+        "TextData": {
+          "Namespace": "DT_UI_Common_Text_Common",
+          "Key": "LOG_Decay_WorldTreeWood_TextData",
+          "SourceString": "pt-BR",
+          "LocalizedString": "pt-BR"
+        }
+      },
+      "LOG_Decay_WorldTreeOre": {
+        "TextData": {
+          "Namespace": "DT_UI_Common_Text_Common",
+          "Key": "LOG_Decay_WorldTreeOre_TextData",
+          "SourceString": "pt-BR",
+          "LocalizedString": "pt-BR"
+        }
+      },
+      "GUILD_ROLE_WARNING_DIALOG_GUILDMASTER": {
+        "TextData": {
+          "Namespace": "DT_UI_Common_Text_Common",
+          "Key": "GUILD_ROLE_WARNING_DIALOG_GUILDMASTER_TextData",
+          "SourceString": "<{TargetPlayer}> terá sua função alterada para <{RoleName}>. Deseja continuar?\r\n\r\n<NumRed_12>Caso transfira a função de <{RoleName}>, a sua própria função será alterada para <{NewRole}></>\r\n<NumRed_12>e você perderá os poderes de <{RoleName}>.</>",
+          "LocalizedString": "<{TargetPlayer}> terá sua função alterada para <{RoleName}>. Deseja continuar?\r\n\r\n<NumRed_12>Caso transfira a função de <{RoleName}>, a sua própria função será alterada para <{NewRole}></>\r\n<NumRed_12>e você perderá os poderes de <{RoleName}>.</>"
         }
       },
       "SETTING_KEY_DirectAttackOrder": {
         "TextData": {
           "Namespace": "DT_UI_Common_Text_Common",
           "Key": "SETTING_KEY_DirectAttackOrder_TextData",
-          "SourceString": "Comando de Pal (Ataque este inimigo!)",
-          "LocalizedString": "Comando de Pal (Ataque este inimigo!)"
+          "SourceString": "Instruir Pal (Ataque este inimigo!)",
+          "LocalizedString": "Instruir Pal (Ataque este inimigo!)"
+        }
+      },
+      "BASECAMP_TASK_BUILDOBJECT_NUM_TASK_INFO_MULTIPLE": {
+        "TextData": {
+          "Namespace": "DT_UI_Common_Text_Common",
+          "Key": "BASECAMP_TASK_BUILDOBJECT_NUM_TASK_INFO_MULTIPLE_TextData",
+          "SourceString": "Construir um dos objetos a seguir: {ObjectName}.",
+          "LocalizedString": "Construir um dos objetos a seguir: {ObjectName}."
+        }
+      },
+      "SETTING_GRA_AMD_FSR": {
+        "TextData": {
+          "Namespace": "DT_UI_Common_Text_Common",
+          "Key": "SETTING_GRA_AMD_FSR_TextData",
+          "SourceString": "AMD FSR",
+          "LocalizedString": "AMD FSR"
+        }
+      },
+      "SETTING_AMD_FSR_LEVEL_0": {
+        "TextData": {
+          "Namespace": "DT_UI_Common_Text_Common",
+          "Key": "SETTING_AMD_FSR_LEVEL_0_TextData",
+          "SourceString": "Desativado",
+          "LocalizedString": "Desativado"
+        }
+      },
+      "SETTING_AMD_FSR_LEVEL_1": {
+        "TextData": {
+          "Namespace": "DT_UI_Common_Text_Common",
+          "Key": "SETTING_AMD_FSR_LEVEL_1_TextData",
+          "SourceString": "Ultradesempenho",
+          "LocalizedString": "Ultradesempenho"
+        }
+      },
+      "SETTING_AMD_FSR_LEVEL_2": {
+        "TextData": {
+          "Namespace": "DT_UI_Common_Text_Common",
+          "Key": "SETTING_AMD_FSR_LEVEL_2_TextData",
+          "SourceString": "Desempenho",
+          "LocalizedString": "Desempenho"
+        }
+      },
+      "SETTING_AMD_FSR_LEVEL_3": {
+        "TextData": {
+          "Namespace": "DT_UI_Common_Text_Common",
+          "Key": "SETTING_AMD_FSR_LEVEL_3_TextData",
+          "SourceString": "Equilibrado",
+          "LocalizedString": "Equilibrado"
+        }
+      },
+      "SETTING_AMD_FSR_LEVEL_4": {
+        "TextData": {
+          "Namespace": "DT_UI_Common_Text_Common",
+          "Key": "SETTING_AMD_FSR_LEVEL_4_TextData",
+          "SourceString": "Qualidade",
+          "LocalizedString": "Qualidade"
+        }
+      },
+      "SETTING_GRA_DLSS_FRAME_GENERATION": {
+        "TextData": {
+          "Namespace": "DT_UI_Common_Text_Common",
+          "Key": "SETTING_GRA_DLSS_FRAME_GENERATION_TextData",
+          "SourceString": "Geração de quadros DLSS",
+          "LocalizedString": "Geração de quadros DLSS"
+        }
+      },
+      "SETTING_GRA_AMD_FSR_FRAME_GENERATION": {
+        "TextData": {
+          "Namespace": "DT_UI_Common_Text_Common",
+          "Key": "SETTING_GRA_AMD_FSR_FRAME_GENERATION_TextData",
+          "SourceString": "Geração de quadros AMD FSR",
+          "LocalizedString": "Geração de quadros AMD FSR"
         }
       },
       "SETTING_KEY_UI_OpenCHaracterMenu_Another": {
@@ -25152,8 +25343,72 @@
         "TextData": {
           "Namespace": "DT_UI_Common_Text_Common",
           "Key": "SETTING_KEY_SET_CONFLICT_WARNING_TextData",
-          "SourceString": "Há teclas duplicadas na configuração de teclas. Isso pode afetar a jogabilidade. Deseja continuar mesmo assim?",
-          "LocalizedString": "Há teclas duplicadas na configuração de teclas. Isso pode afetar a jogabilidade. Deseja continuar mesmo assim?"
+          "SourceString": "Há uma configuração de tecla duplicada na atribuição de teclas, o que pode afetar a jogabilidade. Deseja continuar mesmo assim?",
+          "LocalizedString": "Há uma configuração de tecla duplicada na atribuição de teclas, o que pode afetar a jogabilidade. Deseja continuar mesmo assim?"
+        }
+      },
+      "TIPS_31": {
+        "TextData": {
+          "Namespace": "DT_UI_Common_Text_Common",
+          "Key": "TIPS_31_TextData",
+          "SourceString": "pt-BR",
+          "LocalizedString": "pt-BR"
+        }
+      },
+      "MOVEITEM_IncludeBaseCamp": {
+        "TextData": {
+          "Namespace": "DT_UI_Common_Text_Common",
+          "Key": "MOVEITEM_IncludeBaseCamp_TextData",
+          "SourceString": "pt-BR",
+          "LocalizedString": "pt-BR"
+        }
+      },
+      "INCUBATOR_SET": {
+        "TextData": {
+          "Namespace": "DT_UI_Common_Text_Common",
+          "Key": "INCUBATOR_SET_TextData",
+          "SourceString": "pt-BR",
+          "LocalizedString": "pt-BR"
+        }
+      },
+      "RECYCLER_PutIn_All": {
+        "TextData": {
+          "Namespace": "DT_UI_Common_Text_Common",
+          "Key": "RECYCLER_PutIn_All_TextData",
+          "SourceString": "pt-BR",
+          "LocalizedString": "pt-BR"
+        }
+      },
+      "FISHING_RECOMMEND_TITLE": {
+        "TextData": {
+          "Namespace": "DT_UI_Common_Text_Common",
+          "Key": "FISHING_RECOMMEND_TITLE_TextData",
+          "SourceString": "pt-BR",
+          "LocalizedString": "pt-BR"
+        }
+      },
+      "FISHING_AREA_GUIDE_NoRod": {
+        "TextData": {
+          "Namespace": "DT_UI_Common_Text_Common",
+          "Key": "FISHING_AREA_GUIDE_NoRod_TextData",
+          "SourceString": "pt-BR",
+          "LocalizedString": "pt-BR"
+        }
+      },
+      "FISHING_PALSKILL_ADVICE": {
+        "TextData": {
+          "Namespace": "DT_UI_Common_Text_Common",
+          "Key": "FISHING_PALSKILL_ADVICE_TextData",
+          "SourceString": "pt-BR",
+          "LocalizedString": "pt-BR"
+        }
+      },
+      "BOSSDEFEATREWARD_TEXT": {
+        "TextData": {
+          "Namespace": "DT_UI_Common_Text_Common",
+          "Key": "BOSSDEFEATREWARD_TEXT_TextData",
+          "SourceString": "pt-BR",
+          "LocalizedString": "pt-BR"
         }
       }
     }

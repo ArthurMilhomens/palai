@@ -1,0 +1,392 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_HelpGuideDescText",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "Help_1": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_1_TextData",
+          "SourceString": "Điều khiển (Bàn phím)\r\n\r\nChuột　Điều khiển camera\r\n<keyGuideIcon id=|W_ForHelp|/><keyGuideIcon id=|A_ForHelp|/><keyGuideIcon id=|S_ForHelp|/><keyGuideIcon id=|D_ForHelp|/>　Di chuyển\r\n<keyGuideIcon id=|ThrowPal| OverrideType=|1|/>　Triệu hồi Pal\r\n<keyGuideIcon id=|ThrowObject| OverrideType=|1|/>　Ném Quả Cầu\r\n<keyGuideIcon id=|OpenConstructionMenu| OverrideType=|1|/>　Menu Xây Dựng\r\n<keyGuideIcon id=|Jump| OverrideType=|1|/>　Nhảy\r\n<keyGuideIcon id=|WeaponReady| OverrideType=|1|/>　Nhắm mục tiêu\r\n<keyGuideIcon id=|WeaponUse| OverrideType=|1|/>　Tấn công\r\n<keyGuideIcon id=|Coop| OverrideType=|1|/>　Kỹ Năng Đồng Hành\r\n<keyGuideIcon id=|Reload| OverrideType=|1|/>　Nạp đạn\r\n<keyGuideIcon id=|ChangeWeaponNext| OverrideType=|1|/><keyGuideIcon id=|ChangeWeaponPrev| OverrideType=|1|/>　Chuyển đổi vũ khí\r\n<keyGuideIcon id=|Crouch| OverrideType=|1|/>　Cúi người\r\n<keyGuideIcon id=|Rolling| OverrideType=|1|/>　Lăn\r\n<keyGuideIcon id=|Dash| OverrideType=|1|/>　Lướt tới\r\n<keyGuideIcon id=|PartnerPalInstructions| OverrideType=|1|/>　Ra lệnh cho Pal\r\n<keyGuideIcon id=|OtomoChangeIncrement| OverrideType=|1|/><keyGuideIcon id=|OtomoChangeDecrement| OverrideType=|1|/>　Chuyển đổi Pal\r\n<keyGuideIcon id=|SphereChange| OverrideType=|1|/>　Chuyển đổi Quả Cầu",
+          "LocalizedString": "Điều khiển (Bàn phím)\r\n\r\nChuột　Điều khiển camera\r\n<keyGuideIcon id=|W_ForHelp|/><keyGuideIcon id=|A_ForHelp|/><keyGuideIcon id=|S_ForHelp|/><keyGuideIcon id=|D_ForHelp|/>　Di chuyển\r\n<keyGuideIcon id=|ThrowPal| OverrideType=|1|/>　Triệu hồi Pal\r\n<keyGuideIcon id=|ThrowObject| OverrideType=|1|/>　Ném Quả Cầu\r\n<keyGuideIcon id=|OpenConstructionMenu| OverrideType=|1|/>　Menu Xây Dựng\r\n<keyGuideIcon id=|Jump| OverrideType=|1|/>　Nhảy\r\n<keyGuideIcon id=|WeaponReady| OverrideType=|1|/>　Nhắm mục tiêu\r\n<keyGuideIcon id=|WeaponUse| OverrideType=|1|/>　Tấn công\r\n<keyGuideIcon id=|Coop| OverrideType=|1|/>　Kỹ Năng Đồng Hành\r\n<keyGuideIcon id=|Reload| OverrideType=|1|/>　Nạp đạn\r\n<keyGuideIcon id=|ChangeWeaponNext| OverrideType=|1|/><keyGuideIcon id=|ChangeWeaponPrev| OverrideType=|1|/>　Chuyển đổi vũ khí\r\n<keyGuideIcon id=|Crouch| OverrideType=|1|/>　Cúi người\r\n<keyGuideIcon id=|Rolling| OverrideType=|1|/>　Lăn\r\n<keyGuideIcon id=|Dash| OverrideType=|1|/>　Lướt tới\r\n<keyGuideIcon id=|PartnerPalInstructions| OverrideType=|1|/>　Ra lệnh cho Pal\r\n<keyGuideIcon id=|OtomoChangeIncrement| OverrideType=|1|/><keyGuideIcon id=|OtomoChangeDecrement| OverrideType=|1|/>　Chuyển đổi Pal\r\n<keyGuideIcon id=|SphereChange| OverrideType=|1|/>　Chuyển đổi Quả Cầu"
+        }
+      },
+      "Help_2": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_2_TextData",
+          "SourceString": "Điều khiển (Tay cầm)\r\n\r\nCần Analog Trái　Di chuyển\r\nCần Analog Phải　Điều khiển camera\r\n<keyGuideIcon id=|ThrowPal| OverrideType=|2|/>　Triệu hồi Pal\r\n<keyGuideIcon id=|ThrowObject| OverrideType=|2|/>　Ném Quả Cầu\r\n<keyGuideIcon id=|OpenConstructionMenu| OverrideType=|2|/>　Menu Xây Dựng\r\n<keyGuideIcon id=|Jump| OverrideType=|2|/>　Nhảy\r\n<keyGuideIcon id=|WeaponReady| OverrideType=|2|/>　Nhắm mục tiêu\r\n<keyGuideIcon id=|WeaponUse| OverrideType=|2|/>　Tấn công\r\n<keyGuideIcon id=|ReloadAndCoop| OverrideType=|2|/>　Kỹ Năng Đồng Hành\r\n<keyGuideIcon id=|ChangeWeaponNext_GamePad| OverrideType=|2|/>　Chuyển đổi vũ khí\r\n<keyGuideIcon id=|RollingAndCrouch| OverrideType=|2|/>　Cúi người/lăn\r\n<keyGuideIcon id=|DashController| OverrideType=|2|/>　Lưới tới\r\n<keyGuideIcon id=|PartnerPalInstructions| OverrideType=|2|/>　Ra lệnh cho Pal\r\n<keyGuideIcon id=|OtomoChangeIncrement| OverrideType=|2|/><keyGuideIcon id=|OtomoChangeDecrement| OverrideType=|2|/>　Chuyển đổi Pal\r\n<keyGuideIcon id=|SphereChange| OverrideType=|2|/>　Chuyển đổi Quả Cầu",
+          "LocalizedString": "Điều khiển (Tay cầm)\r\n\r\nCần Analog Trái　Di chuyển\r\nCần Analog Phải　Điều khiển camera\r\n<keyGuideIcon id=|ThrowPal| OverrideType=|2|/>　Triệu hồi Pal\r\n<keyGuideIcon id=|ThrowObject| OverrideType=|2|/>　Ném Quả Cầu\r\n<keyGuideIcon id=|OpenConstructionMenu| OverrideType=|2|/>　Menu Xây Dựng\r\n<keyGuideIcon id=|Jump| OverrideType=|2|/>　Nhảy\r\n<keyGuideIcon id=|WeaponReady| OverrideType=|2|/>　Nhắm mục tiêu\r\n<keyGuideIcon id=|WeaponUse| OverrideType=|2|/>　Tấn công\r\n<keyGuideIcon id=|ReloadAndCoop| OverrideType=|2|/>　Kỹ Năng Đồng Hành\r\n<keyGuideIcon id=|ChangeWeaponNext_GamePad| OverrideType=|2|/>　Chuyển đổi vũ khí\r\n<keyGuideIcon id=|RollingAndCrouch| OverrideType=|2|/>　Cúi người/lăn\r\n<keyGuideIcon id=|DashController| OverrideType=|2|/>　Lưới tới\r\n<keyGuideIcon id=|PartnerPalInstructions| OverrideType=|2|/>　Ra lệnh cho Pal\r\n<keyGuideIcon id=|OtomoChangeIncrement| OverrideType=|2|/><keyGuideIcon id=|OtomoChangeDecrement| OverrideType=|2|/>　Chuyển đổi Pal\r\n<keyGuideIcon id=|SphereChange| OverrideType=|2|/>　Chuyển đổi Quả Cầu"
+        }
+      },
+      "Help_3": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_3_TextData",
+          "SourceString": "Mục tiêu của game\r\n\r\nKhám phá những bí mật ẩn giấu của vùng đất thần bí này, đồng thời đương đầu với các thế lực bí ẩn cản đường bạn. \r\nHãy đánh bại những boss canh giữ các ngọn tháp ở mỗi khu vực. Có thể bạn sẽ tìm ra sự thật ẩn sau nguồn gốc của loài Pal. \r\n\r\nXây dựng căn cứ kiên cố nhất, thu phục những Pal mạnh nhất, hoặc tự tay lai tạo chúng! \r\nBắt đầu cuộc phiêu lưu độc đáo cùng các Pal của bạn trong thế giới mới này!",
+          "LocalizedString": "Mục tiêu của game\r\n\r\nKhám phá những bí mật ẩn giấu của vùng đất thần bí này, đồng thời đương đầu với các thế lực bí ẩn cản đường bạn. \r\nHãy đánh bại những boss canh giữ các ngọn tháp ở mỗi khu vực. Có thể bạn sẽ tìm ra sự thật ẩn sau nguồn gốc của loài Pal. \r\n\r\nXây dựng căn cứ kiên cố nhất, thu phục những Pal mạnh nhất, hoặc tự tay lai tạo chúng! \r\nBắt đầu cuộc phiêu lưu độc đáo cùng các Pal của bạn trong thế giới mới này!"
+        }
+      },
+      "Help_4": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_4_TextData",
+          "SourceString": "Bạn nên làm gì khi mới bắt đầu? \r\n\r\nTrước tiên, hãy nhặt cành cây và đá vụn rơi trên mặt đất để thu thập gỗ và đá. \r\nBạn cũng có thể đấm vào cây lớn hoặc tảng đá bằng tay không để thu thập gỗ và đá. \r\nSau đó, hãy xây bàn làm việc, và chế tạo rìu và cuốc để thu thập tài nguyên hiệu quả hơn. \r\n\r\nKhi đã thu thập đủ vật liệu, hãy chọn một nơi thích hợp để làm căn cứ và dựng “Palbox|.\r\nKhu vực đặt “Palbox| sẽ trở thành căn cứ của bạn. \r\n\r\nKhi cấp độ của bạn tăng lên, hãy chế tạo vũ khí và “Quả Cầu Pal|, sau đó bắt đầu bắt Pal bằng cách làm chúng suy yếu trước. \r\nPal không chỉ là lực lượng chiến đấu mà còn là lực lượng lao động khi bạn thả chúng vào căn cứ. \r\n\r\nBan đêm rất nguy hiểm. Hãy chế tạo “Lửa Trại|, “Đuốc Cầm Tay|, và “Giường| để chuẩn bị cho đêm đầu tiên.",
+          "LocalizedString": "Bạn nên làm gì khi mới bắt đầu? \r\n\r\nTrước tiên, hãy nhặt cành cây và đá vụn rơi trên mặt đất để thu thập gỗ và đá. \r\nBạn cũng có thể đấm vào cây lớn hoặc tảng đá bằng tay không để thu thập gỗ và đá. \r\nSau đó, hãy xây bàn làm việc, và chế tạo rìu và cuốc để thu thập tài nguyên hiệu quả hơn. \r\n\r\nKhi đã thu thập đủ vật liệu, hãy chọn một nơi thích hợp để làm căn cứ và dựng “Palbox|.\r\nKhu vực đặt “Palbox| sẽ trở thành căn cứ của bạn. \r\n\r\nKhi cấp độ của bạn tăng lên, hãy chế tạo vũ khí và “Quả Cầu Pal|, sau đó bắt đầu bắt Pal bằng cách làm chúng suy yếu trước. \r\nPal không chỉ là lực lượng chiến đấu mà còn là lực lượng lao động khi bạn thả chúng vào căn cứ. \r\n\r\nBan đêm rất nguy hiểm. Hãy chế tạo “Lửa Trại|, “Đuốc Cầm Tay|, và “Giường| để chuẩn bị cho đêm đầu tiên."
+        }
+      },
+      "Help_5": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_5_TextData",
+          "SourceString": "Giới thiệu về Pal\r\n\r\nPal là những sinh vật bí ẩn sinh sống ở vùng đất này. \r\nBạn có thể bắt Pal bằng quả cầu để biến chúng trở thành đồng đội,\r\nnhững Pal đã thu phục có thể được triệu hồi ra khỏi quả cầu bằng cách nhấn <keyGuideIcon id=|ThrowPal|/>. \r\n\r\nBạn có thể mang theo tối đa 5 Pal cùng một lúc, nếu bắt từ 6 Pal trở lên, chúng sẽ tự động được chuyển vào Palbox,\r\nvà bạn có thể xây Palbox để lấy chúng ra.",
+          "LocalizedString": "Giới thiệu về Pal\r\n\r\nPal là những sinh vật bí ẩn sinh sống ở vùng đất này. \r\nBạn có thể bắt Pal bằng quả cầu để biến chúng trở thành đồng đội,\r\nnhững Pal đã thu phục có thể được triệu hồi ra khỏi quả cầu bằng cách nhấn <keyGuideIcon id=|ThrowPal|/>. \r\n\r\nBạn có thể mang theo tối đa 5 Pal cùng một lúc, nếu bắt từ 6 Pal trở lên, chúng sẽ tự động được chuyển vào Palbox,\r\nvà bạn có thể xây Palbox để lấy chúng ra."
+        }
+      },
+      "Help_6": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_6_TextData",
+          "SourceString": "Giao diện HUD\r\n\r\nỞ góc dưới bên trái, thông tin về các Pal đang mang theo, cùng với Máu và Mức Độ No của người chơi được hiển thị. \r\nNgay bên phải là chỉ số nhiệt độ, nếu quá nóng hoặc quá lạnh, bạn sẽ bị thương. \r\nỞ góc dưới bên phải, thông tin Quả Cầu và vũ khí đang trang bị, cùng với số lượng đạn còn lại sẽ được hiển thị.",
+          "LocalizedString": "Giao diện HUD\r\n\r\nỞ góc dưới bên trái, thông tin về các Pal đang mang theo, cùng với Máu và Mức Độ No của người chơi được hiển thị. \r\nNgay bên phải là chỉ số nhiệt độ, nếu quá nóng hoặc quá lạnh, bạn sẽ bị thương. \r\nỞ góc dưới bên phải, thông tin Quả Cầu và vũ khí đang trang bị, cùng với số lượng đạn còn lại sẽ được hiển thị."
+        }
+      },
+      "Help_7": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_7_TextData",
+          "SourceString": "Thu thập vật phẩm\r\n\r\nBạn có thể nhặt những vật phẩm rơi ra bằng cách nhấn <keyGuideIcon id=|Interact_1|/>. \r\nNgoài ra, bạn có thể thu thập vật liệu bằng cách chặt cây và đập vỡ đá bằng rìu hoặc cuốc. \r\nVật phẩm cũng sẽ rơi ra khi bạn đánh bại Pal.",
+          "LocalizedString": "Thu thập vật phẩm\r\n\r\nBạn có thể nhặt những vật phẩm rơi ra bằng cách nhấn <keyGuideIcon id=|Interact_1|/>. \r\nNgoài ra, bạn có thể thu thập vật liệu bằng cách chặt cây và đập vỡ đá bằng rìu hoặc cuốc. \r\nVật phẩm cũng sẽ rơi ra khi bạn đánh bại Pal."
+        }
+      },
+      "Help_8": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_8_TextData",
+          "SourceString": "Xây dựng\r\n\r\nBạn có thể nhấn <keyGuideIcon id=|OpenConstructionMenu|/> để mở Menu Xây Dựng và bắt đầu xây dựng. \r\nTừ Menu Xây Dựng, hãy chọn vị trí xây dựng, sau đó nhấn giữ <keyGuideIcon id=|Interact_1|/> tại vị trí đó để hoàn tất việc xây dựng. \r\nNếu có Pal trong đội hoặc tại căn cứ, chúng sẽ hỗ trợ bạn trong việc xây dựng.",
+          "LocalizedString": "Xây dựng\r\n\r\nBạn có thể nhấn <keyGuideIcon id=|OpenConstructionMenu|/> để mở Menu Xây Dựng và bắt đầu xây dựng. \r\nTừ Menu Xây Dựng, hãy chọn vị trí xây dựng, sau đó nhấn giữ <keyGuideIcon id=|Interact_1|/> tại vị trí đó để hoàn tất việc xây dựng. \r\nNếu có Pal trong đội hoặc tại căn cứ, chúng sẽ hỗ trợ bạn trong việc xây dựng."
+        }
+      },
+      "Help_9": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_9_TextData",
+          "SourceString": "Chế tạo\r\n\r\nBạn có thể chế tạo vật phẩm bằng cách xây Bàn Làm Việc và các cơ sở khác, sau đó tương tác với chúng. \r\nHãy dùng Điểm Kỹ Thuật để mở khóa các công thức chế tạo mới,\r\nđồng thời xây dựng thêm các cơ sở chế tạo khác nhau để chế tạo nhiều vật phẩm mới hơn.",
+          "LocalizedString": "Chế tạo\r\n\r\nBạn có thể chế tạo vật phẩm bằng cách xây Bàn Làm Việc và các cơ sở khác, sau đó tương tác với chúng. \r\nHãy dùng Điểm Kỹ Thuật để mở khóa các công thức chế tạo mới,\r\nđồng thời xây dựng thêm các cơ sở chế tạo khác nhau để chế tạo nhiều vật phẩm mới hơn."
+        }
+      },
+      "Help_10": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_10_TextData",
+          "SourceString": "Kỹ thuật\r\n\r\nTừ tab Kỹ Thuật trong menu, bạn có thể sử dụng Điểm Kỹ Thuật\r\nđể mở khóa công trình mới hoặc công thức chế tạo vật phẩm mới. \r\nBạn có thể nhận được Điểm Kỹ Thuật khi lên cấp hoặc thông qua các cách khác, chẳng hạn như kích hoạt các Tượng Đại Bàng.",
+          "LocalizedString": "Kỹ thuật\r\n\r\nTừ tab Kỹ Thuật trong menu, bạn có thể sử dụng Điểm Kỹ Thuật\r\nđể mở khóa công trình mới hoặc công thức chế tạo vật phẩm mới. \r\nBạn có thể nhận được Điểm Kỹ Thuật khi lên cấp hoặc thông qua các cách khác, chẳng hạn như kích hoạt các Tượng Đại Bàng."
+        }
+      },
+      "Help_11": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_11_TextData",
+          "SourceString": "Kỹ Thuật Cổ Đại\r\n\r\nKhi đánh bại những kẻ địch hùng mạnh, bạn sẽ nhận được Điểm Kỹ Thuật Cổ Đại,\r\nvà bạn có thể sử dụng điểm này để mở khóa Kỹ Thuật Cổ Đại. \r\n\r\nKỹ Thuật Cổ Đại là những kỹ thuật tiên tiến thuộc về một nền văn minh đã diệt vong,\r\nvà thường mang lại những hiệu quả mạnh mẽ và độc đáo.",
+          "LocalizedString": "Kỹ Thuật Cổ Đại\r\n\r\nKhi đánh bại những kẻ địch hùng mạnh, bạn sẽ nhận được Điểm Kỹ Thuật Cổ Đại,\r\nvà bạn có thể sử dụng điểm này để mở khóa Kỹ Thuật Cổ Đại. \r\n\r\nKỹ Thuật Cổ Đại là những kỹ thuật tiên tiến thuộc về một nền văn minh đã diệt vong,\r\nvà thường mang lại những hiệu quả mạnh mẽ và độc đáo."
+        }
+      },
+      "Help_12": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_12_TextData",
+          "SourceString": "Cấp độ\r\n\r\nCả người chơi và Pal sẽ lên cấp khi nhận được điểm kinh nghiệm. \r\nBạn có thể nhận được điểm kinh nghiệm bằng cách đánh bại hoặc bắt Pal. \r\nNgoài ra, bạn cũng nhận được điểm kinh nghiệm dựa trên lượng công việc khi xây dựng hoặc chế tạo. \r\n\r\nBạn không thể phát huy toàn bộ sức mạnh của những Pal có cấp độ cao hơn bạn,\r\nchỉ số của chúng sẽ được giảm xuống ngang với cấp độ của người chơi, đây là cơ chế Đồng Bộ Cấp Độ.",
+          "LocalizedString": "Cấp độ\r\n\r\nCả người chơi và Pal sẽ lên cấp khi nhận được điểm kinh nghiệm. \r\nBạn có thể nhận được điểm kinh nghiệm bằng cách đánh bại hoặc bắt Pal. \r\nNgoài ra, bạn cũng nhận được điểm kinh nghiệm dựa trên lượng công việc khi xây dựng hoặc chế tạo. \r\n\r\nBạn không thể phát huy toàn bộ sức mạnh của những Pal có cấp độ cao hơn bạn,\r\nchỉ số của chúng sẽ được giảm xuống ngang với cấp độ của người chơi, đây là cơ chế Đồng Bộ Cấp Độ."
+        }
+      },
+      "Help_13": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_13_TextData",
+          "SourceString": "Tăng cường chỉ số của người chơi\r\n\r\nTừ tab Túi Đồ trong menu, bạn có thể phân bổ Điểm Chỉ Số\r\nđể tăng các thông số của nhân vật. \r\nHãy gia tăng cấp độ của nhân vật để nhận được Điểm Chỉ Số.",
+          "LocalizedString": "Tăng cường chỉ số của người chơi\r\n\r\nTừ tab Túi Đồ trong menu, bạn có thể phân bổ Điểm Chỉ Số\r\nđể tăng các thông số của nhân vật. \r\nHãy gia tăng cấp độ của nhân vật để nhận được Điểm Chỉ Số."
+        }
+      },
+      "Help_14": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_14_TextData",
+          "SourceString": "Căn cứ\r\n\r\nKhi bạn xây Palbox, khu vực xung quanh sẽ là căn cứ của bạn. \r\nTương tác với Palbox cho phép bạn triệu hồi Pal vào căn cứ,\r\nvà các Pal được thả ra sẽ tự động làm việc dựa trên Năng Lực Làm Việc của chúng. \r\n\r\nBằng cách xây dựng các công trình bên trong căn cứ, bạn có thể để Pal làm việc cho mình. \r\nHãy cẩn thận vì những Pal được thả ra tại căn cứ có thể gặp nguy hiểm từ kẻ địch bên ngoài.",
+          "LocalizedString": "Căn cứ\r\n\r\nKhi bạn xây Palbox, khu vực xung quanh sẽ là căn cứ của bạn. \r\nTương tác với Palbox cho phép bạn triệu hồi Pal vào căn cứ,\r\nvà các Pal được thả ra sẽ tự động làm việc dựa trên Năng Lực Làm Việc của chúng. \r\n\r\nBằng cách xây dựng các công trình bên trong căn cứ, bạn có thể để Pal làm việc cho mình. \r\nHãy cẩn thận vì những Pal được thả ra tại căn cứ có thể gặp nguy hiểm từ kẻ địch bên ngoài."
+        }
+      },
+      "Help_15": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_15_TextData",
+          "SourceString": "Palbox\r\n\r\nMột phạm vi nhất định xung quanh Palbox sẽ trở thành lãnh thổ căn cứ của Bang Hội bạn tham gia, và mọi công trình nằm trong khu vực đó sẽ thuộc sở hữu của Bang Hội. \r\nBằng cách tương tác với Palbox để mở và hoàn thành các “Nhiệm Vụ Căn Cứ”, căn cứ của Bang Hội sẽ phát triển, đồng thời số lượng Pal có thể triệu hồi tại căn cứ cũng sẽ tăng lên. \r\n\r\nPal được đưa vào Box sẽ nghỉ ngơi trong đó để phục hồi thể lực. \r\nNgay cả khi đang trong trạng thái kiệt sức, Pal vẫn sẽ tự động hồi phục. \r\n\r\nPalbox có tính năng Dịch Chuyển Nhanh, cho phép bạn dịch chuyển đến các Tượng Đại Bàng đã mở khóa trong hành trình khám phá của mình.\r\n*Nếu Dịch Chuyển Nhanh bị vô hiệu hóa trong Cài Đặt Thế Giới, bạn sẽ không thể sử dụng tính năng này.",
+          "LocalizedString": "Palbox\r\n\r\nMột phạm vi nhất định xung quanh Palbox sẽ trở thành lãnh thổ căn cứ của Bang Hội bạn tham gia, và mọi công trình nằm trong khu vực đó sẽ thuộc sở hữu của Bang Hội. \r\nBằng cách tương tác với Palbox để mở và hoàn thành các “Nhiệm Vụ Căn Cứ”, căn cứ của Bang Hội sẽ phát triển, đồng thời số lượng Pal có thể triệu hồi tại căn cứ cũng sẽ tăng lên. \r\n\r\nPal được đưa vào Box sẽ nghỉ ngơi trong đó để phục hồi thể lực. \r\nNgay cả khi đang trong trạng thái kiệt sức, Pal vẫn sẽ tự động hồi phục. \r\n\r\nPalbox có tính năng Dịch Chuyển Nhanh, cho phép bạn dịch chuyển đến các Tượng Đại Bàng đã mở khóa trong hành trình khám phá của mình.\r\n*Nếu Dịch Chuyển Nhanh bị vô hiệu hóa trong Cài Đặt Thế Giới, bạn sẽ không thể sử dụng tính năng này."
+        }
+      },
+      "Help_16": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_16_TextData",
+          "SourceString": "Bắt giữ\r\n\r\nBạn có thể bắt giữ Pal bằng cách nhấn <keyGuideIcon id=|ThrowObject|/> để ném Quả Cầu Pal vào chúng. \r\nPal sẽ dễ bị bắt hơn khi Máu của chúng giảm xuống, bị ảnh hưởng bởi trạng thái bất lợi, hoặc đang mắc bẫy. \r\nNgoài ra, có thể gia tăng tỷ lệ bắt giữ bằng cách ném Quả Cầu Pal từ phía sau trong lúc Pal chưa phát hiện ra bạn. \r\nHãy chế tạo các loại Quả Cầu mạnh hơn để bắt những Pal hùng mạnh.",
+          "LocalizedString": "Bắt giữ\r\n\r\nBạn có thể bắt giữ Pal bằng cách nhấn <keyGuideIcon id=|ThrowObject|/> để ném Quả Cầu Pal vào chúng. \r\nPal sẽ dễ bị bắt hơn khi Máu của chúng giảm xuống, bị ảnh hưởng bởi trạng thái bất lợi, hoặc đang mắc bẫy. \r\nNgoài ra, có thể gia tăng tỷ lệ bắt giữ bằng cách ném Quả Cầu Pal từ phía sau trong lúc Pal chưa phát hiện ra bạn. \r\nHãy chế tạo các loại Quả Cầu mạnh hơn để bắt những Pal hùng mạnh."
+        }
+      },
+      "Help_17": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_17_TextData",
+          "SourceString": "Pal Trong Đội\r\n\r\nBạn có thể mang theo tối đa 5 Pal cùng lúc, nếu bắt từ 6 Pal trở lên, chúng sẽ tự động được chuyển vào Palbox. \r\nMột đội gồm tối đa 5 Pal này được gọi là Pal Trong Đội. \r\n\r\nBạn có thể mở tab Pal Trong Đội từ menu. \r\nTại đây, bạn có thể kiểm tra các chỉ số như Máu và mức độ no của các Pal Trong Đội. \r\nNgoài ra, bạn cũng có thể xem các kỹ năng mà chúng sở hữu,\r\nvà thay đổi các kỹ năng chủ động đã học.",
+          "LocalizedString": "Pal Trong Đội\r\n\r\nBạn có thể mang theo tối đa 5 Pal cùng lúc, nếu bắt từ 6 Pal trở lên, chúng sẽ tự động được chuyển vào Palbox. \r\nMột đội gồm tối đa 5 Pal này được gọi là Pal Trong Đội. \r\n\r\nBạn có thể mở tab Pal Trong Đội từ menu. \r\nTại đây, bạn có thể kiểm tra các chỉ số như Máu và mức độ no của các Pal Trong Đội. \r\nNgoài ra, bạn cũng có thể xem các kỹ năng mà chúng sở hữu,\r\nvà thay đổi các kỹ năng chủ động đã học."
+        }
+      },
+      "Help_18": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_18_TextData",
+          "SourceString": "Mức Độ No\r\n\r\nKhi người chơi hoặc Pal hoạt động, Mức Độ No sẽ giảm dần. \r\nNếu Mức Độ No giảm, sẽ gây ra các tác động tiêu cực như giảm thông số, v.v... \r\n\r\nBạn có thể hồi phục Mức Độ No của người chơi và Pal\r\nbằng cách sử dụng các vật phẩm thực phẩm từ túi đồ.",
+          "LocalizedString": "Mức Độ No\r\n\r\nKhi người chơi hoặc Pal hoạt động, Mức Độ No sẽ giảm dần. \r\nNếu Mức Độ No giảm, sẽ gây ra các tác động tiêu cực như giảm thông số, v.v... \r\n\r\nBạn có thể hồi phục Mức Độ No của người chơi và Pal\r\nbằng cách sử dụng các vật phẩm thực phẩm từ túi đồ."
+        }
+      },
+      "Help_19": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_19_TextData",
+          "SourceString": "Chỉ số Minh Mẫn\r\n\r\nKhi Pal làm việc trong căn cứ, chỉ số Minh Mẫn của chúng sẽ giảm dần. \r\nKhi chỉ số Minh Mẫn giảm xuống, Pal có thể lười biếng hoặc bị bệnh. \r\nNếu Mức Độ No đang ở trạng thái thấp, chỉ số Minh Mẫn sẽ càng dễ giảm hơn. \r\nBạn có thể hồi phục chỉ số Minh Mẫn của Pal bằng cách cho chúng ăn món ăn ngon hoặc để chúng nghỉ ngơi ở suối nước nóng.",
+          "LocalizedString": "Chỉ số Minh Mẫn\r\n\r\nKhi Pal làm việc trong căn cứ, chỉ số Minh Mẫn của chúng sẽ giảm dần. \r\nKhi chỉ số Minh Mẫn giảm xuống, Pal có thể lười biếng hoặc bị bệnh. \r\nNếu Mức Độ No đang ở trạng thái thấp, chỉ số Minh Mẫn sẽ càng dễ giảm hơn. \r\nBạn có thể hồi phục chỉ số Minh Mẫn của Pal bằng cách cho chúng ăn món ăn ngon hoặc để chúng nghỉ ngơi ở suối nước nóng."
+        }
+      },
+      "Help_20": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_20_TextData",
+          "SourceString": "Kỹ Năng Đồng Hành\r\n\r\nKỹ Năng Đồng Hành là năng lực độc đáo mà mỗi Pal sở hữu tùy theo loài. \r\nMột số Kỹ Năng Đồng Hành cho phép Pal bắn súng hoặc cho phép người chơi cưỡi chúng. \r\n\r\nMột số Pal cần có “Trang Bị Pal| để mở khóa Kỹ Năng Đồng Hành của chúng, Trang Bị Pal có thể được chế tạo tại Bàn Chế Tạo Trang Bị Pal. \r\n\r\nBạn có thể kiểm tra hiệu quả của kỹ năng từ màn hình Pal Trong Đội, một số Pal sẽ mang lại hiệu ứng hỗ trợ chỉ bằng việc có mặt trong đội hình Pal Trong Đội.",
+          "LocalizedString": "Kỹ Năng Đồng Hành\r\n\r\nKỹ Năng Đồng Hành là năng lực độc đáo mà mỗi Pal sở hữu tùy theo loài. \r\nMột số Kỹ Năng Đồng Hành cho phép Pal bắn súng hoặc cho phép người chơi cưỡi chúng. \r\n\r\nMột số Pal cần có “Trang Bị Pal| để mở khóa Kỹ Năng Đồng Hành của chúng, Trang Bị Pal có thể được chế tạo tại Bàn Chế Tạo Trang Bị Pal. \r\n\r\nBạn có thể kiểm tra hiệu quả của kỹ năng từ màn hình Pal Trong Đội, một số Pal sẽ mang lại hiệu ứng hỗ trợ chỉ bằng việc có mặt trong đội hình Pal Trong Đội."
+        }
+      },
+      "Help_21": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_21_TextData",
+          "SourceString": "Từ Điển Pal\r\n\r\nBạn có thể mở Từ Điển Pal từ menu. \r\nThông tin về những Pal bạn đã bắt hoặc nhìn thấy sẽ được ghi lại,\r\nbạn có thể tìm hiểu về nơi sinh sống cũng như những thông tin khác của chúng.",
+          "LocalizedString": "Từ Điển Pal\r\n\r\nBạn có thể mở Từ Điển Pal từ menu. \r\nThông tin về những Pal bạn đã bắt hoặc nhìn thấy sẽ được ghi lại,\r\nbạn có thể tìm hiểu về nơi sinh sống cũng như những thông tin khác của chúng."
+        }
+      },
+      "Help_22": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_22_TextData",
+          "SourceString": "Điểm Thưởng Từ Điển Pal\r\n\r\nBạn sẽ nhận được điểm thưởng kinh nghiệm khi bắt được một loài Pal mới.\r\nBạn cũng sẽ nhận được điểm thưởng kinh nghiệm khi bắt 5 Pal cùng loài.",
+          "LocalizedString": "Điểm Thưởng Từ Điển Pal\r\n\r\nBạn sẽ nhận được điểm thưởng kinh nghiệm khi bắt được một loài Pal mới.\r\nBạn cũng sẽ nhận được điểm thưởng kinh nghiệm khi bắt 5 Pal cùng loài."
+        }
+      },
+      "Help_23": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_23_TextData",
+          "SourceString": "Bang hội\r\n\r\nBạn có thể gửi yêu cầu gia nhập bang hội của người chơi khác bằng cách đến gần họ. \r\nNgoài ra, tab Bang Hội trong menu có hiển thị\r\nthông tin về Bang Hội mà bạn đang tham gia, và bạn có thể xem thông tin các thành viên. \r\nNhững người chơi trong cùng một bang hội sẽ chia sẻ một căn cứ,\r\nvà có thể sử dụng chung những Pal đang làm việc bên trong.",
+          "LocalizedString": "Bang hội\r\n\r\nBạn có thể gửi yêu cầu gia nhập bang hội của người chơi khác bằng cách đến gần họ. \r\nNgoài ra, tab Bang Hội trong menu có hiển thị\r\nthông tin về Bang Hội mà bạn đang tham gia, và bạn có thể xem thông tin các thành viên. \r\nNhững người chơi trong cùng một bang hội sẽ chia sẻ một căn cứ,\r\nvà có thể sử dụng chung những Pal đang làm việc bên trong."
+        }
+      },
+      "Help_24": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_24_TextData",
+          "SourceString": "Bản đồ\r\n\r\nNhấn <keyGuideIcon id=|OpenWorldMap|/> để thể hiển thị bản đồ. \r\nThông tin về địa hình và các đặc điểm khác của thế giới sẽ được hiển thị trên bản đồ.",
+          "LocalizedString": "Bản đồ\r\n\r\nNhấn <keyGuideIcon id=|OpenWorldMap|/> để thể hiển thị bản đồ. \r\nThông tin về địa hình và các đặc điểm khác của thế giới sẽ được hiển thị trên bản đồ."
+        }
+      },
+      "Help_25": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_25_TextData",
+          "SourceString": "Tượng Đại Bàng\r\n\r\nKhi bạn tương tác và mở khóa Tượng Đại Bàng,\r\nbạn có thể dịch chuyển đến các Tượng Đại Bàng đã mở khóa khác hoặc Palbox của bạn. \r\n\r\nNgoài ra, bạn còn nhận được Điểm Kỹ Thuật khi mở khóa Tượng Đại Bàng. \r\nCác Tượng Đại Bàng nằm rải rác trên bản đồ, hãy đi khám phá khắp nơi để tìm chúng.\r\n\r\n*Không thể sử dụng dịch chuyển nếu chức năng này bị tắt trong cài đặt thế giới.",
+          "LocalizedString": "Tượng Đại Bàng\r\n\r\nKhi bạn tương tác và mở khóa Tượng Đại Bàng,\r\nbạn có thể dịch chuyển đến các Tượng Đại Bàng đã mở khóa khác hoặc Palbox của bạn. \r\n\r\nNgoài ra, bạn còn nhận được Điểm Kỹ Thuật khi mở khóa Tượng Đại Bàng. \r\nCác Tượng Đại Bàng nằm rải rác trên bản đồ, hãy đi khám phá khắp nơi để tìm chúng.\r\n\r\n*Không thể sử dụng dịch chuyển nếu chức năng này bị tắt trong cài đặt thế giới."
+        }
+      },
+      "Help_26": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_26_TextData",
+          "SourceString": "Menu tròn\r\n\r\nNhấn <keyGuideIcon id=|PartnerPalInstructions|/> để mở menu tròn. \r\nTại đây, bạn có thể ra các lệnh chiến thuật cho các Pal trong đội hoặc cho chúng ăn.",
+          "LocalizedString": "Menu tròn\r\n\r\nNhấn <keyGuideIcon id=|PartnerPalInstructions|/> để mở menu tròn. \r\nTại đây, bạn có thể ra các lệnh chiến thuật cho các Pal trong đội hoặc cho chúng ăn."
+        }
+      },
+      "Help_27": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_27_TextData",
+          "SourceString": "Ban đêm\r\n\r\nKhi thời gian trôi qua và màn đêm buông xuống, xung quanh trở nên tối tăm, nhiệt độ giảm, đó là lúc các Pal nguy hiểm vào ban đêm sẽ xuất hiện. \r\nĐể an toàn, bạn hãy xây giường ở một nơi an toàn và ngủ cho đến sáng, hoặc ở gần lửa trại để giữ ấm.",
+          "LocalizedString": "Ban đêm\r\n\r\nKhi thời gian trôi qua và màn đêm buông xuống, xung quanh trở nên tối tăm, nhiệt độ giảm, đó là lúc các Pal nguy hiểm vào ban đêm sẽ xuất hiện. \r\nĐể an toàn, bạn hãy xây giường ở một nơi an toàn và ngủ cho đến sáng, hoặc ở gần lửa trại để giữ ấm."
+        }
+      },
+      "Help_28": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_28_TextData",
+          "SourceString": "Boss tháp\r\n\r\nMỗi khu vực đều có một ngọn tháp, đây là nơi trú ngụ của thủ lĩnh của tổ chức cai trị khu vực đó. \r\nNhững thủ lĩnh này thường xem Nhà Huấn Luyện Pal từ bên ngoài đảo là kẻ địch, và cuộc chiến sẽ bắt đầu ngay khi bạn bước vào tháp. \r\nTrận chiến với boss tháp có giới hạn thời gian, nếu không đánh bại được kẻ địch trong thời gian quy định, bạn sẽ thất bại. \r\nBạn có thể thách đấu boss tháp bất kể số lần, miễn là không có người khác đang giao chiến.",
+          "LocalizedString": "Boss tháp\r\n\r\nMỗi khu vực đều có một ngọn tháp, đây là nơi trú ngụ của thủ lĩnh của tổ chức cai trị khu vực đó. \r\nNhững thủ lĩnh này thường xem Nhà Huấn Luyện Pal từ bên ngoài đảo là kẻ địch, và cuộc chiến sẽ bắt đầu ngay khi bạn bước vào tháp. \r\nTrận chiến với boss tháp có giới hạn thời gian, nếu không đánh bại được kẻ địch trong thời gian quy định, bạn sẽ thất bại. \r\nBạn có thể thách đấu boss tháp bất kể số lần, miễn là không có người khác đang giao chiến."
+        }
+      },
+      "Help_29": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_29_TextData",
+          "SourceString": "Phạm tội\r\n\r\nNếu tấn công các NPC lương thiện trên đường hoặc ở làng mạc, bạn sẽ bị báo cáo và trở thành tội phạm.\r\nNếu hành vi phạm tội của bạn bị ai đó chứng kiến, bạn sẽ bị Đội Tự Vệ Đảo Palpagos truy nã, nên hãy hết sức cẩn thận.\r\n\r\nTrong trường hợp bị truy nã, bạn có thể xóa bỏ trạng thái này bằng cách lẩn trốn khỏi Đội Tự Vệ\r\nvà không để bị phát hiện trong một khoảng thời gian nhất định.",
+          "LocalizedString": "Phạm tội\r\n\r\nNếu tấn công các NPC lương thiện trên đường hoặc ở làng mạc, bạn sẽ bị báo cáo và trở thành tội phạm.\r\nNếu hành vi phạm tội của bạn bị ai đó chứng kiến, bạn sẽ bị Đội Tự Vệ Đảo Palpagos truy nã, nên hãy hết sức cẩn thận.\r\n\r\nTrong trường hợp bị truy nã, bạn có thể xóa bỏ trạng thái này bằng cách lẩn trốn khỏi Đội Tự Vệ\r\nvà không để bị phát hiện trong một khoảng thời gian nhất định."
+        }
+      },
+      "Help_30": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_30_TextData",
+          "SourceString": "Độ bền trang bị\r\n\r\nKhi sử dụng, trang bị sẽ bị giảm độ bền, và nếu độ bền giảm về 0, món trang bị đó sẽ bị hỏng. \r\nBạn có thể sửa chữa những trang bị đã giảm độ bền bằng vật liệu tại bàn sửa chữa.",
+          "LocalizedString": "Độ bền trang bị\r\n\r\nKhi sử dụng, trang bị sẽ bị giảm độ bền, và nếu độ bền giảm về 0, món trang bị đó sẽ bị hỏng. \r\nBạn có thể sửa chữa những trang bị đã giảm độ bền bằng vật liệu tại bàn sửa chữa."
+        }
+      },
+      "Help_31": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_31_TextData",
+          "SourceString": "Vật phẩm bị hỏng\r\n\r\nMột số vật phẩm như thực phẩm và các loại tương tự sẽ bị hỏng theo thời gian, và khi hỏng, vật phẩm đó sẽ biến mất. \r\nBạn có thể ngăn ngừa việc vật phẩm bị hỏng bằng cách cất giữ trong hộp làm mát hoặc tủ lạnh.",
+          "LocalizedString": "Vật phẩm bị hỏng\r\n\r\nMột số vật phẩm như thực phẩm và các loại tương tự sẽ bị hỏng theo thời gian, và khi hỏng, vật phẩm đó sẽ biến mất. \r\nBạn có thể ngăn ngừa việc vật phẩm bị hỏng bằng cách cất giữ trong hộp làm mát hoặc tủ lạnh."
+        }
+      },
+      "Help_32": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_32_TextData",
+          "SourceString": "Thuộc tính\r\n\r\nMỗi Pal đều mang một thuộc tính nhất định, và mỗi thuộc tính sẽ khắc chế và bị khắc chế so với thuộc tính khác. \r\nTấn công vào thuộc tính khắc chế sẽ tăng thêm sát thương, tấn công vào thuộc tính bất lợi sẽ gây ít sát thương hơn.",
+          "LocalizedString": "Thuộc tính\r\n\r\nMỗi Pal đều mang một thuộc tính nhất định, và mỗi thuộc tính sẽ khắc chế và bị khắc chế so với thuộc tính khác. \r\nTấn công vào thuộc tính khắc chế sẽ tăng thêm sát thương, tấn công vào thuộc tính bất lợi sẽ gây ít sát thương hơn."
+        }
+      },
+      "Help_33": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_33_TextData",
+          "SourceString": "Trạng Thái Bất Lợi\r\n\r\nPal và người chơi có thể rơi vào trạng thái bất lợi do tác động từ môi trường xung quanh hoặc hiệu ứng kỹ năng. \r\nCó nhiều loại trạng thái bất lợi khác nhau, mỗi loại mang một hiệu ứng riêng biệt. \r\nNgoài ra, những Pal đang ở trạng thái bất lợi sẽ dễ đánh bắt hơn. \r\n\r\n\r\n“Thiêu Đốt”\r\nCơ thể bị thiêu đốt và chịu sát thương duy trì. \r\nGiảm sát thương nhận vào từ các đòn tấn công hệ Cỏ. \r\nPal hệ Lửa và hệ Nước sẽ không bị dính trạng thái Thiêu Đốt \r\n\r\n“Làm Ướt”\r\nCơ thể bị ướt, khiến tốc độ di chuyển giảm. \r\nTăng sát thương nhận vào từ các đòn tấn công hệ Sét. \r\nGiảm sát thương nhận vào từ các đòn tấn công hệ Lửa. \r\n\r\n“Dây Leo Quấn”\r\nCơ thể bị dây leo trói chặt, khiến tốc độ di chuyển giảm. \r\nMột số hành động như nhảy và né tránh bị hạn chế. \r\nTăng sát thương nhận vào từ các đòn tấn công hệ Lửa. \r\n\r\n“Giật Điện”\r\nCơ thể bị tê liệt do điện, không thể hành động. \r\nTăng sát thương nhận vào từ các đòn tấn công hệ Nước. \r\n\r\n“Đóng Băng”\r\nCơ thể bị đông cứng, không thể hành động. \r\n\r\n“Phủ Bùn”\r\nCơ thể bị dính đầy bùn, khiến tốc độ di chuyển giảm. \r\nTăng sát thương nhận vào từ các đòn tấn công hệ Cỏ. \r\nGiảm sát thương nhận vào từ các đòn tấn công hệ Sét. \r\n\r\n“Che Mắt”\r\nTầm nhìn bị che khuất, làm mất dấu mục tiêu tấn công. \r\n\r\n“Gây Độc”\r\nCơ thể bị nhiễm độc, chịu sát thương duy trì.",
+          "LocalizedString": "Trạng Thái Bất Lợi\r\n\r\nPal và người chơi có thể rơi vào trạng thái bất lợi do tác động từ môi trường xung quanh hoặc hiệu ứng kỹ năng. \r\nCó nhiều loại trạng thái bất lợi khác nhau, mỗi loại mang một hiệu ứng riêng biệt. \r\nNgoài ra, những Pal đang ở trạng thái bất lợi sẽ dễ đánh bắt hơn. \r\n\r\n\r\n“Thiêu Đốt”\r\nCơ thể bị thiêu đốt và chịu sát thương duy trì. \r\nGiảm sát thương nhận vào từ các đòn tấn công hệ Cỏ. \r\nPal hệ Lửa và hệ Nước sẽ không bị dính trạng thái Thiêu Đốt \r\n\r\n“Làm Ướt”\r\nCơ thể bị ướt, khiến tốc độ di chuyển giảm. \r\nTăng sát thương nhận vào từ các đòn tấn công hệ Sét. \r\nGiảm sát thương nhận vào từ các đòn tấn công hệ Lửa. \r\n\r\n“Dây Leo Quấn”\r\nCơ thể bị dây leo trói chặt, khiến tốc độ di chuyển giảm. \r\nMột số hành động như nhảy và né tránh bị hạn chế. \r\nTăng sát thương nhận vào từ các đòn tấn công hệ Lửa. \r\n\r\n“Giật Điện”\r\nCơ thể bị tê liệt do điện, không thể hành động. \r\nTăng sát thương nhận vào từ các đòn tấn công hệ Nước. \r\n\r\n“Đóng Băng”\r\nCơ thể bị đông cứng, không thể hành động. \r\n\r\n“Phủ Bùn”\r\nCơ thể bị dính đầy bùn, khiến tốc độ di chuyển giảm. \r\nTăng sát thương nhận vào từ các đòn tấn công hệ Cỏ. \r\nGiảm sát thương nhận vào từ các đòn tấn công hệ Sét. \r\n\r\n“Che Mắt”\r\nTầm nhìn bị che khuất, làm mất dấu mục tiêu tấn công. \r\n\r\n“Gây Độc”\r\nCơ thể bị nhiễm độc, chịu sát thương duy trì."
+        }
+      },
+      "Help_34": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_34_TextData",
+          "SourceString": "Trứng Pal\r\n\r\nKhi di chuyển khám phá thế giới, đôi khi bạn sẽ tìm thấy Trứng Pal. \r\nBạn có thể đặt Trứng Pal vào Máy Ấp Trứng để ấp nở. \r\nĐiều chỉnh nhiệt độ xung quanh phù hợp với từng loại trứng sẽ giúp tăng tốc độ ấp nở.",
+          "LocalizedString": "Trứng Pal\r\n\r\nKhi di chuyển khám phá thế giới, đôi khi bạn sẽ tìm thấy Trứng Pal. \r\nBạn có thể đặt Trứng Pal vào Máy Ấp Trứng để ấp nở. \r\nĐiều chỉnh nhiệt độ xung quanh phù hợp với từng loại trứng sẽ giúp tăng tốc độ ấp nở."
+        }
+      },
+      "Help_35": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_35_TextData",
+          "SourceString": "Trang Trại Nhân Giống Pal\r\n\r\nChỉ định một Pal đực và một Pal cái vào Trang Trại Nhân Giống, và đặt Bánh Kem vào đó,\r\nbạn có thể nhận được Trứng Pal. \r\nMột số trường hợp kết hợp Pal đặc biệt có thể tạo ra Trứng Pal đặc biệt.",
+          "LocalizedString": "Trang Trại Nhân Giống Pal\r\n\r\nChỉ định một Pal đực và một Pal cái vào Trang Trại Nhân Giống, và đặt Bánh Kem vào đó,\r\nbạn có thể nhận được Trứng Pal. \r\nMột số trường hợp kết hợp Pal đặc biệt có thể tạo ra Trứng Pal đặc biệt."
+        }
+      },
+      "Help_36": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_36_TextData",
+          "SourceString": "Hạng Sao Pal và Buồng Tinh Luyện\r\n\r\nMỗi Pal đều sở hữu một Hạng Sao riêng, Hạng Sao càng cao thì các chỉ số của Pal càng mạnh. \r\nNgoài ra, khi Hạng Sao tăng, Kỹ Năng Đồng Hành của chúng cũng có thể trở nên mạnh mẽ hơn. \r\nBạn có thể nâng Hạng Sao cho Pal tại Buồng Tinh Luyện, quá trình này cần tiêu hao một số lượng lớn Pal cùng loại.",
+          "LocalizedString": "Hạng Sao Pal và Buồng Tinh Luyện\r\n\r\nMỗi Pal đều sở hữu một Hạng Sao riêng, Hạng Sao càng cao thì các chỉ số của Pal càng mạnh. \r\nNgoài ra, khi Hạng Sao tăng, Kỹ Năng Đồng Hành của chúng cũng có thể trở nên mạnh mẽ hơn. \r\nBạn có thể nâng Hạng Sao cho Pal tại Buồng Tinh Luyện, quá trình này cần tiêu hao một số lượng lớn Pal cùng loại."
+        }
+      },
+      "Help_37": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_37_TextData",
+          "SourceString": "Tượng Pal\r\n\r\nDâng Tượng Pal tìm thấy trên đường cho Tượng Đá Sức Mạnh để cường hóa nhiều kỹ năng khác nhau của bản thân.",
+          "LocalizedString": "Tượng Pal\r\n\r\nDâng Tượng Pal tìm thấy trên đường cho Tượng Đá Sức Mạnh để cường hóa nhiều kỹ năng khác nhau của bản thân."
+        }
+      },
+      "Help_38": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_38_TextData",
+          "SourceString": "Linh Hồn Pal\r\n\r\nBạn có thể dâng Linh Hồn Pal tìm thấy trong rương kho báu hoặc ở những nơi khác cho Tượng Đá Sức Mạnh để tăng cường các chỉ số của Pal.",
+          "LocalizedString": "Linh Hồn Pal\r\n\r\nBạn có thể dâng Linh Hồn Pal tìm thấy trong rương kho báu hoặc ở những nơi khác cho Tượng Đá Sức Mạnh để tăng cường các chỉ số của Pal."
+        }
+      },
+      "Help_39": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_39_TextData",
+          "SourceString": "Biến thể Pal\r\n\r\nMột số Pal có thể thay đổi để thích nghi với môi trường, tạo thành các “biến thể” với hình dáng đặc biệt.\r\nBiến thể Pal sở hữu thuộc tính khác so với loài gốc và có chỉ số cao hơn một chút.\r\n\r\nNgoài ra, một số biến thể cũng có thể được tạo ra thông qua sự kết hợp lai giống.\r\n\r\nTrong hệ thống Điểm Thưởng Từ Điển Pal, biến thể được tính riêng so với loài gốc, vì vậy khi bắt đủ 5 cá thể, bạn sẽ nhận điểm thưởng kinh nghiệm.",
+          "LocalizedString": "Biến thể Pal\r\n\r\nMột số Pal có thể thay đổi để thích nghi với môi trường, tạo thành các “biến thể” với hình dáng đặc biệt.\r\nBiến thể Pal sở hữu thuộc tính khác so với loài gốc và có chỉ số cao hơn một chút.\r\n\r\nNgoài ra, một số biến thể cũng có thể được tạo ra thông qua sự kết hợp lai giống.\r\n\r\nTrong hệ thống Điểm Thưởng Từ Điển Pal, biến thể được tính riêng so với loài gốc, vì vậy khi bắt đủ 5 cá thể, bạn sẽ nhận điểm thưởng kinh nghiệm."
+        }
+      },
+      "Help_40": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_40_TextData",
+          "SourceString": "Pal May Mắn\r\n\r\nKhi khám phá thế giới, bạn có thể tìm thấy những Pal hiếm được gọi là Pal May Mắn. \r\nĐặc trưng của chúng là cơ thể phát sáng và to lớn vượt trội. \r\nChúng thường sở hữu các kỹ năng chủ động và bị động đặc biệt, cùng với chỉ số cao.",
+          "LocalizedString": "Pal May Mắn\r\n\r\nKhi khám phá thế giới, bạn có thể tìm thấy những Pal hiếm được gọi là Pal May Mắn. \r\nĐặc trưng của chúng là cơ thể phát sáng và to lớn vượt trội. \r\nChúng thường sở hữu các kỹ năng chủ động và bị động đặc biệt, cùng với chỉ số cao."
+        }
+      },
+      "Help_40_2": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_40_2_TextData",
+          "SourceString": "Pal Hung Bạo\r\n\r\nKhi khám phá thế giới, bạn có thể tìm thấy những Pal hung dữ và cực kỳ nguy hiểm được gọi là Pal Hung Bạo. \r\nĐặc trưng của chúng là cơ thể được bao phủ bởi hào quang đỏ, kích thước vượt trội, và bản tính cực kỳ hung bạo. \r\nNhờ có hào quang này, những Pal này không thể bị bắt bằng Quả Cầu. \r\nHãy chuẩn bị đầy đủ năng lực trước khi đối đầu với chúng.",
+          "LocalizedString": "Pal Hung Bạo\r\n\r\nKhi khám phá thế giới, bạn có thể tìm thấy những Pal hung dữ và cực kỳ nguy hiểm được gọi là Pal Hung Bạo. \r\nĐặc trưng của chúng là cơ thể được bao phủ bởi hào quang đỏ, kích thước vượt trội, và bản tính cực kỳ hung bạo. \r\nNhờ có hào quang này, những Pal này không thể bị bắt bằng Quả Cầu. \r\nHãy chuẩn bị đầy đủ năng lực trước khi đối đầu với chúng."
+        }
+      },
+      "Help_41": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_41_TextData",
+          "SourceString": "Hình phạt khi chết\r\n\r\nKhi một người chơi mất mạng, tất cả vật phẩm và Pal đang mang theo sẽ rơi lại tại vị trí đó. \r\nBạn có thể thu hồi chúng nếu quay lại nơi đã chết sau khi hồi sinh. \r\nNgoài ra, một cột sáng sẽ xuất hiện tại vị trí chết, và bạn có thể chạm vào đó từ trên không để thu lại vật phẩm và Pal.\r\n\r\n*Hình phạt có thể được tùy chỉnh trong cài đặt thế giới, bao gồm việc bật/tắt hoặc thay đổi nội dung hình phạt.",
+          "LocalizedString": "Hình phạt khi chết\r\n\r\nKhi một người chơi mất mạng, tất cả vật phẩm và Pal đang mang theo sẽ rơi lại tại vị trí đó. \r\nBạn có thể thu hồi chúng nếu quay lại nơi đã chết sau khi hồi sinh. \r\nNgoài ra, một cột sáng sẽ xuất hiện tại vị trí chết, và bạn có thể chạm vào đó từ trên không để thu lại vật phẩm và Pal.\r\n\r\n*Hình phạt có thể được tùy chỉnh trong cài đặt thế giới, bao gồm việc bật/tắt hoặc thay đổi nội dung hình phạt."
+        }
+      },
+      "Help_42": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_42_TextData",
+          "SourceString": "Đấu Trường\r\n\r\nĐây là cơ sở nằm trên hòn đảo nhỏ biệt lập giữa vùng sa mạc.\r\nTại đây, bạn có thể phối hợp cùng những Pal đã được mình rèn luyện để so tài với Nhà Huấn Luyện Pal khác trong cùng thế giới.\r\nNgoài ra, bạn cũng có thể thi đấu lực chiến với NPC. Đặc biệt, các NPC từ cấp Siêu Đẳng trở lên sở hữu sức mạnh vượt trội.\r\n\r\nTừ 5 Pal đang mang theo, bạn sẽ chọn 1 Pal chính làm đồng đội và 2 Pal phụ để tham chiến.\r\nBạn sẽ giành chiến thắng khi đánh bại Nhà Huấn Luyện Pal đối thủ hoặc toàn bộ Pal của họ.\r\n\r\nSau trận chiến, mọi vật phẩm đã sử dụng và Pal bị hạ gục trong trận chiến sẽ được khôi phục nguyên trạng.\r\n*Không thể sử dụng vật phẩm tiêu hao trong Đấu Trường\r\n*Không thể sử dụng vũ khí cần Quả Cầu Pal hoặc vũ khí dùng để tăng cường chỉ số trong Đấu Trường\r\n\r\nKhi giành chiến thắng, bạn sẽ nhận được Điểm Xếp Hạng (RP), cấp bậc của bạn sẽ tăng lên khi đạt được một lượng RP nhất định.\r\nNếu thua cuộc, bạn sẽ mất RP.\r\n\r\nNgoài chiến đấu, bạn cũng có thể xem các trận đấu đang diễn ra giữa những người chơi khác.",
+          "LocalizedString": "Đấu Trường\r\n\r\nĐây là cơ sở nằm trên hòn đảo nhỏ biệt lập giữa vùng sa mạc.\r\nTại đây, bạn có thể phối hợp cùng những Pal đã được mình rèn luyện để so tài với Nhà Huấn Luyện Pal khác trong cùng thế giới.\r\nNgoài ra, bạn cũng có thể thi đấu lực chiến với NPC. Đặc biệt, các NPC từ cấp Siêu Đẳng trở lên sở hữu sức mạnh vượt trội.\r\n\r\nTừ 5 Pal đang mang theo, bạn sẽ chọn 1 Pal chính làm đồng đội và 2 Pal phụ để tham chiến.\r\nBạn sẽ giành chiến thắng khi đánh bại Nhà Huấn Luyện Pal đối thủ hoặc toàn bộ Pal của họ.\r\n\r\nSau trận chiến, mọi vật phẩm đã sử dụng và Pal bị hạ gục trong trận chiến sẽ được khôi phục nguyên trạng.\r\n*Không thể sử dụng vật phẩm tiêu hao trong Đấu Trường\r\n*Không thể sử dụng vũ khí cần Quả Cầu Pal hoặc vũ khí dùng để tăng cường chỉ số trong Đấu Trường\r\n\r\nKhi giành chiến thắng, bạn sẽ nhận được Điểm Xếp Hạng (RP), cấp bậc của bạn sẽ tăng lên khi đạt được một lượng RP nhất định.\r\nNếu thua cuộc, bạn sẽ mất RP.\r\n\r\nNgoài chiến đấu, bạn cũng có thể xem các trận đấu đang diễn ra giữa những người chơi khác."
+        }
+      },
+      "Help_2_PS5": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_2_PS5_TextData",
+          "SourceString": "Điều khiển (Bộ điều khiển)\r\n\r\nCần Trái: Di chuyển\r\nCần Phải: Điều khiển camera\r\n<keyGuideIcon id=|ThrowPal| OverrideType=|2|/>　Triệu hồi Pal\r\n<keyGuideIcon id=|ThrowObject| OverrideType=|2|/>　Ném Quả Cầu\r\n<keyGuideIcon id=|OpenConstructionMenu| OverrideType=|2|/>　Menu Xây Dựng\r\n<keyGuideIcon id=|Jump| OverrideType=|2|/>　Nhảy\r\n<keyGuideIcon id=|WeaponReady| OverrideType=|2|/>　Ngắm\r\n<keyGuideIcon id=|WeaponUse| OverrideType=|2|/>　Tấn công\r\n<keyGuideIcon id=|ReloadAndCoop| OverrideType=|2|/>　Kỹ Năng Đồng Hành\r\n<keyGuideIcon id=|ChangeWeaponNext| OverrideType=|2|/>　Chuyển đổi vũ khí\r\n<keyGuideIcon id=|RollingAndCrouch| OverrideType=|2|/>　Cúi người/Lăn\r\n<keyGuideIcon id=|DashController| OverrideType=|2|/>　Lướt tới\r\n<keyGuideIcon id=|PartnerPalInstructions| OverrideType=|2|/>　Ra lệnh cho Pal\r\n<keyGuideIcon id=|OtomoChangeIncrement| OverrideType=|2|/><keyGuideIcon id=|OtomoChangeDecrement| OverrideType=|2|/>　Chuyển đổi Pal\r\n<keyGuideIcon id=|SphereChange| OverrideType=|2|/>　Chuyển đổi Quả Cầu",
+          "LocalizedString": "Điều khiển (Bộ điều khiển)\r\n\r\nCần Trái: Di chuyển\r\nCần Phải: Điều khiển camera\r\n<keyGuideIcon id=|ThrowPal| OverrideType=|2|/>　Triệu hồi Pal\r\n<keyGuideIcon id=|ThrowObject| OverrideType=|2|/>　Ném Quả Cầu\r\n<keyGuideIcon id=|OpenConstructionMenu| OverrideType=|2|/>　Menu Xây Dựng\r\n<keyGuideIcon id=|Jump| OverrideType=|2|/>　Nhảy\r\n<keyGuideIcon id=|WeaponReady| OverrideType=|2|/>　Ngắm\r\n<keyGuideIcon id=|WeaponUse| OverrideType=|2|/>　Tấn công\r\n<keyGuideIcon id=|ReloadAndCoop| OverrideType=|2|/>　Kỹ Năng Đồng Hành\r\n<keyGuideIcon id=|ChangeWeaponNext| OverrideType=|2|/>　Chuyển đổi vũ khí\r\n<keyGuideIcon id=|RollingAndCrouch| OverrideType=|2|/>　Cúi người/Lăn\r\n<keyGuideIcon id=|DashController| OverrideType=|2|/>　Lướt tới\r\n<keyGuideIcon id=|PartnerPalInstructions| OverrideType=|2|/>　Ra lệnh cho Pal\r\n<keyGuideIcon id=|OtomoChangeIncrement| OverrideType=|2|/><keyGuideIcon id=|OtomoChangeDecrement| OverrideType=|2|/>　Chuyển đổi Pal\r\n<keyGuideIcon id=|SphereChange| OverrideType=|2|/>　Chuyển đổi Quả Cầu"
+        }
+      },
+      "Help_43": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_43_TextData",
+          "SourceString": "Palbox Toàn Cầu\r\n\r\nĐây là cơ sở cho phép bạn lưu trữ dữ liệu gen của các Pal được đặt trong Palbox, và tái tạo Pal từ dữ liệu gen đã lưu. \r\nTuy nhiên, trong cùng một thế giới, không thể tồn tại 2 hoặc nhiều Pal có cùng dữ liệu gen. \r\nDữ liệu gen đã lưu có thể được chuyển sang các thế giới khác để sử dụng.\r\n\r\n*Nếu trong phần cài đặt thế giới, việc lưu dữ liệu gen hoặc tái tạo Pal bị vô hiệu hóa, bạn sẽ không thể sử dụng các chức năng này.",
+          "LocalizedString": "Palbox Toàn Cầu\r\n\r\nĐây là cơ sở cho phép bạn lưu trữ dữ liệu gen của các Pal được đặt trong Palbox, và tái tạo Pal từ dữ liệu gen đã lưu. \r\nTuy nhiên, trong cùng một thế giới, không thể tồn tại 2 hoặc nhiều Pal có cùng dữ liệu gen. \r\nDữ liệu gen đã lưu có thể được chuyển sang các thế giới khác để sử dụng.\r\n\r\n*Nếu trong phần cài đặt thế giới, việc lưu dữ liệu gen hoặc tái tạo Pal bị vô hiệu hóa, bạn sẽ không thể sử dụng các chức năng này."
+        }
+      },
+      "Help_44": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_44_TextData",
+          "SourceString": "Khi bị kẹt trong địa hình\r\n\r\nChọn “Tẩu Thoát Khẩn Cấp” từ tab Tùy Chọn trong Menu để quay về căn cứ, tuy nhiên, điều này sẽ khiến nhân vật tử trận.\r\nNgoài ra, hãy thử tìm kiếm các vật phẩm hoặc những Pal có kỹ năng dịch chuyển về căn cứ mà không cần phải hy sinh nhé.",
+          "LocalizedString": "Khi bị kẹt trong địa hình\r\n\r\nChọn “Tẩu Thoát Khẩn Cấp” từ tab Tùy Chọn trong Menu để quay về căn cứ, tuy nhiên, điều này sẽ khiến nhân vật tử trận.\r\nNgoài ra, hãy thử tìm kiếm các vật phẩm hoặc những Pal có kỹ năng dịch chuyển về căn cứ mà không cần phải hy sinh nhé."
+        }
+      },
+      "Help_45": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_45_TextData",
+          "SourceString": "Câu cá\r\n\r\nHãy trang bị cần câu và chọn mồi câu từ túi đồ. Tại vùng nước có bóng cá, hãy chuẩn bị cần câu bằng <keyGuideIcon id=|WeaponReady|/> và nhấn <keyGuideIcon id=|WeaponUse|/> để thả câu và bắt đầu câu cá.\r\nBạn cũng có thể câu cá khi đang cưỡi Pal.\r\n\r\nKhi Pal đến gần mồi và phao câu chìm xuống, hãy nhấn <keyGuideIcon id=|WeaponUse|/> đúng lúc để giật câu.\r\n\r\nSau khi giật câu thành công, Thử Thách Nhỏ sẽ bắt đầu. Hãy cố gắng giữ vạch hiển thị khớp với biểu tượng con cá.\r\nGiữ <keyGuideIcon id=|WeaponUse|/> sẽ làm vạch di chuyển sang phải, và nhả ra sẽ làm vạch quay về bên trái.\r\nPal sẽ vùng vẫy và đổi hướng, vì vậy điều quan trọng là phải liên tục điều chỉnh vạch hiển thị theo chuyển động của chúng.\r\n\r\nKhi vạch hiển thị trùng với biểu tượng con cá, thanh bắt giữ sẽ tăng lên.\r\nKhi thanh bắt giữ đạt tối đa, bạn sẽ câu cá thành công và nhận được Pal cùng các vật phẩm.\r\n\r\nNâng cấp cần câu và mồi câu sẽ giúp bạn có lợi thế trong Thử Thách Nhỏ.\r\nNếu bạn cảm thấy câu cá khó khăn, hãy thử chế tạo cần câu và mồi câu mạnh hơn rồi thử thách lại.\r\nNgoài ra, hãy tìm những Pal có khả năng hỗ trợ bạn câu cá nhé!",
+          "LocalizedString": "Câu cá\r\n\r\nHãy trang bị cần câu và chọn mồi câu từ túi đồ. Tại vùng nước có bóng cá, hãy chuẩn bị cần câu bằng <keyGuideIcon id=|WeaponReady|/> và nhấn <keyGuideIcon id=|WeaponUse|/> để thả câu và bắt đầu câu cá.\r\nBạn cũng có thể câu cá khi đang cưỡi Pal.\r\n\r\nKhi Pal đến gần mồi và phao câu chìm xuống, hãy nhấn <keyGuideIcon id=|WeaponUse|/> đúng lúc để giật câu.\r\n\r\nSau khi giật câu thành công, Thử Thách Nhỏ sẽ bắt đầu. Hãy cố gắng giữ vạch hiển thị khớp với biểu tượng con cá.\r\nGiữ <keyGuideIcon id=|WeaponUse|/> sẽ làm vạch di chuyển sang phải, và nhả ra sẽ làm vạch quay về bên trái.\r\nPal sẽ vùng vẫy và đổi hướng, vì vậy điều quan trọng là phải liên tục điều chỉnh vạch hiển thị theo chuyển động của chúng.\r\n\r\nKhi vạch hiển thị trùng với biểu tượng con cá, thanh bắt giữ sẽ tăng lên.\r\nKhi thanh bắt giữ đạt tối đa, bạn sẽ câu cá thành công và nhận được Pal cùng các vật phẩm.\r\n\r\nNâng cấp cần câu và mồi câu sẽ giúp bạn có lợi thế trong Thử Thách Nhỏ.\r\nNếu bạn cảm thấy câu cá khó khăn, hãy thử chế tạo cần câu và mồi câu mạnh hơn rồi thử thách lại.\r\nNgoài ra, hãy tìm những Pal có khả năng hỗ trợ bạn câu cá nhé!"
+        }
+      }
+    }
+  }
+]

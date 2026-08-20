@@ -2,9 +2,8 @@
   {
     "Type": "CompositeDataTable",
     "Name": "DT_MapObjectNameText",
-    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'CompositeDataTable'",
-    "Package": "Pal/Content/Pal/DataTable/Text/DT_MapObjectNameText",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "ParentTables": [
         {
@@ -4944,6 +4943,14 @@
           "Key": "MAPOBJECT_NAME_OilPump02_TextData",
           "SourceString": "原油抽出機・高圧型",
           "LocalizedString": "原油抽出機・高圧型"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableWood0001": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableWood0001_TextData",
+          "SourceString": "古代の樹皮",
+          "LocalizedString": "古代の樹皮"
         }
       }
     }

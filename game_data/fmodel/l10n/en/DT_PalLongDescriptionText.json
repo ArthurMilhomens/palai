@@ -2,9 +2,8 @@
   {
     "Type": "DataTable",
     "Name": "DT_PalLongDescriptionText",
-    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'DataTable'",
-    "Package": "Pal/Content/L10N/en/Pal/DataTable/Text/DT_PalLongDescriptionText",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "RowStruct": {
         "ObjectName": "ScriptStruct'PalLocalizedTextData'",
@@ -344,8 +343,8 @@
         "TextData": {
           "Namespace": "DT_PalLongDescriptionText",
           "Key": "PAL_LONG_DESC_DarkMechaDragon_TextData",
-          "SourceString": "-Destination reached. Priority: Locate entity |Supersonic Dragon|\r\n-Note: Conquest deadline exceeded by <://Error_Code:126DC> years.\r\n-Update: No conquest traces found. Naturalization confirmed. Commence elimination protocol.\r\n-Staff Memo: Refrain from forgetting or consuming critical data!",
-          "LocalizedString": "-Destination reached. Priority: Locate entity |Supersonic Dragon|\r\n-Note: Conquest deadline exceeded by <://Error_Code:126DC> years.\r\n-Update: No conquest traces found. Naturalization confirmed. Commence elimination protocol.\r\n-Staff Memo: Refrain from forgetting or consuming critical data!"
+          "SourceString": "-Destination reached. Priority: Locate entity |Supersonic Dragon|\r\n-Note: Conquest deadline exceeded by <://Error_Code:146DC> years.\r\n-Update: No conquest traces found. Naturalization confirmed. Commence elimination protocol.\r\n-Staff Memo: Refrain from forgetting or consuming critical data!",
+          "LocalizedString": "-Destination reached. Priority: Locate entity |Supersonic Dragon|\r\n-Note: Conquest deadline exceeded by <://Error_Code:146DC> years.\r\n-Update: No conquest traces found. Naturalization confirmed. Commence elimination protocol.\r\n-Staff Memo: Refrain from forgetting or consuming critical data!"
         }
       },
       "PAL_LONG_DESC_DarkMutant": {
@@ -496,8 +495,8 @@
         "TextData": {
           "Namespace": "DT_PalLongDescriptionText",
           "Key": "PAL_LONG_DESC_FlameBambi_TextData",
-          "SourceString": "Wild <characterName id=|FlameBambi|/> surprisingly never get sick.\r\nEating one piece of charcoal a day, made by burning a branch,\r\nis the secret to its eternal health.",
-          "LocalizedString": "Wild <characterName id=|FlameBambi|/> surprisingly never get sick.\r\nEating one piece of charcoal a day, made by burning a branch,\r\nis the secret to its eternal health."
+          "SourceString": "Wild <characterName id=|FlameBambi|/> surprisingly never gets sick.\r\nEating one piece of charcoal a day, made by burning a branch,\r\nis the secret to its eternal health.",
+          "LocalizedString": "Wild <characterName id=|FlameBambi|/> surprisingly never gets sick.\r\nEating one piece of charcoal a day, made by burning a branch,\r\nis the secret to its eternal health."
         }
       },
       "PAL_LONG_DESC_FlameBuffalo": {

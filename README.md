@@ -35,10 +35,28 @@ npm run dump:generate -- --game-path "D:\SteamLibrary\steamapps\common\Palworld"
 npm run dump:generate -- --export-dir "C:\FModel\Output\Exports"
 ```
 
-## Quick start
+## Quick start (Docker)
+
+Na pasta `api` (ou na raiz do repositório, para subir API + frontend juntos):
 
 ```bash
-docker compose up -d
+docker compose up --build
+```
+
+Isso sobe PostgreSQL, Redis, OpenSearch, MinIO e a API. Schema e admin são criados na inicialização.
+
+API: `http://localhost:3000`  
+Docs: `http://localhost:3000/docs`
+
+Default admin:
+
+- email: `admin@palai.local`
+- password: `ChangeMeAdmin123!`
+
+## Quick start (local, sem container da API)
+
+```bash
+docker compose up -d postgres redis opensearch minio minio-init
 cp .env.example .env
 npm install
 npx prisma db push
@@ -47,9 +65,6 @@ npm run dev
 ```
 
 > Local Postgres already on `5432`? Compose maps the container to **`5433`** (`DATABASE_URL` in `.env`).
-
-API: `http://localhost:3000`  
-Docs: `http://localhost:3000/docs`
 
 Default admin (from `.env`):
 

@@ -2,9 +2,8 @@
   {
     "Type": "DataTable",
     "Name": "DT_PalFirstActivatedInfoText",
-    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'DataTable'",
-    "Package": "Pal/Content/L10N/en/Pal/DataTable/Text/DT_PalFirstActivatedInfoText",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "RowStruct": {
         "ObjectName": "ScriptStruct'PalLocalizedTextData'",
@@ -16,16 +15,16 @@
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_Alpaca_TextData",
-          "SourceString": "Can be ridden.\r\nWhile in party, \r\nincreases <characterName id=|KingAlpaca|/>'s Defense and Movement Speed.\r\n\r\nSometimes drops <itemName id=|Wool| style=|Status_Keyword|/> when assigned to <mapObjectName id=|MonsterFarm|/>.",
-          "LocalizedString": "Can be ridden.\r\nWhile in party, \r\nincreases <characterName id=|KingAlpaca|/>'s Defense and Movement Speed.\r\n\r\nSometimes drops <itemName id=|Wool| style=|Status_Keyword|/> when assigned to <mapObjectName id=|MonsterFarm|/>."
+          "SourceString": "Can be ridden.\r\n\r\nWhile in party, \r\nincreases <characterName id=|KingAlpaca|/>'s Defense and Movement Speed.\r\n\r\nSometimes drops <itemName id=|Wool| style=|Status_Keyword|/> when assigned to <mapObjectName id=|MonsterFarm|/>.",
+          "LocalizedString": "Can be ridden.\r\n\r\nWhile in party, \r\nincreases <characterName id=|KingAlpaca|/>'s Defense and Movement Speed.\r\n\r\nSometimes drops <itemName id=|Wool| style=|Status_Keyword|/> when assigned to <mapObjectName id=|MonsterFarm|/>."
         }
       },
       "PAL_FIRST_SPAWN_DESC_AmaterasuWolf": {
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_AmaterasuWolf_TextData",
-          "SourceString": "Can be ridden.\r\n\r\nWhile in party, player and party Pals take <Status_Up>{Passive1_EffectValue1}%</> less <img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/> damage and are immune to <uiCommon id=|ADDITIONAL_EFFECT_Freeze| style=|Effect_Freeze|/>. (Does not stack)\r\n{ReferenceMsgId_RideSpeedUp}",
-          "LocalizedString": "Can be ridden.\r\n\r\nWhile in party, player and party Pals take <Status_Up>{Passive1_EffectValue1}%</> less <img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/> damage and are immune to <uiCommon id=|ADDITIONAL_EFFECT_Freeze| style=|Effect_Freeze|/>. (Does not stack)\r\n{ReferenceMsgId_RideSpeedUp}"
+          "SourceString": "Can be ridden.\r\n\r\nWhile in party,\r\nplayer and party Pals take <Status_Up>{Passive1_EffectValue1}%</> less <img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/> damage and are immune to <uiCommon id=|ADDITIONAL_EFFECT_Freeze| style=|Effect_Freeze|/>. (Does not stack)\r\n{ReferenceMsgId_RideSpeedUp}",
+          "LocalizedString": "Can be ridden.\r\n\r\nWhile in party,\r\nplayer and party Pals take <Status_Up>{Passive1_EffectValue1}%</> less <img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/> damage and are immune to <uiCommon id=|ADDITIONAL_EFFECT_Freeze| style=|Effect_Freeze|/>. (Does not stack)\r\n{ReferenceMsgId_RideSpeedUp}"
         }
       },
       "PAL_FIRST_SPAWN_DESC_Anubis": {
@@ -120,8 +119,8 @@
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_BlackGriffon_TextData",
-          "SourceString": "Can be ridden as a flying mount.\r\nWhile flying, \r\nMovement Speed is increased.\r\n\r\nEnhances <img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/> attacks by <Status_Up>{Passive1_EffectValue1}%</> while mounted.",
-          "LocalizedString": "Can be ridden as a flying mount.\r\nWhile flying, \r\nMovement Speed is increased.\r\n\r\nEnhances <img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/> attacks by <Status_Up>{Passive1_EffectValue1}%</> while mounted."
+          "SourceString": "Can be ridden as a flying mount.\r\n\r\nWhile flying, \r\nMovement Speed is increased.\r\n\r\nEnhances <img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/> attacks by <Status_Up>{Passive1_EffectValue1}%</> while mounted.",
+          "LocalizedString": "Can be ridden as a flying mount.\r\n\r\nWhile flying, \r\nMovement Speed is increased.\r\n\r\nEnhances <img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/> attacks by <Status_Up>{Passive1_EffectValue1}%</> while mounted."
         }
       },
       "PAL_FIRST_SPAWN_DESC_BlackMetalDragon": {
@@ -176,8 +175,8 @@
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_Carbunclo_TextData",
-          "SourceString": "When activated, \r\nleaps onto the player's head and uses a submachine gun to follows up player attacks.\r\n{ReferenceMsgId_DamageUp}",
-          "LocalizedString": "When activated, \r\nleaps onto the player's head and uses a submachine gun to follows up player attacks.\r\n{ReferenceMsgId_DamageUp}"
+          "SourceString": "When activated, \r\nleaps onto the player's head and uses a submachine gun to follow up the player's attacks.\r\n{ReferenceMsgId_DamageUp}",
+          "LocalizedString": "When activated, \r\nleaps onto the player's head and uses a submachine gun to follow up the player's attacks.\r\n{ReferenceMsgId_DamageUp}"
         }
       },
       "PAL_FIRST_SPAWN_DESC_CatBat": {
@@ -280,8 +279,8 @@
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_Deer_TextData",
-          "SourceString": "Can be ridden.\r\nCan perform a <Status_Keyword>double jump</> while mounted and increases lumbering efficiency by <Status_Up>{Passive1_EffectValue1}%</>.",
-          "LocalizedString": "Can be ridden.\r\nCan perform a <Status_Keyword>double jump</> while mounted and increases lumbering efficiency by <Status_Up>{Passive1_EffectValue1}%</>."
+          "SourceString": "Can be ridden.\r\n\r\nCan perform a <Status_Keyword>double jump</> while mounted and increases lumbering efficiency by <Status_Up>{Passive1_EffectValue1}%</>.",
+          "LocalizedString": "Can be ridden.\r\n\r\nCan perform a <Status_Keyword>double jump</> while mounted and increases lumbering efficiency by <Status_Up>{Passive1_EffectValue1}%</>."
         }
       },
       "PAL_FIRST_SPAWN_DESC_Deer_Ground": {
@@ -336,8 +335,8 @@
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_ElecPanda_TextData",
-          "SourceString": "Can be ridden.\r\nCan rapidly fire a minigun while mounted.\r\n{ReferenceMsgId_DamageUp}",
-          "LocalizedString": "Can be ridden.\r\nCan rapidly fire a minigun while mounted.\r\n{ReferenceMsgId_DamageUp}"
+          "SourceString": "Can be ridden.\r\n\r\nCan rapidly fire a minigun while mounted.\r\n{ReferenceMsgId_DamageUp}",
+          "LocalizedString": "Can be ridden.\r\n\r\nCan rapidly fire a minigun while mounted.\r\n{ReferenceMsgId_DamageUp}"
         }
       },
       "PAL_FIRST_SPAWN_DESC_FairyDragon": {
@@ -376,40 +375,40 @@
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_FireKirin_TextData",
-          "SourceString": "Can be ridden.\r\nWhile mounted, \r\nchanges the player’s attack type to <img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/> and increases Attack by <Status_Up>{Passive2_EffectValue1}%</>.",
-          "LocalizedString": "Can be ridden.\r\nWhile mounted, \r\nchanges the player’s attack type to <img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/> and increases Attack by <Status_Up>{Passive2_EffectValue1}%</>."
+          "SourceString": "Can be ridden.\r\n\r\nWhile mounted, \r\nchanges the player’s attack type to <img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/> and increases Attack by <Status_Up>{Passive2_EffectValue1}%</>.",
+          "LocalizedString": "Can be ridden.\r\n\r\nWhile mounted, \r\nchanges the player’s attack type to <img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/> and increases Attack by <Status_Up>{Passive2_EffectValue1}%</>."
         }
       },
       "PAL_FIRST_SPAWN_DESC_FireKirin_Dark": {
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_FireKirin_Dark_TextData",
-          "SourceString": "Can be ridden.\r\nWhile mounted, \r\nchanges the player’s attack type to<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/> and increases Attack by <Status_Up>{Passive2_EffectValue1}%</>.",
-          "LocalizedString": "Can be ridden.\r\nWhile mounted, \r\nchanges the player’s attack type to<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/> and increases Attack by <Status_Up>{Passive2_EffectValue1}%</>."
+          "SourceString": "Can be ridden.\r\n\r\nWhile mounted, \r\nchanges the player’s attack type to<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/> and increases Attack by <Status_Up>{Passive2_EffectValue1}%</>.",
+          "LocalizedString": "Can be ridden.\r\n\r\nWhile mounted, \r\nchanges the player’s attack type to<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/> and increases Attack by <Status_Up>{Passive2_EffectValue1}%</>."
         }
       },
       "PAL_FIRST_SPAWN_DESC_FlameBuffalo": {
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_FlameBuffalo_TextData",
-          "SourceString": "Can be ridden.\r\nWhile in party, the player gains \r\n<Status_Keyword>Cold Resistance</> <Status_Keyword>+2</>. \r\n(Does not stack)\r\n{ReferenceMsgId_RideSpeedUp}",
-          "LocalizedString": "Can be ridden.\r\nWhile in party, the player gains \r\n<Status_Keyword>Cold Resistance</> <Status_Keyword>+2</>. \r\n(Does not stack)\r\n{ReferenceMsgId_RideSpeedUp}"
+          "SourceString": "Can be ridden.\r\n\r\nWhile in party, the player gains \r\n<Status_Keyword>Cold Resistance</> <Status_Keyword>+2</>. (Does not stack)\r\n{ReferenceMsgId_RideSpeedUp}",
+          "LocalizedString": "Can be ridden.\r\n\r\nWhile in party, the player gains \r\n<Status_Keyword>Cold Resistance</> <Status_Keyword>+2</>. (Does not stack)\r\n{ReferenceMsgId_RideSpeedUp}"
         }
       },
       "PAL_FIRST_SPAWN_DESC_FlowerDinosaur": {
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_FlowerDinosaur_TextData",
-          "SourceString": "Can be ridden.\r\nWhile in party, \r\nincrease Defense of <img id=|ElemIcon_Dragon|/><uiCommon id=|COMMON_ELEMENT_NAME_Dragon| style=|Elem_Dragon|/> Pals by <Status_Up>{Passive1_EffectValue1}%</>. (Does not stack)",
-          "LocalizedString": "Can be ridden.\r\nWhile in party, \r\nincrease Defense of <img id=|ElemIcon_Dragon|/><uiCommon id=|COMMON_ELEMENT_NAME_Dragon| style=|Elem_Dragon|/> Pals by <Status_Up>{Passive1_EffectValue1}%</>. (Does not stack)"
+          "SourceString": "Can be ridden.\r\n\r\nWhile in party, \r\nincrease Defense of <img id=|ElemIcon_Dragon|/><uiCommon id=|COMMON_ELEMENT_NAME_Dragon| style=|Elem_Dragon|/> Pals by <Status_Up>{Passive1_EffectValue1}%</>. (Does not stack)",
+          "LocalizedString": "Can be ridden.\r\n\r\nWhile in party, \r\nincrease Defense of <img id=|ElemIcon_Dragon|/><uiCommon id=|COMMON_ELEMENT_NAME_Dragon| style=|Elem_Dragon|/> Pals by <Status_Up>{Passive1_EffectValue1}%</>. (Does not stack)"
         }
       },
       "PAL_FIRST_SPAWN_DESC_FlowerDinosaur_Electric": {
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_FlowerDinosaur_Electric_TextData",
-          "SourceString": "Can be ridden.\r\nWhile in party, \r\nincreases Defense of <img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/> Pals by <Status_Up>{Passive1_EffectValue1}%</>.  (Does not stack)",
-          "LocalizedString": "Can be ridden.\r\nWhile in party, \r\nincreases Defense of <img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/> Pals by <Status_Up>{Passive1_EffectValue1}%</>.  (Does not stack)"
+          "SourceString": "Can be ridden.\r\n\r\nWhile in party, \r\nincreases Defense of <img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/> Pals by <Status_Up>{Passive1_EffectValue1}%</>.  (Does not stack)",
+          "LocalizedString": "Can be ridden.\r\n\r\nWhile in party, \r\nincreases Defense of <img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/> Pals by <Status_Up>{Passive1_EffectValue1}%</>.  (Does not stack)"
         }
       },
       "PAL_FIRST_SPAWN_DESC_FlowerDoll": {
@@ -424,16 +423,16 @@
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_FlowerRabbit_TextData",
-          "SourceString": "While in party, appears near the player.\r\nAutomatically picks up nearby items.\r\n{ReferenceMsgId_ItemCollectRangeUp}",
-          "LocalizedString": "While in party, appears near the player.\r\nAutomatically picks up nearby items.\r\n{ReferenceMsgId_ItemCollectRangeUp}"
+          "SourceString": "While in party, \r\nappears near the player.\r\n\r\nAutomatically picks up nearby items.\r\n{ReferenceMsgId_ItemCollectRangeUp}",
+          "LocalizedString": "While in party, \r\nappears near the player.\r\n\r\nAutomatically picks up nearby items.\r\n{ReferenceMsgId_ItemCollectRangeUp}"
         }
       },
       "PAL_FIRST_SPAWN_DESC_FlyingManta": {
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_FlyingManta_TextData",
-          "SourceString": "While in party, \r\nmodifies the performance of the equipped glider. \r\n\r\n<Status_Keyword>Prevents fall damage</> and extends the duration of high-speed gliding.\r\n{ReferenceMsgId_GriderPerformanceUp}",
-          "LocalizedString": "While in party, \r\nmodifies the performance of the equipped glider. \r\n\r\n<Status_Keyword>Prevents fall damage</> and extends the duration of high-speed gliding.\r\n{ReferenceMsgId_GriderPerformanceUp}"
+          "SourceString": "While in party, \r\nmodifies the performance of the equipped glider.\r\n\r\n<Status_Keyword>Prevents fall damage</> and extends the duration of high-speed gliding.\r\n{ReferenceMsgId_GriderPerformanceUp}",
+          "LocalizedString": "While in party, \r\nmodifies the performance of the equipped glider.\r\n\r\n<Status_Keyword>Prevents fall damage</> and extends the duration of high-speed gliding.\r\n{ReferenceMsgId_GriderPerformanceUp}"
         }
       },
       "PAL_FIRST_SPAWN_DESC_FoxMage": {
@@ -480,32 +479,32 @@
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_GrassMammoth_TextData",
-          "SourceString": "Can be ridden.\r\nWhile mounted,\r\nincreases logging efficiency by <Status_Up>{Passive1_EffectValue1}%</> and mining efficiency by <Status_Up>{Passive2_EffectValue1}%</>.",
-          "LocalizedString": "Can be ridden.\r\nWhile mounted,\r\nincreases logging efficiency by <Status_Up>{Passive1_EffectValue1}%</> and mining efficiency by <Status_Up>{Passive2_EffectValue1}%</>."
+          "SourceString": "Can be ridden.\r\n\r\nWhile mounted,\r\nincreases logging efficiency by <Status_Up>{Passive1_EffectValue1}%</> and mining efficiency by <Status_Up>{Passive2_EffectValue1}%</>.",
+          "LocalizedString": "Can be ridden.\r\n\r\nWhile mounted,\r\nincreases logging efficiency by <Status_Up>{Passive1_EffectValue1}%</> and mining efficiency by <Status_Up>{Passive2_EffectValue1}%</>."
         }
       },
       "PAL_FIRST_SPAWN_DESC_GrassMammoth_Ice": {
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_GrassMammoth_Ice_TextData",
-          "SourceString": "Can be ridden.\r\nWhile mounted,\r\nincreases logging efficiency by <Status_Up>{Passive1_EffectValue1}%</> and mining efficiency by <Status_Up>{Passive2_EffectValue1}%</>.",
-          "LocalizedString": "Can be ridden.\r\nWhile mounted,\r\nincreases logging efficiency by <Status_Up>{Passive1_EffectValue1}%</> and mining efficiency by <Status_Up>{Passive2_EffectValue1}%</>."
+          "SourceString": "Can be ridden.\r\n\r\nWhile mounted,\r\nincreases logging efficiency by <Status_Up>{Passive1_EffectValue1}%</> and mining efficiency by <Status_Up>{Passive2_EffectValue1}%</>.",
+          "LocalizedString": "Can be ridden.\r\n\r\nWhile mounted,\r\nincreases logging efficiency by <Status_Up>{Passive1_EffectValue1}%</> and mining efficiency by <Status_Up>{Passive2_EffectValue1}%</>."
         }
       },
       "PAL_FIRST_SPAWN_DESC_GrassPanda": {
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_GrassPanda_TextData",
-          "SourceString": "Can be ridden.\r\nCan rapidly fire a grenade launcher while mounted.\r\n{ReferenceMsgId_DamageUp}",
-          "LocalizedString": "Can be ridden.\r\nCan rapidly fire a grenade launcher while mounted.\r\n{ReferenceMsgId_DamageUp}"
+          "SourceString": "Can be ridden.\r\n\r\nCan rapidly fire a grenade launcher while mounted.\r\n{ReferenceMsgId_DamageUp}",
+          "LocalizedString": "Can be ridden.\r\n\r\nCan rapidly fire a grenade launcher while mounted.\r\n{ReferenceMsgId_DamageUp}"
         }
       },
       "PAL_FIRST_SPAWN_DESC_GrassPanda_Electric": {
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_GrassPanda_Electric_TextData",
-          "SourceString": "Can be ridden.\r\nCan rapidly fire a grenade launcher while mounted.\r\n{ReferenceMsgId_DamageUp}",
-          "LocalizedString": "Can be ridden.\r\nCan rapidly fire a grenade launcher while mounted.\r\n{ReferenceMsgId_DamageUp}"
+          "SourceString": "Can be ridden.\r\n\r\nCan rapidly fire a grenade launcher while mounted.\r\n{ReferenceMsgId_DamageUp}",
+          "LocalizedString": "Can be ridden.\r\n\r\nCan rapidly fire a grenade launcher while mounted.\r\n{ReferenceMsgId_DamageUp}"
         }
       },
       "PAL_FIRST_SPAWN_DESC_GrassRabbitMan": {
@@ -520,8 +519,8 @@
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_GuardianDog_TextData",
-          "SourceString": "Can be ridden.\r\nWhile fighting together, \r\n<Status_Up>{Passive1_EffectValue1}%</> increased chance of encountering pals with the same Passive Skill as this Pal.\r\n(Excludes certain Passive Skills)",
-          "LocalizedString": "Can be ridden.\r\nWhile fighting together, \r\n<Status_Up>{Passive1_EffectValue1}%</> increased chance of encountering pals with the same Passive Skill as this Pal.\r\n(Excludes certain Passive Skills)"
+          "SourceString": "Can be ridden.\r\n\r\nWhile fighting together, \r\n<Status_Up>{Passive1_EffectValue1}%</> increased chance of encountering pals with the same Passive Skill as this Pal.\r\n(Excludes certain Passive Skills)",
+          "LocalizedString": "Can be ridden.\r\n\r\nWhile fighting together, \r\n<Status_Up>{Passive1_EffectValue1}%</> increased chance of encountering pals with the same Passive Skill as this Pal.\r\n(Excludes certain Passive Skills)"
         }
       },
       "PAL_FIRST_SPAWN_DESC_HadesBird": {
@@ -560,8 +559,8 @@
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_HerculesBeetle_TextData",
-          "SourceString": "While in your party, \r\n<Status_Keyword>generates a barrier</> around the player after 5 melee hits are landed within <Status_Up>{Passive1_EffectValue1} seconds</>. (Does not stack)",
-          "LocalizedString": "While in your party, \r\n<Status_Keyword>generates a barrier</> around the player after 5 melee hits are landed within <Status_Up>{Passive1_EffectValue1} seconds</>. (Does not stack)"
+          "SourceString": "While in party, \r\n<Status_Keyword>generates a barrier</> around the player after 5 melee hits are landed within <Status_Up>{Passive1_EffectValue1}</> seconds. (Does not stack)",
+          "LocalizedString": "While in party, \r\n<Status_Keyword>generates a barrier</> around the player after 5 melee hits are landed within <Status_Up>{Passive1_EffectValue1}</> seconds. (Does not stack)"
         }
       },
       "PAL_FIRST_SPAWN_DESC_Horus": {
@@ -576,32 +575,32 @@
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_IceDeer_TextData",
-          "SourceString": "Can be ridden.\r\nWhile in party, \r\nthe player gains <Status_Keyword>Heat Resistance</> <Status_Keyword>+2</>. \r\n(Does not stack)\r\n{ReferenceMsgId_RideSpeedUp}",
-          "LocalizedString": "Can be ridden.\r\nWhile in party, \r\nthe player gains <Status_Keyword>Heat Resistance</> <Status_Keyword>+2</>. \r\n(Does not stack)\r\n{ReferenceMsgId_RideSpeedUp}"
+          "SourceString": "Can be ridden.\r\n\r\nWhile in party, \r\nthe player gains <Status_Keyword>Heat Resistance</> <Status_Keyword>+2</>. \r\n(Does not stack)\r\n{ReferenceMsgId_RideSpeedUp}",
+          "LocalizedString": "Can be ridden.\r\n\r\nWhile in party, \r\nthe player gains <Status_Keyword>Heat Resistance</> <Status_Keyword>+2</>. \r\n(Does not stack)\r\n{ReferenceMsgId_RideSpeedUp}"
         }
       },
       "PAL_FIRST_SPAWN_DESC_IceFox": {
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_IceFox_TextData",
-          "SourceString": "While in party, \r\nincreases Attack of <img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/> Pals by <Status_Up>{Passive1_EffectValue1}%</>. (Does not stack)\r\nSometimes drops <itemName id=|IceOrgan| style=|Status_Keyword|/> when assigned to <mapObjectName id=|MonsterFarm|/>.",
-          "LocalizedString": "While in party, \r\nincreases Attack of <img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/> Pals by <Status_Up>{Passive1_EffectValue1}%</>. (Does not stack)\r\nSometimes drops <itemName id=|IceOrgan| style=|Status_Keyword|/> when assigned to <mapObjectName id=|MonsterFarm|/>."
+          "SourceString": "While in party, \r\nincreases Attack of <img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/> Pals by <Status_Up>{Passive1_EffectValue1}%</>. (Does not stack)\r\n\r\nSometimes drops <itemName id=|IceOrgan| style=|Status_Keyword|/> when assigned to <mapObjectName id=|MonsterFarm|/>.",
+          "LocalizedString": "While in party, \r\nincreases Attack of <img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/> Pals by <Status_Up>{Passive1_EffectValue1}%</>. (Does not stack)\r\n\r\nSometimes drops <itemName id=|IceOrgan| style=|Status_Keyword|/> when assigned to <mapObjectName id=|MonsterFarm|/>."
         }
       },
       "PAL_FIRST_SPAWN_DESC_IceHorse": {
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_IceHorse_TextData",
-          "SourceString": "Can be ridden as a flying mount.\r\n\r\nWhile mounted, \r\nchanges the player's attack type to <img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>, inflict <uiCommon id=|ADDITIONAL_EFFECT_Freeze| style=|Elem_Ice|/> <Status_Up>{Passive3_EffectValue1}</>, increases Attack by <Status_Up>{Passive2_EffectValue1}%</>.",
-          "LocalizedString": "Can be ridden as a flying mount.\r\n\r\nWhile mounted, \r\nchanges the player's attack type to <img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>, inflict <uiCommon id=|ADDITIONAL_EFFECT_Freeze| style=|Elem_Ice|/> <Status_Up>{Passive3_EffectValue1}</>, increases Attack by <Status_Up>{Passive2_EffectValue1}%</>."
+          "SourceString": "Can be ridden as a flying mount.\r\n\r\nWhile mounted, \r\nchanges the player's attack type to <img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>,  increases Attack by <Status_Up>{Passive2_EffectValue1}%</>, and apply <uiCommon id=|ADDITIONAL_EFFECT_Freeze| style=|Elem_Ice|/> buildup by <Status_Up>{Passive3_EffectValue1}</>.",
+          "LocalizedString": "Can be ridden as a flying mount.\r\n\r\nWhile mounted, \r\nchanges the player's attack type to <img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>,  increases Attack by <Status_Up>{Passive2_EffectValue1}%</>, and apply <uiCommon id=|ADDITIONAL_EFFECT_Freeze| style=|Elem_Ice|/> buildup by <Status_Up>{Passive3_EffectValue1}</>."
         }
       },
       "PAL_FIRST_SPAWN_DESC_IceHorse_Dark": {
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_IceHorse_Dark_TextData",
-          "SourceString": "Can be ridden as a flying mount.\r\n\r\nWhile mounted, \r\nchanges the player's attack type to <img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>, inflict <uiCommon id=|ADDITIONAL_EFFECT_Darkness| style=|Elem_Dark|/> <Status_Up>{Passive3_EffectValue1}</>, increases Attack by <Status_Up>{Passive2_EffectValue1}%</>.",
-          "LocalizedString": "Can be ridden as a flying mount.\r\n\r\nWhile mounted, \r\nchanges the player's attack type to <img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>, inflict <uiCommon id=|ADDITIONAL_EFFECT_Darkness| style=|Elem_Dark|/> <Status_Up>{Passive3_EffectValue1}</>, increases Attack by <Status_Up>{Passive2_EffectValue1}%</>."
+          "SourceString": "Can be ridden as a flying mount.\r\n\r\nWhile mounted, \r\nchanges the player's attack type to <img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>, increases Attack by <Status_Up>{Passive2_EffectValue1}%</>, and apply <uiCommon id=|ADDITIONAL_EFFECT_Darkness| style=|Elem_Dark|/> buildup by <Status_Up>{Passive3_EffectValue1}</>.",
+          "LocalizedString": "Can be ridden as a flying mount.\r\n\r\nWhile mounted, \r\nchanges the player's attack type to <img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>, increases Attack by <Status_Up>{Passive2_EffectValue1}%</>, and apply <uiCommon id=|ADDITIONAL_EFFECT_Darkness| style=|Elem_Dark|/> buildup by <Status_Up>{Passive3_EffectValue1}</>."
         }
       },
       "PAL_FIRST_SPAWN_DESC_JetDragon": {
@@ -656,8 +655,8 @@
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_Kirin_TextData",
-          "SourceString": "Can be ridden.\r\nWhile in party, \r\nimproves player's and Pals' <img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/> damage to weak points by <Status_Up>{Passive1_EffectValue1}%</>. (Does not stack)",
-          "LocalizedString": "Can be ridden.\r\nWhile in party, \r\nimproves player's and Pals' <img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/> damage to weak points by <Status_Up>{Passive1_EffectValue1}%</>. (Does not stack)"
+          "SourceString": "Can be ridden.\r\n\r\nWhile in party, \r\nincreases damage dealt by Player and Pals' <img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/> attacks when hitting the enemy's elemental weakness by <Status_Up>{Passive1_EffectValue1}%</>. (Does not stack)",
+          "LocalizedString": "Can be ridden.\r\n\r\nWhile in party, \r\nincreases damage dealt by Player and Pals' <img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/> attacks when hitting the enemy's elemental weakness by <Status_Up>{Passive1_EffectValue1}%</>. (Does not stack)"
         }
       },
       "PAL_FIRST_SPAWN_DESC_Kitsunebi": {
@@ -672,16 +671,16 @@
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_LazyDragon_TextData",
-          "SourceString": "Can be ridden.\r\nCan rapidly fire a missile launcher while mounted.\r\n{ReferenceMsgId_DamageUp}",
-          "LocalizedString": "Can be ridden.\r\nCan rapidly fire a missile launcher while mounted.\r\n{ReferenceMsgId_DamageUp}"
+          "SourceString": "Can be ridden.\r\n\r\nCan rapidly fire a missile launcher while mounted.\r\n{ReferenceMsgId_DamageUp}",
+          "LocalizedString": "Can be ridden.\r\n\r\nCan rapidly fire a missile launcher while mounted.\r\n{ReferenceMsgId_DamageUp}"
         }
       },
       "PAL_FIRST_SPAWN_DESC_LazyDragon_Electric": {
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_LazyDragon_Electric_TextData",
-          "SourceString": "Can be ridden.\r\nCan rapidly fire a missile launcher while mounted.\r\n{ReferenceMsgId_DamageUp}",
-          "LocalizedString": "Can be ridden.\r\nCan rapidly fire a missile launcher while mounted.\r\n{ReferenceMsgId_DamageUp}"
+          "SourceString": "Can be ridden.\r\n\r\nCan rapidly fire a missile launcher while mounted.\r\n{ReferenceMsgId_DamageUp}",
+          "LocalizedString": "Can be ridden.\r\n\r\nCan rapidly fire a missile launcher while mounted.\r\n{ReferenceMsgId_DamageUp}"
         }
       },
       "PAL_FIRST_SPAWN_DESC_LilyQueen": {
@@ -728,8 +727,8 @@
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_Manticore_TextData",
-          "SourceString": "Can be ridden.\r\n\r\nWhile in party, <img id=|ElemIcon_Grass|/><uiCommon id=|COMMON_ELEMENT_NAME_Leaf| style=|Elem_Grass|/> Pals drop <Status_Up>{Passive1_EffectValue1}%</> more items when defeated. (Does not stack)",
-          "LocalizedString": "Can be ridden.\r\n\r\nWhile in party, <img id=|ElemIcon_Grass|/><uiCommon id=|COMMON_ELEMENT_NAME_Leaf| style=|Elem_Grass|/> Pals drop <Status_Up>{Passive1_EffectValue1}%</> more items when defeated. (Does not stack)"
+          "SourceString": "Can be ridden.\r\n\r\nWhile in party,\r\n<img id=|ElemIcon_Grass|/><uiCommon id=|COMMON_ELEMENT_NAME_Leaf| style=|Elem_Grass|/> Pals drop <Status_Up>{Passive1_EffectValue1}%</> more items when defeated. (Does not stack)",
+          "LocalizedString": "Can be ridden.\r\n\r\nWhile in party,\r\n<img id=|ElemIcon_Grass|/><uiCommon id=|COMMON_ELEMENT_NAME_Leaf| style=|Elem_Grass|/> Pals drop <Status_Up>{Passive1_EffectValue1}%</> more items when defeated. (Does not stack)"
         }
       },
       "PAL_FIRST_SPAWN_DESC_Manticore_Dark": {
@@ -920,8 +919,8 @@
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_ScorpionMan_TextData",
-          "SourceString": "While in party, \r\nincreases player's and Pals' damage to enemies afflicted with <uiCommon id=|ADDITIONAL_EFFECT_Poison| style=|Effect_Poison|/> by <Status_Up>{Passive1_EffectValue1}%</>. (Does not stack)",
-          "LocalizedString": "While in party, \r\nincreases player's and Pals' damage to enemies afflicted with <uiCommon id=|ADDITIONAL_EFFECT_Poison| style=|Effect_Poison|/> by <Status_Up>{Passive1_EffectValue1}%</>. (Does not stack)"
+          "SourceString": "While in party, \r\nincreases player's and Pals' damage to enemies afflicted with <uiCommon id=|ADDITIONAL_EFFECT_Poison| style=|Effect_Poison|/> by <Status_Up>{Passive1_EffectValue1}%</>.\r\n(Does not stack)",
+          "LocalizedString": "While in party, \r\nincreases player's and Pals' damage to enemies afflicted with <uiCommon id=|ADDITIONAL_EFFECT_Poison| style=|Effect_Poison|/> by <Status_Up>{Passive1_EffectValue1}%</>.\r\n(Does not stack)"
         }
       },
       "PAL_FIRST_SPAWN_DESC_Serpent": {
@@ -936,8 +935,8 @@
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_Serpent_Ground_TextData",
-          "SourceString": "Can be ridden.\r\nWhile in party, \r\nthe player's attacks inflict <uiCommon id=|ADDITIONAL_EFFECT_Muddy| style=|Effect_Muddy|/> <Status_Up>{Passive1_EffectValue1}</>. (Does not stack)\r\n{ReferenceMsgId_RideSpeedUp}",
-          "LocalizedString": "Can be ridden.\r\nWhile in party, \r\nthe player's attacks inflict <uiCommon id=|ADDITIONAL_EFFECT_Muddy| style=|Effect_Muddy|/> <Status_Up>{Passive1_EffectValue1}</>. (Does not stack)\r\n{ReferenceMsgId_RideSpeedUp}"
+          "SourceString": "Can be ridden.\r\n\r\nWhile in party, \r\nthe player's attacks increase <uiCommon id=|ADDITIONAL_EFFECT_Muddy| style=|Effect_Muddy|/> buildup by <Status_Up>{Passive1_EffectValue1}</>. (Does not stack)\r\n{ReferenceMsgId_RideSpeedUp}",
+          "LocalizedString": "Can be ridden.\r\n\r\nWhile in party, \r\nthe player's attacks increase <uiCommon id=|ADDITIONAL_EFFECT_Muddy| style=|Effect_Muddy|/> buildup by <Status_Up>{Passive1_EffectValue1}</>. (Does not stack)\r\n{ReferenceMsgId_RideSpeedUp}"
         }
       },
       "PAL_FIRST_SPAWN_DESC_SkyDragon": {
@@ -1016,8 +1015,8 @@
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_TentacleTurtle_TextData",
-          "SourceString": "While in party, \r\nreduces <itemName id=|CopperOre| style=|Status_Keyword|/> weight by <Status_Up>{Passive1_EffectValue1}%</>. (Does not stack)",
-          "LocalizedString": "While in party, \r\nreduces <itemName id=|CopperOre| style=|Status_Keyword|/> weight by <Status_Up>{Passive1_EffectValue1}%</>. (Does not stack)"
+          "SourceString": "While in party, \r\nreduces the weight of the item <itemName id=|CopperOre| style=|Status_Keyword|/> by <Status_Up>{Passive1_EffectValue1}%</>. (Does not stack)",
+          "LocalizedString": "While in party, \r\nreduces the weight of the item <itemName id=|CopperOre| style=|Status_Keyword|/> by <Status_Up>{Passive1_EffectValue1}%</>. (Does not stack)"
         }
       },
       "PAL_FIRST_SPAWN_DESC_ThunderBird": {
@@ -1048,8 +1047,8 @@
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_Umihebi_TextData",
-          "SourceString": "Can be ridden to travel on water.\r\n\r\nWhile in party, \r\nincreases player's and Pals' damage to enemies afflicted with <uiCommon id=|ADDITIONAL_EFFECT_Wetness| style=|Effect_Wetness|/> by <Status_Up>{Passive1_EffectValue1}%</>. \r\n(Does not stack)\r\n{ReferenceMsgId_RideSpeedUp}",
-          "LocalizedString": "Can be ridden to travel on water.\r\n\r\nWhile in party, \r\nincreases player's and Pals' damage to enemies afflicted with <uiCommon id=|ADDITIONAL_EFFECT_Wetness| style=|Effect_Wetness|/> by <Status_Up>{Passive1_EffectValue1}%</>. \r\n(Does not stack)\r\n{ReferenceMsgId_RideSpeedUp}"
+          "SourceString": "Can be ridden to travel on water.\r\n\r\nWhile in party, \r\nincreases player's and Pals' damage to enemies afflicted with <uiCommon id=|ADDITIONAL_EFFECT_Wetness| style=|Effect_Wetness|/> by <Status_Up>{Passive1_EffectValue1}%</>.\r\n(Does not stack)\r\n{ReferenceMsgId_RideSpeedUp}",
+          "LocalizedString": "Can be ridden to travel on water.\r\n\r\nWhile in party, \r\nincreases player's and Pals' damage to enemies afflicted with <uiCommon id=|ADDITIONAL_EFFECT_Wetness| style=|Effect_Wetness|/> by <Status_Up>{Passive1_EffectValue1}%</>.\r\n(Does not stack)\r\n{ReferenceMsgId_RideSpeedUp}"
         }
       },
       "PAL_FIRST_SPAWN_DESC_Umihebi_Fire": {
@@ -1072,24 +1071,24 @@
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_VolcanicMonster_TextData",
-          "SourceString": "Can be ridden.\r\nWhile in party, \r\nreduces weight of <Status_Keyword>all types of ore</> by <Status_Up>{Passive1_EffectValue1}%</>. (Does not stack)",
-          "LocalizedString": "Can be ridden.\r\nWhile in party, \r\nreduces weight of <Status_Keyword>all types of ore</> by <Status_Up>{Passive1_EffectValue1}%</>. (Does not stack)"
+          "SourceString": "Can be ridden.\r\n\r\nWhile in party, \r\nreduces weight of <Status_Keyword>all types of ore</> by <Status_Up>{Passive1_EffectValue1}%</>. (Does not stack)",
+          "LocalizedString": "Can be ridden.\r\n\r\nWhile in party, \r\nreduces weight of <Status_Keyword>all types of ore</> by <Status_Up>{Passive1_EffectValue1}%</>. (Does not stack)"
         }
       },
       "PAL_FIRST_SPAWN_DESC_VolcanicMonster_Ice": {
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_VolcanicMonster_Ice_TextData",
-          "SourceString": "Can be ridden.\r\nWhile in party, \r\nreduces weight of <Status_Keyword>all types of ore</> by <Status_Up>{Passive1_EffectValue1}%</>. (Does not stack)",
-          "LocalizedString": "Can be ridden.\r\nWhile in party, \r\nreduces weight of <Status_Keyword>all types of ore</> by <Status_Up>{Passive1_EffectValue1}%</>. (Does not stack)"
+          "SourceString": "Can be ridden.\r\n\r\nWhile in party, \r\nreduces weight of <Status_Keyword>all types of ore</> by <Status_Up>{Passive1_EffectValue1}%</>. (Does not stack)",
+          "LocalizedString": "Can be ridden.\r\n\r\nWhile in party, \r\nreduces weight of <Status_Keyword>all types of ore</> by <Status_Up>{Passive1_EffectValue1}%</>. (Does not stack)"
         }
       },
       "PAL_FIRST_SPAWN_DESC_WeaselDragon": {
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_WeaselDragon_TextData",
-          "SourceString": "Can be ridden.\r\nWhile mounted, \r\nchanges the player’s attack type to <img id=|ElemIcon_Dragon|/><uiCommon id=|COMMON_ELEMENT_NAME_Dragon| style=|Elem_Dragon|/> and increases Attack by <Status_Up>{Passive2_EffectValue1}%</>.",
-          "LocalizedString": "Can be ridden.\r\nWhile mounted, \r\nchanges the player’s attack type to <img id=|ElemIcon_Dragon|/><uiCommon id=|COMMON_ELEMENT_NAME_Dragon| style=|Elem_Dragon|/> and increases Attack by <Status_Up>{Passive2_EffectValue1}%</>."
+          "SourceString": "Can be ridden.\r\n\r\nWhile mounted, \r\nchanges the player’s attack type to <img id=|ElemIcon_Dragon|/><uiCommon id=|COMMON_ELEMENT_NAME_Dragon| style=|Elem_Dragon|/> and increases Attack by <Status_Up>{Passive2_EffectValue1}%</>.",
+          "LocalizedString": "Can be ridden.\r\n\r\nWhile mounted, \r\nchanges the player’s attack type to <img id=|ElemIcon_Dragon|/><uiCommon id=|COMMON_ELEMENT_NAME_Dragon| style=|Elem_Dragon|/> and increases Attack by <Status_Up>{Passive2_EffectValue1}%</>."
         }
       },
       "PAL_FIRST_SPAWN_DESC_Werewolf": {
@@ -1152,8 +1151,8 @@
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_Yeti_Grass_TextData",
-          "SourceString": "Can be ridden.\r\nWhile in party, \r\nplayer and party Pals take <Status_Up>{Passive1_EffectValue1}%</> less <img id=|ElemIcon_Ground|/><uiCommon id=|COMMON_ELEMENT_NAME_Earth| style=|Elem_Ground|/> damage and are immune to <uiCommon id=|ADDITIONAL_EFFECT_Muddy| style=|Effect_Muddy|/> status. (Does not stack)",
-          "LocalizedString": "Can be ridden.\r\nWhile in party, \r\nplayer and party Pals take <Status_Up>{Passive1_EffectValue1}%</> less <img id=|ElemIcon_Ground|/><uiCommon id=|COMMON_ELEMENT_NAME_Earth| style=|Elem_Ground|/> damage and are immune to <uiCommon id=|ADDITIONAL_EFFECT_Muddy| style=|Effect_Muddy|/> status. (Does not stack)"
+          "SourceString": "Can be ridden.\r\n\r\nWhile in party, \r\nplayer and party Pals take <Status_Up>{Passive1_EffectValue1}%</> less <img id=|ElemIcon_Ground|/><uiCommon id=|COMMON_ELEMENT_NAME_Earth| style=|Elem_Ground|/> damage and are immune to <uiCommon id=|ADDITIONAL_EFFECT_Muddy| style=|Effect_Muddy|/> status. (Does not stack)",
+          "LocalizedString": "Can be ridden.\r\n\r\nWhile in party, \r\nplayer and party Pals take <Status_Up>{Passive1_EffectValue1}%</> less <img id=|ElemIcon_Ground|/><uiCommon id=|COMMON_ELEMENT_NAME_Earth| style=|Elem_Ground|/> damage and are immune to <uiCommon id=|ADDITIONAL_EFFECT_Muddy| style=|Effect_Muddy|/> status. (Does not stack)"
         }
       },
       "PAL_FIRST_SPAWN_DESC_WoolFox": {
@@ -1192,8 +1191,8 @@
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_Human_TextData",
-          "SourceString": "Humans are not Pals. Therefore, they do not possess Partner Skills.",
-          "LocalizedString": "Humans are not Pals. Therefore, they do not possess Partner Skills."
+          "SourceString": "Humans are not Pals.\r\nTherefore, they do not possess Partner Skills.",
+          "LocalizedString": "Humans are not Pals.\r\nTherefore, they do not possess Partner Skills."
         }
       },
       "PAL_FIRST_SPAWN_DESC_NightLady": {
@@ -1280,32 +1279,32 @@
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_MimicDog_TextData",
-          "SourceString": "While fighting together, \r\n<characterName id=|MimicDog|/> can open treasure chests without using a key. {ReferenceMsgId_CooldownReduction}",
-          "LocalizedString": "While fighting together, \r\n<characterName id=|MimicDog|/> can open treasure chests without using a key. {ReferenceMsgId_CooldownReduction}"
+          "SourceString": "While fighting together, \r\n<characterName id=|MimicDog|/> can open treasure chests without using a key. \r\nDoes not apply to chests that require a specific Work Suitability.\r\n{ReferenceMsgId_CooldownReduction}",
+          "LocalizedString": "While fighting together, \r\n<characterName id=|MimicDog|/> can open treasure chests without using a key. \r\nDoes not apply to chests that require a specific Work Suitability.\r\n{ReferenceMsgId_CooldownReduction}"
         }
       },
       "PAL_FIRST_SPAWN_DESC_KendoFrog": {
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_KendoFrog_TextData",
-          "SourceString": "When activated, \r\n<characterName id=|KendoFrog_Dark|/> channels its loyalty and puffs up its abdomen to store energy. Climbing on top will propel the player high into the air.\r\n\r\nWhile airborne before landing, \r\nthe player's Attack is increased by <Status_Up>{ReferencePassive1_EffectValue1}%</>.",
-          "LocalizedString": "When activated, \r\n<characterName id=|KendoFrog_Dark|/> channels its loyalty and puffs up its abdomen to store energy. Climbing on top will propel the player high into the air.\r\n\r\nWhile airborne before landing, \r\nthe player's Attack is increased by <Status_Up>{ReferencePassive1_EffectValue1}%</>."
+          "SourceString": "When activated, \r\n<characterName id=|KendoFrog|/> channels its loyalty and puffs up its abdomen to store energy. Climbing on top will propel the player high into the air.\r\n\r\nWhile airborne, \r\nthe player's Attack is increased by <Status_Up>{ReferencePassive1_EffectValue1}%</>.",
+          "LocalizedString": "When activated, \r\n<characterName id=|KendoFrog|/> channels its loyalty and puffs up its abdomen to store energy. Climbing on top will propel the player high into the air.\r\n\r\nWhile airborne, \r\nthe player's Attack is increased by <Status_Up>{ReferencePassive1_EffectValue1}%</>."
         }
       },
       "PAL_FIRST_SPAWN_DESC_KingBahamut_Dragon": {
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_KingBahamut_Dragon_TextData",
-          "SourceString": "Can be ridden.\r\n\r\nWhile in party, \r\nimproves player's and Pals' <img id=|ElemIcon_Dragon|/><uiCommon id=|COMMON_ELEMENT_NAME_Dragon| style=|Elem_Dragon|/> damage to enemy weak points by <Status_Up>{Passive1_EffectValue1}%</>. (Does not stack)",
-          "LocalizedString": "Can be ridden.\r\n\r\nWhile in party, \r\nimproves player's and Pals' <img id=|ElemIcon_Dragon|/><uiCommon id=|COMMON_ELEMENT_NAME_Dragon| style=|Elem_Dragon|/> damage to enemy weak points by <Status_Up>{Passive1_EffectValue1}%</>. (Does not stack)"
+          "SourceString": "Can be ridden.\r\n\r\nWhile in party, \r\nincreases damage dealt by Player and Pals' <img id=|ElemIcon_Dragon|/><uiCommon id=|COMMON_ELEMENT_NAME_Dragon| style=|Elem_Dragon|/> attacks when hitting the enemy's elemental weakness by <Status_Up>{Passive1_EffectValue1}%</>. (Does not stack)",
+          "LocalizedString": "Can be ridden.\r\n\r\nWhile in party, \r\nincreases damage dealt by Player and Pals' <img id=|ElemIcon_Dragon|/><uiCommon id=|COMMON_ELEMENT_NAME_Dragon| style=|Elem_Dragon|/> attacks when hitting the enemy's elemental weakness by <Status_Up>{Passive1_EffectValue1}%</>. (Does not stack)"
         }
       },
       "PAL_FIRST_SPAWN_DESC_HerculesBeetle_Ground": {
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_HerculesBeetle_Ground_TextData",
-          "SourceString": "While in your party, \r\n<Status_Keyword>generates a barrier</> around the player after 5 melee hits are landed within <Status_Up>{Passive1_EffectValue1}</> seconds. (Does not stack)",
-          "LocalizedString": "While in your party, \r\n<Status_Keyword>generates a barrier</> around the player after 5 melee hits are landed within <Status_Up>{Passive1_EffectValue1}</> seconds. (Does not stack)"
+          "SourceString": "While in party, \r\n<Status_Keyword>generates a barrier</> around the player after 5 melee hits are landed within <Status_Up>{Passive1_EffectValue1}</> seconds. (Does not stack)",
+          "LocalizedString": "While in party, \r\n<Status_Keyword>generates a barrier</> around the player after 5 melee hits are landed within <Status_Up>{Passive1_EffectValue1}</> seconds. (Does not stack)"
         }
       },
       "PAL_FIRST_SPAWN_DESC_Gorilla_Ground": {
@@ -1368,8 +1367,8 @@
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_WeaselDragon_Fire_TextData",
-          "SourceString": "Can be ridden. \r\nWhile mounted, \r\nchanges the player’s attack type to <img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/> and increases Attack by <Status_Up>{Passive2_EffectValue1}%</>.",
-          "LocalizedString": "Can be ridden. \r\nWhile mounted, \r\nchanges the player’s attack type to <img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/> and increases Attack by <Status_Up>{Passive2_EffectValue1}%</>."
+          "SourceString": "Can be ridden.\r\n\r\nWhile mounted, \r\nchanges the player’s attack type to <img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/> and increases Attack by <Status_Up>{Passive2_EffectValue1}%</>.",
+          "LocalizedString": "Can be ridden.\r\n\r\nWhile mounted, \r\nchanges the player’s attack type to <img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/> and increases Attack by <Status_Up>{Passive2_EffectValue1}%</>."
         }
       },
       "PAL_FIRST_SPAWN_DESC_WhiteAlienDragon": {
@@ -1400,16 +1399,16 @@
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_PinkRabbit_Grass_TextData",
-          "SourceString": "While in party, \r\nimproves player's and Pals' <img id=|ElemIcon_Grass|/><uiCommon id=|COMMON_ELEMENT_NAME_Leaf| style=|Elem_Grass|/> damage to enemy weak points by <Status_Up>{Passive1_EffectValue1}%</>. (Does not stack)\r\n\r\nIncreases efficiency by <Status_Up>{Passive2_EffectValue1}%</> when working at a Weapon Workbench, Weapon Assembly Line, or other related facilities.",
-          "LocalizedString": "While in party, \r\nimproves player's and Pals' <img id=|ElemIcon_Grass|/><uiCommon id=|COMMON_ELEMENT_NAME_Leaf| style=|Elem_Grass|/> damage to enemy weak points by <Status_Up>{Passive1_EffectValue1}%</>. (Does not stack)\r\n\r\nIncreases efficiency by <Status_Up>{Passive2_EffectValue1}%</> when working at a Weapon Workbench, Weapon Assembly Line, or other related facilities."
+          "SourceString": "While in party, \r\nincreases damage dealt by Player and Pals' <img id=|ElemIcon_Grass|/><uiCommon id=|COMMON_ELEMENT_NAME_Leaf| style=|Elem_Grass|/> attacks when hitting the enemy's elemental weakness by <Status_Up>{Passive1_EffectValue1}%</>. (Does not stack)\r\n\r\nIncreases efficiency by <Status_Up>{Passive2_EffectValue1}%</> when working at a Weapon Workbench, Weapon Assembly Line, or other related facilities.",
+          "LocalizedString": "While in party, \r\nincreases damage dealt by Player and Pals' <img id=|ElemIcon_Grass|/><uiCommon id=|COMMON_ELEMENT_NAME_Leaf| style=|Elem_Grass|/> attacks when hitting the enemy's elemental weakness by <Status_Up>{Passive1_EffectValue1}%</>. (Does not stack)\r\n\r\nIncreases efficiency by <Status_Up>{Passive2_EffectValue1}%</> when working at a Weapon Workbench, Weapon Assembly Line, or other related facilities."
         }
       },
       "PAL_FIRST_SPAWN_DESC_Werewolf_Ice": {
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_Werewolf_Ice_TextData",
-          "SourceString": "When activated, \r\nattacks targeted enemy with <activeSkillName id=|Unique_Werewolf_Ice_SnowScratch| style=|Status_Keyword|/>.\r\n\r\nWhen this Pal uses <activeSkillName id=|Unique_Werewolf_Ice_SnowScratch| style=|Status_Keyword|/>, \r\nit has a <Status_Up>x{ActiveSkillMainValueByRank}</> damage multiplier.\r\n\r\nWhile in party, \r\nincreases the player's <Status_Keyword>melee weapon attack speed</> by <Status_Up>{Passive1_EffectValue1}%</>. \r\n(Does not stack)",
-          "LocalizedString": "When activated, \r\nattacks targeted enemy with <activeSkillName id=|Unique_Werewolf_Ice_SnowScratch| style=|Status_Keyword|/>.\r\n\r\nWhen this Pal uses <activeSkillName id=|Unique_Werewolf_Ice_SnowScratch| style=|Status_Keyword|/>, \r\nit has a <Status_Up>x{ActiveSkillMainValueByRank}</> damage multiplier.\r\n\r\nWhile in party, \r\nincreases the player's <Status_Keyword>melee weapon attack speed</> by <Status_Up>{Passive1_EffectValue1}%</>. \r\n(Does not stack)"
+          "SourceString": "When activated, \r\nattacks targeted enemy with <activeSkillName id=|Unique_Werewolf_Ice_SnowScratch| style=|Status_Keyword|/>.\r\n\r\nWhen this Pal uses <activeSkillName id=|Unique_Werewolf_Ice_SnowScratch| style=|Status_Keyword|/>, \r\nit has a <Status_Up>x{ActiveSkillMainValueByRank}</> damage multiplier.\r\n\r\nWhile in party, \r\nincreases the player's <Status_Keyword>melee weapon attack speed</> by <Status_Up>{Passive1_EffectValue1}%</>. (Does not stack)",
+          "LocalizedString": "When activated, \r\nattacks targeted enemy with <activeSkillName id=|Unique_Werewolf_Ice_SnowScratch| style=|Status_Keyword|/>.\r\n\r\nWhen this Pal uses <activeSkillName id=|Unique_Werewolf_Ice_SnowScratch| style=|Status_Keyword|/>, \r\nit has a <Status_Up>x{ActiveSkillMainValueByRank}</> damage multiplier.\r\n\r\nWhile in party, \r\nincreases the player's <Status_Keyword>melee weapon attack speed</> by <Status_Up>{Passive1_EffectValue1}%</>. (Does not stack)"
         }
       },
       "PAL_FIRST_SPAWN_DESC_AmaterasuWolf_Dark": {
@@ -1472,8 +1471,8 @@
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_NightBlueHorse_TextData",
-          "SourceString": "Can be ridden. \r\nBoosts jumping ability while mounted.\r\n\r\nThis Pal's movement speed increases by <Status_Up>+{Passive1_EffectValue1}%</> at night.",
-          "LocalizedString": "Can be ridden. \r\nBoosts jumping ability while mounted.\r\n\r\nThis Pal's movement speed increases by <Status_Up>+{Passive1_EffectValue1}%</> at night."
+          "SourceString": "Can be ridden. \r\nBoosts Jump Power while mounted.\r\n\r\nThis Pal's movement speed increases by <Status_Up>+{Passive1_EffectValue1}%</> at night.",
+          "LocalizedString": "Can be ridden. \r\nBoosts Jump Power while mounted.\r\n\r\nThis Pal's movement speed increases by <Status_Up>+{Passive1_EffectValue1}%</> at night."
         }
       },
       "PAL_FIRST_SPAWN_DESC_WhiteShieldDragon": {
@@ -1536,8 +1535,8 @@
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_SnowTigerBeastman_TextData",
-          "SourceString": "Can be ridden. \r\nWhile mounted, \r\ndelivers crushing blows with a hammer forged from <img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>.\r\n{ReferenceMsgId_DamageUp}",
-          "LocalizedString": "Can be ridden. \r\nWhile mounted, \r\ndelivers crushing blows with a hammer forged from <img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>.\r\n{ReferenceMsgId_DamageUp}"
+          "SourceString": "Can be ridden.\r\n\r\nWhile mounted, \r\ndelivers crushing blows with a hammer forged from <img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>.\r\n{ReferenceMsgId_DamageUp}",
+          "LocalizedString": "Can be ridden.\r\n\r\nWhile mounted, \r\ndelivers crushing blows with a hammer forged from <img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>.\r\n{ReferenceMsgId_DamageUp}"
         }
       },
       "PAL_FIRST_SPAWN_DESC_BlueberryFairy": {
@@ -1560,40 +1559,40 @@
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_GoldenHorse_TextData",
-          "SourceString": "Can be ridden. \r\nWhile mounted, \r\nchanges the player’s attack type to <img id=|ElemIcon_Ground|/><uiCommon id=|COMMON_ELEMENT_NAME_Earth| style=|Elem_Ground|/> and increases Attack by <Status_Up>{Passive2_EffectValue1}%</>.",
-          "LocalizedString": "Can be ridden. \r\nWhile mounted, \r\nchanges the player’s attack type to <img id=|ElemIcon_Ground|/><uiCommon id=|COMMON_ELEMENT_NAME_Earth| style=|Elem_Ground|/> and increases Attack by <Status_Up>{Passive2_EffectValue1}%</>."
+          "SourceString": "Can be ridden.\r\n\r\nWhile mounted, \r\nchanges the player’s attack type to <img id=|ElemIcon_Ground|/><uiCommon id=|COMMON_ELEMENT_NAME_Earth| style=|Elem_Ground|/> and increases Attack by <Status_Up>{Passive2_EffectValue1}%</>.",
+          "LocalizedString": "Can be ridden.\r\n\r\nWhile mounted, \r\nchanges the player’s attack type to <img id=|ElemIcon_Ground|/><uiCommon id=|COMMON_ELEMENT_NAME_Earth| style=|Elem_Ground|/> and increases Attack by <Status_Up>{Passive2_EffectValue1}%</>."
         }
       },
       "PAL_FIRST_SPAWN_DESC_NegativeOctopus_Neutral": {
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_NegativeOctopus_Neutral_TextData",
-          "SourceString": "While in party, \r\nmodifies the performance of the equipped glider. \r\n\r\nEnables gentle floating while gliding for an extended time.\r\n{ReferenceMsgId_GriderPerformanceUp}",
-          "LocalizedString": "While in party, \r\nmodifies the performance of the equipped glider. \r\n\r\nEnables gentle floating while gliding for an extended time.\r\n{ReferenceMsgId_GriderPerformanceUp}"
+          "SourceString": "While in party, \r\nmodifies the performance of the equipped glider.\r\n\r\nEnables gentle floating while gliding for an extended time.\r\n{ReferenceMsgId_GriderPerformanceUp}",
+          "LocalizedString": "While in party, \r\nmodifies the performance of the equipped glider.\r\n\r\nEnables gentle floating while gliding for an extended time.\r\n{ReferenceMsgId_GriderPerformanceUp}"
         }
       },
       "PAL_FIRST_SPAWN_DESC_Penguin_Electric": {
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_Penguin_Electric_TextData",
-          "SourceString": "When activated, \r\nthe player equips <characterName id=|Penguin_Electric|/> to fire <itemName id=|Launcher_Default|/> as ammunition.\r\n\r\n<characterName id=|Penguin_Electric|/> explodes on impact and is incapacitated.\r\n{ReferenceMsgId_DamageUp}",
-          "LocalizedString": "When activated, \r\nthe player equips <characterName id=|Penguin_Electric|/> to fire <itemName id=|Launcher_Default|/> as ammunition.\r\n\r\n<characterName id=|Penguin_Electric|/> explodes on impact and is incapacitated.\r\n{ReferenceMsgId_DamageUp}"
+          "SourceString": "When activated, \r\nthe player equips a <itemName id=|Launcher_Default|/> to fire <characterName id=|Penguin_Electric|/> as ammunition.\r\n\r\n<characterName id=|Penguin_Electric|/> explodes on impact and is incapacitated.\r\n{ReferenceMsgId_DamageUp}",
+          "LocalizedString": "When activated, \r\nthe player equips a <itemName id=|Launcher_Default|/> to fire <characterName id=|Penguin_Electric|/> as ammunition.\r\n\r\n<characterName id=|Penguin_Electric|/> explodes on impact and is incapacitated.\r\n{ReferenceMsgId_DamageUp}"
         }
       },
       "PAL_FIRST_SPAWN_DESC_CaptainPenguin_Black": {
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_CaptainPenguin_Black_TextData",
-          "SourceString": "While in party, \r\nimproves player's and Pals' <img id=|ElemIcon_Water|/><uiCommon id=|COMMON_ELEMENT_NAME_Water| style=|Elem_Water|/> damage to enemy weak points by <Status_Up>{Passive1_EffectValue1}%</>. (Does not stack)",
-          "LocalizedString": "While in party, \r\nimproves player's and Pals' <img id=|ElemIcon_Water|/><uiCommon id=|COMMON_ELEMENT_NAME_Water| style=|Elem_Water|/> damage to enemy weak points by <Status_Up>{Passive1_EffectValue1}%</>. (Does not stack)"
+          "SourceString": "While in party, \r\nincreases damage dealt by Player and Pals' <img id=|ElemIcon_Water|/><uiCommon id=|COMMON_ELEMENT_NAME_Water| style=|Elem_Water|/> attacks when hitting the enemy's elemental weakness by <Status_Up>{Passive1_EffectValue1}%</>. (Does not stack)",
+          "LocalizedString": "While in party, \r\nincreases damage dealt by Player and Pals' <img id=|ElemIcon_Water|/><uiCommon id=|COMMON_ELEMENT_NAME_Water| style=|Elem_Water|/> attacks when hitting the enemy's elemental weakness by <Status_Up>{Passive1_EffectValue1}%</>. (Does not stack)"
         }
       },
       "PAL_FIRST_SPAWN_DESC_FlyingManta_Thunder": {
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_FlyingManta_Thunder_TextData",
-          "SourceString": "While in party, \r\nmodifies the performance of the equipped glider. \r\n\r\n<Status_Keyword>Prevents fall damage</> and extends the duration of high-speed gliding.\r\n{ReferenceMsgId_GriderPerformanceUp}",
-          "LocalizedString": "While in party, \r\nmodifies the performance of the equipped glider. \r\n\r\n<Status_Keyword>Prevents fall damage</> and extends the duration of high-speed gliding.\r\n{ReferenceMsgId_GriderPerformanceUp}"
+          "SourceString": "While in party, \r\nmodifies the performance of the equipped glider.\r\n\r\n<Status_Keyword>Prevents fall damage</> and extends the duration of high-speed gliding.\r\n{ReferenceMsgId_GriderPerformanceUp}",
+          "LocalizedString": "While in party, \r\nmodifies the performance of the equipped glider.\r\n\r\n<Status_Keyword>Prevents fall damage</> and extends the duration of high-speed gliding.\r\n{ReferenceMsgId_GriderPerformanceUp}"
         }
       },
       "PAL_FIRST_SPAWN_DESC_BluePlatypus_Fire": {
@@ -1616,16 +1615,16 @@
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_TentacleTurtle_Ground_TextData",
-          "SourceString": "While in party, \r\nreduces weight of <itemName id=|Sulfur| style=|Status_Keyword|/> and <itemName id=|Coal| style=|Status_Keyword|/> by <Status_Up>{Passive1_EffectValue1}%</>. \r\n\r\nAlso improves player's and Pals' <img id=|ElemIcon_Ground|/><uiCommon id=|COMMON_ELEMENT_NAME_Earth| style=|Elem_Ground|/> damage to enemy weak points by <Status_Up>{Passive1_EffectValue1}%</>. (Does not stack)",
-          "LocalizedString": "While in party, \r\nreduces weight of <itemName id=|Sulfur| style=|Status_Keyword|/> and <itemName id=|Coal| style=|Status_Keyword|/> by <Status_Up>{Passive1_EffectValue1}%</>. \r\n\r\nAlso improves player's and Pals' <img id=|ElemIcon_Ground|/><uiCommon id=|COMMON_ELEMENT_NAME_Earth| style=|Elem_Ground|/> damage to enemy weak points by <Status_Up>{Passive1_EffectValue1}%</>. (Does not stack)"
+          "SourceString": "While in party, \r\nreduces weight of <itemName id=|Sulfur| style=|Status_Keyword|/> and <itemName id=|Coal| style=|Status_Keyword|/> by <Status_Up>{Passive1_EffectValue1}%</>. \r\n\r\nAlso increases damage dealt by Player and Pals' <img id=|ElemIcon_Ground|/><uiCommon id=|COMMON_ELEMENT_NAME_Earth| style=|Elem_Ground|/> attacks when hitting the enemy's elemental weakness by <Status_Up>{Passive2_EffectValue1}%</>. (Does not stack)",
+          "LocalizedString": "While in party, \r\nreduces weight of <itemName id=|Sulfur| style=|Status_Keyword|/> and <itemName id=|Coal| style=|Status_Keyword|/> by <Status_Up>{Passive1_EffectValue1}%</>. \r\n\r\nAlso increases damage dealt by Player and Pals' <img id=|ElemIcon_Ground|/><uiCommon id=|COMMON_ELEMENT_NAME_Earth| style=|Elem_Ground|/> attacks when hitting the enemy's elemental weakness by <Status_Up>{Passive2_EffectValue1}%</>. (Does not stack)"
         }
       },
       "PAL_FIRST_SPAWN_DESC_KendoFrog_Dark": {
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_KendoFrog_Dark_TextData",
-          "SourceString": "When activated, \r\n<characterName id=|KendoFrog_Dark|/> channels its loyalty and puffs up its abdomen to store energy. Climbing on top will propel the player high into the air.\r\n\r\nWhile in party, \r\nimproves player's and Pals' <img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/> damage to enemy weak points by <Status_Up>{Passive1_EffectValue1}%</>. (Does not stack)",
-          "LocalizedString": "When activated, \r\n<characterName id=|KendoFrog_Dark|/> channels its loyalty and puffs up its abdomen to store energy. Climbing on top will propel the player high into the air.\r\n\r\nWhile in party, \r\nimproves player's and Pals' <img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/> damage to enemy weak points by <Status_Up>{Passive1_EffectValue1}%</>. (Does not stack)"
+          "SourceString": "When activated, \r\n<characterName id=|KendoFrog_Dark|/> channels its loyalty and puffs up its abdomen to store energy. Climbing on top will propel the player high into the air.\r\n\r\nWhile in party, \r\nincreases damage dealt by Player and Pals' <img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/> attacks when hitting the enemy's elemental weakness by <Status_Up>{Passive1_EffectValue1}%</>. (Does not stack)",
+          "LocalizedString": "When activated, \r\n<characterName id=|KendoFrog_Dark|/> channels its loyalty and puffs up its abdomen to store energy. Climbing on top will propel the player high into the air.\r\n\r\nWhile in party, \r\nincreases damage dealt by Player and Pals' <img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/> attacks when hitting the enemy's elemental weakness by <Status_Up>{Passive1_EffectValue1}%</>. (Does not stack)"
         }
       },
       "PAL_FIRST_SPAWN_DESC_BlueDragon_Ice": {
@@ -1648,16 +1647,16 @@
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_GhostAnglerfish_Fire_TextData",
-          "SourceString": "Can be ridden to travel on water. \r\n\r\nThis Pal’s Movement Speed increases by <Status_Up>{Passive1_EffectValue1}%</> for each other <img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/> or <img id=|ElemIcon_Water|/><uiCommon id=|COMMON_ELEMENT_NAME_Water| style=|Elem_Water|/> Pal in your party.\r\n(Excluding <characterName id=|GhostAnglerfish_Fire|/>)",
-          "LocalizedString": "Can be ridden to travel on water. \r\n\r\nThis Pal’s Movement Speed increases by <Status_Up>{Passive1_EffectValue1}%</> for each other <img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/> or <img id=|ElemIcon_Water|/><uiCommon id=|COMMON_ELEMENT_NAME_Water| style=|Elem_Water|/> Pal in your party.\r\n(Excluding <characterName id=|GhostAnglerfish_Fire|/>)"
+          "SourceString": "Can be ridden to travel on water. \r\n\r\nThis Pal’s Movement Speed increases by <Status_Up>{Passive1_EffectValue1}%</> for each other <img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/> or <img id=|ElemIcon_Water|/><uiCommon id=|COMMON_ELEMENT_NAME_Water| style=|Elem_Water|/> Pal in your party. (Excluding <characterName id=|GhostAnglerfish_Fire|/>)",
+          "LocalizedString": "Can be ridden to travel on water. \r\n\r\nThis Pal’s Movement Speed increases by <Status_Up>{Passive1_EffectValue1}%</> for each other <img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/> or <img id=|ElemIcon_Water|/><uiCommon id=|COMMON_ELEMENT_NAME_Water| style=|Elem_Water|/> Pal in your party. (Excluding <characterName id=|GhostAnglerfish_Fire|/>)"
         }
       },
       "PAL_FIRST_SPAWN_DESC_StuffedShark_Fire": {
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_StuffedShark_Fire_TextData",
-          "SourceString": "While in party, \r\n<characterName id=|StuffedShark_Fire|/> helps carry supplies, reducing the weight of weapons in your inventory by <Status_Up>{Passive1_EffectValue1}%</>. \r\n\r\nAlso improves player's and Pals' <img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/> damage to enemy weak points by <Status_Up>{Passive2_EffectValue1}%</>. (Does not stack)",
-          "LocalizedString": "While in party, \r\n<characterName id=|StuffedShark_Fire|/> helps carry supplies, reducing the weight of weapons in your inventory by <Status_Up>{Passive1_EffectValue1}%</>. \r\n\r\nAlso improves player's and Pals' <img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/> damage to enemy weak points by <Status_Up>{Passive2_EffectValue1}%</>. (Does not stack)"
+          "SourceString": "While in party, \r\n<characterName id=|StuffedShark_Fire|/> helps carry supplies, reducing the weight of weapons in your inventory by <Status_Up>{Passive1_EffectValue1}%</>. \r\n\r\nAlso increases damage dealt by Player and Pals' <img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/> attacks when hitting the enemy's elemental weakness by <Status_Up>{Passive2_EffectValue1}%</>. (Does not stack)",
+          "LocalizedString": "While in party, \r\n<characterName id=|StuffedShark_Fire|/> helps carry supplies, reducing the weight of weapons in your inventory by <Status_Up>{Passive1_EffectValue1}%</>. \r\n\r\nAlso increases damage dealt by Player and Pals' <img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/> attacks when hitting the enemy's elemental weakness by <Status_Up>{Passive2_EffectValue1}%</>. (Does not stack)"
         }
       },
       "PAL_FIRST_SPAWN_DESC_TentacleTurtle_NotUse": {
@@ -1680,8 +1679,8 @@
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_IceNarwhal_TextData",
-          "SourceString": "Can be ridden. \r\nWhile in party, \r\nfishing minigames start with the capture gauge increased by <Status_Up>{Passive1_EffectValue1}%</>.\r\n\r\nAdditionally, while the bars overlap, capture progress increases by <Status_Up>{Passive2_EffectValue1}%</>. \r\n(Does not stack)\r\n{ReferenceMsgId_SwimSpeedUp}",
-          "LocalizedString": "Can be ridden. \r\nWhile in party, \r\nfishing minigames start with the capture gauge increased by <Status_Up>{Passive1_EffectValue1}%</>.\r\n\r\nAdditionally, while the bars overlap, capture progress increases by <Status_Up>{Passive2_EffectValue1}%</>. \r\n(Does not stack)\r\n{ReferenceMsgId_SwimSpeedUp}"
+          "SourceString": "Can be ridden.\r\n\r\nWhile in party, \r\nfishing minigames start with the capture gauge increased by <Status_Up>{Passive1_EffectValue1}%</>.\r\n\r\nAdditionally, while the bars overlap, capture progress increases by <Status_Up>{Passive2_EffectValue1}%</>. \r\n(Does not stack)\r\n{ReferenceMsgId_SwimSpeedUp}",
+          "LocalizedString": "Can be ridden.\r\n\r\nWhile in party, \r\nfishing minigames start with the capture gauge increased by <Status_Up>{Passive1_EffectValue1}%</>.\r\n\r\nAdditionally, while the bars overlap, capture progress increases by <Status_Up>{Passive2_EffectValue1}%</>. \r\n(Does not stack)\r\n{ReferenceMsgId_SwimSpeedUp}"
         }
       },
       "PAL_FIRST_SPAWN_DESC_JellyfishFairy": {
@@ -1704,8 +1703,8 @@
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_GhostAnglerfish_TextData",
-          "SourceString": "Can be ridden to travel on water. \r\n\r\nThis Pal’s Movement Speed increases by <Status_Up>{Passive1_EffectValue1}%</> for each other <img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/> or <img id=|ElemIcon_Water|/><uiCommon id=|COMMON_ELEMENT_NAME_Water| style=|Elem_Water|/> Pal in your party.\r\n(Excluding <characterName id=|GhostAnglerfish|/>)",
-          "LocalizedString": "Can be ridden to travel on water. \r\n\r\nThis Pal’s Movement Speed increases by <Status_Up>{Passive1_EffectValue1}%</> for each other <img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/> or <img id=|ElemIcon_Water|/><uiCommon id=|COMMON_ELEMENT_NAME_Water| style=|Elem_Water|/> Pal in your party.\r\n(Excluding <characterName id=|GhostAnglerfish|/>)"
+          "SourceString": "Can be ridden to travel on water. \r\n\r\nThis Pal’s Movement Speed increases by <Status_Up>{Passive1_EffectValue1}%</> for each other <img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/> or <img id=|ElemIcon_Water|/><uiCommon id=|COMMON_ELEMENT_NAME_Water| style=|Elem_Water|/> Pal in your party. (Excluding <characterName id=|GhostAnglerfish|/>)",
+          "LocalizedString": "Can be ridden to travel on water. \r\n\r\nThis Pal’s Movement Speed increases by <Status_Up>{Passive1_EffectValue1}%</> for each other <img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/> or <img id=|ElemIcon_Water|/><uiCommon id=|COMMON_ELEMENT_NAME_Water| style=|Elem_Water|/> Pal in your party. (Excluding <characterName id=|GhostAnglerfish|/>)"
         }
       },
       "PAL_FIRST_SPAWN_DESC_IceWitch": {
@@ -1872,16 +1871,16 @@
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_LegendDeer_TextData",
-          "SourceString": "Can be ridden. \r\nWhile mounted, \r\nit generates a barrier that blocks all attacks. \r\n\r\nCan <Status_Keyword>triple jump</> while mounted.\r\n{ReferenceMsgId_CooldownReduction}",
-          "LocalizedString": "Can be ridden. \r\nWhile mounted, \r\nit generates a barrier that blocks all attacks. \r\n\r\nCan <Status_Keyword>triple jump</> while mounted.\r\n{ReferenceMsgId_CooldownReduction}"
+          "SourceString": "Can be ridden.\r\n\r\nWhile mounted, \r\nit generates a barrier that blocks all attacks. \r\n\r\nCan <Status_Keyword>triple jump</> while mounted.\r\n{ReferenceMsgId_CooldownReduction}",
+          "LocalizedString": "Can be ridden.\r\n\r\nWhile mounted, \r\nit generates a barrier that blocks all attacks. \r\n\r\nCan <Status_Keyword>triple jump</> while mounted.\r\n{ReferenceMsgId_CooldownReduction}"
         }
       },
       "PAL_FIRST_SPAWN_DESC_Kirin_Ice": {
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_Kirin_Ice_TextData",
-          "SourceString": "Can be ridden. \r\nWhile mounted, \r\nchanges the player’s attack type to <img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/> and increases Attack by <Status_Up>{Passive2_EffectValue1}%</>.",
-          "LocalizedString": "Can be ridden. \r\nWhile mounted, \r\nchanges the player’s attack type to <img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/> and increases Attack by <Status_Up>{Passive2_EffectValue1}%</>."
+          "SourceString": "Can be ridden.\r\n\r\nWhile mounted, \r\nchanges the player’s attack type to <img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/> and increases Attack by <Status_Up>{Passive2_EffectValue1}%</>.",
+          "LocalizedString": "Can be ridden.\r\n\r\nWhile mounted, \r\nchanges the player’s attack type to <img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/> and increases Attack by <Status_Up>{Passive2_EffectValue1}%</>."
         }
       },
       "PAL_FIRST_SPAWN_DESC_ClioneTwins": {
@@ -1952,16 +1951,16 @@
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_GrassGolem_TextData",
-          "SourceString": "Can be ridden. \r\nWhen activated, \r\n<characterName id=|GrassGolem|/> fires a powerful <img id=|ElemIcon_Grass|/><uiCommon id=|COMMON_ELEMENT_NAME_Leaf| style=|Elem_Grass|/> laser from its right hand.\r\n{ReferenceMsgId_CooldownReduction}",
-          "LocalizedString": "Can be ridden. \r\nWhen activated, \r\n<characterName id=|GrassGolem|/> fires a powerful <img id=|ElemIcon_Grass|/><uiCommon id=|COMMON_ELEMENT_NAME_Leaf| style=|Elem_Grass|/> laser from its right hand.\r\n{ReferenceMsgId_CooldownReduction}"
+          "SourceString": "Can be ridden. \r\n\r\nWhile mounted, \r\n<characterName id=|GrassGolem|/> fires a powerful <img id=|ElemIcon_Grass|/><uiCommon id=|COMMON_ELEMENT_NAME_Leaf| style=|Elem_Grass|/> laser from its right hand.\r\n{ReferenceMsgId_CooldownReduction}",
+          "LocalizedString": "Can be ridden. \r\n\r\nWhile mounted, \r\n<characterName id=|GrassGolem|/> fires a powerful <img id=|ElemIcon_Grass|/><uiCommon id=|COMMON_ELEMENT_NAME_Leaf| style=|Elem_Grass|/> laser from its right hand.\r\n{ReferenceMsgId_CooldownReduction}"
         }
       },
       "PAL_FIRST_SPAWN_DESC_GrassGolem_Dark": {
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_GrassGolem_Dark_TextData",
-          "SourceString": "Can be ridden. \r\nWhen activated, \r\n<characterName id=|GrassGolem_Dark|/> fires a powerful <img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/> laser from its right hand.\r\n{ReferenceMsgId_CooldownReduction}",
-          "LocalizedString": "Can be ridden. \r\nWhen activated, \r\n<characterName id=|GrassGolem_Dark|/> fires a powerful <img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/> laser from its right hand.\r\n{ReferenceMsgId_CooldownReduction}"
+          "SourceString": "Can be ridden. \r\n\r\nWhile mounted, \r\n<characterName id=|GrassGolem_Dark|/> fires a powerful <img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/> laser from its right hand.\r\n{ReferenceMsgId_CooldownReduction}",
+          "LocalizedString": "Can be ridden. \r\n\r\nWhile mounted, \r\n<characterName id=|GrassGolem_Dark|/> fires a powerful <img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/> laser from its right hand.\r\n{ReferenceMsgId_CooldownReduction}"
         }
       },
       "PAL_FIRST_SPAWN_DESC_FlowerDoll_Fire": {
@@ -1984,8 +1983,8 @@
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_SumoDog_TextData",
-          "SourceString": "Can be ridden. \r\nWhile in party, \r\nplayer and party Pals take <Status_Up>{Passive1_EffectValue1}%</> less <img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/> damage and are immune to <uiCommon id=|ADDITIONAL_EFFECT_Electrical| style=|Effect_Electrical|/>. (Does not stack)",
-          "LocalizedString": "Can be ridden. \r\nWhile in party, \r\nplayer and party Pals take <Status_Up>{Passive1_EffectValue1}%</> less <img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/> damage and are immune to <uiCommon id=|ADDITIONAL_EFFECT_Electrical| style=|Effect_Electrical|/>. (Does not stack)"
+          "SourceString": "Can be ridden.\r\n\r\nWhile in party, \r\nplayer and party Pals take <Status_Up>{Passive1_EffectValue1}%</> less <img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/> damage and are immune to <uiCommon id=|ADDITIONAL_EFFECT_Electrical| style=|Effect_Electrical|/>. (Does not stack)",
+          "LocalizedString": "Can be ridden.\r\n\r\nWhile in party, \r\nplayer and party Pals take <Status_Up>{Passive1_EffectValue1}%</> less <img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/> damage and are immune to <uiCommon id=|ADDITIONAL_EFFECT_Electrical| style=|Effect_Electrical|/>. (Does not stack)"
         }
       },
       "PAL_FIRST_SPAWN_DESC_CactusDoll": {
@@ -2024,16 +2023,16 @@
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_SnakeGirl_TextData",
-          "SourceString": "While in party, \r\nthe player's attacks inflict <uiCommon id=|ADDITIONAL_EFFECT_Darkness| style=|Elem_Dark|/> <Status_Up>{Passive1_EffectValue1}</>. \r\n(Does not stack)",
-          "LocalizedString": "While in party, \r\nthe player's attacks inflict <uiCommon id=|ADDITIONAL_EFFECT_Darkness| style=|Elem_Dark|/> <Status_Up>{Passive1_EffectValue1}</>. \r\n(Does not stack)"
+          "SourceString": "While in party, \r\nthe player's attacks increase <uiCommon id=|ADDITIONAL_EFFECT_Darkness| style=|Elem_Dark|/> buildup by <Status_Up>{Passive1_EffectValue1}</>. \r\n(Does not stack)",
+          "LocalizedString": "While in party, \r\nthe player's attacks increase <uiCommon id=|ADDITIONAL_EFFECT_Darkness| style=|Elem_Dark|/> buildup by <Status_Up>{Passive1_EffectValue1}</>. \r\n(Does not stack)"
         }
       },
       "PAL_FIRST_SPAWN_DESC_KabukiMan": {
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_KabukiMan_TextData",
-          "SourceString": "While in party, the player's attacks inflict <uiCommon id=|ADDITIONAL_EFFECT_Burn| style=|Effect_Burn|/> <Status_Up>{Passive1_EffectValue1}</>. \r\n(Does not stack)",
-          "LocalizedString": "While in party, the player's attacks inflict <uiCommon id=|ADDITIONAL_EFFECT_Burn| style=|Effect_Burn|/> <Status_Up>{Passive1_EffectValue1}</>. \r\n(Does not stack)"
+          "SourceString": "While in party,\r\nthe player's attacks increase <uiCommon id=|ADDITIONAL_EFFECT_Burn| style=|Effect_Burn|/> buildup by <Status_Up>{Passive1_EffectValue1}</>. \r\n(Does not stack)",
+          "LocalizedString": "While in party,\r\nthe player's attacks increase <uiCommon id=|ADDITIONAL_EFFECT_Burn| style=|Effect_Burn|/> buildup by <Status_Up>{Passive1_EffectValue1}</>. \r\n(Does not stack)"
         }
       },
       "PAL_FIRST_SPAWN_DESC_SamuraiDog": {
@@ -2048,8 +2047,8 @@
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_Sekhmet_TextData",
-          "SourceString": "While at base, \r\nboosts <characterName id=|Anubis| style=|Status_Keyword|/>'s work speed by <Status_Up>{Passive1_EffectValue1}%</>. \r\nIncreases efficiency by <Status_Up>{Passive2_EffectValue1}%</> if <characterName id=|Sekhmet|/> is also working at a Workbench, Workshop, or other related facilities. (Does not stack)",
-          "LocalizedString": "While at base, \r\nboosts <characterName id=|Anubis| style=|Status_Keyword|/>'s work speed by <Status_Up>{Passive1_EffectValue1}%</>. \r\nIncreases efficiency by <Status_Up>{Passive2_EffectValue1}%</> if <characterName id=|Sekhmet|/> is also working at a Workbench, Workshop, or other related facilities. (Does not stack)"
+          "SourceString": "While at base, \r\nboosts <characterName id=|Anubis| style=|Status_Keyword|/>'s work speed by <Status_Up>{Passive1_EffectValue1}%</>.\r\n\r\nIncreases efficiency by <Status_Up>{Passive2_EffectValue1}%</> if <characterName id=|Sekhmet|/> is also working at a Workbench, Workshop, or other related facilities. (Does not stack)",
+          "LocalizedString": "While at base, \r\nboosts <characterName id=|Anubis| style=|Status_Keyword|/>'s work speed by <Status_Up>{Passive1_EffectValue1}%</>.\r\n\r\nIncreases efficiency by <Status_Up>{Passive2_EffectValue1}%</> if <characterName id=|Sekhmet|/> is also working at a Workbench, Workshop, or other related facilities. (Does not stack)"
         }
       },
       "PAL_FIRST_SPAWN_DESC_GhostRabbit_Grass": {
@@ -2072,8 +2071,8 @@
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_LotusDragon_TextData",
-          "SourceString": "Can be ridden. \r\n\r\nWhile in party, \r\nthe player's attacks inflict <uiCommon id=|ADDITIONAL_EFFECT_Wetness| style=|Effect_Wetness|/> <Status_Up>{Passive1_EffectValue1}</>. \r\n(Does not stack)",
-          "LocalizedString": "Can be ridden. \r\n\r\nWhile in party, \r\nthe player's attacks inflict <uiCommon id=|ADDITIONAL_EFFECT_Wetness| style=|Effect_Wetness|/> <Status_Up>{Passive1_EffectValue1}</>. \r\n(Does not stack)"
+          "SourceString": "Can be ridden. \r\n\r\nWhile in party, \r\nthe player's attacks increase <uiCommon id=|ADDITIONAL_EFFECT_Wetness| style=|Effect_Wetness|/> buildup by <Status_Up>{Passive1_EffectValue1}</>. \r\n(Does not stack)",
+          "LocalizedString": "Can be ridden. \r\n\r\nWhile in party, \r\nthe player's attacks increase <uiCommon id=|ADDITIONAL_EFFECT_Wetness| style=|Effect_Wetness|/> buildup by <Status_Up>{Passive1_EffectValue1}</>. \r\n(Does not stack)"
         }
       },
       "PAL_FIRST_SPAWN_DESC_Monkey_Fire": {
@@ -2128,8 +2127,8 @@
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_ElecSnail_TextData",
-          "SourceString": "While in party, the player's attacks inflict <uiCommon id=|ADDITIONAL_EFFECT_Electrical| style=|Effect_Electrical|/> <Status_Up>{Passive1_EffectValue1}</>. (Does not stack)",
-          "LocalizedString": "While in party, the player's attacks inflict <uiCommon id=|ADDITIONAL_EFFECT_Electrical| style=|Effect_Electrical|/> <Status_Up>{Passive1_EffectValue1}</>. (Does not stack)"
+          "SourceString": "While in party,\r\nthe player's attacks increase <uiCommon id=|ADDITIONAL_EFFECT_Electrical| style=|Effect_Electrical|/> buildup by <Status_Up>{Passive1_EffectValue1}</>. (Does not stack)",
+          "LocalizedString": "While in party,\r\nthe player's attacks increase <uiCommon id=|ADDITIONAL_EFFECT_Electrical| style=|Effect_Electrical|/> buildup by <Status_Up>{Passive1_EffectValue1}</>. (Does not stack)"
         }
       },
       "PAL_FIRST_SPAWN_DESC_ElecSnail_Ground": {
@@ -2144,8 +2143,8 @@
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_CactusDoll_Dark_TextData",
-          "SourceString": "While in party, \r\nthe player's attacks inflict <uiCommon id=|ADDITIONAL_EFFECT_IvyCling| style=|Effect_IvyCling|/> <Status_Up>{Passive1_EffectValue1}</>. (Does not stack)",
-          "LocalizedString": "While in party, \r\nthe player's attacks inflict <uiCommon id=|ADDITIONAL_EFFECT_IvyCling| style=|Effect_IvyCling|/> <Status_Up>{Passive1_EffectValue1}</>. (Does not stack)"
+          "SourceString": "While in party, \r\nthe player's attacks increase <uiCommon id=|ADDITIONAL_EFFECT_IvyCling| style=|Effect_IvyCling|/> buildup by <Status_Up>{Passive1_EffectValue1}</>. (Does not stack)",
+          "LocalizedString": "While in party, \r\nthe player's attacks increase <uiCommon id=|ADDITIONAL_EFFECT_IvyCling| style=|Effect_IvyCling|/> buildup by <Status_Up>{Passive1_EffectValue1}</>. (Does not stack)"
         }
       },
       "PAL_FIRST_SPAWN_DESC_OctopusGirl_Neutral": {
@@ -2176,8 +2175,8 @@
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_GhostDragon_TextData",
-          "SourceString": "Can be ridden as a flying mount. \r\n\r\nThis Pal's Attack and Movement Speed increase by <Status_Up>{Passive1_EffectValue1}%</> for each other <img id=|ElemIcon_Dragon|/><uiCommon id=|COMMON_ELEMENT_NAME_Dragon| style=|Elem_Dragon|/>or <img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/> Pal in your party.",
-          "LocalizedString": "Can be ridden as a flying mount. \r\n\r\nThis Pal's Attack and Movement Speed increase by <Status_Up>{Passive1_EffectValue1}%</> for each other <img id=|ElemIcon_Dragon|/><uiCommon id=|COMMON_ELEMENT_NAME_Dragon| style=|Elem_Dragon|/>or <img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/> Pal in your party."
+          "SourceString": "Can be ridden as a flying mount. \r\n\r\nThis Pal's Attack and Movement Speed increase by <Status_Up>{Passive1_EffectValue1}%</> for each other <img id=|ElemIcon_Dragon|/><uiCommon id=|COMMON_ELEMENT_NAME_Dragon| style=|Elem_Dragon|/> or <img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/> Pal in your party.",
+          "LocalizedString": "Can be ridden as a flying mount. \r\n\r\nThis Pal's Attack and Movement Speed increase by <Status_Up>{Passive1_EffectValue1}%</> for each other <img id=|ElemIcon_Dragon|/><uiCommon id=|COMMON_ELEMENT_NAME_Dragon| style=|Elem_Dragon|/> or <img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/> Pal in your party."
         }
       },
       "PAL_FIRST_SPAWN_DESC_PandaGirl": {
@@ -2352,8 +2351,8 @@
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_GhostDragon_Fire_TextData",
-          "SourceString": "Can be ridden as a flying mount. \r\n\r\nThis Pal's Attack and Movement Speed increase by <Status_Up>{Passive1_EffectValue1}%</> or each other <img id=|ElemIcon_Dragon|/><uiCommon id=|COMMON_ELEMENT_NAME_Dragon| style=|Elem_Dragon|/> or <img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/> Pal in your party.\r\n(Excluding <characterName id=|GhostDragon_Fire|/>)",
-          "LocalizedString": "Can be ridden as a flying mount. \r\n\r\nThis Pal's Attack and Movement Speed increase by <Status_Up>{Passive1_EffectValue1}%</> or each other <img id=|ElemIcon_Dragon|/><uiCommon id=|COMMON_ELEMENT_NAME_Dragon| style=|Elem_Dragon|/> or <img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/> Pal in your party.\r\n(Excluding <characterName id=|GhostDragon_Fire|/>)"
+          "SourceString": "Can be ridden as a flying mount. \r\n\r\nThis Pal's Attack and Movement Speed increase by <Status_Up>{Passive1_EffectValue1}%</> for each other <img id=|ElemIcon_Dragon|/><uiCommon id=|COMMON_ELEMENT_NAME_Dragon| style=|Elem_Dragon|/> or <img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/> Pal in your party.\r\n(Excluding <characterName id=|GhostDragon_Fire|/>)",
+          "LocalizedString": "Can be ridden as a flying mount. \r\n\r\nThis Pal's Attack and Movement Speed increase by <Status_Up>{Passive1_EffectValue1}%</> for each other <img id=|ElemIcon_Dragon|/><uiCommon id=|COMMON_ELEMENT_NAME_Dragon| style=|Elem_Dragon|/> or <img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/> Pal in your party.\r\n(Excluding <characterName id=|GhostDragon_Fire|/>)"
         }
       },
       "PAL_FIRST_SPAWN_DESC_WingGolem_Fire": {
@@ -2368,8 +2367,8 @@
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_ThunderBird_Ice_TextData",
-          "SourceString": "Can be ridden as a flying mount. \r\nWhile mounted, \r\nchanges the player's attack type to <img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/> and increases Attack by <Status_Up>{Passive3_EffectValue1}%</>.\r\n\r\nThis Pal’s Movement Speed increases by <Status_Up>{Passive1_EffectValue1}%</> for each other <img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/> Pal in your party.\r\n(Excluding <characterName id=|ThunderBird_Ice|/>)",
-          "LocalizedString": "Can be ridden as a flying mount. \r\nWhile mounted, \r\nchanges the player's attack type to <img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/> and increases Attack by <Status_Up>{Passive3_EffectValue1}%</>.\r\n\r\nThis Pal’s Movement Speed increases by <Status_Up>{Passive1_EffectValue1}%</> for each other <img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/> Pal in your party.\r\n(Excluding <characterName id=|ThunderBird_Ice|/>)"
+          "SourceString": "Can be ridden as a flying mount.\r\n\r\nWhile mounted, \r\nchanges the player's attack type to <img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/> and increases Attack by <Status_Up>{Passive3_EffectValue1}%</>.\r\n\r\nThis Pal’s Movement Speed increases by <Status_Up>{Passive1_EffectValue1}%</> for each other <img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/> Pal in your party.\r\n(Excluding <characterName id=|ThunderBird_Ice|/>)",
+          "LocalizedString": "Can be ridden as a flying mount.\r\n\r\nWhile mounted, \r\nchanges the player's attack type to <img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/> and increases Attack by <Status_Up>{Passive3_EffectValue1}%</>.\r\n\r\nThis Pal’s Movement Speed increases by <Status_Up>{Passive1_EffectValue1}%</> for each other <img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/> Pal in your party.\r\n(Excluding <characterName id=|ThunderBird_Ice|/>)"
         }
       },
       "PAL_FIRST_SPAWN_DESC_ElecPomeranian": {
@@ -2392,8 +2391,8 @@
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_CubeTurtle_Neutral_TextData",
-          "SourceString": "Can be ridden. \r\n\r\nWhile in party, \r\nincreases the durability of all <Status_Keyword>weapons</> and <Status_Keyword>armor</> by <Status_Up>{Passive1_EffectValue1}%</>. (Does not stack)",
-          "LocalizedString": "Can be ridden. \r\n\r\nWhile in party, \r\nincreases the durability of all <Status_Keyword>weapons</> and <Status_Keyword>armor</> by <Status_Up>{Passive1_EffectValue1}%</>. (Does not stack)"
+          "SourceString": "Can be ridden. \r\n\r\nWhile in party, \r\nreduces durability loss of all <Status_Keyword>weapons</> and <Status_Keyword>armor</> by <Status_Up>{Passive1_EffectValue1}%</>. (Does not stack)",
+          "LocalizedString": "Can be ridden. \r\n\r\nWhile in party, \r\nreduces durability loss of all <Status_Keyword>weapons</> and <Status_Keyword>armor</> by <Status_Up>{Passive1_EffectValue1}%</>. (Does not stack)"
         }
       },
       "PAL_FIRST_SPAWN_DESC_GrassMinotaur_Ice": {
@@ -2408,8 +2407,8 @@
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_VolcanoDragon_Ice_TextData",
-          "SourceString": "Can be ridden. \r\n\r\nWhile in party, \r\nimproves player's and Pals' <img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/> damage to enemy weak points by <Status_Up>{Passive1_EffectValue1}%</>. \r\n(Does not stack)",
-          "LocalizedString": "Can be ridden. \r\n\r\nWhile in party, \r\nimproves player's and Pals' <img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/> damage to enemy weak points by <Status_Up>{Passive1_EffectValue1}%</>. \r\n(Does not stack)"
+          "SourceString": "Can be ridden. \r\n\r\nWhile in party, \r\nincreases damage dealt by Player and Pals' <img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/> attacks when hitting the enemy's elemental weakness by <Status_Up>{Passive1_EffectValue1}%</>. \r\n(Does not stack)",
+          "LocalizedString": "Can be ridden. \r\n\r\nWhile in party, \r\nincreases damage dealt by Player and Pals' <img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/> attacks when hitting the enemy's elemental weakness by <Status_Up>{Passive1_EffectValue1}%</>. \r\n(Does not stack)"
         }
       },
       "PAL_FIRST_SPAWN_DESC_DomeArmorDragon": {
@@ -2424,8 +2423,8 @@
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_FlowerPrince_TextData",
-          "SourceString": "When activated, \r\nthe player's attacks inflict <uiCommon id=|ADDITIONAL_EFFECT_Poison| style=|Effect_Poison|/> <Status_Up>{ReferencePassive1_EffectValue1}</>.\r\n\r\nWhile in party, \r\ngrants the player and party Pals immunity to <uiCommon id=|ADDITIONAL_EFFECT_Poison| style=|Effect_Poison|/>, and <Status_Keyword>nullifies the effects of toxic gas</> in the World Tree area. \r\n(Does not stack)",
-          "LocalizedString": "When activated, \r\nthe player's attacks inflict <uiCommon id=|ADDITIONAL_EFFECT_Poison| style=|Effect_Poison|/> <Status_Up>{ReferencePassive1_EffectValue1}</>.\r\n\r\nWhile in party, \r\ngrants the player and party Pals immunity to <uiCommon id=|ADDITIONAL_EFFECT_Poison| style=|Effect_Poison|/>, and <Status_Keyword>nullifies the effects of toxic gas</> in the World Tree area. \r\n(Does not stack)"
+          "SourceString": "When activated, \r\nthe player's attacks increase <uiCommon id=|ADDITIONAL_EFFECT_Poison| style=|Effect_Poison|/> buildup by <Status_Up>{ReferencePassive1_EffectValue1}</>.\r\n\r\nWhile in party, \r\ngrants the player and party Pals immunity to <uiCommon id=|ADDITIONAL_EFFECT_Poison| style=|Effect_Poison|/>, and <Status_Keyword>nullifies the effects of toxic gas</> in the World Tree area. \r\n(Does not stack)",
+          "LocalizedString": "When activated, \r\nthe player's attacks increase <uiCommon id=|ADDITIONAL_EFFECT_Poison| style=|Effect_Poison|/> buildup by <Status_Up>{ReferencePassive1_EffectValue1}</>.\r\n\r\nWhile in party, \r\ngrants the player and party Pals immunity to <uiCommon id=|ADDITIONAL_EFFECT_Poison| style=|Effect_Poison|/>, and <Status_Keyword>nullifies the effects of toxic gas</> in the World Tree area. \r\n(Does not stack)"
         }
       },
       "PAL_FIRST_SPAWN_DESC_WorldTreeDragon": {

@@ -1,0 +1,1608 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_MapRespawnPointInfoText",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "SpawnPoint_1": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_1_TextData",
+          "SourceString": "Di atas bukit kecil.\r\nKarena pemandangannya yang menakjubkan dan juga sumber daya yang melimpah,\r\npemain pemula sangat disarankan ke tempat ini.",
+          "LocalizedString": "Di atas bukit kecil.\r\nKarena pemandangannya yang menakjubkan dan juga sumber daya yang melimpah,\r\npemain pemula sangat disarankan ke tempat ini."
+        }
+      },
+      "SpawnPoint_1_Title": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_1_Title_TextData",
+          "SourceString": "Pulau Angin Bertiup - Bukit Permulaan",
+          "LocalizedString": "Pulau Angin Bertiup - Bukit Permulaan"
+        }
+      },
+      "SpawnPoint_2": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_2_TextData",
+          "SourceString": "Pantai berpasir di tepi laut. Ada banyak Pal Air.\r\nHanya ada sedikit pohon, tetapi banyak Pal yang menghuni tempat ini.",
+          "LocalizedString": "Pantai berpasir di tepi laut. Ada banyak Pal Air.\r\nHanya ada sedikit pohon, tetapi banyak Pal yang menghuni tempat ini."
+        }
+      },
+      "SpawnPoint_2_Title": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_2_Title_TextData",
+          "SourceString": "Pulau Angin Bertiup - Pantai Ikan Terbang",
+          "LocalizedString": "Pulau Angin Bertiup - Pantai Ikan Terbang"
+        }
+      },
+      "SpawnPoint_3": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_3_TextData",
+          "SourceString": "Pesisir pantai yang kaya akan terumbu karang.\r\nJumlah sumber daya dan Pal tergolong rata-rata.\r\nMeski sedikit berbatu, kamu bisa mendapatkan lahan yang luas di sini.",
+          "LocalizedString": "Pesisir pantai yang kaya akan terumbu karang.\r\nJumlah sumber daya dan Pal tergolong rata-rata.\r\nMeski sedikit berbatu, kamu bisa mendapatkan lahan yang luas di sini."
+        }
+      },
+      "SpawnPoint_3_Title": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_3_Title_TextData",
+          "SourceString": "Kepulauan Angin Samudra - Terumbu Karang",
+          "LocalizedString": "Kepulauan Angin Samudra - Terumbu Karang"
+        }
+      },
+      "SpawnPoint_4": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_4_TextData",
+          "SourceString": "Pulau tempat angin laut berhembus.\r\nDekat dengan gunung berapi, beriklim hangat, serta nyaman untuk ditinggali.\r\nAkses ke pulau-pulau sekitarnya, sehingga berbagai petualangan bisa dinikmati di sini.",
+          "LocalizedString": "Pulau tempat angin laut berhembus.\r\nDekat dengan gunung berapi, beriklim hangat, serta nyaman untuk ditinggali.\r\nAkses ke pulau-pulau sekitarnya, sehingga berbagai petualangan bisa dinikmati di sini."
+        }
+      },
+      "SpawnPoint_4_Title": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_4_Title_TextData",
+          "SourceString": "Kepulauan Angin Samudra - Pantai Orang-Orang Terdampar",
+          "LocalizedString": "Kepulauan Angin Samudra - Pantai Orang-Orang Terdampar"
+        }
+      },
+      "SpawnPoint_5": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_5_TextData",
+          "SourceString": "Pulau yang tidak menunjukkan adanya tanda-tanda kehidupan manusia.\r\nSumber daya alamnya juga terbatas, \r\nsehingga sepertinya tidak cocok untuk ditinggali.",
+          "LocalizedString": "Pulau yang tidak menunjukkan adanya tanda-tanda kehidupan manusia.\r\nSumber daya alamnya juga terbatas, \r\nsehingga sepertinya tidak cocok untuk ditinggali."
+        }
+      },
+      "SpawnPoint_5_Title": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_5_Title_TextData",
+          "SourceString": "Pulau Sunyi",
+          "LocalizedString": "Pulau Sunyi"
+        }
+      },
+      "SpawnPoint_6": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_6_TextData",
+          "SourceString": "Pulau tenang yang dikelilingi pepohonan dan tinggi medannya mencolok. \r\nSumber daya dan jumlah Pal di sini terbatas, \r\nsehingga jarang ada orang yang menetap di wilayah ini.",
+          "LocalizedString": "Pulau tenang yang dikelilingi pepohonan dan tinggi medannya mencolok. \r\nSumber daya dan jumlah Pal di sini terbatas, \r\nsehingga jarang ada orang yang menetap di wilayah ini."
+        }
+      },
+      "SpawnPoint_6_Title": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_6_Title_TextData",
+          "SourceString": "Pulau Bisikan",
+          "LocalizedString": "Pulau Bisikan"
+        }
+      },
+      "SpawnPoint_7": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_7_TextData",
+          "SourceString": "Pulau terpencil yang berlokasi di wilayah timur.\r\nTerletak di tepi daratan utama, tidak ada yang mau mengembangkan tempat ini.\r\nOrang yang tidak terbiasa akan kesulitan tinggal di sini.",
+          "LocalizedString": "Pulau terpencil yang berlokasi di wilayah timur.\r\nTerletak di tepi daratan utama, tidak ada yang mau mengembangkan tempat ini.\r\nOrang yang tidak terbiasa akan kesulitan tinggal di sini."
+        }
+      },
+      "SpawnPoint_7_Title": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_7_Title_TextData",
+          "SourceString": "Pulau Timur Terpencil",
+          "LocalizedString": "Pulau Timur Terpencil"
+        }
+      },
+      "SpawnPoint_8": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_8_TextData",
+          "SourceString": "Pulau yang memliki banyak lahan basah.\r\nKarena kelembapan yang pas, banyak beri tumbuh di sini.\r\nBerbagai jenis Pal hidup di wilayah ini.",
+          "LocalizedString": "Pulau yang memliki banyak lahan basah.\r\nKarena kelembapan yang pas, banyak beri tumbuh di sini.\r\nBerbagai jenis Pal hidup di wilayah ini."
+        }
+      },
+      "SpawnPoint_8_Title": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_8_Title_TextData",
+          "SourceString": "Pulau Rawa",
+          "LocalizedString": "Pulau Rawa"
+        }
+      },
+      "FTPoint1": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint1_TextData",
+          "SourceString": "Gunung Obsidian - Tengah Lereng",
+          "LocalizedString": "Gunung Obsidian - Tengah Lereng"
+        }
+      },
+      "FTPoint2": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint2_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "FTPoint3": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint3_TextData",
+          "SourceString": "Menara Sekutu Api Abadi - Pintu Masuk",
+          "LocalizedString": "Menara Sekutu Api Abadi - Pintu Masuk"
+        }
+      },
+      "FTPoint4": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint4_TextData",
+          "SourceString": "Reruntuhan Peradaban Kuno",
+          "LocalizedString": "Reruntuhan Peradaban Kuno"
+        }
+      },
+      "FTPoint5": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint5_TextData",
+          "SourceString": "Desa Nelayan di Perbatasan",
+          "LocalizedString": "Desa Nelayan di Perbatasan"
+        }
+      },
+      "FTPoint6": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint6_TextData",
+          "SourceString": "Patung Anubis di Gunung Obsidian",
+          "LocalizedString": "Patung Anubis di Gunung Obsidian"
+        }
+      },
+      "FTPoint7": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint7_TextData",
+          "SourceString": "Pantai Musim Panas Abadi",
+          "LocalizedString": "Pantai Musim Panas Abadi"
+        }
+      },
+      "FTPoint8": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint8_TextData",
+          "SourceString": "Kota Benteng yang Hancur",
+          "LocalizedString": "Kota Benteng yang Hancur"
+        }
+      },
+      "FTPoint9": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint9_TextData",
+          "SourceString": "Menara Penegak Hukum - Pintu Masuk",
+          "LocalizedString": "Menara Penegak Hukum - Pintu Masuk"
+        }
+      },
+      "FTPoint10": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint10_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "FTPoint11": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint11_TextData",
+          "SourceString": "Pintu Masuk Bukit Pasir",
+          "LocalizedString": "Pintu Masuk Bukit Pasir"
+        }
+      },
+      "FTPoint12": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint12_TextData",
+          "SourceString": "Kota Padang Pasir",
+          "LocalizedString": "Kota Padang Pasir"
+        }
+      },
+      "FTPoint13": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint13_TextData",
+          "SourceString": "Bagian dalam Bukit Pasir",
+          "LocalizedString": "Bagian dalam Bukit Pasir"
+        }
+      },
+      "FTPoint14": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint14_TextData",
+          "SourceString": "Pesisir Berair Dingin",
+          "LocalizedString": "Pesisir Berair Dingin"
+        }
+      },
+      "FTPoint15": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint15_TextData",
+          "SourceString": "Jalan Pegunungan Tak Bertuan",
+          "LocalizedString": "Jalan Pegunungan Tak Bertuan"
+        }
+      },
+      "FTPoint16": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint16_TextData",
+          "SourceString": "Bukit Musang Es",
+          "LocalizedString": "Bukit Musang Es"
+        }
+      },
+      "FTPoint17": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint17_TextData",
+          "SourceString": "Danau Tak Larut",
+          "LocalizedString": "Danau Tak Larut"
+        }
+      },
+      "FTPoint18": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint18_TextData",
+          "SourceString": "Tanah Titik Nol Absolut",
+          "LocalizedString": "Tanah Titik Nol Absolut"
+        }
+      },
+      "FTPoint19": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint19_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "FTPoint20": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint20_TextData",
+          "SourceString": "Menara Unit Penelitian Genetika - Pintu Masuk",
+          "LocalizedString": "Menara Unit Penelitian Genetika - Pintu Masuk"
+        }
+      },
+      "FTPoint21": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint21_TextData",
+          "SourceString": "Bukit Behemot Rumput",
+          "LocalizedString": "Bukit Behemot Rumput"
+        }
+      },
+      "FTPoint22": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint22_TextData",
+          "SourceString": "Gereja Terlantar",
+          "LocalizedString": "Gereja Terlantar"
+        }
+      },
+      "FTPoint23": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint23_TextData",
+          "SourceString": "Bukit Permulaan",
+          "LocalizedString": "Bukit Permulaan"
+        }
+      },
+      "FTPoint24": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint24_TextData",
+          "SourceString": "Pemukiman Kecil",
+          "LocalizedString": "Pemukiman Kecil"
+        }
+      },
+      "FTPoint25": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint25_TextData",
+          "SourceString": "Air Terjun Pertapa",
+          "LocalizedString": "Air Terjun Pertapa"
+        }
+      },
+      "FTPoint26": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint26_TextData",
+          "SourceString": "Kaki Gunung Berapi",
+          "LocalizedString": "Kaki Gunung Berapi"
+        }
+      },
+      "FTPoint27": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint27_TextData",
+          "SourceString": "Wilayah Kekuasaan Burung Es",
+          "LocalizedString": "Wilayah Kekuasaan Burung Es"
+        }
+      },
+      "FTPoint28": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint28_TextData",
+          "SourceString": "Reruntuhan Benteng",
+          "LocalizedString": "Reruntuhan Benteng"
+        }
+      },
+      "FTPoint29": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint29_TextData",
+          "SourceString": "Wilayah Segel Sang Ahli Pedang",
+          "LocalizedString": "Wilayah Segel Sang Ahli Pedang"
+        }
+      },
+      "FTPoint30": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint30_TextData",
+          "SourceString": "Persimpangan Jalan Penjelajah",
+          "LocalizedString": "Persimpangan Jalan Penjelajah"
+        }
+      },
+      "FTPoint31": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint31_TextData",
+          "SourceString": "Situs Pemujaan Kuno",
+          "LocalizedString": "Situs Pemujaan Kuno"
+        }
+      },
+      "FTPoint32": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint32_TextData",
+          "SourceString": "Gunung Flopie - Puncak Gunung",
+          "LocalizedString": "Gunung Flopie - Puncak Gunung"
+        }
+      },
+      "FTPoint33": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint33_TextData",
+          "SourceString": "Tengah Danau",
+          "LocalizedString": "Tengah Danau"
+        }
+      },
+      "FTPoint34": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint34_TextData",
+          "SourceString": "Bukit Para Munafik",
+          "LocalizedString": "Bukit Para Munafik"
+        }
+      },
+      "FTPoint35": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint35_TextData",
+          "SourceString": "Wilayah Segel Misteri",
+          "LocalizedString": "Wilayah Segel Misteri"
+        }
+      },
+      "FTPoint36": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint36_TextData",
+          "SourceString": "Persimpangan Jalan Gunung Salju",
+          "LocalizedString": "Persimpangan Jalan Gunung Salju"
+        }
+      },
+      "FTPoint37": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint37_TextData",
+          "SourceString": "Puncak Gunung Beku",
+          "LocalizedString": "Puncak Gunung Beku"
+        }
+      },
+      "FTPoint38": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint38_TextData",
+          "SourceString": "Wilayah Kekuasaan Kecepatan Kilat",
+          "LocalizedString": "Wilayah Kekuasaan Kecepatan Kilat"
+        }
+      },
+      "FTPoint39": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint39_TextData",
+          "SourceString": "Hutan Mossanda",
+          "LocalizedString": "Hutan Mossanda"
+        }
+      },
+      "FTPoint40": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint40_TextData",
+          "SourceString": "Wilayah Kekuasaan Gobfin",
+          "LocalizedString": "Wilayah Kekuasaan Gobfin"
+        }
+      },
+      "FTPoint41": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint41_TextData",
+          "SourceString": "Hutan Cinnamoth",
+          "LocalizedString": "Hutan Cinnamoth"
+        }
+      },
+      "FTPoint42": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint42_TextData",
+          "SourceString": "Wilayah Segel Panas Membara",
+          "LocalizedString": "Wilayah Segel Panas Membara"
+        }
+      },
+      "FTPoint43": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint43_TextData",
+          "SourceString": "Bagian dalam Hutan Bambu",
+          "LocalizedString": "Bagian dalam Hutan Bambu"
+        }
+      },
+      "FTPoint44": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint44_TextData",
+          "SourceString": "Wilayah Segel Seratus Api",
+          "LocalizedString": "Wilayah Segel Seratus Api"
+        }
+      },
+      "FTPoint45": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint45_TextData",
+          "SourceString": "Menara Gerombolan Pemburu Liar Rayne - Pintu Masuk",
+          "LocalizedString": "Menara Gerombolan Pemburu Liar Rayne - Pintu Masuk"
+        }
+      },
+      "FTPoint46": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint46_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "FTPoint47": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint47_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "FTPoint48": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint48_TextData",
+          "SourceString": "Lapangan Salju Putih Bersih",
+          "LocalizedString": "Lapangan Salju Putih Bersih"
+        }
+      },
+      "FTPoint49": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint49_TextData",
+          "SourceString": "Pulau Sunyi",
+          "LocalizedString": "Pulau Sunyi"
+        }
+      },
+      "FTPoint50": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint50_TextData",
+          "SourceString": "Pulau Bisikan",
+          "LocalizedString": "Pulau Bisikan"
+        }
+      },
+      "FTPoint51": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint51_TextData",
+          "SourceString": "Bukit Kelpsea",
+          "LocalizedString": "Bukit Kelpsea"
+        }
+      },
+      "FTPoint52": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint52_TextData",
+          "SourceString": "Kepulauan Angin Samudra - Pantai Orang-Orang Terdampar",
+          "LocalizedString": "Kepulauan Angin Samudra - Pantai Orang-Orang Terdampar"
+        }
+      },
+      "FTPoint53": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint53_TextData",
+          "SourceString": "Gereja Kepulauan Angin Samudra",
+          "LocalizedString": "Gereja Kepulauan Angin Samudra"
+        }
+      },
+      "FTPoint54": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint54_TextData",
+          "SourceString": "Teluk Kecil",
+          "LocalizedString": "Teluk Kecil"
+        }
+      },
+      "FTPoint55": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint55_TextData",
+          "SourceString": "Pesisir Penyeberangan Pulau",
+          "LocalizedString": "Pesisir Penyeberangan Pulau"
+        }
+      },
+      "FTPoint56": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint56_TextData",
+          "SourceString": "Pulau Rawa",
+          "LocalizedString": "Pulau Rawa"
+        }
+      },
+      "FTPoint57": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint57_TextData",
+          "SourceString": "Pulau Timur Terpencil",
+          "LocalizedString": "Pulau Timur Terpencil"
+        }
+      },
+      "FTPoint58": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint58_TextData",
+          "SourceString": "Jembatan Alami",
+          "LocalizedString": "Jembatan Alami"
+        }
+      },
+      "FTPoint59": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint59_TextData",
+          "SourceString": "Reruntuhan Gereja di Pulau Sunyi",
+          "LocalizedString": "Reruntuhan Gereja di Pulau Sunyi"
+        }
+      },
+      "FTPoint60": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint60_TextData",
+          "SourceString": "Reruntuhan Gereja Pulau Rawa",
+          "LocalizedString": "Reruntuhan Gereja Pulau Rawa"
+        }
+      },
+      "FTPoint61": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint61_TextData",
+          "SourceString": "Jembatan Kesatria Kembar",
+          "LocalizedString": "Jembatan Kesatria Kembar"
+        }
+      },
+      "FTPoint62": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint62_TextData",
+          "SourceString": "Pintu Masuk Ngarai",
+          "LocalizedString": "Pintu Masuk Ngarai"
+        }
+      },
+      "FTPoint63": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint63_TextData",
+          "SourceString": "Pintu Masuk Arena Pertempuran",
+          "LocalizedString": "Pintu Masuk Arena Pertempuran"
+        }
+      },
+      "FTPoint64": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint64_TextData",
+          "SourceString": "Pulau Sakurajima: Rawa Jamur",
+          "LocalizedString": "Pulau Sakurajima: Rawa Jamur"
+        }
+      },
+      "FTPoint65": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint65_TextData",
+          "SourceString": "Pulau Sakurajima: Padang Pasir Wilayah Selatan",
+          "LocalizedString": "Pulau Sakurajima: Padang Pasir Wilayah Selatan"
+        }
+      },
+      "FTPoint66": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint66_TextData",
+          "SourceString": "Menara Bunga Bulan",
+          "LocalizedString": "Menara Bunga Bulan"
+        }
+      },
+      "FTPoint67": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint67_TextData",
+          "SourceString": "Menara Bunga Bulan - Pintu Masuk",
+          "LocalizedString": "Menara Bunga Bulan - Pintu Masuk"
+        }
+      },
+      "FTPoint68": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint68_TextData",
+          "SourceString": "Persimpangan Jalan Sakura",
+          "LocalizedString": "Persimpangan Jalan Sakura"
+        }
+      },
+      "FTPoint69": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint69_TextData",
+          "SourceString": "Pulau Sakurajima: Lahan Berbatu Wilayah Utara",
+          "LocalizedString": "Pulau Sakurajima: Lahan Berbatu Wilayah Utara"
+        }
+      },
+      "FTPoint70": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint70_TextData",
+          "SourceString": "Pemakaman Terpencil",
+          "LocalizedString": "Pemakaman Terpencil"
+        }
+      },
+      "FTPoint71": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint71_TextData",
+          "SourceString": "Tanah Abu yang Terbakar",
+          "LocalizedString": "Tanah Abu yang Terbakar"
+        }
+      },
+      "FTPoint72": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint72_TextData",
+          "SourceString": "Pintu Masuk Gua Pilar Batu",
+          "LocalizedString": "Pintu Masuk Gua Pilar Batu"
+        }
+      },
+      "FTPoint73": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint73_TextData",
+          "SourceString": "Dataran Loess",
+          "LocalizedString": "Dataran Loess"
+        }
+      },
+      "FTPoint74": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint74_TextData",
+          "SourceString": "Jalan Rahasia ke Gerbang Okulus",
+          "LocalizedString": "Jalan Rahasia ke Gerbang Okulus"
+        }
+      },
+      "FTPoint75": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint75_TextData",
+          "SourceString": "Gerbang Okulus menghadap Menara",
+          "LocalizedString": "Gerbang Okulus menghadap Menara"
+        }
+      },
+      "FTPoint76": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint76_TextData",
+          "SourceString": "Menara Langit Jatuh - Pintu Masuk",
+          "LocalizedString": "Menara Langit Jatuh - Pintu Masuk"
+        }
+      },
+      "FTPoint78": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint78_TextData",
+          "SourceString": "Bukit Hangus",
+          "LocalizedString": "Bukit Hangus"
+        }
+      },
+      "FTPoint79": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint79_TextData",
+          "SourceString": "Dataran Tinggi Abu yang Terlantar",
+          "LocalizedString": "Dataran Tinggi Abu yang Terlantar"
+        }
+      },
+      "FTPoint80": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint80_TextData",
+          "SourceString": "Dataran Lava Beku",
+          "LocalizedString": "Dataran Lava Beku"
+        }
+      },
+      "FTPoint81": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint81_TextData",
+          "SourceString": "Terowongan Silvegis",
+          "LocalizedString": "Terowongan Silvegis"
+        }
+      },
+      "FTPoint82": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint82_TextData",
+          "SourceString": "Terowongan Silvegis",
+          "LocalizedString": "Terowongan Silvegis"
+        }
+      },
+      "FTPoint83": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint83_TextData",
+          "SourceString": "Kapal Karam Langit Jatuh",
+          "LocalizedString": "Kapal Karam Langit Jatuh"
+        }
+      },
+      "FTPoint84": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint84_TextData",
+          "SourceString": "Pulau Terpencil yang Bermandikan Cahaya",
+          "LocalizedString": "Pulau Terpencil yang Bermandikan Cahaya"
+        }
+      },
+      "FTPoint85": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint85_TextData",
+          "SourceString": "Pulau Terpencil di Oasis",
+          "LocalizedString": "Pulau Terpencil di Oasis"
+        }
+      },
+      "FTPoint86": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint86_TextData",
+          "SourceString": "Pulau Terpencil di Bongkahan Es",
+          "LocalizedString": "Pulau Terpencil di Bongkahan Es"
+        }
+      },
+      "FTPoint87": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint87_TextData",
+          "SourceString": "Pulau Terpencil yang Membeku",
+          "LocalizedString": "Pulau Terpencil yang Membeku"
+        }
+      },
+      "FTPoint88": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint88_TextData",
+          "SourceString": "Pulau Terpencil Para Arwah",
+          "LocalizedString": "Pulau Terpencil Para Arwah"
+        }
+      },
+      "FTPoint89": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint89_TextData",
+          "SourceString": "Pulau Terpencil Tempat Harta yang Terlupakan",
+          "LocalizedString": "Pulau Terpencil Tempat Harta yang Terlupakan"
+        }
+      },
+      "FTPoint90": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint90_TextData",
+          "SourceString": "Wilayah Kekuasaan Terraria",
+          "LocalizedString": "Wilayah Kekuasaan Terraria"
+        }
+      },
+      "FTPoint91": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint91_TextData",
+          "SourceString": "Pantai Pulau Bisikan",
+          "LocalizedString": "Pantai Pulau Bisikan"
+        }
+      },
+      "FTPoint92": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint92_TextData",
+          "SourceString": "Bukit Pasir Anubis",
+          "LocalizedString": "Bukit Pasir Anubis"
+        }
+      },
+      "FTPoint93": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint93_TextData",
+          "SourceString": "Tebing Desir Bambu",
+          "LocalizedString": "Tebing Desir Bambu"
+        }
+      },
+      "FTPoint94": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint94_TextData",
+          "SourceString": "Lereng Desir Bambu",
+          "LocalizedString": "Lereng Desir Bambu"
+        }
+      },
+      "FTPoint95": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint95_TextData",
+          "SourceString": "Lembah Desir Angin",
+          "LocalizedString": "Lembah Desir Angin"
+        }
+      },
+      "FTPoint96": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint96_TextData",
+          "SourceString": "Pesisir Angin Samudra",
+          "LocalizedString": "Pesisir Angin Samudra"
+        }
+      },
+      "FTPoint97": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint97_TextData",
+          "SourceString": "Pantai Debu Pasir",
+          "LocalizedString": "Pantai Debu Pasir"
+        }
+      },
+      "FTPoint98": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint98_TextData",
+          "SourceString": "Altar Pemanggil Badai",
+          "LocalizedString": "Altar Pemanggil Badai"
+        }
+      },
+      "FTPoint99": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint99_TextData",
+          "SourceString": "Pesisir Tersembunyi Mossanda",
+          "LocalizedString": "Pesisir Tersembunyi Mossanda"
+        }
+      },
+      "FTPoint100": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint100_TextData",
+          "SourceString": "Aliran Sungai Hijau",
+          "LocalizedString": "Aliran Sungai Hijau"
+        }
+      },
+      "FTPoint101": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint101_TextData",
+          "SourceString": "Pesisir Dahaga",
+          "LocalizedString": "Pesisir Dahaga"
+        }
+      },
+      "FTPoint102": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint102_TextData",
+          "SourceString": "Ujung Terjauh Dahaga",
+          "LocalizedString": "Ujung Terjauh Dahaga"
+        }
+      },
+      "FTPoint103": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint103_TextData",
+          "SourceString": "Tulang Punggung Padang Pasir",
+          "LocalizedString": "Tulang Punggung Padang Pasir"
+        }
+      },
+      "FTPoint104": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint104_TextData",
+          "SourceString": "Tanggul Pasir Terpencil",
+          "LocalizedString": "Tanggul Pasir Terpencil"
+        }
+      },
+      "FTPoint105": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint105_TextData",
+          "SourceString": "Gugusan Pasir Terjauh",
+          "LocalizedString": "Gugusan Pasir Terjauh"
+        }
+      },
+      "FTPoint106": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint106_TextData",
+          "SourceString": "Terusan yang Membentang ke Laut",
+          "LocalizedString": "Terusan yang Membentang ke Laut"
+        }
+      },
+      "FTPoint107": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint107_TextData",
+          "SourceString": "Tanjung Pasir yang Membeku",
+          "LocalizedString": "Tanjung Pasir yang Membeku"
+        }
+      },
+      "FTPoint108": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint108_TextData",
+          "SourceString": "Anjungan Pandang Kazemachi",
+          "LocalizedString": "Anjungan Pandang Kazemachi"
+        }
+      },
+      "FTPoint109": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint109_TextData",
+          "SourceString": "Pos Kedua Gunung Obsidian",
+          "LocalizedString": "Pos Kedua Gunung Obsidian"
+        }
+      },
+      "FTPoint110": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint110_TextData",
+          "SourceString": "Jalur Pendakian Gunung Obsidian",
+          "LocalizedString": "Jalur Pendakian Gunung Obsidian"
+        }
+      },
+      "FTPoint111": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint111_TextData",
+          "SourceString": "Bukit Pasir Kering",
+          "LocalizedString": "Bukit Pasir Kering"
+        }
+      },
+      "FTPoint112": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint112_TextData",
+          "SourceString": "Gerbang Laut Gelombang Panas",
+          "LocalizedString": "Gerbang Laut Gelombang Panas"
+        }
+      },
+      "FTPoint113": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint113_TextData",
+          "SourceString": "Tanjung Biru Saat Salju Mencair",
+          "LocalizedString": "Tanjung Biru Saat Salju Mencair"
+        }
+      },
+      "FTPoint114": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint114_TextData",
+          "SourceString": "Lereng Gunung Suci",
+          "LocalizedString": "Lereng Gunung Suci"
+        }
+      },
+      "FTPoint115": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint115_TextData",
+          "SourceString": "Taman Terlupakan di Bawah Tebing",
+          "LocalizedString": "Taman Terlupakan di Bawah Tebing"
+        }
+      },
+      "FTPoint116": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint116_TextData",
+          "SourceString": "Pulau Sakurajima: Pesisir Barat",
+          "LocalizedString": "Pulau Sakurajima: Pesisir Barat"
+        }
+      },
+      "FTPoint117": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint117_TextData",
+          "SourceString": "Tebing Merah Membara",
+          "LocalizedString": "Tebing Merah Membara"
+        }
+      },
+      "FTPoint118": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint118_TextData",
+          "SourceString": "Pintu Masuk Dataran Tinggi",
+          "LocalizedString": "Pintu Masuk Dataran Tinggi"
+        }
+      },
+      "FTPoint119": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint119_TextData",
+          "SourceString": "Batu Merah Melengkung",
+          "LocalizedString": "Batu Merah Melengkung"
+        }
+      },
+      "FTPoint120": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint120_TextData",
+          "SourceString": "Anjungan Pandang Kemerahan",
+          "LocalizedString": "Anjungan Pandang Kemerahan"
+        }
+      },
+      "FTPoint121": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint121_TextData",
+          "SourceString": "Hutan Labirin Kemerahan",
+          "LocalizedString": "Hutan Labirin Kemerahan"
+        }
+      },
+      "FTPoint122": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint122_TextData",
+          "SourceString": "Pohon Besar Kristal",
+          "LocalizedString": "Pohon Besar Kristal"
+        }
+      },
+      "FTPoint123": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint123_TextData",
+          "SourceString": "Pintu Air Gurun",
+          "LocalizedString": "Pintu Air Gurun"
+        }
+      },
+      "FTPoint124": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint124_TextData",
+          "SourceString": "Bukit Pemandangan Ladang Minyak",
+          "LocalizedString": "Bukit Pemandangan Ladang Minyak"
+        }
+      },
+      "FTPoint125": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint125_TextData",
+          "SourceString": "Tebing Jamur Misterius",
+          "LocalizedString": "Tebing Jamur Misterius"
+        }
+      },
+      "FTPoint126": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint126_TextData",
+          "SourceString": "Danau Kesunyian",
+          "LocalizedString": "Danau Kesunyian"
+        }
+      },
+      "FTPoint127": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint127_TextData",
+          "SourceString": "Tebing Pesisir Zamrud",
+          "LocalizedString": "Tebing Pesisir Zamrud"
+        }
+      },
+      "FTPoint128": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint128_TextData",
+          "SourceString": "Tanjung Ungu Terpencil",
+          "LocalizedString": "Tanjung Ungu Terpencil"
+        }
+      },
+      "FTPoint129": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint129_TextData",
+          "SourceString": "Tanjung Pengasingan",
+          "LocalizedString": "Tanjung Pengasingan"
+        }
+      },
+      "Boss_KingWhale": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "Boss_KingWhale_TextData",
+          "SourceString": "Pulau Terlupakan",
+          "LocalizedString": "Pulau Terlupakan"
+        }
+      },
+      "Boss_Forest": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "Boss_Forest_TextData",
+          "SourceString": "Pintu Masuk Menara Organisasi Perlindungan Pal",
+          "LocalizedString": "Pintu Masuk Menara Organisasi Perlindungan Pal"
+        }
+      },
+      "WatchTower_1": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_1_TextData",
+          "SourceString": "Menara Observasi Pulau Angin",
+          "LocalizedString": "Menara Observasi Pulau Angin"
+        }
+      },
+      "WatchTower_2": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_2_TextData",
+          "SourceString": "Menara Observasi Pulau Timur Terpencil",
+          "LocalizedString": "Menara Observasi Pulau Timur Terpencil"
+        }
+      },
+      "WatchTower_3": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_3_TextData",
+          "SourceString": "Menara Observasi Tepi Danau Tanpa Rembulan",
+          "LocalizedString": "Menara Observasi Tepi Danau Tanpa Rembulan"
+        }
+      },
+      "WatchTower_4": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_4_TextData",
+          "SourceString": "Menara Observasi Bukit Pasir Panas",
+          "LocalizedString": "Menara Observasi Bukit Pasir Panas"
+        }
+      },
+      "WatchTower_5": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_5_TextData",
+          "SourceString": "Menara Observasi Dataran Tinggi Batu Pasir",
+          "LocalizedString": "Menara Observasi Dataran Tinggi Batu Pasir"
+        }
+      },
+      "WatchTower_6": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_6_TextData",
+          "SourceString": "Menara Observasi Aliran Sungai HIjau",
+          "LocalizedString": "Menara Observasi Aliran Sungai HIjau"
+        }
+      },
+      "WatchTower_7": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_7_TextData",
+          "SourceString": "Menara Observasi Bukit Musang Es",
+          "LocalizedString": "Menara Observasi Bukit Musang Es"
+        }
+      },
+      "WatchTower_8": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_8_TextData",
+          "SourceString": "Menara Observasi Lereng Gunung Suci Perak",
+          "LocalizedString": "Menara Observasi Lereng Gunung Suci Perak"
+        }
+      },
+      "WatchTower_9": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_9_TextData",
+          "SourceString": "Menara Observasi Lembah Hutan Bambu",
+          "LocalizedString": "Menara Observasi Lembah Hutan Bambu"
+        }
+      },
+      "WatchTower_10": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_10_TextData",
+          "SourceString": "Menara Observasi Pulau Angin Laut",
+          "LocalizedString": "Menara Observasi Pulau Angin Laut"
+        }
+      },
+      "WatchTower_11": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_11_TextData",
+          "SourceString": "Menara Pengamatan di Pedalaman Hutan Bambu",
+          "LocalizedString": "Menara Pengamatan di Pedalaman Hutan Bambu"
+        }
+      },
+      "WatchTower_12": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_12_TextData",
+          "SourceString": "Menara Observasi Sakurajima",
+          "LocalizedString": "Menara Observasi Sakurajima"
+        }
+      },
+      "WatchTower_13": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_13_TextData",
+          "SourceString": "Menara Observasi Tanah Obsidian Membara",
+          "LocalizedString": "Menara Observasi Tanah Obsidian Membara"
+        }
+      },
+      "WatchTower_14": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_14_TextData",
+          "SourceString": "Menara Observasi Kolam Lava",
+          "LocalizedString": "Menara Observasi Kolam Lava"
+        }
+      },
+      "WatchTower_15": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_15_TextData",
+          "SourceString": "Menara Observasi Pantai Pasir Kering",
+          "LocalizedString": "Menara Observasi Pantai Pasir Kering"
+        }
+      },
+      "WatchTower_16": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_16_TextData",
+          "SourceString": "Menara Observasi Kota Benteng yang Runtuh",
+          "LocalizedString": "Menara Observasi Kota Benteng yang Runtuh"
+        }
+      },
+      "WatchTower_17": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_17_TextData",
+          "SourceString": "Menara Observasi Dataran Tinggi Loess",
+          "LocalizedString": "Menara Observasi Dataran Tinggi Loess"
+        }
+      },
+      "WatchTower_18": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_18_TextData",
+          "SourceString": "Menara Observasi Patahan Membara",
+          "LocalizedString": "Menara Observasi Patahan Membara"
+        }
+      },
+      "WatchTower_19": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_19_TextData",
+          "SourceString": "Menara Observasi Dataran Tinggi Membara",
+          "LocalizedString": "Menara Observasi Dataran Tinggi Membara"
+        }
+      },
+      "WatchTower_20": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_20_TextData",
+          "SourceString": "Menara Observasi Bukit Karang Beku",
+          "LocalizedString": "Menara Observasi Bukit Karang Beku"
+        }
+      },
+      "WatchTower_21": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_21_TextData",
+          "SourceString": "Menara Observasi Tanah Gersang Berangin Panas",
+          "LocalizedString": "Menara Observasi Tanah Gersang Berangin Panas"
+        }
+      },
+      "WatchTower_22": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_22_TextData",
+          "SourceString": "Menara Observasi Desa Mentari Surgawi",
+          "LocalizedString": "Menara Observasi Desa Mentari Surgawi"
+        }
+      },
+      "SkyIsland_A": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SkyIsland_A_TextData",
+          "SourceString": "Negeri Peri Langit",
+          "LocalizedString": "Negeri Peri Langit"
+        }
+      },
+      "SkyIsland_B": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SkyIsland_B_TextData",
+          "SourceString": "Kepulauan Kristal",
+          "LocalizedString": "Kepulauan Kristal"
+        }
+      },
+      "SkyIsland_C": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SkyIsland_C_TextData",
+          "SourceString": "Ngarai Bunga Teratai",
+          "LocalizedString": "Ngarai Bunga Teratai"
+        }
+      },
+      "SkyIsland_D": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SkyIsland_D_TextData",
+          "SourceString": "Retakan Biru Langit",
+          "LocalizedString": "Retakan Biru Langit"
+        }
+      },
+      "SkyIsland_E": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SkyIsland_E_TextData",
+          "SourceString": "Rawa Lumpur Awan",
+          "LocalizedString": "Rawa Lumpur Awan"
+        }
+      },
+      "SkyIsland_BOSS": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SkyIsland_BOSS_TextData",
+          "SourceString": "Pintu Masuk Menara Perjanjian",
+          "LocalizedString": "Pintu Masuk Menara Perjanjian"
+        }
+      },
+      "WorldTree_A": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_A_TextData",
+          "SourceString": "Kaki Gunung Hijau yang Suci",
+          "LocalizedString": "Kaki Gunung Hijau yang Suci"
+        }
+      },
+      "WorldTree_B": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_B_TextData",
+          "SourceString": "Hutan Wisteria yang Menawan",
+          "LocalizedString": "Hutan Wisteria yang Menawan"
+        }
+      },
+      "WorldTree_C_1": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_C_1_TextData",
+          "SourceString": "Ngarai Debu Kuning",
+          "LocalizedString": "Ngarai Debu Kuning"
+        }
+      },
+      "WorldTree_C_2": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_C_2_TextData",
+          "SourceString": "Tepian Sungai Mayat",
+          "LocalizedString": "Tepian Sungai Mayat"
+        }
+      },
+      "WorldTree_D": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_D_TextData",
+          "SourceString": "Rongga Pohon Terkikis",
+          "LocalizedString": "Rongga Pohon Terkikis"
+        }
+      },
+      "WorldTree_E": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_E_TextData",
+          "SourceString": "Tepi Danau Air Terjun Suci",
+          "LocalizedString": "Tepi Danau Air Terjun Suci"
+        }
+      },
+      "WorldTree_I": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_I_TextData",
+          "SourceString": "Puncak Gunung Es Suci",
+          "LocalizedString": "Puncak Gunung Es Suci"
+        }
+      },
+      "WorldTree_L": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_L_TextData",
+          "SourceString": "Koridor Spora",
+          "LocalizedString": "Koridor Spora"
+        }
+      },
+      "WorldTree_M": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_M_TextData",
+          "SourceString": "Perairan Dangkal Air Mata Suci",
+          "LocalizedString": "Perairan Dangkal Air Mata Suci"
+        }
+      },
+      "WorldTree_N": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_N_TextData",
+          "SourceString": "Kota Mati Emas",
+          "LocalizedString": "Kota Mati Emas"
+        }
+      },
+      "WorldTree_lab": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_lab_TextData",
+          "SourceString": "Laboratorium Terbengkalai",
+          "LocalizedString": "Laboratorium Terbengkalai"
+        }
+      },
+      "WorldTree_LastBoss": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_LastBoss_TextData",
+          "SourceString": "Ruang Tersegel",
+          "LocalizedString": "Ruang Tersegel"
+        }
+      },
+      "WatchTower_WorldTree_1": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_WorldTree_1_TextData",
+          "SourceString": "Menara Pengamatan di Ngarai Debu Kuning",
+          "LocalizedString": "Menara Pengamatan di Ngarai Debu Kuning"
+        }
+      },
+      "WatchTower_WorldTree_2": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_WorldTree_2_TextData",
+          "SourceString": "Menara Pengamatan di Reruntuhan Kota Emas",
+          "LocalizedString": "Menara Pengamatan di Reruntuhan Kota Emas"
+        }
+      },
+      "New_SmallIsland01": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "New_SmallIsland01_TextData",
+          "SourceString": "Pulau Terpencil Reruntuhan Lingkaran",
+          "LocalizedString": "Pulau Terpencil Reruntuhan Lingkaran"
+        }
+      },
+      "New_SmallIsland02": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "New_SmallIsland02_TextData",
+          "SourceString": "Pulau Terpencil Aliran Api",
+          "LocalizedString": "Pulau Terpencil Aliran Api"
+        }
+      },
+      "New_SmallIsland03": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "New_SmallIsland03_TextData",
+          "SourceString": "Pulau Terpencil Erosi Angin",
+          "LocalizedString": "Pulau Terpencil Erosi Angin"
+        }
+      },
+      "New_SmallIsland04": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "New_SmallIsland04_TextData",
+          "SourceString": "Pulau Terpencil Tanduk Kembar",
+          "LocalizedString": "Pulau Terpencil Tanduk Kembar"
+        }
+      },
+      "New_SmallIsland05": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "New_SmallIsland05_TextData",
+          "SourceString": "Pulau Terpencil Reruntuhan Lingkaran Beku",
+          "LocalizedString": "Pulau Terpencil Reruntuhan Lingkaran Beku"
+        }
+      },
+      "New_SmallIsland06": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "New_SmallIsland06_TextData",
+          "SourceString": "Pulau Terpencil Gerbang Batuan Pasir",
+          "LocalizedString": "Pulau Terpencil Gerbang Batuan Pasir"
+        }
+      },
+      "New_SmallIsland07": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "New_SmallIsland07_TextData",
+          "SourceString": "Pulau Terpencil Berlambang Matahari",
+          "LocalizedString": "Pulau Terpencil Berlambang Matahari"
+        }
+      },
+      "FootOfWorldTree": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FootOfWorldTree_TextData",
+          "SourceString": "Kaki Pohon Dunia",
+          "LocalizedString": "Kaki Pohon Dunia"
+        }
+      },
+      "WorldTree_MiddleBoss_1": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_MiddleBoss_1_TextData",
+          "SourceString": "Sumber Kabut Korosif",
+          "LocalizedString": "Sumber Kabut Korosif"
+        }
+      },
+      "WorldTree_MiddleBoss_2": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_MiddleBoss_2_TextData",
+          "SourceString": "Sumber Spora Fosfor",
+          "LocalizedString": "Sumber Spora Fosfor"
+        }
+      },
+      "WorldTree_MiddleBoss_3": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_MiddleBoss_3_TextData",
+          "SourceString": "Laboratorium Terlarang",
+          "LocalizedString": "Laboratorium Terlarang"
+        }
+      }
+    }
+  }
+]

@@ -2,9 +2,8 @@
   {
     "Type": "DataTable",
     "Name": "DT_TechnologyDescText_Common",
-    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'DataTable'",
-    "Package": "Pal/Content/L10N/en/Pal/DataTable/Text/DT_TechnologyDescText_Common",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "RowStruct": {
         "ObjectName": "ScriptStruct'PalLocalizedTextData'",
@@ -4344,32 +4343,32 @@
         "TextData": {
           "Namespace": "DT_TechnologyDescText_Common",
           "Key": "DESC_RECIPE_SkySubmachineGun_TextData",
-          "SourceString": "Ammo for the <itemName id=|SkySubmachineGun|/>.\r\nCan be crafted at <mapObjectName id=|AncientWorkBench|/>.",
-          "LocalizedString": "Ammo for the <itemName id=|SkySubmachineGun|/>.\r\nCan be crafted at <mapObjectName id=|AncientWorkBench|/>."
+          "SourceString": "A submachine gun made from Soralite Ingots.\r\nIts improved magazine and ammunition enhance its suppression power.",
+          "LocalizedString": "A submachine gun made from Soralite Ingots.\r\nIts improved magazine and ammunition enhance its suppression power."
         }
       },
       "DESC_RECIPE_SkyShotgun": {
         "TextData": {
           "Namespace": "DT_TechnologyDescText_Common",
           "Key": "DESC_RECIPE_SkyShotgun_TextData",
-          "SourceString": "Ammo for the <itemName id=|SkyShotgun|/>.\r\nCan be crafted at <mapObjectName id=|AncientWorkBench|/>.",
-          "LocalizedString": "Ammo for the <itemName id=|SkyShotgun|/>.\r\nCan be crafted at <mapObjectName id=|AncientWorkBench|/>."
+          "SourceString": "A shotgun made from Soralite Ingots.\r\nIt delivers overwhelming firepower at close range, and its special magazine also provides high sustained combat capability.",
+          "LocalizedString": "A shotgun made from Soralite Ingots.\r\nIt delivers overwhelming firepower at close range, and its special magazine also provides high sustained combat capability."
         }
       },
       "DESC_RECIPE_SkyAssaultRifle": {
         "TextData": {
           "Namespace": "DT_TechnologyDescText_Common",
           "Key": "DESC_RECIPE_SkyAssaultRifle_TextData",
-          "SourceString": "Ammo for the <itemName id=|SkyAssaultRifle|/>.\r\nCan be crafted at <mapObjectName id=|AncientWorkBench|/>.",
-          "LocalizedString": "Ammo for the <itemName id=|SkyAssaultRifle|/>.\r\nCan be crafted at <mapObjectName id=|AncientWorkBench|/>."
+          "SourceString": "An assault rifle made from Soralite Ingots.\r\nIt has been enhanced to handle powerful ammo while maintaining its versatility.",
+          "LocalizedString": "An assault rifle made from Soralite Ingots.\r\nIt has been enhanced to handle powerful ammo while maintaining its versatility."
         }
       },
       "DESC_RECIPE_SkyGrenadeLauncher": {
         "TextData": {
           "Namespace": "DT_TechnologyDescText_Common",
           "Key": "DESC_RECIPE_SkyGrenadeLauncher_TextData",
-          "SourceString": "Ammo for the <itemName id=|SkyGrenadeLauncher|/>.\r\nCan be crafted at <mapObjectName id=|AncientWorkBench|/>.",
-          "LocalizedString": "Ammo for the <itemName id=|SkyGrenadeLauncher|/>.\r\nCan be crafted at <mapObjectName id=|AncientWorkBench|/>."
+          "SourceString": "A grenade launcher made from Soralite Ingots.\r\nImproved trajectory stability allows for precise long-range bombings.",
+          "LocalizedString": "A grenade launcher made from Soralite Ingots.\r\nImproved trajectory stability allows for precise long-range bombings."
         }
       },
       "DESC_RECIPE_SkyBeamSword": {
@@ -4504,16 +4503,16 @@
         "TextData": {
           "Namespace": "DT_TechnologyDescText_Common",
           "Key": "DESC_RECIPE_AncientCookingStove_TextData",
-          "SourceString": "A special kitchen based on ancient technology that can create everything from existing dishes to entirely new recipes.\r\nIt retains heat through fire and completes cooking with manual preparation, allowing it to prepare any kind of cuisine.\r\nIt requires Pals with high-level Kindling and Handiwork suitability.\r\n",
-          "LocalizedString": "A special kitchen based on ancient technology that can create everything from existing dishes to entirely new recipes.\r\nIt retains heat through fire and completes cooking with manual preparation, allowing it to prepare any kind of cuisine.\r\nIt requires Pals with high-level Kindling and Handiwork suitability.\r\n"
+          "SourceString": "A special kitchen based on ancient technology that can create everything from existing dishes to entirely new recipes.\r\nIt retains heat through fire and completes cooking with manual preparation, allowing it to prepare any kind of cuisine.\r\nIt requires Pals with high-level Kindling and Handiwork suitability.",
+          "LocalizedString": "A special kitchen based on ancient technology that can create everything from existing dishes to entirely new recipes.\r\nIt retains heat through fire and completes cooking with manual preparation, allowing it to prepare any kind of cuisine.\r\nIt requires Pals with high-level Kindling and Handiwork suitability."
         }
       },
       "DESC_RECIPE_AncientMultiProduct": {
         "TextData": {
           "Namespace": "DT_TechnologyDescText_Common",
           "Key": "DESC_RECIPE_AncientMultiProduct_TextData",
-          "SourceString": "A special generator based on ancient technology that uses the power of the World Tree to produce all kinds of wood and ore.\r\nDue to its complex structure, only one Pal can be assigned to it.\r\n",
-          "LocalizedString": "A special generator based on ancient technology that uses the power of the World Tree to produce all kinds of wood and ore.\r\nDue to its complex structure, only one Pal can be assigned to it.\r\n"
+          "SourceString": "A special generator based on ancient technology that uses the power of the World Tree to produce all kinds of wood and ore.\r\nDue to its complex structure, only one Pal can be assigned to it.",
+          "LocalizedString": "A special generator based on ancient technology that uses the power of the World Tree to produce all kinds of wood and ore.\r\nDue to its complex structure, only one Pal can be assigned to it."
         }
       },
       "DESC_RECIPE_AncientFarmBlock": {
@@ -4552,16 +4551,16 @@
         "TextData": {
           "Namespace": "DT_TechnologyDescText_Common",
           "Key": "DESC_RECIPE_Ancient_MedicalPalBed_TextData",
-          "SourceString": "A ulitmate Pal Bed made from ancient recovery pod with soft matress.\r\nIt offers one of the highest SAN recovery rates of all Pal beds, quickly relieving fatigue.\r\nIt is the same size as a Large Pal Bed, allowing large Pals to rest comfortably.",
-          "LocalizedString": "A ulitmate Pal Bed made from ancient recovery pod with soft matress.\r\nIt offers one of the highest SAN recovery rates of all Pal beds, quickly relieving fatigue.\r\nIt is the same size as a Large Pal Bed, allowing large Pals to rest comfortably."
+          "SourceString": "An ultimate Pal Bed made from ancient recovery pod with soft matress.\r\nIt offers one of the highest SAN recovery rates of all Pal beds, quickly relieving fatigue.\r\nIt is the same size as a Large Pal Bed, allowing large Pals to rest comfortably.",
+          "LocalizedString": "An ultimate Pal Bed made from ancient recovery pod with soft matress.\r\nIt offers one of the highest SAN recovery rates of all Pal beds, quickly relieving fatigue.\r\nIt is the same size as a Large Pal Bed, allowing large Pals to rest comfortably."
         }
       },
       "DESC_RECIPE_AncientAirConditioner": {
         "TextData": {
           "Namespace": "DT_TechnologyDescText_Common",
           "Key": "DESC_RECIPE_AncientAirConditioner_TextData",
-          "SourceString": "An air conditioning unit based on ancient technology that regulates the temperature of the entire base.\r\nSmaller than standard heating and cooling systems, it maintains a comfortable temperature as long as it is powered.\r\nNo Pals are required for temperature control, and harsh climates can be neutralized with sufficient electricity.\r\n",
-          "LocalizedString": "An air conditioning unit based on ancient technology that regulates the temperature of the entire base.\r\nSmaller than standard heating and cooling systems, it maintains a comfortable temperature as long as it is powered.\r\nNo Pals are required for temperature control, and harsh climates can be neutralized with sufficient electricity.\r\n"
+          "SourceString": "An air conditioning unit based on ancient technology that regulates the temperature of the entire base.\r\nSmaller than standard heating and cooling systems, it maintains a comfortable temperature as long as it is powered.\r\nNo Pals are required for temperature control, and harsh climates can be neutralized with sufficient electricity.",
+          "LocalizedString": "An air conditioning unit based on ancient technology that regulates the temperature of the entire base.\r\nSmaller than standard heating and cooling systems, it maintains a comfortable temperature as long as it is powered.\r\nNo Pals are required for temperature control, and harsh climates can be neutralized with sufficient electricity."
         }
       },
       "DESC_RECIPE_AncientSpa": {

@@ -1,0 +1,1264 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_WorldMap_Common_Text_Common",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "REGION_Grass_1": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Grass_1_TextData",
+          "SourceString": "Rüzgârın Estiği Ada",
+          "LocalizedString": "Rüzgârın Estiği Ada"
+        }
+      },
+      "REGION_Grass_2": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Grass_2_TextData",
+          "SourceString": "Bambu Koruları",
+          "LocalizedString": "Bambu Koruları"
+        }
+      },
+      "REGION_Forest_1": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Forest_1_TextData",
+          "SourceString": "Hilal Ay Kıyısı",
+          "LocalizedString": "Hilal Ay Kıyısı"
+        }
+      },
+      "REGION_Forest_2": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Forest_2_TextData",
+          "SourceString": "Yemyeşil Dere",
+          "LocalizedString": "Yemyeşil Dere"
+        }
+      },
+      "REGION_Volcano_1": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Volcano_1_TextData",
+          "SourceString": "Obsidiyen Dağı",
+          "LocalizedString": "Obsidiyen Dağı"
+        }
+      },
+      "REGION_Desert_1": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Desert_1_TextData",
+          "SourceString": "Kupkuru Kumullar",
+          "LocalizedString": "Kupkuru Kumullar"
+        }
+      },
+      "REGION_Frost_1": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Frost_1_TextData",
+          "SourceString": "Astral Dağlar",
+          "LocalizedString": "Astral Dağlar"
+        }
+      },
+      "REGION_Frost_small": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Frost_small_TextData",
+          "SourceString": "Buz Bağlı Dağlar",
+          "LocalizedString": "Buz Bağlı Dağlar"
+        }
+      },
+      "REGION_Desert_Small": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Desert_Small_TextData",
+          "SourceString": "Alaca Karanlık Kumulları",
+          "LocalizedString": "Alaca Karanlık Kumulları"
+        }
+      },
+      "REGION_Grass_Boss": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Grass_Boss_TextData",
+          "SourceString": "Rayne Örgütü Kulesi",
+          "LocalizedString": "Rayne Örgütü Kulesi"
+        }
+      },
+      "REGION_Forest_Boss": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Forest_Boss_TextData",
+          "SourceString": "Hür Pal İttifakı Kulesi",
+          "LocalizedString": "Hür Pal İttifakı Kulesi"
+        }
+      },
+      "REGION_Desert_Boss": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Desert_Boss_TextData",
+          "SourceString": "PASG Kulesi",
+          "LocalizedString": "PASG Kulesi"
+        }
+      },
+      "REGION_Volcano_Boss": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Volcano_Boss_TextData",
+          "SourceString": "Ölümsüz Ateş Kardeşliği Kulesi",
+          "LocalizedString": "Ölümsüz Ateş Kardeşliği Kulesi"
+        }
+      },
+      "REGION_Frost_Boss": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Frost_Boss_TextData",
+          "SourceString": "PAL Genetik Araştırma Birimi Kulesi",
+          "LocalizedString": "PAL Genetik Araştırma Birimi Kulesi"
+        }
+      },
+      "REGION_TEST_CHICKEN": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_TEST_CHICKEN_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "REGION_Grass_1_Church": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Grass_1_Church_TextData",
+          "SourceString": "Issız Kilise",
+          "LocalizedString": "Issız Kilise"
+        }
+      },
+      "REGION_Grass_1_Village": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Grass_1_Village_TextData",
+          "SourceString": "Küçük Yerleşim",
+          "LocalizedString": "Küçük Yerleşim"
+        }
+      },
+      "REGION_Desert_1_Village": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Desert_1_Village_TextData",
+          "SourceString": "Kumul Sığınağı",
+          "LocalizedString": "Kumul Sığınağı"
+        }
+      },
+      "REGION_Volcano_1_Village": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Volcano_1_Village_TextData",
+          "SourceString": "Balıkçı Burnu",
+          "LocalizedString": "Balıkçı Burnu"
+        }
+      },
+      "REGION_Preserve1": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Preserve1_TextData",
+          "SourceString": "No. 1 Yaban Hayatı Koruma Alanı",
+          "LocalizedString": "No. 1 Yaban Hayatı Koruma Alanı"
+        }
+      },
+      "REGION_Preserve2": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Preserve2_TextData",
+          "SourceString": "No. 2 Yaban Hayatı Koruma Alanı",
+          "LocalizedString": "No. 2 Yaban Hayatı Koruma Alanı"
+        }
+      },
+      "REGION_Preserve3": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Preserve3_TextData",
+          "SourceString": "No. 3 Yaban Hayatı Koruma Alanı",
+          "LocalizedString": "No. 3 Yaban Hayatı Koruma Alanı"
+        }
+      },
+      "REGION_Statue1": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Statue1_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "REGION_Statue2": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Statue2_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "REGION_Statue3": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Statue3_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "REGION_Forest_Ruin": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Forest_Ruin_TextData",
+          "SourceString": "Kadim Ayin Alanı",
+          "LocalizedString": "Kadim Ayin Alanı"
+        }
+      },
+      "REGION_FixedDungeon_grass_1": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_grass_1_TextData",
+          "SourceString": "Donuk Kanatların Mühürlü Âlemi",
+          "LocalizedString": "Donuk Kanatların Mühürlü Âlemi"
+        }
+      },
+      "REGION_FixedDungeon_grass_2": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_grass_2_TextData",
+          "SourceString": "Kavurucu Mühürlü Bölge",
+          "LocalizedString": "Kavurucu Mühürlü Bölge"
+        }
+      },
+      "REGION_FixedDungeon_grass_3": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_grass_3_TextData",
+          "SourceString": "Sayısız Alevin Mühürlü Diyarı",
+          "LocalizedString": "Sayısız Alevin Mühürlü Diyarı"
+        }
+      },
+      "REGION_FixedDungeon_grass_4": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_grass_4_TextData",
+          "SourceString": "Kılıç Ustasının Mühürlü Diyarı",
+          "LocalizedString": "Kılıç Ustasının Mühürlü Diyarı"
+        }
+      },
+      "REGION_FixedDungeon_grass_5": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_grass_5_TextData",
+          "SourceString": "Buz Çiçeğinin Mühürlü Âlemi",
+          "LocalizedString": "Buz Çiçeğinin Mühürlü Âlemi"
+        }
+      },
+      "REGION_FixedDungeon_grass_6": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_grass_6_TextData",
+          "SourceString": "Buz Tilkisinin Mühürlü Bölgesi",
+          "LocalizedString": "Buz Tilkisinin Mühürlü Bölgesi"
+        }
+      },
+      "REGION_FixedDungeon_grass_7": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_grass_7_TextData",
+          "SourceString": "Balta Girmemiş Orman Mühürlü Âlemi",
+          "LocalizedString": "Balta Girmemiş Orman Mühürlü Âlemi"
+        }
+      },
+      "REGION_FixedDungeon_forest_1": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_forest_1_TextData",
+          "SourceString": "Büyücünün Mühürlü Âlemi",
+          "LocalizedString": "Büyücünün Mühürlü Âlemi"
+        }
+      },
+      "REGION_FixedDungeon_forest_2": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_forest_2_TextData",
+          "SourceString": "Muhafızların Mühürlü Âlemi",
+          "LocalizedString": "Muhafızların Mühürlü Âlemi"
+        }
+      },
+      "REGION_FixedDungeon_forest_3": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_forest_3_TextData",
+          "SourceString": "Çeviğin Mühürlü Âlemi",
+          "LocalizedString": "Çeviğin Mühürlü Âlemi"
+        }
+      },
+      "REGION_FixedDungeon_forest_4": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_forest_4_TextData",
+          "SourceString": "Gizemli Mühürlü Bölge",
+          "LocalizedString": "Gizemli Mühürlü Bölge"
+        }
+      },
+      "REGION_FixedDungeon_forest_5": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_forest_5_TextData",
+          "SourceString": "Bozulmamışın Mühürlü Âlemi",
+          "LocalizedString": "Bozulmamışın Mühürlü Âlemi"
+        }
+      },
+      "REGION_UndergroundCave_grass01": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_grass01_TextData",
+          "SourceString": "Terk Edilmiş Maden",
+          "LocalizedString": "Terk Edilmiş Maden"
+        }
+      },
+      "REGION_UndergroundCave_grass02": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_grass02_TextData",
+          "SourceString": "Sığ Maden",
+          "LocalizedString": "Sığ Maden"
+        }
+      },
+      "REGION_UndergroundCave_grass03": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_grass03_TextData",
+          "SourceString": "Gizli Şelaleler Madeni",
+          "LocalizedString": "Gizli Şelaleler Madeni"
+        }
+      },
+      "REGION_UndergroundCave_grass04": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_grass04_TextData",
+          "SourceString": "Koy Madeni",
+          "LocalizedString": "Koy Madeni"
+        }
+      },
+      "REGION_UndergroundCave_forest01": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_forest01_TextData",
+          "SourceString": "Fedai Madeni",
+          "LocalizedString": "Fedai Madeni"
+        }
+      },
+      "REGION_UndergroundCave_dessert01": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_dessert01_TextData",
+          "SourceString": "Kupkuru Maden",
+          "LocalizedString": "Kupkuru Maden"
+        }
+      },
+      "REGION_UndergroundCave_dessert02": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_dessert02_TextData",
+          "SourceString": "Gizli Maden",
+          "LocalizedString": "Gizli Maden"
+        }
+      },
+      "REGION_UndergroundCave_dessert03": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_dessert03_TextData",
+          "SourceString": "En Uzak Maden",
+          "LocalizedString": "En Uzak Maden"
+        }
+      },
+      "REGION_UndergroundCave_volcano01": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_volcano01_TextData",
+          "SourceString": "Alev Alev Maden",
+          "LocalizedString": "Alev Alev Maden"
+        }
+      },
+      "REGION_UndergroundCave_volcano02": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_volcano02_TextData",
+          "SourceString": "Yıkılmış Maden",
+          "LocalizedString": "Yıkılmış Maden"
+        }
+      },
+      "REGION_UndergroundCave_snow01": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_snow01_TextData",
+          "SourceString": "Buz Dağı Madeni",
+          "LocalizedString": "Buz Dağı Madeni"
+        }
+      },
+      "REGION_UndergroundCave_snow02": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_snow02_TextData",
+          "SourceString": "Unutulmuş Maden",
+          "LocalizedString": "Unutulmuş Maden"
+        }
+      },
+      "REGION_PvP_1": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_PvP_1_TextData",
+          "SourceString": "İmbat Takımadaları",
+          "LocalizedString": "İmbat Takımadaları"
+        }
+      },
+      "REGION_PvP_2": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_PvP_2_TextData",
+          "SourceString": "Sukunet Adası",
+          "LocalizedString": "Sukunet Adası"
+        }
+      },
+      "REGION_PvP_3": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_PvP_3_TextData",
+          "SourceString": "Dalgaların Fısıldadığı Ada",
+          "LocalizedString": "Dalgaların Fısıldadığı Ada"
+        }
+      },
+      "REGION_PvP_4": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_PvP_4_TextData",
+          "SourceString": "Doğudaki Issız Ada",
+          "LocalizedString": "Doğudaki Issız Ada"
+        }
+      },
+      "REGION_PvP_5": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_PvP_5_TextData",
+          "SourceString": "Bataklık Adası",
+          "LocalizedString": "Bataklık Adası"
+        }
+      },
+      "REGION_PvP_1_Church": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_PvP_1_Church_TextData",
+          "SourceString": "İmbat Takımadaları Kilisesi",
+          "LocalizedString": "İmbat Takımadaları Kilisesi"
+        }
+      },
+      "REGION_PvP_2_Church": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_PvP_2_Church_TextData",
+          "SourceString": "Sukunet Adası Kilise Kalıntıları",
+          "LocalizedString": "Sukunet Adası Kilise Kalıntıları"
+        }
+      },
+      "REGION_PvP_3_Church": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_PvP_3_Church_TextData",
+          "SourceString": "Bataklık Adası Kilise Kalıntıları",
+          "LocalizedString": "Bataklık Adası Kilise Kalıntıları"
+        }
+      },
+      "REGION_Arena": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Arena_TextData",
+          "SourceString": "Arena",
+          "LocalizedString": "Arena"
+        }
+      },
+      "REGION_Mushroom": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Mushroom_TextData",
+          "SourceString": "Sakurajima: Mantar Sulakları",
+          "LocalizedString": "Sakurajima: Mantar Sulakları"
+        }
+      },
+      "REGION_Sakura": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Sakura_TextData",
+          "SourceString": "Dans Eden Sakura Sunağı",
+          "LocalizedString": "Dans Eden Sakura Sunağı"
+        }
+      },
+      "REGION_RockSand": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_RockSand_TextData",
+          "SourceString": "Sakurajima: Kuzey Kayalıkları",
+          "LocalizedString": "Sakurajima: Kuzey Kayalıkları"
+        }
+      },
+      "REGION_WhiteSand": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_WhiteSand_TextData",
+          "SourceString": "Sakurajima: Güney Kumluğu",
+          "LocalizedString": "Sakurajima: Güney Kumluğu"
+        }
+      },
+      "REGION_Sakurajima_Boss": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Sakurajima_Boss_TextData",
+          "SourceString": "Ay Goncası Kulesi",
+          "LocalizedString": "Ay Goncası Kulesi"
+        }
+      },
+      "REGION_Oilrig_1": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Oilrig_1_TextData",
+          "SourceString": "Rayne Örgütü Petrol Kuyusu",
+          "LocalizedString": "Rayne Örgütü Petrol Kuyusu"
+        }
+      },
+      "REGION_Oilrig_2": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Oilrig_2_TextData",
+          "SourceString": "Rayne Örgütü Petrol Mavnası",
+          "LocalizedString": "Rayne Örgütü Petrol Mavnası"
+        }
+      },
+      "REGION_Oilrig_3": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Oilrig_3_TextData",
+          "SourceString": "Rayne Örgütü Petrol Platformu",
+          "LocalizedString": "Rayne Örgütü Petrol Platformu"
+        }
+      },
+      "REGION_Darkisland01": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland01_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "REGION_Darkisland02": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland02_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "REGION_Darkisland03": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland03_TextData",
+          "SourceString": "Feybreak Gemi Enkazı",
+          "LocalizedString": "Feybreak Gemi Enkazı"
+        }
+      },
+      "REGION_Darkisland04": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland04_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "REGION_Darkisland05": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland05_TextData",
+          "SourceString": "Kristalleşmiş Kadim Ağaç",
+          "LocalizedString": "Kristalleşmiş Kadim Ağaç"
+        }
+      },
+      "REGION_Darkisland06": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland06_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "REGION_Darkisland06_dokutsu": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland06_dokutsu_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "REGION_Darkisland07": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland07_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "REGION_Darkisland08": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland08_TextData",
+          "SourceString": "Taş Direk Mağarası",
+          "LocalizedString": "Taş Direk Mağarası"
+        }
+      },
+      "REGION_Darkisland09": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland09_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "REGION_Darkisland10": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland10_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "REGION_Darkisland11": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland11_TextData",
+          "SourceString": "Kor Taş Platosu",
+          "LocalizedString": "Kor Taş Platosu"
+        }
+      },
+      "REGION_Darkisland_FT01": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland_FT01_TextData",
+          "SourceString": "Kavrulmuş Kül Toprakları",
+          "LocalizedString": "Kavrulmuş Kül Toprakları"
+        }
+      },
+      "REGION_Darkisland_FT02": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland_FT02_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "REGION_Darkisland_FT03": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland_FT03_TextData",
+          "SourceString": "Lös Düzlükleri",
+          "LocalizedString": "Lös Düzlükleri"
+        }
+      },
+      "REGION_Darkisland_FT04": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland_FT04_TextData",
+          "SourceString": "Göz Pencere Kapısına Giden Gizli Geçit",
+          "LocalizedString": "Göz Pencere Kapısına Giden Gizli Geçit"
+        }
+      },
+      "REGION_Darkisland_FT05": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland_FT05_TextData",
+          "SourceString": "Göz Pencere Kapısı, Kule Görünüyor",
+          "LocalizedString": "Göz Pencere Kapısı, Kule Görünüyor"
+        }
+      },
+      "REGION_Darkisland_FT06": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland_FT06_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "REGION_Darkisland_FT07": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland_FT07_TextData",
+          "SourceString": "Küle Dönmüş Tepe",
+          "LocalizedString": "Küle Dönmüş Tepe"
+        }
+      },
+      "REGION_Darkisland_FT08": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland_FT08_TextData",
+          "SourceString": "Terk Edilmiş Kül Platosu",
+          "LocalizedString": "Terk Edilmiş Kül Platosu"
+        }
+      },
+      "REGION_Darkisland_Boss": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland_Boss_TextData",
+          "SourceString": "Feybreak Kulesi",
+          "LocalizedString": "Feybreak Kulesi"
+        }
+      },
+      "REGION_Darkisland_FT09": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland_FT09_TextData",
+          "SourceString": "Solgun Sahil",
+          "LocalizedString": "Solgun Sahil"
+        }
+      },
+      "REGION_Darkisland_FT10": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland_FT10_TextData",
+          "SourceString": "Donmuş Resif Tepesi",
+          "LocalizedString": "Donmuş Resif Tepesi"
+        }
+      },
+      "REGION_UndergroundCave_Darkisland_1": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_Darkisland_1_TextData",
+          "SourceString": "Yamyamın Mağarası",
+          "LocalizedString": "Yamyamın Mağarası"
+        }
+      },
+      "REGION_UndergroundCave_Darkisland_2": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_Darkisland_2_TextData",
+          "SourceString": "Kalkan Ejderhası Tüneli",
+          "LocalizedString": "Kalkan Ejderhası Tüneli"
+        }
+      },
+      "REGION_UndergroundCave_Darkisland_3": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_Darkisland_3_TextData",
+          "SourceString": "Kristalleşmiş Tünel",
+          "LocalizedString": "Kristalleşmiş Tünel"
+        }
+      },
+      "REGION_UndergroundCave_Darkisland_4": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_Darkisland_4_TextData",
+          "SourceString": "Karanlık Alev Tüneli",
+          "LocalizedString": "Karanlık Alev Tüneli"
+        }
+      },
+      "REGION_UndergroundCave_Darkisland_5": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_Darkisland_5_TextData",
+          "SourceString": "Kan Lekeli Tünel",
+          "LocalizedString": "Kan Lekeli Tünel"
+        }
+      },
+      "REGION_Grass_3": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Grass_3_TextData",
+          "SourceString": "Altın Tepeler",
+          "LocalizedString": "Altın Tepeler"
+        }
+      },
+      "REGION_Grass_4": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Grass_4_TextData",
+          "SourceString": "Güz Kayaları",
+          "LocalizedString": "Güz Kayaları"
+        }
+      },
+      "REGION_Grass_5": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Grass_5_TextData",
+          "SourceString": "Hisar Kalıntıları",
+          "LocalizedString": "Hisar Kalıntıları"
+        }
+      },
+      "REGION_Grass_6": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Grass_6_TextData",
+          "SourceString": "Uçan Balık Sahili",
+          "LocalizedString": "Uçan Balık Sahili"
+        }
+      },
+      "REGION_Grass_7": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Grass_7_TextData",
+          "SourceString": "Gobfin'in Mıntıkası",
+          "LocalizedString": "Gobfin'in Mıntıkası"
+        }
+      },
+      "REGION_Grass_8": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Grass_8_TextData",
+          "SourceString": "Savaş Yaraları",
+          "LocalizedString": "Savaş Yaraları"
+        }
+      },
+      "REGION_Grass_9": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Grass_9_TextData",
+          "SourceString": "Derin Bambu Ağaçlığı",
+          "LocalizedString": "Derin Bambu Ağaçlığı"
+        }
+      },
+      "REGION_Grass_10": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Grass_10_TextData",
+          "SourceString": "Sessiz Göl",
+          "LocalizedString": "Sessiz Göl"
+        }
+      },
+      "REGION_Frost_2": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Frost_2_TextData",
+          "SourceString": "Astral Dağların Ayağı",
+          "LocalizedString": "Astral Dağların Ayağı"
+        }
+      },
+      "REGION_Frost_3": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Frost_3_TextData",
+          "SourceString": "Terk Edilmiş Kalıntılar",
+          "LocalizedString": "Terk Edilmiş Kalıntılar"
+        }
+      },
+      "REGION_Volcano_2": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Volcano_2_TextData",
+          "SourceString": "Volkanın Ayağı",
+          "LocalizedString": "Volkanın Ayağı"
+        }
+      },
+      "REGION_Volcano_3": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Volcano_3_TextData",
+          "SourceString": "Hisar Harabesi Kenti",
+          "LocalizedString": "Hisar Harabesi Kenti"
+        }
+      },
+      "REGION_Volcano_4": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Volcano_4_TextData",
+          "SourceString": "Kuru Kumlu Kumsal",
+          "LocalizedString": "Kuru Kumlu Kumsal"
+        }
+      },
+      "REGION_FixedDungeon_DarkIsland_1": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_DarkIsland_1_TextData",
+          "SourceString": "Koruyucu Kaya'nın Mühürlü Âlemi",
+          "LocalizedString": "Koruyucu Kaya'nın Mühürlü Âlemi"
+        }
+      },
+      "REGION_FixedDungeon_DarkIsland_2": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_DarkIsland_2_TextData",
+          "SourceString": "Küçük Kahramanın Mühürlü Âlemi",
+          "LocalizedString": "Küçük Kahramanın Mühürlü Âlemi"
+        }
+      },
+      "REGION_FixedDungeon_DarkIsland_3": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_DarkIsland_3_TextData",
+          "SourceString": "Çivit Mavisinin Mühürlü Âlemi",
+          "LocalizedString": "Çivit Mavisinin Mühürlü Âlemi"
+        }
+      },
+      "REGION_FixedDungeon_DarkIsland_4": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_DarkIsland_4_TextData",
+          "SourceString": "Ruhun Mühürlü Âlemi",
+          "LocalizedString": "Ruhun Mühürlü Âlemi"
+        }
+      },
+      "REGION_SmallIsland01": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_SmallIsland01_TextData",
+          "SourceString": "Hinata’nın Issız Adası",
+          "LocalizedString": "Hinata’nın Issız Adası"
+        }
+      },
+      "REGION_SmallIsland02": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_SmallIsland02_TextData",
+          "SourceString": "Vahanın Yalnız Adası",
+          "LocalizedString": "Vahanın Yalnız Adası"
+        }
+      },
+      "REGION_SmallIsland03": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_SmallIsland03_TextData",
+          "SourceString": "Buzlarla Kaplı Issız Ada",
+          "LocalizedString": "Buzlarla Kaplı Issız Ada"
+        }
+      },
+      "REGION_SmallIsland04": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_SmallIsland04_TextData",
+          "SourceString": "Donmuş Issız Ada",
+          "LocalizedString": "Donmuş Issız Ada"
+        }
+      },
+      "REGION_SmallIsland05": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_SmallIsland05_TextData",
+          "SourceString": "Hayaletlerin Issız Adası",
+          "LocalizedString": "Hayaletlerin Issız Adası"
+        }
+      },
+      "REGION_SmallIsland06": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_SmallIsland06_TextData",
+          "SourceString": "Harap Hazine Adası",
+          "LocalizedString": "Harap Hazine Adası"
+        }
+      },
+      "REGION_SmallIsland07": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_SmallIsland07_TextData",
+          "SourceString": "Sürekli Yaz Adası",
+          "LocalizedString": "Sürekli Yaz Adası"
+        }
+      },
+      "REGION_FixedDungeon_Yakushima": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_Yakushima_TextData",
+          "SourceString": "Terraria’ya Ait Mühürlü Alan",
+          "LocalizedString": "Terraria’ya Ait Mühürlü Alan"
+        }
+      },
+      "REGION_FixedDungeon_SmallIsland03": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_SmallIsland03_TextData",
+          "SourceString": "Buz Kütlesi Bölgesi",
+          "LocalizedString": "Buz Kütlesi Bölgesi"
+        }
+      },
+      "WORLDMAP_NAME_MainMap": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "WORLDMAP_NAME_MainMap_TextData",
+          "SourceString": "Palpagos Adası",
+          "LocalizedString": "Palpagos Adası"
+        }
+      },
+      "WORLDMAP_NAME_Tree": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "WORLDMAP_NAME_Tree_TextData",
+          "SourceString": "Dünya Ağacı",
+          "LocalizedString": "Dünya Ağacı"
+        }
+      },
+      "REGION_Boss_KingWhale": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Boss_KingWhale_TextData",
+          "SourceString": "Unutulmuş Issız Ada",
+          "LocalizedString": "Unutulmuş Issız Ada"
+        }
+      },
+      "REGION_New_SmallIsland01": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_New_SmallIsland01_TextData",
+          "SourceString": "Çember Harabeleri Issız Adası",
+          "LocalizedString": "Çember Harabeleri Issız Adası"
+        }
+      },
+      "REGION_New_SmallIsland02": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_New_SmallIsland02_TextData",
+          "SourceString": "Lav Hattı Issız Adası",
+          "LocalizedString": "Lav Hattı Issız Adası"
+        }
+      },
+      "REGION_New_SmallIsland03": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_New_SmallIsland03_TextData",
+          "SourceString": "Rüzgar Aşındırmalı Issız Ada",
+          "LocalizedString": "Rüzgar Aşındırmalı Issız Ada"
+        }
+      },
+      "REGION_New_SmallIsland04": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_New_SmallIsland04_TextData",
+          "SourceString": "Çift Boynuzlu Issız Ada",
+          "LocalizedString": "Çift Boynuzlu Issız Ada"
+        }
+      },
+      "REGION_New_SmallIsland05": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_New_SmallIsland05_TextData",
+          "SourceString": "Buz Çemberi Harabeleri'nin Issız Adası",
+          "LocalizedString": "Buz Çemberi Harabeleri'nin Issız Adası"
+        }
+      },
+      "REGION_New_SmallIsland06": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_New_SmallIsland06_TextData",
+          "SourceString": "Kumtaşı Kapısı'nın Issız Adası",
+          "LocalizedString": "Kumtaşı Kapısı'nın Issız Adası"
+        }
+      },
+      "REGION_New_SmallIsland07": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_New_SmallIsland07_TextData",
+          "SourceString": "Güneş Arması'nın Issız Adası",
+          "LocalizedString": "Güneş Arması'nın Issız Adası"
+        }
+      },
+      "REGION_WorldTree01": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_WorldTree01_TextData",
+          "SourceString": "Kutsal Yeşil Dağ Eteği Ovaları",
+          "LocalizedString": "Kutsal Yeşil Dağ Eteği Ovaları"
+        }
+      },
+      "REGION_WorldTree02": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_WorldTree02_TextData",
+          "SourceString": "Davetkar Morsalkım Ormanı",
+          "LocalizedString": "Davetkar Morsalkım Ormanı"
+        }
+      },
+      "REGION_WorldTree03": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_WorldTree03_TextData",
+          "SourceString": "Sarı Tozlu Kanyon",
+          "LocalizedString": "Sarı Tozlu Kanyon"
+        }
+      },
+      "REGION_WorldTree04": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_WorldTree04_TextData",
+          "SourceString": "Kadavraların Nehir Kıyısı",
+          "LocalizedString": "Kadavraların Nehir Kıyısı"
+        }
+      },
+      "REGION_WorldTree05": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_WorldTree05_TextData",
+          "SourceString": "Çürümüş Ağaç Kovuğu",
+          "LocalizedString": "Çürümüş Ağaç Kovuğu"
+        }
+      },
+      "REGION_WorldTree06": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_WorldTree06_TextData",
+          "SourceString": "Kutsal Şelale Gölü Kıyısı",
+          "LocalizedString": "Kutsal Şelale Gölü Kıyısı"
+        }
+      },
+      "REGION_WorldTree07": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_WorldTree07_TextData",
+          "SourceString": "Kutsal Buz Dağ Sırası",
+          "LocalizedString": "Kutsal Buz Dağ Sırası"
+        }
+      },
+      "REGION_WorldTree08": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_WorldTree08_TextData",
+          "SourceString": "Mühürlü Oda",
+          "LocalizedString": "Mühürlü Oda"
+        }
+      },
+      "REGION_WorldTree09": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_WorldTree09_TextData",
+          "SourceString": "Terk Edilmiş Araştırma Laboratuvarı",
+          "LocalizedString": "Terk Edilmiş Araştırma Laboratuvarı"
+        }
+      },
+      "REGION_WorldTree10": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_WorldTree10_TextData",
+          "SourceString": "Spor Koridoru",
+          "LocalizedString": "Spor Koridoru"
+        }
+      },
+      "REGION_WorldTree11": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_WorldTree11_TextData",
+          "SourceString": "Kutsal Gözyaşı Sığlığı",
+          "LocalizedString": "Kutsal Gözyaşı Sığlığı"
+        }
+      },
+      "REGION_WorldTree12": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_WorldTree12_TextData",
+          "SourceString": "Altın Terk Edilmiş Şehir",
+          "LocalizedString": "Altın Terk Edilmiş Şehir"
+        }
+      },
+      "REGION_Wide_Sakurajima01": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Wide_Sakurajima01_TextData",
+          "SourceString": "Sakurajima",
+          "LocalizedString": "Sakurajima"
+        }
+      },
+      "REGION_Wide_Darkisland01": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Wide_Darkisland01_TextData",
+          "SourceString": "Feybreak",
+          "LocalizedString": "Feybreak"
+        }
+      },
+      "REGION_Wide_Skyisland01": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Wide_Skyisland01_TextData",
+          "SourceString": "Gökgüneş Diyarı",
+          "LocalizedString": "Gökgüneş Diyarı"
+        }
+      },
+      "REGION_Skyisland_Boss": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Skyisland_Boss_TextData",
+          "SourceString": "Ahit Kulesi",
+          "LocalizedString": "Ahit Kulesi"
+        }
+      },
+      "REGION_Skyisland01": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Skyisland01_TextData",
+          "SourceString": "Gökyüzü Mavisi Yarık Bölge",
+          "LocalizedString": "Gökyüzü Mavisi Yarık Bölge"
+        }
+      },
+      "REGION_Skyisland02": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Skyisland02_TextData",
+          "SourceString": "Nilüferli Dağ Geçidi",
+          "LocalizedString": "Nilüferli Dağ Geçidi"
+        }
+      },
+      "REGION_Skyisland03": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Skyisland03_TextData",
+          "SourceString": "Ejderha İzi Zirvesi",
+          "LocalizedString": "Ejderha İzi Zirvesi"
+        }
+      },
+      "REGION_Skyisland04": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Skyisland04_TextData",
+          "SourceString": "Bulut-Çamur Bataklığı",
+          "LocalizedString": "Bulut-Çamur Bataklığı"
+        }
+      },
+      "REGION_Skyisland05": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Skyisland05_TextData",
+          "SourceString": "Derin Lacivert Ağaç Denizi",
+          "LocalizedString": "Derin Lacivert Ağaç Denizi"
+        }
+      },
+      "REGION_Skyisland06": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Skyisland06_TextData",
+          "SourceString": "Kristal Takımadaları",
+          "LocalizedString": "Kristal Takımadaları"
+        }
+      },
+      "REGION_Skyisland07": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Skyisland07_TextData",
+          "SourceString": "Göksel Cennet",
+          "LocalizedString": "Göksel Cennet"
+        }
+      },
+      "REGION_FixedDungeon_SkyIsland_01": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_SkyIsland_01_TextData",
+          "SourceString": "Yıldız Dileğinin Mühürlü Diyarı",
+          "LocalizedString": "Yıldız Dileğinin Mühürlü Diyarı"
+        }
+      },
+      "REGION_FootOfWorldTree": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FootOfWorldTree_TextData",
+          "SourceString": "Dünya Ağacı Etekleri",
+          "LocalizedString": "Dünya Ağacı Etekleri"
+        }
+      }
+    }
+  }
+]

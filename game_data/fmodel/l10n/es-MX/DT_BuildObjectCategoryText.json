@@ -1,0 +1,672 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_BuildObjectCategoryText",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "CATEGORY_TYPE_A_Product": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_A_Product_TextData",
+          "SourceString": "Producción",
+          "LocalizedString": "Producción"
+        }
+      },
+      "CATEGORY_TYPE_A_Pal": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_A_Pal_TextData",
+          "SourceString": "Pals",
+          "LocalizedString": "Pals"
+        }
+      },
+      "CATEGORY_TYPE_A_Infrastructure": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_A_Infrastructure_TextData",
+          "SourceString": "Infraestructura",
+          "LocalizedString": "Infraestructura"
+        }
+      },
+      "CATEGORY_TYPE_A_Food": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_A_Food_TextData",
+          "SourceString": "Comida",
+          "LocalizedString": "Comida"
+        }
+      },
+      "CATEGORY_TYPE_A_Foundation": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_A_Foundation_TextData",
+          "SourceString": "Construcción",
+          "LocalizedString": "Construcción"
+        }
+      },
+      "CATEGORY_TYPE_A_Defense": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_A_Defense_TextData",
+          "SourceString": "Defensa",
+          "LocalizedString": "Defensa"
+        }
+      },
+      "CATEGORY_TYPE_A_Other": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_A_Other_TextData",
+          "SourceString": "Varios",
+          "LocalizedString": "Varios"
+        }
+      },
+      "CATEGORY_TYPE_A_Storage": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_A_Storage_TextData",
+          "SourceString": "Almacenamiento",
+          "LocalizedString": "Almacenamiento"
+        }
+      },
+      "CATEGORY_TYPE_A_Light": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_A_Light_TextData",
+          "SourceString": "Iluminación",
+          "LocalizedString": "Iluminación"
+        }
+      },
+      "CATEGORY_TYPE_A_Furniture": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_A_Furniture_TextData",
+          "SourceString": "Muebles",
+          "LocalizedString": "Muebles"
+        }
+      },
+      "CATEGORY_TYPE_A_Dismantle": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_A_Dismantle_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "CATEGORY_TYPE_B_Prod_Craft": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_B_Prod_Craft_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "CATEGORY_TYPE_B_Prod_Resource": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_B_Prod_Resource_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "CATEGORY_TYPE_B_Prod_Furnace": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_B_Prod_Furnace_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "CATEGORY_TYPE_B_Prod_Medicine": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_B_Prod_Medicine_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "CATEGORY_TYPE_B_Pal_Capture": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_B_Pal_Capture_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "CATEGORY_TYPE_B_Pal_Breed": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_B_Pal_Breed_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "CATEGORY_TYPE_B_Pal_Modify": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_B_Pal_Modify_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "CATEGORY_TYPE_B_Infra_Medical": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_B_Infra_Medical_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "CATEGORY_TYPE_B_Infra_Storage": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_B_Infra_Storage_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "CATEGORY_TYPE_B_Infra_Trade": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_B_Infra_Trade_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "CATEGORY_TYPE_B_Infra_GeneratePower": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_B_Infra_GeneratePower_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "CATEGORY_TYPE_B_Infra_Defense": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_B_Infra_Defense_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "CATEGORY_TYPE_B_Infra_Environment": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_B_Infra_Environment_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "CATEGORY_TYPE_B_Food_Basic": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_B_Food_Basic_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "CATEGORY_TYPE_B_Food_Agriculture": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_B_Food_Agriculture_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "CATEGORY_TYPE_B_Food_Cooking": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_B_Food_Cooking_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "CATEGORY_TYPE_B_Food_Livestock": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_B_Food_Livestock_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "CATEGORY_TYPE_B_Found_Basic": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_B_Found_Basic_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "CATEGORY_TYPE_B_Found_House": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_B_Found_House_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "CATEGORY_TYPE_B_Other": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_B_Other_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "CATEGORY_TYPE_A_Blueprint": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_A_Blueprint_TextData",
+          "SourceString": "Planos",
+          "LocalizedString": "Planos"
+        }
+      },
+      "CATEGORY_TYPE_A_Favorite": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_A_Favorite_TextData",
+          "SourceString": "Favoritos",
+          "LocalizedString": "Favoritos"
+        }
+      },
+      "CATEGORY_TYPE_UI_Product_Repair": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Product_Repair_TextData",
+          "SourceString": "Fabricación y reparación",
+          "LocalizedString": "Fabricación y reparación"
+        }
+      },
+      "CATEGORY_TYPE_UI_Weapon": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Weapon_TextData",
+          "SourceString": "Armas",
+          "LocalizedString": "Armas"
+        }
+      },
+      "CATEGORY_TYPE_UI_Refine": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Refine_TextData",
+          "SourceString": "Refinamiento",
+          "LocalizedString": "Refinamiento"
+        }
+      },
+      "CATEGORY_TYPE_UI_Medicine": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Medicine_TextData",
+          "SourceString": "Farmacología",
+          "LocalizedString": "Farmacología"
+        }
+      },
+      "CATEGORY_TYPE_UI_Deforest_Mining": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Deforest_Mining_TextData",
+          "SourceString": "Tala y Minería",
+          "LocalizedString": "Tala y Minería"
+        }
+      },
+      "CATEGORY_TYPE_UI_Milling_Crusher": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Milling_Crusher_TextData",
+          "SourceString": "Molino y Trituradora",
+          "LocalizedString": "Molino y Trituradora"
+        }
+      },
+      "CATEGORY_TYPE_UI_FishingPond": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_FishingPond_TextData",
+          "SourceString": "Estanque de pesca",
+          "LocalizedString": "Estanque de pesca"
+        }
+      },
+      "CATEGORY_TYPE_UI_PalCaptureItem": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_PalCaptureItem_TextData",
+          "SourceString": "Esfera",
+          "LocalizedString": "Esfera"
+        }
+      },
+      "CATEGORY_TYPE_UI_PalManagement": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_PalManagement_TextData",
+          "SourceString": "Control de Pals",
+          "LocalizedString": "Control de Pals"
+        }
+      },
+      "CATEGORY_TYPE_UI_PalTraining": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_PalTraining_TextData",
+          "SourceString": "Crianza de Pals",
+          "LocalizedString": "Crianza de Pals"
+        }
+      },
+      "CATEGORY_TYPE_UI_PalWork": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_PalWork_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "CATEGORY_TYPE_UI_PalBreeding": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_PalBreeding_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "CATEGORY_TYPE_UI_PalOther": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_PalOther_TextData",
+          "SourceString": "Otros Pals",
+          "LocalizedString": "Otros Pals"
+        }
+      },
+      "CATEGORY_TYPE_UI_Chest": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Chest_TextData",
+          "SourceString": "Cofres",
+          "LocalizedString": "Cofres"
+        }
+      },
+      "CATEGORY_TYPE_UI_StorageFurniture": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_StorageFurniture_TextData",
+          "SourceString": "Muebles de almacenamiento",
+          "LocalizedString": "Muebles de almacenamiento"
+        }
+      },
+      "CATEGORY_TYPE_UI_Cooking": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Cooking_TextData",
+          "SourceString": "Cocina",
+          "LocalizedString": "Cocina"
+        }
+      },
+      "CATEGORY_TYPE_UI_FeedBox": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_FeedBox_TextData",
+          "SourceString": "Comedero",
+          "LocalizedString": "Comedero"
+        }
+      },
+      "CATEGORY_TYPE_UI_Farm": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Farm_TextData",
+          "SourceString": "Plantaciones",
+          "LocalizedString": "Plantaciones"
+        }
+      },
+      "CATEGORY_TYPE_UI_Bed": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Bed_TextData",
+          "SourceString": "Cama (Edredón)",
+          "LocalizedString": "Cama (Edredón)"
+        }
+      },
+      "CATEGORY_TYPE_UI_GenerateElectricity": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_GenerateElectricity_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "CATEGORY_TYPE_UI_Electricity": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Electricity_TextData",
+          "SourceString": "Electricidad",
+          "LocalizedString": "Electricidad"
+        }
+      },
+      "CATEGORY_TYPE_UI_Spa": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Spa_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "CATEGORY_TYPE_UI_Health": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Health_TextData",
+          "SourceString": "Gestión de salud",
+          "LocalizedString": "Gestión de salud"
+        }
+      },
+      "CATEGORY_TYPE_UI_Freestanding": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Freestanding_TextData",
+          "SourceString": "De piso",
+          "LocalizedString": "De piso"
+        }
+      },
+      "CATEGORY_TYPE_UI_WallHanging": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_WallHanging_TextData",
+          "SourceString": "De pared",
+          "LocalizedString": "De pared"
+        }
+      },
+      "CATEGORY_TYPE_UI_Ceiling": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Ceiling_TextData",
+          "SourceString": "De techo",
+          "LocalizedString": "De techo"
+        }
+      },
+      "CATEGORY_TYPE_UI_Wood": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Wood_TextData",
+          "SourceString": "Madera",
+          "LocalizedString": "Madera"
+        }
+      },
+      "CATEGORY_TYPE_UI_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Stone_TextData",
+          "SourceString": "Piedra",
+          "LocalizedString": "Piedra"
+        }
+      },
+      "CATEGORY_TYPE_UI_Metal": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Metal_TextData",
+          "SourceString": "Metal",
+          "LocalizedString": "Metal"
+        }
+      },
+      "CATEGORY_TYPE_UI_Glass": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Glass_TextData",
+          "SourceString": "Vidrio",
+          "LocalizedString": "Vidrio"
+        }
+      },
+      "CATEGORY_TYPE_UI_JapaneseStyle": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_JapaneseStyle_TextData",
+          "SourceString": "Estilo japonés",
+          "LocalizedString": "Estilo japonés"
+        }
+      },
+      "CATEGORY_TYPE_UI_Clean": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Clean_TextData",
+          "SourceString": "Limpio",
+          "LocalizedString": "Limpio"
+        }
+      },
+      "CATEGORY_TYPE_UI_Trap": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Trap_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "CATEGORY_TYPE_UI_Interception": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Interception_TextData",
+          "SourceString": "Instalación de interceptación",
+          "LocalizedString": "Instalación de interceptación"
+        }
+      },
+      "CATEGORY_TYPE_UI_Barieer": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Barieer_TextData",
+          "SourceString": "Muralla defensiva",
+          "LocalizedString": "Muralla defensiva"
+        }
+      },
+      "CATEGORY_TYPE_UI_EfficiencEnhancement": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_EfficiencEnhancement_TextData",
+          "SourceString": "Mejora de eficiencia",
+          "LocalizedString": "Mejora de eficiencia"
+        }
+      },
+      "CATEGORY_TYPE_UI_SignBoard": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_SignBoard_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "CATEGORY_TYPE_UI_FleaMarket": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_FleaMarket_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "CATEGORY_TYPE_UI_Statue": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Statue_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "CATEGORY_TYPE_UI_Raid": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Raid_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "CATEGORY_TYPE_UI_Desk": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Desk_TextData",
+          "SourceString": "Escritorio",
+          "LocalizedString": "Escritorio"
+        }
+      },
+      "CATEGORY_TYPE_UI_Chair": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Chair_TextData",
+          "SourceString": "Silla",
+          "LocalizedString": "Silla"
+        }
+      },
+      "CATEGORY_TYPE_UI_Carpet": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Carpet_TextData",
+          "SourceString": "Alfombra (tapete)",
+          "LocalizedString": "Alfombra (tapete)"
+        }
+      },
+      "CATEGORY_TYPE_UI_WallDecoration": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_WallDecoration_TextData",
+          "SourceString": "Decoración de pared y techo",
+          "LocalizedString": "Decoración de pared y techo"
+        }
+      },
+      "CATEGORY_TYPE_UI_Houseplants": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Houseplants_TextData",
+          "SourceString": "Planta",
+          "LocalizedString": "Planta"
+        }
+      },
+      "CATEGORY_TYPE_UI_Flag": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Flag_TextData",
+          "SourceString": "Bandera",
+          "LocalizedString": "Bandera"
+        }
+      },
+      "CATEGORY_TYPE_UI_Ornament": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Ornament_TextData",
+          "SourceString": "Adorno",
+          "LocalizedString": "Adorno"
+        }
+      },
+      "CATEGORY_TYPE_UI_Other": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Other_TextData",
+          "SourceString": "Otros",
+          "LocalizedString": "Otros"
+        }
+      },
+      "CATEGORY_TYPE_UI_Ancient": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Ancient_TextData",
+          "SourceString": "Civilización antigua",
+          "LocalizedString": "Civilización antigua"
+        }
+      }
+    }
+  }
+]

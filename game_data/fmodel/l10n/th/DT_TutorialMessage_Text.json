@@ -1,0 +1,296 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_TutorialMessage_Text",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "TUTORIAL_SP_1": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_SP_1_TextData",
+          "SourceString": "เก็บไอเทมด้วยคีย์<keyGuideIcon id=|Interact_1|/>",
+          "LocalizedString": "เก็บไอเทมด้วยคีย์<keyGuideIcon id=|Interact_1|/>"
+        }
+      },
+      "TUTORIAL_ITEM_1": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_ITEM_1_TextData",
+          "SourceString": "เปิดเมนูปลูกสร้างด้วย<keyGuideIcon id=|OpenConstructionMenu|/>",
+          "LocalizedString": "เปิดเมนูปลูกสร้างด้วย<keyGuideIcon id=|OpenConstructionMenu|/>"
+        }
+      },
+      "TUTORIAL_ITEM_2": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_ITEM_2_TextData",
+          "SourceString": "ใช้<keyGuideIcon id=|ThrowObject|/>ขว้างสเฟียร์จับพาลกันเลย\r\nหากทำให้พาลอ่อนแอจะจับได้ง่ายขึ้น",
+          "LocalizedString": "ใช้<keyGuideIcon id=|ThrowObject|/>ขว้างสเฟียร์จับพาลกันเลย\r\nหากทำให้พาลอ่อนแอจะจับได้ง่ายขึ้น"
+        }
+      },
+      "TUTORIAL_ITEM_3": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_ITEM_3_TextData",
+          "SourceString": "กดปุ่ม<keyGuideIcon id=|OpenConstructionMenu|/>เปิดเมนูปลูกสร้าง\r\nแล้วทำกล่องพาลเพื่อสร้างฐาน",
+          "LocalizedString": "กดปุ่ม<keyGuideIcon id=|OpenConstructionMenu|/>เปิดเมนูปลูกสร้าง\r\nแล้วทำกล่องพาลเพื่อสร้างฐาน"
+        }
+      },
+      "TUTORIAL_ITEM_4": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_ITEM_4_TextData",
+          "SourceString": "ใช้ |ผลทักษะ| จากคลังกันเถอะ\r\nใช้แล้วจะสอนสกิลให้พาลได้",
+          "LocalizedString": "ใช้ |ผลทักษะ| จากคลังกันเถอะ\r\nใช้แล้วจะสอนสกิลให้พาลได้"
+        }
+      },
+      "TUTORIAL_ITEM_5": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_ITEM_5_TextData",
+          "SourceString": "สะสม<itemName id=|Relic|/>แล้วนำไปถวายให้<MapObjectName id=|BuildableGoddessStatue|/>\r\nจะเพิ่มโอกาสที่ผู้เล่นจะจับพาลสำเร็จ",
+          "LocalizedString": "สะสม<itemName id=|Relic|/>แล้วนำไปถวายให้<MapObjectName id=|BuildableGoddessStatue|/>\r\nจะเพิ่มโอกาสที่ผู้เล่นจะจับพาลสำเร็จ"
+        }
+      },
+      "TUTORIAL_ITEM_6": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_ITEM_6_TextData",
+          "SourceString": "กระโดดแล้วกดปุ่ม<keyGuideIcon id=|Jump|/>จะร่อนบนฟ้าได้",
+          "LocalizedString": "กระโดดแล้วกดปุ่ม<keyGuideIcon id=|Jump|/>จะร่อนบนฟ้าได้"
+        }
+      },
+      "TUTORIAL_ITEM_7": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_ITEM_7_TextData",
+          "SourceString": "สร้าง<MapObjectName id=|HatchingPalEgg|/>\r\nจะฟักไข่พาลได้",
+          "LocalizedString": "สร้าง<MapObjectName id=|HatchingPalEgg|/>\r\nจะฟักไข่พาลได้"
+        }
+      },
+      "TUTORIAL_RESPAWN_1": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_RESPAWN_1_TextData",
+          "SourceString": "เมื่อสร้างกล่องพาล\r\nผู้เล่นจะฟื้นคืนชีพได้จากจุดที่สร้างกล่องพาลไว้",
+          "LocalizedString": "เมื่อสร้างกล่องพาล\r\nผู้เล่นจะฟื้นคืนชีพได้จากจุดที่สร้างกล่องพาลไว้"
+        }
+      },
+      "TUTORIAL_RESPAWN_2": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_RESPAWN_2_TextData",
+          "SourceString": "มีพาลและไอเทมหลงเหลืออยู่ตรงจุดที่โดนเล่นงาน\r\nไปเก็บคืนก่อนจะโดนคนอื่นแย่งไปกันเถอะ",
+          "LocalizedString": "มีพาลและไอเทมหลงเหลืออยู่ตรงจุดที่โดนเล่นงาน\r\nไปเก็บคืนก่อนจะโดนคนอื่นแย่งไปกันเถอะ"
+        }
+      },
+      "TUTORIAL_INDIVIDUAL_1": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_INDIVIDUAL_1_TextData",
+          "SourceString": "ปลดล็อกสิ่งปลูกสร้าง หรือไอเทมใหม่ได้\r\nโดยใช้แต้มเทคโนโลยี",
+          "LocalizedString": "ปลดล็อกสิ่งปลูกสร้าง หรือไอเทมใหม่ได้\r\nโดยใช้แต้มเทคโนโลยี"
+        }
+      },
+      "TUTORIAL_INDIVIDUAL_2": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_INDIVIDUAL_2_TextData",
+          "SourceString": "เปิดคลังด้วย<keyGuideIcon id=|OpenCharacterMenu|/>\r\nเสริมพลังผู้เล่นได้โดยการใช้แต้มสเตตัส",
+          "LocalizedString": "เปิดคลังด้วย<keyGuideIcon id=|OpenCharacterMenu|/>\r\nเสริมพลังผู้เล่นได้โดยการใช้แต้มสเตตัส"
+        }
+      },
+      "TUTORIAL_INDIVIDUAL_3": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_INDIVIDUAL_3_TextData",
+          "SourceString": "หากหิว ค่าพารามิเตอร์จะลดลง\r\nทำอาหารได้โดยใช้ไอเทมจากคลัง",
+          "LocalizedString": "หากหิว ค่าพารามิเตอร์จะลดลง\r\nทำอาหารได้โดยใช้ไอเทมจากคลัง"
+        }
+      },
+      "TUTORIAL_INDIVIDUAL_4": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_INDIVIDUAL_4_TextData",
+          "SourceString": "หากพาลหิว ค่าพารามิเตอร์จะลดลง\r\nใช้ไอเทมจากคลังมาให้อาหารพาลเถอะ",
+          "LocalizedString": "หากพาลหิว ค่าพารามิเตอร์จะลดลง\r\nใช้ไอเทมจากคลังมาให้อาหารพาลเถอะ"
+        }
+      },
+      "TUTORIAL_INDIVIDUAL_5": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_INDIVIDUAL_5_TextData",
+          "SourceString": "หากค่า SAN ของพาลลดลง พาลจะอู้งาน หรือป่วยได้\r\nให้พาลกินอาหารดี ๆ หรือสร้างบ่อน้ำพุร้อนให้พาลเถอะ พาลจะได้ฟื้นพลัง",
+          "LocalizedString": "หากค่า SAN ของพาลลดลง พาลจะอู้งาน หรือป่วยได้\r\nให้พาลกินอาหารดี ๆ หรือสร้างบ่อน้ำพุร้อนให้พาลเถอะ พาลจะได้ฟื้นพลัง"
+        }
+      },
+      "TUTORIAL_INDIVIDUAL_6": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_INDIVIDUAL_6_TextData",
+          "SourceString": "พาลป่วยซะแล้ว\r\nทำยาจากโต๊ะผลิตยามารักษาพาลเถอะ",
+          "LocalizedString": "พาลป่วยซะแล้ว\r\nทำยาจากโต๊ะผลิตยามารักษาพาลเถอะ"
+        }
+      },
+      "TUTORIAL_INDIVIDUAL_7": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_INDIVIDUAL_7_TextData",
+          "SourceString": "เมื่อพาลทำงาน ค่า SAN จะลดลง และพาลจะอู้งาน\r\nสร้างบ่อน้ำพุร้อนกันเถอะ พาลจะได้กลับมาทำงานเร็วขึ้น",
+          "LocalizedString": "เมื่อพาลทำงาน ค่า SAN จะลดลง และพาลจะอู้งาน\r\nสร้างบ่อน้ำพุร้อนกันเถอะ พาลจะได้กลับมาทำงานเร็วขึ้น"
+        }
+      },
+      "TUTORIAL_CAPTURE_1": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_CAPTURE_1_TextData",
+          "SourceString": "หากลด<uiCommon id=|COMMON_STATUS_HP|/>ของพาลป่า จะจับได้ง่ายขึ้น\r\nหากเผลอปราบพาล จะจับพาลตัวนั้นไม่ได้",
+          "LocalizedString": "หากลด<uiCommon id=|COMMON_STATUS_HP|/>ของพาลป่า จะจับได้ง่ายขึ้น\r\nหากเผลอปราบพาล จะจับพาลตัวนั้นไม่ได้"
+        }
+      },
+      "TUTORIAL_CAPTURE_2": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_CAPTURE_2_TextData",
+          "SourceString": "กดปุ่ม<keyGuideIcon id=|ThrowPal|/>เพื่ออัญเชิญพาลที่ได้จับไว้ออกมา",
+          "LocalizedString": "กดปุ่ม<keyGuideIcon id=|ThrowPal|/>เพื่ออัญเชิญพาลที่ได้จับไว้ออกมา"
+        }
+      },
+      "TUTORIAL_CAPTURE_3": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_CAPTURE_3_TextData",
+          "SourceString": "หากจับพาลชนิดใหม่ได้ จะได้รับค่าประสบการณ์ปริมาณมาก\r\nไปยังพื้นที่ใหม่ ๆ เพื่อตามหาพาลที่ไม่เคยเห็นกันเถอะ",
+          "LocalizedString": "หากจับพาลชนิดใหม่ได้ จะได้รับค่าประสบการณ์ปริมาณมาก\r\nไปยังพื้นที่ใหม่ ๆ เพื่อตามหาพาลที่ไม่เคยเห็นกันเถอะ"
+        }
+      },
+      "TUTORIAL_CAPTURE_4": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_CAPTURE_4_TextData",
+          "SourceString": "แม้จะเป็นพาลที่เคยจับแล้ว แต่ก็ยังได้รับค่าประสบการณ์โบนัส\r\nจนกว่าจะจับครบ 5 ตัว",
+          "LocalizedString": "แม้จะเป็นพาลที่เคยจับแล้ว แต่ก็ยังได้รับค่าประสบการณ์โบนัส\r\nจนกว่าจะจับครบ 5 ตัว"
+        }
+      },
+      "TUTORIAL_CAPTURE_5": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_CAPTURE_5_TextData",
+          "SourceString": "นำพาลติดตัวได้ครั้งละไม่เกิน 5 ตัว\r\nหากจับเกินกว่านั้นจะส่งไปยังกล่องพาลโดยอัตโนมัติ",
+          "LocalizedString": "นำพาลติดตัวได้ครั้งละไม่เกิน 5 ตัว\r\nหากจับเกินกว่านั้นจะส่งไปยังกล่องพาลโดยอัตโนมัติ"
+        }
+      },
+      "TUTORIAL_CAPTURE_6": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_CAPTURE_6_TextData",
+          "SourceString": "จับพาลนำโชคได้แล้ว!\r\nดูเหมือนจะมีสกิลพิเศษด้วยนะ",
+          "LocalizedString": "จับพาลนำโชคได้แล้ว!\r\nดูเหมือนจะมีสกิลพิเศษด้วยนะ"
+        }
+      },
+      "TUTORIAL_CAPTURE_7": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_CAPTURE_7_TextData",
+          "SourceString": "เมื่อสร้างกล่องพาล\r\nจะเรียกพาลที่จับไว้ออกมาข้างนอกได้",
+          "LocalizedString": "เมื่อสร้างกล่องพาล\r\nจะเรียกพาลที่จับไว้ออกมาข้างนอกได้"
+        }
+      },
+      "TUTORIAL_CAPTURE_8": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_CAPTURE_8_TextData",
+          "SourceString": "หากพาลเลเวลสูงกว่าตัวเอง จะใช้งานได้ไม่เต็มความสามารถ!\r\nความสามารถของพาลจะลดลงมาเท่ากับเลเวลของผู้เล่น",
+          "LocalizedString": "หากพาลเลเวลสูงกว่าตัวเอง จะใช้งานได้ไม่เต็มความสามารถ!\r\nความสามารถของพาลจะลดลงมาเท่ากับเลเวลของผู้เล่น"
+        }
+      },
+      "TUTORIAL_COMMON_1": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_1_TextData",
+          "SourceString": "หากถือของหนักเกินไป จะขยับไม่ได้\r\nเพิ่มปริมาณความจุได้โดยใช้แต้มสเตตัส",
+          "LocalizedString": "หากถือของหนักเกินไป จะขยับไม่ได้\r\nเพิ่มปริมาณความจุได้โดยใช้แต้มสเตตัส"
+        }
+      },
+      "TUTORIAL_COMMON_2": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_2_TextData",
+          "SourceString": "คบเพลิงพกพาช่วยส่องสว่างบริเวณโดยรอบ และป้องกันความหนาวเย็น\r\nสร้างได้จากโต๊ะทำงาน",
+          "LocalizedString": "คบเพลิงพกพาช่วยส่องสว่างบริเวณโดยรอบ และป้องกันความหนาวเย็น\r\nสร้างได้จากโต๊ะทำงาน"
+        }
+      },
+      "TUTORIAL_COMMON_3": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_3_TextData",
+          "SourceString": "พาลโดนเล่นงานซะแล้ว!\r\nหากฝากพาลไว้ที่กล่องพาลจะรักษาสถานะ |<uiCommon id=|COMMON_CONDITION_NAME_Dying|/>| ได้",
+          "LocalizedString": "พาลโดนเล่นงานซะแล้ว!\r\nหากฝากพาลไว้ที่กล่องพาลจะรักษาสถานะ |<uiCommon id=|COMMON_CONDITION_NAME_Dying|/>| ได้"
+        }
+      },
+      "TUTORIAL_COMMON_4": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_4_TextData",
+          "SourceString": "หากปล่อยพาลออกมาที่ฐาน\r\nพาลจะหางานที่มันทำได้ และเริ่มทำงานโดยอัตโนมัติ",
+          "LocalizedString": "หากปล่อยพาลออกมาที่ฐาน\r\nพาลจะหางานที่มันทำได้ และเริ่มทำงานโดยอัตโนมัติ"
+        }
+      },
+      "TUTORIAL_COMMON_5": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_5_TextData",
+          "SourceString": "หากนำพาลจากกล่องพาลออกมาที่ฐาน\r\nพาลตัวนั้นจะช่วยงานที่มันถนัด",
+          "LocalizedString": "หากนำพาลจากกล่องพาลออกมาที่ฐาน\r\nพาลตัวนั้นจะช่วยงานที่มันถนัด"
+        }
+      },
+      "TUTORIAL_COMMON_6": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_6_TextData",
+          "SourceString": "ใส่สกิลใช้งานให้พาลได้แค่ 3 สกิลเท่านั้น\r\nเปลี่ยนเป็นสกิลใหม่ได้ที่เมนู<uiCommon id=|INGAME_MAIN_MENU_PAL|/>",
+          "LocalizedString": "ใส่สกิลใช้งานให้พาลได้แค่ 3 สกิลเท่านั้น\r\nเปลี่ยนเป็นสกิลใหม่ได้ที่เมนู<uiCommon id=|INGAME_MAIN_MENU_PAL|/>"
+        }
+      },
+      "TUTORIAL_COMMON_7": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_7_TextData",
+          "SourceString": "พาลป่าดุร้าย สู้ด้วยมือเปล่าเอาชนะได้ยาก\r\nสร้างโต๊ะทำงานแล้วประกอบอาวุธกันเถอะ",
+          "LocalizedString": "พาลป่าดุร้าย สู้ด้วยมือเปล่าเอาชนะได้ยาก\r\nสร้างโต๊ะทำงานแล้วประกอบอาวุธกันเถอะ"
+        }
+      },
+      "TUTORIAL_COMMON_8": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_8_TextData",
+          "SourceString": "ได้รับบันทึกของนักผจญภัยคนอื่น\r\nตรวจสอบเส้นทางการเดินทางของพวกเขาได้จากหน้าต่างออปชั่น",
+          "LocalizedString": "ได้รับบันทึกของนักผจญภัยคนอื่น\r\nตรวจสอบเส้นทางการเดินทางของพวกเขาได้จากหน้าต่างออปชั่น"
+        }
+      },
+      "TUTORIAL_COMMON_9": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_9_TextData",
+          "SourceString": "อาวุธบางชนิดสามารถเปลี่ยนกระสุนได้\r\nโดยกดค้าง<keyGuideIcon id=|Reload|/>",
+          "LocalizedString": "อาวุธบางชนิดสามารถเปลี่ยนกระสุนได้\r\nโดยกดค้าง<keyGuideIcon id=|Reload|/>"
+        }
+      },
+      "TUTORIAL_COMMON_9_GamePad": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_9_GamePad_TextData",
+          "SourceString": "อาวุธบางชนิดสามารถเปลี่ยนกระสุนได้\r\nโดยกดค้าง<keyGuideIcon id=|ChangeWeaponNext_GamePad|/>",
+          "LocalizedString": "อาวุธบางชนิดสามารถเปลี่ยนกระสุนได้\r\nโดยกดค้าง<keyGuideIcon id=|ChangeWeaponNext_GamePad|/>"
+        }
+      }
+    }
+  }
+]

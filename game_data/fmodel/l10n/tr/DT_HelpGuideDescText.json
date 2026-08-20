@@ -1,0 +1,392 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_HelpGuideDescText",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "Help_1": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_1_TextData",
+          "SourceString": "Kontroller (Klavye)\r\n\r\nFareyle Kamera Kontrolleri\r\n<keyGuideIcon id=|W_ForHelp|/><keyGuideIcon id=|A_ForHelp|/><keyGuideIcon id=|S_ForHelp|/><keyGuideIcon id=|D_ForHelp|/> Hareket\r\n<keyGuideIcon id=|ThrowPal| OverrideType=|1|/> Pal Çağır\r\n<keyGuideIcon id=|ThrowObject| OverrideType=|1|/> Küre Fırlat\r\n<keyGuideIcon id=|OpenConstructionMenu| OverrideType=|1|/> İnşa Menüsü\r\n<keyGuideIcon id=|Jump| OverrideType=|1|/> Zıpla\r\n<keyGuideIcon id=|WeaponReady| OverrideType=|1|/> Nişan Al\r\n<keyGuideIcon id=|WeaponUse| OverrideType=|1|/> Saldır\r\n<keyGuideIcon id=|Coop| OverrideType=|1|/> Partner Yeteneği\r\n<keyGuideIcon id=|Reload| OverrideType=|1|/> Şarjör Değiştir\r\n<keyGuideIcon id=|ChangeWeaponNext| OverrideType=|1|/><keyGuideIcon id=|ChangeWeaponPrev| OverrideType=|1|/> Silah Değiştir\r\n<keyGuideIcon id=|Crouch| OverrideType=|1|/> Çömel\r\n<keyGuideIcon id=|Rolling| OverrideType=|1|/> Yuvarlan\r\n<keyGuideIcon id=|Dash| OverrideType=|1|/> Depar\r\n<keyGuideIcon id=|PartnerPalInstructions| OverrideType=|1|/> Pal Komutları\r\n<keyGuideIcon id=|OtomoChangeIncrement| OverrideType=|1|/><keyGuideIcon id=|OtomoChangeDecrement| OverrideType=|1|/> Pal Değiştir\r\n<keyGuideIcon id=|SphereChange| OverrideType=|1|/> Küre Değiştir",
+          "LocalizedString": "Kontroller (Klavye)\r\n\r\nFareyle Kamera Kontrolleri\r\n<keyGuideIcon id=|W_ForHelp|/><keyGuideIcon id=|A_ForHelp|/><keyGuideIcon id=|S_ForHelp|/><keyGuideIcon id=|D_ForHelp|/> Hareket\r\n<keyGuideIcon id=|ThrowPal| OverrideType=|1|/> Pal Çağır\r\n<keyGuideIcon id=|ThrowObject| OverrideType=|1|/> Küre Fırlat\r\n<keyGuideIcon id=|OpenConstructionMenu| OverrideType=|1|/> İnşa Menüsü\r\n<keyGuideIcon id=|Jump| OverrideType=|1|/> Zıpla\r\n<keyGuideIcon id=|WeaponReady| OverrideType=|1|/> Nişan Al\r\n<keyGuideIcon id=|WeaponUse| OverrideType=|1|/> Saldır\r\n<keyGuideIcon id=|Coop| OverrideType=|1|/> Partner Yeteneği\r\n<keyGuideIcon id=|Reload| OverrideType=|1|/> Şarjör Değiştir\r\n<keyGuideIcon id=|ChangeWeaponNext| OverrideType=|1|/><keyGuideIcon id=|ChangeWeaponPrev| OverrideType=|1|/> Silah Değiştir\r\n<keyGuideIcon id=|Crouch| OverrideType=|1|/> Çömel\r\n<keyGuideIcon id=|Rolling| OverrideType=|1|/> Yuvarlan\r\n<keyGuideIcon id=|Dash| OverrideType=|1|/> Depar\r\n<keyGuideIcon id=|PartnerPalInstructions| OverrideType=|1|/> Pal Komutları\r\n<keyGuideIcon id=|OtomoChangeIncrement| OverrideType=|1|/><keyGuideIcon id=|OtomoChangeDecrement| OverrideType=|1|/> Pal Değiştir\r\n<keyGuideIcon id=|SphereChange| OverrideType=|1|/> Küre Değiştir"
+        }
+      },
+      "Help_2": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_2_TextData",
+          "SourceString": "Kontroller (Kumanda)\r\n\r\nSol Çubuk Hareket\r\nSağ Çubuk Kamera Kontrolleri\r\n<keyGuideIcon id=|ThrowPal| OverrideType=|2|/> Pal Çağır\r\n<keyGuideIcon id=|ThrowObject| OverrideType=|2|/> Küre Fırlat\r\n<keyGuideIcon id=|OpenConstructionMenu| OverrideType=|2|/> İnşa Menüsü\r\n<keyGuideIcon id=|Jump| OverrideType=|2|/> Zıpla\r\n<keyGuideIcon id=|WeaponReady| OverrideType=|2|/> Nişan Al\r\n<keyGuideIcon id=|WeaponUse| OverrideType=|2|/> Saldır\r\n<keyGuideIcon id=|ReloadAndCoop| OverrideType=|2|/> Partner Yeteneği\r\n<keyGuideIcon id=|ChangeWeaponNext_GamePad| OverrideType=|2|/> Silah Değiştir\r\n<keyGuideIcon id=|RollingAndCrouch| OverrideType=|2|/> Çömel/Yuvarlan\r\n<keyGuideIcon id=|DashController| OverrideType=|2|/> Depar\r\n<keyGuideIcon id=|PartnerPalInstructions| OverrideType=|2|/> Pal Komutları\r\n<keyGuideIcon id=|OtomoChangeIncrement| OverrideType=|2|/><keyGuideIcon id=|OtomoChangeDecrement| OverrideType=|2|/> Pal Değiştir\r\n<keyGuideIcon id=|SphereChange| OverrideType=|2|/> Küre Değiştir",
+          "LocalizedString": "Kontroller (Kumanda)\r\n\r\nSol Çubuk Hareket\r\nSağ Çubuk Kamera Kontrolleri\r\n<keyGuideIcon id=|ThrowPal| OverrideType=|2|/> Pal Çağır\r\n<keyGuideIcon id=|ThrowObject| OverrideType=|2|/> Küre Fırlat\r\n<keyGuideIcon id=|OpenConstructionMenu| OverrideType=|2|/> İnşa Menüsü\r\n<keyGuideIcon id=|Jump| OverrideType=|2|/> Zıpla\r\n<keyGuideIcon id=|WeaponReady| OverrideType=|2|/> Nişan Al\r\n<keyGuideIcon id=|WeaponUse| OverrideType=|2|/> Saldır\r\n<keyGuideIcon id=|ReloadAndCoop| OverrideType=|2|/> Partner Yeteneği\r\n<keyGuideIcon id=|ChangeWeaponNext_GamePad| OverrideType=|2|/> Silah Değiştir\r\n<keyGuideIcon id=|RollingAndCrouch| OverrideType=|2|/> Çömel/Yuvarlan\r\n<keyGuideIcon id=|DashController| OverrideType=|2|/> Depar\r\n<keyGuideIcon id=|PartnerPalInstructions| OverrideType=|2|/> Pal Komutları\r\n<keyGuideIcon id=|OtomoChangeIncrement| OverrideType=|2|/><keyGuideIcon id=|OtomoChangeDecrement| OverrideType=|2|/> Pal Değiştir\r\n<keyGuideIcon id=|SphereChange| OverrideType=|2|/> Küre Değiştir"
+        }
+      },
+      "Help_3": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_3_TextData",
+          "SourceString": "Oyun Amacı\r\n\r\nGizemli bir diyarın sırlarını açığa çıkarırken yoluna çıkan bilinmeyen güçlere meydan oku. \r\nHer bir bölgedeki kulenin kontrolünü elinde tutan boss'ları yen ve Pal'ların kökeninin ardındaki gerçeği ortaya çıkarmaya çalış.\r\n\r\nSağlam üsler inşa et, mümkün olan en güçlü Pal'ları yakalamaya çalış veya Pal'larını çiftleştirerek en güçlüleri yetiştir! \r\nBu yeni dünyada Pal'larınla birlikte benzersiz bir maceraya atıl!",
+          "LocalizedString": "Oyun Amacı\r\n\r\nGizemli bir diyarın sırlarını açığa çıkarırken yoluna çıkan bilinmeyen güçlere meydan oku. \r\nHer bir bölgedeki kulenin kontrolünü elinde tutan boss'ları yen ve Pal'ların kökeninin ardındaki gerçeği ortaya çıkarmaya çalış.\r\n\r\nSağlam üsler inşa et, mümkün olan en güçlü Pal'ları yakalamaya çalış veya Pal'larını çiftleştirerek en güçlüleri yetiştir! \r\nBu yeni dünyada Pal'larınla birlikte benzersiz bir maceraya atıl!"
+        }
+      },
+      "Help_4": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_4_TextData",
+          "SourceString": "Önce ne yapmalıyım?\r\n\r\nÖnce odun ve taş toplamak amacıyla düşmüş dalları ve çakıl taşlarını al.\r\nAyrıca büyük ağaçları ve kayaları çıplak ellerinle yumruklayarak da odun ve taş toplayabilirsin.\r\nBir çalışma tezgâhı inşa et, kaynakları daha verimli şekilde toplayabilmek için bir balta ve bir kazma üret.\r\n\r\nYeteri kadar malzeme topladıktan sonra üssünü inşa etmek için bir yer seç ve bir |Pal Kutusu| inşa et.\r\nBir |Pal Kutusu| yerleştirdiğin yer üssün hâline gelir.\r\n\r\nSeviyen arttıkça silahlar yap ve bir |Pal Küresi| üret, ardından güçten düşürdüğün vahşi Pal'ları yakalamaya başla.\r\n\r\nYanına aldığın Pal'lar çatışmalarda müttefikin olabilir, üssüne yerleştirilmeleri hâlinde iş yapabilir.\r\n\r\nGeceleri tehlikeli olabilir. Bir |kamp ateşi|, bir |meşale| ve bir |yatak| yaparak ilk gecene hazırlan.",
+          "LocalizedString": "Önce ne yapmalıyım?\r\n\r\nÖnce odun ve taş toplamak amacıyla düşmüş dalları ve çakıl taşlarını al.\r\nAyrıca büyük ağaçları ve kayaları çıplak ellerinle yumruklayarak da odun ve taş toplayabilirsin.\r\nBir çalışma tezgâhı inşa et, kaynakları daha verimli şekilde toplayabilmek için bir balta ve bir kazma üret.\r\n\r\nYeteri kadar malzeme topladıktan sonra üssünü inşa etmek için bir yer seç ve bir |Pal Kutusu| inşa et.\r\nBir |Pal Kutusu| yerleştirdiğin yer üssün hâline gelir.\r\n\r\nSeviyen arttıkça silahlar yap ve bir |Pal Küresi| üret, ardından güçten düşürdüğün vahşi Pal'ları yakalamaya başla.\r\n\r\nYanına aldığın Pal'lar çatışmalarda müttefikin olabilir, üssüne yerleştirilmeleri hâlinde iş yapabilir.\r\n\r\nGeceleri tehlikeli olabilir. Bir |kamp ateşi|, bir |meşale| ve bir |yatak| yaparak ilk gecene hazırlan."
+        }
+      },
+      "Help_5": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_5_TextData",
+          "SourceString": "Pal'lar\r\n\r\nPal'lar bu bölgede yaşayan gizemli yaratıklardır.\r\nBirini bir küreyle yakaladıktan sonra yoldaşın hâline getirebilirsin.\r\n<keyGuideIcon id=|ThrowPal|/> tuşuna basarak Pal'larını küreden çıkarabilirsin.\r\n\r\nTek seferde yanında sadece 5 Pal taşıyabilirsin. Daha fazlasını yakalarsan bunlar otomatik olarak Pal Kutuna gönderilir. (Eğer bir Pal Kutun yoksa bir tane inşa edip Pal'larını geri alabilirsin.)",
+          "LocalizedString": "Pal'lar\r\n\r\nPal'lar bu bölgede yaşayan gizemli yaratıklardır.\r\nBirini bir küreyle yakaladıktan sonra yoldaşın hâline getirebilirsin.\r\n<keyGuideIcon id=|ThrowPal|/> tuşuna basarak Pal'larını küreden çıkarabilirsin.\r\n\r\nTek seferde yanında sadece 5 Pal taşıyabilirsin. Daha fazlasını yakalarsan bunlar otomatik olarak Pal Kutuna gönderilir. (Eğer bir Pal Kutun yoksa bir tane inşa edip Pal'larını geri alabilirsin.)"
+        }
+      },
+      "Help_6": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_6_TextData",
+          "SourceString": "Gösterge Paneli.\r\n\r\nSol alt köşede Pal'larını, Canını ve Açlığını görebilirsin.\r\nMevcut hava sıcaklığı da gösterilir. Aşırı yüksek veya aşırı düşük sıcaklıklar sana zarar verebilir.\r\nSağ altta ise kuşandığın küreyi ve silahı, ayrıca kalan cephaneni görebilirsin.",
+          "LocalizedString": "Gösterge Paneli.\r\n\r\nSol alt köşede Pal'larını, Canını ve Açlığını görebilirsin.\r\nMevcut hava sıcaklığı da gösterilir. Aşırı yüksek veya aşırı düşük sıcaklıklar sana zarar verebilir.\r\nSağ altta ise kuşandığın küreyi ve silahı, ayrıca kalan cephaneni görebilirsin."
+        }
+      },
+      "Help_7": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_7_TextData",
+          "SourceString": "Eşyalar Almak\r\n\r\nDüşen eşyaları almak için <keyGuideIcon id=|Interact_1|/> tuşuna bas.\r\nAğaçları veya kayaları bir balta veya kazma ile yok ederek de malzeme toplayabilirsin.\r\nPal'lar da yenildiklerinde eşya düşürür.",
+          "LocalizedString": "Eşyalar Almak\r\n\r\nDüşen eşyaları almak için <keyGuideIcon id=|Interact_1|/> tuşuna bas.\r\nAğaçları veya kayaları bir balta veya kazma ile yok ederek de malzeme toplayabilirsin.\r\nPal'lar da yenildiklerinde eşya düşürür."
+        }
+      },
+      "Help_8": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_8_TextData",
+          "SourceString": "İnşa Etme\r\n\r\n<keyGuideIcon id=|OpenConstructionMenu|/> tuşuna basarak inşaat menüsünü açıp bir şeyler inşa etmeye başlayabilirsin.\r\nİstediğin inşaat konumunu menüden seçebilir ve <keyGuideIcon id=|Interact_1|/> tuşunu basılı tutarak inşa etmeye başlayabilirsin.\r\nEğer Grubunda veya Üssünde Pal'lar varsa inşaata yardım ederler.",
+          "LocalizedString": "İnşa Etme\r\n\r\n<keyGuideIcon id=|OpenConstructionMenu|/> tuşuna basarak inşaat menüsünü açıp bir şeyler inşa etmeye başlayabilirsin.\r\nİstediğin inşaat konumunu menüden seçebilir ve <keyGuideIcon id=|Interact_1|/> tuşunu basılı tutarak inşa etmeye başlayabilirsin.\r\nEğer Grubunda veya Üssünde Pal'lar varsa inşaata yardım ederler."
+        }
+      },
+      "Help_9": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_9_TextData",
+          "SourceString": "Üretim\r\n\r\nÇalışma tezgâhları ve ilgili diğer araçları inşa edip onlarla etkileşime geçerek eşyalar üretebilirsin.\r\nTeknoloji Puanlarını kullanarak yeni tarifler açabilirsin. Farklı üretim araçları inşa ederek yeni eşyalar üretebilirsin.",
+          "LocalizedString": "Üretim\r\n\r\nÇalışma tezgâhları ve ilgili diğer araçları inşa edip onlarla etkileşime geçerek eşyalar üretebilirsin.\r\nTeknoloji Puanlarını kullanarak yeni tarifler açabilirsin. Farklı üretim araçları inşa ederek yeni eşyalar üretebilirsin."
+        }
+      },
+      "Help_10": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_10_TextData",
+          "SourceString": "Teknoloji\r\n\r\nMenüdeki Teknoloji sekmesinden Teknoloji Puanlarını kullanarak yeni bina ve eşya tarifleri açabilirsin.\r\nSeviye atlayarak veya Büyük Kartal Heykelleri gibi diğer yöntemlerle Teknoloji Puanları kazanabilirsin.",
+          "LocalizedString": "Teknoloji\r\n\r\nMenüdeki Teknoloji sekmesinden Teknoloji Puanlarını kullanarak yeni bina ve eşya tarifleri açabilirsin.\r\nSeviye atlayarak veya Büyük Kartal Heykelleri gibi diğer yöntemlerle Teknoloji Puanları kazanabilirsin."
+        }
+      },
+      "Help_11": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_11_TextData",
+          "SourceString": "Kadim Teknoloji\r\n\r\nGüçlü düşmanları yendiğinde Kadim Teknoloji Puanları elde edebilirsin.\r\nBu puanları harcayarak Kadim Teknoloji kullanan nesneleri açabilirsin.\r\n\r\nKadim Teknoloji, kayıp bir medeniyetin çoğu zaman etkileyici ve benzersiz etkilere sahip\r\nileri bilgilerini temsil eder.",
+          "LocalizedString": "Kadim Teknoloji\r\n\r\nGüçlü düşmanları yendiğinde Kadim Teknoloji Puanları elde edebilirsin.\r\nBu puanları harcayarak Kadim Teknoloji kullanan nesneleri açabilirsin.\r\n\r\nKadim Teknoloji, kayıp bir medeniyetin çoğu zaman etkileyici ve benzersiz etkilere sahip\r\nileri bilgilerini temsil eder."
+        }
+      },
+      "Help_12": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_12_TextData",
+          "SourceString": "Seviye Atlamak\r\n\r\nYeterli DNY kazandığında Pal'larınla birlikte seviye atlarsın.\r\nPal'ları yenerek veya yakalayarak DNY kazanabilirsin.\r\nEk olarak, bir şeyler inşa ederken veya üretirken yaptığın işe bağlı olarak deneyim puanları kazanabilirsin.\r\n\r\nBir Pal'ın seviyesi senin seviyenden yüksekse Pal'ı iyi yönetemeyebilirsin. Bu yüzden Pal'ın performansı oyuncuyla aynı seviyeye düşer. \r\nBu performans düşüşüne Seviye Senkronizasyonu da denir.",
+          "LocalizedString": "Seviye Atlamak\r\n\r\nYeterli DNY kazandığında Pal'larınla birlikte seviye atlarsın.\r\nPal'ları yenerek veya yakalayarak DNY kazanabilirsin.\r\nEk olarak, bir şeyler inşa ederken veya üretirken yaptığın işe bağlı olarak deneyim puanları kazanabilirsin.\r\n\r\nBir Pal'ın seviyesi senin seviyenden yüksekse Pal'ı iyi yönetemeyebilirsin. Bu yüzden Pal'ın performansı oyuncuyla aynı seviyeye düşer. \r\nBu performans düşüşüne Seviye Senkronizasyonu da denir."
+        }
+      },
+      "Help_13": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_13_TextData",
+          "SourceString": "Oyuncu İstatistik Geliştirmesi\r\n\r\nMenüdeki Envanter sekmesinden İstatistik Puanlarını dağıtarak\r\nkarakterinin istatistiklerini artırabilirsin.\r\nİstatistik Puanları kazanmak için karakterine seviye atlat.",
+          "LocalizedString": "Oyuncu İstatistik Geliştirmesi\r\n\r\nMenüdeki Envanter sekmesinden İstatistik Puanlarını dağıtarak\r\nkarakterinin istatistiklerini artırabilirsin.\r\nİstatistik Puanları kazanmak için karakterine seviye atlat."
+        }
+      },
+      "Help_14": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_14_TextData",
+          "SourceString": "Üs\r\n\r\nBir Pal Kutusu inşa etmek çevredeki bölgeyi üssün hâline getirir.\r\nPal Kutusu ile etkileşime geçmek Pal'larını üssüne çağırmana olanak tanır. \r\nPal'ların böylece İş Uygunluklarına göre görevleri yerine getirir.\r\n\r\nÜssün içinde binalar inşa ederek Pal'ların senin için çalışmasını sağlayabilirsin.\r\nÜsteki Pal'lar düşmanlardan gelecek tehditlere açık olacağı için dikkatli ol.",
+          "LocalizedString": "Üs\r\n\r\nBir Pal Kutusu inşa etmek çevredeki bölgeyi üssün hâline getirir.\r\nPal Kutusu ile etkileşime geçmek Pal'larını üssüne çağırmana olanak tanır. \r\nPal'ların böylece İş Uygunluklarına göre görevleri yerine getirir.\r\n\r\nÜssün içinde binalar inşa ederek Pal'ların senin için çalışmasını sağlayabilirsin.\r\nÜsteki Pal'lar düşmanlardan gelecek tehditlere açık olacağı için dikkatli ol."
+        }
+      },
+      "Help_15": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_15_TextData",
+          "SourceString": "Pal Box\r\n\r\nPal Box merkezli belirli bir alan, ait olduğunuz loncanın üs bölgesi olur ve bu alan üzerindeki yapılar o loncanın mülkü sayılır.\r\nBox ile etkileşime geçerek kontrol edilebilen “üs görevleri”ni tamamladığınızda loncanızın üssü gelişir ve üsse çağırabileceğiniz Pal sayısı artar.\r\n\r\nBox’a Pal koyduğunuzda, Pal’lar Box içinde dinlenerek iyileşir.\r\nÖlümcül derecede yaralanmış olsalar bile zamanla iyileşirler.\r\n\r\nPal Box, hızlı seyahat özelliğine sahiptir ve yolculuk sırasında kilidini açtığınız Büyük Kartal Heykelleri’ne ışınlanmanızı sağlar.\r\n※ Dünya ayarlarında hızlı seyahat devre dışı bırakılmışsa, hızlı seyahat kullanılamaz.",
+          "LocalizedString": "Pal Box\r\n\r\nPal Box merkezli belirli bir alan, ait olduğunuz loncanın üs bölgesi olur ve bu alan üzerindeki yapılar o loncanın mülkü sayılır.\r\nBox ile etkileşime geçerek kontrol edilebilen “üs görevleri”ni tamamladığınızda loncanızın üssü gelişir ve üsse çağırabileceğiniz Pal sayısı artar.\r\n\r\nBox’a Pal koyduğunuzda, Pal’lar Box içinde dinlenerek iyileşir.\r\nÖlümcül derecede yaralanmış olsalar bile zamanla iyileşirler.\r\n\r\nPal Box, hızlı seyahat özelliğine sahiptir ve yolculuk sırasında kilidini açtığınız Büyük Kartal Heykelleri’ne ışınlanmanızı sağlar.\r\n※ Dünya ayarlarında hızlı seyahat devre dışı bırakılmışsa, hızlı seyahat kullanılamaz."
+        }
+      },
+      "Help_16": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_16_TextData",
+          "SourceString": "Pal'ları Yakalamak\r\n\r\nBir Pal'a Pal Küresi fırlatıp onu yakalamaya çalışmak için <keyGuideIcon id=|ThrowObject|/> tuşuna bas.\r\nYakalama şansını artırmak için Pal'ın Canını azalt; ona durum etkileri uygula veya Pal'ı bir tuzağa çek.\r\nAyrıca bir Pal'a gizlice yaklaşıp arkasından bir Küre fırlatırsan da yakalama şansını artırırsın.\r\nDaha güçlü Pal'ları yakalamak için daha güçlü Küreler üret.",
+          "LocalizedString": "Pal'ları Yakalamak\r\n\r\nBir Pal'a Pal Küresi fırlatıp onu yakalamaya çalışmak için <keyGuideIcon id=|ThrowObject|/> tuşuna bas.\r\nYakalama şansını artırmak için Pal'ın Canını azalt; ona durum etkileri uygula veya Pal'ı bir tuzağa çek.\r\nAyrıca bir Pal'a gizlice yaklaşıp arkasından bir Küre fırlatırsan da yakalama şansını artırırsın.\r\nDaha güçlü Pal'ları yakalamak için daha güçlü Küreler üret."
+        }
+      },
+      "Help_17": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_17_TextData",
+          "SourceString": "Grubundaki Pal'lar\r\n\r\nTek seferde en fazla 5 Pal taşıyabilirsin. Daha fazlasını yakalarsan bu Pal'lar otomatik olarak Pal Kutusuna gönderilirler.\r\nEn fazla 5 Pal'dan oluşan bu takım, senin Grubundur.\r\n\r\nMenüden Grup sekmesini açabilirsin.\r\nBurada Pal'larının Can, Açlık vs. durumlarını kontrol edebilirsin.\r\nAyrıca kazandıkları yeteneklere de göz atabilir\r\nve öğrendikleri yetenek varsa aktif yeteneklerini değiştirebilirsin.",
+          "LocalizedString": "Grubundaki Pal'lar\r\n\r\nTek seferde en fazla 5 Pal taşıyabilirsin. Daha fazlasını yakalarsan bu Pal'lar otomatik olarak Pal Kutusuna gönderilirler.\r\nEn fazla 5 Pal'dan oluşan bu takım, senin Grubundur.\r\n\r\nMenüden Grup sekmesini açabilirsin.\r\nBurada Pal'larının Can, Açlık vs. durumlarını kontrol edebilirsin.\r\nAyrıca kazandıkları yeteneklere de göz atabilir\r\nve öğrendikleri yetenek varsa aktif yeteneklerini değiştirebilirsin."
+        }
+      },
+      "Help_18": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_18_TextData",
+          "SourceString": "Açlık\r\n\r\nOyuncunun ve Pal'ların Açlığı, eylemler gerçekleştirdikçe azalır.\r\nAçlık azaldığında, istatistiklerini azaltmak gibi olumsuz etkilere sebep olabilir.\r\n\r\nEnvanterindeki yiyecekler kullanarak \r\nOyuncunun ve Pal'ların Açlığını yenileyebilirsin.",
+          "LocalizedString": "Açlık\r\n\r\nOyuncunun ve Pal'ların Açlığı, eylemler gerçekleştirdikçe azalır.\r\nAçlık azaldığında, istatistiklerini azaltmak gibi olumsuz etkilere sebep olabilir.\r\n\r\nEnvanterindeki yiyecekler kullanarak \r\nOyuncunun ve Pal'ların Açlığını yenileyebilirsin."
+        }
+      },
+      "Help_19": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_19_TextData",
+          "SourceString": "Akıl Sağlığı\r\n\r\nPal'lar bir üste iş yaptıklarında Akıl Sağlıkları (AKL) azalır.\r\nAKL değerleri düştükçe tembellik etmeye başlar ve hatta hasta olabilirler.\r\nBir Pal'ın Açlık seviyesi düşükse AKL değeri de daha kolay düşer.\r\nAKL değerlerini geri kazandırmak için Pal'ları kaliteli yiyeceklerle besle veya bir kaplıcada dinlenmelerine izin ver.",
+          "LocalizedString": "Akıl Sağlığı\r\n\r\nPal'lar bir üste iş yaptıklarında Akıl Sağlıkları (AKL) azalır.\r\nAKL değerleri düştükçe tembellik etmeye başlar ve hatta hasta olabilirler.\r\nBir Pal'ın Açlık seviyesi düşükse AKL değeri de daha kolay düşer.\r\nAKL değerlerini geri kazandırmak için Pal'ları kaliteli yiyeceklerle besle veya bir kaplıcada dinlenmelerine izin ver."
+        }
+      },
+      "Help_20": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_20_TextData",
+          "SourceString": "Partner Yetenekleri\r\n\r\nBunlar, her bir Pal türünün sahip olduğu benzersiz becerilerdir.\r\nBazı Pal'lar silah ateşlemelerine veya oyuncunun kendilerine binmesine olanak tanıyan Partner Yeteneklerine sahiptir.\r\n\r\nBazı Pal'lar |Pal Teçhizatı| gerektirir ve Partner Yeteneklerini açmak için gereken bu eşya Pal Teçhizatı Tezgâhında üretilebilir.\r\n\r\nBu yetenekler Grup sekmesinden kontrol edilebilir. Bazı Pal'lar sadece Grubunun bir parçası olarak bile fayda sağlar.",
+          "LocalizedString": "Partner Yetenekleri\r\n\r\nBunlar, her bir Pal türünün sahip olduğu benzersiz becerilerdir.\r\nBazı Pal'lar silah ateşlemelerine veya oyuncunun kendilerine binmesine olanak tanıyan Partner Yeteneklerine sahiptir.\r\n\r\nBazı Pal'lar |Pal Teçhizatı| gerektirir ve Partner Yeteneklerini açmak için gereken bu eşya Pal Teçhizatı Tezgâhında üretilebilir.\r\n\r\nBu yetenekler Grup sekmesinden kontrol edilebilir. Bazı Pal'lar sadece Grubunun bir parçası olarak bile fayda sağlar."
+        }
+      },
+      "Help_21": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_21_TextData",
+          "SourceString": "Palpedia\r\n\r\nPalpedia'yı menüden açabilirsin.\r\nYakaladığın veya gördüğün Pal'larla ilgili bilgiler kaydedilir. \r\nBöylece belirli Pal'ların nerede yaşadığını araştırabilirsin.",
+          "LocalizedString": "Palpedia\r\n\r\nPalpedia'yı menüden açabilirsin.\r\nYakaladığın veya gördüğün Pal'larla ilgili bilgiler kaydedilir. \r\nBöylece belirli Pal'ların nerede yaşadığını araştırabilirsin."
+        }
+      },
+      "Help_22": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_22_TextData",
+          "SourceString": "Paldek Bonusu\r\n\r\nYeni bir Pal türü yakaladığınızda, oyuncu bonus deneyim puanı (EXP) kazanır.\r\nBu deneyim bonusu, aynı türden 5 adet yakalayana kadar alınabilir.",
+          "LocalizedString": "Paldek Bonusu\r\n\r\nYeni bir Pal türü yakaladığınızda, oyuncu bonus deneyim puanı (EXP) kazanır.\r\nBu deneyim bonusu, aynı türden 5 adet yakalayana kadar alınabilir."
+        }
+      },
+      "Help_23": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_23_TextData",
+          "SourceString": "Lonca\r\n\r\nBaşka oyunculara yaklaşarak loncalarına katılmayı talep edebilirsin.\r\nMenüdeki Lonca Sekmesi loncan ve üyeleri hakkındaki bilgileri gösterir.\r\nAynı loncadaki oyuncular üslerini ve çalışan Pal'larını paylaşır.",
+          "LocalizedString": "Lonca\r\n\r\nBaşka oyunculara yaklaşarak loncalarına katılmayı talep edebilirsin.\r\nMenüdeki Lonca Sekmesi loncan ve üyeleri hakkındaki bilgileri gösterir.\r\nAynı loncadaki oyuncular üslerini ve çalışan Pal'larını paylaşır."
+        }
+      },
+      "Help_24": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_24_TextData",
+          "SourceString": "Harita\r\n\r\nHaritayı görüntülemek için <keyGuideIcon id=|OpenWorldMap|/> tuşuna bas.\r\nArazi ve dünyanın diğer özellikleri hakkındaki bilgiler harita üzerinde gösterilir.",
+          "LocalizedString": "Harita\r\n\r\nHaritayı görüntülemek için <keyGuideIcon id=|OpenWorldMap|/> tuşuna bas.\r\nArazi ve dünyanın diğer özellikleri hakkındaki bilgiler harita üzerinde gösterilir."
+        }
+      },
+      "Help_25": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_25_TextData",
+          "SourceString": "Büyük Kartal Heykeli\r\n\r\nBir Büyük Kartal Heykelini etkinleştirmek, daha önce ziyaret ettiğin Büyük Kartal Heykelleri ve Pal Kutun arasında hızlı seyahat yapmana olanak tanır.\r\n\r\nEk olarak, etkinleştirdiğin Büyük Kartal Heykeli başına Teknoloji Puanları kazanırsın.\r\nHeykeller dünyanın her yerine dağılmış durumdadır; bu yüzden onları kullanarak avantaj kazan.\r\n\r\n*Hızlı seyahat, dünya ayarlarında devre dışı bırakıldıysa kullanılamaz.",
+          "LocalizedString": "Büyük Kartal Heykeli\r\n\r\nBir Büyük Kartal Heykelini etkinleştirmek, daha önce ziyaret ettiğin Büyük Kartal Heykelleri ve Pal Kutun arasında hızlı seyahat yapmana olanak tanır.\r\n\r\nEk olarak, etkinleştirdiğin Büyük Kartal Heykeli başına Teknoloji Puanları kazanırsın.\r\nHeykeller dünyanın her yerine dağılmış durumdadır; bu yüzden onları kullanarak avantaj kazan.\r\n\r\n*Hızlı seyahat, dünya ayarlarında devre dışı bırakıldıysa kullanılamaz."
+        }
+      },
+      "Help_26": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_26_TextData",
+          "SourceString": "Dairesel Menü\r\n\r\nDairesel menüyü çağırmak için <keyGuideIcon id=|PartnerPalInstructions|/> tuşuna bas.\r\nBu menü aracılığıyla takımındaki Pal'lara stratejik emirler verebilir veya onları besleyebilirsin.",
+          "LocalizedString": "Dairesel Menü\r\n\r\nDairesel menüyü çağırmak için <keyGuideIcon id=|PartnerPalInstructions|/> tuşuna bas.\r\nBu menü aracılığıyla takımındaki Pal'lara stratejik emirler verebilir veya onları besleyebilirsin."
+        }
+      },
+      "Help_27": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_27_TextData",
+          "SourceString": "Gece Hakkında\r\n\r\nGece çöktüğünde ortalık kararır, sıcaklık düşer ve tehlikeli Pal'lar ortaya çıkar.\r\nGüvenli bir konumda yataklar inşa edip sabaha kadar uyu veya bir kamp ateşinin etrafında üşümeden otur.",
+          "LocalizedString": "Gece Hakkında\r\n\r\nGece çöktüğünde ortalık kararır, sıcaklık düşer ve tehlikeli Pal'lar ortaya çıkar.\r\nGüvenli bir konumda yataklar inşa edip sabaha kadar uyu veya bir kamp ateşinin etrafında üşümeden otur."
+        }
+      },
+      "Help_28": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_28_TextData",
+          "SourceString": "Kule Boss'ları\r\n\r\nHer bölgede bir kule vardır ve her kulede bölgenin hâkimi olan organizasyonun lideri bulunur.\r\nBu liderler çoğunlukla ada dışından gelen Pal Terbiyecilerine düşman gözüyle bakarlar ve kuleye girdiğin anda sana meydan okurlar.\r\nKule boss'u savaşlarının bir süre sınırı vardır. Düşmanı verilen süre içinde yenemezsen kaybedersin.\r\nKule boss'u savaşlarını (senden başka deneyen kimse olmadığı sürece) istediğin kadar çok kez deneyebilirsin.",
+          "LocalizedString": "Kule Boss'ları\r\n\r\nHer bölgede bir kule vardır ve her kulede bölgenin hâkimi olan organizasyonun lideri bulunur.\r\nBu liderler çoğunlukla ada dışından gelen Pal Terbiyecilerine düşman gözüyle bakarlar ve kuleye girdiğin anda sana meydan okurlar.\r\nKule boss'u savaşlarının bir süre sınırı vardır. Düşmanı verilen süre içinde yenemezsen kaybedersin.\r\nKule boss'u savaşlarını (senden başka deneyen kimse olmadığı sürece) istediğin kadar çok kez deneyebilirsin."
+        }
+      },
+      "Help_29": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_29_TextData",
+          "SourceString": "Suç\r\n\r\nBölgede veya köylerde bulunan iyi niyetli NPC'lere saldırdığınızda, ihbar edilirsiniz ve suçlu durumuna düşersiniz.\r\nSuç işlediğiniz birileri tarafından görülürse, Palpagos Adası Öz Savunma Gücü (Self-Defense Force) tarafından aranıyor (Wanted) ilan edilirsiniz; bu yüzden dikkatli olmanız gerekir.\r\n\r\nEğer hakkınızda arama emri çıkarılırsa, öz savunma gücünden kaçıp belirli bir süre boyunca kendinizi fark ettirmeyerek\r\naranıyor durumunu kaldırabilirsiniz.",
+          "LocalizedString": "Suç\r\n\r\nBölgede veya köylerde bulunan iyi niyetli NPC'lere saldırdığınızda, ihbar edilirsiniz ve suçlu durumuna düşersiniz.\r\nSuç işlediğiniz birileri tarafından görülürse, Palpagos Adası Öz Savunma Gücü (Self-Defense Force) tarafından aranıyor (Wanted) ilan edilirsiniz; bu yüzden dikkatli olmanız gerekir.\r\n\r\nEğer hakkınızda arama emri çıkarılırsa, öz savunma gücünden kaçıp belirli bir süre boyunca kendinizi fark ettirmeyerek\r\naranıyor durumunu kaldırabilirsiniz."
+        }
+      },
+      "Help_30": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_30_TextData",
+          "SourceString": "Ekipman Dayanıklılığı\r\n\r\nEkipmanlar kullanıldıkça dayanıklılıklarını yitirir ve dayanıklılık 0'a ulaştığında kırılır.\r\nHasarlı ekipmanları malzeme kullanarak tamir masasında onarabilirsin.",
+          "LocalizedString": "Ekipman Dayanıklılığı\r\n\r\nEkipmanlar kullanıldıkça dayanıklılıklarını yitirir ve dayanıklılık 0'a ulaştığında kırılır.\r\nHasarlı ekipmanları malzeme kullanarak tamir masasında onarabilirsin."
+        }
+      },
+      "Help_31": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_31_TextData",
+          "SourceString": "Eşya Çürümesi\r\n\r\nYiyecekler gibi belirli eşyalar zaman içinde çürür ve bozulduklarında ortadan kaybolur.\r\nEşyaları bir soğutucuda veya buzdolabında saklamak çürümeye engel olabilir.",
+          "LocalizedString": "Eşya Çürümesi\r\n\r\nYiyecekler gibi belirli eşyalar zaman içinde çürür ve bozulduklarında ortadan kaybolur.\r\nEşyaları bir soğutucuda veya buzdolabında saklamak çürümeye engel olabilir."
+        }
+      },
+      "Help_32": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_32_TextData",
+          "SourceString": "Elementler\r\n\r\nHer bir Pal'ın bir elemente yatkınlığı vardır ve her bir elementin diğer elementler karşısında güçlü ve zayıf yönleri vardır.\r\nElement saldırıları, güçlü oldukları elementlere daha fazla hasar verirken zayıf oldukları elementlere karşı daha az zarar verir.",
+          "LocalizedString": "Elementler\r\n\r\nHer bir Pal'ın bir elemente yatkınlığı vardır ve her bir elementin diğer elementler karşısında güçlü ve zayıf yönleri vardır.\r\nElement saldırıları, güçlü oldukları elementlere daha fazla hasar verirken zayıf oldukları elementlere karşı daha az zarar verir."
+        }
+      },
+      "Help_33": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_33_TextData",
+          "SourceString": "Olumsuz Durumlar\r\n\r\nPal’lar ve oyuncular, çevresel koşulların veya beceri etkilerinin sonucu olarak olumsuz durumlara maruz kalabilir.\r\nOlumsuz durumların çeşitli türleri vardır ve her biri farklı etkilere sahiptir.\r\nAyrıca olumsuz durum altındaki Pal’ları yakalamak daha kolaydır.\r\n\r\n\r\n“Yanma”\r\nVücut alev alır ve sürekli hasar alınır.\r\nBitki özellikli saldırılardan alınan hasar azalır.\r\nAteş ve su özellikli Pal’lar yanma durumuna girmez.\r\n\r\n“Sırılsıklam”\r\nVücut sırılsıklam olur ve hareket hızı düşer.\r\nElektrik özellikli saldırılardan alınan hasar artar.\r\nAteş özellikli saldırılardan alınan hasar azalır.\r\n\r\n“Sarmalanma”\r\nVücut sarmaşıklarla sarılır ve hareket hızı düşer.\r\nZıplama ve kaçınma gibi bazı eylemler kısıtlanır.\r\nAteş özellikli saldırılardan alınan hasar artar.\r\n\r\n“Elektriklenme”\r\nVücut elektrik nedeniyle felç olur ve hareket edilemez.\r\nSu özellikli saldırılardan alınan hasar artar.\r\n\r\n“Buzla Kaplanma”\r\nBuzla kaplanır ve hareket edilemez.\r\n\r\n“Çamura Bulanma”\r\nVücut çamura bulanır ve hareket hızı düşer.\r\nBitki özellikli saldırılardan alınan hasar artar.\r\nElektrik özellikli saldırılardan alınan hasar azalır.\r\n\r\n“Karanlık”\r\nGörüş kararır ve saldırı hedefi kaybedilir.\r\n\r\n“Zehir”\r\nZehirlenilir ve sürekli hasar alınır.",
+          "LocalizedString": "Olumsuz Durumlar\r\n\r\nPal’lar ve oyuncular, çevresel koşulların veya beceri etkilerinin sonucu olarak olumsuz durumlara maruz kalabilir.\r\nOlumsuz durumların çeşitli türleri vardır ve her biri farklı etkilere sahiptir.\r\nAyrıca olumsuz durum altındaki Pal’ları yakalamak daha kolaydır.\r\n\r\n\r\n“Yanma”\r\nVücut alev alır ve sürekli hasar alınır.\r\nBitki özellikli saldırılardan alınan hasar azalır.\r\nAteş ve su özellikli Pal’lar yanma durumuna girmez.\r\n\r\n“Sırılsıklam”\r\nVücut sırılsıklam olur ve hareket hızı düşer.\r\nElektrik özellikli saldırılardan alınan hasar artar.\r\nAteş özellikli saldırılardan alınan hasar azalır.\r\n\r\n“Sarmalanma”\r\nVücut sarmaşıklarla sarılır ve hareket hızı düşer.\r\nZıplama ve kaçınma gibi bazı eylemler kısıtlanır.\r\nAteş özellikli saldırılardan alınan hasar artar.\r\n\r\n“Elektriklenme”\r\nVücut elektrik nedeniyle felç olur ve hareket edilemez.\r\nSu özellikli saldırılardan alınan hasar artar.\r\n\r\n“Buzla Kaplanma”\r\nBuzla kaplanır ve hareket edilemez.\r\n\r\n“Çamura Bulanma”\r\nVücut çamura bulanır ve hareket hızı düşer.\r\nBitki özellikli saldırılardan alınan hasar artar.\r\nElektrik özellikli saldırılardan alınan hasar azalır.\r\n\r\n“Karanlık”\r\nGörüş kararır ve saldırı hedefi kaybedilir.\r\n\r\n“Zehir”\r\nZehirlenilir ve sürekli hasar alınır."
+        }
+      },
+      "Help_34": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_34_TextData",
+          "SourceString": "Pal Yumurtaları\r\n\r\nArazide dolaşırken Pal yumurtaları bulabilirsiniz.\r\nPal yumurtaları, yumurta kuluçka makinesine yerleştirilerek çatlatılabilir.\r\nÇevre sıcaklığını yumurtaya uygun hâle getirerek kuluçka sürecinin daha kolay ilerlemesini sağlayabilirsiniz.",
+          "LocalizedString": "Pal Yumurtaları\r\n\r\nArazide dolaşırken Pal yumurtaları bulabilirsiniz.\r\nPal yumurtaları, yumurta kuluçka makinesine yerleştirilerek çatlatılabilir.\r\nÇevre sıcaklığını yumurtaya uygun hâle getirerek kuluçka sürecinin daha kolay ilerlemesini sağlayabilirsiniz."
+        }
+      },
+      "Help_35": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_35_TextData",
+          "SourceString": "Pal Üretim Çiftliği\r\n\r\nBir erkek bir de dişi Pal'ı bir Üretim Çiftliğine atayıp onlar için bir pasta bırak. Sonrasında bir Pal Yumurtası bulabilirsin.\r\nBazı özel Pal kombinasyonları, özel Pal Yumurtalarının ortaya çıkmasıyla sonuçlanabilir.",
+          "LocalizedString": "Pal Üretim Çiftliği\r\n\r\nBir erkek bir de dişi Pal'ı bir Üretim Çiftliğine atayıp onlar için bir pasta bırak. Sonrasında bir Pal Yumurtası bulabilirsin.\r\nBazı özel Pal kombinasyonları, özel Pal Yumurtalarının ortaya çıkmasıyla sonuçlanabilir."
+        }
+      },
+      "Help_36": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_36_TextData",
+          "SourceString": "Pal Rütbesi ve Yoğunlaştırma Podu\r\n\r\nPal’ların rütbe değeri vardır ve rütbe değeri ne kadar yüksekse özellikleri de o kadar yüksek olur.\r\nAyrıca rütbe yükseldiğinde partner becerisinin daha güçlü hâle geldiği durumlar da vardır.\r\nRütbe, Yoğunlaştırma Podu tesisiyle yükseltilebilir. Yoğunlaştırma Podu’nda, aynı türden çok sayıda Pal’ın Pal özü hâline getirilmesi gerekir.",
+          "LocalizedString": "Pal Rütbesi ve Yoğunlaştırma Podu\r\n\r\nPal’ların rütbe değeri vardır ve rütbe değeri ne kadar yüksekse özellikleri de o kadar yüksek olur.\r\nAyrıca rütbe yükseldiğinde partner becerisinin daha güçlü hâle geldiği durumlar da vardır.\r\nRütbe, Yoğunlaştırma Podu tesisiyle yükseltilebilir. Yoğunlaştırma Podu’nda, aynı türden çok sayıda Pal’ın Pal özü hâline getirilmesi gerekir."
+        }
+      },
+      "Help_37": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_37_TextData",
+          "SourceString": "Pal Heykeli\r\n\r\nArazide bulunan Pal Heykellerini Güç Heykeli'ne sunarak oyuncunun çeşitli yeteneklerini geliştirebilirsiniz.",
+          "LocalizedString": "Pal Heykeli\r\n\r\nArazide bulunan Pal Heykellerini Güç Heykeli'ne sunarak oyuncunun çeşitli yeteneklerini geliştirebilirsiniz."
+        }
+      },
+      "Help_38": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_38_TextData",
+          "SourceString": "Pal Ruhları\r\n\r\nHazine sandıklarında bazen Pal Ruhları bulunabilir.\r\nBir Pal'ın istatistiklerini geliştirmek için Pal Ruhlarını Güç Heykeline sunabilirsin.",
+          "LocalizedString": "Pal Ruhları\r\n\r\nHazine sandıklarında bazen Pal Ruhları bulunabilir.\r\nBir Pal'ın istatistiklerini geliştirmek için Pal Ruhlarını Güç Heykeline sunabilirsin."
+        }
+      },
+      "Help_39": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_39_TextData",
+          "SourceString": "Pal Alt Türleri\r\n\r\nBazı Pal'ların çevrelerine uyum sağlayarak türlerinden farklılaşıp bir |alt tür| hâline geldiği bilinir.\r\nAlt türler orijinalden farklı bir tiptedir ve istatistikleri biraz daha yüksektir.\r\n\r\nBelirli Çiftleşme kombinasyonları bir alt türün ortaya çıkmasıyla sonuçlanabilir.\r\n\r\nAlt türlerin Paldek bonusu orijinal türden ayrı sayılır; bu nedenle bir alt türden 5 adet yakalayarak ekstra deneyim puanı kazanabilirsiniz.",
+          "LocalizedString": "Pal Alt Türleri\r\n\r\nBazı Pal'ların çevrelerine uyum sağlayarak türlerinden farklılaşıp bir |alt tür| hâline geldiği bilinir.\r\nAlt türler orijinalden farklı bir tiptedir ve istatistikleri biraz daha yüksektir.\r\n\r\nBelirli Çiftleşme kombinasyonları bir alt türün ortaya çıkmasıyla sonuçlanabilir.\r\n\r\nAlt türlerin Paldek bonusu orijinal türden ayrı sayılır; bu nedenle bir alt türden 5 adet yakalayarak ekstra deneyim puanı kazanabilirsiniz."
+        }
+      },
+      "Help_40": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_40_TextData",
+          "SourceString": "Şanslı Pal'lar\r\n\r\nŞanslı Pal'lar, dünya çevresinde bulunabilen nadir Pal'lardır. Ebat olarak daha büyüktürler ve parlak bir görünümleri vardır.\r\nÇoğu zaman yüksek istatistiklere sahiplerdir ve hem pasif hem aktif özel yetenekleri olur.",
+          "LocalizedString": "Şanslı Pal'lar\r\n\r\nŞanslı Pal'lar, dünya çevresinde bulunabilen nadir Pal'lardır. Ebat olarak daha büyüktürler ve parlak bir görünümleri vardır.\r\nÇoğu zaman yüksek istatistiklere sahiplerdir ve hem pasif hem aktif özel yetenekleri olur."
+        }
+      },
+      "Help_40_2": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_40_2_TextData",
+          "SourceString": "Yırtıcı Pal'lar\r\n\r\nYırtıcı Pal'lar, arazide bulunabilecek korkutucu Pal'lardır.\r\nBu Pal'lar, büyük ebatları, yüksek saldırganlıkları ve gövdelerini kaplayan kızılımsı karanlık aurayla öne çıkarlar. \r\nBu karanlık aura sebebiyle bir Küre ile yakalanamazlar. Onlara meydan okumadan önce doğru şekilde hazırlandığından emin ol.",
+          "LocalizedString": "Yırtıcı Pal'lar\r\n\r\nYırtıcı Pal'lar, arazide bulunabilecek korkutucu Pal'lardır.\r\nBu Pal'lar, büyük ebatları, yüksek saldırganlıkları ve gövdelerini kaplayan kızılımsı karanlık aurayla öne çıkarlar. \r\nBu karanlık aura sebebiyle bir Küre ile yakalanamazlar. Onlara meydan okumadan önce doğru şekilde hazırlandığından emin ol."
+        }
+      },
+      "Help_41": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_41_TextData",
+          "SourceString": "Ölüm\r\n\r\nBir oyuncu öldüğünde, bulundurdukları eşyaları ve Grup Pal'larını bulundukları yere düşürür.\r\nYeniden doğduktan sonra öldüğün konuma geri dönerek bunları geri alabilirsin.\r\nOrada bir ışık sütunu göreceksin. İstersen bu sütuna erişerek eşyalarını yukarıdan geri alabilirsin.\r\n\r\n※ Bu ceza dünya ayarlarından değiştirilebilir veya kaldırılabilir.",
+          "LocalizedString": "Ölüm\r\n\r\nBir oyuncu öldüğünde, bulundurdukları eşyaları ve Grup Pal'larını bulundukları yere düşürür.\r\nYeniden doğduktan sonra öldüğün konuma geri dönerek bunları geri alabilirsin.\r\nOrada bir ışık sütunu göreceksin. İstersen bu sütuna erişerek eşyalarını yukarıdan geri alabilirsin.\r\n\r\n※ Bu ceza dünya ayarlarından değiştirilebilir veya kaldırılabilir."
+        }
+      },
+      "Help_42": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_42_TextData",
+          "SourceString": "Arena\r\n\r\nBu tesis, çöl bölgesinde yer alan uzak bir adada bulunur.\r\nYakaladığın Pal'larla güçlerini birleştirip seninle aynı dünyadaki diğer Pal Terbiyecilerine karşı mücadele verebilirsin.\r\n\r\nAyrıca, NPC’lerle de güç yarışına girebilirsin. Özellikle Master Rank ve üzerindeki NPC’ler ayrıcalıklı bir güç seviyesine sahiptir.\r\nTakımındaki 5 Pal'dan 1 tanesini partnerin olması için seç, savaşa katılmaları için 2 tane de alt Pal belirle.\r\nRakip Pal Terbiyecisini veya rakibinin tüm Pal'larını yenerek kazanırsın.\r\n\r\nDövüş esnasında kullanılan eşyalar ve dövüş dışı kalan Pal'lar, dövüşten sonra orijinal durumlarına döndürülür.\r\n※ Dövüş arenasında tüketim eşyası kullanılamaz.\r\n※ Dövüş arenasında Pal Sphere kullanan silahlar ve doping amaçlı silahlar kullanılamaz.\r\n\r\nZafer kazanıldığında Rank Puanı (RP) kazanırsın ve belirli miktarda RP toplayarak rütben yükselir.\r\nMağlup olursan RP kaybedersin.\r\n\r\nSavaş dışında, diğer oyuncuların yaptığı mücadeleleri izleyebilirsin.",
+          "LocalizedString": "Arena\r\n\r\nBu tesis, çöl bölgesinde yer alan uzak bir adada bulunur.\r\nYakaladığın Pal'larla güçlerini birleştirip seninle aynı dünyadaki diğer Pal Terbiyecilerine karşı mücadele verebilirsin.\r\n\r\nAyrıca, NPC’lerle de güç yarışına girebilirsin. Özellikle Master Rank ve üzerindeki NPC’ler ayrıcalıklı bir güç seviyesine sahiptir.\r\nTakımındaki 5 Pal'dan 1 tanesini partnerin olması için seç, savaşa katılmaları için 2 tane de alt Pal belirle.\r\nRakip Pal Terbiyecisini veya rakibinin tüm Pal'larını yenerek kazanırsın.\r\n\r\nDövüş esnasında kullanılan eşyalar ve dövüş dışı kalan Pal'lar, dövüşten sonra orijinal durumlarına döndürülür.\r\n※ Dövüş arenasında tüketim eşyası kullanılamaz.\r\n※ Dövüş arenasında Pal Sphere kullanan silahlar ve doping amaçlı silahlar kullanılamaz.\r\n\r\nZafer kazanıldığında Rank Puanı (RP) kazanırsın ve belirli miktarda RP toplayarak rütben yükselir.\r\nMağlup olursan RP kaybedersin.\r\n\r\nSavaş dışında, diğer oyuncuların yaptığı mücadeleleri izleyebilirsin."
+        }
+      },
+      "Help_2_PS5": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_2_PS5_TextData",
+          "SourceString": "Kontroller (kontrol cihazı)\r\n\r\nSol Çubuk: Hareket\r\nSağ Çubuk: Kamera Kontrolleri\r\n<keyGuideIcon id=|ThrowPal| OverrideType=|2|/> Pal Çağır\r\n<keyGuideIcon id=|ThrowObject| OverrideType=|2|/> Küre Fırlat\r\n<keyGuideIcon id=|OpenConstructionMenu| OverrideType=|2|/> İnşa Menüsü\r\n<keyGuideIcon id=|Jump| OverrideType=|2|/> Zıpla\r\n<keyGuideIcon id=|WeaponReady| OverrideType=|2|/> Nişan Al\r\n<keyGuideIcon id=|WeaponUse| OverrideType=|2|/> Saldır\r\n<keyGuideIcon id=|ReloadAndCoop| OverrideType=|2|/> Partner Yeteneği\r\n<keyGuideIcon id=|ChangeWeaponNext| OverrideType=|2|/> Silah Değiştir\r\n<keyGuideIcon id=|RollingAndCrouch| OverrideType=|2|/> Çömel/Yuvarlan\r\n<keyGuideIcon id=|DashController| OverrideType=|2|/> Depar\r\n<keyGuideIcon id=|PartnerPalInstructions| OverrideType=|2|/> Pal Komutları\r\n<keyGuideIcon id=|OtomoChangeIncrement| OverrideType=|2|/><keyGuideIcon id=|OtomoChangeDecrement| OverrideType=|2|/> Pal Değiştir\r\n<keyGuideIcon id=|SphereChange| OverrideType=|2|/> Küre Değiştir",
+          "LocalizedString": "Kontroller (kontrol cihazı)\r\n\r\nSol Çubuk: Hareket\r\nSağ Çubuk: Kamera Kontrolleri\r\n<keyGuideIcon id=|ThrowPal| OverrideType=|2|/> Pal Çağır\r\n<keyGuideIcon id=|ThrowObject| OverrideType=|2|/> Küre Fırlat\r\n<keyGuideIcon id=|OpenConstructionMenu| OverrideType=|2|/> İnşa Menüsü\r\n<keyGuideIcon id=|Jump| OverrideType=|2|/> Zıpla\r\n<keyGuideIcon id=|WeaponReady| OverrideType=|2|/> Nişan Al\r\n<keyGuideIcon id=|WeaponUse| OverrideType=|2|/> Saldır\r\n<keyGuideIcon id=|ReloadAndCoop| OverrideType=|2|/> Partner Yeteneği\r\n<keyGuideIcon id=|ChangeWeaponNext| OverrideType=|2|/> Silah Değiştir\r\n<keyGuideIcon id=|RollingAndCrouch| OverrideType=|2|/> Çömel/Yuvarlan\r\n<keyGuideIcon id=|DashController| OverrideType=|2|/> Depar\r\n<keyGuideIcon id=|PartnerPalInstructions| OverrideType=|2|/> Pal Komutları\r\n<keyGuideIcon id=|OtomoChangeIncrement| OverrideType=|2|/><keyGuideIcon id=|OtomoChangeDecrement| OverrideType=|2|/> Pal Değiştir\r\n<keyGuideIcon id=|SphereChange| OverrideType=|2|/> Küre Değiştir"
+        }
+      },
+      "Help_43": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_43_TextData",
+          "SourceString": "Global Pal Kutusu\r\n\r\nBu tesis sayesinde oyuncular Pal Kutusunda tutulan Pal'ların genetik verilerini kaydedebilir ve bu verileri kullanarak Pal'ları tekrar inşa edebilir. \r\nAncak aynı genetik veriye sahip birden fazla Pal, aynı dünyada var olamaz. \r\nKaydedilen genetik veri başka dünyalara da transfer edilebilir.\r\n\r\n※ Dünya ayarları Pal'ların yeniden inşa edilmesine veya genetik verinin kaydedilmesine izin vermeyebilir.",
+          "LocalizedString": "Global Pal Kutusu\r\n\r\nBu tesis sayesinde oyuncular Pal Kutusunda tutulan Pal'ların genetik verilerini kaydedebilir ve bu verileri kullanarak Pal'ları tekrar inşa edebilir. \r\nAncak aynı genetik veriye sahip birden fazla Pal, aynı dünyada var olamaz. \r\nKaydedilen genetik veri başka dünyalara da transfer edilebilir.\r\n\r\n※ Dünya ayarları Pal'ların yeniden inşa edilmesine veya genetik verinin kaydedilmesine izin vermeyebilir."
+        }
+      },
+      "Help_44": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_44_TextData",
+          "SourceString": "Arazide Sıkışırsan\r\n\r\nmenüde yer alan Seçenekler sekmesindeki |Acil Durum Tahliyesi| seçeneğini kullanarak kasıtlı şekilde ölebilir ve üste yeniden doğabilirsin.\r\nAyrıca ölmeden üsse dönmeye olanak tanıyan eşyalar ve üsse ışınlanma yeteneğine sahip Pal'lar da mevcuttur, bunlar için de gözünü dört aç.",
+          "LocalizedString": "Arazide Sıkışırsan\r\n\r\nmenüde yer alan Seçenekler sekmesindeki |Acil Durum Tahliyesi| seçeneğini kullanarak kasıtlı şekilde ölebilir ve üste yeniden doğabilirsin.\r\nAyrıca ölmeden üsse dönmeye olanak tanıyan eşyalar ve üsse ışınlanma yeteneğine sahip Pal'lar da mevcuttur, bunlar için de gözünü dört aç."
+        }
+      },
+      "Help_45": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_45_TextData",
+          "SourceString": "Balık Tutma\r\n\r\nBalık oltasını kuşan ve envanterden balık yemini seç. Balık gölgelerinin göründüğü su kenarında<keyGuideIcon id=|WeaponReady|/>ile oltayı tut,<keyGuideIcon id=|WeaponUse|/>tuşuna basarak at ve balık tutmaya başla.\r\nPal’ine binmiş halde balık tutman da mümkün.\r\n\r\nPal yemeye yaklaştığında ve şamandıra battığında, zamanında<keyGuideIcon id=|WeaponUse|/>tuşuna basarak yakala.\r\n\r\nYakalamadan sonra mini oyun başlar. Barı balık simgesine denk getirmeye devam et.\r\n<keyGuideIcon id=|WeaponUse|/>tuşuna basılı tutunca bar sağa hareket eder, bırakınca sola geri döner.\r\nPal direnç gösterip sağa sola hareket ettiği için, barı hareketine göre hizalamak önemlidir\r\n\r\nBar balık simgesiyle örtüştüğü sürece yakalama çubuğu dolar.\r\nYakalama çubuğu dolunca balık tutma başarılı olur ve Pal ile eşyalar elde edilir.\r\n\r\nOltanı ve balık yemini güçlendirmek mini oyunda avantaj sağlar.\r\nBalık tutmak zor gelirse, daha gelişmiş oltalar ve yemler yaparak tekrar dene.\r\nAyrıca oyuncunun balık tutmasına yardımcı olan Pal’ler de vardır, onları bulmaya çalış.",
+          "LocalizedString": "Balık Tutma\r\n\r\nBalık oltasını kuşan ve envanterden balık yemini seç. Balık gölgelerinin göründüğü su kenarında<keyGuideIcon id=|WeaponReady|/>ile oltayı tut,<keyGuideIcon id=|WeaponUse|/>tuşuna basarak at ve balık tutmaya başla.\r\nPal’ine binmiş halde balık tutman da mümkün.\r\n\r\nPal yemeye yaklaştığında ve şamandıra battığında, zamanında<keyGuideIcon id=|WeaponUse|/>tuşuna basarak yakala.\r\n\r\nYakalamadan sonra mini oyun başlar. Barı balık simgesine denk getirmeye devam et.\r\n<keyGuideIcon id=|WeaponUse|/>tuşuna basılı tutunca bar sağa hareket eder, bırakınca sola geri döner.\r\nPal direnç gösterip sağa sola hareket ettiği için, barı hareketine göre hizalamak önemlidir\r\n\r\nBar balık simgesiyle örtüştüğü sürece yakalama çubuğu dolar.\r\nYakalama çubuğu dolunca balık tutma başarılı olur ve Pal ile eşyalar elde edilir.\r\n\r\nOltanı ve balık yemini güçlendirmek mini oyunda avantaj sağlar.\r\nBalık tutmak zor gelirse, daha gelişmiş oltalar ve yemler yaparak tekrar dene.\r\nAyrıca oyuncunun balık tutmasına yardımcı olan Pal’ler de vardır, onları bulmaya çalış."
+        }
+      }
+    }
+  }
+]

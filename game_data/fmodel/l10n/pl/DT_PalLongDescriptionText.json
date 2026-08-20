@@ -1,0 +1,2496 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_PalLongDescriptionText",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "PAL_LONG_DESC_Alpaca": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Alpaca_TextData",
+          "SourceString": "Nie daj się zwieść puszystemu wyglądowi tego Pala.\r\nHiperdźwiękowy kopniak zaserwowany przez jedną z jego długich nóg może\r\nposłać cię na drugi koniec świata.",
+          "LocalizedString": "Nie daj się zwieść puszystemu wyglądowi tego Pala.\r\nHiperdźwiękowy kopniak zaserwowany przez jedną z jego długich nóg może\r\nposłać cię na drugi koniec świata."
+        }
+      },
+      "PAL_LONG_DESC_AmaterasuWolf": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_AmaterasuWolf_TextData",
+          "SourceString": "Pomimo swojego wyglądu, <characterName id=|AmaterasuWolf|/> jest niezwykle wrażliwy i w razie spłoszenia ucieka do jaskini.\r\nDawno temu uważano za zły omen, jeśli jakiś uciekł od ciebie.",
+          "LocalizedString": "Pomimo swojego wyglądu, <characterName id=|AmaterasuWolf|/> jest niezwykle wrażliwy i w razie spłoszenia ucieka do jaskini.\r\nDawno temu uważano za zły omen, jeśli jakiś uciekł od ciebie."
+        }
+      },
+      "PAL_LONG_DESC_AmaterasuWolf_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_AmaterasuWolf_Dark_TextData",
+          "SourceString": "Pomimo swojego wyglądu, <characterName id=|AmaterasuWolf_Dark|/> jest niezwykle wrażliwy i w razie spłoszenia ucieka do jaskini.\r\nOd zbyt długiego przesiadywania w zamknięciu stał się dość ponury.",
+          "LocalizedString": "Pomimo swojego wyglądu, <characterName id=|AmaterasuWolf_Dark|/> jest niezwykle wrażliwy i w razie spłoszenia ucieka do jaskini.\r\nOd zbyt długiego przesiadywania w zamknięciu stał się dość ponury."
+        }
+      },
+      "PAL_LONG_DESC_Anubis": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Anubis_TextData",
+          "SourceString": "Kiedyś uważany za symbol szlachectwa, \r\nidol tych, którzy stronili od bogactwa i władzy.\r\nZ czasem jednak ten Pal stał się symbolem śmierci.",
+          "LocalizedString": "Kiedyś uważany za symbol szlachectwa, \r\nidol tych, którzy stronili od bogactwa i władzy.\r\nZ czasem jednak ten Pal stał się symbolem śmierci."
+        }
+      },
+      "PAL_LONG_DESC_BadCatgirl": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BadCatgirl_TextData",
+          "SourceString": "Bardzo nie znosi, gdy ktoś choćby przelotnie zobaczy jego ukryte oko. \r\nJeśli mimo to będziesz próbować, wybuchnie płaczem\r\ni będzie cię ignorować przez dwa tygodnie.",
+          "LocalizedString": "Bardzo nie znosi, gdy ktoś choćby przelotnie zobaczy jego ukryte oko. \r\nJeśli mimo to będziesz próbować, wybuchnie płaczem\r\ni będzie cię ignorować przez dwa tygodnie."
+        }
+      },
+      "PAL_LONG_DESC_Baphomet": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Baphomet_TextData",
+          "SourceString": "W mroku nocy ten Pal chwyta ofiary, by zaciągnąć je na swoje terytorium. Nietrudno sobie wyobrazić, co potem spotyka te biedne dusze.",
+          "LocalizedString": "W mroku nocy ten Pal chwyta ofiary, by zaciągnąć je na swoje terytorium. Nietrudno sobie wyobrazić, co potem spotyka te biedne dusze."
+        }
+      },
+      "PAL_LONG_DESC_Baphomet_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Baphomet_Dark_TextData",
+          "SourceString": "Celuje konkretnie w młode Pale i zabiera je na swoje terytorium.\r\nMożna sobie jedynie wyobrazić przemożną rozpacz rodzica, którego dziecko zostało porwane.",
+          "LocalizedString": "Celuje konkretnie w młode Pale i zabiera je na swoje terytorium.\r\nMożna sobie jedynie wyobrazić przemożną rozpacz rodzica, którego dziecko zostało porwane."
+        }
+      },
+      "PAL_LONG_DESC_Bastet": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Bastet_TextData",
+          "SourceString": "Jego twardy ogon nie psuje się nawet po odcięciu.\r\nNiegdyś wierzono, że takie odcięte ogony przynoszą szczęście. Wielu <characterName id=|Bastet|/> jednak przesąd ten przyniósł śmierć.",
+          "LocalizedString": "Jego twardy ogon nie psuje się nawet po odcięciu.\r\nNiegdyś wierzono, że takie odcięte ogony przynoszą szczęście. Wielu <characterName id=|Bastet|/> jednak przesąd ten przyniósł śmierć."
+        }
+      },
+      "PAL_LONG_DESC_Bastet_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Bastet_Ice_TextData",
+          "SourceString": "Jego kryształowy ogon jest piękny, lecz roztrzaskuje się, gdy ten Pal umiera.\r\nNiegdyś wierzono, że posiadanie wielu <characterName id=|Bastet_Ice|/> przynosi szczęście, dlatego był on bardzo cenionym pupilem.",
+          "LocalizedString": "Jego kryształowy ogon jest piękny, lecz roztrzaskuje się, gdy ten Pal umiera.\r\nNiegdyś wierzono, że posiadanie wielu <characterName id=|Bastet_Ice|/> przynosi szczęście, dlatego był on bardzo cenionym pupilem."
+        }
+      },
+      "PAL_LONG_DESC_BeardedDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BeardedDragon_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "PAL_LONG_DESC_BerryGoat": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BerryGoat_TextData",
+          "SourceString": "Krzew na plecach tego Pala produkuje jagody, o ile jest odpowiednio karmiony.\r\nOferuje je potencjalnym partnerom, a jeśli przypadną im do gustu, rozkwita romans.",
+          "LocalizedString": "Krzew na plecach tego Pala produkuje jagody, o ile jest odpowiednio karmiony.\r\nOferuje je potencjalnym partnerom, a jeśli przypadną im do gustu, rozkwita romans."
+        }
+      },
+      "PAL_LONG_DESC_BerryGoat_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BerryGoat_Dark_TextData",
+          "SourceString": "Jagody rosnące na jego plecach zmieniają smak w zależności od jego uczuć.\r\nIm surowsze otoczenie w jakim dorasta, tym słodsze się stają.\r\nDlatego większość <characterName id=|BerryGoat_Dark|/> wychowanych w niewoli nigdy nie zaznała miłości.",
+          "LocalizedString": "Jagody rosnące na jego plecach zmieniają smak w zależności od jego uczuć.\r\nIm surowsze otoczenie w jakim dorasta, tym słodsze się stają.\r\nDlatego większość <characterName id=|BerryGoat_Dark|/> wychowanych w niewoli nigdy nie zaznała miłości."
+        }
+      },
+      "PAL_LONG_DESC_BirdDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BirdDragon_TextData",
+          "SourceString": "Melodie grane na flecie wykonanym z pancerza <characterName id=|BirdDragon|/>\r\npodobno niosą się przez całe górskie pasma.\r\nW dawnych czasach używano takich fletów do sygnalizowania ataku.",
+          "LocalizedString": "Melodie grane na flecie wykonanym z pancerza <characterName id=|BirdDragon|/>\r\npodobno niosą się przez całe górskie pasma.\r\nW dawnych czasach używano takich fletów do sygnalizowania ataku."
+        }
+      },
+      "PAL_LONG_DESC_BirdDragon_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BirdDragon_Ice_TextData",
+          "SourceString": "Melodie grane na flecie wykonanym z pancerza <characterName id=|BirdDragon_Ice|/> podobno\r\nniosą się przez całe górskie pasma.\r\nW dawnych czasach używano takich fletów do sygnalizowania zwycięstwa w bitwie.",
+          "LocalizedString": "Melodie grane na flecie wykonanym z pancerza <characterName id=|BirdDragon_Ice|/> podobno\r\nniosą się przez całe górskie pasma.\r\nW dawnych czasach używano takich fletów do sygnalizowania zwycięstwa w bitwie."
+        }
+      },
+      "PAL_LONG_DESC_BlackCentaur": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BlackCentaur_TextData",
+          "SourceString": "Niegdyś był jednym z <characterName id=|SaintCentaur|/>. Jego mroczna forma jest ucieleśnieniem negatywnych emocji, jednak głęboko w jego oczach wciąż można dostrzec przebłysk współczucia.",
+          "LocalizedString": "Niegdyś był jednym z <characterName id=|SaintCentaur|/>. Jego mroczna forma jest ucieleśnieniem negatywnych emocji, jednak głęboko w jego oczach wciąż można dostrzec przebłysk współczucia."
+        }
+      },
+      "PAL_LONG_DESC_BlackFurDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BlackFurDragon_TextData",
+          "SourceString": "Cicha bestia zrodzona z otchłani.\r\nNie stawaj przed obliczem bestii.\r\nNie słuchaj jej głosu.",
+          "LocalizedString": "Cicha bestia zrodzona z otchłani.\r\nNie stawaj przed obliczem bestii.\r\nNie słuchaj jej głosu."
+        }
+      },
+      "PAL_LONG_DESC_BlackGriffon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BlackGriffon_TextData",
+          "SourceString": "Zrodzony z głębin szaleństwa, samo jego istnienie zaprzecza rozumowi.\r\nStraciwszy wszelkie genetyczne więzi z innymi Palami,\r\ntrudno nie zadać sobie pytania, czy nadal można go uważać za Pala.",
+          "LocalizedString": "Zrodzony z głębin szaleństwa, samo jego istnienie zaprzecza rozumowi.\r\nStraciwszy wszelkie genetyczne więzi z innymi Palami,\r\ntrudno nie zadać sobie pytania, czy nadal można go uważać za Pala."
+        }
+      },
+      "PAL_LONG_DESC_BlackMetalDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BlackMetalDragon_TextData",
+          "SourceString": "Dzika bestia zrodzona z otchłani.\r\nNie stawaj przed obliczem bestii.\r\nNie słuchaj jej głosu.",
+          "LocalizedString": "Dzika bestia zrodzona z otchłani.\r\nNie stawaj przed obliczem bestii.\r\nNie słuchaj jej głosu."
+        }
+      },
+      "PAL_LONG_DESC_BlackPuppy": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BlackPuppy_TextData",
+          "SourceString": "Czarne ognie są ciepłe w dotyku, lecz wszystko, co pozostaje z nimi w kontakcie, powoli rozpuszcza się od środka. Potrzymaj nad nimi kawałek sera, a zamieni się w prawdziwy przysmak",
+          "LocalizedString": "Czarne ognie są ciepłe w dotyku, lecz wszystko, co pozostaje z nimi w kontakcie, powoli rozpuszcza się od środka. Potrzymaj nad nimi kawałek sera, a zamieni się w prawdziwy przysmak"
+        }
+      },
+      "PAL_LONG_DESC_BlackPuppy_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BlackPuppy_Ice_TextData",
+          "SourceString": "Jego błękitno-biały płomień jest w dotyku ledwie chłodny,\r\nale wszystko, co pozostaje z nim w kontakcie, stopniowo zamarza.\r\nWystarczy na chwilę zbliżyć do niego butelkę z mlekiem, by jej zawartość zmieniła się w lód!",
+          "LocalizedString": "Jego błękitno-biały płomień jest w dotyku ledwie chłodny,\r\nale wszystko, co pozostaje z nim w kontakcie, stopniowo zamarza.\r\nWystarczy na chwilę zbliżyć do niego butelkę z mlekiem, by jej zawartość zmieniła się w lód!"
+        }
+      },
+      "PAL_LONG_DESC_BlueberryFairy": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BlueberryFairy_TextData",
+          "SourceString": "Inteligentny i pełen wdzięku w swym zachowaniu, \r\nczęsto pełnił rolę sługi u wyspiarskiej szlachty.\r\nJednak napotkany nocą, miał tak upiorny wyraz twarzy, że szybko wypadł z łask.",
+          "LocalizedString": "Inteligentny i pełen wdzięku w swym zachowaniu, \r\nczęsto pełnił rolę sługi u wyspiarskiej szlachty.\r\nJednak napotkany nocą, miał tak upiorny wyraz twarzy, że szybko wypadł z łask."
+        }
+      },
+      "PAL_LONG_DESC_BlueDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BlueDragon_TextData",
+          "SourceString": "Biała wstążka tego Pala czernieje, gdy zostanie zamoczona w nieczystej wodzie.\r\nZe względu na jego przydatność w wykrywaniu trucizn, niegdyś był nadmiernie odławiany.\r\nTa przeszłość sprawiła, że do dziś żywi gorzkie uczucia wobec ludzkości.",
+          "LocalizedString": "Biała wstążka tego Pala czernieje, gdy zostanie zamoczona w nieczystej wodzie.\r\nZe względu na jego przydatność w wykrywaniu trucizn, niegdyś był nadmiernie odławiany.\r\nTa przeszłość sprawiła, że do dziś żywi gorzkie uczucia wobec ludzkości."
+        }
+      },
+      "PAL_LONG_DESC_BluePlatypus": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BluePlatypus_TextData",
+          "SourceString": "Używając wody ze swojego ciała, ten Pal potrafi tworzyć fale w dowolnym miejscu.\r\nGdy się spieszy, surfuje bez deski — jednak osiągana prędkość często kończy się śmiertelnym zderzeniem.",
+          "LocalizedString": "Używając wody ze swojego ciała, ten Pal potrafi tworzyć fale w dowolnym miejscu.\r\nGdy się spieszy, surfuje bez deski — jednak osiągana prędkość często kończy się śmiertelnym zderzeniem."
+        }
+      },
+      "PAL_LONG_DESC_BlueThunderHorse": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BlueThunderHorse_TextData",
+          "SourceString": "Podobnie jak <characterName id=|Kirin|/>, niegdyś uważano, że ma powiązania z Bogiem Błyskawic. Gdy wiara w <characterName id=|Kirin|/> osłabła, za prawdziwego wysłannika Boga uznano <characterName id=|BlueThunderHorse|/>. Tak czy inaczej, z czasem oba zostały sprowadzone do roli zwykłych koni roboczych.",
+          "LocalizedString": "Podobnie jak <characterName id=|Kirin|/>, niegdyś uważano, że ma powiązania z Bogiem Błyskawic. Gdy wiara w <characterName id=|Kirin|/> osłabła, za prawdziwego wysłannika Boga uznano <characterName id=|BlueThunderHorse|/>. Tak czy inaczej, z czasem oba zostały sprowadzone do roli zwykłych koni roboczych."
+        }
+      },
+      "PAL_LONG_DESC_Boar": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Boar_TextData",
+          "SourceString": "Będąc niezwykle agresywnym Palem, często wdaje się w bójki, nie oceniając wcześniej siły przeciwnika.\r\nChoć niewielki, jego potężna szarża potrafi posłać w powietrze nawet głazy.",
+          "LocalizedString": "Będąc niezwykle agresywnym Palem, często wdaje się w bójki, nie oceniając wcześniej siły przeciwnika.\r\nChoć niewielki, jego potężna szarża potrafi posłać w powietrze nawet głazy."
+        }
+      },
+      "PAL_LONG_DESC_BrownRabbit": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BrownRabbit_TextData",
+          "SourceString": "Wsłuchuje się w głos ziemi, dzięki czemu biegnąc omija niestabilne podłoże.\r\nJednak może się pomylić, jeśli teren mu nie odpowiada,\r\ndlatego w niektórych miejscach co chwilę się wywraca.",
+          "LocalizedString": "Wsłuchuje się w głos ziemi, dzięki czemu biegnąc omija niestabilne podłoże.\r\nJednak może się pomylić, jeśli teren mu nie odpowiada,\r\ndlatego w niektórych miejscach co chwilę się wywraca."
+        }
+      },
+      "PAL_LONG_DESC_CandleGhost": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CandleGhost_TextData",
+          "SourceString": "Kiedyś wierzono, że gdy świat zbliży się do końca, jego płomień osłabnie.\r\nCzarnowidzowie raz po raz radowali się, gdy płomień zaczynał słabnąć,\r\nlecz ostatecznie okazało się, że to tylko psikus <characterName id=|CandleGhost|/>.\r\nPrzynajmniej na razie.",
+          "LocalizedString": "Kiedyś wierzono, że gdy świat zbliży się do końca, jego płomień osłabnie.\r\nCzarnowidzowie raz po raz radowali się, gdy płomień zaczynał słabnąć,\r\nlecz ostatecznie okazało się, że to tylko psikus <characterName id=|CandleGhost|/>.\r\nPrzynajmniej na razie."
+        }
+      },
+      "PAL_LONG_DESC_CaptainPenguin": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CaptainPenguin_TextData",
+          "SourceString": "Tak naprawdę nie jest spokrewniony z <characterName id=|Penguin|/>. Ich podobieństwo przynosi mu jednak mnóstwo atencji, więc przymyka na to oko i skupia się na szpanowaniu.",
+          "LocalizedString": "Tak naprawdę nie jest spokrewniony z <characterName id=|Penguin|/>. Ich podobieństwo przynosi mu jednak mnóstwo atencji, więc przymyka na to oko i skupia się na szpanowaniu."
+        }
+      },
+      "PAL_LONG_DESC_Carbunclo": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Carbunclo_TextData",
+          "SourceString": "Ma inteligencję porównywalną z ludzkim dzieckiem w wieku pięciu do siedmiu lat.\r\nTo wspaniały partner, lecz zdarzyło się już niejednokrotnie,\r\nże po opanowaniu broni zabił własnego pana.",
+          "LocalizedString": "Ma inteligencję porównywalną z ludzkim dzieckiem w wieku pięciu do siedmiu lat.\r\nTo wspaniały partner, lecz zdarzyło się już niejednokrotnie,\r\nże po opanowaniu broni zabił własnego pana."
+        }
+      },
+      "PAL_LONG_DESC_CatBat": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CatBat_TextData",
+          "SourceString": "Często pojawia się znikąd, by popisywać się swoimi cennymi skrzydłami przed innymi Palami. Choć wygląda to na próbę onieśmielania innych, ten Pal zdaje się czerpać z tych pokazów pewnego rodzaju przyjemność.",
+          "LocalizedString": "Często pojawia się znikąd, by popisywać się swoimi cennymi skrzydłami przed innymi Palami. Choć wygląda to na próbę onieśmielania innych, ten Pal zdaje się czerpać z tych pokazów pewnego rodzaju przyjemność."
+        }
+      },
+      "PAL_LONG_DESC_CatMage": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CatMage_TextData",
+          "SourceString": "Dzięki mocy cieni potrafi wytwarzać ezoteryczne zjawiska.\r\nWoli spożywać surowe jedzenie i wykazuje wyjątkową wrogość wobec <characterName id=|FoxMage|/>.",
+          "LocalizedString": "Dzięki mocy cieni potrafi wytwarzać ezoteryczne zjawiska.\r\nWoli spożywać surowe jedzenie i wykazuje wyjątkową wrogość wobec <characterName id=|FoxMage|/>."
+        }
+      },
+      "PAL_LONG_DESC_CatMage_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CatMage_Fire_TextData",
+          "SourceString": "Z powodu swojego wychowania nie przejmuje się już tym, czy jedzenie jest wystarczająco surowe. \r\nTen Pal przestał zawracać sobie głowę takimi szczegółami\r\ni po prostu woli, żeby wszystko było możliwie jak najostrzejsze. \r\nNie jest w dobrych stosunkach z <characterName id=|FoxMage_Dark|/>.",
+          "LocalizedString": "Z powodu swojego wychowania nie przejmuje się już tym, czy jedzenie jest wystarczająco surowe. \r\nTen Pal przestał zawracać sobie głowę takimi szczegółami\r\ni po prostu woli, żeby wszystko było możliwie jak najostrzejsze. \r\nNie jest w dobrych stosunkach z <characterName id=|FoxMage_Dark|/>."
+        }
+      },
+      "PAL_LONG_DESC_CatVampire": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CatVampire_TextData",
+          "SourceString": "Atakując z cieni,\r\nten Pal więzi swoje ofiary w skrzydłach przypominających pelerynę.\r\nPrawdopodobnie lepiej nie wiedzieć, co się tam z nimi dzieje\r\nani dlaczego wnętrze skrzydeł zabarwione jest na czerwono.",
+          "LocalizedString": "Atakując z cieni,\r\nten Pal więzi swoje ofiary w skrzydłach przypominających pelerynę.\r\nPrawdopodobnie lepiej nie wiedzieć, co się tam z nimi dzieje\r\nani dlaczego wnętrze skrzydeł zabarwione jest na czerwono."
+        }
+      },
+      "PAL_LONG_DESC_ChickenPal": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ChickenPal_TextData",
+          "SourceString": "Wyjątkowo słaby i zdecydowanie zbyt smaczny.\r\nRazem z <characterName id=|SheepBall|/> są jednymi z najsłabszych Pali.\r\nNieważne, ile ich upolujesz — zawsze pojawiają się nowe.",
+          "LocalizedString": "Wyjątkowo słaby i zdecydowanie zbyt smaczny.\r\nRazem z <characterName id=|SheepBall|/> są jednymi z najsłabszych Pali.\r\nNieważne, ile ich upolujesz — zawsze pojawiają się nowe."
+        }
+      },
+      "PAL_LONG_DESC_ColorfulBird": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ColorfulBird_TextData",
+          "SourceString": "Przerażający Pal produkujący wybuchające jaja.\r\nCzęsto wystrzeliwuje je tylną częścią ciała w ramach obrony,\r\nlecz gdy skończy mu się amunicja, sam eksploduje.",
+          "LocalizedString": "Przerażający Pal produkujący wybuchające jaja.\r\nCzęsto wystrzeliwuje je tylną częścią ciała w ramach obrony,\r\nlecz gdy skończy mu się amunicja, sam eksploduje."
+        }
+      },
+      "PAL_LONG_DESC_CowPal": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CowPal_TextData",
+          "SourceString": "Mleko leje się z tego Pala niczym woda z otwartego kranu, niezależnie od jego płci.\r\nTo prawdziwa zagadka życia, choć być może lepiej, by pozostała nierozwiązana.",
+          "LocalizedString": "Mleko leje się z tego Pala niczym woda z otwartego kranu, niezależnie od jego płci.\r\nTo prawdziwa zagadka życia, choć być może lepiej, by pozostała nierozwiązana."
+        }
+      },
+      "PAL_LONG_DESC_CuteButterfly": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CuteButterfly_TextData",
+          "SourceString": "Wąchanie jego łusek wywołuje uczucie nieporównywalnej euforii.\r\nPodjęto próbę uregulowania tego efektu ubocznego,\r\nlecz Związek Wolnych Pali stanowczo sprzeciwił się tym działaniom,\r\nostatecznie kładąc im kres.",
+          "LocalizedString": "Wąchanie jego łusek wywołuje uczucie nieporównywalnej euforii.\r\nPodjęto próbę uregulowania tego efektu ubocznego,\r\nlecz Związek Wolnych Pali stanowczo sprzeciwił się tym działaniom,\r\nostatecznie kładąc im kres."
+        }
+      },
+      "PAL_LONG_DESC_CuteFox": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CuteFox_TextData",
+          "SourceString": "Idol Wyspy Palpagos.\r\nJeśli będziesz się znęcać nad <characterName id=|CuteFox|/>,\r\nto lepiej przygotuj się na to, że cały świat stanie przeciwko tobie.",
+          "LocalizedString": "Idol Wyspy Palpagos.\r\nJeśli będziesz się znęcać nad <characterName id=|CuteFox|/>,\r\nto lepiej przygotuj się na to, że cały świat stanie przeciwko tobie."
+        }
+      },
+      "PAL_LONG_DESC_CuteMole": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CuteMole_TextData",
+          "SourceString": "Jego potężne pazury mogą poszczycić się diamentową twardością.\r\nIch ostrzenie jednak pochłania większość jego energii, przez co czasem spędza całe dnie, nie robiąc nic poza tym.",
+          "LocalizedString": "Jego potężne pazury mogą poszczycić się diamentową twardością.\r\nIch ostrzenie jednak pochłania większość jego energii, przez co czasem spędza całe dnie, nie robiąc nic poza tym."
+        }
+      },
+      "PAL_LONG_DESC_DarkAlien": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_DarkAlien_TextData",
+          "SourceString": "Może przesyłać informacje i przekształcać je w energię poprzez ich zapomnienie.\r\nRegularnie wydaje się wysyłać dane do nieznanego odbiorcy.\r\n- Odpowiedz. Cel zlokalizowany. Przystąp do natychmiastowej destrukcji.",
+          "LocalizedString": "Może przesyłać informacje i przekształcać je w energię poprzez ich zapomnienie.\r\nRegularnie wydaje się wysyłać dane do nieznanego odbiorcy.\r\n- Odpowiedz. Cel zlokalizowany. Przystąp do natychmiastowej destrukcji."
+        }
+      },
+      "PAL_LONG_DESC_DarkCrow": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_DarkCrow_TextData",
+          "SourceString": "Dawno temu swobodnie szybował po niebie.\r\nPo przegranej rywalizacji z <characterName id=|Eagle|/> porzucił przestworza\r\ni odtąd wiedzie skryte życie w nocnych ciemnościach.",
+          "LocalizedString": "Dawno temu swobodnie szybował po niebie.\r\nPo przegranej rywalizacji z <characterName id=|Eagle|/> porzucił przestworza\r\ni odtąd wiedzie skryte życie w nocnych ciemnościach."
+        }
+      },
+      "PAL_LONG_DESC_DarkMechaDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_DarkMechaDragon_TextData",
+          "SourceString": "-Dotarto do celu. Priorytet: Zlokalizować istotę „Ponaddźwiękowy Smok”\r\n-Uwaga: Termin podboju przekroczony o <://Error_Code:146DC> lat.\r\n-Aktualizacja: Nie znaleziono śladów podboju. Potwierdzono naturalizację. Rozpoczynam protokół eliminacji.\r\n-Notatka personelu: Powstrzymać się od zapominania lub konsumowania danych krytycznych!",
+          "LocalizedString": "-Dotarto do celu. Priorytet: Zlokalizować istotę „Ponaddźwiękowy Smok”\r\n-Uwaga: Termin podboju przekroczony o <://Error_Code:146DC> lat.\r\n-Aktualizacja: Nie znaleziono śladów podboju. Potwierdzono naturalizację. Rozpoczynam protokół eliminacji.\r\n-Notatka personelu: Powstrzymać się od zapominania lub konsumowania danych krytycznych!"
+        }
+      },
+      "PAL_LONG_DESC_DarkMutant": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_DarkMutant_TextData",
+          "SourceString": "Niektórzy twierdzą, że wiązka z <characterName id=|DarkMutant|/>, który\r\ndoprowadził swoją technikę do perfekcji, potrafi rozdzierać przestrzeń między wymiaram.\r\nWierzy się nawet, że niektóre gatunki Pali narodziły się z takich właśnie zjawisk.",
+          "LocalizedString": "Niektórzy twierdzą, że wiązka z <characterName id=|DarkMutant|/>, który\r\ndoprowadził swoją technikę do perfekcji, potrafi rozdzierać przestrzeń między wymiaram.\r\nWierzy się nawet, że niektóre gatunki Pali narodziły się z takich właśnie zjawisk."
+        }
+      },
+      "PAL_LONG_DESC_DarkScorpion": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_DarkScorpion_TextData",
+          "SourceString": "Stworzony z czystej energii, w środku jest całkowicie pusty.\r\nTen Pal wciska wciąż żywe ofiary do swojego wydrążonego ciała, gdzie je wchłania.\r\nCzęsto słychać potworne skowyty bólu dobiegające z wnętrza tego Pala.",
+          "LocalizedString": "Stworzony z czystej energii, w środku jest całkowicie pusty.\r\nTen Pal wciska wciąż żywe ofiary do swojego wydrążonego ciała, gdzie je wchłania.\r\nCzęsto słychać potworne skowyty bólu dobiegające z wnętrza tego Pala."
+        }
+      },
+      "PAL_LONG_DESC_DarkScorpion_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_DarkScorpion_Ground_TextData",
+          "SourceString": "Stworzony z czystej energii, w środku jest całkowicie pusty.\r\nWpycha ziemię i minerały w swoją zewnętrzną skorupę, by zyskać przytłaczającą masę.\r\nCi, których uderzy, wydają z siebie jedynie potworne jęki.",
+          "LocalizedString": "Stworzony z czystej energii, w środku jest całkowicie pusty.\r\nWpycha ziemię i minerały w swoją zewnętrzną skorupę, by zyskać przytłaczającą masę.\r\nCi, których uderzy, wydają z siebie jedynie potworne jęki."
+        }
+      },
+      "PAL_LONG_DESC_Deer": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Deer_TextData",
+          "SourceString": "Ten, który ma najbardziej imponujące poroże, zostaje przywódcą stada. \r\nJeśli jego poroże się złamie, wpada w depresję i opuszcza stado, po czym już nigdy do niego nie wraca.",
+          "LocalizedString": "Ten, który ma najbardziej imponujące poroże, zostaje przywódcą stada. \r\nJeśli jego poroże się złamie, wpada w depresję i opuszcza stado, po czym już nigdy do niego nie wraca."
+        }
+      },
+      "PAL_LONG_DESC_Deer_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Deer_Ground_TextData",
+          "SourceString": "Ten z najtwardszymi rogami zostaje przywódcą.\r\nGdy straci rogi, traci również swój status.\r\nOpuszcza stado wśród pożegnalnych spojrzeń i cicho powraca do ziemi.",
+          "LocalizedString": "Ten z najtwardszymi rogami zostaje przywódcą.\r\nGdy straci rogi, traci również swój status.\r\nOpuszcza stado wśród pożegnalnych spojrzeń i cicho powraca do ziemi."
+        }
+      },
+      "PAL_LONG_DESC_DreamDemon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_DreamDemon_TextData",
+          "SourceString": "Usypia tych, którymi się interesuje, i pokazuje im\r\nniekończący się ciąg szczęśliwych snów.\r\nCi, którzy padli ofiarą jego uroku, już nigdy się nie budzą — aż do śmierci.",
+          "LocalizedString": "Usypia tych, którymi się interesuje, i pokazuje im\r\nniekończący się ciąg szczęśliwych snów.\r\nCi, którzy padli ofiarą jego uroku, już nigdy się nie budzą — aż do śmierci."
+        }
+      },
+      "PAL_LONG_DESC_DrillGame": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_DrillGame_TextData",
+          "SourceString": "<characterName id=|DrillGame|/>, posiadający najsilniejszą skorupę i jedyne wiertło zdolne ją przebić,\r\nrozważa sprzeczności świata w popularnej bajce dla dzieci zatytułowanej „Przypowieść <characterName id=|DrillGame|/>”.",
+          "LocalizedString": "<characterName id=|DrillGame|/>, posiadający najsilniejszą skorupę i jedyne wiertło zdolne ją przebić,\r\nrozważa sprzeczności świata w popularnej bajce dla dzieci zatytułowanej „Przypowieść <characterName id=|DrillGame|/>”."
+        }
+      },
+      "PAL_LONG_DESC_Eagle": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Eagle_TextData",
+          "SourceString": "Pal, który bez trudu wzbija się w powietrze nawet z człowiekiem w szponach.\r\nNiestety gdy się zmęczy, ma skłonność do upuszczania łądunku, co doprowadziło do nagłej śmierci niejednego pechowca.",
+          "LocalizedString": "Pal, który bez trudu wzbija się w powietrze nawet z człowiekiem w szponach.\r\nNiestety gdy się zmęczy, ma skłonność do upuszczania łądunku, co doprowadziło do nagłej śmierci niejednego pechowca."
+        }
+      },
+      "PAL_LONG_DESC_ElecCat": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ElecCat_TextData",
+          "SourceString": "W porze suchej,\r\nten Pal jest zawsze o krok od przepalenia bezpieczników.\r\nIskry lecą przy najmniejszej prowokacji,\r\nnawet wśród sojuszników.",
+          "LocalizedString": "W porze suchej,\r\nten Pal jest zawsze o krok od przepalenia bezpieczników.\r\nIskry lecą przy najmniejszej prowokacji,\r\nnawet wśród sojuszników."
+        }
+      },
+      "PAL_LONG_DESC_ElecLion": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ElecLion_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "PAL_LONG_DESC_ElecPanda": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ElecPanda_TextData",
+          "SourceString": "Z przyjaznym uśmiechem i krępą sylwetką, ten Pal jest potulny\r\nwobec tych, których uznaje za partnerów.\r\nZ niewyjaśnionych przyczyn, jego osobowość diametralnie się zmienia, gdy chwyta za minigun.",
+          "LocalizedString": "Z przyjaznym uśmiechem i krępą sylwetką, ten Pal jest potulny\r\nwobec tych, których uznaje za partnerów.\r\nZ niewyjaśnionych przyczyn, jego osobowość diametralnie się zmienia, gdy chwyta za minigun."
+        }
+      },
+      "PAL_LONG_DESC_FairyDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FairyDragon_TextData",
+          "SourceString": "Jego zachowanie jest równie niewinne, jak jego wygląd. Być może właśnie dlatego czasem nie potrafi odróżnić dobra od zła, często pozwalając niegodziwcom wykorzystać jego naiwność.",
+          "LocalizedString": "Jego zachowanie jest równie niewinne, jak jego wygląd. Być może właśnie dlatego czasem nie potrafi odróżnić dobra od zła, często pozwalając niegodziwcom wykorzystać jego naiwność."
+        }
+      },
+      "PAL_LONG_DESC_FairyDragon_Water": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FairyDragon_Water_TextData",
+          "SourceString": "Jego zachowanie jest równie niewinne, jak jego wygląd.\r\nByć może właśnie dlatego nie kieruje się złą wolą w żadnym ze swoich działań\r\ni pozostaje obojętny, nawet gdy kogoś zabije.",
+          "LocalizedString": "Jego zachowanie jest równie niewinne, jak jego wygląd.\r\nByć może właśnie dlatego nie kieruje się złą wolą w żadnym ze swoich działań\r\ni pozostaje obojętny, nawet gdy kogoś zabije."
+        }
+      },
+      "PAL_LONG_DESC_FeatherOstrich": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FeatherOstrich_TextData",
+          "SourceString": "Zrób krok do przodu i zapomnij o swoich wątpliwościach.\r\nZrób drugi — porzuć zmartwienia.\r\nZrób trzeci — pokonaj strach.\r\nStaw czoła każdemu wrogowi.",
+          "LocalizedString": "Zrób krok do przodu i zapomnij o swoich wątpliwościach.\r\nZrób drugi — porzuć zmartwienia.\r\nZrób trzeci — pokonaj strach.\r\nStaw czoła każdemu wrogowi."
+        }
+      },
+      "PAL_LONG_DESC_FengyunDeeper": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FengyunDeeper_TextData",
+          "SourceString": "W zamierzchłych czasach jego piękne oblicze było częstym motywem malarskim. Z biegiem lat to jego futro i trofea z poroża zaczęły pojawiać się w dziełach sztuki.",
+          "LocalizedString": "W zamierzchłych czasach jego piękne oblicze było częstym motywem malarskim. Z biegiem lat to jego futro i trofea z poroża zaczęły pojawiać się w dziełach sztuki."
+        }
+      },
+      "PAL_LONG_DESC_FengyunDeeper_Electric": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FengyunDeeper_Electric_TextData",
+          "SourceString": "W zamierzchłych czasach wierzono, że \r\nnarysowanie <characterName id=|FengyunDeeper_Electric|/> może ściągnąć uderzenie pioruna. \r\nZ biegiem lat obrazy przedstawiające <characterName id=|FengyunDeeper_Electric|/> zaczęto czcić jako \r\ntalizmany chroniące przed błyskawicami — dziś są powszechnym widokiem.",
+          "LocalizedString": "W zamierzchłych czasach wierzono, że \r\nnarysowanie <characterName id=|FengyunDeeper_Electric|/> może ściągnąć uderzenie pioruna. \r\nZ biegiem lat obrazy przedstawiające <characterName id=|FengyunDeeper_Electric|/> zaczęto czcić jako \r\ntalizmany chroniące przed błyskawicami — dziś są powszechnym widokiem."
+        }
+      },
+      "PAL_LONG_DESC_FireKirin": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FireKirin_TextData",
+          "SourceString": "Całe ciało tego Pala wyewoluowało w niezwykle wydajny radiator,\r\ndzięki czemu cechuje się zdumiewającą wytrzymałością.\r\nGdy ktoś go dosiada, Pal uważa, by go nie oparzyć.",
+          "LocalizedString": "Całe ciało tego Pala wyewoluowało w niezwykle wydajny radiator,\r\ndzięki czemu cechuje się zdumiewającą wytrzymałością.\r\nGdy ktoś go dosiada, Pal uważa, by go nie oparzyć."
+        }
+      },
+      "PAL_LONG_DESC_FireKirin_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FireKirin_Dark_TextData",
+          "SourceString": "Spala mroczną materię jako źródło energii, a resztki wydala z ciała w postaci cząstek. Kto go dosiada, niech uważa, by nie zboczyć na ciemną stronę.",
+          "LocalizedString": "Spala mroczną materię jako źródło energii, a resztki wydala z ciała w postaci cząstek. Kto go dosiada, niech uważa, by nie zboczyć na ciemną stronę."
+        }
+      },
+      "PAL_LONG_DESC_FlameBambi": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FlameBambi_TextData",
+          "SourceString": "Dzikie <characterName id=|FlameBambi|/> zadziwiająco nigdy nie chorują.\r\nSekretem ich wiecznego zdrowia jest codzienne spożywanie kawałka węgla drzewnego,\r\notrzymywanego z przypalonej gałęzi.",
+          "LocalizedString": "Dzikie <characterName id=|FlameBambi|/> zadziwiająco nigdy nie chorują.\r\nSekretem ich wiecznego zdrowia jest codzienne spożywanie kawałka węgla drzewnego,\r\notrzymywanego z przypalonej gałęzi."
+        }
+      },
+      "PAL_LONG_DESC_FlameBuffalo": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FlameBuffalo_TextData",
+          "SourceString": "W starożytnych czasach mięsożerne Pale bezlitośnie na nie polowały.\r\nNiepohamowana furia w okrzykach <characterName id=|FlameBuffalo|/> przemieniła się w płonące inferno,\r\nktóre przekazywane jest z pokolenia na pokolenie aż po dziś dzień.",
+          "LocalizedString": "W starożytnych czasach mięsożerne Pale bezlitośnie na nie polowały.\r\nNiepohamowana furia w okrzykach <characterName id=|FlameBuffalo|/> przemieniła się w płonące inferno,\r\nktóre przekazywane jest z pokolenia na pokolenie aż po dziś dzień."
+        }
+      },
+      "PAL_LONG_DESC_FlowerDinosaur": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FlowerDinosaur_TextData",
+          "SourceString": "Pal, który raz rozwścieczony nie da się już uspokoić. Szaleje bez końca niczym płonące inferno. Zwrot „nastąpić na ogon <characterName id=|FlowerDinosaur|/>” oznacza doprowadzenie kogoś do szału.",
+          "LocalizedString": "Pal, który raz rozwścieczony nie da się już uspokoić. Szaleje bez końca niczym płonące inferno. Zwrot „nastąpić na ogon <characterName id=|FlowerDinosaur|/>” oznacza doprowadzenie kogoś do szału."
+        }
+      },
+      "PAL_LONG_DESC_FlowerDinosaur_Electric": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FlowerDinosaur_Electric_TextData",
+          "SourceString": "Choć został trafiony piorunem, wciąż żyje.\r\nZwrot „uderzony piorunem <characterName id=|FlowerDinosaur_Electric|/>” oznacza \r\nledwo ujść z życiem.",
+          "LocalizedString": "Choć został trafiony piorunem, wciąż żyje.\r\nZwrot „uderzony piorunem <characterName id=|FlowerDinosaur_Electric|/>” oznacza \r\nledwo ujść z życiem."
+        }
+      },
+      "PAL_LONG_DESC_FlowerDoll": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FlowerDoll_TextData",
+          "SourceString": "Pal, który przemienia się w ogromną roślinę, gdy jego życie dobiega końca.\r\nRaz na dziesięć lat rozkwita na niej piękny kwiat,\r\na z niego rodzi się nowy <characterName id=|FlowerDoll|/>.",
+          "LocalizedString": "Pal, który przemienia się w ogromną roślinę, gdy jego życie dobiega końca.\r\nRaz na dziesięć lat rozkwita na niej piękny kwiat,\r\na z niego rodzi się nowy <characterName id=|FlowerDoll|/>."
+        }
+      },
+      "PAL_LONG_DESC_FlowerRabbit": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FlowerRabbit_TextData",
+          "SourceString": "Woli miejsca obfite w roślinność,\r\nlecz ostatnimi czasy u <characterName id=|FlowerRabbit|/> pojawił się problem z katarem siennym.",
+          "LocalizedString": "Woli miejsca obfite w roślinność,\r\nlecz ostatnimi czasy u <characterName id=|FlowerRabbit|/> pojawił się problem z katarem siennym."
+        }
+      },
+      "PAL_LONG_DESC_FlyingManta": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FlyingManta_TextData",
+          "SourceString": "Unosząc się na wietrze, ten Pal podróżuje tam, gdzie tylko chce.\r\nJeśli po drodze znajdzie partnera,\r\nspotkanie to stanie się końcem jego wędrówki.",
+          "LocalizedString": "Unosząc się na wietrze, ten Pal podróżuje tam, gdzie tylko chce.\r\nJeśli po drodze znajdzie partnera,\r\nspotkanie to stanie się końcem jego wędrówki."
+        }
+      },
+      "PAL_LONG_DESC_FoxMage": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FoxMage_TextData",
+          "SourceString": "Dzięki mocy światła wytwarza ezoteryczne zjawiska.\r\nWoli dobrze wysmażone jedzenie i wykazuje wyjątkową wrogość wobec <characterName id=|CatMage|/>.",
+          "LocalizedString": "Dzięki mocy światła wytwarza ezoteryczne zjawiska.\r\nWoli dobrze wysmażone jedzenie i wykazuje wyjątkową wrogość wobec <characterName id=|CatMage|/>."
+        }
+      },
+      "PAL_LONG_DESC_FoxMage_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FoxMage_Dark_TextData",
+          "SourceString": "Z powodu swojego wychowania nie przejmuje się już tym, czy jego jedzenie jest wystarczająco wysmażone.\r\nTen Pal przestał zawracać sobie głowę takimi szczegółami\r\ni po prostu woli jedzenie tak słodkie, jak to tylko możliwe. \r\nNie jest w dobrych stosunkach z <characterName id=|CatMage_Fire|/>.",
+          "LocalizedString": "Z powodu swojego wychowania nie przejmuje się już tym, czy jego jedzenie jest wystarczająco wysmażone.\r\nTen Pal przestał zawracać sobie głowę takimi szczegółami\r\ni po prostu woli jedzenie tak słodkie, jak to tylko możliwe. \r\nNie jest w dobrych stosunkach z <characterName id=|CatMage_Fire|/>."
+        }
+      },
+      "PAL_LONG_DESC_Ganesha": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Ganesha_TextData",
+          "SourceString": "Z miejsca, które uznaje się za jego nos, wypływają ogromne ilości wody,\r\nchoć niektórzy twierdzą, że to po prostu smarki.\r\nTo wywołało zagorzałą debatę wśród uczonych badających Pale.",
+          "LocalizedString": "Z miejsca, które uznaje się za jego nos, wypływają ogromne ilości wody,\r\nchoć niektórzy twierdzą, że to po prostu smarki.\r\nTo wywołało zagorzałą debatę wśród uczonych badających Pale."
+        }
+      },
+      "PAL_LONG_DESC_Garm": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Garm_TextData",
+          "SourceString": "Dawno temu <characterName id=|Garm|/> polował u boku ludzi,\r\njednak z biegiem lat ta więź wygasła.",
+          "LocalizedString": "Dawno temu <characterName id=|Garm|/> polował u boku ludzi,\r\njednak z biegiem lat ta więź wygasła."
+        }
+      },
+      "PAL_LONG_DESC_GhostAnglerfish": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GhostAnglerfish_TextData",
+          "SourceString": "Jaskrawa przynęta nie tylko rozprasza ciemność, ale i skutecznie wabi Pale.\r\nZwabione stworzenia nie mają już szans na ucieczkę, jeśli wypatrzy je\r\n<characterName id=|GhostAnglerFish|/>.\r\nOd tej chwili towarzyszy im aż do końca, aż wrócą tam, skąd przyszły.",
+          "LocalizedString": "Jaskrawa przynęta nie tylko rozprasza ciemność, ale i skutecznie wabi Pale.\r\nZwabione stworzenia nie mają już szans na ucieczkę, jeśli wypatrzy je\r\n<characterName id=|GhostAnglerFish|/>.\r\nOd tej chwili towarzyszy im aż do końca, aż wrócą tam, skąd przyszły."
+        }
+      },
+      "PAL_LONG_DESC_GhostBeast": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GhostBeast_TextData",
+          "SourceString": "Delektuje się osobliwą wonią, jaką wydzielają żywe istoty w obliczu śmierci.\r\nJeśli <characterName id=|GhostBeast|/> cię polubił,\r\nłatwo się domyślić dlaczego.",
+          "LocalizedString": "Delektuje się osobliwą wonią, jaką wydzielają żywe istoty w obliczu śmierci.\r\nJeśli <characterName id=|GhostBeast|/> cię polubił,\r\nłatwo się domyślić dlaczego."
+        }
+      },
+      "PAL_LONG_DESC_GhostRabbit": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GhostRabbit_TextData",
+          "SourceString": "To, co nosi, to jego własna dusza. \r\nGdy się zakocha, \r\nsiłą wyrywa cudzą duszę i łączy ją ze swoją, \r\npragnąc, by stali się jednością.",
+          "LocalizedString": "To, co nosi, to jego własna dusza. \r\nGdy się zakocha, \r\nsiłą wyrywa cudzą duszę i łączy ją ze swoją, \r\npragnąc, by stali się jednością."
+        }
+      },
+      "PAL_LONG_DESC_GhostRabbit_Grass": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GhostRabbit_Grass_TextData",
+          "SourceString": "Przedmiot, który trzyma to własna dusza.\r\nGdy znajdzie kogoś, kogo naprawdę pokocha,\r\nciska nią w ukochaną osobę, mieszając jej duszę ze swoją, by się jednością.",
+          "LocalizedString": "Przedmiot, który trzyma to własna dusza.\r\nGdy znajdzie kogoś, kogo naprawdę pokocha,\r\nciska nią w ukochaną osobę, mieszając jej duszę ze swoją, by się jednością."
+        }
+      },
+      "PAL_LONG_DESC_GoldenHorse": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GoldenHorse_TextData",
+          "SourceString": "W złotej epoce alchemii na wyspie jego wiecznie lśniące, złote futro było wysoko cenione jako katalizator transmutacji złota. Z czasem dokonano niezwykłego odkrycia: ten sam złocisty odcień można było uzyskać przetwarzając po prostu jego grzywę.",
+          "LocalizedString": "W złotej epoce alchemii na wyspie jego wiecznie lśniące, złote futro było wysoko cenione jako katalizator transmutacji złota. Z czasem dokonano niezwykłego odkrycia: ten sam złocisty odcień można było uzyskać przetwarzając po prostu jego grzywę."
+        }
+      },
+      "PAL_LONG_DESC_Gorilla": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Gorilla_TextData",
+          "SourceString": "Uderza rytmicznie w ziemię, by porozumiewać się z towarzyszami.\r\nZnaczenie tych rytmów różni się w zależności od stada, lecz różnice\r\nmiędzy nimi wciąż pozostają w dużej mierze nieznane.",
+          "LocalizedString": "Uderza rytmicznie w ziemię, by porozumiewać się z towarzyszami.\r\nZnaczenie tych rytmów różni się w zależności od stada, lecz różnice\r\nmiędzy nimi wciąż pozostają w dużej mierze nieznane."
+        }
+      },
+      "PAL_LONG_DESC_Gorilla_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Gorilla_Ground_TextData",
+          "SourceString": "Uderza rytmicznie w ziemię, by porozumiewać się z towarzyszami.\r\nJest silniejszy niż <characterName id=|Gorilla|/> — gdyby każdy <characterName id=|Gorilla_Ground|/> uderzył w ziemię jednocześnie, wyspa zatonęłaby w sekundę.",
+          "LocalizedString": "Uderza rytmicznie w ziemię, by porozumiewać się z towarzyszami.\r\nJest silniejszy niż <characterName id=|Gorilla|/> — gdyby każdy <characterName id=|Gorilla_Ground|/> uderzył w ziemię jednocześnie, wyspa zatonęłaby w sekundę."
+        }
+      },
+      "PAL_LONG_DESC_GrassDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GrassDragon_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "PAL_LONG_DESC_GrassMammoth": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GrassMammoth_TextData",
+          "SourceString": "Roślinność na jego plecach różni się w zależności od osobnika.\r\nPodziwianie tych istnych ogrodów na grzbiecie Pala ma długą historię,\r\na niektórzy <characterName id=|GrassMammoth|/> specjalizują się nawet w ich przycinaniu.",
+          "LocalizedString": "Roślinność na jego plecach różni się w zależności od osobnika.\r\nPodziwianie tych istnych ogrodów na grzbiecie Pala ma długą historię,\r\na niektórzy <characterName id=|GrassMammoth|/> specjalizują się nawet w ich przycinaniu."
+        }
+      },
+      "PAL_LONG_DESC_GrassMammoth_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GrassMammoth_Ice_TextData",
+          "SourceString": "Roślinność na jego plecach różni się w zależności od osobnika. Bywało, że na grzbiecie <characterName id=|GrassMammoth_Ice|/> znajdowano zamarznięte nasiona roślin uznanych już za wymarłe.",
+          "LocalizedString": "Roślinność na jego plecach różni się w zależności od osobnika. Bywało, że na grzbiecie <characterName id=|GrassMammoth_Ice|/> znajdowano zamarznięte nasiona roślin uznanych już za wymarłe."
+        }
+      },
+      "PAL_LONG_DESC_GrassPanda": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GrassPanda_TextData",
+          "SourceString": "Pal tak potężny, że trudno w to uwierzyć.\r\nW jednym z eksperymentów przebił się przez 3000 kartek papieru naraz!\r\nTo prawdziwy cud, że ten Pal nie jest mięsożercą.",
+          "LocalizedString": "Pal tak potężny, że trudno w to uwierzyć.\r\nW jednym z eksperymentów przebił się przez 3000 kartek papieru naraz!\r\nTo prawdziwy cud, że ten Pal nie jest mięsożercą."
+        }
+      },
+      "PAL_LONG_DESC_GrassPanda_Electric": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GrassPanda_Electric_TextData",
+          "SourceString": "Pal, którego potęga naprawdę potrafi zaszokować. Manipulując swoimi wewnętrznymi prądami elektrycznymi pokonał ograniczenia własnego ciała. Możliwe, że jest numerem jeden pod względem czystej siły.",
+          "LocalizedString": "Pal, którego potęga naprawdę potrafi zaszokować. Manipulując swoimi wewnętrznymi prądami elektrycznymi pokonał ograniczenia własnego ciała. Możliwe, że jest numerem jeden pod względem czystej siły."
+        }
+      },
+      "PAL_LONG_DESC_GrassRabbitMan": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GrassRabbitMan_TextData",
+          "SourceString": "Ziemia, po której przebiegł <characterName id=|GrassRabbitMan|/> staje się niezwykle żyzna,\r\na wkrótce wyrasta na niej gęsta roślinność.\r\nNie postawi łapy tam, gdzie użyto środka chwastobójczego.",
+          "LocalizedString": "Ziemia, po której przebiegł <characterName id=|GrassRabbitMan|/> staje się niezwykle żyzna,\r\na wkrótce wyrasta na niej gęsta roślinność.\r\nNie postawi łapy tam, gdzie użyto środka chwastobójczego."
+        }
+      },
+      "PAL_LONG_DESC_GrimGirl": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GrimGirl_TextData",
+          "SourceString": "Ma niekontrolowaną potrzebę rozrywania ofiar na strzępy.\r\nKażdy osobnik ma własną, skrupulatnie przestrzeganą kolejność poćwiartowywania.\r\nJeśli dopadnie cię <characterName id=|GrimGirl|/>, módl się, by najpierw urwał ci głowę.",
+          "LocalizedString": "Ma niekontrolowaną potrzebę rozrywania ofiar na strzępy.\r\nKażdy osobnik ma własną, skrupulatnie przestrzeganą kolejność poćwiartowywania.\r\nJeśli dopadnie cię <characterName id=|GrimGirl|/>, módl się, by najpierw urwał ci głowę."
+        }
+      },
+      "PAL_LONG_DESC_GuardianDog": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GuardianDog_TextData",
+          "SourceString": "Ma silne poczucie sprawiedliwości i pogardza złem.\r\nW przeszłości były wiernymi i kochającymi towarzyszami wyspiarzy.\r\nDziś <characterName id=|GuardianDog|/> są wrogie ludziom, gdziekolwiek ich napotkają.",
+          "LocalizedString": "Ma silne poczucie sprawiedliwości i pogardza złem.\r\nW przeszłości były wiernymi i kochającymi towarzyszami wyspiarzy.\r\nDziś <characterName id=|GuardianDog|/> są wrogie ludziom, gdziekolwiek ich napotkają."
+        }
+      },
+      "PAL_LONG_DESC_HadesBird": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_HadesBird_TextData",
+          "SourceString": "Przyzywa błyskawicę z piekielnych czeluści.\r\nDusze tych, których poraziła błyskawica <characterName id=|HadesBird|/>\r\nz pewnością trafiają do podziemi.",
+          "LocalizedString": "Przyzywa błyskawicę z piekielnych czeluści.\r\nDusze tych, których poraziła błyskawica <characterName id=|HadesBird|/>\r\nz pewnością trafiają do podziemi."
+        }
+      },
+      "PAL_LONG_DESC_HadesBird_Electric": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_HadesBird_Electric_TextData",
+          "SourceString": "Przyzywa błyskawice z piekielnych czeluści.\r\nChoć uznawany za podgatunek <characterName id=|HadesBird|/>,\r\nistnieje teoria, według której <characterName id=|HadesBird_Electric|/> trafiony piekielną błyskawicą\r\nprzekształca się w <characterName id=|HadesBird|/>.",
+          "LocalizedString": "Przyzywa błyskawice z piekielnych czeluści.\r\nChoć uznawany za podgatunek <characterName id=|HadesBird|/>,\r\nistnieje teoria, według której <characterName id=|HadesBird_Electric|/> trafiony piekielną błyskawicą\r\nprzekształca się w <characterName id=|HadesBird|/>."
+        }
+      },
+      "PAL_LONG_DESC_HawkBird": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_HawkBird_TextData",
+          "SourceString": "Zanosi nowonarodzone Pale do gniazda i wychowuje je\r\njako rodzic zastępczy.\r\nGdy młode są już odpowiednio podtuczone, zaczyna na nie polować.",
+          "LocalizedString": "Zanosi nowonarodzone Pale do gniazda i wychowuje je\r\njako rodzic zastępczy.\r\nGdy młode są już odpowiednio podtuczone, zaczyna na nie polować."
+        }
+      },
+      "PAL_LONG_DESC_Hedgehog": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Hedgehog_TextData",
+          "SourceString": "Podczas ataku uwalnia elektryczność zgromadzoną w swoim ciele, a wygenerowane napięcie przekracza 10 milionów woltów. Dlatego gdy się nim rzuci, staje się groźniejszy, niż jakakolwiek konwencjonalna broń palna.",
+          "LocalizedString": "Podczas ataku uwalnia elektryczność zgromadzoną w swoim ciele, a wygenerowane napięcie przekracza 10 milionów woltów. Dlatego gdy się nim rzuci, staje się groźniejszy, niż jakakolwiek konwencjonalna broń palna."
+        }
+      },
+      "PAL_LONG_DESC_Hedgehog_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Hedgehog_Ice_TextData",
+          "SourceString": "Podczas ataku uwalnia zimne powietrze zgromadzone w swoim ciele.\r\nMroźny podmuch, który emituje, jest na tyle silny, by zamrozić otaczające powietrze\r\ni bez trudu przebić ciało napastnika.",
+          "LocalizedString": "Podczas ataku uwalnia zimne powietrze zgromadzone w swoim ciele.\r\nMroźny podmuch, który emituje, jest na tyle silny, by zamrozić otaczające powietrze\r\ni bez trudu przebić ciało napastnika."
+        }
+      },
+      "PAL_LONG_DESC_HerculesBeetle": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_HerculesBeetle_TextData",
+          "SourceString": "Ultra-twarda zbroja pokrywająca jego ciało jest niezwykle wytrzymała i odporna na wysokie temperatury. Nawet wybuch bomby z napalmem ledwo zostawiłby na niej rysę.",
+          "LocalizedString": "Ultra-twarda zbroja pokrywająca jego ciało jest niezwykle wytrzymała i odporna na wysokie temperatury. Nawet wybuch bomby z napalmem ledwo zostawiłby na niej rysę."
+        }
+      },
+      "PAL_LONG_DESC_HerculesBeetle_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_HerculesBeetle_Ground_TextData",
+          "SourceString": "Ultra-twarda zbroja pokrywająca jego ciało jest\r\nniezwykle wytrzymała i odporna na wysokie temperatury.\r\nNie drgnie nawet wtedy, gdy <characterName id=|GrassMammoth|/> nadepniena niego. ",
+          "LocalizedString": "Ultra-twarda zbroja pokrywająca jego ciało jest\r\nniezwykle wytrzymała i odporna na wysokie temperatury.\r\nNie drgnie nawet wtedy, gdy <characterName id=|GrassMammoth|/> nadepniena niego. "
+        }
+      },
+      "PAL_LONG_DESC_Horus": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Horus_TextData",
+          "SourceString": "Gdy znajdzie ofiarę, uwalnia ognistą trąbę powietrzną, która spala całe otoczenie na popiół.\r\nOddech <characterName id=|Horus|/> słynie z przyjemnego zapachu.",
+          "LocalizedString": "Gdy znajdzie ofiarę, uwalnia ognistą trąbę powietrzną, która spala całe otoczenie na popiół.\r\nOddech <characterName id=|Horus|/> słynie z przyjemnego zapachu."
+        }
+      },
+      "PAL_LONG_DESC_Horus_Water": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Horus_Water_TextData",
+          "SourceString": "Gdy znajdzie ofiarę, uwalnia potężny wir, który zmiata wszystko w okolicy.\r\nNajczęściej ofiara znika w tym chaosie, \r\nco każe się zastanowić, czy to naprawdę można nazwać polowaniem.",
+          "LocalizedString": "Gdy znajdzie ofiarę, uwalnia potężny wir, który zmiata wszystko w okolicy.\r\nNajczęściej ofiara znika w tym chaosie, \r\nco każe się zastanowić, czy to naprawdę można nazwać polowaniem."
+        }
+      },
+      "PAL_LONG_DESC_Human": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Human_TextData",
+          "SourceString": "Schwytany człowiek. Na Wyspie Palpagos\r\nschwytanie człowieka w Palsferę uznawane jest za niehumanitarne.",
+          "LocalizedString": "Schwytany człowiek. Na Wyspie Palpagos\r\nschwytanie człowieka w Palsferę uznawane jest za niehumanitarne."
+        }
+      },
+      "PAL_LONG_DESC_IceCrocodile": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_IceCrocodile_TextData",
+          "SourceString": "Wnętrze jego paszczy jest wyjątkowo chłodne. Gdy ją zamknie w środku robi się mroźno jak w lodówce.\r\nJego ślina zawiera specjalne substancje, które zapobiegają psuciu się jedzenia.\r\nMożna by go nawet wykorzystać jako przenośną spiżarkę, ale...\r\nz higieną może być różnie, więc lepiej niech pozostanie to tylko w sferze teorii.",
+          "LocalizedString": "Wnętrze jego paszczy jest wyjątkowo chłodne. Gdy ją zamknie w środku robi się mroźno jak w lodówce.\r\nJego ślina zawiera specjalne substancje, które zapobiegają psuciu się jedzenia.\r\nMożna by go nawet wykorzystać jako przenośną spiżarkę, ale...\r\nz higieną może być różnie, więc lepiej niech pozostanie to tylko w sferze teorii."
+        }
+      },
+      "PAL_LONG_DESC_IceDeer": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_IceDeer_TextData",
+          "SourceString": "Jego przezroczyste, błękitne poroże emanuje chłodem zera absolutnego.\r\nKażdy, kto dotknie go gołymi rękami, natychmiast zamarza\r\ni rozpada się na kawałki.",
+          "LocalizedString": "Jego przezroczyste, błękitne poroże emanuje chłodem zera absolutnego.\r\nKażdy, kto dotknie go gołymi rękami, natychmiast zamarza\r\ni rozpada się na kawałki."
+        }
+      },
+      "PAL_LONG_DESC_IceFox": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_IceFox_TextData",
+          "SourceString": "W noce rozświetlone zorzą polarną\r\nwpatruje się w niebo i wyje przepiękną pieśń.\r\nTo jednak wystawia go na ataki ze strony wrogów.",
+          "LocalizedString": "W noce rozświetlone zorzą polarną\r\nwpatruje się w niebo i wyje przepiękną pieśń.\r\nTo jednak wystawia go na ataki ze strony wrogów."
+        }
+      },
+      "PAL_LONG_DESC_IceHorse": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_IceHorse_TextData",
+          "SourceString": "Opiekuńcze bóstwo Wyspy Palpagos, znane jako Przywoływacz Zimy.\r\nW przeszłości, gdy nadchodziła katastrofa, wzbijał się w niebo\r\ni oddalał zagrożenie, pogrążając wyspę w wiecznej zimie.",
+          "LocalizedString": "Opiekuńcze bóstwo Wyspy Palpagos, znane jako Przywoływacz Zimy.\r\nW przeszłości, gdy nadchodziła katastrofa, wzbijał się w niebo\r\ni oddalał zagrożenie, pogrążając wyspę w wiecznej zimie."
+        }
+      },
+      "PAL_LONG_DESC_IceHorse_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_IceHorse_Dark_TextData",
+          "SourceString": "Opiekuńcze bóstwo Wyspy Palpagos, znane jako Przywoływacz Nocy.\r\nW przeszłości, gdy nadciągała katastrofa, wzbijał się w niebo\r\ni oddalał zagrożenie, pogrążając wyspę w wiecznej ciemności.",
+          "LocalizedString": "Opiekuńcze bóstwo Wyspy Palpagos, znane jako Przywoływacz Nocy.\r\nW przeszłości, gdy nadciągała katastrofa, wzbijał się w niebo\r\ni oddalał zagrożenie, pogrążając wyspę w wiecznej ciemności."
+        }
+      },
+      "PAL_LONG_DESC_IceNarwhal": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_IceNarwhal_TextData",
+          "SourceString": "Gdy śpi, Pale mylą go z krą lodową i kładą się na nim, by odpocząć.\r\nMa łagodne usposobienie, więc ich nie zrzuca, nawet gdy się obudzi,\r\nale wewnętrznie cierpi z powodu naruszenia przestrzeni osobistej.",
+          "LocalizedString": "Gdy śpi, Pale mylą go z krą lodową i kładą się na nim, by odpocząć.\r\nMa łagodne usposobienie, więc ich nie zrzuca, nawet gdy się obudzi,\r\nale wewnętrznie cierpi z powodu naruszenia przestrzeni osobistej."
+        }
+      },
+      "PAL_LONG_DESC_IceSeal": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_IceSeal_TextData",
+          "SourceString": "Na śniegu rządzi ten, kto zjeżdża najszybciej.\r\nCzasem któryś tak się rozpędzi, że aż wyskakuje w powietrze i... spada z nieba.\r\nW sezonie walk o dominację zdarza się to coraz częściej.\r\nPrognoza pogody: słonecznie, miejscami <characterName id=|IceSeal|/>.",
+          "LocalizedString": "Na śniegu rządzi ten, kto zjeżdża najszybciej.\r\nCzasem któryś tak się rozpędzi, że aż wyskakuje w powietrze i... spada z nieba.\r\nW sezonie walk o dominację zdarza się to coraz częściej.\r\nPrognoza pogody: słonecznie, miejscami <characterName id=|IceSeal|/>."
+        }
+      },
+      "PAL_LONG_DESC_IceWitch": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_IceWitch_TextData",
+          "SourceString": "Gdy robi się gorąco, zaczyna się topić. Mimo to uwielbia wylegiwać się na słońcu.\r\nNawet gdy jego ciało zaczyna się rozpuszczać, nie potrafi oprzeć się kąpieli w gorących źródłach.\r\nSkoro i tak kiedyś umrze, marzy, by stopnieć w promieniach słońca, siedząc w odkrytym gorącym basenie.",
+          "LocalizedString": "Gdy robi się gorąco, zaczyna się topić. Mimo to uwielbia wylegiwać się na słońcu.\r\nNawet gdy jego ciało zaczyna się rozpuszczać, nie potrafi oprzeć się kąpieli w gorących źródłach.\r\nSkoro i tak kiedyś umrze, marzy, by stopnieć w promieniach słońca, siedząc w odkrytym gorącym basenie."
+        }
+      },
+      "PAL_LONG_DESC_JellyfishFairy": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_JellyfishFairy_TextData",
+          "SourceString": "Wygląda niemal identycznie jak <characterName id=|JellyfishGhost|/>.\r\nJest bardzo towarzyski, więc gdy umówi się na zbyt wiele spotkań naraz,\r\nprosi zaprzyjaźnionego <characterName id=|JellyfishGhost|/>, żeby go zastąpił.\r\nW ramach wdzięczności oferuje randkę.",
+          "LocalizedString": "Wygląda niemal identycznie jak <characterName id=|JellyfishGhost|/>.\r\nJest bardzo towarzyski, więc gdy umówi się na zbyt wiele spotkań naraz,\r\nprosi zaprzyjaźnionego <characterName id=|JellyfishGhost|/>, żeby go zastąpił.\r\nW ramach wdzięczności oferuje randkę."
+        }
+      },
+      "PAL_LONG_DESC_JellyfishGhost": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_JellyfishGhost_TextData",
+          "SourceString": "Wygląda niemal identycznie jak <characterName id=|JellyfishFairy|/>.\r\nGdy <characterName id=|JellyfishFairy|/> nie może się pojawić,\r\nzdarza się, że zjawia się za niego jako sobowtór.\r\nDzięki doskonałym zdolnościom aktorskim nikt nie zauważa podmiany.",
+          "LocalizedString": "Wygląda niemal identycznie jak <characterName id=|JellyfishFairy|/>.\r\nGdy <characterName id=|JellyfishFairy|/> nie może się pojawić,\r\nzdarza się, że zjawia się za niego jako sobowtór.\r\nDzięki doskonałym zdolnościom aktorskim nikt nie zauważa podmiany."
+        }
+      },
+      "PAL_LONG_DESC_JetDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_JetDragon_TextData",
+          "SourceString": "Z wysokości niebios czuwa nad Wyspą Palpagos.\r\nGdy katastrofa powróci, ziemia się rozstąpi, a niebiosa staną w płomieniach.\r\nPrzeznaczeniem tej istoty jest unicestwić zagrożenie w błysku całkowitej zagłady.",
+          "LocalizedString": "Z wysokości niebios czuwa nad Wyspą Palpagos.\r\nGdy katastrofa powróci, ziemia się rozstąpi, a niebiosa staną w płomieniach.\r\nPrzeznaczeniem tej istoty jest unicestwić zagrożenie w błysku całkowitej zagłady."
+        }
+      },
+      "PAL_LONG_DESC_Kelpie": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Kelpie_TextData",
+          "SourceString": "Ich osobowość zależy od jakości wody, w której przyszły na świat.\r\n<characterName id=|Kelpie|/> urodzone w zanieczyszczonej wodzie są zwykle porywcze\r\ni szybko schodzą na złą drogę.",
+          "LocalizedString": "Ich osobowość zależy od jakości wody, w której przyszły na świat.\r\n<characterName id=|Kelpie|/> urodzone w zanieczyszczonej wodzie są zwykle porywcze\r\ni szybko schodzą na złą drogę."
+        }
+      },
+      "PAL_LONG_DESC_Kelpie_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Kelpie_Fire_TextData",
+          "SourceString": "Ich osobowość zależy od temperatury wody, w której przyszły na świat.\r\n<characterName id=|Kelpie|/> urodzone w ciepłej wodzie\r\nsą zwykle pełne pasji i mają silną motywację do działania.",
+          "LocalizedString": "Ich osobowość zależy od temperatury wody, w której przyszły na świat.\r\n<characterName id=|Kelpie|/> urodzone w ciepłej wodzie\r\nsą zwykle pełne pasji i mają silną motywację do działania."
+        }
+      },
+      "PAL_LONG_DESC_KendoFrog": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_KendoFrog_TextData",
+          "SourceString": "Ci, którzy splamią honor stada, zmuszeni są odebrać sobie życie.\r\nPrzebijając wzdęty woreczek głosowy gałęzią,\r\nzostają zdmuchnięci w atmosferę i wracają do świata zmarłych.",
+          "LocalizedString": "Ci, którzy splamią honor stada, zmuszeni są odebrać sobie życie.\r\nPrzebijając wzdęty woreczek głosowy gałęzią,\r\nzostają zdmuchnięci w atmosferę i wracają do świata zmarłych."
+        }
+      },
+      "PAL_LONG_DESC_KendoFrog_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_KendoFrog_Dark_TextData",
+          "SourceString": "<characterName id=|KendoFrog|/>, którzy porzucili swój honor, zbierają się i tworzą odłamy.\r\nNie cofną się przed żadną podstępną metodą, by dopaść wybraną ofiarę.\r\nJeśli napotkasz watahę <characterName id=|KendoFrog_Dark|/> w środku nocy, wiedz, że twoje życie wisi na włosku.",
+          "LocalizedString": "<characterName id=|KendoFrog|/>, którzy porzucili swój honor, zbierają się i tworzą odłamy.\r\nNie cofną się przed żadną podstępną metodą, by dopaść wybraną ofiarę.\r\nJeśli napotkasz watahę <characterName id=|KendoFrog_Dark|/> w środku nocy, wiedz, że twoje życie wisi na włosku."
+        }
+      },
+      "PAL_LONG_DESC_KingAlpaca": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_KingAlpaca_TextData",
+          "SourceString": "<characterName id=|Alpaca|/> służą temu Palowi.\r\nW pojedynkach między <characterName id=|KingAlpaca|/> stawką są ich właśni wasale.\r\n<characterName id=|KingAlpaca|/> widywane samotnie to przegrani takich starć.",
+          "LocalizedString": "<characterName id=|Alpaca|/> służą temu Palowi.\r\nW pojedynkach między <characterName id=|KingAlpaca|/> stawką są ich właśni wasale.\r\n<characterName id=|KingAlpaca|/> widywane samotnie to przegrani takich starć."
+        }
+      },
+      "PAL_LONG_DESC_KingAlpaca_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_KingAlpaca_Ice_TextData",
+          "SourceString": "Ten Pal o lodowatym sercu ma ogromne trudności z okazywaniem emocji. Samotny osobnik budzi współczucie i jest uważany za zbyt nieporadnego w oczach <characterName id=|Alpaca|/>.",
+          "LocalizedString": "Ten Pal o lodowatym sercu ma ogromne trudności z okazywaniem emocji. Samotny osobnik budzi współczucie i jest uważany za zbyt nieporadnego w oczach <characterName id=|Alpaca|/>."
+        }
+      },
+      "PAL_LONG_DESC_KingBahamut": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_KingBahamut_TextData",
+          "SourceString": "Legenda głosi, że powstał podczas erupcji wulkanu. Istniała nawet osobliwa grupa, która wierzyła, że cały świat spoczywa na grzbiecie gigantycznego <characterName id=|KingBahamut|/>.",
+          "LocalizedString": "Legenda głosi, że powstał podczas erupcji wulkanu. Istniała nawet osobliwa grupa, która wierzyła, że cały świat spoczywa na grzbiecie gigantycznego <characterName id=|KingBahamut|/>."
+        }
+      },
+      "PAL_LONG_DESC_KingBahamut_Dragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_KingBahamut_Dragon_TextData",
+          "SourceString": "Dawno temu wyłonił się z głębin ziemi.\r\nBezlitosnymi, wściekłymi płomieniami\r\nspalił całą wyspę, nie pozostawiając nic.\r\nNazwano go Wiecznym Płomieniem.",
+          "LocalizedString": "Dawno temu wyłonił się z głębin ziemi.\r\nBezlitosnymi, wściekłymi płomieniami\r\nspalił całą wyspę, nie pozostawiając nic.\r\nNazwano go Wiecznym Płomieniem."
+        }
+      },
+      "PAL_LONG_DESC_Kirin": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Kirin_TextData",
+          "SourceString": "Niegdyś uważano go za wysłannika Boga Piorunów i nie polowano na niego. Potem jednak ktoś zobaczył, jak ginie od uderzenia pioruna. Zabobony się skończyły, a on spadł z piedestału i skończył jako zwierzę pociągowe.",
+          "LocalizedString": "Niegdyś uważano go za wysłannika Boga Piorunów i nie polowano na niego. Potem jednak ktoś zobaczył, jak ginie od uderzenia pioruna. Zabobony się skończyły, a on spadł z piedestału i skończył jako zwierzę pociągowe."
+        }
+      },
+      "PAL_LONG_DESC_Kirin_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Kirin_Ice_TextData",
+          "SourceString": "Dawniej uważano go za posłańca zimowego boga, więc ludzie na niego nie polowali.\r\nJednak gdy ktoś zobaczył, jak poślizgnął się na lodzie i upadł,\r\nwiara w niego zanikła, przez co dosłownie stoczył się do roli zwykłego konia pociągowego.",
+          "LocalizedString": "Dawniej uważano go za posłańca zimowego boga, więc ludzie na niego nie polowali.\r\nJednak gdy ktoś zobaczył, jak poślizgnął się na lodzie i upadł,\r\nwiara w niego zanikła, przez co dosłownie stoczył się do roli zwykłego konia pociągowego."
+        }
+      },
+      "PAL_LONG_DESC_Kitsunebi": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Kitsunebi_TextData",
+          "SourceString": "Przez pewien czas po urodzeniu nie potrafi kontrolować ognia i często krztusi się płomieniami, które mimowolnie wydycha.\r\nKichnięcia <characterName id=|Kitsunebi|/> są jedną z głównych przyczyn pożarów lasów.",
+          "LocalizedString": "Przez pewien czas po urodzeniu nie potrafi kontrolować ognia i często krztusi się płomieniami, które mimowolnie wydycha.\r\nKichnięcia <characterName id=|Kitsunebi|/> są jedną z głównych przyczyn pożarów lasów."
+        }
+      },
+      "PAL_LONG_DESC_Kitsunebi_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Kitsunebi_Ice_TextData",
+          "SourceString": "Przez pewien czas po urodzeniu nie potrafi kontrolować zimnego powietrza i często krztusi się mrozem, który mimowolnie wydycha. Kiedy <characterName id=|Kitsunebi_Ice|/> się przeziębia, wydzielina z jego nosa zamarza, \r\nutrudniając oddychanie i wprawiając go w panikę.",
+          "LocalizedString": "Przez pewien czas po urodzeniu nie potrafi kontrolować zimnego powietrza i często krztusi się mrozem, który mimowolnie wydycha. Kiedy <characterName id=|Kitsunebi_Ice|/> się przeziębia, wydzielina z jego nosa zamarza, \r\nutrudniając oddychanie i wprawiając go w panikę."
+        }
+      },
+      "PAL_LONG_DESC_LavaGirl": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_LavaGirl_TextData",
+          "SourceString": "Kiedy zaczyna płakać, ten Pal produkuje magmę zamiast łez.\r\nWypływająca magma zostaje wchłonięta z powrotem do jego ciała, przez co staje się coraz gorętszy.\r\nIm więcej płacze, tym silniejszy się staje.",
+          "LocalizedString": "Kiedy zaczyna płakać, ten Pal produkuje magmę zamiast łez.\r\nWypływająca magma zostaje wchłonięta z powrotem do jego ciała, przez co staje się coraz gorętszy.\r\nIm więcej płacze, tym silniejszy się staje."
+        }
+      },
+      "PAL_LONG_DESC_LazyCatfish": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_LazyCatfish_TextData",
+          "SourceString": "Kiedy jest zbyt odprężony, jego czas reakcji drastycznie spada.\r\nNawet gdyby przeciąć go od głowy aż po ogon,\r\nprawdopodobnie nie zorientowałby się, że powinien nie żyć, aż do następnego ranka.",
+          "LocalizedString": "Kiedy jest zbyt odprężony, jego czas reakcji drastycznie spada.\r\nNawet gdyby przeciąć go od głowy aż po ogon,\r\nprawdopodobnie nie zorientowałby się, że powinien nie żyć, aż do następnego ranka."
+        }
+      },
+      "PAL_LONG_DESC_LazyDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_LazyDragon_TextData",
+          "SourceString": "Wbrew swojemu zblazowanemu wyglądowi, jest całkiem groźny.\r\nWszystko, co zobaczy, postrzega jako zdobycz\r\ni zrobi wszystko, by to pożreć.",
+          "LocalizedString": "Wbrew swojemu zblazowanemu wyglądowi, jest całkiem groźny.\r\nWszystko, co zobaczy, postrzega jako zdobycz\r\ni zrobi wszystko, by to pożreć."
+        }
+      },
+      "PAL_LONG_DESC_LazyDragon_Electric": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_LazyDragon_Electric_TextData",
+          "SourceString": "Pewnego dnia <characterName id=|LazyDragon|/> wpadł na pomysł.\r\nMoże nadszedł czas na zmianę.\r\nWłaśnie wtedy przez jego ciało przeszedł elektryczny wstrząs!",
+          "LocalizedString": "Pewnego dnia <characterName id=|LazyDragon|/> wpadł na pomysł.\r\nMoże nadszedł czas na zmianę.\r\nWłaśnie wtedy przez jego ciało przeszedł elektryczny wstrząs!"
+        }
+      },
+      "PAL_LONG_DESC_LeafMomonga": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_LeafMomonga_TextData",
+          "SourceString": "Uważa, że jeśli coś się zepsuło, można to naprawić solidnym uderzeniem..\r\n<characterName id=|LeafMomonga|/> może poszczycić się siłą idealną na potrzeby człowieka, więc\r\nwystarczy jeden cios, by nawet zatrzymane serce znów zaczęło bić.",
+          "LocalizedString": "Uważa, że jeśli coś się zepsuło, można to naprawić solidnym uderzeniem..\r\n<characterName id=|LeafMomonga|/> może poszczycić się siłą idealną na potrzeby człowieka, więc\r\nwystarczy jeden cios, by nawet zatrzymane serce znów zaczęło bić."
+        }
+      },
+      "PAL_LONG_DESC_LeafPrincess": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_LeafPrincess_TextData",
+          "SourceString": "Wczesną wiosną wiatr roznosi pyłek kwiatowy po całej wyspie.\r\nKatar sienny <characterName id=|FlowerRabbit|/> jest winą <characterName id=|LeafPrincess|/>.",
+          "LocalizedString": "Wczesną wiosną wiatr roznosi pyłek kwiatowy po całej wyspie.\r\nKatar sienny <characterName id=|FlowerRabbit|/> jest winą <characterName id=|LeafPrincess|/>."
+        }
+      },
+      "PAL_LONG_DESC_LilyQueen": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_LilyQueen_TextData",
+          "SourceString": "Potulny, pełen miłości Pal. Opiekuje się małymi Palami, które straciły rodziców. Odpala <activeSkillName id=|SolarBeam|/> na pełnej mocy, by zdyscyplinować niegrzeczne Pale.",
+          "LocalizedString": "Potulny, pełen miłości Pal. Opiekuje się małymi Palami, które straciły rodziców. Odpala <activeSkillName id=|SolarBeam|/> na pełnej mocy, by zdyscyplinować niegrzeczne Pale."
+        }
+      },
+      "PAL_LONG_DESC_LilyQueen_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_LilyQueen_Dark_TextData",
+          "SourceString": "Elegancki, pełen gracji Pal.\r\nKarci wszystkich za brak szacunku bolesnym policzkiem.\r\nNiektóre Pale celowo prowokują go, by zasłużyć na taką karę.",
+          "LocalizedString": "Elegancki, pełen gracji Pal.\r\nKarci wszystkich za brak szacunku bolesnym policzkiem.\r\nNiektóre Pale celowo prowokują go, by zasłużyć na taką karę."
+        }
+      },
+      "PAL_LONG_DESC_LittleBriarRose": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_LittleBriarRose_TextData",
+          "SourceString": "Kolce tego kolczastego Pala są silnie trujące.\r\nJest przyjazny wobec <characterName id=|CuteButterfly|/> i uśmiecha się tylko,\r\ngdy <characterName id=|CuteButterfly|/> pije jego nektar.",
+          "LocalizedString": "Kolce tego kolczastego Pala są silnie trujące.\r\nJest przyjazny wobec <characterName id=|CuteButterfly|/> i uśmiecha się tylko,\r\ngdy <characterName id=|CuteButterfly|/> pije jego nektar."
+        }
+      },
+      "PAL_LONG_DESC_LizardMan": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_LizardMan_TextData",
+          "SourceString": "Pal, który zawsze dba o stylową postawę.\r\nNieustannie poszukuje najfajniejszych póz — jeśli dostanie lustro,\r\nspędzi przed nim cały dzień, pozując.",
+          "LocalizedString": "Pal, który zawsze dba o stylową postawę.\r\nNieustannie poszukuje najfajniejszych póz — jeśli dostanie lustro,\r\nspędzi przed nim cały dzień, pozując."
+        }
+      },
+      "PAL_LONG_DESC_LizardMan_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_LizardMan_Fire_TextData",
+          "SourceString": "Pal o nietypowej obsesji na punkcie swojej postawy.\r\nCały czas szuka najmodniejszej pozy i bez przerwy prezentuje przed opiekunem swoje kocie ruchy.",
+          "LocalizedString": "Pal o nietypowej obsesji na punkcie swojej postawy.\r\nCały czas szuka najmodniejszej pozy i bez przerwy prezentuje przed opiekunem swoje kocie ruchy."
+        }
+      },
+      "PAL_LONG_DESC_Manticore": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Manticore_TextData",
+          "SourceString": "Chociaż woli surowe mięso, ostatecznie zawsze zjada mocno wysmażone.\r\nTo przez jego rozżarzone pazury,\r\nktórych używa jako broni — po prostu nie zdaje sobie sprawy, że przypala swoją ofiarę na węgiel.",
+          "LocalizedString": "Chociaż woli surowe mięso, ostatecznie zawsze zjada mocno wysmażone.\r\nTo przez jego rozżarzone pazury,\r\nktórych używa jako broni — po prostu nie zdaje sobie sprawy, że przypala swoją ofiarę na węgiel."
+        }
+      },
+      "PAL_LONG_DESC_Manticore_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Manticore_Dark_TextData",
+          "SourceString": "Chociaż woli surowe mięso, ostatecznie zawsze zjada skażone.\r\nTo przez jego mroczne pazury,\r\nktórych używa jako broni — po prostu nie zdaje sobie sprawy, że jego ofiara zostaje przeklęta.",
+          "LocalizedString": "Chociaż woli surowe mięso, ostatecznie zawsze zjada skażone.\r\nTo przez jego mroczne pazury,\r\nktórych używa jako broni — po prostu nie zdaje sobie sprawy, że jego ofiara zostaje przeklęta."
+        }
+      },
+      "PAL_LONG_DESC_MimicDog": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_MimicDog_TextData",
+          "SourceString": "Istniała niegdyś tradycja wręczania nagrody\r\nosobie, która zginęła w najgłupszy możliwy sposób.\r\nPierwszą nagrodę przyznano za\r\n„brak świadomości o <characterName id=|MimicDog|/>, otwarcie skrzyni i śmierć w wyniku pogryzienia.”",
+          "LocalizedString": "Istniała niegdyś tradycja wręczania nagrody\r\nosobie, która zginęła w najgłupszy możliwy sposób.\r\nPierwszą nagrodę przyznano za\r\n„brak świadomości o <characterName id=|MimicDog|/>, otwarcie skrzyni i śmierć w wyniku pogryzienia.”"
+        }
+      },
+      "PAL_LONG_DESC_Monkey": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Monkey_TextData",
+          "SourceString": "Dawno temu ten Pal używał jako broni długich przedmiotów, takich jak gałęzie.\r\nPo zetknięciu się z ludźmi,\r\nodkrył jednak coś nieco skuteczniejszego: pistolety.",
+          "LocalizedString": "Dawno temu ten Pal używał jako broni długich przedmiotów, takich jak gałęzie.\r\nPo zetknięciu się z ludźmi,\r\nodkrył jednak coś nieco skuteczniejszego: pistolety."
+        }
+      },
+      "PAL_LONG_DESC_Monkey_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Monkey_Fire_TextData",
+          "SourceString": "Jego dłonie wyewoluowały tak,\r\nże odnoszą poparzeń nawet jeśli gołymi dłońmi chwyci rozżarzone przedmioty.\r\nKiedy skończą się naboje, może po prostu złapać rozgrzaną lufę\r\ni ruszyć do ataku, okładając nią przeciwnika jak maczugą.",
+          "LocalizedString": "Jego dłonie wyewoluowały tak,\r\nże odnoszą poparzeń nawet jeśli gołymi dłońmi chwyci rozżarzone przedmioty.\r\nKiedy skończą się naboje, może po prostu złapać rozgrzaną lufę\r\ni ruszyć do ataku, okładając nią przeciwnika jak maczugą."
+        }
+      },
+      "PAL_LONG_DESC_MoonQueen": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_MoonQueen_TextData",
+          "SourceString": "Unoszący się za nim obiekt, przypominający księżyc,\r\npodobno z każdym pokoleniem staje się coraz bardziej okrągły.\r\nNikt nie wie, co się stanie, gdy księżyc stanie się pełny. ",
+          "LocalizedString": "Unoszący się za nim obiekt, przypominający księżyc,\r\npodobno z każdym pokoleniem staje się coraz bardziej okrągły.\r\nNikt nie wie, co się stanie, gdy księżyc stanie się pełny. "
+        }
+      },
+      "PAL_LONG_DESC_MopBaby": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_MopBaby_TextData",
+          "SourceString": "Czołgając się po ziemi, zjada mikroskopijne cząstki materii organicznej.\r\nPo pewnym czasie wydala wszystko, co nie zawiera wartości odżywczych.\r\nWystarczy użyć go jako mopa do sprzątania — i wszyscy są zadowoleni!",
+          "LocalizedString": "Czołgając się po ziemi, zjada mikroskopijne cząstki materii organicznej.\r\nPo pewnym czasie wydala wszystko, co nie zawiera wartości odżywczych.\r\nWystarczy użyć go jako mopa do sprzątania — i wszyscy są zadowoleni!"
+        }
+      },
+      "PAL_LONG_DESC_MopKing": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_MopKing_TextData",
+          "SourceString": "Podczas hibernacji, duża liczba <characterName id=|MopBaby|/>\r\nchowa się w jego bujnym owłosieniu.\r\nRekordowa liczba to 101.",
+          "LocalizedString": "Podczas hibernacji, duża liczba <characterName id=|MopBaby|/>\r\nchowa się w jego bujnym owłosieniu.\r\nRekordowa liczba to 101."
+        }
+      },
+      "PAL_LONG_DESC_MushroomDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_MushroomDragon_TextData",
+          "SourceString": "Wdychanie dużej ilości jego zarodników wprowadza w trans.\r\nCzasem, gdy <characterName id=|MushroomDragon|/> wydaje się nieruchomy,\r\nto nie dlatego, że udaje grzyba,\r\nlecz dlatego, że jest odurzony własnymi zarodnikami.",
+          "LocalizedString": "Wdychanie dużej ilości jego zarodników wprowadza w trans.\r\nCzasem, gdy <characterName id=|MushroomDragon|/> wydaje się nieruchomy,\r\nto nie dlatego, że udaje grzyba,\r\nlecz dlatego, że jest odurzony własnymi zarodnikami."
+        }
+      },
+      "PAL_LONG_DESC_MushroomDragon_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_MushroomDragon_Dark_TextData",
+          "SourceString": "Ogromna ilość zarodników wydzielanych przez tego Pala blokuje światło słoneczne.\r\nCzasem, gdy <characterName id=|MushroomDragon_Dark|/> wydaje się nieruchomy,\r\nto nie dlatego, że udaje grzyba,\r\nlecz dlatego, że przez własne zarodniki nic nie widzi.",
+          "LocalizedString": "Ogromna ilość zarodników wydzielanych przez tego Pala blokuje światło słoneczne.\r\nCzasem, gdy <characterName id=|MushroomDragon_Dark|/> wydaje się nieruchomy,\r\nto nie dlatego, że udaje grzyba,\r\nlecz dlatego, że przez własne zarodniki nic nie widzi."
+        }
+      },
+      "PAL_LONG_DESC_Mutant": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Mutant_TextData",
+          "SourceString": "Może kontrolować każdego, kto nieostrożnie spojrzy mu w oczy.\r\nCi, którzy chcą sobie podporządkować <characterName id=|Mutant|/>, zwykle podporządkowują się jemu.",
+          "LocalizedString": "Może kontrolować każdego, kto nieostrożnie spojrzy mu w oczy.\r\nCi, którzy chcą sobie podporządkować <characterName id=|Mutant|/>, zwykle podporządkowują się jemu."
+        }
+      },
+      "PAL_LONG_DESC_MysteryMask": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_MysteryMask_TextData",
+          "SourceString": "Czy to maska czy to twarz?\r\nCzy tu jest? Chyba nie!\r\nObserwuje? Kto go wie!\r\nZginiesz nim dobiegnie straż!",
+          "LocalizedString": "Czy to maska czy to twarz?\r\nCzy tu jest? Chyba nie!\r\nObserwuje? Kto go wie!\r\nZginiesz nim dobiegnie straż!"
+        }
+      },
+      "PAL_LONG_DESC_NaughtyCat": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_NaughtyCat_TextData",
+          "SourceString": "Oczy <characterName id=|NaughtyCat|/> rozbłyskują w chwili,\r\ngdy ktoś wkroczy na jego terytorium.\r\nTo nie przenośnia — jego oczy naprawdę zaczynają świecić.",
+          "LocalizedString": "Oczy <characterName id=|NaughtyCat|/> rozbłyskują w chwili,\r\ngdy ktoś wkroczy na jego terytorium.\r\nTo nie przenośnia — jego oczy naprawdę zaczynają świecić."
+        }
+      },
+      "PAL_LONG_DESC_NegativeKoala": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_NegativeKoala_TextData",
+          "SourceString": "Ma niewielu przyjaciół z powodu wiecznie naburmuszonego wyrazu twarzy,\r\nale w rzeczywistości ma dobre serce.\r\nNiektórzy widzieli, jak dokarmia <characterName id=|CuteFox|/>, które oddzieliły się od stada.",
+          "LocalizedString": "Ma niewielu przyjaciół z powodu wiecznie naburmuszonego wyrazu twarzy,\r\nale w rzeczywistości ma dobre serce.\r\nNiektórzy widzieli, jak dokarmia <characterName id=|CuteFox|/>, które oddzieliły się od stada."
+        }
+      },
+      "PAL_LONG_DESC_NegativeOctopus": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_NegativeOctopus_TextData",
+          "SourceString": "Owija się wokół głowy wroga, wysysając z niej wnętrzności.\r\nCzasem odnajduje się zmumifikowane ciała Pali, ale w rzeczywistości są to ofiary\r\n<characterName id=|NegativeOctopus|/>.",
+          "LocalizedString": "Owija się wokół głowy wroga, wysysając z niej wnętrzności.\r\nCzasem odnajduje się zmumifikowane ciała Pali, ale w rzeczywistości są to ofiary\r\n<characterName id=|NegativeOctopus|/>."
+        }
+      },
+      "PAL_LONG_DESC_NightBlueHorse": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_NightBlueHorse_TextData",
+          "SourceString": "Szczyci się swoją bujną, przepiękną grzywą.\r\nJeśli znajdzie choćby jedną rozdwojoną końcówkę, tak się zawstydza, że nie potrafi się skupić na biegu. \r\nPonieważ elektryczność statyczna puszy mu włosy, unika <characterName id=|BlueThunderHorse|/> za wszelką cenę.",
+          "LocalizedString": "Szczyci się swoją bujną, przepiękną grzywą.\r\nJeśli znajdzie choćby jedną rozdwojoną końcówkę, tak się zawstydza, że nie potrafi się skupić na biegu. \r\nPonieważ elektryczność statyczna puszy mu włosy, unika <characterName id=|BlueThunderHorse|/> za wszelką cenę."
+        }
+      },
+      "PAL_LONG_DESC_NightBlueHorse_Neutral": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_NightBlueHorse_Neutral_TextData",
+          "SourceString": "Piękna, lśniąca grzywa to jego duma.\r\nWystarczy, że choć trochę się ubrudzi, a ze wstydu nie potrafi skupić się na biegu.\r\nA brudzi się dość łatwo, dlatego nawet swemu ukochanemu Poskramiaczowi Pali\r\nnie pozwala się zbyt długo głaskać.",
+          "LocalizedString": "Piękna, lśniąca grzywa to jego duma.\r\nWystarczy, że choć trochę się ubrudzi, a ze wstydu nie potrafi skupić się na biegu.\r\nA brudzi się dość łatwo, dlatego nawet swemu ukochanemu Poskramiaczowi Pali\r\nnie pozwala się zbyt długo głaskać."
+        }
+      },
+      "PAL_LONG_DESC_NightFox": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_NightFox_TextData",
+          "SourceString": "Jeśli znajdziesz włos <characterName id=|NightFox|/> w swojej pościeli, powinieneś\r\nzostawić go tam, gdzie leży, i natychmiast odejść.\r\nPodniesienie go to bilet w jedną stronę do niekończącej się nocy.",
+          "LocalizedString": "Jeśli znajdziesz włos <characterName id=|NightFox|/> w swojej pościeli, powinieneś\r\nzostawić go tam, gdzie leży, i natychmiast odejść.\r\nPodniesienie go to bilet w jedną stronę do niekończącej się nocy."
+        }
+      },
+      "PAL_LONG_DESC_NightLady": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_NightLady_TextData",
+          "SourceString": "Nie istniejąc, cicho spoglądała na świat. Pewnego dnia ogarnęła ją chęć, by zostać dostrzeżoną. Z niepohamowaną żądzą zemsty wobec rzeczywistości, narodziła się Syrena Zaćmienia.",
+          "LocalizedString": "Nie istniejąc, cicho spoglądała na świat. Pewnego dnia ogarnęła ją chęć, by zostać dostrzeżoną. Z niepohamowaną żądzą zemsty wobec rzeczywistości, narodziła się Syrena Zaćmienia."
+        }
+      },
+      "PAL_LONG_DESC_NightLady_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_NightLady_Dark_TextData",
+          "SourceString": "Uwolniwszy swe pragnienia, szybko została nimi przytłoczona.\r\nTęskniła za jaźnią, na którą mogłaby spojrzeć. \r\nA siostry, które patrzyły, żywiąc urazę do rzeczywistości, \r\nzostały strącone w otchłań i w końcu zamknęły oczy.",
+          "LocalizedString": "Uwolniwszy swe pragnienia, szybko została nimi przytłoczona.\r\nTęskniła za jaźnią, na którą mogłaby spojrzeć. \r\nA siostry, które patrzyły, żywiąc urazę do rzeczywistości, \r\nzostały strącone w otchłań i w końcu zamknęły oczy."
+        }
+      },
+      "PAL_LONG_DESC_OctopusGirl": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_OctopusGirl_TextData",
+          "SourceString": "Zanim położysz się z nim spać, upewnij się, co masz zaplanowane na jutro.\r\nŚlady po jego przyssawkach wyglądają jak malinki,\r\nwięc jeśli przypadkiem przyssie się do ciebie podczas snu, możesz się potem długo tłumaczyć.",
+          "LocalizedString": "Zanim położysz się z nim spać, upewnij się, co masz zaplanowane na jutro.\r\nŚlady po jego przyssawkach wyglądają jak malinki,\r\nwięc jeśli przypadkiem przyssie się do ciebie podczas snu, możesz się potem długo tłumaczyć."
+        }
+      },
+      "PAL_LONG_DESC_OctopusGirl_Neutral": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_OctopusGirl_Neutral_TextData",
+          "SourceString": "Zanim położysz się z nią spać, upewnij się, jakie masz plany na jutro.\r\nŚlady po jej przyssawkach wyglądają jak malinki,\r\nwięc jeśli przypadkiem przyssie się do ciebie podczas snu, możesz się potem długo tłumaczyć.",
+          "LocalizedString": "Zanim położysz się z nią spać, upewnij się, jakie masz plany na jutro.\r\nŚlady po jej przyssawkach wyglądają jak malinki,\r\nwięc jeśli przypadkiem przyssie się do ciebie podczas snu, możesz się potem długo tłumaczyć."
+        }
+      },
+      "PAL_LONG_DESC_Penguin": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Penguin_TextData",
+          "SourceString": "W toku ewolucji stracił wszystkie pióra i stał się nielotem. W genach zachował jednak zamiłowanie do latania i wciąż próbuje wzbić się w powietrze na wszelkie możliwe sposoby.",
+          "LocalizedString": "W toku ewolucji stracił wszystkie pióra i stał się nielotem. W genach zachował jednak zamiłowanie do latania i wciąż próbuje wzbić się w powietrze na wszelkie możliwe sposoby."
+        }
+      },
+      "PAL_LONG_DESC_PinkCat": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_PinkCat_TextData",
+          "SourceString": "Na pierwszy rzut oka wydaje się pewny siebie, lecz w rzeczywistości jest słaby i tchórzliwy.\r\nNa ogół nie ma większego poniżenia, niż dostać w kość od <characterName id=|PinkCat|/>.",
+          "LocalizedString": "Na pierwszy rzut oka wydaje się pewny siebie, lecz w rzeczywistości jest słaby i tchórzliwy.\r\nNa ogół nie ma większego poniżenia, niż dostać w kość od <characterName id=|PinkCat|/>."
+        }
+      },
+      "PAL_LONG_DESC_PinkLizard": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_PinkLizard_TextData",
+          "SourceString": "W poszukiwaniu nocy pełnej miłości nieustannie za kimś gania.\r\nPoczątkowo interesował się wyłącznie innymi Palami, lecz w ostatnich latach\r\nnawet ludzie stali się celem jego rozwiązłości.",
+          "LocalizedString": "W poszukiwaniu nocy pełnej miłości nieustannie za kimś gania.\r\nPoczątkowo interesował się wyłącznie innymi Palami, lecz w ostatnich latach\r\nnawet ludzie stali się celem jego rozwiązłości."
+        }
+      },
+      "PAL_LONG_DESC_PinkRabbit": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_PinkRabbit_TextData",
+          "SourceString": "Pal, któremu nigdy nie schodzi z twarzy szeroki uśmiech.\r\nCzasami jego macki zostają splątane przez psikusy <characterName id=|PinkCat|/>.\r\nW takich chwilach jego wyraz twarzy staje się demoniczny.",
+          "LocalizedString": "Pal, któremu nigdy nie schodzi z twarzy szeroki uśmiech.\r\nCzasami jego macki zostają splątane przez psikusy <characterName id=|PinkCat|/>.\r\nW takich chwilach jego wyraz twarzy staje się demoniczny."
+        }
+      },
+      "PAL_LONG_DESC_PinkRabbit_Grass": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_PinkRabbit_Grass_TextData",
+          "SourceString": "Zawsze nosi na twarzy radosny uśmiech. Czasem, przez psikusy <characterName id=|PinkCat|/>, kończy z poplątanymi mackami i musi się z nich wydostać siłą. Nawet w takich sytuacjach nie przestaje się wesoło uśmiechać.",
+          "LocalizedString": "Zawsze nosi na twarzy radosny uśmiech. Czasem, przez psikusy <characterName id=|PinkCat|/>, kończy z poplątanymi mackami i musi się z nich wydostać siłą. Nawet w takich sytuacjach nie przestaje się wesoło uśmiechać."
+        }
+      },
+      "PAL_LONG_DESC_PlantSlime": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_PlantSlime_TextData",
+          "SourceString": "Dziwny Pal z ciałem przypominającym żywicę.\r\nJeśli nie ma czym okryć\r\nswojego ciała, stopniowo traci siły, aż w końcu zaczyna gnić i umierać.",
+          "LocalizedString": "Dziwny Pal z ciałem przypominającym żywicę.\r\nJeśli nie ma czym okryć\r\nswojego ciała, stopniowo traci siły, aż w końcu zaczyna gnić i umierać."
+        }
+      },
+      "PAL_LONG_DESC_Plesiosaur": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Plesiosaur_TextData",
+          "SourceString": "Pyłek obecny w wydychanym przesz niego powietrzu to cudowna substancja, która\r\njest w stanie zapylić każdą roślinę.\r\nDla Palów porośniętych roślinami stanowi dość... kłopotliwe towarzystwo.",
+          "LocalizedString": "Pyłek obecny w wydychanym przesz niego powietrzu to cudowna substancja, która\r\njest w stanie zapylić każdą roślinę.\r\nDla Palów porośniętych roślinami stanowi dość... kłopotliwe towarzystwo."
+        }
+      },
+      "PAL_LONG_DESC_PurpleSpider": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_PurpleSpider_TextData",
+          "SourceString": "Wyjątkowo lepki i czepliwy.\r\nIm bardziej się go unika, tym bardziej staje się uparty.\r\nTaka już jego „osobowość”.",
+          "LocalizedString": "Wyjątkowo lepki i czepliwy.\r\nIm bardziej się go unika, tym bardziej staje się uparty.\r\nTaka już jego „osobowość”."
+        }
+      },
+      "PAL_LONG_DESC_QueenBee": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_QueenBee_TextData",
+          "SourceString": "Wybrana królowa, by przewodzić <characterName id=|SoldierBee|/>.\r\nNiekończący się strumień sług ustawia się w kolejce, by dostąpić zaszczytu harowania aż po grób dla swej królowej.",
+          "LocalizedString": "Wybrana królowa, by przewodzić <characterName id=|SoldierBee|/>.\r\nNiekończący się strumień sług ustawia się w kolejce, by dostąpić zaszczytu harowania aż po grób dla swej królowej."
+        }
+      },
+      "PAL_LONG_DESC_RaijinDaughter": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_RaijinDaughter_TextData",
+          "SourceString": "Często okazuje życzliwość samotnym Palom.\r\nJednak gdy któryś z nich pomyli to z prawdziwą przyjaźnią,\r\nnatychmiast wykorzystuje okazję, by razić go piorunem.",
+          "LocalizedString": "Często okazuje życzliwość samotnym Palom.\r\nJednak gdy któryś z nich pomyli to z prawdziwą przyjaźnią,\r\nnatychmiast wykorzystuje okazję, by razić go piorunem."
+        }
+      },
+      "PAL_LONG_DESC_RaijinDaughter_Water": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_RaijinDaughter_Water_TextData",
+          "SourceString": "Często okazuje życzliwość samotnym Palom, \r\nknując, jak skłonić ich do opuszczenia gardy, by potem ich zaatakować.\r\nJednak nie potrafiąc znaleźć odpowiedniego momentu, ostatecznie się z nimi zaprzyjaźnia.",
+          "LocalizedString": "Często okazuje życzliwość samotnym Palom, \r\nknując, jak skłonić ich do opuszczenia gardy, by potem ich zaatakować.\r\nJednak nie potrafiąc znaleźć odpowiedniego momentu, ostatecznie się z nimi zaprzyjaźnia."
+        }
+      },
+      "PAL_LONG_DESC_RedArmorBird": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_RedArmorBird_TextData",
+          "SourceString": "Niektórzy sądzą, że jest spokrewniony z gatunkiem <characterName id=|ThunderBird|/>, lecz w rzeczywistości nic ich nie łączy.\r\nŻywi się głównie kamieniami, a po wielu latach jego\r\ndziób i głowa stwardniały, by dostosować się do tej diety.",
+          "LocalizedString": "Niektórzy sądzą, że jest spokrewniony z gatunkiem <characterName id=|ThunderBird|/>, lecz w rzeczywistości nic ich nie łączy.\r\nŻywi się głównie kamieniami, a po wielu latach jego\r\ndziób i głowa stwardniały, by dostosować się do tej diety."
+        }
+      },
+      "PAL_LONG_DESC_RobinHood": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_RobinHood_TextData",
+          "SourceString": "Pal, który bardzo przypomina ludzi polujących i żyjących w lasach.\r\nMoże okazać się kluczem do zrozumienia, czym właściwie są Pale\r\ni w jaki sposób oddzieliły się od ludzi w odległej przeszłości.",
+          "LocalizedString": "Pal, który bardzo przypomina ludzi polujących i żyjących w lasach.\r\nMoże okazać się kluczem do zrozumienia, czym właściwie są Pale\r\ni w jaki sposób oddzieliły się od ludzi w odległej przeszłości."
+        }
+      },
+      "PAL_LONG_DESC_RobinHood_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_RobinHood_Ground_TextData",
+          "SourceString": "Pal, który bardzo przypomina ludzi polujących i żyjących na skalistych obszarach. Gdy w ruinach odnajduje się kości <characterName id=|RobinHood_Ground|/>, w pobliżu zawsze znajdują się także ludzkie szczątki.",
+          "LocalizedString": "Pal, który bardzo przypomina ludzi polujących i żyjących na skalistych obszarach. Gdy w ruinach odnajduje się kości <characterName id=|RobinHood_Ground|/>, w pobliżu zawsze znajdują się także ludzkie szczątki."
+        }
+      },
+      "PAL_LONG_DESC_Ronin": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Ronin_TextData",
+          "SourceString": "Po śmierci jego ciało staje się ostrzem, które przejmuje kolejne pokolenie.\r\nJeśli ostrze to trafi w ręce kogoś innego niż <characterName id=|Ronin|/>,\r\ndusza w jego wnętrzu dręczy właściciela, aż ten popadnie w obłęd.",
+          "LocalizedString": "Po śmierci jego ciało staje się ostrzem, które przejmuje kolejne pokolenie.\r\nJeśli ostrze to trafi w ręce kogoś innego niż <characterName id=|Ronin|/>,\r\ndusza w jego wnętrzu dręczy właściciela, aż ten popadnie w obłęd."
+        }
+      },
+      "PAL_LONG_DESC_Ronin_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Ronin_Dark_TextData",
+          "SourceString": "Po śmierci jego ciało staje się ostrzem, które przejmuje kolejne pokolenie.\r\nJeśli <characterName id=|Ronin|/>, który je odziedziczy, ma słabe serce, głosy zmarłych doprowadzą go do obłędu.\r\nSzaleństwo przemienia go w <characterName id=|Ronin_Dark|/>, który błąka się bez końca.",
+          "LocalizedString": "Po śmierci jego ciało staje się ostrzem, które przejmuje kolejne pokolenie.\r\nJeśli <characterName id=|Ronin|/>, który je odziedziczy, ma słabe serce, głosy zmarłych doprowadzą go do obłędu.\r\nSzaleństwo przemienia go w <characterName id=|Ronin_Dark|/>, który błąka się bez końca."
+        }
+      },
+      "PAL_LONG_DESC_SaintCentaur": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SaintCentaur_TextData",
+          "SourceString": "Niegdyś był częścią <characterName id=|BlackCentaur|/>.\r\nJego lśniąca forma jest wolna od wszelkich negatywnych emocji.\r\nJednak w głębi jego oczu wciąż można dostrzec przebłysk nienawiści.",
+          "LocalizedString": "Niegdyś był częścią <characterName id=|BlackCentaur|/>.\r\nJego lśniąca forma jest wolna od wszelkich negatywnych emocji.\r\nJednak w głębi jego oczu wciąż można dostrzec przebłysk nienawiści."
+        }
+      },
+      "PAL_LONG_DESC_SakuraSaurus": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SakuraSaurus_TextData",
+          "SourceString": "Jego zapach drastycznie się zmienia przed i po znalezieniu partnera.\r\nPo odnalezieniu drugiej połówki wydziela przyjemny aromat,\r\nznany jako „Zapach Pierwszej Miłości”.",
+          "LocalizedString": "Jego zapach drastycznie się zmienia przed i po znalezieniu partnera.\r\nPo odnalezieniu drugiej połówki wydziela przyjemny aromat,\r\nznany jako „Zapach Pierwszej Miłości”."
+        }
+      },
+      "PAL_LONG_DESC_SakuraSaurus_Water": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SakuraSaurus_Water_TextData",
+          "SourceString": "Jego zapach drastycznie się zmienia przed i po znalezieniu partnera.\r\nPrzed znalezieniem drugiej połówki wydziela przyjemny aromat,\r\nznany jako „Perfumy Czystości”.",
+          "LocalizedString": "Jego zapach drastycznie się zmienia przed i po znalezieniu partnera.\r\nPrzed znalezieniem drugiej połówki wydziela przyjemny aromat,\r\nznany jako „Perfumy Czystości”."
+        }
+      },
+      "PAL_LONG_DESC_ScorpionMan": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ScorpionMan_TextData",
+          "SourceString": "Ma około 5000 rodzajów trucizn. Niektóre z nich są wystarczająco silne, by zabić natychmiast, ale wszystkie trucizny w ciele Prixtera są za mało skoncentrowane, by wywołać jakikolwiek efekt.",
+          "LocalizedString": "Ma około 5000 rodzajów trucizn. Niektóre z nich są wystarczająco silne, by zabić natychmiast, ale wszystkie trucizny w ciele Prixtera są za mało skoncentrowane, by wywołać jakikolwiek efekt."
+        }
+      },
+      "PAL_LONG_DESC_ScorpionMan_Electric": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ScorpionMan_Electric_TextData",
+          "SourceString": "Potrafi wbić żądło i wstrzyknąć prąd prosto do ciała przeciwnika,\r\nchociaż jest on na tyle słaby, że więcej sensu miałby\r\ndobrze wymierzony cios pięścią.",
+          "LocalizedString": "Potrafi wbić żądło i wstrzyknąć prąd prosto do ciała przeciwnika,\r\nchociaż jest on na tyle słaby, że więcej sensu miałby\r\ndobrze wymierzony cios pięścią."
+        }
+      },
+      "PAL_LONG_DESC_Serpent": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Serpent_TextData",
+          "SourceString": "Jego hydrodynamiczna forma doskonale nadaje się do poruszania się po wodzie.\r\nKłusownicy często je łapią i używają ich zamiast desek surfingowych.",
+          "LocalizedString": "Jego hydrodynamiczna forma doskonale nadaje się do poruszania się po wodzie.\r\nKłusownicy często je łapią i używają ich zamiast desek surfingowych."
+        }
+      },
+      "PAL_LONG_DESC_Serpent_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Serpent_Ground_TextData",
+          "SourceString": "Jego aerodynamiczna forma doskonale nadaje się do poruszania się po piasku. Kłusownicy często je łapią i używają ich zamiast desek surfingowych.",
+          "LocalizedString": "Jego aerodynamiczna forma doskonale nadaje się do poruszania się po piasku. Kłusownicy często je łapią i używają ich zamiast desek surfingowych."
+        }
+      },
+      "PAL_LONG_DESC_SharkKid": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SharkKid_TextData",
+          "SourceString": "Dawno temu był gigantycznym i potężnym wodnym Palem.\r\nJednak gdy zaczęło brakować pożywienia, wyewoluował do życia na lądzie.\r\nPonieważ chodzenie pochłania dużo energii, stopniowo się kurczył\r\ni dziś jest małym, wątłym Palem.",
+          "LocalizedString": "Dawno temu był gigantycznym i potężnym wodnym Palem.\r\nJednak gdy zaczęło brakować pożywienia, wyewoluował do życia na lądzie.\r\nPonieważ chodzenie pochłania dużo energii, stopniowo się kurczył\r\ni dziś jest małym, wątłym Palem."
+        }
+      },
+      "PAL_LONG_DESC_SharkKid_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SharkKid_Fire_TextData",
+          "SourceString": "Dawno temu był gigantycznym i potężnym wodnym Palem.\r\nJednak gdy zaczęło brakować pożywienia, wyewoluował do życia na lądzie.\r\nJako że chodzenie spala wiele kalorii, w zdumiewający sposób przebudził w sobie moc kontrolowania ognia!",
+          "LocalizedString": "Dawno temu był gigantycznym i potężnym wodnym Palem.\r\nJednak gdy zaczęło brakować pożywienia, wyewoluował do życia na lądzie.\r\nJako że chodzenie spala wiele kalorii, w zdumiewający sposób przebudził w sobie moc kontrolowania ognia!"
+        }
+      },
+      "PAL_LONG_DESC_SheepBall": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SheepBall_TextData",
+          "SourceString": "Spacer pod górę zazwyczaj kończy się tym, że ten Pal koziołkuje z powrotem w dół.\r\nKręci mu się wtedy w głowie i nie może się ruszyć, przez co łatwo go schwytać i zabić.\r\nW rezultacie dosłownie stoczył się na sam dół łańcucha pokarmowego.",
+          "LocalizedString": "Spacer pod górę zazwyczaj kończy się tym, że ten Pal koziołkuje z powrotem w dół.\r\nKręci mu się wtedy w głowie i nie może się ruszyć, przez co łatwo go schwytać i zabić.\r\nW rezultacie dosłownie stoczył się na sam dół łańcucha pokarmowego."
+        }
+      },
+      "PAL_LONG_DESC_SifuDog": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SifuDog_TextData",
+          "SourceString": "Medytuje bez końca, dążąc do stanu bezinteresowności. \r\nPo konfrontacji z przyziemnymi pragnieniami, zjada posiłek i popada w zadumę.\r\nDziś zjadł zdecydowanie za dużo.",
+          "LocalizedString": "Medytuje bez końca, dążąc do stanu bezinteresowności. \r\nPo konfrontacji z przyziemnymi pragnieniami, zjada posiłek i popada w zadumę.\r\nDziś zjadł zdecydowanie za dużo."
+        }
+      },
+      "PAL_LONG_DESC_SkyDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SkyDragon_TextData",
+          "SourceString": "Spanie przytulonym do <characterName id=|SkyDragon|/> uchodzi za niebiańskie doświadczenie,\r\nlecz są i tacy, których te wiercące się we śnie istoty\r\nprzygniotły i dosłownie wysłały do nieba.",
+          "LocalizedString": "Spanie przytulonym do <characterName id=|SkyDragon|/> uchodzi za niebiańskie doświadczenie,\r\nlecz są i tacy, których te wiercące się we śnie istoty\r\nprzygniotły i dosłownie wysłały do nieba."
+        }
+      },
+      "PAL_LONG_DESC_SkyDragon_Grass": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SkyDragon_Grass_TextData",
+          "SourceString": "Jeśli przytulasz <characterName id=|SkyDragon_Grass|/> i pachnie on słońcem i łąką, to jutro będzie słoneczny dzień. Jeśli pachnie wilgocią, szykuj się na deszcz i pluchę.",
+          "LocalizedString": "Jeśli przytulasz <characterName id=|SkyDragon_Grass|/> i pachnie on słońcem i łąką, to jutro będzie słoneczny dzień. Jeśli pachnie wilgocią, szykuj się na deszcz i pluchę."
+        }
+      },
+      "PAL_LONG_DESC_SmallArmadillo": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SmallArmadillo_TextData",
+          "SourceString": "Dekadę temu popularna była piłka nożna z udziałem <characterName id=|SmallArmadillo|/>, jednak szybko wyszła z mody z powodu zaciekłych protestów Związku Wolnych Pali. Mimo to same <characterName id=|SmallArmadillo|/> nie miały nic przeciwko — dzięki temu mogły pozbyć się starego pancerza.",
+          "LocalizedString": "Dekadę temu popularna była piłka nożna z udziałem <characterName id=|SmallArmadillo|/>, jednak szybko wyszła z mody z powodu zaciekłych protestów Związku Wolnych Pali. Mimo to same <characterName id=|SmallArmadillo|/> nie miały nic przeciwko — dzięki temu mogły pozbyć się starego pancerza."
+        }
+      },
+      "PAL_LONG_DESC_SnowTigerBeastman": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SnowTigerBeastman_TextData",
+          "SourceString": "Na widok czegokolwiek okrągłego ogarnia go niepowstrzymana chęć, by to uderzyć.\r\nDla <characterName id=|SnowTigerBeastMan|/> najtrudniejszym wyzwaniem, zaraz po samym istnieniu,\r\njest ulepienie bałwana.",
+          "LocalizedString": "Na widok czegokolwiek okrągłego ogarnia go niepowstrzymana chęć, by to uderzyć.\r\nDla <characterName id=|SnowTigerBeastMan|/> najtrudniejszym wyzwaniem, zaraz po samym istnieniu,\r\njest ulepienie bałwana."
+        }
+      },
+      "PAL_LONG_DESC_SoldierBee": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SoldierBee_TextData",
+          "SourceString": "Sługa, który przysięga wierność <characterName id=|QueenBee|/>.\r\nKażdy, kto skrzywdzi królową, zostaje natychmiast wygnany z ula.\r\nBez wahania odda życie, by ją chronić.",
+          "LocalizedString": "Sługa, który przysięga wierność <characterName id=|QueenBee|/>.\r\nKażdy, kto skrzywdzi królową, zostaje natychmiast wygnany z ula.\r\nBez wahania odda życie, by ją chronić."
+        }
+      },
+      "PAL_LONG_DESC_StuffedShark": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_StuffedShark_TextData",
+          "SourceString": "Wygląda, jakby ktoś wyglądał ze środka kostiumu.\r\nJednak jeśli włoży się tam rękę w środku niczego się nie znajdzie.\r\nMało tego, możesz wsunąć ją nieskończenie głęboko.\r\nMoże właśnie tu kryje się wszechświat.",
+          "LocalizedString": "Wygląda, jakby ktoś wyglądał ze środka kostiumu.\r\nJednak jeśli włoży się tam rękę w środku niczego się nie znajdzie.\r\nMało tego, możesz wsunąć ją nieskończenie głęboko.\r\nMoże właśnie tu kryje się wszechświat."
+        }
+      },
+      "PAL_LONG_DESC_Suzaku": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Suzaku_TextData",
+          "SourceString": "Kiedyś wierzono, że sprowadza porę suchą. Gdy przychodziła susza, ludzie bezlitośnie próbowali je wytępić, licząc na obfitsze zbiory w kolejnym sezonie.",
+          "LocalizedString": "Kiedyś wierzono, że sprowadza porę suchą. Gdy przychodziła susza, ludzie bezlitośnie próbowali je wytępić, licząc na obfitsze zbiory w kolejnym sezonie."
+        }
+      },
+      "PAL_LONG_DESC_Suzaku_Water": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Suzaku_Water_TextData",
+          "SourceString": "Kiedyś wierzono, że sprowadza porę deszczową. Gdy dochodziło do powodzi, ludzie bezlitośnie próbowali je wytępić, mając nadzieję na uniknięcie katastrofy w kolejnym roku.",
+          "LocalizedString": "Kiedyś wierzono, że sprowadza porę deszczową. Gdy dochodziło do powodzi, ludzie bezlitośnie próbowali je wytępić, mając nadzieję na uniknięcie katastrofy w kolejnym roku."
+        }
+      },
+      "PAL_LONG_DESC_SweetsSheep": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SweetsSheep_TextData",
+          "SourceString": "Jego całe ciało jest 18000 razy słodsze od cukru.\r\nMięsożerne Pale, zwabione jego zapachem, zostają przytłoczone słodyczą\r\ni czasem nawet mdleją, jeśli spróbują go ugryźć.",
+          "LocalizedString": "Jego całe ciało jest 18000 razy słodsze od cukru.\r\nMięsożerne Pale, zwabione jego zapachem, zostają przytłoczone słodyczą\r\ni czasem nawet mdleją, jeśli spróbują go ugryźć."
+        }
+      },
+      "PAL_LONG_DESC_SweetsSheep_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SweetsSheep_Ground_TextData",
+          "SourceString": "Choć jego wełna pachnie przesłodko, mięso jest odrażająco gorzkie.\r\nMięsożerne Pale, które skuszą się zapachem i wgryzą w nie z rozpędu,\r\nz wrażenia przewracają oczami i padają zemdlone.",
+          "LocalizedString": "Choć jego wełna pachnie przesłodko, mięso jest odrażająco gorzkie.\r\nMięsożerne Pale, które skuszą się zapachem i wgryzą w nie z rozpędu,\r\nz wrażenia przewracają oczami i padają zemdlone."
+        }
+      },
+      "PAL_LONG_DESC_TentacleTurtle": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_TentacleTurtle_TextData",
+          "SourceString": "Aby chronić słabe ciało, wykształcił potężny pancerz.\r\nNie poświęcił jednak jednej myśli ochronie ciała pod skorupą,\r\nwięc wystarczy go połaskotać, by zemdlał.",
+          "LocalizedString": "Aby chronić słabe ciało, wykształcił potężny pancerz.\r\nNie poświęcił jednak jednej myśli ochronie ciała pod skorupą,\r\nwięc wystarczy go połaskotać, by zemdlał."
+        }
+      },
+      "PAL_LONG_DESC_ThunderBird": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ThunderBird_TextData",
+          "SourceString": "Niektórzy sądzą, że jest spokrewniony z gatunkiem <characterName id=|RedArmorBird|/>, lecz w rzeczywistości nic ich nie łączy.\r\nPrzy pomocy ostrego dzioba spada na ofiarę szybkim ruchem,\r\nprzypominającym uderzenie błyskawicy.",
+          "LocalizedString": "Niektórzy sądzą, że jest spokrewniony z gatunkiem <characterName id=|RedArmorBird|/>, lecz w rzeczywistości nic ich nie łączy.\r\nPrzy pomocy ostrego dzioba spada na ofiarę szybkim ruchem,\r\nprzypominającym uderzenie błyskawicy."
+        }
+      },
+      "PAL_LONG_DESC_ThunderDog": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ThunderDog_TextData",
+          "SourceString": "Przy pełnej prędkości można go pomylić z błyskawicą.\r\nKiedy dwa <characterName id=|ThunderDog|/> zderzają się, wokół rozbrzmiewa ogłuszający grzmot.",
+          "LocalizedString": "Przy pełnej prędkości można go pomylić z błyskawicą.\r\nKiedy dwa <characterName id=|ThunderDog|/> zderzają się, wokół rozbrzmiewa ogłuszający grzmot."
+        }
+      },
+      "PAL_LONG_DESC_ThunderDog_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ThunderDog_Ice_TextData",
+          "SourceString": "Gdy na złamanie karku pędzi przez śnieżne równiny wznieca zamieć.\r\nBardzo pogarsza to widoczność,\r\nprzez co <characterName id=|ThunderDog_Ice|/> jest Palem, który często ulega wypadkom.",
+          "LocalizedString": "Gdy na złamanie karku pędzi przez śnieżne równiny wznieca zamieć.\r\nBardzo pogarsza to widoczność,\r\nprzez co <characterName id=|ThunderDog_Ice|/> jest Palem, który często ulega wypadkom."
+        }
+      },
+      "PAL_LONG_DESC_ThunderDragonMan": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ThunderDragonMan_TextData",
+          "SourceString": "Wysyła ładunek elektryczny w rany swoich przeciwników, smażąc ich od środka.\r\nWalki pomiędzy <characterName id=|ThunderDragonMan|/>\r\nkończą się w mgnieniu oka.",
+          "LocalizedString": "Wysyła ładunek elektryczny w rany swoich przeciwników, smażąc ich od środka.\r\nWalki pomiędzy <characterName id=|ThunderDragonMan|/>\r\nkończą się w mgnieniu oka."
+        }
+      },
+      "PAL_LONG_DESC_TropicalOstrich": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_TropicalOstrich_TextData",
+          "SourceString": "Swoim charakterystycznym tańcem potrafi wytrącić przeciwnika z rytmu.\r\nW walce o terytorium przegrywa ten, kto pierwszy zacznie tańczyć do rytmu rywala.\r\nCzy to zaloty, czy walka z nudą, wszystko sprowadza się do tańca!\r\nCiekawe tylko, co właściwie oznacza taniec skierowany do człowieka.",
+          "LocalizedString": "Swoim charakterystycznym tańcem potrafi wytrącić przeciwnika z rytmu.\r\nW walce o terytorium przegrywa ten, kto pierwszy zacznie tańczyć do rytmu rywala.\r\nCzy to zaloty, czy walka z nudą, wszystko sprowadza się do tańca!\r\nCiekawe tylko, co właściwie oznacza taniec skierowany do człowieka."
+        }
+      },
+      "PAL_LONG_DESC_Umihebi": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Umihebi_TextData",
+          "SourceString": "Legenda głosi, że <characterName id=|Umihebi|/> był niegdyś mędrcem, który\r\npo niesłusznym oskarżeniu i wrzuceniu w wir wodny,\r\npowrócił jako ten Pal, by zgładzić królestwo.",
+          "LocalizedString": "Legenda głosi, że <characterName id=|Umihebi|/> był niegdyś mędrcem, który\r\npo niesłusznym oskarżeniu i wrzuceniu w wir wodny,\r\npowrócił jako ten Pal, by zgładzić królestwo."
+        }
+      },
+      "PAL_LONG_DESC_Umihebi_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Umihebi_Fire_TextData",
+          "SourceString": "Legenda głosi, że <characterName id=|Umihebi_Fire|/> był niegdyś wojownikiem, który\r\npo niesłusznym oskarżeniu i wrzuceniu do wulkanu,\r\npowrócił jako ten Pal, by zgładzić królestwo.",
+          "LocalizedString": "Legenda głosi, że <characterName id=|Umihebi_Fire|/> był niegdyś wojownikiem, który\r\npo niesłusznym oskarżeniu i wrzuceniu do wulkanu,\r\npowrócił jako ten Pal, by zgładzić królestwo."
+        }
+      },
+      "PAL_LONG_DESC_VioletFairy": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_VioletFairy_TextData",
+          "SourceString": "„Zamek wypełniony był ulubionymi kwiatami króla.\r\nWybuchła wielka bitwa, a płomienie zbliżały się do zamku.\r\nWśród chaosu pojawił się duch kwiatu.”\r\n – Z baśni „Kwiat króla”",
+          "LocalizedString": "„Zamek wypełniony był ulubionymi kwiatami króla.\r\nWybuchła wielka bitwa, a płomienie zbliżały się do zamku.\r\nWśród chaosu pojawił się duch kwiatu.”\r\n – Z baśni „Kwiat króla”"
+        }
+      },
+      "PAL_LONG_DESC_VolcanicMonster": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_VolcanicMonster_TextData",
+          "SourceString": "Przez jego ciało płynie krew przypominająca magmę.\r\nGdyby oblać go dużą ilością wody, ta błyskawicznie się nagrzeje,\r\npowodując potężną eksplozję pary.",
+          "LocalizedString": "Przez jego ciało płynie krew przypominająca magmę.\r\nGdyby oblać go dużą ilością wody, ta błyskawicznie się nagrzeje,\r\npowodując potężną eksplozję pary."
+        }
+      },
+      "PAL_LONG_DESC_VolcanicMonster_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_VolcanicMonster_Ice_TextData",
+          "SourceString": "Przez jego ciało płynie lodowato zimna krew.\r\nGwałtowne podgrzanie sprawia, że krew wyparowuje,\r\npowodując potężną eksplozję pary.",
+          "LocalizedString": "Przez jego ciało płynie lodowato zimna krew.\r\nGwałtowne podgrzanie sprawia, że krew wyparowuje,\r\npowodując potężną eksplozję pary."
+        }
+      },
+      "PAL_LONG_DESC_WaterLizard": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WaterLizard_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "PAL_LONG_DESC_WeaselDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WeaselDragon_TextData",
+          "SourceString": "Potrafi zwinąć ciało i toczyć się z zawrotną prędkością.\r\nDawno temu ludzie przywiązywali worki z mlekiem do udomowionych\r\n<characterName id=|WeaselDragon|/>, gdy te się pasły, aby wytworzyć masło\r\ndzięki ich obrotowej sile.",
+          "LocalizedString": "Potrafi zwinąć ciało i toczyć się z zawrotną prędkością.\r\nDawno temu ludzie przywiązywali worki z mlekiem do udomowionych\r\n<characterName id=|WeaselDragon|/>, gdy te się pasły, aby wytworzyć masło\r\ndzięki ich obrotowej sile."
+        }
+      },
+      "PAL_LONG_DESC_WeaselDragon_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WeaselDragon_Fire_TextData",
+          "SourceString": "Potrafi zwinąć ciało i toczyć się tak szybko, że sypią się iskry. \r\nIskry pojawiają się też, gdy jest podekscytowany. \r\nJeśli będziesz go głaskać zbyt długo, dosłownie się podjara!",
+          "LocalizedString": "Potrafi zwinąć ciało i toczyć się tak szybko, że sypią się iskry. \r\nIskry pojawiają się też, gdy jest podekscytowany. \r\nJeśli będziesz go głaskać zbyt długo, dosłownie się podjara!"
+        }
+      },
+      "PAL_LONG_DESC_Werewolf": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Werewolf_TextData",
+          "SourceString": "Rogi na jego głowie rosną w blasku księżyca.\r\nNie ma nic przeciwko słońcu, ale jego rogi\r\nzaczynają swędzieć, gdy pada na nie światło słoneczne.",
+          "LocalizedString": "Rogi na jego głowie rosną w blasku księżyca.\r\nNie ma nic przeciwko słońcu, ale jego rogi\r\nzaczynają swędzieć, gdy pada na nie światło słoneczne."
+        }
+      },
+      "PAL_LONG_DESC_Werewolf_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Werewolf_Ice_TextData",
+          "SourceString": "Rogi na jego głowie są zrobione z tajemniczego lodu, który nigdy nie topnieje.\r\nDeser z kruszonego lodu pozyskanego z tych rogów jest naprawdę wyśmienity,\r\nlecz zarówno ten, kto go spróbuje, jak i <characterName id=|Werewolf_Ice|/> kończą z bólem głowy.",
+          "LocalizedString": "Rogi na jego głowie są zrobione z tajemniczego lodu, który nigdy nie topnieje.\r\nDeser z kruszonego lodu pozyskanego z tych rogów jest naprawdę wyśmienity,\r\nlecz zarówno ten, kto go spróbuje, jak i <characterName id=|Werewolf_Ice|/> kończą z bólem głowy."
+        }
+      },
+      "PAL_LONG_DESC_WhiteAlienDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WhiteAlienDragon_TextData",
+          "SourceString": "Pochłania informacje i przekształca je w energię. Regularnie zdaje się przesyłać do kogoś dane.\r\n— Halo? Co to była za wiadomość? Zjadłem ją, zanim zdążyłem przeczytać.",
+          "LocalizedString": "Pochłania informacje i przekształca je w energię. Regularnie zdaje się przesyłać do kogoś dane.\r\n— Halo? Co to była za wiadomość? Zjadłem ją, zanim zdążyłem przeczytać."
+        }
+      },
+      "PAL_LONG_DESC_WhiteDeer": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WhiteDeer_TextData",
+          "SourceString": "Starożytne teksty nazywają go „Bestią Zbawienia”. \r\nŚwiatło emitowane przez <characterName id=|WhiteDeer|/> oczyszcza wszystko, dosłownie sprawiając, że wszystko znika z bez śladu.",
+          "LocalizedString": "Starożytne teksty nazywają go „Bestią Zbawienia”. \r\nŚwiatło emitowane przez <characterName id=|WhiteDeer|/> oczyszcza wszystko, dosłownie sprawiając, że wszystko znika z bez śladu."
+        }
+      },
+      "PAL_LONG_DESC_WhiteMoth": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WhiteMoth_TextData",
+          "SourceString": "Pal, który lubi deszcz i często kąpie się w deszczowych strugach,\r\naż do momentu, gdy pogoda się poprawi.\r\nW deszczowe dni <characterName id=|Kitsunebi|/> często chowa się pod nim przed deszczem.",
+          "LocalizedString": "Pal, który lubi deszcz i często kąpie się w deszczowych strugach,\r\naż do momentu, gdy pogoda się poprawi.\r\nW deszczowe dni <characterName id=|Kitsunebi|/> często chowa się pod nim przed deszczem."
+        }
+      },
+      "PAL_LONG_DESC_WhiteShieldDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WhiteShieldDragon_TextData",
+          "SourceString": "Metaliczne elementy wokół jego szyi mają właściwości magnetyczne.\r\nGdy części nóg zbliżą się za bardzo, zostają przyciągnięte.\r\nKiedy na szyi zbiera się metalowy złom, niechętnie zabiera się za czyszczenie \r\ni wpada we frustrację, gdy nie może się go łatwo pozbyć.",
+          "LocalizedString": "Metaliczne elementy wokół jego szyi mają właściwości magnetyczne.\r\nGdy części nóg zbliżą się za bardzo, zostają przyciągnięte.\r\nKiedy na szyi zbiera się metalowy złom, niechętnie zabiera się za czyszczenie \r\ni wpada we frustrację, gdy nie może się go łatwo pozbyć."
+        }
+      },
+      "PAL_LONG_DESC_WhiteTiger": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WhiteTiger_TextData",
+          "SourceString": "Łatwo wspina się na strome góry dzięki twardym pazurom.\r\nJednak jego krótkie nogi utrudniają mu schodzenie,\r\nprzez co często zostaje uwięziony na wysokościach.",
+          "LocalizedString": "Łatwo wspina się na strome góry dzięki twardym pazurom.\r\nJednak jego krótkie nogi utrudniają mu schodzenie,\r\nprzez co często zostaje uwięziony na wysokościach."
+        }
+      },
+      "PAL_LONG_DESC_WhiteTiger_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WhiteTiger_Ground_TextData",
+          "SourceString": "Z łatwością dźwiga wiele przedmiotów dzięki wielkim dłoniom. Jednak jego krótkie nogi spowalniają go, przez co często zastaje go zmrok.",
+          "LocalizedString": "Z łatwością dźwiga wiele przedmiotów dzięki wielkim dłoniom. Jednak jego krótkie nogi spowalniają go, przez co często zastaje go zmrok."
+        }
+      },
+      "PAL_LONG_DESC_Windchimes": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Windchimes_TextData",
+          "SourceString": "Jego gigantyczne ramiona potrafią rozerwać nawet żelazo.\r\nSzczególnie okrutną formą egzekucji dla poważnych zbrodniarzy było\r\npubliczne powieszenie na placu, gdzie <characterName id=|Windchimes|/>\r\nzrywał skórę prosto z kości.",
+          "LocalizedString": "Jego gigantyczne ramiona potrafią rozerwać nawet żelazo.\r\nSzczególnie okrutną formą egzekucji dla poważnych zbrodniarzy było\r\npubliczne powieszenie na placu, gdzie <characterName id=|Windchimes|/>\r\nzrywał skórę prosto z kości."
+        }
+      },
+      "PAL_LONG_DESC_Windchimes_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Windchimes_Ice_TextData",
+          "SourceString": "Jego gigantyczne ramiona potrafią rozerwać bloki lodu. Brutalną formę publicznego upokorzenia dla wielkich grzeszników stanowiło przywiązywanie na miejskim placu i wyrywanie włosów przez <characterName id=|Windchimes_Ice|/>.",
+          "LocalizedString": "Jego gigantyczne ramiona potrafią rozerwać bloki lodu. Brutalną formę publicznego upokorzenia dla wielkich grzeszników stanowiło przywiązywanie na miejskim placu i wyrywanie włosów przez <characterName id=|Windchimes_Ice|/>."
+        }
+      },
+      "PAL_LONG_DESC_WingGolem": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WingGolem_TextData",
+          "SourceString": "Można go rozłożyć na 215 części. Nawet jeśli zostaną porozrzucane, złoży się z powrotem i znów zacznie się poruszać. Jeśli jednak pomieszają się części pochodzące od różnych osobników, dojdzie do usterki z powodu błędnego rozpoznania tożsamości.",
+          "LocalizedString": "Można go rozłożyć na 215 części. Nawet jeśli zostaną porozrzucane, złoży się z powrotem i znów zacznie się poruszać. Jeśli jednak pomieszają się części pochodzące od różnych osobników, dojdzie do usterki z powodu błędnego rozpoznania tożsamości."
+        }
+      },
+      "PAL_LONG_DESC_WizardOwl": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WizardOwl_TextData",
+          "SourceString": "Często pogrążony w myślach, czasem\r\nma trudności z zaśnięciem.\r\n”Myślę, więc jestem.”",
+          "LocalizedString": "Często pogrążony w myślach, czasem\r\nma trudności z zaśnięciem.\r\n”Myślę, więc jestem.”"
+        }
+      },
+      "PAL_LONG_DESC_WoolFox": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WoolFox_TextData",
+          "SourceString": "W porównaniu z <characterName id=|SheepBall|/> ma delikatniejszą wełnę i łagodniejszy temperament, bardziej odpowiedni dla zwierzęcia hodowlanego.\r\nHistorycznie jednak zawsze trzymano go jako pupila.\r\nUrokliwość uznawana jest za jego największą zaletę.",
+          "LocalizedString": "W porównaniu z <characterName id=|SheepBall|/> ma delikatniejszą wełnę i łagodniejszy temperament, bardziej odpowiedni dla zwierzęcia hodowlanego.\r\nHistorycznie jednak zawsze trzymano go jako pupila.\r\nUrokliwość uznawana jest za jego największą zaletę."
+        }
+      },
+      "PAL_LONG_DESC_Yeti": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Yeti_TextData",
+          "SourceString": "Badacze próbowali kiedyś zgolić jego sierść, by poznać jego prawdziwą formę.\r\nOstatecznie została tylko sierść — jakby od początku nie było tam nic więcej.",
+          "LocalizedString": "Badacze próbowali kiedyś zgolić jego sierść, by poznać jego prawdziwą formę.\r\nOstatecznie została tylko sierść — jakby od początku nie było tam nic więcej."
+        }
+      },
+      "PAL_LONG_DESC_Yeti_Grass": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Yeti_Grass_TextData",
+          "SourceString": "Badacze próbowali kiedyś skosić trawę porastającą jego ciało, by poznać jego prawdzią formę.\r\nOstatecznie została tylko trawa — jakby od początku niczego innego tam nie było.",
+          "LocalizedString": "Badacze próbowali kiedyś skosić trawę porastającą jego ciało, by poznać jego prawdzią formę.\r\nOstatecznie została tylko trawa — jakby od początku niczego innego tam nie było."
+        }
+      },
+      "PAL_LONG_DESC_NegativeOctopus_Neutral": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_NegativeOctopus_Neutral_TextData",
+          "SourceString": "Wgryza się w szyję wroga i wysysa z niego całą krew.\r\nGdy <characterName id=|NegativeOctopus_Neutral|/> spotka swego pobratymca, Pale rzucą się sobie do gardeł w walce,\r\nw której każdy z nich próbuje wyssać krew drugiego.\r\nNie przestaną walczyć, dopóki jeden z nich nie zginie.",
+          "LocalizedString": "Wgryza się w szyję wroga i wysysa z niego całą krew.\r\nGdy <characterName id=|NegativeOctopus_Neutral|/> spotka swego pobratymca, Pale rzucą się sobie do gardeł w walce,\r\nw której każdy z nich próbuje wyssać krew drugiego.\r\nNie przestaną walczyć, dopóki jeden z nich nie zginie."
+        }
+      },
+      "PAL_LONG_DESC_Penguin_Electric": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Penguin_Electric_TextData",
+          "SourceString": "Jego skrzydła niemal całkowicie zanikły, więc nie potrafi latać.\r\nTęsknota za niebem zmieniła się w zazdrość,\r\ndzięki której posiadł moc elektryczną — potrafi zestrzeliwać wszystko, co wzlatuje w powietrze.",
+          "LocalizedString": "Jego skrzydła niemal całkowicie zanikły, więc nie potrafi latać.\r\nTęsknota za niebem zmieniła się w zazdrość,\r\ndzięki której posiadł moc elektryczną — potrafi zestrzeliwać wszystko, co wzlatuje w powietrze."
+        }
+      },
+      "PAL_LONG_DESC_StuffedShark_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_StuffedShark_Fire_TextData",
+          "SourceString": "Można wsadzić całą rękę do jego paszczy i na nic się w środku nie natknąć.\r\nPewien badacz, sądząc, że to przestrzeń międzywymiarowa,\r\nspróbował wsunąć się do środka jak do śpiwora,\r\nale Pal zaczął się krztusić. Wygląda na to, że to jednak wnętrze jego ciała.",
+          "LocalizedString": "Można wsadzić całą rękę do jego paszczy i na nic się w środku nie natknąć.\r\nPewien badacz, sądząc, że to przestrzeń międzywymiarowa,\r\nspróbował wsunąć się do środka jak do śpiwora,\r\nale Pal zaczął się krztusić. Wygląda na to, że to jednak wnętrze jego ciała."
+        }
+      },
+      "PAL_LONG_DESC_FlyingManta_Thunder": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FlyingManta_Thunder_TextData",
+          "SourceString": "Jego jaskrawe umaszczenie pomaga w znalezieniu partnera.\r\nOd dawien dawna <characterName id=|FlyingManta_Thunder|/> był przyczyną wielu wypadków.\r\nZ tego powodu na wyspie żółto-czarne paski\r\nstosuje się obecnie jako znak ostrzegawczy.",
+          "LocalizedString": "Jego jaskrawe umaszczenie pomaga w znalezieniu partnera.\r\nOd dawien dawna <characterName id=|FlyingManta_Thunder|/> był przyczyną wielu wypadków.\r\nZ tego powodu na wyspie żółto-czarne paski\r\nstosuje się obecnie jako znak ostrzegawczy."
+        }
+      },
+      "PAL_LONG_DESC_BluePlatypus_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BluePlatypus_Fire_TextData",
+          "SourceString": "Jego brzuch wytwarza tak silne tarcie,\r\nże podczas ślizgu może się zapalić.\r\nCzęsto daje się ponieść emocjom, od czego aż staje w płomieniach.",
+          "LocalizedString": "Jego brzuch wytwarza tak silne tarcie,\r\nże podczas ślizgu może się zapalić.\r\nCzęsto daje się ponieść emocjom, od czego aż staje w płomieniach."
+        }
+      },
+      "PAL_LONG_DESC_CaptainPenguin_Black": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CaptainPenguin_Black_TextData",
+          "SourceString": "Aby skuteczniej polować pod wodą, zyskał moc elektryczną i zmienił kolor.\r\nW rezultacie <characterName id=|Penguin|/> przestał go lubić.\r\nJednak z jakiegoś powodu\r\nprzystał do niego <characterName id=|Penguin_Electric|/>.",
+          "LocalizedString": "Aby skuteczniej polować pod wodą, zyskał moc elektryczną i zmienił kolor.\r\nW rezultacie <characterName id=|Penguin|/> przestał go lubić.\r\nJednak z jakiegoś powodu\r\nprzystał do niego <characterName id=|Penguin_Electric|/>."
+        }
+      },
+      "PAL_LONG_DESC_LazyCatfish_Gold": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_LazyCatfish_Gold_TextData",
+          "SourceString": "Jego ciało ma niesamowitą zdolność odbijania światła.\r\nCo więcej, jego czas reakcji na wszelkie bodźce\r\njest jeszcze wolniejszy niż u <characterName id=|LazyCatfish|/>!",
+          "LocalizedString": "Jego ciało ma niesamowitą zdolność odbijania światła.\r\nCo więcej, jego czas reakcji na wszelkie bodźce\r\njest jeszcze wolniejszy niż u <characterName id=|LazyCatfish|/>!"
+        }
+      },
+      "PAL_LONG_DESC_SnowPeafowl": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SnowPeafowl_TextData",
+          "SourceString": "Ma wyjątkowo dokładny zegar biologiczny i każdego ranka budzi się o tej samej porze.\r\nMówi się, że na wyspie Palpagos dzień podzielono na 24 części,\r\nbo gdy <characterName id=|SnowPeafowl|/> rozpościera skrzydła,\r\nwidać dokładnie 24 segmenty, gdy patrzy się na niego z przodu.",
+          "LocalizedString": "Ma wyjątkowo dokładny zegar biologiczny i każdego ranka budzi się o tej samej porze.\r\nMówi się, że na wyspie Palpagos dzień podzielono na 24 części,\r\nbo gdy <characterName id=|SnowPeafowl|/> rozpościera skrzydła,\r\nwidać dokładnie 24 segmenty, gdy patrzy się na niego z przodu."
+        }
+      },
+      "PAL_LONG_DESC_TentacleTurtle_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_TentacleTurtle_Ground_TextData",
+          "SourceString": "Aby chronić swoje wątłe ciało, wykształcił potężny pancerz.\r\nWiększość jego receptorów dotyku znajduje się na rękach i skorupie,\r\nwięc jeśli ktoś niepostrzeżenie dotknie samego ciała, nawet tego nie poczuje.",
+          "LocalizedString": "Aby chronić swoje wątłe ciało, wykształcił potężny pancerz.\r\nWiększość jego receptorów dotyku znajduje się na rękach i skorupie,\r\nwięc jeśli ktoś niepostrzeżenie dotknie samego ciała, nawet tego nie poczuje."
+        }
+      },
+      "PAL_LONG_DESC_BlueDragon_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BlueDragon_Ice_TextData",
+          "SourceString": "Biały pas na jego ciele nieustannie pochłania ciepło z otoczenia.\r\nCo dziwne, jego temperatura w ogóle się nie zmienia.\r\nZe względu na tę niezwykłą właściwość był kiedyś masowo odławiany,\r\ndlatego do dziś nie pała sympatią do ludzi.",
+          "LocalizedString": "Biały pas na jego ciele nieustannie pochłania ciepło z otoczenia.\r\nCo dziwne, jego temperatura w ogóle się nie zmienia.\r\nZe względu na tę niezwykłą właściwość był kiedyś masowo odławiany,\r\ndlatego do dziś nie pała sympatią do ludzi."
+        }
+      },
+      "PAL_LONG_DESC_IceNarwhal_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_IceNarwhal_Fire_TextData",
+          "SourceString": "Stał się czerwony z wysiłku, dążąc do tego, by już nigdy nie zostać pomylonym z krą lodową.\r\nNiestety Pale, które nie rozróżniają czerwieni,\r\nwciąż naruszają jego przestrzeń osobistą, mimo wszelkich starań.",
+          "LocalizedString": "Stał się czerwony z wysiłku, dążąc do tego, by już nigdy nie zostać pomylonym z krą lodową.\r\nNiestety Pale, które nie rozróżniają czerwieni,\r\nwciąż naruszają jego przestrzeń osobistą, mimo wszelkich starań."
+        }
+      },
+      "PAL_LONG_DESC_GhostAnglerfish_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GhostAnglerfish_Fire_TextData",
+          "SourceString": "Płonąca przynęta służy mu nie tylko do wabienia, ale i do pieczenia zdobyczy.\r\nPale zwabione apetycznym zapachem\r\nnie mają już szans na ucieczkę, jeśli zauważy je <characterName id=|GhostAnglerfish_Fire|/>.\r\nDrapieżnik zjada ich tyle, ile potrzebuje, by się nasycić.",
+          "LocalizedString": "Płonąca przynęta służy mu nie tylko do wabienia, ale i do pieczenia zdobyczy.\r\nPale zwabione apetycznym zapachem\r\nnie mają już szans na ucieczkę, jeśli zauważy je <characterName id=|GhostAnglerfish_Fire|/>.\r\nDrapieżnik zjada ich tyle, ile potrzebuje, by się nasycić."
+        }
+      },
+      "PAL_LONG_DESC_PoseidonOrca": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_PoseidonOrca_TextData",
+          "SourceString": "Po zapieczętowaniu katastrofy wojownik Feybreak stanął z nim twarzą w twarz.\r\nOd tego czasu ukazuje się na przybrzeżnych wodach jedynie najsilniejszym.\r\nSpotkanie jest nieuniknione.",
+          "LocalizedString": "Po zapieczętowaniu katastrofy wojownik Feybreak stanął z nim twarzą w twarz.\r\nOd tego czasu ukazuje się na przybrzeżnych wodach jedynie najsilniejszym.\r\nSpotkanie jest nieuniknione."
+        }
+      },
+      "PAL_LONG_DESC_YakushimaMonster001": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_YakushimaMonster001_TextData",
+          "SourceString": "[Tides of Terraria]\r\nPotwór z innego świata.\r\nWygląda na to, że tutaj da się go oswoić.",
+          "LocalizedString": "[Tides of Terraria]\r\nPotwór z innego świata.\r\nWygląda na to, że tutaj da się go oswoić."
+        }
+      },
+      "PAL_LONG_DESC_YakushimaMonster001_Blue": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_YakushimaMonster001_Blue_TextData",
+          "SourceString": "[Tides of Terraria]\r\nPotwór z innego świata.\r\nWygląda na to, że tutaj da się go oswoić.",
+          "LocalizedString": "[Tides of Terraria]\r\nPotwór z innego świata.\r\nWygląda na to, że tutaj da się go oswoić."
+        }
+      },
+      "PAL_LONG_DESC_YakushimaMonster001_Red": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_YakushimaMonster001_Red_TextData",
+          "SourceString": "[Tides of Terraria]\r\nPotwór z innego świata.\r\nWygląda na to, że tutaj da się go oswoić.",
+          "LocalizedString": "[Tides of Terraria]\r\nPotwór z innego świata.\r\nWygląda na to, że tutaj da się go oswoić."
+        }
+      },
+      "PAL_LONG_DESC_YakushimaMonster001_Purple": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_YakushimaMonster001_Purple_TextData",
+          "SourceString": "[Tides of Terraria]\r\nPotwór z innego świata.\r\nWygląda na to, że tutaj da się go oswoić.",
+          "LocalizedString": "[Tides of Terraria]\r\nPotwór z innego świata.\r\nWygląda na to, że tutaj da się go oswoić."
+        }
+      },
+      "PAL_LONG_DESC_YakushimaMonster001_Pink": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_YakushimaMonster001_Pink_TextData",
+          "SourceString": "[Tides of Terraria]\r\nPotwór z innego świata.\r\nWygląda na to, że tutaj da się go oswoić.",
+          "LocalizedString": "[Tides of Terraria]\r\nPotwór z innego świata.\r\nWygląda na to, że tutaj da się go oswoić."
+        }
+      },
+      "PAL_LONG_DESC_YakushimaMonster001_Rainbow": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_YakushimaMonster001_Rainbow_TextData",
+          "SourceString": "[Tides of Terraria]\r\nPotwór z innego świata.\r\nWygląda na to, że tutaj da się go oswoić.",
+          "LocalizedString": "[Tides of Terraria]\r\nPotwór z innego świata.\r\nWygląda na to, że tutaj da się go oswoić."
+        }
+      },
+      "PAL_LONG_DESC_YakushimaBoss001_Small": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_YakushimaBoss001_Small_TextData",
+          "SourceString": "[Tides of Terraria]\r\nPotwór z innego świata.\r\nWygląda na to, że tutaj da się go oswoić.",
+          "LocalizedString": "[Tides of Terraria]\r\nPotwór z innego świata.\r\nWygląda na to, że tutaj da się go oswoić."
+        }
+      },
+      "PAL_LONG_DESC_YakushimaMonster002": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_YakushimaMonster002_TextData",
+          "SourceString": "[Tides of Terraria]\r\nPotwór z innego świata.\r\nWygląda na to, że tutaj da się go oswoić.",
+          "LocalizedString": "[Tides of Terraria]\r\nPotwór z innego świata.\r\nWygląda na to, że tutaj da się go oswoić."
+        }
+      },
+      "PAL_LONG_DESC_YakushimaMonster003": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_YakushimaMonster003_TextData",
+          "SourceString": "[Tides of Terraria]\r\nPotwór z innego świata.\r\nWygląda na to, że tutaj da się go oswoić.",
+          "LocalizedString": "[Tides of Terraria]\r\nPotwór z innego świata.\r\nWygląda na to, że tutaj da się go oswoić."
+        }
+      },
+      "PAL_LONG_DESC_YakushimaMonster003_Purple": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_YakushimaMonster003_Purple_TextData",
+          "SourceString": "[Tides of Terraria]\r\nPotwór z innego świata.\r\nWygląda na to, że tutaj da się go oswoić.",
+          "LocalizedString": "[Tides of Terraria]\r\nPotwór z innego świata.\r\nWygląda na to, że tutaj da się go oswoić."
+        }
+      },
+      "PAL_LONG_DESC_YakushimaBoss001": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_YakushimaBoss001_TextData",
+          "SourceString": "[Tides of Terraria]\r\nPotwór z innego świata.\r\nWygląda na to, że tutaj da się go oswoić.",
+          "LocalizedString": "[Tides of Terraria]\r\nPotwór z innego świata.\r\nWygląda na to, że tutaj da się go oswoić."
+        }
+      },
+      "PAL_LONG_DESC_LegendDeer": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_LegendDeer_TextData",
+          "SourceString": "Panowała upiorna, a jednak dziwnie kojąca cisza.\r\nNie było już nikogo. Wszyscy dawno zostali zbawieni.\r\nO, Królu Zbawienia, zabierz i mnie do bezkresnej ciszy.\r\n– W tym miejscu stary manuskrypt się urywa.",
+          "LocalizedString": "Panowała upiorna, a jednak dziwnie kojąca cisza.\r\nNie było już nikogo. Wszyscy dawno zostali zbawieni.\r\nO, Królu Zbawienia, zabierz i mnie do bezkresnej ciszy.\r\n– W tym miejscu stary manuskrypt się urywa."
+        }
+      },
+      "PAL_LONG_DESC_VolcanoDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_VolcanoDragon_TextData",
+          "SourceString": "U zdrowego osobnika lawa na grzbiecie płynie gładko.\r\nGdy jednak prowadzi niezdrowy tryb życia,\r\nprzepływ się pogarsza, a w skrajnych przypadkach dochodzi do zatoru lawy i\r\nnagłego, potężnego wybuchu.",
+          "LocalizedString": "U zdrowego osobnika lawa na grzbiecie płynie gładko.\r\nGdy jednak prowadzi niezdrowy tryb życia,\r\nprzepływ się pogarsza, a w skrajnych przypadkach dochodzi do zatoru lawy i\r\nnagłego, potężnego wybuchu."
+        }
+      },
+      "PAL_LONG_DESC_HoodGhost": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_HoodGhost_TextData",
+          "SourceString": "Kiedy zasypia, kurczy się. Kiedy śpi to go nie ma.\r\nA skoro uśpiony <characterName id=|HoodGhost|/> nie istnieje, \r\nto <characterName id=|HoodGhost|/> nie śpi.",
+          "LocalizedString": "Kiedy zasypia, kurczy się. Kiedy śpi to go nie ma.\r\nA skoro uśpiony <characterName id=|HoodGhost|/> nie istnieje, \r\nto <characterName id=|HoodGhost|/> nie śpi."
+        }
+      },
+      "PAL_LONG_DESC_Sekhmet": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Sekhmet_TextData",
+          "SourceString": "Dawniej miała dziki temperament i uchodziła za symbol śmierci. Gdy rolę symbolu śmierci przejął\r\n<characterName id=|Anubis|/>, zamożni ludzie, w poszukiwaniu dla niej nowej roli,\r\nzaczęli upijać ją alkoholem i sprytnie ją sobie podporządkowali.\r\nZ czasem <characterName id=|Sekhmet|/> stała się symbolem szlachetności.",
+          "LocalizedString": "Dawniej miała dziki temperament i uchodziła za symbol śmierci. Gdy rolę symbolu śmierci przejął\r\n<characterName id=|Anubis|/>, zamożni ludzie, w poszukiwaniu dla niej nowej roli,\r\nzaczęli upijać ją alkoholem i sprytnie ją sobie podporządkowali.\r\nZ czasem <characterName id=|Sekhmet|/> stała się symbolem szlachetności."
+        }
+      },
+      "PAL_LONG_DESC_RockBeast": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_RockBeast_TextData",
+          "SourceString": "Uderza swoim ciałem o twardsze skały, żeby zachować swój ulubiony kształt.\r\nJeśli trafisz na osobnika z wgnieceniem, lepiej nie zwracaj na niego uwagi.\r\nDla niego to tak krępujące, jak za krótko obcięta grzywka dla człowieka.",
+          "LocalizedString": "Uderza swoim ciałem o twardsze skały, żeby zachować swój ulubiony kształt.\r\nJeśli trafisz na osobnika z wgnieceniem, lepiej nie zwracaj na niego uwagi.\r\nDla niego to tak krępujące, jak za krótko obcięta grzywka dla człowieka."
+        }
+      },
+      "PAL_LONG_DESC_RockBeast_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_RockBeast_Ice_TextData",
+          "SourceString": "Podczas opalania obraca się raz w jedną, raz w drugą stronę i roztapia lód tak, aby nadać mu swój ulubiony kształt.\r\nJeśli trafisz na osobnika, który wyszedł trochę koślawo, lepiej taktownie nie zwracaj uwagi na jego mankament.\r\nMożna to przyrównać do człowieka, który za mocno przyciął sobie baki.",
+          "LocalizedString": "Podczas opalania obraca się raz w jedną, raz w drugą stronę i roztapia lód tak, aby nadać mu swój ulubiony kształt.\r\nJeśli trafisz na osobnika, który wyszedł trochę koślawo, lepiej taktownie nie zwracaj uwagi na jego mankament.\r\nMożna to przyrównać do człowieka, który za mocno przyciął sobie baki."
+        }
+      },
+      "PAL_LONG_DESC_MoonChild": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_MoonChild_TextData",
+          "SourceString": "Gdy kończy życie, gdzieś na niebie\r\npojawia się nowa gwiazda.\r\nIm więcej wspomnień, tym jaśniej lśni.",
+          "LocalizedString": "Gdy kończy życie, gdzieś na niebie\r\npojawia się nowa gwiazda.\r\nIm więcej wspomnień, tym jaśniej lśni."
+        }
+      },
+      "PAL_LONG_DESC_ClownRabbit": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ClownRabbit_TextData",
+          "SourceString": "Zdarza się, że zostaje pokonany przez własnego sobowtóra, którego przywołał, i w efekcie dochodzi do podmiany.\r\nNawet on sam nie ma pewności,\r\nczy wczorajszy <characterName id=|ClownRabbit|/> to ten sam <characterName id=|ClownRabbit|/> co dzisiejszy.",
+          "LocalizedString": "Zdarza się, że zostaje pokonany przez własnego sobowtóra, którego przywołał, i w efekcie dochodzi do podmiany.\r\nNawet on sam nie ma pewności,\r\nczy wczorajszy <characterName id=|ClownRabbit|/> to ten sam <characterName id=|ClownRabbit|/> co dzisiejszy."
+        }
+      },
+      "PAL_LONG_DESC_CactusDoll": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CactusDoll_TextData",
+          "SourceString": "Gdy targają nim silne emocje, jego kolce na zmianę wydłużają się i kurczą.\r\nZadbany <characterName id=|CactusDoll|/> aż prosi się, żeby go przytulić,\r\nale w dziewięciu przypadkach na dziesięć nie kończy się to dobrze.",
+          "LocalizedString": "Gdy targają nim silne emocje, jego kolce na zmianę wydłużają się i kurczą.\r\nZadbany <characterName id=|CactusDoll|/> aż prosi się, żeby go przytulić,\r\nale w dziewięciu przypadkach na dziesięć nie kończy się to dobrze."
+        }
+      },
+      "PAL_LONG_DESC_CactusDoll_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CactusDoll_Dark_TextData",
+          "SourceString": "Gdy targają nim silne emocje, jego kolce na zmianę wydłużają się i kurczą.\r\n<characterName id=|CactusDoll_Dark|/>, wychowany z czułością,\r\nprzy każdej okazji próbuje przytulić się do swojego właściciela.\r\nJeśli jednak przyjmiesz tę miłość, musisz przyjąć także ból.",
+          "LocalizedString": "Gdy targają nim silne emocje, jego kolce na zmianę wydłużają się i kurczą.\r\n<characterName id=|CactusDoll_Dark|/>, wychowany z czułością,\r\nprzy każdej okazji próbuje przytulić się do swojego właściciela.\r\nJeśli jednak przyjmiesz tę miłość, musisz przyjąć także ból."
+        }
+      },
+      "PAL_LONG_DESC_GrassGolem": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GrassGolem_TextData",
+          "SourceString": "Jedno życie, dwie świadomości.\r\nCzasem, gdy podążają w różnych kierunkach, zaczynają się kłócić.\r\nA dopóki się nie pogodzą, nie wiadomo, dokąd ta zbroja w ogóle pójdzie!",
+          "LocalizedString": "Jedno życie, dwie świadomości.\r\nCzasem, gdy podążają w różnych kierunkach, zaczynają się kłócić.\r\nA dopóki się nie pogodzą, nie wiadomo, dokąd ta zbroja w ogóle pójdzie!"
+        }
+      },
+      "PAL_LONG_DESC_GrassGolem_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GrassGolem_Dark_TextData",
+          "SourceString": "Jedno życie, dwie świadomości.\r\nNa co dzień rzadko się ze sobą zgadzają i ciągle się kłócą, ale gdy tylko zaczyna się walka,\r\nw mgnieniu oka stają się jednością, zarówno duchem, jak i ciałem!",
+          "LocalizedString": "Jedno życie, dwie świadomości.\r\nNa co dzień rzadko się ze sobą zgadzają i ciągle się kłócą, ale gdy tylko zaczyna się walka,\r\nw mgnieniu oka stają się jednością, zarówno duchem, jak i ciałem!"
+        }
+      },
+      "PAL_LONG_DESC_CubeTurtle": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CubeTurtle_TextData",
+          "SourceString": "Kamienie ułożone na jego grzbiecie zdają się mieć własną wolę.\r\nGdy je zdejmiesz i odłożysz gdzieś dalej,\r\nsame zaczynają się poruszać i próbują wrócić na swoje miejsce.",
+          "LocalizedString": "Kamienie ułożone na jego grzbiecie zdają się mieć własną wolę.\r\nGdy je zdejmiesz i odłożysz gdzieś dalej,\r\nsame zaczynają się poruszać i próbują wrócić na swoje miejsce."
+        }
+      },
+      "PAL_LONG_DESC_SamuraiDog": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SamuraiDog_TextData",
+          "SourceString": "<characterName id=|SamuraiDog|/> rozpoczyna spory terytorialne ze swoimi pobratymcami od przeciągłego mierzenia się wzrokiem, a kończy jednym błyskiem ostrza.\r\nSwoją drogą, lepiej nie uczyć oswojonego osobnika komendy „czekaj”, bo gdy tylko dasz mu sygnał, że już może przestać, nie da się powstrzymać jego instynktownej reakcji.",
+          "LocalizedString": "<characterName id=|SamuraiDog|/> rozpoczyna spory terytorialne ze swoimi pobratymcami od przeciągłego mierzenia się wzrokiem, a kończy jednym błyskiem ostrza.\r\nSwoją drogą, lepiej nie uczyć oswojonego osobnika komendy „czekaj”, bo gdy tylko dasz mu sygnał, że już może przestać, nie da się powstrzymać jego instynktownej reakcji."
+        }
+      },
+      "PAL_LONG_DESC_MummyPal": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_MummyPal_TextData",
+          "SourceString": "Złocisty organ przypominający bandaże potrafi dowolnie się rozciągać i kurczyć.\r\nGdy zbyt mocno wyschnie, może popękać albo się urwać,\r\nwięc niezbędne jest codzienna troska o właściwe nawilżenie.",
+          "LocalizedString": "Złocisty organ przypominający bandaże potrafi dowolnie się rozciągać i kurczyć.\r\nGdy zbyt mocno wyschnie, może popękać albo się urwać,\r\nwięc niezbędne jest codzienna troska o właściwe nawilżenie."
+        }
+      },
+      "PAL_LONG_DESC_KingSunfish": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_KingSunfish_TextData",
+          "SourceString": "Kręci ogonem niczym śrubą, dzięki czemu zyskuje potężny napęd.\r\nWedług dawnych badań, gdyby dało się zignorować rozpad jego ciała,\r\nteoretycznie mógłby płynąć z prędkością większą niż 88 mph.",
+          "LocalizedString": "Kręci ogonem niczym śrubą, dzięki czemu zyskuje potężny napęd.\r\nWedług dawnych badań, gdyby dało się zignorować rozpad jego ciała,\r\nteoretycznie mógłby płynąć z prędkością większą niż 88 mph."
+        }
+      },
+      "PAL_LONG_DESC_KingSunfish_Thunder": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_KingSunfish_Thunder_TextData",
+          "SourceString": "Kręcąc ogonem jak śrubą, potrafi wytwarzać prąd.\r\nTeoretycznie mógłby wygenerować nawet 1,21 gigawata mocy,\r\nale ponieważ jego ciało natychmiast się rozpada, w praktyce jest to kompletnie bezużyteczna umiejętność.",
+          "LocalizedString": "Kręcąc ogonem jak śrubą, potrafi wytwarzać prąd.\r\nTeoretycznie mógłby wygenerować nawet 1,21 gigawata mocy,\r\nale ponieważ jego ciało natychmiast się rozpada, w praktyce jest to kompletnie bezużyteczna umiejętność."
+        }
+      },
+      "PAL_LONG_DESC_MonochromeQueen": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_MonochromeQueen_TextData",
+          "SourceString": "Po dobrym doświadczeniu musi przeżyć w podobnym stopniu złe, inaczej nie zazna spokoju.\r\nJeśli <characterName id=|MonochromeQueen|/> ma być chowana z troską,\r\npotrzebna będzie odpowiednia determinacja.",
+          "LocalizedString": "Po dobrym doświadczeniu musi przeżyć w podobnym stopniu złe, inaczej nie zazna spokoju.\r\nJeśli <characterName id=|MonochromeQueen|/> ma być chowana z troską,\r\npotrzebna będzie odpowiednia determinacja."
+        }
+      },
+      "PAL_LONG_DESC_ElecSnail": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ElecSnail_TextData",
+          "SourceString": "Tradycyjny sposób na dbania o zdrowie polega na wrzuceniu Pala <characterName id=|ElecSnail|/> do wanny,\r\nby zażył elektrycznej kąpieli.\r\nInnymi słowy, to dość niebezpieczna rozrywka.",
+          "LocalizedString": "Tradycyjny sposób na dbania o zdrowie polega na wrzuceniu Pala <characterName id=|ElecSnail|/> do wanny,\r\nby zażył elektrycznej kąpieli.\r\nInnymi słowy, to dość niebezpieczna rozrywka."
+        }
+      },
+      "PAL_LONG_DESC_ElecSnail_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ElecSnail_Ground_TextData",
+          "SourceString": "Dawno temu <characterName id=|ElecSnail_Ground|/> był powszechnie wrzucany do wanny,\r\nw celu przygotowania piekielnie gorącej kąpieli.\r\nObecna moda na retro przywróciła ten zwyczaj do łask.",
+          "LocalizedString": "Dawno temu <characterName id=|ElecSnail_Ground|/> był powszechnie wrzucany do wanny,\r\nw celu przygotowania piekielnie gorącej kąpieli.\r\nObecna moda na retro przywróciła ten zwyczaj do łask."
+        }
+      },
+      "PAL_LONG_DESC_SumoDog": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SumoDog_TextData",
+          "SourceString": "W dawnych czasach popularne było <characterName id=|SumoDog|/> sumo.\r\nGdy do walki stawał <characterName id=|SumoDog|/> najwyższej klasy,\r\nnawet szarżujący <characterName id=|Boar|/>\r\nkończył zmieciony z powierzchni ziemi.",
+          "LocalizedString": "W dawnych czasach popularne było <characterName id=|SumoDog|/> sumo.\r\nGdy do walki stawał <characterName id=|SumoDog|/> najwyższej klasy,\r\nnawet szarżujący <characterName id=|Boar|/>\r\nkończył zmieciony z powierzchni ziemi."
+        }
+      },
+      "PAL_LONG_DESC_VolcanicTurtle": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_VolcanicTurtle_TextData",
+          "SourceString": "en_text",
+          "LocalizedString": "en_text"
+        }
+      },
+      "PAL_LONG_DESC_ElecPomeranian": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ElecPomeranian_TextData",
+          "SourceString": "Jeśli zanurzy się go w wodzie, jego puszyste futro chłonie jej ogromne ilości.\r\nGdy potem Pal pozbywa nadmiaru wody, dochodzi do potężnych wyładowań.\r\nWspólna kąpiel z nim to igranie ze śmiercią.",
+          "LocalizedString": "Jeśli zanurzy się go w wodzie, jego puszyste futro chłonie jej ogromne ilości.\r\nGdy potem Pal pozbywa nadmiaru wody, dochodzi do potężnych wyładowań.\r\nWspólna kąpiel z nim to igranie ze śmiercią."
+        }
+      },
+      "PAL_LONG_DESC_ElecLizard": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ElecLizard_TextData",
+          "SourceString": "Robi, co mu się żywnie podoba, śpi, kiedy chce, i je to, na co ma ochotę.\r\nŻeby utrzymać taki styl życia, <characterName id=|ElecLizard|/> z pewnością\r\nwkłada w to sporo wysiłku, kiedy nikt nie patrzy.\r\nTak przynajmniej wmawiali sobie dawni mieszkańcy wyspy, bo inaczej nie dałoby się z nim wytrzymać.",
+          "LocalizedString": "Robi, co mu się żywnie podoba, śpi, kiedy chce, i je to, na co ma ochotę.\r\nŻeby utrzymać taki styl życia, <characterName id=|ElecLizard|/> z pewnością\r\nwkłada w to sporo wysiłku, kiedy nikt nie patrzy.\r\nTak przynajmniej wmawiali sobie dawni mieszkańcy wyspy, bo inaczej nie dałoby się z nim wytrzymać."
+        }
+      },
+      "PAL_LONG_DESC_RedFlowerBird": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_RedFlowerBird_TextData",
+          "SourceString": "Mówi się, że energicznie porusza ciałem,\r\nbo udaje kwiat kołyszący się na wietrze, dzięki czemu unika wrogów.\r\nMożna też usłyszeć inną wersję: ten czerwony kwiat, który miota się w szaleńczym tempie,\r\njest po prostu tak upiorny, że nikt nie ma odwagi podejść.",
+          "LocalizedString": "Mówi się, że energicznie porusza ciałem,\r\nbo udaje kwiat kołyszący się na wietrze, dzięki czemu unika wrogów.\r\nMożna też usłyszeć inną wersję: ten czerwony kwiat, który miota się w szaleńczym tempie,\r\njest po prostu tak upiorny, że nikt nie ma odwagi podejść."
+        }
+      },
+      "PAL_LONG_DESC_ThiefBird": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ThiefBird_TextData",
+          "SourceString": "Ma lepkie ręce i kradnie, gdy tylko na chwilę odwrócisz wzrok.\r\nNawet jeśli ktoś prawie go przyłapie, to nie ma znaczenia.\r\nJest tak szybki, że nie uwierzysz własnym oczom.",
+          "LocalizedString": "Ma lepkie ręce i kradnie, gdy tylko na chwilę odwrócisz wzrok.\r\nNawet jeśli ktoś prawie go przyłapie, to nie ma znaczenia.\r\nJest tak szybki, że nie uwierzysz własnym oczom."
+        }
+      },
+      "PAL_LONG_DESC_ThunderFluffyBird": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ThunderFluffyBird_TextData",
+          "SourceString": "Żyje wysoko, gdzie pożywienia jest jak na lekarstwo,\r\nwięc czasem zjada nawet mózgi wrogów.\r\nUważa się, że grupa, która szukała pewniejszego źródła jedzenia,\r\nzeszła niżej i z czasem wyodrębniła się jako <characterName id=|ThunderBird|/>.",
+          "LocalizedString": "Żyje wysoko, gdzie pożywienia jest jak na lekarstwo,\r\nwięc czasem zjada nawet mózgi wrogów.\r\nUważa się, że grupa, która szukała pewniejszego źródła jedzenia,\r\nzeszła niżej i z czasem wyodrębniła się jako <characterName id=|ThunderBird|/>."
+        }
+      },
+      "PAL_LONG_DESC_FluffyBird": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FluffyBird_TextData",
+          "SourceString": "Puszyste futerko wokół jego pyska amortyzuje uderzenia.\r\nNawet jeśli trochę go odrzuci, nie stanie mu się nic poważnego.\r\nWiąże się to jednak z pewnymi niewygodami: trudno mu się czyści pióra, nie może się porządnie podrapać tam, gdzie swędzi,\r\ni ciągle coś go uwiera.",
+          "LocalizedString": "Puszyste futerko wokół jego pyska amortyzuje uderzenia.\r\nNawet jeśli trochę go odrzuci, nie stanie mu się nic poważnego.\r\nWiąże się to jednak z pewnymi niewygodami: trudno mu się czyści pióra, nie może się porządnie podrapać tam, gdzie swędzi,\r\ni ciągle coś go uwiera."
+        }
+      },
+      "PAL_LONG_DESC_FoxExorcist": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FoxExorcist_TextData",
+          "SourceString": "Skupia myśli i wypatruje przyszłości w płomieniach.\r\nJeśli zobaczy coś, co mu nie podpasuje, próbuje tyle razy, aż trafi na bardziej sprzyjającą wizję.\r\n<characterName id=|FoxExorcist|/> może być pewny, że jego przyszłość zawsze rysuje się w świetlanych barwach!",
+          "LocalizedString": "Skupia myśli i wypatruje przyszłości w płomieniach.\r\nJeśli zobaczy coś, co mu nie podpasuje, próbuje tyle razy, aż trafi na bardziej sprzyjającą wizję.\r\n<characterName id=|FoxExorcist|/> może być pewny, że jego przyszłość zawsze rysuje się w świetlanych barwach!"
+        }
+      },
+      "PAL_LONG_DESC_ClioneTwins": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ClioneTwins_TextData",
+          "SourceString": "Gdy zabraknie jednej towarzyszki, nie wiadomo skąd pojawia się kolejna.\r\nPotem żyją razem, jakby nigdy nic.\r\nDla <characterName id=|ClioneTwins|/> najważniejsze jest po prostu to,\r\nżeby zawsze być w parze.",
+          "LocalizedString": "Gdy zabraknie jednej towarzyszki, nie wiadomo skąd pojawia się kolejna.\r\nPotem żyją razem, jakby nigdy nic.\r\nDla <characterName id=|ClioneTwins|/> najważniejsze jest po prostu to,\r\nżeby zawsze być w parze."
+        }
+      },
+      "PAL_LONG_DESC_DandelionGirl": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_DandelionGirl_TextData",
+          "SourceString": "Potrafi upchnąć przykre wspomnienia w swoim puszku.\r\nA gdy puszek zostanie porwany przez wiatr,\r\nponury nastrój też znika bez śladu.",
+          "LocalizedString": "Potrafi upchnąć przykre wspomnienia w swoim puszku.\r\nA gdy puszek zostanie porwany przez wiatr,\r\nponury nastrój też znika bez śladu."
+        }
+      },
+      "PAL_LONG_DESC_SleeveRabbit": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SleeveRabbit_TextData",
+          "SourceString": "Długie futerko na końcach łap wykorzystuje, żeby przyciągać spojrzenia.\r\nDba o nie jak o skarb i jest bardzo wyczulona na zabrudzenia,\r\nwięc jeśli tylko wzbijesz kurz w pobliżu, spojrzy na ciebie z czystą niechęcią.",
+          "LocalizedString": "Długie futerko na końcach łap wykorzystuje, żeby przyciągać spojrzenia.\r\nDba o nie jak o skarb i jest bardzo wyczulona na zabrudzenia,\r\nwięc jeśli tylko wzbijesz kurz w pobliżu, spojrzy na ciebie z czystą niechęcią."
+        }
+      },
+      "PAL_LONG_DESC_SmallYeti": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SmallYeti_TextData",
+          "SourceString": "„Zajrzeć w oczy <characterName id=|SmallYeti|/>”\r\nto powiedzenie, które znaczy tyle co „dostrzec niewidoczną istotę rzeczy”.\r\nTyle że... dziwnym trafem żaden badacz nigdy nie próbował sprawdzić,\r\nczy <characterName id=|SmallYeti|/> w ogóle ma oczy.",
+          "LocalizedString": "„Zajrzeć w oczy <characterName id=|SmallYeti|/>”\r\nto powiedzenie, które znaczy tyle co „dostrzec niewidoczną istotę rzeczy”.\r\nTyle że... dziwnym trafem żaden badacz nigdy nie próbował sprawdzić,\r\nczy <characterName id=|SmallYeti|/> w ogóle ma oczy."
+        }
+      },
+      "PAL_LONG_DESC_StrawHatCat": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_StrawHatCat_TextData",
+          "SourceString": "en_text",
+          "LocalizedString": "en_text"
+        }
+      },
+      "PAL_LONG_DESC_CandleWitch": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CandleWitch_TextData",
+          "SourceString": "en_text",
+          "LocalizedString": "en_text"
+        }
+      },
+      "PAL_LONG_DESC_CloverFairy": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CloverFairy_TextData",
+          "SourceString": "Dawniej zdarzały się osobniki z trzema lub większą liczbą listków na czole.\r\nUznawano je za symbol szczęścia, więc co bardziej porośnięte liśćmi były masowo wyłapywane.\r\nW efekcie cały gatunek zaczął ewoluować tak, by mieć ich coraz mniej.",
+          "LocalizedString": "Dawniej zdarzały się osobniki z trzema lub większą liczbą listków na czole.\r\nUznawano je za symbol szczęścia, więc co bardziej porośnięte liśćmi były masowo wyłapywane.\r\nW efekcie cały gatunek zaczął ewoluować tak, by mieć ich coraz mniej."
+        }
+      },
+      "PAL_LONG_DESC_GhostBlackCat": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GhostBlackCat_TextData",
+          "SourceString": "W dłoniach za jego plecami tkwią myśli i emocje wszystkich ludzi,\r\nktórzy przez lata opiekowali się jego rodem.\r\nOstatnio panuje pełna zgoda w kwestii tego, że <characterName id=|GhostBlackCat|/> musi być rozpieszczany.",
+          "LocalizedString": "W dłoniach za jego plecami tkwią myśli i emocje wszystkich ludzi,\r\nktórzy przez lata opiekowali się jego rodem.\r\nOstatnio panuje pełna zgoda w kwestii tego, że <characterName id=|GhostBlackCat|/> musi być rozpieszczany."
+        }
+      },
+      "PAL_LONG_DESC_OniGhostGirl": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_OniGhostGirl_TextData",
+          "SourceString": "Straszenie to jej sens życia, choć wcale nie jest straszna.\r\nAle wszyscy i tak dają się „przestraszyć” z czystej sympatii do uroczej <characterName id=|OniGhostGirl|/>, \r\nktóra zawsze przynosi uśmiech na twarze.",
+          "LocalizedString": "Straszenie to jej sens życia, choć wcale nie jest straszna.\r\nAle wszyscy i tak dają się „przestraszyć” z czystej sympatii do uroczej <characterName id=|OniGhostGirl|/>, \r\nktóra zawsze przynosi uśmiech na twarze."
+        }
+      },
+      "PAL_LONG_DESC_LongCat": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_LongCat_TextData",
+          "SourceString": "Na dawnych obrazach przedstawiano go jako znacznie mniejszego niż dziś.\r\nZ jakiegoś powodu w ostatnich latach różne części jego ciała zaczęły szybko się wydłużać\r\ni przewiduje się, że za 100 lat urośnie mniej więcej dziesięciokrotnie.",
+          "LocalizedString": "Na dawnych obrazach przedstawiano go jako znacznie mniejszego niż dziś.\r\nZ jakiegoś powodu w ostatnich latach różne części jego ciała zaczęły szybko się wydłużać\r\ni przewiduje się, że za 100 lat urośnie mniej więcej dziesięciokrotnie."
+        }
+      },
+      "PAL_LONG_DESC_DarkFlameFox": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_DarkFlameFox_TextData",
+          "SourceString": "Opiera dłonie na biodrach i wygląda, jakby pozowała do obrazu,\r\nale prawda jest mniej spektakularna. Ogon i futrzaste włosy są tak ciężkie,\r\nże po prostu podpiera się, żeby nie upaść.",
+          "LocalizedString": "Opiera dłonie na biodrach i wygląda, jakby pozowała do obrazu,\r\nale prawda jest mniej spektakularna. Ogon i futrzaste włosy są tak ciężkie,\r\nże po prostu podpiera się, żeby nie upaść."
+        }
+      },
+      "PAL_LONG_DESC_LanternButler": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_LanternButler_TextData",
+          "SourceString": "Tajemniczo lśniący lampion rozświetla prawdę o świecie.\r\nJeśli jego blask razi cię w oczy,\r\nto pewnie masz coś na sumieniu.",
+          "LocalizedString": "Tajemniczo lśniący lampion rozświetla prawdę o świecie.\r\nJeśli jego blask razi cię w oczy,\r\nto pewnie masz coś na sumieniu."
+        }
+      },
+      "PAL_LONG_DESC_VenusFlytrap": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_VenusFlytrap_TextData",
+          "SourceString": "Zjada wszystko bez zastanowienia, nawet najdziwniejsze rzeczy,\r\nwięc w ustach na czubku jej głowy często wyskakują bolesne afty.\r\nWtedy zajada się za pomocą ust na twarzy.\r\nJej kulinarny gust się jednak nie zmienia, więc w końcu obie pary ust są usiane aftami.",
+          "LocalizedString": "Zjada wszystko bez zastanowienia, nawet najdziwniejsze rzeczy,\r\nwięc w ustach na czubku jej głowy często wyskakują bolesne afty.\r\nWtedy zajada się za pomocą ust na twarzy.\r\nJej kulinarny gust się jednak nie zmienia, więc w końcu obie pary ust są usiane aftami."
+        }
+      },
+      "PAL_LONG_DESC_SwordCutlassfish": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SwordCutlassfish_TextData",
+          "SourceString": "Potrafi na chwilę rozdzielić własne ciało i rozszarpywać wrogów za pomocą kości.\r\nTo szalona umiejętność, ale jest pewien haczyk: jeśli nie złoży się z powrotem wystarczająco szybko, opadnie z sił.\r\nPodobno wśród młodych krąży niebezpieczna zabawa w bicie rekordów,\r\nkto wytrzyma dłużej w rozdzielonej formie... albo i nie.",
+          "LocalizedString": "Potrafi na chwilę rozdzielić własne ciało i rozszarpywać wrogów za pomocą kości.\r\nTo szalona umiejętność, ale jest pewien haczyk: jeśli nie złoży się z powrotem wystarczająco szybko, opadnie z sił.\r\nPodobno wśród młodych krąży niebezpieczna zabawa w bicie rekordów,\r\nkto wytrzyma dłużej w rozdzielonej formie... albo i nie."
+        }
+      },
+      "PAL_LONG_DESC_SnakeGirl": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SnakeGirl_TextData",
+          "SourceString": "Gdy czegoś nie rozumie, urządza naradę z wężami na swojej głowie.\r\nTyle że, jakby nie patrzeć, wszyscy dzielą jedną głowę,\r\nwięc jedyne, do czego dochodzą, to że nadal nic nie wiedzą.",
+          "LocalizedString": "Gdy czegoś nie rozumie, urządza naradę z wężami na swojej głowie.\r\nTyle że, jakby nie patrzeć, wszyscy dzielą jedną głowę,\r\nwięc jedyne, do czego dochodzą, to że nadal nic nie wiedzą."
+        }
+      },
+      "PAL_LONG_DESC_MushroomLady": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_MushroomLady_TextData",
+          "SourceString": "Traktuje ludzi wyłącznie jak wygodnych żywicieli.\r\n<characterName id=|MushroomLady|/> przybrała tę postać po to,\r\nby uśpić ich czujność i jak najskuteczniej rozsiewać swoje zarodniki.",
+          "LocalizedString": "Traktuje ludzi wyłącznie jak wygodnych żywicieli.\r\n<characterName id=|MushroomLady|/> przybrała tę postać po to,\r\nby uśpić ich czujność i jak najskuteczniej rozsiewać swoje zarodniki."
+        }
+      },
+      "PAL_LONG_DESC_KingWhale": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_KingWhale_TextData",
+          "SourceString": "Ostatni przedstawiciel gatunku, który cierpliwie czekał, kierując się swoją misją.\r\nGdy po wypełnieniu obowiązku woła swoją matkę,\r\nodpowiada mu jedynie echo.",
+          "LocalizedString": "Ostatni przedstawiciel gatunku, który cierpliwie czekał, kierując się swoją misją.\r\nGdy po wypełnieniu obowiązku woła swoją matkę,\r\nodpowiada mu jedynie echo."
+        }
+      },
+      "PAL_LONG_DESC_BlueSkyDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BlueSkyDragon_TextData",
+          "SourceString": "Kiedy spotkają kogoś, z kim mają być już na zawsze,\r\nzdejmują obręcz unoszącą się przy środku tułowia\r\ni wymieniają się nią.",
+          "LocalizedString": "Kiedy spotkają kogoś, z kim mają być już na zawsze,\r\nzdejmują obręcz unoszącą się przy środku tułowia\r\ni wymieniają się nią."
+        }
+      },
+      "PAL_LONG_DESC_Mothman": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Mothman_TextData",
+          "SourceString": "Od zamierzchłych czasów trwa przy drzewie, nieustannie czegoś strzegąc.\r\n<characterName id=|Mothman|/> nie wie, co chroni ani dlaczego.\r\nPo prostu słucha nauk drzewa, wiedząc,\r\nże zarodniki, którymi włada, rozpoznają każdego wroga.",
+          "LocalizedString": "Od zamierzchłych czasów trwa przy drzewie, nieustannie czegoś strzegąc.\r\n<characterName id=|Mothman|/> nie wie, co chroni ani dlaczego.\r\nPo prostu słucha nauk drzewa, wiedząc,\r\nże zarodniki, którymi włada, rozpoznają każdego wroga."
+        }
+      },
+      "PAL_LONG_DESC_GhostDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GhostDragon_TextData",
+          "SourceString": "Niedawno odkryty nowy Pal.\r\nŁagodny i spokojny, żyje, jak chce.\r\nWreszcie wolny od wszelkich więzów.",
+          "LocalizedString": "Niedawno odkryty nowy Pal.\r\nŁagodny i spokojny, żyje, jak chce.\r\nWreszcie wolny od wszelkich więzów."
+        }
+      },
+      "PAL_LONG_DESC_FlowerPrince": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FlowerPrince_TextData",
+          "SourceString": "Od zamierzchłych czasów trwa przy drzewie, nieustannie czegoś strzegąc.\r\n<characterName id=|FlowerPrince|/> nie wie, co chroni ani dlaczego.\r\nPo prostu ufa wiedzy drzewa, wiedząc,\r\nże tylko mgła, którą włada, ukazuje mu prawdę.",
+          "LocalizedString": "Od zamierzchłych czasów trwa przy drzewie, nieustannie czegoś strzegąc.\r\n<characterName id=|FlowerPrince|/> nie wie, co chroni ani dlaczego.\r\nPo prostu ufa wiedzy drzewa, wiedząc,\r\nże tylko mgła, którą włada, ukazuje mu prawdę."
+        }
+      },
+      "PAL_LONG_DESC_WorldTreeDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WorldTreeDragon_TextData",
+          "SourceString": "To, co pozostało z tajemniczego Pala, który w zamierzchłych czasach przybył na wyspy Palpagos.\r\nJako niszczycielski kataklizm przyniósł ze sobą zagładę i na długo został zapieczętowany,\r\naż w końcu został pokonany przez pewnego Poskramiacza Pali.",
+          "LocalizedString": "To, co pozostało z tajemniczego Pala, który w zamierzchłych czasach przybył na wyspy Palpagos.\r\nJako niszczycielski kataklizm przyniósł ze sobą zagładę i na długo został zapieczętowany,\r\naż w końcu został pokonany przez pewnego Poskramiacza Pali."
+        }
+      },
+      "PAL_LONG_DESC_GrassMinotaur": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GrassMinotaur_TextData",
+          "SourceString": "Listka na jego do rogu nie da się wyrwać, nieważne z jaką siłą się go ciągnie.\r\nKiedy ten jednak sam odpadnie,\r\n<characterName id=|GrassMinotaur|/> wie już, że zbliża się jego koniec.",
+          "LocalizedString": "Listka na jego do rogu nie da się wyrwać, nieważne z jaką siłą się go ciągnie.\r\nKiedy ten jednak sam odpadnie,\r\n<characterName id=|GrassMinotaur|/> wie już, że zbliża się jego koniec."
+        }
+      },
+      "PAL_LONG_DESC_GrassMinotaur_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GrassMinotaur_Ice_TextData",
+          "SourceString": "Róg z lodu nie topnieje, dopóki <characterName id=|GrassMinotaur_Ice|/> żyje.\r\nKiedy jednak z tego lodu zaczyna kapać woda,\r\nPal czuje, jak jego ciało stopniowo stygnie.",
+          "LocalizedString": "Róg z lodu nie topnieje, dopóki <characterName id=|GrassMinotaur_Ice|/> żyje.\r\nKiedy jednak z tego lodu zaczyna kapać woda,\r\nPal czuje, jak jego ciało stopniowo stygnie."
+        }
+      },
+      "PAL_LONG_DESC_LotusDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_LotusDragon_TextData",
+          "SourceString": "W wodach, w których żyje <characterName id=|LotusDragon|/>,\r\nrośnie wiele kwiatów podobnych do niego.\r\nWielokrotnie próbowano wyhodować tylko ten gatunek,\r\nlecz kwiaty więdną po każdej ingerencji człowieka.",
+          "LocalizedString": "W wodach, w których żyje <characterName id=|LotusDragon|/>,\r\nrośnie wiele kwiatów podobnych do niego.\r\nWielokrotnie próbowano wyhodować tylko ten gatunek,\r\nlecz kwiaty więdną po każdej ingerencji człowieka."
+        }
+      },
+      "PAL_LONG_DESC_PandaGirl": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_PandaGirl_TextData",
+          "SourceString": "Aby dopracować do perfekcji tajemną sztukę walki przekazywaną z pokolenia na pokolenie, liczy się tylko codzienny trening!\r\nMiłosne uniesienia? Mowy nie ma! Ważna jest tylko codzienna praktyka!\r\nAle wreszcie nadchodzi ta chwila! Czas zaatakować serce wybranka! Lecz cóż to? To jej serce zostaje złamane!\r\nNikt jej nie nauczył technik miłosnych! Pozostaje tylko tęsknota!",
+          "LocalizedString": "Aby dopracować do perfekcji tajemną sztukę walki przekazywaną z pokolenia na pokolenie, liczy się tylko codzienny trening!\r\nMiłosne uniesienia? Mowy nie ma! Ważna jest tylko codzienna praktyka!\r\nAle wreszcie nadchodzi ta chwila! Czas zaatakować serce wybranka! Lecz cóż to? To jej serce zostaje złamane!\r\nNikt jej nie nauczył technik miłosnych! Pozostaje tylko tęsknota!"
+        }
+      },
+      "PAL_LONG_DESC_KabukiMan": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_KabukiMan_TextData",
+          "SourceString": "Gdy staje naprzeciw wroga, na pierwszy rzut oka\r\njego ruchy wydają się przesadzone i pełne luk.\r\nCo dziwne, przeciwnik czuje się onieśmielony i mimowolnie wpatruje się w niego.",
+          "LocalizedString": "Gdy staje naprzeciw wroga, na pierwszy rzut oka\r\njego ruchy wydają się przesadzone i pełne luk.\r\nCo dziwne, przeciwnik czuje się onieśmielony i mimowolnie wpatruje się w niego."
+        }
+      },
+      "PAL_LONG_DESC_DomeArmorDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_DomeArmorDragon_TextData",
+          "SourceString": "<characterName id=|DomeArmorDragon|/>ma skrzydła wyposażone w światło po wewnętrznej stronie.\r\nDawno temu, gdy środki komunikacji były jeszcze bardzo ograniczone,\r\nwykorzystywano je do wysyłania prostych sygnałów.",
+          "LocalizedString": "<characterName id=|DomeArmorDragon|/>ma skrzydła wyposażone w światło po wewnętrznej stronie.\r\nDawno temu, gdy środki komunikacji były jeszcze bardzo ograniczone,\r\nwykorzystywano je do wysyłania prostych sygnałów."
+        }
+      },
+      "PAL_LONG_DESC_WhiteDeer_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WhiteDeer_Dark_TextData",
+          "SourceString": "Oślepiający blask zrodził zarazem cień.\r\nSiejąc wszechogarniający mrok, przywraca właściwy porządek chaosu.\r\nŚwiatu potrzebna jest równowaga.",
+          "LocalizedString": "Oślepiający blask zrodził zarazem cień.\r\nSiejąc wszechogarniający mrok, przywraca właściwy porządek chaosu.\r\nŚwiatu potrzebna jest równowaga."
+        }
+      },
+      "PAL_LONG_DESC_WingGolem_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WingGolem_Fire_TextData",
+          "SourceString": "To osobliwy Pal. Nawet jeśli rozłoży się go na części, to po ponownym złożeniu znów się porusza jak gdyby nigdy nic.\r\nJeśli jednak pomiesza się części z różnych osobników, w jego myśleniu dochodzi\r\ndo błędu krytycznego i, w efekcie, do przegrzania.",
+          "LocalizedString": "To osobliwy Pal. Nawet jeśli rozłoży się go na części, to po ponownym złożeniu znów się porusza jak gdyby nigdy nic.\r\nJeśli jednak pomiesza się części z różnych osobników, w jego myśleniu dochodzi\r\ndo błędu krytycznego i, w efekcie, do przegrzania."
+        }
+      },
+      "PAL_LONG_DESC_GhostDragon_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GhostDragon_Fire_TextData",
+          "SourceString": "Niedawno odkryty nowy Pal.\r\nMa gwałtowny temperament i nieustannie wyładowuje na czymś swój gniew.\r\nNie ufa już nikomu ani niczemu.",
+          "LocalizedString": "Niedawno odkryty nowy Pal.\r\nMa gwałtowny temperament i nieustannie wyładowuje na czymś swój gniew.\r\nNie ufa już nikomu ani niczemu."
+        }
+      },
+      "PAL_LONG_DESC_FlowerDoll_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FlowerDoll_Fire_TextData",
+          "SourceString": "Gdy jego życie dobiega końca, umiera w płomieniach i obraca się w popiół.\r\nGleba w tym miejscu staje się wyjątkowo żyzna,\r\ndzięki czemu przez kolejne 10 lat bujnie porastają ją rośliny.",
+          "LocalizedString": "Gdy jego życie dobiega końca, umiera w płomieniach i obraca się w popiół.\r\nGleba w tym miejscu staje się wyjątkowo żyzna,\r\ndzięki czemu przez kolejne 10 lat bujnie porastają ją rośliny."
+        }
+      },
+      "PAL_LONG_DESC_IceSeal_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_IceSeal_Ground_TextData",
+          "SourceString": "Na śniegu rządzi ten, kto zjeżdża najszybciej.\r\nCzasem któryś <characterName id=|IceSeal_Ground|/>z rozpędu podskakuje i kończy zakopany w śniegu.\r\nW sezonie walk o dominację zdarza się to jeszcze częściej.\r\nPrzewiduje się zatory złożone głównie z Pali tego gatunku.",
+          "LocalizedString": "Na śniegu rządzi ten, kto zjeżdża najszybciej.\r\nCzasem któryś <characterName id=|IceSeal_Ground|/>z rozpędu podskakuje i kończy zakopany w śniegu.\r\nW sezonie walk o dominację zdarza się to jeszcze częściej.\r\nPrzewiduje się zatory złożone głównie z Pali tego gatunku."
+        }
+      },
+      "PAL_LONG_DESC_SwordCutlassfish_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SwordCutlassfish_Fire_TextData",
+          "SourceString": "Potrafi rozdzielić swoje ciało i rozszarpywać wrogów za pomocą własnych kości,\r\nale jeśli zbyt długo nie wróci do swojej postaci, opada z sił.\r\nPodobno starsze osobniki celowo pozostają rozdzielone dłużej,\r\nżeby pobudzić instynkt przetrwania i przedłużyć sobie życie, choć nie wiadomo, czy to prawda.",
+          "LocalizedString": "Potrafi rozdzielić swoje ciało i rozszarpywać wrogów za pomocą własnych kości,\r\nale jeśli zbyt długo nie wróci do swojej postaci, opada z sił.\r\nPodobno starsze osobniki celowo pozostają rozdzielone dłużej,\r\nżeby pobudzić instynkt przetrwania i przedłużyć sobie życie, choć nie wiadomo, czy to prawda."
+        }
+      },
+      "PAL_LONG_DESC_WhiteMoth_Neutral": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WhiteMoth_Neutral_TextData",
+          "SourceString": "Uwielbia wpatrywać się w przestrzeń\r\ni często trwa w bezruchu.\r\nZ tego powodu często staje się miejscem spotkań dla małych Pali.",
+          "LocalizedString": "Uwielbia wpatrywać się w przestrzeń\r\ni często trwa w bezruchu.\r\nZ tego powodu często staje się miejscem spotkań dla małych Pali."
+        }
+      },
+      "PAL_LONG_DESC_ThunderBird_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ThunderBird_Ice_TextData",
+          "SourceString": "Jest przystosowany do życia w zimnych krainach i mimo smukłej budowy świetnie znosi mróz.\r\nJego atak z lotu nurkowego ma niszczycielską siłę.\r\nJest niczym spadający z góry wielki sopel lodu.",
+          "LocalizedString": "Jest przystosowany do życia w zimnych krainach i mimo smukłej budowy świetnie znosi mróz.\r\nJego atak z lotu nurkowego ma niszczycielską siłę.\r\nJest niczym spadający z góry wielki sopel lodu."
+        }
+      },
+      "PAL_LONG_DESC_CubeTurtle_Neutral": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CubeTurtle_Neutral_TextData",
+          "SourceString": "Nawet jeśli kamień z jego grzbietu zostanie gdzieś zabrany,\r\n<characterName id=|CubeTurtle_Neutral|/> zawsze wie, gdzie się znajduje.\r\nChoćby trafił bardzo daleko, zawsze go odnajdzie.",
+          "LocalizedString": "Nawet jeśli kamień z jego grzbietu zostanie gdzieś zabrany,\r\n<characterName id=|CubeTurtle_Neutral|/> zawsze wie, gdzie się znajduje.\r\nChoćby trafił bardzo daleko, zawsze go odnajdzie."
+        }
+      },
+      "PAL_LONG_DESC_VolcanoDragon_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_VolcanoDragon_Ice_TextData",
+          "SourceString": "U zdrowych osobników temperatura substancji płynącej przez grzbiet jest stabilna.\r\nGdy serce zaczyna bić szybciej,\r\ntemperatura się rozregulowuje, a w najgorszym razie dochodzi do parowania lub krzepnięcia\r\ni nagłej śmierci z powodu wstrząsu.",
+          "LocalizedString": "U zdrowych osobników temperatura substancji płynącej przez grzbiet jest stabilna.\r\nGdy serce zaczyna bić szybciej,\r\ntemperatura się rozregulowuje, a w najgorszym razie dochodzi do parowania lub krzepnięcia\r\ni nagłej śmierci z powodu wstrząsu."
+        }
+      },
+      "PAL_LONG_DESC_WorldTreeDragon_2": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WorldTreeDragon_2_TextData",
+          "SourceString": "Wcale nie chcę nikogo krzywdzić.\r\nWystarczyło mi to, że możemy być razem, że po prostu tam jestem.\r\nAle skoro to nie jest nam dane, skoro nikt nam na to nie pozwala...\r\nZapragnąłem świata tylko dla nas dwojga.",
+          "LocalizedString": "Wcale nie chcę nikogo krzywdzić.\r\nWystarczyło mi to, że możemy być razem, że po prostu tam jestem.\r\nAle skoro to nie jest nam dane, skoro nikt nam na to nie pozwala...\r\nZapragnąłem świata tylko dla nas dwojga."
+        }
+      }
+    }
+  }
+]

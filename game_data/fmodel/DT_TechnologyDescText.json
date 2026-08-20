@@ -2,9 +2,8 @@
   {
     "Type": "CompositeDataTable",
     "Name": "DT_TechnologyDescText",
-    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'CompositeDataTable'",
-    "Package": "Pal/Content/Pal/DataTable/Text/DT_TechnologyDescText",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "ParentTables": [
         {
@@ -726,8 +725,8 @@
         "TextData": {
           "Namespace": "DT_TechnologyDescText_Common",
           "Key": "DESC_RECIPE_MachineParts_TextData",
-          "SourceString": "多くの施設の製作に必要な部品。\r\n<mapObjectName id=|WorkBench|/>で作成できる。",
-          "LocalizedString": "多くの施設の製作に必要な部品。\r\n<mapObjectName id=|WorkBench|/>で作成できる。"
+          "SourceString": "多くの施設の製作に必要な部品。\r\n「<mapObjectName id=|WorkBench|/>」で作成できる。",
+          "LocalizedString": "多くの施設の製作に必要な部品。\r\n「<mapObjectName id=|WorkBench|/>」で作成できる。"
         }
       },
       "DESC_RECIPE_MachineParts2": {

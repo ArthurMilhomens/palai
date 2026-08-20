@@ -1,0 +1,1264 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_WorldMap_Common_Text_Common",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "REGION_Grass_1": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Grass_1_TextData",
+          "SourceString": "เกาะแห่งลมเริ่มผลิ",
+          "LocalizedString": "เกาะแห่งลมเริ่มผลิ"
+        }
+      },
+      "REGION_Grass_2": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Grass_2_TextData",
+          "SourceString": "หุบเหวป่าไผ่",
+          "LocalizedString": "หุบเหวป่าไผ่"
+        }
+      },
+      "REGION_Forest_1": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Forest_1_TextData",
+          "SourceString": "ริมทะเลสาบจันทร์เสี้ยว",
+          "LocalizedString": "ริมทะเลสาบจันทร์เสี้ยว"
+        }
+      },
+      "REGION_Forest_2": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Forest_2_TextData",
+          "SourceString": "ธารน้ำเขียวขจี",
+          "LocalizedString": "ธารน้ำเขียวขจี"
+        }
+      },
+      "REGION_Volcano_1": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Volcano_1_TextData",
+          "SourceString": "ภูเขาไฟออบซิเดียน",
+          "LocalizedString": "ภูเขาไฟออบซิเดียน"
+        }
+      },
+      "REGION_Desert_1": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Desert_1_TextData",
+          "SourceString": "เนินทรายแห้งแล้ง",
+          "LocalizedString": "เนินทรายแห้งแล้ง"
+        }
+      },
+      "REGION_Frost_1": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Frost_1_TextData",
+          "SourceString": "ยอดเขาวิญญาณเงินขาว",
+          "LocalizedString": "ยอดเขาวิญญาณเงินขาว"
+        }
+      },
+      "REGION_Frost_small": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Frost_small_TextData",
+          "SourceString": "ภูเขาเยือกแข็ง",
+          "LocalizedString": "ภูเขาเยือกแข็ง"
+        }
+      },
+      "REGION_Desert_Small": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Desert_Small_TextData",
+          "SourceString": "ลานทรายสนธยา",
+          "LocalizedString": "ลานทรายสนธยา"
+        }
+      },
+      "REGION_Grass_Boss": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Grass_Boss_TextData",
+          "SourceString": "หอคอยขบวนการพรานเถื่อน เรน",
+          "LocalizedString": "หอคอยขบวนการพรานเถื่อน เรน"
+        }
+      },
+      "REGION_Forest_Boss": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Forest_Boss_TextData",
+          "SourceString": "หอคอยองค์กรผู้พิทักษ์พาล",
+          "LocalizedString": "หอคอยองค์กรผู้พิทักษ์พาล"
+        }
+      },
+      "REGION_Desert_Boss": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Desert_Boss_TextData",
+          "SourceString": "หอคอยสันติบาล",
+          "LocalizedString": "หอคอยสันติบาล"
+        }
+      },
+      "REGION_Volcano_Boss": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Volcano_Boss_TextData",
+          "SourceString": "หอคอยภารดรเพลิงนิรันดร์",
+          "LocalizedString": "หอคอยภารดรเพลิงนิรันดร์"
+        }
+      },
+      "REGION_Frost_Boss": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Frost_Boss_TextData",
+          "SourceString": "หอคอยกองกำลังวิจัยพันธุกรรม",
+          "LocalizedString": "หอคอยกองกำลังวิจัยพันธุกรรม"
+        }
+      },
+      "REGION_TEST_CHICKEN": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_TEST_CHICKEN_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "REGION_Grass_1_Church": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Grass_1_Church_TextData",
+          "SourceString": "โบสถ์ร้าง",
+          "LocalizedString": "โบสถ์ร้าง"
+        }
+      },
+      "REGION_Grass_1_Village": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Grass_1_Village_TextData",
+          "SourceString": "หมู่บ้านเล็ก ๆ",
+          "LocalizedString": "หมู่บ้านเล็ก ๆ"
+        }
+      },
+      "REGION_Desert_1_Village": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Desert_1_Village_TextData",
+          "SourceString": "เมืองทะเลทราย",
+          "LocalizedString": "เมืองทะเลทราย"
+        }
+      },
+      "REGION_Volcano_1_Village": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Volcano_1_Village_TextData",
+          "SourceString": "หมู่บ้านชาวประมงไกลปืนเที่ยง",
+          "LocalizedString": "หมู่บ้านชาวประมงไกลปืนเที่ยง"
+        }
+      },
+      "REGION_Preserve1": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Preserve1_TextData",
+          "SourceString": "เขตห้ามล่าที่หนึ่ง",
+          "LocalizedString": "เขตห้ามล่าที่หนึ่ง"
+        }
+      },
+      "REGION_Preserve2": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Preserve2_TextData",
+          "SourceString": "เขตห้ามล่าที่สอง",
+          "LocalizedString": "เขตห้ามล่าที่สอง"
+        }
+      },
+      "REGION_Preserve3": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Preserve3_TextData",
+          "SourceString": "เขตห้ามล่าที่สาม",
+          "LocalizedString": "เขตห้ามล่าที่สาม"
+        }
+      },
+      "REGION_Statue1": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Statue1_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "REGION_Statue2": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Statue2_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "REGION_Statue3": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Statue3_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "REGION_Forest_Ruin": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Forest_Ruin_TextData",
+          "SourceString": "ลานพิธีเก่า",
+          "LocalizedString": "ลานพิธีเก่า"
+        }
+      },
+      "REGION_FixedDungeon_grass_1": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_grass_1_TextData",
+          "SourceString": "ดินแดนหวงห้ามแห่งปักษีน้ำแข็ง",
+          "LocalizedString": "ดินแดนหวงห้ามแห่งปักษีน้ำแข็ง"
+        }
+      },
+      "REGION_FixedDungeon_grass_2": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_grass_2_TextData",
+          "SourceString": "ดินแดนหวงห้ามอันร้อนแรงดั่งไฟแผดเผา",
+          "LocalizedString": "ดินแดนหวงห้ามอันร้อนแรงดั่งไฟแผดเผา"
+        }
+      },
+      "REGION_FixedDungeon_grass_3": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_grass_3_TextData",
+          "SourceString": "ดินแดนหวงห้ามมหาอัคคี",
+          "LocalizedString": "ดินแดนหวงห้ามมหาอัคคี"
+        }
+      },
+      "REGION_FixedDungeon_grass_4": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_grass_4_TextData",
+          "SourceString": "ดินแดนหวงห้ามแห่งปรมาจารย์ดาบ",
+          "LocalizedString": "ดินแดนหวงห้ามแห่งปรมาจารย์ดาบ"
+        }
+      },
+      "REGION_FixedDungeon_grass_5": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_grass_5_TextData",
+          "SourceString": "ดินแดนหวงห้ามแห่งดอกไม้เยือกแข็ง",
+          "LocalizedString": "ดินแดนหวงห้ามแห่งดอกไม้เยือกแข็ง"
+        }
+      },
+      "REGION_FixedDungeon_grass_6": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_grass_6_TextData",
+          "SourceString": "ดินแดนหวงห้ามแห่งจิ้งจอกน้ำแข็ง",
+          "LocalizedString": "ดินแดนหวงห้ามแห่งจิ้งจอกน้ำแข็ง"
+        }
+      },
+      "REGION_FixedDungeon_grass_7": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_grass_7_TextData",
+          "SourceString": "ดินแดนหวงห้ามแห่งป่ารกชัฏ",
+          "LocalizedString": "ดินแดนหวงห้ามแห่งป่ารกชัฏ"
+        }
+      },
+      "REGION_FixedDungeon_forest_1": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_forest_1_TextData",
+          "SourceString": "ดินแดนหวงห้ามแห่งจอมเวทย์",
+          "LocalizedString": "ดินแดนหวงห้ามแห่งจอมเวทย์"
+        }
+      },
+      "REGION_FixedDungeon_forest_2": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_forest_2_TextData",
+          "SourceString": "ดินแดนหวงห้ามแห่งผู้ปกป้อง",
+          "LocalizedString": "ดินแดนหวงห้ามแห่งผู้ปกป้อง"
+        }
+      },
+      "REGION_FixedDungeon_forest_3": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_forest_3_TextData",
+          "SourceString": "ดินแดนหวงห้ามแห่งความว่องไว",
+          "LocalizedString": "ดินแดนหวงห้ามแห่งความว่องไว"
+        }
+      },
+      "REGION_FixedDungeon_forest_4": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_forest_4_TextData",
+          "SourceString": "ดินแดนหวงห้ามแห่งพลังลี้ลับ",
+          "LocalizedString": "ดินแดนหวงห้ามแห่งพลังลี้ลับ"
+        }
+      },
+      "REGION_FixedDungeon_forest_5": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_forest_5_TextData",
+          "SourceString": "ดินแดนหวงห้ามแห่งความบริสุทธิ์",
+          "LocalizedString": "ดินแดนหวงห้ามแห่งความบริสุทธิ์"
+        }
+      },
+      "REGION_UndergroundCave_grass01": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_grass01_TextData",
+          "SourceString": "อุโมงค์ร้าง",
+          "LocalizedString": "อุโมงค์ร้าง"
+        }
+      },
+      "REGION_UndergroundCave_grass02": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_grass02_TextData",
+          "SourceString": "อุโมงค์น้ำตื้น",
+          "LocalizedString": "อุโมงค์น้ำตื้น"
+        }
+      },
+      "REGION_UndergroundCave_grass03": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_grass03_TextData",
+          "SourceString": "อุโมงค์หลังน้ำตก",
+          "LocalizedString": "อุโมงค์หลังน้ำตก"
+        }
+      },
+      "REGION_UndergroundCave_grass04": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_grass04_TextData",
+          "SourceString": "อุโมงค์ปากน้ำ",
+          "LocalizedString": "อุโมงค์ปากน้ำ"
+        }
+      },
+      "REGION_UndergroundCave_forest01": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_forest01_TextData",
+          "SourceString": "อุโมงค์ผู้ศรัทธา",
+          "LocalizedString": "อุโมงค์ผู้ศรัทธา"
+        }
+      },
+      "REGION_UndergroundCave_dessert01": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_dessert01_TextData",
+          "SourceString": "อุโมงค์แห้งแล้ง",
+          "LocalizedString": "อุโมงค์แห้งแล้ง"
+        }
+      },
+      "REGION_UndergroundCave_dessert02": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_dessert02_TextData",
+          "SourceString": "อุโมงค์ลับ",
+          "LocalizedString": "อุโมงค์ลับ"
+        }
+      },
+      "REGION_UndergroundCave_dessert03": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_dessert03_TextData",
+          "SourceString": "อุโมงค์สุดหล้า",
+          "LocalizedString": "อุโมงค์สุดหล้า"
+        }
+      },
+      "REGION_UndergroundCave_volcano01": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_volcano01_TextData",
+          "SourceString": "อุโมงค์แผดเผา",
+          "LocalizedString": "อุโมงค์แผดเผา"
+        }
+      },
+      "REGION_UndergroundCave_volcano02": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_volcano02_TextData",
+          "SourceString": "อุโมงค์พินาศ",
+          "LocalizedString": "อุโมงค์พินาศ"
+        }
+      },
+      "REGION_UndergroundCave_snow01": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_snow01_TextData",
+          "SourceString": "อุโมงค์ภูเขาน้ำแข็ง",
+          "LocalizedString": "อุโมงค์ภูเขาน้ำแข็ง"
+        }
+      },
+      "REGION_UndergroundCave_snow02": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_snow02_TextData",
+          "SourceString": "อุโมงค์ที่ถูกลืม",
+          "LocalizedString": "อุโมงค์ที่ถูกลืม"
+        }
+      },
+      "REGION_PvP_1": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_PvP_1_TextData",
+          "SourceString": "หมู่เกาะลมทะเล",
+          "LocalizedString": "หมู่เกาะลมทะเล"
+        }
+      },
+      "REGION_PvP_2": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_PvP_2_TextData",
+          "SourceString": "เกาะแห่งความเงียบงัน",
+          "LocalizedString": "เกาะแห่งความเงียบงัน"
+        }
+      },
+      "REGION_PvP_3": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_PvP_3_TextData",
+          "SourceString": "เกาะแห่งเสียงซู่ซ่า",
+          "LocalizedString": "เกาะแห่งเสียงซู่ซ่า"
+        }
+      },
+      "REGION_PvP_4": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_PvP_4_TextData",
+          "SourceString": "เกาะรกร้างทางตะวันออก",
+          "LocalizedString": "เกาะรกร้างทางตะวันออก"
+        }
+      },
+      "REGION_PvP_5": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_PvP_5_TextData",
+          "SourceString": "เกาะทุ่งพรุ",
+          "LocalizedString": "เกาะทุ่งพรุ"
+        }
+      },
+      "REGION_PvP_1_Church": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_PvP_1_Church_TextData",
+          "SourceString": "โบสถ์บนหมู่เกาะลมทะเล",
+          "LocalizedString": "โบสถ์บนหมู่เกาะลมทะเล"
+        }
+      },
+      "REGION_PvP_2_Church": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_PvP_2_Church_TextData",
+          "SourceString": "ซากโบสถ์บนเกาะแห่งความเงียบงัน",
+          "LocalizedString": "ซากโบสถ์บนเกาะแห่งความเงียบงัน"
+        }
+      },
+      "REGION_PvP_3_Church": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_PvP_3_Church_TextData",
+          "SourceString": "ซากโบสถ์บนเกาะทุ่งพรุ",
+          "LocalizedString": "ซากโบสถ์บนเกาะทุ่งพรุ"
+        }
+      },
+      "REGION_Arena": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Arena_TextData",
+          "SourceString": "ลานประลอง",
+          "LocalizedString": "ลานประลอง"
+        }
+      },
+      "REGION_Mushroom": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Mushroom_TextData",
+          "SourceString": "เกาะซากุระ: ทุ่งพรุเห็ด",
+          "LocalizedString": "เกาะซากุระ: ทุ่งพรุเห็ด"
+        }
+      },
+      "REGION_Sakura": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Sakura_TextData",
+          "SourceString": "ศาลเจ้าซากุระโปรยปราย",
+          "LocalizedString": "ศาลเจ้าซากุระโปรยปราย"
+        }
+      },
+      "REGION_RockSand": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_RockSand_TextData",
+          "SourceString": "เกาะซากุระ: ลานหินทางเหนือ",
+          "LocalizedString": "เกาะซากุระ: ลานหินทางเหนือ"
+        }
+      },
+      "REGION_WhiteSand": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_WhiteSand_TextData",
+          "SourceString": "เกาะซากุระ: ลานทรายทางใต้",
+          "LocalizedString": "เกาะซากุระ: ลานทรายทางใต้"
+        }
+      },
+      "REGION_Sakurajima_Boss": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Sakurajima_Boss_TextData",
+          "SourceString": "หอคอยกลุ่มบุปผาจันทรา",
+          "LocalizedString": "หอคอยกลุ่มบุปผาจันทรา"
+        }
+      },
+      "REGION_Oilrig_1": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Oilrig_1_TextData",
+          "SourceString": "แท่นขุดเจาะน้ำมันของขบวนการพรานเถื่อน",
+          "LocalizedString": "แท่นขุดเจาะน้ำมันของขบวนการพรานเถื่อน"
+        }
+      },
+      "REGION_Oilrig_2": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Oilrig_2_TextData",
+          "SourceString": "แท่นขุดเจาะน้ำมันทดลองของขบวนการพรานเถื่อน",
+          "LocalizedString": "แท่นขุดเจาะน้ำมันทดลองของขบวนการพรานเถื่อน"
+        }
+      },
+      "REGION_Oilrig_3": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Oilrig_3_TextData",
+          "SourceString": "แท่นขุดเจาะน้ำมันขนาดใหญ่ของขบวนการพรานเถื่อน",
+          "LocalizedString": "แท่นขุดเจาะน้ำมันขนาดใหญ่ของขบวนการพรานเถื่อน"
+        }
+      },
+      "REGION_Darkisland01": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland01_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "REGION_Darkisland02": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland02_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "REGION_Darkisland03": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland03_TextData",
+          "SourceString": "เรืออัปปาง ณ สวรรค์ล่ม",
+          "LocalizedString": "เรืออัปปาง ณ สวรรค์ล่ม"
+        }
+      },
+      "REGION_Darkisland04": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland04_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "REGION_Darkisland05": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland05_TextData",
+          "SourceString": "ผลึกมหาพฤกษา",
+          "LocalizedString": "ผลึกมหาพฤกษา"
+        }
+      },
+      "REGION_Darkisland06": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland06_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "REGION_Darkisland06_dokutsu": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland06_dokutsu_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "REGION_Darkisland07": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland07_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "REGION_Darkisland08": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland08_TextData",
+          "SourceString": "ถ้ำเสาหิน",
+          "LocalizedString": "ถ้ำเสาหิน"
+        }
+      },
+      "REGION_Darkisland09": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland09_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "REGION_Darkisland10": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland10_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "REGION_Darkisland11": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland11_TextData",
+          "SourceString": "เนินหินหนืดมีพลัง",
+          "LocalizedString": "เนินหินหนืดมีพลัง"
+        }
+      },
+      "REGION_Darkisland_FT01": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland_FT01_TextData",
+          "SourceString": "ดินแดนเถ้าถ่าน",
+          "LocalizedString": "ดินแดนเถ้าถ่าน"
+        }
+      },
+      "REGION_Darkisland_FT02": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland_FT02_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "REGION_Darkisland_FT03": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland_FT03_TextData",
+          "SourceString": "ทุ่งดินเหลือง",
+          "LocalizedString": "ทุ่งดินเหลือง"
+        }
+      },
+      "REGION_Darkisland_FT04": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland_FT04_TextData",
+          "SourceString": "ทางลับไปประตูวงเดือน",
+          "LocalizedString": "ทางลับไปประตูวงเดือน"
+        }
+      },
+      "REGION_Darkisland_FT05": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland_FT05_TextData",
+          "SourceString": "ประตูวงเดือนท้าทายหอคอย",
+          "LocalizedString": "ประตูวงเดือนท้าทายหอคอย"
+        }
+      },
+      "REGION_Darkisland_FT06": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland_FT06_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "REGION_Darkisland_FT07": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland_FT07_TextData",
+          "SourceString": "เขามอดไหม้",
+          "LocalizedString": "เขามอดไหม้"
+        }
+      },
+      "REGION_Darkisland_FT08": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland_FT08_TextData",
+          "SourceString": "ที่ราบสูงเถ้าถ่านอันเงียบเหงา",
+          "LocalizedString": "ที่ราบสูงเถ้าถ่านอันเงียบเหงา"
+        }
+      },
+      "REGION_Darkisland_Boss": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland_Boss_TextData",
+          "SourceString": "หอคอยสวรรค์ล่ม",
+          "LocalizedString": "หอคอยสวรรค์ล่ม"
+        }
+      },
+      "REGION_Darkisland_FT09": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland_FT09_TextData",
+          "SourceString": "ชายหาดทะเลเหือด",
+          "LocalizedString": "ชายหาดทะเลเหือด"
+        }
+      },
+      "REGION_Darkisland_FT10": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Darkisland_FT10_TextData",
+          "SourceString": "เนินปะการังเยือกแข็ง",
+          "LocalizedString": "เนินปะการังเยือกแข็ง"
+        }
+      },
+      "REGION_UndergroundCave_Darkisland_1": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_Darkisland_1_TextData",
+          "SourceString": "อุโมงค์ยักษ์กินคน",
+          "LocalizedString": "อุโมงค์ยักษ์กินคน"
+        }
+      },
+      "REGION_UndergroundCave_Darkisland_2": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_Darkisland_2_TextData",
+          "SourceString": "อุโมงค์มังกรโล่",
+          "LocalizedString": "อุโมงค์มังกรโล่"
+        }
+      },
+      "REGION_UndergroundCave_Darkisland_3": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_Darkisland_3_TextData",
+          "SourceString": "อุโมงค์ผลึก",
+          "LocalizedString": "อุโมงค์ผลึก"
+        }
+      },
+      "REGION_UndergroundCave_Darkisland_4": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_Darkisland_4_TextData",
+          "SourceString": "อุโมงค์เพลิงกาฬ",
+          "LocalizedString": "อุโมงค์เพลิงกาฬ"
+        }
+      },
+      "REGION_UndergroundCave_Darkisland_5": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_UndergroundCave_Darkisland_5_TextData",
+          "SourceString": "อุโมงค์เปื้อนเลือด",
+          "LocalizedString": "อุโมงค์เปื้อนเลือด"
+        }
+      },
+      "REGION_Grass_3": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Grass_3_TextData",
+          "SourceString": "เนินเขาสีทอง",
+          "LocalizedString": "เนินเขาสีทอง"
+        }
+      },
+      "REGION_Grass_4": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Grass_4_TextData",
+          "SourceString": "ลานหินใบไม้แดง",
+          "LocalizedString": "ลานหินใบไม้แดง"
+        }
+      },
+      "REGION_Grass_5": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Grass_5_TextData",
+          "SourceString": "ซากป้อม",
+          "LocalizedString": "ซากป้อม"
+        }
+      },
+      "REGION_Grass_6": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Grass_6_TextData",
+          "SourceString": "ชายฝั่งปลาบิน",
+          "LocalizedString": "ชายฝั่งปลาบิน"
+        }
+      },
+      "REGION_Grass_7": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Grass_7_TextData",
+          "SourceString": "อาณาเขตฉลามแคระ",
+          "LocalizedString": "อาณาเขตฉลามแคระ"
+        }
+      },
+      "REGION_Grass_8": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Grass_8_TextData",
+          "SourceString": "ร่องรอยไฟสงคราม",
+          "LocalizedString": "ร่องรอยไฟสงคราม"
+        }
+      },
+      "REGION_Grass_9": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Grass_9_TextData",
+          "SourceString": "ใจกลางป่าไผ่",
+          "LocalizedString": "ใจกลางป่าไผ่"
+        }
+      },
+      "REGION_Grass_10": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Grass_10_TextData",
+          "SourceString": "ทะเลสาบแห่งความเงียบงัน",
+          "LocalizedString": "ทะเลสาบแห่งความเงียบงัน"
+        }
+      },
+      "REGION_Frost_2": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Frost_2_TextData",
+          "SourceString": "ตีนเขาวิญญาณ",
+          "LocalizedString": "ตีนเขาวิญญาณ"
+        }
+      },
+      "REGION_Frost_3": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Frost_3_TextData",
+          "SourceString": "โบราณสถานร้าง",
+          "LocalizedString": "โบราณสถานร้าง"
+        }
+      },
+      "REGION_Volcano_2": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Volcano_2_TextData",
+          "SourceString": "ตีนภูเขาไฟ",
+          "LocalizedString": "ตีนภูเขาไฟ"
+        }
+      },
+      "REGION_Volcano_3": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Volcano_3_TextData",
+          "SourceString": "เมืองป้อมปราการที่ล่มสลาย",
+          "LocalizedString": "เมืองป้อมปราการที่ล่มสลาย"
+        }
+      },
+      "REGION_Volcano_4": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Volcano_4_TextData",
+          "SourceString": "หาดทรายแห้งแล้ง",
+          "LocalizedString": "หาดทรายแห้งแล้ง"
+        }
+      },
+      "REGION_FixedDungeon_DarkIsland_1": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_DarkIsland_1_TextData",
+          "SourceString": "ดินแดนหวงห้ามแห่งหินพิทักษ์",
+          "LocalizedString": "ดินแดนหวงห้ามแห่งหินพิทักษ์"
+        }
+      },
+      "REGION_FixedDungeon_DarkIsland_2": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_DarkIsland_2_TextData",
+          "SourceString": "ดินแดนหวงห้ามแห่งผู้กล้าตัวน้อย",
+          "LocalizedString": "ดินแดนหวงห้ามแห่งผู้กล้าตัวน้อย"
+        }
+      },
+      "REGION_FixedDungeon_DarkIsland_3": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_DarkIsland_3_TextData",
+          "SourceString": "ดินแดนหวงห้ามสีน้ำเงิน",
+          "LocalizedString": "ดินแดนหวงห้ามสีน้ำเงิน"
+        }
+      },
+      "REGION_FixedDungeon_DarkIsland_4": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_DarkIsland_4_TextData",
+          "SourceString": "ดินแดนหวงห้ามแห่งดวงวิญญาณ",
+          "LocalizedString": "ดินแดนหวงห้ามแห่งดวงวิญญาณ"
+        }
+      },
+      "REGION_SmallIsland01": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_SmallIsland01_TextData",
+          "SourceString": "เกาะสุริยัน",
+          "LocalizedString": "เกาะสุริยัน"
+        }
+      },
+      "REGION_SmallIsland02": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_SmallIsland02_TextData",
+          "SourceString": "เกาะโอเอซิส",
+          "LocalizedString": "เกาะโอเอซิส"
+        }
+      },
+      "REGION_SmallIsland03": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_SmallIsland03_TextData",
+          "SourceString": "เกาะธารน้ำเเข็ง",
+          "LocalizedString": "เกาะธารน้ำเเข็ง"
+        }
+      },
+      "REGION_SmallIsland04": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_SmallIsland04_TextData",
+          "SourceString": "เกาะเหมันต์",
+          "LocalizedString": "เกาะเหมันต์"
+        }
+      },
+      "REGION_SmallIsland05": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_SmallIsland05_TextData",
+          "SourceString": "เกาะวิญญาณพเนจร",
+          "LocalizedString": "เกาะวิญญาณพเนจร"
+        }
+      },
+      "REGION_SmallIsland06": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_SmallIsland06_TextData",
+          "SourceString": "เกาะสมบัติผุพัง",
+          "LocalizedString": "เกาะสมบัติผุพัง"
+        }
+      },
+      "REGION_SmallIsland07": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_SmallIsland07_TextData",
+          "SourceString": "เกาะตะวันนิรันดร์",
+          "LocalizedString": "เกาะตะวันนิรันดร์"
+        }
+      },
+      "REGION_FixedDungeon_Yakushima": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_Yakushima_TextData",
+          "SourceString": "ดินแดนหวงห้ามแห่งTerraria",
+          "LocalizedString": "ดินแดนหวงห้ามแห่งTerraria"
+        }
+      },
+      "REGION_FixedDungeon_SmallIsland03": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_SmallIsland03_TextData",
+          "SourceString": "ดินแดนหวงห้ามแห่งธารน้ำเเข็ง",
+          "LocalizedString": "ดินแดนหวงห้ามแห่งธารน้ำเเข็ง"
+        }
+      },
+      "WORLDMAP_NAME_MainMap": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "WORLDMAP_NAME_MainMap_TextData",
+          "SourceString": "หมู่เกาะพาลพากอส",
+          "LocalizedString": "หมู่เกาะพาลพากอส"
+        }
+      },
+      "WORLDMAP_NAME_Tree": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "WORLDMAP_NAME_Tree_TextData",
+          "SourceString": "พฤกษาโลก",
+          "LocalizedString": "พฤกษาโลก"
+        }
+      },
+      "REGION_Boss_KingWhale": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Boss_KingWhale_TextData",
+          "SourceString": "เกาะร้างที่ถูกลืม",
+          "LocalizedString": "เกาะร้างที่ถูกลืม"
+        }
+      },
+      "REGION_New_SmallIsland01": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_New_SmallIsland01_TextData",
+          "SourceString": "เกาะโดดเดี่ยวแห่งซากปรักหักพังวงแหวน",
+          "LocalizedString": "เกาะโดดเดี่ยวแห่งซากปรักหักพังวงแหวน"
+        }
+      },
+      "REGION_New_SmallIsland02": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_New_SmallIsland02_TextData",
+          "SourceString": "เกาะโดดเดี่ยวแห่งเส้นสายอัคนี",
+          "LocalizedString": "เกาะโดดเดี่ยวแห่งเส้นสายอัคนี"
+        }
+      },
+      "REGION_New_SmallIsland03": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_New_SmallIsland03_TextData",
+          "SourceString": "เกาะโดดเดี่ยวแห่งการกัดเซาะของสายลม",
+          "LocalizedString": "เกาะโดดเดี่ยวแห่งการกัดเซาะของสายลม"
+        }
+      },
+      "REGION_New_SmallIsland04": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_New_SmallIsland04_TextData",
+          "SourceString": "เกาะโดดเดี่ยวแห่งเขาคู่",
+          "LocalizedString": "เกาะโดดเดี่ยวแห่งเขาคู่"
+        }
+      },
+      "REGION_New_SmallIsland05": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_New_SmallIsland05_TextData",
+          "SourceString": "เกาะร้างแห่งซากปรักหักพังวงแหวนเยือกแข็ง",
+          "LocalizedString": "เกาะร้างแห่งซากปรักหักพังวงแหวนเยือกแข็ง"
+        }
+      },
+      "REGION_New_SmallIsland06": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_New_SmallIsland06_TextData",
+          "SourceString": "เกาะโดดเดี่ยวแห่งประตูหินทราย",
+          "LocalizedString": "เกาะโดดเดี่ยวแห่งประตูหินทราย"
+        }
+      },
+      "REGION_New_SmallIsland07": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_New_SmallIsland07_TextData",
+          "SourceString": "เกาะโดดเดี่ยวแห่งตราสุริยัน",
+          "LocalizedString": "เกาะโดดเดี่ยวแห่งตราสุริยัน"
+        }
+      },
+      "REGION_WorldTree01": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_WorldTree01_TextData",
+          "SourceString": "ทุ่งราบชายเขาแห่งพฤกษาศักดิ์สิทธิ์",
+          "LocalizedString": "ทุ่งราบชายเขาแห่งพฤกษาศักดิ์สิทธิ์"
+        }
+      },
+      "REGION_WorldTree02": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_WorldTree02_TextData",
+          "SourceString": "ป่าพฤกษาโสภิตศิริ",
+          "LocalizedString": "ป่าพฤกษาโสภิตศิริ"
+        }
+      },
+      "REGION_WorldTree03": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_WorldTree03_TextData",
+          "SourceString": "หุบเขาแห่งฝุ่นสีทอง",
+          "LocalizedString": "หุบเขาแห่งฝุ่นสีทอง"
+        }
+      },
+      "REGION_WorldTree04": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_WorldTree04_TextData",
+          "SourceString": "ริมฝั่งน้ำแห่งซากอสุภ",
+          "LocalizedString": "ริมฝั่งน้ำแห่งซากอสุภ"
+        }
+      },
+      "REGION_WorldTree05": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_WorldTree05_TextData",
+          "SourceString": "โพรงพฤกษาผู้ถูกกัดกิน",
+          "LocalizedString": "โพรงพฤกษาผู้ถูกกัดกิน"
+        }
+      },
+      "REGION_WorldTree06": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_WorldTree06_TextData",
+          "SourceString": "ริมทะเลสาบแห่งน้ำตกศักดิ์สิทธิ์",
+          "LocalizedString": "ริมทะเลสาบแห่งน้ำตกศักดิ์สิทธิ์"
+        }
+      },
+      "REGION_WorldTree07": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_WorldTree07_TextData",
+          "SourceString": "ยอดเขาแห่งน้ำแข็งศักดิ์สิทธิ์",
+          "LocalizedString": "ยอดเขาแห่งน้ำแข็งศักดิ์สิทธิ์"
+        }
+      },
+      "REGION_WorldTree08": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_WorldTree08_TextData",
+          "SourceString": "ห้องโถงแห่งผนึก",
+          "LocalizedString": "ห้องโถงแห่งผนึก"
+        }
+      },
+      "REGION_WorldTree09": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_WorldTree09_TextData",
+          "SourceString": "ศูนย์วิจัยที่ถูกทอดทิ้ง",
+          "LocalizedString": "ศูนย์วิจัยที่ถูกทอดทิ้ง"
+        }
+      },
+      "REGION_WorldTree10": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_WorldTree10_TextData",
+          "SourceString": "ระเบียงแห่งสปอร์",
+          "LocalizedString": "ระเบียงแห่งสปอร์"
+        }
+      },
+      "REGION_WorldTree11": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_WorldTree11_TextData",
+          "SourceString": "หาดน้ำตื้นแห่งน้ำตาศักดิ์สิทธิ์",
+          "LocalizedString": "หาดน้ำตื้นแห่งน้ำตาศักดิ์สิทธิ์"
+        }
+      },
+      "REGION_WorldTree12": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_WorldTree12_TextData",
+          "SourceString": "เมืองร้างสีทอง",
+          "LocalizedString": "เมืองร้างสีทอง"
+        }
+      },
+      "REGION_Wide_Sakurajima01": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Wide_Sakurajima01_TextData",
+          "SourceString": "เกาะซากุระ",
+          "LocalizedString": "เกาะซากุระ"
+        }
+      },
+      "REGION_Wide_Darkisland01": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Wide_Darkisland01_TextData",
+          "SourceString": "สวรรค์ล่ม",
+          "LocalizedString": "สวรรค์ล่ม"
+        }
+      },
+      "REGION_Wide_Skyisland01": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Wide_Skyisland01_TextData",
+          "SourceString": "ดินแดนแห่งแสงสุริยัน",
+          "LocalizedString": "ดินแดนแห่งแสงสุริยัน"
+        }
+      },
+      "REGION_Skyisland_Boss": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Skyisland_Boss_TextData",
+          "SourceString": "หอคอยแห่งพันธสัญญา",
+          "LocalizedString": "หอคอยแห่งพันธสัญญา"
+        }
+      },
+      "REGION_Skyisland01": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Skyisland01_TextData",
+          "SourceString": "หุบเหวแยกแห่งนภากาศ",
+          "LocalizedString": "หุบเหวแยกแห่งนภากาศ"
+        }
+      },
+      "REGION_Skyisland02": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Skyisland02_TextData",
+          "SourceString": "หุบเขาแห่งดอกบัวหลวง",
+          "LocalizedString": "หุบเขาแห่งดอกบัวหลวง"
+        }
+      },
+      "REGION_Skyisland03": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Skyisland03_TextData",
+          "SourceString": "ยอดเขาแห่งรอยมังกร",
+          "LocalizedString": "ยอดเขาแห่งรอยมังกร"
+        }
+      },
+      "REGION_Skyisland04": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Skyisland04_TextData",
+          "SourceString": "หนองน้ำขี้โคลน",
+          "LocalizedString": "หนองน้ำขี้โคลน"
+        }
+      },
+      "REGION_Skyisland05": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Skyisland05_TextData",
+          "SourceString": "ป่าดงดิบสีน้ำเงินครา",
+          "LocalizedString": "ป่าดงดิบสีน้ำเงินครา"
+        }
+      },
+      "REGION_Skyisland06": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Skyisland06_TextData",
+          "SourceString": "หมู่เกาะคริสตัล",
+          "LocalizedString": "หมู่เกาะคริสตัล"
+        }
+      },
+      "REGION_Skyisland07": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_Skyisland07_TextData",
+          "SourceString": "ดินแดนเซียนลอยฟ้า",
+          "LocalizedString": "ดินแดนเซียนลอยฟ้า"
+        }
+      },
+      "REGION_FixedDungeon_SkyIsland_01": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FixedDungeon_SkyIsland_01_TextData",
+          "SourceString": "ดินแดนหวงห้ามแห่งพระพรจากดวงดาว",
+          "LocalizedString": "ดินแดนหวงห้ามแห่งพระพรจากดวงดาว"
+        }
+      },
+      "REGION_FootOfWorldTree": {
+        "TextData": {
+          "Namespace": "DT_WorldMap_Common_Text_Common",
+          "Key": "REGION_FootOfWorldTree_TextData",
+          "SourceString": "ตีนเขาแห่งพฤกษาโลก",
+          "LocalizedString": "ตีนเขาแห่งพฤกษาโลก"
+        }
+      }
+    }
+  }
+]

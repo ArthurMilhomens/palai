@@ -1,0 +1,3528 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_SkillDescText_Common",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "ACTION_SKILL_Human_Punch": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Human_Punch_TextData",
+          "SourceString": "เชื่อในกำปั้นของตนแล้วต่อยออกไป",
+          "LocalizedString": "เชื่อในกำปั้นของตนแล้วต่อยออกไป"
+        }
+      },
+      "ACTION_SKILL_Throw": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Throw_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "ACTION_SKILL_Scratch": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Scratch_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "ACTION_SKILL_EnergyShot": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_EnergyShot_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "ACTION_SKILL_HyperBeam": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_HyperBeam_TextData",
+          "SourceString": "ชาร์จพลังงานทำลายล้าง\r\nแล้วยิงลำแสงทรงอานุภาพออกไปด้านหน้าเป็นวงกว้าง",
+          "LocalizedString": "ชาร์จพลังงานทำลายล้าง\r\nแล้วยิงลำแสงทรงอานุภาพออกไปด้านหน้าเป็นวงกว้าง"
+        }
+      },
+      "ACTION_SKILL_PowerShot": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_PowerShot_TextData",
+          "SourceString": "ชาร์จพลังงาน\r\nทำเป็นกระสุน แล้วยิงออกไป",
+          "LocalizedString": "ชาร์จพลังงาน\r\nทำเป็นกระสุน แล้วยิงออกไป"
+        }
+      },
+      "ACTION_SKILL_PowerBall": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_PowerBall_TextData",
+          "SourceString": "ชาร์จพลังงานปริมาณมาก\r\nทำเป็นบอลยักษ์ แล้วยิงออกไป",
+          "LocalizedString": "ชาร์จพลังงานปริมาณมาก\r\nทำเป็นบอลยักษ์ แล้วยิงออกไป"
+        }
+      },
+      "ACTION_SKILL_AirCanon": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_AirCanon_TextData",
+          "SourceString": "ยิงกระสุนอากาศความเร็วสูง",
+          "LocalizedString": "ยิงกระสุนอากาศความเร็วสูง"
+        }
+      },
+      "ACTION_SKILL_StardustArrow": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_StardustArrow_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "ACTION_SKILL_Intimidate": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Intimidate_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "ACTION_SKILL_StarMine": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_StarMine_TextData",
+          "SourceString": "สร้างดวงดาวไว้รอบตัวศัตรู เมื่อศัตรูสัมผัสจะระเบิด\r\nและเมื่อเวลาผ่านไปดวงดาวก็จะระเบิดเองเช่นเดียวกัน",
+          "LocalizedString": "สร้างดวงดาวไว้รอบตัวศัตรู เมื่อศัตรูสัมผัสจะระเบิด\r\nและเมื่อเวลาผ่านไปดวงดาวก็จะระเบิดเองเช่นเดียวกัน"
+        }
+      },
+      "ACTION_SKILL_AirBlade": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_AirBlade_TextData",
+          "SourceString": "ซัดใบมีดอากาศคมกริบออกไปเป็นรูปพัด",
+          "LocalizedString": "ซัดใบมีดอากาศคมกริบออกไปเป็นรูปพัด"
+        }
+      },
+      "ACTION_SKILL_HolyBlast": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_HolyBlast_TextData",
+          "SourceString": "สร้างระเบิดแสงวงกว้าง\r\nณ บริเวณที่ศัตรูอยู่",
+          "LocalizedString": "สร้างระเบิดแสงวงกว้าง\r\nณ บริเวณที่ศัตรูอยู่"
+        }
+      },
+      "ACTION_SKILL_Weapon_Use": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Weapon_Use_TextData",
+          "SourceString": "ใช้อาวุธที่ถืออยู่โจมตี",
+          "LocalizedString": "ใช้อาวุธที่ถืออยู่โจมตี"
+        }
+      },
+      "ACTION_SKILL_RadiantBarrage": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_RadiantBarrage_TextData",
+          "SourceString": "ปล่อยลูกบอลแสงค่อย ๆ ไล่ล่าศัตรู เมื่อลูกบอลแสงเข้าใกล้เป้าหมายจะแตกตัวเป็นกระสุนแสงจำนวนมากและโจมตีศัตรู",
+          "LocalizedString": "ปล่อยลูกบอลแสงค่อย ๆ ไล่ล่าศัตรู เมื่อลูกบอลแสงเข้าใกล้เป้าหมายจะแตกตัวเป็นกระสุนแสงจำนวนมากและโจมตีศัตรู"
+        }
+      },
+      "ACTION_SKILL_Unique_Anubis_LowRoundKick": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Anubis_LowRoundKick_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|Anubis|/>\r\nใช้ขาอันแข็งแกร่งหมุนตัวเตะ โจมตีปัดเป็นวงกว้าง",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|Anubis|/>\r\nใช้ขาอันแข็งแกร่งหมุนตัวเตะ โจมตีปัดเป็นวงกว้าง"
+        }
+      },
+      "ACTION_SKILL_Unique_Anubis_GroundPunch": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Anubis_GroundPunch_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|Anubis|/>\r\nกระโดดขึ้นฟ้า แล้วชกพื้น\r\nแรงกระแทกจากพื้นจะกระจายออก สร้างความเสียหายวงกว้าง",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|Anubis|/>\r\nกระโดดขึ้นฟ้า แล้วชกพื้น\r\nแรงกระแทกจากพื้นจะกระจายออก สร้างความเสียหายวงกว้าง"
+        }
+      },
+      "ACTION_SKILL_Unique_Anubis_Tackle": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Anubis_Tackle_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|Anubis|/>\r\nเคลื่อนที่ด้วยความเร็วสูงไล่ตามศัตรู\r\nแล้วปล่อยพลังงาน พลางออกหมัดทรงพลัง",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|Anubis|/>\r\nเคลื่อนที่ด้วยความเร็วสูงไล่ตามศัตรู\r\nแล้วปล่อยพลังงาน พลางออกหมัดทรงพลัง"
+        }
+      },
+      "ACTION_SKILL_Unique_Deer_PushupHorn": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Deer_PushupHorn_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ Eikthyrdeer\r\nโจมตีโดยพุ่งกระแทกศัตรู แล้วใช้เขางัด\r\nถ้าใช้งานขณะขี่จะควบคุมทิศทางได้",
+          "LocalizedString": "สกิลเฉพาะตัวของ Eikthyrdeer\r\nโจมตีโดยพุ่งกระแทกศัตรู แล้วใช้เขางัด\r\nถ้าใช้งานขณะขี่จะควบคุมทิศทางได้"
+        }
+      },
+      "ACTION_SKILL_Unique_Deer_Ground_DirtyHorn": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Deer_Ground_DirtyHorn_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ Eikthyrdeer Terra\r\nมุ่งหน้าพุ่งชนศัตรู หมุนโคลนเป็นวงกลมเเละโจมตี\r\nเมื่อกดใช้งานระหว่างขี่ จะสามารถกำหนดทิศทางการมุ่งหน้าของตัวละครได้",
+          "LocalizedString": "สกิลเฉพาะตัวของ Eikthyrdeer Terra\r\nมุ่งหน้าพุ่งชนศัตรู หมุนโคลนเป็นวงกลมเเละโจมตี\r\nเมื่อกดใช้งานระหว่างขี่ จะสามารถกำหนดทิศทางการมุ่งหน้าของตัวละครได้"
+        }
+      },
+      "ACTION_SKILL_Unique_Garm_Bite": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Garm_Bite_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|Garm|/>\r\nโจมตีโดยกระโจนหาศัตรูอย่างรวดเร็ว แล้วกัดศัตรู",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|Garm|/>\r\nโจมตีโดยกระโจนหาศัตรูอย่างรวดเร็ว แล้วกัดศัตรู"
+        }
+      },
+      "ACTION_SKILL_Unique_Boar_Tackle": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Boar_Tackle_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|Boar|/>\r\nหมายหัวศัตรูแล้วพุ่งเข้าใส่อย่างแรง",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|Boar|/>\r\nหมายหัวศัตรูแล้วพุ่งเข้าใส่อย่างแรง"
+        }
+      },
+      "ACTION_SKILL_Unique_PinkCat_CatPunch": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_PinkCat_CatPunch_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|PinkCat|/>\r\nไล่ตามศัตรูพลางเหวี่ยงแขนสองแขน\r\nแล้วต่อยรัว",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|PinkCat|/>\r\nไล่ตามศัตรูพลางเหวี่ยงแขนสองแขน\r\nแล้วต่อยรัว"
+        }
+      },
+      "ACTION_SKILL_Unique_FlowerDinosaur_Whip": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_FlowerDinosaur_Whip_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ Dinossom\r\nใช้หางขนาดใหญ่ฟาดพื้นด้านหน้า\r\nสร้างแรงกระแทกเป็นเส้นตรง",
+          "LocalizedString": "สกิลเฉพาะตัวของ Dinossom\r\nใช้หางขนาดใหญ่ฟาดพื้นด้านหน้า\r\nสร้างแรงกระแทกเป็นเส้นตรง"
+        }
+      },
+      "ACTION_SKILL_Unique_FlowerDinosaur_Electric_ThunderWhip": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_FlowerDinosaur_Electric_ThunderWhip_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ Dinossom Lux\r\nสามารถใช้หางตวีดตีพื้นข้างหน้าได้\r\nสามารถรับการโจมตีด้วยสายไฟในเเนวตรง",
+          "LocalizedString": "สกิลเฉพาะตัวของ Dinossom Lux\r\nสามารถใช้หางตวีดตีพื้นข้างหน้าได้\r\nสามารถรับการโจมตีด้วยสายไฟในเเนวตรง"
+        }
+      },
+      "ACTION_SKILL_Unique_SheepBall_Roll": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_SheepBall_Roll_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|SheepBall|/>\r\nกลิ้งหลุน ๆ ไล่ตามศัตรู\r\nหลังโจมตีจะตาลายจนขยับไม่ได้",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|SheepBall|/>\r\nกลิ้งหลุน ๆ ไล่ตามศัตรู\r\nหลังโจมตีจะตาลายจนขยับไม่ได้"
+        }
+      },
+      "ACTION_SKILL_Unique_ChickenPal_ChickenPeck": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_ChickenPal_ChickenPeck_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|ChickenPal|/>\r\nกระโจนเข้าใส่ศัตรู แล้วพุ่งโจมตีด้วยจะงอยปากอันแหลมคม",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|ChickenPal|/>\r\nกระโจนเข้าใส่ศัตรู แล้วพุ่งโจมตีด้วยจะงอยปากอันแหลมคม"
+        }
+      },
+      "ACTION_SKILL_Unique_Horus_FlareBird": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Horus_FlareBird_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|Horus|/>\r\nหลังสร้างพายุหมุนอันร้อนระอุ\r\nจะบินโฉบโจมตีศัตรูโดยมีเพลิงนรกล้อมรอบตัว",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|Horus|/>\r\nหลังสร้างพายุหมุนอันร้อนระอุ\r\nจะบินโฉบโจมตีศัตรูโดยมีเพลิงนรกล้อมรอบตัว"
+        }
+      },
+      "ACTION_SKILL_Unique_Horus_Water_AquaStorm": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Horus_Water_AquaStorm_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|Horus_Water|/>\r\nหลังสร้างวังน้ำวน\r\nจะบินโฉบโจมตีศัตรูโดยมีสายน้ำล้อมรอบตัว",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|Horus_Water|/>\r\nหลังสร้างวังน้ำวน\r\nจะบินโฉบโจมตีศัตรูโดยมีสายน้ำล้อมรอบตัว"
+        }
+      },
+      "ACTION_SKILL_Unique_ElecPanda_ElecScratch": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_ElecPanda_ElecScratch_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|ElecPanda|/>\r\nกระโจนใส่ศัตรูแล้วใช้กรงเล็บสายฟ้ากรีดเฉือนศัตรู\r\nหลังกระโจนใส่ 2 ครั้ง และแทงเล็บลงกับพื้น\r\nสร้างสายฟ้าโจมตีเป็นวงกว้างตบท้าย",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|ElecPanda|/>\r\nกระโจนใส่ศัตรูแล้วใช้กรงเล็บสายฟ้ากรีดเฉือนศัตรู\r\nหลังกระโจนใส่ 2 ครั้ง และแทงเล็บลงกับพื้น\r\nสร้างสายฟ้าโจมตีเป็นวงกว้างตบท้าย"
+        }
+      },
+      "ACTION_SKILL_Unique_FairyDragon_FairyTornado": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_FairyDragon_FairyTornado_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ Elphidran\r\nยิงพายุหมุนมหัศจรรย์ออกไป 2 ครั้ง\r\nให้พายุไล่ตามศัตรู",
+          "LocalizedString": "สกิลเฉพาะตัวของ Elphidran\r\nยิงพายุหมุนมหัศจรรย์ออกไป 2 ครั้ง\r\nให้พายุไล่ตามศัตรู"
+        }
+      },
+      "ACTION_SKILL_Unique_Gorilla_GroundPunch": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Gorilla_GroundPunch_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|Gorilla|/>\r\nหลังฟาดพื้น 2 ครั้ง จะกระโดด\r\nแล้วส่งหมัดอันทรงพลังอัดใส่หน้าศัตรูส่งท้าย",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|Gorilla|/>\r\nหลังฟาดพื้น 2 ครั้ง จะกระโดด\r\nแล้วส่งหมัดอันทรงพลังอัดใส่หน้าศัตรูส่งท้าย"
+        }
+      },
+      "ACTION_SKILL_Unique_Gorilla_Ground_EarthPunch": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Gorilla_Ground_EarthPunch_TextData",
+          "SourceString": "<characterName id=|Gorilla_Ground|/>สกิลเฉพาะตัว\r\nหลังจากที่ฟาดพื้น 2 ครั้งเเล้วจะกระโดดยกตัวขึ้น\r\nปล่อยหมัดที่อัดแน่นด้วยพลังแห่งผืนดินเข้าใส่ศัตรู",
+          "LocalizedString": "<characterName id=|Gorilla_Ground|/>สกิลเฉพาะตัว\r\nหลังจากที่ฟาดพื้น 2 ครั้งเเล้วจะกระโดดยกตัวขึ้น\r\nปล่อยหมัดที่อัดแน่นด้วยพลังแห่งผืนดินเข้าใส่ศัตรู"
+        }
+      },
+      "ACTION_SKILL_Unique_Grassmammoth_Earthquake": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Grassmammoth_Earthquake_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ Mammorest\r\nใช้ร่างมหึมาทำให้พื้นสั่นสะเทือน\r\nสร้างความเสียหายเป็นวงกว้างโดยมีตนเป็นศูนย์กลาง",
+          "LocalizedString": "สกิลเฉพาะตัวของ Mammorest\r\nใช้ร่างมหึมาทำให้พื้นสั่นสะเทือน\r\nสร้างความเสียหายเป็นวงกว้างโดยมีตนเป็นศูนย์กลาง"
+        }
+      },
+      "ACTION_SKILL_Unique_GrassPanda_MusclePunch": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_GrassPanda_MusclePunch_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|GrassPanda|/>\r\nควงแขนขวา ชกเต็มแรงออกไปด้านหน้า",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|GrassPanda|/>\r\nควงแขนขวา ชกเต็มแรงออกไปด้านหน้า"
+        }
+      },
+      "ACTION_SKILL_Unique_GrassPanda_Electric_ElectricPunch": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_GrassPanda_Electric_ElectricPunch_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|GrassPanda_Electric|/>\r\nควงแขนขวา ชกหมัดสายฟ้าออกไปด้านหน้า",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|GrassPanda_Electric|/>\r\nควงแขนขวา ชกหมัดสายฟ้าออกไปด้านหน้า"
+        }
+      },
+      "ACTION_SKILL_Unique_Alpaca_Tackle": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Alpaca_Tackle_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|Alpaca|/>\r\nพุ่งกระแทกดโดยมีออร่าน่ารักปกคลุมร่าง",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|Alpaca|/>\r\nพุ่งกระแทกดโดยมีออร่าน่ารักปกคลุมร่าง"
+        }
+      },
+      "ACTION_SKILL_Unique_AmaterasuWolf_FireCharge": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_AmaterasuWolf_FireCharge_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|AmaterasuWolf|/>\r\nใช้ร่างที่มีไฟสีน้ำเงินปกคลุมพุ่งชนศัตรูเต็มแรง",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|AmaterasuWolf|/>\r\nใช้ร่างที่มีไฟสีน้ำเงินปกคลุมพุ่งชนศัตรูเต็มแรง"
+        }
+      },
+      "ACTION_SKILL_Unique_AmaterasuWolf_Dark_DarkCharge": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_AmaterasuWolf_Dark_DarkCharge_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|AmaterasuWolf_Dark|/>\r\nใช้ร่างที่มีไฟสีม่วงปกคลุมพุ่งชนศัตรูเต็มแรง",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|AmaterasuWolf_Dark|/>\r\nใช้ร่างที่มีไฟสีม่วงปกคลุมพุ่งชนศัตรูเต็มแรง"
+        }
+      },
+      "ACTION_SKILL_Unique_Baphomet_SwallowKite": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Baphomet_SwallowKite_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ Incineram\r\nเข้าใกล้ศัตรู ใช้กรงเล็บมือซ้ายตวัดขึ้นพร้อมกระโดด \r\nจากนั้นใช้กรงเล็บมือขวาฟันลงอย่างรวดเร็ว",
+          "LocalizedString": "สกิลเฉพาะตัวของ Incineram\r\nเข้าใกล้ศัตรู ใช้กรงเล็บมือซ้ายตวัดขึ้นพร้อมกระโดด \r\nจากนั้นใช้กรงเล็บมือขวาฟันลงอย่างรวดเร็ว"
+        }
+      },
+      "ACTION_SKILL_Unique_Baphomet_Dark_DarkKite": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Baphomet_Dark_DarkKite_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ Incineram Noct\r\nดีดตัวขึ้นพร้อมกับฟันกรงเล็บเเห่งความมืดที่อยู่ที่มือซ้ายขึ้น\r\nฟันกรงเล็บเเห่งความมืดที่อยู่ด้วยมือขวาลงอย่างต่อเนื่องเเละไวเเสง",
+          "LocalizedString": "สกิลเฉพาะตัวของ Incineram Noct\r\nดีดตัวขึ้นพร้อมกับฟันกรงเล็บเเห่งความมืดที่อยู่ที่มือซ้ายขึ้น\r\nฟันกรงเล็บเเห่งความมืดที่อยู่ด้วยมือขวาลงอย่างต่อเนื่องเเละไวเเสง"
+        }
+      },
+      "ACTION_SKILL_Unique_BirdDragon_FireBreath": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_BirdDragon_FireBreath_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|BirdDragon|/>\r\nพุ่งกระแทกพร้อมพ่นไฟ",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|BirdDragon|/>\r\nพุ่งกระแทกพร้อมพ่นไฟ"
+        }
+      },
+      "ACTION_SKILL_Unique_BirdDragon_Ice_IceBreath": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_BirdDragon_Ice_IceBreath_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|BirdDragon_Ice|/>\r\nพุ่งกระแทกพร้อมพ่นไอเย็น",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|BirdDragon_Ice|/>\r\nพุ่งกระแทกพร้อมพ่นไอเย็น"
+        }
+      },
+      "ACTION_SKILL_Unique_BlackCentaur_TwoSpearRushes": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_BlackCentaur_TwoSpearRushes_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|BlackCentaur|/>\r\nพุ่งเข้าหาศัตรู สองมือถือหอกที่ล้อมด้วยลมกระโชก\r\nแล้วแทงสลับซ้ายขวา",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|BlackCentaur|/>\r\nพุ่งเข้าหาศัตรู สองมือถือหอกที่ล้อมด้วยลมกระโชก\r\nแล้วแทงสลับซ้ายขวา"
+        }
+      },
+      "ACTION_SKILL_Unique_BlackFurDragon_RotationalSlash": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_BlackFurDragon_RotationalSlash_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "ACTION_SKILL_Unique_BlackGriffon_TackleLaser": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_BlackGriffon_TackleLaser_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ<characterName id=|BlackGriffon|/>\r\nพุ่งชนพลางสร้างลูกบอลแสง\r\nบอลแสงจะตรวจจับศัตรูอัตโนมัติ และยิงลำแสงจำนวนมหาศาล",
+          "LocalizedString": "สกิลเฉพาะตัวของ<characterName id=|BlackGriffon|/>\r\nพุ่งชนพลางสร้างลูกบอลแสง\r\nบอลแสงจะตรวจจับศัตรูอัตโนมัติ และยิงลำแสงจำนวนมหาศาล"
+        }
+      },
+      "ACTION_SKILL_Unique_BlackMetalDragon_FirePunch": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_BlackMetalDragon_FirePunch_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ<characterName id=|BlackMetalDragon|/>\r\nหลังต่อยหมัดตรง 2 ครั้ง\r\nจะพ่นลมหายใจธาตุมังกรลงไปด้านล่าง",
+          "LocalizedString": "สกิลเฉพาะตัวของ<characterName id=|BlackMetalDragon|/>\r\nหลังต่อยหมัดตรง 2 ครั้ง\r\nจะพ่นลมหายใจธาตุมังกรลงไปด้านล่าง"
+        }
+      },
+      "ACTION_SKILL_Unique_DarkCrow_TelePoke": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_DarkCrow_TelePoke_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ<characterName id=|DarkCrow|/>\r\nเคลื่อนที่พริบตาไปประชิดศัตรู\r\nแล้วใช้จะงอยปากโจมตี",
+          "LocalizedString": "สกิลเฉพาะตัวของ<characterName id=|DarkCrow|/>\r\nเคลื่อนที่พริบตาไปประชิดศัตรู\r\nแล้วใช้จะงอยปากโจมตี"
+        }
+      },
+      "ACTION_SKILL_Unique_DarkMutant_DarkTackle": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_DarkMutant_DarkTackle_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "ACTION_SKILL_Unique_DarkScorpion_Pierce": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_DarkScorpion_Pierce_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ Menasting\r\nกระโดดสูงแล้วใช้หางแทงเหยื่ออย่างแรง\r\nที่หางมีพิษ",
+          "LocalizedString": "สกิลเฉพาะตัวของ Menasting\r\nกระโดดสูงแล้วใช้หางแทงเหยื่ออย่างแรง\r\nที่หางมีพิษ"
+        }
+      },
+      "ACTION_SKILL_Unique_DrillGame_ShellAttack": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_DrillGame_ShellAttack_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|DrillGame|/>\r\nเคลื่อนที่พลางหมุนตัวด้วยความเร็วสูง\r\nแล้วใส่สว่างเจาะร่างศัตรู สร้างความเสียหายต่อเนื่อง",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|DrillGame|/>\r\nเคลื่อนที่พลางหมุนตัวด้วยความเร็วสูง\r\nแล้วใส่สว่างเจาะร่างศัตรู สร้างความเสียหายต่อเนื่อง"
+        }
+      },
+      "ACTION_SKILL_Unique_Eagle_GlidingNail": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Eagle_GlidingNail_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|Eagle|/>\r\nกางกรงเล็บเท้าพลาง\r\nโฉบโจมตีศัตรูอย่างรุนแรงจากบนฟ้า",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|Eagle|/>\r\nกางกรงเล็บเท้าพลาง\r\nโฉบโจมตีศัตรูอย่างรุนแรงจากบนฟ้า"
+        }
+      },
+      "ACTION_SKILL_Unique_FengyunDeeper_CloudTempest": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_FengyunDeeper_CloudTempest_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|FengyunDeeper|/>\r\nควบคุมอากาศให้โอบล้อมตัวแล้วพุ่งชนศัตรู",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|FengyunDeeper|/>\r\nควบคุมอากาศให้โอบล้อมตัวแล้วพุ่งชนศัตรู"
+        }
+      },
+      "ACTION_SKILL_Unique_FengyunDeeper_Electric_ThunderTempest": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_FengyunDeeper_Electric_ThunderTempest_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|FengyunDeeper_Electric|/>\r\nควบคุมอากาศให้เมฆสายฟ้าโอบล้อมตัวแล้วพุ่งชนศัตรู",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|FengyunDeeper_Electric|/>\r\nควบคุมอากาศให้เมฆสายฟ้าโอบล้อมตัวแล้วพุ่งชนศัตรู"
+        }
+      },
+      "ACTION_SKILL_Unique_FireKirin_Tackle": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_FireKirin_Tackle_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|FireKirin|/>\r\nใช้ร่างที่มีเปลวไฟปกคลุมพุ่งชนศัตรู\r\nเกิดไฟลุกไหม้ตามทางที่วิ่งผ่าน",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|FireKirin|/>\r\nใช้ร่างที่มีเปลวไฟปกคลุมพุ่งชนศัตรู\r\nเกิดไฟลุกไหม้ตามทางที่วิ่งผ่าน"
+        }
+      },
+      "ACTION_SKILL_Unique_FireKirin_Dark_DarkTossin": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_FireKirin_Dark_DarkTossin_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|FireKirin_Dark|/>\r\nใช้ร่างที่มีเปลวไฟสีดำปกคลุมพุ่งชนศัตรู\r\nเกิดไฟลุกไหม้ตามทางที่วิ่งผ่าน",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|FireKirin_Dark|/>\r\nใช้ร่างที่มีเปลวไฟสีดำปกคลุมพุ่งชนศัตรู\r\nเกิดไฟลุกไหม้ตามทางที่วิ่งผ่าน"
+        }
+      },
+      "ACTION_SKILL_Unique_FlameBuffalo_FlameHorn": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_FlameBuffalo_FlameHorn_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|FlameBuffalo|/>\r\nเล็งศัตรูแล้วพุ่งเข้าใส่อย่างแรง\r\nพลางใช้เขางัด",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|FlameBuffalo|/>\r\nเล็งศัตรูแล้วพุ่งเข้าใส่อย่างแรง\r\nพลางใช้เขางัด"
+        }
+      },
+      "ACTION_SKILL_Unique_GhostBeast_Tossin": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_GhostBeast_Tossin_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|GhostBeast|/>\r\nเดินช้า ๆ พลางปล่อยลูกไฟสว่างไสว\r\nเข้าใส่ศัตรูอย่างต่อเนื่อง",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|GhostBeast|/>\r\nเดินช้า ๆ พลางปล่อยลูกไฟสว่างไสว\r\nเข้าใส่ศัตรูอย่างต่อเนื่อง"
+        }
+      },
+      "ACTION_SKILL_Unique_GrassRabbitMan_GrassRoundKick": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_GrassRabbitMan_GrassRoundKick_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|GrassRabbitMan|/>\r\nกระโดดไปข้างหน้า พลางหมุนตัวเตะด้วยความเร็วสูง\r\nโจมตีกวาดบริเวณโดยรอบ",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|GrassRabbitMan|/>\r\nกระโดดไปข้างหน้า พลางหมุนตัวเตะด้วยความเร็วสูง\r\nโจมตีกวาดบริเวณโดยรอบ"
+        }
+      },
+      "ACTION_SKILL_Unique_HawkBird_Storm": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_HawkBird_Storm_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|HawkBird|/>\r\nหลังสร้างพายุหมุนตรงด้านหน้า\r\nจะถลาลมพุ่งใส่ศัตรู",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|HawkBird|/>\r\nหลังสร้างพายุหมุนตรงด้านหน้า\r\nจะถลาลมพุ่งใส่ศัตรู"
+        }
+      },
+      "ACTION_SKILL_Unique_HerculesBeetle_BeetleTackle": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_HerculesBeetle_BeetleTackle_TextData",
+          "SourceString": "สกิลเฉพาะตัวของสายพันธุ์ <characterName id=|HerculesBeetle|/>\r\nใช้เขาอันแข็งแกร่งทั้ง 4 เขาเสียบทะลุร่างศัตรู",
+          "LocalizedString": "สกิลเฉพาะตัวของสายพันธุ์ <characterName id=|HerculesBeetle|/>\r\nใช้เขาอันแข็งแกร่งทั้ง 4 เขาเสียบทะลุร่างศัตรู"
+        }
+      },
+      "ACTION_SKILL_Unique_IceDeer_IceHorn": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_IceDeer_IceHorn_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|IceDeer|/>\r\nพุ่งชนศัตรูพลางใช้เขาน้ำแข็งอันงามสง่างัดร่างศัตรูขึ้น",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|IceDeer|/>\r\nพุ่งชนศัตรูพลางใช้เขาน้ำแข็งอันงามสง่างัดร่างศัตรูขึ้น"
+        }
+      },
+      "ACTION_SKILL_Unique_IceHorse_IceBladeAttack": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_IceHorse_IceBladeAttack_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ Frostallion\r\nสร้างปีกที่กลั่นจากไอเย็นมาล้อมกาย\r\nแล้ววิ่งพลางใช้ปีกน้ำแข็งกรีดเฉือนศัตรู",
+          "LocalizedString": "สกิลเฉพาะตัวของ Frostallion\r\nสร้างปีกที่กลั่นจากไอเย็นมาล้อมกาย\r\nแล้ววิ่งพลางใช้ปีกน้ำแข็งกรีดเฉือนศัตรู"
+        }
+      },
+      "ACTION_SKILL_Unique_IceHorse_Dark_DarkBladeAttack": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_IceHorse_Dark_DarkBladeAttack_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ Frostallion Noct\r\nห่อคลุมปีกด้วยพลังงานเเห่งความมืด\r\nฟันศัตรูขณะวิ่งอย่างรวดเร็ว\r\nแล้วท้ายที่สุด พลังความมืดนั้นจะเปลี่ยนเป็นกระสุนที่ติดตามศัตรู",
+          "LocalizedString": "สกิลเฉพาะตัวของ Frostallion Noct\r\nห่อคลุมปีกด้วยพลังงานเเห่งความมืด\r\nฟันศัตรูขณะวิ่งอย่างรวดเร็ว\r\nแล้วท้ายที่สุด พลังความมืดนั้นจะเปลี่ยนเป็นกระสุนที่ติดตามศัตรู"
+        }
+      },
+      "ACTION_SKILL_Unique_JetDragon_JumpBeam": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_JetDragon_JumpBeam_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|JetDragon|/>\r\nปีกจะเรืองแสง\r\nแล้วยิงลำแสงจำนวนมากเข้าใส่ศัตรู\r\nเมื่อลำแสงยิงโดนศัตรูจะระเบิด",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|JetDragon|/>\r\nปีกจะเรืองแสง\r\nแล้วยิงลำแสงจำนวนมากเข้าใส่ศัตรู\r\nเมื่อลำแสงยิงโดนศัตรูจะระเบิด"
+        }
+      },
+      "ACTION_SKILL_Unique_KingAlpaca_BodyPress": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_KingAlpaca_BodyPress_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ Kingpaca\r\nกระโดดสูง\r\nแล้วใช้ร่างนุ่มฟูทับศัตรู",
+          "LocalizedString": "สกิลเฉพาะตัวของ Kingpaca\r\nกระโดดสูง\r\nแล้วใช้ร่างนุ่มฟูทับศัตรู"
+        }
+      },
+      "ACTION_SKILL_Unique_KingAlpaca_Ice_IcePress": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_KingAlpaca_Ice_IcePress_TextData",
+          "SourceString": "สกิลเฉพาะของ Kingpaca Cryst\r\nหลังจากที่กระโจนขึ้นอย่างสูงเเล้ว\r\nจะใช้ร่างใหญ่เเละน้ำเเข็งบดขยี้ศัตรูให้แหลก",
+          "LocalizedString": "สกิลเฉพาะของ Kingpaca Cryst\r\nหลังจากที่กระโจนขึ้นอย่างสูงเเล้ว\r\nจะใช้ร่างใหญ่เเละน้ำเเข็งบดขยี้ศัตรูให้แหลก"
+        }
+      },
+      "ACTION_SKILL_Unique_KingBahamut_AirCrash": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_KingBahamut_AirCrash_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ Blazamut Ryu\r\nหลังกระโดดสูง จะเคลื่อนที่กลางอากาศด้วยความเร็วสูง\r\nพลางสะสมพลังแล้วทุ่มตัวต่อย",
+          "LocalizedString": "สกิลเฉพาะตัวของ Blazamut Ryu\r\nหลังกระโดดสูง จะเคลื่อนที่กลางอากาศด้วยความเร็วสูง\r\nพลางสะสมพลังแล้วทุ่มตัวต่อย"
+        }
+      },
+      "ACTION_SKILL_Unique_Kirin_LightningTackle": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Kirin_LightningTackle_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|Kirin|/>\r\nสร้างฟ้าผ่าขึ้นรอบตัว\r\nขณะพุ่งชนศัตรู",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|Kirin|/>\r\nสร้างฟ้าผ่าขึ้นรอบตัว\r\nขณะพุ่งชนศัตรู"
+        }
+      },
+      "ACTION_SKILL_Unique_Manticore_InfernoStrike": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Manticore_InfernoStrike_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|Manticore|/>\r\nกระโจนใส่ศัตรูด้วยแรงส่ง\r\nและจุดระเบิดเพลิงใส่ปลายทาง",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|Manticore|/>\r\nกระโจนใส่ศัตรูด้วยแรงส่ง\r\nและจุดระเบิดเพลิงใส่ปลายทาง"
+        }
+      },
+      "ACTION_SKILL_Unique_NaughtyCat_CatPress": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_NaughtyCat_CatPress_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|NaughtyCat|/>\r\nกระโจนใส่ศัตรูพร้อมยิ้มเย้ย\r\nแล้วใช้ทั้งร่างทับศัตรู",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|NaughtyCat|/>\r\nกระโจนใส่ศัตรูพร้อมยิ้มเย้ย\r\nแล้วใช้ทั้งร่างทับศัตรู"
+        }
+      },
+      "ACTION_SKILL_Unique_QueenBee_SpinLance": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_QueenBee_SpinLance_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|QueenBee|/>\r\nรวมพลังไว้ที่คทา ก่อนจะปล่อยพลังพลางหมุนตัว",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|QueenBee|/>\r\nรวมพลังไว้ที่คทา ก่อนจะปล่อยพลังพลางหมุนตัว"
+        }
+      },
+      "ACTION_SKILL_Unique_RedArmorBird_TriplePeck": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_RedArmorBird_TriplePeck_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|RedArmorBird|/>\r\nกระพือปีกไปด้านหน้า\r\nพลางใช้จะงอยปากพุ่งไปข้างหน้า ซ้าย และขวา\r\nเพื่อจุดระเบิดขนาดย่อม",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|RedArmorBird|/>\r\nกระพือปีกไปด้านหน้า\r\nพลางใช้จะงอยปากพุ่งไปข้างหน้า ซ้าย และขวา\r\nเพื่อจุดระเบิดขนาดย่อม"
+        }
+      },
+      "ACTION_SKILL_Unique_RobinHood_BowSnipe": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_RobinHood_BowSnipe_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ Robinquill\r\nง้างธนูเล็งเป้า\r\nแล้วยิงธนูใส่ศัตรู",
+          "LocalizedString": "สกิลเฉพาะตัวของ Robinquill\r\nง้างธนูเล็งเป้า\r\nแล้วยิงธนูใส่ศัตรู"
+        }
+      },
+      "ACTION_SKILL_Unique_Ronin_Iai": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Ronin_Iai_TextData",
+          "SourceString": "สกิลเฉพาะตัวของพาลประเภท <characterName id=|Ronin|/>\r\nหลังจับดาบ จะมาปรากฏตัวต่อหน้าศัตรูในพริบตา\r\nแล้วชักดาบโจมตีศัตรูด้วยความเร็วสูง",
+          "LocalizedString": "สกิลเฉพาะตัวของพาลประเภท <characterName id=|Ronin|/>\r\nหลังจับดาบ จะมาปรากฏตัวต่อหน้าศัตรูในพริบตา\r\nแล้วชักดาบโจมตีศัตรูด้วยความเร็วสูง"
+        }
+      },
+      "ACTION_SKILL_Unique_SaintCentaur_OneSpearRushes": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_SaintCentaur_OneSpearRushes_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|SaintCentaur|/>\r\nใช้พลังศักดิ์สิทธิ์มาปกคลุมร่าง\r\nพุ่งไปข้างหน้าพลางแทงหอกในมือซ้าย\r\nระหว่างพุ่งตัว จะใช้โล่ในมือขวาป้องกันการโจมตีต่าง ๆ",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|SaintCentaur|/>\r\nใช้พลังศักดิ์สิทธิ์มาปกคลุมร่าง\r\nพุ่งไปข้างหน้าพลางแทงหอกในมือซ้าย\r\nระหว่างพุ่งตัว จะใช้โล่ในมือขวาป้องกันการโจมตีต่าง ๆ"
+        }
+      },
+      "ACTION_SKILL_Unique_SakuraSaurus_SideTackle": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_SakuraSaurus_SideTackle_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ Broncherry\r\nตั้งท่าหันข้าง กระแทกใส่ศัตรูด้านหน้า\r\nผลักศัตรูให้กระเด็น",
+          "LocalizedString": "สกิลเฉพาะตัวของ Broncherry\r\nตั้งท่าหันข้าง กระแทกใส่ศัตรูด้านหน้า\r\nผลักศัตรูให้กระเด็น"
+        }
+      },
+      "ACTION_SKILL_Unique_SakuraSaurus_Water_SplashTackle": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_SakuraSaurus_Water_SplashTackle_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ Broncherry Aqua\r\nตั้งท่าในเเนวนอนเตรียมสู้เเละ\r\nเป่าศัตรูให้กระเด็นพร้อมกับยกละอองน้ำขึ้น",
+          "LocalizedString": "สกิลเฉพาะตัวของ Broncherry Aqua\r\nตั้งท่าในเเนวนอนเตรียมสู้เเละ\r\nเป่าศัตรูให้กระเด็นพร้อมกับยกละอองน้ำขึ้น"
+        }
+      },
+      "ACTION_SKILL_Unique_SoldierBee_NeedleLance": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_SoldierBee_NeedleLance_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|SoldierBee|/>\r\nพุ่งชนศัตรูด้วยความเร็วสูง\r\nแล้วตบท้ายด้วยแทงหอกใส่ศัตรู",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|SoldierBee|/>\r\nพุ่งชนศัตรูด้วยความเร็วสูง\r\nแล้วตบท้ายด้วยแทงหอกใส่ศัตรู"
+        }
+      },
+      "ACTION_SKILL_Unique_ThunderBird_ThunderStorm": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_ThunderBird_ThunderStorm_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|ThunderBird|/>\r\nเริ่มจากเรียกสายฟ้าโจมตีใส่จุดที่ศัตรูอยู่\r\nและบินโฉบโจมตีพลางเรียกฟ้าผ่าขนาบซ้ายขวา",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|ThunderBird|/>\r\nเริ่มจากเรียกสายฟ้าโจมตีใส่จุดที่ศัตรูอยู่\r\nและบินโฉบโจมตีพลางเรียกฟ้าผ่าขนาบซ้ายขวา"
+        }
+      },
+      "ACTION_SKILL_Unique_ThunderDog_InazumaShorai": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_ThunderDog_InazumaShorai_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|ThunderDog|/>\r\nเรียกอสนีบาดมาเบื้องหน้าต่อเนื่อง\r\nวิ่งลอดสายฟ้าด้วยความเร็วสูงเข้าหาศัตรู",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|ThunderDog|/>\r\nเรียกอสนีบาดมาเบื้องหน้าต่อเนื่อง\r\nวิ่งลอดสายฟ้าด้วยความเร็วสูงเข้าหาศัตรู"
+        }
+      },
+      "ACTION_SKILL_Unique_Umihebi_WindingTackle": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Umihebi_WindingTackle_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|Umihebi|/>\r\nร้องคำราม เรียกสายน้ำมาโอบล้อมตัว แล้วพุ่งชนศัตรู",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|Umihebi|/>\r\nร้องคำราม เรียกสายน้ำมาโอบล้อมตัว แล้วพุ่งชนศัตรู"
+        }
+      },
+      "ACTION_SKILL_Unique_Umihebi_Fire_FireWindingTackle": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Umihebi_Fire_FireWindingTackle_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|Umihebi_Fire|/>\r\nร้องคำราม เรียกเปลวเพลิงมาโอบล้อมตัว แล้วพุ่งชนศัตรู",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|Umihebi_Fire|/>\r\nร้องคำราม เรียกเปลวเพลิงมาโอบล้อมตัว แล้วพุ่งชนศัตรู"
+        }
+      },
+      "ACTION_SKILL_Unique_VolcanicMonster_MagmaAttack": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_VolcanicMonster_MagmaAttack_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|VolcanicMonster|/>\r\nเงื้อขาหน้าขึ้นกระทืบพื้น\r\nสร้างไฟปะทุขึ้นตรงจุดที่ศัตรูอยู่\r\nตอนที่ไฟปะทุจะเกิดสะเก็ดลาวาโปรยปราย",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|VolcanicMonster|/>\r\nเงื้อขาหน้าขึ้นกระทืบพื้น\r\nสร้างไฟปะทุขึ้นตรงจุดที่ศัตรูอยู่\r\nตอนที่ไฟปะทุจะเกิดสะเก็ดลาวาโปรยปราย"
+        }
+      },
+      "ACTION_SKILL_Unique_VolcanicMonster_Ice_IceAttack": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_VolcanicMonster_Ice_IceAttack_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|VolcanicMonster_Ice|/>\r\nเงื้อขาหน้าขึ้นกระทืบพื้น\r\nสร้างหิมะให้ผุดขึ้นตรงจุดที่ศัตรูอยู่\r\nตอนที่เกิดหิมะจะเกิดลูกบอลหิมะโปรยปราย",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|VolcanicMonster_Ice|/>\r\nเงื้อขาหน้าขึ้นกระทืบพื้น\r\nสร้างหิมะให้ผุดขึ้นตรงจุดที่ศัตรูอยู่\r\nตอนที่เกิดหิมะจะเกิดลูกบอลหิมะโปรยปราย"
+        }
+      },
+      "ACTION_SKILL_Unique_WeaselDragon_FlyingTackle": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_WeaselDragon_FlyingTackle_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ Chillet\r\nหลังสะสมพลังเล็กน้อย จะกระโจนไปด้านหน้า\r\nพริบตาที่ถึงที่หมายจะกลัวจนหลับตาปี๋เสมอ",
+          "LocalizedString": "สกิลเฉพาะตัวของ Chillet\r\nหลังสะสมพลังเล็กน้อย จะกระโจนไปด้านหน้า\r\nพริบตาที่ถึงที่หมายจะกลัวจนหลับตาปี๋เสมอ"
+        }
+      },
+      "ACTION_SKILL_Unique_Werewolf_Scratch": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Werewolf_Scratch_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|WereWolf|/>\r\nกระโจนไปด้านหน้า ข่วนศัตรู 2 ครั้งอย่างรวดเร็ว\r\nการโจมตีนี้มีพลังธาตุความมืดแฝงอยู่",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|WereWolf|/>\r\nกระโจนไปด้านหน้า ข่วนศัตรู 2 ครั้งอย่างรวดเร็ว\r\nการโจมตีนี้มีพลังธาตุความมืดแฝงอยู่"
+        }
+      },
+      "ACTION_SKILL_Unique_Werewolf_Ice_SnowScratch": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Werewolf_Ice_SnowScratch_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|WereWolf_Ice|/>\r\nกระโจนไปด้านหน้า ข่วนศัตรู 2 ครั้งอย่างรวดเร็ว\r\nการโจมตีนี้มีพลังธาตุน้ำแข็งแฝงอยู่",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|WereWolf_Ice|/>\r\nกระโจนไปด้านหน้า ข่วนศัตรู 2 ครั้งอย่างรวดเร็ว\r\nการโจมตีนี้มีพลังธาตุน้ำแข็งแฝงอยู่"
+        }
+      },
+      "ACTION_SKILL_Unique_WhiteTiger_IceScratch": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_WhiteTiger_IceScratch_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|WhiteTiger|/>\r\nโจมตีครั้งแรกและครั้งที่ 2 ด้วยกรงเล็บ\r\nและใช้แรงทั้งหมดตะปบศัตรูอย่างแรงในครั้งสุดท้าย\r\nตอนที่ตวัดกรงเล็บจะซัดเสาน้ำแข็ง 3 ต้นออกไปด้านหน้าเป็นรูปพัด",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|WhiteTiger|/>\r\nโจมตีครั้งแรกและครั้งที่ 2 ด้วยกรงเล็บ\r\nและใช้แรงทั้งหมดตะปบศัตรูอย่างแรงในครั้งสุดท้าย\r\nตอนที่ตวัดกรงเล็บจะซัดเสาน้ำแข็ง 3 ต้นออกไปด้านหน้าเป็นรูปพัด"
+        }
+      },
+      "ACTION_SKILL_Unique_WhiteTiger_Ground_IronScratch": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_WhiteTiger_Ground_IronScratch_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|WhiteTiger_Ground|/>\r\nโจมตีครั้งแรกและครั้งที่ 2 ด้วยกรงเล็บ\r\nและใช้แรงทั้งหมดตะปบศัตรูอย่างแรงในครั้งสุดท้าย\r\nตอนที่ตวัดกรงเล็บจะซัดเสาหิน 3 ต้นออกไปด้านหน้าเป็นรูปพัด",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|WhiteTiger_Ground|/>\r\nโจมตีครั้งแรกและครั้งที่ 2 ด้วยกรงเล็บ\r\nและใช้แรงทั้งหมดตะปบศัตรูอย่างแรงในครั้งสุดท้าย\r\nตอนที่ตวัดกรงเล็บจะซัดเสาหิน 3 ต้นออกไปด้านหน้าเป็นรูปพัด"
+        }
+      },
+      "ACTION_SKILL_Unique_Yeti_SnowBall": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Yeti_SnowBall_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|Yeti|/>\r\nกลิ้งบอลหิมะไปด้านหน้า\r\nเมื่อได้ขนาดใหญ่พอ จะขว้างบอลออกไปให้ระเบิดออก",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|Yeti|/>\r\nกลิ้งบอลหิมะไปด้านหน้า\r\nเมื่อได้ขนาดใหญ่พอ จะขว้างบอลออกไปให้ระเบิดออก"
+        }
+      },
+      "ACTION_SKILL_Unique_Yeti_Grass_GrassBall": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Yeti_Grass_GrassBall_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|Yeti_Grass|/>\r\nกลิ้งบอลหญ้าไปด้านหน้า\r\nเมื่อได้ขนาดใหญ่พอ จะขว้างบอลออกไปให้ระเบิดออก",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|Yeti_Grass|/>\r\nกลิ้งบอลหญ้าไปด้านหน้า\r\nเมื่อได้ขนาดใหญ่พอ จะขว้างบอลออกไปให้ระเบิดออก"
+        }
+      },
+      "ACTION_SKILL_Unique_ThunderDragonMan_ThunderSwordAttack": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_ThunderDragonMan_ThunderSwordAttack_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|ThunderDragonMan|/>\r\nกระโดดเรียกหอกสายฟ้า\r\nขว้างลงไปหาศัตรู",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|ThunderDragonMan|/>\r\nกระโดดเรียกหอกสายฟ้า\r\nขว้างลงไปหาศัตรู"
+        }
+      },
+      "ACTION_SKILL_Unique_CaptainPenguin_BodySlide": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_CaptainPenguin_BodySlide_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|CaptainPenguin|/>\r\nใช้ท้องกระแทกพื้น สร้างไอเย็นจากร่าง\r\nไถลตัวกระแทกศัตรู",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|CaptainPenguin|/>\r\nใช้ท้องกระแทกพื้น สร้างไอเย็นจากร่าง\r\nไถลตัวกระแทกศัตรู"
+        }
+      },
+      "ACTION_SKILL_Unique_NightLady_WarpBeam_Straight": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_NightLady_WarpBeam_Straight_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|NightLady|/>\r\nหายตัวไปเงียบ ๆ และพริบตาที่ปรากฏตัวขึ้นอีกครั้งจะยิงลำแสงนับไม่ถ้วนใส่ศัตรู",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|NightLady|/>\r\nหายตัวไปเงียบ ๆ และพริบตาที่ปรากฏตัวขึ้นอีกครั้งจะยิงลำแสงนับไม่ถ้วนใส่ศัตรู"
+        }
+      },
+      "ACTION_SKILL_Unique_NightLady_WarpBeam": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_NightLady_WarpBeam_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|NightLady_Dark|/>\r\nหายตัวไปเงียบ ๆ และพริบตาที่ปรากฏตัวขึ้นอีกครั้งจะยิงลำแสงนับไม่ถ้วนใส่ศัตรู\r\nลำแสงจะกระจายตัวเหมือนดอกไม้บาน",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|NightLady_Dark|/>\r\nหายตัวไปเงียบ ๆ และพริบตาที่ปรากฏตัวขึ้นอีกครั้งจะยิงลำแสงนับไม่ถ้วนใส่ศัตรู\r\nลำแสงจะกระจายตัวเหมือนดอกไม้บาน"
+        }
+      },
+      "ACTION_SKILL_Unique_NightLady_FlameNightmare": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_NightLady_FlameNightmare_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|NightLady_Dark|/>\r\nร่ายรำพลิ้วไหว\r\nสร้างวงแหวนไฟกระจายออกไปโดยรอบ\r\nและยิงไฟปริศนาติดตามศัตรู",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|NightLady_Dark|/>\r\nร่ายรำพลิ้วไหว\r\nสร้างวงแหวนไฟกระจายออกไปโดยรอบ\r\nและยิงไฟปริศนาติดตามศัตรู"
+        }
+      },
+      "ACTION_SKILL_Unique_KingBahamut_ArmSmash": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_KingBahamut_ArmSmash_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ Blazamut\r\nควงแขนให้พองโต\r\nและเมื่อประกบมือเข้าด้วยกันจะทำให้เกิดระเบิดขึ้นโดยรอบ",
+          "LocalizedString": "สกิลเฉพาะตัวของ Blazamut\r\nควงแขนให้พองโต\r\nและเมื่อประกบมือเข้าด้วยกันจะทำให้เกิดระเบิดขึ้นโดยรอบ"
+        }
+      },
+      "ACTION_SKILL_Unique_MoonQueen_MoonBeam": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_MoonQueen_MoonBeam_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ Selyne\r\nสะสมพลังงานไว้ที่พระจันทร์ที่หลัง\r\nยิงลำแสงรูปจันทร์เสี้ยวออกไปด้านหน้า",
+          "LocalizedString": "สกิลเฉพาะตัวของ Selyne\r\nสะสมพลังงานไว้ที่พระจันทร์ที่หลัง\r\nยิงลำแสงรูปจันทร์เสี้ยวออกไปด้านหน้า"
+        }
+      },
+      "ACTION_SKILL_Unique_MoonQueen_MoonBlade": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_MoonQueen_MoonBlade_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ Selyne\r\nซัดใบมีดความเร็วสูงที่แฝงพลังแสงจันทร์ออกไป 2 ครั้งต่อเนื่อง",
+          "LocalizedString": "สกิลเฉพาะตัวของ Selyne\r\nซัดใบมีดความเร็วสูงที่แฝงพลังแสงจันทร์ออกไป 2 ครั้งต่อเนื่อง"
+        }
+      },
+      "ACTION_SKILL_Unique_WingGolem_RoundCutter": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_WingGolem_RoundCutter_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ Knocklem\r\nเงื้อแขนขึ้นอย่างแรงแล้วขว้างวงแหวนบนหลังออกไป\r\nวงแหวนจะบินเป็นวิถีโค้งคล้ายวาดวงกลม",
+          "LocalizedString": "สกิลเฉพาะตัวของ Knocklem\r\nเงื้อแขนขึ้นอย่างแรงแล้วขว้างวงแหวนบนหลังออกไป\r\nวงแหวนจะบินเป็นวิถีโค้งคล้ายวาดวงกลม"
+        }
+      },
+      "ACTION_SKILL_Unique_FeatherOstrich_Tossin": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_FeatherOstrich_Tossin_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ Dazemu\r\nเร่งความเร็วในอึดใจ แล้วพุ่งอย่างรวดเร็วไปข้างหน้า",
+          "LocalizedString": "สกิลเฉพาะตัวของ Dazemu\r\nเร่งความเร็วในอึดใจ แล้วพุ่งอย่างรวดเร็วไปข้างหน้า"
+        }
+      },
+      "ACTION_SKILL_Unique_DarkAlien_JumpScractch": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_DarkAlien_JumpScractch_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ Xenovader\r\nกระโจนเข้าใส่อย่างรวดเร็ว แล้วกรีดศัตรูด้วยมือซ้าย",
+          "LocalizedString": "สกิลเฉพาะตัวของ Xenovader\r\nกระโจนเข้าใส่อย่างรวดเร็ว แล้วกรีดศัตรูด้วยมือซ้าย"
+        }
+      },
+      "ACTION_SKILL_Unique_ScorpionMan_UpperCut": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_ScorpionMan_UpperCut_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ Prixter\r\nเข้าประชิดศัตรูด้วยความเร็วสูง\r\nแล้วเหวี่ยงก้ามขึ้นฟาดอย่างแรง",
+          "LocalizedString": "สกิลเฉพาะตัวของ Prixter\r\nเข้าประชิดศัตรูด้วยความเร็วสูง\r\nแล้วเหวี่ยงก้ามขึ้นฟาดอย่างแรง"
+        }
+      },
+      "ACTION_SKILL_Unique_SifuDog_Counter": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_SifuDog_Counter_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ Dogen\r\nตั้งท่าแบบไอคิโด ระหว่างตั้งท่า ศัตรูจะโจมตีไม่ได้ผล\r\nและเข้าประชิดตัวศัตรูในพริบตา ก่อนปล่อยฝ่ามืออัดกระแทกสุดกำลัง",
+          "LocalizedString": "สกิลเฉพาะตัวของ Dogen\r\nตั้งท่าแบบไอคิโด ระหว่างตั้งท่า ศัตรูจะโจมตีไม่ได้ผล\r\nและเข้าประชิดตัวศัตรูในพริบตา ก่อนปล่อยฝ่ามืออัดกระแทกสุดกำลัง"
+        }
+      },
+      "ACTION_SKILL_Unique_ElecPanda_GatlingAttack": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_ElecPanda_GatlingAttack_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ Grizzbolt\r\nยิงมินิกันที่หยิบออกมาจากไหนไม่รู้\r\nหลังชาร์จเล็กน้อย จะยิงกระสุนด้วยพลังรุนแรง 1 นัดเป็นการตบท้าย",
+          "LocalizedString": "สกิลเฉพาะตัวของ Grizzbolt\r\nยิงมินิกันที่หยิบออกมาจากไหนไม่รู้\r\nหลังชาร์จเล็กน้อย จะยิงกระสุนด้วยพลังรุนแรง 1 นัดเป็นการตบท้าย"
+        }
+      },
+      "ACTION_SKILL_Unique_LilyQueen_LilyHealing": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_LilyQueen_LilyHealing_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ Lyleen\r\nฟื้นฟู HP ให้กับเพื่อนร่วมทีมทั้งหมดในพื้นที่ด้วยพลังแห่งการเยียวยา",
+          "LocalizedString": "สกิลเฉพาะตัวของ Lyleen\r\nฟื้นฟู HP ให้กับเพื่อนร่วมทีมทั้งหมดในพื้นที่ด้วยพลังแห่งการเยียวยา"
+        }
+      },
+      "ACTION_SKILL_Unique_ThunderDragonMan_NumerousSwordAttack": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_ThunderDragonMan_NumerousSwordAttack_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ Orserk\r\nเรียกหอกสายฟ้าจำนวนมาก ขว้างใส่ศัตรู\r\nหอกเล่มแรกจะสะสมพลังไฟฟ้า และระเบิดออกในอีกไม่กี่วินาทีให้หลัง",
+          "LocalizedString": "สกิลเฉพาะตัวของ Orserk\r\nเรียกหอกสายฟ้าจำนวนมาก ขว้างใส่ศัตรู\r\nหอกเล่มแรกจะสะสมพลังไฟฟ้า และระเบิดออกในอีกไม่กี่วินาทีให้หลัง"
+        }
+      },
+      "ACTION_SKILL_Unique_Horus_PerfectStorm": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Horus_PerfectStorm_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|Horus|/>\r\nหลังสร้างพายุหมุนร้อนระอุจำนวนมาก จะบินโฉบโจมตีศัตรู\r\nพายุหมุนจะมารวมกันตรงกลาง และสุดท้ายจะกลายเป็นพายุหมุนขนาดใหญ่ลูกเดียว",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|Horus|/>\r\nหลังสร้างพายุหมุนร้อนระอุจำนวนมาก จะบินโฉบโจมตีศัตรู\r\nพายุหมุนจะมารวมกันตรงกลาง และสุดท้ายจะกลายเป็นพายุหมุนขนาดใหญ่ลูกเดียว"
+        }
+      },
+      "ACTION_SKILL_Unique_BlackGriffon_TackleLaser2": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_BlackGriffon_TackleLaser2_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ Shadowbeak\r\nพุ่งชนพลางปล่อยลำแสงสีน้ำเงินจำนวนมากจากวงแหวนแสงบนตัว\r\nลำแสงจะตรวจจับและติดตามศัตรูโดยอัตโนมัติ",
+          "LocalizedString": "สกิลเฉพาะตัวของ Shadowbeak\r\nพุ่งชนพลางปล่อยลำแสงสีน้ำเงินจำนวนมากจากวงแหวนแสงบนตัว\r\nลำแสงจะตรวจจับและติดตามศัตรูโดยอัตโนมัติ"
+        }
+      },
+      "ACTION_SKILL_Unique_MoonQueen_IceMoonBlade": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_MoonQueen_IceMoonBlade_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ Selyne\r\nซัดใบมีดความเร็วสูงที่แฝงพลังแสงจันทร์ออกไป 3 ครั้งต่อเนื่อง",
+          "LocalizedString": "สกิลเฉพาะตัวของ Selyne\r\nซัดใบมีดความเร็วสูงที่แฝงพลังแสงจันทร์ออกไป 3 ครั้งต่อเนื่อง"
+        }
+      },
+      "ACTION_SKILL_Unique_LilyQueen_WindBarrier": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_LilyQueen_WindBarrier_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "ACTION_SKILL_Unique_DarkMechaDragon_WarpComet": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_DarkMechaDragon_WarpComet_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|DarkMechaDragon|/>\r\nบินขึ้นฟ้าด้วยความเร็วแสง ปล่อยกระสุนดาวตกมหาศาล\r\nหลังจากนั้นเปลี่ยนตัวเองเป็นดาวหางพุ่งชนศัตรู\r\nและจุดระเบิดครั้งใหญ่ ณ จุดที่ชน",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|DarkMechaDragon|/>\r\nบินขึ้นฟ้าด้วยความเร็วแสง ปล่อยกระสุนดาวตกมหาศาล\r\nหลังจากนั้นเปลี่ยนตัวเองเป็นดาวหางพุ่งชนศัตรู\r\nและจุดระเบิดครั้งใหญ่ ณ จุดที่ชน"
+        }
+      },
+      "ACTION_SKILL_Unique_DarkMechaDragon_BeamSlash": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_DarkMechaDragon_BeamSlash_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|DarkMechaDragon|/>\r\nสร้างดาบทรงอานุภาพด้วยมือขวา\r\nแล้วฟัน 2 ครั้งขณะเคลื่อนที่",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|DarkMechaDragon|/>\r\nสร้างดาบทรงอานุภาพด้วยมือขวา\r\nแล้วฟัน 2 ครั้งขณะเคลื่อนที่"
+        }
+      },
+      "ACTION_SKILL_Unique_DarkMechaDragon_SetFunnel": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_DarkMechaDragon_SetFunnel_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|DarkMechaDragon|/>\r\nสร้างปีกทรงดาวเทียม 4 ปีกที่มีฟังก์ชันโจมตีอัตโนมัติ\r\nในตอนที่โจมตีครั้งถัดไป ปีกเหล่านี้จะ\r\nไล่ตามและโจมตีศัตรูโดยอัตโนมัติ",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|DarkMechaDragon|/>\r\nสร้างปีกทรงดาวเทียม 4 ปีกที่มีฟังก์ชันโจมตีอัตโนมัติ\r\nในตอนที่โจมตีครั้งถัดไป ปีกเหล่านี้จะ\r\nไล่ตามและโจมตีศัตรูโดยอัตโนมัติ"
+        }
+      },
+      "ACTION_SKILL_Unique_DarkMechaDragon_ConvergentBeam": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_DarkMechaDragon_ConvergentBeam_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|DarkMechaDragon|/>\r\nดูดซับพลังงานที่เต็มไปด้วยความมืด\r\nแล้วปล่อยออกไปเป็นเส้นตรงในคราวเดียว",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|DarkMechaDragon|/>\r\nดูดซับพลังงานที่เต็มไปด้วยความมืด\r\nแล้วปล่อยออกไปเป็นเส้นตรงในคราวเดียว"
+        }
+      },
+      "ACTION_SKILL_Unique_DarkMechaDragon_FunnelLaser": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_DarkMechaDragon_FunnelLaser_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|DarkMechaDragon|/>\r\nเรียกลำแสงทำลายล้างออกมาจากมิติย่อย\r\nยิงโจมตีทุกทิศทาง\r\nเผาไหม้ทุกสิ่งที่ตาเห็นให้มอดไหม้",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|DarkMechaDragon|/>\r\nเรียกลำแสงทำลายล้างออกมาจากมิติย่อย\r\nยิงโจมตีทุกทิศทาง\r\nเผาไหม้ทุกสิ่งที่ตาเห็นให้มอดไหม้"
+        }
+      },
+      "ACTION_SKILL_Unique_SnowTigerBeastman_TrampleSlash": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_SnowTigerBeastman_TrampleSlash_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|SnowTigerBeastman|/>\r\nกระทืบพื้น\r\nสร้างรอยแยกน้ำแข็งขึ้นตรงหน้า\r\nแล้วเข้าประชิดศัตรูในอึดใจ ก่อนใช้มือขวาข่วนศัตรู",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|SnowTigerBeastman|/>\r\nกระทืบพื้น\r\nสร้างรอยแยกน้ำแข็งขึ้นตรงหน้า\r\nแล้วเข้าประชิดศัตรูในอึดใจ ก่อนใช้มือขวาข่วนศัตรู"
+        }
+      },
+      "ACTION_SKILL_Unique_SnowTigerBeastman_SnowImpact": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_SnowTigerBeastman_SnowImpact_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|SnowTigerBeastman|/>\r\nกระโดดร้องคำรามเสียงดัง\r\nฝังสองมือลงกับพื้น สร้างธารน้ำแข็งแตกระแหงขนาดใหญ่\r\nส่งพลังไปยังพื้นต่อเนื่อง\r\nก่อนจะทำให้เกิดระเบิดธาตุน้ำแข็งขนาดใหญ่ตบท้าย",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|SnowTigerBeastman|/>\r\nกระโดดร้องคำรามเสียงดัง\r\nฝังสองมือลงกับพื้น สร้างธารน้ำแข็งแตกระแหงขนาดใหญ่\r\nส่งพลังไปยังพื้นต่อเนื่อง\r\nก่อนจะทำให้เกิดระเบิดธาตุน้ำแข็งขนาดใหญ่ตบท้าย"
+        }
+      },
+      "ACTION_SKILL_Unique_PurpleSpider_SpiderRaid": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_PurpleSpider_SpiderRaid_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|PurpleSpider|/>\r\nพ่นลูกบอลใยแมงมุมออกไปมัดตัวเหยื่อ\r\nหลังจากนั้นพุ่งเข้าหาเหยื่อด้วยความเร็วสูงสุด\r\nข่วน 3 ครั้งแล้วลงมือปิดฉาก",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|PurpleSpider|/>\r\nพ่นลูกบอลใยแมงมุมออกไปมัดตัวเหยื่อ\r\nหลังจากนั้นพุ่งเข้าหาเหยื่อด้วยความเร็วสูงสุด\r\nข่วน 3 ครั้งแล้วลงมือปิดฉาก"
+        }
+      },
+      "ACTION_SKILL_Unique_MysteryMask_LifeSteal": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_MysteryMask_LifeSteal_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|MysteryMask|/>\r\nโผล่เข้าประชิดศัตรูในพริบตา แล้วใช้แขนทั้งสองรัดศัตรูจนแน่น\r\nดูด HP ของศัตรูที่โดนรัด",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|MysteryMask|/>\r\nโผล่เข้าประชิดศัตรูในพริบตา แล้วใช้แขนทั้งสองรัดศัตรูจนแน่น\r\nดูด HP ของศัตรูที่โดนรัด"
+        }
+      },
+      "ACTION_SKILL_Unique_GrimGirl_BrutalMachete": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_GrimGirl_BrutalMachete_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|GrimGirl|/>\r\nเคลื่อนที่พริบตาไปฟันศัตรู\r\nและเคลื่อที่พริบตาไปอยู่เหนือศีรษะศัตรู\r\nยื่นอาวุธออกไปแล้วยิงคลื่นพลังความมืด",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|GrimGirl|/>\r\nเคลื่อนที่พริบตาไปฟันศัตรู\r\nและเคลื่อที่พริบตาไปอยู่เหนือศีรษะศัตรู\r\nยื่นอาวุธออกไปแล้วยิงคลื่นพลังความมืด"
+        }
+      },
+      "ACTION_SKILL_Unique_WhiteShieldDragon_ShieldTackle": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_WhiteShieldDragon_ShieldTackle_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|WhiteShieldDragon|/>\r\nสร้างโล่ลดทอนพลังโจมตีทุกประเภทขึ้นตรงหน้า\r\nแล้วพุ่งตรงไปพลางบดขยี้ศัตรู",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|WhiteShieldDragon|/>\r\nสร้างโล่ลดทอนพลังโจมตีทุกประเภทขึ้นตรงหน้า\r\nแล้วพุ่งตรงไปพลางบดขยี้ศัตรู"
+        }
+      },
+      "ACTION_SKILL_Unique_NightBlueHorse_DeathStep": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_NightBlueHorse_DeathStep_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|NightBlueHorse|/>\r\nก้าวเท้าพลิ้วไหวหลอกล่อศัตรู \r\nพร้อมปล่อยคลื่นคมตัดจากเขาอันแหลมคมเข้าโจมตี",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|NightBlueHorse|/>\r\nก้าวเท้าพลิ้วไหวหลอกล่อศัตรู \r\nพร้อมปล่อยคลื่นคมตัดจากเขาอันแหลมคมเข้าโจมตี"
+        }
+      },
+      "ACTION_SKILL_Unique_BlueThunderHorse_FlashDash": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_BlueThunderHorse_FlashDash_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|BlueThunderHorse|/>\r\nเคลื่อนที่ไวปานสายฟ้า\r\nดึงดูดทุกสิ่งบนเส้นทางเข้าด้วยกัน",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|BlueThunderHorse|/>\r\nเคลื่อนที่ไวปานสายฟ้า\r\nดึงดูดทุกสิ่งบนเส้นทางเข้าด้วยกัน"
+        }
+      },
+      "ACTION_SKILL_Unique_WhiteDeer_HolyPillar": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_WhiteDeer_HolyPillar_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|WhiteDeer|/>\r\nสร้างระเบิดแสงศักดิ์สิทธิ์ขึ้นตรงหน้าเป็นวงกว้าง\r\nแล้วเดินเปล่งแสงศักดิ์สิทธิ์จากรอบกาย",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|WhiteDeer|/>\r\nสร้างระเบิดแสงศักดิ์สิทธิ์ขึ้นตรงหน้าเป็นวงกว้าง\r\nแล้วเดินเปล่งแสงศักดิ์สิทธิ์จากรอบกาย"
+        }
+      },
+      "ACTION_SKILL_Unique_GoldenHorse_StoneDash": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_GoldenHorse_StoneDash_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|GoldenHorse|/>\r\nขว้างหินอย่างแรงไปทางซ้ายและขวา พลางพุ่งเข้าหาศัตรู",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|GoldenHorse|/>\r\nขว้างหินอย่างแรงไปทางซ้ายและขวา พลางพุ่งเข้าหาศัตรู"
+        }
+      },
+      "ACTION_SKILL_Unique_TentacleTurtle_HydroSpin": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_TentacleTurtle_HydroSpin_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|TentacleTurtle|/>\r\nใช้แรงไถลจากไอพ่นเจ็ต\r\nบินควงสว่านไปหาศัตรู",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|TentacleTurtle|/>\r\nใช้แรงไถลจากไอพ่นเจ็ต\r\nบินควงสว่านไปหาศัตรู"
+        }
+      },
+      "ACTION_SKILL_Unique_PoseidonOrca_TorrentLaser": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_PoseidonOrca_TorrentLaser_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|PoseidonOrca|/>\r\nรวบรวมน้ำไว้ที่ปากขณะลอยตัวขึ้นเล็กน้อย\r\nหลังจากนั้นพ่นกระแสน้ำแรงดันสูงกวาดทั้งแนวตั้งและแนวนอนสามครั้ง\r\nจุดที่ถูกกระแสน้ำกวาดจะมีน้ำผุดออกมาจากรอยแยก",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|PoseidonOrca|/>\r\nรวบรวมน้ำไว้ที่ปากขณะลอยตัวขึ้นเล็กน้อย\r\nหลังจากนั้นพ่นกระแสน้ำแรงดันสูงกวาดทั้งแนวตั้งและแนวนอนสามครั้ง\r\nจุดที่ถูกกระแสน้ำกวาดจะมีน้ำผุดออกมาจากรอยแยก"
+        }
+      },
+      "ACTION_SKILL_Unique_IceNarwhal_JumpingHorn": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_IceNarwhal_JumpingHorn_TextData",
+          "SourceString": "สกิลเฉพาะสายพันธ์ของ <characterName id=|IceNarwhal|/>\r\nพุ่งไปข้างหน้า แล้วดำลงไปครู่หนึ่ง\r\nก่อนจะกระโดดสูงเสียดฟ้าขึ้นมาโจมตี\r\nตอนที่กระโดดขึ้นมาจะสร้างระเบิดธาตุน้ำแข็ง",
+          "LocalizedString": "สกิลเฉพาะสายพันธ์ของ <characterName id=|IceNarwhal|/>\r\nพุ่งไปข้างหน้า แล้วดำลงไปครู่หนึ่ง\r\nก่อนจะกระโดดสูงเสียดฟ้าขึ้นมาโจมตี\r\nตอนที่กระโดดขึ้นมาจะสร้างระเบิดธาตุน้ำแข็ง"
+        }
+      },
+      "ACTION_SKILL_Unique_GhostAnglerfish_SweepBait": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_GhostAnglerfish_SweepBait_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|GhostAnglerfish|/>\r\nแกว่งโคมแขวนตรงส่วนหัวไปข้างหน้าอย่างแรง",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|GhostAnglerfish|/>\r\nแกว่งโคมแขวนตรงส่วนหัวไปข้างหน้าอย่างแรง"
+        }
+      },
+      "ACTION_SKILL_Unique_GhostAnglerfish_Fire_SweepBait_Fire": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_GhostAnglerfish_Fire_SweepBait_Fire_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|GhostAnglerfish_Fire|/>\r\nแกว่างโคมแขวนที่มีเปลวไฟปกคุลมตรงส่วนหัวไปข้างหน้าอย่างแรง",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|GhostAnglerfish_Fire|/>\r\nแกว่างโคมแขวนที่มีเปลวไฟปกคุลมตรงส่วนหัวไปข้างหน้าอย่างแรง"
+        }
+      },
+      "ACTION_SKILL_Unique_OctopursGirl_Inkjet": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_OctopursGirl_Inkjet_TextData",
+          "SourceString": "สกิลเฉพาะตัวของสายพันธุ์ <characterName id=|OctopusGirl|/>\r\nสร้างควันที่ด้านหน้า เพื่อซ่อนตัว\r\nก่อนจะโจมตีอย่างแรงเข้าที่หัวศัตรูโดยที่อีกฝ่ายมองไม่เห็น",
+          "LocalizedString": "สกิลเฉพาะตัวของสายพันธุ์ <characterName id=|OctopusGirl|/>\r\nสร้างควันที่ด้านหน้า เพื่อซ่อนตัว\r\nก่อนจะโจมตีอย่างแรงเข้าที่หัวศัตรูโดยที่อีกฝ่ายมองไม่เห็น"
+        }
+      },
+      "ACTION_SKILL_Unique_StuffedShark_HiddenWeapon": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_StuffedShark_HiddenWeapon_TextData",
+          "SourceString": "สกิลเฉพาะสายพันธ์ของ <characterName id=|StuffedShark|/>\r\nหยิบปืนฉีดน้ำสองกระบอกออกมาจากในปาก\r\nยิงกระสุนน้ำสลับซ้ายขวารวม 6 นัด\r\nปิดท้ายด้วยรวมปืนสองกระบอกเข้าด้วยกัน และยิงกระสุนด้วยความรุนแรง 1 นัด",
+          "LocalizedString": "สกิลเฉพาะสายพันธ์ของ <characterName id=|StuffedShark|/>\r\nหยิบปืนฉีดน้ำสองกระบอกออกมาจากในปาก\r\nยิงกระสุนน้ำสลับซ้ายขวารวม 6 นัด\r\nปิดท้ายด้วยรวมปืนสองกระบอกเข้าด้วยกัน และยิงกระสุนด้วยความรุนแรง 1 นัด"
+        }
+      },
+      "ACTION_SKILL_Unique_IceCrocodile_SpitAttack": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_IceCrocodile_SpitAttack_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|IceCrocodile|/>\r\nโจมตีด้วยการพ่นระเบิดแช่เย็นที่ไม่โดนย่อย\r\nออกมาจากภายในตัวต่อเนื่อง 3 ลูก\r\nบางครั้งก็พ่นของอันตรายๆออกมาด้วย...",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|IceCrocodile|/>\r\nโจมตีด้วยการพ่นระเบิดแช่เย็นที่ไม่โดนย่อย\r\nออกมาจากภายในตัวต่อเนื่อง 3 ลูก\r\nบางครั้งก็พ่นของอันตรายๆออกมาด้วย..."
+        }
+      },
+      "ACTION_SKILL_Unique_LeafMomonga_SomerSault": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_LeafMomonga_SomerSault_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|LeafMomonga|/>\r\nหลังตั้งท่าเตรียมพร้อมครู่หนึ่ง\r\nจะพุ่งชนศัตรูด้วยความเร็วสูง แล้วตีลังกากลางอากาศ",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|LeafMomonga|/>\r\nหลังตั้งท่าเตรียมพร้อมครู่หนึ่ง\r\nจะพุ่งชนศัตรูด้วยความเร็วสูง แล้วตีลังกากลางอากาศ"
+        }
+      },
+      "ACTION_SKILL_Unique_Plesiosaur_LongBreath": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Plesiosaur_LongBreath_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|Plesiosaur|/>\r\nลมหายใจธาตุพืชค่อย ๆ แพร่กระจายไปทั่ว\r\nตั้งแต่ต้นคอไปจนถึงปลายคอยาว ๆ ของมัน",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|Plesiosaur|/>\r\nลมหายใจธาตุพืชค่อย ๆ แพร่กระจายไปทั่ว\r\nตั้งแต่ต้นคอไปจนถึงปลายคอยาว ๆ ของมัน"
+        }
+      },
+      "ACTION_SKILL_Unique_TropicalOstrich_DashKick": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_TropicalOstrich_DashKick_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|TropicalOstrich|/>\r\nแดชสร้างแรงส่ง\r\nแล้วกระโดดเตะวาดลวดลายใส่ศัตรูอย่างแรง",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|TropicalOstrich|/>\r\nแดชสร้างแรงส่ง\r\nแล้วกระโดดเตะวาดลวดลายใส่ศัตรูอย่างแรง"
+        }
+      },
+      "ACTION_SKILL_Unique_CaptainPenguin_Black_BodySlide_Electric": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_CaptainPenguin_Black_BodySlide_Electric_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|CaptainPenguin_Black|/>\r\nใช้ท้องกระแทกพื้น สร้างไฟฟ้าจากร่าง\r\nไถลตัวกระแทกศัตรู",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|CaptainPenguin_Black|/>\r\nใช้ท้องกระแทกพื้น สร้างไฟฟ้าจากร่าง\r\nไถลตัวกระแทกศัตรู"
+        }
+      },
+      "ACTION_SKILL_Unique_Yakushima_EyeTossin": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Yakushima_EyeTossin_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|YakushimaBoss001|/>\r\nพุ่งชนใส่ศัตรูซ้ำหลายครั้ง",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|YakushimaBoss001|/>\r\nพุ่งชนใส่ศัตรูซ้ำหลายครั้ง"
+        }
+      },
+      "ACTION_SKILL_Unique_Yakushima_MouthTossin": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Yakushima_MouthTossin_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|YakushimaBoss001|/>\r\nพุ่งชนใส่ศัตรูด้วยความเร็วสูงซ้ำหลายครั้ง",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|YakushimaBoss001|/>\r\nพุ่งชนใส่ศัตรูด้วยความเร็วสูงซ้ำหลายครั้ง"
+        }
+      },
+      "ACTION_SKILL_Unique_Yakushima_SummonServant": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Yakushima_SummonServant_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|YakushimaBoss001|/>\r\nอัญเชิญบริวารออกมา 4 ตน บริวารจะพุ่งเข้าหาศัตรูและสร้างความเสียหายเมื่อปะทะ หากถูกโจมตีหรือเวลาผ่านไประยะหนึ่ง บริวารจะสลายหายไป",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|YakushimaBoss001|/>\r\nอัญเชิญบริวารออกมา 4 ตน บริวารจะพุ่งเข้าหาศัตรูและสร้างความเสียหายเมื่อปะทะ หากถูกโจมตีหรือเวลาผ่านไประยะหนึ่ง บริวารจะสลายหายไป"
+        }
+      },
+      "ACTION_SKILL_Unique_YakushimaMonster001_SlimePress_Normal": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_YakushimaMonster001_SlimePress_Normal_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|YakushimaMonster001_Pink|/>\r\nกระโดดโจมตีใส่ศัตรูโดยตรง",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|YakushimaMonster001_Pink|/>\r\nกระโดดโจมตีใส่ศัตรูโดยตรง"
+        }
+      },
+      "ACTION_SKILL_Unique_YakushimaMonster001_SlimePress_Leaf": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_YakushimaMonster001_SlimePress_Leaf_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|YakushimaMonster001|/>\r\nกระโดดโจมตีใส่ศัตรูโดยตรง",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|YakushimaMonster001|/>\r\nกระโดดโจมตีใส่ศัตรูโดยตรง"
+        }
+      },
+      "ACTION_SKILL_Unique_YakushimaMonster001_SlimePress_Water": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_YakushimaMonster001_SlimePress_Water_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|YakushimaMonster001_Blue|/>\r\nกระโดดโจมตีใส่ศัตรูโดยตรง",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|YakushimaMonster001_Blue|/>\r\nกระโดดโจมตีใส่ศัตรูโดยตรง"
+        }
+      },
+      "ACTION_SKILL_Unique_YakushimaMonster001_SlimePress_Fire": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_YakushimaMonster001_SlimePress_Fire_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|YakushimaMonster001_Red|/>\r\nกระโดดโจมตีใส่ศัตรูโดยตรง",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|YakushimaMonster001_Red|/>\r\nกระโดดโจมตีใส่ศัตรูโดยตรง"
+        }
+      },
+      "ACTION_SKILL_Unique_YakushimaMonster001_SlimePress_Dark": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_YakushimaMonster001_SlimePress_Dark_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|YakushimaMonster001_Purple|/>\r\nกระโดดโจมตีใส่ศัตรูโดยตรง",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|YakushimaMonster001_Purple|/>\r\nกระโดดโจมตีใส่ศัตรูโดยตรง"
+        }
+      },
+      "ACTION_SKILL_Unique_YakushimaMonster001_SlimePress_Rainbow": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_YakushimaMonster001_SlimePress_Rainbow_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|YakushimaMonster001_Rainbow|/>\r\nกระโดดโจมตีใส่ศัตรูโดยตรง",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|YakushimaMonster001_Rainbow|/>\r\nกระโดดโจมตีใส่ศัตรูโดยตรง"
+        }
+      },
+      "ACTION_SKILL_Unique_YakushimaBoss001_Small_DemonEyeCharge": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_YakushimaBoss001_Small_DemonEyeCharge_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|YakushimaBoss001_Small|/>\r\nพุ่งเข้าจู่โจมศัตรู หากกระแทกกับพื้นหรือกำแพงจะกระเด้ง",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|YakushimaBoss001_Small|/>\r\nพุ่งเข้าจู่โจมศัตรู หากกระแทกกับพื้นหรือกำแพงจะกระเด้ง"
+        }
+      },
+      "ACTION_SKILL_Unique_YakushimaMonster002_SwordCharge": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_YakushimaMonster002_SwordCharge_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|YakushimaMonster002|/>\r\nพุ่งแทงโจมตีใส่ศัตรูโดยตรง",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|YakushimaMonster002|/>\r\nพุ่งแทงโจมตีใส่ศัตรูโดยตรง"
+        }
+      },
+      "ACTION_SKILL_Unique_YakushimaMonster003_BatCharge": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_YakushimaMonster003_BatCharge_TextData",
+          "SourceString": "สกิลเฉพาะตัวขอ ง<characterName id=|YakushimaMonster003|/>\r\nใช้ร่างกายทั้งหมดพุ่งเข้าจู่โจมศัตรู หากกระแทกกับพื้นหรือกำแพงจะกระเด้ง…",
+          "LocalizedString": "สกิลเฉพาะตัวขอ ง<characterName id=|YakushimaMonster003|/>\r\nใช้ร่างกายทั้งหมดพุ่งเข้าจู่โจมศัตรู หากกระแทกกับพื้นหรือกำแพงจะกระเด้ง…"
+        }
+      },
+      "ACTION_SKILL_Unique_LegendDeer_WarpPillarBurst": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_LegendDeer_WarpPillarBurst_TextData",
+          "SourceString": "<characterName id=|LegendDeer|/>สกิลเฉพาะตัวของ \r\nหลังจากที่หายตัวเพียงชั่วพริบตาเเล้ว ลำแสงจำนวนมากโปรยลงมาครอบคลุมพื้นที่กว้างโดยมีตัวผู้ใช้เป็นศูนย์กลาง",
+          "LocalizedString": "<characterName id=|LegendDeer|/>สกิลเฉพาะตัวของ \r\nหลังจากที่หายตัวเพียงชั่วพริบตาเเล้ว ลำแสงจำนวนมากโปรยลงมาครอบคลุมพื้นที่กว้างโดยมีตัวผู้ใช้เป็นศูนย์กลาง"
+        }
+      },
+      "ACTION_SKILL_Unique_LegendDeer_RadiantWingRush": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_LegendDeer_RadiantWingRush_TextData",
+          "SourceString": "<characterName id=|LegendDeer|/>สกิลเฉพาะตัวของ\r\nกระโดดย้อนหลัง สร้างปีกแห่งแสงขึ้นบนหลัง\r\nแล้วพุ่งเข้าใส่ศัตรูจากกลางอากาศ",
+          "LocalizedString": "<characterName id=|LegendDeer|/>สกิลเฉพาะตัวของ\r\nกระโดดย้อนหลัง สร้างปีกแห่งแสงขึ้นบนหลัง\r\nแล้วพุ่งเข้าใส่ศัตรูจากกลางอากาศ"
+        }
+      },
+      "ACTION_SKILL_Unique_LegendDeer_RadiantPurge_Otomo": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_LegendDeer_RadiantPurge_Otomo_TextData",
+          "SourceString": "<characterName id=|LegendDeer|/>สกิลเฉพาะตัวของ\r\nกระโจนขึ้นสู่ท้องฟ้า รวมพลังอันมหาศาลปล่อยใส่พื้นดิน\r\nลูกบอลเเสงที่ร่อนลงมาชำระล้างพื้นให้บริสุทธิ์",
+          "LocalizedString": "<characterName id=|LegendDeer|/>สกิลเฉพาะตัวของ\r\nกระโจนขึ้นสู่ท้องฟ้า รวมพลังอันมหาศาลปล่อยใส่พื้นดิน\r\nลูกบอลเเสงที่ร่อนลงมาชำระล้างพื้นให้บริสุทธิ์"
+        }
+      },
+      "ACTION_SKILL_Unique_KingWhale_WaveTackle": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_KingWhale_WaveTackle_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ<characterName id=|KingWhale|/>พุ่งชน\r\nทำให้เกิดคลื่น",
+          "LocalizedString": "สกิลเฉพาะตัวของ<characterName id=|KingWhale|/>พุ่งชน\r\nทำให้เกิดคลื่น"
+        }
+      },
+      "ACTION_SKILL_Unique_KingWhale_Breaching": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_KingWhale_Breaching_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ<characterName id=|KingWhale|/> ดำลงใต้น้ำ และหลังจากผ่านไปครู่หนึ่งจะพุ่งขึ้นมาอย่างรุนแรง พร้อมสร้างระลอกคลื่นแผ่กระจายออกไปรอบด้าน",
+          "LocalizedString": "สกิลเฉพาะตัวของ<characterName id=|KingWhale|/> ดำลงใต้น้ำ และหลังจากผ่านไปครู่หนึ่งจะพุ่งขึ้นมาอย่างรุนแรง พร้อมสร้างระลอกคลื่นแผ่กระจายออกไปรอบด้าน"
+        }
+      },
+      "ACTION_SKILL_Unique_KingWhale_HomingBubble": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_KingWhale_HomingBubble_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ<characterName id=|KingWhale|/>\r\nปล่อยฟองสบู่ติดตามเป้าหมายออกมาเป็นปริมาณมาก\r\nฟองจะติดอยู่ตรงนั้่นหลังจากกระทบเป้าหมายแล้ว\r\nฟองสบู่จะแตกออกและสร้างความเสียหายเมื่อถูกสัมผัสหรือเมื่อเวลาผ่านไปไม่กี่วินาที",
+          "LocalizedString": "สกิลเฉพาะตัวของ<characterName id=|KingWhale|/>\r\nปล่อยฟองสบู่ติดตามเป้าหมายออกมาเป็นปริมาณมาก\r\nฟองจะติดอยู่ตรงนั้่นหลังจากกระทบเป้าหมายแล้ว\r\nฟองสบู่จะแตกออกและสร้างความเสียหายเมื่อถูกสัมผัสหรือเมื่อเวลาผ่านไปไม่กี่วินาที"
+        }
+      },
+      "ACTION_SKILL_CreepingBubble": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_CreepingBubble_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ<characterName id=|KingWhale|/>สร้างฟองออกมารอบๆศัตรู\r\nในปริมาณมหาศาล ล้อมรอบเเละโจมตี",
+          "LocalizedString": "สกิลเฉพาะตัวของ<characterName id=|KingWhale|/>สร้างฟองออกมารอบๆศัตรู\r\nในปริมาณมหาศาล ล้อมรอบเเละโจมตี"
+        }
+      },
+      "ACTION_SKILL_Unique_KingWhale_AquaBlade": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_KingWhale_AquaBlade_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ<characterName id=|KingWhale|/>\r\nโจมตีด้วยดาบน้ำเเหลมคม",
+          "LocalizedString": "สกิลเฉพาะตัวของ<characterName id=|KingWhale|/>\r\nโจมตีด้วยดาบน้ำเเหลมคม"
+        }
+      },
+      "ACTION_SKILL_Unique_KingWhale_Maelstrom": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_KingWhale_Maelstrom_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ<characterName id=|KingWhale|/>\r\nสร้างน้ำวนรอบศัตรู\r\nศัตรูจะถูกลากไปในน้ำวนพร้อมกับถูกบีบอัด\r\nท้ายสุดจะระเบิดเเละกายเป็นเสาน้ำ",
+          "LocalizedString": "สกิลเฉพาะตัวของ<characterName id=|KingWhale|/>\r\nสร้างน้ำวนรอบศัตรู\r\nศัตรูจะถูกลากไปในน้ำวนพร้อมกับถูกบีบอัด\r\nท้ายสุดจะระเบิดเเละกายเป็นเสาน้ำ"
+        }
+      },
+      "ACTION_SKILL_Unique_KingWhale_AquaTornado": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_KingWhale_AquaTornado_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ<characterName id=|KingWhale|/>\r\nสร้างพายุทอร์นาโดขนาดมหึมาหลายลูก \r\nพายุทอร์นาโดจะค่อย ๆ ติดตามศัตรู",
+          "LocalizedString": "สกิลเฉพาะตัวของ<characterName id=|KingWhale|/>\r\nสร้างพายุทอร์นาโดขนาดมหึมาหลายลูก \r\nพายุทอร์นาโดจะค่อย ๆ ติดตามศัตรู"
+        }
+      },
+      "ACTION_SKILL_Unique_BlueSkyDragon_Tossin": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_BlueSkyDragon_Tossin_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ<characterName id=|BlueSkyDragon|/>\r\nรวบรวมน้ำไว้รอบตัวแล้วพุ่งชนไปข้างหน้า",
+          "LocalizedString": "สกิลเฉพาะตัวของ<characterName id=|BlueSkyDragon|/>\r\nรวบรวมน้ำไว้รอบตัวแล้วพุ่งชนไปข้างหน้า"
+        }
+      },
+      "ACTION_SKILL_Unique_BlueSkyDragon_SweepBreath": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_BlueSkyDragon_SweepBreath_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ<characterName id=|BlueSkyDragon|/>คายออกมาเหมือนตวัดกวาดเปลวเพลิงธาตุมังกร\r\nเผาราบเป็นหน้ากลอง\r\n",
+          "LocalizedString": "สกิลเฉพาะตัวของ<characterName id=|BlueSkyDragon|/>คายออกมาเหมือนตวัดกวาดเปลวเพลิงธาตุมังกร\r\nเผาราบเป็นหน้ากลอง\r\n"
+        }
+      },
+      "ACTION_SKILL_Unique_BlueSkyDragon_DrainStorm": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_BlueSkyDragon_DrainStorm_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ<characterName id=|BlueSkyDragon|/>ปลุกเรียกน้ำวนขนาดยักษ์ไปจนถึงสวรรค์\r\nพลังน้ำวนสามารกลืนกินและกวาดล้างศัตรูได้ในคราวเดียว\r\n",
+          "LocalizedString": "สกิลเฉพาะตัวของ<characterName id=|BlueSkyDragon|/>ปลุกเรียกน้ำวนขนาดยักษ์ไปจนถึงสวรรค์\r\nพลังน้ำวนสามารกลืนกินและกวาดล้างศัตรูได้ในคราวเดียว\r\n"
+        }
+      },
+      "ACTION_SKILL_Unique_VolcanoDragon_VolcanicLaser": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_VolcanoDragon_VolcanicLaser_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ<characterName id=|VolcanoDragon|/>\r\nปล่อยลำแสงความร้อนจากปากเผาผลาญพื้นดินจนราบเป็นหน้ากลอง\r\nพื้นดินที่ถูกเผาจะเกิด แอ่งแมกมา\r\nและสร้างความเสียหายแก่ศัตรูที่สัมผัส",
+          "LocalizedString": "สกิลเฉพาะตัวของ<characterName id=|VolcanoDragon|/>\r\nปล่อยลำแสงความร้อนจากปากเผาผลาญพื้นดินจนราบเป็นหน้ากลอง\r\nพื้นดินที่ถูกเผาจะเกิด แอ่งแมกมา\r\nและสร้างความเสียหายแก่ศัตรูที่สัมผัส"
+        }
+      },
+      "ACTION_SKILL_Unique_VolcanoDragon_MagmaSpit": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_VolcanoDragon_MagmaSpit_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ<characterName id=|VolcanoDragon|/>\r\nพ่นก้อนแมกมาจากปากแล้วยิงออกไป\r\nเมื่อกระทบพื้นจะเกิด แอ่งแมกมา\r\nและสร้างดาเมจแก่ศัตรูที่สัมผัส",
+          "LocalizedString": "สกิลเฉพาะตัวของ<characterName id=|VolcanoDragon|/>\r\nพ่นก้อนแมกมาจากปากแล้วยิงออกไป\r\nเมื่อกระทบพื้นจะเกิด แอ่งแมกมา\r\nและสร้างดาเมจแก่ศัตรูที่สัมผัส"
+        }
+      },
+      "ACTION_SKILL_Unique_VolcanoDragon_Ice_IceLaser": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_VolcanoDragon_Ice_IceLaser_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ<characterName id=|VolcanoDragon_Ice|/>\r\nพ่นลำแสงเยือกแข็งจากปาก ทำให้พื้นดินกลายเป็นน้ำแข็ง\r\nบริเวณที่ถูกแช่แข็งจะเกิด แอ่งน้ำแข็ง\r\nศัตรูที่สัมผัสจะถูก แช่แข็งและได้รับดาเมจ",
+          "LocalizedString": "สกิลเฉพาะตัวของ<characterName id=|VolcanoDragon_Ice|/>\r\nพ่นลำแสงเยือกแข็งจากปาก ทำให้พื้นดินกลายเป็นน้ำแข็ง\r\nบริเวณที่ถูกแช่แข็งจะเกิด แอ่งน้ำแข็ง\r\nศัตรูที่สัมผัสจะถูก แช่แข็งและได้รับดาเมจ"
+        }
+      },
+      "ACTION_SKILL_Unique_VolcanoDragon_Ice_IcicleSpit": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_VolcanoDragon_Ice_IcicleSpit_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ<characterName id=|VolcanoDragon_Ice|/>\r\nพ่นก้อนน้ำแข็งจากปากแล้วยิงออกไป\r\nจุดที่กระทบจะเกิด แอ่งน้ำค้างแข็ง\r\nศัตรูที่สัมผัสจะถูก แช่แข็งและได้รับความเสียหาย",
+          "LocalizedString": "สกิลเฉพาะตัวของ<characterName id=|VolcanoDragon_Ice|/>\r\nพ่นก้อนน้ำแข็งจากปากแล้วยิงออกไป\r\nจุดที่กระทบจะเกิด แอ่งน้ำค้างแข็ง\r\nศัตรูที่สัมผัสจะถูก แช่แข็งและได้รับความเสียหาย"
+        }
+      },
+      "ACTION_SKILL_Unique_GrassGolem_RocketPunch": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_GrassGolem_RocketPunch_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ<characterName id=|GrassGolem|/>\r\nแยกแขนซ้ายออกจากร่างหลัก\r\nแล้วกวาดโจมตีศัตรูจากนั้นจะยิงแขนขวา ออกไปโจมตีต่อ",
+          "LocalizedString": "สกิลเฉพาะตัวของ<characterName id=|GrassGolem|/>\r\nแยกแขนซ้ายออกจากร่างหลัก\r\nแล้วกวาดโจมตีศัตรูจากนั้นจะยิงแขนขวา ออกไปโจมตีต่อ"
+        }
+      },
+      "ACTION_SKILL_Unique_GrassGolem_ArmCannon": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_GrassGolem_ArmCannon_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ<characterName id=|GrassGolem|/>\r\nปล่อยกระสุนพลังธาตุพืชจากแขน\r\nเมื่อกระทบจะกลายเป็น รากไม้ที่ไล่ตามศัตรูอย่างต่อเนื่อง และพุ่งแทงขึ้นมาจากใต้เท้า",
+          "LocalizedString": "สกิลเฉพาะตัวของ<characterName id=|GrassGolem|/>\r\nปล่อยกระสุนพลังธาตุพืชจากแขน\r\nเมื่อกระทบจะกลายเป็น รากไม้ที่ไล่ตามศัตรูอย่างต่อเนื่อง และพุ่งแทงขึ้นมาจากใต้เท้า"
+        }
+      },
+      "ACTION_SKILL_Unique_GrassGolem_Dark_DarkArmCannon": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_GrassGolem_Dark_DarkArmCannon_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ<characterName id=|GrassGolem_Dark|/>\r\nปล่อยกระสุนพลังธาตุความมืดจากแขน\r\nเมื่อกระทบจะกลายเป็น รากเงาที่ไล่ตามศัตรูอย่างต่อเนื่อง และพุ่งแทงขึ้นมาจากใต้เท้า",
+          "LocalizedString": "สกิลเฉพาะตัวของ<characterName id=|GrassGolem_Dark|/>\r\nปล่อยกระสุนพลังธาตุความมืดจากแขน\r\nเมื่อกระทบจะกลายเป็น รากเงาที่ไล่ตามศัตรูอย่างต่อเนื่อง และพุ่งแทงขึ้นมาจากใต้เท้า"
+        }
+      },
+      "ACTION_SKILL_Unique_Sekhmet_SomersaultScratch": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Sekhmet_SomersaultScratch_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ<characterName id=|Sekhmet|/>สกิลเฉพาะตัวของโจมตีด้วยการข่วนศัตรู\r\nพร้อมตีลังกาถอยหลังเพื่อเว้นระยะ",
+          "LocalizedString": "สกิลเฉพาะตัวของ<characterName id=|Sekhmet|/>สกิลเฉพาะตัวของโจมตีด้วยการข่วนศัตรู\r\nพร้อมตีลังกาถอยหลังเพื่อเว้นระยะ"
+        }
+      },
+      "ACTION_SKILL_Unique_Sekhmet_RollingScratch": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Sekhmet_RollingScratch_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ<characterName id=|Sekhmet|/>\r\nหมุนตัวพุ่งเข้าหาศัตรูอย่างรวดเร็ว แล้วโจมตีด้วยการข่วน",
+          "LocalizedString": "สกิลเฉพาะตัวของ<characterName id=|Sekhmet|/>\r\nหมุนตัวพุ่งเข้าหาศัตรูอย่างรวดเร็ว แล้วโจมตีด้วยการข่วน"
+        }
+      },
+      "ACTION_SKILL_Unique_MonochromeQueen_BalletJump": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_MonochromeQueen_BalletJump_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ<characterName id=|MonochromeQueen|/>\r\nกระโดดเฉียงหลบ แล้วขว้างขนนกสีดำคมกริบใส่ศัตรู",
+          "LocalizedString": "สกิลเฉพาะตัวของ<characterName id=|MonochromeQueen|/>\r\nกระโดดเฉียงหลบ แล้วขว้างขนนกสีดำคมกริบใส่ศัตรู"
+        }
+      },
+      "ACTION_SKILL_Unique_LanternButler_LanternFlame": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_LanternButler_LanternFlame_TextData",
+          "SourceString": "ทักษะเฉพาะของ <characterName id=|LanternButler|/>ชูโคมไฟขึ้นเพื่อเรียกวิญญาณแห่งพยาบาทออกมาหลายดวง\r\nซึ่งจะคอยไล่ตามศัตรูไปอย่างไม่ลดละ\r\n",
+          "LocalizedString": "ทักษะเฉพาะของ <characterName id=|LanternButler|/>ชูโคมไฟขึ้นเพื่อเรียกวิญญาณแห่งพยาบาทออกมาหลายดวง\r\nซึ่งจะคอยไล่ตามศัตรูไปอย่างไม่ลดละ\r\n"
+        }
+      },
+      "ACTION_SKILL_Unique_RockBeast_RockHorn": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_RockBeast_RockHorn_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ<characterName id=|RockBeast|/>\r\nใช้เขางัดเสยพื้นดินขึ้นมา พร้อมทั้งยิงกระสุนหินใส่ศัตรู",
+          "LocalizedString": "สกิลเฉพาะตัวของ<characterName id=|RockBeast|/>\r\nใช้เขางัดเสยพื้นดินขึ้นมา พร้อมทั้งยิงกระสุนหินใส่ศัตรู"
+        }
+      },
+      "ACTION_SKILL_Unique_RockBeast_Ice_IceHorn": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_RockBeast_Ice_IceHorn_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ<characterName id=|RockBeast_Ice|/>\r\nใช้เขาทั้งสองข้างขุดเซาะพื้นดินแล้วเสยขึ้น\r\nเพื่อส่งก้อนน้ำแข็งพุ่งเข้าใส่ศัตรู",
+          "LocalizedString": "สกิลเฉพาะตัวของ<characterName id=|RockBeast_Ice|/>\r\nใช้เขาทั้งสองข้างขุดเซาะพื้นดินแล้วเสยขึ้น\r\nเพื่อส่งก้อนน้ำแข็งพุ่งเข้าใส่ศัตรู"
+        }
+      },
+      "ACTION_SKILL_Unique_ClownRabbit_TrickShow": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_ClownRabbit_TrickShow_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ<characterName id=|ClownRabbit|/>\r\nสร้างภาพลวง 2 ร่างเพื่อหลอกล่อศัตรู ขณะเดียวกัน\r\nร่างจริงจะปล่อยนกเพลิงออกมาจากหมวกทรงสูงเพื่อโจมตี",
+          "LocalizedString": "สกิลเฉพาะตัวของ<characterName id=|ClownRabbit|/>\r\nสร้างภาพลวง 2 ร่างเพื่อหลอกล่อศัตรู ขณะเดียวกัน\r\nร่างจริงจะปล่อยนกเพลิงออกมาจากหมวกทรงสูงเพื่อโจมตี"
+        }
+      },
+      "ACTION_SKILL_Unique_CubeTurtle_CubePress": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_CubeTurtle_CubePress_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ<characterName id=|CubeTurtle|/>\r\nกระโดดลอยขึ้นกลางอากาศ\r\nก่อนทิ้งตัวลงด้วยน้ำหนักมหาศาล เพื่อบดขยี้ศัตรู",
+          "LocalizedString": "สกิลเฉพาะตัวของ<characterName id=|CubeTurtle|/>\r\nกระโดดลอยขึ้นกลางอากาศ\r\nก่อนทิ้งตัวลงด้วยน้ำหนักมหาศาล เพื่อบดขยี้ศัตรู"
+        }
+      },
+      "ACTION_SKILL_Unique_CubeTurtle_Neutral_HolyPress": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_CubeTurtle_Neutral_HolyPress_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ<characterName id=|CubeTurtle_Neutral|/>\r\nกระโดดลอยขึ้นกลางอากาศแล้วทิ้งตัวลงบดขยี้ศัตรู\r\nจากนั้นพลังแสงจะกระจายออกไป และตามด้วย เสาแสงโจมตีซ้ำ",
+          "LocalizedString": "สกิลเฉพาะตัวของ<characterName id=|CubeTurtle_Neutral|/>\r\nกระโดดลอยขึ้นกลางอากาศแล้วทิ้งตัวลงบดขยี้ศัตรู\r\nจากนั้นพลังแสงจะกระจายออกไป และตามด้วย เสาแสงโจมตีซ้ำ"
+        }
+      },
+      "ACTION_SKILL_Unique_SamuraiDog_DashSlash": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_SamuraiDog_DashSlash_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ<characterName id=|SamuraiDog|/>\r\nพุ่งวิ่งเต็มกำลัง พร้อมฟันศัตรูด้วยไม้ที่คาบไว้ในปาก ทำการโจมตีนี้\r\nติดต่อกัน 2 ครั้ง",
+          "LocalizedString": "สกิลเฉพาะตัวของ<characterName id=|SamuraiDog|/>\r\nพุ่งวิ่งเต็มกำลัง พร้อมฟันศัตรูด้วยไม้ที่คาบไว้ในปาก ทำการโจมตีนี้\r\nติดต่อกัน 2 ครั้ง"
+        }
+      },
+      "ACTION_SKILL_Unique_MummyPal_MummyAttack": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_MummyPal_MummyAttack_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ<characterName id=|MummyPal|/>\r\nยืดผ้าพันแผลออกจากมือ เพื่อโจมตีศัตรูอย่างต่อเนื่อง",
+          "LocalizedString": "สกิลเฉพาะตัวของ<characterName id=|MummyPal|/>\r\nยืดผ้าพันแผลออกจากมือ เพื่อโจมตีศัตรูอย่างต่อเนื่อง"
+        }
+      },
+      "ACTION_SKILL_Unique_SumoDog_SumoStomp": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_SumoDog_SumoStomp_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ<characterName id=|SumoDog|/>\r\nเหวี่ยงขาหลังขวาอย่างแรงแล้วกระแทกลงพื้นปล่อย\r\nคลื่นกระแทกโจมตีเป็นวงกว้างด้านหน้า (รูปพัด)",
+          "LocalizedString": "สกิลเฉพาะตัวของ<characterName id=|SumoDog|/>\r\nเหวี่ยงขาหลังขวาอย่างแรงแล้วกระแทกลงพื้นปล่อย\r\nคลื่นกระแทกโจมตีเป็นวงกว้างด้านหน้า (รูปพัด)"
+        }
+      },
+      "ACTION_SKILL_Unique_LotusDragon_LotusBloom": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_LotusDragon_LotusBloom_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ<characterName id=|LotusDragon|/>\r\nมุดลงใต้ดินเพื่อหายตัวไป จากนั้นโผล่ขึ้นมาเป็น\r\nดอกตูม บนพื้น ก่อนจะ เบ่งบานและโจมตีเป็นวงกว้าง",
+          "LocalizedString": "สกิลเฉพาะตัวของ<characterName id=|LotusDragon|/>\r\nมุดลงใต้ดินเพื่อหายตัวไป จากนั้นโผล่ขึ้นมาเป็น\r\nดอกตูม บนพื้น ก่อนจะ เบ่งบานและโจมตีเป็นวงกว้าง"
+        }
+      },
+      "ACTION_SKILL_Unique_DomeArmorDragon_ExplosiveMissile": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_DomeArmorDragon_ExplosiveMissile_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ<characterName id=|DomeArmorDragon|/>\r\nยิงมิสไซล์ระเบิดจำนวนมหาศาลออกจากปีกเพื่อโจมตีศัตรู",
+          "LocalizedString": "สกิลเฉพาะตัวของ<characterName id=|DomeArmorDragon|/>\r\nยิงมิสไซล์ระเบิดจำนวนมหาศาลออกจากปีกเพื่อโจมตีศัตรู"
+        }
+      },
+      "ACTION_SKILL_Unique_GhostDragon_TailSlash": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_GhostDragon_TailSlash_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|GhostDragon|/>\r\nพุ่งเข้าประชิดศัตรูด้วยความเร็วสูง แล้วใช้หางฟาดเฉือนโจมตี",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|GhostDragon|/>\r\nพุ่งเข้าประชิดศัตรูด้วยความเร็วสูง แล้วใช้หางฟาดเฉือนโจมตี"
+        }
+      },
+      "ACTION_SKILL_Unique_GhostDragon_PhosphorousBeam": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_GhostDragon_PhosphorousBeam_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ<characterName id=|GhostDragon|/>\r\nพ่นลำแสงความร้อนสูงอย่างต่อเนื่องเป็นระยะเวลาหนึ่ง\r\nเมื่อสิ้นสุด จะเกิดการระเบิดครั้งใหญ่ ณ จุดที่ลำแสงพุ่งไป",
+          "LocalizedString": "สกิลเฉพาะตัวของ<characterName id=|GhostDragon|/>\r\nพ่นลำแสงความร้อนสูงอย่างต่อเนื่องเป็นระยะเวลาหนึ่ง\r\nเมื่อสิ้นสุด จะเกิดการระเบิดครั้งใหญ่ ณ จุดที่ลำแสงพุ่งไป"
+        }
+      },
+      "ACTION_SKILL_Unique_GrassMinotaur_BullRush_Lower": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_GrassMinotaur_BullRush_Lower_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ<characterName id=|GrassMinotaur|/>\r\nปลุกเร้าพลังอย่างดุดัน\r\nแล้วพุ่งชนธาตุพืชใส่ศัตรู 2 ครั้งติดต่อกัน",
+          "LocalizedString": "สกิลเฉพาะตัวของ<characterName id=|GrassMinotaur|/>\r\nปลุกเร้าพลังอย่างดุดัน\r\nแล้วพุ่งชนธาตุพืชใส่ศัตรู 2 ครั้งติดต่อกัน"
+        }
+      },
+      "ACTION_SKILL_Unique_GrassMinotaur_BullRush": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_GrassMinotaur_BullRush_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ<characterName id=|GrassMinotaur|/>\r\nปลุกเร้าพลังอย่างรุนแรง\r\nแล้วพุ่งชนธาตุพืชด้วยความโกรธ 4 ครั้งติดต่อกัน",
+          "LocalizedString": "สกิลเฉพาะตัวของ<characterName id=|GrassMinotaur|/>\r\nปลุกเร้าพลังอย่างรุนแรง\r\nแล้วพุ่งชนธาตุพืชด้วยความโกรธ 4 ครั้งติดต่อกัน"
+        }
+      },
+      "ACTION_SKILL_Unique_GrassMinotaur_Ice_BullRush_Lower": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_GrassMinotaur_Ice_BullRush_Lower_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ<characterName id=|GrassMinotaur_Ice|/>\r\nปลุกเร้าพลังอย่างดุดัน\r\nแล้วพุ่งชนธาตุน้ำแข็งใส่ศัตรู 2 ครั้งติดต่อกัน",
+          "LocalizedString": "สกิลเฉพาะตัวของ<characterName id=|GrassMinotaur_Ice|/>\r\nปลุกเร้าพลังอย่างดุดัน\r\nแล้วพุ่งชนธาตุน้ำแข็งใส่ศัตรู 2 ครั้งติดต่อกัน"
+        }
+      },
+      "ACTION_SKILL_Unique_GrassMinotaur_Ice_BullRush": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_GrassMinotaur_Ice_BullRush_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ<characterName id=|GrassMinotaur_Ice|/>\r\nปลุกเร้าพลังอย่างรุนแรง\r\nแล้วพุ่งชนธาตุน้ำแข็งด้วยความโกรธ 4 ครั้งติดต่อกัน",
+          "LocalizedString": "สกิลเฉพาะตัวของ<characterName id=|GrassMinotaur_Ice|/>\r\nปลุกเร้าพลังอย่างรุนแรง\r\nแล้วพุ่งชนธาตุน้ำแข็งด้วยความโกรธ 4 ครั้งติดต่อกัน"
+        }
+      },
+      "ACTION_SKILL_Unique_PandaGirl_RapidKick": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_PandaGirl_RapidKick_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ<characterName id=|PandaGirl|/>\r\nเตะหมุนอย่างรวดเร็วต่อเนื่องหลายครั้ง\r\nแล้วปล่อยคลื่นพลังปราณโจมตีปิดท้าย",
+          "LocalizedString": "สกิลเฉพาะตัวของ<characterName id=|PandaGirl|/>\r\nเตะหมุนอย่างรวดเร็วต่อเนื่องหลายครั้ง\r\nแล้วปล่อยคลื่นพลังปราณโจมตีปิดท้าย"
+        }
+      },
+      "ACTION_SKILL_Unique_ElecSnail_ShellCharge": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_ElecSnail_ShellCharge_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ<characterName id=|ElecSnail|/>\r\nหดตัวเข้าไปในเปลือกเพื่อลดความเสียหาย พร้อมชาร์จพลังไฟฟ้า\r\nเมื่อชาร์จเต็ม จะ ปล่อยประจุไฟฟ้า สร้างความเสียหายแก่ศัตรูรอบตัว\r\nหลังปล่อยประจุ จะทำให้ พลังโจมตีของสกิลธาตุสายฟ้าเพิ่มขึ้นชั่วคราว",
+          "LocalizedString": "สกิลเฉพาะตัวของ<characterName id=|ElecSnail|/>\r\nหดตัวเข้าไปในเปลือกเพื่อลดความเสียหาย พร้อมชาร์จพลังไฟฟ้า\r\nเมื่อชาร์จเต็ม จะ ปล่อยประจุไฟฟ้า สร้างความเสียหายแก่ศัตรูรอบตัว\r\nหลังปล่อยประจุ จะทำให้ พลังโจมตีของสกิลธาตุสายฟ้าเพิ่มขึ้นชั่วคราว"
+        }
+      },
+      "ACTION_SKILL_Unique_CuteMole_DiggingAttack": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_CuteMole_DiggingAttack_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ<characterName id=|CuteMole|/>\r\nมุดลงใต้ดิน แล้วพุ่งทะลุขึ้นมาจากใต้เท้าศัตรูอย่างรวดเร็ว",
+          "LocalizedString": "สกิลเฉพาะตัวของ<characterName id=|CuteMole|/>\r\nมุดลงใต้ดิน แล้วพุ่งทะลุขึ้นมาจากใต้เท้าศัตรูอย่างรวดเร็ว"
+        }
+      },
+      "ACTION_SKILL_Unique_BlueThunderHorse_Tossin": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_BlueThunderHorse_Tossin_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ<characterName id=|BlueThunderHorse|/>\r\nห่อหุ้มร่างด้วยสายฟ้า แล้วพุ่งเข้าหาศัตรูด้วยความเร็วสูง",
+          "LocalizedString": "สกิลเฉพาะตัวของ<characterName id=|BlueThunderHorse|/>\r\nห่อหุ้มร่างด้วยสายฟ้า แล้วพุ่งเข้าหาศัตรูด้วยความเร็วสูง"
+        }
+      },
+      "ACTION_SKILL_Unique_NightBlueHorse_Tossin": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_NightBlueHorse_Tossin_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ<characterName id=|NightBlueHorse|/>\r\nห่อหุ้มร่างด้วยเปลวเพลิงที่ลุกไหว แล้วพุ่งเข้าชนศัตรู",
+          "LocalizedString": "สกิลเฉพาะตัวของ<characterName id=|NightBlueHorse|/>\r\nห่อหุ้มร่างด้วยเปลวเพลิงที่ลุกไหว แล้วพุ่งเข้าชนศัตรู"
+        }
+      },
+      "ACTION_SKILL_Unique_NightBlueHorse_Neutral_Tossin": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_NightBlueHorse_Neutral_Tossin_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ<characterName id=|NightBlueHorse_Neutral|/>\r\nห่อหุ้มร่างด้วยเปลวเพลิงส่องประกาย แล้วพุ่งเข้าชนศัตรู",
+          "LocalizedString": "สกิลเฉพาะตัวของ<characterName id=|NightBlueHorse_Neutral|/>\r\nห่อหุ้มร่างด้วยเปลวเพลิงส่องประกาย แล้วพุ่งเข้าชนศัตรู"
+        }
+      },
+      "ACTION_SKILL_Unique_NightBlueHorse_Neutral_AirStep": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_NightBlueHorse_Neutral_AirStep_TextData",
+          "SourceString": "ทักษะเฉพาะตัวของ<characterName id=|NightBlueHorse_Neutral|/>\r\nใช้สเต็ปสวยงามในการปั่นหัวศัตรู\r\nปลดปล่อยคลื่นดาบจากเขาที่คมกริบ",
+          "LocalizedString": "ทักษะเฉพาะตัวของ<characterName id=|NightBlueHorse_Neutral|/>\r\nใช้สเต็ปสวยงามในการปั่นหัวศัตรู\r\nปลดปล่อยคลื่นดาบจากเขาที่คมกริบ"
+        }
+      },
+      "ACTION_SKILL_Unique_Kirin_Ice_IceTackle": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Kirin_Ice_IceTackle_TextData",
+          "SourceString": "ทักษะเฉพาะตัวของ<characterName id=|Kirin_Ice|/>\r\nสร้างเสาน้ำแข็งรองคัวเเละ\r\nมุ่งหน้าโจมตีเข้าหาศัตรู",
+          "LocalizedString": "ทักษะเฉพาะตัวของ<characterName id=|Kirin_Ice|/>\r\nสร้างเสาน้ำแข็งรองคัวเเละ\r\nมุ่งหน้าโจมตีเข้าหาศัตรู"
+        }
+      },
+      "ACTION_SKILL_Unique_ThunderDog_Ice_KoriShorai": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_ThunderDog_Ice_KoriShorai_TextData",
+          "SourceString": "ทักษะเฉพาะตัวของ<characterName id=|ThunderDog_Ice|/>\r\nสร้างแท่งน้ำแข็งเรียงต่อกันด้านหน้าอย่างต่อเนื่อง\r\nแล้วพุ่งทะลุผ่านช่องระหว่างแท่งด้วยความเร็วสูง",
+          "LocalizedString": "ทักษะเฉพาะตัวของ<characterName id=|ThunderDog_Ice|/>\r\nสร้างแท่งน้ำแข็งเรียงต่อกันด้านหน้าอย่างต่อเนื่อง\r\nแล้วพุ่งทะลุผ่านช่องระหว่างแท่งด้วยความเร็วสูง"
+        }
+      },
+      "ACTION_SKILL_Unique_ScorpionMan_Erectric_UpperThunder": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_ScorpionMan_Erectric_UpperThunder_TextData",
+          "SourceString": "ทักษะเฉพาะตัวของ<characterName id=|ScorpionMan_Electric|/>\r\nใช้พลังซูเปอร์คอนดักเตอร์พุ่งเข้าประชิดศัตรูอย่างรวดเร็ว\r\nแล้วเหวี่ยงก้ามขึ้นฟาดอย่างแรง",
+          "LocalizedString": "ทักษะเฉพาะตัวของ<characterName id=|ScorpionMan_Electric|/>\r\nใช้พลังซูเปอร์คอนดักเตอร์พุ่งเข้าประชิดศัตรูอย่างรวดเร็ว\r\nแล้วเหวี่ยงก้ามขึ้นฟาดอย่างแรง"
+        }
+      },
+      "ACTION_SKILL_Unique_WingGolem_Fire_FlameCutter": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_WingGolem_Fire_FlameCutter_TextData",
+          "SourceString": "ทักษะเฉพาะตัวของ<characterName id=|WingGolem_Fire|/>\r\nง้างแขนสุดแรงแล้วขว้าง |วงเพลิง| จากแผ่นหลังออกไป\r\nวงเพลิงจะบินเป็นวิถีโค้งคล้ายการวาดวงกลม",
+          "LocalizedString": "ทักษะเฉพาะตัวของ<characterName id=|WingGolem_Fire|/>\r\nง้างแขนสุดแรงแล้วขว้าง |วงเพลิง| จากแผ่นหลังออกไป\r\nวงเพลิงจะบินเป็นวิถีโค้งคล้ายการวาดวงกลม"
+        }
+      },
+      "ACTION_SKILL_Unique_ThunderBird_Ice_SnowStrom": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_ThunderBird_Ice_SnowStrom_TextData",
+          "SourceString": "ทักษะเฉพาะตัวของ<characterName id=|ThunderBird_Ice|/>\r\nแทงน้ำแข็งพุ่งขึ้นจากใต้ตำแหน่งศัตรูก่อน\r\nจากนั้นจะ พุ่งไถลเข้าประชิด พร้อมทำให้แท่งน้ำแข็งผุดขึ้นสลับซ้าย-ขวาตลอดทาง",
+          "LocalizedString": "ทักษะเฉพาะตัวของ<characterName id=|ThunderBird_Ice|/>\r\nแทงน้ำแข็งพุ่งขึ้นจากใต้ตำแหน่งศัตรูก่อน\r\nจากนั้นจะ พุ่งไถลเข้าประชิด พร้อมทำให้แท่งน้ำแข็งผุดขึ้นสลับซ้าย-ขวาตลอดทาง"
+        }
+      },
+      "ACTION_SKILL_Unique_WhiteDeer_Dark_DarkPillar": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_WhiteDeer_Dark_DarkPillar_TextData",
+          "SourceString": "ทักษะเฉพาะตัวของ<characterName id=|WhiteDeer_Dark|/>\r\nก่อให้เกิดการระเบิดธาตุความมืดในพื้นที่กว้างด้านหน้า\r\nจากนั้นจะเคลื่อนที่ไปข้างหน้า พร้อมเรียก เสามืด ผุดขึ้นรอบตัวต่อเนื่องหรือแบบกระชับใน",
+          "LocalizedString": "ทักษะเฉพาะตัวของ<characterName id=|WhiteDeer_Dark|/>\r\nก่อให้เกิดการระเบิดธาตุความมืดในพื้นที่กว้างด้านหน้า\r\nจากนั้นจะเคลื่อนที่ไปข้างหน้า พร้อมเรียก เสามืด ผุดขึ้นรอบตัวต่อเนื่องหรือแบบกระชับใน"
+        }
+      },
+      "ACTION_SKILL_Unique_Garm_BiteV2": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Garm_BiteV2_TextData",
+          "SourceString": "โจมตีโดยกระโจนหาศัตรูอย่างรวดเร็ว แล้วกัดศัตรู",
+          "LocalizedString": "โจมตีโดยกระโจนหาศัตรูอย่างรวดเร็ว แล้วกัดศัตรู"
+        }
+      },
+      "ACTION_SKILL_Unique_RedFlowerBird_JumpKick": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_RedFlowerBird_JumpKick_TextData",
+          "SourceString": "<characterName id=|RedFlowerBird|/>สกิลเฉพาะตัวของ\r\nที่่สามารถยกลอยขึ้นไปในอากาศอย่างนุ่มนวล แล้วใช้กรงเล็บแหลมคมจับกระแทกลงบนพื้นอย่างแรง",
+          "LocalizedString": "<characterName id=|RedFlowerBird|/>สกิลเฉพาะตัวของ\r\nที่่สามารถยกลอยขึ้นไปในอากาศอย่างนุ่มนวล แล้วใช้กรงเล็บแหลมคมจับกระแทกลงบนพื้นอย่างแรง"
+        }
+      },
+      "ACTION_SKILL_Unique_SnakeGirl_SnakeShot": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_SnakeGirl_SnakeShot_TextData",
+          "SourceString": "<characterName id=|SnakeGirl|/>สกิลเฉพาะตัวของ\r\n งูบนหัวของมันพ่นลูกบอลพิษออกมาเป็นวิถีโค้งคล้ายพาราโบลา\r\nแอ่งพิษที่กระจายตัว ณ จุดที่กระทบจะทำให้ใครก็ตามที่สัมผัสได้รับพิษ",
+          "LocalizedString": "<characterName id=|SnakeGirl|/>สกิลเฉพาะตัวของ\r\n งูบนหัวของมันพ่นลูกบอลพิษออกมาเป็นวิถีโค้งคล้ายพาราโบลา\r\nแอ่งพิษที่กระจายตัว ณ จุดที่กระทบจะทำให้ใครก็ตามที่สัมผัสได้รับพิษ"
+        }
+      },
+      "ACTION_SKILL_Unique_GuardianDog_Bite": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_GuardianDog_Bite_TextData",
+          "SourceString": "โจมตีโดยกระโจนหาศัตรูอย่างรวดเร็ว แล้วกัดศัตรู",
+          "LocalizedString": "โจมตีโดยกระโจนหาศัตรูอย่างรวดเร็ว แล้วกัดศัตรู"
+        }
+      },
+      "ACTION_SKILL_Unique_GuardianDog_BiteV2": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_GuardianDog_BiteV2_TextData",
+          "SourceString": "พุ่งเข้าหาศัตรูแล้วกัดต่อเนื่องอย่างรวดเร็ว",
+          "LocalizedString": "พุ่งเข้าหาศัตรูแล้วกัดต่อเนื่องอย่างรวดเร็ว"
+        }
+      },
+      "ACTION_SKILL_Unique_ThunderDog_Bite": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_ThunderDog_Bite_TextData",
+          "SourceString": "โจมตีโดยกระโจนหาศัตรูอย่างรวดเร็ว แล้วกัดศัตรู",
+          "LocalizedString": "โจมตีโดยกระโจนหาศัตรูอย่างรวดเร็ว แล้วกัดศัตรู"
+        }
+      },
+      "ACTION_SKILL_Unique_ThunderDog_BiteV2": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_ThunderDog_BiteV2_TextData",
+          "SourceString": "พุ่งเข้าหาศัตรูแล้วกัดต่อเนื่องอย่างรวดเร็ว",
+          "LocalizedString": "พุ่งเข้าหาศัตรูแล้วกัดต่อเนื่องอย่างรวดเร็ว"
+        }
+      },
+      "ACTION_SKILL_Unique_ElecPomeranian_Bite": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_ElecPomeranian_Bite_TextData",
+          "SourceString": "โจมตีโดยกระโจนหาศัตรูอย่างรวดเร็ว แล้วกัดศัตรู",
+          "LocalizedString": "โจมตีโดยกระโจนหาศัตรูอย่างรวดเร็ว แล้วกัดศัตรู"
+        }
+      },
+      "ACTION_SKILL_Unique_ElecPomeranian_BiteV2": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_ElecPomeranian_BiteV2_TextData",
+          "SourceString": "พุ่งเข้าหาศัตรูแล้วกัดต่อเนื่องอย่างรวดเร็ว",
+          "LocalizedString": "พุ่งเข้าหาศัตรูแล้วกัดต่อเนื่องอย่างรวดเร็ว"
+        }
+      },
+      "ACTION_SKILL_Unique_ThunderDog_Ice_Bite": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_ThunderDog_Ice_Bite_TextData",
+          "SourceString": "โจมตีโดยกระโจนหาศัตรูอย่างรวดเร็ว แล้วกัดศัตรู",
+          "LocalizedString": "โจมตีโดยกระโจนหาศัตรูอย่างรวดเร็ว แล้วกัดศัตรู"
+        }
+      },
+      "ACTION_SKILL_Unique_ThunderDog_Ice_BiteV2": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_ThunderDog_Ice_BiteV2_TextData",
+          "SourceString": "พุ่งเข้าหาศัตรูแล้วกัดต่อเนื่องอย่างรวดเร็ว",
+          "LocalizedString": "พุ่งเข้าหาศัตรูแล้วกัดต่อเนื่องอย่างรวดเร็ว"
+        }
+      },
+      "ACTION_SKILL_Unique_GoldenHorse_Bite": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_GoldenHorse_Bite_TextData",
+          "SourceString": "โจมตีโดยกระโจนหาศัตรูอย่างรวดเร็ว แล้วกัดศัตรู",
+          "LocalizedString": "โจมตีโดยกระโจนหาศัตรูอย่างรวดเร็ว แล้วกัดศัตรู"
+        }
+      },
+      "ACTION_SKILL_Unique_GoldenHorse_BiteV2": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_GoldenHorse_BiteV2_TextData",
+          "SourceString": "พุ่งเข้าหาศัตรูแล้วกัดต่อเนื่องอย่างรวดเร็ว",
+          "LocalizedString": "พุ่งเข้าหาศัตรูแล้วกัดต่อเนื่องอย่างรวดเร็ว"
+        }
+      },
+      "ACTION_SKILL_Unique_SamuraiDog_Bite": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_SamuraiDog_Bite_TextData",
+          "SourceString": "โจมตีโดยกระโจนหาศัตรูอย่างรวดเร็ว แล้วกัดศัตรู",
+          "LocalizedString": "โจมตีโดยกระโจนหาศัตรูอย่างรวดเร็ว แล้วกัดศัตรู"
+        }
+      },
+      "ACTION_SKILL_Unique_SamuraiDog_BiteV2": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_SamuraiDog_BiteV2_TextData",
+          "SourceString": "พุ่งเข้าหาศัตรูแล้วกัดต่อเนื่องอย่างรวดเร็ว",
+          "LocalizedString": "พุ่งเข้าหาศัตรูแล้วกัดต่อเนื่องอย่างรวดเร็ว"
+        }
+      },
+      "ACTION_SKILL_Unique_AmaterasuWolf_Bite": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_AmaterasuWolf_Bite_TextData",
+          "SourceString": "โจมตีโดยกระโจนหาศัตรูอย่างรวดเร็ว แล้วกัดศัตรู",
+          "LocalizedString": "โจมตีโดยกระโจนหาศัตรูอย่างรวดเร็ว แล้วกัดศัตรู"
+        }
+      },
+      "ACTION_SKILL_Unique_AmaterasuWolf_BiteV2": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_AmaterasuWolf_BiteV2_TextData",
+          "SourceString": "พุ่งเข้าหาศัตรูแล้วกัดต่อเนื่องอย่างรวดเร็ว",
+          "LocalizedString": "พุ่งเข้าหาศัตรูแล้วกัดต่อเนื่องอย่างรวดเร็ว"
+        }
+      },
+      "ACTION_SKILL_Unique_AmaterasuWolf_Dark_Bite": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_AmaterasuWolf_Dark_Bite_TextData",
+          "SourceString": "โจมตีโดยกระโจนหาศัตรูอย่างรวดเร็ว แล้วกัดศัตรู",
+          "LocalizedString": "โจมตีโดยกระโจนหาศัตรูอย่างรวดเร็ว แล้วกัดศัตรู"
+        }
+      },
+      "ACTION_SKILL_Unique_AmaterasuWolf_Dark_BiteV2": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_AmaterasuWolf_Dark_BiteV2_TextData",
+          "SourceString": "พุ่งเข้าหาศัตรูแล้วกัดต่อเนื่องอย่างรวดเร็ว",
+          "LocalizedString": "พุ่งเข้าหาศัตรูแล้วกัดต่อเนื่องอย่างรวดเร็ว"
+        }
+      },
+      "ACTION_SKILL_Unique_BlackPuppy_Bite": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_BlackPuppy_Bite_TextData",
+          "SourceString": "โจมตีโดยกระโจนหาศัตรูอย่างรวดเร็ว แล้วกัดศัตรู",
+          "LocalizedString": "โจมตีโดยกระโจนหาศัตรูอย่างรวดเร็ว แล้วกัดศัตรู"
+        }
+      },
+      "ACTION_SKILL_Unique_BlackPuppy_BiteV2": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_BlackPuppy_BiteV2_TextData",
+          "SourceString": "พุ่งเข้าหาศัตรูแล้วกัดต่อเนื่องอย่างรวดเร็ว",
+          "LocalizedString": "พุ่งเข้าหาศัตรูแล้วกัดต่อเนื่องอย่างรวดเร็ว"
+        }
+      },
+      "ACTION_SKILL_Unique_FlowerPrince_PoisonGasDance": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_FlowerPrince_PoisonGasDance_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|FlowerPrince|/>\r\nร่ายรำพร้อมพ่นหมอกกัดกร่อนออกมา\r\nหมอกกัดกร่อนที่ปล่อยออกมาจะยังคงตกค้างอยู่ในบริเวณนั้นเป็นระยะเวลาหนึ่ง",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|FlowerPrince|/>\r\nร่ายรำพร้อมพ่นหมอกกัดกร่อนออกมา\r\nหมอกกัดกร่อนที่ปล่อยออกมาจะยังคงตกค้างอยู่ในบริเวณนั้นเป็นระยะเวลาหนึ่ง"
+        }
+      },
+      "ACTION_SKILL_Unique_FlowerPrince_PoisonGasTackle": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_FlowerPrince_PoisonGasTackle_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ <characterName id=|FlowerPrince|/>\r\nพ่นหมอกกัดกร่อนออกมาพร้อมกับพุ่งไถลไปบนพื้น\r\nหมอกกัดกร่อนที่ปล่อยออกมาจะยังคงตกค้างอยู่ในบริเวณนั้นเป็นระยะเวลาหนึ่ง",
+          "LocalizedString": "สกิลเฉพาะตัวของ <characterName id=|FlowerPrince|/>\r\nพ่นหมอกกัดกร่อนออกมาพร้อมกับพุ่งไถลไปบนพื้น\r\nหมอกกัดกร่อนที่ปล่อยออกมาจะยังคงตกค้างอยู่ในบริเวณนั้นเป็นระยะเวลาหนึ่ง"
+        }
+      },
+      "ACTION_SKILL_Unique_Mothman_GiantSpore": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Mothman_GiantSpore_TextData",
+          "SourceString": "ทักษะเฉพาะตัวของ<characterName id=|Mothman|/>\r\nยิงสปอร์ขนาดยักษ์ที่ติดตามศัตรูได้\r\nเมื่อกระทบจะ ระเบิด และกระจายแรงระเบิดเป็นวงกว้าง",
+          "LocalizedString": "ทักษะเฉพาะตัวของ<characterName id=|Mothman|/>\r\nยิงสปอร์ขนาดยักษ์ที่ติดตามศัตรูได้\r\nเมื่อกระทบจะ ระเบิด และกระจายแรงระเบิดเป็นวงกว้าง"
+        }
+      },
+      "ACTION_SKILL_Unique_Mothman_SporeScatter": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Mothman_SporeScatter_TextData",
+          "SourceString": "สกิลเฉพาะตัวของ<characterName id=|Mothman|/>\r\nกระจายสปอร์ระเบิดออกไปเป็นวงกว้าง\r\nแล้วจึงจุดระเบิดขึ้นพร้อมกันในคราวเดียวหลังจากผ่านไปครู่หนึ่ง",
+          "LocalizedString": "สกิลเฉพาะตัวของ<characterName id=|Mothman|/>\r\nกระจายสปอร์ระเบิดออกไปเป็นวงกว้าง\r\nแล้วจึงจุดระเบิดขึ้นพร้อมกันในคราวเดียวหลังจากผ่านไปครู่หนึ่ง"
+        }
+      },
+      "ACTION_SKILL_PoisonFog": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_PoisonFog_TextData",
+          "SourceString": "สร้างหมอกพิษขึ้นด้านหน้า\r\nทำให้ศัตรูติดพิษ",
+          "LocalizedString": "สร้างหมอกพิษขึ้นด้านหน้า\r\nทำให้ศัตรูติดพิษ"
+        }
+      },
+      "ACTION_SKILL_SelfDestruct": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_SelfDestruct_TextData",
+          "SourceString": "เสี่ยงชีวิตระเบิดตัวเอง\r\nตัวเองจะไม่สามารถสู้ต่อได้",
+          "LocalizedString": "เสี่ยงชีวิตระเบิดตัวเอง\r\nตัวเองจะไม่สามารถสู้ต่อได้"
+        }
+      },
+      "ACTION_SKILL_SelfDestruct_Bee": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_SelfDestruct_Bee_TextData",
+          "SourceString": "เสี่ยงชีวิตระเบิดตัวเอง\r\nวิชาลือชื่อที่ทำให้ตนเองตายในหน้าที่",
+          "LocalizedString": "เสี่ยงชีวิตระเบิดตัวเอง\r\nวิชาลือชื่อที่ทำให้ตนเองตายในหน้าที่"
+        }
+      },
+      "ACTION_SKILL_SelfExplosion": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_SelfExplosion_TextData",
+          "SourceString": "เสี่ยงชีวิตระเบิดตัวเองครั้งใหญ่\r\nจบชีวิตตัวเอง กลายเป็นดาวส่องสว่างยามค่ำคืน",
+          "LocalizedString": "เสี่ยงชีวิตระเบิดตัวเองครั้งใหญ่\r\nจบชีวิตตัวเอง กลายเป็นดาวส่องสว่างยามค่ำคืน"
+        }
+      },
+      "ACTION_SKILL_FireBlast": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_FireBlast_TextData",
+          "SourceString": "ยิงกระสุนเพลิง\r\nให้ลอยไปหาศัตรูที่เล็งไว้เป็นเส้นตรง",
+          "LocalizedString": "ยิงกระสุนเพลิง\r\nให้ลอยไปหาศัตรูที่เล็งไว้เป็นเส้นตรง"
+        }
+      },
+      "ACTION_SKILL_Flamethrower": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Flamethrower_TextData",
+          "SourceString": "ปล่อยเปลวไฟใส่ศัตรู\r\nสร้างความเสียหายต่อเนื่อง",
+          "LocalizedString": "ปล่อยเปลวไฟใส่ศัตรู\r\nสร้างความเสียหายต่อเนื่อง"
+        }
+      },
+      "ACTION_SKILL_FireBall": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_FireBall_TextData",
+          "SourceString": "สร้างบอลไฟขนาดยักษ์ขึ้นเหนือศีรษะ ยิงใส่ศัตรู\r\nเมื่อยิงโดนศัตรูจะระเบิด แรงระเบิดกระจายเป็นวงกว้าง",
+          "LocalizedString": "สร้างบอลไฟขนาดยักษ์ขึ้นเหนือศีรษะ ยิงใส่ศัตรู\r\nเมื่อยิงโดนศัตรูจะระเบิด แรงระเบิดกระจายเป็นวงกว้าง"
+        }
+      },
+      "ACTION_SKILL_FlareArrow": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_FlareArrow_TextData",
+          "SourceString": "ยิงลูกศรไฟความเร็วสูง\r\nต่อเนื่อง 3 ดอกไล่ตามศัตรู",
+          "LocalizedString": "ยิงลูกศรไฟความเร็วสูง\r\nต่อเนื่อง 3 ดอกไล่ตามศัตรู"
+        }
+      },
+      "ACTION_SKILL_FireSeed": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_FireSeed_TextData",
+          "SourceString": "ยิงบอลไฟใส่ศัตรู\r\nเมื่อบอลไฟเคลื่อนที่ไปเล็กน้อยจะแตกออก\r\nกลายเป็นบอลไฟขนาดเล็กกระจายออกเบื้องหน้า",
+          "LocalizedString": "ยิงบอลไฟใส่ศัตรู\r\nเมื่อบอลไฟเคลื่อนที่ไปเล็กน้อยจะแตกออก\r\nกลายเป็นบอลไฟขนาดเล็กกระจายออกเบื้องหน้า"
+        }
+      },
+      "ACTION_SKILL_FlareTornado": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_FlareTornado_TextData",
+          "SourceString": "สร้างพายุหมุนไฟขึ้นทางซ้ายและขวา\r\nพัดเข้าใส่ศัตรู",
+          "LocalizedString": "สร้างพายุหมุนไฟขึ้นทางซ้ายและขวา\r\nพัดเข้าใส่ศัตรู"
+        }
+      },
+      "ACTION_SKILL_Inferno": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Inferno_TextData",
+          "SourceString": "กระตุ้นพื้นดินรอบตัวศัตรู\r\nเมื่อเวลาผ่านไประยะหนึ่งจะเกิดระเบิด",
+          "LocalizedString": "กระตุ้นพื้นดินรอบตัวศัตรู\r\nเมื่อเวลาผ่านไประยะหนึ่งจะเกิดระเบิด"
+        }
+      },
+      "ACTION_SKILL_FlameWall": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_FlameWall_TextData",
+          "SourceString": "สร้างกำแพงไฟลุกโชนตรงจุดที่มีศัตรู\r\nกำแพงไฟจะคงอยู่ได้ครู่หนึ่ง\r\nสร้างความเสียหายให้ศัตรูที่สัมผัส",
+          "LocalizedString": "สร้างกำแพงไฟลุกโชนตรงจุดที่มีศัตรู\r\nกำแพงไฟจะคงอยู่ได้ครู่หนึ่ง\r\nสร้างความเสียหายให้ศัตรูที่สัมผัส"
+        }
+      },
+      "ACTION_SKILL_Eruption": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Eruption_TextData",
+          "SourceString": "ยิงสะเก็ดลาวาจำนวนมากขึ้นฟ้า\r\nเมื่อเวลาผ่านไปสะเก็ดลาวา\r\nจะตกลงมารอบตัวผู้ยิง",
+          "LocalizedString": "ยิงสะเก็ดลาวาจำนวนมากขึ้นฟ้า\r\nเมื่อเวลาผ่านไปสะเก็ดลาวา\r\nจะตกลงมารอบตัวผู้ยิง"
+        }
+      },
+      "ACTION_SKILL_FlameFunnel": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_FlameFunnel_TextData",
+          "SourceString": "สร้างบอลพลังไฟจำนวนมาก\r\nแล้วยิงบอลไฟเหล่านั้นใส่ศัตรู",
+          "LocalizedString": "สร้างบอลพลังไฟจำนวนมาก\r\nแล้วยิงบอลไฟเหล่านั้นใส่ศัตรู"
+        }
+      },
+      "ACTION_SKILL_FlareTwister": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_FlareTwister_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "ACTION_SKILL_WaterGun": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_WaterGun_TextData",
+          "SourceString": "ยิงกระสุนน้ำ\r\nให้ลอยไปหาศัตรูที่เล็งไว้เป็นเส้นตรง",
+          "LocalizedString": "ยิงกระสุนน้ำ\r\nให้ลอยไปหาศัตรูที่เล็งไว้เป็นเส้นตรง"
+        }
+      },
+      "ACTION_SKILL_WaterWave": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_WaterWave_TextData",
+          "SourceString": "สร้างกำแพงวังน้ำวนขึ้นตรงหน้า\r\nและพัดไปด้านหน้าอย่างช้า ๆ",
+          "LocalizedString": "สร้างกำแพงวังน้ำวนขึ้นตรงหน้า\r\nและพัดไปด้านหน้าอย่างช้า ๆ"
+        }
+      },
+      "ACTION_SKILL_HydroPump": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_HydroPump_TextData",
+          "SourceString": "พ่นน้ำแรงดันสูง\r\nโจมตีกวาดด้านหน้าเป็นวงกว้าง",
+          "LocalizedString": "พ่นน้ำแรงดันสูง\r\nโจมตีกวาดด้านหน้าเป็นวงกว้าง"
+        }
+      },
+      "ACTION_SKILL_WaterBall": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_WaterBall_TextData",
+          "SourceString": "สร้างบอลน้ำขนาดยักษ์ขึ้นเหนือศีรษะ\r\nยิงใส่ศัตรู",
+          "LocalizedString": "สร้างบอลน้ำขนาดยักษ์ขึ้นเหนือศีรษะ\r\nยิงใส่ศัตรู"
+        }
+      },
+      "ACTION_SKILL_TidalWave": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_TidalWave_TextData",
+          "SourceString": "สร้างคลื่นลูกเล็กทั่วบริเวณ\r\nหน่วงความเคลื่อนไหวศัตรู\r\nก่อนโจมตีศัตรูด้วยคลื่นลูกใหญ่",
+          "LocalizedString": "สร้างคลื่นลูกเล็กทั่วบริเวณ\r\nหน่วงความเคลื่อนไหวศัตรู\r\nก่อนโจมตีศัตรูด้วยคลื่นลูกใหญ่"
+        }
+      },
+      "ACTION_SKILL_AquaJet": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_AquaJet_TextData",
+          "SourceString": "ยิงกระสุนน้ำความเร็วสูง\r\nใส่ศัตรู",
+          "LocalizedString": "ยิงกระสุนน้ำความเร็วสูง\r\nใส่ศัตรู"
+        }
+      },
+      "ACTION_SKILL_BubbleShot": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_BubbleShot_TextData",
+          "SourceString": "ยิงฟองจำนวนมาก\r\nไล่ตามศัตรูอย่างช้า ๆ",
+          "LocalizedString": "ยิงฟองจำนวนมาก\r\nไล่ตามศัตรูอย่างช้า ๆ"
+        }
+      },
+      "ACTION_SKILL_AcidRain": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_AcidRain_TextData",
+          "SourceString": "สร้างเมฆฝนกรด\r\nให้ฝนกรดตกใส่ศัตรู",
+          "LocalizedString": "สร้างเมฆฝนกรด\r\nให้ฝนกรดตกใส่ศัตรู"
+        }
+      },
+      "ACTION_SKILL_LineGeyser": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_LineGeyser_TextData",
+          "SourceString": "สร้างเสาน้ำพุ่งไปเป็นเส้นตรง",
+          "LocalizedString": "สร้างเสาน้ำพุ่งไปเป็นเส้นตรง"
+        }
+      },
+      "ACTION_SKILL_WallSplash": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_WallSplash_TextData",
+          "SourceString": "สร้างกำแพงจากเสาน้ำที่จุดที่มีศัตรูอยู่อย่างต่อเนื่อง",
+          "LocalizedString": "สร้างกำแพงจากเสาน้ำที่จุดที่มีศัตรูอยู่อย่างต่อเนื่อง"
+        }
+      },
+      "ACTION_SKILL_SeaGush": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_SeaGush_TextData",
+          "SourceString": "สร้างเสาน้ำจำนวนมากให้ผุดขึ้นจากพื้น\r\nใส่บริเวณที่ศัตรูอยู่",
+          "LocalizedString": "สร้างเสาน้ำจำนวนมากให้ผุดขึ้นจากพื้น\r\nใส่บริเวณที่ศัตรูอยู่"
+        }
+      },
+      "ACTION_SKILL_RipTide": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_RipTide_TextData",
+          "SourceString": "สร้างคลื่นจากรอบข้างซัดเข้าใส่ศัตรู\r\nคลื่นลูกสุดท้ายจะระเบิดจากจุดศูนย์กลาง เกิดเสาน้ำพุ่งขึ้นฟ้า",
+          "LocalizedString": "สร้างคลื่นจากรอบข้างซัดเข้าใส่ศัตรู\r\nคลื่นลูกสุดท้ายจะระเบิดจากจุดศูนย์กลาง เกิดเสาน้ำพุ่งขึ้นฟ้า"
+        }
+      },
+      "ACTION_SKILL_DiversionLaser": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_DiversionLaser_TextData",
+          "SourceString": "ยิงกระแสน้ำแรงดันสูงไปด้านหน้า\r\nเมื่อเวลาผ่านไปเล็กน้อย กระแสน้ำจะแยกออกไปทางซ้ายและขวา",
+          "LocalizedString": "ยิงกระแสน้ำแรงดันสูงไปด้านหน้า\r\nเมื่อเวลาผ่านไปเล็กน้อย กระแสน้ำจะแยกออกไปทางซ้ายและขวา"
+        }
+      },
+      "ACTION_SKILL_HydroSlicer": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_HydroSlicer_TextData",
+          "SourceString": "ใช้ลกระแสน้ำแรงดันสูงกวาดพื้นที่ด้านหน้า\r\nเมื่อเวลาผ่านไป จะมีน้ำผุดขึ้นมาบริเวณที่โดนกระแสน้ำกวาด",
+          "LocalizedString": "ใช้ลกระแสน้ำแรงดันสูงกวาดพื้นที่ด้านหน้า\r\nเมื่อเวลาผ่านไป จะมีน้ำผุดขึ้นมาบริเวณที่โดนกระแสน้ำกวาด"
+        }
+      },
+      "ACTION_SKILL_WindCutter": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_WindCutter_TextData",
+          "SourceString": "ยิงใบมีดลมความเร็วสูง\r\nให้ลอยไปหาศัตรูที่เล็งไว้เป็นเส้นตรง",
+          "LocalizedString": "ยิงใบมีดลมความเร็วสูง\r\nให้ลอยไปหาศัตรูที่เล็งไว้เป็นเส้นตรง"
+        }
+      },
+      "ACTION_SKILL_GrassTornado": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_GrassTornado_TextData",
+          "SourceString": "สร้างพายุหมุนขึ้นทางซ้ายและขวา\r\nพัดเข้าใส่ศัตรู",
+          "LocalizedString": "สร้างพายุหมุนขึ้นทางซ้ายและขวา\r\nพัดเข้าใส่ศัตรู"
+        }
+      },
+      "ACTION_SKILL_SolarBeam": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_SolarBeam_TextData",
+          "SourceString": "ชาร์จพลังงานแสงอาทิตย์\r\nแล้วยิงลำแสงทรงพลังออกไปหาศัตรู",
+          "LocalizedString": "ชาร์จพลังงานแสงอาทิตย์\r\nแล้วยิงลำแสงทรงพลังออกไปหาศัตรู"
+        }
+      },
+      "ACTION_SKILL_SeedMachinegun": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_SeedMachinegun_TextData",
+          "SourceString": "ปล่อยเมล็ดแข็งจำนวนมาก\r\nไปโจมตีศัตรูด้านหน้า",
+          "LocalizedString": "ปล่อยเมล็ดแข็งจำนวนมาก\r\nไปโจมตีศัตรูด้านหน้า"
+        }
+      },
+      "ACTION_SKILL_SeedMine": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_SeedMine_TextData",
+          "SourceString": "ยิงเมล็ดพืชอันตราย\r\nเมื่อยิงโดนศัตรู จะกระดอนและระเบิด",
+          "LocalizedString": "ยิงเมล็ดพืชอันตราย\r\nเมื่อยิงโดนศัตรู จะกระดอนและระเบิด"
+        }
+      },
+      "ACTION_SKILL_SpecialCutter": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_SpecialCutter_TextData",
+          "SourceString": "ยิงใบมีดลมความเร็วสูง\r\nให้ลอยไปหาศัตรูที่เล็งไว้เป็นเส้นตรง 3 ครั้ง",
+          "LocalizedString": "ยิงใบมีดลมความเร็วสูง\r\nให้ลอยไปหาศัตรูที่เล็งไว้เป็นเส้นตรง 3 ครั้ง"
+        }
+      },
+      "ACTION_SKILL_RootAttack": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_RootAttack_TextData",
+          "SourceString": "ใช้รากแหลมคมไล่ล่าศัตรู\r\nแล้วแทงทะลุร่างศัตรูจากด้านล่าง",
+          "LocalizedString": "ใช้รากแหลมคมไล่ล่าศัตรู\r\nแล้วแทงทะลุร่างศัตรูจากด้านล่าง"
+        }
+      },
+      "ACTION_SKILL_RootLance": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_RootLance_TextData",
+          "SourceString": "แทงรากแหลมคม\r\nใส่บริเวณที่ศัตรูอยู่",
+          "LocalizedString": "แทงรากแหลมคม\r\nใส่บริเวณที่ศัตรูอยู่"
+        }
+      },
+      "ACTION_SKILL_RaidCutter": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_RaidCutter_TextData",
+          "SourceString": "ยิงใบมีดลมจำนวนมาก\r\nเข้าใส่ศัตรู",
+          "LocalizedString": "ยิงใบมีดลมจำนวนมาก\r\nเข้าใส่ศัตรู"
+        }
+      },
+      "ACTION_SKILL_WindEdge": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_WindEdge_TextData",
+          "SourceString": "ซัดใบมีดลมคมกริบออกไปเป็นรูปพัด",
+          "LocalizedString": "ซัดใบมีดลมคมกริบออกไปเป็นรูปพัด"
+        }
+      },
+      "ACTION_SKILL_CrossWind": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_CrossWind_TextData",
+          "SourceString": "สร้างใบมีดลมด้านหน้าศัตรู\r\nและไขว้ใบมีดลมเข้าหากันเพื่อโจมตี",
+          "LocalizedString": "สร้างใบมีดลมด้านหน้าศัตรู\r\nและไขว้ใบมีดลมเข้าหากันเพื่อโจมตี"
+        }
+      },
+      "ACTION_SKILL_ReflectiveShuriken": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_ReflectiveShuriken_TextData",
+          "SourceString": "ซัดใบมีดลม\r\nที่เมื่อโดนศัตรูหรือต้นไม้จะกระดอนกลับ เกิดเป็นการโจมตีต่อเนื่อง\r\nกระดอนกลับได้สูงสุด 4 ครั้ง",
+          "LocalizedString": "ซัดใบมีดลม\r\nที่เมื่อโดนศัตรูหรือต้นไม้จะกระดอนกลับ เกิดเป็นการโจมตีต่อเนื่อง\r\nกระดอนกลับได้สูงสุด 4 ครั้ง"
+        }
+      },
+      "ACTION_SKILL_WindBurst": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_WindBurst_TextData",
+          "SourceString": "เรียกพายุลมขนาดยักษ์ขึ้นรอบตัว\r\nเพื่อโจมตีด้วยพลังมหาศาล",
+          "LocalizedString": "เรียกพายุลมขนาดยักษ์ขึ้นรอบตัว\r\nเพื่อโจมตีด้วยพลังมหาศาล"
+        }
+      },
+      "ACTION_SKILL_ThunderRain": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_ThunderRain_TextData",
+          "SourceString": "เรียกสายฟ้า\r\nให้ผ่าลงมาจำนวนมากหลังผ่านไประยะหนึ่ง",
+          "LocalizedString": "เรียกสายฟ้า\r\nให้ผ่าลงมาจำนวนมากหลังผ่านไประยะหนึ่ง"
+        }
+      },
+      "ACTION_SKILL_ThunderBall": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_ThunderBall_TextData",
+          "SourceString": "ยิงบอลสายฟ้า\r\nไล่ตามศัตรูอย่างช้า ๆ",
+          "LocalizedString": "ยิงบอลสายฟ้า\r\nไล่ตามศัตรูอย่างช้า ๆ"
+        }
+      },
+      "ACTION_SKILL_LineThunder": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_LineThunder_TextData",
+          "SourceString": "ปล่อยสายฟ้าพุ่งไปเป็นเส้นตรง",
+          "LocalizedString": "ปล่อยสายฟ้าพุ่งไปเป็นเส้นตรง"
+        }
+      },
+      "ACTION_SKILL_CrossThunder": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_CrossThunder_TextData",
+          "SourceString": "สร้างการโจมตีสายฟ้าจาก 2 ทาง\r\nขนาบข้างศัตรู",
+          "LocalizedString": "สร้างการโจมตีสายฟ้าจาก 2 ทาง\r\nขนาบข้างศัตรู"
+        }
+      },
+      "ACTION_SKILL_ThreeThunder": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_ThreeThunder_TextData",
+          "SourceString": "สร้างฟ้าผ่า 3 ครั้งเหนือศีรษะศัตรู",
+          "LocalizedString": "สร้างฟ้าผ่า 3 ครั้งเหนือศีรษะศัตรู"
+        }
+      },
+      "ACTION_SKILL_ElecWave": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_ElecWave_TextData",
+          "SourceString": "ปล่อยสายฟ้าอย่างรวดเร็ว\r\nสร้างแรงกระแทกเป็นวงกว้าง",
+          "LocalizedString": "ปล่อยสายฟ้าอย่างรวดเร็ว\r\nสร้างแรงกระแทกเป็นวงกว้าง"
+        }
+      },
+      "ACTION_SKILL_Thunderbolt": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Thunderbolt_TextData",
+          "SourceString": "ชาร์จพลังงานสายฟ้า\r\nแล้วปล่อยกระแสไฟฟ้าแรงสูงออกไปหาศัตรู",
+          "LocalizedString": "ชาร์จพลังงานสายฟ้า\r\nแล้วปล่อยกระแสไฟฟ้าแรงสูงออกไปหาศัตรู"
+        }
+      },
+      "ACTION_SKILL_ThunderFunnel": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_ThunderFunnel_TextData",
+          "SourceString": "สร้างบอลพลังงานสายฟ้า 2 ลูก\r\nแล้วใช้บอลเหล่านั้นยิงกระสุนสายฟ้าใส่ศัตรู",
+          "LocalizedString": "สร้างบอลพลังงานสายฟ้า 2 ลูก\r\nแล้วใช้บอลเหล่านั้นยิงกระสุนสายฟ้าใส่ศัตรู"
+        }
+      },
+      "ACTION_SKILL_SpreadPulse": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_SpreadPulse_TextData",
+          "SourceString": "ยิงบอลสายฟ้า\r\nกระจายใส่ศัตรูเป็นรูปพัด",
+          "LocalizedString": "ยิงบอลสายฟ้า\r\nกระจายใส่ศัตรูเป็นรูปพัด"
+        }
+      },
+      "ACTION_SKILL_LockonLaser": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_LockonLaser_TextData",
+          "SourceString": "เล็งเป้าศัตรู\r\nแล้วยิงเลเซอร์สายฟ้าความเร็วสูงใส่",
+          "LocalizedString": "เล็งเป้าศัตรู\r\nแล้วยิงเลเซอร์สายฟ้าความเร็วสูงใส่"
+        }
+      },
+      "ACTION_SKILL_LightningStrike": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_LightningStrike_TextData",
+          "SourceString": "ใช้ตัวเองต่างสายล่อฟ้า เรียกฟ้าผ่า\r\nระเบิดพลังสายฟ้าขึ้น ณ บริเวณนั้น",
+          "LocalizedString": "ใช้ตัวเองต่างสายล่อฟ้า เรียกฟ้าผ่า\r\nระเบิดพลังสายฟ้าขึ้น ณ บริเวณนั้น"
+        }
+      },
+      "ACTION_SKILL_TriSpark": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_TriSpark_TextData",
+          "SourceString": "ยิงบอลสายฟ้าความเร็วสูงที่พุ่งเป็นเส้นตรง\r\nและบอลสายฟ้าความเร็วต่ำติดตามศัตรูออกไปพร้อมกัน",
+          "LocalizedString": "ยิงบอลสายฟ้าความเร็วสูงที่พุ่งเป็นเส้นตรง\r\nและบอลสายฟ้าความเร็วต่ำติดตามศัตรูออกไปพร้อมกัน"
+        }
+      },
+      "ACTION_SKILL_ThunderStorm": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_ThunderStorm_TextData",
+          "SourceString": "สร้างพายุหมุนสายฟ้าขนาดใหญ่\r\nพัดพายุหมุนให้เคลื่อนที่เข้าศัตรูอย่างช้า ๆ",
+          "LocalizedString": "สร้างพายุหมุนสายฟ้าขนาดใหญ่\r\nพัดพายุหมุนให้เคลื่อนที่เข้าศัตรูอย่างช้า ๆ"
+        }
+      },
+      "ACTION_SKILL_RangeThunder": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_RangeThunder_TextData",
+          "SourceString": "ปล่อยสายฟ้าพุ่งไปเป็นเส้นตรงทุกทิศทาง",
+          "LocalizedString": "ปล่อยสายฟ้าพุ่งไปเป็นเส้นตรงทุกทิศทาง"
+        }
+      },
+      "ACTION_SKILL_Railbolt": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Railbolt_TextData",
+          "SourceString": "ชาร์จพลังงานสายฟ้าจนถึงขีดจำกัด\r\nแล้วยิงลำแสงทรงพลังจำนวนมากออกไปหาศัตรูพร้อมกัน",
+          "LocalizedString": "ชาร์จพลังงานสายฟ้าจนถึงขีดจำกัด\r\nแล้วยิงลำแสงทรงพลังจำนวนมากออกไปหาศัตรูพร้อมกัน"
+        }
+      },
+      "ACTION_SKILL_ShokeiLaser": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_ShokeiLaser_TextData",
+          "SourceString": "เล็งเป้าศัตรู\r\nแล้วยิงเลเซอร์สายฟ้าความเร็วสูงหลายสายใส่",
+          "LocalizedString": "เล็งเป้าศัตรู\r\nแล้วยิงเลเซอร์สายฟ้าความเร็วสูงหลายสายใส่"
+        }
+      },
+      "ACTION_SKILL_ThunderSpear": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_ThunderSpear_TextData",
+          "SourceString": "ยิงหอกสายฟ้า\r\nพุ่งเข้าใส่ศัตรูด้วยความเร็วสูง",
+          "LocalizedString": "ยิงหอกสายฟ้า\r\nพุ่งเข้าใส่ศัตรูด้วยความเร็วสูง"
+        }
+      },
+      "ACTION_SKILL_IceMissile": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_IceMissile_TextData",
+          "SourceString": "สร้างก้อนน้ำแข็งปลายแหลม\r\nยิงใส่ศัตรูจากบนฟ้า",
+          "LocalizedString": "สร้างก้อนน้ำแข็งปลายแหลม\r\nยิงใส่ศัตรูจากบนฟ้า"
+        }
+      },
+      "ACTION_SKILL_BlizzardLance": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_BlizzardLance_TextData",
+          "SourceString": "เรียกใบมีดน้ำแข็งคมกริบ\r\nจากปลายเท้าศัตรู",
+          "LocalizedString": "เรียกใบมีดน้ำแข็งคมกริบ\r\nจากปลายเท้าศัตรู"
+        }
+      },
+      "ACTION_SKILL_Snowstorm": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Snowstorm_TextData",
+          "SourceString": "รวมพลังไอเย็นมาไว้รอบตัว\r\nโจมตีใส่ศัตรูใกล้เคียง\r\nก่อนปล่อยพายุหิมะใส่ศัตรู",
+          "LocalizedString": "รวมพลังไอเย็นมาไว้รอบตัว\r\nโจมตีใส่ศัตรูใกล้เคียง\r\nก่อนปล่อยพายุหิมะใส่ศัตรู"
+        }
+      },
+      "ACTION_SKILL_IcicleThrow": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_IcicleThrow_TextData",
+          "SourceString": "สร้างก้อนน้ำแข็งขนาดยักษ์\r\nยิงใส่ศัตรูด้วยความเร็วสูง\r\nเมื่อตกกระทบจะสร้างแรงกระแทกไปยังรอบตัวด้วย",
+          "LocalizedString": "สร้างก้อนน้ำแข็งขนาดยักษ์\r\nยิงใส่ศัตรูด้วยความเร็วสูง\r\nเมื่อตกกระทบจะสร้างแรงกระแทกไปยังรอบตัวด้วย"
+        }
+      },
+      "ACTION_SKILL_IceBlade": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_IceBlade_TextData",
+          "SourceString": "สร้างใบมีดน้ำแข็งทรงจันทร์เสี้ยว\r\nซัดออกไปด้านหน้า",
+          "LocalizedString": "สร้างใบมีดน้ำแข็งทรงจันทร์เสี้ยว\r\nซัดออกไปด้านหน้า"
+        }
+      },
+      "ACTION_SKILL_FrostBreath": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_FrostBreath_TextData",
+          "SourceString": "พ่นไอเย็นใส่ศัตรู\r\nสร้างความเสียหายต่อเนื่อง",
+          "LocalizedString": "พ่นไอเย็นใส่ศัตรู\r\nสร้างความเสียหายต่อเนื่อง"
+        }
+      },
+      "ACTION_SKILL_DiamondFall": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_DiamondFall_TextData",
+          "SourceString": "สร้างก้อนน้ำแข็งขึ้นเหนือศีรษะของศัตรู แล้วโปรยลงมาอย่างต่อเนื่อง",
+          "LocalizedString": "สร้างก้อนน้ำแข็งขึ้นเหนือศีรษะของศัตรู แล้วโปรยลงมาอย่างต่อเนื่อง"
+        }
+      },
+      "ACTION_SKILL_IcicleLine": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_IcicleLine_TextData",
+          "SourceString": "สร้างเสาน้ำแข็งพุ่งไปเป็นเส้นตรงสามทิศทาง",
+          "LocalizedString": "สร้างเสาน้ำแข็งพุ่งไปเป็นเส้นตรงสามทิศทาง"
+        }
+      },
+      "ACTION_SKILL_DoubleIcicleThrow": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_DoubleIcicleThrow_TextData",
+          "SourceString": "สร้างก้อนน้ำแข็งขนาดยักษ์ 2 ก้อน\r\nยิงต่อเนื่องใส่ศัตรู\r\nเมื่อตกกระทบจะสร้างแรงกระแทกไปยังรอบตัวด้วย",
+          "LocalizedString": "สร้างก้อนน้ำแข็งขนาดยักษ์ 2 ก้อน\r\nยิงต่อเนื่องใส่ศัตรู\r\nเมื่อตกกระทบจะสร้างแรงกระแทกไปยังรอบตัวด้วย"
+        }
+      },
+      "ACTION_SKILL_IceAge": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_IceAge_TextData",
+          "SourceString": "เรียกเสาน้ำแข็งขึ้นมาเป็นวงกว้างจากปลายเท้าศัตรู",
+          "LocalizedString": "เรียกเสาน้ำแข็งขึ้นมาเป็นวงกว้างจากปลายเท้าศัตรู"
+        }
+      },
+      "ACTION_SKILL_IciclePierce": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_IciclePierce_TextData",
+          "SourceString": "สร้างก้อนน้ำแข็งปลายแหลมจำนวนมาก\r\nยิงใส่ศัตรูจากบนฟ้า",
+          "LocalizedString": "สร้างก้อนน้ำแข็งปลายแหลมจำนวนมาก\r\nยิงใส่ศัตรูจากบนฟ้า"
+        }
+      },
+      "ACTION_SKILL_IceWall": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_IceWall_TextData",
+          "SourceString": "สร้างกำแพงน้ำแข็งจากพื้นดิน\r\nกำแพงน้ำแข็งจะคงอยู่ได้ครู่หนึ่ง\r\nและจะสลายไปหลังได้รับความเสียหายระดับหนึ่ง",
+          "LocalizedString": "สร้างกำแพงน้ำแข็งจากพื้นดิน\r\nกำแพงน้ำแข็งจะคงอยู่ได้ครู่หนึ่ง\r\nและจะสลายไปหลังได้รับความเสียหายระดับหนึ่ง"
+        }
+      },
+      "ACTION_SKILL_SandTornado": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_SandTornado_TextData",
+          "SourceString": "สร้างพายุทรายหมุนขึ้นทางซ้ายและขวา\r\nพัดเข้าใส่ศัตรู",
+          "LocalizedString": "สร้างพายุทรายหมุนขึ้นทางซ้ายและขวา\r\nพัดเข้าใส่ศัตรู"
+        }
+      },
+      "ACTION_SKILL_ThrowRock": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_ThrowRock_TextData",
+          "SourceString": "สร้างหินผาขึ้นมาจากพื้นดินตรงหน้า\r\nยิงใส่ศัตรู",
+          "LocalizedString": "สร้างหินผาขึ้นมาจากพื้นดินตรงหน้า\r\nยิงใส่ศัตรู"
+        }
+      },
+      "ACTION_SKILL_RockLance": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_RockLance_TextData",
+          "SourceString": "เรียกหอกหินคมกริบ\r\nจากปลายเท้าศัตรู",
+          "LocalizedString": "เรียกหอกหินคมกริบ\r\nจากปลายเท้าศัตรู"
+        }
+      },
+      "ACTION_SKILL_MudShot": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_MudShot_TextData",
+          "SourceString": "ยิงโคลนหนืด\r\nใส่ศัตรู",
+          "LocalizedString": "ยิงโคลนหนืด\r\nใส่ศัตรู"
+        }
+      },
+      "ACTION_SKILL_StoneShotgun": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_StoneShotgun_TextData",
+          "SourceString": "ยิงก้อนกรวดจำนวนมาก\r\nออกไปด้านหน้า",
+          "LocalizedString": "ยิงก้อนกรวดจำนวนมาก\r\nออกไปด้านหน้า"
+        }
+      },
+      "ACTION_SKILL_Tremor": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Tremor_TextData",
+          "SourceString": "สร้างแผ่นดินไหว\r\nแล้วซัดก้อนหินขนาดใหญ่ออกไปรอบบริเวณ",
+          "LocalizedString": "สร้างแผ่นดินไหว\r\nแล้วซัดก้อนหินขนาดใหญ่ออกไปรอบบริเวณ"
+        }
+      },
+      "ACTION_SKILL_SandTwister": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_SandTwister_TextData",
+          "SourceString": "สร้างพายุทรายหมุนจำนวนมาก\r\nให้พัดวนเป็นวงกลมต่อเนื่อง",
+          "LocalizedString": "สร้างพายุทรายหมุนจำนวนมาก\r\nให้พัดวนเป็นวงกลมต่อเนื่อง"
+        }
+      },
+      "ACTION_SKILL_RockBeat": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_RockBeat_TextData",
+          "SourceString": "สร้างแผ่นดินไหว\r\nทำให้ก้อนหินขนาดใหญ่ลอยขึ้น",
+          "LocalizedString": "สร้างแผ่นดินไหว\r\nทำให้ก้อนหินขนาดใหญ่ลอยขึ้น"
+        }
+      },
+      "ACTION_SKILL_DarkLaser": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_DarkLaser_TextData",
+          "SourceString": "ชาร์จพลังงานความมืด\r\nแล้วยิงลำแสงทรงพลังออกไปหาศัตรู",
+          "LocalizedString": "ชาร์จพลังงานความมืด\r\nแล้วยิงลำแสงทรงพลังออกไปหาศัตรู"
+        }
+      },
+      "ACTION_SKILL_DarkWave": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_DarkWave_TextData",
+          "SourceString": "ปล่อยพลังความมืดอย่างรวดเร็ว\r\nสร้างแรงกระแทกเป็นวงกว้าง",
+          "LocalizedString": "ปล่อยพลังความมืดอย่างรวดเร็ว\r\nสร้างแรงกระแทกเป็นวงกว้าง"
+        }
+      },
+      "ACTION_SKILL_Psychokinesis": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Psychokinesis_TextData",
+          "SourceString": "ช่วงชิงการเคลื่อนไหวที่อิสระของศัตรู\r\nควบคุมด้วยพลังจิต เหวี่ยงกระทบจากที่สูงมายังพื้นผิวโลก",
+          "LocalizedString": "ช่วงชิงการเคลื่อนไหวที่อิสระของศัตรู\r\nควบคุมด้วยพลังจิต เหวี่ยงกระทบจากที่สูงมายังพื้นผิวโลก"
+        }
+      },
+      "ACTION_SKILL_ShadowBall": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_ShadowBall_TextData",
+          "SourceString": "สร้างบอลความมืดขนาดยักษ์ขึ้นเหนือศีรษะ\r\nยิงใส่ศัตรูด้วยความเร็วสูง",
+          "LocalizedString": "สร้างบอลความมืดขนาดยักษ์ขึ้นเหนือศีรษะ\r\nยิงใส่ศัตรูด้วยความเร็วสูง"
+        }
+      },
+      "ACTION_SKILL_GhostFlame": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_GhostFlame_TextData",
+          "SourceString": "รวมความแค้นฝังลึกเป็นก้อนกลม 3 ก้อน\r\nยิงออกไปไล่ตามศัตรู",
+          "LocalizedString": "รวมความแค้นฝังลึกเป็นก้อนกลม 3 ก้อน\r\nยิงออกไปไล่ตามศัตรู"
+        }
+      },
+      "ACTION_SKILL_PoisonShot": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_PoisonShot_TextData",
+          "SourceString": "ยิงโคลนพิษ\r\nใส่ศัตรู",
+          "LocalizedString": "ยิงโคลนพิษ\r\nใส่ศัตรู"
+        }
+      },
+      "ACTION_SKILL_DarkBall": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_DarkBall_TextData",
+          "SourceString": "ยิงบอลความมืด\r\nไล่ตามศัตรูอย่างช้า ๆ",
+          "LocalizedString": "ยิงบอลความมืด\r\nไล่ตามศัตรูอย่างช้า ๆ"
+        }
+      },
+      "ACTION_SKILL_DarkLegion": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_DarkLegion_TextData",
+          "SourceString": "ยิงบอลความมืดจำนวนมากไล่ตามศัตรู",
+          "LocalizedString": "ยิงบอลความมืดจำนวนมากไล่ตามศัตรู"
+        }
+      },
+      "ACTION_SKILL_DarkCanon": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_DarkCanon_TextData",
+          "SourceString": "ยิงกระสุนพลังงานความมืด\r\nใส่ศัตรูด้วยความเร็วสูง",
+          "LocalizedString": "ยิงกระสุนพลังงานความมืด\r\nใส่ศัตรูด้วยความเร็วสูง"
+        }
+      },
+      "ACTION_SKILL_DarkArrow": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_DarkArrow_TextData",
+          "SourceString": "ยิงลูกศรความมืดจำนวนมาก\r\nไล่ตามศัตรูอย่างรวดเร็วและต่อเนื่อง",
+          "LocalizedString": "ยิงลูกศรความมืดจำนวนมาก\r\nไล่ตามศัตรูอย่างรวดเร็วและต่อเนื่อง"
+        }
+      },
+      "ACTION_SKILL_DarkPulse": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_DarkPulse_TextData",
+          "SourceString": "ยิงบอลความมืด\r\nกระจายใส่ศัตรูเป็นรูปพัด",
+          "LocalizedString": "ยิงบอลความมืด\r\nกระจายใส่ศัตรูเป็นรูปพัด"
+        }
+      },
+      "ACTION_SKILL_Apocalypse": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Apocalypse_TextData",
+          "SourceString": "สร้างพายุหมุนแห่งความมืดหลายลูกรอบตัวศัตรู",
+          "LocalizedString": "สร้างพายุหมุนแห่งความมืดหลายลูกรอบตัวศัตรู"
+        }
+      },
+      "ACTION_SKILL_ChaosLaser": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_ChaosLaser_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "ACTION_SKILL_BubbleShower": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_BubbleShower_TextData",
+          "SourceString": "สะสมพลังไว้ในร่าง\r\nโปรยบอลพิษออกไปทุกทิศทาง",
+          "LocalizedString": "สะสมพลังไว้ในร่าง\r\nโปรยบอลพิษออกไปทุกทิศทาง"
+        }
+      },
+      "ACTION_SKILL_GravityShot": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_GravityShot_TextData",
+          "SourceString": "ยิงกระสุนพลังงานความมืด\r\nให้กระสุนเคลื่อนที่เร็วขึ้นทีละน้อย",
+          "LocalizedString": "ยิงกระสุนพลังงานความมืด\r\nให้กระสุนเคลื่อนที่เร็วขึ้นทีละน้อย"
+        }
+      },
+      "ACTION_SKILL_DragonMeteor": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_DragonMeteor_TextData",
+          "SourceString": "เรียกอุกกาบาตขนาดเล็กจำนวนมาก\r\nยิงใส่ศัตรู",
+          "LocalizedString": "เรียกอุกกาบาตขนาดเล็กจำนวนมาก\r\nยิงใส่ศัตรู"
+        }
+      },
+      "ACTION_SKILL_DragonBreath": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_DragonBreath_TextData",
+          "SourceString": "พ่นลมหายใจพลังมังกรไปด้านหน้า\r\nสร้างความเสียหายต่อเนื่อง",
+          "LocalizedString": "พ่นลมหายใจพลังมังกรไปด้านหน้า\r\nสร้างความเสียหายต่อเนื่อง"
+        }
+      },
+      "ACTION_SKILL_DragonWave": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_DragonWave_TextData",
+          "SourceString": "ปล่อยพลังมังกรอย่างรวดเร็ว\r\nสร้างแรงกระแทกเป็นวงกว้าง",
+          "LocalizedString": "ปล่อยพลังมังกรอย่างรวดเร็ว\r\nสร้างแรงกระแทกเป็นวงกว้าง"
+        }
+      },
+      "ACTION_SKILL_DragonCanon": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_DragonCanon_TextData",
+          "SourceString": "ยิงกระสุนพลังงานมังกร\r\nใส่ศัตรู",
+          "LocalizedString": "ยิงกระสุนพลังงานมังกร\r\nใส่ศัตรู"
+        }
+      },
+      "ACTION_SKILL_BeamSlicer": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_BeamSlicer_TextData",
+          "SourceString": "ใช้ลำแสงพลังมังกรกวาดพื้นที่ด้านหน้า\r\nเมื่อเวลาผ่านไปพื้นที่ที่โดนลำแสงกวาดจะระเบิด",
+          "LocalizedString": "ใช้ลำแสงพลังมังกรกวาดพื้นที่ด้านหน้า\r\nเมื่อเวลาผ่านไปพื้นที่ที่โดนลำแสงกวาดจะระเบิด"
+        }
+      },
+      "ACTION_SKILL_Commet": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Commet_TextData",
+          "SourceString": "เรียกอุกกาบาตให้ตกลงมาจากเหนือศีรษะศัตรู\r\nสร้างคลื่นกระแทกเป็นวงกว้าง",
+          "LocalizedString": "เรียกอุกกาบาตให้ตกลงมาจากเหนือศีรษะศัตรู\r\nสร้างคลื่นกระแทกเป็นวงกว้าง"
+        }
+      },
+      "ACTION_SKILL_ThreeCommet": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_ThreeCommet_TextData",
+          "SourceString": "เรียกอุกกาบาตให้ตกลงมาต่อเนื่อง\r\nสร้างคลื่นกระแทกเป็นวงกว้าง",
+          "LocalizedString": "เรียกอุกกาบาตให้ตกลงมาต่อเนื่อง\r\nสร้างคลื่นกระแทกเป็นวงกว้าง"
+        }
+      },
+      "ACTION_SKILL_CommetRain": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_CommetRain_TextData",
+          "SourceString": "เรียกอุกกาบาตจำนวนมากให้ตกลงมา\r\nสร้างคลื่นกระแทกเป็นวงกว้าง",
+          "LocalizedString": "เรียกอุกกาบาตจำนวนมากให้ตกลงมา\r\nสร้างคลื่นกระแทกเป็นวงกว้าง"
+        }
+      },
+      "ACTION_SKILL_BlastCanon": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_BlastCanon_TextData",
+          "SourceString": "ยิงกระสุนพลังงานมังกรใส่จุดที่มีศัตรู\r\nเมื่อกระสุนพลังงานยิงโดนศัตรูจะกระจายตัว\r\nและระเบิดพื้นที่ด้านหน้าเป็นวงกว้าง",
+          "LocalizedString": "ยิงกระสุนพลังงานมังกรใส่จุดที่มีศัตรู\r\nเมื่อกระสุนพลังงานยิงโดนศัตรูจะกระจายตัว\r\nและระเบิดพื้นที่ด้านหน้าเป็นวงกว้าง"
+        }
+      },
+      "ACTION_SKILL_ChargeCanon": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_ChargeCanon_TextData",
+          "SourceString": "ยิงกระสุนพลังงานมังกรใส่ศัตรู\r\nเมื่อกระสุนโดนศัตรู\r\nจะระเบิดเป็นวงกว้าง",
+          "LocalizedString": "ยิงกระสุนพลังงานมังกรใส่ศัตรู\r\nเมื่อกระสุนโดนศัตรู\r\nจะระเบิดเป็นวงกว้าง"
+        }
+      },
+      "ACTION_SKILL_TripleCanon": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_TripleCanon_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "PASSIVE_TrainerATK_UP_1": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_TrainerATK_UP_1_TextData",
+          "SourceString": "เพิ่งพลังโจมตีของผู้เล่น{EffectValue1}%",
+          "LocalizedString": "เพิ่งพลังโจมตีของผู้เล่น{EffectValue1}%"
+        }
+      },
+      "PASSIVE_TrainerDEF_UP_1": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_TrainerDEF_UP_1_TextData",
+          "SourceString": "เพิ่งพลังป้องกันของผู้เล่น{EffectValue1}%",
+          "LocalizedString": "เพิ่งพลังป้องกันของผู้เล่น{EffectValue1}%"
+        }
+      },
+      "PASSIVE_TrainerWorkSpeed_UP_1": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_TrainerWorkSpeed_UP_1_TextData",
+          "SourceString": "เพิ่งความเร็วการทำงานของผู้เล่น{EffectValue1}%",
+          "LocalizedString": "เพิ่งความเร็วการทำงานของผู้เล่น{EffectValue1}%"
+        }
+      },
+      "PASSIVE_TrainerMining_up1": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_TrainerMining_up1_TextData",
+          "SourceString": "เพิ่งประสิทธิภาพการขุดแร่ของผู้เล่น{EffectValue1}%",
+          "LocalizedString": "เพิ่งประสิทธิภาพการขุดแร่ของผู้เล่น{EffectValue1}%"
+        }
+      },
+      "PASSIVE_TrainerLogging_up1": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_TrainerLogging_up1_TextData",
+          "SourceString": "เพิ่งประสิทธิภาพการตัดไม้ของผู้เล่น{EffectValue1}%",
+          "LocalizedString": "เพิ่งประสิทธิภาพการตัดไม้ของผู้เล่น{EffectValue1}%"
+        }
+      },
+      "PASSIVE_ElementResist_Normal_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementResist_Normal_1_PAL_TextData",
+          "SourceString": "ลดความเสียหายไร้ธาตุ{EffectValue1}%",
+          "LocalizedString": "ลดความเสียหายไร้ธาตุ{EffectValue1}%"
+        }
+      },
+      "PASSIVE_ElementResist_Fire_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementResist_Fire_1_PAL_TextData",
+          "SourceString": "ลดความเสียหายธาตุไฟ{EffectValue1}%",
+          "LocalizedString": "ลดความเสียหายธาตุไฟ{EffectValue1}%"
+        }
+      },
+      "PASSIVE_ElementResist_Aqua_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementResist_Aqua_1_PAL_TextData",
+          "SourceString": "ลดความเสียหายธาตุน้ำ{EffectValue1}%",
+          "LocalizedString": "ลดความเสียหายธาตุน้ำ{EffectValue1}%"
+        }
+      },
+      "PASSIVE_ElementResist_Thunder_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementResist_Thunder_1_PAL_TextData",
+          "SourceString": "ลดความเสียหายธาตุสายฟ้า{EffectValue1}%",
+          "LocalizedString": "ลดความเสียหายธาตุสายฟ้า{EffectValue1}%"
+        }
+      },
+      "PASSIVE_ElementResist_Leaf_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementResist_Leaf_1_PAL_TextData",
+          "SourceString": "ลดความเสียหายธาตุพืช{EffectValue1}%",
+          "LocalizedString": "ลดความเสียหายธาตุพืช{EffectValue1}%"
+        }
+      },
+      "PASSIVE_ElementResist_Ice_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementResist_Ice_1_PAL_TextData",
+          "SourceString": "ลดความเสียหายธาตุน้ำแข็ง{EffectValue1}%",
+          "LocalizedString": "ลดความเสียหายธาตุน้ำแข็ง{EffectValue1}%"
+        }
+      },
+      "PASSIVE_ElementResist_Earth_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementResist_Earth_1_PAL_TextData",
+          "SourceString": "ลดความเสียหายธาตุดิน{EffectValue1}%",
+          "LocalizedString": "ลดความเสียหายธาตุดิน{EffectValue1}%"
+        }
+      },
+      "PASSIVE_ElementResist_Dark_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementResist_Dark_1_PAL_TextData",
+          "SourceString": "ลดความเสียหายธาตุความมืด{EffectValue1}%",
+          "LocalizedString": "ลดความเสียหายธาตุความมืด{EffectValue1}%"
+        }
+      },
+      "PASSIVE_ElementResist_Dragon_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementResist_Dragon_1_PAL_TextData",
+          "SourceString": "ลดความเสียหายธาตุมังกร{EffectValue1}%",
+          "LocalizedString": "ลดความเสียหายธาตุมังกร{EffectValue1}%"
+        }
+      },
+      "PASSIVE_ElementBoost_Normal_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementBoost_Normal_1_PAL_TextData",
+          "SourceString": "เพิ่มความเสียหายการโจมตีไร้ธาตุ{EffectValue1}%",
+          "LocalizedString": "เพิ่มความเสียหายการโจมตีไร้ธาตุ{EffectValue1}%"
+        }
+      },
+      "PASSIVE_ElementBoost_Fire_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementBoost_Fire_1_PAL_TextData",
+          "SourceString": "เพิ่มความเสียหายการโจมตีธาตุไฟ{EffectValue1}%",
+          "LocalizedString": "เพิ่มความเสียหายการโจมตีธาตุไฟ{EffectValue1}%"
+        }
+      },
+      "PASSIVE_ElementBoost_Aqua_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementBoost_Aqua_1_PAL_TextData",
+          "SourceString": "เพิ่มความเสียหายการโจมตีธาตุน้ำ{EffectValue1}%",
+          "LocalizedString": "เพิ่มความเสียหายการโจมตีธาตุน้ำ{EffectValue1}%"
+        }
+      },
+      "PASSIVE_ElementBoost_Thunder_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementBoost_Thunder_1_PAL_TextData",
+          "SourceString": "เพิ่มความเสียหายการโจมตีธาตุสายฟ้า{EffectValue1}%",
+          "LocalizedString": "เพิ่มความเสียหายการโจมตีธาตุสายฟ้า{EffectValue1}%"
+        }
+      },
+      "PASSIVE_ElementBoost_Leaf_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementBoost_Leaf_1_PAL_TextData",
+          "SourceString": "เพิ่มความเสียหายการโจมตีธาตุพืช{EffectValue1}%",
+          "LocalizedString": "เพิ่มความเสียหายการโจมตีธาตุพืช{EffectValue1}%"
+        }
+      },
+      "PASSIVE_ElementBoost_Ice_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementBoost_Ice_1_PAL_TextData",
+          "SourceString": "เพิ่มความเสียหายการโจมตีธาตุน้ำแข็ง{EffectValue1}%",
+          "LocalizedString": "เพิ่มความเสียหายการโจมตีธาตุน้ำแข็ง{EffectValue1}%"
+        }
+      },
+      "PASSIVE_ElementBoost_Earth_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementBoost_Earth_1_PAL_TextData",
+          "SourceString": "เพิ่มความเสียหายการโจมตีธาตุดิน{EffectValue1}%",
+          "LocalizedString": "เพิ่มความเสียหายการโจมตีธาตุดิน{EffectValue1}%"
+        }
+      },
+      "PASSIVE_ElementBoost_Dark_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementBoost_Dark_1_PAL_TextData",
+          "SourceString": "เพิ่มความเสียหายการโจมตีธาตุความมืด{EffectValue1}%",
+          "LocalizedString": "เพิ่มความเสียหายการโจมตีธาตุความมืด{EffectValue1}%"
+        }
+      },
+      "PASSIVE_ElementBoost_Dragon_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementBoost_Dragon_1_PAL_TextData",
+          "SourceString": "เพิ่มความเสียหายการโจมตีธาตุมังกร{EffectValue1}%",
+          "LocalizedString": "เพิ่มความเสียหายการโจมตีธาตุมังกร{EffectValue1}%"
+        }
+      },
+      "PASSIVE_ElementBoost_Dark_Ice_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementBoost_Dark_Ice_1_PAL_TextData",
+          "SourceString": "เพิ่มความเสียหายการโจมตีธาตุความมืด{EffectValue1}%\r\nเพิ่มความเสียหายการโจมตีธาตุน้ำแข็ง{EffectValue1}%",
+          "LocalizedString": "เพิ่มความเสียหายการโจมตีธาตุความมืด{EffectValue1}%\r\nเพิ่มความเสียหายการโจมตีธาตุน้ำแข็ง{EffectValue1}%"
+        }
+      },
+      "PASSIVE_PAL_FullStomach_Up_1": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_PAL_FullStomach_Up_1_TextData",
+          "SourceString": "ค่าความอิ่มลดเร็วขึ้น <NumRed_13>+10.0%</>",
+          "LocalizedString": "ค่าความอิ่มลดเร็วขึ้น <NumRed_13>+10.0%</>"
+        }
+      },
+      "PASSIVE_PAL_FullStomach_Up_2": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_PAL_FullStomach_Up_2_TextData",
+          "SourceString": "ค่าความอิ่มลดเร็วขึ้น <NumRed_13>+15.0%</>",
+          "LocalizedString": "ค่าความอิ่มลดเร็วขึ้น <NumRed_13>+15.0%</>"
+        }
+      },
+      "PASSIVE_PAL_FullStomach_Down_1": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_PAL_FullStomach_Down_1_TextData",
+          "SourceString": "ค่าความอิ่มลดช้าลง <NumBlue_13>+10.0%</>",
+          "LocalizedString": "ค่าความอิ่มลดช้าลง <NumBlue_13>+10.0%</>"
+        }
+      },
+      "PASSIVE_PAL_FullStomach_Down_2": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_PAL_FullStomach_Down_2_TextData",
+          "SourceString": "ค่าความอิ่มลดช้าลง <NumBlue_13>+15.0%</>",
+          "LocalizedString": "ค่าความอิ่มลดช้าลง <NumBlue_13>+15.0%</>"
+        }
+      },
+      "PASSIVE_PAL_FullStomach_Down_3": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_PAL_FullStomach_Down_3_TextData",
+          "SourceString": "ค่าความอิ่มลดช้าลง <NumBlue_13>+20.0%</>",
+          "LocalizedString": "ค่าความอิ่มลดช้าลง <NumBlue_13>+20.0%</>"
+        }
+      },
+      "PASSIVE_PAL_Sanity_Up_1": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_PAL_Sanity_Up_1_TextData",
+          "SourceString": "ค่า SAN ลดเร็วขึ้น <NumRed_13>+10.0%</>",
+          "LocalizedString": "ค่า SAN ลดเร็วขึ้น <NumRed_13>+10.0%</>"
+        }
+      },
+      "PASSIVE_PAL_Sanity_Up_2": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_PAL_Sanity_Up_2_TextData",
+          "SourceString": "ค่า SAN ลดเร็วขึ้น <NumRed_13>+15.0%</>",
+          "LocalizedString": "ค่า SAN ลดเร็วขึ้น <NumRed_13>+15.0%</>"
+        }
+      },
+      "PASSIVE_PAL_Sanity_Down_1": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_PAL_Sanity_Down_1_TextData",
+          "SourceString": "ค่า SAN ลดช้าลง <NumBlue_13>+10.0%</>",
+          "LocalizedString": "ค่า SAN ลดช้าลง <NumBlue_13>+10.0%</>"
+        }
+      },
+      "PASSIVE_PAL_Sanity_Down_2": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_PAL_Sanity_Down_2_TextData",
+          "SourceString": "ค่า SAN ลดช้าลง <NumBlue_13>+15.0%</>",
+          "LocalizedString": "ค่า SAN ลดช้าลง <NumBlue_13>+15.0%</>"
+        }
+      },
+      "PASSIVE_PAL_Sanity_Down_3": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_PAL_Sanity_Down_3_TextData",
+          "SourceString": "ค่า SAN ลดช้าลง <NumBlue_13>+20.0%</>",
+          "LocalizedString": "ค่า SAN ลดช้าลง <NumBlue_13>+20.0%</>"
+        }
+      },
+      "PASSIVE_PAL_MoveSpeed_up_1": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_PAL_MoveSpeed_up_1_TextData",
+          "SourceString": "เพิ่มความเร็วเคลื่อนที่{EffectValue1}%",
+          "LocalizedString": "เพิ่มความเร็วเคลื่อนที่{EffectValue1}%"
+        }
+      },
+      "PASSIVE_PAL_MoveSpeed_up_2": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_PAL_MoveSpeed_up_2_TextData",
+          "SourceString": "เพิ่มความเร็วเคลื่อนที่{EffectValue1}%",
+          "LocalizedString": "เพิ่มความเร็วเคลื่อนที่{EffectValue1}%"
+        }
+      },
+      "PASSIVE_PAL_MoveSpeed_up_3": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_PAL_MoveSpeed_up_3_TextData",
+          "SourceString": "เพิ่มความเร็วเคลื่อนที่{EffectValue1}%",
+          "LocalizedString": "เพิ่มความเร็วเคลื่อนที่{EffectValue1}%"
+        }
+      },
+      "PASSIVE_Legend_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_Legend_DESC_TextData",
+          "SourceString": "พลังโจมตี+{EffectValue1}%\r\nพลังป้องกัน+{EffectValue2}%\r\nเพิ่มความเร็วเคลื่อนที่{EffectValue3}%",
+          "LocalizedString": "พลังโจมตี+{EffectValue1}%\r\nพลังป้องกัน+{EffectValue2}%\r\nเพิ่มความเร็วเคลื่อนที่{EffectValue3}%"
+        }
+      },
+      "PASSIVE_NonKilling_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_NonKilling_DESC_TextData",
+          "SourceString": "ผู้รักความสงบสุข\r\nทำให้ HP ของเป้าหมายลดต่ำกว่า 1 ไม่ได้",
+          "LocalizedString": "ผู้รักความสงบสุข\r\nทำให้ HP ของเป้าหมายลดต่ำกว่า 1 ไม่ได้"
+        }
+      },
+      "PASSIVE_Nocturnal_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_Nocturnal_DESC_TextData",
+          "SourceString": "แม้จะดึกแล้วแต่ก็ไม่นอน ยังทำงานต่อ",
+          "LocalizedString": "แม้จะดึกแล้วแต่ก็ไม่นอน ยังทำงานต่อ"
+        }
+      },
+      "PASSIVE_CoolTimeReduction_Up_1_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_CoolTimeReduction_Up_1_DESC_TextData",
+          "SourceString": "ลดเวลาคูลดาวน์ของสกิลใช้งาน{EffectValue1}%\r\nพลังโจมตี+{EffectValue2}%",
+          "LocalizedString": "ลดเวลาคูลดาวน์ของสกิลใช้งาน{EffectValue1}%\r\nพลังโจมตี+{EffectValue2}%"
+        }
+      },
+      "PASSIVE_CoolTimeReduction_Up_2_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_CoolTimeReduction_Up_2_DESC_TextData",
+          "SourceString": "ลดเวลาคูลดาวน์ของสกิลใช้งาน{EffectValue1}%",
+          "LocalizedString": "ลดเวลาคูลดาวน์ของสกิลใช้งาน{EffectValue1}%"
+        }
+      },
+      "PASSIVE_CoolTimeReduction_Up_3_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_CoolTimeReduction_Up_3_DESC_TextData",
+          "SourceString": "ลดเวลาคูลดาวน์ของสกิลใช้งาน{EffectValue1}%\r\nพลังโจมตี+{EffectValue2}%",
+          "LocalizedString": "ลดเวลาคูลดาวน์ของสกิลใช้งาน{EffectValue1}%\r\nพลังโจมตี+{EffectValue2}%"
+        }
+      },
+      "PASSIVE_CoolTimeReduction_Down_1_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_CoolTimeReduction_Down_1_DESC_TextData",
+          "SourceString": "เพิ่มเวลาคูลดาวน์ของสกิลใช้งาน{EffectValue1}%",
+          "LocalizedString": "เพิ่มเวลาคูลดาวน์ของสกิลใช้งาน{EffectValue1}%"
+        }
+      },
+      "PASSIVE_Stamina_Up_1_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_Stamina_Up_1_DESC_TextData",
+          "SourceString": "สตามิน่าสูงสุด+{EffectValue1}%\r\n*มีผลกับพาลที่ขี่ได้เท่านั้น",
+          "LocalizedString": "สตามิน่าสูงสุด+{EffectValue1}%\r\n*มีผลกับพาลที่ขี่ได้เท่านั้น"
+        }
+      },
+      "PASSIVE_Stamina_Up_2_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_Stamina_Up_2_DESC_TextData",
+          "SourceString": "สตามิน่าสูงสุด+{EffectValue1}%\r\n*มีผลกับพาลที่ขี่ได้เท่านั้น",
+          "LocalizedString": "สตามิน่าสูงสุด+{EffectValue1}%\r\n*มีผลกับพาลที่ขี่ได้เท่านั้น"
+        }
+      },
+      "PASSIVE_Stamina_Up_3_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_Stamina_Up_3_DESC_TextData",
+          "SourceString": "สตามิน่าสูงสุด+{EffectValue1}%\r\n*มีผลกับพาลที่ขี่ได้เท่านั้น",
+          "LocalizedString": "สตามิน่าสูงสุด+{EffectValue1}%\r\n*มีผลกับพาลที่ขี่ได้เท่านั้น"
+        }
+      },
+      "PASSIVE_Stamina_Down_1_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_Stamina_Down_1_DESC_TextData",
+          "SourceString": "สตามิน่าสูงสุด{EffectValue1}%\r\n*มีผลกับพาลที่ขี่ได้เท่านั้น",
+          "LocalizedString": "สตามิน่าสูงสุด{EffectValue1}%\r\n*มีผลกับพาลที่ขี่ได้เท่านั้น"
+        }
+      },
+      "PASSIVE_SalePrice_Up_1_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_SalePrice_Up_1_DESC_TextData",
+          "SourceString": "เพิ่มราคาขายไอเทม+{EffectValue1}%",
+          "LocalizedString": "เพิ่มราคาขายไอเทม+{EffectValue1}%"
+        }
+      },
+      "PASSIVE_SalePrice_Up_2_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_SalePrice_Up_2_DESC_TextData",
+          "SourceString": "เพิ่มราคาขายไอเทม+{EffectValue1}%",
+          "LocalizedString": "เพิ่มราคาขายไอเทม+{EffectValue1}%"
+        }
+      },
+      "PASSIVE_SalePrice_Down_1_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_SalePrice_Down_1_DESC_TextData",
+          "SourceString": "ลดราคาขายไอเทม -{EffectValue1}%",
+          "LocalizedString": "ลดราคาขายไอเทม -{EffectValue1}%"
+        }
+      },
+      "PASSIVE_Alien_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_Alien_DESC_TextData",
+          "SourceString": "พลังโจมตี+{EffectValue1}%\r\nลดความเสียหายธาตุไฟ{EffectValue2}%\r\nลดความเสียหายธาตุสายฟ้า{EffectValue3}%",
+          "LocalizedString": "พลังโจมตี+{EffectValue1}%\r\nลดความเสียหายธาตุไฟ{EffectValue2}%\r\nลดความเสียหายธาตุสายฟ้า{EffectValue3}%"
+        }
+      },
+      "PASSIVE_Test_PalEgg_HatchingSpeed_Up_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_Test_PalEgg_HatchingSpeed_Up_DESC_TextData",
+          "SourceString": "ระหว่างที่มอบหมายให้ประจำอยู่ที่ฟาร์มขยายพันธุ์ ความเร็วในการสร้างไข่เพิ่มขึ้น {EffectValue1}%",
+          "LocalizedString": "ระหว่างที่มอบหมายให้ประจำอยู่ที่ฟาร์มขยายพันธุ์ ความเร็วในการสร้างไข่เพิ่มขึ้น {EffectValue1}%"
+        }
+      },
+      "PASSIVE_ElementBoost_Fire_Electric_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementBoost_Fire_Electric_1_PAL_TextData",
+          "SourceString": "เพิ่มความเสียหายการโจมตีธาตุไฟ{EffectValue1}%\r\nเพิ่มความเสียหายการโจมตีธาตุสายฟ้า{EffectValue1}%",
+          "LocalizedString": "เพิ่มความเสียหายการโจมตีธาตุไฟ{EffectValue1}%\r\nเพิ่มความเสียหายการโจมตีธาตุสายฟ้า{EffectValue1}%"
+        }
+      },
+      "PASSIVE_Vampire_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_Vampire_DESC_TextData",
+          "SourceString": "ดูดซับความเสียหายที่ทำได้{EffectValue2}%มาฟื้นฟู HP\r\nทำงานต่อเนื่องได้ตลอดทั้งคืนโดยไม่ต้องนอน",
+          "LocalizedString": "ดูดซับความเสียหายที่ทำได้{EffectValue2}%มาฟื้นฟู HP\r\nทำงานต่อเนื่องได้ตลอดทั้งคืนโดยไม่ต้องนอน"
+        }
+      },
+      "PASSIVE_JumpPower_Increase": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_JumpPower_Increase_TextData",
+          "SourceString": "เสริมพลังกระโดด",
+          "LocalizedString": "เสริมพลังกระโดด"
+        }
+      },
+      "PASSIVE_JumpCount_Increase1": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_JumpCount_Increase1_TextData",
+          "SourceString": "เพิ่มจำนวนการกระโดด +1",
+          "LocalizedString": "เพิ่มจำนวนการกระโดด +1"
+        }
+      },
+      "PASSIVE_JumpCount_Increase2": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_JumpCount_Increase2_TextData",
+          "SourceString": "เพิ่มจำนวนการกระโดด +2",
+          "LocalizedString": "เพิ่มจำนวนการกระโดด +2"
+        }
+      },
+      "PASSIVE_JumpCount_Increase3": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_JumpCount_Increase3_TextData",
+          "SourceString": "เพิ่มจำนวนการกระโดด +3",
+          "LocalizedString": "เพิ่มจำนวนการกระโดด +3"
+        }
+      },
+      "PASSIVE_AirDash_1": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_AirDash_1_TextData",
+          "SourceString": "แดชกลางอากาศ +1",
+          "LocalizedString": "แดชกลางอากาศ +1"
+        }
+      },
+      "PASSIVE_AirDash_2": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_AirDash_2_TextData",
+          "SourceString": "แดชกลางอากาศ +2",
+          "LocalizedString": "แดชกลางอากาศ +2"
+        }
+      },
+      "PASSIVE_AirDash_3": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_AirDash_3_TextData",
+          "SourceString": "แดชกลางอากาศ +3",
+          "LocalizedString": "แดชกลางอากาศ +3"
+        }
+      },
+      "PASSIVE_AirDash_4": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_AirDash_4_TextData",
+          "SourceString": "แดชกลางอากาศ +4",
+          "LocalizedString": "แดชกลางอากาศ +4"
+        }
+      },
+      "PASSIVE_ElementBoost_Dark_Dragon_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementBoost_Dark_Dragon_1_PAL_TextData",
+          "SourceString": "เพิ่มความเสียหายการโจมตีธาตุความมืด{EffectValue1}%\r\nเพิ่มความเสียหายการโจมตีธาตุมังกร{EffectValue1}%",
+          "LocalizedString": "เพิ่มความเสียหายการโจมตีธาตุความมืด{EffectValue1}%\r\nเพิ่มความเสียหายการโจมตีธาตุมังกร{EffectValue1}%"
+        }
+      },
+      "PASSIVE_Nushi": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_Nushi_TextData",
+          "SourceString": "เพิ่มความเสียหายการโจมตีธาตุน้ำ{EffectValue1}%\r\nเพิ่มความเสียหายการโจมตีธาตุน้ำแข็ง{EffectValue1}%\r\nพลังป้องกัน+{EffectValue1}%",
+          "LocalizedString": "เพิ่มความเสียหายการโจมตีธาตุน้ำ{EffectValue1}%\r\nเพิ่มความเสียหายการโจมตีธาตุน้ำแข็ง{EffectValue1}%\r\nพลังป้องกัน+{EffectValue1}%"
+        }
+      },
+      "PASSIVE_PAL_SwimSpeed_up_1": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_PAL_SwimSpeed_up_1_TextData",
+          "SourceString": "เพิ่มความเร็วเคลื่อนที่บนน้ำ{EffectValue1}%",
+          "LocalizedString": "เพิ่มความเร็วเคลื่อนที่บนน้ำ{EffectValue1}%"
+        }
+      },
+      "PASSIVE_GYM_NAME_Meadow": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_GYM_NAME_Meadow_TextData",
+          "SourceString": "พลังโจมตี+{EffectValue1}%\r\nเพิ่มความเร็วเคลื่อนที่{EffectValue2}%",
+          "LocalizedString": "พลังโจมตี+{EffectValue1}%\r\nเพิ่มความเร็วเคลื่อนที่{EffectValue2}%"
+        }
+      },
+      "PASSIVE_ElementBoost_Normal_Leaf_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementBoost_Normal_Leaf_1_PAL_TextData",
+          "SourceString": "ความเสียหายจากการโจมตีที่ไร้ธาตุเพิ่มขึ้น{EffectValue1}％\r\nความเสียหายจากการโจมตีของธาตุพืชเพิ่มขึ้น{EffectValue1}％",
+          "LocalizedString": "ความเสียหายจากการโจมตีที่ไร้ธาตุเพิ่มขึ้น{EffectValue1}％\r\nความเสียหายจากการโจมตีของธาตุพืชเพิ่มขึ้น{EffectValue1}％"
+        }
+      },
+      "ACTION_SKILL_Unique_Ronin_Iai_PartnerSkill": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Ronin_Iai_PartnerSkill_TextData",
+          "SourceString": "<characterName id=|Ronin|/>ทักษะการโจมตีของ\r\nหลังจากการตั้งท่าโจมตีดาบเเล้ว จะปรากฎตัวให้เห็นต่อศัตรูในชั่วพริบตา\r\nและปล่อยท่าชักดาบโจมตีความเร็วสูงสุด",
+          "LocalizedString": "<characterName id=|Ronin|/>ทักษะการโจมตีของ\r\nหลังจากการตั้งท่าโจมตีดาบเเล้ว จะปรากฎตัวให้เห็นต่อศัตรูในชั่วพริบตา\r\nและปล่อยท่าชักดาบโจมตีความเร็วสูงสุด"
+        }
+      },
+      "PASSIVE_Deffence_up2_2": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_Deffence_up2_2_TextData",
+          "SourceString": "ป้องกัน+{EffectValue1}%\r\nต้านการกระเด็น",
+          "LocalizedString": "ป้องกัน+{EffectValue1}%\r\nต้านการกระเด็น"
+        }
+      },
+      "PASSIVE_WorldTree_CraftSpeed": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_WorldTree_CraftSpeed_TextData",
+          "SourceString": "ความเร็วในการทำงาน <NumBlue_13> +</>{EffectValue1}<NumBlue_13>%</>\r\nค่า SAN ลดลงได้ง่าย <NumRed_13>+15.0%</>\r\nต้นไม้และหินในโลกจะไม่หายไปเมื่อเข้าใกล้",
+          "LocalizedString": "ความเร็วในการทำงาน <NumBlue_13> +</>{EffectValue1}<NumBlue_13>%</>\r\nค่า SAN ลดลงได้ง่าย <NumRed_13>+15.0%</>\r\nต้นไม้และหินในโลกจะไม่หายไปเมื่อเข้าใกล้"
+        }
+      },
+      "PASSIVE_WorldTree_FullStomach": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_WorldTree_FullStomach_TextData",
+          "SourceString": "ความพอใจลดลงช้า <NumBlue_13>+50.0%</>\r\nHP {EffectValue2}<NumRed_13>%</> \r\nไม่หายไปเมื่อเข้าใกล้พฤษาโลกต้นไม้หรือหิน",
+          "LocalizedString": "ความพอใจลดลงช้า <NumBlue_13>+50.0%</>\r\nHP {EffectValue2}<NumRed_13>%</> \r\nไม่หายไปเมื่อเข้าใกล้พฤษาโลกต้นไม้หรือหิน"
+        }
+      },
+      "PASSIVE_WorldTree_Sanity": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_WorldTree_Sanity_TextData",
+          "SourceString": "ค่า SAN ลดลงช้า <NumBlue_13>+50.0%</>\r\nความเร็วในการทำงาน {EffectValue2}<NumRed_13> %</>\r\nจะไม่หายไปเมื่อเข้าใกล้พฤกษาโลกหรือหิน",
+          "LocalizedString": "ค่า SAN ลดลงช้า <NumBlue_13>+50.0%</>\r\nความเร็วในการทำงาน {EffectValue2}<NumRed_13> %</>\r\nจะไม่หายไปเมื่อเข้าใกล้พฤกษาโลกหรือหิน"
+        }
+      },
+      "PASSIVE_WorldTree_MoveSpeed": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_WorldTree_MoveSpeed_TextData",
+          "SourceString": "ความเร็วในการเคลื่อนที่เพิ่มขึ้น <NumBlue_13>+</>{EffectValue1}<NumBlue_13>%</>\r\n ความหิวลดลงง่ายขึ้น <NumRed_13>+15.0%</>\r\nจะไม่หายไปเมื่อเข้าใกล้พฤกษาโลกหรือหิน",
+          "LocalizedString": "ความเร็วในการเคลื่อนที่เพิ่มขึ้น <NumBlue_13>+</>{EffectValue1}<NumBlue_13>%</>\r\n ความหิวลดลงง่ายขึ้น <NumRed_13>+15.0%</>\r\nจะไม่หายไปเมื่อเข้าใกล้พฤกษาโลกหรือหิน"
+        }
+      },
+      "PASSIVE_NightOwl": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_NightOwl_TextData",
+          "SourceString": "เพราะว่านอนดึก เลยมักงีบหลับระหว่างวัน",
+          "LocalizedString": "เพราะว่านอนดึก เลยมักงีบหลับระหว่างวัน"
+        }
+      },
+      "PASSIVE_PAL_SelfDeathAddItemDrop_up_1": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_PAL_SelfDeathAddItemDrop_up_1_TextData",
+          "SourceString": "ไอเทมดรอปของพาลนี้+{EffectValue1}%",
+          "LocalizedString": "ไอเทมดรอปของพาลนี้+{EffectValue1}%"
+        }
+      },
+      "PASSIVE_PAL_SelfDeathAddItemDrop_up_2": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_PAL_SelfDeathAddItemDrop_up_2_TextData",
+          "SourceString": "ไอเทมดรอปของพาลนี้+{EffectValue1}%",
+          "LocalizedString": "ไอเทมดรอปของพาลนี้+{EffectValue1}%"
+        }
+      },
+      "PASSIVE_PAL_SelfDeathAddItemDrop_up_3": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_PAL_SelfDeathAddItemDrop_up_3_TextData",
+          "SourceString": "ไอเทมดรอปของพาลนี้+{EffectValue1}%",
+          "LocalizedString": "ไอเทมดรอปของพาลนี้+{EffectValue1}%"
+        }
+      },
+      "PASSIVE_PAL_WorkSuitabilityAddRank_MonsterFarm_1": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_PAL_WorkSuitabilityAddRank_MonsterFarm_1_TextData",
+          "SourceString": "<uiCommon id=|COMMON_WORK_SUITABILITY_PALDEX|/><NumBlue_13>+1</>ของ<uiCommon id=|COMMON_WORK_SUITABILITY_MonsterFarm|/>",
+          "LocalizedString": "<uiCommon id=|COMMON_WORK_SUITABILITY_PALDEX|/><NumBlue_13>+1</>ของ<uiCommon id=|COMMON_WORK_SUITABILITY_MonsterFarm|/>"
+        }
+      },
+      "PASSIVE_PAL_WorkSuitabilityAddRank_MonsterFarm_2": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_PAL_WorkSuitabilityAddRank_MonsterFarm_2_TextData",
+          "SourceString": "<uiCommon id=|COMMON_WORK_SUITABILITY_PALDEX|/><NumBlue_13>+2</>の<uiCommon id=|COMMON_WORK_SUITABILITY_MonsterFarm|/>",
+          "LocalizedString": "<uiCommon id=|COMMON_WORK_SUITABILITY_PALDEX|/><NumBlue_13>+2</>の<uiCommon id=|COMMON_WORK_SUITABILITY_MonsterFarm|/>"
+        }
+      },
+      "PASSIVE_MutationPal_Babysitter_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_MutationPal_Babysitter_DESC_TextData",
+          "SourceString": "เมื่ออยู่ในฐาน จะเพิ่มความเร็วในการผลิตไข่ของพาลที่มอบหมายให้กับฟาร์มผสมพันธุ์\r\n+{EffectValue2}% และเพิ่มความเร็วในการฟักไข่ +{EffectValue1}%",
+          "LocalizedString": "เมื่ออยู่ในฐาน จะเพิ่มความเร็วในการผลิตไข่ของพาลที่มอบหมายให้กับฟาร์มผสมพันธุ์\r\n+{EffectValue2}% และเพิ่มความเร็วในการฟักไข่ +{EffectValue1}%"
+        }
+      },
+      "PASSIVE_MutationPal_Mutant_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_MutationPal_Mutant_DESC_TextData",
+          "SourceString": "ปริมาณการฟื้นคืนค่าพลังชีวิตโดยธรรมชาติของพาลเเละผู้เล่น+{EffectValue1}%\r\nป้องกัน+{EffectValue4}%\r\nความเสียหายจากสถานะพิษ<Status_Up>ป้องกันได้</>\r\nความเสียหายจากสถานะเพลิง<Status_Up>ป้องกันได้</>",
+          "LocalizedString": "ปริมาณการฟื้นคืนค่าพลังชีวิตโดยธรรมชาติของพาลเเละผู้เล่น+{EffectValue1}%\r\nป้องกัน+{EffectValue4}%\r\nความเสียหายจากสถานะพิษ<Status_Up>ป้องกันได้</>\r\nความเสียหายจากสถานะเพลิง<Status_Up>ป้องกันได้</>"
+        }
+      },
+      "PASSIVE_MutationPal_Immortal_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_MutationPal_Immortal_DESC_TextData",
+          "SourceString": "ดูดซับความเสียหายที่ทำได้{EffectValue1}%มาฟื้นฟู HP\r\nปริมาณการฟื้นคืนค่า HP โดยธรรมชาติ+{EffectValue2}%\r\nการโจมตี+{EffectValue3}%",
+          "LocalizedString": "ดูดซับความเสียหายที่ทำได้{EffectValue1}%มาฟื้นฟู HP\r\nปริมาณการฟื้นคืนค่า HP โดยธรรมชาติ+{EffectValue2}%\r\nการโจมตี+{EffectValue3}%"
+        }
+      },
+      "PASSIVE_MutationPal_ExplosionResist_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_MutationPal_ExplosionResist_DESC_TextData",
+          "SourceString": "ดาเมจระเบิด<Status_Up>ไม่ได้ผล</>",
+          "LocalizedString": "ดาเมจระเบิด<Status_Up>ไม่ได้ผล</>"
+        }
+      },
+      "PASSIVE_WoodDrop_Boost_1_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_WoodDrop_Boost_1_DESC_TextData",
+          "SourceString": "ปริมาณไม้ที่ดรอปเพิ่มขึ้นเล็กน้อย",
+          "LocalizedString": "ปริมาณไม้ที่ดรอปเพิ่มขึ้นเล็กน้อย"
+        }
+      },
+      "PASSIVE_WoodDrop_Boost_2_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_WoodDrop_Boost_2_DESC_TextData",
+          "SourceString": "ปริมาณไม้ที่หล่นมีเพิ่มขึ้น",
+          "LocalizedString": "ปริมาณไม้ที่หล่นมีเพิ่มขึ้น"
+        }
+      },
+      "PASSIVE_WoodDrop_Boost_3_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_WoodDrop_Boost_3_DESC_TextData",
+          "SourceString": "ปริมาณไม้ที่หล่นมีเพิ่มมากขึ้น",
+          "LocalizedString": "ปริมาณไม้ที่หล่นมีเพิ่มมากขึ้น"
+        }
+      },
+      "PASSIVE_WoodDrop_Boost_4_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_WoodDrop_Boost_4_DESC_TextData",
+          "SourceString": "ปริมาณไม้ที่ดรอปเพิ่มขึ้นค่อนข้างมาก",
+          "LocalizedString": "ปริมาณไม้ที่ดรอปเพิ่มขึ้นค่อนข้างมาก"
+        }
+      },
+      "PASSIVE_WoodDrop_Boost_5_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_WoodDrop_Boost_5_DESC_TextData",
+          "SourceString": "ปริมาณไม้ที่ดรอปเพิ่มขึ้นอย่างมาก",
+          "LocalizedString": "ปริมาณไม้ที่ดรอปเพิ่มขึ้นอย่างมาก"
+        }
+      },
+      "PASSIVE_StonDrop_Boost_1_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_StonDrop_Boost_1_DESC_TextData",
+          "SourceString": "ปริมาณก้อนแร่เเละหินที่หล่นมีเพิ่มนิดหน่อย",
+          "LocalizedString": "ปริมาณก้อนแร่เเละหินที่หล่นมีเพิ่มนิดหน่อย"
+        }
+      },
+      "PASSIVE_StonDrop_Boost_2_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_StonDrop_Boost_2_DESC_TextData",
+          "SourceString": "ปริมาณก้อนแร่เเละหินที่หล่นมีเพิ่มขึ้น",
+          "LocalizedString": "ปริมาณก้อนแร่เเละหินที่หล่นมีเพิ่มขึ้น"
+        }
+      },
+      "PASSIVE_StonDrop_Boost_3_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_StonDrop_Boost_3_DESC_TextData",
+          "SourceString": "ปริมาณก้อนแร่เเละหินที่หล่นมีเพิ่มมากขึ้น",
+          "LocalizedString": "ปริมาณก้อนแร่เเละหินที่หล่นมีเพิ่มมากขึ้น"
+        }
+      },
+      "PASSIVE_StonDrop_Boost_4_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_StonDrop_Boost_4_DESC_TextData",
+          "SourceString": "ปริมาณก้อนแร่เเละหินที่หล่นมีเพิ่มมากขึ้นอย่างพอสมควร",
+          "LocalizedString": "ปริมาณก้อนแร่เเละหินที่หล่นมีเพิ่มมากขึ้นอย่างพอสมควร"
+        }
+      },
+      "PASSIVE_StonDrop_Boost_5_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_StonDrop_Boost_5_DESC_TextData",
+          "SourceString": "ปริมาณก้อนแร่เเละหินที่หล่นมีเพิ่มมากขึ้นกว่าปกติ",
+          "LocalizedString": "ปริมาณก้อนแร่เเละหินที่หล่นมีเพิ่มมากขึ้นกว่าปกติ"
+        }
+      },
+      "PASSIVE_Deffence_up2": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_Deffence_up2_TextData",
+          "SourceString": "การป้องกัน +{EffectValue1}%\r\nไม่มีสะดุ้ง",
+          "LocalizedString": "การป้องกัน +{EffectValue1}%\r\nไม่มีสะดุ้ง"
+        }
+      },
+      "PASSIVE_Deffence_up3": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_Deffence_up3_TextData",
+          "SourceString": "การป้องกัน +{EffectValue1}%\r\nไม่มีสะดุ้ง\r\nไม่มีกระเด็น",
+          "LocalizedString": "การป้องกัน +{EffectValue1}%\r\nไม่มีสะดุ้ง\r\nไม่มีกระเด็น"
+        }
+      },
+      "PASSIVE_RideJumpCount_Increase1_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_RideJumpCount_Increase1_DESC_TextData",
+          "SourceString": "จำนวนครั้งกระโดดระหว่างขึ้นขี่<NumBlue_13>+1</>",
+          "LocalizedString": "จำนวนครั้งกระโดดระหว่างขึ้นขี่<NumBlue_13>+1</>"
+        }
+      },
+      "PASSIVE_RideJumpCount_Increase2_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_RideJumpCount_Increase2_DESC_TextData",
+          "SourceString": "จำนวนครั้งกระโดดระหว่างขึ้นขี่<NumBlue_13>+2</>",
+          "LocalizedString": "จำนวนครั้งกระโดดระหว่างขึ้นขี่<NumBlue_13>+2</>"
+        }
+      },
+      "PASSIVE_WorldTree_ATK": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_WorldTree_ATK_TextData",
+          "SourceString": "การโจมตี<NumBlue_13>+</>{EffectValue1}%\r\n% การป้องกัน{EffectValue2}%\r\nต้นไม้โลก - จะไม่หายไปเมื่อเข้าใกล้พฤกษาโลกหรือหิน",
+          "LocalizedString": "การโจมตี<NumBlue_13>+</>{EffectValue1}%\r\n% การป้องกัน{EffectValue2}%\r\nต้นไม้โลก - จะไม่หายไปเมื่อเข้าใกล้พฤกษาโลกหรือหิน"
+        }
+      },
+      "PASSIVE_WorldTree_DEF": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_WorldTree_DEF_TextData",
+          "SourceString": "การป้องกัน<NumBlue_13>+</>{EffectValue1}%\r\n% การโจมตี{EffectValue2}%\r\nต้นไม้โลก - จะไม่หายไปเมื่อเข้าใกล้พฤกษาโลกหรือหิน",
+          "LocalizedString": "การป้องกัน<NumBlue_13>+</>{EffectValue1}%\r\n% การโจมตี{EffectValue2}%\r\nต้นไม้โลก - จะไม่หายไปเมื่อเข้าใกล้พฤกษาโลกหรือหิน"
+        }
+      },
+      "PASSIVE_WorldTree_ATK_DEF": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_WorldTree_ATK_DEF_TextData",
+          "SourceString": "การโจมตี<NumBlue_13>+</>{EffectValue1}%\r\n+% การป้องกัน<NumBlue_13>+</>{EffectValue2}%\r\n HPสูงสุด{EffectValue3}%\r\nจะไม่หายไปเมื่อเข้าใกล้พฤกษาโลกหรือหิน",
+          "LocalizedString": "การโจมตี<NumBlue_13>+</>{EffectValue1}%\r\n+% การป้องกัน<NumBlue_13>+</>{EffectValue2}%\r\n HPสูงสุด{EffectValue3}%\r\nจะไม่หายไปเมื่อเข้าใกล้พฤกษาโลกหรือหิน"
+        }
+      },
+      "PASSIVE_PlayerSP_DecreaseRate_1": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_PlayerSP_DecreaseRate_1_TextData",
+          "SourceString": "ความเร็วการลดของสตามิน่าของผู้เล่น +<NumBlue_13>5.0</>%",
+          "LocalizedString": "ความเร็วการลดของสตามิน่าของผู้เล่น +<NumBlue_13>5.0</>%"
+        }
+      },
+      "PASSIVE_AutoHPRegeneRate_1": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_AutoHPRegeneRate_1_TextData",
+          "SourceString": "ปริมาณการฟื้นฟู HP ตามธรรมชาติของผู้เล่น+{EffectValue1}%",
+          "LocalizedString": "ปริมาณการฟื้นฟู HP ตามธรรมชาติของผู้เล่น+{EffectValue1}%"
+        }
+      },
+      "PASSIVE_ReloadSpeedUp_1": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ReloadSpeedUp_1_TextData",
+          "SourceString": "เพิ่มความเร็วในการบรรจุกระสุนของผู้เล่น +{EffectValue1}%",
+          "LocalizedString": "เพิ่มความเร็วในการบรรจุกระสุนของผู้เล่น +{EffectValue1}%"
+        }
+      },
+      "PASSIVE_StonWoodDrop_Boost_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_StonWoodDrop_Boost_DESC_TextData",
+          "SourceString": "ปริมาณไม้ หิน และแร่ที่ได้รับเพิ่มขึ้นอย่างพอสมควร",
+          "LocalizedString": "ปริมาณไม้ หิน และแร่ที่ได้รับเพิ่มขึ้นอย่างพอสมควร"
+        }
+      }
+    }
+  }
+]

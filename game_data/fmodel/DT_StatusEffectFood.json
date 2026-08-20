@@ -2,9 +2,8 @@
   {
     "Type": "DataTable",
     "Name": "DT_StatusEffectFood",
-    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'DataTable'",
-    "Package": "Pal/Content/Pal/DataTable/Item/DT_StatusEffectFood",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "RowStruct": {
         "ObjectName": "ScriptStruct'PalStatusEffectFoodDataRow'",
@@ -437,7 +436,7 @@
       },
       "OctopusGirl_Takoyaki": {
         "EffectTime": 1800,
-        "EffectType1": "EPalFoodStatusEffectType::Exp_Increase",
+        "EffectType1": "EPalFoodStatusEffectType::8",
         "EffectValue1": 10,
         "Interaval1": 0,
         "EffectType2": "EPalFoodStatusEffectType::None",
@@ -446,7 +445,7 @@
       },
       "JellyfishFairy_jelly": {
         "EffectTime": 600,
-        "EffectType1": "EPalFoodStatusEffectType::Exp_Increase",
+        "EffectType1": "EPalFoodStatusEffectType::8",
         "EffectValue1": 10,
         "Interaval1": 0,
         "EffectType2": "EPalFoodStatusEffectType::Attack",
@@ -455,7 +454,7 @@
       },
       "JellyfishGhost_jelly": {
         "EffectTime": 600,
-        "EffectType1": "EPalFoodStatusEffectType::Exp_Increase",
+        "EffectType1": "EPalFoodStatusEffectType::8",
         "EffectValue1": 10,
         "Interaval1": 0,
         "EffectType2": "EPalFoodStatusEffectType::Defense",
@@ -464,7 +463,7 @@
       },
       "Seafood_Salada": {
         "EffectTime": 1800,
-        "EffectType1": "EPalFoodStatusEffectType::Exp_Increase",
+        "EffectType1": "EPalFoodStatusEffectType::8",
         "EffectValue1": 20,
         "Interaval1": 0,
         "EffectType2": "EPalFoodStatusEffectType::None",
@@ -473,7 +472,7 @@
       },
       "Supplement": {
         "EffectTime": 600,
-        "EffectType1": "EPalFoodStatusEffectType::FullStomachKeep",
+        "EffectType1": "EPalFoodStatusEffectType::13",
         "EffectValue1": 100,
         "Interaval1": 0,
         "EffectType2": "EPalFoodStatusEffectType::None",
@@ -482,7 +481,7 @@
       },
       "GrilledSwordCutlassFish": {
         "EffectTime": 600,
-        "EffectType1": "EPalFoodStatusEffectType::LeanBackAndKnockbackInvalid",
+        "EffectType1": "EPalFoodStatusEffectType::12",
         "EffectValue1": 1,
         "Interaval1": 0,
         "EffectType2": "EPalFoodStatusEffectType::None",
@@ -491,7 +490,7 @@
       },
       "OctopusGirl_Takoyaki2": {
         "EffectTime": 600,
-        "EffectType1": "EPalFoodStatusEffectType::ExplosionResist",
+        "EffectType1": "EPalFoodStatusEffectType::11",
         "EffectValue1": 100,
         "Interaval1": 0,
         "EffectType2": "EPalFoodStatusEffectType::None",

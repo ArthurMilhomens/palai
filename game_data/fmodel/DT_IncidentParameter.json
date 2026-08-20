@@ -1,0 +1,34 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_IncidentParameter",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalIncidentParameterDataTableRow'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "NPCTalk_Common": {
+        "Option": "None"
+      },
+      "Random_Common": {
+        "Option": "None"
+      },
+      "Invader_Common": {
+        "Option": "None"
+      },
+      "VisitorNPC_Common": {
+        "Option": "None"
+      },
+      "SupplyPal_Common": {
+        "Option": "None"
+      },
+      "SupplyNPC_Common": {
+        "Option": "None"
+      }
+    }
+  }
+]

@@ -2,9 +2,8 @@
   {
     "Type": "DataTable",
     "Name": "DT_ItemDescriptionText_Common",
-    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'DataTable'",
-    "Package": "Pal/Content/L10N/pt-BR/Pal/DataTable/Text/DT_ItemDescriptionText_Common",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "RowStruct": {
         "ObjectName": "ScriptStruct'PalLocalizedTextData'",
@@ -216,8 +215,8 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_Charcoal_TextData",
-          "SourceString": "<itemName id=|Charcoal|/> capaz de queimar <itemName id=|Wood|/>.\r\nPode ser combinado com <itemName id=|Sulfur|/> para produzir <itemName id=|Gunpowder2|/>.",
-          "LocalizedString": "<itemName id=|Charcoal|/> capaz de queimar <itemName id=|Wood|/>.\r\nPode ser combinado com <itemName id=|Sulfur|/> para produzir <itemName id=|Gunpowder2|/>."
+          "SourceString": "<itemName id=|Charcoal|/> produzido ao queimar <itemName id=|Wood|/>.\r\nPode ser combinado com <itemName id=|Sulfur|/> para produzir <itemName id=|Gunpowder2|/>.",
+          "LocalizedString": "<itemName id=|Charcoal|/> produzido ao queimar <itemName id=|Wood|/>.\r\nPode ser combinado com <itemName id=|Sulfur|/> para produzir <itemName id=|Gunpowder2|/>."
         }
       },
       "ITEM_DESC_Claws": {
@@ -360,8 +359,8 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_Fiber_TextData",
-          "SourceString": "Fibra extraída das árvores.\r\nPode ser usada como material para fazer arcos, etc.",
-          "LocalizedString": "Fibra extraída das árvores.\r\nPode ser usada como material para fazer arcos, etc."
+          "SourceString": "Fibra extraída das árvores.\r\nPode ser usada como material para fazer arcos e mais.\r\nTambém pode ser obtida processando <itemName id=|Wood|/> com um <mapObjectName id=|Crusher|/>.",
+          "LocalizedString": "Fibra extraída das árvores.\r\nPode ser usada como material para fazer arcos e mais.\r\nTambém pode ser obtida processando <itemName id=|Wood|/> com um <mapObjectName id=|Crusher|/>."
         }
       },
       "ITEM_DESC_FishMeat": {
@@ -576,8 +575,8 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_MachineParts2_TextData",
-          "SourceString": "<itemName id=|MachineParts2|/> necessárias para a fabricação de instrumentos de precisão.\r\nPodem ser produzidas na <mapObjectName id=|Factory_Hard_02|/>.",
-          "LocalizedString": "<itemName id=|MachineParts2|/> necessárias para a fabricação de instrumentos de precisão.\r\nPodem ser produzidas na <mapObjectName id=|Factory_Hard_02|/>."
+          "SourceString": "<itemName id=|MachineParts2|/> necessário para a fabricação de instrumentos de precisão.\r\nPode ser produzido na <mapObjectName id=|Factory_Hard_02|/>.",
+          "LocalizedString": "<itemName id=|MachineParts2|/> necessário para a fabricação de instrumentos de precisão.\r\nPode ser produzido na <mapObjectName id=|Factory_Hard_02|/>."
         }
       },
       "ITEM_DESC_Meat": {
@@ -1032,8 +1031,8 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_Wood_TextData",
-          "SourceString": "Pode servir de material para construções ou itens.\r\nObtida sobretudo ao cortar árvores.",
-          "LocalizedString": "Pode servir de material para construções ou itens.\r\nObtida sobretudo ao cortar árvores."
+          "SourceString": "Pode servir de material para construções ou itens.\r\nObtida sobretudo ao cortar árvores.\r\nPode ser processada em <itemName id=|Fiber|/> com um <mapObjectName id=|Crusher|/>.",
+          "LocalizedString": "Pode servir de material para construções ou itens.\r\nObtida sobretudo ao cortar árvores.\r\nPode ser processada em <itemName id=|Fiber|/> com um <mapObjectName id=|Crusher|/>."
         }
       },
       "ITEM_DESC_Wool": {
@@ -1056,8 +1055,8 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_Plastic_TextData",
-          "SourceString": "Material especial criado pelo processamento de <itemName id=|CrudeOil|/> e metal.\r\nPode ser feito no <mapObjectName id=|BlastFurnace3|/>.",
-          "LocalizedString": "Material especial criado pelo processamento de <itemName id=|CrudeOil|/> e metal.\r\nPode ser feito no <mapObjectName id=|BlastFurnace3|/>."
+          "SourceString": "Material especial criado pelo processamento de <itemName id=|CrudeOil|/> e metal.\r\nPode ser feito em um<mapObjectName id=|BlastFurnace3|/>.",
+          "LocalizedString": "Material especial criado pelo processamento de <itemName id=|CrudeOil|/> e metal.\r\nPode ser feito em um<mapObjectName id=|BlastFurnace3|/>."
         }
       },
       "ITEM_DESC_Computer": {
@@ -1424,360 +1423,360 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Normal_01_TextData",
-          "SourceString": "<itemName id=|PalEgg_Normal_01|/>.\r\nÉ possível sentir os leves movimentos do filhotinho.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
-          "LocalizedString": "<itemName id=|PalEgg_Normal_01|/>.\r\nÉ possível sentir os leves movimentos do filhotinho.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
+          "SourceString": "<itemName id=|PalEgg_Normal_01|/>.\r\nÉ possível sentir os leves movimentos do filhotinho.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
+          "LocalizedString": "<itemName id=|PalEgg_Normal_01|/>.\r\nÉ possível sentir os leves movimentos do filhotinho.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
         }
       },
       "ITEM_DESC_PalEgg_Normal_02": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Normal_02_TextData",
-          "SourceString": "<itemName id=|PalEgg_Normal_02|/>.\r\nÉ possível sentir os leves movimentos do filhotinho.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
-          "LocalizedString": "<itemName id=|PalEgg_Normal_02|/>.\r\nÉ possível sentir os leves movimentos do filhotinho.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
+          "SourceString": "<itemName id=|PalEgg_Normal_02|/>.\r\nÉ possível sentir os leves movimentos do filhotinho.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
+          "LocalizedString": "<itemName id=|PalEgg_Normal_02|/>.\r\nÉ possível sentir os leves movimentos do filhotinho.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
         }
       },
       "ITEM_DESC_PalEgg_Normal_03": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Normal_03_TextData",
-          "SourceString": "<itemName id=|PalEgg_Normal_03|/>.\r\nÉ possível sentir nele uma vibração suave.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
-          "LocalizedString": "<itemName id=|PalEgg_Normal_03|/>.\r\nÉ possível sentir nele uma vibração suave.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
+          "SourceString": "<itemName id=|PalEgg_Normal_03|/>.\r\nÉ possível sentir nele uma vibração suave.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
+          "LocalizedString": "<itemName id=|PalEgg_Normal_03|/>.\r\nÉ possível sentir nele uma vibração suave.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
         }
       },
       "ITEM_DESC_PalEgg_Normal_04": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Normal_04_TextData",
-          "SourceString": "<itemName id=|PalEgg_Normal_04|/>.\r\nÉ possível sentir nele uma vibração suave.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
-          "LocalizedString": "<itemName id=|PalEgg_Normal_04|/>.\r\nÉ possível sentir nele uma vibração suave.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
+          "SourceString": "<itemName id=|PalEgg_Normal_04|/>.\r\nÉ possível sentir nele uma vibração suave.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
+          "LocalizedString": "<itemName id=|PalEgg_Normal_04|/>.\r\nÉ possível sentir nele uma vibração suave.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
         }
       },
       "ITEM_DESC_PalEgg_Normal_05": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Normal_05_TextData",
-          "SourceString": "<itemName id=|PalEgg_Normal_05|/>.\r\nÉ possível sentir a pulsação de um espírito de amor, como se algo monstruoso estivesse para nascer.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
-          "LocalizedString": "<itemName id=|PalEgg_Normal_05|/>.\r\nÉ possível sentir a pulsação de um espírito de amor, como se algo monstruoso estivesse para nascer.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
+          "SourceString": "<itemName id=|PalEgg_Normal_05|/>.\r\nÉ possível sentir a pulsação de um espírito de amor, como se algo monstruoso estivesse para nascer.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
+          "LocalizedString": "<itemName id=|PalEgg_Normal_05|/>.\r\nÉ possível sentir a pulsação de um espírito de amor, como se algo monstruoso estivesse para nascer.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
         }
       },
       "ITEM_DESC_PalEgg_Fire_01": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Fire_01_TextData",
-          "SourceString": "<itemName id=|PalEgg_Fire_01|/>.\r\nÉ possível sentir os movimentos calorosos do filhotinho.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
-          "LocalizedString": "<itemName id=|PalEgg_Fire_01|/>.\r\nÉ possível sentir os movimentos calorosos do filhotinho.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
+          "SourceString": "<itemName id=|PalEgg_Fire_01|/>.\r\nÉ possível sentir os movimentos calorosos do filhotinho.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
+          "LocalizedString": "<itemName id=|PalEgg_Fire_01|/>.\r\nÉ possível sentir os movimentos calorosos do filhotinho.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
         }
       },
       "ITEM_DESC_PalEgg_Fire_02": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Fire_02_TextData",
-          "SourceString": "<itemName id=|PalEgg_Fire_02|/>.\r\nÉ possível sentir os movimentos calorosos do filhotinho.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
-          "LocalizedString": "<itemName id=|PalEgg_Fire_02|/>.\r\nÉ possível sentir os movimentos calorosos do filhotinho.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
+          "SourceString": "<itemName id=|PalEgg_Fire_02|/>.\r\nÉ possível sentir os movimentos calorosos do filhotinho.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
+          "LocalizedString": "<itemName id=|PalEgg_Fire_02|/>.\r\nÉ possível sentir os movimentos calorosos do filhotinho.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
         }
       },
       "ITEM_DESC_PalEgg_Fire_03": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Fire_03_TextData",
-          "SourceString": "<itemName id=|PalEgg_Fire_03|/>.\r\nÉ possível sentir nele uma vibração fervorosa.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
-          "LocalizedString": "<itemName id=|PalEgg_Fire_03|/>.\r\nÉ possível sentir nele uma vibração fervorosa.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
+          "SourceString": "<itemName id=|PalEgg_Fire_03|/>.\r\nÉ possível sentir nele uma vibração fervorosa.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
+          "LocalizedString": "<itemName id=|PalEgg_Fire_03|/>.\r\nÉ possível sentir nele uma vibração fervorosa.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
         }
       },
       "ITEM_DESC_PalEgg_Fire_04": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Fire_04_TextData",
-          "SourceString": "<itemName id=|PalEgg_Fire_04|/>.\r\nÉ possível sentir nele uma vibração fervorosa.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
-          "LocalizedString": "<itemName id=|PalEgg_Fire_04|/>.\r\nÉ possível sentir nele uma vibração fervorosa.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
+          "SourceString": "<itemName id=|PalEgg_Fire_04|/>.\r\nÉ possível sentir nele uma vibração fervorosa.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
+          "LocalizedString": "<itemName id=|PalEgg_Fire_04|/>.\r\nÉ possível sentir nele uma vibração fervorosa.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
         }
       },
       "ITEM_DESC_PalEgg_Fire_05": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Fire_05_TextData",
-          "SourceString": "<itemName id=|PalEgg_Fire_05|/>.\r\nÉ possível sentir a pulsação de um espírito flamejante, como se algo monstruoso estivesse para nascer.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
-          "LocalizedString": "<itemName id=|PalEgg_Fire_05|/>.\r\nÉ possível sentir a pulsação de um espírito flamejante, como se algo monstruoso estivesse para nascer.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
+          "SourceString": "<itemName id=|PalEgg_Fire_05|/>.\r\nÉ possível sentir a pulsação de um espírito flamejante, como se algo monstruoso estivesse para nascer.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
+          "LocalizedString": "<itemName id=|PalEgg_Fire_05|/>.\r\nÉ possível sentir a pulsação de um espírito flamejante, como se algo monstruoso estivesse para nascer.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
         }
       },
       "ITEM_DESC_PalEgg_Water_01": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Water_01_TextData",
-          "SourceString": "<itemName id=|PalEgg_Water_01|/>.\r\nÉ possível sentir os movimentos puros do filhotinho.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
-          "LocalizedString": "<itemName id=|PalEgg_Water_01|/>.\r\nÉ possível sentir os movimentos puros do filhotinho.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
+          "SourceString": "<itemName id=|PalEgg_Water_01|/>.\r\nÉ possível sentir os movimentos puros do filhotinho.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
+          "LocalizedString": "<itemName id=|PalEgg_Water_01|/>.\r\nÉ possível sentir os movimentos puros do filhotinho.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
         }
       },
       "ITEM_DESC_PalEgg_Water_02": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Water_02_TextData",
-          "SourceString": "<itemName id=|PalEgg_Water_02|/>.\r\nÉ possível sentir os movimentos puros do filhotinho.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
-          "LocalizedString": "<itemName id=|PalEgg_Water_02|/>.\r\nÉ possível sentir os movimentos puros do filhotinho.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
+          "SourceString": "<itemName id=|PalEgg_Water_02|/>.\r\nÉ possível sentir os movimentos puros do filhotinho.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
+          "LocalizedString": "<itemName id=|PalEgg_Water_02|/>.\r\nÉ possível sentir os movimentos puros do filhotinho.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
         }
       },
       "ITEM_DESC_PalEgg_Water_03": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Water_03_TextData",
-          "SourceString": "<itemName id=|PalEgg_Water_03|/>.\r\nÉ possível sentir nele uma vibração honrada.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
-          "LocalizedString": "<itemName id=|PalEgg_Water_03|/>.\r\nÉ possível sentir nele uma vibração honrada.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
+          "SourceString": "<itemName id=|PalEgg_Water_03|/>.\r\nÉ possível sentir nele uma vibração honrada.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
+          "LocalizedString": "<itemName id=|PalEgg_Water_03|/>.\r\nÉ possível sentir nele uma vibração honrada.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
         }
       },
       "ITEM_DESC_PalEgg_Water_04": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Water_04_TextData",
-          "SourceString": "<itemName id=|PalEgg_Water_04|/>.\r\nÉ possível sentir nele uma vibração honrada.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
-          "LocalizedString": "<itemName id=|PalEgg_Water_04|/>.\r\nÉ possível sentir nele uma vibração honrada.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
+          "SourceString": "<itemName id=|PalEgg_Water_04|/>.\r\nÉ possível sentir nele uma vibração honrada.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
+          "LocalizedString": "<itemName id=|PalEgg_Water_04|/>.\r\nÉ possível sentir nele uma vibração honrada.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
         }
       },
       "ITEM_DESC_PalEgg_Water_05": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Water_05_TextData",
-          "SourceString": "<itemName id=|PalEgg_Water_05|/>.\r\nÉ possível sentir a pulsação de um espírito límpido, como se algo monstruoso estivesse para nascer.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
-          "LocalizedString": "<itemName id=|PalEgg_Water_05|/>.\r\nÉ possível sentir a pulsação de um espírito límpido, como se algo monstruoso estivesse para nascer.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
+          "SourceString": "<itemName id=|PalEgg_Water_05|/>.\r\nÉ possível sentir a pulsação de um espírito límpido, como se algo monstruoso estivesse para nascer.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
+          "LocalizedString": "<itemName id=|PalEgg_Water_05|/>.\r\nÉ possível sentir a pulsação de um espírito límpido, como se algo monstruoso estivesse para nascer.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
         }
       },
       "ITEM_DESC_PalEgg_Leaf_01": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Leaf_01_TextData",
-          "SourceString": "<itemName id=|PalEgg_Leaf_01|/>.\r\nÉ possível sentir os movimentos viçosos do filhotinho.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
-          "LocalizedString": "<itemName id=|PalEgg_Leaf_01|/>.\r\nÉ possível sentir os movimentos viçosos do filhotinho.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
+          "SourceString": "<itemName id=|PalEgg_Leaf_01|/>.\r\nÉ possível sentir os movimentos viçosos do filhotinho.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
+          "LocalizedString": "<itemName id=|PalEgg_Leaf_01|/>.\r\nÉ possível sentir os movimentos viçosos do filhotinho.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
         }
       },
       "ITEM_DESC_PalEgg_Leaf_02": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Leaf_02_TextData",
-          "SourceString": "<itemName id=|PalEgg_Leaf_02|/>.\r\nÉ possível sentir os movimentos viçosos do filhotinho.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
-          "LocalizedString": "<itemName id=|PalEgg_Leaf_02|/>.\r\nÉ possível sentir os movimentos viçosos do filhotinho.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
+          "SourceString": "<itemName id=|PalEgg_Leaf_02|/>.\r\nÉ possível sentir os movimentos viçosos do filhotinho.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
+          "LocalizedString": "<itemName id=|PalEgg_Leaf_02|/>.\r\nÉ possível sentir os movimentos viçosos do filhotinho.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
         }
       },
       "ITEM_DESC_PalEgg_Leaf_03": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Leaf_03_TextData",
-          "SourceString": "<itemName id=|PalEgg_Leaf_03|/>.\r\nÉ possível sentir nele uma vibração transbordante de vida.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
-          "LocalizedString": "<itemName id=|PalEgg_Leaf_03|/>.\r\nÉ possível sentir nele uma vibração transbordante de vida.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
+          "SourceString": "<itemName id=|PalEgg_Leaf_03|/>.\r\nÉ possível sentir nele uma vibração transbordante de vida.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
+          "LocalizedString": "<itemName id=|PalEgg_Leaf_03|/>.\r\nÉ possível sentir nele uma vibração transbordante de vida.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
         }
       },
       "ITEM_DESC_PalEgg_Leaf_04": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Leaf_04_TextData",
-          "SourceString": "<itemName id=|PalEgg_Leaf_04|/>.\r\nÉ possível sentir nele uma vibração transbordante de vida.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
-          "LocalizedString": "<itemName id=|PalEgg_Leaf_04|/>.\r\nÉ possível sentir nele uma vibração transbordante de vida.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
+          "SourceString": "<itemName id=|PalEgg_Leaf_04|/>.\r\nÉ possível sentir nele uma vibração transbordante de vida.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
+          "LocalizedString": "<itemName id=|PalEgg_Leaf_04|/>.\r\nÉ possível sentir nele uma vibração transbordante de vida.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
         }
       },
       "ITEM_DESC_PalEgg_Leaf_05": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Leaf_05_TextData",
-          "SourceString": "<itemName id=|PalEgg_Leaf_05|/>.\r\nÉ possível sentir a pulsação de um espírito verdejante, como se algo monstruoso estivesse para nascer.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
-          "LocalizedString": "<itemName id=|PalEgg_Leaf_05|/>.\r\nÉ possível sentir a pulsação de um espírito verdejante, como se algo monstruoso estivesse para nascer.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
+          "SourceString": "<itemName id=|PalEgg_Leaf_05|/>.\r\nÉ possível sentir a pulsação de um espírito verdejante, como se algo monstruoso estivesse para nascer.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
+          "LocalizedString": "<itemName id=|PalEgg_Leaf_05|/>.\r\nÉ possível sentir a pulsação de um espírito verdejante, como se algo monstruoso estivesse para nascer.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
         }
       },
       "ITEM_DESC_PalEgg_Electricity_01": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Electricity_01_TextData",
-          "SourceString": "<itemName id=|PalEgg_Electricity_01|/>.\r\nÉ possível sentir os movimentos agitados do filhotinho.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
-          "LocalizedString": "<itemName id=|PalEgg_Electricity_01|/>.\r\nÉ possível sentir os movimentos agitados do filhotinho.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
+          "SourceString": "<itemName id=|PalEgg_Electricity_01|/>.\r\nÉ possível sentir os movimentos agitados do filhotinho.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
+          "LocalizedString": "<itemName id=|PalEgg_Electricity_01|/>.\r\nÉ possível sentir os movimentos agitados do filhotinho.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
         }
       },
       "ITEM_DESC_PalEgg_Electricity_02": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Electricity_02_TextData",
-          "SourceString": "<itemName id=|PalEgg_Electricity_02|/>.\r\nÉ possível sentir os movimentos agitados do filhotinho.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
-          "LocalizedString": "<itemName id=|PalEgg_Electricity_02|/>.\r\nÉ possível sentir os movimentos agitados do filhotinho.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
+          "SourceString": "<itemName id=|PalEgg_Electricity_02|/>.\r\nÉ possível sentir os movimentos agitados do filhotinho.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
+          "LocalizedString": "<itemName id=|PalEgg_Electricity_02|/>.\r\nÉ possível sentir os movimentos agitados do filhotinho.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
         }
       },
       "ITEM_DESC_PalEgg_Electricity_03": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Electricity_03_TextData",
-          "SourceString": "<itemName id=|PalEgg_Electricity_03|/>.\r\nÉ possível sentir nele uma vibração com forte energia.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
-          "LocalizedString": "<itemName id=|PalEgg_Electricity_03|/>.\r\nÉ possível sentir nele uma vibração com forte energia.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
+          "SourceString": "<itemName id=|PalEgg_Electricity_03|/>.\r\nÉ possível sentir nele uma vibração com forte energia.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
+          "LocalizedString": "<itemName id=|PalEgg_Electricity_03|/>.\r\nÉ possível sentir nele uma vibração com forte energia.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
         }
       },
       "ITEM_DESC_PalEgg_Electricity_04": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Electricity_04_TextData",
-          "SourceString": "<itemName id=|PalEgg_Electricity_04|/>.\r\nÉ possível sentir nele uma vibração com forte energia.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
-          "LocalizedString": "<itemName id=|PalEgg_Electricity_04|/>.\r\nÉ possível sentir nele uma vibração com forte energia.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
+          "SourceString": "<itemName id=|PalEgg_Electricity_04|/>.\r\nÉ possível sentir nele uma vibração com forte energia.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
+          "LocalizedString": "<itemName id=|PalEgg_Electricity_04|/>.\r\nÉ possível sentir nele uma vibração com forte energia.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
         }
       },
       "ITEM_DESC_PalEgg_Electricity_05": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Electricity_05_TextData",
-          "SourceString": "<itemName id=|PalEgg_Electricity_05|/>.\r\nÉ possível sentir a pulsação de um espírito violento, como se algo monstruoso estivesse para nascer.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
-          "LocalizedString": "<itemName id=|PalEgg_Electricity_05|/>.\r\nÉ possível sentir a pulsação de um espírito violento, como se algo monstruoso estivesse para nascer.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
+          "SourceString": "<itemName id=|PalEgg_Electricity_05|/>.\r\nÉ possível sentir a pulsação de um espírito violento, como se algo monstruoso estivesse para nascer.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
+          "LocalizedString": "<itemName id=|PalEgg_Electricity_05|/>.\r\nÉ possível sentir a pulsação de um espírito violento, como se algo monstruoso estivesse para nascer.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
         }
       },
       "ITEM_DESC_PalEgg_Ice_01": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Ice_01_TextData",
-          "SourceString": "<itemName id=|PalEgg_Ice_01|/>.\r\nÉ possível sentir os movimentos frios do filhotinho.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
-          "LocalizedString": "<itemName id=|PalEgg_Ice_01|/>.\r\nÉ possível sentir os movimentos frios do filhotinho.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
+          "SourceString": "<itemName id=|PalEgg_Ice_01|/>.\r\nÉ possível sentir os movimentos frios do filhotinho.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
+          "LocalizedString": "<itemName id=|PalEgg_Ice_01|/>.\r\nÉ possível sentir os movimentos frios do filhotinho.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
         }
       },
       "ITEM_DESC_PalEgg_Ice_02": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Ice_02_TextData",
-          "SourceString": "<itemName id=|PalEgg_Ice_02|/>.\r\nÉ possível sentir os movimentos frios do filhotinho.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
-          "LocalizedString": "<itemName id=|PalEgg_Ice_02|/>.\r\nÉ possível sentir os movimentos frios do filhotinho.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
+          "SourceString": "<itemName id=|PalEgg_Ice_02|/>.\r\nÉ possível sentir os movimentos frios do filhotinho.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
+          "LocalizedString": "<itemName id=|PalEgg_Ice_02|/>.\r\nÉ possível sentir os movimentos frios do filhotinho.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
         }
       },
       "ITEM_DESC_PalEgg_Ice_03": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Ice_03_TextData",
-          "SourceString": "<itemName id=|PalEgg_Ice_03|/>.\r\nÉ possível sentir nele uma vibração frígida.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
-          "LocalizedString": "<itemName id=|PalEgg_Ice_03|/>.\r\nÉ possível sentir nele uma vibração frígida.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
+          "SourceString": "<itemName id=|PalEgg_Ice_03|/>.\r\nÉ possível sentir nele uma vibração frígida.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
+          "LocalizedString": "<itemName id=|PalEgg_Ice_03|/>.\r\nÉ possível sentir nele uma vibração frígida.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
         }
       },
       "ITEM_DESC_PalEgg_Ice_04": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Ice_04_TextData",
-          "SourceString": "<itemName id=|PalEgg_Ice_04|/>.\r\nÉ possível sentir nele uma vibração frígida.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
-          "LocalizedString": "<itemName id=|PalEgg_Ice_04|/>.\r\nÉ possível sentir nele uma vibração frígida.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
+          "SourceString": "<itemName id=|PalEgg_Ice_04|/>.\r\nÉ possível sentir nele uma vibração frígida.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
+          "LocalizedString": "<itemName id=|PalEgg_Ice_04|/>.\r\nÉ possível sentir nele uma vibração frígida.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
         }
       },
       "ITEM_DESC_PalEgg_Ice_05": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Ice_05_TextData",
-          "SourceString": "<itemName id=|PalEgg_Ice_05|/>.\r\nÉ possível sentir a pulsação de um espírito de zero absoluto, como se algo monstruoso estivesse para nascer.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
-          "LocalizedString": "<itemName id=|PalEgg_Ice_05|/>.\r\nÉ possível sentir a pulsação de um espírito de zero absoluto, como se algo monstruoso estivesse para nascer.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
+          "SourceString": "<itemName id=|PalEgg_Ice_05|/>.\r\nÉ possível sentir a pulsação de um espírito de zero absoluto, como se algo monstruoso estivesse para nascer.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
+          "LocalizedString": "<itemName id=|PalEgg_Ice_05|/>.\r\nÉ possível sentir a pulsação de um espírito de zero absoluto, como se algo monstruoso estivesse para nascer.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
         }
       },
       "ITEM_DESC_PalEgg_Earth_01": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Earth_01_TextData",
-          "SourceString": "<itemName id=|PalEgg_Earth_01|/>.\r\nÉ possível sentir nele uma vibração magnânima.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
-          "LocalizedString": "<itemName id=|PalEgg_Earth_01|/>.\r\nÉ possível sentir nele uma vibração magnânima.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
+          "SourceString": "<itemName id=|PalEgg_Earth_01|/>.\r\nÉ possível sentir nele uma vibração magnânima.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
+          "LocalizedString": "<itemName id=|PalEgg_Earth_01|/>.\r\nÉ possível sentir nele uma vibração magnânima.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
         }
       },
       "ITEM_DESC_PalEgg_Earth_02": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Earth_02_TextData",
-          "SourceString": "<itemName id=|PalEgg_Earth_02|/>.\r\nÉ possível sentir nele uma vibração magnânima.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
-          "LocalizedString": "<itemName id=|PalEgg_Earth_02|/>.\r\nÉ possível sentir nele uma vibração magnânima.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
+          "SourceString": "<itemName id=|PalEgg_Earth_02|/>.\r\nÉ possível sentir nele uma vibração magnânima.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
+          "LocalizedString": "<itemName id=|PalEgg_Earth_02|/>.\r\nÉ possível sentir nele uma vibração magnânima.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
         }
       },
       "ITEM_DESC_PalEgg_Earth_03": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Earth_03_TextData",
-          "SourceString": "<itemName id=|PalEgg_Earth_03|/>.\r\nÉ possível sentir nele uma vibração solene.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
-          "LocalizedString": "<itemName id=|PalEgg_Earth_03|/>.\r\nÉ possível sentir nele uma vibração solene.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
+          "SourceString": "<itemName id=|PalEgg_Earth_03|/>.\r\nÉ possível sentir nele uma vibração solene.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
+          "LocalizedString": "<itemName id=|PalEgg_Earth_03|/>.\r\nÉ possível sentir nele uma vibração solene.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
         }
       },
       "ITEM_DESC_PalEgg_Earth_04": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Earth_04_TextData",
-          "SourceString": "<itemName id=|PalEgg_Earth_04|/>.\r\nÉ possível sentir nele uma vibração solene.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
-          "LocalizedString": "<itemName id=|PalEgg_Earth_04|/>.\r\nÉ possível sentir nele uma vibração solene.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
+          "SourceString": "<itemName id=|PalEgg_Earth_04|/>.\r\nÉ possível sentir nele uma vibração solene.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
+          "LocalizedString": "<itemName id=|PalEgg_Earth_04|/>.\r\nÉ possível sentir nele uma vibração solene.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
         }
       },
       "ITEM_DESC_PalEgg_Earth_05": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Earth_05_TextData",
-          "SourceString": "<itemName id=|PalEgg_Earth_05|/>.\r\nÉ possível sentir a pulsação de um espírito da terra, como se algo monstruoso estivesse para nascer.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
-          "LocalizedString": "<itemName id=|PalEgg_Earth_05|/>.\r\nÉ possível sentir a pulsação de um espírito da terra, como se algo monstruoso estivesse para nascer.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
+          "SourceString": "<itemName id=|PalEgg_Earth_05|/>.\r\nÉ possível sentir a pulsação de um espírito da terra, como se algo monstruoso estivesse para nascer.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
+          "LocalizedString": "<itemName id=|PalEgg_Earth_05|/>.\r\nÉ possível sentir a pulsação de um espírito da terra, como se algo monstruoso estivesse para nascer.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
         }
       },
       "ITEM_DESC_PalEgg_Dark_01": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Dark_01_TextData",
-          "SourceString": "<itemName id=|PalEgg_Dark_01|/>.\r\nÉ possível sentir os movimentos irregulares do filhotinho.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
-          "LocalizedString": "<itemName id=|PalEgg_Dark_01|/>.\r\nÉ possível sentir os movimentos irregulares do filhotinho.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
+          "SourceString": "<itemName id=|PalEgg_Dark_01|/>.\r\nÉ possível sentir os movimentos irregulares do filhotinho.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
+          "LocalizedString": "<itemName id=|PalEgg_Dark_01|/>.\r\nÉ possível sentir os movimentos irregulares do filhotinho.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
         }
       },
       "ITEM_DESC_PalEgg_Dark_02": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Dark_02_TextData",
-          "SourceString": "<itemName id=|PalEgg_Dark_02|/>.\r\nÉ possível sentir os movimentos irregulares do filhotinho.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
-          "LocalizedString": "<itemName id=|PalEgg_Dark_02|/>.\r\nÉ possível sentir os movimentos irregulares do filhotinho.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
+          "SourceString": "<itemName id=|PalEgg_Dark_02|/>.\r\nÉ possível sentir os movimentos irregulares do filhotinho.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
+          "LocalizedString": "<itemName id=|PalEgg_Dark_02|/>.\r\nÉ possível sentir os movimentos irregulares do filhotinho.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
         }
       },
       "ITEM_DESC_PalEgg_Dark_03": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Dark_03_TextData",
-          "SourceString": "<itemName id=|PalEgg_Dark_03|/>.\r\nÉ possível sentir nele uma vibração maligna.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
-          "LocalizedString": "<itemName id=|PalEgg_Dark_03|/>.\r\nÉ possível sentir nele uma vibração maligna.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
+          "SourceString": "<itemName id=|PalEgg_Dark_03|/>.\r\nÉ possível sentir nele uma vibração maligna.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
+          "LocalizedString": "<itemName id=|PalEgg_Dark_03|/>.\r\nÉ possível sentir nele uma vibração maligna.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
         }
       },
       "ITEM_DESC_PalEgg_Dark_04": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Dark_04_TextData",
-          "SourceString": "<itemName id=|PalEgg_Dark_04|/>.\r\nÉ possível sentir nele uma vibração maligna.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
-          "LocalizedString": "<itemName id=|PalEgg_Dark_04|/>.\r\nÉ possível sentir nele uma vibração maligna.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
+          "SourceString": "<itemName id=|PalEgg_Dark_04|/>.\r\nÉ possível sentir nele uma vibração maligna.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
+          "LocalizedString": "<itemName id=|PalEgg_Dark_04|/>.\r\nÉ possível sentir nele uma vibração maligna.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
         }
       },
       "ITEM_DESC_PalEgg_Dark_05": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Dark_05_TextData",
-          "SourceString": "<itemName id=|PalEgg_Dark_05|/>.\r\nÉ possível sentir a pulsação de um espírito abissal, como se algo monstruoso estivesse para nascer.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
-          "LocalizedString": "<itemName id=|PalEgg_Dark_05|/>.\r\nÉ possível sentir a pulsação de um espírito abissal, como se algo monstruoso estivesse para nascer.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
+          "SourceString": "<itemName id=|PalEgg_Dark_05|/>.\r\nÉ possível sentir a pulsação de um espírito abissal, como se algo monstruoso estivesse para nascer.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
+          "LocalizedString": "<itemName id=|PalEgg_Dark_05|/>.\r\nÉ possível sentir a pulsação de um espírito abissal, como se algo monstruoso estivesse para nascer.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
         }
       },
       "ITEM_DESC_PalEgg_Dragon_01": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Dragon_01_TextData",
-          "SourceString": "<itemName id=|PalEgg_Dragon_01|/>.\r\nÉ possível sentir os movimentos endiabrados do filhotinho.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
-          "LocalizedString": "<itemName id=|PalEgg_Dragon_01|/>.\r\nÉ possível sentir os movimentos endiabrados do filhotinho.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
+          "SourceString": "<itemName id=|PalEgg_Dragon_01|/>.\r\nÉ possível sentir os movimentos endiabrados do filhotinho.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
+          "LocalizedString": "<itemName id=|PalEgg_Dragon_01|/>.\r\nÉ possível sentir os movimentos endiabrados do filhotinho.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
         }
       },
       "ITEM_DESC_PalEgg_Dragon_02": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Dragon_02_TextData",
-          "SourceString": "<itemName id=|PalEgg_Dragon_02|/>.\r\nÉ possível sentir os movimentos endiabrados do filhotinho.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
-          "LocalizedString": "<itemName id=|PalEgg_Dragon_02|/>.\r\nÉ possível sentir os movimentos endiabrados do filhotinho.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
+          "SourceString": "<itemName id=|PalEgg_Dragon_02|/>.\r\nÉ possível sentir os movimentos endiabrados do filhotinho.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
+          "LocalizedString": "<itemName id=|PalEgg_Dragon_02|/>.\r\nÉ possível sentir os movimentos endiabrados do filhotinho.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
         }
       },
       "ITEM_DESC_PalEgg_Dragon_03": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Dragon_03_TextData",
-          "SourceString": "<itemName id=|PalEgg_Dragon_03|/>.\r\nÉ possível sentir nele uma vibração fora do comum.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
-          "LocalizedString": "<itemName id=|PalEgg_Dragon_03|/>.\r\nÉ possível sentir nele uma vibração fora do comum.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
+          "SourceString": "<itemName id=|PalEgg_Dragon_03|/>.\r\nÉ possível sentir nele uma vibração fora do comum.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
+          "LocalizedString": "<itemName id=|PalEgg_Dragon_03|/>.\r\nÉ possível sentir nele uma vibração fora do comum.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
         }
       },
       "ITEM_DESC_PalEgg_Dragon_04": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Dragon_04_TextData",
-          "SourceString": "<itemName id=|PalEgg_Dragon_04|/>.\r\nÉ possível sentir nele uma vibração fora do comum.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
-          "LocalizedString": "<itemName id=|PalEgg_Dragon_04|/>.\r\nÉ possível sentir nele uma vibração fora do comum.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
+          "SourceString": "<itemName id=|PalEgg_Dragon_04|/>.\r\nÉ possível sentir nele uma vibração fora do comum.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
+          "LocalizedString": "<itemName id=|PalEgg_Dragon_04|/>.\r\nÉ possível sentir nele uma vibração fora do comum.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
         }
       },
       "ITEM_DESC_PalEgg_Dragon_05": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_Dragon_05_TextData",
-          "SourceString": "<itemName id=|PalEgg_Dragon_05|/>.\r\nÉ possível sentir a pulsação de um espírito sublime, como se algo monstruoso estivesse para nascer.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
-          "LocalizedString": "<itemName id=|PalEgg_Dragon_05|/>.\r\nÉ possível sentir a pulsação de um espírito sublime, como se algo monstruoso estivesse para nascer.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
+          "SourceString": "<itemName id=|PalEgg_Dragon_05|/>.\r\nÉ possível sentir a pulsação de um espírito sublime, como se algo monstruoso estivesse para nascer.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
+          "LocalizedString": "<itemName id=|PalEgg_Dragon_05|/>.\r\nÉ possível sentir a pulsação de um espírito sublime, como se algo monstruoso estivesse para nascer.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
         }
       },
       "ITEM_DESC_Relic": {
@@ -3056,24 +3055,24 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalUpgradeStone_TextData",
-          "SourceString": "Alma deixada por um Pal pequeno.\r\nOfereça-a à <mapObjectName id=|BuildableGoddessStatue|/> para extrair as habilidades nela contidas.",
-          "LocalizedString": "Alma deixada por um Pal pequeno.\r\nOfereça-a à <mapObjectName id=|BuildableGoddessStatue|/> para extrair as habilidades nela contidas."
+          "SourceString": "Alma deixada por um Pal pequeno.\r\nOfereça-a a uma <mapObjectName id=|BuildableGoddessStatue|/> para extrair as habilidades nela contidas.",
+          "LocalizedString": "Alma deixada por um Pal pequeno.\r\nOfereça-a a uma <mapObjectName id=|BuildableGoddessStatue|/> para extrair as habilidades nela contidas."
         }
       },
       "ITEM_DESC_PalUpgradeStone2": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalUpgradeStone2_TextData",
-          "SourceString": "Alma deixada por um Pal.\r\nOfereça-a à <mapObjectName id=|BuildableGoddessStatue|/> para extrair as habilidades nela contidas.",
-          "LocalizedString": "Alma deixada por um Pal.\r\nOfereça-a à <mapObjectName id=|BuildableGoddessStatue|/> para extrair as habilidades nela contidas."
+          "SourceString": "Alma deixada por um Pal.\r\nOfereça-a a uma <mapObjectName id=|BuildableGoddessStatue|/> para extrair as habilidades nela contidas.",
+          "LocalizedString": "Alma deixada por um Pal.\r\nOfereça-a a uma <mapObjectName id=|BuildableGoddessStatue|/> para extrair as habilidades nela contidas."
         }
       },
       "ITEM_DESC_PalUpgradeStone3": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalUpgradeStone3_TextData",
-          "SourceString": "Alma deixada por um Pal grande.\r\nOfereça-a à <mapObjectName id=|BuildableGoddessStatue|/> para extrair as habilidades nela contidas.",
-          "LocalizedString": "Alma deixada por um Pal grande.\r\nOfereça-a à <mapObjectName id=|BuildableGoddessStatue|/> para extrair as habilidades nela contidas."
+          "SourceString": "Alma deixada por um Pal grande.\r\nOfereça-a a uma <mapObjectName id=|BuildableGoddessStatue|/> para extrair as habilidades nela contidas.",
+          "LocalizedString": "Alma deixada por um Pal grande.\r\nOfereça-a a uma <mapObjectName id=|BuildableGoddessStatue|/> para extrair as habilidades nela contidas."
         }
       },
       "ITEM_DESC_PalItem_ColorfulBird": {
@@ -3672,8 +3671,8 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_IceOrgan_TextData",
-          "SourceString": "Material obtido de um Pal de <uiCommon id=|COMMON_ELEMENT_NAME_Ice|/>.\r\nPode ser usado para fazer <itemName id=|Trap_MineFreeze|/>.",
-          "LocalizedString": "Material obtido de um Pal de <uiCommon id=|COMMON_ELEMENT_NAME_Ice|/>.\r\nPode ser usado para fazer <itemName id=|Trap_MineFreeze|/>."
+          "SourceString": "Material obtido de um Pal de <uiCommon id=|COMMON_ELEMENT_NAME_Ice|/>.\r\nPode ser usado para fazer <mapObjectName id=|Trap_MineFreeze|/>.",
+          "LocalizedString": "Material obtido de um Pal de <uiCommon id=|COMMON_ELEMENT_NAME_Ice|/>.\r\nPode ser usado para fazer <mapObjectName id=|Trap_MineFreeze|/>."
         }
       },
       "ITEM_DESC_Bone": {
@@ -4160,8 +4159,8 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_Cake_TextData",
-          "SourceString": "Prato consumido em ocasiões festivas.\r\nColoque no baú da fazenda de acasalamento\r\npara deixar os Pals animados e fazer com que produzam um ovo.",
-          "LocalizedString": "Prato consumido em ocasiões festivas.\r\nColoque no baú da fazenda de acasalamento\r\npara deixar os Pals animados e fazer com que produzam um ovo."
+          "SourceString": "Prato consumido em ocasiões festivas.\r\nColoque no baú da <mapObjectName id=|BreedFarm|/>\r\npara deixar os Pals animados e fazer com que produzam um ovo.",
+          "LocalizedString": "Prato consumido em ocasiões festivas.\r\nColoque no baú da <mapObjectName id=|BreedFarm|/>\r\npara deixar os Pals animados e fazer com que produzam um ovo."
         }
       },
       "ITEM_DESC_WeakerBow_2": {
@@ -6672,24 +6671,24 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalSummon_NightLady_TextData",
-          "SourceString": "Tabuleta com uma gravura de <characterName id=|NightLady|/>.\r\nOfereça a um <mapObjectName id=|Altar|/>\r\npara chamar uma <characterName id=|NightLady|/> de [Nv. 35] poderosa.",
-          "LocalizedString": "Tabuleta com uma gravura de <characterName id=|NightLady|/>.\r\nOfereça a um <mapObjectName id=|Altar|/>\r\npara chamar uma <characterName id=|NightLady|/> de [Nv. 35] poderosa."
+          "SourceString": "Tabuleta com uma gravura de <characterName id=|NightLady|/>.\r\nOfereça a um <mapObjectName id=|Altar|/>\r\npara chamar uma <characterName id=|NightLady|/> [Nv. 35] poderosa.",
+          "LocalizedString": "Tabuleta com uma gravura de <characterName id=|NightLady|/>.\r\nOfereça a um <mapObjectName id=|Altar|/>\r\npara chamar uma <characterName id=|NightLady|/> [Nv. 35] poderosa."
         }
       },
       "ITEM_DESC_PalSummon_NightLady_Dark": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalSummon_NightLady_Dark_TextData",
-          "SourceString": "Tabuleta com uma gravura de <characterName id=|NightLady_Dark|/>.\r\nOfereça a um <mapObjectName id=|Altar|/>\r\npara chamar uma <characterName id=|NightLady_Dark|/> de [Nv. 45] extremamente poderosa.",
-          "LocalizedString": "Tabuleta com uma gravura de <characterName id=|NightLady_Dark|/>.\r\nOfereça a um <mapObjectName id=|Altar|/>\r\npara chamar uma <characterName id=|NightLady_Dark|/> de [Nv. 45] extremamente poderosa."
+          "SourceString": "Tabuleta com uma gravura de <characterName id=|NightLady_Dark|/>.\r\nOfereça a um <mapObjectName id=|Altar|/>\r\npara chamar uma <characterName id=|NightLady_Dark|/> [Nv. 45] extremamente poderosa.",
+          "LocalizedString": "Tabuleta com uma gravura de <characterName id=|NightLady_Dark|/>.\r\nOfereça a um <mapObjectName id=|Altar|/>\r\npara chamar uma <characterName id=|NightLady_Dark|/> [Nv. 45] extremamente poderosa."
         }
       },
       "ITEM_DESC_PalSummon_NightLady_Dark_2": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalSummon_NightLady_Dark_2_TextData",
-          "SourceString": "Tabuleta que emana a força de <characterName id=|NightLady_Dark|/>.\r\nOfereça a um <mapObjectName id=|Altar|/>\r\npara chamar uma <characterName id=|NightLady_Dark|/> de [Nv. ??] com poder tenebroso.",
-          "LocalizedString": "Tabuleta que emana a força de <characterName id=|NightLady_Dark|/>.\r\nOfereça a um <mapObjectName id=|Altar|/>\r\npara chamar uma <characterName id=|NightLady_Dark|/> de [Nv. ??] com poder tenebroso."
+          "SourceString": "Tabuleta que emana a força de <characterName id=|NightLady_Dark|/>.\r\nOfereça a um <mapObjectName id=|Altar|/>\r\npara chamar uma <characterName id=|NightLady_Dark|/> [Nv. ??] com poder tenebroso.",
+          "LocalizedString": "Tabuleta que emana a força de <characterName id=|NightLady_Dark|/>.\r\nOfereça a um <mapObjectName id=|Altar|/>\r\npara chamar uma <characterName id=|NightLady_Dark|/> [Nv. ??] com poder tenebroso."
         }
       },
       "ITEM_DESC_PalSummon_NightLady_Parts": {
@@ -7248,8 +7247,8 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalSummon_KingBahamut_Dragon_TextData",
-          "SourceString": "Tabuleta com uma gravura de <characterName id=|KingBahamut_Dragon|/>.\r\nOfereça a um <mapObjectName id=|Altar|/>\r\npara chamar um <characterName id=|KingBahamut_Dragon|/> de [Lv 55] extremamente poderoso.",
-          "LocalizedString": "Tabuleta com uma gravura de <characterName id=|KingBahamut_Dragon|/>.\r\nOfereça a um <mapObjectName id=|Altar|/>\r\npara chamar um <characterName id=|KingBahamut_Dragon|/> de [Lv 55] extremamente poderoso."
+          "SourceString": "Tabuleta com uma gravura de <characterName id=|KingBahamut_Dragon|/>.\r\nOfereça a um <mapObjectName id=|Altar|/>\r\npara chamar um <characterName id=|KingBahamut_Dragon|/> [Nv. 55] extremamente poderoso.",
+          "LocalizedString": "Tabuleta com uma gravura de <characterName id=|KingBahamut_Dragon|/>.\r\nOfereça a um <mapObjectName id=|Altar|/>\r\npara chamar um <characterName id=|KingBahamut_Dragon|/> [Nv. 55] extremamente poderoso."
         }
       },
       "ITEM_DESC_PalSummon_KingBahamut_Dragon_Parts": {
@@ -7264,8 +7263,8 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalSummon_KingBahamut_Dragon_2_TextData",
-          "SourceString": "Tabuleta que emana a força de <characterName id=|KingBahamut_Dragon|/>.\r\nOfereça a um <mapObjectName id=|Altar|/>\r\npara chamar um <characterName id=|KingBahamut_Dragon|/> [Lv ??] com poder tenebroso.",
-          "LocalizedString": "Tabuleta que emana a força de <characterName id=|KingBahamut_Dragon|/>.\r\nOfereça a um <mapObjectName id=|Altar|/>\r\npara chamar um <characterName id=|KingBahamut_Dragon|/> [Lv ??] com poder tenebroso."
+          "SourceString": "Tabuleta que emana a força de <characterName id=|KingBahamut_Dragon|/>.\r\nOfereça a um <mapObjectName id=|Altar|/>\r\npara chamar um <characterName id=|KingBahamut_Dragon|/> [Nv. ??] com poder tenebroso.",
+          "LocalizedString": "Tabuleta que emana a força de <characterName id=|KingBahamut_Dragon|/>.\r\nOfereça a um <mapObjectName id=|Altar|/>\r\npara chamar um <characterName id=|KingBahamut_Dragon|/> [Nv. ??] com poder tenebroso."
         }
       },
       "ITEM_DESC_PalSummon_KingBahamut_Dragon_Parts_2": {
@@ -8720,8 +8719,8 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalUpgradeStone4_TextData",
-          "SourceString": "Alma deixada por um Pal bastante treinado.\r\nOfereça-a à <mapObjectName id=|BuildableGoddessStatue|/> para extrair as habilidades nela contidas.",
-          "LocalizedString": "Alma deixada por um Pal bastante treinado.\r\nOfereça-a à <mapObjectName id=|BuildableGoddessStatue|/> para extrair as habilidades nela contidas."
+          "SourceString": "Alma deixada por um Pal bastante treinado.\r\nOfereça-a a uma <mapObjectName id=|BuildableGoddessStatue|/> para extrair as habilidades nela contidas.",
+          "LocalizedString": "Alma deixada por um Pal bastante treinado.\r\nOfereça-a a uma <mapObjectName id=|BuildableGoddessStatue|/> para extrair as habilidades nela contidas."
         }
       },
       "ITEM_DESC_HeadEquip044": {
@@ -8744,8 +8743,8 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalSummon_DarkMechaDragon_TextData",
-          "SourceString": "Tabuleta com uma gravura de <characterName id=|DarkMechaDragon|/>.\r\nOfereça a um <mapObjectName id=|Altar|/>\r\npara chamar um <characterName id=|DarkMechaDragon|/> de [Lv 65] extremamente poderoso.",
-          "LocalizedString": "Tabuleta com uma gravura de <characterName id=|DarkMechaDragon|/>.\r\nOfereça a um <mapObjectName id=|Altar|/>\r\npara chamar um <characterName id=|DarkMechaDragon|/> de [Lv 65] extremamente poderoso."
+          "SourceString": "Tabuleta com uma gravura de <characterName id=|DarkMechaDragon|/>.\r\nOfereça a um <mapObjectName id=|Altar|/>\r\npara chamar um <characterName id=|DarkMechaDragon|/> [Nv. 65] extremamente poderoso.",
+          "LocalizedString": "Tabuleta com uma gravura de <characterName id=|DarkMechaDragon|/>.\r\nOfereça a um <mapObjectName id=|Altar|/>\r\npara chamar um <characterName id=|DarkMechaDragon|/> [Nv. 65] extremamente poderoso."
         }
       },
       "ITEM_DESC_PalSummon_DarkMechaDragon_Parts": {
@@ -8760,8 +8759,8 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalSummon_DarkMechaDragon_2_TextData",
-          "SourceString": "Tabuleta que emana a força de <characterName id=|DarkMechaDragon|/>.\r\nOfereça a um <mapObjectName id=|Altar|/>\r\npara chamar um <characterName id=|DarkMechaDragon|/> de [Lv ??] com poder tenebroso.",
-          "LocalizedString": "Tabuleta que emana a força de <characterName id=|DarkMechaDragon|/>.\r\nOfereça a um <mapObjectName id=|Altar|/>\r\npara chamar um <characterName id=|DarkMechaDragon|/> de [Lv ??] com poder tenebroso."
+          "SourceString": "Tabuleta que emana a força de <characterName id=|DarkMechaDragon|/>.\r\nOfereça a um <mapObjectName id=|Altar|/>\r\npara chamar um <characterName id=|DarkMechaDragon|/> [Nv. ??] com poder tenebroso.",
+          "LocalizedString": "Tabuleta que emana a força de <characterName id=|DarkMechaDragon|/>.\r\nOfereça a um <mapObjectName id=|Altar|/>\r\npara chamar um <characterName id=|DarkMechaDragon|/> [Nv. ??] com poder tenebroso."
         }
       },
       "ITEM_DESC_PalSummon_DarkMechaDragon_Parts_2": {
@@ -9112,8 +9111,8 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_Blueprint_SFArmorHeat_2_TextData",
-          "SourceString": "Com isto em mãos, a receita de\r\n[<itemName id=|SFArmorHeat|/> (<uiCommon id=|RARITY_UNCOMMON|/>)] é desbloqueada.\r\nVocê pode fazê-la em [<mapObjectName id=|Factory_Hard_01|/>].",
-          "LocalizedString": "Com isto em mãos, a receita de\r\n[<itemName id=|SFArmorHeat|/> (<uiCommon id=|RARITY_UNCOMMON|/>)] é desbloqueada.\r\nVocê pode fazê-la em [<mapObjectName id=|Factory_Hard_01|/>]."
+          "SourceString": "Com isto em mãos, a receita de\r\n[<itemName id=|SFArmorHeat|/> (<uiCommon id=|RARITY_UNCOMMON|/>)] é desbloqueada.\r\nVocê pode fazê-la em [<mapObjectName id=|Factory_Hard_03|/>].",
+          "LocalizedString": "Com isto em mãos, a receita de\r\n[<itemName id=|SFArmorHeat|/> (<uiCommon id=|RARITY_UNCOMMON|/>)] é desbloqueada.\r\nVocê pode fazê-la em [<mapObjectName id=|Factory_Hard_03|/>]."
         }
       },
       "ITEM_DESC_Blueprint_SFArmorHeat_3": {
@@ -9208,8 +9207,8 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_Blueprint_LaserGatlingGun_2_TextData",
-          "SourceString": "Com isto em mãos, a receita de\r\n[<itemName id=|LaserGatlingGun|/> (<uiCommon id=|RARITY_UNCOMMON|/>)] é desbloqueada.\r\nVocê pode fazê-la em [<mapObjectName id=|Factory_Hard_01|/>].",
-          "LocalizedString": "Com isto em mãos, a receita de\r\n[<itemName id=|LaserGatlingGun|/> (<uiCommon id=|RARITY_UNCOMMON|/>)] é desbloqueada.\r\nVocê pode fazê-la em [<mapObjectName id=|Factory_Hard_01|/>]."
+          "SourceString": "Com isto em mãos, a receita de\r\n[<itemName id=|LaserGatlingGun|/> (<uiCommon id=|RARITY_UNCOMMON|/>)] é desbloqueada.\r\nVocê pode fazê-la em [<mapObjectName id=|WeaponFactory_Dirty_03|/>].",
+          "LocalizedString": "Com isto em mãos, a receita de\r\n[<itemName id=|LaserGatlingGun|/> (<uiCommon id=|RARITY_UNCOMMON|/>)] é desbloqueada.\r\nVocê pode fazê-la em [<mapObjectName id=|WeaponFactory_Dirty_03|/>]."
         }
       },
       "ITEM_DESC_Blueprint_LaserGatlingGun_3": {
@@ -10408,16 +10407,16 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalPassiveSkillChange_TextData",
-          "SourceString": "Implante inserido no corpo dos Pals para alterar suas habilidades passivas.\r\nQuando você tem isto, pode selecionar as habilidades passivas disponíveis em [<mapObjectName id=|OperatingTable|/>].",
-          "LocalizedString": "Implante inserido no corpo dos Pals para alterar suas habilidades passivas.\r\nQuando você tem isto, pode selecionar as habilidades passivas disponíveis em [<mapObjectName id=|OperatingTable|/>]."
+          "SourceString": "Implante inserido no corpo dos Pals para alterar suas habilidades passivas.\r\nQuando você tem isto, pode selecionar as habilidades passivas disponíveis na <mapObjectName id=|OperatingTable|/>.",
+          "LocalizedString": "Implante inserido no corpo dos Pals para alterar suas habilidades passivas.\r\nQuando você tem isto, pode selecionar as habilidades passivas disponíveis na <mapObjectName id=|OperatingTable|/>."
         }
       },
       "ITEM_DESC_PalGenderReverse": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalGenderReverse_TextData",
-          "SourceString": "Remédio fantástico capaz de inverter o sexo de um Pal.\r\nPode ser usado em [<mapObjectName id=|OperatingTable|/>].",
-          "LocalizedString": "Remédio fantástico capaz de inverter o sexo de um Pal.\r\nPode ser usado em [<mapObjectName id=|OperatingTable|/>]."
+          "SourceString": "Remédio fantástico capaz de inverter o sexo de um Pal.\r\nPode ser usado na <mapObjectName id=|OperatingTable|/>.",
+          "LocalizedString": "Remédio fantástico capaz de inverter o sexo de um Pal.\r\nPode ser usado na <mapObjectName id=|OperatingTable|/>."
         }
       },
       "ITEM_DESC_BattleTicket": {
@@ -11992,8 +11991,8 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_YakushimaHeadEquip001_TextData",
-          "SourceString": "[Colaboração com Terraria]\r\nProteção para a cabeça feita de <itemName id=|YakushimaIngot001|/>.\r\nDotada de uma força sagrada, aumenta o dano causado por <itemName id=|YakushimaBlade|/>, <itemName id=|YakushimaBlade004|/>, <itemName id=|YakushimaBlade002|/> e <itemName id=|YakushimaBlade005|/>.",
-          "LocalizedString": "[Colaboração com Terraria]\r\nProteção para a cabeça feita de <itemName id=|YakushimaIngot001|/>.\r\nDotada de uma força sagrada, aumenta o dano causado por <itemName id=|YakushimaBlade|/>, <itemName id=|YakushimaBlade004|/>, <itemName id=|YakushimaBlade002|/> e <itemName id=|YakushimaBlade005|/>."
+          "SourceString": "[Colaboração com Terraria]\r\nProteção para a cabeça feita de <itemName id=|YakushimaIngot001|/>.\r\nDotada de uma força sagrada, aumenta o dano causado por: <itemName id=|YakushimaBlade|/>, <itemName id=|YakushimaBlade004|/>, <itemName id=|YakushimaBlade002|/> e <itemName id=|YakushimaBlade005|/>.",
+          "LocalizedString": "[Colaboração com Terraria]\r\nProteção para a cabeça feita de <itemName id=|YakushimaIngot001|/>.\r\nDotada de uma força sagrada, aumenta o dano causado por: <itemName id=|YakushimaBlade|/>, <itemName id=|YakushimaBlade004|/>, <itemName id=|YakushimaBlade002|/> e <itemName id=|YakushimaBlade005|/>."
         }
       },
       "ITEM_DESC_YakushimaHeadEquip002": {
@@ -12160,8 +12159,8 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalSummon_LegendDeer_TextData",
-          "SourceString": "Tabuleta com uma gravura de <characterName id=|LegendDeer|/>.\r\nOfereça a um <mapObjectName id=|Altar|/>\r\npara chamar um <characterName id=|LegendDeer|/> de [Nv. 70] extremamente poderoso.",
-          "LocalizedString": "Tabuleta com uma gravura de <characterName id=|LegendDeer|/>.\r\nOfereça a um <mapObjectName id=|Altar|/>\r\npara chamar um <characterName id=|LegendDeer|/> de [Nv. 70] extremamente poderoso."
+          "SourceString": "Tabuleta com uma gravura de <characterName id=|LegendDeer|/>.\r\nOfereça a um <mapObjectName id=|Altar|/>\r\npara chamar um <characterName id=|LegendDeer|/> [Nv. 70] extremamente poderoso.",
+          "LocalizedString": "Tabuleta com uma gravura de <characterName id=|LegendDeer|/>.\r\nOfereça a um <mapObjectName id=|Altar|/>\r\npara chamar um <characterName id=|LegendDeer|/> [Nv. 70] extremamente poderoso."
         }
       },
       "ITEM_DESC_PalSummon_LegendDeer_Parts": {
@@ -12176,8 +12175,8 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalSummon_LegendDeer_2_TextData",
-          "SourceString": "Tabuleta que emana a força de <characterName id=|LegendDeer|/>.\r\nOfereça a um <mapObjectName id=|Altar|/>\r\npara chamar um <characterName id=|LegendDeer|/> de [Nv. ??] com poder tenebroso.",
-          "LocalizedString": "Tabuleta que emana a força de <characterName id=|LegendDeer|/>.\r\nOfereça a um <mapObjectName id=|Altar|/>\r\npara chamar um <characterName id=|LegendDeer|/> de [Nv. ??] com poder tenebroso."
+          "SourceString": "Tabuleta que emana a força de <characterName id=|LegendDeer|/>.\r\nOfereça a um <mapObjectName id=|Altar|/>\r\npara chamar um <characterName id=|LegendDeer|/> [Nv. ??] com poder tenebroso.",
+          "LocalizedString": "Tabuleta que emana a força de <characterName id=|LegendDeer|/>.\r\nOfereça a um <mapObjectName id=|Altar|/>\r\npara chamar um <characterName id=|LegendDeer|/> [Nv. ??] com poder tenebroso."
         }
       },
       "ITEM_DESC_PalSummon_LegendDeer_Parts_2": {
@@ -12328,8 +12327,8 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_DroneLauncher_TextData",
-          "SourceString": "Lançador que dispara drones de ataque automatizado.\r\nÉ possível manter até oito drones ativos, garantindo dominação contínua do território.",
-          "LocalizedString": "Lançador que dispara drones de ataque automatizado.\r\nÉ possível manter até oito drones ativos, garantindo dominação contínua do território."
+          "SourceString": "Lançador que dispara drones de ataque automatizado.\r\nÉ possível manter até nove drones ativos, garantindo dominação contínua do território.",
+          "LocalizedString": "Lançador que dispara drones de ataque automatizado.\r\nÉ possível manter até nove drones ativos, garantindo dominação contínua do território."
         }
       },
       "ITEM_DESC_ElectricArcAssaultRifle": {
@@ -14488,80 +14487,80 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_MutationPal_01_TextData",
-          "SourceString": "<itemName id=|PalEgg_MutationPal_01|/>.\r\nUm ovo extremamente raro que passou por uma mutação especial.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
-          "LocalizedString": "<itemName id=|PalEgg_MutationPal_01|/>.\r\nUm ovo extremamente raro que passou por uma mutação especial.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
+          "SourceString": "<itemName id=|PalEgg_MutationPal_01|/>.\r\nUm ovo extremamente raro que passou por uma mutação especial.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
+          "LocalizedString": "<itemName id=|PalEgg_MutationPal_01|/>.\r\nUm ovo extremamente raro que passou por uma mutação especial.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
         }
       },
       "ITEM_DESC_PalEgg_MutationPal_02": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_MutationPal_02_TextData",
-          "SourceString": "<itemName id=|PalEgg_MutationPal_02|/>.\r\nUm ovo extremamente raro que passou por uma mutação especial.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
-          "LocalizedString": "<itemName id=|PalEgg_MutationPal_02|/>.\r\nUm ovo extremamente raro que passou por uma mutação especial.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
+          "SourceString": "<itemName id=|PalEgg_MutationPal_02|/>.\r\nUm ovo extremamente raro que passou por uma mutação especial.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
+          "LocalizedString": "<itemName id=|PalEgg_MutationPal_02|/>.\r\nUm ovo extremamente raro que passou por uma mutação especial.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
         }
       },
       "ITEM_DESC_PalEgg_MutationPal_03": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_MutationPal_03_TextData",
-          "SourceString": "<itemName id=|PalEgg_MutationPal_03|/>.\r\nUm ovo extremamente raro que passou por uma mutação especial.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
-          "LocalizedString": "<itemName id=|PalEgg_MutationPal_03|/>.\r\nUm ovo extremamente raro que passou por uma mutação especial.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
+          "SourceString": "<itemName id=|PalEgg_MutationPal_03|/>.\r\nUm ovo extremamente raro que passou por uma mutação especial.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
+          "LocalizedString": "<itemName id=|PalEgg_MutationPal_03|/>.\r\nUm ovo extremamente raro que passou por uma mutação especial.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
         }
       },
       "ITEM_DESC_PalEgg_MutationPal_04": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_MutationPal_04_TextData",
-          "SourceString": "<itemName id=|PalEgg_MutationPal_04|/>.\r\nUm ovo extremamente raro que passou por uma mutação especial.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
-          "LocalizedString": "<itemName id=|PalEgg_MutationPal_04|/>.\r\nUm ovo extremamente raro que passou por uma mutação especial.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
+          "SourceString": "<itemName id=|PalEgg_MutationPal_04|/>.\r\nUm ovo extremamente raro que passou por uma mutação especial.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
+          "LocalizedString": "<itemName id=|PalEgg_MutationPal_04|/>.\r\nUm ovo extremamente raro que passou por uma mutação especial.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
         }
       },
       "ITEM_DESC_PalEgg_MutationPal_05": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_MutationPal_05_TextData",
-          "SourceString": "<itemName id=|PalEgg_MutationPal_05|/>.\r\nUm ovo extremamente raro que passou por uma mutação especial.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
-          "LocalizedString": "<itemName id=|PalEgg_MutationPal_05|/>.\r\nUm ovo extremamente raro que passou por uma mutação especial.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
+          "SourceString": "<itemName id=|PalEgg_MutationPal_05|/>.\r\nUm ovo extremamente raro que passou por uma mutação especial.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
+          "LocalizedString": "<itemName id=|PalEgg_MutationPal_05|/>.\r\nUm ovo extremamente raro que passou por uma mutação especial.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
         }
       },
       "ITEM_DESC_PalEgg_WorldTree_01": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_WorldTree_01_TextData",
-          "SourceString": "<itemName id=|PalEgg_WorldTree_01|/>.\r\nUm ovo fantástico que abriga a energia da Árvore Mundial.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
-          "LocalizedString": "<itemName id=|PalEgg_WorldTree_01|/>.\r\nUm ovo fantástico que abriga a energia da Árvore Mundial.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
+          "SourceString": "<itemName id=|PalEgg_WorldTree_01|/>\r\n.Um ovo fantástico que abriga a energia da Árvore Mundial.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
+          "LocalizedString": "<itemName id=|PalEgg_WorldTree_01|/>\r\n.Um ovo fantástico que abriga a energia da Árvore Mundial.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
         }
       },
       "ITEM_DESC_PalEgg_WorldTree_02": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_WorldTree_02_TextData",
-          "SourceString": "<itemName id=|PalEgg_WorldTree_02|/>.\r\nUm ovo fantástico que abriga a energia da Árvore Mundial.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
-          "LocalizedString": "<itemName id=|PalEgg_WorldTree_02|/>.\r\nUm ovo fantástico que abriga a energia da Árvore Mundial.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
+          "SourceString": "<itemName id=|PalEgg_WorldTree_02|/>\r\n.Um ovo fantástico que abriga a energia da Árvore Mundial.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
+          "LocalizedString": "<itemName id=|PalEgg_WorldTree_02|/>\r\n.Um ovo fantástico que abriga a energia da Árvore Mundial.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
         }
       },
       "ITEM_DESC_PalEgg_WorldTree_03": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_WorldTree_03_TextData",
-          "SourceString": "<itemName id=|PalEgg_WorldTree_03|/>.\r\nUm ovo fantástico que abriga a energia da Árvore Mundial.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
-          "LocalizedString": "<itemName id=|PalEgg_WorldTree_03|/>.\r\nUm ovo fantástico que abriga a energia da Árvore Mundial.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
+          "SourceString": "<itemName id=|PalEgg_WorldTree_03|/>\r\n.Um ovo fantástico que abriga a energia da Árvore Mundial.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
+          "LocalizedString": "<itemName id=|PalEgg_WorldTree_03|/>\r\n.Um ovo fantástico que abriga a energia da Árvore Mundial.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
         }
       },
       "ITEM_DESC_PalEgg_WorldTree_04": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_WorldTree_04_TextData",
-          "SourceString": "<itemName id=|PalEgg_WorldTree_04|/>.\r\nUm ovo fantástico que abriga a energia da Árvore Mundial.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
-          "LocalizedString": "<itemName id=|PalEgg_WorldTree_04|/>.\r\nUm ovo fantástico que abriga a energia da Árvore Mundial.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
+          "SourceString": "<itemName id=|PalEgg_WorldTree_04|/>\r\n.Um ovo fantástico que abriga a energia da Árvore Mundial.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
+          "LocalizedString": "<itemName id=|PalEgg_WorldTree_04|/>\r\n.Um ovo fantástico que abriga a energia da Árvore Mundial.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
         }
       },
       "ITEM_DESC_PalEgg_WorldTree_05": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_PalEgg_WorldTree_05_TextData",
-          "SourceString": "<itemName id=|PalEgg_WorldTree_05|/>.\r\nUm ovo fantástico que abriga a energia da Árvore Mundial.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
-          "LocalizedString": "<itemName id=|PalEgg_WorldTree_05|/>.\r\nUm ovo fantástico que abriga a energia da Árvore Mundial.\r\nColoque na <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
+          "SourceString": "<itemName id=|PalEgg_WorldTree_05|/>\r\n.Um ovo fantástico que abriga a energia da Árvore Mundial.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar.",
+          "LocalizedString": "<itemName id=|PalEgg_WorldTree_05|/>\r\n.Um ovo fantástico que abriga a energia da Árvore Mundial.\r\nColoque em uma <mapObjectName id=|HatchingPalEgg|/> para fazê-lo chocar."
         }
       },
       "ITEM_DESC_Cake02": {
@@ -15216,8 +15215,8 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_BossDefeatReward_RockBeast_Ice_TextData",
-          "SourceString": "Prova de haver eliminado |Kuprok Cryst: Grande Geleira Ambulante|.\r\nBasta possuir isto para que os atributos\r\ndos Pals no grupo aumentem de forma permanente.",
-          "LocalizedString": "Prova de haver eliminado |Kuprok Cryst: Grande Geleira Ambulante|.\r\nBasta possuir isto para que os atributos\r\ndos Pals no grupo aumentem de forma permanente."
+          "SourceString": "Prova de haver eliminado |Pierdon Cryst: Grande Geleira Ambulante|.\r\nBasta possuir isto para que os atributos\r\ndos Pals no grupo aumentem de forma permanente.",
+          "LocalizedString": "Prova de haver eliminado |Pierdon Cryst: Grande Geleira Ambulante|.\r\nBasta possuir isto para que os atributos\r\ndos Pals no grupo aumentem de forma permanente."
         }
       },
       "ITEM_DESC_BossDefeatReward_LotusDragon": {
@@ -15352,8 +15351,8 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_BossDefeatReward_RockBeast_TextData",
-          "SourceString": "Prova de haver eliminado |Kuprok: Grande Veio Ambulante|.\r\nBasta possuir isto para que os atributos\r\ndos Pals no grupo aumentem de forma permanente.",
-          "LocalizedString": "Prova de haver eliminado |Kuprok: Grande Veio Ambulante|.\r\nBasta possuir isto para que os atributos\r\ndos Pals no grupo aumentem de forma permanente."
+          "SourceString": "Prova de haver eliminado |Pierdon: Grande Veio Ambulante|.\r\nBasta possuir isto para que os atributos\r\ndos Pals no grupo aumentem de forma permanente.",
+          "LocalizedString": "Prova de haver eliminado |Pierdon: Grande Veio Ambulante|.\r\nBasta possuir isto para que os atributos\r\ndos Pals no grupo aumentem de forma permanente."
         }
       },
       "ITEM_DESC_BossDefeatReward_VolcanoDragon": {

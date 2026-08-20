@@ -1,6 +1,7 @@
 import { z } from 'zod';
 import { prisma } from '../../prisma/client.js';
-import { NotFoundError, ValidationError } from '../../shared/errors.js';
+import { NotFoundError } from '../../shared/errors.js';
+import { bestFuzzyScore, fuzzyScore } from '../../shared/fuzzy.js';
 import { pickTranslation, resolveLocale } from '../../shared/i18n.js';
 import { resolveActiveGameVersionId } from '../../shared/version.js';
 import {
@@ -50,6 +51,7 @@ const itemSelect = {
   name: true,
   iconUrl: true,
   rarity: true,
+  kind: true,
 } as const;
 
 type ItemRow = {
@@ -58,6 +60,7 @@ type ItemRow = {
   name: string;
   iconUrl: string | null;
   rarity: number | null;
+  kind: string;
 };
 
 export type CraftTreeVariant = {
@@ -67,6 +70,46 @@ export type CraftTreeVariant = {
   rarityLabel: string | null;
   iconUrl: string | null;
 };
+
+export type CraftTreeMatch = {
+  id: string;
+  internalName: string;
+  name: string;
+  names: ItemNames;
+  iconUrl: string | null;
+  kind: 'item' | 'build';
+  variants: CraftTreeVariant[];
+};
+
+export type CraftTreeResult =
+  | {
+      mode: 'tree';
+      query: string;
+      quantity: number;
+      locale: string;
+      rarity: number | null;
+      item: {
+        id: string;
+        internalName: string;
+        name: string;
+        names: ItemNames;
+        iconUrl: string | null;
+        rarity: number | null;
+        rarityLabel: string | null;
+        kind: 'item' | 'build';
+      };
+      variants: CraftTreeVariant[];
+      items: CraftTreeNode[];
+      totals: ReturnType<typeof collectAllTotals>;
+      rawTotals: ReturnType<typeof collectRawTotals>;
+    }
+  | {
+      mode: 'matches';
+      query: string;
+      quantity: number;
+      locale: string;
+      matches: CraftTreeMatch[];
+    };
 
 type RecipeRow = {
   id: string;
@@ -141,7 +184,7 @@ function itemNames(item: ItemRow, translations: TranslationRow[]): ItemNames {
 async function findItemCandidates(
   gameVersionId: string,
   q: string,
-): Promise<ItemRow[]> {
+): Promise<Array<ItemRow & { score: number }>> {
   const trimmed = q.trim();
   if (!trimmed) return [];
 
@@ -149,7 +192,7 @@ async function findItemCandidates(
     where: { gameVersionId, id: trimmed },
     select: itemSelect,
   });
-  if (byId) return [byId];
+  if (byId) return [{ ...byId, score: 1 }];
 
   const exactInternal = await prisma.item.findMany({
     where: {
@@ -159,77 +202,57 @@ async function findItemCandidates(
     select: itemSelect,
     take: 10,
   });
-  if (exactInternal.length === 1) return exactInternal;
-
-  const exactName = await prisma.item.findMany({
-    where: {
-      gameVersionId,
-      name: { equals: trimmed, mode: 'insensitive' },
-    },
-    select: itemSelect,
-    take: 20,
-  });
-  if (exactName.length >= 1) return exactName;
-
-  const translationHits = await prisma.translation.findMany({
-    where: {
-      gameVersionId,
-      entityType: 'item',
-      field: 'name',
-      value: { equals: trimmed, mode: 'insensitive' },
-    },
-    select: { entityId: true },
-    take: 40,
-  });
-  if (translationHits.length > 0) {
-    const ids = [...new Set(translationHits.map((t) => t.entityId))];
-    const items = await prisma.item.findMany({
-      where: { gameVersionId, id: { in: ids } },
-      select: itemSelect,
-    });
-    if (items.length >= 1) return items;
+  if (exactInternal.length >= 1) {
+    return exactInternal.map((row) => ({ ...row, score: 1 }));
   }
 
-  const contains = await prisma.item.findMany({
-    where: {
-      gameVersionId,
-      OR: [
-        { internalName: { contains: trimmed, mode: 'insensitive' } },
-        { name: { contains: trimmed, mode: 'insensitive' } },
-      ],
-    },
-    select: itemSelect,
-    take: 20,
-  });
-  if (contains.length > 0) return contains;
+  const [items, translations] = await Promise.all([
+    prisma.item.findMany({
+      where: { gameVersionId },
+      select: itemSelect,
+    }),
+    prisma.translation.findMany({
+      where: {
+        gameVersionId,
+        entityType: 'item',
+        field: 'name',
+      },
+      select: { entityId: true, locale: true, value: true },
+    }),
+  ]);
 
-  const trContains = await prisma.translation.findMany({
-    where: {
-      gameVersionId,
-      entityType: 'item',
-      field: 'name',
-      value: { contains: trimmed, mode: 'insensitive' },
-    },
-    select: { entityId: true },
-    take: 40,
-  });
-  if (trContains.length === 0) return exactInternal.length ? exactInternal : [];
-  const ids = [...new Set(trContains.map((t) => t.entityId))];
-  return prisma.item.findMany({
-    where: { gameVersionId, id: { in: ids } },
-    select: itemSelect,
-    take: 20,
-  });
+  const namesById = new Map<string, string[]>();
+  for (const t of translations) {
+    const list = namesById.get(t.entityId) ?? [];
+    list.push(t.value);
+    namesById.set(t.entityId, list);
+  }
+
+  const scored: Array<ItemRow & { score: number }> = [];
+  for (const item of items) {
+    const displayLabels = [item.name, ...(namesById.get(item.id) ?? [])];
+    const nameScore = bestFuzzyScore(trimmed, displayLabels);
+    // Internal ids help exact lookups but should not beat display-name typos
+    const internalScore = fuzzyScore(trimmed, item.internalName) * 0.8;
+    const score = Math.max(nameScore, internalScore);
+    if (score >= 0.72) scored.push({ ...item, score });
+  }
+
+  scored.sort((a, b) => b.score - a.score || a.name.localeCompare(b.name));
+  return scored.slice(0, 80);
 }
 
 async function loadRarityVariants(
   gameVersionId: string,
   seed: ItemRow,
 ): Promise<ItemRow[]> {
+  if (seed.kind === 'build') return [seed];
+
   const base = rarityVariantBase(seed.internalName);
   const rows = await prisma.item.findMany({
     where: {
       gameVersionId,
+      kind: { not: 'build' },
       OR: [
         { internalName: base },
         { internalName: { startsWith: `${base}_` } },
@@ -406,25 +429,7 @@ export async function getItemCraftTree(options: {
   lang?: string;
   gameVersion?: string;
   acceptLanguage?: string;
-}): Promise<{
-  query: string;
-  quantity: number;
-  locale: string;
-  rarity: number | null;
-  item: {
-    id: string;
-    internalName: string;
-    name: string;
-    names: ItemNames;
-    iconUrl: string | null;
-    rarity: number | null;
-    rarityLabel: string | null;
-  };
-  variants: CraftTreeVariant[];
-  items: CraftTreeNode[];
-  totals: ReturnType<typeof collectAllTotals>;
-  rawTotals: ReturnType<typeof collectRawTotals>;
-}> {
+}): Promise<CraftTreeResult> {
   const gameVersionId = await resolveActiveGameVersionId(options.gameVersion);
   const locale = resolveLocale(
     { headers: { 'accept-language': options.acceptLanguage ?? '' } } as never,
@@ -436,28 +441,86 @@ export async function getItemCraftTree(options: {
     throw new NotFoundError(`Item not found: ${options.q}`);
   }
 
+  const scoreById = new Map(candidates.map((c) => [c.id, c.score]));
   const families = mergeVariantFamilies(
     await Promise.all(
       candidates.map((c) => loadRarityVariants(gameVersionId, c)),
     ),
   );
 
-  if (families.length > 1) {
-    throw new ValidationError('Ambiguous item query', {
-      query: options.q,
-      candidates: families.map((family) => {
-        const rep = selectVariant(family) ?? family[0]!;
-        return {
-          id: rep.id,
-          internalName: rep.internalName,
-          name: rep.name,
-          rarity: rep.rarity,
-        };
-      }),
-    });
+  const rankedFamilies = families
+    .map((family) => {
+      const score = Math.max(
+        ...family.map((item) => scoreById.get(item.id) ?? 0),
+      );
+      return { family, score };
+    })
+    .sort(
+      (a, b) =>
+        b.score - a.score ||
+        (a.family[0]?.name ?? '').localeCompare(b.family[0]?.name ?? ''),
+    );
+
+  const craftableIds = new Set(
+    (
+      await prisma.recipe.findMany({
+        where: { gameVersionId, resultItemId: { not: null } },
+        select: { resultItemId: true },
+        distinct: ['resultItemId'],
+      })
+    )
+      .map((r) => r.resultItemId)
+      .filter((id): id is string => Boolean(id)),
+  );
+
+  const craftableFamilies = rankedFamilies.filter(({ family }) =>
+    family.some((item) => item.kind === 'build' || craftableIds.has(item.id)),
+  );
+  const effectiveFamilies = (
+    craftableFamilies.length > 0 ? craftableFamilies : rankedFamilies
+  ).slice(0, 25);
+
+  const translations = await prisma.translation.findMany({
+    where: {
+      gameVersionId,
+      entityType: 'item',
+      field: 'name',
+    },
+    select: { entityId: true, locale: true, field: true, value: true },
+  });
+
+  const nameOf = (row: ItemRow) => localizedName(row, translations, locale);
+  const namesOf = (row: ItemRow) => itemNames(row, translations);
+
+  if (effectiveFamilies.length > 1) {
+    const top = effectiveFamilies[0]!.score;
+    const uniqueStrong =
+      top >= 0.84 &&
+      effectiveFamilies.filter((f) => f.score >= top - 0.03).length === 1;
+
+    if (!uniqueStrong) {
+      return {
+        mode: 'matches',
+        query: options.q,
+        quantity: options.quantity,
+        locale,
+        matches: effectiveFamilies.map(({ family }) => {
+          const rep = selectVariant(family) ?? family[0]!;
+          return {
+            id: rep.id,
+            internalName: rarityVariantBase(rep.internalName),
+            name: nameOf(rep),
+            names: namesOf(rep),
+            iconUrl: rep.iconUrl,
+            kind: rep.kind === 'build' ? 'build' : 'item',
+            variants: family.map(toVariantDto),
+          };
+        }),
+      };
+    }
   }
 
-  const variants = families[0] ?? [];
+  const variants = effectiveFamilies[0]?.family ?? [];
   const item = selectVariant(variants, options.rarity);
   if (!item) {
     if (options.rarity != null) {
@@ -473,17 +536,6 @@ export async function getItemCraftTree(options: {
     throw new NotFoundError(`Item not found: ${options.q}`);
   }
 
-  const translations = await prisma.translation.findMany({
-    where: {
-      gameVersionId,
-      entityType: 'item',
-      field: 'name',
-    },
-    select: { entityId: true, locale: true, field: true, value: true },
-  });
-
-  const nameOf = (row: ItemRow) => localizedName(row, translations, locale);
-  const namesOf = (row: ItemRow) => itemNames(row, translations);
   const recipesByResult = await loadRecipeGraph(gameVersionId);
   const rootInput = toCraftInput(
     item,
@@ -496,6 +548,7 @@ export async function getItemCraftTree(options: {
   const root = buildCraftTree(rootInput);
 
   return {
+    mode: 'tree',
     query: options.q,
     quantity: options.quantity,
     locale,
@@ -508,6 +561,7 @@ export async function getItemCraftTree(options: {
       iconUrl: root.iconUrl,
       rarity: item.rarity,
       rarityLabel: rarityLabel(item.rarity),
+      kind: item.kind === 'build' ? 'build' : 'item',
     },
     variants: variants.map(toVariantDto),
     items: root.items,

@@ -1,0 +1,392 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_HelpGuideDescText",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "Help_1": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_1_TextData",
+          "SourceString": "Commandes (clavier)\r\n\r\nSouris Contrôler la caméra\r\n<keyGuideIcon id=|W_ForHelp|/><keyGuideIcon id=|A_ForHelp|/><keyGuideIcon id=|S_ForHelp|/><keyGuideIcon id=|D_ForHelp|/> Se déplacer\r\n<keyGuideIcon id=|ThrowPal| OverrideType=|1|/> Appeler un Pal\r\n<keyGuideIcon id=|ThrowObject| OverrideType=|1|/> Lancer une sphère\r\n<keyGuideIcon id=|OpenConstructionMenu| OverrideType=|1|/> Menu Construction\r\n<keyGuideIcon id=|Jump| OverrideType=|1|/> Sauter\r\n<keyGuideIcon id=|WeaponReady| OverrideType=|1|/> Viser\r\n<keyGuideIcon id=|WeaponUse| OverrideType=|1|/> Attaquer\r\n<keyGuideIcon id=|Coop| OverrideType=|1|/> Compétence partenaire\r\n<keyGuideIcon id=|Reload| OverrideType=|1|/> Recharger\r\n<keyGuideIcon id=|ChangeWeaponNext| OverrideType=|1|/><keyGuideIcon id=|ChangeWeaponPrev| OverrideType=|1|/> Changer d'arme\r\n<keyGuideIcon id=|Crouch| OverrideType=|1|/> S'accroupir\r\n<keyGuideIcon id=|Rolling| OverrideType=|1|/> Roulade\r\n<keyGuideIcon id=|Dash| OverrideType=|1|/> Ruée\r\n<keyGuideIcon id=|PartnerPalInstructions| OverrideType=|1|/> Instructions\r\n<keyGuideIcon id=|OtomoChangeIncrement| OverrideType=|1|/><keyGuideIcon id=|OtomoChangeDecrement| OverrideType=|1|/> Changer de Pal\r\n<keyGuideIcon id=|SphereChange| OverrideType=|1|/> Changer de sphère",
+          "LocalizedString": "Commandes (clavier)\r\n\r\nSouris Contrôler la caméra\r\n<keyGuideIcon id=|W_ForHelp|/><keyGuideIcon id=|A_ForHelp|/><keyGuideIcon id=|S_ForHelp|/><keyGuideIcon id=|D_ForHelp|/> Se déplacer\r\n<keyGuideIcon id=|ThrowPal| OverrideType=|1|/> Appeler un Pal\r\n<keyGuideIcon id=|ThrowObject| OverrideType=|1|/> Lancer une sphère\r\n<keyGuideIcon id=|OpenConstructionMenu| OverrideType=|1|/> Menu Construction\r\n<keyGuideIcon id=|Jump| OverrideType=|1|/> Sauter\r\n<keyGuideIcon id=|WeaponReady| OverrideType=|1|/> Viser\r\n<keyGuideIcon id=|WeaponUse| OverrideType=|1|/> Attaquer\r\n<keyGuideIcon id=|Coop| OverrideType=|1|/> Compétence partenaire\r\n<keyGuideIcon id=|Reload| OverrideType=|1|/> Recharger\r\n<keyGuideIcon id=|ChangeWeaponNext| OverrideType=|1|/><keyGuideIcon id=|ChangeWeaponPrev| OverrideType=|1|/> Changer d'arme\r\n<keyGuideIcon id=|Crouch| OverrideType=|1|/> S'accroupir\r\n<keyGuideIcon id=|Rolling| OverrideType=|1|/> Roulade\r\n<keyGuideIcon id=|Dash| OverrideType=|1|/> Ruée\r\n<keyGuideIcon id=|PartnerPalInstructions| OverrideType=|1|/> Instructions\r\n<keyGuideIcon id=|OtomoChangeIncrement| OverrideType=|1|/><keyGuideIcon id=|OtomoChangeDecrement| OverrideType=|1|/> Changer de Pal\r\n<keyGuideIcon id=|SphereChange| OverrideType=|1|/> Changer de sphère"
+        }
+      },
+      "Help_2": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_2_TextData",
+          "SourceString": "Commandes (manette)\r\n\r\nStick gauche Se déplacer\r\nStick droit Contrôler la caméra\r\n<keyGuideIcon id=|ThrowPal| OverrideType=|2|/> Appeler un Pal\r\n<keyGuideIcon id=|ThrowObject| OverrideType=|2|/> Lancer une sphère\r\n<keyGuideIcon id=|OpenConstructionMenu| OverrideType=|2|/> Menu Construction\r\n<keyGuideIcon id=|Jump| OverrideType=|2|/> Sauter\r\n<keyGuideIcon id=|WeaponReady| OverrideType=|2|/> Viser\r\n<keyGuideIcon id=|WeaponUse| OverrideType=|2|/> Attaquer\r\n<keyGuideIcon id=|ReloadAndCoop| OverrideType=|2|/> Compétence partenaire\r\n<keyGuideIcon id=|ChangeWeaponNext_GamePad| OverrideType=|2|/> Changer d'arme\r\n<keyGuideIcon id=|RollingAndCrouch| OverrideType=|2|/> S'accroupir/Roulade\r\n<keyGuideIcon id=|DashController| OverrideType=|2|/> Ruée\r\n<keyGuideIcon id=|PartnerPalInstructions| OverrideType=|2|/> Instructions\r\n<keyGuideIcon id=|OtomoChangeIncrement| OverrideType=|2|/><keyGuideIcon id=|OtomoChangeDecrement| OverrideType=|2|/> Changer de Pal\r\n<keyGuideIcon id=|SphereChange| OverrideType=|2|/> Changer de sphère",
+          "LocalizedString": "Commandes (manette)\r\n\r\nStick gauche Se déplacer\r\nStick droit Contrôler la caméra\r\n<keyGuideIcon id=|ThrowPal| OverrideType=|2|/> Appeler un Pal\r\n<keyGuideIcon id=|ThrowObject| OverrideType=|2|/> Lancer une sphère\r\n<keyGuideIcon id=|OpenConstructionMenu| OverrideType=|2|/> Menu Construction\r\n<keyGuideIcon id=|Jump| OverrideType=|2|/> Sauter\r\n<keyGuideIcon id=|WeaponReady| OverrideType=|2|/> Viser\r\n<keyGuideIcon id=|WeaponUse| OverrideType=|2|/> Attaquer\r\n<keyGuideIcon id=|ReloadAndCoop| OverrideType=|2|/> Compétence partenaire\r\n<keyGuideIcon id=|ChangeWeaponNext_GamePad| OverrideType=|2|/> Changer d'arme\r\n<keyGuideIcon id=|RollingAndCrouch| OverrideType=|2|/> S'accroupir/Roulade\r\n<keyGuideIcon id=|DashController| OverrideType=|2|/> Ruée\r\n<keyGuideIcon id=|PartnerPalInstructions| OverrideType=|2|/> Instructions\r\n<keyGuideIcon id=|OtomoChangeIncrement| OverrideType=|2|/><keyGuideIcon id=|OtomoChangeDecrement| OverrideType=|2|/> Changer de Pal\r\n<keyGuideIcon id=|SphereChange| OverrideType=|2|/> Changer de sphère"
+        }
+      },
+      "Help_3": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_3_TextData",
+          "SourceString": "But du jeu\r\n\r\nDévoile les secrets de cette terre mystérieuse tout en affrontant les \r\nforces inconnues qui se dressent sur ton chemin.\r\nTerrasse les boss qui contrôlent les tours de chaque région et\r\ntente de percer le mystère des origines des Pals.\r\n\r\nConstruis une base imprenable, capture les Pals les plus puissants \r\nou fais-les se reproduire toi-même !\r\n\r\nPars à l'aventure avec tes Pals et explore ce nouveau monde unique !",
+          "LocalizedString": "But du jeu\r\n\r\nDévoile les secrets de cette terre mystérieuse tout en affrontant les \r\nforces inconnues qui se dressent sur ton chemin.\r\nTerrasse les boss qui contrôlent les tours de chaque région et\r\ntente de percer le mystère des origines des Pals.\r\n\r\nConstruis une base imprenable, capture les Pals les plus puissants \r\nou fais-les se reproduire toi-même !\r\n\r\nPars à l'aventure avec tes Pals et explore ce nouveau monde unique !"
+        }
+      },
+      "Help_4": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_4_TextData",
+          "SourceString": "Par où commencer ?\r\n\r\nCommence par ramasser les branches et les cailloux au sol pour récolter du bois et de la pierre.\r\nTu peux aussi en récupérer en frappant les arbres et les rochers à mains nues.\r\nConstruis ensuite un établi pour fabriquer une hache et une pioche, ce qui te permettra de récolter plus efficacement.\r\n\r\nUne fois assez de matériaux en poche, choisis un emplacement pour ta base et construis une Boîte à Pals.\r\nC'est elle qui définira l'emplacement de ton camp.\r\n\r\nEn montant de niveau, tu pourras fabriquer des armes et une Sphère de Pals pour affaiblir puis capturer des Pals sauvages.\r\nLes Pals peuvent t'accompagner au combat ou t’aider en travaillant dans ta base.\r\n\r\nLa nuit peut être dangereuse. Prépare-toi en construisant un feu de camp, une torche et un lit avant qu’elle ne tombe.",
+          "LocalizedString": "Par où commencer ?\r\n\r\nCommence par ramasser les branches et les cailloux au sol pour récolter du bois et de la pierre.\r\nTu peux aussi en récupérer en frappant les arbres et les rochers à mains nues.\r\nConstruis ensuite un établi pour fabriquer une hache et une pioche, ce qui te permettra de récolter plus efficacement.\r\n\r\nUne fois assez de matériaux en poche, choisis un emplacement pour ta base et construis une Boîte à Pals.\r\nC'est elle qui définira l'emplacement de ton camp.\r\n\r\nEn montant de niveau, tu pourras fabriquer des armes et une Sphère de Pals pour affaiblir puis capturer des Pals sauvages.\r\nLes Pals peuvent t'accompagner au combat ou t’aider en travaillant dans ta base.\r\n\r\nLa nuit peut être dangereuse. Prépare-toi en construisant un feu de camp, une torche et un lit avant qu’elle ne tombe."
+        }
+      },
+      "Help_5": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_5_TextData",
+          "SourceString": "Pals\r\n\r\nLes Pals sont des êtres mystérieux qui peuplent ces terres.\r\nLes capturer à l'aide des sphères les fait devenir tes compagnons\r\net il est ensuite possible d'appuyer sur <keyGuideIcon id=|ThrowPal|/> pour faire sortir les Pals de l'équipe.\r\n\r\nL'équipe peut comporter jusqu'à 5 Pals. Les Pals capturés au-delà sont automatiquement envoyés dans la Boîte à Pals.\r\nIl suffira alors de fabriquer une boîte à Pals pour en disposer.",
+          "LocalizedString": "Pals\r\n\r\nLes Pals sont des êtres mystérieux qui peuplent ces terres.\r\nLes capturer à l'aide des sphères les fait devenir tes compagnons\r\net il est ensuite possible d'appuyer sur <keyGuideIcon id=|ThrowPal|/> pour faire sortir les Pals de l'équipe.\r\n\r\nL'équipe peut comporter jusqu'à 5 Pals. Les Pals capturés au-delà sont automatiquement envoyés dans la Boîte à Pals.\r\nIl suffira alors de fabriquer une boîte à Pals pour en disposer."
+        }
+      },
+      "Help_6": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_6_TextData",
+          "SourceString": "Interface\r\n\r\nLes Pals ainsi que les PV et la faim sont affichés dans le coin inférieur gauche.\r\nLa température est indiquée à droite, \r\net vous subissez des dégâts si la température est trop élevée ou trop basse.\r\nLes sphères et armes équipées ainsi que le nombre de munitions restantes sont affichés dans le coin inférieur droit.",
+          "LocalizedString": "Interface\r\n\r\nLes Pals ainsi que les PV et la faim sont affichés dans le coin inférieur gauche.\r\nLa température est indiquée à droite, \r\net vous subissez des dégâts si la température est trop élevée ou trop basse.\r\nLes sphères et armes équipées ainsi que le nombre de munitions restantes sont affichés dans le coin inférieur droit."
+        }
+      },
+      "Help_7": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_7_TextData",
+          "SourceString": "Obtenir des objets\r\n\r\nLes objets tombés peuvent être ramassés avec la touche <keyGuideIcon id=|Interact_1|/>. \r\nEn outre, tu peux obtenir des matériaux en détruisant des arbres ou des pierres avec une hache ou une pioche. \r\nLes Pals vaincus laissent aussi des objets derrière eux.",
+          "LocalizedString": "Obtenir des objets\r\n\r\nLes objets tombés peuvent être ramassés avec la touche <keyGuideIcon id=|Interact_1|/>. \r\nEn outre, tu peux obtenir des matériaux en détruisant des arbres ou des pierres avec une hache ou une pioche. \r\nLes Pals vaincus laissent aussi des objets derrière eux."
+        }
+      },
+      "Help_8": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_8_TextData",
+          "SourceString": "Construction\r\n\r\nPour construire des structures, ouvre le menu Construction avec la touche <keyGuideIcon id=|OpenConstructionMenu|/>. \r\nChoisis un emplacement, puis maintiens la touche <keyGuideIcon id=|Interact_1|/> pour finaliser la construction. \r\nLes Pals présents dans ton équipe ou dans le camp viendront t'aider.\r\n",
+          "LocalizedString": "Construction\r\n\r\nPour construire des structures, ouvre le menu Construction avec la touche <keyGuideIcon id=|OpenConstructionMenu|/>. \r\nChoisis un emplacement, puis maintiens la touche <keyGuideIcon id=|Interact_1|/> pour finaliser la construction. \r\nLes Pals présents dans ton équipe ou dans le camp viendront t'aider.\r\n"
+        }
+      },
+      "Help_9": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_9_TextData",
+          "SourceString": "Fabrication\r\n\r\nEn construisant un établi, entre autres, et en interagissant avec, tu pourras fabriquer des objets. \r\nLes points technologiques permettent de débloquer de nouvelles recettes, et la construction d'autres installations de fabrication ouvrira la possibilité de créer de nouveaux objets.",
+          "LocalizedString": "Fabrication\r\n\r\nEn construisant un établi, entre autres, et en interagissant avec, tu pourras fabriquer des objets. \r\nLes points technologiques permettent de débloquer de nouvelles recettes, et la construction d'autres installations de fabrication ouvrira la possibilité de créer de nouveaux objets."
+        }
+      },
+      "Help_10": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_10_TextData",
+          "SourceString": "Technologies\r\n\r\nEn utilisant des points technologiques via l'onglet Technologie du menu, \r\ntu pourras débloquer de nouvelles structures ainsi que de nouvelles recettes d'objets. \r\nLes points technologiques sont obtenus en montant de niveau ou en débloquant des statues du Grand Aigle",
+          "LocalizedString": "Technologies\r\n\r\nEn utilisant des points technologiques via l'onglet Technologie du menu, \r\ntu pourras débloquer de nouvelles structures ainsi que de nouvelles recettes d'objets. \r\nLes points technologiques sont obtenus en montant de niveau ou en débloquant des statues du Grand Aigle"
+        }
+      },
+      "Help_11": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_11_TextData",
+          "SourceString": "Technologies antiques\r\n\r\nVaincre de puissants ennemis octroie des points technologiques antiques\r\npermettant de débloquer des technologies antiques.\r\n\r\nLes technologies antiques renferment tout le savoir d'une civilisation éteinte\r\net procurent des effets aussi uniques que puissants.",
+          "LocalizedString": "Technologies antiques\r\n\r\nVaincre de puissants ennemis octroie des points technologiques antiques\r\npermettant de débloquer des technologies antiques.\r\n\r\nLes technologies antiques renferment tout le savoir d'une civilisation éteinte\r\net procurent des effets aussi uniques que puissants."
+        }
+      },
+      "Help_12": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_12_TextData",
+          "SourceString": "Niveau\r\n\r\nLe joueur et les Pals montent de niveau en gagnant de l'EXP. L'EXP peut être obtenue en vainquant ou en capturant des Pals. \r\nDe plus, la construction et la fabrication permettent également de gagner de l'EXP en fonction du travail accompli.\r\n\r\nLes Pals dont le niveau est supérieur à celui du joueur ne peuvent pas être maîtrisés correctement.\r\nLeurs statistiques sont donc réduites à celles du joueur via la synchronisation de niveau.",
+          "LocalizedString": "Niveau\r\n\r\nLe joueur et les Pals montent de niveau en gagnant de l'EXP. L'EXP peut être obtenue en vainquant ou en capturant des Pals. \r\nDe plus, la construction et la fabrication permettent également de gagner de l'EXP en fonction du travail accompli.\r\n\r\nLes Pals dont le niveau est supérieur à celui du joueur ne peuvent pas être maîtrisés correctement.\r\nLeurs statistiques sont donc réduites à celles du joueur via la synchronisation de niveau."
+        }
+      },
+      "Help_13": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_13_TextData",
+          "SourceString": "Renforcer le statut du joueur\r\n\r\nAttribuer des points de statut dans l'onglet Inventaire du menu\r\npermet d'augmenter le statut du joueur.\r\nLes points de statut s'obtiennent en faisant gagner des niveaux au joueur.",
+          "LocalizedString": "Renforcer le statut du joueur\r\n\r\nAttribuer des points de statut dans l'onglet Inventaire du menu\r\npermet d'augmenter le statut du joueur.\r\nLes points de statut s'obtiennent en faisant gagner des niveaux au joueur."
+        }
+      },
+      "Help_14": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_14_TextData",
+          "SourceString": "Base\r\n\r\nConstruire une boîte à Pals permet d'établir une base dans la zone environnante.\r\nInteragir avec la boîte à Pals permet d'affecter des Pals à la base\r\nafin qu'ils participent automatiquement aux différentes tâches selon leurs aptitudes au travail.\r\n\r\nConstruire des installations dans la base permet aux Pals d'y travailler.\r\nAttention : les Pals affectés à la base sont vulnérables en cas d'invasion.",
+          "LocalizedString": "Base\r\n\r\nConstruire une boîte à Pals permet d'établir une base dans la zone environnante.\r\nInteragir avec la boîte à Pals permet d'affecter des Pals à la base\r\nafin qu'ils participent automatiquement aux différentes tâches selon leurs aptitudes au travail.\r\n\r\nConstruire des installations dans la base permet aux Pals d'y travailler.\r\nAttention : les Pals affectés à la base sont vulnérables en cas d'invasion."
+        }
+      },
+      "Help_15": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_15_TextData",
+          "SourceString": "Boîte à Pals\r\n\r\nLa boîte à Pals définit une zone qui servira de camp à la guilde dont vous faites partie. Les bâtiments construits dans cette zone appartiendront à la guilde.\r\nInteragir avec la boîte et terminer les « missions de camp » permet de faire évoluer le camp de la guilde et d'augmenter le nombre de Pals pouvant y être déployés.\r\n\r\nPlacer des Pals dans la boîte leur permet de s'y reposer pour récupérer leurs PV, même s'ils sont K.O.\r\n\r\nLa boîte à Pals dispose d'une fonctionnalité de voyage rapide qui permet de se téléporter vers les statues du Grand Aigle débloquées au cours de votre voyage.\r\n\r\n* Le voyage rapide n'est pas disponible si l'option est désactivée dans les paramètres du monde.",
+          "LocalizedString": "Boîte à Pals\r\n\r\nLa boîte à Pals définit une zone qui servira de camp à la guilde dont vous faites partie. Les bâtiments construits dans cette zone appartiendront à la guilde.\r\nInteragir avec la boîte et terminer les « missions de camp » permet de faire évoluer le camp de la guilde et d'augmenter le nombre de Pals pouvant y être déployés.\r\n\r\nPlacer des Pals dans la boîte leur permet de s'y reposer pour récupérer leurs PV, même s'ils sont K.O.\r\n\r\nLa boîte à Pals dispose d'une fonctionnalité de voyage rapide qui permet de se téléporter vers les statues du Grand Aigle débloquées au cours de votre voyage.\r\n\r\n* Le voyage rapide n'est pas disponible si l'option est désactivée dans les paramètres du monde."
+        }
+      },
+      "Help_16": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_16_TextData",
+          "SourceString": "Capture\r\n\r\nSi une sphère de Pal lancée avec la touche <keyGuideIcon id=|ThrowObject|/> touche un Pal, celui-ci pourra être capturé.\r\nUn Pal aux PV réduits, souffrant d'une altération d'état ou pris dans un piège sera plus facile à capturer.\r\nDe plus, lancer une sphère dans le dos d'un Pal à son insu augmentera également les chances de capture.\r\nFabriquer de meilleures sphères permettra de capturer des Pals plus puissants.",
+          "LocalizedString": "Capture\r\n\r\nSi une sphère de Pal lancée avec la touche <keyGuideIcon id=|ThrowObject|/> touche un Pal, celui-ci pourra être capturé.\r\nUn Pal aux PV réduits, souffrant d'une altération d'état ou pris dans un piège sera plus facile à capturer.\r\nDe plus, lancer une sphère dans le dos d'un Pal à son insu augmentera également les chances de capture.\r\nFabriquer de meilleures sphères permettra de capturer des Pals plus puissants."
+        }
+      },
+      "Help_17": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_17_TextData",
+          "SourceString": "Équipe\r\n\r\nLe menu comporte un onglet Équipe où vous pouvez voir les Pals que vous avez dans votre équipe. \r\nVous ne pouvez avoir que 5 Pals maximum dans votre équipe à la fois. Si vous en capturez plus, ils seront automatiquement envoyés dans le Palbox.\r\n\r\nVous pouvez consulter les statistiques des Pals, telles que leurs PV ou leur degré de satiété. \r\nVous pouvez aussi vérifier les compétences qu'ils possèdent et changer les compétences actives qu'ils ont apprises.",
+          "LocalizedString": "Équipe\r\n\r\nLe menu comporte un onglet Équipe où vous pouvez voir les Pals que vous avez dans votre équipe. \r\nVous ne pouvez avoir que 5 Pals maximum dans votre équipe à la fois. Si vous en capturez plus, ils seront automatiquement envoyés dans le Palbox.\r\n\r\nVous pouvez consulter les statistiques des Pals, telles que leurs PV ou leur degré de satiété. \r\nVous pouvez aussi vérifier les compétences qu'ils possèdent et changer les compétences actives qu'ils ont apprises."
+        }
+      },
+      "Help_18": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_18_TextData",
+          "SourceString": "Degré de satiété\r\n\r\nLe degré de satiété du joueur et des Pals diminue après chaque action,\r\nce qui a pour effet de faire chuter leur statut.\r\n\r\nLe degré de satiété peut être restauré\r\nen donnant de la nourriture au joueur et aux Pals depuis l'inventaire.",
+          "LocalizedString": "Degré de satiété\r\n\r\nLe degré de satiété du joueur et des Pals diminue après chaque action,\r\nce qui a pour effet de faire chuter leur statut.\r\n\r\nLe degré de satiété peut être restauré\r\nen donnant de la nourriture au joueur et aux Pals depuis l'inventaire."
+        }
+      },
+      "Help_19": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_19_TextData",
+          "SourceString": "Points MEN\r\n\r\nLes points MEN des Pals diminuent lorsqu'ils travaillent sur le camp.\r\nUne réduction des points MEN est synonyme d'oisiveté ou encore de maladie.\r\nIls diminuent plus rapidement lorsque les Pals ont faim.\r\nDonne-leur un bon repas ou fais-les se reposer dans une source chaude pour les restaurer.",
+          "LocalizedString": "Points MEN\r\n\r\nLes points MEN des Pals diminuent lorsqu'ils travaillent sur le camp.\r\nUne réduction des points MEN est synonyme d'oisiveté ou encore de maladie.\r\nIls diminuent plus rapidement lorsque les Pals ont faim.\r\nDonne-leur un bon repas ou fais-les se reposer dans une source chaude pour les restaurer."
+        }
+      },
+      "Help_20": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_20_TextData",
+          "SourceString": "Compétences partenaires\r\n\r\nChaque espèce de Pal a des caractéristiques qui lui sont propres. Les compétences partenaires incluent la possibilité de \r\nmonter des Pals ou encore de leur faire utiliser des armes à feu.\r\n\r\nCertains Pals ont besoin d'équipement de Pal, à fabriquer sur un établi dédié, \r\npour débloquer leurs compétences partenaires.\r\n\r\nLeurs effets sont visibles à l'écran Équipe, et certains Pals activent leurs compétences \r\nuniquement lorsqu'ils font partie de votre équipe.",
+          "LocalizedString": "Compétences partenaires\r\n\r\nChaque espèce de Pal a des caractéristiques qui lui sont propres. Les compétences partenaires incluent la possibilité de \r\nmonter des Pals ou encore de leur faire utiliser des armes à feu.\r\n\r\nCertains Pals ont besoin d'équipement de Pal, à fabriquer sur un établi dédié, \r\npour débloquer leurs compétences partenaires.\r\n\r\nLeurs effets sont visibles à l'écran Équipe, et certains Pals activent leurs compétences \r\nuniquement lorsqu'ils font partie de votre équipe."
+        }
+      },
+      "Help_21": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_21_TextData",
+          "SourceString": "Palpedia\r\n\r\nLe Palpedia peut être consulté dans le menu.\r\nLes informations sur les Pals capturés ou rencontrés y sont consignées,\r\nce qui inclut notamment leur habitat.",
+          "LocalizedString": "Palpedia\r\n\r\nLe Palpedia peut être consulté dans le menu.\r\nLes informations sur les Pals capturés ou rencontrés y sont consignées,\r\nce qui inclut notamment leur habitat."
+        }
+      },
+      "Help_22": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_22_TextData",
+          "SourceString": "Bonus de Palpédia\r\n\r\nLorsque vous capturez une nouvelle espèce de Pal, vous obtenez de l'EXP bonus.\r\nCe bonus est attribué chaque fois que vous capturez un Pal de la même espèce, jusqu'à un total de 5 captures.",
+          "LocalizedString": "Bonus de Palpédia\r\n\r\nLorsque vous capturez une nouvelle espèce de Pal, vous obtenez de l'EXP bonus.\r\nCe bonus est attribué chaque fois que vous capturez un Pal de la même espèce, jusqu'à un total de 5 captures."
+        }
+      },
+      "Help_23": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_23_TextData",
+          "SourceString": "Guildes\r\n\r\nApprocher un autre joueur permet de lui envoyer une demande pour intégrer sa guilde.\r\nL'onglet Guilde du menu fournit des informations\r\nsur la guilde actuelle ainsi que sur la situation de ses membres.\r\nLes joueurs appartenant à la même guilde partagent un seul et même camp\r\net ont le contrôle sur tous les Pals qui y travaillent librement.",
+          "LocalizedString": "Guildes\r\n\r\nApprocher un autre joueur permet de lui envoyer une demande pour intégrer sa guilde.\r\nL'onglet Guilde du menu fournit des informations\r\nsur la guilde actuelle ainsi que sur la situation de ses membres.\r\nLes joueurs appartenant à la même guilde partagent un seul et même camp\r\net ont le contrôle sur tous les Pals qui y travaillent librement."
+        }
+      },
+      "Help_24": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_24_TextData",
+          "SourceString": "Carte\r\n\r\nAppuyer sur la touche <keyGuideIcon id=|OpenWorldMap|/> affiche la carte.\r\nOn peut notamment y consulter les informations du terrain.",
+          "LocalizedString": "Carte\r\n\r\nAppuyer sur la touche <keyGuideIcon id=|OpenWorldMap|/> affiche la carte.\r\nOn peut notamment y consulter les informations du terrain."
+        }
+      },
+      "Help_25": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_25_TextData",
+          "SourceString": "Statues du Grand Aigle\r\n\r\nEn interagissant avec une Statue du Grand Aigle, vous débloquez la possibilité \r\nde voyager rapidement vers d'autres statues précédemment activées, ainsi que vers votre boîte à Pals.\r\n\r\nDe plus, chaque activation de statue vous octroie des points technologiques. \r\nLes statues du Grand Aigle sont dispersées à travers le monde, alors n'hésitez pas à les rechercher.\r\n\r\n* Le voyage rapide sera désactivé si cette option est désactivée dans les paramètres du monde.",
+          "LocalizedString": "Statues du Grand Aigle\r\n\r\nEn interagissant avec une Statue du Grand Aigle, vous débloquez la possibilité \r\nde voyager rapidement vers d'autres statues précédemment activées, ainsi que vers votre boîte à Pals.\r\n\r\nDe plus, chaque activation de statue vous octroie des points technologiques. \r\nLes statues du Grand Aigle sont dispersées à travers le monde, alors n'hésitez pas à les rechercher.\r\n\r\n* Le voyage rapide sera désactivé si cette option est désactivée dans les paramètres du monde."
+        }
+      },
+      "Help_26": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_26_TextData",
+          "SourceString": "Menu radial\r\n\r\nCe menu peut être ouvert à l'aide de la touche <keyGuideIcon id=|PartnerPalInstructions|/>.\r\nIl permet d'enseigner des tactiques aux Pals ou encore de les nourrir.",
+          "LocalizedString": "Menu radial\r\n\r\nCe menu peut être ouvert à l'aide de la touche <keyGuideIcon id=|PartnerPalInstructions|/>.\r\nIl permet d'enseigner des tactiques aux Pals ou encore de les nourrir."
+        }
+      },
+      "Help_27": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_27_TextData",
+          "SourceString": "Nuit\r\n\r\nLes environs s'assombrissent, la température descend et les Pals nocturnes plus agressifs sortent à la nuit tombée.\r\nIl convient alors de fabriquer des lits pour dormir jusqu'au matin en lieu sûr ou de rester au chaud autour d'un feu de camp.",
+          "LocalizedString": "Nuit\r\n\r\nLes environs s'assombrissent, la température descend et les Pals nocturnes plus agressifs sortent à la nuit tombée.\r\nIl convient alors de fabriquer des lits pour dormir jusqu'au matin en lieu sûr ou de rester au chaud autour d'un feu de camp."
+        }
+      },
+      "Help_28": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_28_TextData",
+          "SourceString": "Boss des tours\r\n\r\nChaque région dispose d'une tour où réside son dirigeant.\r\nFoncièrement hostiles aux Paldresseurs étrangers à l'île, ils engageront le combat contre quiconque tentera de pénétrer dans leur tour.\r\nLes combats contre les boss des tours comportent une limite de temps qui entraînera un échec une fois écoulée.\r\nCes combats peuvent être retentés à loisir, à condition que personne d'autre ne les ait initiés avant.",
+          "LocalizedString": "Boss des tours\r\n\r\nChaque région dispose d'une tour où réside son dirigeant.\r\nFoncièrement hostiles aux Paldresseurs étrangers à l'île, ils engageront le combat contre quiconque tentera de pénétrer dans leur tour.\r\nLes combats contre les boss des tours comportent une limite de temps qui entraînera un échec une fois écoulée.\r\nCes combats peuvent être retentés à loisir, à condition que personne d'autre ne les ait initiés avant."
+        }
+      },
+      "Help_29": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_29_TextData",
+          "SourceString": "Crime\r\n\r\nAttaquer les PNJ honnêtes sur le terrain ou dans les villes fera de vous un criminel.\r\nAttention : un crime en présence de témoins donnera lieu à un avis de recherche de la Milice populaire de Palpagos.\r\n\r\nSi votre tête est mise à prix, fuyez la Milice et faites en sorte qu'elle ne vous voie pas.\r\nAprès un certain temps, elle retirera l'avis de recherche.",
+          "LocalizedString": "Crime\r\n\r\nAttaquer les PNJ honnêtes sur le terrain ou dans les villes fera de vous un criminel.\r\nAttention : un crime en présence de témoins donnera lieu à un avis de recherche de la Milice populaire de Palpagos.\r\n\r\nSi votre tête est mise à prix, fuyez la Milice et faites en sorte qu'elle ne vous voie pas.\r\nAprès un certain temps, elle retirera l'avis de recherche."
+        }
+      },
+      "Help_30": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_30_TextData",
+          "SourceString": "Résistance de l'équipement\r\n\r\nLa résistance de l'équipement diminue au fil des utilisations et la pièce se brise lorsqu'elle tombe à 0.\r\nL'équipement à faible résistance peut être réparé en utilisant des matériaux sur un banc de réparation.",
+          "LocalizedString": "Résistance de l'équipement\r\n\r\nLa résistance de l'équipement diminue au fil des utilisations et la pièce se brise lorsqu'elle tombe à 0.\r\nL'équipement à faible résistance peut être réparé en utilisant des matériaux sur un banc de réparation."
+        }
+      },
+      "Help_31": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_31_TextData",
+          "SourceString": "Décomposition des objets\r\n\r\nCertaines denrées alimentaires, par exemple, peuvent pourrir après un certain temps ce qui entraînera leur disparition.\r\nLes stocker dans une glaciaire ou un réfrigérateur permettra de contrer ce phénomène.",
+          "LocalizedString": "Décomposition des objets\r\n\r\nCertaines denrées alimentaires, par exemple, peuvent pourrir après un certain temps ce qui entraînera leur disparition.\r\nLes stocker dans une glaciaire ou un réfrigérateur permettra de contrer ce phénomène."
+        }
+      },
+      "Help_32": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_32_TextData",
+          "SourceString": "Types\r\n\r\nTous les Pals possèdent un type, chacun étant fort ou faible face à un autre.\r\nLes attaques d'un type fort infligeront des dégâts supplémentaires, tandis que celles d'un type faible les réduiront.",
+          "LocalizedString": "Types\r\n\r\nTous les Pals possèdent un type, chacun étant fort ou faible face à un autre.\r\nLes attaques d'un type fort infligeront des dégâts supplémentaires, tandis que celles d'un type faible les réduiront."
+        }
+      },
+      "Help_33": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_33_TextData",
+          "SourceString": "Altérations d'état\r\n\r\nLes Pals et le joueur peuvent subir des altérations d'état selon les conditions environnementales ou les effets de certaines compétences.\r\nIl existe de nombreux types d'altérations d'état, possédant chacun des effets distincts.\r\nDe plus, les Pals souffrant d'une altération d'état sont plus faciles à capturer.\r\n\r\n« Brûlure »\r\nLe corps s'enflamme et subit des dégâts continus.\r\nLes dégâts subis par les attaques de type Herbe sont réduits.\r\nLes Pals de type Feu et Eau ne peuvent pas subir de brûlure.\r\n\r\n« Trempé »\r\nLe corps est trempé et la vitesse de déplacement diminue.\r\nLes dégâts subis par les attaques de type Électricité sont augmentés.\r\nLes dégâts subis par les attaques de type Feu sont réduits.\r\n\r\n« Entrave »\r\nDes lianes s'enroulent autour du corps et la vitesse de déplacement diminue.\r\nCertaines actions comme le saut ou l'esquive sont restreintes.\r\nLes dégâts subis par les attaques de type Feu sont augmentés.\r\n\r\n« Électrisation »\r\nLe corps est paralysé par l'électricité, ce qui empêche toute action.\r\nLes dégâts subis par les attaques de type Eau sont augmentés.\r\n\r\n« Gel »\r\nLe corps est pris dans la glace, ce qui empêche toute action.\r\n\r\n« Embourbement »\r\nLe corps est couvert de boue et la vitesse de déplacement diminue.\r\nLes dégâts subis par les attaques de type Herbe sont augmentés.\r\nLes dégâts subis par les attaques de type Électricité sont réduits.\r\n\r\n« Cécité »\r\nLa vision s'obscurcit et il devient impossible de cibler les ennemis.\r\n\r\n« Empoisonnement »\r\nLe corps est empoisonné et subit des dégâts continus.",
+          "LocalizedString": "Altérations d'état\r\n\r\nLes Pals et le joueur peuvent subir des altérations d'état selon les conditions environnementales ou les effets de certaines compétences.\r\nIl existe de nombreux types d'altérations d'état, possédant chacun des effets distincts.\r\nDe plus, les Pals souffrant d'une altération d'état sont plus faciles à capturer.\r\n\r\n« Brûlure »\r\nLe corps s'enflamme et subit des dégâts continus.\r\nLes dégâts subis par les attaques de type Herbe sont réduits.\r\nLes Pals de type Feu et Eau ne peuvent pas subir de brûlure.\r\n\r\n« Trempé »\r\nLe corps est trempé et la vitesse de déplacement diminue.\r\nLes dégâts subis par les attaques de type Électricité sont augmentés.\r\nLes dégâts subis par les attaques de type Feu sont réduits.\r\n\r\n« Entrave »\r\nDes lianes s'enroulent autour du corps et la vitesse de déplacement diminue.\r\nCertaines actions comme le saut ou l'esquive sont restreintes.\r\nLes dégâts subis par les attaques de type Feu sont augmentés.\r\n\r\n« Électrisation »\r\nLe corps est paralysé par l'électricité, ce qui empêche toute action.\r\nLes dégâts subis par les attaques de type Eau sont augmentés.\r\n\r\n« Gel »\r\nLe corps est pris dans la glace, ce qui empêche toute action.\r\n\r\n« Embourbement »\r\nLe corps est couvert de boue et la vitesse de déplacement diminue.\r\nLes dégâts subis par les attaques de type Herbe sont augmentés.\r\nLes dégâts subis par les attaques de type Électricité sont réduits.\r\n\r\n« Cécité »\r\nLa vision s'obscurcit et il devient impossible de cibler les ennemis.\r\n\r\n« Empoisonnement »\r\nLe corps est empoisonné et subit des dégâts continus."
+        }
+      },
+      "Help_34": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_34_TextData",
+          "SourceString": "Œufs de Pal\r\n\r\nVous trouverez de temps à autre des œufs de Pal sur le terrain.\r\nLes installer dans un incubateur pourra les faire éclore.\r\nUne température ambiante adaptée accélérera l'éclosion.",
+          "LocalizedString": "Œufs de Pal\r\n\r\nVous trouverez de temps à autre des œufs de Pal sur le terrain.\r\nLes installer dans un incubateur pourra les faire éclore.\r\nUne température ambiante adaptée accélérera l'éclosion."
+        }
+      },
+      "Help_35": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_35_TextData",
+          "SourceString": "Élevage\r\n\r\nEn assignant un Pal mâle et un Pal femelle à l’élevage, puis en y déposant un gâteau dans le coffre,\r\nun œuf de Pal pourra apparaître au bout d’un moment.\r\nCertaines combinaisons rares peuvent donner naissance à un œuf spécial.",
+          "LocalizedString": "Élevage\r\n\r\nEn assignant un Pal mâle et un Pal femelle à l’élevage, puis en y déposant un gâteau dans le coffre,\r\nun œuf de Pal pourra apparaître au bout d’un moment.\r\nCertaines combinaisons rares peuvent donner naissance à un œuf spécial."
+        }
+      },
+      "Help_36": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_36_TextData",
+          "SourceString": "Rang des Pals et capsule d'essence\r\n\r\nChaque Pal possède un rang : plus celui-ci est élevé, plus ses statistiques sont puissantes.\r\nAugmenter ce rang permet également de renforcer ses compétences partenaires.\r\nVous pouvez élever le rang d'un Pal grâce à la capsule d'essence de Pal. Pour ce faire, vous devrez transformer une grande quantité de Pals de la même espèce en essence.",
+          "LocalizedString": "Rang des Pals et capsule d'essence\r\n\r\nChaque Pal possède un rang : plus celui-ci est élevé, plus ses statistiques sont puissantes.\r\nAugmenter ce rang permet également de renforcer ses compétences partenaires.\r\nVous pouvez élever le rang d'un Pal grâce à la capsule d'essence de Pal. Pour ce faire, vous devrez transformer une grande quantité de Pals de la même espèce en essence."
+        }
+      },
+      "Help_37": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_37_TextData",
+          "SourceString": "Statues de Pal\r\n\r\nLes statues de Pal trouvées à travers le monde peuvent être offertes à une statue de puissance afin d'améliorer diverses capacités du joueur.",
+          "LocalizedString": "Statues de Pal\r\n\r\nLes statues de Pal trouvées à travers le monde peuvent être offertes à une statue de puissance afin d'améliorer diverses capacités du joueur."
+        }
+      },
+      "Help_38": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_38_TextData",
+          "SourceString": "Âmes de Pals\r\n\r\nLes âmes de Pals trouvées notamment dans les coffres peuvent être\r\noffertes aux statues de puissance pour accroître les valeurs des Pals.",
+          "LocalizedString": "Âmes de Pals\r\n\r\nLes âmes de Pals trouvées notamment dans les coffres peuvent être\r\noffertes aux statues de puissance pour accroître les valeurs des Pals."
+        }
+      },
+      "Help_39": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_39_TextData",
+          "SourceString": "Sous-espèces de Pals\r\n\r\nCertains Pals se sont adaptés à leur environnement pour adopter une forme alternative qualifiée de « sous-espèce ».\r\nLes sous-espèces ont un type différent de leur forme originelle et profitent d'un statut légèrement accru.\r\n\r\nCertaines combinaisons d'accouplement peuvent également donner naissance à une sous-espèce.\r\n\r\nLes sous-espèces octroient un bonus de Palpédia distinct de leur forme originelle, ce qui permet d'obtenir encore plus d'EXP en en capturant 5 individus.",
+          "LocalizedString": "Sous-espèces de Pals\r\n\r\nCertains Pals se sont adaptés à leur environnement pour adopter une forme alternative qualifiée de « sous-espèce ».\r\nLes sous-espèces ont un type différent de leur forme originelle et profitent d'un statut légèrement accru.\r\n\r\nCertaines combinaisons d'accouplement peuvent également donner naissance à une sous-espèce.\r\n\r\nLes sous-espèces octroient un bonus de Palpédia distinct de leur forme originelle, ce qui permet d'obtenir encore plus d'EXP en en capturant 5 individus."
+        }
+      },
+      "Help_40": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_40_TextData",
+          "SourceString": "Pals chanceux\r\n\r\nDes Pals particulièrement rares peuvent être trouvés sur le terrain.\r\nCeux-ci émettent une lumière et ont la particularité d'être plus imposants.\r\nIls possèdent également des compétences passives et actives uniques ainsi qu'un statut souvent plus élevé.",
+          "LocalizedString": "Pals chanceux\r\n\r\nDes Pals particulièrement rares peuvent être trouvés sur le terrain.\r\nCeux-ci émettent une lumière et ont la particularité d'être plus imposants.\r\nIls possèdent également des compétences passives et actives uniques ainsi qu'un statut souvent plus élevé."
+        }
+      },
+      "Help_40_2": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_40_2_TextData",
+          "SourceString": "Pals prédateurs\r\n\r\nDes Pals particulièrement agressifs peuvent être trouvés sur le terrain.\r\nCeux-ci ont une aura ténébreuse rouge et ont la particularité d'être plus imposants et bien plus féroces.\r\nL'aura ténébreuse qui les enveloppe empêche toute capture via les sphères.\r\nÀ défier en connaissance de cause.",
+          "LocalizedString": "Pals prédateurs\r\n\r\nDes Pals particulièrement agressifs peuvent être trouvés sur le terrain.\r\nCeux-ci ont une aura ténébreuse rouge et ont la particularité d'être plus imposants et bien plus féroces.\r\nL'aura ténébreuse qui les enveloppe empêche toute capture via les sphères.\r\nÀ défier en connaissance de cause."
+        }
+      },
+      "Help_41": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_41_TextData",
+          "SourceString": "Pénalité de mort\r\n\r\nÀ la mort du joueur, ses objets et Pals sont abandonnés sur place.\r\nIl suffira de se rendre sur ce lieu après résurrection pour les retrouver.\r\n\r\n* Les pénalités peuvent être modifiées dans les paramètres du monde.",
+          "LocalizedString": "Pénalité de mort\r\n\r\nÀ la mort du joueur, ses objets et Pals sont abandonnés sur place.\r\nIl suffira de se rendre sur ce lieu après résurrection pour les retrouver.\r\n\r\n* Les pénalités peuvent être modifiées dans les paramètres du monde."
+        }
+      },
+      "Help_42": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_42_TextData",
+          "SourceString": "L'Arène\r\n\r\nSituée sur une petite île reculée de la région désertique, l'Arène permet aux Paldresseurs de mesurer leur force dans des duels intenses, épaulés par leurs Pals.\r\nVous pouvez y affronter d'autres joueurs présents dans le même monde, ou défier des PNJ, dont certains, classés au rang Maître, font preuve d'une puissance redoutable.\r\n\r\nVous devrez sélectionner trois Pals parmi votre équipe actuelle :\r\n- un Pal principal ;\r\n- deux Pals secondaires qui participeront au combat.\r\nPour l'emporter, vous devez vaincre soit le Paldresseur ennemi, soit l'ensemble de ses Pals.\r\n\r\nLes Pals mis K.O. et les objets utilisés durant le combat sont rétablis à leur état d'origine une fois le duel terminé.\r\n\r\nRègles de l'Arène :\r\n\r\n*  Les objets consommables sont interdits.\r\n\r\n*  Les armes exploitant les Sphères de Pal ou apportant des effets dopants sont également interdites.\r\n\r\nEn cas de victoire, vous obtenez des Points de Rang (PR). En accumulant suffisamment de PR, votre classement augmente.\r\nUne défaite, en revanche, entraîne une perte de PR.\r\n\r\nHors combat, il est également possible d'assister à des duels entre joueurs en tant que spectateur.",
+          "LocalizedString": "L'Arène\r\n\r\nSituée sur une petite île reculée de la région désertique, l'Arène permet aux Paldresseurs de mesurer leur force dans des duels intenses, épaulés par leurs Pals.\r\nVous pouvez y affronter d'autres joueurs présents dans le même monde, ou défier des PNJ, dont certains, classés au rang Maître, font preuve d'une puissance redoutable.\r\n\r\nVous devrez sélectionner trois Pals parmi votre équipe actuelle :\r\n- un Pal principal ;\r\n- deux Pals secondaires qui participeront au combat.\r\nPour l'emporter, vous devez vaincre soit le Paldresseur ennemi, soit l'ensemble de ses Pals.\r\n\r\nLes Pals mis K.O. et les objets utilisés durant le combat sont rétablis à leur état d'origine une fois le duel terminé.\r\n\r\nRègles de l'Arène :\r\n\r\n*  Les objets consommables sont interdits.\r\n\r\n*  Les armes exploitant les Sphères de Pal ou apportant des effets dopants sont également interdites.\r\n\r\nEn cas de victoire, vous obtenez des Points de Rang (PR). En accumulant suffisamment de PR, votre classement augmente.\r\nUne défaite, en revanche, entraîne une perte de PR.\r\n\r\nHors combat, il est également possible d'assister à des duels entre joueurs en tant que spectateur."
+        }
+      },
+      "Help_2_PS5": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_2_PS5_TextData",
+          "SourceString": "Commandes (manette)\r\n\r\nJoystick gauche : Se déplacer\r\nJoystick droit : Contrôler la caméra\r\n<keyGuideIcon id=|ThrowPal| OverrideType=|2|/> Appeler un Pal\r\n<keyGuideIcon id=|ThrowObject| OverrideType=|2|/> Lancer une sphère\r\n<keyGuideIcon id=|OpenConstructionMenu| OverrideType=|2|/> Menu Construction\r\n<keyGuideIcon id=|Jump| OverrideType=|2|/> Sauter\r\n<keyGuideIcon id=|WeaponReady| OverrideType=|2|/> Viser\r\n<keyGuideIcon id=|WeaponUse| OverrideType=|2|/> Attaquer\r\n<keyGuideIcon id=|ReloadAndCoop| OverrideType=|2|/> Compétence partenaire\r\n<keyGuideIcon id=|ChangeWeaponNext| OverrideType=|2|/> Changer d'arme\r\n<keyGuideIcon id=|RollingAndCrouch| OverrideType=|2|/> S'accroupir/Roulade\r\n<keyGuideIcon id=|DashController| OverrideType=|2|/> Ruée\r\n<keyGuideIcon id=|PartnerPalInstructions| OverrideType=|2|/> Instructions\r\n<keyGuideIcon id=|OtomoChangeIncrement| OverrideType=|2|/><keyGuideIcon id=|OtomoChangeDecrement| OverrideType=|2|/> Changer de Pal\r\n<keyGuideIcon id=|SphereChange| OverrideType=|2|/> Changer de sphère",
+          "LocalizedString": "Commandes (manette)\r\n\r\nJoystick gauche : Se déplacer\r\nJoystick droit : Contrôler la caméra\r\n<keyGuideIcon id=|ThrowPal| OverrideType=|2|/> Appeler un Pal\r\n<keyGuideIcon id=|ThrowObject| OverrideType=|2|/> Lancer une sphère\r\n<keyGuideIcon id=|OpenConstructionMenu| OverrideType=|2|/> Menu Construction\r\n<keyGuideIcon id=|Jump| OverrideType=|2|/> Sauter\r\n<keyGuideIcon id=|WeaponReady| OverrideType=|2|/> Viser\r\n<keyGuideIcon id=|WeaponUse| OverrideType=|2|/> Attaquer\r\n<keyGuideIcon id=|ReloadAndCoop| OverrideType=|2|/> Compétence partenaire\r\n<keyGuideIcon id=|ChangeWeaponNext| OverrideType=|2|/> Changer d'arme\r\n<keyGuideIcon id=|RollingAndCrouch| OverrideType=|2|/> S'accroupir/Roulade\r\n<keyGuideIcon id=|DashController| OverrideType=|2|/> Ruée\r\n<keyGuideIcon id=|PartnerPalInstructions| OverrideType=|2|/> Instructions\r\n<keyGuideIcon id=|OtomoChangeIncrement| OverrideType=|2|/><keyGuideIcon id=|OtomoChangeDecrement| OverrideType=|2|/> Changer de Pal\r\n<keyGuideIcon id=|SphereChange| OverrideType=|2|/> Changer de sphère"
+        }
+      },
+      "Help_43": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_43_TextData",
+          "SourceString": "Boîte à Pals globale\r\n\r\nCette installation permet de sauvegarder les données génétiques des Pals de la boîte et ainsi de récupérer ces derniers via ces données.\r\nEn revanche, un même monde ne peut pas accueillir deux spécimens aux données génétiques identiques.\r\nIl est possible de transférer des données génétiques vers un autre monde.\r\n\r\n* Si la récupération et la sauvegarde des données génétiques des Pals ne sont pas activées dans les paramètres du monde, il vous sera impossible d'utiliser ces fonctionnalités.",
+          "LocalizedString": "Boîte à Pals globale\r\n\r\nCette installation permet de sauvegarder les données génétiques des Pals de la boîte et ainsi de récupérer ces derniers via ces données.\r\nEn revanche, un même monde ne peut pas accueillir deux spécimens aux données génétiques identiques.\r\nIl est possible de transférer des données génétiques vers un autre monde.\r\n\r\n* Si la récupération et la sauvegarde des données génétiques des Pals ne sont pas activées dans les paramètres du monde, il vous sera impossible d'utiliser ces fonctionnalités."
+        }
+      },
+      "Help_44": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_44_TextData",
+          "SourceString": "En cas de blocage dans le décor\r\n\r\nSélectionnez « Évasion en urgence » dans les options du menu pour retourner sur le camp.\r\nIl existe également des objets et des Pals permettant de se téléporter sur le camp sans mourir, alors ouvrez l'œil.",
+          "LocalizedString": "En cas de blocage dans le décor\r\n\r\nSélectionnez « Évasion en urgence » dans les options du menu pour retourner sur le camp.\r\nIl existe également des objets et des Pals permettant de se téléporter sur le camp sans mourir, alors ouvrez l'œil."
+        }
+      },
+      "Help_45": {
+        "TextData": {
+          "Namespace": "DT_HelpGuideDescText",
+          "Key": "Help_45_TextData",
+          "SourceString": "La pêche\r\n\r\nÉquipez-vous d'une canne à pêche et sélectionnez un appât dans l'inventaire. Levez votre canne avec <keyGuideIcon id=|WeaponReady|/> au-dessus d'une silhouette de poisson\r\n et appuyez sur <keyGuideIcon id=|WeaponUse|/> pour lancer la ligne et commencer à pêcher.\r\nIl est également possible de pêcher à dos de Pal.\r\n\r\nLorsqu’un poisson s’approche de l’appât et que celui-ci passe sous l’eau, appuyez au bon moment sur <keyGuideIcon id=|WeaponUse|/> pour hameçonner le poisson.\r\n\r\nUn mini-jeu se lance alors, où vous devez faire correspondre la barre à l’icône du poisson.\r\nMaintenez la touche <keyGuideIcon id=|WeaponUse|/> enfoncée pour déplacer la barre vers la droite, relâchez-la pour qu’elle revienne vers la gauche.\r\nIl est crucial de suivre les mouvements du Pal, qui se débat de gauche à droite.\r\n\r\nLa jauge de capture se remplit lorsque la barre est superposée à l’icône du poisson.\r\nUne fois la jauge pleine, la pêche est un succès et vous pouvez récupérer un Pal ou un objet.\r\n\r\nAméliorer votre canne à pêche ou votre appât facilite le mini-jeu.\r\nSi la pêche vous semble difficile, revenez après avoir fabriqué une canne ou un appât plus performant.\r\nCertains Pals pourront également vous aider à pêcher, alors essayez de les trouver.",
+          "LocalizedString": "La pêche\r\n\r\nÉquipez-vous d'une canne à pêche et sélectionnez un appât dans l'inventaire. Levez votre canne avec <keyGuideIcon id=|WeaponReady|/> au-dessus d'une silhouette de poisson\r\n et appuyez sur <keyGuideIcon id=|WeaponUse|/> pour lancer la ligne et commencer à pêcher.\r\nIl est également possible de pêcher à dos de Pal.\r\n\r\nLorsqu’un poisson s’approche de l’appât et que celui-ci passe sous l’eau, appuyez au bon moment sur <keyGuideIcon id=|WeaponUse|/> pour hameçonner le poisson.\r\n\r\nUn mini-jeu se lance alors, où vous devez faire correspondre la barre à l’icône du poisson.\r\nMaintenez la touche <keyGuideIcon id=|WeaponUse|/> enfoncée pour déplacer la barre vers la droite, relâchez-la pour qu’elle revienne vers la gauche.\r\nIl est crucial de suivre les mouvements du Pal, qui se débat de gauche à droite.\r\n\r\nLa jauge de capture se remplit lorsque la barre est superposée à l’icône du poisson.\r\nUne fois la jauge pleine, la pêche est un succès et vous pouvez récupérer un Pal ou un objet.\r\n\r\nAméliorer votre canne à pêche ou votre appât facilite le mini-jeu.\r\nSi la pêche vous semble difficile, revenez après avoir fabriqué une canne ou un appât plus performant.\r\nCertains Pals pourront également vous aider à pêcher, alors essayez de les trouver."
+        }
+      }
+    }
+  }
+]

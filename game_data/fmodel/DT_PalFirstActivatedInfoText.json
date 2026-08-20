@@ -2,9 +2,8 @@
   {
     "Type": "DataTable",
     "Name": "DT_PalFirstActivatedInfoText",
-    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'DataTable'",
-    "Package": "Pal/Content/Pal/DataTable/Text/DT_PalFirstActivatedInfoText",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "RowStruct": {
         "ObjectName": "ScriptStruct'PalLocalizedTextData'",
@@ -656,8 +655,8 @@
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_Kirin_TextData",
-          "SourceString": "背中に乗って移動できる。\r\n手持ちにいる間、プレイヤーとパルが<img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/>で弱点を突いたときのダメージが<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）",
-          "LocalizedString": "背中に乗って移動できる。\r\n手持ちにいる間、プレイヤーとパルが<img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/>で弱点を突いたときのダメージが<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）"
+          "SourceString": "背中に乗って移動できる。\r\n手持ちにいる間、プレイヤーとパルが<img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/>で弱点属性を突いたときのダメージが<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）",
+          "LocalizedString": "背中に乗って移動できる。\r\n手持ちにいる間、プレイヤーとパルが<img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/>で弱点属性を突いたときのダメージが<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）"
         }
       },
       "PAL_FIRST_SPAWN_DESC_Kitsunebi": {
@@ -1280,8 +1279,8 @@
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_MimicDog_TextData",
-          "SourceString": "一緒に戦っている間、<characterName id=|MimicDog|/>の力で、鍵を使用せずに宝箱を開けることができる。\r\n{ReferenceMsgId_CooldownReduction}",
-          "LocalizedString": "一緒に戦っている間、<characterName id=|MimicDog|/>の力で、鍵を使用せずに宝箱を開けることができる。\r\n{ReferenceMsgId_CooldownReduction}"
+          "SourceString": "一緒に戦っている間、<characterName id=|MimicDog|/>の力により、鍵を使用せずにあらゆるグレードの宝箱を開けることができる。\r\nただし、特定の作業適性が必要な宝箱は開けられない。\r\n{ReferenceMsgId_CooldownReduction}",
+          "LocalizedString": "一緒に戦っている間、<characterName id=|MimicDog|/>の力により、鍵を使用せずにあらゆるグレードの宝箱を開けることができる。\r\nただし、特定の作業適性が必要な宝箱は開けられない。\r\n{ReferenceMsgId_CooldownReduction}"
         }
       },
       "PAL_FIRST_SPAWN_DESC_KendoFrog": {
@@ -1296,8 +1295,8 @@
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_KingBahamut_Dragon_TextData",
-          "SourceString": "背中に乗って移動できる。\r\n手持ちにいる間、プレイヤーとパルが<img id=|ElemIcon_Dragon|/><uiCommon id=|COMMON_ELEMENT_NAME_Dragon| style=|Elem_Dragon|/>で弱点を突いたときのダメージが<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）",
-          "LocalizedString": "背中に乗って移動できる。\r\n手持ちにいる間、プレイヤーとパルが<img id=|ElemIcon_Dragon|/><uiCommon id=|COMMON_ELEMENT_NAME_Dragon| style=|Elem_Dragon|/>で弱点を突いたときのダメージが<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）"
+          "SourceString": "背中に乗って移動できる。\r\n手持ちにいる間、プレイヤーとパルが<img id=|ElemIcon_Dragon|/><uiCommon id=|COMMON_ELEMENT_NAME_Dragon| style=|Elem_Dragon|/>で弱点属性を突いたときのダメージが<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）",
+          "LocalizedString": "背中に乗って移動できる。\r\n手持ちにいる間、プレイヤーとパルが<img id=|ElemIcon_Dragon|/><uiCommon id=|COMMON_ELEMENT_NAME_Dragon| style=|Elem_Dragon|/>で弱点属性を突いたときのダメージが<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）"
         }
       },
       "PAL_FIRST_SPAWN_DESC_HerculesBeetle_Ground": {
@@ -1400,8 +1399,8 @@
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_PinkRabbit_Grass_TextData",
-          "SourceString": "手持ちにいる間、プレイヤーとパルが<img id=|ElemIcon_Grass|/><uiCommon id=|COMMON_ELEMENT_NAME_Leaf| style=|Elem_Grass|/>で弱点を突いたときのダメージが<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）\r\n<characterName id=|PinkRabbit_Grass|/>が武器製作台や武器工場などで働くときの作業効率が<Status_Up>{Passive2_EffectValue1}%</>上がる。",
-          "LocalizedString": "手持ちにいる間、プレイヤーとパルが<img id=|ElemIcon_Grass|/><uiCommon id=|COMMON_ELEMENT_NAME_Leaf| style=|Elem_Grass|/>で弱点を突いたときのダメージが<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）\r\n<characterName id=|PinkRabbit_Grass|/>が武器製作台や武器工場などで働くときの作業効率が<Status_Up>{Passive2_EffectValue1}%</>上がる。"
+          "SourceString": "手持ちにいる間、プレイヤーとパルが<img id=|ElemIcon_Grass|/><uiCommon id=|COMMON_ELEMENT_NAME_Leaf| style=|Elem_Grass|/>で弱点属性を突いたときのダメージが<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）\r\n<characterName id=|PinkRabbit_Grass|/>が武器製作台や武器工場などで働くときの作業効率が<Status_Up>{Passive2_EffectValue1}%</>上がる。",
+          "LocalizedString": "手持ちにいる間、プレイヤーとパルが<img id=|ElemIcon_Grass|/><uiCommon id=|COMMON_ELEMENT_NAME_Leaf| style=|Elem_Grass|/>で弱点属性を突いたときのダメージが<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）\r\n<characterName id=|PinkRabbit_Grass|/>が武器製作台や武器工場などで働くときの作業効率が<Status_Up>{Passive2_EffectValue1}%</>上がる。"
         }
       },
       "PAL_FIRST_SPAWN_DESC_Werewolf_Ice": {
@@ -1584,8 +1583,8 @@
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_CaptainPenguin_Black_TextData",
-          "SourceString": "手持ちにいる間、プレイヤーとパルが<img id=|ElemIcon_Water|/><uiCommon id=|COMMON_ELEMENT_NAME_Water| style=|Elem_Water|/>で弱点を突いたときのダメージが<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）",
-          "LocalizedString": "手持ちにいる間、プレイヤーとパルが<img id=|ElemIcon_Water|/><uiCommon id=|COMMON_ELEMENT_NAME_Water| style=|Elem_Water|/>で弱点を突いたときのダメージが<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）"
+          "SourceString": "手持ちにいる間、プレイヤーとパルが<img id=|ElemIcon_Water|/><uiCommon id=|COMMON_ELEMENT_NAME_Water| style=|Elem_Water|/>で弱点属性を突いたときのダメージが<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）",
+          "LocalizedString": "手持ちにいる間、プレイヤーとパルが<img id=|ElemIcon_Water|/><uiCommon id=|COMMON_ELEMENT_NAME_Water| style=|Elem_Water|/>で弱点属性を突いたときのダメージが<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）"
         }
       },
       "PAL_FIRST_SPAWN_DESC_FlyingManta_Thunder": {
@@ -1616,16 +1615,16 @@
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_TentacleTurtle_Ground_TextData",
-          "SourceString": "手持ちにいる間、<itemName id=|Sulfur| style=|Status_Keyword|/>と<itemName id=|Coal| style=|Status_Keyword|/>の重量を<Status_Up>{Passive1_EffectValue1}%</>軽減して、プレイヤーとパルが<img id=|ElemIcon_Ground|/><uiCommon id=|COMMON_ELEMENT_NAME_Earth| style=|Elem_Ground|/>で弱点を突いたときのダメージが<Status_Up>{Passive2_EffectValue1}%</>増加する。（重複不可）",
-          "LocalizedString": "手持ちにいる間、<itemName id=|Sulfur| style=|Status_Keyword|/>と<itemName id=|Coal| style=|Status_Keyword|/>の重量を<Status_Up>{Passive1_EffectValue1}%</>軽減して、プレイヤーとパルが<img id=|ElemIcon_Ground|/><uiCommon id=|COMMON_ELEMENT_NAME_Earth| style=|Elem_Ground|/>で弱点を突いたときのダメージが<Status_Up>{Passive2_EffectValue1}%</>増加する。（重複不可）"
+          "SourceString": "手持ちにいる間、<itemName id=|Sulfur| style=|Status_Keyword|/>と<itemName id=|Coal| style=|Status_Keyword|/>の重量を<Status_Up>{Passive1_EffectValue1}%</>軽減して、プレイヤーとパルが<img id=|ElemIcon_Ground|/><uiCommon id=|COMMON_ELEMENT_NAME_Earth| style=|Elem_Ground|/>で弱点属性を突いたときのダメージが<Status_Up>{Passive2_EffectValue1}%</>増加する。（重複不可）",
+          "LocalizedString": "手持ちにいる間、<itemName id=|Sulfur| style=|Status_Keyword|/>と<itemName id=|Coal| style=|Status_Keyword|/>の重量を<Status_Up>{Passive1_EffectValue1}%</>軽減して、プレイヤーとパルが<img id=|ElemIcon_Ground|/><uiCommon id=|COMMON_ELEMENT_NAME_Earth| style=|Elem_Ground|/>で弱点属性を突いたときのダメージが<Status_Up>{Passive2_EffectValue1}%</>増加する。（重複不可）"
         }
       },
       "PAL_FIRST_SPAWN_DESC_KendoFrog_Dark": {
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_KendoFrog_Dark_TextData",
-          "SourceString": "発動すると、<characterName id=|KendoFrog_Dark|/>が忠誠心と膨らんだ腹部で力を溜める。\r\nプレイヤーが上に乗ると高くジャンプする。\r\n手持ちにいる間、プレイヤーとパルが<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>で弱点を突いたときのダメージが<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）",
-          "LocalizedString": "発動すると、<characterName id=|KendoFrog_Dark|/>が忠誠心と膨らんだ腹部で力を溜める。\r\nプレイヤーが上に乗ると高くジャンプする。\r\n手持ちにいる間、プレイヤーとパルが<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>で弱点を突いたときのダメージが<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）"
+          "SourceString": "発動すると、<characterName id=|KendoFrog_Dark|/>が忠誠心と膨らんだ腹部で力を溜める。\r\nプレイヤーが上に乗ると高くジャンプする。\r\n手持ちにいる間、プレイヤーとパルが<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>で弱点属性を突いたときのダメージが<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）",
+          "LocalizedString": "発動すると、<characterName id=|KendoFrog_Dark|/>が忠誠心と膨らんだ腹部で力を溜める。\r\nプレイヤーが上に乗ると高くジャンプする。\r\n手持ちにいる間、プレイヤーとパルが<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>で弱点属性を突いたときのダメージが<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）"
         }
       },
       "PAL_FIRST_SPAWN_DESC_BlueDragon_Ice": {
@@ -1656,8 +1655,8 @@
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_StuffedShark_Fire_TextData",
-          "SourceString": "手持ちにいる間、<characterName id=|StuffedShark_Fire|/>が荷物を肩代わりして、インベントリ内の武器の重量を<Status_Up>{Passive1_EffectValue1}%</>軽減する。\r\nまた、プレイヤーとパルが<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/>で弱点を突いたときのダメージが<Status_Up>{Passive2_EffectValue1}%</>増加する。（重複不可）",
-          "LocalizedString": "手持ちにいる間、<characterName id=|StuffedShark_Fire|/>が荷物を肩代わりして、インベントリ内の武器の重量を<Status_Up>{Passive1_EffectValue1}%</>軽減する。\r\nまた、プレイヤーとパルが<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/>で弱点を突いたときのダメージが<Status_Up>{Passive2_EffectValue1}%</>増加する。（重複不可）"
+          "SourceString": "手持ちにいる間、<characterName id=|StuffedShark_Fire|/>が荷物を肩代わりして、インベントリ内の武器の重量を<Status_Up>{Passive1_EffectValue1}%</>軽減する。\r\nまた、プレイヤーとパルが<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/>で弱点属性を突いたときのダメージが<Status_Up>{Passive2_EffectValue1}%</>増加する。（重複不可）",
+          "LocalizedString": "手持ちにいる間、<characterName id=|StuffedShark_Fire|/>が荷物を肩代わりして、インベントリ内の武器の重量を<Status_Up>{Passive1_EffectValue1}%</>軽減する。\r\nまた、プレイヤーとパルが<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/>で弱点属性を突いたときのダメージが<Status_Up>{Passive2_EffectValue1}%</>増加する。（重複不可）"
         }
       },
       "PAL_FIRST_SPAWN_DESC_TentacleTurtle_NotUse": {
@@ -1952,16 +1951,16 @@
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_GrassGolem_TextData",
-          "SourceString": "背中に乗って移動できる。\r\n発動すると、<characterName id=|GrassGolem|/>の右手から<img id=|ElemIcon_Grass|/><uiCommon id=|COMMON_ELEMENT_NAME_Leaf| style=|Elem_Grass|/>の強力なレーザーを照射する。\r\n{ReferenceMsgId_CooldownReduction}",
-          "LocalizedString": "背中に乗って移動できる。\r\n発動すると、<characterName id=|GrassGolem|/>の右手から<img id=|ElemIcon_Grass|/><uiCommon id=|COMMON_ELEMENT_NAME_Leaf| style=|Elem_Grass|/>の強力なレーザーを照射する。\r\n{ReferenceMsgId_CooldownReduction}"
+          "SourceString": "背中に乗って移動できる。\r\nライド中、<characterName id=|GrassGolem|/>の右手から<img id=|ElemIcon_Grass|/><uiCommon id=|COMMON_ELEMENT_NAME_Leaf| style=|Elem_Grass|/>の強力なレーザーを照射できる。\r\n{ReferenceMsgId_CooldownReduction}",
+          "LocalizedString": "背中に乗って移動できる。\r\nライド中、<characterName id=|GrassGolem|/>の右手から<img id=|ElemIcon_Grass|/><uiCommon id=|COMMON_ELEMENT_NAME_Leaf| style=|Elem_Grass|/>の強力なレーザーを照射できる。\r\n{ReferenceMsgId_CooldownReduction}"
         }
       },
       "PAL_FIRST_SPAWN_DESC_GrassGolem_Dark": {
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_GrassGolem_Dark_TextData",
-          "SourceString": "背中に乗って移動できる。\r\n発動すると、<characterName id=|GrassGolem_Dark|/>の右手から<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>の強力なレーザーを照射する。\r\n{ReferenceMsgId_CooldownReduction}",
-          "LocalizedString": "背中に乗って移動できる。\r\n発動すると、<characterName id=|GrassGolem_Dark|/>の右手から<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>の強力なレーザーを照射する。\r\n{ReferenceMsgId_CooldownReduction}"
+          "SourceString": "背中に乗って移動できる。\r\nライド中、<characterName id=|GrassGolem_Dark|/>の右手から<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>の強力なレーザーを照射できる。\r\n{ReferenceMsgId_CooldownReduction}",
+          "LocalizedString": "背中に乗って移動できる。\r\nライド中、<characterName id=|GrassGolem_Dark|/>の右手から<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>の強力なレーザーを照射できる。\r\n{ReferenceMsgId_CooldownReduction}"
         }
       },
       "PAL_FIRST_SPAWN_DESC_FlowerDoll_Fire": {
@@ -2408,8 +2407,8 @@
         "TextData": {
           "Namespace": "DT_PalFirstActivatedInfoText",
           "Key": "PAL_FIRST_SPAWN_DESC_VolcanoDragon_Ice_TextData",
-          "SourceString": "背中に乗って移動できる。\r\n手持ちにいる間、プレイヤーとパルが<img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>で弱点を突いたときのダメージが<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）",
-          "LocalizedString": "背中に乗って移動できる。\r\n手持ちにいる間、プレイヤーとパルが<img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>で弱点を突いたときのダメージが<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）"
+          "SourceString": "背中に乗って移動できる。\r\n手持ちにいる間、プレイヤーとパルが<img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>で弱点属性を突いたときのダメージが<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）",
+          "LocalizedString": "背中に乗って移動できる。\r\n手持ちにいる間、プレイヤーとパルが<img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>で弱点属性を突いたときのダメージが<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）"
         }
       },
       "PAL_FIRST_SPAWN_DESC_DomeArmorDragon": {

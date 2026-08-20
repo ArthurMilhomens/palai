@@ -1,0 +1,1608 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_MapRespawnPointInfoText",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "SpawnPoint_1": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_1_TextData",
+          "SourceString": "In cima a una bassa collina.\r\nÈ una zona panoramica e ricca di risorse,\r\nadatta ai principianti.",
+          "LocalizedString": "In cima a una bassa collina.\r\nÈ una zona panoramica e ricca di risorse,\r\nadatta ai principianti."
+        }
+      },
+      "SpawnPoint_1_Title": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_1_Title_TextData",
+          "SourceString": "Isola della brezza - Collina degli inizi",
+          "LocalizedString": "Isola della brezza - Collina degli inizi"
+        }
+      },
+      "SpawnPoint_2": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_2_TextData",
+          "SourceString": "Una spiaggia sabbiosa. Essendo vicina al mare, pullula di Pal acquatici.\r\nCi sono pochi alberi, ma un buon numero di Pal.",
+          "LocalizedString": "Una spiaggia sabbiosa. Essendo vicina al mare, pullula di Pal acquatici.\r\nCi sono pochi alberi, ma un buon numero di Pal."
+        }
+      },
+      "SpawnPoint_2_Title": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_2_Title_TextData",
+          "SourceString": "Isola della brezza - Spiaggia dei pesci volanti",
+          "LocalizedString": "Isola della brezza - Spiaggia dei pesci volanti"
+        }
+      },
+      "SpawnPoint_3": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_3_TextData",
+          "SourceString": "Una costa di spiagge rocciose.\r\nSono presenti una quantità normale di risorse e Pal.\r\nIl suolo è davvero molto roccioso, ma qui è possibile assicurarsi un vasto territorio.",
+          "LocalizedString": "Una costa di spiagge rocciose.\r\nSono presenti una quantità normale di risorse e Pal.\r\nIl suolo è davvero molto roccioso, ma qui è possibile assicurarsi un vasto territorio."
+        }
+      },
+      "SpawnPoint_3_Title": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_3_Title_TextData",
+          "SourceString": "Arcipelago della brezza - Scogliera",
+          "LocalizedString": "Arcipelago della brezza - Scogliera"
+        }
+      },
+      "SpawnPoint_4": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_4_TextData",
+          "SourceString": "Un'isola accarezzata dalla brezza marina.\r\nLa vicinanza del vulcano garantisce un clima temperato e confortevole.\r\nL'isola offre varie avventure e si può percorrere comodamente.",
+          "LocalizedString": "Un'isola accarezzata dalla brezza marina.\r\nLa vicinanza del vulcano garantisce un clima temperato e confortevole.\r\nL'isola offre varie avventure e si può percorrere comodamente."
+        }
+      },
+      "SpawnPoint_4_Title": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_4_Title_TextData",
+          "SourceString": "Arcipelago della brezza - Spiaggia del naufragio",
+          "LocalizedString": "Arcipelago della brezza - Spiaggia del naufragio"
+        }
+      },
+      "SpawnPoint_5": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_5_TextData",
+          "SourceString": "Un'isola senza segni di vita umana.\r\nÈ povera di risorse naturali.\r\nInadatta agli insediamenti.",
+          "LocalizedString": "Un'isola senza segni di vita umana.\r\nÈ povera di risorse naturali.\r\nInadatta agli insediamenti."
+        }
+      },
+      "SpawnPoint_5_Title": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_5_Title_TextData",
+          "SourceString": "Isola del silenzio",
+          "LocalizedString": "Isola del silenzio"
+        }
+      },
+      "SpawnPoint_6": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_6_TextData",
+          "SourceString": "Un'isola tranquilla, dalle vette elevate e ricca di alberi.\r\nPal e risorse sono limitati.\r\nPoche persone scelgono di stabilirvisi.",
+          "LocalizedString": "Un'isola tranquilla, dalle vette elevate e ricca di alberi.\r\nPal e risorse sono limitati.\r\nPoche persone scelgono di stabilirvisi."
+        }
+      },
+      "SpawnPoint_6_Title": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_6_Title_TextData",
+          "SourceString": "Isola del frastuono",
+          "LocalizedString": "Isola del frastuono"
+        }
+      },
+      "SpawnPoint_7": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_7_TextData",
+          "SourceString": "Isola selvaggia a oriente.\r\nLontana da ogni altro territorio, nessuno la reclama come propria.\r\nÈ difficile viverci per chi non c'è abituato.",
+          "LocalizedString": "Isola selvaggia a oriente.\r\nLontana da ogni altro territorio, nessuno la reclama come propria.\r\nÈ difficile viverci per chi non c'è abituato."
+        }
+      },
+      "SpawnPoint_7_Title": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_7_Title_TextData",
+          "SourceString": "Isola della tempesta orientale",
+          "LocalizedString": "Isola della tempesta orientale"
+        }
+      },
+      "SpawnPoint_8": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_8_TextData",
+          "SourceString": "Isola coperta di paludi.\r\nL'umidità moderata favorisce la crescita delle bacche.\r\nÈ l'habitat di una grande varietà di Pal.",
+          "LocalizedString": "Isola coperta di paludi.\r\nL'umidità moderata favorisce la crescita delle bacche.\r\nÈ l'habitat di una grande varietà di Pal."
+        }
+      },
+      "SpawnPoint_8_Title": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SpawnPoint_8_Title_TextData",
+          "SourceString": "Isola paludosa",
+          "LocalizedString": "Isola paludosa"
+        }
+      },
+      "FTPoint1": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint1_TextData",
+          "SourceString": "Monti fiammeggianti - Pendici",
+          "LocalizedString": "Monti fiammeggianti - Pendici"
+        }
+      },
+      "FTPoint2": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint2_TextData",
+          "SourceString": "Torre di compagni di Eiren",
+          "LocalizedString": "Torre di compagni di Eiren"
+        }
+      },
+      "FTPoint3": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint3_TextData",
+          "SourceString": "Torre della Congrega del fuoco perenne - Ingresso",
+          "LocalizedString": "Torre della Congrega del fuoco perenne - Ingresso"
+        }
+      },
+      "FTPoint4": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint4_TextData",
+          "SourceString": "Rovine dell'antica civiltà",
+          "LocalizedString": "Rovine dell'antica civiltà"
+        }
+      },
+      "FTPoint5": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint5_TextData",
+          "SourceString": "Villaggio di pescatori di frontiera",
+          "LocalizedString": "Villaggio di pescatori di frontiera"
+        }
+      },
+      "FTPoint6": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint6_TextData",
+          "SourceString": "Monti fiammeggianti - Statua di Anubi",
+          "LocalizedString": "Monti fiammeggianti - Statua di Anubi"
+        }
+      },
+      "FTPoint7": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint7_TextData",
+          "SourceString": "Spiaggia dell'estate infinita",
+          "LocalizedString": "Spiaggia dell'estate infinita"
+        }
+      },
+      "FTPoint8": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint8_TextData",
+          "SourceString": "Fortezza distrutta",
+          "LocalizedString": "Fortezza distrutta"
+        }
+      },
+      "FTPoint9": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint9_TextData",
+          "SourceString": "Torre della Milizia volontaria - Ingresso",
+          "LocalizedString": "Torre della Milizia volontaria - Ingresso"
+        }
+      },
+      "FTPoint10": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint10_TextData",
+          "SourceString": "Torre vigilanta",
+          "LocalizedString": "Torre vigilanta"
+        }
+      },
+      "FTPoint11": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint11_TextData",
+          "SourceString": "Dune - Ingresso",
+          "LocalizedString": "Dune - Ingresso"
+        }
+      },
+      "FTPoint12": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint12_TextData",
+          "SourceString": "Città del deserto",
+          "LocalizedString": "Città del deserto"
+        }
+      },
+      "FTPoint13": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint13_TextData",
+          "SourceString": "Dune - Interno",
+          "LocalizedString": "Dune - Interno"
+        }
+      },
+      "FTPoint14": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint14_TextData",
+          "SourceString": "Spiaggia ghiacciata",
+          "LocalizedString": "Spiaggia ghiacciata"
+        }
+      },
+      "FTPoint15": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint15_TextData",
+          "SourceString": "Strada di montagna invalicabile",
+          "LocalizedString": "Strada di montagna invalicabile"
+        }
+      },
+      "FTPoint16": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint16_TextData",
+          "SourceString": "Collina delle belve ghiacciate",
+          "LocalizedString": "Collina delle belve ghiacciate"
+        }
+      },
+      "FTPoint17": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint17_TextData",
+          "SourceString": "Lago ghiacciato eterno",
+          "LocalizedString": "Lago ghiacciato eterno"
+        }
+      },
+      "FTPoint18": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint18_TextData",
+          "SourceString": "Terre dello zero assoluto",
+          "LocalizedString": "Terre dello zero assoluto"
+        }
+      },
+      "FTPoint19": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint19_TextData",
+          "SourceString": "Torre dell'unità di ricerca genetica",
+          "LocalizedString": "Torre dell'unità di ricerca genetica"
+        }
+      },
+      "FTPoint20": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint20_TextData",
+          "SourceString": "Torre della Squadra per la ricerca genetica - Ingresso",
+          "LocalizedString": "Torre della Squadra per la ricerca genetica - Ingresso"
+        }
+      },
+      "FTPoint21": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint21_TextData",
+          "SourceString": "Colline dei giganti vegetali",
+          "LocalizedString": "Colline dei giganti vegetali"
+        }
+      },
+      "FTPoint22": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint22_TextData",
+          "SourceString": "Chiesa abbandonata",
+          "LocalizedString": "Chiesa abbandonata"
+        }
+      },
+      "FTPoint23": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint23_TextData",
+          "SourceString": "Collina degli inizi",
+          "LocalizedString": "Collina degli inizi"
+        }
+      },
+      "FTPoint24": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint24_TextData",
+          "SourceString": "Piccolo insediamento",
+          "LocalizedString": "Piccolo insediamento"
+        }
+      },
+      "FTPoint25": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint25_TextData",
+          "SourceString": "Cascata dell'asceta",
+          "LocalizedString": "Cascata dell'asceta"
+        }
+      },
+      "FTPoint26": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint26_TextData",
+          "SourceString": "Piedi del vulcano",
+          "LocalizedString": "Piedi del vulcano"
+        }
+      },
+      "FTPoint27": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint27_TextData",
+          "SourceString": "Territorio degli uccelli glaciali",
+          "LocalizedString": "Territorio degli uccelli glaciali"
+        }
+      },
+      "FTPoint28": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint28_TextData",
+          "SourceString": "Rovine della fortezza",
+          "LocalizedString": "Rovine della fortezza"
+        }
+      },
+      "FTPoint29": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint29_TextData",
+          "SourceString": "Territorio dei mastri spadaccini",
+          "LocalizedString": "Territorio dei mastri spadaccini"
+        }
+      },
+      "FTPoint30": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint30_TextData",
+          "SourceString": "Bivio dei ricercatori",
+          "LocalizedString": "Bivio dei ricercatori"
+        }
+      },
+      "FTPoint31": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint31_TextData",
+          "SourceString": "Antico luogo di culto",
+          "LocalizedString": "Antico luogo di culto"
+        }
+      },
+      "FTPoint32": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint32_TextData",
+          "SourceString": "Monte della lepre fiorita - Cima",
+          "LocalizedString": "Monte della lepre fiorita - Cima"
+        }
+      },
+      "FTPoint33": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint33_TextData",
+          "SourceString": "Centro del lago",
+          "LocalizedString": "Centro del lago"
+        }
+      },
+      "FTPoint34": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint34_TextData",
+          "SourceString": "Colle degli ipocriti",
+          "LocalizedString": "Colle degli ipocriti"
+        }
+      },
+      "FTPoint35": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint35_TextData",
+          "SourceString": "Territorio dei misteri",
+          "LocalizedString": "Territorio dei misteri"
+        }
+      },
+      "FTPoint36": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint36_TextData",
+          "SourceString": "Bivio del monte innevato",
+          "LocalizedString": "Bivio del monte innevato"
+        }
+      },
+      "FTPoint37": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint37_TextData",
+          "SourceString": "Cima della montagna dei ghiacci eterni",
+          "LocalizedString": "Cima della montagna dei ghiacci eterni"
+        }
+      },
+      "FTPoint38": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint38_TextData",
+          "SourceString": "Territorio della velocità divina",
+          "LocalizedString": "Territorio della velocità divina"
+        }
+      },
+      "FTPoint39": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint39_TextData",
+          "SourceString": "Foresta dei panda d'erba",
+          "LocalizedString": "Foresta dei panda d'erba"
+        }
+      },
+      "FTPoint40": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint40_TextData",
+          "SourceString": "Territorio degli squali minori",
+          "LocalizedString": "Territorio degli squali minori"
+        }
+      },
+      "FTPoint41": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint41_TextData",
+          "SourceString": "Foresta delle farfalle variopinte",
+          "LocalizedString": "Foresta delle farfalle variopinte"
+        }
+      },
+      "FTPoint42": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint42_TextData",
+          "SourceString": "Territorio incandescente",
+          "LocalizedString": "Territorio incandescente"
+        }
+      },
+      "FTPoint43": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint43_TextData",
+          "SourceString": "Foresta di bambù - Interno",
+          "LocalizedString": "Foresta di bambù - Interno"
+        }
+      },
+      "FTPoint44": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint44_TextData",
+          "SourceString": "Territorio delle cento fiamme",
+          "LocalizedString": "Territorio delle cento fiamme"
+        }
+      },
+      "FTPoint45": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint45_TextData",
+          "SourceString": "Torre del Sindacato di Rayne - Ingresso",
+          "LocalizedString": "Torre del Sindacato di Rayne - Ingresso"
+        }
+      },
+      "FTPoint46": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint46_TextData",
+          "SourceString": "Torre della torre ansimante della pioggia",
+          "LocalizedString": "Torre della torre ansimante della pioggia"
+        }
+      },
+      "FTPoint47": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint47_TextData",
+          "SourceString": "Torre di protezione PAL",
+          "LocalizedString": "Torre di protezione PAL"
+        }
+      },
+      "FTPoint48": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint48_TextData",
+          "SourceString": "Campo innevato del bianco più puro",
+          "LocalizedString": "Campo innevato del bianco più puro"
+        }
+      },
+      "FTPoint49": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint49_TextData",
+          "SourceString": "Isola del silenzio",
+          "LocalizedString": "Isola del silenzio"
+        }
+      },
+      "FTPoint50": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint50_TextData",
+          "SourceString": "Isola del frastuono",
+          "LocalizedString": "Isola del frastuono"
+        }
+      },
+      "FTPoint51": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint51_TextData",
+          "SourceString": "Spiaggia del drago blu minore",
+          "LocalizedString": "Spiaggia del drago blu minore"
+        }
+      },
+      "FTPoint52": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint52_TextData",
+          "SourceString": "Arcipelago della brezza - Spiaggia del naufragio",
+          "LocalizedString": "Arcipelago della brezza - Spiaggia del naufragio"
+        }
+      },
+      "FTPoint53": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint53_TextData",
+          "SourceString": "Arcipelago della brezza - Chiesa",
+          "LocalizedString": "Arcipelago della brezza - Chiesa"
+        }
+      },
+      "FTPoint54": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint54_TextData",
+          "SourceString": "Piccola insenatura",
+          "LocalizedString": "Piccola insenatura"
+        }
+      },
+      "FTPoint55": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint55_TextData",
+          "SourceString": "Spiaggia isolana",
+          "LocalizedString": "Spiaggia isolana"
+        }
+      },
+      "FTPoint56": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint56_TextData",
+          "SourceString": "Isola paludosa",
+          "LocalizedString": "Isola paludosa"
+        }
+      },
+      "FTPoint57": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint57_TextData",
+          "SourceString": "Isola della tempesta orientale",
+          "LocalizedString": "Isola della tempesta orientale"
+        }
+      },
+      "FTPoint58": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint58_TextData",
+          "SourceString": "Passaggio naturale",
+          "LocalizedString": "Passaggio naturale"
+        }
+      },
+      "FTPoint59": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint59_TextData",
+          "SourceString": "Isola del silenzio - Rovine della chiesa",
+          "LocalizedString": "Isola del silenzio - Rovine della chiesa"
+        }
+      },
+      "FTPoint60": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint60_TextData",
+          "SourceString": "Isola delle paludi - Rovine della chiesa",
+          "LocalizedString": "Isola delle paludi - Rovine della chiesa"
+        }
+      },
+      "FTPoint61": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint61_TextData",
+          "SourceString": "Il gran ponte dei due cavalieri",
+          "LocalizedString": "Il gran ponte dei due cavalieri"
+        }
+      },
+      "FTPoint62": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint62_TextData",
+          "SourceString": "Ingresso della valle",
+          "LocalizedString": "Ingresso della valle"
+        }
+      },
+      "FTPoint63": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint63_TextData",
+          "SourceString": "Ingresso dell'arena",
+          "LocalizedString": "Ingresso dell'arena"
+        }
+      },
+      "FTPoint64": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint64_TextData",
+          "SourceString": "Isola dei ciliegi: Palude dei funghi",
+          "LocalizedString": "Isola dei ciliegi: Palude dei funghi"
+        }
+      },
+      "FTPoint65": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint65_TextData",
+          "SourceString": "Isola dei ciliegi: Deserto meridionale",
+          "LocalizedString": "Isola dei ciliegi: Deserto meridionale"
+        }
+      },
+      "FTPoint66": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint66_TextData",
+          "SourceString": "Torre del clan dei fiori di luna",
+          "LocalizedString": "Torre del clan dei fiori di luna"
+        }
+      },
+      "FTPoint67": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint67_TextData",
+          "SourceString": "Torre del clan dei fiori di luna - Ingresso",
+          "LocalizedString": "Torre del clan dei fiori di luna - Ingresso"
+        }
+      },
+      "FTPoint68": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint68_TextData",
+          "SourceString": "Bivio per i ciliegi",
+          "LocalizedString": "Bivio per i ciliegi"
+        }
+      },
+      "FTPoint69": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint69_TextData",
+          "SourceString": "Isola dei ciliegi: Roccia del Nord",
+          "LocalizedString": "Isola dei ciliegi: Roccia del Nord"
+        }
+      },
+      "FTPoint70": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint70_TextData",
+          "SourceString": "Cimitero ai confini dell'isola",
+          "LocalizedString": "Cimitero ai confini dell'isola"
+        }
+      },
+      "FTPoint71": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint71_TextData",
+          "SourceString": "Terra delle ceneri arse",
+          "LocalizedString": "Terra delle ceneri arse"
+        }
+      },
+      "FTPoint72": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint72_TextData",
+          "SourceString": "Ingresso della cava dei pilastri",
+          "LocalizedString": "Ingresso della cava dei pilastri"
+        }
+      },
+      "FTPoint73": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint73_TextData",
+          "SourceString": "Pianura d'ocra",
+          "LocalizedString": "Pianura d'ocra"
+        }
+      },
+      "FTPoint74": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint74_TextData",
+          "SourceString": "Passaggio segreto per il portale",
+          "LocalizedString": "Passaggio segreto per il portale"
+        }
+      },
+      "FTPoint75": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint75_TextData",
+          "SourceString": "Portale verso la torre",
+          "LocalizedString": "Portale verso la torre"
+        }
+      },
+      "FTPoint76": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint76_TextData",
+          "SourceString": "Torre della rovina - Ingresso",
+          "LocalizedString": "Torre della rovina - Ingresso"
+        }
+      },
+      "FTPoint78": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint78_TextData",
+          "SourceString": "Altura riarsa",
+          "LocalizedString": "Altura riarsa"
+        }
+      },
+      "FTPoint79": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint79_TextData",
+          "SourceString": "Altopiano incenerito desolato",
+          "LocalizedString": "Altopiano incenerito desolato"
+        }
+      },
+      "FTPoint80": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint80_TextData",
+          "SourceString": "Altopiano vulcanico ardente",
+          "LocalizedString": "Altopiano vulcanico ardente"
+        }
+      },
+      "FTPoint81": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint81_TextData",
+          "SourceString": "Tunnel del drago dello scudo",
+          "LocalizedString": "Tunnel del drago dello scudo"
+        }
+      },
+      "FTPoint82": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint82_TextData",
+          "SourceString": "Tunnel del drago dello scudo",
+          "LocalizedString": "Tunnel del drago dello scudo"
+        }
+      },
+      "FTPoint83": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint83_TextData",
+          "SourceString": "Relitto della rovina",
+          "LocalizedString": "Relitto della rovina"
+        }
+      },
+      "FTPoint84": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint84_TextData",
+          "SourceString": "Isola solitaria assolata",
+          "LocalizedString": "Isola solitaria assolata"
+        }
+      },
+      "FTPoint85": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint85_TextData",
+          "SourceString": "Isola solitaria con oasi",
+          "LocalizedString": "Isola solitaria con oasi"
+        }
+      },
+      "FTPoint86": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint86_TextData",
+          "SourceString": "Isola solitaria ghiacciata",
+          "LocalizedString": "Isola solitaria ghiacciata"
+        }
+      },
+      "FTPoint87": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint87_TextData",
+          "SourceString": "Isola solitaria gelida",
+          "LocalizedString": "Isola solitaria gelida"
+        }
+      },
+      "FTPoint88": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint88_TextData",
+          "SourceString": "Isola solitaria infestata dagli spiriti",
+          "LocalizedString": "Isola solitaria infestata dagli spiriti"
+        }
+      },
+      "FTPoint89": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint89_TextData",
+          "SourceString": "Isola solitaria del tesoro dimenticato",
+          "LocalizedString": "Isola solitaria del tesoro dimenticato"
+        }
+      },
+      "FTPoint90": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint90_TextData",
+          "SourceString": "Territorio di Terraria",
+          "LocalizedString": "Territorio di Terraria"
+        }
+      },
+      "FTPoint91": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint91_TextData",
+          "SourceString": "Isola del frastuono - Spiaggia",
+          "LocalizedString": "Isola del frastuono - Spiaggia"
+        }
+      },
+      "FTPoint92": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint92_TextData",
+          "SourceString": "Dune di Anubis",
+          "LocalizedString": "Dune di Anubis"
+        }
+      },
+      "FTPoint93": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint93_TextData",
+          "SourceString": "Rupe dei bambù bisbiglianti",
+          "LocalizedString": "Rupe dei bambù bisbiglianti"
+        }
+      },
+      "FTPoint94": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint94_TextData",
+          "SourceString": "Pendenza dei bambù bisbiglianti",
+          "LocalizedString": "Pendenza dei bambù bisbiglianti"
+        }
+      },
+      "FTPoint95": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint95_TextData",
+          "SourceString": "Valle del vento",
+          "LocalizedString": "Valle del vento"
+        }
+      },
+      "FTPoint96": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint96_TextData",
+          "SourceString": "Spiaggia della brezza",
+          "LocalizedString": "Spiaggia della brezza"
+        }
+      },
+      "FTPoint97": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint97_TextData",
+          "SourceString": "Spiaggia dei mulinelli di sabbia",
+          "LocalizedString": "Spiaggia dei mulinelli di sabbia"
+        }
+      },
+      "FTPoint98": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint98_TextData",
+          "SourceString": "Altare della tempesta",
+          "LocalizedString": "Altare della tempesta"
+        }
+      },
+      "FTPoint99": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint99_TextData",
+          "SourceString": "Riva nascosta dei panda d'erba",
+          "LocalizedString": "Riva nascosta dei panda d'erba"
+        }
+      },
+      "FTPoint100": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint100_TextData",
+          "SourceString": "Corso verdeggiante",
+          "LocalizedString": "Corso verdeggiante"
+        }
+      },
+      "FTPoint101": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint101_TextData",
+          "SourceString": "Spiaggia della siccità",
+          "LocalizedString": "Spiaggia della siccità"
+        }
+      },
+      "FTPoint102": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint102_TextData",
+          "SourceString": "Ai confini della siccità",
+          "LocalizedString": "Ai confini della siccità"
+        }
+      },
+      "FTPoint103": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint103_TextData",
+          "SourceString": "Spina dorsale del deserto",
+          "LocalizedString": "Spina dorsale del deserto"
+        }
+      },
+      "FTPoint104": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint104_TextData",
+          "SourceString": "Cresta della solitudine",
+          "LocalizedString": "Cresta della solitudine"
+        }
+      },
+      "FTPoint105": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint105_TextData",
+          "SourceString": "Sabbia bianca ai confini del mondo",
+          "LocalizedString": "Sabbia bianca ai confini del mondo"
+        }
+      },
+      "FTPoint106": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint106_TextData",
+          "SourceString": "Corridoio verso il mare",
+          "LocalizedString": "Corridoio verso il mare"
+        }
+      },
+      "FTPoint107": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint107_TextData",
+          "SourceString": "Promontorio della sabbia gelida",
+          "LocalizedString": "Promontorio della sabbia gelida"
+        }
+      },
+      "FTPoint108": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint108_TextData",
+          "SourceString": "Osservatorio della brezza",
+          "LocalizedString": "Osservatorio della brezza"
+        }
+      },
+      "FTPoint109": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint109_TextData",
+          "SourceString": "Stazione numero 2 dei monti fiammeggianti",
+          "LocalizedString": "Stazione numero 2 dei monti fiammeggianti"
+        }
+      },
+      "FTPoint110": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint110_TextData",
+          "SourceString": "Sentiero dei monti fiammeggianti",
+          "LocalizedString": "Sentiero dei monti fiammeggianti"
+        }
+      },
+      "FTPoint111": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint111_TextData",
+          "SourceString": "Dune aride",
+          "LocalizedString": "Dune aride"
+        }
+      },
+      "FTPoint112": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint112_TextData",
+          "SourceString": "Canale ardente",
+          "LocalizedString": "Canale ardente"
+        }
+      },
+      "FTPoint113": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint113_TextData",
+          "SourceString": "Promontorio delle nevi dissolte",
+          "LocalizedString": "Promontorio delle nevi dissolte"
+        }
+      },
+      "FTPoint114": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint114_TextData",
+          "SourceString": "A metà strada per la montagna sacra",
+          "LocalizedString": "A metà strada per la montagna sacra"
+        }
+      },
+      "FTPoint115": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint115_TextData",
+          "SourceString": "Giardino dimenticato sotto a un pendio",
+          "LocalizedString": "Giardino dimenticato sotto a un pendio"
+        }
+      },
+      "FTPoint116": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint116_TextData",
+          "SourceString": "Isola dei ciliegi: Spiaggia occidentale",
+          "LocalizedString": "Isola dei ciliegi: Spiaggia occidentale"
+        }
+      },
+      "FTPoint117": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint117_TextData",
+          "SourceString": "Rupe scarlatta",
+          "LocalizedString": "Rupe scarlatta"
+        }
+      },
+      "FTPoint118": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint118_TextData",
+          "SourceString": "Altura - Ingresso",
+          "LocalizedString": "Altura - Ingresso"
+        }
+      },
+      "FTPoint119": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint119_TextData",
+          "SourceString": "Roccia rossa inclinata",
+          "LocalizedString": "Roccia rossa inclinata"
+        }
+      },
+      "FTPoint120": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint120_TextData",
+          "SourceString": "Osservatorio cremisi",
+          "LocalizedString": "Osservatorio cremisi"
+        }
+      },
+      "FTPoint121": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint121_TextData",
+          "SourceString": "Foresta dell'esitazione scarlatta",
+          "LocalizedString": "Foresta dell'esitazione scarlatta"
+        }
+      },
+      "FTPoint122": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint122_TextData",
+          "SourceString": "Grande albero di cristallo",
+          "LocalizedString": "Grande albero di cristallo"
+        }
+      },
+      "FTPoint123": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint123_TextData",
+          "SourceString": "Diga delle terre desolate",
+          "LocalizedString": "Diga delle terre desolate"
+        }
+      },
+      "FTPoint124": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint124_TextData",
+          "SourceString": "Collina dei campi petroliferi",
+          "LocalizedString": "Collina dei campi petroliferi"
+        }
+      },
+      "FTPoint125": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint125_TextData",
+          "SourceString": "Rupe dei funghi misteriosi",
+          "LocalizedString": "Rupe dei funghi misteriosi"
+        }
+      },
+      "FTPoint126": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint126_TextData",
+          "SourceString": "Lago del silenzio",
+          "LocalizedString": "Lago del silenzio"
+        }
+      },
+      "FTPoint127": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint127_TextData",
+          "SourceString": "Scogliera cerulea",
+          "LocalizedString": "Scogliera cerulea"
+        }
+      },
+      "FTPoint128": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint128_TextData",
+          "SourceString": "Capo della solitudine violetta",
+          "LocalizedString": "Capo della solitudine violetta"
+        }
+      },
+      "FTPoint129": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FTPoint129_TextData",
+          "SourceString": "Promontorio dell'esilio",
+          "LocalizedString": "Promontorio dell'esilio"
+        }
+      },
+      "Boss_KingWhale": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "Boss_KingWhale_TextData",
+          "SourceString": "Isola solitaria dimenticata",
+          "LocalizedString": "Isola solitaria dimenticata"
+        }
+      },
+      "Boss_Forest": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "Boss_Forest_TextData",
+          "SourceString": "Torre dell'Ente per la tutela dei Pal - Ingresso",
+          "LocalizedString": "Torre dell'Ente per la tutela dei Pal - Ingresso"
+        }
+      },
+      "WatchTower_1": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_1_TextData",
+          "SourceString": "Isola della brezza - Torre di osservazione",
+          "LocalizedString": "Isola della brezza - Torre di osservazione"
+        }
+      },
+      "WatchTower_2": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_2_TextData",
+          "SourceString": "Isola della tempesta orientale - Torre di osservazione",
+          "LocalizedString": "Isola della tempesta orientale - Torre di osservazione"
+        }
+      },
+      "WatchTower_3": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_3_TextData",
+          "SourceString": "Sponda della falce di luna - Torre di osservazione",
+          "LocalizedString": "Sponda della falce di luna - Torre di osservazione"
+        }
+      },
+      "WatchTower_4": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_4_TextData",
+          "SourceString": "Dune della siccità - Torre di osservazione",
+          "LocalizedString": "Dune della siccità - Torre di osservazione"
+        }
+      },
+      "WatchTower_5": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_5_TextData",
+          "SourceString": "Altopiano di arenaria - Torre di osservazione",
+          "LocalizedString": "Altopiano di arenaria - Torre di osservazione"
+        }
+      },
+      "WatchTower_6": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_6_TextData",
+          "SourceString": "Corso verdeggiante - Torre di osservazione",
+          "LocalizedString": "Corso verdeggiante - Torre di osservazione"
+        }
+      },
+      "WatchTower_7": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_7_TextData",
+          "SourceString": "Collina delle belve ghiacciate - Torre di osservazione",
+          "LocalizedString": "Collina delle belve ghiacciate - Torre di osservazione"
+        }
+      },
+      "WatchTower_8": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_8_TextData",
+          "SourceString": "Pendici del Monte dello spirito argenteo - Torre di osservazione",
+          "LocalizedString": "Pendici del Monte dello spirito argenteo - Torre di osservazione"
+        }
+      },
+      "WatchTower_9": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_9_TextData",
+          "SourceString": "Valle dei bambù - Torre di osservazione",
+          "LocalizedString": "Valle dei bambù - Torre di osservazione"
+        }
+      },
+      "WatchTower_10": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_10_TextData",
+          "SourceString": "Arcipelago della brezza - Torre di osservazione",
+          "LocalizedString": "Arcipelago della brezza - Torre di osservazione"
+        }
+      },
+      "WatchTower_11": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_11_TextData",
+          "SourceString": "Interno della foresta di bambù - Torre di osservazione",
+          "LocalizedString": "Interno della foresta di bambù - Torre di osservazione"
+        }
+      },
+      "WatchTower_12": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_12_TextData",
+          "SourceString": "Isola dei ciliegi - Torre di osservazione",
+          "LocalizedString": "Isola dei ciliegi - Torre di osservazione"
+        }
+      },
+      "WatchTower_13": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_13_TextData",
+          "SourceString": "Lande di ossidiana - Torre di osservazione",
+          "LocalizedString": "Lande di ossidiana - Torre di osservazione"
+        }
+      },
+      "WatchTower_14": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_14_TextData",
+          "SourceString": "Colata lavica- Torre di osservazione",
+          "LocalizedString": "Colata lavica- Torre di osservazione"
+        }
+      },
+      "WatchTower_15": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_15_TextData",
+          "SourceString": "Baia in secca - Torre di osservazione",
+          "LocalizedString": "Baia in secca - Torre di osservazione"
+        }
+      },
+      "WatchTower_16": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_16_TextData",
+          "SourceString": "Fortezza distrutta - Torre di osservazione",
+          "LocalizedString": "Fortezza distrutta - Torre di osservazione"
+        }
+      },
+      "WatchTower_17": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_17_TextData",
+          "SourceString": "Pianura d'ocra - Torre di osservazione",
+          "LocalizedString": "Pianura d'ocra - Torre di osservazione"
+        }
+      },
+      "WatchTower_18": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_18_TextData",
+          "SourceString": "Faglia incandescente - Torre di osservazione",
+          "LocalizedString": "Faglia incandescente - Torre di osservazione"
+        }
+      },
+      "WatchTower_19": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_19_TextData",
+          "SourceString": "Altopiano ardente - Torre di osservazione",
+          "LocalizedString": "Altopiano ardente - Torre di osservazione"
+        }
+      },
+      "WatchTower_20": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_20_TextData",
+          "SourceString": "Collina del corallo glaciale - Torre di osservazione",
+          "LocalizedString": "Collina del corallo glaciale - Torre di osservazione"
+        }
+      },
+      "WatchTower_21": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_21_TextData",
+          "SourceString": "Lande del vento ardente - Torre di osservazione",
+          "LocalizedString": "Lande del vento ardente - Torre di osservazione"
+        }
+      },
+      "WatchTower_22": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_22_TextData",
+          "SourceString": "Capitale del firmamento - Torre di osservazione",
+          "LocalizedString": "Capitale del firmamento - Torre di osservazione"
+        }
+      },
+      "SkyIsland_A": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SkyIsland_A_TextData",
+          "SourceString": "Landa incantata celeste",
+          "LocalizedString": "Landa incantata celeste"
+        }
+      },
+      "SkyIsland_B": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SkyIsland_B_TextData",
+          "SourceString": "Arcipelago di cristallo",
+          "LocalizedString": "Arcipelago di cristallo"
+        }
+      },
+      "SkyIsland_C": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SkyIsland_C_TextData",
+          "SourceString": "Gola delle ninfee",
+          "LocalizedString": "Gola delle ninfee"
+        }
+      },
+      "SkyIsland_D": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SkyIsland_D_TextData",
+          "SourceString": "Tessuto del cielo più blu",
+          "LocalizedString": "Tessuto del cielo più blu"
+        }
+      },
+      "SkyIsland_E": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SkyIsland_E_TextData",
+          "SourceString": "Grandi paludi",
+          "LocalizedString": "Grandi paludi"
+        }
+      },
+      "SkyIsland_BOSS": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "SkyIsland_BOSS_TextData",
+          "SourceString": "Torre del giuramento - Ingresso",
+          "LocalizedString": "Torre del giuramento - Ingresso"
+        }
+      },
+      "WorldTree_A": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_A_TextData",
+          "SourceString": "Pendici del sacro verde",
+          "LocalizedString": "Pendici del sacro verde"
+        }
+      },
+      "WorldTree_B": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_B_TextData",
+          "SourceString": "Foresta di glicini invitanti",
+          "LocalizedString": "Foresta di glicini invitanti"
+        }
+      },
+      "WorldTree_C_1": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_C_1_TextData",
+          "SourceString": "Gola della polvere",
+          "LocalizedString": "Gola della polvere"
+        }
+      },
+      "WorldTree_C_2": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_C_2_TextData",
+          "SourceString": "Riva dei cadaveri",
+          "LocalizedString": "Riva dei cadaveri"
+        }
+      },
+      "WorldTree_D": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_D_TextData",
+          "SourceString": "Cavo eroso",
+          "LocalizedString": "Cavo eroso"
+        }
+      },
+      "WorldTree_E": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_E_TextData",
+          "SourceString": "Lago della cascata sacra",
+          "LocalizedString": "Lago della cascata sacra"
+        }
+      },
+      "WorldTree_I": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_I_TextData",
+          "SourceString": "Vetta del ghiaccio sacro",
+          "LocalizedString": "Vetta del ghiaccio sacro"
+        }
+      },
+      "WorldTree_L": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_L_TextData",
+          "SourceString": "Corridoio delle spore",
+          "LocalizedString": "Corridoio delle spore"
+        }
+      },
+      "WorldTree_M": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_M_TextData",
+          "SourceString": "Guado delle lacrime sacre",
+          "LocalizedString": "Guado delle lacrime sacre"
+        }
+      },
+      "WorldTree_N": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_N_TextData",
+          "SourceString": "Città perduta d'oro",
+          "LocalizedString": "Città perduta d'oro"
+        }
+      },
+      "WorldTree_lab": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_lab_TextData",
+          "SourceString": "Centro di ricerca dimenticato",
+          "LocalizedString": "Centro di ricerca dimenticato"
+        }
+      },
+      "WorldTree_LastBoss": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_LastBoss_TextData",
+          "SourceString": "Antro sigillato",
+          "LocalizedString": "Antro sigillato"
+        }
+      },
+      "WatchTower_WorldTree_1": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_WorldTree_1_TextData",
+          "SourceString": "Gola della polvere - Torre di osservazione",
+          "LocalizedString": "Gola della polvere - Torre di osservazione"
+        }
+      },
+      "WatchTower_WorldTree_2": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WatchTower_WorldTree_2_TextData",
+          "SourceString": "Città perduta d'oro - Torre di osservazione",
+          "LocalizedString": "Città perduta d'oro - Torre di osservazione"
+        }
+      },
+      "New_SmallIsland01": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "New_SmallIsland01_TextData",
+          "SourceString": "Isola solitaria delle rovine circolari",
+          "LocalizedString": "Isola solitaria delle rovine circolari"
+        }
+      },
+      "New_SmallIsland02": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "New_SmallIsland02_TextData",
+          "SourceString": "Isola solitaria dei fiumi di fuoco",
+          "LocalizedString": "Isola solitaria dei fiumi di fuoco"
+        }
+      },
+      "New_SmallIsland03": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "New_SmallIsland03_TextData",
+          "SourceString": "Isola solitaria erosa dal vento",
+          "LocalizedString": "Isola solitaria erosa dal vento"
+        }
+      },
+      "New_SmallIsland04": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "New_SmallIsland04_TextData",
+          "SourceString": "Isola solitaria a bipiramide",
+          "LocalizedString": "Isola solitaria a bipiramide"
+        }
+      },
+      "New_SmallIsland05": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "New_SmallIsland05_TextData",
+          "SourceString": "Isola solitaria delle rovine gelide",
+          "LocalizedString": "Isola solitaria delle rovine gelide"
+        }
+      },
+      "New_SmallIsland06": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "New_SmallIsland06_TextData",
+          "SourceString": "Isola solitaria del portale d'arenaria",
+          "LocalizedString": "Isola solitaria del portale d'arenaria"
+        }
+      },
+      "New_SmallIsland07": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "New_SmallIsland07_TextData",
+          "SourceString": "Isola solitaria dello stemma solare",
+          "LocalizedString": "Isola solitaria dello stemma solare"
+        }
+      },
+      "FootOfWorldTree": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "FootOfWorldTree_TextData",
+          "SourceString": "Piedi dell'albero del mondo",
+          "LocalizedString": "Piedi dell'albero del mondo"
+        }
+      },
+      "WorldTree_MiddleBoss_1": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_MiddleBoss_1_TextData",
+          "SourceString": "Origine della nebbia marcescente",
+          "LocalizedString": "Origine della nebbia marcescente"
+        }
+      },
+      "WorldTree_MiddleBoss_2": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_MiddleBoss_2_TextData",
+          "SourceString": "Origine delle spore fosforescenti",
+          "LocalizedString": "Origine delle spore fosforescenti"
+        }
+      },
+      "WorldTree_MiddleBoss_3": {
+        "TextData": {
+          "Namespace": "DT_MapRespawnPointInfoText",
+          "Key": "WorldTree_MiddleBoss_3_TextData",
+          "SourceString": "Laboratorio proibito",
+          "LocalizedString": "Laboratorio proibito"
+        }
+      }
+    }
+  }
+]

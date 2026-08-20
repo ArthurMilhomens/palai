@@ -1,0 +1,672 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_BuildObjectCategoryText",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "CATEGORY_TYPE_A_Product": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_A_Product_TextData",
+          "SourceString": "Производство",
+          "LocalizedString": "Производство"
+        }
+      },
+      "CATEGORY_TYPE_A_Pal": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_A_Pal_TextData",
+          "SourceString": "Палы",
+          "LocalizedString": "Палы"
+        }
+      },
+      "CATEGORY_TYPE_A_Infrastructure": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_A_Infrastructure_TextData",
+          "SourceString": "Инфраструктура",
+          "LocalizedString": "Инфраструктура"
+        }
+      },
+      "CATEGORY_TYPE_A_Food": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_A_Food_TextData",
+          "SourceString": "Еда",
+          "LocalizedString": "Еда"
+        }
+      },
+      "CATEGORY_TYPE_A_Foundation": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_A_Foundation_TextData",
+          "SourceString": "Строительство",
+          "LocalizedString": "Строительство"
+        }
+      },
+      "CATEGORY_TYPE_A_Defense": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_A_Defense_TextData",
+          "SourceString": "Оборона",
+          "LocalizedString": "Оборона"
+        }
+      },
+      "CATEGORY_TYPE_A_Other": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_A_Other_TextData",
+          "SourceString": "Прочее",
+          "LocalizedString": "Прочее"
+        }
+      },
+      "CATEGORY_TYPE_A_Storage": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_A_Storage_TextData",
+          "SourceString": "Хранилище",
+          "LocalizedString": "Хранилище"
+        }
+      },
+      "CATEGORY_TYPE_A_Light": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_A_Light_TextData",
+          "SourceString": "Освещение",
+          "LocalizedString": "Освещение"
+        }
+      },
+      "CATEGORY_TYPE_A_Furniture": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_A_Furniture_TextData",
+          "SourceString": "Мебель",
+          "LocalizedString": "Мебель"
+        }
+      },
+      "CATEGORY_TYPE_A_Dismantle": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_A_Dismantle_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "CATEGORY_TYPE_B_Prod_Craft": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_B_Prod_Craft_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "CATEGORY_TYPE_B_Prod_Resource": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_B_Prod_Resource_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "CATEGORY_TYPE_B_Prod_Furnace": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_B_Prod_Furnace_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "CATEGORY_TYPE_B_Prod_Medicine": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_B_Prod_Medicine_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "CATEGORY_TYPE_B_Pal_Capture": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_B_Pal_Capture_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "CATEGORY_TYPE_B_Pal_Breed": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_B_Pal_Breed_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "CATEGORY_TYPE_B_Pal_Modify": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_B_Pal_Modify_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "CATEGORY_TYPE_B_Infra_Medical": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_B_Infra_Medical_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "CATEGORY_TYPE_B_Infra_Storage": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_B_Infra_Storage_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "CATEGORY_TYPE_B_Infra_Trade": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_B_Infra_Trade_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "CATEGORY_TYPE_B_Infra_GeneratePower": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_B_Infra_GeneratePower_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "CATEGORY_TYPE_B_Infra_Defense": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_B_Infra_Defense_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "CATEGORY_TYPE_B_Infra_Environment": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_B_Infra_Environment_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "CATEGORY_TYPE_B_Food_Basic": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_B_Food_Basic_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "CATEGORY_TYPE_B_Food_Agriculture": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_B_Food_Agriculture_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "CATEGORY_TYPE_B_Food_Cooking": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_B_Food_Cooking_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "CATEGORY_TYPE_B_Food_Livestock": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_B_Food_Livestock_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "CATEGORY_TYPE_B_Found_Basic": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_B_Found_Basic_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "CATEGORY_TYPE_B_Found_House": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_B_Found_House_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "CATEGORY_TYPE_B_Other": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_B_Other_TextData",
+          "SourceString": "ru_Text",
+          "LocalizedString": "ru_Text"
+        }
+      },
+      "CATEGORY_TYPE_A_Blueprint": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_A_Blueprint_TextData",
+          "SourceString": "Чертежи",
+          "LocalizedString": "Чертежи"
+        }
+      },
+      "CATEGORY_TYPE_A_Favorite": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_A_Favorite_TextData",
+          "SourceString": "Избранное",
+          "LocalizedString": "Избранное"
+        }
+      },
+      "CATEGORY_TYPE_UI_Product_Repair": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Product_Repair_TextData",
+          "SourceString": "Изготовление/Ремонт",
+          "LocalizedString": "Изготовление/Ремонт"
+        }
+      },
+      "CATEGORY_TYPE_UI_Weapon": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Weapon_TextData",
+          "SourceString": "Оружие",
+          "LocalizedString": "Оружие"
+        }
+      },
+      "CATEGORY_TYPE_UI_Refine": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Refine_TextData",
+          "SourceString": "Переплавка",
+          "LocalizedString": "Переплавка"
+        }
+      },
+      "CATEGORY_TYPE_UI_Medicine": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Medicine_TextData",
+          "SourceString": "Изготовление лекарств",
+          "LocalizedString": "Изготовление лекарств"
+        }
+      },
+      "CATEGORY_TYPE_UI_Deforest_Mining": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Deforest_Mining_TextData",
+          "SourceString": "Лесозаготовка/Добыча руды",
+          "LocalizedString": "Лесозаготовка/Добыча руды"
+        }
+      },
+      "CATEGORY_TYPE_UI_Milling_Crusher": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Milling_Crusher_TextData",
+          "SourceString": "Измельчение/Дробление",
+          "LocalizedString": "Измельчение/Дробление"
+        }
+      },
+      "CATEGORY_TYPE_UI_FishingPond": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_FishingPond_TextData",
+          "SourceString": "Рыболовный пруд",
+          "LocalizedString": "Рыболовный пруд"
+        }
+      },
+      "CATEGORY_TYPE_UI_PalCaptureItem": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_PalCaptureItem_TextData",
+          "SourceString": "Сферы",
+          "LocalizedString": "Сферы"
+        }
+      },
+      "CATEGORY_TYPE_UI_PalManagement": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_PalManagement_TextData",
+          "SourceString": "Управление Палами",
+          "LocalizedString": "Управление Палами"
+        }
+      },
+      "CATEGORY_TYPE_UI_PalTraining": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_PalTraining_TextData",
+          "SourceString": "Развитие Палов",
+          "LocalizedString": "Развитие Палов"
+        }
+      },
+      "CATEGORY_TYPE_UI_PalWork": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_PalWork_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "CATEGORY_TYPE_UI_PalBreeding": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_PalBreeding_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "CATEGORY_TYPE_UI_PalOther": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_PalOther_TextData",
+          "SourceString": "Палы - прочее",
+          "LocalizedString": "Палы - прочее"
+        }
+      },
+      "CATEGORY_TYPE_UI_Chest": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Chest_TextData",
+          "SourceString": "Сундуки",
+          "LocalizedString": "Сундуки"
+        }
+      },
+      "CATEGORY_TYPE_UI_StorageFurniture": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_StorageFurniture_TextData",
+          "SourceString": "Мебель для хранения",
+          "LocalizedString": "Мебель для хранения"
+        }
+      },
+      "CATEGORY_TYPE_UI_Cooking": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Cooking_TextData",
+          "SourceString": "Приготовление пищи",
+          "LocalizedString": "Приготовление пищи"
+        }
+      },
+      "CATEGORY_TYPE_UI_FeedBox": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_FeedBox_TextData",
+          "SourceString": "Кормушка",
+          "LocalizedString": "Кормушка"
+        }
+      },
+      "CATEGORY_TYPE_UI_Farm": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Farm_TextData",
+          "SourceString": "Плантация",
+          "LocalizedString": "Плантация"
+        }
+      },
+      "CATEGORY_TYPE_UI_Bed": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Bed_TextData",
+          "SourceString": "Кровать (сон)",
+          "LocalizedString": "Кровать (сон)"
+        }
+      },
+      "CATEGORY_TYPE_UI_GenerateElectricity": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_GenerateElectricity_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "CATEGORY_TYPE_UI_Electricity": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Electricity_TextData",
+          "SourceString": "Электричество",
+          "LocalizedString": "Электричество"
+        }
+      },
+      "CATEGORY_TYPE_UI_Spa": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Spa_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "CATEGORY_TYPE_UI_Health": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Health_TextData",
+          "SourceString": "Здоровье",
+          "LocalizedString": "Здоровье"
+        }
+      },
+      "CATEGORY_TYPE_UI_Freestanding": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Freestanding_TextData",
+          "SourceString": "Напольные",
+          "LocalizedString": "Напольные"
+        }
+      },
+      "CATEGORY_TYPE_UI_WallHanging": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_WallHanging_TextData",
+          "SourceString": "Настенные",
+          "LocalizedString": "Настенные"
+        }
+      },
+      "CATEGORY_TYPE_UI_Ceiling": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Ceiling_TextData",
+          "SourceString": "Потолочные",
+          "LocalizedString": "Потолочные"
+        }
+      },
+      "CATEGORY_TYPE_UI_Wood": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Wood_TextData",
+          "SourceString": "Древесина",
+          "LocalizedString": "Древесина"
+        }
+      },
+      "CATEGORY_TYPE_UI_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Stone_TextData",
+          "SourceString": "Камень",
+          "LocalizedString": "Камень"
+        }
+      },
+      "CATEGORY_TYPE_UI_Metal": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Metal_TextData",
+          "SourceString": "Металл",
+          "LocalizedString": "Металл"
+        }
+      },
+      "CATEGORY_TYPE_UI_Glass": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Glass_TextData",
+          "SourceString": "Стекло",
+          "LocalizedString": "Стекло"
+        }
+      },
+      "CATEGORY_TYPE_UI_JapaneseStyle": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_JapaneseStyle_TextData",
+          "SourceString": "Японский стиль",
+          "LocalizedString": "Японский стиль"
+        }
+      },
+      "CATEGORY_TYPE_UI_Clean": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Clean_TextData",
+          "SourceString": "Лаконичный",
+          "LocalizedString": "Лаконичный"
+        }
+      },
+      "CATEGORY_TYPE_UI_Trap": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Trap_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "CATEGORY_TYPE_UI_Interception": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Interception_TextData",
+          "SourceString": "Оборонительные установки",
+          "LocalizedString": "Оборонительные установки"
+        }
+      },
+      "CATEGORY_TYPE_UI_Barieer": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Barieer_TextData",
+          "SourceString": "Защитная стена",
+          "LocalizedString": "Защитная стена"
+        }
+      },
+      "CATEGORY_TYPE_UI_EfficiencEnhancement": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_EfficiencEnhancement_TextData",
+          "SourceString": "Улучшение эффективности",
+          "LocalizedString": "Улучшение эффективности"
+        }
+      },
+      "CATEGORY_TYPE_UI_SignBoard": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_SignBoard_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "CATEGORY_TYPE_UI_FleaMarket": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_FleaMarket_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "CATEGORY_TYPE_UI_Statue": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Statue_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "CATEGORY_TYPE_UI_Raid": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Raid_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "CATEGORY_TYPE_UI_Desk": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Desk_TextData",
+          "SourceString": "Столы",
+          "LocalizedString": "Столы"
+        }
+      },
+      "CATEGORY_TYPE_UI_Chair": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Chair_TextData",
+          "SourceString": "Стулья",
+          "LocalizedString": "Стулья"
+        }
+      },
+      "CATEGORY_TYPE_UI_Carpet": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Carpet_TextData",
+          "SourceString": "Ковер (напольный)",
+          "LocalizedString": "Ковер (напольный)"
+        }
+      },
+      "CATEGORY_TYPE_UI_WallDecoration": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_WallDecoration_TextData",
+          "SourceString": "Декор стен и потолка",
+          "LocalizedString": "Декор стен и потолка"
+        }
+      },
+      "CATEGORY_TYPE_UI_Houseplants": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Houseplants_TextData",
+          "SourceString": "Растение",
+          "LocalizedString": "Растение"
+        }
+      },
+      "CATEGORY_TYPE_UI_Flag": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Flag_TextData",
+          "SourceString": "Флаги",
+          "LocalizedString": "Флаги"
+        }
+      },
+      "CATEGORY_TYPE_UI_Ornament": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Ornament_TextData",
+          "SourceString": "Декор",
+          "LocalizedString": "Декор"
+        }
+      },
+      "CATEGORY_TYPE_UI_Other": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Other_TextData",
+          "SourceString": "Прочее",
+          "LocalizedString": "Прочее"
+        }
+      },
+      "CATEGORY_TYPE_UI_Ancient": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectCategoryText",
+          "Key": "CATEGORY_TYPE_UI_Ancient_TextData",
+          "SourceString": "Древняя цивилизация",
+          "LocalizedString": "Древняя цивилизация"
+        }
+      }
+    }
+  }
+]

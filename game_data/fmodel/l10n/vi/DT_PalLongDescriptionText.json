@@ -1,0 +1,2496 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_PalLongDescriptionText",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "PAL_LONG_DESC_Alpaca": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Alpaca_TextData",
+          "SourceString": "Đừng để vẻ ngoài mềm mại của Pal đánh lừa.\r\nNếu lãnh trọn cú đá siêu tốc từ đôi chân dài ấy\r\nbạn sẽ bị hất văng đến tận bên kia trái đất.",
+          "LocalizedString": "Đừng để vẻ ngoài mềm mại của Pal đánh lừa.\r\nNếu lãnh trọn cú đá siêu tốc từ đôi chân dài ấy\r\nbạn sẽ bị hất văng đến tận bên kia trái đất."
+        }
+      },
+      "PAL_LONG_DESC_AmaterasuWolf": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_AmaterasuWolf_TextData",
+          "SourceString": "Bản tính quá đỗi nhạy cảm\r\nhễ có chuyện không vừa ý là Pal lại trốn biệt vào hang.\r\nNgười xưa tin rằng khi <characterName id=|AmaterasuWolf|/> chạy trốn,\r\nđó là một điềm dữ.",
+          "LocalizedString": "Bản tính quá đỗi nhạy cảm\r\nhễ có chuyện không vừa ý là Pal lại trốn biệt vào hang.\r\nNgười xưa tin rằng khi <characterName id=|AmaterasuWolf|/> chạy trốn,\r\nđó là một điềm dữ."
+        }
+      },
+      "PAL_LONG_DESC_AmaterasuWolf_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_AmaterasuWolf_Dark_TextData",
+          "SourceString": "Bản tính quá đỗi nhạy cảm\r\nhễ có chuyện không vừa ý là Pal lại trốn biệt vào hang.\r\nVì nhốt mình quá lâu nên Pal trở nên u sầu và ảm đạm.",
+          "LocalizedString": "Bản tính quá đỗi nhạy cảm\r\nhễ có chuyện không vừa ý là Pal lại trốn biệt vào hang.\r\nVì nhốt mình quá lâu nên Pal trở nên u sầu và ảm đạm."
+        }
+      },
+      "PAL_LONG_DESC_Anubis": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Anubis_TextData",
+          "SourceString": "Với diện mạo đó, Pal từng được coi là biểu tượng của tầng lớp cao quý.\r\nĐối với những ai ghét bỏ sự giàu có và quyền lực, nó cũng là dấu hiệu đặc trưng.\r\nDần dần, <characterName id=|Anubis|/> trở thành biểu tượng của cái chết.",
+          "LocalizedString": "Với diện mạo đó, Pal từng được coi là biểu tượng của tầng lớp cao quý.\r\nĐối với những ai ghét bỏ sự giàu có và quyền lực, nó cũng là dấu hiệu đặc trưng.\r\nDần dần, <characterName id=|Anubis|/> trở thành biểu tượng của cái chết."
+        }
+      },
+      "PAL_LONG_DESC_BadCatgirl": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BadCatgirl_TextData",
+          "SourceString": "Sinh vật này đặc biệt khó chịu khi bị nhìn thẳng vào mắt.\r\nBất kỳ ai cố tình nhìn trộm, Pal sẽ oà khóc ngay tức khắc và\r\ntừ mặt người đó trong khoảng hai tuần.",
+          "LocalizedString": "Sinh vật này đặc biệt khó chịu khi bị nhìn thẳng vào mắt.\r\nBất kỳ ai cố tình nhìn trộm, Pal sẽ oà khóc ngay tức khắc và\r\ntừ mặt người đó trong khoảng hai tuần."
+        }
+      },
+      "PAL_LONG_DESC_Baphomet": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Baphomet_TextData",
+          "SourceString": "Đêm xuống, Pal đi săn mồi và mang về lãnh địa của mình.\r\nKhông khó để tưởng tượng ra những gì sẽ xảy ra\r\nvới con mồi sau khi bị bắt.",
+          "LocalizedString": "Đêm xuống, Pal đi săn mồi và mang về lãnh địa của mình.\r\nKhông khó để tưởng tượng ra những gì sẽ xảy ra\r\nvới con mồi sau khi bị bắt."
+        }
+      },
+      "PAL_LONG_DESC_Baphomet_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Baphomet_Dark_TextData",
+          "SourceString": "Pal chỉ nhắm vào những con non và mang chúng về lãnh địa của mình.\r\nKhông khó để tưởng tượng ra nỗi tuyệt vọng\r\nmà bố mẹ sẽ trải qua khi con của chúng bị cướp đi.",
+          "LocalizedString": "Pal chỉ nhắm vào những con non và mang chúng về lãnh địa của mình.\r\nKhông khó để tưởng tượng ra nỗi tuyệt vọng\r\nmà bố mẹ sẽ trải qua khi con của chúng bị cướp đi."
+        }
+      },
+      "PAL_LONG_DESC_Bastet": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Bastet_TextData",
+          "SourceString": "Phần đuôi cứng cáp của Pal không hề bị tổn hại dù bị cắt lìa.\r\nNgười ta đồn rằng những chiếc đuôi này mang đến vận may tiền bạc đã cướp đi sinh mạng của vô số <characterName id=|Bastet|/>.",
+          "LocalizedString": "Phần đuôi cứng cáp của Pal không hề bị tổn hại dù bị cắt lìa.\r\nNgười ta đồn rằng những chiếc đuôi này mang đến vận may tiền bạc đã cướp đi sinh mạng của vô số <characterName id=|Bastet|/>."
+        }
+      },
+      "PAL_LONG_DESC_Bastet_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Bastet_Ice_TextData",
+          "SourceString": "Tinh thể trên đuôi của Pal rất đẹp, nhưng sẽ tan vỡ ngay khi Pal chết.\r\nVới niềm tin rằng nuôi nhiều con sẽ mang lại vận may về tiền bạc,\r\n<characterName id=|Bastet_Ice|/> bị nuôi nhốt được chăm sóc rất kỹ.",
+          "LocalizedString": "Tinh thể trên đuôi của Pal rất đẹp, nhưng sẽ tan vỡ ngay khi Pal chết.\r\nVới niềm tin rằng nuôi nhiều con sẽ mang lại vận may về tiền bạc,\r\n<characterName id=|Bastet_Ice|/> bị nuôi nhốt được chăm sóc rất kỹ."
+        }
+      },
+      "PAL_LONG_DESC_BeardedDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BeardedDragon_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "PAL_LONG_DESC_BerryGoat": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BerryGoat_TextData",
+          "SourceString": "Nếu không bị đói, những quả mọng sẽ mọc trên bụi cây ở lưng Pal.\r\nPal sẽ mời đối tượng mình thích ăn quả mọng của mình và\r\nnếu chinh phục được dạ dày của đằng ấy, chúng sẽ thành đôi.",
+          "LocalizedString": "Nếu không bị đói, những quả mọng sẽ mọc trên bụi cây ở lưng Pal.\r\nPal sẽ mời đối tượng mình thích ăn quả mọng của mình và\r\nnếu chinh phục được dạ dày của đằng ấy, chúng sẽ thành đôi."
+        }
+      },
+      "PAL_LONG_DESC_BerryGoat_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BerryGoat_Dark_TextData",
+          "SourceString": "Những quả mọng mọc trên lưng Pal thay đổi hương vị tùy theo trạng thái tinh thần.\r\nCàng lớn lên trong môi trường tàn khốc, quả mọng càng ngọt ngào\r\nvì vậy hầu hết các con <characterName id=|BerryGoat_Dark|/> bị nuôi nhốt đều không biết đến tình yêu.",
+          "LocalizedString": "Những quả mọng mọc trên lưng Pal thay đổi hương vị tùy theo trạng thái tinh thần.\r\nCàng lớn lên trong môi trường tàn khốc, quả mọng càng ngọt ngào\r\nvì vậy hầu hết các con <characterName id=|BerryGoat_Dark|/> bị nuôi nhốt đều không biết đến tình yêu."
+        }
+      },
+      "PAL_LONG_DESC_BirdDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BirdDragon_TextData",
+          "SourceString": "Tương truyền rằng giai điệu của cây sáo được làm từ bộ xương ngoài của <characterName id=|BirdDragon|/>\r\ncó thể vang vọng qua cả ngàn ngọn núi.\r\nTrong các trận chiến từ thời xa xưa, nó đã được dùng để ra hiệu tấn công.",
+          "LocalizedString": "Tương truyền rằng giai điệu của cây sáo được làm từ bộ xương ngoài của <characterName id=|BirdDragon|/>\r\ncó thể vang vọng qua cả ngàn ngọn núi.\r\nTrong các trận chiến từ thời xa xưa, nó đã được dùng để ra hiệu tấn công."
+        }
+      },
+      "PAL_LONG_DESC_BirdDragon_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BirdDragon_Ice_TextData",
+          "SourceString": "Tương truyền rằng giai điệu của cây sáo được làm từ bộ xương ngoài của <characterName id=|BirdDragon_Ice|/>\r\ncó thể vang vọng qua cả ngàn ngọn núi.\r\nTrong các trận chiến từ thời xa xưa, nó đã được sử dụng như tin báo chiến thắng.",
+          "LocalizedString": "Tương truyền rằng giai điệu của cây sáo được làm từ bộ xương ngoài của <characterName id=|BirdDragon_Ice|/>\r\ncó thể vang vọng qua cả ngàn ngọn núi.\r\nTrong các trận chiến từ thời xa xưa, nó đã được sử dụng như tin báo chiến thắng."
+        }
+      },
+      "PAL_LONG_DESC_BlackCentaur": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BlackCentaur_TextData",
+          "SourceString": "Xưa kia, Pal và <characterName id=|SaintCentaur|/> vốn là một.\r\nDù được xem là hiện thân của những cảm xúc tiêu cực bị tách rời\r\nnhưng sâu trong đôi mắt nó vẫn ẩn chứa một chút lòng trắc ẩn.",
+          "LocalizedString": "Xưa kia, Pal và <characterName id=|SaintCentaur|/> vốn là một.\r\nDù được xem là hiện thân của những cảm xúc tiêu cực bị tách rời\r\nnhưng sâu trong đôi mắt nó vẫn ẩn chứa một chút lòng trắc ẩn."
+        }
+      },
+      "PAL_LONG_DESC_BlackFurDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BlackFurDragon_TextData",
+          "SourceString": "Đến từ nơi sâu thẳm nhất, Pal là kẻ tĩnh lặng.\r\nNgươi, không được đứng trên lưng của con thú đó.\r\nNgươi, không được thét lên với con thú đó.",
+          "LocalizedString": "Đến từ nơi sâu thẳm nhất, Pal là kẻ tĩnh lặng.\r\nNgươi, không được đứng trên lưng của con thú đó.\r\nNgươi, không được thét lên với con thú đó."
+        }
+      },
+      "PAL_LONG_DESC_BlackGriffon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BlackGriffon_TextData",
+          "SourceString": "Một sự tồn tại cấm kỵ sinh ra từ sự cuồng nộ.\r\nMối liên kết di truyền với các Pal khác đã hoàn toàn biến mất\r\ncó lẽ Pal đã vượt ra khỏi định nghĩa Pal.",
+          "LocalizedString": "Một sự tồn tại cấm kỵ sinh ra từ sự cuồng nộ.\r\nMối liên kết di truyền với các Pal khác đã hoàn toàn biến mất\r\ncó lẽ Pal đã vượt ra khỏi định nghĩa Pal."
+        }
+      },
+      "PAL_LONG_DESC_BlackMetalDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BlackMetalDragon_TextData",
+          "SourceString": "Đến từ nơi sâu thẳm nhất, Pal là kẻ hung bạo.\r\nNgươi, không được đứng trước con thú đó.\r\nNgươi, không được nghe tiếng của con thú đó.",
+          "LocalizedString": "Đến từ nơi sâu thẳm nhất, Pal là kẻ hung bạo.\r\nNgươi, không được đứng trước con thú đó.\r\nNgươi, không được nghe tiếng của con thú đó."
+        }
+      },
+      "PAL_LONG_DESC_BlackPuppy": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BlackPuppy_TextData",
+          "SourceString": "Ngọn lửa đen của Pal, dù chạm vào chỉ thấy ấm\r\nnhưng nếu vật gì đó tiếp xúc lâu dài sẽ từ từ tan chảy từ bên trong.\r\nThêm một chút phô mai nữa là ngon tuyệt.",
+          "LocalizedString": "Ngọn lửa đen của Pal, dù chạm vào chỉ thấy ấm\r\nnhưng nếu vật gì đó tiếp xúc lâu dài sẽ từ từ tan chảy từ bên trong.\r\nThêm một chút phô mai nữa là ngon tuyệt."
+        }
+      },
+      "PAL_LONG_DESC_BlackPuppy_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BlackPuppy_Ice_TextData",
+          "SourceString": "Ngọn lửa xanh nhạt này khi chạm vào chỉ hơi lành lạnh,\r\nnhưng nếu tiếp xúc lâu, mọi vật sẽ dần đóng băng.\r\nChỉ cần hơ bình sữa qua một chút là có ngay món sữa tuyết mát lạnh!",
+          "LocalizedString": "Ngọn lửa xanh nhạt này khi chạm vào chỉ hơi lành lạnh,\r\nnhưng nếu tiếp xúc lâu, mọi vật sẽ dần đóng băng.\r\nChỉ cần hơ bình sữa qua một chút là có ngay món sữa tuyết mát lạnh!"
+        }
+      },
+      "PAL_LONG_DESC_BlueberryFairy": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BlueberryFairy_TextData",
+          "SourceString": "Với vẻ ngoài thông minh và duyên dáng,\r\nPal thường được giới quý tộc trên đảo thuê làm người hầu.\r\nThế nhưng, khi gặp vào ban đêm,\r\nvẻ mặt quái dị của Pal đã khiến mọi người nhanh chóng xa lánh.",
+          "LocalizedString": "Với vẻ ngoài thông minh và duyên dáng,\r\nPal thường được giới quý tộc trên đảo thuê làm người hầu.\r\nThế nhưng, khi gặp vào ban đêm,\r\nvẻ mặt quái dị của Pal đã khiến mọi người nhanh chóng xa lánh."
+        }
+      },
+      "PAL_LONG_DESC_BlueDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BlueDragon_TextData",
+          "SourceString": "Dải màu trắng sẽ chuyển sang màu đen khi chạm vào nước bẩn.\r\nDo có ích trong việc phát hiện độc tố, Pal đã bị săn bắt quá mức trong quá khứ\r\nđến tận bây giờ Pal vẫn không mấy thiện cảm với con người.",
+          "LocalizedString": "Dải màu trắng sẽ chuyển sang màu đen khi chạm vào nước bẩn.\r\nDo có ích trong việc phát hiện độc tố, Pal đã bị săn bắt quá mức trong quá khứ\r\nđến tận bây giờ Pal vẫn không mấy thiện cảm với con người."
+        }
+      },
+      "PAL_LONG_DESC_BluePlatypus": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BluePlatypus_TextData",
+          "SourceString": "Bằng lượng nước tự sinh ra, Pal có thể tạo ra sóng ở bất cứ đâu.\r\nKhi vội vàng, Pal di chuyển bằng cách lướt người trên sóng.\r\nVì quá đà mà nó thường đâm sầm vào tường mà chết.",
+          "LocalizedString": "Bằng lượng nước tự sinh ra, Pal có thể tạo ra sóng ở bất cứ đâu.\r\nKhi vội vàng, Pal di chuyển bằng cách lướt người trên sóng.\r\nVì quá đà mà nó thường đâm sầm vào tường mà chết."
+        }
+      },
+      "PAL_LONG_DESC_BlueThunderHorse": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BlueThunderHorse_TextData",
+          "SourceString": "Giống như <characterName id=|Kirin|/>, nó từng được coi là có liên hệ với thần sấm.\r\nKhi sự tôn thờ <characterName id=|Kirin|/> dần lụi tàn,\r\n<characterName id=|BlueThunderHorse|/> nghiễm nhiên được tôn vinh là sứ giả chân chính của thần sấm\r\nnhưng dòng chảy thời gian đã dần đẩy Pal xuống vị trí của một con ngựa kéo xe bình thường.",
+          "LocalizedString": "Giống như <characterName id=|Kirin|/>, nó từng được coi là có liên hệ với thần sấm.\r\nKhi sự tôn thờ <characterName id=|Kirin|/> dần lụi tàn,\r\n<characterName id=|BlueThunderHorse|/> nghiễm nhiên được tôn vinh là sứ giả chân chính của thần sấm\r\nnhưng dòng chảy thời gian đã dần đẩy Pal xuống vị trí của một con ngựa kéo xe bình thường."
+        }
+      },
+      "PAL_LONG_DESC_Boar": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Boar_TextData",
+          "SourceString": "Cực kỳ hiếu chiến, sẵn sàng khiêu chiến mà không cần biết đối thủ mạnh yếu thế nào.\r\nDù là một Pal nhỏ bé, nhưng uy lực của cú húc mạnh lại rất đáng gờm\r\ncó thể hất văng cả tảng đá lớn.",
+          "LocalizedString": "Cực kỳ hiếu chiến, sẵn sàng khiêu chiến mà không cần biết đối thủ mạnh yếu thế nào.\r\nDù là một Pal nhỏ bé, nhưng uy lực của cú húc mạnh lại rất đáng gờm\r\ncó thể hất văng cả tảng đá lớn."
+        }
+      },
+      "PAL_LONG_DESC_BrownRabbit": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BrownRabbit_TextData",
+          "SourceString": "Pal lắng nghe tiếng vọng của đại ngàn để tránh những nơi địa hình hiểm trở.\r\nThế nhưng, cứ gặp phải nơi |không hợp vía| là nó lại bị đánh lừa,\r\nvấp ngã liên miên tại chỗ đó.",
+          "LocalizedString": "Pal lắng nghe tiếng vọng của đại ngàn để tránh những nơi địa hình hiểm trở.\r\nThế nhưng, cứ gặp phải nơi |không hợp vía| là nó lại bị đánh lừa,\r\nvấp ngã liên miên tại chỗ đó."
+        }
+      },
+      "PAL_LONG_DESC_CandleGhost": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CandleGhost_TextData",
+          "SourceString": "Xưa kia, người ta tin rằng ngọn lửa sẽ lụi tàn khi thế giới sắp đến hồi kết.\r\nCác tín đồ của thuyết tận thế đã nhiều lần ầm ĩ về việc ngọn lửa yếu đi\r\nnhưng hóa ra chỉ là do tính khí thất thường của <characterName id=|CandleGhost|/>.\r\nÍt nhất là cho đến thời điểm hiện tại.",
+          "LocalizedString": "Xưa kia, người ta tin rằng ngọn lửa sẽ lụi tàn khi thế giới sắp đến hồi kết.\r\nCác tín đồ của thuyết tận thế đã nhiều lần ầm ĩ về việc ngọn lửa yếu đi\r\nnhưng hóa ra chỉ là do tính khí thất thường của <characterName id=|CandleGhost|/>.\r\nÍt nhất là cho đến thời điểm hiện tại."
+        }
+      },
+      "PAL_LONG_DESC_CaptainPenguin": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CaptainPenguin_TextData",
+          "SourceString": "Thực ra, Pal chẳng có họ hàng gì với <characterName id=|Penguin|/>.\r\nTuy nhiên, vì bỗng dưng được người người chiều chuộng\r\nnên nó cứ ra vẻ ta đây, ưỡn ẹo cho quan trọng.",
+          "LocalizedString": "Thực ra, Pal chẳng có họ hàng gì với <characterName id=|Penguin|/>.\r\nTuy nhiên, vì bỗng dưng được người người chiều chuộng\r\nnên nó cứ ra vẻ ta đây, ưỡn ẹo cho quan trọng."
+        }
+      },
+      "PAL_LONG_DESC_Carbunclo": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Carbunclo_TextData",
+          "SourceString": "Pal có trí thông minh tương đương với đứa bé 5 – 7 tuổi.\r\nRất phù hợp để làm bạn đồng hành, nhưng cũng có không ít ghi nhận về việc\r\nmột số cá thể được dạy cách sử dụng vũ khí để rồi quay sang sát hại chính chủ của mình.",
+          "LocalizedString": "Pal có trí thông minh tương đương với đứa bé 5 – 7 tuổi.\r\nRất phù hợp để làm bạn đồng hành, nhưng cũng có không ít ghi nhận về việc\r\nmột số cá thể được dạy cách sử dụng vũ khí để rồi quay sang sát hại chính chủ của mình."
+        }
+      },
+      "PAL_LONG_DESC_CatBat": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CatBat_TextData",
+          "SourceString": "Thường bất ngờ xuất hiện chỉ để khoe\r\nkhoang đôi cánh quý giá trước mặt các Pal khác.\r\nCó vẻ như đây là một kiểu dọa dẫm nhưng\r\ndường như nó lại cảm thấy thích thú với màn phô diễn này.",
+          "LocalizedString": "Thường bất ngờ xuất hiện chỉ để khoe\r\nkhoang đôi cánh quý giá trước mặt các Pal khác.\r\nCó vẻ như đây là một kiểu dọa dẫm nhưng\r\ndường như nó lại cảm thấy thích thú với màn phô diễn này."
+        }
+      },
+      "PAL_LONG_DESC_CatMage": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CatMage_TextData",
+          "SourceString": "Pal điều khiển sức mạnh bóng tối và phô diễn những ma thuật dị thường.\r\nDù là món gì đi nữa, Pal đều thích ăn sống.\r\nPal có mối quan hệ không mấy tốt đẹp với <characterName id=|FoxMage|/>.",
+          "LocalizedString": "Pal điều khiển sức mạnh bóng tối và phô diễn những ma thuật dị thường.\r\nDù là món gì đi nữa, Pal đều thích ăn sống.\r\nPal có mối quan hệ không mấy tốt đẹp với <characterName id=|FoxMage|/>."
+        }
+      },
+      "PAL_LONG_DESC_CatMage_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CatMage_Fire_TextData",
+          "SourceString": "Cách nuôi dạy của cha mẹ khiến Pal chẳng mấy quan tâm đến\r\nnhững chuyện nhỏ nhặt như đồ ăn sống hay chín.\r\nDù là món gì đi nữa, Pal vẫn thích món cay hơn.\r\nPal có mối quan hệ không mấy tốt đẹp với <characterName id=|FoxMage_Dark|/>.",
+          "LocalizedString": "Cách nuôi dạy của cha mẹ khiến Pal chẳng mấy quan tâm đến\r\nnhững chuyện nhỏ nhặt như đồ ăn sống hay chín.\r\nDù là món gì đi nữa, Pal vẫn thích món cay hơn.\r\nPal có mối quan hệ không mấy tốt đẹp với <characterName id=|FoxMage_Dark|/>."
+        }
+      },
+      "PAL_LONG_DESC_CatVampire": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CatVampire_TextData",
+          "SourceString": "Từ nơi tăm tối, Pal vồ lấy con mồi một cách chớp nhoáng\r\ndùng đôi cánh như tấm áo choàng để giam giữ chúng.\r\nChuyện gì xảy ra bên trong đó, tại sao mặt trong đôi cánh lại nhuốm màu đỏ,\r\ncó những điều tốt hơn là bạn không nên biết.",
+          "LocalizedString": "Từ nơi tăm tối, Pal vồ lấy con mồi một cách chớp nhoáng\r\ndùng đôi cánh như tấm áo choàng để giam giữ chúng.\r\nChuyện gì xảy ra bên trong đó, tại sao mặt trong đôi cánh lại nhuốm màu đỏ,\r\ncó những điều tốt hơn là bạn không nên biết."
+        }
+      },
+      "PAL_LONG_DESC_ChickenPal": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ChickenPal_TextData",
+          "SourceString": "Thật yếu ớt, mà lại ngon khó cưỡng.\r\nSo với <characterName id=|SheepBall|/>, đây là một trong những Pal yếu nhất.\r\nSăn bao nhiêu cũng không hết, chúng cứ mọc ra từ đâu ấy.",
+          "LocalizedString": "Thật yếu ớt, mà lại ngon khó cưỡng.\r\nSo với <characterName id=|SheepBall|/>, đây là một trong những Pal yếu nhất.\r\nSăn bao nhiêu cũng không hết, chúng cứ mọc ra từ đâu ấy."
+        }
+      },
+      "PAL_LONG_DESC_ColorfulBird": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ColorfulBird_TextData",
+          "SourceString": "Loài Pal đáng sợ này đẻ ra những quả trứng phát nổ.\r\nThông thường, nó phóng trứng ra từ phía đuôi để tấn công,\r\nkhi bị dồn vào đường cùng, nó sẽ tự nổ tung!",
+          "LocalizedString": "Loài Pal đáng sợ này đẻ ra những quả trứng phát nổ.\r\nThông thường, nó phóng trứng ra từ phía đuôi để tấn công,\r\nkhi bị dồn vào đường cùng, nó sẽ tự nổ tung!"
+        }
+      },
+      "PAL_LONG_DESC_CowPal": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CowPal_TextData",
+          "SourceString": "Chẳng cần làm gì, sữa của Pal vẫn tự chảy ra như vòi nước.\r\nNgay cả con đực cũng có sữa.\r\nĐúng là điều kỳ diệu của sự sống!",
+          "LocalizedString": "Chẳng cần làm gì, sữa của Pal vẫn tự chảy ra như vòi nước.\r\nNgay cả con đực cũng có sữa.\r\nĐúng là điều kỳ diệu của sự sống!"
+        }
+      },
+      "PAL_LONG_DESC_CuteButterfly": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CuteButterfly_TextData",
+          "SourceString": "Chỉ cần hít vào lớp phấn vảy của Pal, bạn sẽ cảm thấy sung sướng như lạc vào cõi tiên.\r\nDù đang có những nỗ lực để tăng cường quản lý việc này\r\nnhưng vẫn chưa có tiến triển do vấp phải sự phản đối của Tổ Chức Bảo Hộ Pal.",
+          "LocalizedString": "Chỉ cần hít vào lớp phấn vảy của Pal, bạn sẽ cảm thấy sung sướng như lạc vào cõi tiên.\r\nDù đang có những nỗ lực để tăng cường quản lý việc này\r\nnhưng vẫn chưa có tiến triển do vấp phải sự phản đối của Tổ Chức Bảo Hộ Pal."
+        }
+      },
+      "PAL_LONG_DESC_CuteFox": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CuteFox_TextData",
+          "SourceString": "Là thần tượng của đảo Palpagos.\r\nNếu dám động đến <characterName id=|CuteFox|/>,\r\nbạn sẽ trở thành kẻ địch của cả thế giới.",
+          "LocalizedString": "Là thần tượng của đảo Palpagos.\r\nNếu dám động đến <characterName id=|CuteFox|/>,\r\nbạn sẽ trở thành kẻ địch của cả thế giới."
+        }
+      },
+      "PAL_LONG_DESC_CuteMole": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CuteMole_TextData",
+          "SourceString": "Bộ móng vuốt to lớn cứng ngang kim cương,\r\nviệc mài móng tiêu tốn phần lớn năng lượng của Pal\r\nnên có khi cả ngày Pal chỉ loay hoay với việc đó.",
+          "LocalizedString": "Bộ móng vuốt to lớn cứng ngang kim cương,\r\nviệc mài móng tiêu tốn phần lớn năng lượng của Pal\r\nnên có khi cả ngày Pal chỉ loay hoay với việc đó."
+        }
+      },
+      "PAL_LONG_DESC_DarkAlien": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_DarkAlien_TextData",
+          "SourceString": "Pal có thể biến thông tin thành năng lượng bằng cách gửi đi và lãng quên.\r\nHình như Pal còn định kỳ gửi tin tức cho ai đó.\r\n– Mau hồi đáp. Phát hiện mục tiêu. Lập tức tiến hành tiêu diệt!",
+          "LocalizedString": "Pal có thể biến thông tin thành năng lượng bằng cách gửi đi và lãng quên.\r\nHình như Pal còn định kỳ gửi tin tức cho ai đó.\r\n– Mau hồi đáp. Phát hiện mục tiêu. Lập tức tiến hành tiêu diệt!"
+        }
+      },
+      "PAL_LONG_DESC_DarkCrow": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_DarkCrow_TextData",
+          "SourceString": "Trước đây, Pal từng tung cánh bay lượn tự do trên bầu trời bao la,\r\nsau thất bại trong cuộc giao tranh với <characterName id=|Eagle|/>,\r\nPal đã từ bỏ bầu trời và lặng lẽ sống trong bóng tối.",
+          "LocalizedString": "Trước đây, Pal từng tung cánh bay lượn tự do trên bầu trời bao la,\r\nsau thất bại trong cuộc giao tranh với <characterName id=|Eagle|/>,\r\nPal đã từ bỏ bầu trời và lặng lẽ sống trong bóng tối."
+        }
+      },
+      "PAL_LONG_DESC_DarkMechaDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_DarkMechaDragon_TextData",
+          "SourceString": "– Đã đến địa điểm mục tiêu. Ưu tiên hàng đầu: Tìm kiếm Rồng Sao Băng.\r\n– Ghi chú: Thời hạn hoàn thành chế ngự: < ://Error_Code:146DC > năm trước.\r\n– Bổ sung: Không có dấu vết chế ngự. Xác nhận đã hòa nhập. Bắt đầu loại bỏ.\r\n– Nhắc nhở nghiệp vụ: Tuyệt đối không được quên hoặc ăn thông tin quan trọng!",
+          "LocalizedString": "– Đã đến địa điểm mục tiêu. Ưu tiên hàng đầu: Tìm kiếm Rồng Sao Băng.\r\n– Ghi chú: Thời hạn hoàn thành chế ngự: < ://Error_Code:146DC > năm trước.\r\n– Bổ sung: Không có dấu vết chế ngự. Xác nhận đã hòa nhập. Bắt đầu loại bỏ.\r\n– Nhắc nhở nghiệp vụ: Tuyệt đối không được quên hoặc ăn thông tin quan trọng!"
+        }
+      },
+      "PAL_LONG_DESC_DarkMutant": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_DarkMutant_TextData",
+          "SourceString": "Với kỹ năng thượng thừa, tia chớp của <characterName id=|DarkMutant|/>\r\ncó thể cắt đứt cả chiều không gian, tạo ra các vết nứt thời không.\r\nCó giả thuyết cho rằng một số Pal đã xuất hiện từ những vết nứt đó.",
+          "LocalizedString": "Với kỹ năng thượng thừa, tia chớp của <characterName id=|DarkMutant|/>\r\ncó thể cắt đứt cả chiều không gian, tạo ra các vết nứt thời không.\r\nCó giả thuyết cho rằng một số Pal đã xuất hiện từ những vết nứt đó."
+        }
+      },
+      "PAL_LONG_DESC_DarkScorpion": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_DarkScorpion_TextData",
+          "SourceString": "Thực chất Pal là một thể năng lượng, bên trong không chứa gì cả.\r\nPal tóm lấy con mồi còn sống, nhét vào lớp vỏ ngoài và hấp thụ.\r\nXung quanh Pal luôn vang vọng những tiếng rên rỉ như từ địa ngục vọng lên.",
+          "LocalizedString": "Thực chất Pal là một thể năng lượng, bên trong không chứa gì cả.\r\nPal tóm lấy con mồi còn sống, nhét vào lớp vỏ ngoài và hấp thụ.\r\nXung quanh Pal luôn vang vọng những tiếng rên rỉ như từ địa ngục vọng lên."
+        }
+      },
+      "PAL_LONG_DESC_DarkScorpion_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_DarkScorpion_Ground_TextData",
+          "SourceString": "Thực chất nó là một thể năng lượng, bên trong không chứa gì cả.\r\nPal nhồi nhét đất đá và khoáng vật vào trong lớp vỏ ngoài, tạo nên khối lượng áp đảo.\r\nKẻ nào trúng đòn chỉ còn biết gào thét như trong địa ngục.",
+          "LocalizedString": "Thực chất nó là một thể năng lượng, bên trong không chứa gì cả.\r\nPal nhồi nhét đất đá và khoáng vật vào trong lớp vỏ ngoài, tạo nên khối lượng áp đảo.\r\nKẻ nào trúng đòn chỉ còn biết gào thét như trong địa ngục."
+        }
+      },
+      "PAL_LONG_DESC_Deer": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Deer_TextData",
+          "SourceString": "Con nào có cặp sừng oai phong nhất sẽ trở thành thủ lĩnh.\r\nKhi sừng gãy, trái tim cũng tan vỡ.\r\nSau đó, Pal sẽ rời khỏi đàn và chết ở một nơi mà không ai có thể nhìn thấy.",
+          "LocalizedString": "Con nào có cặp sừng oai phong nhất sẽ trở thành thủ lĩnh.\r\nKhi sừng gãy, trái tim cũng tan vỡ.\r\nSau đó, Pal sẽ rời khỏi đàn và chết ở một nơi mà không ai có thể nhìn thấy."
+        }
+      },
+      "PAL_LONG_DESC_Deer_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Deer_Ground_TextData",
+          "SourceString": "Con nào có cặp sừng cứng nhất sẽ trở thành thủ lĩnh.\r\nNếu mất sừng, tư cách thủ lĩnh cũng mất đi.\r\nPal sẽ rời đàn trong sự tiễn biệt của các thành viên, lặng lẽ về với đất mẹ.",
+          "LocalizedString": "Con nào có cặp sừng cứng nhất sẽ trở thành thủ lĩnh.\r\nNếu mất sừng, tư cách thủ lĩnh cũng mất đi.\r\nPal sẽ rời đàn trong sự tiễn biệt của các thành viên, lặng lẽ về với đất mẹ."
+        }
+      },
+      "PAL_LONG_DESC_DreamDemon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_DreamDemon_TextData",
+          "SourceString": "Pal nhẹ nhàng đưa người mình yêu mến vào giấc ngủ sâu\r\nliên tục dệt cho họ những giấc mơ hạnh phúc.\r\nĐến tận lúc chết, họ cũng không bao giờ tỉnh lại.",
+          "LocalizedString": "Pal nhẹ nhàng đưa người mình yêu mến vào giấc ngủ sâu\r\nliên tục dệt cho họ những giấc mơ hạnh phúc.\r\nĐến tận lúc chết, họ cũng không bao giờ tỉnh lại."
+        }
+      },
+      "PAL_LONG_DESC_DrillGame": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_DrillGame_TextData",
+          "SourceString": "Có một câu chuyện mang tên |Mũi Khoan Của <characterName id=|DrillGame|/>|.\r\nĐây là câu chuyện ngụ ngôn kể về <characterName id=|DrillGame|/>,\r\nsinh vật sở hữu chiếc mai kiên cố và một mũi khoan lợi hại, cứ mãi trăn trở về một nghịch lý của cuộc đời.",
+          "LocalizedString": "Có một câu chuyện mang tên |Mũi Khoan Của <characterName id=|DrillGame|/>|.\r\nĐây là câu chuyện ngụ ngôn kể về <characterName id=|DrillGame|/>,\r\nsinh vật sở hữu chiếc mai kiên cố và một mũi khoan lợi hại, cứ mãi trăn trở về một nghịch lý của cuộc đời."
+        }
+      },
+      "PAL_LONG_DESC_Eagle": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Eagle_TextData",
+          "SourceString": "Dù đang cắp theo người, Pal vẫn có thể bay lên một cách dễ dàng.\r\nThế nhưng, khi kiệt sức, Pal sẽ thả chân ra không chút thương xót,\r\ncác tai nạn rơi chết người vẫn thường xuyên xảy ra.",
+          "LocalizedString": "Dù đang cắp theo người, Pal vẫn có thể bay lên một cách dễ dàng.\r\nThế nhưng, khi kiệt sức, Pal sẽ thả chân ra không chút thương xót,\r\ncác tai nạn rơi chết người vẫn thường xuyên xảy ra."
+        }
+      },
+      "PAL_LONG_DESC_ElecCat": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ElecCat_TextData",
+          "SourceString": "Mùa khô đến khiến Pal dễ nổi nóng, lúc nào cũng cáu kỉnh.\r\nChỉ cần đồng loại chạm nhẹ vào thôi\r\ncũng xảy ra một cuộc ẩu đả tóe lửa ngay.",
+          "LocalizedString": "Mùa khô đến khiến Pal dễ nổi nóng, lúc nào cũng cáu kỉnh.\r\nChỉ cần đồng loại chạm nhẹ vào thôi\r\ncũng xảy ra một cuộc ẩu đả tóe lửa ngay."
+        }
+      },
+      "PAL_LONG_DESC_ElecLion": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ElecLion_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "PAL_LONG_DESC_ElecPanda": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ElecPanda_TextData",
+          "SourceString": "Với nụ cười hào sảng và vóc dáng vạm vỡ,\r\nPal sẽ ngoan ngoãn nghe lời những ai được Pal coi là chiến hữu.\r\nChỉ có điều, cứ hễ cầm khẩu minigun là nó lại thay đổi một cách khó hiểu.",
+          "LocalizedString": "Với nụ cười hào sảng và vóc dáng vạm vỡ,\r\nPal sẽ ngoan ngoãn nghe lời những ai được Pal coi là chiến hữu.\r\nChỉ có điều, cứ hễ cầm khẩu minigun là nó lại thay đổi một cách khó hiểu."
+        }
+      },
+      "PAL_LONG_DESC_FairyDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FairyDragon_TextData",
+          "SourceString": "Vẻ ngoài thế nào, tính cách y vậy, thật là ngây thơ.\r\nCó lẽ vì thế mà Pal không phân biệt rõ được thiện ác\r\nthường bị những kẻ có ý xấu lợi dụng.",
+          "LocalizedString": "Vẻ ngoài thế nào, tính cách y vậy, thật là ngây thơ.\r\nCó lẽ vì thế mà Pal không phân biệt rõ được thiện ác\r\nthường bị những kẻ có ý xấu lợi dụng."
+        }
+      },
+      "PAL_LONG_DESC_FairyDragon_Water": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FairyDragon_Water_TextData",
+          "SourceString": "Vẻ ngoài thế nào, tính cách y vậy, thật là ngây thơ.\r\nCó lẽ vì vậy mà mọi hành động của Pal đều không hề có ác ý,\r\ndù có giết ai đó Pal cũng chẳng cảm thấy gì.",
+          "LocalizedString": "Vẻ ngoài thế nào, tính cách y vậy, thật là ngây thơ.\r\nCó lẽ vì vậy mà mọi hành động của Pal đều không hề có ác ý,\r\ndù có giết ai đó Pal cũng chẳng cảm thấy gì."
+        }
+      },
+      "PAL_LONG_DESC_FeatherOstrich": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FeatherOstrich_TextData",
+          "SourceString": "Bước một bước, quên hết do dự\r\nBước hai bước, quên đi nỗi buồn\r\nBước ba bước, quên đi nỗi sợ hãi\r\nMọi kẻ thù, Pal đều dám đương đầu.",
+          "LocalizedString": "Bước một bước, quên hết do dự\r\nBước hai bước, quên đi nỗi buồn\r\nBước ba bước, quên đi nỗi sợ hãi\r\nMọi kẻ thù, Pal đều dám đương đầu."
+        }
+      },
+      "PAL_LONG_DESC_FengyunDeeper": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FengyunDeeper_TextData",
+          "SourceString": "Thời xa xưa, vẻ ngoài xinh đẹp của Pal\r\nlà một đề tài quen thuộc cho hội họa.\r\nTheo thời gian, bộ lông và cặp sừng tuyệt đẹp đó\r\nlại trở thành vật liệu đắt giá cho nghệ thuật.",
+          "LocalizedString": "Thời xa xưa, vẻ ngoài xinh đẹp của Pal\r\nlà một đề tài quen thuộc cho hội họa.\r\nTheo thời gian, bộ lông và cặp sừng tuyệt đẹp đó\r\nlại trở thành vật liệu đắt giá cho nghệ thuật."
+        }
+      },
+      "PAL_LONG_DESC_FengyunDeeper_Electric": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FengyunDeeper_Electric_TextData",
+          "SourceString": "Thời xa xưa, người ta tin rằng nếu vẽ tranh <characterName id=|FengyunDeeper_Electric|/>\r\nsẽ bị sét đánh chết.\r\nTheo thời gian, các tác phẩm nghệ thuật lấy cảm hứng từ <characterName id=|FengyunDeeper_Electric|/>\r\ntrở thành bùa hộ mệnh thường thấy để tránh sét.",
+          "LocalizedString": "Thời xa xưa, người ta tin rằng nếu vẽ tranh <characterName id=|FengyunDeeper_Electric|/>\r\nsẽ bị sét đánh chết.\r\nTheo thời gian, các tác phẩm nghệ thuật lấy cảm hứng từ <characterName id=|FengyunDeeper_Electric|/>\r\ntrở thành bùa hộ mệnh thường thấy để tránh sét."
+        }
+      },
+      "PAL_LONG_DESC_FireKirin": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FireKirin_TextData",
+          "SourceString": "Toàn thân là một hệ thống tản nhiệt siêu hiệu quả\r\nPal có một sức bền đáng kinh ngạc.\r\nKhi có ai đó cưỡi, Pal sẽ cẩn thận để người đó không bị bỏng.",
+          "LocalizedString": "Toàn thân là một hệ thống tản nhiệt siêu hiệu quả\r\nPal có một sức bền đáng kinh ngạc.\r\nKhi có ai đó cưỡi, Pal sẽ cẩn thận để người đó không bị bỏng."
+        }
+      },
+      "PAL_LONG_DESC_FireKirin_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FireKirin_Dark_TextData",
+          "SourceString": "Pal đốt cháy các vật chất tối không xác định để tạo năng lượng\r\nphát tán những hạt hắc ám còn dư từ khắp cơ thể.\r\nKhi có ai đó cưỡi, Pal sẽ cẩn thận bảo vệ để người đó không sa vào bóng tối.",
+          "LocalizedString": "Pal đốt cháy các vật chất tối không xác định để tạo năng lượng\r\nphát tán những hạt hắc ám còn dư từ khắp cơ thể.\r\nKhi có ai đó cưỡi, Pal sẽ cẩn thận bảo vệ để người đó không sa vào bóng tối."
+        }
+      },
+      "PAL_LONG_DESC_FlameBambi": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FlameBambi_TextData",
+          "SourceString": "<characterName id=|FlameBambi|/> hoang dã có sức khỏe đáng kinh ngạc.\r\nBí quyết để Pal luôn khỏe mạnh là\r\nmỗi ngày ăn một mẩu than từ cành cây bị đốt cháy.",
+          "LocalizedString": "<characterName id=|FlameBambi|/> hoang dã có sức khỏe đáng kinh ngạc.\r\nBí quyết để Pal luôn khỏe mạnh là\r\nmỗi ngày ăn một mẩu than từ cành cây bị đốt cháy."
+        }
+      },
+      "PAL_LONG_DESC_FlameBuffalo": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FlameBuffalo_TextData",
+          "SourceString": "Thời xa xưa, chúng thường xuyên bị các Pal ăn thịt tấn công.\r\nTiếng kêu gào đầy bất lực của <characterName id=|FlameBuffalo|/> tích tụ thành nỗi hận\r\nhóa thành ngọn lửa rực cháy lưu truyền qua bao thế hệ.",
+          "LocalizedString": "Thời xa xưa, chúng thường xuyên bị các Pal ăn thịt tấn công.\r\nTiếng kêu gào đầy bất lực của <characterName id=|FlameBuffalo|/> tích tụ thành nỗi hận\r\nhóa thành ngọn lửa rực cháy lưu truyền qua bao thế hệ."
+        }
+      },
+      "PAL_LONG_DESC_FlowerDinosaur": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FlowerDinosaur_TextData",
+          "SourceString": "Khi cơn giận bùng phát, không ai có thể cản được, Pal sẽ hung hãn như ngọn lửa dữ.\r\nCâu nói |Giẫm phải đuôi <characterName id=|FlowerDinosaur|/>|\r\ndùng để chỉ việc làm ai đó cực kỳ tức giận.",
+          "LocalizedString": "Khi cơn giận bùng phát, không ai có thể cản được, Pal sẽ hung hãn như ngọn lửa dữ.\r\nCâu nói |Giẫm phải đuôi <characterName id=|FlowerDinosaur|/>|\r\ndùng để chỉ việc làm ai đó cực kỳ tức giận."
+        }
+      },
+      "PAL_LONG_DESC_FlowerDinosaur_Electric": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FlowerDinosaur_Electric_TextData",
+          "SourceString": "Dù bị sét đánh nhưng Pal vẫn giữ được mạng sống.\r\nCâu nói |Sét đánh <characterName id=|FlowerDinosaur_Electric|/>|\r\ndùng để chỉ việc thoát chết trong gang tấc.",
+          "LocalizedString": "Dù bị sét đánh nhưng Pal vẫn giữ được mạng sống.\r\nCâu nói |Sét đánh <characterName id=|FlowerDinosaur_Electric|/>|\r\ndùng để chỉ việc thoát chết trong gang tấc."
+        }
+      },
+      "PAL_LONG_DESC_FlowerDoll": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FlowerDoll_TextData",
+          "SourceString": "Đến khi hết vòng đời, sinh vật này sẽ biến thành một cái cây lớn.\r\nCứ mười năm một lần, một bông hoa tuyệt đẹp sẽ nở rộ.\r\nTừ bông hoa ấy, một <characterName id=|FlowerDoll|/> mới được sinh ra.",
+          "LocalizedString": "Đến khi hết vòng đời, sinh vật này sẽ biến thành một cái cây lớn.\r\nCứ mười năm một lần, một bông hoa tuyệt đẹp sẽ nở rộ.\r\nTừ bông hoa ấy, một <characterName id=|FlowerDoll|/> mới được sinh ra."
+        }
+      },
+      "PAL_LONG_DESC_FlowerRabbit": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FlowerRabbit_TextData",
+          "SourceString": "Chúng thích những nơi có nhiều cây xanh\r\nnhưng gần đây, trong cộng đồng <characterName id=|FlowerRabbit|/> hình như\r\nđang có dịch dị ứng phấn hoa.",
+          "LocalizedString": "Chúng thích những nơi có nhiều cây xanh\r\nnhưng gần đây, trong cộng đồng <characterName id=|FlowerRabbit|/> hình như\r\nđang có dịch dị ứng phấn hoa."
+        }
+      },
+      "PAL_LONG_DESC_FlyingManta": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FlyingManta_TextData",
+          "SourceString": "Lướt theo làn gió, Pal tự do du ngoạn khắp chốn.\r\nBất cứ nơi nào Pal đến, khi tìm thấy bạn đồng hành\r\nchuyến du ngoạn sẽ kết thúc.",
+          "LocalizedString": "Lướt theo làn gió, Pal tự do du ngoạn khắp chốn.\r\nBất cứ nơi nào Pal đến, khi tìm thấy bạn đồng hành\r\nchuyến du ngoạn sẽ kết thúc."
+        }
+      },
+      "PAL_LONG_DESC_FoxMage": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FoxMage_TextData",
+          "SourceString": "Sinh vật này điều khiển sức mạnh ánh sáng và biểu diễn những phép thuật kỳ lạ.\r\nDù là món gì đi nữa, cũng phải nấu chín kỹ.\r\nPal có mối quan hệ không mấy tốt đẹp với <characterName id=|CatMage|/>.",
+          "LocalizedString": "Sinh vật này điều khiển sức mạnh ánh sáng và biểu diễn những phép thuật kỳ lạ.\r\nDù là món gì đi nữa, cũng phải nấu chín kỹ.\r\nPal có mối quan hệ không mấy tốt đẹp với <characterName id=|CatMage|/>."
+        }
+      },
+      "PAL_LONG_DESC_FoxMage_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FoxMage_Dark_TextData",
+          "SourceString": "Cách nuôi dạy của cha mẹ khiến sinh vật này chẳng mấy quan tâm đến\r\nnhững chuyện nhỏ nhặt như đồ ăn đã được nướng chín hay chưa.\r\nDù là món gì đi nữa, Pal vẫn thích đồ ngọt hơn.\r\nPal có mối quan hệ không mấy tốt đẹp với <characterName id=|CatMage_Fire|/>.",
+          "LocalizedString": "Cách nuôi dạy của cha mẹ khiến sinh vật này chẳng mấy quan tâm đến\r\nnhững chuyện nhỏ nhặt như đồ ăn đã được nướng chín hay chưa.\r\nDù là món gì đi nữa, Pal vẫn thích đồ ngọt hơn.\r\nPal có mối quan hệ không mấy tốt đẹp với <characterName id=|CatMage_Fire|/>."
+        }
+      },
+      "PAL_LONG_DESC_Ganesha": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Ganesha_TextData",
+          "SourceString": "Từ bộ phận được cho là mũi, Pal phun ra một lượng nước lớn,\r\ncũng có người cho rằng đó chỉ là nước mũi.\r\nGiữa các nhà nghiên cứu đã có một cuộc tranh luận nảy lửa về chuyện này.",
+          "LocalizedString": "Từ bộ phận được cho là mũi, Pal phun ra một lượng nước lớn,\r\ncũng có người cho rằng đó chỉ là nước mũi.\r\nGiữa các nhà nghiên cứu đã có một cuộc tranh luận nảy lửa về chuyện này."
+        }
+      },
+      "PAL_LONG_DESC_Garm": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Garm_TextData",
+          "SourceString": "Mặc dù mối quan hệ với con người đã trở nên xa cách từ lâu\r\nnhưng đã có một thời, cách săn bắn của <characterName id=|Garm|/>\r\nbắt nguồn từ những cuộc đi săn chúng từng tham gia cùng con người.",
+          "LocalizedString": "Mặc dù mối quan hệ với con người đã trở nên xa cách từ lâu\r\nnhưng đã có một thời, cách săn bắn của <characterName id=|Garm|/>\r\nbắt nguồn từ những cuộc đi săn chúng từng tham gia cùng con người."
+        }
+      },
+      "PAL_LONG_DESC_GhostAnglerfish": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GhostAnglerfish_TextData",
+          "SourceString": "Dùng mồi giả phát sáng rực rỡ để chiếu rọi những nơi tối tăm.\r\nNhững Pal lạc đường bị thu hút bởi ánh sáng này sẽ chẳng còn lối thoát\r\nnếu bị <characterName id=|GhostAnglerFish|/> phát hiện.\r\nNó sẽ dẫn lối cho đến khi những Pal này về nhà an toàn.",
+          "LocalizedString": "Dùng mồi giả phát sáng rực rỡ để chiếu rọi những nơi tối tăm.\r\nNhững Pal lạc đường bị thu hút bởi ánh sáng này sẽ chẳng còn lối thoát\r\nnếu bị <characterName id=|GhostAnglerFish|/> phát hiện.\r\nNó sẽ dẫn lối cho đến khi những Pal này về nhà an toàn."
+        }
+      },
+      "PAL_LONG_DESC_GhostBeast": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GhostBeast_TextData",
+          "SourceString": "Sinh vật này thích cái mùi đặc biệt tỏa ra từ các sinh vật sắp chết.\r\nNếu <characterName id=|GhostBeast|/> quấn quýt lấy bạn\r\nthì bạn hiểu rồi đấy.",
+          "LocalizedString": "Sinh vật này thích cái mùi đặc biệt tỏa ra từ các sinh vật sắp chết.\r\nNếu <characterName id=|GhostBeast|/> quấn quýt lấy bạn\r\nthì bạn hiểu rồi đấy."
+        }
+      },
+      "PAL_LONG_DESC_GhostRabbit": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GhostRabbit_TextData",
+          "SourceString": "Thứ Pal nắm giữ chính là linh hồn của bản thân.\r\nMột khi đã yêu thích ai, Pal sẽ không ngần ngại cưỡng đoạt linh hồn của người đó\r\nhòa vào linh hồn của mình, khao khát hợp làm một.",
+          "LocalizedString": "Thứ Pal nắm giữ chính là linh hồn của bản thân.\r\nMột khi đã yêu thích ai, Pal sẽ không ngần ngại cưỡng đoạt linh hồn của người đó\r\nhòa vào linh hồn của mình, khao khát hợp làm một."
+        }
+      },
+      "PAL_LONG_DESC_GhostRabbit_Grass": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GhostRabbit_Grass_TextData",
+          "SourceString": "Thứ nó nâng niu là linh hồn của chính mình.\r\nChỉ cần gặp được đối tượng yêu thích, Pal sẽ ném linh hồn đó vào đối phương\r\nđể cả hai hòa quyện làm một.",
+          "LocalizedString": "Thứ nó nâng niu là linh hồn của chính mình.\r\nChỉ cần gặp được đối tượng yêu thích, Pal sẽ ném linh hồn đó vào đối phương\r\nđể cả hai hòa quyện làm một."
+        }
+      },
+      "PAL_LONG_DESC_GoldenHorse": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GoldenHorse_TextData",
+          "SourceString": "Vào thời hoàng kim của thuật giả kim trên đảo, bộ lông vàng óng ánh của sinh vật này\r\ntừng là một chất xúc tác được săn lùng để điều chế vàng.\r\nKhông lâu sau đó, một phát hiện tuyệt vời đã được hé lộ.\r\nNếu cùng là màu vàng kim, chỉ cần dùng bờm là được rồi.",
+          "LocalizedString": "Vào thời hoàng kim của thuật giả kim trên đảo, bộ lông vàng óng ánh của sinh vật này\r\ntừng là một chất xúc tác được săn lùng để điều chế vàng.\r\nKhông lâu sau đó, một phát hiện tuyệt vời đã được hé lộ.\r\nNếu cùng là màu vàng kim, chỉ cần dùng bờm là được rồi."
+        }
+      },
+      "PAL_LONG_DESC_Gorilla": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Gorilla_TextData",
+          "SourceString": "Pal giao tiếp với đồng loại bằng những cú đấm xuống đất.\r\nÝ nghĩa của mỗi nhịp điệu lại khác nhau tùy theo bầy đàn\r\nviệc phân loại ý nghĩa của điều đó đến giờ vẫn còn là một bí ẩn.",
+          "LocalizedString": "Pal giao tiếp với đồng loại bằng những cú đấm xuống đất.\r\nÝ nghĩa của mỗi nhịp điệu lại khác nhau tùy theo bầy đàn\r\nviệc phân loại ý nghĩa của điều đó đến giờ vẫn còn là một bí ẩn."
+        }
+      },
+      "PAL_LONG_DESC_Gorilla_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Gorilla_Ground_TextData",
+          "SourceString": "Pal này giao tiếp với đồng loại bằng những cú đấm xuống đất.\r\nLực cánh tay của chúng khỏe hơn <characterName id=|Gorilla|/>,\r\nnếu tất cả <characterName id=|Gorilla_Ground|/> đồng loạt giáng nắm đấm xuống đất\r\nthì đảo Palpagos sẽ bị nhấn chìm trong nháy mắt.",
+          "LocalizedString": "Pal này giao tiếp với đồng loại bằng những cú đấm xuống đất.\r\nLực cánh tay của chúng khỏe hơn <characterName id=|Gorilla|/>,\r\nnếu tất cả <characterName id=|Gorilla_Ground|/> đồng loạt giáng nắm đấm xuống đất\r\nthì đảo Palpagos sẽ bị nhấn chìm trong nháy mắt."
+        }
+      },
+      "PAL_LONG_DESC_GrassDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GrassDragon_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "PAL_LONG_DESC_GrassMammoth": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GrassMammoth_TextData",
+          "SourceString": "Thảm thực vật trên lưng chúng có sự khác biệt giữa các cá thể.\r\nPal từng được yêu thích và nuôi dưỡng như loài vật trang trí,\r\nthậm chí đã từng tồn tại những chuyên gia cắt tỉa cho <characterName id=|GrassMammoth|/>.",
+          "LocalizedString": "Thảm thực vật trên lưng chúng có sự khác biệt giữa các cá thể.\r\nPal từng được yêu thích và nuôi dưỡng như loài vật trang trí,\r\nthậm chí đã từng tồn tại những chuyên gia cắt tỉa cho <characterName id=|GrassMammoth|/>."
+        }
+      },
+      "PAL_LONG_DESC_GrassMammoth_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GrassMammoth_Ice_TextData",
+          "SourceString": "Thảm thực vật trên lưng chúng có sự khác biệt giữa các cá thể.\r\nĐã từng có những hạt giống của loài cây được cho là đã tuyệt chủng\r\nđược tìm thấy trên lưng <characterName id=|GrassMammoth_Ice|/> trong tình trạng đóng băng.",
+          "LocalizedString": "Thảm thực vật trên lưng chúng có sự khác biệt giữa các cá thể.\r\nĐã từng có những hạt giống của loài cây được cho là đã tuyệt chủng\r\nđược tìm thấy trên lưng <characterName id=|GrassMammoth_Ice|/> trong tình trạng đóng băng."
+        }
+      },
+      "PAL_LONG_DESC_GrassPanda": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GrassPanda_TextData",
+          "SourceString": "Loài Pal này sở hữu sức mạnh đáng kinh ngạc.\r\nMột thí nghiệm đã cho thấy Pal dễ dàng xé nát chồng giấy 3000 tờ.\r\nƠn trời, đây không phải loài ăn thịt.",
+          "LocalizedString": "Loài Pal này sở hữu sức mạnh đáng kinh ngạc.\r\nMột thí nghiệm đã cho thấy Pal dễ dàng xé nát chồng giấy 3000 tờ.\r\nƠn trời, đây không phải loài ăn thịt."
+        }
+      },
+      "PAL_LONG_DESC_GrassPanda_Electric": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GrassPanda_Electric_TextData",
+          "SourceString": "Loài Pal này sở hữu sức mạnh đáng kinh ngạc.\r\nPal biến điện năng thành tín hiệu, phá vỡ mọi giới hạn về thể chất.\r\nBất cứ khi nào người ta nói về loài mạnh nhất, Pal luôn là cái tên được nhắc đến.",
+          "LocalizedString": "Loài Pal này sở hữu sức mạnh đáng kinh ngạc.\r\nPal biến điện năng thành tín hiệu, phá vỡ mọi giới hạn về thể chất.\r\nBất cứ khi nào người ta nói về loài mạnh nhất, Pal luôn là cái tên được nhắc đến."
+        }
+      },
+      "PAL_LONG_DESC_GrassRabbitMan": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GrassRabbitMan_TextData",
+          "SourceString": "Mặt đất nơi <characterName id=|GrassRabbitMan|/> chạy qua\r\ntrở nên rất phì nhiêu, cỏ cây mọc um tùm.\r\nNếu phun thuốc diệt cỏ, Pal sẽ không chạy qua đó nữa.",
+          "LocalizedString": "Mặt đất nơi <characterName id=|GrassRabbitMan|/> chạy qua\r\ntrở nên rất phì nhiêu, cỏ cây mọc um tùm.\r\nNếu phun thuốc diệt cỏ, Pal sẽ không chạy qua đó nữa."
+        }
+      },
+      "PAL_LONG_DESC_GrimGirl": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GrimGirl_TextData",
+          "SourceString": "Bản năng thôi thúc Pal phải xé nát con mồi ra từng mảnh.\r\nMỗi cá thể đều có sở thích riêng về thứ tự cắt xé con mồi.\r\nMột khi đã rơi vào tay <characterName id=|GrimGirl|/>, điều cuối cùng có thể làm là\r\ncầu nguyện cho cái đầu lìa khỏi cổ trước tiên.",
+          "LocalizedString": "Bản năng thôi thúc Pal phải xé nát con mồi ra từng mảnh.\r\nMỗi cá thể đều có sở thích riêng về thứ tự cắt xé con mồi.\r\nMột khi đã rơi vào tay <characterName id=|GrimGirl|/>, điều cuối cùng có thể làm là\r\ncầu nguyện cho cái đầu lìa khỏi cổ trước tiên."
+        }
+      },
+      "PAL_LONG_DESC_GuardianDog": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GuardianDog_TextData",
+          "SourceString": "Với bản tính chống lại tà ác, chúng từng là những đối tác tuyệt vời\r\nlẽ ra sẽ xây dựng mối quan hệ tốt đẹp và bền vững với dân đảo.\r\nNhưng ngày nay, các <characterName id=|GuardianDog|/> lại dựng lên bức tường tà ác ngăn cách với nhân loại.",
+          "LocalizedString": "Với bản tính chống lại tà ác, chúng từng là những đối tác tuyệt vời\r\nlẽ ra sẽ xây dựng mối quan hệ tốt đẹp và bền vững với dân đảo.\r\nNhưng ngày nay, các <characterName id=|GuardianDog|/> lại dựng lên bức tường tà ác ngăn cách với nhân loại."
+        }
+      },
+      "PAL_LONG_DESC_HadesBird": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_HadesBird_TextData",
+          "SourceString": "Triệu hồi sấm sét từ địa ngục.\r\nBất kỳ ai bị sấm sét của <characterName id=|HadesBird|/> thiêu chết,\r\nlinh hồn kẻ đó sẽ rơi xuống địa ngục.",
+          "LocalizedString": "Triệu hồi sấm sét từ địa ngục.\r\nBất kỳ ai bị sấm sét của <characterName id=|HadesBird|/> thiêu chết,\r\nlinh hồn kẻ đó sẽ rơi xuống địa ngục."
+        }
+      },
+      "PAL_LONG_DESC_HadesBird_Electric": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_HadesBird_Electric_TextData",
+          "SourceString": "Triệu hồi sấm sét từ địa ngục.\r\nDù được coi là một phân loài của <characterName id=|HadesBird|/>\r\nnhưng cũng có giả thuyết cho rằng <characterName id=|HadesBird_Electric|/> sau khi\r\nbị sấm sét từ địa ngục đánh trúng đã trở thành <characterName id=|HadesBird|/>.",
+          "LocalizedString": "Triệu hồi sấm sét từ địa ngục.\r\nDù được coi là một phân loài của <characterName id=|HadesBird|/>\r\nnhưng cũng có giả thuyết cho rằng <characterName id=|HadesBird_Electric|/> sau khi\r\nbị sấm sét từ địa ngục đánh trúng đã trở thành <characterName id=|HadesBird|/>."
+        }
+      },
+      "PAL_LONG_DESC_HawkBird": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_HawkBird_TextData",
+          "SourceString": "Loài Pal này bắt cóc các Pal non khác từ tổ của chúng và\r\nnuôi lớn thay cho cha mẹ chúng.\r\nĐến khi Pal con trưởng thành, nó sẽ săn bắt chúng.",
+          "LocalizedString": "Loài Pal này bắt cóc các Pal non khác từ tổ của chúng và\r\nnuôi lớn thay cho cha mẹ chúng.\r\nĐến khi Pal con trưởng thành, nó sẽ săn bắt chúng."
+        }
+      },
+      "PAL_LONG_DESC_Hedgehog": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Hedgehog_TextData",
+          "SourceString": "Khi chịu tác động, loài Pal này sẽ phóng điện năng đã tích trữ trong cơ thể.\r\nĐiện áp đó có thể vượt quá 10 triệu vôn.\r\nNếu ném Pal đi, Pal nguy hiểm hơn nhiều so với một loại vũ khí hạng nặng khủng khiếp.",
+          "LocalizedString": "Khi chịu tác động, loài Pal này sẽ phóng điện năng đã tích trữ trong cơ thể.\r\nĐiện áp đó có thể vượt quá 10 triệu vôn.\r\nNếu ném Pal đi, Pal nguy hiểm hơn nhiều so với một loại vũ khí hạng nặng khủng khiếp."
+        }
+      },
+      "PAL_LONG_DESC_Hedgehog_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Hedgehog_Ice_TextData",
+          "SourceString": "Khi chịu tác động, loài Pal này sẽ giải phóng luồng khí lạnh được tích trữ trong cơ thể.\r\nHơi lạnh được phóng ra sẽ lan tỏa và làm đóng băng không khí\r\nkẻ tấn công sẽ bị xuyên thủng cơ thể.",
+          "LocalizedString": "Khi chịu tác động, loài Pal này sẽ giải phóng luồng khí lạnh được tích trữ trong cơ thể.\r\nHơi lạnh được phóng ra sẽ lan tỏa và làm đóng băng không khí\r\nkẻ tấn công sẽ bị xuyên thủng cơ thể."
+        }
+      },
+      "PAL_LONG_DESC_HerculesBeetle": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_HerculesBeetle_TextData",
+          "SourceString": "Bộ giáp siêu chắc chắn bao quanh cơ thể Pal\r\ncó độ bền và khả năng chịu nhiệt vượt trội.\r\nNgay cả bom napalm cũng hầu như không có tác dụng.",
+          "LocalizedString": "Bộ giáp siêu chắc chắn bao quanh cơ thể Pal\r\ncó độ bền và khả năng chịu nhiệt vượt trội.\r\nNgay cả bom napalm cũng hầu như không có tác dụng."
+        }
+      },
+      "PAL_LONG_DESC_HerculesBeetle_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_HerculesBeetle_Ground_TextData",
+          "SourceString": "Bộ giáp siêu chắc chắn bao quanh cơ thể Pal\r\ncó độ bền và khả năng chịu nhiệt vượt trội.\r\nNgay cả khi bị <characterName id=|GrassMammoth|/> giẫm lên cũng không hề hấn gì.",
+          "LocalizedString": "Bộ giáp siêu chắc chắn bao quanh cơ thể Pal\r\ncó độ bền và khả năng chịu nhiệt vượt trội.\r\nNgay cả khi bị <characterName id=|GrassMammoth|/> giẫm lên cũng không hề hấn gì."
+        }
+      },
+      "PAL_LONG_DESC_Horus": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Horus_TextData",
+          "SourceString": "Khi tìm thấy một đàn con mồi\r\nloài Pal này sẽ dùng lốc xoáy thiêu đốt để đốt cháy toàn bộ khu vực xung quanh.\r\nKhu vực nơi <characterName id=|Horus|/> sinh sống có mùi rất hấp dẫn.",
+          "LocalizedString": "Khi tìm thấy một đàn con mồi\r\nloài Pal này sẽ dùng lốc xoáy thiêu đốt để đốt cháy toàn bộ khu vực xung quanh.\r\nKhu vực nơi <characterName id=|Horus|/> sinh sống có mùi rất hấp dẫn."
+        }
+      },
+      "PAL_LONG_DESC_Horus_Water": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Horus_Water_TextData",
+          "SourceString": "Khi tìm thấy đàn con mồi\r\nsinh vật này sẽ dùng một dòng nước cực mạnh để cuốn trôi toàn bộ khu vực xung quanh.\r\nThường thì con mồi sẽ bị cuốn đi đâu đó mất tích\r\nnên gọi là săn mồi thì không biết có đúng hay không nữa.",
+          "LocalizedString": "Khi tìm thấy đàn con mồi\r\nsinh vật này sẽ dùng một dòng nước cực mạnh để cuốn trôi toàn bộ khu vực xung quanh.\r\nThường thì con mồi sẽ bị cuốn đi đâu đó mất tích\r\nnên gọi là săn mồi thì không biết có đúng hay không nữa."
+        }
+      },
+      "PAL_LONG_DESC_Human": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Human_TextData",
+          "SourceString": "Con người đã bị bắt giữ.\r\nTrên đảo Palpagos, việc bắt giữ con người bằng quả cầu Pal\r\nbị xem là hành vi vô nhân đạo.",
+          "LocalizedString": "Con người đã bị bắt giữ.\r\nTrên đảo Palpagos, việc bắt giữ con người bằng quả cầu Pal\r\nbị xem là hành vi vô nhân đạo."
+        }
+      },
+      "PAL_LONG_DESC_IceCrocodile": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_IceCrocodile_TextData",
+          "SourceString": "Bên trong miệng thật mát lạnh, ngậm lại chẳng khác gì một cái tủ lạnh. \r\nThành phần đặc biệt trong nước bọt của Pal này giúp ngăn thực phẩm bị hư hỏng. \r\nDùng làm kho bảo quản thực phẩm cho con người thì cũng được đấy,\r\nnhưng để đảm bảo vệ sinh, tốt nhất là cứ để nó ngậm miệng lại.",
+          "LocalizedString": "Bên trong miệng thật mát lạnh, ngậm lại chẳng khác gì một cái tủ lạnh. \r\nThành phần đặc biệt trong nước bọt của Pal này giúp ngăn thực phẩm bị hư hỏng. \r\nDùng làm kho bảo quản thực phẩm cho con người thì cũng được đấy,\r\nnhưng để đảm bảo vệ sinh, tốt nhất là cứ để nó ngậm miệng lại."
+        }
+      },
+      "PAL_LONG_DESC_IceDeer": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_IceDeer_TextData",
+          "SourceString": "Cặp sừng trong suốt màu xanh lam mang ánh sáng của độ không tuyệt đối.\r\nNếu chạm vào bằng tay không, toàn bộ cơ thể sẽ ngay lập tức đóng băng và\r\nvỡ tan thành từng mảnh cùng với sinh mạng.",
+          "LocalizedString": "Cặp sừng trong suốt màu xanh lam mang ánh sáng của độ không tuyệt đối.\r\nNếu chạm vào bằng tay không, toàn bộ cơ thể sẽ ngay lập tức đóng băng và\r\nvỡ tan thành từng mảnh cùng với sinh mạng."
+        }
+      },
+      "PAL_LONG_DESC_IceFox": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_IceFox_TextData",
+          "SourceString": "Vào những đêm có cực quang, Pal ngước nhìn lên bầu trời và\r\ncất tiếng kêu du dương.\r\nCũng vì thế mà Pal dễ bị kẻ thù tấn công.",
+          "LocalizedString": "Vào những đêm có cực quang, Pal ngước nhìn lên bầu trời và\r\ncất tiếng kêu du dương.\r\nCũng vì thế mà Pal dễ bị kẻ thù tấn công."
+        }
+      },
+      "PAL_LONG_DESC_IceHorse": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_IceHorse_TextData",
+          "SourceString": "Vị thần gọi mùa đông, người bảo hộ đảo Palpagos.\r\nXưa kia, khi tai ương càn quét vùng đất này\r\nloài Pal này đã bay lên trời, tạo ra mùa đông vô tận và phong ấn.",
+          "LocalizedString": "Vị thần gọi mùa đông, người bảo hộ đảo Palpagos.\r\nXưa kia, khi tai ương càn quét vùng đất này\r\nloài Pal này đã bay lên trời, tạo ra mùa đông vô tận và phong ấn."
+        }
+      },
+      "PAL_LONG_DESC_IceHorse_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_IceHorse_Dark_TextData",
+          "SourceString": "Vị thần gọi đêm, người bảo hộ đảo Palpagos.\r\nXưa kia, khi tai ương càn quét vùng đất này\r\nloài Pal này đã bay lên trời, tạo ra bóng đêm vô tận và phong ấn.",
+          "LocalizedString": "Vị thần gọi đêm, người bảo hộ đảo Palpagos.\r\nXưa kia, khi tai ương càn quét vùng đất này\r\nloài Pal này đã bay lên trời, tạo ra bóng đêm vô tận và phong ấn."
+        }
+      },
+      "PAL_LONG_DESC_IceNarwhal": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_IceNarwhal_TextData",
+          "SourceString": "Khi đang ngủ, nó thường bị Pal khác tưởng nhầm là tảng băng trôi mà leo lên nghỉ ngơi. \r\nVới bản tính hiền lành, nó không nỡ xua đuổi Pal đó khi tỉnh giấc,\r\nnhưng việc không gian riêng tư bị xâm phạm vẫn khiến nó âm thầm phiền lòng.",
+          "LocalizedString": "Khi đang ngủ, nó thường bị Pal khác tưởng nhầm là tảng băng trôi mà leo lên nghỉ ngơi. \r\nVới bản tính hiền lành, nó không nỡ xua đuổi Pal đó khi tỉnh giấc,\r\nnhưng việc không gian riêng tư bị xâm phạm vẫn khiến nó âm thầm phiền lòng."
+        }
+      },
+      "PAL_LONG_DESC_IceSeal": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_IceSeal_TextData",
+          "SourceString": "Kẻ trượt nhanh nhất trên tuyết chính là thủ lĩnh. \r\nĐôi khi, có những con nhảy lên quá đà rồi đột nhiên rơi thẳng từ trên trời xuống\r\nVào mùa tranh chức |boss|, cảnh tượng này càng thường xuyên hơn. \r\nDự báo thời tiết: Nắng nhẹ, lác đác vài <characterName id=|IceSeal|/> rơi xuống.",
+          "LocalizedString": "Kẻ trượt nhanh nhất trên tuyết chính là thủ lĩnh. \r\nĐôi khi, có những con nhảy lên quá đà rồi đột nhiên rơi thẳng từ trên trời xuống\r\nVào mùa tranh chức |boss|, cảnh tượng này càng thường xuyên hơn. \r\nDự báo thời tiết: Nắng nhẹ, lác đác vài <characterName id=|IceSeal|/> rơi xuống."
+        }
+      },
+      "PAL_LONG_DESC_IceWitch": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_IceWitch_TextData",
+          "SourceString": "Dù biết ánh nắng sẽ làm cơ thể tan chảy, nhưng lại mê tắm nắng mới chết chứ. \r\nDù biết hơi nóng sẽ làm cơ thể tan chảy, nhưng vẫn mê tắm suối nước nóng. \r\nĐằng nào cũng chết, vậy nên nó cứ muốn được tan chảy trong bồn tắm lộ thiên giữa một ngày nắng đẹp.",
+          "LocalizedString": "Dù biết ánh nắng sẽ làm cơ thể tan chảy, nhưng lại mê tắm nắng mới chết chứ. \r\nDù biết hơi nóng sẽ làm cơ thể tan chảy, nhưng vẫn mê tắm suối nước nóng. \r\nĐằng nào cũng chết, vậy nên nó cứ muốn được tan chảy trong bồn tắm lộ thiên giữa một ngày nắng đẹp."
+        }
+      },
+      "PAL_LONG_DESC_JellyfishFairy": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_JellyfishFairy_TextData",
+          "SourceString": "Một Pal có ngoại hình rất giống với <characterName id=|JellyfishGhost|/>. \r\nVì cuộc sống xã giao khá bận rộn nên những lúc bị trùng lịch hẹn,\r\nPal này thường nhờ người bạn thân <characterName id=|JellyfishGhost|/> đi thay. \r\nQuà trả công là một buổi hẹn hò.",
+          "LocalizedString": "Một Pal có ngoại hình rất giống với <characterName id=|JellyfishGhost|/>. \r\nVì cuộc sống xã giao khá bận rộn nên những lúc bị trùng lịch hẹn,\r\nPal này thường nhờ người bạn thân <characterName id=|JellyfishGhost|/> đi thay. \r\nQuà trả công là một buổi hẹn hò."
+        }
+      },
+      "PAL_LONG_DESC_JellyfishGhost": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_JellyfishGhost_TextData",
+          "SourceString": "Một Pal có ngoại hình rất giống với <characterName id=|JellyfishFairy|/>. \r\nThỉnh thoảng nó lại xuất hiện để |đóng thế| cho <characterName id=|JellyfishFairy|/>\r\nkhi người bạn này không thể có mặt. \r\nNhập vai hoàn hảo đến mức không ai có thể nhận ra.",
+          "LocalizedString": "Một Pal có ngoại hình rất giống với <characterName id=|JellyfishFairy|/>. \r\nThỉnh thoảng nó lại xuất hiện để |đóng thế| cho <characterName id=|JellyfishFairy|/>\r\nkhi người bạn này không thể có mặt. \r\nNhập vai hoàn hảo đến mức không ai có thể nhận ra."
+        }
+      },
+      "PAL_LONG_DESC_JetDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_JetDragon_TextData",
+          "SourceString": "Pal dõi theo Đảo Palpagos từ trên cao.\r\nKhi tai ương lại trỗi dậy, mặt đất rạn nứt và bầu trời rực lửa\r\nPal nó sẽ dùng vệt sáng hủy diệt để phá tan mọi thứ.",
+          "LocalizedString": "Pal dõi theo Đảo Palpagos từ trên cao.\r\nKhi tai ương lại trỗi dậy, mặt đất rạn nứt và bầu trời rực lửa\r\nPal nó sẽ dùng vệt sáng hủy diệt để phá tan mọi thứ."
+        }
+      },
+      "PAL_LONG_DESC_Kelpie": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Kelpie_TextData",
+          "SourceString": "Tính cách của Pal thay đổi tùy thuộc vào chất lượng nước ở nơi sinh ra.\r\nNhững <characterName id=|Kelpie|/> sinh ra ở vùng nước ô nhiễm\r\nthường có tính cách xấu và là những tên côn đồ chính hiệu.",
+          "LocalizedString": "Tính cách của Pal thay đổi tùy thuộc vào chất lượng nước ở nơi sinh ra.\r\nNhững <characterName id=|Kelpie|/> sinh ra ở vùng nước ô nhiễm\r\nthường có tính cách xấu và là những tên côn đồ chính hiệu."
+        }
+      },
+      "PAL_LONG_DESC_Kelpie_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Kelpie_Fire_TextData",
+          "SourceString": "Tính cách của Pal thay đổi tùy thuộc vào nhiệt độ nước ở nơi sinh ra.\r\nNhững <characterName id=|Kelpie|/> sinh ra ở vùng nước ấm\r\nthường có tính cách nhiệt tình và tràn đầy năng lượng.",
+          "LocalizedString": "Tính cách của Pal thay đổi tùy thuộc vào nhiệt độ nước ở nơi sinh ra.\r\nNhững <characterName id=|Kelpie|/> sinh ra ở vùng nước ấm\r\nthường có tính cách nhiệt tình và tràn đầy năng lượng."
+        }
+      },
+      "PAL_LONG_DESC_KendoFrog": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_KendoFrog_TextData",
+          "SourceString": "Bất kỳ kẻ nào phạm phải sai lầm lớn trong đàn đều buộc phải tự kết liễu.\r\nKhi đâm một cành cây vào túi âm thanh đã phồng to hết mức,\r\nchúng sẽ bị thổi bay đến tận cùng của tầng khí quyển và về thế giới bên kia.",
+          "LocalizedString": "Bất kỳ kẻ nào phạm phải sai lầm lớn trong đàn đều buộc phải tự kết liễu.\r\nKhi đâm một cành cây vào túi âm thanh đã phồng to hết mức,\r\nchúng sẽ bị thổi bay đến tận cùng của tầng khí quyển và về thế giới bên kia."
+        }
+      },
+      "PAL_LONG_DESC_KendoFrog_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_KendoFrog_Dark_TextData",
+          "SourceString": "Những <characterName id=|KendoFrog|/> đã vứt bỏ lòng tự trọng sẽ tụ tập lại và phân đàn.\r\nCon mồi mà chúng nhắm đến sẽ bị hạ gục bằng bất kỳ thủ đoạn đê tiện nào.\r\nNếu vô tình gặp phải một đàn <characterName id=|KendoFrog_Dark|/> vào giữa đêm\r\nngười về thế giới bên kia sẽ là bạn.",
+          "LocalizedString": "Những <characterName id=|KendoFrog|/> đã vứt bỏ lòng tự trọng sẽ tụ tập lại và phân đàn.\r\nCon mồi mà chúng nhắm đến sẽ bị hạ gục bằng bất kỳ thủ đoạn đê tiện nào.\r\nNếu vô tình gặp phải một đàn <characterName id=|KendoFrog_Dark|/> vào giữa đêm\r\nngười về thế giới bên kia sẽ là bạn."
+        }
+      },
+      "PAL_LONG_DESC_KingAlpaca": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_KingAlpaca_TextData",
+          "SourceString": "Pal có các <characterName id=|Alpaca|/> theo hầu hạ\r\ntrong các cuộc quyết đấu giữa các <characterName id=|KingAlpaca|/>, người hầu của nó sẽ là vật đặt cược.\r\nNhững cá thể đơn độc chính là kẻ thua cuộc.",
+          "LocalizedString": "Pal có các <characterName id=|Alpaca|/> theo hầu hạ\r\ntrong các cuộc quyết đấu giữa các <characterName id=|KingAlpaca|/>, người hầu của nó sẽ là vật đặt cược.\r\nNhững cá thể đơn độc chính là kẻ thua cuộc."
+        }
+      },
+      "PAL_LONG_DESC_KingAlpaca_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_KingAlpaca_Ice_TextData",
+          "SourceString": "Với tính cách lạnh lùng, Pal không giỏi thể hiện cảm xúc.\r\nTrong mắt các <characterName id=|Alpaca|/> khác, những cá thể đơn độc chỉ là\r\nnhững kẻ quá đỗi khờ khạo và đáng thương.",
+          "LocalizedString": "Với tính cách lạnh lùng, Pal không giỏi thể hiện cảm xúc.\r\nTrong mắt các <characterName id=|Alpaca|/> khác, những cá thể đơn độc chỉ là\r\nnhững kẻ quá đỗi khờ khạo và đáng thương."
+        }
+      },
+      "PAL_LONG_DESC_KingBahamut": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_KingBahamut_TextData",
+          "SourceString": "Có truyền thuyết kể rằng sinh vật này được sinh ra cùng với sự phun trào của núi lửa.\r\nĐã từng có một tổ chức bí ẩn tuyên bố rằng\r\nvùng đất này là lưng của <characterName id=|KingBahamut|/> khổng lồ.",
+          "LocalizedString": "Có truyền thuyết kể rằng sinh vật này được sinh ra cùng với sự phun trào của núi lửa.\r\nĐã từng có một tổ chức bí ẩn tuyên bố rằng\r\nvùng đất này là lưng của <characterName id=|KingBahamut|/> khổng lồ."
+        }
+      },
+      "PAL_LONG_DESC_KingBahamut_Dragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_KingBahamut_Dragon_TextData",
+          "SourceString": "Tù rất lâu về trước, Pal đã trỗi dậy từ lòng đất.\r\nBằng ngọn lửa dữ dội không chút thương xót\r\nPal thiêu đốt toàn bộ hòn đảo đến khi không còn gì sót lại.\r\nĐó chính là |Ngọn Lửa Bất Diệt|.",
+          "LocalizedString": "Tù rất lâu về trước, Pal đã trỗi dậy từ lòng đất.\r\nBằng ngọn lửa dữ dội không chút thương xót\r\nPal thiêu đốt toàn bộ hòn đảo đến khi không còn gì sót lại.\r\nĐó chính là |Ngọn Lửa Bất Diệt|."
+        }
+      },
+      "PAL_LONG_DESC_Kirin": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Kirin_TextData",
+          "SourceString": "Trước đây, nó được coi là sứ giả thần sấm, không bị con người săn lùng.\r\nTuy nhiên, niềm tin này đã bị phá bỏ khi người ta chứng kiến nó chết vì sét đánh và\r\nnó đã trở thành một con ngựa kéo xe theo đúng nghĩa đen.",
+          "LocalizedString": "Trước đây, nó được coi là sứ giả thần sấm, không bị con người săn lùng.\r\nTuy nhiên, niềm tin này đã bị phá bỏ khi người ta chứng kiến nó chết vì sét đánh và\r\nnó đã trở thành một con ngựa kéo xe theo đúng nghĩa đen."
+        }
+      },
+      "PAL_LONG_DESC_Kirin_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Kirin_Ice_TextData",
+          "SourceString": "Từng được tôn sùng là sứ giả của thần mùa đông, không ai dám săn bắn.\r\nThế nhưng, chỉ vì một cú trượt ngã trên băng bị người đời nhìn thấy mà đức tin ấy đã sụp đổ.\r\nTừ thần thú, |trượt chân| thành kiếp ngựa kéo xe không hơn không kém.",
+          "LocalizedString": "Từng được tôn sùng là sứ giả của thần mùa đông, không ai dám săn bắn.\r\nThế nhưng, chỉ vì một cú trượt ngã trên băng bị người đời nhìn thấy mà đức tin ấy đã sụp đổ.\r\nTừ thần thú, |trượt chân| thành kiếp ngựa kéo xe không hơn không kém."
+        }
+      },
+      "PAL_LONG_DESC_Kitsunebi": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Kitsunebi_TextData",
+          "SourceString": "Khi còn nhỏ, Pal rất vụng về trong việc điều khiển lửa,\r\ncứ hễ có chuyện gì là lại phun lửa rồi bị sặc.\r\nNhững cú hắt hơi của <characterName id=|Kitsunebi|/> chính là nguyên nhân gây cháy rừng.",
+          "LocalizedString": "Khi còn nhỏ, Pal rất vụng về trong việc điều khiển lửa,\r\ncứ hễ có chuyện gì là lại phun lửa rồi bị sặc.\r\nNhững cú hắt hơi của <characterName id=|Kitsunebi|/> chính là nguyên nhân gây cháy rừng."
+        }
+      },
+      "PAL_LONG_DESC_Kitsunebi_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Kitsunebi_Ice_TextData",
+          "SourceString": "Khi còn nhỏ, Pal rất vụng về trong việc điều khiển khí lạnh,\r\ncứ hễ có chuyện gì là lại phun khí lạnh rồi bị sặc.\r\nKhi bị cảm lạnh, nước mũi sẽ đóng băng, khiến Pal khó thở và cuống lên.",
+          "LocalizedString": "Khi còn nhỏ, Pal rất vụng về trong việc điều khiển khí lạnh,\r\ncứ hễ có chuyện gì là lại phun khí lạnh rồi bị sặc.\r\nKhi bị cảm lạnh, nước mũi sẽ đóng băng, khiến Pal khó thở và cuống lên."
+        }
+      },
+      "PAL_LONG_DESC_LavaGirl": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_LavaGirl_TextData",
+          "SourceString": "Khi Pal khóc, dung nham sẽ tuôn trào thay cho nước mắt.\r\nDung nham chảy ra sẽ được hấp thụ lại vào cơ thể, ngày càng nóng hơn.\r\nCàng khóc nhiều, Pal càng trở nên mạnh mẽ.",
+          "LocalizedString": "Khi Pal khóc, dung nham sẽ tuôn trào thay cho nước mắt.\r\nDung nham chảy ra sẽ được hấp thụ lại vào cơ thể, ngày càng nóng hơn.\r\nCàng khóc nhiều, Pal càng trở nên mạnh mẽ."
+        }
+      },
+      "PAL_LONG_DESC_LazyCatfish": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_LazyCatfish_TextData",
+          "SourceString": "Khi quá thư thái, mọi phản ứng của Pal đều trở nên chậm chạp.\r\nDù có đến 28 vết thương do bị đâm,\r\ncũng phải đến sáng hôm sau nó mới nhận ra và lìa đời.",
+          "LocalizedString": "Khi quá thư thái, mọi phản ứng của Pal đều trở nên chậm chạp.\r\nDù có đến 28 vết thương do bị đâm,\r\ncũng phải đến sáng hôm sau nó mới nhận ra và lìa đời."
+        }
+      },
+      "PAL_LONG_DESC_LazyDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_LazyDragon_TextData",
+          "SourceString": "Trái ngược với vẻ ngoài ỉu xìu, Pal lại khá hung dữ.\r\nMọi thứ đập vào mắt Pal đều được coi là thức ăn và\r\ncố gắng săn bắt bằng mọi giá.",
+          "LocalizedString": "Trái ngược với vẻ ngoài ỉu xìu, Pal lại khá hung dữ.\r\nMọi thứ đập vào mắt Pal đều được coi là thức ăn và\r\ncố gắng săn bắt bằng mọi giá."
+        }
+      },
+      "PAL_LONG_DESC_LazyDragon_Electric": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_LazyDragon_Electric_TextData",
+          "SourceString": "<characterName id=|LazyDragon|/> chợt nghĩ\r\nđã đến lúc nên thay đổi bản thân.\r\nTrong khoảng khắc đó, một luồng điện chạy khắp cơ thể Pal!",
+          "LocalizedString": "<characterName id=|LazyDragon|/> chợt nghĩ\r\nđã đến lúc nên thay đổi bản thân.\r\nTrong khoảng khắc đó, một luồng điện chạy khắp cơ thể Pal!"
+        }
+      },
+      "PAL_LONG_DESC_LeafMomonga": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_LeafMomonga_TextData",
+          "SourceString": "Người bạn này tin rằng cái gì hỏng chỉ cần một cú đấm là sửa được. \r\nMay thay, lực tay của <characterName id=|LeafMomonga|/> lại hoàn hảo đối với con người\r\nmột cú đấm cũng có thể hồi sinh một trái tim đã ngừng đập.",
+          "LocalizedString": "Người bạn này tin rằng cái gì hỏng chỉ cần một cú đấm là sửa được. \r\nMay thay, lực tay của <characterName id=|LeafMomonga|/> lại hoàn hảo đối với con người\r\nmột cú đấm cũng có thể hồi sinh một trái tim đã ngừng đập."
+        }
+      },
+      "PAL_LONG_DESC_LeafPrincess": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_LeafPrincess_TextData",
+          "SourceString": "Khi mùa xuân đến, phấn hoa sẽ theo gió bay khắp hòn đảo.\r\nBệnh dị ứng phấn hoa của <characterName id=|FlowerRabbit|/>\r\nlà do <characterName id=|LeafPrincess|/>.",
+          "LocalizedString": "Khi mùa xuân đến, phấn hoa sẽ theo gió bay khắp hòn đảo.\r\nBệnh dị ứng phấn hoa của <characterName id=|FlowerRabbit|/>\r\nlà do <characterName id=|LeafPrincess|/>."
+        }
+      },
+      "PAL_LONG_DESC_LilyQueen": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_LilyQueen_TextData",
+          "SourceString": "Đây là một loài Pal hiền lành, đầy lòng nhân ái.\r\nPal chăm sóc những Pal nhỏ đã mất cha mẹ.\r\nCách Pal dạy dỗ là dùng <activeSkillName id=|SolarBeam|/> với toàn bộ sức mạnh.",
+          "LocalizedString": "Đây là một loài Pal hiền lành, đầy lòng nhân ái.\r\nPal chăm sóc những Pal nhỏ đã mất cha mẹ.\r\nCách Pal dạy dỗ là dùng <activeSkillName id=|SolarBeam|/> với toàn bộ sức mạnh."
+        }
+      },
+      "PAL_LONG_DESC_LilyQueen_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_LilyQueen_Dark_TextData",
+          "SourceString": "Đây là một Pal thanh lịch, đầy khí chất.\r\nBất kỳ kẻ nào hỗn xược đều bị Pal tát cho một cú đau điếng.\r\nThỉnh thoảng cũng có những Pal khác muốn bị như vậy.",
+          "LocalizedString": "Đây là một Pal thanh lịch, đầy khí chất.\r\nBất kỳ kẻ nào hỗn xược đều bị Pal tát cho một cú đau điếng.\r\nThỉnh thoảng cũng có những Pal khác muốn bị như vậy."
+        }
+      },
+      "PAL_LONG_DESC_LittleBriarRose": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_LittleBriarRose_TextData",
+          "SourceString": "Gai của Pal có độc, bị đâm phải sẽ rất nguy hiểm.\r\nPal có mối quan hệ tốt với <characterName id=|CuteButterfly|/>\r\nchỉ khi để cho chúng hút mật, Pal mới lộ vẻ rạng rỡ.",
+          "LocalizedString": "Gai của Pal có độc, bị đâm phải sẽ rất nguy hiểm.\r\nPal có mối quan hệ tốt với <characterName id=|CuteButterfly|/>\r\nchỉ khi để cho chúng hút mật, Pal mới lộ vẻ rạng rỡ."
+        }
+      },
+      "PAL_LONG_DESC_LizardMan": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_LizardMan_TextData",
+          "SourceString": "Pal có một nỗi ám ảnh kỳ lạ với dáng đứng của mình.\r\nPal luôn cố gắng tìm ra kiểu tạo dáng sao cho ngầu nhất\r\nchỉ cần có gương, Pal sẽ nghiên cứu các kiểu tạo dáng suốt ngày đêm.",
+          "LocalizedString": "Pal có một nỗi ám ảnh kỳ lạ với dáng đứng của mình.\r\nPal luôn cố gắng tìm ra kiểu tạo dáng sao cho ngầu nhất\r\nchỉ cần có gương, Pal sẽ nghiên cứu các kiểu tạo dáng suốt ngày đêm."
+        }
+      },
+      "PAL_LONG_DESC_LizardMan_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_LizardMan_Fire_TextData",
+          "SourceString": "Pal có một nỗi ám ảnh kỳ lạ với dáng đứng của mình.\r\nNó luôn cố gắng tìm ra kiểu tạo dáng |nóng| nhất\r\nchủ nhân của Pal thì cứ phải xem những tư thế |nóng bỏng| đến phát ngán.",
+          "LocalizedString": "Pal có một nỗi ám ảnh kỳ lạ với dáng đứng của mình.\r\nNó luôn cố gắng tìm ra kiểu tạo dáng |nóng| nhất\r\nchủ nhân của Pal thì cứ phải xem những tư thế |nóng bỏng| đến phát ngán."
+        }
+      },
+      "PAL_LONG_DESC_Manticore": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Manticore_TextData",
+          "SourceString": "Mặc dù thích thịt sống, nhưng Pal luôn phải ăn thịt đã nướng.\r\nChẳng qua là do Pal dùng móng vuốt thiêu đốt làm vũ khí\r\nnên chẳng hề hay biết con mồi đã bị cháy đen.",
+          "LocalizedString": "Mặc dù thích thịt sống, nhưng Pal luôn phải ăn thịt đã nướng.\r\nChẳng qua là do Pal dùng móng vuốt thiêu đốt làm vũ khí\r\nnên chẳng hề hay biết con mồi đã bị cháy đen."
+        }
+      },
+      "PAL_LONG_DESC_Manticore_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Manticore_Dark_TextData",
+          "SourceString": "Mặc dù thích thịt sạch, nhưng Pal luôn phải ăn thịt bị nhiễm độc.\r\nChẳng qua là do Pal dùng móng vuốt hắc ám làm vũ khí\r\nnên chẳng hề hay biết con mồi đã bị dính lời nguyền.",
+          "LocalizedString": "Mặc dù thích thịt sạch, nhưng Pal luôn phải ăn thịt bị nhiễm độc.\r\nChẳng qua là do Pal dùng móng vuốt hắc ám làm vũ khí\r\nnên chẳng hề hay biết con mồi đã bị dính lời nguyền."
+        }
+      },
+      "PAL_LONG_DESC_MimicDog": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_MimicDog_TextData",
+          "SourceString": "Ở một vương quốc cổ xưa nọ trên đảo\r\ncó một truyền thống trao giải cho kẻ có cái chết ngớ ngẩn nhất trong năm.\r\nNguyên nhân tử vong đáng nhớ đầu tiên là\r\n|Không nhận ra <characterName id=|MimicDog|/>, mở hộp và bị cắn chết|.",
+          "LocalizedString": "Ở một vương quốc cổ xưa nọ trên đảo\r\ncó một truyền thống trao giải cho kẻ có cái chết ngớ ngẩn nhất trong năm.\r\nNguyên nhân tử vong đáng nhớ đầu tiên là\r\n|Không nhận ra <characterName id=|MimicDog|/>, mở hộp và bị cắn chết|."
+        }
+      },
+      "PAL_LONG_DESC_Monkey": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Monkey_TextData",
+          "SourceString": "Ngày xưa, Pal dùng những vật thon dài như cành cây làm vũ khí.\r\nKhi tiếp xúc với con người, Pal đã không còn dùng nữa.\r\nVì nó đã phát hiện ra |món vũ khí' thon dài và hiệu quả hơn.",
+          "LocalizedString": "Ngày xưa, Pal dùng những vật thon dài như cành cây làm vũ khí.\r\nKhi tiếp xúc với con người, Pal đã không còn dùng nữa.\r\nVì nó đã phát hiện ra |món vũ khí' thon dài và hiệu quả hơn."
+        }
+      },
+      "PAL_LONG_DESC_Monkey_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Monkey_Fire_TextData",
+          "SourceString": "Lòng bàn tay của Pal đã tiến hóa để có thể cầm nắm\r\nnhững vật đang cháy mà không bị bỏng.\r\nKhi súng hết đạn, chúng sẽ tóm lấy nòng súng đang nóng đỏ\r\nđể nện kẻ thù.",
+          "LocalizedString": "Lòng bàn tay của Pal đã tiến hóa để có thể cầm nắm\r\nnhững vật đang cháy mà không bị bỏng.\r\nKhi súng hết đạn, chúng sẽ tóm lấy nòng súng đang nóng đỏ\r\nđể nện kẻ thù."
+        }
+      },
+      "PAL_LONG_DESC_MoonQueen": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_MoonQueen_TextData",
+          "SourceString": "Vật thể giống mặt trăng lơ lửng phía sau Pal\r\nđang dần trở thành một hình tròn hoàn chỉnh qua mỗi thế hệ.\r\nKhông ai biết điều gì sẽ xảy ra khi mặt trăng tròn.",
+          "LocalizedString": "Vật thể giống mặt trăng lơ lửng phía sau Pal\r\nđang dần trở thành một hình tròn hoàn chỉnh qua mỗi thế hệ.\r\nKhông ai biết điều gì sẽ xảy ra khi mặt trăng tròn."
+        }
+      },
+      "PAL_LONG_DESC_MopBaby": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_MopBaby_TextData",
+          "SourceString": "Pal lê la trên mặt đất, ăn các sinh vật hữu cơ nhỏ xíu.\r\nNhững thứ không bổ béo sẽ bị thải ra sau đó.\r\nNếu dùng Pal làm cây lau nhà, thì đúng là đôi bên cùng có lợi.",
+          "LocalizedString": "Pal lê la trên mặt đất, ăn các sinh vật hữu cơ nhỏ xíu.\r\nNhững thứ không bổ béo sẽ bị thải ra sau đó.\r\nNếu dùng Pal làm cây lau nhà, thì đúng là đôi bên cùng có lợi."
+        }
+      },
+      "PAL_LONG_DESC_MopKing": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_MopKing_TextData",
+          "SourceString": "Trong khi ngủ đông, bên trong bộ lông dày của Pal\r\nche giấu rất nhiều <characterName id=|MopBaby|/>.\r\nKỷ lục lớn nhất từng ghi nhận được là 101 con.",
+          "LocalizedString": "Trong khi ngủ đông, bên trong bộ lông dày của Pal\r\nche giấu rất nhiều <characterName id=|MopBaby|/>.\r\nKỷ lục lớn nhất từng ghi nhận được là 101 con."
+        }
+      },
+      "PAL_LONG_DESC_MushroomDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_MushroomDragon_TextData",
+          "SourceString": "Khi hít phải một lượng lớn bào tử của Pal này, bạn sẽ rơi vào một trạng thái mơ màng.\r\nĐôi khi, <characterName id=|MushroomDragon|/> đứng yên bất động\r\nkhông phải Pal đang ngụy trang thành nấm\r\nmà là do Pal đang |phê| bào tử của chính mình.",
+          "LocalizedString": "Khi hít phải một lượng lớn bào tử của Pal này, bạn sẽ rơi vào một trạng thái mơ màng.\r\nĐôi khi, <characterName id=|MushroomDragon|/> đứng yên bất động\r\nkhông phải Pal đang ngụy trang thành nấm\r\nmà là do Pal đang |phê| bào tử của chính mình."
+        }
+      },
+      "PAL_LONG_DESC_MushroomDragon_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_MushroomDragon_Dark_TextData",
+          "SourceString": "Một lượng lớn bào tử của Pal có thể dễ dàng che khuất ánh sáng mặt trời.\r\nĐôi khi, <characterName id=|MushroomDragon_Dark|/> đứng yên bất động\r\nkhông phải Pal đang ngụy trang thành nấm\r\nmà là do Pal không nhìn thấy gì vì bị bào tử của chính mình che mắt.",
+          "LocalizedString": "Một lượng lớn bào tử của Pal có thể dễ dàng che khuất ánh sáng mặt trời.\r\nĐôi khi, <characterName id=|MushroomDragon_Dark|/> đứng yên bất động\r\nkhông phải Pal đang ngụy trang thành nấm\r\nmà là do Pal không nhìn thấy gì vì bị bào tử của chính mình che mắt."
+        }
+      },
+      "PAL_LONG_DESC_Mutant": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Mutant_TextData",
+          "SourceString": "Nếu dại dột nhìn vào mắt Pal, bạn sẽ bị thao túng.\r\nĐa số những kẻ mang theo <characterName id=|Mutant|/> đều ảo tưởng rằng\r\nmình đã thuần hóa được Pal.",
+          "LocalizedString": "Nếu dại dột nhìn vào mắt Pal, bạn sẽ bị thao túng.\r\nĐa số những kẻ mang theo <characterName id=|Mutant|/> đều ảo tưởng rằng\r\nmình đã thuần hóa được Pal."
+        }
+      },
+      "PAL_LONG_DESC_MysteryMask": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_MysteryMask_TextData",
+          "SourceString": "Phần giống như mặt nạ thực ra không phải là khuôn mặt thật.\r\nCứ ngỡ Pal đang ở ngay đây, nhưng hóa ra lại không.\r\nCó vẻ như Pal luôn dõi theo chúng ta từ đâu đó.\r\nNếu quay lại, hình như Pal đang ở đó.",
+          "LocalizedString": "Phần giống như mặt nạ thực ra không phải là khuôn mặt thật.\r\nCứ ngỡ Pal đang ở ngay đây, nhưng hóa ra lại không.\r\nCó vẻ như Pal luôn dõi theo chúng ta từ đâu đó.\r\nNếu quay lại, hình như Pal đang ở đó."
+        }
+      },
+      "PAL_LONG_DESC_NaughtyCat": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_NaughtyCat_TextData",
+          "SourceString": "Chỉ cần đặt chân vào lãnh địa của <characterName id=|NaughtyCat|/>\r\nđôi mắt cảnh giác của Pal sẽ lập tức sáng lên.\r\nĐó không phải là cách nói ẩn dụ, mà là thật sự sáng lên.",
+          "LocalizedString": "Chỉ cần đặt chân vào lãnh địa của <characterName id=|NaughtyCat|/>\r\nđôi mắt cảnh giác của Pal sẽ lập tức sáng lên.\r\nĐó không phải là cách nói ẩn dụ, mà là thật sự sáng lên."
+        }
+      },
+      "PAL_LONG_DESC_NegativeKoala": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_NegativeKoala_TextData",
+          "SourceString": "Ánh mắt có phần dữ dằn và ít bạn bè, nhưng Pal lại có trái tim nhân hậu.\r\nNgười ta đã thấy Pal chia sẻ thức ăn\r\ncho một con <characterName id=|CuteFox|/> lạc đàn.",
+          "LocalizedString": "Ánh mắt có phần dữ dằn và ít bạn bè, nhưng Pal lại có trái tim nhân hậu.\r\nNgười ta đã thấy Pal chia sẻ thức ăn\r\ncho một con <characterName id=|CuteFox|/> lạc đàn."
+        }
+      },
+      "PAL_LONG_DESC_NegativeOctopus": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_NegativeOctopus_TextData",
+          "SourceString": "Pal sẽ cắn vào cổ kẻ địch và hút cạn mọi thứ bên trong.\r\nTuy hiếm khi phát hiện ra xác khô của Pal\r\nnhưng hầu hết trong số đó đều là nạn nhân của <characterName id=|NegativeOctopus|/>.",
+          "LocalizedString": "Pal sẽ cắn vào cổ kẻ địch và hút cạn mọi thứ bên trong.\r\nTuy hiếm khi phát hiện ra xác khô của Pal\r\nnhưng hầu hết trong số đó đều là nạn nhân của <characterName id=|NegativeOctopus|/>."
+        }
+      },
+      "PAL_LONG_DESC_NightBlueHorse": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_NightBlueHorse_TextData",
+          "SourceString": "Bộ bờm đẹp bồng bềnh như dòng suối là niềm kiêu hãnh lớn nhất của Pal.\r\nChỉ cần thấy một sợi lông chẻ ngọn, Pal sẽ xấu hổ đến mức không thể tập trung chạy.\r\nVì lông của Pal sẽ bị xù lên do tĩnh điện\r\nnên Pal tuyệt đối không muốn <characterName id=|BlueThunderHorse|/> đến gần mình.",
+          "LocalizedString": "Bộ bờm đẹp bồng bềnh như dòng suối là niềm kiêu hãnh lớn nhất của Pal.\r\nChỉ cần thấy một sợi lông chẻ ngọn, Pal sẽ xấu hổ đến mức không thể tập trung chạy.\r\nVì lông của Pal sẽ bị xù lên do tĩnh điện\r\nnên Pal tuyệt đối không muốn <characterName id=|BlueThunderHorse|/> đến gần mình."
+        }
+      },
+      "PAL_LONG_DESC_NightBlueHorse_Neutral": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_NightBlueHorse_Neutral_TextData",
+          "SourceString": "Chúng luôn tự hào về bộ bờm rực rỡ tuyệt đẹp của mình.\r\nChỉ cần một vết bẩn nhỏ cũng đủ khiến chúng cảm thấy xấu hổ đến mức chẳng thể tập trung chạy nhảy.\r\nDù là người huấn luyện mà chúng yêu quý nhất\r\nchúng cũng không muốn bị chạm vào quá nhiều vì sợ dính dầu bẩn.",
+          "LocalizedString": "Chúng luôn tự hào về bộ bờm rực rỡ tuyệt đẹp của mình.\r\nChỉ cần một vết bẩn nhỏ cũng đủ khiến chúng cảm thấy xấu hổ đến mức chẳng thể tập trung chạy nhảy.\r\nDù là người huấn luyện mà chúng yêu quý nhất\r\nchúng cũng không muốn bị chạm vào quá nhiều vì sợ dính dầu bẩn."
+        }
+      },
+      "PAL_LONG_DESC_NightFox": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_NightFox_TextData",
+          "SourceString": "Nếu nhìn thấy lông của <characterName id=|NightFox|/> trên đường đêm\r\nbạn nên quay về ngay lập tức, đừng dại mà nhặt lên.\r\nĐó sẽ là tấm vé một đi không trở lại đến một đêm tăm tối vô tận.",
+          "LocalizedString": "Nếu nhìn thấy lông của <characterName id=|NightFox|/> trên đường đêm\r\nbạn nên quay về ngay lập tức, đừng dại mà nhặt lên.\r\nĐó sẽ là tấm vé một đi không trở lại đến một đêm tăm tối vô tận."
+        }
+      },
+      "PAL_LONG_DESC_NightLady": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_NightLady_TextData",
+          "SourceString": "Pal vốn không tồn tại, chỉ lặng lẽ dõi theo thế giới.\r\nKhông biết từ khi nào, Pal bắt đầu mong muốn được chú ý.\r\nKhối dục vọng trả thù thế giới bên ngoài của Pal\r\nđã được định nghĩa là quý cô cuồng loạn.",
+          "LocalizedString": "Pal vốn không tồn tại, chỉ lặng lẽ dõi theo thế giới.\r\nKhông biết từ khi nào, Pal bắt đầu mong muốn được chú ý.\r\nKhối dục vọng trả thù thế giới bên ngoài của Pal\r\nđã được định nghĩa là quý cô cuồng loạn."
+        }
+      },
+      "PAL_LONG_DESC_NightLady_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_NightLady_Dark_TextData",
+          "SourceString": "Dục vọng một khi được thả ra thì không thể kìm hãm được nữa.\r\nTa muốn một |ta| khác nhìn vào |ta|.\r\nNgười chị em dõi mắt nhìn, những kẻ đã gieo rắc tai ương cho thế giới,\r\ncuối cùng đã bị đẩy vào khe nứt và nhắm mắt xuôi tay.",
+          "LocalizedString": "Dục vọng một khi được thả ra thì không thể kìm hãm được nữa.\r\nTa muốn một |ta| khác nhìn vào |ta|.\r\nNgười chị em dõi mắt nhìn, những kẻ đã gieo rắc tai ương cho thế giới,\r\ncuối cùng đã bị đẩy vào khe nứt và nhắm mắt xuôi tay."
+        }
+      },
+      "PAL_LONG_DESC_OctopusGirl": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_OctopusGirl_TextData",
+          "SourceString": "Trước khi đi ngủ cùng cô ấy, nhớ kiểm tra lịch trình ngày hôm sau nhé. \r\nDấu vết từ giác hút của cô ấy trông hệt như dấu hôn.\r\nLỡ mà bị hút khi đang lơ mơ, đảm bảo sẽ có khối chuyện hiểu nhầm |khó đỡ| đấy!",
+          "LocalizedString": "Trước khi đi ngủ cùng cô ấy, nhớ kiểm tra lịch trình ngày hôm sau nhé. \r\nDấu vết từ giác hút của cô ấy trông hệt như dấu hôn.\r\nLỡ mà bị hút khi đang lơ mơ, đảm bảo sẽ có khối chuyện hiểu nhầm |khó đỡ| đấy!"
+        }
+      },
+      "PAL_LONG_DESC_OctopusGirl_Neutral": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_OctopusGirl_Neutral_TextData",
+          "SourceString": "Nếu định ngủ cùng nó, hãy nhớ kiểm tra lịch trình ngày mai nhé.\r\nDấu vết từ giác hút của nó trông rất giống vết cắn\r\nlỡ mà bị nó |đóng dấu| lúc đang lơ mơ, đảm bảo sẽ có khối chuyện hiểu lầm tai hại.",
+          "LocalizedString": "Nếu định ngủ cùng nó, hãy nhớ kiểm tra lịch trình ngày mai nhé.\r\nDấu vết từ giác hút của nó trông rất giống vết cắn\r\nlỡ mà bị nó |đóng dấu| lúc đang lơ mơ, đảm bảo sẽ có khối chuyện hiểu lầm tai hại."
+        }
+      },
+      "PAL_LONG_DESC_Penguin": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Penguin_TextData",
+          "SourceString": "Đôi cánh của Pal đã thoái hóa hoàn toàn, không thể bay được nữa.\r\nNhưng niềm lưu luyến với bầu trời vẫn khắc sâu trong gen khiến\r\nPal đang nỗ lực tìm cách để bay trở lại.",
+          "LocalizedString": "Đôi cánh của Pal đã thoái hóa hoàn toàn, không thể bay được nữa.\r\nNhưng niềm lưu luyến với bầu trời vẫn khắc sâu trong gen khiến\r\nPal đang nỗ lực tìm cách để bay trở lại."
+        }
+      },
+      "PAL_LONG_DESC_PinkCat": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_PinkCat_TextData",
+          "SourceString": "Pal trông thì oai phong, nhưng thực chất lại nhút nhát và yếu đuối.\r\nBị <characterName id=|PinkCat|/> liếm\r\ncó thể nói là nỗi nhục nhã lớn nhất.",
+          "LocalizedString": "Pal trông thì oai phong, nhưng thực chất lại nhút nhát và yếu đuối.\r\nBị <characterName id=|PinkCat|/> liếm\r\ncó thể nói là nỗi nhục nhã lớn nhất."
+        }
+      },
+      "PAL_LONG_DESC_PinkLizard": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_PinkLizard_TextData",
+          "SourceString": "Khao khát có được tình một đêm, lúc nào cũng đuổi theo ai đó.\r\nBan đầu, Pal chỉ để mắt đến những Pal khác\r\nnhưng gần đây Pal đã bắt đầu giở trò với cả con người.",
+          "LocalizedString": "Khao khát có được tình một đêm, lúc nào cũng đuổi theo ai đó.\r\nBan đầu, Pal chỉ để mắt đến những Pal khác\r\nnhưng gần đây Pal đã bắt đầu giở trò với cả con người."
+        }
+      },
+      "PAL_LONG_DESC_PinkRabbit": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_PinkRabbit_TextData",
+          "SourceString": "Pal luôn nở nụ cười tươi tắn trên môi.\r\nThỉnh thoảng, <characterName id=|PinkCat|/> lại nghịch ngợm thắt nút tua xúc giác của nó.\r\nChỉ lúc đó, Pal mới lộ ra vẻ mặt hung tợn như quỷ dữ.",
+          "LocalizedString": "Pal luôn nở nụ cười tươi tắn trên môi.\r\nThỉnh thoảng, <characterName id=|PinkCat|/> lại nghịch ngợm thắt nút tua xúc giác của nó.\r\nChỉ lúc đó, Pal mới lộ ra vẻ mặt hung tợn như quỷ dữ."
+        }
+      },
+      "PAL_LONG_DESC_PinkRabbit_Grass": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_PinkRabbit_Grass_TextData",
+          "SourceString": "Pal luôn nở nụ cười tươi tắn trên môi.\r\nThỉnh thoảng, <characterName id=|PinkCat|/> lại nghịch ngợm buộc các tua xúc giác của nó.\r\nNhững lúc đó, Pal vẫn cười tươi mà đánh tên kia bầm dập.",
+          "LocalizedString": "Pal luôn nở nụ cười tươi tắn trên môi.\r\nThỉnh thoảng, <characterName id=|PinkCat|/> lại nghịch ngợm buộc các tua xúc giác của nó.\r\nNhững lúc đó, Pal vẫn cười tươi mà đánh tên kia bầm dập."
+        }
+      },
+      "PAL_LONG_DESC_PlantSlime": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_PlantSlime_TextData",
+          "SourceString": "Một loài Pal kỳ lạ với cơ thể như nhựa cây.\r\nKhi lớp vỏ ngoài biến mất, Pal sẽ dần dần héo rũ và\r\ncuối cùng là thối rữa.",
+          "LocalizedString": "Một loài Pal kỳ lạ với cơ thể như nhựa cây.\r\nKhi lớp vỏ ngoài biến mất, Pal sẽ dần dần héo rũ và\r\ncuối cùng là thối rữa."
+        }
+      },
+      "PAL_LONG_DESC_Plesiosaur": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Plesiosaur_TextData",
+          "SourceString": "Hơi thở của Pal này mang theo loại phấn hoa kỳ diệu\r\ncó thể thụ phấn cho bất kỳ loại thực vật nào. \r\nĐối với các Pal có cây mọc trên người, đây là một đối tượng hơi... đáng ngại.",
+          "LocalizedString": "Hơi thở của Pal này mang theo loại phấn hoa kỳ diệu\r\ncó thể thụ phấn cho bất kỳ loại thực vật nào. \r\nĐối với các Pal có cây mọc trên người, đây là một đối tượng hơi... đáng ngại."
+        }
+      },
+      "PAL_LONG_DESC_PurpleSpider": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_PurpleSpider_TextData",
+          "SourceString": "Pal rất dính, bám siêu dính.\r\nCàng cố giãy giụa, Pal lại càng dính chặt hơn.\r\nĐó là |tính cách| của nó.",
+          "LocalizedString": "Pal rất dính, bám siêu dính.\r\nCàng cố giãy giụa, Pal lại càng dính chặt hơn.\r\nĐó là |tính cách| của nó."
+        }
+      },
+      "PAL_LONG_DESC_QueenBee": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_QueenBee_TextData",
+          "SourceString": "Pal là nữ hoàng được chọn để thống lĩnh loài <characterName id=|SoldierBee|/>.\r\nNiềm vinh hạnh được phục vụ cho nữ hoàng vĩ đại\r\nkhiến cho vô số tôi tớ sẵn lòng làm việc cho đến chết.",
+          "LocalizedString": "Pal là nữ hoàng được chọn để thống lĩnh loài <characterName id=|SoldierBee|/>.\r\nNiềm vinh hạnh được phục vụ cho nữ hoàng vĩ đại\r\nkhiến cho vô số tôi tớ sẵn lòng làm việc cho đến chết."
+        }
+      },
+      "PAL_LONG_DESC_RaijinDaughter": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_RaijinDaughter_TextData",
+          "SourceString": "Loài Pal này thường tỏ ra rất tốt bụng với những Pal đơn độc.\r\nNhưng khi Pal nào đó ngộ nhận lòng tốt mà bám theo\r\nnó liền thừa cơ hội đó để giáng sấm sét tiêu diệt ngay.",
+          "LocalizedString": "Loài Pal này thường tỏ ra rất tốt bụng với những Pal đơn độc.\r\nNhưng khi Pal nào đó ngộ nhận lòng tốt mà bám theo\r\nnó liền thừa cơ hội đó để giáng sấm sét tiêu diệt ngay."
+        }
+      },
+      "PAL_LONG_DESC_RaijinDaughter_Water": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_RaijinDaughter_Water_TextData",
+          "SourceString": "Loài Pal này đối xử tử tế với những Pal đơn độc\r\nđể khiến chúng lơ là rồi dùng sấm sét hạ sát.\r\nMưu tính là vậy, nhưng mãi không tìm được thời cơ,\r\ncuối cùng lại kết bạn luôn.",
+          "LocalizedString": "Loài Pal này đối xử tử tế với những Pal đơn độc\r\nđể khiến chúng lơ là rồi dùng sấm sét hạ sát.\r\nMưu tính là vậy, nhưng mãi không tìm được thời cơ,\r\ncuối cùng lại kết bạn luôn."
+        }
+      },
+      "PAL_LONG_DESC_RedArmorBird": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_RedArmorBird_TextData",
+          "SourceString": "Có vẻ Pal này là họ hàng với <characterName id=|ThunderBird|/> nhưng thực ra không có quan hệ gì.\r\nThức ăn chủ yếu là đá, và qua nhiều năm\r\nkhông chỉ chiếc mỏ mà toàn bộ phần đầu đều hóa cứng.",
+          "LocalizedString": "Có vẻ Pal này là họ hàng với <characterName id=|ThunderBird|/> nhưng thực ra không có quan hệ gì.\r\nThức ăn chủ yếu là đá, và qua nhiều năm\r\nkhông chỉ chiếc mỏ mà toàn bộ phần đầu đều hóa cứng."
+        }
+      },
+      "PAL_LONG_DESC_RobinHood": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_RobinHood_TextData",
+          "SourceString": "Một loài Pal sống bằng nghề săn bắt trong rừng, có những đặc tính rất giống con người.\r\nNgười ta cho rằng nó đã tách ra từ một nhánh khác với loài người từ thời cổ đại\r\ncó lẽ nó chính là chìa khóa để giải mã Pal là gì.",
+          "LocalizedString": "Một loài Pal sống bằng nghề săn bắt trong rừng, có những đặc tính rất giống con người.\r\nNgười ta cho rằng nó đã tách ra từ một nhánh khác với loài người từ thời cổ đại\r\ncó lẽ nó chính là chìa khóa để giải mã Pal là gì."
+        }
+      },
+      "PAL_LONG_DESC_RobinHood_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_RobinHood_Ground_TextData",
+          "SourceString": "Một loài Pal sống bằng nghề săn bắn ở khu vực bãi đá, có những đặc tính rất giống con người.\r\nKhi xương của <characterName id=|RobinHood_Ground|/> được tìm thấy trong các phế tích,\r\nở đó luôn có cả xương người.",
+          "LocalizedString": "Một loài Pal sống bằng nghề săn bắn ở khu vực bãi đá, có những đặc tính rất giống con người.\r\nKhi xương của <characterName id=|RobinHood_Ground|/> được tìm thấy trong các phế tích,\r\nở đó luôn có cả xương người."
+        }
+      },
+      "PAL_LONG_DESC_Ronin": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Ronin_TextData",
+          "SourceString": "Khi chết, thân xác hóa thành lưỡi kiếm và được truyền lại cho thế hệ sau.\r\nBất kỳ ai không phải <characterName id=|Ronin|/> cầm thanh kiếm này\r\nsẽ không chịu nổi tiếng vọng của những vong hồn ẩn chứa bên trong mà phát điên.",
+          "LocalizedString": "Khi chết, thân xác hóa thành lưỡi kiếm và được truyền lại cho thế hệ sau.\r\nBất kỳ ai không phải <characterName id=|Ronin|/> cầm thanh kiếm này\r\nsẽ không chịu nổi tiếng vọng của những vong hồn ẩn chứa bên trong mà phát điên."
+        }
+      },
+      "PAL_LONG_DESC_Ronin_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Ronin_Dark_TextData",
+          "SourceString": "Khi chết, thân xác hóa thành lưỡi kiếm và được truyền lại cho thế hệ sau.\r\nNếu <characterName id=|Ronin|/> kế thừa thanh kiếm có trái tim yếu mềm\r\nchúng sẽ không chịu nổi tiếng vọng của những vong hồn ẩn chứa bên trong\r\ntrở thành <characterName id=|Ronin_Dark|/> vất vưởng.",
+          "LocalizedString": "Khi chết, thân xác hóa thành lưỡi kiếm và được truyền lại cho thế hệ sau.\r\nNếu <characterName id=|Ronin|/> kế thừa thanh kiếm có trái tim yếu mềm\r\nchúng sẽ không chịu nổi tiếng vọng của những vong hồn ẩn chứa bên trong\r\ntrở thành <characterName id=|Ronin_Dark|/> vất vưởng."
+        }
+      },
+      "PAL_LONG_DESC_SaintCentaur": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SaintCentaur_TextData",
+          "SourceString": "Xưa kia, loài Pal này và <characterName id=|BlackCentaur|/> vốn là một.\r\nDù được cho là một sinh vật đã rũ bỏ mọi cảm xúc tiêu cực\r\nnhưng sâu trong đáy mắt nó vẫn còn tia oán hận.",
+          "LocalizedString": "Xưa kia, loài Pal này và <characterName id=|BlackCentaur|/> vốn là một.\r\nDù được cho là một sinh vật đã rũ bỏ mọi cảm xúc tiêu cực\r\nnhưng sâu trong đáy mắt nó vẫn còn tia oán hận."
+        }
+      },
+      "PAL_LONG_DESC_SakuraSaurus": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SakuraSaurus_TextData",
+          "SourceString": "Mùi hương cơ thể của Pal thay đổi đáng kể trước và sau khi ghép đôi.\r\nMùi hương sau khi tìm được bạn đời được cho là rất dễ chịu,\r\nđược gọi là |Hương tình đầu|.",
+          "LocalizedString": "Mùi hương cơ thể của Pal thay đổi đáng kể trước và sau khi ghép đôi.\r\nMùi hương sau khi tìm được bạn đời được cho là rất dễ chịu,\r\nđược gọi là |Hương tình đầu|."
+        }
+      },
+      "PAL_LONG_DESC_SakuraSaurus_Water": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SakuraSaurus_Water_TextData",
+          "SourceString": "Mùi hương cơ thể của Pal thay đổi đáng kể trước và sau khi ghép đôi.\r\nMùi hương trước khi tìm được bạn đời được cho là rất dễ chịu,\r\nđược gọi là |Hương thuần khiết|.",
+          "LocalizedString": "Mùi hương cơ thể của Pal thay đổi đáng kể trước và sau khi ghép đôi.\r\nMùi hương trước khi tìm được bạn đời được cho là rất dễ chịu,\r\nđược gọi là |Hương thuần khiết|."
+        }
+      },
+      "PAL_LONG_DESC_ScorpionMan": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ScorpionMan_TextData",
+          "SourceString": "Có khoảng 5.000 loại độc tố trong người Pal.\r\nCó vài loại nghe nói là ghê gớm lắm, có thể gây chết người ngay lập tức\r\nnhưng tất cả đều quá loãng nên cũng chẳng làm nên trò trống gì.",
+          "LocalizedString": "Có khoảng 5.000 loại độc tố trong người Pal.\r\nCó vài loại nghe nói là ghê gớm lắm, có thể gây chết người ngay lập tức\r\nnhưng tất cả đều quá loãng nên cũng chẳng làm nên trò trống gì."
+        }
+      },
+      "PAL_LONG_DESC_ScorpionMan_Electric": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ScorpionMan_Electric_TextData",
+          "SourceString": "Pal có thể dùng đuôi truyền điện vào kẻ địch.\r\nKhổ nỗi, luồng điện ấy yếu xìu\r\nnên dùng nắm đấm đập cho một trận xem ra còn mạnh hơn nhiều.",
+          "LocalizedString": "Pal có thể dùng đuôi truyền điện vào kẻ địch.\r\nKhổ nỗi, luồng điện ấy yếu xìu\r\nnên dùng nắm đấm đập cho một trận xem ra còn mạnh hơn nhiều."
+        }
+      },
+      "PAL_LONG_DESC_Serpent": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Serpent_TextData",
+          "SourceString": "Thân hình thon dài giúp Pal hoạt động tốt trên nước.\r\nTiếc là Pal hay bị mấy tay săn trộm bắt\r\nđể cưỡi như ván lướt sóng.",
+          "LocalizedString": "Thân hình thon dài giúp Pal hoạt động tốt trên nước.\r\nTiếc là Pal hay bị mấy tay săn trộm bắt\r\nđể cưỡi như ván lướt sóng."
+        }
+      },
+      "PAL_LONG_DESC_Serpent_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Serpent_Ground_TextData",
+          "SourceString": "Thân hình thon dài giúp Pal hoạt động tốt trên cát.\r\nTiếc là Pal hay bị mấy tay săn trộm bắt\r\nđể cưỡi như ván lướt sóng.",
+          "LocalizedString": "Thân hình thon dài giúp Pal hoạt động tốt trên cát.\r\nTiếc là Pal hay bị mấy tay săn trộm bắt\r\nđể cưỡi như ván lướt sóng."
+        }
+      },
+      "PAL_LONG_DESC_SharkKid": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SharkKid_TextData",
+          "SourceString": "Thời xa xưa, loài Pal này từng là một loài thủy sinh to lớn và mạnh mẽ\r\nnhưng do nguồn thức ăn dần khan hiếm, nó đã tiến lên đất liền.\r\nVì di chuyển trên cạn tốn rất nhiều năng lượng\r\nhình thể dần dần nhỏ lại, giờ chỉ còn là một Pal yếu đuối.",
+          "LocalizedString": "Thời xa xưa, loài Pal này từng là một loài thủy sinh to lớn và mạnh mẽ\r\nnhưng do nguồn thức ăn dần khan hiếm, nó đã tiến lên đất liền.\r\nVì di chuyển trên cạn tốn rất nhiều năng lượng\r\nhình thể dần dần nhỏ lại, giờ chỉ còn là một Pal yếu đuối."
+        }
+      },
+      "PAL_LONG_DESC_SharkKid_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SharkKid_Fire_TextData",
+          "SourceString": "Thời xa xưa, loài Pal này từng là một loài thủy sinh to lớn và mạnh mẽ\r\nnhưng do nguồn thức ăn dần khan hiếm, nó đã tiến lên đất liền.\r\nViệc đi lại đã đốt cháy rất nhiều calo và\r\nthật bất ngờ, sức mạnh của lửa trong nó đã thức tỉnh!",
+          "LocalizedString": "Thời xa xưa, loài Pal này từng là một loài thủy sinh to lớn và mạnh mẽ\r\nnhưng do nguồn thức ăn dần khan hiếm, nó đã tiến lên đất liền.\r\nViệc đi lại đã đốt cháy rất nhiều calo và\r\nthật bất ngờ, sức mạnh của lửa trong nó đã thức tỉnh!"
+        }
+      },
+      "PAL_LONG_DESC_SheepBall": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SheepBall_TextData",
+          "SourceString": "Hễ mà lên dốc là Pal lại tự lăn lông lốc xuống.\r\nLăn xong còn bị hoa mắt không đi nổi nữa chứ,\r\nđúng là phận hẩm hiu ở đáy chuỗi thức ăn.",
+          "LocalizedString": "Hễ mà lên dốc là Pal lại tự lăn lông lốc xuống.\r\nLăn xong còn bị hoa mắt không đi nổi nữa chứ,\r\nđúng là phận hẩm hiu ở đáy chuỗi thức ăn."
+        }
+      },
+      "PAL_LONG_DESC_SifuDog": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SifuDog_TextData",
+          "SourceString": "Pal luôn cố gắng đạt tới cảnh giới vô ngã bằng cách chăm chỉ thiền định.\r\nSau khi đối diện với mọi ham muốn trần tục và thấy lòng nhẹ nhõm\r\nPal sẽ làm một bữa thật no rồi lại tự nhủ:\r\nHôm nay lại ăn quá nhiều rồi.",
+          "LocalizedString": "Pal luôn cố gắng đạt tới cảnh giới vô ngã bằng cách chăm chỉ thiền định.\r\nSau khi đối diện với mọi ham muốn trần tục và thấy lòng nhẹ nhõm\r\nPal sẽ làm một bữa thật no rồi lại tự nhủ:\r\nHôm nay lại ăn quá nhiều rồi."
+        }
+      },
+      "PAL_LONG_DESC_SkyDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SkyDragon_TextData",
+          "SourceString": "Nếu có <characterName id=|SkyDragon|/> làm gối ôm ngủ thì sẽ êm ái như ở thiên đường\r\nnhưng nếu vớ phải con nào ngủ hay quẫy\r\nbạn sẽ bị Pal đè cho lên thiên đường luôn.",
+          "LocalizedString": "Nếu có <characterName id=|SkyDragon|/> làm gối ôm ngủ thì sẽ êm ái như ở thiên đường\r\nnhưng nếu vớ phải con nào ngủ hay quẫy\r\nbạn sẽ bị Pal đè cho lên thiên đường luôn."
+        }
+      },
+      "PAL_LONG_DESC_SkyDragon_Grass": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SkyDragon_Grass_TextData",
+          "SourceString": "Khi ôm <characterName id=|SkyDragon_Grass|/>,\r\nnếu ngửi thấy mùi nắng và cỏ thì ngày mai trời sẽ nắng.\r\nNếu ngửi thấy mùi ẩm mốc thì xác định ngày mai mưa tầm tã.",
+          "LocalizedString": "Khi ôm <characterName id=|SkyDragon_Grass|/>,\r\nnếu ngửi thấy mùi nắng và cỏ thì ngày mai trời sẽ nắng.\r\nNếu ngửi thấy mùi ẩm mốc thì xác định ngày mai mưa tầm tã."
+        }
+      },
+      "PAL_LONG_DESC_SmallArmadillo": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SmallArmadillo_TextData",
+          "SourceString": "Cách đây không lâu, môn bóng đá <characterName id=|SmallArmadillo|/> từng rất thịnh hành.\r\nDo sự phản đối dữ dội của Tổ chức Bảo hộ Pal, môn này nhanh chóng bị dẹp bỏ,\r\nmà nghe đâu mấy em <characterName id=|SmallArmadillo|/> cũng khoái tham gia lắm\r\nvì trò này giúp chúng tẩy đi lớp da chết.",
+          "LocalizedString": "Cách đây không lâu, môn bóng đá <characterName id=|SmallArmadillo|/> từng rất thịnh hành.\r\nDo sự phản đối dữ dội của Tổ chức Bảo hộ Pal, môn này nhanh chóng bị dẹp bỏ,\r\nmà nghe đâu mấy em <characterName id=|SmallArmadillo|/> cũng khoái tham gia lắm\r\nvì trò này giúp chúng tẩy đi lớp da chết."
+        }
+      },
+      "PAL_LONG_DESC_SnowTigerBeastman": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SnowTigerBeastman_TextData",
+          "SourceString": "Cứ thấy cái gì tròn tròn, Pal lại muốn đấm cho một phát.\r\nĐối với <characterName id=|SnowTigerBeastMan|/>, điều khó khăn thứ hai sau đấu tranh sinh tồn\r\nchính là hoàn thành một người tuyết.",
+          "LocalizedString": "Cứ thấy cái gì tròn tròn, Pal lại muốn đấm cho một phát.\r\nĐối với <characterName id=|SnowTigerBeastMan|/>, điều khó khăn thứ hai sau đấu tranh sinh tồn\r\nchính là hoàn thành một người tuyết."
+        }
+      },
+      "PAL_LONG_DESC_SoldierBee": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SoldierBee_TextData",
+          "SourceString": "Loài Pal này là kẻ tôi tớ thề trung thành với <characterName id=|QueenBee|/>.\r\nBất kỳ kẻ nào dám gây hại đến nữ hoàng đều sẽ bị nó tiêu diệt ngay lập tức.\r\nPal sẽ bảo vệ nữ hoàng bằng mọi giá, dù phải tự hủy diệt chính mình.",
+          "LocalizedString": "Loài Pal này là kẻ tôi tớ thề trung thành với <characterName id=|QueenBee|/>.\r\nBất kỳ kẻ nào dám gây hại đến nữ hoàng đều sẽ bị nó tiêu diệt ngay lập tức.\r\nPal sẽ bảo vệ nữ hoàng bằng mọi giá, dù phải tự hủy diệt chính mình."
+        }
+      },
+      "PAL_LONG_DESC_StuffedShark": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_StuffedShark_TextData",
+          "SourceString": "Nhìn qua thì tưởng có gì đó đang núp trong bộ đồ thú\r\nnhưng thò tay vào trong thì lại chẳng có gì cả. \r\nMà kỳ lạ thay, bên trong sâu thẳm đến vô tận. \r\nPhải chăng trong đó là cả vũ trụ!?",
+          "LocalizedString": "Nhìn qua thì tưởng có gì đó đang núp trong bộ đồ thú\r\nnhưng thò tay vào trong thì lại chẳng có gì cả. \r\nMà kỳ lạ thay, bên trong sâu thẳm đến vô tận. \r\nPhải chăng trong đó là cả vũ trụ!?"
+        }
+      },
+      "PAL_LONG_DESC_Suzaku": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Suzaku_TextData",
+          "SourceString": "Ngày xưa, người ta cho rằng Pal là hiện thân của khô hạn.\r\nHễ năm nào có khô hạn là năm sau, Pal lại trở thành mục tiêu bị truy lùng và\r\ntiêu diệt không ngừng với hy vọng vụ mùa bội thu.",
+          "LocalizedString": "Ngày xưa, người ta cho rằng Pal là hiện thân của khô hạn.\r\nHễ năm nào có khô hạn là năm sau, Pal lại trở thành mục tiêu bị truy lùng và\r\ntiêu diệt không ngừng với hy vọng vụ mùa bội thu."
+        }
+      },
+      "PAL_LONG_DESC_Suzaku_Water": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Suzaku_Water_TextData",
+          "SourceString": "Ngày xưa, người ta cho rằng Pal là hiện thân của mưa lũ.\r\nHễ năm nào bị lũ lụt là năm sau, Pal lại trở thành mục tiêu bị truy lùng và\r\ntiêu diệt không ngừng để cầu mong bình an.",
+          "LocalizedString": "Ngày xưa, người ta cho rằng Pal là hiện thân của mưa lũ.\r\nHễ năm nào bị lũ lụt là năm sau, Pal lại trở thành mục tiêu bị truy lùng và\r\ntiêu diệt không ngừng để cầu mong bình an."
+        }
+      },
+      "PAL_LONG_DESC_SweetsSheep": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SweetsSheep_TextData",
+          "SourceString": "Cả người Pal ngọt lịm gấp 18.000 lần đường.\r\nMấy con Pal ăn thịt bị mùi hương dụ dỗ cắn một miếng\r\ny như rằng sẽ trợn trắng mắt, lăn ra xỉu vì ngọt khé cổ.",
+          "LocalizedString": "Cả người Pal ngọt lịm gấp 18.000 lần đường.\r\nMấy con Pal ăn thịt bị mùi hương dụ dỗ cắn một miếng\r\ny như rằng sẽ trợn trắng mắt, lăn ra xỉu vì ngọt khé cổ."
+        }
+      },
+      "PAL_LONG_DESC_SweetsSheep_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SweetsSheep_Ground_TextData",
+          "SourceString": "Trái ngược với bộ lông tỏa hương thơm ngọt ngào, thịt của loài này lại đắng đến kinh hoàng.\r\nNhững kẻ săn mồi bị mùi hương dẫn dụ rồi cắn vào\r\nsẽ bị sốc vì vị đắng, trợn mắt rồi ngã lăn ra xỉu.",
+          "LocalizedString": "Trái ngược với bộ lông tỏa hương thơm ngọt ngào, thịt của loài này lại đắng đến kinh hoàng.\r\nNhững kẻ săn mồi bị mùi hương dẫn dụ rồi cắn vào\r\nsẽ bị sốc vì vị đắng, trợn mắt rồi ngã lăn ra xỉu."
+        }
+      },
+      "PAL_LONG_DESC_TentacleTurtle": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_TentacleTurtle_TextData",
+          "SourceString": "Để bảo vệ cơ thể yếu ớt, nó đã có được một chiếc mai kiên cố. \r\nNhưng đổi lại, nó đã bỏ qua quá nhiều phòng thủ cơ thể,\r\nđến nỗi chỉ cần bị cù lét là có thể bất tỉnh.",
+          "LocalizedString": "Để bảo vệ cơ thể yếu ớt, nó đã có được một chiếc mai kiên cố. \r\nNhưng đổi lại, nó đã bỏ qua quá nhiều phòng thủ cơ thể,\r\nđến nỗi chỉ cần bị cù lét là có thể bất tỉnh."
+        }
+      },
+      "PAL_LONG_DESC_ThunderBird": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ThunderBird_TextData",
+          "SourceString": "Loài Pal này có vẻ là họ hàng với <characterName id=|RedArmorBird|/> nhưng thực ra không có quan hệ gì.\r\nNó lao xuống cực nhanh, kết liễu con mồi bằng chiếc mỏ sắc nhọn.\r\nDáng vẻ ấy chẳng khác nào một tia sét.",
+          "LocalizedString": "Loài Pal này có vẻ là họ hàng với <characterName id=|RedArmorBird|/> nhưng thực ra không có quan hệ gì.\r\nNó lao xuống cực nhanh, kết liễu con mồi bằng chiếc mỏ sắc nhọn.\r\nDáng vẻ ấy chẳng khác nào một tia sét."
+        }
+      },
+      "PAL_LONG_DESC_ThunderDog": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ThunderDog_TextData",
+          "SourceString": "Khi dồn hết tốc lực, Pal quả thực nhanh như một tia chớp.\r\nHai con <characterName id=|ThunderDog|/> mà lao vào nhau,\r\ntiếng động phát ra chẳng khác tiếng sấm.",
+          "LocalizedString": "Khi dồn hết tốc lực, Pal quả thực nhanh như một tia chớp.\r\nHai con <characterName id=|ThunderDog|/> mà lao vào nhau,\r\ntiếng động phát ra chẳng khác tiếng sấm."
+        }
+      },
+      "PAL_LONG_DESC_ThunderDog_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ThunderDog_Ice_TextData",
+          "SourceString": "Khi chạy hết tốc lực trên tuyết, chúng sẽ tạo ra bão tuyết mịt mù.\r\nChẳng ai nhìn thấy ai\r\nthế là những cú |đụng xe| giữa <characterName id=|ThunderDog_Ice|/> cứ thế xảy ra như cơm bữa.",
+          "LocalizedString": "Khi chạy hết tốc lực trên tuyết, chúng sẽ tạo ra bão tuyết mịt mù.\r\nChẳng ai nhìn thấy ai\r\nthế là những cú |đụng xe| giữa <characterName id=|ThunderDog_Ice|/> cứ thế xảy ra như cơm bữa."
+        }
+      },
+      "PAL_LONG_DESC_ThunderDragonMan": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ThunderDragonMan_TextData",
+          "SourceString": "Pal truyền điện từ vết thương vào cơ thể đối thủ, thiêu đốt cơ thể đối thủ.\r\nTrận chiến giữa các <characterName id=|ThunderDragonMan|/>\r\nthường kết thúc trong nháy mắt.",
+          "LocalizedString": "Pal truyền điện từ vết thương vào cơ thể đối thủ, thiêu đốt cơ thể đối thủ.\r\nTrận chiến giữa các <characterName id=|ThunderDragonMan|/>\r\nthường kết thúc trong nháy mắt."
+        }
+      },
+      "PAL_LONG_DESC_TropicalOstrich": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_TropicalOstrich_TextData",
+          "SourceString": "Điệu nhảy độc nhất vô nhị khiến cho nhịp điệu của kẻ địch bị rối loạn. \r\nTrong một trận chiến giành lãnh thổ, kẻ nào theo nhịp của đối phương trước sẽ là kẻ thua cuộc. \r\nDù là tán tỉnh hay giết thời gian, mọi thứ đều thể hiện qua vũ điệu! \r\nVậy thì, điệu nhảy dành cho con người, rốt cuộc mang ý nghĩa gì đây?",
+          "LocalizedString": "Điệu nhảy độc nhất vô nhị khiến cho nhịp điệu của kẻ địch bị rối loạn. \r\nTrong một trận chiến giành lãnh thổ, kẻ nào theo nhịp của đối phương trước sẽ là kẻ thua cuộc. \r\nDù là tán tỉnh hay giết thời gian, mọi thứ đều thể hiện qua vũ điệu! \r\nVậy thì, điệu nhảy dành cho con người, rốt cuộc mang ý nghĩa gì đây?"
+        }
+      },
+      "PAL_LONG_DESC_Umihebi": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Umihebi_TextData",
+          "SourceString": "Có truyền thuyết kể rằng\r\nmột nhà hiền triết bị kết tội oan và bị ném xuống xoáy nước\r\nđã hồi sinh thành <characterName id=|Umihebi|/> và hủy diệt cả vương quốc.",
+          "LocalizedString": "Có truyền thuyết kể rằng\r\nmột nhà hiền triết bị kết tội oan và bị ném xuống xoáy nước\r\nđã hồi sinh thành <characterName id=|Umihebi|/> và hủy diệt cả vương quốc."
+        }
+      },
+      "PAL_LONG_DESC_Umihebi_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Umihebi_Fire_TextData",
+          "SourceString": "Có truyền thuyết kể rằng\r\nmột dũng sĩ bị kết tội oan và bị ném vào núi lửa\r\nđã hồi sinh thành <characterName id=|Umihebi_Fire|/> và thiêu rụi cả vương quốc.",
+          "LocalizedString": "Có truyền thuyết kể rằng\r\nmột dũng sĩ bị kết tội oan và bị ném vào núi lửa\r\nđã hồi sinh thành <characterName id=|Umihebi_Fire|/> và thiêu rụi cả vương quốc."
+        }
+      },
+      "PAL_LONG_DESC_VioletFairy": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_VioletFairy_TextData",
+          "SourceString": "Trong lâu đài có rất nhiều loài hoa mà nhà vua yêu thích.\r\nMột cuộc chiến lớn đã xảy ra và ngọn lửa đã lan đến lâu đài.\r\nRồi có một nàng tiên hoa xuất hiện.\r\n– Theo truyện cổ tích |Hoa của nhà vua|.",
+          "LocalizedString": "Trong lâu đài có rất nhiều loài hoa mà nhà vua yêu thích.\r\nMột cuộc chiến lớn đã xảy ra và ngọn lửa đã lan đến lâu đài.\r\nRồi có một nàng tiên hoa xuất hiện.\r\n– Theo truyện cổ tích |Hoa của nhà vua|."
+        }
+      },
+      "PAL_LONG_DESC_VolcanicMonster": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_VolcanicMonster_TextData",
+          "SourceString": "Dòng máu nóng rực như dung nham chảy khắp người Pal.\r\nNếu dội một lượng lớn nước vào, Palsẽ bị nung nóng tức thời\r\ngây ra một vụ nổ hơi nước khủng khiếp.",
+          "LocalizedString": "Dòng máu nóng rực như dung nham chảy khắp người Pal.\r\nNếu dội một lượng lớn nước vào, Palsẽ bị nung nóng tức thời\r\ngây ra một vụ nổ hơi nước khủng khiếp."
+        }
+      },
+      "PAL_LONG_DESC_VolcanicMonster_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_VolcanicMonster_Ice_TextData",
+          "SourceString": "Dòng máu lạnh giá đến thấu xương chảy khắp người Pal.\r\nNếu bị nung nóng tức thời, máu sẽ bốc hơi\r\ngây ra một vụ nổ hơi nước khủng khiếp.",
+          "LocalizedString": "Dòng máu lạnh giá đến thấu xương chảy khắp người Pal.\r\nNếu bị nung nóng tức thời, máu sẽ bốc hơi\r\ngây ra một vụ nổ hơi nước khủng khiếp."
+        }
+      },
+      "PAL_LONG_DESC_WaterLizard": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WaterLizard_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "PAL_LONG_DESC_WeaselDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WeaselDragon_TextData",
+          "SourceString": "Pal có thể cuộn tròn cơ thể, lăn đi với tốc độ cực nhanh.\r\nNgày xưa, người ta thường buộc túi sữa vào <characterName id=|WeaselDragon|/> đã thuần hóa\r\nrồi thả Pal ra đồng cỏ\r\nthế là có bơ để ăn nhờ cái tài lăn lộn đó.",
+          "LocalizedString": "Pal có thể cuộn tròn cơ thể, lăn đi với tốc độ cực nhanh.\r\nNgày xưa, người ta thường buộc túi sữa vào <characterName id=|WeaselDragon|/> đã thuần hóa\r\nrồi thả Pal ra đồng cỏ\r\nthế là có bơ để ăn nhờ cái tài lăn lộn đó."
+        }
+      },
+      "PAL_LONG_DESC_WeaselDragon_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WeaselDragon_Fire_TextData",
+          "SourceString": "Pal có thể cuộn tròn cơ thể, vừa lăn vừa bắn ra tia lửa.\r\nCảm xúc phấn khích cũng khiến Pal xẹt lửa.\r\nVuốt ve nhiều quá là Pal cũng tự hủy luôn.",
+          "LocalizedString": "Pal có thể cuộn tròn cơ thể, vừa lăn vừa bắn ra tia lửa.\r\nCảm xúc phấn khích cũng khiến Pal xẹt lửa.\r\nVuốt ve nhiều quá là Pal cũng tự hủy luôn."
+        }
+      },
+      "PAL_LONG_DESC_Werewolf": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Werewolf_TextData",
+          "SourceString": "Cặp sừng trên đầu Pal dài ra khi tắm ánh trăng.\r\nPal không hẳn là sợ mặt trời\r\nnhưng tắm nắng khiến sừng của Pal bị ngứa ngáy.",
+          "LocalizedString": "Cặp sừng trên đầu Pal dài ra khi tắm ánh trăng.\r\nPal không hẳn là sợ mặt trời\r\nnhưng tắm nắng khiến sừng của Pal bị ngứa ngáy."
+        }
+      },
+      "PAL_LONG_DESC_Werewolf_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Werewolf_Ice_TextData",
+          "SourceString": "Cặp sừng trên đầu Pal là một khối băng kỳ lạ không bao giờ tan chảy.\r\nMón đá bào làm từ sừng gãy nghe nói là ngon tuyệt\r\nnhưng cả người ăn lẫn <characterName id=|Werewolf_Ice|/> đều bị đau đầu.",
+          "LocalizedString": "Cặp sừng trên đầu Pal là một khối băng kỳ lạ không bao giờ tan chảy.\r\nMón đá bào làm từ sừng gãy nghe nói là ngon tuyệt\r\nnhưng cả người ăn lẫn <characterName id=|Werewolf_Ice|/> đều bị đau đầu."
+        }
+      },
+      "PAL_LONG_DESC_WhiteAlienDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WhiteAlienDragon_TextData",
+          "SourceString": "Pal có thể ăn thông tin để chuyển hóa thành năng lượng.\r\nHình như Pal còn định kỳ gửi tin tức cho ai đó.\r\n– Alo, tớ lỡ ăn mất tin ban nãy rồi, chưa kịp xem. Nhắn gì vậy?",
+          "LocalizedString": "Pal có thể ăn thông tin để chuyển hóa thành năng lượng.\r\nHình như Pal còn định kỳ gửi tin tức cho ai đó.\r\n– Alo, tớ lỡ ăn mất tin ban nãy rồi, chưa kịp xem. Nhắn gì vậy?"
+        }
+      },
+      "PAL_LONG_DESC_WhiteDeer": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WhiteDeer_TextData",
+          "SourceString": "Trong các tài liệu cổ ghi rằng loài Pal này là |Thần thú cứu rỗi|.\r\nÁnh sáng phát ra từ <characterName id=|WhiteDeer|/> giúp\r\nthanh tẩy vạn vật. Theo nghĩa đen,\r\nmọi thứ sẽ biến mất khỏi thế gian không một dấu vết.",
+          "LocalizedString": "Trong các tài liệu cổ ghi rằng loài Pal này là |Thần thú cứu rỗi|.\r\nÁnh sáng phát ra từ <characterName id=|WhiteDeer|/> giúp\r\nthanh tẩy vạn vật. Theo nghĩa đen,\r\nmọi thứ sẽ biến mất khỏi thế gian không một dấu vết."
+        }
+      },
+      "PAL_LONG_DESC_WhiteMoth": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WhiteMoth_TextData",
+          "SourceString": "Pal thích mưa và thường\r\nđứng yên trong khi mưa rơi.\r\n<characterName id=|Kitsunebi|/> thường đến chỗ Pal trú mưa.",
+          "LocalizedString": "Pal thích mưa và thường\r\nđứng yên trong khi mưa rơi.\r\n<characterName id=|Kitsunebi|/> thường đến chỗ Pal trú mưa."
+        }
+      },
+      "PAL_LONG_DESC_WhiteShieldDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WhiteShieldDragon_TextData",
+          "SourceString": "Các mảnh kim loại quanh cổ Pal có tính chất như nam châm.\r\nNếu đưa các bộ phận ở chân lại gần, chúng sẽ tự dính vào nhau.\r\nKhi cổ bị bám đầy rác kim loại, Pal miễn cưỡng bắt đầu dọn dẹp\r\nnhưng mà làm mãi không xong nên lại nổi cơn tam bành.",
+          "LocalizedString": "Các mảnh kim loại quanh cổ Pal có tính chất như nam châm.\r\nNếu đưa các bộ phận ở chân lại gần, chúng sẽ tự dính vào nhau.\r\nKhi cổ bị bám đầy rác kim loại, Pal miễn cưỡng bắt đầu dọn dẹp\r\nnhưng mà làm mãi không xong nên lại nổi cơn tam bành."
+        }
+      },
+      "PAL_LONG_DESC_WhiteTiger": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WhiteTiger_TextData",
+          "SourceString": "Với bộ móng vuốt cứng cáp, Pal có thể dễ dàng trèo lên những ngọn núi hiểm trở.\r\nChỉ có điều chân ngắn quá nên leo xuống hơi bị tệ\r\nlại còn không biết đường xuống.",
+          "LocalizedString": "Với bộ móng vuốt cứng cáp, Pal có thể dễ dàng trèo lên những ngọn núi hiểm trở.\r\nChỉ có điều chân ngắn quá nên leo xuống hơi bị tệ\r\nlại còn không biết đường xuống."
+        }
+      },
+      "PAL_LONG_DESC_WhiteTiger_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WhiteTiger_Ground_TextData",
+          "SourceString": "Với bàn tay to lớn, Pal có thể dễ dàng mang theo nhiều thứ.\r\nChỉ có điều chân hơi ngắn nên đi bộ chậm rì\r\nmới đi nửa đường là trời đã tối mịt.",
+          "LocalizedString": "Với bàn tay to lớn, Pal có thể dễ dàng mang theo nhiều thứ.\r\nChỉ có điều chân hơi ngắn nên đi bộ chậm rì\r\nmới đi nửa đường là trời đã tối mịt."
+        }
+      },
+      "PAL_LONG_DESC_Windchimes": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Windchimes_TextData",
+          "SourceString": "Đôi tay to vật vã của Pal có thể bẻ gãy cả sắt thép.\r\nNgày xưa, người ta hay trói những tên tội phạm nguy hiểm\r\nở quảng trường rồi thả <characterName id=|Windchimes|/> đến xé xác chúng,\r\nmột kiểu hành hình vô cùng dã man.",
+          "LocalizedString": "Đôi tay to vật vã của Pal có thể bẻ gãy cả sắt thép.\r\nNgày xưa, người ta hay trói những tên tội phạm nguy hiểm\r\nở quảng trường rồi thả <characterName id=|Windchimes|/> đến xé xác chúng,\r\nmột kiểu hành hình vô cùng dã man."
+        }
+      },
+      "PAL_LONG_DESC_Windchimes_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Windchimes_Ice_TextData",
+          "SourceString": "Đôi tay to vật vã của Pal có thể phá tan cả tảng băng.\r\nNgày xưa, người ta hay trói những tên tội phạm nguy hiểm\r\nở quảng trường rồi thả <characterName id=|Windchimes_Ice|/> đến giật tóc chúng,\r\nmột kiểu hành hình man rợ để làm gương.",
+          "LocalizedString": "Đôi tay to vật vã của Pal có thể phá tan cả tảng băng.\r\nNgày xưa, người ta hay trói những tên tội phạm nguy hiểm\r\nở quảng trường rồi thả <characterName id=|Windchimes_Ice|/> đến giật tóc chúng,\r\nmột kiểu hành hình man rợ để làm gương."
+        }
+      },
+      "PAL_LONG_DESC_WingGolem": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WingGolem_TextData",
+          "SourceString": "Có thể tách rời cơ thể thành 215 mảnh, dù có bị vứt lung tung,\r\nchỉ cần lắp ráp lại là Pal vẫn hoạt động bình thường, thật là một loài Pal kỳ lạ.\r\nNếu trộn lẫn các mảnh của những cá thể khác nhau lại\r\nPal sẽ bị mất hết bản sắc, trở nên ủ dột.",
+          "LocalizedString": "Có thể tách rời cơ thể thành 215 mảnh, dù có bị vứt lung tung,\r\nchỉ cần lắp ráp lại là Pal vẫn hoạt động bình thường, thật là một loài Pal kỳ lạ.\r\nNếu trộn lẫn các mảnh của những cá thể khác nhau lại\r\nPal sẽ bị mất hết bản sắc, trở nên ủ dột."
+        }
+      },
+      "PAL_LONG_DESC_WizardOwl": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WizardOwl_TextData",
+          "SourceString": "Pal thường hay đắm chìm trong suy tư\r\nnghĩ nhiều quá nên thành ra mất ngủ.\r\n|Cogito, ergo sum| (Tôi tư duy, tôi tồn tại).",
+          "LocalizedString": "Pal thường hay đắm chìm trong suy tư\r\nnghĩ nhiều quá nên thành ra mất ngủ.\r\n|Cogito, ergo sum| (Tôi tư duy, tôi tồn tại)."
+        }
+      },
+      "PAL_LONG_DESC_WoolFox": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WoolFox_TextData",
+          "SourceString": "Chất lượng lông của Pal tốt hơn <characterName id=|SheepBall|/>.\r\nTính cách cũng phù hợp để nuôi làm gia súc hơn <characterName id=|SheepBall|/>.\r\nẤy vậy mà xưa nay, Pal luôn được cưng nựng như một loài thú cưng.\r\nĐúng là dễ thương là chân lý.",
+          "LocalizedString": "Chất lượng lông của Pal tốt hơn <characterName id=|SheepBall|/>.\r\nTính cách cũng phù hợp để nuôi làm gia súc hơn <characterName id=|SheepBall|/>.\r\nẤy vậy mà xưa nay, Pal luôn được cưng nựng như một loài thú cưng.\r\nĐúng là dễ thương là chân lý."
+        }
+      },
+      "PAL_LONG_DESC_Yeti": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Yeti_TextData",
+          "SourceString": "Để khám phá chân tướng, các nhà nghiên cứu đã cắt lông trên người Pal\r\nnhưng hóa ra bên trong trống rỗng\r\nchỉ còn trơ lại mớ lông.",
+          "LocalizedString": "Để khám phá chân tướng, các nhà nghiên cứu đã cắt lông trên người Pal\r\nnhưng hóa ra bên trong trống rỗng\r\nchỉ còn trơ lại mớ lông."
+        }
+      },
+      "PAL_LONG_DESC_Yeti_Grass": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Yeti_Grass_TextData",
+          "SourceString": "Để khám phá chân tướng, các nhà nghiên cứu đã cắt cỏ trên người Pal\r\nnhưng hóa ra bên trong trống rỗng\r\nchỉ còn trơ lại mớ cỏ.",
+          "LocalizedString": "Để khám phá chân tướng, các nhà nghiên cứu đã cắt cỏ trên người Pal\r\nnhưng hóa ra bên trong trống rỗng\r\nchỉ còn trơ lại mớ cỏ."
+        }
+      },
+      "PAL_LONG_DESC_NegativeOctopus_Neutral": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_NegativeOctopus_Neutral_TextData",
+          "SourceString": "Tấn công kẻ địch bằng cách cắn vào cổ và hút cạn máu.\r\nKhi hai <characterName id=|NegativeOctopus_Neutral|/> cắn xé nhau,\r\nchúng sẽ cố hút cạn lẫn nhau đến tận cùng\r\nkhông buông ra cho đến khi một trong hai tan xác.",
+          "LocalizedString": "Tấn công kẻ địch bằng cách cắn vào cổ và hút cạn máu.\r\nKhi hai <characterName id=|NegativeOctopus_Neutral|/> cắn xé nhau,\r\nchúng sẽ cố hút cạn lẫn nhau đến tận cùng\r\nkhông buông ra cho đến khi một trong hai tan xác."
+        }
+      },
+      "PAL_LONG_DESC_Penguin_Electric": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Penguin_Electric_TextData",
+          "SourceString": "Đôi cánh của chúng đã thoái hóa hoàn toàn, không thể bay được nữa.\r\nSự tiếc nuối với bầu trời dần biến thành lòng đố kỵ\r\nvới sức mạnh điện, chúng bắn hạ mọi sinh vật biết bay!",
+          "LocalizedString": "Đôi cánh của chúng đã thoái hóa hoàn toàn, không thể bay được nữa.\r\nSự tiếc nuối với bầu trời dần biến thành lòng đố kỵ\r\nvới sức mạnh điện, chúng bắn hạ mọi sinh vật biết bay!"
+        }
+      },
+      "PAL_LONG_DESC_StuffedShark_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_StuffedShark_Fire_TextData",
+          "SourceString": "Thò tay vào miệng thì chẳng thấy gì, có thể đưa tay vào thật sâu.\r\nCó một nhà nghiên cứu nghĩ rằng đây là một chiều không gian khác\r\nvà thử chui cả người vào làm túi ngủ, nhưng người này bắt đầu buồn nôn\r\nnên có vẻ như bên trong đúng là cơ thể rồi.",
+          "LocalizedString": "Thò tay vào miệng thì chẳng thấy gì, có thể đưa tay vào thật sâu.\r\nCó một nhà nghiên cứu nghĩ rằng đây là một chiều không gian khác\r\nvà thử chui cả người vào làm túi ngủ, nhưng người này bắt đầu buồn nôn\r\nnên có vẻ như bên trong đúng là cơ thể rồi."
+        }
+      },
+      "PAL_LONG_DESC_FlyingManta_Thunder": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FlyingManta_Thunder_TextData",
+          "SourceString": "Hoa văn bắt mắt trên cơ thể giúp chúng thu hút bạn tình.\r\nTừ xa xưa, <characterName id=|FlyingManta_Thunder|/> đã gây ra không ít vụ điện giật,\r\ngiờ đây, trên hòn đảo này,\r\nchỉ cần thấy sọc vàng đen là mọi loài đều tự động tránh xa.",
+          "LocalizedString": "Hoa văn bắt mắt trên cơ thể giúp chúng thu hút bạn tình.\r\nTừ xa xưa, <characterName id=|FlyingManta_Thunder|/> đã gây ra không ít vụ điện giật,\r\ngiờ đây, trên hòn đảo này,\r\nchỉ cần thấy sọc vàng đen là mọi loài đều tự động tránh xa."
+        }
+      },
+      "PAL_LONG_DESC_BluePlatypus_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BluePlatypus_Fire_TextData",
+          "SourceString": "Vùng bụng có hệ số ma sát cao, chỉ cần trượt đi là tóe lửa.\r\nThường bị cuốn theo đà trượt\r\nmà tự biến thành ngọn đuốc sống.",
+          "LocalizedString": "Vùng bụng có hệ số ma sát cao, chỉ cần trượt đi là tóe lửa.\r\nThường bị cuốn theo đà trượt\r\nmà tự biến thành ngọn đuốc sống."
+        }
+      },
+      "PAL_LONG_DESC_CaptainPenguin_Black": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CaptainPenguin_Black_TextData",
+          "SourceString": "Để săn mồi dưới nước, chúng đã hấp thụ sức mạnh điện và... đổi màu luôn!\r\nKết quả là, chúng không còn được <characterName id=|Penguin|/> ngưỡng mộ.\r\nNhưng không hiểu sao,\r\ngiờ lại có một đám đàn em mới là <characterName id=|Penguin_Electric|/>.",
+          "LocalizedString": "Để săn mồi dưới nước, chúng đã hấp thụ sức mạnh điện và... đổi màu luôn!\r\nKết quả là, chúng không còn được <characterName id=|Penguin|/> ngưỡng mộ.\r\nNhưng không hiểu sao,\r\ngiờ lại có một đám đàn em mới là <characterName id=|Penguin_Electric|/>."
+        }
+      },
+      "PAL_LONG_DESC_LazyCatfish_Gold": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_LazyCatfish_Gold_TextData",
+          "SourceString": "Bề mặt cơ thể có độ phản chiếu đáng kinh ngạc.\r\nThế nhưng tốc độ phản ứng\r\nlại chậm hơn cả <characterName id=|LazyCatfish|/>.",
+          "LocalizedString": "Bề mặt cơ thể có độ phản chiếu đáng kinh ngạc.\r\nThế nhưng tốc độ phản ứng\r\nlại chậm hơn cả <characterName id=|LazyCatfish|/>."
+        }
+      },
+      "PAL_LONG_DESC_SnowPeafowl": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SnowPeafowl_TextData",
+          "SourceString": "Loài Pal này cực kỳ nhạy thời gian, sáng nào cũng thức dậy vào đúng một khung giờ cố định.\r\nTương truyền, lý do người dân đảo Palpagos chia 1 ngày thành 24 phần là vì\r\nkhi nhìn trực diện vào <characterName id=|SnowPeafowl|/> đang xòe cánh\r\ncó thể nhìn thấy được 24 khoảng trống.",
+          "LocalizedString": "Loài Pal này cực kỳ nhạy thời gian, sáng nào cũng thức dậy vào đúng một khung giờ cố định.\r\nTương truyền, lý do người dân đảo Palpagos chia 1 ngày thành 24 phần là vì\r\nkhi nhìn trực diện vào <characterName id=|SnowPeafowl|/> đang xòe cánh\r\ncó thể nhìn thấy được 24 khoảng trống."
+        }
+      },
+      "PAL_LONG_DESC_TentacleTurtle_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_TentacleTurtle_Ground_TextData",
+          "SourceString": "Để bảo vệ cho cơ thể yếu ớt, loài Pal này đã phát triển lớp mai cứng cáp.\r\nMọi xúc giác đều tập trung ở tay và lớp mai\r\nnên nếu bạn khẽ chạm vào phần cơ thể thì chúng cũng không nhận ra.",
+          "LocalizedString": "Để bảo vệ cho cơ thể yếu ớt, loài Pal này đã phát triển lớp mai cứng cáp.\r\nMọi xúc giác đều tập trung ở tay và lớp mai\r\nnên nếu bạn khẽ chạm vào phần cơ thể thì chúng cũng không nhận ra."
+        }
+      },
+      "PAL_LONG_DESC_BlueDragon_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BlueDragon_Ice_TextData",
+          "SourceString": "Dải trắng trên cơ thể có khả năng hấp thụ nhiệt liên tục từ môi trường xung quanh\r\nnhưng lạ thay là nhiệt độ ở đó không hề thay đổi.\r\nVì đặc tính khác thường này, chúng đã từng bị săn lùng ráo riết\r\nthế nên đến giờ, chúng vẫn còn ác cảm với con người.",
+          "LocalizedString": "Dải trắng trên cơ thể có khả năng hấp thụ nhiệt liên tục từ môi trường xung quanh\r\nnhưng lạ thay là nhiệt độ ở đó không hề thay đổi.\r\nVì đặc tính khác thường này, chúng đã từng bị săn lùng ráo riết\r\nthế nên đến giờ, chúng vẫn còn ác cảm với con người."
+        }
+      },
+      "PAL_LONG_DESC_IceNarwhal_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_IceNarwhal_Fire_TextData",
+          "SourceString": "Để không còn bị nhận nhầm là băng trôi, chúng quyết tâm biến thành màu đỏ.\r\nThế nhưng, đối với những Pal mù màu đỏ thì điều đó chẳng khác gì\r\nbao công sức đổ sông đổ bể, không gian riêng vẫn bị lấn chiếm.",
+          "LocalizedString": "Để không còn bị nhận nhầm là băng trôi, chúng quyết tâm biến thành màu đỏ.\r\nThế nhưng, đối với những Pal mù màu đỏ thì điều đó chẳng khác gì\r\nbao công sức đổ sông đổ bể, không gian riêng vẫn bị lấn chiếm."
+        }
+      },
+      "PAL_LONG_DESC_GhostAnglerfish_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GhostAnglerfish_Fire_TextData",
+          "SourceString": "Mồi nhử rực lửa còn được dùng để nướng chín con mồi.\r\nNhững Pal bị dẫn dụ bởi mùi thơm khó cưỡng\r\nmột khi bị <characterName id=|GhostAnglerfish_Fire|/> phát hiện thì không thể thoát được nữa\r\nvà rồi trở thành bữa tiệc no nê cho kẻ săn mồi.",
+          "LocalizedString": "Mồi nhử rực lửa còn được dùng để nướng chín con mồi.\r\nNhững Pal bị dẫn dụ bởi mùi thơm khó cưỡng\r\nmột khi bị <characterName id=|GhostAnglerfish_Fire|/> phát hiện thì không thể thoát được nữa\r\nvà rồi trở thành bữa tiệc no nê cho kẻ săn mồi."
+        }
+      },
+      "PAL_LONG_DESC_PoseidonOrca": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_PoseidonOrca_TextData",
+          "SourceString": "Thuở tai ương được phong ấn, những kẻ hùng mạnh của vùng đất Feybreak đã chạm trán.\r\nKể từ đó, loài Pal này chỉ xuất hiện trước mặt những kẻ mạnh ở vùng biển gần bờ.\r\nBởi vì, cuộc gặp gỡ ấy... là định mệnh.",
+          "LocalizedString": "Thuở tai ương được phong ấn, những kẻ hùng mạnh của vùng đất Feybreak đã chạm trán.\r\nKể từ đó, loài Pal này chỉ xuất hiện trước mặt những kẻ mạnh ở vùng biển gần bờ.\r\nBởi vì, cuộc gặp gỡ ấy... là định mệnh."
+        }
+      },
+      "PAL_LONG_DESC_YakushimaMonster001": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_YakushimaMonster001_TextData",
+          "SourceString": "[Hợp tác với Terraria]\r\nNhững quái thú từ thế giới khác đã xuất hiện.\r\nTại đây, bạn sẽ có cơ hội thuần hóa chúng!",
+          "LocalizedString": "[Hợp tác với Terraria]\r\nNhững quái thú từ thế giới khác đã xuất hiện.\r\nTại đây, bạn sẽ có cơ hội thuần hóa chúng!"
+        }
+      },
+      "PAL_LONG_DESC_YakushimaMonster001_Blue": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_YakushimaMonster001_Blue_TextData",
+          "SourceString": "[Hợp tác với Terraria]\r\nNhững quái thú từ thế giới khác đã xuất hiện.\r\nTại đây, bạn sẽ có cơ hội thuần hóa chúng!",
+          "LocalizedString": "[Hợp tác với Terraria]\r\nNhững quái thú từ thế giới khác đã xuất hiện.\r\nTại đây, bạn sẽ có cơ hội thuần hóa chúng!"
+        }
+      },
+      "PAL_LONG_DESC_YakushimaMonster001_Red": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_YakushimaMonster001_Red_TextData",
+          "SourceString": "[Hợp tác với Terraria]\r\nNhững quái thú từ thế giới khác đã xuất hiện.\r\nTại đây, bạn sẽ có cơ hội thuần hóa chúng!",
+          "LocalizedString": "[Hợp tác với Terraria]\r\nNhững quái thú từ thế giới khác đã xuất hiện.\r\nTại đây, bạn sẽ có cơ hội thuần hóa chúng!"
+        }
+      },
+      "PAL_LONG_DESC_YakushimaMonster001_Purple": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_YakushimaMonster001_Purple_TextData",
+          "SourceString": "[Hợp tác với Terraria]\r\nNhững quái thú từ thế giới khác đã xuất hiện.\r\nTại đây, bạn sẽ có cơ hội thuần hóa chúng!",
+          "LocalizedString": "[Hợp tác với Terraria]\r\nNhững quái thú từ thế giới khác đã xuất hiện.\r\nTại đây, bạn sẽ có cơ hội thuần hóa chúng!"
+        }
+      },
+      "PAL_LONG_DESC_YakushimaMonster001_Pink": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_YakushimaMonster001_Pink_TextData",
+          "SourceString": "[Hợp tác với Terraria]\r\nNhững quái thú từ thế giới khác đã xuất hiện.\r\nTại đây, bạn sẽ có cơ hội thuần hóa chúng!",
+          "LocalizedString": "[Hợp tác với Terraria]\r\nNhững quái thú từ thế giới khác đã xuất hiện.\r\nTại đây, bạn sẽ có cơ hội thuần hóa chúng!"
+        }
+      },
+      "PAL_LONG_DESC_YakushimaMonster001_Rainbow": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_YakushimaMonster001_Rainbow_TextData",
+          "SourceString": "[Hợp tác với Terraria]\r\nNhững quái thú từ thế giới khác đã xuất hiện.\r\nTại đây, bạn sẽ có cơ hội thuần hóa chúng!",
+          "LocalizedString": "[Hợp tác với Terraria]\r\nNhững quái thú từ thế giới khác đã xuất hiện.\r\nTại đây, bạn sẽ có cơ hội thuần hóa chúng!"
+        }
+      },
+      "PAL_LONG_DESC_YakushimaBoss001_Small": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_YakushimaBoss001_Small_TextData",
+          "SourceString": "[Hợp tác với Terraria]\r\nNhững quái thú từ thế giới khác đã xuất hiện.\r\nTại đây, bạn sẽ có cơ hội thuần hóa chúng!",
+          "LocalizedString": "[Hợp tác với Terraria]\r\nNhững quái thú từ thế giới khác đã xuất hiện.\r\nTại đây, bạn sẽ có cơ hội thuần hóa chúng!"
+        }
+      },
+      "PAL_LONG_DESC_YakushimaMonster002": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_YakushimaMonster002_TextData",
+          "SourceString": "[Hợp tác với Terraria]\r\nNhững quái thú từ thế giới khác đã xuất hiện.\r\nTại đây, bạn sẽ có cơ hội thuần hóa chúng!",
+          "LocalizedString": "[Hợp tác với Terraria]\r\nNhững quái thú từ thế giới khác đã xuất hiện.\r\nTại đây, bạn sẽ có cơ hội thuần hóa chúng!"
+        }
+      },
+      "PAL_LONG_DESC_YakushimaMonster003": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_YakushimaMonster003_TextData",
+          "SourceString": "[Hợp tác với Terraria]\r\nNhững quái thú từ thế giới khác đã xuất hiện.\r\nTại đây, bạn sẽ có cơ hội thuần hóa chúng!",
+          "LocalizedString": "[Hợp tác với Terraria]\r\nNhững quái thú từ thế giới khác đã xuất hiện.\r\nTại đây, bạn sẽ có cơ hội thuần hóa chúng!"
+        }
+      },
+      "PAL_LONG_DESC_YakushimaMonster003_Purple": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_YakushimaMonster003_Purple_TextData",
+          "SourceString": "[Hợp tác với Terraria]\r\nNhững quái thú từ thế giới khác đã xuất hiện.\r\nTại đây, bạn sẽ có cơ hội thuần hóa chúng!",
+          "LocalizedString": "[Hợp tác với Terraria]\r\nNhững quái thú từ thế giới khác đã xuất hiện.\r\nTại đây, bạn sẽ có cơ hội thuần hóa chúng!"
+        }
+      },
+      "PAL_LONG_DESC_YakushimaBoss001": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_YakushimaBoss001_TextData",
+          "SourceString": "[Hợp tác với Terraria]\r\nNhững quái thú từ thế giới khác đã xuất hiện.\r\nTại đây, bạn sẽ có cơ hội thuần hóa chúng!",
+          "LocalizedString": "[Hợp tác với Terraria]\r\nNhững quái thú từ thế giới khác đã xuất hiện.\r\nTại đây, bạn sẽ có cơ hội thuần hóa chúng!"
+        }
+      },
+      "PAL_LONG_DESC_LegendDeer": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_LegendDeer_TextData",
+          "SourceString": "Nơi đây tĩnh lặng đến rợn người, nhưng lại mang đến cảm giác yên bình lạ kỳ.\r\nNơi đây không còn một ai. Tất cả đều đã được cứu rỗi.\r\nHỡi Vị Vua Cứu Rỗi, xin hãy đưa cả tôi đến cõi tĩnh lặng vĩnh cửu.\r\n - Cổ văn đến đây thì đứt đoạn.",
+          "LocalizedString": "Nơi đây tĩnh lặng đến rợn người, nhưng lại mang đến cảm giác yên bình lạ kỳ.\r\nNơi đây không còn một ai. Tất cả đều đã được cứu rỗi.\r\nHỡi Vị Vua Cứu Rỗi, xin hãy đưa cả tôi đến cõi tĩnh lặng vĩnh cửu.\r\n - Cổ văn đến đây thì đứt đoạn."
+        }
+      },
+      "PAL_LONG_DESC_VolcanoDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_VolcanoDragon_TextData",
+          "SourceString": "Những con có lối sống lành mạnh thì dung nham trên lưng chảy rất mượt mà.\r\nCòn mấy con sinh hoạt thiếu điều độ thì dòng chảy sẽ bị nghẽn,\r\ntệ nhất là tắc nghẽn dung nham\r\nvà gây ra cú nổ tung đột ngột.",
+          "LocalizedString": "Những con có lối sống lành mạnh thì dung nham trên lưng chảy rất mượt mà.\r\nCòn mấy con sinh hoạt thiếu điều độ thì dòng chảy sẽ bị nghẽn,\r\ntệ nhất là tắc nghẽn dung nham\r\nvà gây ra cú nổ tung đột ngột."
+        }
+      },
+      "PAL_LONG_DESC_HoodGhost": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_HoodGhost_TextData",
+          "SourceString": "Khi ngủ, chúng rũ xuống.\r\nKhi ngủ, chúng không còn ở đó.\r\nVì <characterName id=|HoodGhost|/> đang ngủ vốn dĩ không hề tồn tại,\r\nnên có thể nói rằng <characterName id=|HoodGhost|/> chưa bao giờ ngủ.",
+          "LocalizedString": "Khi ngủ, chúng rũ xuống.\r\nKhi ngủ, chúng không còn ở đó.\r\nVì <characterName id=|HoodGhost|/> đang ngủ vốn dĩ không hề tồn tại,\r\nnên có thể nói rằng <characterName id=|HoodGhost|/> chưa bao giờ ngủ."
+        }
+      },
+      "PAL_LONG_DESC_Sekhmet": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Sekhmet_TextData",
+          "SourceString": "Vốn có bản tính hung bạo và từng là biểu tượng của cái chết.\r\nSau khi <characterName id=|Anubis|/> chiếm lấy vị trí ấy, những kẻ giàu có muốn tìm sự thay thế\r\nđã dùng rượu để chuốc say và thu phục loài này.\r\nChẳng mấy chốc, <characterName id=|Sekhmet|/> đã trở thành biểu tượng của sự cao quý.",
+          "LocalizedString": "Vốn có bản tính hung bạo và từng là biểu tượng của cái chết.\r\nSau khi <characterName id=|Anubis|/> chiếm lấy vị trí ấy, những kẻ giàu có muốn tìm sự thay thế\r\nđã dùng rượu để chuốc say và thu phục loài này.\r\nChẳng mấy chốc, <characterName id=|Sekhmet|/> đã trở thành biểu tượng của sự cao quý."
+        }
+      },
+      "PAL_LONG_DESC_RockBeast": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_RockBeast_TextData",
+          "SourceString": "Loài này thường tự đập mình vào những tảng đá cứng để duy trì hình dạng lý tưởng.\r\nNếu thấy con nào bị móp méo, tốt nhất cứ mặc kệ chúng đi.\r\nNếu ví với con người, thì có lẽ đó là lúc lỡ tay cắt tóc mái quá ngắn.",
+          "LocalizedString": "Loài này thường tự đập mình vào những tảng đá cứng để duy trì hình dạng lý tưởng.\r\nNếu thấy con nào bị móp méo, tốt nhất cứ mặc kệ chúng đi.\r\nNếu ví với con người, thì có lẽ đó là lúc lỡ tay cắt tóc mái quá ngắn."
+        }
+      },
+      "PAL_LONG_DESC_RockBeast_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_RockBeast_Ice_TextData",
+          "SourceString": "Nó vừa tắm nắng vừa xoay người để tạo hình cho lớp băng trên người.\r\nNếu thấy con nào có hình dáng mất cân đối, tốt nhất cứ mặc kệ nó đi.\r\nNếu ví với con người, thì có lẽ đó là lúc lỡ tay tỉa tóc mai quá ngắn thôi.",
+          "LocalizedString": "Nó vừa tắm nắng vừa xoay người để tạo hình cho lớp băng trên người.\r\nNếu thấy con nào có hình dáng mất cân đối, tốt nhất cứ mặc kệ nó đi.\r\nNếu ví với con người, thì có lẽ đó là lúc lỡ tay tỉa tóc mai quá ngắn thôi."
+        }
+      },
+      "PAL_LONG_DESC_MoonChild": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_MoonChild_TextData",
+          "SourceString": "Khi hành trình cuộc đời khép lại, ở đâu đó trên bầu trời này\r\nsẽ có thêm một ngôi sao lấp lánh.\r\nKý ức càng nhiều, ánh sao ấy càng tỏa sáng rực rỡ.",
+          "LocalizedString": "Khi hành trình cuộc đời khép lại, ở đâu đó trên bầu trời này\r\nsẽ có thêm một ngôi sao lấp lánh.\r\nKý ức càng nhiều, ánh sao ấy càng tỏa sáng rực rỡ."
+        }
+      },
+      "PAL_LONG_DESC_ClownRabbit": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ClownRabbit_TextData",
+          "SourceString": "Đôi khi, chúng bị chính phân thân do mình triệu hồi đánh bại và thay thế.\r\nNgay cả bản thân chúng cũng chẳng rõ <characterName id=|ClownRabbit|/> của hôm qua\r\ncó phải là <characterName id=|ClownRabbit|/> của hôm nay hay không.",
+          "LocalizedString": "Đôi khi, chúng bị chính phân thân do mình triệu hồi đánh bại và thay thế.\r\nNgay cả bản thân chúng cũng chẳng rõ <characterName id=|ClownRabbit|/> của hôm qua\r\ncó phải là <characterName id=|ClownRabbit|/> của hôm nay hay không."
+        }
+      },
+      "PAL_LONG_DESC_CactusDoll": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CactusDoll_TextData",
+          "SourceString": "Khi cảm xúc dâng trào, các gai nhọn trên cơ thể chúng sẽ co giãn.\r\nDù bạn rất muốn ôm lấy <characterName id=|CactusDoll|/> mà mình đã dày công nuôi dưỡng,\r\nnhưng chín phần mười những cái ôm ấy đều kết thúc bằng một tai nạn đau lòng.",
+          "LocalizedString": "Khi cảm xúc dâng trào, các gai nhọn trên cơ thể chúng sẽ co giãn.\r\nDù bạn rất muốn ôm lấy <characterName id=|CactusDoll|/> mà mình đã dày công nuôi dưỡng,\r\nnhưng chín phần mười những cái ôm ấy đều kết thúc bằng một tai nạn đau lòng."
+        }
+      },
+      "PAL_LONG_DESC_CactusDoll_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CactusDoll_Dark_TextData",
+          "SourceString": "Khi cảm xúc dâng trào, các gai nhọn của Pal sẽ co giãn.\r\nMột <characterName id=|CactusDoll_Dark|/> được nuôi dưỡng bằng tình yêu đong đầy\r\nsẽ luôn tìm cách ôm chầm lấy chủ nhân,\r\nnếu đã sẵn lòng đón nhận tình yêu đó, bạn cũng phải chấp nhận cả nỗi đau.",
+          "LocalizedString": "Khi cảm xúc dâng trào, các gai nhọn của Pal sẽ co giãn.\r\nMột <characterName id=|CactusDoll_Dark|/> được nuôi dưỡng bằng tình yêu đong đầy\r\nsẽ luôn tìm cách ôm chầm lấy chủ nhân,\r\nnếu đã sẵn lòng đón nhận tình yêu đó, bạn cũng phải chấp nhận cả nỗi đau."
+        }
+      },
+      "PAL_LONG_DESC_GrassGolem": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GrassGolem_TextData",
+          "SourceString": "Trong một cơ thể, tồn tại hai ý thức. \r\nĐôi khi, chúng sẽ cãi vã chỉ vì |bất đồng phương hướng|.\r\nCho đến khi đôi bên chịu làm hòa, chẳng ai có thể đoán được bộ giáp đó sẽ đi về hướng nào!",
+          "LocalizedString": "Trong một cơ thể, tồn tại hai ý thức. \r\nĐôi khi, chúng sẽ cãi vã chỉ vì |bất đồng phương hướng|.\r\nCho đến khi đôi bên chịu làm hòa, chẳng ai có thể đoán được bộ giáp đó sẽ đi về hướng nào!"
+        }
+      },
+      "PAL_LONG_DESC_GrassGolem_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GrassGolem_Dark_TextData",
+          "SourceString": "Trong một cơ thể, tồn tại hai ý thức.\r\nDù ngày thường chẳng mấy khi đồng quan điểm, cãi vã xảy ra như cơm bữa,\r\nnhưng hễ vào trận chiến là tâm trí và cơ thể sẽ ngay lập tức hợp nhất làm một!",
+          "LocalizedString": "Trong một cơ thể, tồn tại hai ý thức.\r\nDù ngày thường chẳng mấy khi đồng quan điểm, cãi vã xảy ra như cơm bữa,\r\nnhưng hễ vào trận chiến là tâm trí và cơ thể sẽ ngay lập tức hợp nhất làm một!"
+        }
+      },
+      "PAL_LONG_DESC_CubeTurtle": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CubeTurtle_TextData",
+          "SourceString": "Khối đá trên lưng loài Pal này mang một ý chí riêng.\r\nNếu bị gỡ ra và bỏ lại ở một vùng đất xa xôi,\r\nchúng sẽ tự di chuyển để quay về vị trí mà nó thuộc về.",
+          "LocalizedString": "Khối đá trên lưng loài Pal này mang một ý chí riêng.\r\nNếu bị gỡ ra và bỏ lại ở một vùng đất xa xôi,\r\nchúng sẽ tự di chuyển để quay về vị trí mà nó thuộc về."
+        }
+      },
+      "PAL_LONG_DESC_SamuraiDog": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SamuraiDog_TextData",
+          "SourceString": "Cuộc chiến tranh giành lãnh thổ của <characterName id=|SamuraiDog|/> bắt đầu bằng màn lườm nguýt và kết thúc trong một đòn chớp nhoáng.\r\nNhân tiện, tốt nhất là đừng dạy lệnh |Chờ| cho những con đã thuần hóa.\r\nBởi sau câu lệnh |Lên!|, phản xạ bản năng sẽ bộc phát và hậu quả là không thể cứu vãn.",
+          "LocalizedString": "Cuộc chiến tranh giành lãnh thổ của <characterName id=|SamuraiDog|/> bắt đầu bằng màn lườm nguýt và kết thúc trong một đòn chớp nhoáng.\r\nNhân tiện, tốt nhất là đừng dạy lệnh |Chờ| cho những con đã thuần hóa.\r\nBởi sau câu lệnh |Lên!|, phản xạ bản năng sẽ bộc phát và hậu quả là không thể cứu vãn."
+        }
+      },
+      "PAL_LONG_DESC_MummyPal": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_MummyPal_TextData",
+          "SourceString": "Bộ phận trông như lớp băng gạc màu vàng của chúng có thể co giãn linh hoạt.\r\nNếu lớp băng này bị khô quá mức, nó sẽ bị đứt lìa,\r\nnên việc kiểm tra độ ẩm hàng ngày là nhiệm vụ không thể thiếu.",
+          "LocalizedString": "Bộ phận trông như lớp băng gạc màu vàng của chúng có thể co giãn linh hoạt.\r\nNếu lớp băng này bị khô quá mức, nó sẽ bị đứt lìa,\r\nnên việc kiểm tra độ ẩm hàng ngày là nhiệm vụ không thể thiếu."
+        }
+      },
+      "PAL_LONG_DESC_KingSunfish": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_KingSunfish_TextData",
+          "SourceString": "Chúng tạo ra lực đẩy bằng cách xoay chiếc đuôi tựa như chân vịt.\r\nTheo các nghiên cứu trước đây, nếu bỏ qua việc cơ thể bị hủy hoại,\r\nvề lý thuyết, tốc độ của chúng có thể vượt mức 88 dặm/giờ.",
+          "LocalizedString": "Chúng tạo ra lực đẩy bằng cách xoay chiếc đuôi tựa như chân vịt.\r\nTheo các nghiên cứu trước đây, nếu bỏ qua việc cơ thể bị hủy hoại,\r\nvề lý thuyết, tốc độ của chúng có thể vượt mức 88 dặm/giờ."
+        }
+      },
+      "PAL_LONG_DESC_KingSunfish_Thunder": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_KingSunfish_Thunder_TextData",
+          "SourceString": "Chúng tạo ra điện năng bằng cách xoay chiếc đuôi tựa như chân vịt.\r\nVề lý thuyết, chúng có thể tạo ra lượng điện năng khổng lồ đạt mức 1,21 gigawatt,\r\nnhưng vì sẽ khiến cơ thể bị phá hủy ngay lập tức nên khả năng này không có giá trị sử dụng.",
+          "LocalizedString": "Chúng tạo ra điện năng bằng cách xoay chiếc đuôi tựa như chân vịt.\r\nVề lý thuyết, chúng có thể tạo ra lượng điện năng khổng lồ đạt mức 1,21 gigawatt,\r\nnhưng vì sẽ khiến cơ thể bị phá hủy ngay lập tức nên khả năng này không có giá trị sử dụng."
+        }
+      },
+      "PAL_LONG_DESC_MonochromeQueen": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_MonochromeQueen_TextData",
+          "SourceString": "Hễ trải qua một chuyện tốt lành, chúng nhất định phải tìm bằng được một trải nghiệm tồi tệ tương đương thì mới thỏa lòng.\r\nNếu bạn định nuôi dưỡng <characterName id=|MonochromeQueen|/> bằng tất cả tình yêu thương,\r\nhãy chuẩn bị sẵn tâm lý để chính tay thực hiện vế sau.",
+          "LocalizedString": "Hễ trải qua một chuyện tốt lành, chúng nhất định phải tìm bằng được một trải nghiệm tồi tệ tương đương thì mới thỏa lòng.\r\nNếu bạn định nuôi dưỡng <characterName id=|MonochromeQueen|/> bằng tất cả tình yêu thương,\r\nhãy chuẩn bị sẵn tâm lý để chính tay thực hiện vế sau."
+        }
+      },
+      "PAL_LONG_DESC_ElecSnail": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ElecSnail_TextData",
+          "SourceString": "Thả một chú <characterName id=|ElecSnail|/> vào bồn tắm\r\nđể tận hưởng cảm giác 'tắm điện' là một liệu pháp dưỡng sinh rất chi là cổ truyền.\r\nNói một cách hoa mỹ, đây chính là cách ngắn nhất để... đoàn tụ với tổ tiên.",
+          "LocalizedString": "Thả một chú <characterName id=|ElecSnail|/> vào bồn tắm\r\nđể tận hưởng cảm giác 'tắm điện' là một liệu pháp dưỡng sinh rất chi là cổ truyền.\r\nNói một cách hoa mỹ, đây chính là cách ngắn nhất để... đoàn tụ với tổ tiên."
+        }
+      },
+      "PAL_LONG_DESC_ElecSnail_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ElecSnail_Ground_TextData",
+          "SourceString": "Thả một chú <characterName id=|ElecSnail_Ground|/> đã được nung nóng vào bồn tắm\r\nđể tận hưởng cảm giác 'tắm nước sôi sùng sục' là mốt từ thời xa xưa,\r\nnhưng nhờ cơn sốt Retro gần đây, liệu pháp này đã trở thành một Hot Trend cực kỳ... nóng bỏng.",
+          "LocalizedString": "Thả một chú <characterName id=|ElecSnail_Ground|/> đã được nung nóng vào bồn tắm\r\nđể tận hưởng cảm giác 'tắm nước sôi sùng sục' là mốt từ thời xa xưa,\r\nnhưng nhờ cơn sốt Retro gần đây, liệu pháp này đã trở thành một Hot Trend cực kỳ... nóng bỏng."
+        }
+      },
+      "PAL_LONG_DESC_SumoDog": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SumoDog_TextData",
+          "SourceString": "Trên hòn đảo thuở xưa từng tồn tại một loại hình giải trí gọi là Đấu vật <characterName id=|SumoDog|/>.\r\nMột <characterName id=|SumoDog|/> thuộc hàng top\r\ncó thể đứng vững trước cú húc của <characterName id=|Boar|/>,\r\ntrái lại, chính kẻ tấn công là con <characterName id=|Boar|/> lại bị đánh bay đi mất.",
+          "LocalizedString": "Trên hòn đảo thuở xưa từng tồn tại một loại hình giải trí gọi là Đấu vật <characterName id=|SumoDog|/>.\r\nMột <characterName id=|SumoDog|/> thuộc hàng top\r\ncó thể đứng vững trước cú húc của <characterName id=|Boar|/>,\r\ntrái lại, chính kẻ tấn công là con <characterName id=|Boar|/> lại bị đánh bay đi mất."
+        }
+      },
+      "PAL_LONG_DESC_VolcanicTurtle": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_VolcanicTurtle_TextData",
+          "SourceString": "en_text",
+          "LocalizedString": "en_text"
+        }
+      },
+      "PAL_LONG_DESC_ElecPomeranian": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ElecPomeranian_TextData",
+          "SourceString": "Khi ngâm mình trong nước, bộ lông xù xì của Pal sẽ hút một lượng nước khổng lồ.\r\nKhoảnh khắc chúng rũ lông làm khô cũng là lúc một đợt phóng điện kinh hoàng nổ ra,\r\nnên việc tắm cùng nó có thể nói là một hành động đánh cược cả mạng sống.",
+          "LocalizedString": "Khi ngâm mình trong nước, bộ lông xù xì của Pal sẽ hút một lượng nước khổng lồ.\r\nKhoảnh khắc chúng rũ lông làm khô cũng là lúc một đợt phóng điện kinh hoàng nổ ra,\r\nnên việc tắm cùng nó có thể nói là một hành động đánh cược cả mạng sống."
+        }
+      },
+      "PAL_LONG_DESC_ElecLizard": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ElecLizard_TextData",
+          "SourceString": "Thích gì làm nấy, buồn ngủ thì nằm, đói bụng thì ăn.\r\nĐể duy trì được lối sống thong dong đó, chắc chắn các <characterName id=|ElecLizard|/>\r\nđã phải nỗ lực thầm lặng rất nhiều.\r\nNgười dân đảo thời xưa bảo rằng nếu không nghĩ như vậy thì họ không thể nào chịu đựng nổi sự chướng tai gai mắt này.",
+          "LocalizedString": "Thích gì làm nấy, buồn ngủ thì nằm, đói bụng thì ăn.\r\nĐể duy trì được lối sống thong dong đó, chắc chắn các <characterName id=|ElecLizard|/>\r\nđã phải nỗ lực thầm lặng rất nhiều.\r\nNgười dân đảo thời xưa bảo rằng nếu không nghĩ như vậy thì họ không thể nào chịu đựng nổi sự chướng tai gai mắt này."
+        }
+      },
+      "PAL_LONG_DESC_RedFlowerBird": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_RedFlowerBird_TextData",
+          "SourceString": "Người ta bảo rằng hành động vung vẩy cơ thể điên cuồng\r\nlà để ngụy trang thành bông hoa đung đưa trong gió nhằm lẩn tránh kẻ thù.\r\nNhưng cũng có ý kiến phản bác rằng đơn giản là vì một bông hoa đỏ múa may quay cuồng trông quá kinh dị\r\nnên chẳng ai dám lại gần.",
+          "LocalizedString": "Người ta bảo rằng hành động vung vẩy cơ thể điên cuồng\r\nlà để ngụy trang thành bông hoa đung đưa trong gió nhằm lẩn tránh kẻ thù.\r\nNhưng cũng có ý kiến phản bác rằng đơn giản là vì một bông hoa đỏ múa may quay cuồng trông quá kinh dị\r\nnên chẳng ai dám lại gần."
+        }
+      },
+      "PAL_LONG_DESC_ThiefBird": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ThiefBird_TextData",
+          "SourceString": "Loài Pal này có tật chôm chỉa, thường lợi dụng lúc đối phương không để ý để trộm đồ.\r\nNhưng dù có bị bắt quả tang thì cũng chẳng sao.\r\nChỉ cần nhanh tay |trộm| luôn đôi mắt của khổ chủ, đằng nào họ cũng có thấy gì nữa đâu mà bắt tội.",
+          "LocalizedString": "Loài Pal này có tật chôm chỉa, thường lợi dụng lúc đối phương không để ý để trộm đồ.\r\nNhưng dù có bị bắt quả tang thì cũng chẳng sao.\r\nChỉ cần nhanh tay |trộm| luôn đôi mắt của khổ chủ, đằng nào họ cũng có thấy gì nữa đâu mà bắt tội."
+        }
+      },
+      "PAL_LONG_DESC_ThunderFluffyBird": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ThunderFluffyBird_TextData",
+          "SourceString": "Để sinh tồn ở độ cao khắc nghiệt nơi thức ăn vô cùng khan hiếm,\r\nđôi khi chúng phải ăn cả não của kẻ địch.\r\nNgười ta cho rằng một nhóm  cá thể muốn tìm nguồn thức ăn ổn định hơn\r\nđã hạ xuống nơi thấp hơn và phân nhánh thành <characterName id=|ThunderBird|/>.",
+          "LocalizedString": "Để sinh tồn ở độ cao khắc nghiệt nơi thức ăn vô cùng khan hiếm,\r\nđôi khi chúng phải ăn cả não của kẻ địch.\r\nNgười ta cho rằng một nhóm  cá thể muốn tìm nguồn thức ăn ổn định hơn\r\nđã hạ xuống nơi thấp hơn và phân nhánh thành <characterName id=|ThunderBird|/>."
+        }
+      },
+      "PAL_LONG_DESC_FluffyBird": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FluffyBird_TextData",
+          "SourceString": "Lớp lông xù quanh cổ giúp hấp thụ mọi chấn động.\r\nDù có bị hất văng thì cũng chẳng hề hấn gì,\r\ncũng vì bộ lông ấy mà lông thì khó rỉa, bị ngứa lại chẳng gãi được,\r\nthế nên trong lòng lúc nào cũng bứt rứt, khó chịu.",
+          "LocalizedString": "Lớp lông xù quanh cổ giúp hấp thụ mọi chấn động.\r\nDù có bị hất văng thì cũng chẳng hề hấn gì,\r\ncũng vì bộ lông ấy mà lông thì khó rỉa, bị ngứa lại chẳng gãi được,\r\nthế nên trong lòng lúc nào cũng bứt rứt, khó chịu."
+        }
+      },
+      "PAL_LONG_DESC_FoxExorcist": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FoxExorcist_TextData",
+          "SourceString": "Chúng tập trung tinh thần vào ngọn lửa để nhìn thấu tương lai.\r\nNếu thấy một tương lai không như ý, chúng sẽ làm lại cho đến khi nào ra kết quả tốt mới thôi.\r\nVì vậy, tương lai của <characterName id=|FoxExorcist|/> lúc nào cũng rạng rỡ!",
+          "LocalizedString": "Chúng tập trung tinh thần vào ngọn lửa để nhìn thấu tương lai.\r\nNếu thấy một tương lai không như ý, chúng sẽ làm lại cho đến khi nào ra kết quả tốt mới thôi.\r\nVì vậy, tương lai của <characterName id=|FoxExorcist|/> lúc nào cũng rạng rỡ!"
+        }
+      },
+      "PAL_LONG_DESC_ClioneTwins": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ClioneTwins_TextData",
+          "SourceString": "Chỉ cần một con biến mất, kẻ thay thế sẽ từ đâu đó tìm đến ngay lập tức.\r\nRồi chúng lại chung sống hòa thuận như chưa từng có chuyện gì xảy ra.\r\nVới <characterName id=|ClioneTwins|/>, điều quan trọng nhất là\r\nphải hòa hợp với nhau.",
+          "LocalizedString": "Chỉ cần một con biến mất, kẻ thay thế sẽ từ đâu đó tìm đến ngay lập tức.\r\nRồi chúng lại chung sống hòa thuận như chưa từng có chuyện gì xảy ra.\r\nVới <characterName id=|ClioneTwins|/>, điều quan trọng nhất là\r\nphải hòa hợp với nhau."
+        }
+      },
+      "PAL_LONG_DESC_DandelionGirl": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_DandelionGirl_TextData",
+          "SourceString": "Pal này có thể nhét những ký ức không vui vào trong lớp lông tơ của mình.\r\nKhi sợi lông ấy nương theo gió bay đi mất,\r\nmọi muộn phiền cũng sẽ theo đó mà tan biến.",
+          "LocalizedString": "Pal này có thể nhét những ký ức không vui vào trong lớp lông tơ của mình.\r\nKhi sợi lông ấy nương theo gió bay đi mất,\r\nmọi muộn phiền cũng sẽ theo đó mà tan biến."
+        }
+      },
+      "PAL_LONG_DESC_SleeveRabbit": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SleeveRabbit_TextData",
+          "SourceString": "Loài Pal này dùng lớp lông dài ở đầu ngón tay để thu hút sự chú ý.\r\nVì nhạy cảm với vết bẩn và chăm sóc bộ lông đó hết sức kỹ lưỡng,\r\nnên nếu bạn làm bụi bay gần đó, chúng sẽ ném cho bạn một cái nhìn đầy vẻ ghét bỏ.",
+          "LocalizedString": "Loài Pal này dùng lớp lông dài ở đầu ngón tay để thu hút sự chú ý.\r\nVì nhạy cảm với vết bẩn và chăm sóc bộ lông đó hết sức kỹ lưỡng,\r\nnên nếu bạn làm bụi bay gần đó, chúng sẽ ném cho bạn một cái nhìn đầy vẻ ghét bỏ."
+        }
+      },
+      "PAL_LONG_DESC_SmallYeti": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SmallYeti_TextData",
+          "SourceString": "|Nhìn vào mắt của <characterName id=|SmallYeti|/>|\r\nlà một câu thành ngữ dùng để chỉ việc tìm kiếm bản chất ẩn giấu của sự vật.\r\nNhưng chẳng hiểu vì sao mà từ trước đến nay,\r\nchưa một nhà nghiên cứu nào từng tìm hiểu xem <characterName id=|SmallYeti|/> có mắt hay không.",
+          "LocalizedString": "|Nhìn vào mắt của <characterName id=|SmallYeti|/>|\r\nlà một câu thành ngữ dùng để chỉ việc tìm kiếm bản chất ẩn giấu của sự vật.\r\nNhưng chẳng hiểu vì sao mà từ trước đến nay,\r\nchưa một nhà nghiên cứu nào từng tìm hiểu xem <characterName id=|SmallYeti|/> có mắt hay không."
+        }
+      },
+      "PAL_LONG_DESC_StrawHatCat": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_StrawHatCat_TextData",
+          "SourceString": "en_text",
+          "LocalizedString": "en_text"
+        }
+      },
+      "PAL_LONG_DESC_CandleWitch": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CandleWitch_TextData",
+          "SourceString": "en_text",
+          "LocalizedString": "en_text"
+        }
+      },
+      "PAL_LONG_DESC_CloverFairy": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CloverFairy_TextData",
+          "SourceString": "Trước đây từng tồn tại những cá thể Pal có từ 3 lá trở lên trên trán,\r\nchính vì được coi là biểu tượng của sự may mắn nên chúng đã bị săn bắt ráo riết,\r\nnên cả loài bắt đầu tiến hóa theo hướng mọc ít lá đi.",
+          "LocalizedString": "Trước đây từng tồn tại những cá thể Pal có từ 3 lá trở lên trên trán,\r\nchính vì được coi là biểu tượng của sự may mắn nên chúng đã bị săn bắt ráo riết,\r\nnên cả loài bắt đầu tiến hóa theo hướng mọc ít lá đi."
+        }
+      },
+      "PAL_LONG_DESC_GhostBlackCat": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GhostBlackCat_TextData",
+          "SourceString": "Mọi ý niệm của những chủ nhân từng chăm sóc giống loài này\r\nđều nằm gọn trong bàn tay phía sau lưng chúng.\r\nVà có vẻ như ý muốn chung của các thế hệ gần đây là cứ nuông chiều <characterName id=|GhostBlackCat|/> hết mức đi.",
+          "LocalizedString": "Mọi ý niệm của những chủ nhân từng chăm sóc giống loài này\r\nđều nằm gọn trong bàn tay phía sau lưng chúng.\r\nVà có vẻ như ý muốn chung của các thế hệ gần đây là cứ nuông chiều <characterName id=|GhostBlackCat|/> hết mức đi."
+        }
+      },
+      "PAL_LONG_DESC_OniGhostGirl": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_OniGhostGirl_TextData",
+          "SourceString": "Thích hù dọa người là bản năng, nhưng chẳng dọa được ai vì quá dễ thương.\r\nAi gặp cũng giả vờ |hết hồn| để chiều lòng chúng,\r\nnên giờ đây <characterName id=|OniGhostGirl|/> đã trở thành sứ giả gieo rắc nụ cười thay vì nỗi sợ.",
+          "LocalizedString": "Thích hù dọa người là bản năng, nhưng chẳng dọa được ai vì quá dễ thương.\r\nAi gặp cũng giả vờ |hết hồn| để chiều lòng chúng,\r\nnên giờ đây <characterName id=|OniGhostGirl|/> đã trở thành sứ giả gieo rắc nụ cười thay vì nỗi sợ."
+        }
+      },
+      "PAL_LONG_DESC_LongCat": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_LongCat_TextData",
+          "SourceString": "Trong các bức tranh cổ, dáng vẻ của Pal này nhỏ nhắn hơn bây giờ nhiều.\r\nKhông hiểu sao những năm gần đây, các bộ phận trên cơ thể chúng lại dài ra nhanh chóng,\r\nvà dự kiến sau 100 năm nữa, kích thước chúng sẽ gấp 10 lần hiện tại.",
+          "LocalizedString": "Trong các bức tranh cổ, dáng vẻ của Pal này nhỏ nhắn hơn bây giờ nhiều.\r\nKhông hiểu sao những năm gần đây, các bộ phận trên cơ thể chúng lại dài ra nhanh chóng,\r\nvà dự kiến sau 100 năm nữa, kích thước chúng sẽ gấp 10 lần hiện tại."
+        }
+      },
+      "PAL_LONG_DESC_DarkFlameFox": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_DarkFlameFox_TextData",
+          "SourceString": "Dáng đứng chống tay ngang hông của loài này trông rất nghệ,\r\nnhưng thực ra là vì bộ tóc và cái đuôi quá nặng\r\nnên nó chỉ đang gồng mình để không bị ngã ngửa thôi.",
+          "LocalizedString": "Dáng đứng chống tay ngang hông của loài này trông rất nghệ,\r\nnhưng thực ra là vì bộ tóc và cái đuôi quá nặng\r\nnên nó chỉ đang gồng mình để không bị ngã ngửa thôi."
+        }
+      },
+      "PAL_LONG_DESC_LanternButler": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_LanternButler_TextData",
+          "SourceString": "Chiếc đèn lồng tỏa ra ánh sáng huyền bí, soi rọi mọi sự thật trên thế gian.\r\nNếu cảm thấy ánh sáng ấy quá chói mắt,\r\nhẳn là trong lòng bạn đang che giấu điều gì khuất tất chăng?",
+          "LocalizedString": "Chiếc đèn lồng tỏa ra ánh sáng huyền bí, soi rọi mọi sự thật trên thế gian.\r\nNếu cảm thấy ánh sáng ấy quá chói mắt,\r\nhẳn là trong lòng bạn đang che giấu điều gì khuất tất chăng?"
+        }
+      },
+      "PAL_LONG_DESC_VenusFlytrap": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_VenusFlytrap_TextData",
+          "SourceString": "Vì cái gì cũng dám bỏ vào mồm\r\nnên cái miệng trên đỉnh đầu thường xuyên bị nhiệt miệng nghiêm trọng.\r\nNhững lúc đó, chúng sẽ chuyển sang dùng chiếc miệng trên mặt.\r\nNhưng vì chứng nào tật nấy, nên cả hai cái miệng đều bị nhiệt miệng.",
+          "LocalizedString": "Vì cái gì cũng dám bỏ vào mồm\r\nnên cái miệng trên đỉnh đầu thường xuyên bị nhiệt miệng nghiêm trọng.\r\nNhững lúc đó, chúng sẽ chuyển sang dùng chiếc miệng trên mặt.\r\nNhưng vì chứng nào tật nấy, nên cả hai cái miệng đều bị nhiệt miệng."
+        }
+      },
+      "PAL_LONG_DESC_SwordCutlassfish": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SwordCutlassfish_TextData",
+          "SourceString": "Một tập tính điên rồ của loài này là tạm thời tách rời cơ thể, dùng xương để chém gục kẻ địch.\r\nNếu không kịp thời nhập xác thì chính nó cũng sẽ bị kiệt sức mà chết.\r\nNghe đâu trong đám trẻ trẻ của loài này đang rộ lên trò chơi thách thức giới hạn\r\nlà thi xem ai tách rời cơ thể được lâu nhất.",
+          "LocalizedString": "Một tập tính điên rồ của loài này là tạm thời tách rời cơ thể, dùng xương để chém gục kẻ địch.\r\nNếu không kịp thời nhập xác thì chính nó cũng sẽ bị kiệt sức mà chết.\r\nNghe đâu trong đám trẻ trẻ của loài này đang rộ lên trò chơi thách thức giới hạn\r\nlà thi xem ai tách rời cơ thể được lâu nhất."
+        }
+      },
+      "PAL_LONG_DESC_SnakeGirl": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SnakeGirl_TextData",
+          "SourceString": "Mỗi khi có điều gì không hiểu, nó lại cùng đám rắn trên đầu mở một cuộc họp bàn.\r\nThế nhưng, vì rốt cuộc tất cả cũng chỉ là một mình nó,\r\nnên kết quả cuối cùng của cuộc họp là mình chẳng hiểu gì cả.",
+          "LocalizedString": "Mỗi khi có điều gì không hiểu, nó lại cùng đám rắn trên đầu mở một cuộc họp bàn.\r\nThế nhưng, vì rốt cuộc tất cả cũng chỉ là một mình nó,\r\nnên kết quả cuối cùng của cuộc họp là mình chẳng hiểu gì cả."
+        }
+      },
+      "PAL_LONG_DESC_MushroomLady": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_MushroomLady_TextData",
+          "SourceString": "Trong mắt loài này, con người chẳng qua chỉ là vật chủ ký sinh tiện lợi.\r\nSở dĩ <characterName id=|MushroomLady|/> có hình dạng như thế này\r\nlà để khiến con người mất cảnh giác, từ đó giúp chúng phát tán bào tử một cách hiệu quả.",
+          "LocalizedString": "Trong mắt loài này, con người chẳng qua chỉ là vật chủ ký sinh tiện lợi.\r\nSở dĩ <characterName id=|MushroomLady|/> có hình dạng như thế này\r\nlà để khiến con người mất cảnh giác, từ đó giúp chúng phát tán bào tử một cách hiệu quả."
+        }
+      },
+      "PAL_LONG_DESC_KingWhale": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_KingWhale_TextData",
+          "SourceString": "Kẻ sống sót cuối cùng của giống loài, vẫn ôm chặt sứ mệnh trong lòng và kiên trì chờ đợi.\r\nGiờ đây, sau khi hoàn thành nhiệm vụ, đáp lại tiếng gọi mẹ của nó\r\ncũng chỉ là những tiếng vang vọng xa xăm mà thôi.",
+          "LocalizedString": "Kẻ sống sót cuối cùng của giống loài, vẫn ôm chặt sứ mệnh trong lòng và kiên trì chờ đợi.\r\nGiờ đây, sau khi hoàn thành nhiệm vụ, đáp lại tiếng gọi mẹ của nó\r\ncũng chỉ là những tiếng vang vọng xa xăm mà thôi."
+        }
+      },
+      "PAL_LONG_DESC_BlueSkyDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_BlueSkyDragon_TextData",
+          "SourceString": "Khi gặp được người bạn đời định mệnh,\r\nPal này sẽ tháo chiếc vòng đang trôi lơ lửng ở giữa cơ thể mình ra\r\nđể trao đổi với đối phương.",
+          "LocalizedString": "Khi gặp được người bạn đời định mệnh,\r\nPal này sẽ tháo chiếc vòng đang trôi lơ lửng ở giữa cơ thể mình ra\r\nđể trao đổi với đối phương."
+        }
+      },
+      "PAL_LONG_DESC_Mothman": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_Mothman_TextData",
+          "SourceString": "Trú ngụ nơi cổ thụ từ thuở xa xưa, nó cứ đứng lặng lẽ bên Cây Thế Giới để bảo vệ một điều gì đó.\r\nBảo vệ cái gì, tại sao phải bảo vệ,<characterName id=|Mothman|/> nó cũng chẳng bận tâm.\r\nBởi vì Cây Thế Giới sẽ mách bảo cho nó.\r\nVà những bào tử mà nó điều khiển chắc chắn sẽ biết đâu là kẻ thù.",
+          "LocalizedString": "Trú ngụ nơi cổ thụ từ thuở xa xưa, nó cứ đứng lặng lẽ bên Cây Thế Giới để bảo vệ một điều gì đó.\r\nBảo vệ cái gì, tại sao phải bảo vệ,<characterName id=|Mothman|/> nó cũng chẳng bận tâm.\r\nBởi vì Cây Thế Giới sẽ mách bảo cho nó.\r\nVà những bào tử mà nó điều khiển chắc chắn sẽ biết đâu là kẻ thù."
+        }
+      },
+      "PAL_LONG_DESC_GhostDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GhostDragon_TextData",
+          "SourceString": "Một loài Pal mới xuất hiện trong thời gian gần đây.\r\nÔn hòa và điềm tĩnh, nó chỉ đơn giản là đang sống một cuộc đời tự do.\r\nGiờ đây, nó không còn bị ràng buộc bởi bất cứ điều gì nữa.",
+          "LocalizedString": "Một loài Pal mới xuất hiện trong thời gian gần đây.\r\nÔn hòa và điềm tĩnh, nó chỉ đơn giản là đang sống một cuộc đời tự do.\r\nGiờ đây, nó không còn bị ràng buộc bởi bất cứ điều gì nữa."
+        }
+      },
+      "PAL_LONG_DESC_FlowerPrince": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FlowerPrince_TextData",
+          "SourceString": "Trú ngụ nơi cổ thụ từ thuở xa xưa, nó cứ đứng lặng lẽ bên Cây Thế Giới để bảo vệ một điều gì đó.\r\nBảo vệ cái gì, tại sao phải bảo vệ,<characterName id=|FlowerPrince|/> nó cũng chẳng thấu.\r\nBởi vì Cây Thế Giới biết rõ mọi chuyện.\r\nVà màn sương nó điều khiển sẽ cho nó nhìn thấy chân tướng.",
+          "LocalizedString": "Trú ngụ nơi cổ thụ từ thuở xa xưa, nó cứ đứng lặng lẽ bên Cây Thế Giới để bảo vệ một điều gì đó.\r\nBảo vệ cái gì, tại sao phải bảo vệ,<characterName id=|FlowerPrince|/> nó cũng chẳng thấu.\r\nBởi vì Cây Thế Giới biết rõ mọi chuyện.\r\nVà màn sương nó điều khiển sẽ cho nó nhìn thấy chân tướng."
+        }
+      },
+      "PAL_LONG_DESC_WorldTreeDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WorldTreeDragon_TextData",
+          "SourceString": "Kết cục bi thảm của một Pal bí ẩn từng bay đến Palpagos từ rất lâu trước đây.\r\nNó từng như một trận tai ương mang đến sự hủy diệt và rồi bị phong ấn trong một thời gian dài,\r\nnhưng cuối cùng đã bị khuất phục dưới tay một Nhà Huấn Luyện Pal nào đó.",
+          "LocalizedString": "Kết cục bi thảm của một Pal bí ẩn từng bay đến Palpagos từ rất lâu trước đây.\r\nNó từng như một trận tai ương mang đến sự hủy diệt và rồi bị phong ấn trong một thời gian dài,\r\nnhưng cuối cùng đã bị khuất phục dưới tay một Nhà Huấn Luyện Pal nào đó."
+        }
+      },
+      "PAL_LONG_DESC_GrassMinotaur": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GrassMinotaur_TextData",
+          "SourceString": "Chiếc lá trên sừng của chúng bám chắc đến mức dù có kéo mạnh thế nào cũng không hề lay chuyển.\r\nKhi chiếc lá ấy tự rụng xuống,\r\nđó là lúc <characterName id=|GrassMinotaur|/> nhận ra thời khắc ra đi của mình đã đến.",
+          "LocalizedString": "Chiếc lá trên sừng của chúng bám chắc đến mức dù có kéo mạnh thế nào cũng không hề lay chuyển.\r\nKhi chiếc lá ấy tự rụng xuống,\r\nđó là lúc <characterName id=|GrassMinotaur|/> nhận ra thời khắc ra đi của mình đã đến."
+        }
+      },
+      "PAL_LONG_DESC_GrassMinotaur_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GrassMinotaur_Ice_TextData",
+          "SourceString": "Chiếc sừng băng giá sẽ không bao giờ tan chảy chừng nào chúng còn sống.\r\nKhi những giọt nước bắt đầu nhỏ xuống từ khối băng ấy, <characterName id=|GrassMinotaur_Ice|/> sẽ\r\ncảm nhận được cơ thể mình đang dần lạnh đi.",
+          "LocalizedString": "Chiếc sừng băng giá sẽ không bao giờ tan chảy chừng nào chúng còn sống.\r\nKhi những giọt nước bắt đầu nhỏ xuống từ khối băng ấy, <characterName id=|GrassMinotaur_Ice|/> sẽ\r\ncảm nhận được cơ thể mình đang dần lạnh đi."
+        }
+      },
+      "PAL_LONG_DESC_LotusDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_LotusDragon_TextData",
+          "SourceString": "Quanh chỗ <characterName id=|LotusDragon|/> sinh sống\r\nmọc đầy những bông hoa trông giống hệt nó.\r\nĐã có nhiều nghiên cứu nhằm nhân giống riêng loài hoa này,\r\nnhưng cứ hễ có bàn tay con người chạm vào là chúng lại héo rũ ngay lập tức.",
+          "LocalizedString": "Quanh chỗ <characterName id=|LotusDragon|/> sinh sống\r\nmọc đầy những bông hoa trông giống hệt nó.\r\nĐã có nhiều nghiên cứu nhằm nhân giống riêng loài hoa này,\r\nnhưng cứ hễ có bàn tay con người chạm vào là chúng lại héo rũ ngay lập tức."
+        }
+      },
+      "PAL_LONG_DESC_PandaGirl": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_PandaGirl_TextData",
+          "SourceString": "Để luyện thành võ công gia truyền, mỗi ngày chỉ có tập luyện và tập luyện!\r\nYêu đương gì tầm này, không được! Mỗi ngày chỉ có rèn với luyện!\r\nThời cơ đến rồi! |Tấn công| người trong mộng thôi! Để rồi chỉ có thất tình!\r\nTuyệt chiêu yêu đương chưa từng được học! Chỉ có vấn vương!",
+          "LocalizedString": "Để luyện thành võ công gia truyền, mỗi ngày chỉ có tập luyện và tập luyện!\r\nYêu đương gì tầm này, không được! Mỗi ngày chỉ có rèn với luyện!\r\nThời cơ đến rồi! |Tấn công| người trong mộng thôi! Để rồi chỉ có thất tình!\r\nTuyệt chiêu yêu đương chưa từng được học! Chỉ có vấn vương!"
+        }
+      },
+      "PAL_LONG_DESC_KabukiMan": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_KabukiMan_TextData",
+          "SourceString": "Khi đối đầu với kẻ địch, thoạt nhìn\r\ncác chuyển động của nó có vẻ phô trương và đầy sơ hở,\r\nnhưng kỳ lạ thay, đối phương lại bị áp chế rồi mải mê nhìn theo.",
+          "LocalizedString": "Khi đối đầu với kẻ địch, thoạt nhìn\r\ncác chuyển động của nó có vẻ phô trương và đầy sơ hở,\r\nnhưng kỳ lạ thay, đối phương lại bị áp chế rồi mải mê nhìn theo."
+        }
+      },
+      "PAL_LONG_DESC_DomeArmorDragon": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_DomeArmorDragon_TextData",
+          "SourceString": "Ngày xửa ngày xưa, khi việc liên lạc còn khó khăn,\r\nngười ta thường tận dụng ánh sáng nhấp nháy dưới cánh của <characterName id=|DomeArmorDragon|/>\r\nđể gửi đi các tín hiệu đơn giản.",
+          "LocalizedString": "Ngày xửa ngày xưa, khi việc liên lạc còn khó khăn,\r\nngười ta thường tận dụng ánh sáng nhấp nháy dưới cánh của <characterName id=|DomeArmorDragon|/>\r\nđể gửi đi các tín hiệu đơn giản."
+        }
+      },
+      "PAL_LONG_DESC_WhiteDeer_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WhiteDeer_Dark_TextData",
+          "SourceString": "Ánh sáng rực rỡ luôn đi kèm với bóng tối.\r\nNó gieo rắc màn đêm bao trùm vạn vật, mang sự hỗn loạn vốn có trở về.\r\nBởi lẽ, thế giới cần có sự cân bằng.",
+          "LocalizedString": "Ánh sáng rực rỡ luôn đi kèm với bóng tối.\r\nNó gieo rắc màn đêm bao trùm vạn vật, mang sự hỗn loạn vốn có trở về.\r\nBởi lẽ, thế giới cần có sự cân bằng."
+        }
+      },
+      "PAL_LONG_DESC_WingGolem_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WingGolem_Fire_TextData",
+          "SourceString": "Một loài Pal kỳ quái, dù có bị tháo rời nhưng chỉ cần lắp lại là nó vẫn hoạt động bình thường.\r\nNếu lỡ lắp nhầm bộ phận của con khác vào, hệ điều hành của nó sẽ bị lỗi nặng,\r\ngây ra cháy nổ ngay.",
+          "LocalizedString": "Một loài Pal kỳ quái, dù có bị tháo rời nhưng chỉ cần lắp lại là nó vẫn hoạt động bình thường.\r\nNếu lỡ lắp nhầm bộ phận của con khác vào, hệ điều hành của nó sẽ bị lỗi nặng,\r\ngây ra cháy nổ ngay."
+        }
+      },
+      "PAL_LONG_DESC_GhostDragon_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_GhostDragon_Fire_TextData",
+          "SourceString": "Một loài Pal mới xuất hiện trong thời gian gần đây.\r\nVới tính tình hung dữ, nó luôn trút cơn giận lên một cái gì đó.\r\nGiờ đây, nó không còn tin vào bất cứ điều gì nữa.",
+          "LocalizedString": "Một loài Pal mới xuất hiện trong thời gian gần đây.\r\nVới tính tình hung dữ, nó luôn trút cơn giận lên một cái gì đó.\r\nGiờ đây, nó không còn tin vào bất cứ điều gì nữa."
+        }
+      },
+      "PAL_LONG_DESC_FlowerDoll_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_FlowerDoll_Fire_TextData",
+          "SourceString": "Khi hết vòng đời, nó sẽ cháy rụi thành tro.\r\nLớp tro đó khiến đất đai xung quanh trở nên cực kỳ màu mỡ,\r\ngiúp cây cối mọc lên xanh tốt trong suốt 10 năm sau đó.",
+          "LocalizedString": "Khi hết vòng đời, nó sẽ cháy rụi thành tro.\r\nLớp tro đó khiến đất đai xung quanh trở nên cực kỳ màu mỡ,\r\ngiúp cây cối mọc lên xanh tốt trong suốt 10 năm sau đó."
+        }
+      },
+      "PAL_LONG_DESC_IceSeal_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_IceSeal_Ground_TextData",
+          "SourceString": "Đứa nào trượt trên tuyết nhanh nhất thì đứa đó làm đại ca.\r\nCó mấy con trượt hăng quá, bay lên rồi cắm đầu xuống, kẹt cứng trong tuyết.\r\nĐến mùa tranh ngôi vương thì chuyện này còn xảy ra nhiều hơn.\r\nDự báo tắc đường mang tên <characterName id=|IceSeal_Ground|/>.",
+          "LocalizedString": "Đứa nào trượt trên tuyết nhanh nhất thì đứa đó làm đại ca.\r\nCó mấy con trượt hăng quá, bay lên rồi cắm đầu xuống, kẹt cứng trong tuyết.\r\nĐến mùa tranh ngôi vương thì chuyện này còn xảy ra nhiều hơn.\r\nDự báo tắc đường mang tên <characterName id=|IceSeal_Ground|/>."
+        }
+      },
+      "PAL_LONG_DESC_SwordCutlassfish_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_SwordCutlassfish_Fire_TextData",
+          "SourceString": "Nó có thể tách rời cơ thể, dùng xương để chém gục kẻ địch,\r\nnhưng nếu không kịp thời nhập xác, nó sẽ kiệt sức mà chết.\r\nNghe đồn mấy con già đời thường cố tình tách rời cơ thể lâu hơn\r\nđể kích hoạt bản năng sinh tồn kéo dài tuổi thọ, thực hư thế nào thì không rõ.",
+          "LocalizedString": "Nó có thể tách rời cơ thể, dùng xương để chém gục kẻ địch,\r\nnhưng nếu không kịp thời nhập xác, nó sẽ kiệt sức mà chết.\r\nNghe đồn mấy con già đời thường cố tình tách rời cơ thể lâu hơn\r\nđể kích hoạt bản năng sinh tồn kéo dài tuổi thọ, thực hư thế nào thì không rõ."
+        }
+      },
+      "PAL_LONG_DESC_WhiteMoth_Neutral": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WhiteMoth_Neutral_TextData",
+          "SourceString": "Nó thích nhìn chằm chằm vào khoảng không vô định,\r\nvà thường hay đứng lặng yên một chỗ.\r\nNơi đây thường trở thành nơi tụ tập của những Pal nhỏ bé.",
+          "LocalizedString": "Nó thích nhìn chằm chằm vào khoảng không vô định,\r\nvà thường hay đứng lặng yên một chỗ.\r\nNơi đây thường trở thành nơi tụ tập của những Pal nhỏ bé."
+        }
+      },
+      "PAL_LONG_DESC_ThunderBird_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_ThunderBird_Ice_TextData",
+          "SourceString": "Loài Pal này thích nghi hoàn toàn với vùng đất lạnh giá, thân hình thanh mảnh nhưng chịu lạnh cực tốt.\r\nĐòn tấn công lao xuống từ trên cao của nó có uy lực khủng khiếp,\r\nví như một khối băng nhọn khổng lồ từ trên trời giáng xuống.",
+          "LocalizedString": "Loài Pal này thích nghi hoàn toàn với vùng đất lạnh giá, thân hình thanh mảnh nhưng chịu lạnh cực tốt.\r\nĐòn tấn công lao xuống từ trên cao của nó có uy lực khủng khiếp,\r\nví như một khối băng nhọn khổng lồ từ trên trời giáng xuống."
+        }
+      },
+      "PAL_LONG_DESC_CubeTurtle_Neutral": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_CubeTurtle_Neutral_TextData",
+          "SourceString": "Dù mấy viên đá trên lưng có bị mang đi đâu mất,\r\n<characterName id=|CubeTurtle_Neutral|/> vẫn biết chính xác vị trí của chúng.\r\nDù có ở nơi xa xôi cách trở thế nào, nó chắc chắn vẫn sẽ tìm ra.",
+          "LocalizedString": "Dù mấy viên đá trên lưng có bị mang đi đâu mất,\r\n<characterName id=|CubeTurtle_Neutral|/> vẫn biết chính xác vị trí của chúng.\r\nDù có ở nơi xa xôi cách trở thế nào, nó chắc chắn vẫn sẽ tìm ra."
+        }
+      },
+      "PAL_LONG_DESC_VolcanoDragon_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_VolcanoDragon_Ice_TextData",
+          "SourceString": "Những cá thể khỏe mạnh có nhiệt độ dòng chất lỏng chảy trên lưng rất ổn định.\r\nNhưng chỉ cần chúng cảm thấy bồn chồn, nhiệt độ sẽ nhảy loạn xạ.\r\nTệ nhất là cơ thể chúng sẽ bị bốc hơi hoặc đông cứng,\r\ndẫn đến đột tử.",
+          "LocalizedString": "Những cá thể khỏe mạnh có nhiệt độ dòng chất lỏng chảy trên lưng rất ổn định.\r\nNhưng chỉ cần chúng cảm thấy bồn chồn, nhiệt độ sẽ nhảy loạn xạ.\r\nTệ nhất là cơ thể chúng sẽ bị bốc hơi hoặc đông cứng,\r\ndẫn đến đột tử."
+        }
+      },
+      "PAL_LONG_DESC_WorldTreeDragon_2": {
+        "TextData": {
+          "Namespace": "DT_PalLongDescriptionText",
+          "Key": "PAL_LONG_DESC_WorldTreeDragon_2_TextData",
+          "SourceString": "Tôi có muốn làm tổn thương ai đâu.\r\nChỉ cần được ở bên nhau, chỉ cần có mặt ở đó là cũng đã đủ rồi.\r\nNhưng điều đó không được phép, và chẳng ai chịu bao dung,\r\nphải chi có một thế giới chỉ dành riêng cho cả hai.",
+          "LocalizedString": "Tôi có muốn làm tổn thương ai đâu.\r\nChỉ cần được ở bên nhau, chỉ cần có mặt ở đó là cũng đã đủ rồi.\r\nNhưng điều đó không được phép, và chẳng ai chịu bao dung,\r\nphải chi có một thế giới chỉ dành riêng cho cả hai."
+        }
+      }
+    }
+  }
+]

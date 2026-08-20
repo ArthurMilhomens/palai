@@ -20,6 +20,7 @@ function item(
     name,
     iconUrl: null,
     rarity,
+    kind: 'item',
   };
 }
 

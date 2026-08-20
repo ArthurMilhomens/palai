@@ -2,9 +2,8 @@
   {
     "Type": "DataTable",
     "Name": "DT_SkillDescText_Common",
-    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'DataTable'",
-    "Package": "Pal/Content/L10N/en/Pal/DataTable/Text/DT_SkillDescText_Common",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "RowStruct": {
         "ObjectName": "ScriptStruct'PalLocalizedTextData'",
@@ -56,8 +55,8 @@
         "TextData": {
           "Namespace": "DT_SkillDescText_Common",
           "Key": "ACTION_SKILL_PowerShot_TextData",
-          "SourceString": "Charges energy\r\ninto a focused blast.",
-          "LocalizedString": "Charges energy\r\ninto a focused blast."
+          "SourceString": "Charges energy into a focused blast.",
+          "LocalizedString": "Charges energy into a focused blast."
         }
       },
       "ACTION_SKILL_PowerBall": {
@@ -528,8 +527,8 @@
         "TextData": {
           "Namespace": "DT_SkillDescText_Common",
           "Key": "ACTION_SKILL_Unique_JetDragon_JumpBeam_TextData",
-          "SourceString": "<characterName id=|JetDragon|/>'s exclusive skill.\r\nIlluminates its wings and fires innumerable beams as it flies towards the enemy.\r\nThe beams explode on impact.",
-          "LocalizedString": "<characterName id=|JetDragon|/>'s exclusive skill.\r\nIlluminates its wings and fires innumerable beams as it flies towards the enemy.\r\nThe beams explode on impact."
+          "SourceString": "<characterName id=|JetDragon|/>'s exclusive skill.\r\nIlluminates its wings and fires innumerable beams that fly towards the enemy. \r\nThe beams explode on impact.",
+          "LocalizedString": "<characterName id=|JetDragon|/>'s exclusive skill.\r\nIlluminates its wings and fires innumerable beams that fly towards the enemy. \r\nThe beams explode on impact."
         }
       },
       "ACTION_SKILL_Unique_KingAlpaca_BodyPress": {
@@ -1544,8 +1543,8 @@
         "TextData": {
           "Namespace": "DT_SkillDescText_Common",
           "Key": "ACTION_SKILL_Unique_PandaGirl_RapidKick_TextData",
-          "SourceString": "<characterName id=|PandaGirl|/>'s exclusive skill.\r\nRapidly delivers a series of consecutive roundhouse kicks, finishing with an engery blast.",
-          "LocalizedString": "<characterName id=|PandaGirl|/>'s exclusive skill.\r\nRapidly delivers a series of consecutive roundhouse kicks, finishing with an engery blast."
+          "SourceString": "<characterName id=|PandaGirl|/>'s exclusive skill.\r\nRapidly delivers a series of consecutive roundhouse kicks, finishing with an energy blast.",
+          "LocalizedString": "<characterName id=|PandaGirl|/>'s exclusive skill.\r\nRapidly delivers a series of consecutive roundhouse kicks, finishing with an energy blast."
         }
       },
       "ACTION_SKILL_Unique_ElecSnail_ShellCharge": {
@@ -1912,8 +1911,8 @@
         "TextData": {
           "Namespace": "DT_SkillDescText_Common",
           "Key": "ACTION_SKILL_FireSeed_TextData",
-          "SourceString": "Shoots fireballs towards an enemy. \r\nThe fireballs explode after a short distance, \r\ngenerating smaller fireballs that spread forward.",
-          "LocalizedString": "Shoots fireballs towards an enemy. \r\nThe fireballs explode after a short distance, \r\ngenerating smaller fireballs that spread forward."
+          "SourceString": "Shoots a fireball toward an enemy. \r\nThe fireball explodes after a short distance, \r\ngenerating smaller fireballs that spread forward.",
+          "LocalizedString": "Shoots a fireball toward an enemy. \r\nThe fireball explodes after a short distance, \r\ngenerating smaller fireballs that spread forward."
         }
       },
       "ACTION_SKILL_FlareTornado": {
@@ -3120,8 +3119,8 @@
         "TextData": {
           "Namespace": "DT_SkillDescText_Common",
           "Key": "PASSIVE_Vampire_DESC_TextData",
-          "SourceString": "Absorbs a portion of the damage dealt to restore <uiCommon id=|COMMON_STATUS_HP|/>. \r\nDoes not sleep at night and continues to work.",
-          "LocalizedString": "Absorbs a portion of the damage dealt to restore <uiCommon id=|COMMON_STATUS_HP|/>. \r\nDoes not sleep at night and continues to work."
+          "SourceString": "Absorbs {EffectValue2}% of damage dealt and restores Health.\r\nDoes not sleep at night and continues to work.",
+          "LocalizedString": "Absorbs {EffectValue2}% of damage dealt and restores Health.\r\nDoes not sleep at night and continues to work."
         }
       },
       "PASSIVE_JumpPower_Increase": {
@@ -3248,8 +3247,8 @@
         "TextData": {
           "Namespace": "DT_SkillDescText_Common",
           "Key": "PASSIVE_WorldTree_CraftSpeed_TextData",
-          "SourceString": "Work Speed <NumBlue_13>+</>{EffectValue1}<NumBlue_13>%</>\r\nSAN dreceases <NumRed_13>+15.0% faster</>\r\nWorld Tree harvestables won't vanish when approached.",
-          "LocalizedString": "Work Speed <NumBlue_13>+</>{EffectValue1}<NumBlue_13>%</>\r\nSAN dreceases <NumRed_13>+15.0% faster</>\r\nWorld Tree harvestables won't vanish when approached."
+          "SourceString": "Work Speed <NumBlue_13>+</>{EffectValue1}<NumBlue_13>%</>\r\nSAN decreases <NumRed_13>+15.0% faster</>\r\nWorld Tree resources will not vanish when approached.",
+          "LocalizedString": "Work Speed <NumBlue_13>+</>{EffectValue1}<NumBlue_13>%</>\r\nSAN decreases <NumRed_13>+15.0% faster</>\r\nWorld Tree resources will not vanish when approached."
         }
       },
       "PASSIVE_WorldTree_FullStomach": {
@@ -3288,24 +3287,24 @@
         "TextData": {
           "Namespace": "DT_SkillDescText_Common",
           "Key": "PASSIVE_PAL_SelfDeathAddItemDrop_up_1_TextData",
-          "SourceString": "Your Dropped Items + {EffectValue1}%",
-          "LocalizedString": "Your Dropped Items + {EffectValue1}%"
+          "SourceString": "Drop Items obtained from this Pal +{EffectValue1}%",
+          "LocalizedString": "Drop Items obtained from this Pal +{EffectValue1}%"
         }
       },
       "PASSIVE_PAL_SelfDeathAddItemDrop_up_2": {
         "TextData": {
           "Namespace": "DT_SkillDescText_Common",
           "Key": "PASSIVE_PAL_SelfDeathAddItemDrop_up_2_TextData",
-          "SourceString": "Your Dropped Items + {EffectValue1}%",
-          "LocalizedString": "Your Dropped Items + {EffectValue1}%"
+          "SourceString": "Drop Items obtained from this Pal +{EffectValue1}%",
+          "LocalizedString": "Drop Items obtained from this Pal +{EffectValue1}%"
         }
       },
       "PASSIVE_PAL_SelfDeathAddItemDrop_up_3": {
         "TextData": {
           "Namespace": "DT_SkillDescText_Common",
           "Key": "PASSIVE_PAL_SelfDeathAddItemDrop_up_3_TextData",
-          "SourceString": "Your Dropped Items + {EffectValue1}%",
-          "LocalizedString": "Your Dropped Items + {EffectValue1}%"
+          "SourceString": "Drop Items obtained from this Pal +{EffectValue1}%",
+          "LocalizedString": "Drop Items obtained from this Pal +{EffectValue1}%"
         }
       },
       "PASSIVE_PAL_WorkSuitabilityAddRank_MonsterFarm_1": {
@@ -3344,8 +3343,8 @@
         "TextData": {
           "Namespace": "DT_SkillDescText_Common",
           "Key": "PASSIVE_MutationPal_Immortal_DESC_TextData",
-          "SourceString": "Life Steal +{EffectValue1}%\r\nPal Auto Health Regeneration Rate +{EffectValue2}%\r\nAttack +{EffectValue3}%",
-          "LocalizedString": "Life Steal +{EffectValue1}%\r\nPal Auto Health Regeneration Rate +{EffectValue2}%\r\nAttack +{EffectValue3}%"
+          "SourceString": "Absorbs {EffectValue2}% of damage dealt and restores Health.\r\nPal Auto Health Regeneration Rate +{EffectValue2}%.\r\nAttack +{EffectValue3}%.",
+          "LocalizedString": "Absorbs {EffectValue2}% of damage dealt and restores Health.\r\nPal Auto Health Regeneration Rate +{EffectValue2}%.\r\nAttack +{EffectValue3}%."
         }
       },
       "PASSIVE_MutationPal_ExplosionResist_DESC": {

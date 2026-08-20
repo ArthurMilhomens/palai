@@ -1,0 +1,296 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_TutorialMessage_Text",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "TUTORIAL_SP_1": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_SP_1_TextData",
+          "SourceString": "Presiona <keyGuideIcon id=|Interact_1|/> para recoger los objetos.",
+          "LocalizedString": "Presiona <keyGuideIcon id=|Interact_1|/> para recoger los objetos."
+        }
+      },
+      "TUTORIAL_ITEM_1": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_ITEM_1_TextData",
+          "SourceString": "Presiona <keyGuideIcon id=|OpenConstructionMenu|/> para abrir el menú de construcción.",
+          "LocalizedString": "Presiona <keyGuideIcon id=|OpenConstructionMenu|/> para abrir el menú de construcción."
+        }
+      },
+      "TUTORIAL_ITEM_2": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_ITEM_2_TextData",
+          "SourceString": "Presiona <keyGuideIcon id=|ThrowObject|/> para lanzar una esfera y capturar un Pal.\r\nCuanto más lo debilites, será más fácil capturarlo.",
+          "LocalizedString": "Presiona <keyGuideIcon id=|ThrowObject|/> para lanzar una esfera y capturar un Pal.\r\nCuanto más lo debilites, será más fácil capturarlo."
+        }
+      },
+      "TUTORIAL_ITEM_3": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_ITEM_3_TextData",
+          "SourceString": "Presiona <keyGuideIcon id=|OpenConstructionMenu|/> en el menú de construcción,\r\npara construir una Caja Pal y una base.",
+          "LocalizedString": "Presiona <keyGuideIcon id=|OpenConstructionMenu|/> en el menú de construcción,\r\npara construir una Caja Pal y una base."
+        }
+      },
+      "TUTORIAL_ITEM_4": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_ITEM_4_TextData",
+          "SourceString": "Usa una Fruta del saber desde el inventario\r\npara que tu Pal aprenda una nueva habilidad.",
+          "LocalizedString": "Usa una Fruta del saber desde el inventario\r\npara que tu Pal aprenda una nueva habilidad."
+        }
+      },
+      "TUTORIAL_ITEM_5": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_ITEM_5_TextData",
+          "SourceString": "Recolecta <itemName id=|Relic|/> y ofrécelo a <MapObjectName id=|BuildableGoddessStatue|/>\r\npara que mejore tu poder de captura.",
+          "LocalizedString": "Recolecta <itemName id=|Relic|/> y ofrécelo a <MapObjectName id=|BuildableGoddessStatue|/>\r\npara que mejore tu poder de captura."
+        }
+      },
+      "TUTORIAL_ITEM_6": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_ITEM_6_TextData",
+          "SourceString": "Presiona <keyGuideIcon id=|Jump|/> mientras saltas para poder planear.",
+          "LocalizedString": "Presiona <keyGuideIcon id=|Jump|/> mientras saltas para poder planear."
+        }
+      },
+      "TUTORIAL_ITEM_7": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_ITEM_7_TextData",
+          "SourceString": "Construye una <MapObjectName id=|HatchingPalEgg|/> para colocar\r\nlos huevos de tus Pals y hacer que nazcan.",
+          "LocalizedString": "Construye una <MapObjectName id=|HatchingPalEgg|/> para colocar\r\nlos huevos de tus Pals y hacer que nazcan."
+        }
+      },
+      "TUTORIAL_RESPAWN_1": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_RESPAWN_1_TextData",
+          "SourceString": "Si construyes una Caja Pal,\r\npodrás revivir desde el punto donde la construyeras.",
+          "LocalizedString": "Si construyes una Caja Pal,\r\npodrás revivir desde el punto donde la construyeras."
+        }
+      },
+      "TUTORIAL_RESPAWN_2": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_RESPAWN_2_TextData",
+          "SourceString": "Tus Pals y tus objetos quedarán en donde te hayan derrotado.\r\n¡Recupéralos antes de que otro jugador te los robe!",
+          "LocalizedString": "Tus Pals y tus objetos quedarán en donde te hayan derrotado.\r\n¡Recupéralos antes de que otro jugador te los robe!"
+        }
+      },
+      "TUTORIAL_INDIVIDUAL_1": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_INDIVIDUAL_1_TextData",
+          "SourceString": "Utiliza los puntos de tecnología\r\npara desbloquear nuevos objetos y estructuras.",
+          "LocalizedString": "Utiliza los puntos de tecnología\r\npara desbloquear nuevos objetos y estructuras."
+        }
+      },
+      "TUTORIAL_INDIVIDUAL_2": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_INDIVIDUAL_2_TextData",
+          "SourceString": "Presiona <keyGuideIcon id=|OpenCharacterMenu|/> para abrir el inventario\r\ny utilizar los puntos de atributo para mejorar tu personaje.",
+          "LocalizedString": "Presiona <keyGuideIcon id=|OpenCharacterMenu|/> para abrir el inventario\r\ny utilizar los puntos de atributo para mejorar tu personaje."
+        }
+      },
+      "TUTORIAL_INDIVIDUAL_3": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_INDIVIDUAL_3_TextData",
+          "SourceString": "Cuando tengas hambre, se reducirán tus atributos.\r\nUsa los objetos de tu inventario para preparar comidas.",
+          "LocalizedString": "Cuando tengas hambre, se reducirán tus atributos.\r\nUsa los objetos de tu inventario para preparar comidas."
+        }
+      },
+      "TUTORIAL_INDIVIDUAL_4": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_INDIVIDUAL_4_TextData",
+          "SourceString": "Cuando tus Pals tengan hambre, se reducirán sus atributos.\r\nUsa los objetos de tu inventario para alimentarlos.",
+          "LocalizedString": "Cuando tus Pals tengan hambre, se reducirán sus atributos.\r\nUsa los objetos de tu inventario para alimentarlos."
+        }
+      },
+      "TUTORIAL_INDIVIDUAL_5": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_INDIVIDUAL_5_TextData",
+          "SourceString": "Si baja la COR de tus Pals, pueden enfermar o dejar de trabajar.\r\nAliméntalos o constrúyeles baños termales para que se recuperen.",
+          "LocalizedString": "Si baja la COR de tus Pals, pueden enfermar o dejar de trabajar.\r\nAliméntalos o constrúyeles baños termales para que se recuperen."
+        }
+      },
+      "TUTORIAL_INDIVIDUAL_6": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_INDIVIDUAL_6_TextData",
+          "SourceString": "El Pal está enfermo.\r\nUsa un puesto médico para preparar medicinas que lo curen.",
+          "LocalizedString": "El Pal está enfermo.\r\nUsa un puesto médico para preparar medicinas que lo curen."
+        }
+      },
+      "TUTORIAL_INDIVIDUAL_7": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_INDIVIDUAL_7_TextData",
+          "SourceString": "Si baja la COR de tus Pals y dejan de trabajar,\r\nconstruye un baño termal para que se reintegren al trabajo de inmediato.",
+          "LocalizedString": "Si baja la COR de tus Pals y dejan de trabajar,\r\nconstruye un baño termal para que se reintegren al trabajo de inmediato."
+        }
+      },
+      "TUTORIAL_CAPTURE_1": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_CAPTURE_1_TextData",
+          "SourceString": "Reduce los <uiCommon id=|COMMON_STATUS_HP|/> de los Pals salvajes para que sea más fácil capturarlos.\r\nSi los derrotas, ¡ya no podrás capturarlos!",
+          "LocalizedString": "Reduce los <uiCommon id=|COMMON_STATUS_HP|/> de los Pals salvajes para que sea más fácil capturarlos.\r\nSi los derrotas, ¡ya no podrás capturarlos!"
+        }
+      },
+      "TUTORIAL_CAPTURE_2": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_CAPTURE_2_TextData",
+          "SourceString": "Presiona <keyGuideIcon id=|ThrowPal|/> para invocar un Pal que hayas capturado.",
+          "LocalizedString": "Presiona <keyGuideIcon id=|ThrowPal|/> para invocar un Pal que hayas capturado."
+        }
+      },
+      "TUTORIAL_CAPTURE_3": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_CAPTURE_3_TextData",
+          "SourceString": "Al capturar un nuevo Pal, obtendrás muchos puntos de EXP.\r\n¡Sigue así y busca a los que aún no has encontrado!",
+          "LocalizedString": "Al capturar un nuevo Pal, obtendrás muchos puntos de EXP.\r\n¡Sigue así y busca a los que aún no has encontrado!"
+        }
+      },
+      "TUTORIAL_CAPTURE_4": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_CAPTURE_4_TextData",
+          "SourceString": "Si capturas hasta 5 Pals del mismo tipo,\r\nganarás puntos de EXP extra.",
+          "LocalizedString": "Si capturas hasta 5 Pals del mismo tipo,\r\nganarás puntos de EXP extra."
+        }
+      },
+      "TUTORIAL_CAPTURE_5": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_CAPTURE_5_TextData",
+          "SourceString": "Puedes llevar hasta 5 Pals contigo a la vez.\r\nSi capturas más, se enviarán automáticamente a la Caja Pal.",
+          "LocalizedString": "Puedes llevar hasta 5 Pals contigo a la vez.\r\nSi capturas más, se enviarán automáticamente a la Caja Pal."
+        }
+      },
+      "TUTORIAL_CAPTURE_6": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_CAPTURE_6_TextData",
+          "SourceString": "¡Has capturado un Pal poco común!\r\nParece que tiene una habilidad especial.",
+          "LocalizedString": "¡Has capturado un Pal poco común!\r\nParece que tiene una habilidad especial."
+        }
+      },
+      "TUTORIAL_CAPTURE_7": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_CAPTURE_7_TextData",
+          "SourceString": "Si construyes una Caja Pal,\r\npodrás sacar los Pals que hayas capturado.",
+          "LocalizedString": "Si construyes una Caja Pal,\r\npodrás sacar los Pals que hayas capturado."
+        }
+      },
+      "TUTORIAL_CAPTURE_8": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_CAPTURE_8_TextData",
+          "SourceString": "¡No puedes usar Pals con mayor nivel al tuyo!\r\nEl rendimiento del Pal se nivelará con el del jugador.",
+          "LocalizedString": "¡No puedes usar Pals con mayor nivel al tuyo!\r\nEl rendimiento del Pal se nivelará con el del jugador."
+        }
+      },
+      "TUTORIAL_COMMON_1": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_1_TextData",
+          "SourceString": "Si llevas demasiado peso, no podrás moverte.\r\nConsume puntos de atributos para aumentar tu capacidad de carga.",
+          "LocalizedString": "Si llevas demasiado peso, no podrás moverte.\r\nConsume puntos de atributos para aumentar tu capacidad de carga."
+        }
+      },
+      "TUTORIAL_COMMON_2": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_2_TextData",
+          "SourceString": "La antorcha ilumina los alrededores y te protege del frío.\r\n¡Fabrica una en la mesa de trabajo!",
+          "LocalizedString": "La antorcha ilumina los alrededores y te protege del frío.\r\n¡Fabrica una en la mesa de trabajo!"
+        }
+      },
+      "TUTORIAL_COMMON_3": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_3_TextData",
+          "SourceString": "¡Tu Pal ha sido derrotado!\r\nDéjalo en la Caja Pal para que se recupere del estado <uiCommon id=|COMMON_CONDITION_NAME_Dying|/>.",
+          "LocalizedString": "¡Tu Pal ha sido derrotado!\r\nDéjalo en la Caja Pal para que se recupere del estado <uiCommon id=|COMMON_CONDITION_NAME_Dying|/>."
+        }
+      },
+      "TUTORIAL_COMMON_4": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_4_TextData",
+          "SourceString": "Puedes invocar Pals en tu base,\r\nbuscarán trabajo para hacer y se pondrán a trabajar automáticamente.",
+          "LocalizedString": "Puedes invocar Pals en tu base,\r\nbuscarán trabajo para hacer y se pondrán a trabajar automáticamente."
+        }
+      },
+      "TUTORIAL_COMMON_5": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_5_TextData",
+          "SourceString": "Puedes dejar Pals en tu base desde la Caja Pal\r\npara que trabajen en lo que mejor se les dé.",
+          "LocalizedString": "Puedes dejar Pals en tu base desde la Caja Pal\r\npara que trabajen en lo que mejor se les dé."
+        }
+      },
+      "TUTORIAL_COMMON_6": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_6_TextData",
+          "SourceString": "Solo puedes mantener 3 habilidades activas por Pal.\r\nSi quieres equiparle una nueva, intercámbiala por otra en el menú <uiCommon id=|INGAME_MAIN_MENU_PAL|/>.",
+          "LocalizedString": "Solo puedes mantener 3 habilidades activas por Pal.\r\nSi quieres equiparle una nueva, intercámbiala por otra en el menú <uiCommon id=|INGAME_MAIN_MENU_PAL|/>."
+        }
+      },
+      "TUTORIAL_COMMON_7": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_7_TextData",
+          "SourceString": "Los Pals salvajes son muy fuertes como para ganarles a mano limpia.\r\nConstruye una mesa de trabajo y fabrica tus armas.",
+          "LocalizedString": "Los Pals salvajes son muy fuertes como para ganarles a mano limpia.\r\nConstruye una mesa de trabajo y fabrica tus armas."
+        }
+      },
+      "TUTORIAL_COMMON_8": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_8_TextData",
+          "SourceString": "Consigue las memorias de otros aventureros.\r\nPodrás ver sus travesías desde la pantalla de Opciones.",
+          "LocalizedString": "Consigue las memorias de otros aventureros.\r\nPodrás ver sus travesías desde la pantalla de Opciones."
+        }
+      },
+      "TUTORIAL_COMMON_9": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_9_TextData",
+          "SourceString": "Algunas armas permiten cambiar el tipo de munición\r\nmanteniendo presionado <keyGuideIcon id=|Reload|/>.",
+          "LocalizedString": "Algunas armas permiten cambiar el tipo de munición\r\nmanteniendo presionado <keyGuideIcon id=|Reload|/>."
+        }
+      },
+      "TUTORIAL_COMMON_9_GamePad": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_9_GamePad_TextData",
+          "SourceString": "Algunas armas permiten cambiar el tipo de munición\r\nmanteniendo presionado <keyGuideIcon id=|ChangeWeaponNext_GamePad|/>.",
+          "LocalizedString": "Algunas armas permiten cambiar el tipo de munición\r\nmanteniendo presionado <keyGuideIcon id=|ChangeWeaponNext_GamePad|/>."
+        }
+      }
+    }
+  }
+]

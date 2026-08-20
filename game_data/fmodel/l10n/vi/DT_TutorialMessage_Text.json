@@ -1,0 +1,296 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_TutorialMessage_Text",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "TUTORIAL_SP_1": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_SP_1_TextData",
+          "SourceString": "Nhấn phím <keyGuideIcon id=|Interact_1|/> để nhặt vật phẩm",
+          "LocalizedString": "Nhấn phím <keyGuideIcon id=|Interact_1|/> để nhặt vật phẩm"
+        }
+      },
+      "TUTORIAL_ITEM_1": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_ITEM_1_TextData",
+          "SourceString": "Nhấn <keyGuideIcon id=|OpenConstructionMenu|/> để mở Menu Xây Dựng",
+          "LocalizedString": "Nhấn <keyGuideIcon id=|OpenConstructionMenu|/> để mở Menu Xây Dựng"
+        }
+      },
+      "TUTORIAL_ITEM_2": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_ITEM_2_TextData",
+          "SourceString": "Nhấn <keyGuideIcon id=|ThrowObject|/> để ném Quả Cầu và bắt Pal,\r\nlàm Pal suy yếu để dễ bắt hơn",
+          "LocalizedString": "Nhấn <keyGuideIcon id=|ThrowObject|/> để ném Quả Cầu và bắt Pal,\r\nlàm Pal suy yếu để dễ bắt hơn"
+        }
+      },
+      "TUTORIAL_ITEM_3": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_ITEM_3_TextData",
+          "SourceString": "Dùng phím <keyGuideIcon id=|OpenConstructionMenu|/> để xây dựng Palbox\r\ntừ Menu Xây Dựng và tạo dựng căn cứ.",
+          "LocalizedString": "Dùng phím <keyGuideIcon id=|OpenConstructionMenu|/> để xây dựng Palbox\r\ntừ Menu Xây Dựng và tạo dựng căn cứ."
+        }
+      },
+      "TUTORIAL_ITEM_4": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_ITEM_4_TextData",
+          "SourceString": "Dùng |Quả Kỹ Năng| từ túi đồ\r\nđể dạy kỹ năng cho Pal.",
+          "LocalizedString": "Dùng |Quả Kỹ Năng| từ túi đồ\r\nđể dạy kỹ năng cho Pal."
+        }
+      },
+      "TUTORIAL_ITEM_5": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_ITEM_5_TextData",
+          "SourceString": "Thu thập <itemName id=|Relic|/> và dâng lên <MapObjectName id=|BuildableGoddessStatue|/>\r\nđể giúp tăng cường khả năng bắt giữ Pal của người chơi.",
+          "LocalizedString": "Thu thập <itemName id=|Relic|/> và dâng lên <MapObjectName id=|BuildableGoddessStatue|/>\r\nđể giúp tăng cường khả năng bắt giữ Pal của người chơi."
+        }
+      },
+      "TUTORIAL_ITEM_6": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_ITEM_6_TextData",
+          "SourceString": "Nhấn phím <keyGuideIcon id=|Jump|/> khi đang nhảy để thực hiện động tác lướt.",
+          "LocalizedString": "Nhấn phím <keyGuideIcon id=|Jump|/> khi đang nhảy để thực hiện động tác lướt."
+        }
+      },
+      "TUTORIAL_ITEM_7": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_ITEM_7_TextData",
+          "SourceString": "Bằng cách xây dựng <MapObjectName id=|HatchingPalEgg|/>,\r\nbạn có thể ấp trứng Pal.",
+          "LocalizedString": "Bằng cách xây dựng <MapObjectName id=|HatchingPalEgg|/>,\r\nbạn có thể ấp trứng Pal."
+        }
+      },
+      "TUTORIAL_RESPAWN_1": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_RESPAWN_1_TextData",
+          "SourceString": "Bạn có thể hồi sinh\r\ntại vị trí đã xây dựng Palbox.",
+          "LocalizedString": "Bạn có thể hồi sinh\r\ntại vị trí đã xây dựng Palbox."
+        }
+      },
+      "TUTORIAL_RESPAWN_2": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_RESPAWN_2_TextData",
+          "SourceString": "Pal và vật phẩm của bạn vẫn ở vị trí mà bạn bị hạ gục.\r\nHãy thu hồi chúng trước khi người khác lấy mất.",
+          "LocalizedString": "Pal và vật phẩm của bạn vẫn ở vị trí mà bạn bị hạ gục.\r\nHãy thu hồi chúng trước khi người khác lấy mất."
+        }
+      },
+      "TUTORIAL_INDIVIDUAL_1": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_INDIVIDUAL_1_TextData",
+          "SourceString": "Sử dụng Điểm Kỹ Thuật\r\nđể mở khóa vật phẩm và cơ sở mới.",
+          "LocalizedString": "Sử dụng Điểm Kỹ Thuật\r\nđể mở khóa vật phẩm và cơ sở mới."
+        }
+      },
+      "TUTORIAL_INDIVIDUAL_2": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_INDIVIDUAL_2_TextData",
+          "SourceString": "Nhấn <keyGuideIcon id=|OpenCharacterMenu|/> để mở Túi Đồ,\r\nsử dụng Điểm Chỉ Số để tăng sức mạnh cho nhân vật.",
+          "LocalizedString": "Nhấn <keyGuideIcon id=|OpenCharacterMenu|/> để mở Túi Đồ,\r\nsử dụng Điểm Chỉ Số để tăng sức mạnh cho nhân vật."
+        }
+      },
+      "TUTORIAL_INDIVIDUAL_3": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_INDIVIDUAL_3_TextData",
+          "SourceString": "Khi bạn đói, các thông số sẽ giảm.\r\nBạn có thể sử dụng các vật phẩm trong túi đồ để ăn.",
+          "LocalizedString": "Khi bạn đói, các thông số sẽ giảm.\r\nBạn có thể sử dụng các vật phẩm trong túi đồ để ăn."
+        }
+      },
+      "TUTORIAL_INDIVIDUAL_4": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_INDIVIDUAL_4_TextData",
+          "SourceString": "Khi Pal đói, các thông số của chúng sẽ giảm.\r\nBạn có thể sử dụng các vật phẩm trong túi đồ để cho Pal ăn.",
+          "LocalizedString": "Khi Pal đói, các thông số của chúng sẽ giảm.\r\nBạn có thể sử dụng các vật phẩm trong túi đồ để cho Pal ăn."
+        }
+      },
+      "TUTORIAL_INDIVIDUAL_5": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_INDIVIDUAL_5_TextData",
+          "SourceString": "Khi chỉ số Minh Mẫn của Pal giảm xuống thấp, chúng có thể lười biếng hoặc đổ bệnh.\r\nHãy cho Pal ăn món ngon hoặc xây suối nước nóng để hồi phục chỉ số.",
+          "LocalizedString": "Khi chỉ số Minh Mẫn của Pal giảm xuống thấp, chúng có thể lười biếng hoặc đổ bệnh.\r\nHãy cho Pal ăn món ngon hoặc xây suối nước nóng để hồi phục chỉ số."
+        }
+      },
+      "TUTORIAL_INDIVIDUAL_6": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_INDIVIDUAL_6_TextData",
+          "SourceString": "Pal đã bị bệnh.\r\nHãy bào chế thuốc tại Bàn Chế Thuốc và chữa trị cho chúng.",
+          "LocalizedString": "Pal đã bị bệnh.\r\nHãy bào chế thuốc tại Bàn Chế Thuốc và chữa trị cho chúng."
+        }
+      },
+      "TUTORIAL_INDIVIDUAL_7": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_INDIVIDUAL_7_TextData",
+          "SourceString": "Khi làm việc, chỉ số Minh Mẫn sẽ giảm và khiến Pal lười biếng.\r\nHãy xây suối nước nóng và các cơ sở khác để giúp chúng nhanh chóng quay lại công việc.",
+          "LocalizedString": "Khi làm việc, chỉ số Minh Mẫn sẽ giảm và khiến Pal lười biếng.\r\nHãy xây suối nước nóng và các cơ sở khác để giúp chúng nhanh chóng quay lại công việc."
+        }
+      },
+      "TUTORIAL_CAPTURE_1": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_CAPTURE_1_TextData",
+          "SourceString": "Pal hoang dã sẽ dễ bắt hơn khi <uiCommon id=|COMMON_STATUS_HP|/> của chúng giảm xuống thấp.\r\nNếu giết Pal, bạn sẽ không thể bắt được chúng.",
+          "LocalizedString": "Pal hoang dã sẽ dễ bắt hơn khi <uiCommon id=|COMMON_STATUS_HP|/> của chúng giảm xuống thấp.\r\nNếu giết Pal, bạn sẽ không thể bắt được chúng."
+        }
+      },
+      "TUTORIAL_CAPTURE_2": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_CAPTURE_2_TextData",
+          "SourceString": "Nhấn <keyGuideIcon id=|ThrowPal|/> để triệu hồi Pal đã bắt được",
+          "LocalizedString": "Nhấn <keyGuideIcon id=|ThrowPal|/> để triệu hồi Pal đã bắt được"
+        }
+      },
+      "TUTORIAL_CAPTURE_3": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_CAPTURE_3_TextData",
+          "SourceString": "Bạn sẽ nhận được rất nhiều điểm kinh nghiệm khi bắt được Pal thuộc loài mới.\r\nHãy tiếp tục khám phá để tìm kiếm những Pal mới lạ.",
+          "LocalizedString": "Bạn sẽ nhận được rất nhiều điểm kinh nghiệm khi bắt được Pal thuộc loài mới.\r\nHãy tiếp tục khám phá để tìm kiếm những Pal mới lạ."
+        }
+      },
+      "TUTORIAL_CAPTURE_4": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_CAPTURE_4_TextData",
+          "SourceString": "Bạn sẽ nhận được điểm thưởng kinh nghiệm\r\nkhi bắt 5 Pal cùng loài.",
+          "LocalizedString": "Bạn sẽ nhận được điểm thưởng kinh nghiệm\r\nkhi bắt 5 Pal cùng loài."
+        }
+      },
+      "TUTORIAL_CAPTURE_5": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_CAPTURE_5_TextData",
+          "SourceString": "Bạn chỉ có thể mang theo tối đa 5 Pal cùng một lúc.\r\nNếu bạn bắt nhiều hơn, Pal sẽ tự động được chuyển vào Palbox.",
+          "LocalizedString": "Bạn chỉ có thể mang theo tối đa 5 Pal cùng một lúc.\r\nNếu bạn bắt nhiều hơn, Pal sẽ tự động được chuyển vào Palbox."
+        }
+      },
+      "TUTORIAL_CAPTURE_6": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_CAPTURE_6_TextData",
+          "SourceString": "Bạn đã bắt được một Pal May Mắn! \r\nCó vẻ như nó có một kỹ năng đặc biệt.",
+          "LocalizedString": "Bạn đã bắt được một Pal May Mắn! \r\nCó vẻ như nó có một kỹ năng đặc biệt."
+        }
+      },
+      "TUTORIAL_CAPTURE_7": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_CAPTURE_7_TextData",
+          "SourceString": "Sau khi xây Palbox,\r\nbạn có thể lấy ra các Pal đã bắt từ đó.",
+          "LocalizedString": "Sau khi xây Palbox,\r\nbạn có thể lấy ra các Pal đã bắt từ đó."
+        }
+      },
+      "TUTORIAL_CAPTURE_8": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_CAPTURE_8_TextData",
+          "SourceString": "Bạn sẽ không thể phát huy toàn bộ sức mạnh của Pal có cấp độ cao hơn bạn! \r\nKhả năng của chúng sẽ bị hạ xuống để phù hợp với cấp độ của nhân vật của bạn.",
+          "LocalizedString": "Bạn sẽ không thể phát huy toàn bộ sức mạnh của Pal có cấp độ cao hơn bạn! \r\nKhả năng của chúng sẽ bị hạ xuống để phù hợp với cấp độ của nhân vật của bạn."
+        }
+      },
+      "TUTORIAL_COMMON_1": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_1_TextData",
+          "SourceString": "Bạn sẽ không thể di chuyển nếu mang quá nặng.\r\nHãy dùng Điểm Chỉ Số để gia tăng sức mang.",
+          "LocalizedString": "Bạn sẽ không thể di chuyển nếu mang quá nặng.\r\nHãy dùng Điểm Chỉ Số để gia tăng sức mang."
+        }
+      },
+      "TUTORIAL_COMMON_2": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_2_TextData",
+          "SourceString": "Đuốc Cầm Tay giúp chiếu sáng xung quanh và chống lạnh.\r\nHãy chế tạo tại bàn làm việc.",
+          "LocalizedString": "Đuốc Cầm Tay giúp chiếu sáng xung quanh và chống lạnh.\r\nHãy chế tạo tại bàn làm việc."
+        }
+      },
+      "TUTORIAL_COMMON_3": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_3_TextData",
+          "SourceString": "Pal của bạn đã bị hạ gục! \r\nHãy đưa chúng vào Palbox chữa trị tình trạng |<uiCommon id=|COMMON_CONDITION_NAME_Dying|/>|.",
+          "LocalizedString": "Pal của bạn đã bị hạ gục! \r\nHãy đưa chúng vào Palbox chữa trị tình trạng |<uiCommon id=|COMMON_CONDITION_NAME_Dying|/>|."
+        }
+      },
+      "TUTORIAL_COMMON_4": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_4_TextData",
+          "SourceString": "Khi thả Pal ra tại căn cứ,\r\nchúng sẽ tự tìm công việc phù hợp và tự giác thực hiện.",
+          "LocalizedString": "Khi thả Pal ra tại căn cứ,\r\nchúng sẽ tự tìm công việc phù hợp và tự giác thực hiện."
+        }
+      },
+      "TUTORIAL_COMMON_5": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_5_TextData",
+          "SourceString": "Khi thả Pal trong Palbox vào căn cứ,\r\nchúng sẽ giúp bạn thực hiện các công việc mà chúng thành thạo.",
+          "LocalizedString": "Khi thả Pal trong Palbox vào căn cứ,\r\nchúng sẽ giúp bạn thực hiện các công việc mà chúng thành thạo."
+        }
+      },
+      "TUTORIAL_COMMON_6": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_6_TextData",
+          "SourceString": "Pal chỉ có thể trang bị tối đa 3 kỹ năng chủ động.\r\nĐể thay đổi sang kỹ năng mới, hãy vào menu <uiCommon id=|INGAME_MAIN_MENU_PAL|/>.",
+          "LocalizedString": "Pal chỉ có thể trang bị tối đa 3 kỹ năng chủ động.\r\nĐể thay đổi sang kỹ năng mới, hãy vào menu <uiCommon id=|INGAME_MAIN_MENU_PAL|/>."
+        }
+      },
+      "TUTORIAL_COMMON_7": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_7_TextData",
+          "SourceString": "Pal hoang dã rất hung hăng, khó có thể thắng chúng bằng tay không.\r\nHãy xây bàn làm việc để chế tạo vũ khí.",
+          "LocalizedString": "Pal hoang dã rất hung hăng, khó có thể thắng chúng bằng tay không.\r\nHãy xây bàn làm việc để chế tạo vũ khí."
+        }
+      },
+      "TUTORIAL_COMMON_8": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_8_TextData",
+          "SourceString": "Bạn đã thu thập được nhật ký của một nhà thám hiểm khác.\r\nCó thể xem hành trình của họ trong màn hình Tùy Chọn.",
+          "LocalizedString": "Bạn đã thu thập được nhật ký của một nhà thám hiểm khác.\r\nCó thể xem hành trình của họ trong màn hình Tùy Chọn."
+        }
+      },
+      "TUTORIAL_COMMON_9": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_9_TextData",
+          "SourceString": "Với một số loại vũ khí, bạn có thể nhấn giữ <keyGuideIcon id=|Reload|/>\r\nđể chuyển đổi loại đạn.",
+          "LocalizedString": "Với một số loại vũ khí, bạn có thể nhấn giữ <keyGuideIcon id=|Reload|/>\r\nđể chuyển đổi loại đạn."
+        }
+      },
+      "TUTORIAL_COMMON_9_GamePad": {
+        "TextData": {
+          "Namespace": "DT_TutorialMessage_Text",
+          "Key": "TUTORIAL_COMMON_9_GamePad_TextData",
+          "SourceString": "Với một số loại vũ khí, bạn có thể nhấn giữ <keyGuideIcon id=|ChangeWeaponNext_GamePad|/>\r\nđể chuyển đổi loại đạn.",
+          "LocalizedString": "Với một số loại vũ khí, bạn có thể nhấn giữ <keyGuideIcon id=|ChangeWeaponNext_GamePad|/>\r\nđể chuyển đổi loại đạn."
+        }
+      }
+    }
+  }
+]

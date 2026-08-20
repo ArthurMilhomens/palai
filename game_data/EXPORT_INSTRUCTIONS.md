@@ -1,13 +1,26 @@
-# Como exportar DataTables do Palworld (FModel)
+# Como obter DataTables do Palworld
 
-O script **localiza o jogo no Steam**, mas os `.pak` precisam ser exportados
-para JSON antes da conversão (Node não lê `.uasset` diretamente).
+## Opção A — Extrator Palai (recomendado)
 
-## 1. Instale o FModel
-https://fmodel.app/
+Requer .NET SDK 8.
 
-## 2. Adicione o jogo
-Diretório detectado (se houver):
+```bash
+npm run extract -- --download-mappings
+npm run dump:generate
+# ou
+npm run dump:from-game
+```
+
+O extrator C# (`tools/extractor`) lê os `.pak` e grava:
+
+- `game_data/fmodel/**/*.json`
+- `game_data/icons/**/*.png`
+
+## Opção B — FModel (manual)
+
+1. Instale o FModel: https://fmodel.app/
+2. UE Version: GAME_UE5_1 + mappings `.usmap`
+3. Diretório do jogo:
 
 ```
 D:\SteamLibrary\steamapps\common\Palworld
@@ -19,25 +32,15 @@ Pak:
 D:\SteamLibrary\steamapps\common\Palworld\Pal\Content\Paks\Pal-Windows.pak
 ```
 
-## 3. Exporte estas tabelas (JSON)
-No FModel, abra e exporte (Save → JSON) para **`game_data/fmodel`** (pode manter subpastas):
+4. Exporte DataTables (JSON) para **`game_data/fmodel`** (pode manter subpastas).
 
 Obrigatória:
 - `DT_PalMonsterParameter`
 
-Recomendadas:
-- `DT_WazaDataTable`
-- `DT_PalPassiveSkill`
-- `DT_PalDropItem`
-- `DT_ItemDataTable` (ou equivalente de items)
-- `DT_PalNameText` / textos de nome
-- `DT_PalLongDescriptionText`
-- `DT_PalCombi` / breeding unique (se existir)
+Caminhos típicos: `Pal/Content/Pal/DataTable/...`
 
-Caminhos típicos no pak:
-`Pal/Content/Pal/DataTable/...`
+## Gerar dump
 
-## 4. Gere o dump
 ```bash
 npm run dump:generate
 ```

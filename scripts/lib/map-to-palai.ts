@@ -224,15 +224,38 @@ export async function convertExportsToPalaiDump(options: {
   const names = await loadNamedDataTable(options.exportDirs, [
     'DT_PalNameText',
     'DT_PalNameTextDataTable',
-    'DT_UI_Common_Text',
   ]);
   if (names) sources.push(names.filePath);
+
+  const palNamesEn = await loadLocaleNamedDataTable(options.exportDirs, 'en', [
+    'DT_PalNameText',
+  ]);
+  if (palNamesEn) sources.push(palNamesEn.filePath);
+
+  const palNamesPt = await loadLocaleNamedDataTable(
+    options.exportDirs,
+    'pt-BR',
+    ['DT_PalNameText'],
+  );
+  if (palNamesPt) sources.push(palNamesPt.filePath);
 
   const descs = await loadNamedDataTable(options.exportDirs, [
     'DT_PalLongDescriptionText',
     'DT_PalDescriptionText',
   ]);
   if (descs) sources.push(descs.filePath);
+
+  const palDescsEn = await loadLocaleNamedDataTable(options.exportDirs, 'en', [
+    'DT_PalLongDescriptionText',
+  ]);
+  if (palDescsEn) sources.push(palDescsEn.filePath);
+
+  const palDescsPt = await loadLocaleNamedDataTable(
+    options.exportDirs,
+    'pt-BR',
+    ['DT_PalLongDescriptionText'],
+  );
+  if (palDescsPt) sources.push(palDescsPt.filePath);
 
   const skillNames = await loadNamedDataTable(options.exportDirs, [
     'DT_SkillNameText',
@@ -258,6 +281,34 @@ export async function convertExportsToPalaiDump(options: {
     'DT_ItemRecipeDataTable',
   ]);
   if (recipesTable) sources.push(recipesTable.filePath);
+
+  const buildObjectsTable = await loadNamedDataTable(options.exportDirs, [
+    'DT_BuildObjectDataTable',
+  ]);
+  if (buildObjectsTable) sources.push(buildObjectsTable.filePath);
+
+  const buildIconTable = await loadNamedDataTable(options.exportDirs, [
+    'DT_BuildObjectIconDataTable',
+  ]);
+  if (buildIconTable) sources.push(buildIconTable.filePath);
+  const buildIconCommon = await loadNamedDataTable(options.exportDirs, [
+    'DT_BuildObjectIconDataTable_Common',
+  ]);
+  const buildIconLookup = new Map<string, string>([
+    ...buildIconLookupFromRows(buildIconCommon?.rows),
+    ...buildIconLookupFromRows(buildIconTable?.rows),
+  ]);
+
+  const buildDescsEn = await loadLocaleNamedDataTable(options.exportDirs, 'en', [
+    'DT_BuildObjectDescText',
+  ]);
+  if (buildDescsEn) sources.push(buildDescsEn.filePath);
+  const buildDescsPt = await loadLocaleNamedDataTable(
+    options.exportDirs,
+    'pt-BR',
+    ['DT_BuildObjectDescText'],
+  );
+  if (buildDescsPt) sources.push(buildDescsPt.filePath);
 
   const technologiesTable = await loadNamedDataTable(options.exportDirs, [
     'DT_TechnologyRecipeUnlock',
@@ -563,6 +614,7 @@ export async function convertExportsToPalaiDump(options: {
         icon: resolveIconPath(rowName, itemIconLookup, iconFiles, [
           asString(row.IconName),
         ]),
+        kind: 'item',
         rarity: rarityRaw != null ? Math.round(rarityRaw) : null,
         weight: asNumber(row.Weight),
         price: price != null ? Math.round(price) : null,
@@ -616,6 +668,7 @@ export async function convertExportsToPalaiDump(options: {
               textFromL10n(itemNames?.rows ?? null, `ITEM_NAME_${item}`) ?? item,
             description: null,
             icon: resolveIconPath(item, itemIconLookup, iconFiles),
+            kind: 'item',
             rarity: null,
             weight: null,
             price: null,
@@ -683,6 +736,7 @@ export async function convertExportsToPalaiDump(options: {
             row.itemId,
           description: null,
           icon: resolveIconPath(row.itemId, itemIconLookup, iconFiles),
+          kind: 'item',
           rarity: null,
           weight: null,
           price: null,
@@ -737,15 +791,27 @@ export async function convertExportsToPalaiDump(options: {
       return level > 0 ? { type, level } : null;
     }).filter((v): v is { type: string; level: number } => v != null);
 
-    const displayName =
-      textFromL10n(names?.rows ?? null, asString(row.OverrideNameTextID) ?? rowName) ??
-      textFromL10n(names?.rows ?? null, `PAL_NAME_${rowName}`) ??
-      rowName;
+    const overrideKey = asString(row.OverrideNameTextID);
+    const nameKey =
+      overrideKey && overrideKey !== 'None' ? overrideKey : `PAL_NAME_${rowName}`;
+    const enName =
+      textFromL10n(palNamesEn?.rows ?? null, nameKey) ??
+      textFromL10n(names?.rows ?? null, nameKey);
+    const ptName =
+      textFromL10n(palNamesPt?.rows ?? null, nameKey) ?? enName;
+    const displayName = enName ?? ptName ?? rowName;
 
-    const description =
-      textFromL10n(descs?.rows ?? null, asString(row.LongDescriptionTextID)) ??
-      textFromL10n(descs?.rows ?? null, `PAL_DESC_${rowName}`) ??
-      null;
+    const descKey =
+      asString(row.LongDescriptionTextID) ?? `PAL_LONG_DESC_${rowName}`;
+    const enDesc =
+      textFromL10n(palDescsEn?.rows ?? null, descKey) ??
+      textFromL10n(descs?.rows ?? null, descKey) ??
+      textFromL10n(descs?.rows ?? null, `PAL_DESC_${rowName}`);
+    const ptDesc =
+      textFromL10n(palDescsPt?.rows ?? null, descKey) ??
+      textFromL10n(palDescsPt?.rows ?? null, `PAL_DESC_${rowName}`) ??
+      enDesc;
+    const description = enDesc ?? ptDesc;
 
     const partnerSkill = asString(row.PassiveSkillName) ?? asString(row.PartnerSkillName);
     const activeSkills: string[] = [];
@@ -798,22 +864,40 @@ export async function convertExportsToPalaiDump(options: {
       icon: resolveIconPath(rowName, palIconLookup, iconFiles),
     });
 
-    if (displayName !== rowName) {
+    if (enName) {
       translations.push({
         entityType: 'pal',
         entityInternalName: rowName,
         locale: 'en',
         field: 'name',
-        value: displayName,
+        value: enName,
       });
     }
-    if (description) {
+    if (ptName) {
+      translations.push({
+        entityType: 'pal',
+        entityInternalName: rowName,
+        locale: 'pt-BR',
+        field: 'name',
+        value: ptName,
+      });
+    }
+    if (enDesc) {
       translations.push({
         entityType: 'pal',
         entityInternalName: rowName,
         locale: 'en',
         field: 'description',
-        value: description,
+        value: enDesc,
+      });
+    }
+    if (ptDesc) {
+      translations.push({
+        entityType: 'pal',
+        entityInternalName: rowName,
+        locale: 'pt-BR',
+        field: 'description',
+        value: ptDesc,
       });
     }
   }
@@ -867,6 +951,95 @@ export async function convertExportsToPalaiDump(options: {
     }
   } else {
     warnings.push('DT_ItemRecipeDataTable não encontrado — recipes ficarão vazios.');
+  }
+
+  // Build objects → items (kind=build) + recipes from Material1–4
+  if (buildObjectsTable) {
+    const existingInternals = new Set(itemList.map((i) => i.internalName));
+    let buildsAdded = 0;
+    for (const [rowName, row] of Object.entries(buildObjectsTable.rows)) {
+      const ingredients: Array<{ item: string; quantity: number }> = [];
+      for (let i = 1; i <= 5; i++) {
+        const mat = asString(row[`Material${i}_Id`]);
+        const qty = asNumber(row[`Material${i}_Count`]) ?? 0;
+        if (!mat || mat === 'None' || qty <= 0) continue;
+        ingredients.push({ item: mat, quantity: Math.round(qty) });
+      }
+      if (ingredients.length === 0) continue;
+
+      const enName =
+        richLookupsEn.mapObjectName(rowName) ??
+        textFromL10n(mapObjectNamesEn?.rows ?? null, `MAPOBJECT_NAME_${rowName}`);
+      const ptName =
+        richLookupsPt.mapObjectName(rowName) ??
+        textFromL10n(mapObjectNamesPt?.rows ?? null, `MAPOBJECT_NAME_${rowName}`) ??
+        enName;
+      const displayName = enName ?? ptName ?? rowName;
+
+      const descKey = `BUILDOBJECT_DESC_${rowName}`;
+      const enDescRaw = textFromL10n(buildDescsEn?.rows ?? null, descKey);
+      const ptDescRaw =
+        textFromL10n(buildDescsPt?.rows ?? null, descKey) ?? enDescRaw;
+      const enDesc = resolveRichText(enDescRaw, richLookupsEn);
+      const ptDesc = resolveRichText(ptDescRaw, richLookupsPt);
+
+      if (!existingInternals.has(rowName)) {
+        itemList.push({
+          internalName: rowName,
+          name: displayName,
+          description: enDesc ?? ptDesc,
+          icon: resolveIconPath(rowName, buildIconLookup, iconFiles, [
+            `T_icon_buildObject_${rowName}`,
+          ]),
+          kind: 'build',
+          rarity: null,
+          weight: null,
+          price: null,
+          stackSize: 1,
+          lootSources: [],
+        });
+        existingInternals.add(rowName);
+        pushItemNameTranslation(
+          translations,
+          rowName,
+          'en',
+          enName ?? displayName,
+        );
+        pushItemNameTranslation(
+          translations,
+          rowName,
+          'pt-BR',
+          ptName ?? displayName,
+        );
+        pushItemTranslation(translations, rowName, 'en', 'description', enDesc);
+        pushItemTranslation(
+          translations,
+          rowName,
+          'pt-BR',
+          'description',
+          ptDesc,
+        );
+        buildsAdded += 1;
+      }
+
+      const recipeName = `Build_${rowName}`;
+      if (!recipes.some((r) => r.internalName === recipeName)) {
+        const workAmount = asNumber(row.RequiredBuildWorkAmount);
+        recipes.push({
+          internalName: recipeName,
+          craftingStation: 'build',
+          craftTime: workAmount != null ? workAmount / 1000 : null,
+          result: rowName,
+          resultQuantity: 1,
+          ingredients,
+        });
+      }
+    }
+    warnings.push(`Construções importadas: ${buildsAdded}`);
+  } else {
+    warnings.push(
+      'DT_BuildObjectDataTable não encontrado — construções ficarão de fora da craft tree.',
+    );
   }
 
   // Technologies

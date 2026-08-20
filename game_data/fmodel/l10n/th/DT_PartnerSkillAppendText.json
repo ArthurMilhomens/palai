@@ -1,0 +1,1296 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_PartnerSkillAppendText",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "TEST_TEXT_RANK_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "TEST_TEXT_RANK_1_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "TEST_TEXT_RANK_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "TEST_TEXT_RANK_2_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "TEST_TEXT_RANK_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "TEST_TEXT_RANK_3_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "TEST_TEXT_RANK_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "TEST_TEXT_RANK_4_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "TEST_TEXT_RANK_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "TEST_TEXT_RANK_5_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "DamageUp_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "DamageUp_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_Rank_2_TextData",
+          "SourceString": "(ความเสียหายเพิ่มขึ้น:<Status_Up>น้อย</>)",
+          "LocalizedString": "(ความเสียหายเพิ่มขึ้น:<Status_Up>น้อย</>)"
+        }
+      },
+      "DamageUp_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_Rank_3_TextData",
+          "SourceString": "(ความเสียหายเพิ่มขึ้น:<Status_Up>ปานกลาง</>)",
+          "LocalizedString": "(ความเสียหายเพิ่มขึ้น:<Status_Up>ปานกลาง</>)"
+        }
+      },
+      "DamageUp_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_Rank_4_TextData",
+          "SourceString": "(ความเสียหายเพิ่มขึ้น:<Status_Up>มาก</>)",
+          "LocalizedString": "(ความเสียหายเพิ่มขึ้น:<Status_Up>มาก</>)"
+        }
+      },
+      "DamageUp_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_Rank_5_TextData",
+          "SourceString": "(ความเสียหายเพิ่มขึ้น:<Status_Up>มากพิเศษ</>)",
+          "LocalizedString": "(ความเสียหายเพิ่มขึ้น:<Status_Up>มากพิเศษ</>)"
+        }
+      },
+      "CooldownReduction_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CooldownReduction_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "CooldownReduction_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CooldownReduction_Rank_2_TextData",
+          "SourceString": "(ลดคูลไทม์：<Status_Up>น้อย</>）",
+          "LocalizedString": "(ลดคูลไทม์：<Status_Up>น้อย</>）"
+        }
+      },
+      "CooldownReduction_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CooldownReduction_Rank_3_TextData",
+          "SourceString": "(ลดคูลไทม์：<Status_Up>กลาง</>）",
+          "LocalizedString": "(ลดคูลไทม์：<Status_Up>กลาง</>）"
+        }
+      },
+      "CooldownReduction_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CooldownReduction_Rank_4_TextData",
+          "SourceString": "(ลดคูลไทม์：<Status_Up>มาก</>）",
+          "LocalizedString": "(ลดคูลไทม์：<Status_Up>มาก</>）"
+        }
+      },
+      "CooldownReduction_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CooldownReduction_Rank_5_TextData",
+          "SourceString": "(ลดคูลไทม์：<Status_Up>มากพิเศษ</>）",
+          "LocalizedString": "(ลดคูลไทม์：<Status_Up>มากพิเศษ</>）"
+        }
+      },
+      "MiningUp_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "MiningUp_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "MiningUp_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "MiningUp_Rank_2_TextData",
+          "SourceString": "(เพิ่มประสิทธิภาพการขุดแร่：<Status_Up>น้อย</>）",
+          "LocalizedString": "(เพิ่มประสิทธิภาพการขุดแร่：<Status_Up>น้อย</>）"
+        }
+      },
+      "MiningUp_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "MiningUp_Rank_3_TextData",
+          "SourceString": "(เพิ่มประสิทธิภาพการขุดแร่：<Status_Up>กลาง</>）",
+          "LocalizedString": "(เพิ่มประสิทธิภาพการขุดแร่：<Status_Up>กลาง</>）"
+        }
+      },
+      "MiningUp_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "MiningUp_Rank_4_TextData",
+          "SourceString": "(เพิ่มประสิทธิภาพการขุดแร่：<Status_Up>มาก</>）",
+          "LocalizedString": "(เพิ่มประสิทธิภาพการขุดแร่：<Status_Up>มาก</>）"
+        }
+      },
+      "MiningUp_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "MiningUp_Rank_5_TextData",
+          "SourceString": "(เพิ่มประสิทธิภาพการขุดแร่：<Status_Up>มากพิเศษ</>）",
+          "LocalizedString": "(เพิ่มประสิทธิภาพการขุดแร่：<Status_Up>มากพิเศษ</>）"
+        }
+      },
+      "RideSpeedUp_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "RideSpeedUp_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_Rank_2_TextData",
+          "SourceString": "(เพิ่มความเร็วเคลื่อนที่จากการขับขี่: <Status_Up>10%</>)",
+          "LocalizedString": "(เพิ่มความเร็วเคลื่อนที่จากการขับขี่: <Status_Up>10%</>)"
+        }
+      },
+      "RideSpeedUp_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_Rank_3_TextData",
+          "SourceString": "(เพิ่มความเร็วเคลื่อนที่จากการขับขี่: <Status_Up>12%</>)",
+          "LocalizedString": "(เพิ่มความเร็วเคลื่อนที่จากการขับขี่: <Status_Up>12%</>)"
+        }
+      },
+      "RideSpeedUp_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_Rank_4_TextData",
+          "SourceString": "(เพิ่มความเร็วเคลื่อนที่จากการขับขี่: <Status_Up>15%</>)",
+          "LocalizedString": "(เพิ่มความเร็วเคลื่อนที่จากการขับขี่: <Status_Up>15%</>)"
+        }
+      },
+      "RideSpeedUp_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_Rank_5_TextData",
+          "SourceString": "(เพิ่มความเร็วเคลื่อนที่จากการขับขี่: <Status_Up>20%</>)",
+          "LocalizedString": "(เพิ่มความเร็วเคลื่อนที่จากการขับขี่: <Status_Up>20%</>)"
+        }
+      },
+      "SwimSpeedUp_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "SwimSpeedUp_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_Rank_2_TextData",
+          "SourceString": "(เพิ่มความเร็วเคลื่อนที่บนน้ำ: <Status_Up>10%</>)",
+          "LocalizedString": "(เพิ่มความเร็วเคลื่อนที่บนน้ำ: <Status_Up>10%</>)"
+        }
+      },
+      "SwimSpeedUp_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_Rank_3_TextData",
+          "SourceString": "(เพิ่มความเร็วเคลื่อนที่บนน้ำ: <Status_Up>14%</>)",
+          "LocalizedString": "(เพิ่มความเร็วเคลื่อนที่บนน้ำ: <Status_Up>14%</>)"
+        }
+      },
+      "SwimSpeedUp_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_Rank_4_TextData",
+          "SourceString": "(เพิ่มความเร็วเคลื่อนที่บนน้ำ: <Status_Up>18%</>)",
+          "LocalizedString": "(เพิ่มความเร็วเคลื่อนที่บนน้ำ: <Status_Up>18%</>)"
+        }
+      },
+      "SwimSpeedUp_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_Rank_5_TextData",
+          "SourceString": "(เพิ่มความเร็วเคลื่อนที่บนน้ำ: <Status_Up>25%</>)",
+          "LocalizedString": "(เพิ่มความเร็วเคลื่อนที่บนน้ำ: <Status_Up>25%</>)"
+        }
+      },
+      "LoggingUp_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "LoggingUp_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_Rank_2_TextData",
+          "SourceString": "(เพิ่มประสิทธิภาพตัดไม้ ：<Status_Up>น้อย</>）",
+          "LocalizedString": "(เพิ่มประสิทธิภาพตัดไม้ ：<Status_Up>น้อย</>）"
+        }
+      },
+      "LoggingUp_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_Rank_3_TextData",
+          "SourceString": "(เพิ่มประสิทธิภาพตัดไม้ ：<Status_Up>กลาง</>）",
+          "LocalizedString": "(เพิ่มประสิทธิภาพตัดไม้ ：<Status_Up>กลาง</>）"
+        }
+      },
+      "LoggingUp_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_Rank_4_TextData",
+          "SourceString": "(เพิ่มประสิทธิภาพตัดไม้ ：<Status_Up>มาก</>）",
+          "LocalizedString": "(เพิ่มประสิทธิภาพตัดไม้ ：<Status_Up>มาก</>）"
+        }
+      },
+      "LoggingUp_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_Rank_5_TextData",
+          "SourceString": "(เพิ่มประสิทธิภาพตัดไม้ ：<Status_Up>มากพิเศษ</>）",
+          "LocalizedString": "(เพิ่มประสิทธิภาพตัดไม้ ：<Status_Up>มากพิเศษ</>）"
+        }
+      },
+      "DropUp_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DropUp_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "DropUp_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DropUp_Rank_2_TextData",
+          "SourceString": "(เพิ่มปริมาณไอเทมที่จับมาได้ ：<Status_Up>น้อย</>）",
+          "LocalizedString": "(เพิ่มปริมาณไอเทมที่จับมาได้ ：<Status_Up>น้อย</>）"
+        }
+      },
+      "DropUp_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DropUp_Rank_3_TextData",
+          "SourceString": "(เพิ่มปริมาณไอเทมที่จับมาได้ ：<Status_Up>กลาง</>）",
+          "LocalizedString": "(เพิ่มปริมาณไอเทมที่จับมาได้ ：<Status_Up>กลาง</>）"
+        }
+      },
+      "DropUp_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DropUp_Rank_4_TextData",
+          "SourceString": "(เพิ่มปริมาณไอเทมที่จับมาได้ ：<Status_Up>มาก</>）",
+          "LocalizedString": "(เพิ่มปริมาณไอเทมที่จับมาได้ ：<Status_Up>มาก</>）"
+        }
+      },
+      "DropUp_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DropUp_Rank_5_TextData",
+          "SourceString": "(เพิ่มปริมาณไอเทมที่จับมาได้ ：<Status_Up>มากพิเศษ</>）",
+          "LocalizedString": "(เพิ่มปริมาณไอเทมที่จับมาได้ ：<Status_Up>มากพิเศษ</>）"
+        }
+      },
+      "FishingAssist_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FishingAssist_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "FishingAssist_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FishingAssist_Rank_2_TextData",
+          "SourceString": "(เพิ่มประสิทธิภาพตัวช่วยตกปลา ：<Status_Up>น้อย</>）",
+          "LocalizedString": "(เพิ่มประสิทธิภาพตัวช่วยตกปลา ：<Status_Up>น้อย</>）"
+        }
+      },
+      "FishingAssist_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FishingAssist_Rank_3_TextData",
+          "SourceString": "(เพิ่มประสิทธิภาพตัวช่วยตกปลา ：<Status_Up>กลาง</>）",
+          "LocalizedString": "(เพิ่มประสิทธิภาพตัวช่วยตกปลา ：<Status_Up>กลาง</>）"
+        }
+      },
+      "FishingAssist_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FishingAssist_Rank_4_TextData",
+          "SourceString": "(เพิ่มประสิทธิภาพตัวช่วยตกปลา ：<Status_Up>มาก</>）",
+          "LocalizedString": "(เพิ่มประสิทธิภาพตัวช่วยตกปลา ：<Status_Up>มาก</>）"
+        }
+      },
+      "FishingAssist_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FishingAssist_Rank_5_TextData",
+          "SourceString": "(เพิ่มประสิทธิภาพตัวช่วยตกปลา ：<Status_Up>มากพิเศษ</>）",
+          "LocalizedString": "(เพิ่มประสิทธิภาพตัวช่วยตกปลา ：<Status_Up>มากพิเศษ</>）"
+        }
+      },
+      "LifeSteal_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LifeSteal_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "LifeSteal_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LifeSteal_Rank_2_TextData",
+          "SourceString": "(เพิ่มประสิทธิภาพดูดพลังชีวิต ：<Status_Up>เล็ก</>）",
+          "LocalizedString": "(เพิ่มประสิทธิภาพดูดพลังชีวิต ：<Status_Up>เล็ก</>）"
+        }
+      },
+      "LifeSteal_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LifeSteal_Rank_3_TextData",
+          "SourceString": "(เพิ่มประสิทธิภาพดูดพลังชีวิต ：<Status_Up>กลาง</>）",
+          "LocalizedString": "(เพิ่มประสิทธิภาพดูดพลังชีวิต ：<Status_Up>กลาง</>）"
+        }
+      },
+      "LifeSteal_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LifeSteal_Rank_4_TextData",
+          "SourceString": "(เพิ่มประสิทธิภาพดูดพลังชีวิต ：<Status_Up>มาก</>）",
+          "LocalizedString": "(เพิ่มประสิทธิภาพดูดพลังชีวิต ：<Status_Up>มาก</>）"
+        }
+      },
+      "LifeSteal_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LifeSteal_Rank_5_TextData",
+          "SourceString": "(เพิ่มประสิทธิภาพดูดพลังชีวิต ：<Status_Up>มากพิเศษ</>）",
+          "LocalizedString": "(เพิ่มประสิทธิภาพดูดพลังชีวิต ：<Status_Up>มากพิเศษ</>）"
+        }
+      },
+      "RideSpeedUp_CooldownReduction_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_CooldownReduction_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "RideSpeedUp_CooldownReduction_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_CooldownReduction_Rank_2_TextData",
+          "SourceString": "(เพิ่มความเร็วเคลื่อนที่・ลดคูลไทม์ ：<Status_Up>น้อย</>）",
+          "LocalizedString": "(เพิ่มความเร็วเคลื่อนที่・ลดคูลไทม์ ：<Status_Up>น้อย</>）"
+        }
+      },
+      "RideSpeedUp_CooldownReduction_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_CooldownReduction_Rank_3_TextData",
+          "SourceString": "(เพิ่มความเร็วเคลื่อนที่・ลดคูลไทม์ ：<Status_Up>กลาง</>）",
+          "LocalizedString": "(เพิ่มความเร็วเคลื่อนที่・ลดคูลไทม์ ：<Status_Up>กลาง</>）"
+        }
+      },
+      "RideSpeedUp_CooldownReduction_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_CooldownReduction_Rank_4_TextData",
+          "SourceString": "(เพิ่มความเร็วเคลื่อนที่・ลดคูลไทม์ ：<Status_Up>มาก</>）",
+          "LocalizedString": "(เพิ่มความเร็วเคลื่อนที่・ลดคูลไทม์ ：<Status_Up>มาก</>）"
+        }
+      },
+      "RideSpeedUp_CooldownReduction_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_CooldownReduction_Rank_5_TextData",
+          "SourceString": "(เพิ่มความเร็วเคลื่อนที่・ลดคูลไทม์ ：<Status_Up>มากพิเศษ</>）",
+          "LocalizedString": "(เพิ่มความเร็วเคลื่อนที่・ลดคูลไทม์ ：<Status_Up>มากพิเศษ</>）"
+        }
+      },
+      "SwimSpeedUp_CooldownReduction_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_CooldownReduction_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "SwimSpeedUp_CooldownReduction_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_CooldownReduction_Rank_2_TextData",
+          "SourceString": "(เพิ่มความเร็วเคลื่อนที่บนน้ำ: <Status_Up>10%</>・ลดคูลไทม์: <Status_Up>น้อย</>",
+          "LocalizedString": "(เพิ่มความเร็วเคลื่อนที่บนน้ำ: <Status_Up>10%</>・ลดคูลไทม์: <Status_Up>น้อย</>"
+        }
+      },
+      "SwimSpeedUp_CooldownReduction_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_CooldownReduction_Rank_3_TextData",
+          "SourceString": "(เพิ่มความเร็วเคลื่อนที่บนน้ำ: <Status_Up>14%</>・ลดคูลไทม์: <Status_Up>ปานกลาง</>",
+          "LocalizedString": "(เพิ่มความเร็วเคลื่อนที่บนน้ำ: <Status_Up>14%</>・ลดคูลไทม์: <Status_Up>ปานกลาง</>"
+        }
+      },
+      "SwimSpeedUp_CooldownReduction_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_CooldownReduction_Rank_4_TextData",
+          "SourceString": "(เพิ่มความเร็วเคลื่อนที่บนน้ำ: <Status_Up>18%</>・ลดคูลไทม์: <Status_Up>มาก</>",
+          "LocalizedString": "(เพิ่มความเร็วเคลื่อนที่บนน้ำ: <Status_Up>18%</>・ลดคูลไทม์: <Status_Up>มาก</>"
+        }
+      },
+      "SwimSpeedUp_CooldownReduction_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_CooldownReduction_Rank_5_TextData",
+          "SourceString": "(เพิ่มความเร็วเคลื่อนที่บนน้ำ: <Status_Up>25%</>・ลดคูลไทม์: <Status_Up>มากที่สุด</>",
+          "LocalizedString": "(เพิ่มความเร็วเคลื่อนที่บนน้ำ: <Status_Up>25%</>・ลดคูลไทม์: <Status_Up>มากที่สุด</>"
+        }
+      },
+      "LoggingUp_MiningUp_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_MiningUp_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "LoggingUp_MiningUp_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_MiningUp_Rank_2_TextData",
+          "SourceString": "(เพิ่มประสิทธิภาพการขุดเเร่และตัดไม้ ：<Status_Up>น้อย</>）",
+          "LocalizedString": "(เพิ่มประสิทธิภาพการขุดเเร่และตัดไม้ ：<Status_Up>น้อย</>）"
+        }
+      },
+      "LoggingUp_MiningUp_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_MiningUp_Rank_3_TextData",
+          "SourceString": "(เพิ่มประสิทธิภาพการขุดเเร่และตัดไม้ ：<Status_Up>กลาง</>）",
+          "LocalizedString": "(เพิ่มประสิทธิภาพการขุดเเร่และตัดไม้ ：<Status_Up>กลาง</>）"
+        }
+      },
+      "LoggingUp_MiningUp_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_MiningUp_Rank_4_TextData",
+          "SourceString": "(เพิ่มประสิทธิภาพการขุดเเร่และตัดไม้ ：<Status_Up>มาก</>）",
+          "LocalizedString": "(เพิ่มประสิทธิภาพการขุดเเร่และตัดไม้ ：<Status_Up>มาก</>）"
+        }
+      },
+      "LoggingUp_MiningUp_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_MiningUp_Rank_5_TextData",
+          "SourceString": "(เพิ่มประสิทธิภาพการขุดเเร่และตัดไม้ ：<Status_Up>มากพิเศษ</>）",
+          "LocalizedString": "(เพิ่มประสิทธิภาพการขุดเเร่และตัดไม้ ：<Status_Up>มากพิเศษ</>）"
+        }
+      },
+      "ElementPassive_Dark_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementPassive_Dark_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "ElementPassive_Dark_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementPassive_Dark_Rank_2_TextData",
+          "SourceString": "(เพิ่มพลังโจมตีพาลธาตุความมืด：<Status_Up>น้อย</>）",
+          "LocalizedString": "(เพิ่มพลังโจมตีพาลธาตุความมืด：<Status_Up>น้อย</>）"
+        }
+      },
+      "ElementPassive_Dark_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementPassive_Dark_Rank_3_TextData",
+          "SourceString": "(เพิ่มพลังโจมตีพาลธาตุความมืด ：<Status_Up>กลาง</>）",
+          "LocalizedString": "(เพิ่มพลังโจมตีพาลธาตุความมืด ：<Status_Up>กลาง</>）"
+        }
+      },
+      "ElementPassive_Dark_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementPassive_Dark_Rank_4_TextData",
+          "SourceString": "(เพิ่มพลังโจมตีพาลธาตุความมืด ：<Status_Up>มาก</>）",
+          "LocalizedString": "(เพิ่มพลังโจมตีพาลธาตุความมืด ：<Status_Up>มาก</>）"
+        }
+      },
+      "ElementPassive_Dark_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementPassive_Dark_Rank_5_TextData",
+          "SourceString": "(เพิ่มพลังโจมตีพาลธาตุความมืด ：<Status_Up>มากพิเศษ</>）",
+          "LocalizedString": "(เพิ่มพลังโจมตีพาลธาตุความมืด ：<Status_Up>มากพิเศษ</>）"
+        }
+      },
+      "ItemCollectRangeUp_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ItemCollectRangeUp_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "ItemCollectRangeUp_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ItemCollectRangeUp_Rank_2_TextData",
+          "SourceString": "(เพิ่มอาณาเขตการล่าไอเทม：<Status_Up>น้อย</>）",
+          "LocalizedString": "(เพิ่มอาณาเขตการล่าไอเทม：<Status_Up>น้อย</>）"
+        }
+      },
+      "ItemCollectRangeUp_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ItemCollectRangeUp_Rank_3_TextData",
+          "SourceString": "(เพิ่มอาณาเขตการล่าไอเทม：<Status_Up>กลาง</>）",
+          "LocalizedString": "(เพิ่มอาณาเขตการล่าไอเทม：<Status_Up>กลาง</>）"
+        }
+      },
+      "ItemCollectRangeUp_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ItemCollectRangeUp_Rank_4_TextData",
+          "SourceString": "(เพิ่มอาณาเขตการล่าไอเทม：<Status_Up>มาก</>）",
+          "LocalizedString": "(เพิ่มอาณาเขตการล่าไอเทม：<Status_Up>มาก</>）"
+        }
+      },
+      "ItemCollectRangeUp_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ItemCollectRangeUp_Rank_5_TextData",
+          "SourceString": "(เพิ่มอาณาเขตการล่าไอเทม：<Status_Up>มากพิเศษ</>）",
+          "LocalizedString": "(เพิ่มอาณาเขตการล่าไอเทม：<Status_Up>มากพิเศษ</>）"
+        }
+      },
+      "SANDownResist_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SANDownResist_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "SANDownResist_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SANDownResist_Rank_2_TextData",
+          "SourceString": "(เพิ่มความต้านทานต่อการลดค่า SAN ：<Status_Up>น้อย</>）",
+          "LocalizedString": "(เพิ่มความต้านทานต่อการลดค่า SAN ：<Status_Up>น้อย</>）"
+        }
+      },
+      "SANDownResist_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SANDownResist_Rank_3_TextData",
+          "SourceString": "(เพิ่มความต้านทานต่อการลดค่า SAN ：<Status_Up>กลาง</>）",
+          "LocalizedString": "(เพิ่มความต้านทานต่อการลดค่า SAN ：<Status_Up>กลาง</>）"
+        }
+      },
+      "SANDownResist_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SANDownResist_Rank_4_TextData",
+          "SourceString": "(เพิ่มความต้านทานต่อการลดค่า SAN ：<Status_Up>มาก</>）",
+          "LocalizedString": "(เพิ่มความต้านทานต่อการลดค่า SAN ：<Status_Up>มาก</>）"
+        }
+      },
+      "SANDownResist_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SANDownResist_Rank_5_TextData",
+          "SourceString": "(เพิ่มความต้านทานต่อการลดค่า SAN ：<Status_Up>มากพิเศษ</>）",
+          "LocalizedString": "(เพิ่มความต้านทานต่อการลดค่า SAN ：<Status_Up>มากพิเศษ</>）"
+        }
+      },
+      "ElementBoost_Dark_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Dark_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "ElementBoost_Dark_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Dark_Rank_2_TextData",
+          "SourceString": "(เสริมพลังโจมตีธาตุความมืด ：<Status_Up>น้อย</>）",
+          "LocalizedString": "(เสริมพลังโจมตีธาตุความมืด ：<Status_Up>น้อย</>）"
+        }
+      },
+      "ElementBoost_Dark_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Dark_Rank_3_TextData",
+          "SourceString": "(เสริมพลังโจมตีธาตุความมืด ：<Status_Up>กลาง</>）",
+          "LocalizedString": "(เสริมพลังโจมตีธาตุความมืด ：<Status_Up>กลาง</>）"
+        }
+      },
+      "ElementBoost_Dark_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Dark_Rank_4_TextData",
+          "SourceString": "(เสริมพลังโจมตีธาตุความมืด ：<Status_Up>มาก</>）",
+          "LocalizedString": "(เสริมพลังโจมตีธาตุความมืด ：<Status_Up>มาก</>）"
+        }
+      },
+      "ElementBoost_Dark_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Dark_Rank_5_TextData",
+          "SourceString": "(เสริมพลังโจมตีธาตุความมืด ：<Status_Up>มากพิเศษ</>）",
+          "LocalizedString": "(เสริมพลังโจมตีธาตุความมืด ：<Status_Up>มากพิเศษ</>）"
+        }
+      },
+      "SyncroPassiveWhenCapture_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SyncroPassiveWhenCapture_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "SyncroPassiveWhenCapture_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SyncroPassiveWhenCapture_Rank_2_TextData",
+          "SourceString": "(เพิ่มอัตราการพบพาลที่มีพาสซีฟเดียวกัน：<Status_Up>น้อย</>）",
+          "LocalizedString": "(เพิ่มอัตราการพบพาลที่มีพาสซีฟเดียวกัน：<Status_Up>น้อย</>）"
+        }
+      },
+      "SyncroPassiveWhenCapture_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SyncroPassiveWhenCapture_Rank_3_TextData",
+          "SourceString": "(เพิ่มอัตราการพบพาลที่มีพาสซีฟเดียวกัน：<Status_Up>กลาง</>）",
+          "LocalizedString": "(เพิ่มอัตราการพบพาลที่มีพาสซีฟเดียวกัน：<Status_Up>กลาง</>）"
+        }
+      },
+      "SyncroPassiveWhenCapture_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SyncroPassiveWhenCapture_Rank_4_TextData",
+          "SourceString": "(เพิ่มอัตราการพบพาลที่มีพาสซีฟเดียวกัน：<Status_Up>มาก</>）",
+          "LocalizedString": "(เพิ่มอัตราการพบพาลที่มีพาสซีฟเดียวกัน：<Status_Up>มาก</>）"
+        }
+      },
+      "SyncroPassiveWhenCapture_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SyncroPassiveWhenCapture_Rank_5_TextData",
+          "SourceString": "(เพิ่มอัตราการพบพาลที่มีพาสซีฟเดียวกัน：<Status_Up>มากพิเศษ</>）",
+          "LocalizedString": "(เพิ่มอัตราการพบพาลที่มีพาสซีฟเดียวกัน：<Status_Up>มากพิเศษ</>）"
+        }
+      },
+      "FarmCropGrowupSpeed_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropGrowupSpeed_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "FarmCropGrowupSpeed_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropGrowupSpeed_Rank_2_TextData",
+          "SourceString": "(เร่งการเจริญเติบโตของพืชผล)：<Status_Up>น้อย</>）",
+          "LocalizedString": "(เร่งการเจริญเติบโตของพืชผล)：<Status_Up>น้อย</>）"
+        }
+      },
+      "FarmCropGrowupSpeed_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropGrowupSpeed_Rank_3_TextData",
+          "SourceString": "(เร่งการเจริญเติบโตของพืชผล：<Status_Up>กลาง</>）",
+          "LocalizedString": "(เร่งการเจริญเติบโตของพืชผล：<Status_Up>กลาง</>）"
+        }
+      },
+      "FarmCropGrowupSpeed_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropGrowupSpeed_Rank_4_TextData",
+          "SourceString": "(เร่งการเจริญเติบโตของพืชผล)：<Status_Up>มาก</>）",
+          "LocalizedString": "(เร่งการเจริญเติบโตของพืชผล)：<Status_Up>มาก</>）"
+        }
+      },
+      "FarmCropGrowupSpeed_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropGrowupSpeed_Rank_5_TextData",
+          "SourceString": "(เร่งการเจริญเติบโตของพืชผล)：<Status_Up>มากพิเศษ</>）",
+          "LocalizedString": "(เร่งการเจริญเติบโตของพืชผล)：<Status_Up>มากพิเศษ</>）"
+        }
+      },
+      "GriderPerformanceUp_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "GriderPerformanceUp_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "GriderPerformanceUp_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "GriderPerformanceUp_Rank_2_TextData",
+          "SourceString": "(เสริมประสิทธิภาพเครื่องร่อน：<Status_Up>น้อย</>）",
+          "LocalizedString": "(เสริมประสิทธิภาพเครื่องร่อน：<Status_Up>น้อย</>）"
+        }
+      },
+      "GriderPerformanceUp_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "GriderPerformanceUp_Rank_3_TextData",
+          "SourceString": "(เสริมประสิทธิภาพเครื่องร่อน：<Status_Up>กลาง</>）",
+          "LocalizedString": "(เสริมประสิทธิภาพเครื่องร่อน：<Status_Up>กลาง</>）"
+        }
+      },
+      "GriderPerformanceUp_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "GriderPerformanceUp_Rank_4_TextData",
+          "SourceString": "(เสริมประสิทธิภาพเครื่องร่อน：<Status_Up>มาก</>）",
+          "LocalizedString": "(เสริมประสิทธิภาพเครื่องร่อน：<Status_Up>มาก</>）"
+        }
+      },
+      "GriderPerformanceUp_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "GriderPerformanceUp_Rank_5_TextData",
+          "SourceString": "(เสริมประสิทธิภาพเครื่องร่อน：<Status_Up>มากพิเศษ</>）",
+          "LocalizedString": "(เสริมประสิทธิภาพเครื่องร่อน：<Status_Up>มากพิเศษ</>）"
+        }
+      },
+      "FarmCropHarvestNumRate_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropHarvestNumRate_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "FarmCropHarvestNumRate_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropHarvestNumRate_Rank_2_TextData",
+          "SourceString": "(เพิ่มปริมาณการเก็บพืชผล：<Status_Up>น้อย</>）",
+          "LocalizedString": "(เพิ่มปริมาณการเก็บพืชผล：<Status_Up>น้อย</>）"
+        }
+      },
+      "FarmCropHarvestNumRate_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropHarvestNumRate_Rank_3_TextData",
+          "SourceString": "(เพิ่มปริมาณการเก็บพืชผล：<Status_Up>กลาง</>）",
+          "LocalizedString": "(เพิ่มปริมาณการเก็บพืชผล：<Status_Up>กลาง</>）"
+        }
+      },
+      "FarmCropHarvestNumRate_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropHarvestNumRate_Rank_4_TextData",
+          "SourceString": "(เพิ่มปริมาณการเก็บพืชผล：<Status_Up>มาก</>）",
+          "LocalizedString": "(เพิ่มปริมาณการเก็บพืชผล：<Status_Up>มาก</>）"
+        }
+      },
+      "FarmCropHarvestNumRate_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropHarvestNumRate_Rank_5_TextData",
+          "SourceString": "(เพิ่มปริมาณการเก็บพืชผล：<Status_Up>มากพิเศษ</>）",
+          "LocalizedString": "(เพิ่มปริมาณการเก็บพืชผล：<Status_Up>มากพิเศษ</>）"
+        }
+      },
+      "ElementBoost_Neutral_Dark_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Neutral_Dark_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "ElementBoost_Neutral_Dark_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Neutral_Dark_Rank_2_TextData",
+          "SourceString": "(เสริมพลังโจมตีไร้ธาตุและธาตุความมืด：<Status_Up>น้อย</>）",
+          "LocalizedString": "(เสริมพลังโจมตีไร้ธาตุและธาตุความมืด：<Status_Up>น้อย</>）"
+        }
+      },
+      "ElementBoost_Neutral_Dark_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Neutral_Dark_Rank_3_TextData",
+          "SourceString": "(เสริมพลังโจมตีไร้ธาตุและธาตุความมืด：<Status_Up>กลาง</>）",
+          "LocalizedString": "(เสริมพลังโจมตีไร้ธาตุและธาตุความมืด：<Status_Up>กลาง</>）"
+        }
+      },
+      "ElementBoost_Neutral_Dark_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Neutral_Dark_Rank_4_TextData",
+          "SourceString": "(เสริมพลังโจมตีไร้ธาตุและธาตุความมืด：<Status_Up>มาก</>）",
+          "LocalizedString": "(เสริมพลังโจมตีไร้ธาตุและธาตุความมืด：<Status_Up>มาก</>）"
+        }
+      },
+      "ElementBoost_Neutral_Dark_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Neutral_Dark_Rank_5_TextData",
+          "SourceString": "(เสริมพลังโจมตีไร้ธาตุและธาตุความมืด：<Status_Up>มากพิเศษ</>）",
+          "LocalizedString": "(เสริมพลังโจมตีไร้ธาตุและธาตุความมืด：<Status_Up>มากพิเศษ</>）"
+        }
+      },
+      "Funnel_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Funnel_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "Funnel_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Funnel_Rank_2_TextData",
+          "SourceString": "(เสริมความเสียหายการโจมตีต่อเนื่อง：<Status_Up>น้อย</>）",
+          "LocalizedString": "(เสริมความเสียหายการโจมตีต่อเนื่อง：<Status_Up>น้อย</>）"
+        }
+      },
+      "Funnel_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Funnel_Rank_3_TextData",
+          "SourceString": "(เสริมความเสียหายการโจมตีต่อเนื่อง：<Status_Up>กลาง</>）",
+          "LocalizedString": "(เสริมความเสียหายการโจมตีต่อเนื่อง：<Status_Up>กลาง</>）"
+        }
+      },
+      "Funnel_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Funnel_Rank_4_TextData",
+          "SourceString": "(เสริมความเสียหายการโจมตีต่อเนื่อง：<Status_Up>มาก</>）",
+          "LocalizedString": "(เสริมความเสียหายการโจมตีต่อเนื่อง：<Status_Up>มาก</>）"
+        }
+      },
+      "Funnel_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Funnel_Rank_5_TextData",
+          "SourceString": "(เสริมความเสียหายการโจมตีต่อเนื่อง：<Status_Up>มากพิเศษ</>）",
+          "LocalizedString": "(เสริมความเสียหายการโจมตีต่อเนื่อง：<Status_Up>มากพิเศษ</>）"
+        }
+      },
+      "DamageUp_CooldownReduction_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_CooldownReduction_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "DamageUp_CooldownReduction_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_CooldownReduction_Rank_2_TextData",
+          "SourceString": "(เพิ่มดาเมจ・ลดคูลไทม์：<Status_Up>น้อย</>）",
+          "LocalizedString": "(เพิ่มดาเมจ・ลดคูลไทม์：<Status_Up>น้อย</>）"
+        }
+      },
+      "DamageUp_CooldownReduction_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_CooldownReduction_Rank_3_TextData",
+          "SourceString": "(เพิ่มดาเมจ・ลดคูลไทม์：<Status_Up>กลาง</>）",
+          "LocalizedString": "(เพิ่มดาเมจ・ลดคูลไทม์：<Status_Up>กลาง</>）"
+        }
+      },
+      "DamageUp_CooldownReduction_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_CooldownReduction_Rank_4_TextData",
+          "SourceString": "(เพิ่มดาเมจ・ลดคูลไทม์：<Status_Up>มาก</>）",
+          "LocalizedString": "(เพิ่มดาเมจ・ลดคูลไทม์：<Status_Up>มาก</>）"
+        }
+      },
+      "DamageUp_CooldownReduction_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_CooldownReduction_Rank_5_TextData",
+          "SourceString": "(เพิ่มดาเมจ・ลดคูลไทม์：<Status_Up>มากพิเศษ</>）",
+          "LocalizedString": "(เพิ่มดาเมจ・ลดคูลไทม์：<Status_Up>มากพิเศษ</>）"
+        }
+      },
+      "Talent_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Talent_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "Talent_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Talent_Rank_2_TextData",
+          "SourceString": "(เพิ่มโอกาสตกได้พาลที่มีศักยภาพ：<Status_Up>น้อย</>）",
+          "LocalizedString": "(เพิ่มโอกาสตกได้พาลที่มีศักยภาพ：<Status_Up>น้อย</>）"
+        }
+      },
+      "Talent_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Talent_Rank_3_TextData",
+          "SourceString": "(เพิ่มโอกาสตกได้พาลที่มีศักยภาพ：<Status_Up>กลาง</>）",
+          "LocalizedString": "(เพิ่มโอกาสตกได้พาลที่มีศักยภาพ：<Status_Up>กลาง</>）"
+        }
+      },
+      "Talent_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Talent_Rank_4_TextData",
+          "SourceString": "(เพิ่มโอกาสตกได้พาลที่มีศักยภาพ：<Status_Up>มาก</>）",
+          "LocalizedString": "(เพิ่มโอกาสตกได้พาลที่มีศักยภาพ：<Status_Up>มาก</>）"
+        }
+      },
+      "Talent_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Talent_Rank_5_TextData",
+          "SourceString": "(เพิ่มโอกาสตกได้พาลที่มีศักยภาพ：<Status_Up>มากพิเศษ</>）",
+          "LocalizedString": "(เพิ่มโอกาสตกได้พาลที่มีศักยภาพ：<Status_Up>มากพิเศษ</>）"
+        }
+      },
+      "StealthTime_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "StealthTime_Rank_1_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "StealthTime_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "StealthTime_Rank_2_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "StealthTime_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "StealthTime_Rank_3_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "StealthTime_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "StealthTime_Rank_4_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "StealthTime_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "StealthTime_Rank_5_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "ShortDashSpeed_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeed_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "ShortDashSpeed_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeed_Rank_2_TextData",
+          "SourceString": "(เพิ่มความเร็วในการแดช：<Status_Up>เล็ก</>)",
+          "LocalizedString": "(เพิ่มความเร็วในการแดช：<Status_Up>เล็ก</>)"
+        }
+      },
+      "ShortDashSpeed_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeed_Rank_3_TextData",
+          "SourceString": "(เพิ่มความเร็วในการแดช：<Status_Up>กลาง</>)",
+          "LocalizedString": "(เพิ่มความเร็วในการแดช：<Status_Up>กลาง</>)"
+        }
+      },
+      "ShortDashSpeed_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeed_Rank_4_TextData",
+          "SourceString": "(เพิ่มความเร็วในการแดช：<Status_Up>มาก</>)",
+          "LocalizedString": "(เพิ่มความเร็วในการแดช：<Status_Up>มาก</>)"
+        }
+      },
+      "ShortDashSpeed_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeed_Rank_5_TextData",
+          "SourceString": "(เพิ่มความเร็วในการแดช：<Status_Up>มากพิเศษ</>)",
+          "LocalizedString": "(เพิ่มความเร็วในการแดช：<Status_Up>มากพิเศษ</>)"
+        }
+      },
+      "ShortDashSpeedCoolTime_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeedCoolTime_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "ShortDashSpeedCoolTime_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeedCoolTime_Rank_2_TextData",
+          "SourceString": "(เพิ่มความเร็วในการแดช・ลดคูลไทม์：<Status_Up>น้อย</>)",
+          "LocalizedString": "(เพิ่มความเร็วในการแดช・ลดคูลไทม์：<Status_Up>น้อย</>)"
+        }
+      },
+      "ShortDashSpeedCoolTime_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeedCoolTime_Rank_3_TextData",
+          "SourceString": "(เพิ่มความเร็วในการแดช・ลดคูลไทม์：<Status_Up>กลาง</>)",
+          "LocalizedString": "(เพิ่มความเร็วในการแดช・ลดคูลไทม์：<Status_Up>กลาง</>)"
+        }
+      },
+      "ShortDashSpeedCoolTime_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeedCoolTime_Rank_4_TextData",
+          "SourceString": "(เพิ่มความเร็วในการแดช・ลดคูลไทม์：<Status_Up>มาก</>)",
+          "LocalizedString": "(เพิ่มความเร็วในการแดช・ลดคูลไทม์：<Status_Up>มาก</>)"
+        }
+      },
+      "ShortDashSpeedCoolTime_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeedCoolTime_Rank_5_TextData",
+          "SourceString": "(เพิ่มความเร็วในการแดช・ลดคูลไทม์：：<Status_Up>มากพิเศษ</>)",
+          "LocalizedString": "(เพิ่มความเร็วในการแดช・ลดคูลไทม์：：<Status_Up>มากพิเศษ</>)"
+        }
+      },
+      "Waza_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Waza_Rank_1_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "Waza_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Waza_Rank_2_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "Waza_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Waza_Rank_3_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "Waza_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Waza_Rank_4_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "Waza_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Waza_Rank_5_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "CaptureRate_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CaptureRate_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "CaptureRate_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CaptureRate_Rank_2_TextData",
+          "SourceString": "(เพิ่มโอกาสจับสำเร็จ: <Status_Up>น้อย</>)",
+          "LocalizedString": "(เพิ่มโอกาสจับสำเร็จ: <Status_Up>น้อย</>)"
+        }
+      },
+      "CaptureRate_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CaptureRate_Rank_3_TextData",
+          "SourceString": "(เพิ่มโอกาสจับสำเร็จ: <Status_Up>ปานกลาง</>)",
+          "LocalizedString": "(เพิ่มโอกาสจับสำเร็จ: <Status_Up>ปานกลาง</>)"
+        }
+      },
+      "CaptureRate_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CaptureRate_Rank_4_TextData",
+          "SourceString": "(เพิ่มโอกาสจับสำเร็จ: <Status_Up>มาก</>)",
+          "LocalizedString": "(เพิ่มโอกาสจับสำเร็จ: <Status_Up>มาก</>)"
+        }
+      },
+      "CaptureRate_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CaptureRate_Rank_5_TextData",
+          "SourceString": "(เพิ่มโอกาสจับสำเร็จ: <Status_Up>มากที่สุด</>)",
+          "LocalizedString": "(เพิ่มโอกาสจับสำเร็จ: <Status_Up>มากที่สุด</>)"
+        }
+      },
+      "EnemySightRate_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "EnemySightRate_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "EnemySightRate_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "EnemySightRate_Rank_2_TextData",
+          "SourceString": "(เพิ่มความยากในการค้นหา:<Status_Up>น้อย</>)",
+          "LocalizedString": "(เพิ่มความยากในการค้นหา:<Status_Up>น้อย</>)"
+        }
+      },
+      "EnemySightRate_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "EnemySightRate_Rank_3_TextData",
+          "SourceString": "(เพิ่มความยากในการค้นหา:<Status_Up>ปานกลาง</>)",
+          "LocalizedString": "(เพิ่มความยากในการค้นหา:<Status_Up>ปานกลาง</>)"
+        }
+      },
+      "EnemySightRate_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "EnemySightRate_Rank_4_TextData",
+          "SourceString": "(เพิ่มความยากในการค้นหา:<Status_Up>มาก</>)",
+          "LocalizedString": "(เพิ่มความยากในการค้นหา:<Status_Up>มาก</>)"
+        }
+      },
+      "EnemySightRate_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "EnemySightRate_Rank_5_TextData",
+          "SourceString": "(เพิ่มความยากในการค้นหา:<Status_Up>มากที่สุด</>)",
+          "LocalizedString": "(เพิ่มความยากในการค้นหา:<Status_Up>มากที่สุด</>)"
+        }
+      },
+      "SearchAreaCoolTime_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SearchAreaCoolTime_Rank_1_TextData",
+          "SourceString": " ",
+          "LocalizedString": " "
+        }
+      },
+      "SearchAreaCoolTime_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SearchAreaCoolTime_Rank_2_TextData",
+          "SourceString": "(ขยายขอบเขตการตรวจจับ・ลดคูลไทม์: <Status_Up>น้อย</>)",
+          "LocalizedString": "(ขยายขอบเขตการตรวจจับ・ลดคูลไทม์: <Status_Up>น้อย</>)"
+        }
+      },
+      "SearchAreaCoolTime_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SearchAreaCoolTime_Rank_3_TextData",
+          "SourceString": "(ขยายขอบเขตการตรวจจับ・ลดคูลไทม์: <Status_Up>ปานกลาง</>)",
+          "LocalizedString": "(ขยายขอบเขตการตรวจจับ・ลดคูลไทม์: <Status_Up>ปานกลาง</>)"
+        }
+      },
+      "SearchAreaCoolTime_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SearchAreaCoolTime_Rank_4_TextData",
+          "SourceString": "(ขยายขอบเขตการตรวจจับ・ลดคูลไทม์: <Status_Up>มาก</>)",
+          "LocalizedString": "(ขยายขอบเขตการตรวจจับ・ลดคูลไทม์: <Status_Up>มาก</>)"
+        }
+      },
+      "SearchAreaCoolTime_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SearchAreaCoolTime_Rank_5_TextData",
+          "SourceString": "(ขยายขอบเขตการตรวจจับ・ลดคูลไทม์: <Status_Up>มากที่สุด</>)",
+          "LocalizedString": "(ขยายขอบเขตการตรวจจับ・ลดคูลไทม์: <Status_Up>มากที่สุด</>)"
+        }
+      }
+    }
+  }
+]
