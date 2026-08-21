@@ -7,7 +7,8 @@ RUN apt-get update \
   && rm -rf /var/lib/apt/lists/*
 
 COPY package.json package-lock.json .npmrc ./
-RUN npm ci --no-audit --no-fund
+# npm ci fails across Windows/Linux lockfiles (optional @emnapi / native bindings).
+RUN npm install --no-audit --no-fund
 
 COPY prisma ./prisma
 COPY tsconfig.json ./
