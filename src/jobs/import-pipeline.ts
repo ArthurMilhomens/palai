@@ -13,6 +13,7 @@ import { cleanupWorkspace, extractJsonDump, extractZipDump } from '../extractors
 import { reindexGameVersion } from '../indexers/opensearch.js';
 import { cacheFlushNamespace } from '../shared/cache.js';
 import { uploadObject } from '../shared/storage.js';
+import { WORK_ICON_FILE } from '../shared/work-icons.js';
 import { AppError } from '../shared/errors.js';
 
 export type ImportStats = {
@@ -898,6 +899,7 @@ export class ImportPipeline {
     }
 
     stats.details.gameVersionId = gameVersion.id;
+    stats.details.workIcons = await uploadWorkUiIcons(iconsDir, dump.version);
     return stats;
   }
 
@@ -1038,6 +1040,20 @@ async function maybeUploadIcon(
     }
     return null;
   }
+}
+
+async function uploadWorkUiIcons(
+  iconsDir: string,
+  version: string,
+): Promise<{ uploaded: number; missing: string[] }> {
+  const missing: string[] = [];
+  let uploaded = 0;
+  for (const file of Object.values(WORK_ICON_FILE)) {
+    const url = await maybeUploadIcon(iconsDir, file, version, 'ui');
+    if (url) uploaded += 1;
+    else missing.push(file);
+  }
+  return { uploaded, missing };
 }
 
 export const importPipeline = new ImportPipeline();

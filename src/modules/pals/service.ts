@@ -4,6 +4,9 @@ import {
   cacheSet,
 } from '../../shared/cache.js';
 import { pickTranslation, resolveLocale } from '../../shared/i18n.js';
+import { env } from '../../config/env.js';
+import { toPublicAssetUrl } from '../../shared/storage.js';
+import { WORK_ICON_FILE, workIconStorageKey } from '../../shared/work-icons.js';
 import { prisma } from '../../prisma/client.js';
 import type { ListQuery } from '../../shared/query.js';
 import { palsRepository } from './repository.js';
@@ -23,22 +26,23 @@ type PalListRow = Awaited<
   ReturnType<typeof palsRepository.list>
 >['data'][number];
 
-/** Official UI work icons (`game_data/icons/UI/T_icon_palwork_XX.png`). */
-const WORK_ICON_FILE: Record<string, string> = {
-  Kindling: 'T_icon_palwork_00.png',
-  Watering: 'T_icon_palwork_01.png',
-  Planting: 'T_icon_palwork_02.png',
-  Electricity: 'T_icon_palwork_03.png',
-  Handiwork: 'T_icon_palwork_04.png',
-  Gathering: 'T_icon_palwork_05.png',
-  Lumbering: 'T_icon_palwork_06.png',
-  Mining: 'T_icon_palwork_07.png',
-  Medicine: 'T_icon_palwork_08.png',
-  OilExtraction: 'T_icon_palwork_09.png',
-  Cooling: 'T_icon_palwork_10.png',
-  Transporting: 'T_icon_palwork_11.png',
-  Farming: 'T_icon_palwork_12.png',
-};
+async function loadWorkIconUrls(
+  gameVersionId: string,
+): Promise<Map<string, string>> {
+  const versionRow = await prisma.gameVersion.findUnique({
+    where: { id: gameVersionId },
+    select: { version: true },
+  });
+  const versionSlug = versionRow?.version || 'palworld';
+  const publicBase = env().S3_PUBLIC_URL.replace(/\/$/, '');
+  const map = new Map<string, string>();
+  for (const [type, file] of Object.entries(WORK_ICON_FILE)) {
+    const stored = `${publicBase}/${workIconStorageKey(versionSlug, file)}`;
+    const url = toPublicAssetUrl(stored);
+    if (url) map.set(type, url);
+  }
+  return map;
+}
 
 function looksMostlyCjk(value: string): boolean {
   const letters = value.replace(/\s+/g, '');
@@ -56,24 +60,6 @@ function preferReadableName(
   );
   const latin = candidates.find((v) => !looksMostlyCjk(v));
   return latin ?? candidates[0] ?? '';
-}
-
-async function loadWorkIconUrls(
-  gameVersionId: string,
-): Promise<Map<string, string>> {
-  const sample = await prisma.item.findFirst({
-    where: { gameVersionId, iconUrl: { not: null } },
-    select: { iconUrl: true },
-  });
-  const map = new Map<string, string>();
-  if (!sample?.iconUrl) return map;
-
-  // .../icons/palworld/items/<file> → keep items prefix for UI work icons
-  const base = sample.iconUrl.replace(/[^/]+$/, '');
-  for (const [type, file] of Object.entries(WORK_ICON_FILE)) {
-    map.set(type, `${base}${file}`);
-  }
-  return map;
 }
 
 function localizePalList(
@@ -405,7 +391,7 @@ export class PalsService {
       query.lang,
     );
     const key = cacheKey({
-      route: 'pals:list:v3',
+      route: 'pals:list:v4',
       ...query,
       locale,
     });
@@ -458,7 +444,7 @@ export class PalsService {
       options.lang,
     );
     const key = cacheKey({
-      route: 'pals:detail:v1',
+      route: 'pals:detail:v2',
       idOrSlug,
       gameVersion: options.gameVersion ?? null,
       locale,
