@@ -13,7 +13,12 @@ const envSchema = z.object({
   S3_ACCESS_KEY_ID: z.string().min(1),
   S3_SECRET_ACCESS_KEY: z.string().min(1),
   S3_BUCKET: z.string().min(1),
-  S3_PUBLIC_URL: z.string().url(),
+  S3_PUBLIC_URL: z
+    .string()
+    .min(1)
+    .refine((v) => v.startsWith('/') || URL.canParse(v), {
+      message: 'Must be an absolute URL or a path starting with /',
+    }),
   S3_FORCE_PATH_STYLE: z
     .string()
     .optional()

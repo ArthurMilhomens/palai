@@ -52,5 +52,35 @@ export async function uploadObject(
       ContentType: contentType,
     }),
   );
-  return `${cfg.S3_PUBLIC_URL.replace(/\/$/, '')}/${key}`;
+  return toPublicAssetUrl(
+    `${cfg.S3_PUBLIC_URL.replace(/\/$/, '')}/${key}`,
+  ) as string;
+}
+
+/** Rewrite stored MinIO URLs (localhost:9000, host IP, etc.) to S3_PUBLIC_URL. */
+export function toPublicAssetUrl(url: string | null | undefined): string | null {
+  if (!url) return null;
+  const publicBase = env().S3_PUBLIC_URL.replace(/\/$/, '');
+  const bucket = env().S3_BUCKET;
+  const join = (key: string) => `${publicBase}/${key.replace(/^\//, '')}`;
+
+  if (url.startsWith('/')) {
+    const bucketPrefix = `/${bucket}/`;
+    if (url.startsWith(bucketPrefix)) {
+      return join(url.slice(bucketPrefix.length));
+    }
+    return url;
+  }
+
+  try {
+    const parsed = new URL(url);
+    const marker = `/${bucket}/`;
+    const idx = parsed.pathname.indexOf(marker);
+    if (idx >= 0) {
+      return join(parsed.pathname.slice(idx + marker.length));
+    }
+  } catch {
+    return url;
+  }
+  return url;
 }

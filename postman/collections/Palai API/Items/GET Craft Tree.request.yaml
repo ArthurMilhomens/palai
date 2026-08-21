@@ -1,15 +1,19 @@
 $kind: http-request
 name: Craft Tree
 method: GET
-url: "{{baseUrl}}/v1/items/craft-tree?q=computador&quantity=1"
+url: "{{baseUrl}}/v1/items/craft-tree?q=núcleo de ia&quantity=43&lang=pt-BR"
 description: Retorna a árvore de crafting de um item, com todos os materiais necessários para fabricá-lo.
 queryParams:
   - key: q
-    value: computador
+    value: núcleo de ia
     disabled: false
     description: ""
   - key: quantity
-    value: "1"
+    value: "43"
+    disabled: false
+    description: ""
+  - key: lang
+    value: pt-BR
     disabled: false
     description: ""
 order: 3000

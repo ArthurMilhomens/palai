@@ -112,7 +112,7 @@ services:
       S3_ACCESS_KEY_ID: palai
       S3_SECRET_ACCESS_KEY: palaisecret
       S3_BUCKET: palai
-      S3_PUBLIC_URL: http://localhost:9000/palai
+      S3_PUBLIC_URL: /storage
       S3_FORCE_PATH_STYLE: "true"
       JWT_ACCESS_SECRET: ${JWT_ACCESS_SECRET:-change-me-to-a-long-random-secret-at-least-32-chars}
       JWT_ACCESS_TTL: 15m
